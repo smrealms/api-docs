@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <title>Documentation</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
+    <base href="../">
     <link rel="icon" href="images/favicon.ico"/>
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/base.css">
@@ -81,21 +81,13 @@
 </aside>
 
             <div class="phpdocumentor-column -eight phpdocumentor-content">
-                    <h2>Documentation</h2>
+                    <ul class="phpdocumentor-breadcrumbs">
+    </ul>
 
-    
-    
-<h3 id="namespaces">
-    Namespaces
-    <a href="#namespaces" class="headerlink"><i class="fas fa-link"></i></a>
-</h3>
+    <article class="phpdocumentor-element -package">
+        <h2 class="phpdocumentor-content__title">Default</h2>
 
-<dl class="phpdocumentor-table-of-contents">
-            <dt class="phpdocumentor-table-of-contents__entry -namespace"><a href="namespaces/blackjack.html"><abbr title="\Blackjack">Blackjack</abbr></a></dt>
-            <dt class="phpdocumentor-table-of-contents__entry -namespace"><a href="namespaces/routes.html"><abbr title="\Routes">Routes</abbr></a></dt>
-            <dt class="phpdocumentor-table-of-contents__entry -namespace"><a href="namespaces/sociallogins.html"><abbr title="\SocialLogins">SocialLogins</abbr></a></dt>
-            <dt class="phpdocumentor-table-of-contents__entry -namespace"><a href="namespaces/traits.html"><abbr title="\Traits">Traits</abbr></a></dt>
-    </dl>
+        
 
 <h3 id="interfaces_class_traits">
     Interfaces, Classes and Traits
@@ -124,6 +116,12 @@
         <dd></dd>
             <dt class="phpdocumentor-table-of-contents__entry -class"><a href="classes/AdminPermissions.html"><abbr title="\AdminPermissions">AdminPermissions</abbr></a></dt>
         <dd></dd>
+            <dt class="phpdocumentor-table-of-contents__entry -class"><a href="classes/Blackjack-Card.html"><abbr title="\Blackjack\Card">Card</abbr></a></dt>
+        <dd>Classic playing card for blackjack.</dd>
+            <dt class="phpdocumentor-table-of-contents__entry -class"><a href="classes/Blackjack-Deck.html"><abbr title="\Blackjack\Deck">Deck</abbr></a></dt>
+        <dd>Deck of Blackjack cards to be drawn from.</dd>
+            <dt class="phpdocumentor-table-of-contents__entry -class"><a href="classes/Blackjack-Hand.html"><abbr title="\Blackjack\Hand">Hand</abbr></a></dt>
+        <dd>Hand of Blackjack cards.</dd>
             <dt class="phpdocumentor-table-of-contents__entry -class"><a href="classes/ChessGame.html"><abbr title="\ChessGame">ChessGame</abbr></a></dt>
         <dd></dd>
             <dt class="phpdocumentor-table-of-contents__entry -class"><a href="classes/ChessPiece.html"><abbr title="\ChessPiece">ChessPiece</abbr></a></dt>
@@ -150,6 +148,14 @@
         <dd></dd>
             <dt class="phpdocumentor-table-of-contents__entry -class"><a href="classes/Request.html"><abbr title="\Request">Request</abbr></a></dt>
         <dd>Should be used for getting request data for processing pages.</dd>
+            <dt class="phpdocumentor-table-of-contents__entry -class"><a href="classes/Routes-MultiplePortRoute.html"><abbr title="\Routes\MultiplePortRoute">MultiplePortRoute</abbr></a></dt>
+        <dd></dd>
+            <dt class="phpdocumentor-table-of-contents__entry -class"><a href="classes/Routes-OneWayRoute.html"><abbr title="\Routes\OneWayRoute">OneWayRoute</abbr></a></dt>
+        <dd></dd>
+            <dt class="phpdocumentor-table-of-contents__entry -class"><a href="classes/Routes-Route.html"><abbr title="\Routes\Route">Route</abbr></a></dt>
+        <dd></dd>
+            <dt class="phpdocumentor-table-of-contents__entry -class"><a href="classes/Routes-RouteGenerator.html"><abbr title="\Routes\RouteGenerator">RouteGenerator</abbr></a></dt>
+        <dd></dd>
             <dt class="phpdocumentor-table-of-contents__entry -class"><a href="classes/SmrAccount.html"><abbr title="\SmrAccount">SmrAccount</abbr></a></dt>
         <dd></dd>
             <dt class="phpdocumentor-table-of-contents__entry -class"><a href="classes/SmrAlliance.html"><abbr title="\SmrAlliance">SmrAlliance</abbr></a></dt>
@@ -216,6 +222,10 @@
         <dd>Exception thrown when a SocialLogin type cannot be found</dd>
             <dt class="phpdocumentor-table-of-contents__entry -class"><a href="classes/SocialLogin.html"><abbr title="\SocialLogin">SocialLogin</abbr></a></dt>
         <dd>Defines the methods to be implemented by each social login platform.</dd>
+            <dt class="phpdocumentor-table-of-contents__entry -class"><a href="classes/SocialLogins-Facebook.html"><abbr title="\SocialLogins\Facebook">Facebook</abbr></a></dt>
+        <dd>Defines the methods to be implemented by each social login platform.</dd>
+            <dt class="phpdocumentor-table-of-contents__entry -class"><a href="classes/SocialLogins-Twitter.html"><abbr title="\SocialLogins\Twitter">Twitter</abbr></a></dt>
+        <dd>Defines the methods to be implemented by each social login platform.</dd>
             <dt class="phpdocumentor-table-of-contents__entry -class"><a href="classes/Sorter.html"><abbr title="\Sorter">Sorter</abbr></a></dt>
         <dd></dd>
             <dt class="phpdocumentor-table-of-contents__entry -class"><a href="classes/Template.html"><abbr title="\Template">Template</abbr></a></dt>
@@ -226,6 +236,8 @@
         <dd>Weighted random number generator used to make events achieve their expected
 rate of success faster than a pure random number generator.</dd>
     
+            <dt class="phpdocumentor-table-of-contents__entry -trait"><a href="classes/Traits-RaceID.html"><abbr title="\Traits\RaceID">RaceID</abbr></a></dt>
+        <dd>Implements the interface for classes that need a $raceID property.</dd>
     </dl>
 
 
@@ -244,12 +256,12 @@ rate of success faster than a pure random number generator.</dd>
 
     </dl>
 
-    
+        
 
-        <section class="phpdocumentor-functions">
+            <section class="phpdocumentor-functions">
         <h3 class="phpdocumentor-elements__header" id="functions">
             Functions
-            <a href="namespaces/default.html#functions" class="headerlink"><i class="fas fa-link"></i></a>
+            <a href="packages/Default.html#functions" class="headerlink"><i class="fas fa-link"></i></a>
         </h3>
                     <article class="phpdocumentor-element -function - ">
     <h4 class="phpdocumentor-element__name" id="function_create_sub_menu">
@@ -299,6 +311,7 @@ rate of success faster than a pure random number generator.</dd>
 </article>
             </section>
 
+    </article>
                 <section data-search-results class="phpdocumentor-search-results phpdocumentor-search-results--hidden">
     <section class="phpdocumentor-search-results__dialog">
         <header class="phpdocumentor-search-results__header">
@@ -312,7 +325,7 @@ rate of success faster than a pure random number generator.</dd>
 </section>
             </div>
         </div>
-        <a href="index.html#top" class="phpdocumentor-back-to-top"><i class="fas fa-chevron-circle-up"></i></a>
+        <a href="packages/Default.html#top" class="phpdocumentor-back-to-top"><i class="fas fa-chevron-circle-up"></i></a>
 
     </main>
 
