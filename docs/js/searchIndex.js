@@ -6596,6 +6596,11 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/MySqlDatabase.html#property_selectedDbName"
         },                {
+            "fqsen": "\\MySqlDatabase\u003A\u003A\u0024mysqlProperties",
+            "name": "mysqlProperties",
+            "summary": "",
+            "url": "classes/MySqlDatabase.html#property_mysqlProperties"
+        },                {
             "fqsen": "\\MySqlDatabase\u003A\u003A\u0024dbResult",
             "name": "dbResult",
             "summary": "",
@@ -6605,6 +6610,81 @@ Search.appendIndex(
             "name": "dbRecord",
             "summary": "",
             "url": "classes/MySqlDatabase.html#property_dbRecord"
+        },                {
+            "fqsen": "\\MySqlProperties",
+            "name": "MySqlProperties",
+            "summary": "",
+            "url": "classes/MySqlProperties.html"
+        },                {
+            "fqsen": "\\MySqlProperties\u003A\u003A__construct\u0028\u0029",
+            "name": "__construct",
+            "summary": "",
+            "url": "classes/MySqlProperties.html#method___construct"
+        },                {
+            "fqsen": "\\MySqlProperties\u003A\u003AvalidateConfig\u0028\u0029",
+            "name": "validateConfig",
+            "summary": "",
+            "url": "classes/MySqlProperties.html#method_validateConfig"
+        },                {
+            "fqsen": "\\MySqlProperties\u003A\u003AgetHost\u0028\u0029",
+            "name": "getHost",
+            "summary": "",
+            "url": "classes/MySqlProperties.html#method_getHost"
+        },                {
+            "fqsen": "\\MySqlProperties\u003A\u003AgetUser\u0028\u0029",
+            "name": "getUser",
+            "summary": "",
+            "url": "classes/MySqlProperties.html#method_getUser"
+        },                {
+            "fqsen": "\\MySqlProperties\u003A\u003AgetPassword\u0028\u0029",
+            "name": "getPassword",
+            "summary": "",
+            "url": "classes/MySqlProperties.html#method_getPassword"
+        },                {
+            "fqsen": "\\MySqlProperties\u003A\u003AgetDatabaseName\u0028\u0029",
+            "name": "getDatabaseName",
+            "summary": "",
+            "url": "classes/MySqlProperties.html#method_getDatabaseName"
+        },                {
+            "fqsen": "\\MySqlProperties\u003A\u003ACONFIG_MYSQL_HOST",
+            "name": "CONFIG_MYSQL_HOST",
+            "summary": "",
+            "url": "classes/MySqlProperties.html#constant_CONFIG_MYSQL_HOST"
+        },                {
+            "fqsen": "\\MySqlProperties\u003A\u003ACONFIG_MYSQL_USER",
+            "name": "CONFIG_MYSQL_USER",
+            "summary": "",
+            "url": "classes/MySqlProperties.html#constant_CONFIG_MYSQL_USER"
+        },                {
+            "fqsen": "\\MySqlProperties\u003A\u003ACONFIG_MYSQL_PASSWORD",
+            "name": "CONFIG_MYSQL_PASSWORD",
+            "summary": "",
+            "url": "classes/MySqlProperties.html#constant_CONFIG_MYSQL_PASSWORD"
+        },                {
+            "fqsen": "\\MySqlProperties\u003A\u003ACONFIG_MYSQL_DATABASE",
+            "name": "CONFIG_MYSQL_DATABASE",
+            "summary": "",
+            "url": "classes/MySqlProperties.html#constant_CONFIG_MYSQL_DATABASE"
+        },                {
+            "fqsen": "\\MySqlProperties\u003A\u003A\u0024host",
+            "name": "host",
+            "summary": "",
+            "url": "classes/MySqlProperties.html#property_host"
+        },                {
+            "fqsen": "\\MySqlProperties\u003A\u003A\u0024user",
+            "name": "user",
+            "summary": "",
+            "url": "classes/MySqlProperties.html#property_user"
+        },                {
+            "fqsen": "\\MySqlProperties\u003A\u003A\u0024password",
+            "name": "password",
+            "summary": "",
+            "url": "classes/MySqlProperties.html#property_password"
+        },                {
+            "fqsen": "\\MySqlProperties\u003A\u003A\u0024databaseName",
+            "name": "databaseName",
+            "summary": "",
+            "url": "classes/MySqlProperties.html#property_databaseName"
         },                {
             "fqsen": "\\Plotter",
             "name": "Plotter",
