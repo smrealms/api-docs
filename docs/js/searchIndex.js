@@ -4376,6 +4376,11 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/AbstractSmrShip.html#method_getShipTypeID"
         },                {
+            "fqsen": "\\AbstractSmrShip\u003A\u003AgetShipClassID\u0028\u0029",
+            "name": "getShipClassID",
+            "summary": "",
+            "url": "classes/AbstractSmrShip.html#method_getShipClassID"
+        },                {
             "fqsen": "\\AbstractSmrShip\u003A\u003AsetShipTypeID\u0028\u0029",
             "name": "setShipTypeID",
             "summary": "Switch\u0020to\u0020a\u0020new\u0020ship,\u0020updating\u0020player\u0020turns\u0020accordingly.",
@@ -4860,6 +4865,11 @@ Search.appendIndex(
             "name": "SHIP_CLASS_RAIDER",
             "summary": "",
             "url": "classes/AbstractSmrShip.html#constant_SHIP_CLASS_RAIDER"
+        },                {
+            "fqsen": "\\AbstractSmrShip\u003A\u003ASHIP_CLASS_SCOUT",
+            "name": "SHIP_CLASS_SCOUT",
+            "summary": "",
+            "url": "classes/AbstractSmrShip.html#constant_SHIP_CLASS_SCOUT"
         },                {
             "fqsen": "\\AbstractSmrShip\u003A\u003AEXP_PER_DAMAGE_PLAYER",
             "name": "EXP_PER_DAMAGE_PLAYER",
@@ -7735,6 +7745,11 @@ Search.appendIndex(
             "name": "getWeapon",
             "summary": "",
             "url": "classes/SmrEnhancedWeaponEvent.html#method_getWeapon"
+        },                {
+            "fqsen": "\\SmrEnhancedWeaponEvent\u003A\u003AgetDurationRemainingPercent\u0028\u0029",
+            "name": "getDurationRemainingPercent",
+            "summary": "Returns\u0020the\u0020amount\u0020of\u0020time\u0020left\u0020in\u0020the\u0020event\u0020as\u0020a\u0020percent\u0020of\u0020the\ntotal\u0020duration\u0020of\u0020the\u0020event.",
+            "url": "classes/SmrEnhancedWeaponEvent.html#method_getDurationRemainingPercent"
         },                {
             "fqsen": "\\SmrEnhancedWeaponEvent\u003A\u003AGRACE_PERIOD",
             "name": "GRACE_PERIOD",
@@ -11426,6 +11441,11 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/SmrWeapon.html#method_getBuyerRestriction"
         },                {
+            "fqsen": "\\SmrWeapon\u003A\u003AisUniqueType\u0028\u0029",
+            "name": "isUniqueType",
+            "summary": "Ships\u0020are\u0020only\u0020allowed\u0020to\u0020equip\u0020one\u0020of\u0020each\u0020type\u0020of\u0020Unique\u0020weapon",
+            "url": "classes/SmrWeapon.html#method_isUniqueType"
+        },                {
             "fqsen": "\\SmrWeapon\u003A\u003AgetWeightedRandomForPlayer\u0028\u0029",
             "name": "getWeightedRandomForPlayer",
             "summary": "",
@@ -11570,6 +11590,11 @@ Search.appendIndex(
             "name": "BONUS_ACCURACY",
             "summary": "",
             "url": "classes/SmrWeapon.html#constant_BONUS_ACCURACY"
+        },                {
+            "fqsen": "\\SmrWeapon\u003A\u003AHIGHEST_POWER_LEVEL",
+            "name": "HIGHEST_POWER_LEVEL",
+            "summary": "",
+            "url": "classes/SmrWeapon.html#constant_HIGHEST_POWER_LEVEL"
         },                {
             "fqsen": "\\SmrWeapon\u003A\u003A\u0024weaponTypeID",
             "name": "weaponTypeID",
