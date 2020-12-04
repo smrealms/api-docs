@@ -8258,8 +8258,13 @@ Search.appendIndex(
         },                {
             "fqsen": "\\SmrGalaxy\u003A\u003AgetName\u0028\u0029",
             "name": "getName",
-            "summary": "",
+            "summary": "Returns\u0020the\u0020galaxy\u0020name.",
             "url": "classes/SmrGalaxy.html#method_getName"
+        },                {
+            "fqsen": "\\SmrGalaxy\u003A\u003AgetDisplayName\u0028\u0029",
+            "name": "getDisplayName",
+            "summary": "Returns\u0020the\u0020galaxy\u0020name,\u0020suitable\u0020for\u0020HTML\u0020display.",
+            "url": "classes/SmrGalaxy.html#method_getDisplayName"
         },                {
             "fqsen": "\\SmrGalaxy\u003A\u003AsetName\u0028\u0029",
             "name": "setName",
@@ -10505,11 +10510,6 @@ Search.appendIndex(
             "name": "setGalaxyID",
             "summary": "",
             "url": "classes/SmrSector.html#method_setGalaxyID"
-        },                {
-            "fqsen": "\\SmrSector\u003A\u003AgetGalaxyName\u0028\u0029",
-            "name": "getGalaxyName",
-            "summary": "",
-            "url": "classes/SmrSector.html#method_getGalaxyName"
         },                {
             "fqsen": "\\SmrSector\u003A\u003AgetNumberOfLinks\u0028\u0029",
             "name": "getNumberOfLinks",
