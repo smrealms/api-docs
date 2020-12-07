@@ -11001,6 +11001,21 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/SmrSession.html"
         },                {
+            "fqsen": "\\SmrSession\u003A\u003AgetTime\u0028\u0029",
+            "name": "getTime",
+            "summary": "Returns\u0020the\u0020time\u0020\u0028in\u0020seconds\u0029\u0020associated\u0020with\u0020this\u0020page\u0020request.",
+            "url": "classes/SmrSession.html#method_getTime"
+        },                {
+            "fqsen": "\\SmrSession\u003A\u003AgetMicroTime\u0028\u0029",
+            "name": "getMicroTime",
+            "summary": "Returns\u0020the\u0020time\u0020\u0028in\u0020seconds,\u0020with\u0020microsecond\u002Dlevel\u0020precision\u0029\nassociated\u0020with\u0020this\u0020page\u0020request.",
+            "url": "classes/SmrSession.html#method_getMicroTime"
+        },                {
+            "fqsen": "\\SmrSession\u003A\u003AupdateTime\u0028\u0029",
+            "name": "updateTime",
+            "summary": "Update\u0020the\u0020time\u0020associated\u0020with\u0020this\u0020page\u0020request.",
+            "url": "classes/SmrSession.html#method_updateTime"
+        },                {
             "fqsen": "\\SmrSession\u003A\u003Ainit\u0028\u0029",
             "name": "init",
             "summary": "",
@@ -11200,6 +11215,11 @@ Search.appendIndex(
             "name": "last_accessed",
             "summary": "",
             "url": "classes/SmrSession.html#property_last_accessed"
+        },                {
+            "fqsen": "\\SmrSession\u003A\u003A\u0024pageRequestTime",
+            "name": "pageRequestTime",
+            "summary": "",
+            "url": "classes/SmrSession.html#property_pageRequestTime"
         },                {
             "fqsen": "\\SmrSession\u003A\u003A\u0024previousAjaxReturns",
             "name": "previousAjaxReturns",
@@ -12050,6 +12070,36 @@ Search.appendIndex(
             "name": "jsSources",
             "summary": "",
             "url": "classes/Template.html#property_jsSources"
+        },                {
+            "fqsen": "\\Time",
+            "name": "Time",
+            "summary": "Stores\u0020the\u0020current\u0020time.",
+            "url": "classes/Time.html"
+        },                {
+            "fqsen": "\\Time\u003A\u003A__construct\u0028\u0029",
+            "name": "__construct",
+            "summary": "",
+            "url": "classes/Time.html#method___construct"
+        },                {
+            "fqsen": "\\Time\u003A\u003AgetMicroTime\u0028\u0029",
+            "name": "getMicroTime",
+            "summary": "",
+            "url": "classes/Time.html#method_getMicroTime"
+        },                {
+            "fqsen": "\\Time\u003A\u003AgetTime\u0028\u0029",
+            "name": "getTime",
+            "summary": "",
+            "url": "classes/Time.html#method_getTime"
+        },                {
+            "fqsen": "\\Time\u003A\u003A\u0024microtime",
+            "name": "microtime",
+            "summary": "",
+            "url": "classes/Time.html#property_microtime"
+        },                {
+            "fqsen": "\\Time\u003A\u003A\u0024time",
+            "name": "time",
+            "summary": "",
+            "url": "classes/Time.html#property_time"
         },                {
             "fqsen": "\\Traits\\RaceID",
             "name": "RaceID",
