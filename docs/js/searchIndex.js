@@ -6446,9 +6446,34 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/MySqlDatabase.html"
         },                {
+            "fqsen": "\\MySqlDatabase\u003A\u003AgetInstance\u0028\u0029",
+            "name": "getInstance",
+            "summary": "",
+            "url": "classes/MySqlDatabase.html#method_getInstance"
+        },                {
+            "fqsen": "\\MySqlDatabase\u003A\u003AgetNewInstance\u0028\u0029",
+            "name": "getNewInstance",
+            "summary": "",
+            "url": "classes/MySqlDatabase.html#method_getNewInstance"
+        },                {
+            "fqsen": "\\MySqlDatabase\u003A\u003AensureConnected\u0028\u0029",
+            "name": "ensureConnected",
+            "summary": "Verifies\u0020that\u0020the\u0020MySqlDatabase\u0020instance\u0020has\u0020a\u0020valid\u0020\u0024dbConn\u0020instance,\nand\u0020rewires\u0020the\u0020DI\u0020container\u0020to\u0020use\u0020freshly\u0020instantiated\u0020instances\u0020in\u0020the\u0020event\nof\u0020disconnect\u0020from\u0020the\u0020database.",
+            "url": "classes/MySqlDatabase.html#method_ensureConnected"
+        },                {
+            "fqsen": "\\MySqlDatabase\u003A\u003AreconnectMysql\u0028\u0029",
+            "name": "reconnectMysql",
+            "summary": "Reconnects\u0020to\u0020the\u0020MySQL\u0020database,\u0020and\u0020replaces\u0020the\u0020managed\u0020mysqli\u0020instance\nin\u0020the\u0020dependency\u0020injection\u0020container\u0020for\u0020future\u0020retrievals.",
+            "url": "classes/MySqlDatabase.html#method_reconnectMysql"
+        },                {
+            "fqsen": "\\MySqlDatabase\u003A\u003AmysqliFactory\u0028\u0029",
+            "name": "mysqliFactory",
+            "summary": "",
+            "url": "classes/MySqlDatabase.html#method_mysqliFactory"
+        },                {
             "fqsen": "\\MySqlDatabase\u003A\u003A__construct\u0028\u0029",
             "name": "__construct",
-            "summary": "",
+            "summary": "MySqlDatabase\u0020constructor.",
             "url": "classes/MySqlDatabase.html#method___construct"
         },                {
             "fqsen": "\\MySqlDatabase\u003A\u003AswitchDatabases\u0028\u0029",
@@ -6468,7 +6493,7 @@ Search.appendIndex(
         },                {
             "fqsen": "\\MySqlDatabase\u003A\u003Aclose\u0028\u0029",
             "name": "close",
-            "summary": "",
+            "summary": "This\u0020should\u0020not\u0020be\u0020needed\u0020except\u0020perhaps\u0020by\u0020persistent\u0020connections",
             "url": "classes/MySqlDatabase.html#method_close"
         },                {
             "fqsen": "\\MySqlDatabase\u003A\u003Aquery\u0028\u0029",
@@ -6601,15 +6626,15 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/MySqlDatabase.html#property_dbConn"
         },                {
-            "fqsen": "\\MySqlDatabase\u003A\u003A\u0024selectedDbName",
-            "name": "selectedDbName",
-            "summary": "",
-            "url": "classes/MySqlDatabase.html#property_selectedDbName"
-        },                {
             "fqsen": "\\MySqlDatabase\u003A\u003A\u0024mysqlProperties",
             "name": "mysqlProperties",
             "summary": "",
             "url": "classes/MySqlDatabase.html#property_mysqlProperties"
+        },                {
+            "fqsen": "\\MySqlDatabase\u003A\u003A\u0024selectedDbName",
+            "name": "selectedDbName",
+            "summary": "",
+            "url": "classes/MySqlDatabase.html#property_selectedDbName"
         },                {
             "fqsen": "\\MySqlDatabase\u003A\u003A\u0024dbResult",
             "name": "dbResult",
@@ -6620,81 +6645,6 @@ Search.appendIndex(
             "name": "dbRecord",
             "summary": "",
             "url": "classes/MySqlDatabase.html#property_dbRecord"
-        },                {
-            "fqsen": "\\MySqlProperties",
-            "name": "MySqlProperties",
-            "summary": "",
-            "url": "classes/MySqlProperties.html"
-        },                {
-            "fqsen": "\\MySqlProperties\u003A\u003A__construct\u0028\u0029",
-            "name": "__construct",
-            "summary": "",
-            "url": "classes/MySqlProperties.html#method___construct"
-        },                {
-            "fqsen": "\\MySqlProperties\u003A\u003AvalidateConfig\u0028\u0029",
-            "name": "validateConfig",
-            "summary": "",
-            "url": "classes/MySqlProperties.html#method_validateConfig"
-        },                {
-            "fqsen": "\\MySqlProperties\u003A\u003AgetHost\u0028\u0029",
-            "name": "getHost",
-            "summary": "",
-            "url": "classes/MySqlProperties.html#method_getHost"
-        },                {
-            "fqsen": "\\MySqlProperties\u003A\u003AgetUser\u0028\u0029",
-            "name": "getUser",
-            "summary": "",
-            "url": "classes/MySqlProperties.html#method_getUser"
-        },                {
-            "fqsen": "\\MySqlProperties\u003A\u003AgetPassword\u0028\u0029",
-            "name": "getPassword",
-            "summary": "",
-            "url": "classes/MySqlProperties.html#method_getPassword"
-        },                {
-            "fqsen": "\\MySqlProperties\u003A\u003AgetDatabaseName\u0028\u0029",
-            "name": "getDatabaseName",
-            "summary": "",
-            "url": "classes/MySqlProperties.html#method_getDatabaseName"
-        },                {
-            "fqsen": "\\MySqlProperties\u003A\u003ACONFIG_MYSQL_HOST",
-            "name": "CONFIG_MYSQL_HOST",
-            "summary": "",
-            "url": "classes/MySqlProperties.html#constant_CONFIG_MYSQL_HOST"
-        },                {
-            "fqsen": "\\MySqlProperties\u003A\u003ACONFIG_MYSQL_USER",
-            "name": "CONFIG_MYSQL_USER",
-            "summary": "",
-            "url": "classes/MySqlProperties.html#constant_CONFIG_MYSQL_USER"
-        },                {
-            "fqsen": "\\MySqlProperties\u003A\u003ACONFIG_MYSQL_PASSWORD",
-            "name": "CONFIG_MYSQL_PASSWORD",
-            "summary": "",
-            "url": "classes/MySqlProperties.html#constant_CONFIG_MYSQL_PASSWORD"
-        },                {
-            "fqsen": "\\MySqlProperties\u003A\u003ACONFIG_MYSQL_DATABASE",
-            "name": "CONFIG_MYSQL_DATABASE",
-            "summary": "",
-            "url": "classes/MySqlProperties.html#constant_CONFIG_MYSQL_DATABASE"
-        },                {
-            "fqsen": "\\MySqlProperties\u003A\u003A\u0024host",
-            "name": "host",
-            "summary": "",
-            "url": "classes/MySqlProperties.html#property_host"
-        },                {
-            "fqsen": "\\MySqlProperties\u003A\u003A\u0024user",
-            "name": "user",
-            "summary": "",
-            "url": "classes/MySqlProperties.html#property_user"
-        },                {
-            "fqsen": "\\MySqlProperties\u003A\u003A\u0024password",
-            "name": "password",
-            "summary": "",
-            "url": "classes/MySqlProperties.html#property_password"
-        },                {
-            "fqsen": "\\MySqlProperties\u003A\u003A\u0024databaseName",
-            "name": "databaseName",
-            "summary": "",
-            "url": "classes/MySqlProperties.html#property_databaseName"
         },                {
             "fqsen": "\\Plotter",
             "name": "Plotter",
@@ -9061,16 +9011,6 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/SmrMines.html#property_numberOfMines"
         },                {
-            "fqsen": "\\SmrMySqlDatabase",
-            "name": "SmrMySqlDatabase",
-            "summary": "",
-            "url": "classes/SmrMySqlDatabase.html"
-        },                {
-            "fqsen": "\\SmrMySqlDatabase\u003A\u003A__construct\u0028\u0029",
-            "name": "__construct",
-            "summary": "",
-            "url": "classes/SmrMySqlDatabase.html#method___construct"
-        },                {
             "fqsen": "\\SmrPlanet",
             "name": "SmrPlanet",
             "summary": "",
@@ -11300,6 +11240,11 @@ Search.appendIndex(
             "name": "update",
             "summary": "",
             "url": "classes/SmrShip.html#method_update"
+        },                {
+            "fqsen": "\\SmrShip\u003A\u003AcheckPowerAvailable\u0028\u0029",
+            "name": "checkPowerAvailable",
+            "summary": "given\u0020power\u0020level\u0020of\u0020new\u0020weapon,\u0020return\u0020whether\u0020there\u0020is\u0020enough\u0020power\u0020available\u0020to\u0020install\u0020it\u0020on\u0020this\u0020ship",
+            "url": "classes/SmrShip.html#method_checkPowerAvailable"
         },                {
             "fqsen": "\\SmrShip\u003A\u003A\u0024isCloaked",
             "name": "isCloaked",
