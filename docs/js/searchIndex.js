@@ -11241,11 +11241,6 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/SmrShip.html#method_update"
         },                {
-            "fqsen": "\\SmrShip\u003A\u003AcheckPowerAvailable\u0028\u0029",
-            "name": "checkPowerAvailable",
-            "summary": "given\u0020power\u0020level\u0020of\u0020new\u0020weapon,\u0020return\u0020whether\u0020there\u0020is\u0020enough\u0020power\u0020available\u0020to\u0020install\u0020it\u0020on\u0020this\u0020ship",
-            "url": "classes/SmrShip.html#method_checkPowerAvailable"
-        },                {
             "fqsen": "\\SmrShip\u003A\u003A\u0024isCloaked",
             "name": "isCloaked",
             "summary": "",
