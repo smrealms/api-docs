@@ -6451,16 +6451,6 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/MySqlDatabase.html#method_getInstance"
         },                {
-            "fqsen": "\\MySqlDatabase\u003A\u003AgetNewInstance\u0028\u0029",
-            "name": "getNewInstance",
-            "summary": "",
-            "url": "classes/MySqlDatabase.html#method_getNewInstance"
-        },                {
-            "fqsen": "\\MySqlDatabase\u003A\u003AensureConnected\u0028\u0029",
-            "name": "ensureConnected",
-            "summary": "Verifies\u0020that\u0020the\u0020MySqlDatabase\u0020instance\u0020has\u0020a\u0020valid\u0020\u0024dbConn\u0020instance,\nand\u0020rewires\u0020the\u0020DI\u0020container\u0020to\u0020use\u0020freshly\u0020instantiated\u0020instances\u0020in\u0020the\u0020event\nof\u0020disconnect\u0020from\u0020the\u0020database.",
-            "url": "classes/MySqlDatabase.html#method_ensureConnected"
-        },                {
             "fqsen": "\\MySqlDatabase\u003A\u003AreconnectMysql\u0028\u0029",
             "name": "reconnectMysql",
             "summary": "Reconnects\u0020to\u0020the\u0020MySQL\u0020database,\u0020and\u0020replaces\u0020the\u0020managed\u0020mysqli\u0020instance\nin\u0020the\u0020dependency\u0020injection\u0020container\u0020for\u0020future\u0020retrievals.",
