@@ -6588,7 +6588,7 @@ Search.appendIndex(
         },                {
             "fqsen": "\\MySqlDatabase\u003A\u003AescapeArray\u0028\u0029",
             "name": "escapeArray",
-            "summary": "",
+            "summary": "Warning\u003A\u0020If\u0020escaping\u0020a\u0020nested\u0020array,\u0020use\u0020escapeIndividually\u003Dtrue,\nbut\u0020beware\u0020that\u0020the\u0020escaped\u0020array\u0020is\u0020flattened\u0021",
             "url": "classes/MySqlDatabase.html#method_escapeArray"
         },                {
             "fqsen": "\\MySqlDatabase\u003A\u003AescapeNumber\u0028\u0029",
