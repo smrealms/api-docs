@@ -1151,6 +1151,16 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/AbstractSmrLocation.html#method_getSectorLocations"
         },                {
+            "fqsen": "\\AbstractSmrLocation\u003A\u003AaddSectorLocation\u0028\u0029",
+            "name": "addSectorLocation",
+            "summary": "",
+            "url": "classes/AbstractSmrLocation.html#method_addSectorLocation"
+        },                {
+            "fqsen": "\\AbstractSmrLocation\u003A\u003AremoveSectorLocations\u0028\u0029",
+            "name": "removeSectorLocations",
+            "summary": "",
+            "url": "classes/AbstractSmrLocation.html#method_removeSectorLocations"
+        },                {
             "fqsen": "\\AbstractSmrLocation\u003A\u003AgetLocation\u0028\u0029",
             "name": "getLocation",
             "summary": "",
