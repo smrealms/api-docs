@@ -4996,6 +4996,16 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/AdminPermissions.html#constant_PERMISSION_CATEGORIES"
         },                {
+            "fqsen": "\\checkForLottoWinner\u0028\u0029",
+            "name": "checkForLottoWinner",
+            "summary": "",
+            "url": "namespaces/default.html#function_checkForLottoWinner"
+        },                {
+            "fqsen": "\\getLottoInfo\u0028\u0029",
+            "name": "getLottoInfo",
+            "summary": "",
+            "url": "namespaces/default.html#function_getLottoInfo"
+        },                {
             "fqsen": "\\Blackjack\\Card",
             "name": "Card",
             "summary": "Classic\u0020playing\u0020card\u0020for\u0020blackjack.",
@@ -5675,6 +5685,16 @@ Search.appendIndex(
             "name": "db",
             "summary": "",
             "url": "classes/Council.html#property_db"
+        },                {
+            "fqsen": "\\modifyRelations\u0028\u0029",
+            "name": "modifyRelations",
+            "summary": "",
+            "url": "namespaces/default.html#function_modifyRelations"
+        },                {
+            "fqsen": "\\checkPacts\u0028\u0029",
+            "name": "checkPacts",
+            "summary": "",
+            "url": "namespaces/default.html#function_checkPacts"
         },                {
             "fqsen": "\\Distance",
             "name": "Distance",
@@ -6421,10 +6441,90 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/Globals.html#property_db"
         },                {
+            "fqsen": "\\getBounties\u0028\u0029",
+            "name": "getBounties",
+            "summary": "Returns\u0020a\u0020list\u0020of\u0020all\u0020active\u0020\u0028not\u0020claimable\u0029\u0020bounties\u0020for\u0020given\u0020location\u0020\u0024type.",
+            "url": "namespaces/default.html#function_getBounties"
+        },                {
+            "fqsen": "\\echo_nav\u0028\u0029",
+            "name": "echo_nav",
+            "summary": "",
+            "url": "namespaces/default.html#function_echo_nav"
+        },                {
+            "fqsen": "\\echo_content\u0028\u0029",
+            "name": "echo_content",
+            "summary": "",
+            "url": "namespaces/default.html#function_echo_content"
+        },                {
+            "fqsen": "\\echo_subsection\u0028\u0029",
+            "name": "echo_subsection",
+            "summary": "",
+            "url": "namespaces/default.html#function_echo_subsection"
+        },                {
+            "fqsen": "\\echo_menu\u0028\u0029",
+            "name": "echo_menu",
+            "summary": "",
+            "url": "namespaces/default.html#function_echo_menu"
+        },                {
+            "fqsen": "\\get_numbering\u0028\u0029",
+            "name": "get_numbering",
+            "summary": "",
+            "url": "namespaces/default.html#function_get_numbering"
+        },                {
+            "fqsen": "\\getHofCategories\u0028\u0029",
+            "name": "getHofCategories",
+            "summary": "",
+            "url": "namespaces/default.html#function_getHofCategories"
+        },                {
+            "fqsen": "\\applyHofVisibilityMask\u0028\u0029",
+            "name": "applyHofVisibilityMask",
+            "summary": "Conditionally\u0020hide\u0020displayed\u0020HoF\u0020stat.",
+            "url": "namespaces/default.html#function_applyHofVisibilityMask"
+        },                {
+            "fqsen": "\\getHofRank\u0028\u0029",
+            "name": "getHofRank",
+            "summary": "",
+            "url": "namespaces/default.html#function_getHofRank"
+        },                {
+            "fqsen": "\\displayHOFRow\u0028\u0029",
+            "name": "displayHOFRow",
+            "summary": "",
+            "url": "namespaces/default.html#function_displayHOFRow"
+        },                {
+            "fqsen": "\\buildBreadcrumb\u0028\u0029",
+            "name": "buildBreadcrumb",
+            "summary": "",
+            "url": "namespaces/default.html#function_buildBreadcrumb"
+        },                {
+            "fqsen": "\\redirectIfDisabled\u0028\u0029",
+            "name": "redirectIfDisabled",
+            "summary": "",
+            "url": "namespaces/default.html#function_redirectIfDisabled"
+        },                {
+            "fqsen": "\\redirectIfOffline\u0028\u0029",
+            "name": "redirectIfOffline",
+            "summary": "",
+            "url": "namespaces/default.html#function_redirectIfOffline"
+        },                {
             "fqsen": "\\Menu",
             "name": "Menu",
             "summary": "Creates\u0020menu\u0020navigation\u0020bars.",
             "url": "classes/Menu.html"
+        },                {
+            "fqsen": "\\getMessageTypeNames\u0028\u0029",
+            "name": "getMessageTypeNames",
+            "summary": "",
+            "url": "namespaces/default.html#function_getMessageTypeNames"
+        },                {
+            "fqsen": "\\getAdminBoxNames\u0028\u0029",
+            "name": "getAdminBoxNames",
+            "summary": "",
+            "url": "namespaces/default.html#function_getAdminBoxNames"
+        },                {
+            "fqsen": "\\getMessagePlayer\u0028\u0029",
+            "name": "getMessagePlayer",
+            "summary": "",
+            "url": "namespaces/default.html#function_getMessagePlayer"
         },                {
             "fqsen": "\\Mission",
             "name": "Mission",
@@ -6450,6 +6550,26 @@ Search.appendIndex(
             "name": "getClaimRewardHREF",
             "summary": "",
             "url": "classes/Mission.html#method_getClaimRewardHREF"
+        },                {
+            "fqsen": "\\MISSION_ACTIONS",
+            "name": "MISSION_ACTIONS",
+            "summary": "",
+            "url": "namespaces/default.html#constant_MISSION_ACTIONS"
+        },                {
+            "fqsen": "\\MISSIONS",
+            "name": "MISSIONS",
+            "summary": "",
+            "url": "namespaces/default.html#constant_MISSIONS"
+        },                {
+            "fqsen": "\\replaceMissionTemplate\u0028\u0029",
+            "name": "replaceMissionTemplate",
+            "summary": "Callback\u0020for\u0020array_walk_recursive\u0020in\u0020SmrPlayer\u003A\u003ArebuildMission.",
+            "url": "namespaces/default.html#function_replaceMissionTemplate"
+        },                {
+            "fqsen": "\\checkMissionRequirements\u0028\u0029",
+            "name": "checkMissionRequirements",
+            "summary": "",
+            "url": "namespaces/default.html#function_checkMissionRequirements"
         },                {
             "fqsen": "\\MySqlDatabase",
             "name": "MySqlDatabase",
@@ -6645,6 +6765,26 @@ Search.appendIndex(
             "name": "dbRecord",
             "summary": "",
             "url": "classes/MySqlDatabase.html#property_dbRecord"
+        },                {
+            "fqsen": "\\getNewsItems\u0028\u0029",
+            "name": "getNewsItems",
+            "summary": "Takes\u0020a\u0020populated\u0020query\u0020and\u0020returns\u0020the\u0020news\u0020items.",
+            "url": "namespaces/default.html#function_getNewsItems"
+        },                {
+            "fqsen": "\\doBreakingNewsAssign\u0028\u0029",
+            "name": "doBreakingNewsAssign",
+            "summary": "",
+            "url": "namespaces/default.html#function_doBreakingNewsAssign"
+        },                {
+            "fqsen": "\\doLottoNewsAssign\u0028\u0029",
+            "name": "doLottoNewsAssign",
+            "summary": "",
+            "url": "namespaces/default.html#function_doLottoNewsAssign"
+        },                {
+            "fqsen": "\\planet_list_common\u0028\u0029",
+            "name": "planet_list_common",
+            "summary": "",
+            "url": "namespaces/default.html#function_planet_list_common"
         },                {
             "fqsen": "\\Plotter",
             "name": "Plotter",
@@ -7045,6 +7185,151 @@ Search.appendIndex(
             "name": "dontAddWorseThan",
             "summary": "",
             "url": "classes/Routes-RouteGenerator.html#property_dontAddWorseThan"
+        },                {
+            "fqsen": "\\checkPortTradeable\u0028\u0029",
+            "name": "checkPortTradeable",
+            "summary": "",
+            "url": "namespaces/default.html#function_checkPortTradeable"
+        },                {
+            "fqsen": "\\check_bargain_number\u0028\u0029",
+            "name": "check_bargain_number",
+            "summary": "",
+            "url": "namespaces/default.html#function_check_bargain_number"
+        },                {
+            "fqsen": "\\htmliseMessage\u0028\u0029",
+            "name": "htmliseMessage",
+            "summary": "",
+            "url": "namespaces/default.html#function_htmliseMessage"
+        },                {
+            "fqsen": "\\parseBoolean\u0028\u0029",
+            "name": "parseBoolean",
+            "summary": "",
+            "url": "namespaces/default.html#function_parseBoolean"
+        },                {
+            "fqsen": "\\linkCombatLog\u0028\u0029",
+            "name": "linkCombatLog",
+            "summary": "",
+            "url": "namespaces/default.html#function_linkCombatLog"
+        },                {
+            "fqsen": "\\smrBBCode\u0028\u0029",
+            "name": "smrBBCode",
+            "summary": "Converts\u0020a\u0020BBCode\u0020tag\u0020into\u0020some\u0020other\u0020text\u0020depending\u0020on\u0020the\u0020tag\u0020and\u0020value.",
+            "url": "namespaces/default.html#function_smrBBCode"
+        },                {
+            "fqsen": "\\xmlify\u0028\u0029",
+            "name": "xmlify",
+            "summary": "",
+            "url": "namespaces/default.html#function_xmlify"
+        },                {
+            "fqsen": "\\inify\u0028\u0029",
+            "name": "inify",
+            "summary": "",
+            "url": "namespaces/default.html#function_inify"
+        },                {
+            "fqsen": "\\bbifyMessage\u0028\u0029",
+            "name": "bbifyMessage",
+            "summary": "",
+            "url": "namespaces/default.html#function_bbifyMessage"
+        },                {
+            "fqsen": "\\create_error\u0028\u0029",
+            "name": "create_error",
+            "summary": "",
+            "url": "namespaces/default.html#function_create_error"
+        },                {
+            "fqsen": "\\resetContainer\u0028\u0029",
+            "name": "resetContainer",
+            "summary": "",
+            "url": "namespaces/default.html#function_resetContainer"
+        },                {
+            "fqsen": "\\forward\u0028\u0029",
+            "name": "forward",
+            "summary": "",
+            "url": "namespaces/default.html#function_forward"
+        },                {
+            "fqsen": "\\forwardURL\u0028\u0029",
+            "name": "forwardURL",
+            "summary": "",
+            "url": "namespaces/default.html#function_forwardURL"
+        },                {
+            "fqsen": "\\transfer\u0028\u0029",
+            "name": "transfer",
+            "summary": "",
+            "url": "namespaces/default.html#function_transfer"
+        },                {
+            "fqsen": "\\create_container\u0028\u0029",
+            "name": "create_container",
+            "summary": "",
+            "url": "namespaces/default.html#function_create_container"
+        },                {
+            "fqsen": "\\create_link\u0028\u0029",
+            "name": "create_link",
+            "summary": "",
+            "url": "namespaces/default.html#function_create_link"
+        },                {
+            "fqsen": "\\create_submit_link\u0028\u0029",
+            "name": "create_submit_link",
+            "summary": "",
+            "url": "namespaces/default.html#function_create_submit_link"
+        },                {
+            "fqsen": "\\get_colored_text_range\u0028\u0029",
+            "name": "get_colored_text_range",
+            "summary": "",
+            "url": "namespaces/default.html#function_get_colored_text_range"
+        },                {
+            "fqsen": "\\get_colored_text\u0028\u0029",
+            "name": "get_colored_text",
+            "summary": "",
+            "url": "namespaces/default.html#function_get_colored_text"
+        },                {
+            "fqsen": "\\word_filter\u0028\u0029",
+            "name": "word_filter",
+            "summary": "",
+            "url": "namespaces/default.html#function_word_filter"
+        },                {
+            "fqsen": "\\pluralise\u0028\u0029",
+            "name": "pluralise",
+            "summary": "",
+            "url": "namespaces/default.html#function_pluralise"
+        },                {
+            "fqsen": "\\do_voodoo\u0028\u0029",
+            "name": "do_voodoo",
+            "summary": "This\u0020function\u0020is\u0020a\u0020hack\u0020around\u0020the\u0020old\u0020style\u0020http\u0020forward\u0020mechanism.",
+            "url": "namespaces/default.html#function_do_voodoo"
+        },                {
+            "fqsen": "\\acquire_lock\u0028\u0029",
+            "name": "acquire_lock",
+            "summary": "",
+            "url": "namespaces/default.html#function_acquire_lock"
+        },                {
+            "fqsen": "\\release_lock\u0028\u0029",
+            "name": "release_lock",
+            "summary": "",
+            "url": "namespaces/default.html#function_release_lock"
+        },                {
+            "fqsen": "\\doTickerAssigns\u0028\u0029",
+            "name": "doTickerAssigns",
+            "summary": "",
+            "url": "namespaces/default.html#function_doTickerAssigns"
+        },                {
+            "fqsen": "\\doSkeletonAssigns\u0028\u0029",
+            "name": "doSkeletonAssigns",
+            "summary": "",
+            "url": "namespaces/default.html#function_doSkeletonAssigns"
+        },                {
+            "fqsen": "\\format_time\u0028\u0029",
+            "name": "format_time",
+            "summary": "Convert\u0020an\u0020integer\u0020number\u0020of\u0020seconds\u0020into\u0020a\u0020human\u002Dreadable\u0020time.",
+            "url": "namespaces/default.html#function_format_time"
+        },                {
+            "fqsen": "\\number_colour_format\u0028\u0029",
+            "name": "number_colour_format",
+            "summary": "",
+            "url": "namespaces/default.html#function_number_colour_format"
+        },                {
+            "fqsen": "\\getWeightedRandom\u0028\u0029",
+            "name": "getWeightedRandom",
+            "summary": "Randomly\u0020choose\u0020an\u0020array\u0020key\u0020weighted\u0020by\u0020the\u0020array\u0020values.",
+            "url": "namespaces/default.html#function_getWeightedRandom"
         },                {
             "fqsen": "\\SmrAccount",
             "name": "SmrAccount",
