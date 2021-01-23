@@ -6891,6 +6891,11 @@ Search.appendIndex(
             "summary": "Like\u0020getVar,\u0020but\u0020returns\u0020an\u0020array\u0020of\u0020ints\u0020instead\u0020of\u0020a\u0020string.",
             "url": "classes/Request.html#method_getVarIntArray"
         },                {
+            "fqsen": "\\Request\u003A\u003AgetVarX\u0028\u0029",
+            "name": "getVarX",
+            "summary": "Helper\u0020function\u0020to\u0020avoid\u0020code\u0020duplication\u0020in\u0020getVar\u002A\u0020functions.",
+            "url": "classes/Request.html#method_getVarX"
+        },                {
             "fqsen": "\\Routes\\MultiplePortRoute",
             "name": "MultiplePortRoute",
             "summary": "",
