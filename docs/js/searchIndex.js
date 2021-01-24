@@ -6826,6 +6826,11 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/Rankings.html#method___construct"
         },                {
+            "fqsen": "\\Rankings\u003A\u003AcollectRaceRankings\u0028\u0029",
+            "name": "collectRaceRankings",
+            "summary": "",
+            "url": "classes/Rankings.html#method_collectRaceRankings"
+        },                {
             "fqsen": "\\Rankings\u003A\u003AcollectAllianceRankings\u0028\u0029",
             "name": "collectAllianceRankings",
             "summary": "",
@@ -6835,6 +6840,16 @@ Search.appendIndex(
             "name": "collectRankings",
             "summary": "",
             "url": "classes/Rankings.html#method_collectRankings"
+        },                {
+            "fqsen": "\\Rankings\u003A\u003AplayerRanks\u0028\u0029",
+            "name": "playerRanks",
+            "summary": "Get\u0020a\u0020subset\u0020of\u0020rankings\u0020from\u0020the\u0020player\u0020table\u0020sorted\u0020by\u0020\u0024stat.",
+            "url": "classes/Rankings.html#method_playerRanks"
+        },                {
+            "fqsen": "\\Rankings\u003A\u003AallianceRanks\u0028\u0029",
+            "name": "allianceRanks",
+            "summary": "Get\u0020a\u0020subset\u0020of\u0020rankings\u0020from\u0020the\u0020alliance\u0020table\u0020sorted\u0020by\u0020\u0024stat.",
+            "url": "classes/Rankings.html#method_allianceRanks"
         },                {
             "fqsen": "\\Rankings\u003A\u003AcalculateMinMaxRanks\u0028\u0029",
             "name": "calculateMinMaxRanks",

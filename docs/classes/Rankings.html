@@ -115,6 +115,13 @@
 
 <dl class="phpdocumentor-table-of-contents">
                     <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a href="classes/Rankings.html#method_allianceRanks">allianceRanks()</a>
+    <span>
+                        &nbsp;: array&lt;string|int, mixed&gt;    </span>
+</dt>
+<dd>Get a subset of rankings from the alliance table sorted by $stat.</dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
     <a href="classes/Rankings.html#method_calculateMinMaxRanks">calculateMinMaxRanks()</a>
     <span>
                         &nbsp;: mixed    </span>
@@ -129,11 +136,25 @@
 <dd></dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a href="classes/Rankings.html#method_collectRaceRankings">collectRaceRankings()</a>
+    <span>
+                        &nbsp;: mixed    </span>
+</dt>
+<dd></dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
     <a href="classes/Rankings.html#method_collectRankings">collectRankings()</a>
     <span>
                         &nbsp;: mixed    </span>
 </dt>
 <dd></dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a href="classes/Rankings.html#method_playerRanks">playerRanks()</a>
+    <span>
+                        &nbsp;: array&lt;string|int, mixed&gt;    </span>
+</dt>
+<dd>Get a subset of rankings from the player table sorted by $stat.</dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -private">
     <a href="classes/Rankings.html#method___construct">__construct()</a>
@@ -161,6 +182,64 @@
             -public
                                     -static                    "
 >
+    <h4 class="phpdocumentor-element__name" id="method_allianceRanks">
+        allianceRanks()
+        <a href="classes/Rankings.html#method_allianceRanks" class="headerlink"><i class="fas fa-link"></i></a>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/Rankings.class.php"><a href="files/src-lib-default-rankings-class.html"><abbr title="src/lib/Default/Rankings.class.php">Rankings.class.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">97</span>
+</aside>
+
+        <p class="phpdocumentor-summary">Get a subset of rankings from the alliance table sorted by $stat.</p>
+
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+            <span class="phpdocumentor-signature__static">static</span>    <span class="phpdocumentor-signature__name">allianceRanks</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type">string&nbsp;</span><span class="phpdocumentor-signature__argument__name">$stat</span></span><span class="phpdocumentor-signature__argument"><span>[</span><span>, </span><span class="phpdocumentor-signature__argument__return-type">int&nbsp;</span><span class="phpdocumentor-signature__argument__name">$minRank</span><span> = </span><span class="phpdocumentor-signature__argument__default-value">1</span><span> ]</span></span><span class="phpdocumentor-signature__argument"><span>[</span><span>, </span><span class="phpdocumentor-signature__argument__return-type">int&nbsp;</span><span class="phpdocumentor-signature__argument__name">$maxRank</span><span> = </span><span class="phpdocumentor-signature__argument__default-value">10</span><span> ]</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">array&lt;string|int, mixed&gt;</span></code>
+
+        <section class="phpdocumentor-description"></section>
+
+        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
+    <dl class="phpdocumentor-argument-list">
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$stat</span>
+                : <span class="phpdocumentor-signature__argument__return-type">string</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                
+            </dd>
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$minRank</span>
+                : <span class="phpdocumentor-signature__argument__return-type">int</span>
+                 = <span class="phpdocumentor-signature__argument__default-value">1</span>            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                
+            </dd>
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$maxRank</span>
+                : <span class="phpdocumentor-signature__argument__return-type">int</span>
+                 = <span class="phpdocumentor-signature__argument__default-value">10</span>            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                
+            </dd>
+            </dl>
+
+    
+
+        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
+    <span class="phpdocumentor-signature__response_type">array&lt;string|int, mixed&gt;</span>
+            &mdash;
+            <section class="phpdocumentor-description"></section>
+
+    
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                    -static                    "
+>
     <h4 class="phpdocumentor-element__name" id="method_calculateMinMaxRanks">
         calculateMinMaxRanks()
         <a href="classes/Rankings.html#method_calculateMinMaxRanks" class="headerlink"><i class="fas fa-link"></i></a>
@@ -168,7 +247,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/Rankings.class.php"><a href="files/src-lib-default-rankings-class.html"><abbr title="src/lib/Default/Rankings.class.php">Rankings.class.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">58</span>
+    <span class="phpdocumentor-element-found-in__line">105</span>
 </aside>
 
     
@@ -217,7 +296,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/Rankings.class.php"><a href="files/src-lib-default-rankings-class.html"><abbr title="src/lib/Default/Rankings.class.php">Rankings.class.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">6</span>
+    <span class="phpdocumentor-element-found-in__line">31</span>
 </aside>
 
     
@@ -266,6 +345,55 @@
             -public
                                     -static                    "
 >
+    <h4 class="phpdocumentor-element__name" id="method_collectRaceRankings">
+        collectRaceRankings()
+        <a href="classes/Rankings.html#method_collectRaceRankings" class="headerlink"><i class="fas fa-link"></i></a>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/Rankings.class.php"><a href="files/src-lib-default-rankings-class.html"><abbr title="src/lib/Default/Rankings.class.php">Rankings.class.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">6</span>
+</aside>
+
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+            <span class="phpdocumentor-signature__static">static</span>    <span class="phpdocumentor-signature__name">collectRaceRankings</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type"><a href="classes/MySqlDatabase.html"><abbr title="\MySqlDatabase">MySqlDatabase</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$db</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__return-type"><a href="classes/AbstractSmrPlayer.html"><abbr title="\AbstractSmrPlayer">AbstractSmrPlayer</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$player</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">mixed</span></code>
+
+    
+        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
+    <dl class="phpdocumentor-argument-list">
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$db</span>
+                : <span class="phpdocumentor-signature__argument__return-type"><a href="classes/MySqlDatabase.html"><abbr title="\MySqlDatabase">MySqlDatabase</abbr></a></span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                
+            </dd>
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$player</span>
+                : <span class="phpdocumentor-signature__argument__return-type"><a href="classes/AbstractSmrPlayer.html"><abbr title="\AbstractSmrPlayer">AbstractSmrPlayer</abbr></a></span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                
+            </dd>
+            </dl>
+
+    
+
+        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
+    <span class="phpdocumentor-signature__response_type">mixed</span>
+            &mdash;
+            <section class="phpdocumentor-description"></section>
+
+    
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                    -static                    "
+>
     <h4 class="phpdocumentor-element__name" id="method_collectRankings">
         collectRankings()
         <a href="classes/Rankings.html#method_collectRankings" class="headerlink"><i class="fas fa-link"></i></a>
@@ -273,7 +401,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/Rankings.class.php"><a href="files/src-lib-default-rankings-class.html"><abbr title="src/lib/Default/Rankings.class.php">Rankings.class.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">30</span>
+    <span class="phpdocumentor-element-found-in__line">55</span>
 </aside>
 
     
@@ -311,6 +439,64 @@
 
         <h5 class="phpdocumentor-return-value__heading">Return values</h5>
     <span class="phpdocumentor-signature__response_type">mixed</span>
+            &mdash;
+            <section class="phpdocumentor-description"></section>
+
+    
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                    -static                    "
+>
+    <h4 class="phpdocumentor-element__name" id="method_playerRanks">
+        playerRanks()
+        <a href="classes/Rankings.html#method_playerRanks" class="headerlink"><i class="fas fa-link"></i></a>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/Rankings.class.php"><a href="files/src-lib-default-rankings-class.html"><abbr title="src/lib/Default/Rankings.class.php">Rankings.class.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">86</span>
+</aside>
+
+        <p class="phpdocumentor-summary">Get a subset of rankings from the player table sorted by $stat.</p>
+
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+            <span class="phpdocumentor-signature__static">static</span>    <span class="phpdocumentor-signature__name">playerRanks</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type">string&nbsp;</span><span class="phpdocumentor-signature__argument__name">$stat</span></span><span class="phpdocumentor-signature__argument"><span>[</span><span>, </span><span class="phpdocumentor-signature__argument__return-type">int&nbsp;</span><span class="phpdocumentor-signature__argument__name">$minRank</span><span> = </span><span class="phpdocumentor-signature__argument__default-value">1</span><span> ]</span></span><span class="phpdocumentor-signature__argument"><span>[</span><span>, </span><span class="phpdocumentor-signature__argument__return-type">int&nbsp;</span><span class="phpdocumentor-signature__argument__name">$maxRank</span><span> = </span><span class="phpdocumentor-signature__argument__default-value">10</span><span> ]</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">array&lt;string|int, mixed&gt;</span></code>
+
+        <section class="phpdocumentor-description"></section>
+
+        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
+    <dl class="phpdocumentor-argument-list">
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$stat</span>
+                : <span class="phpdocumentor-signature__argument__return-type">string</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                
+            </dd>
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$minRank</span>
+                : <span class="phpdocumentor-signature__argument__return-type">int</span>
+                 = <span class="phpdocumentor-signature__argument__default-value">1</span>            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                
+            </dd>
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$maxRank</span>
+                : <span class="phpdocumentor-signature__argument__return-type">int</span>
+                 = <span class="phpdocumentor-signature__argument__default-value">10</span>            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                
+            </dd>
+            </dl>
+
+    
+
+        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
+    <span class="phpdocumentor-signature__response_type">array&lt;string|int, mixed&gt;</span>
             &mdash;
             <section class="phpdocumentor-description"></section>
 
