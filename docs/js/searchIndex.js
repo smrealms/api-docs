@@ -3706,6 +3706,11 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/AbstractSmrPort.html#method_getIdealPrice"
         },                {
+            "fqsen": "\\AbstractSmrPort\u003A\u003AidealPrice\u0028\u0029",
+            "name": "idealPrice",
+            "summary": "Generic\u0020ideal\u0020price\u0020calculation,\u0020given\u0020all\u0020parameters\u0020as\u0020input.",
+            "url": "classes/AbstractSmrPort.html#method_idealPrice"
+        },                {
             "fqsen": "\\AbstractSmrPort\u003A\u003AgetOfferPrice\u0028\u0029",
             "name": "getOfferPrice",
             "summary": "",
@@ -7170,16 +7175,6 @@ Search.appendIndex(
             "name": "trimRoutes",
             "summary": "",
             "url": "classes/Routes-RouteGenerator.html#method_trimRoutes"
-        },                {
-            "fqsen": "\\Routes\\RouteGenerator\u003A\u003AGOOD_BUYS",
-            "name": "GOOD_BUYS",
-            "summary": "",
-            "url": "classes/Routes-RouteGenerator.html#constant_GOOD_BUYS"
-        },                {
-            "fqsen": "\\Routes\\RouteGenerator\u003A\u003AGOOD_SELLS",
-            "name": "GOOD_SELLS",
-            "summary": "",
-            "url": "classes/Routes-RouteGenerator.html#constant_GOOD_SELLS"
         },                {
             "fqsen": "\\Routes\\RouteGenerator\u003A\u003AEXP_ROUTE",
             "name": "EXP_ROUTE",
