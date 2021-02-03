@@ -2901,6 +2901,11 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/AbstractSmrPlayer.html#constant_TIME_FOR_ALLIANCE_SWITCH"
         },                {
+            "fqsen": "\\AbstractSmrPlayer\u003A\u003ASHIP_INSURANCE_FRACTION",
+            "name": "SHIP_INSURANCE_FRACTION",
+            "summary": "",
+            "url": "classes/AbstractSmrPlayer.html#constant_SHIP_INSURANCE_FRACTION"
+        },                {
             "fqsen": "\\AbstractSmrPlayer\u003A\u003AHOF_CHANGED",
             "name": "HOF_CHANGED",
             "summary": "",
