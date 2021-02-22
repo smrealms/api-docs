@@ -148,7 +148,7 @@ Search.appendIndex(
         },                {
             "fqsen": "\\AbstractSmrAccount\u003A\u003AisDisabled\u0028\u0029",
             "name": "isDisabled",
-            "summary": "",
+            "summary": "Check\u0020if\u0020the\u0020account\u0020is\u0020disabled.",
             "url": "classes/AbstractSmrAccount.html#method_isDisabled"
         },                {
             "fqsen": "\\AbstractSmrAccount\u003A\u003Aupdate\u0028\u0029",
@@ -8633,7 +8633,7 @@ Search.appendIndex(
         },                {
             "fqsen": "\\SmrGalaxy\u003A\u003Acontains\u0028\u0029",
             "name": "contains",
-            "summary": "",
+            "summary": "Check\u0020if\u0020the\u0020galaxy\u0020contains\u0020a\u0020specific\u0020sector.",
             "url": "classes/SmrGalaxy.html#method_contains"
         },                {
             "fqsen": "\\SmrGalaxy\u003A\u003AgetGalaxyContaining\u0028\u0029",
