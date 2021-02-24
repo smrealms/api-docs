@@ -1036,6 +1036,11 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/AbstractSmrCombatWeapon.html#method_getModifiedForceDamageAgainstPlayer"
         },                {
+            "fqsen": "\\AbstractSmrCombatWeapon\u003A\u003AgetModifiedPlanetDamageAgainstPlayer\u0028\u0029",
+            "name": "getModifiedPlanetDamageAgainstPlayer",
+            "summary": "",
+            "url": "classes/AbstractSmrCombatWeapon.html#method_getModifiedPlanetDamageAgainstPlayer"
+        },                {
             "fqsen": "\\AbstractSmrCombatWeapon\u003A\u003AdoPlayerDamageToForce\u0028\u0029",
             "name": "doPlayerDamageToForce",
             "summary": "",
@@ -3146,6 +3151,16 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/AbstractSmrPlayer.html#property_displayWeapons"
         },                {
+            "fqsen": "\\AbstractSmrPlayer\u003A\u003A\u0024forceDropMessages",
+            "name": "forceDropMessages",
+            "summary": "",
+            "url": "classes/AbstractSmrPlayer.html#property_forceDropMessages"
+        },                {
+            "fqsen": "\\AbstractSmrPlayer\u003A\u003A\u0024groupScoutMessages",
+            "name": "groupScoutMessages",
+            "summary": "",
+            "url": "classes/AbstractSmrPlayer.html#property_groupScoutMessages"
+        },                {
             "fqsen": "\\AbstractSmrPlayer\u003A\u003A\u0024ignoreGlobals",
             "name": "ignoreGlobals",
             "summary": "",
@@ -3185,6 +3200,11 @@ Search.appendIndex(
             "name": "storedDestinations",
             "summary": "",
             "url": "classes/AbstractSmrPlayer.html#property_storedDestinations"
+        },                {
+            "fqsen": "\\AbstractSmrPlayer\u003A\u003A\u0024canFed",
+            "name": "canFed",
+            "summary": "",
+            "url": "classes/AbstractSmrPlayer.html#property_canFed"
         },                {
             "fqsen": "\\AbstractSmrPlayer\u003A\u003A\u0024visitedSectors",
             "name": "visitedSectors",
@@ -4170,6 +4190,11 @@ Search.appendIndex(
             "name": "getDisplayDefenseRating",
             "summary": "",
             "url": "classes/AbstractSmrShip.html#method_getDisplayDefenseRating"
+        },                {
+            "fqsen": "\\AbstractSmrShip\u003A\u003AgetDisplayName\u0028\u0029",
+            "name": "getDisplayName",
+            "summary": "",
+            "url": "classes/AbstractSmrShip.html#method_getDisplayName"
         },                {
             "fqsen": "\\AbstractSmrShip\u003A\u003AgetAttackRating\u0028\u0029",
             "name": "getAttackRating",
@@ -12100,16 +12125,6 @@ Search.appendIndex(
             "name": "checkDisableAJAX",
             "summary": "",
             "url": "classes/Template.html#method_checkDisableAJAX"
-        },                {
-            "fqsen": "\\Template\u003A\u003AtrimWhiteSpace\u0028\u0029",
-            "name": "trimWhiteSpace",
-            "summary": "",
-            "url": "classes/Template.html#method_trimWhiteSpace"
-        },                {
-            "fqsen": "\\Template\u003A\u003AreplaceTrimHolder\u0028\u0029",
-            "name": "replaceTrimHolder",
-            "summary": "",
-            "url": "classes/Template.html#method_replaceTrimHolder"
         },                {
             "fqsen": "\\Template\u003A\u003AdoDamageTypeReductionDisplay\u0028\u0029",
             "name": "doDamageTypeReductionDisplay",
