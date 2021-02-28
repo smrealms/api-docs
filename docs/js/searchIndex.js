@@ -2306,11 +2306,6 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/AbstractSmrPlayer.html#method_hasTicker"
         },                {
-            "fqsen": "\\AbstractSmrPlayer\u003A\u003AshootPlayer\u0028\u0029",
-            "name": "shootPlayer",
-            "summary": "",
-            "url": "classes/AbstractSmrPlayer.html#method_shootPlayer"
-        },                {
             "fqsen": "\\AbstractSmrPlayer\u003A\u003AshootForces\u0028\u0029",
             "name": "shootForces",
             "summary": "",
@@ -3826,11 +3821,6 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/AbstractSmrPort.html#method_update"
         },                {
-            "fqsen": "\\AbstractSmrPort\u003A\u003AshootPlayer\u0028\u0029",
-            "name": "shootPlayer",
-            "summary": "",
-            "url": "classes/AbstractSmrPort.html#method_shootPlayer"
-        },                {
             "fqsen": "\\AbstractSmrPort\u003A\u003AshootPlayers\u0028\u0029",
             "name": "shootPlayers",
             "summary": "",
@@ -4850,11 +4840,6 @@ Search.appendIndex(
             "name": "isUnderground",
             "summary": "",
             "url": "classes/AbstractSmrShip.html#method_isUnderground"
-        },                {
-            "fqsen": "\\AbstractSmrShip\u003A\u003AshootPlayer\u0028\u0029",
-            "name": "shootPlayer",
-            "summary": "",
-            "url": "classes/AbstractSmrShip.html#method_shootPlayer"
         },                {
             "fqsen": "\\AbstractSmrShip\u003A\u003AshootPlayers\u0028\u0029",
             "name": "shootPlayers",
@@ -7811,11 +7796,6 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/SmrCombatDrones.html#method_getModifiedAccuracyAgainstForcesUsingRandom"
         },                {
-            "fqsen": "\\SmrCombatDrones\u003A\u003AgetMaxModifiedAccuracyAgainstForces\u0028\u0029",
-            "name": "getMaxModifiedAccuracyAgainstForces",
-            "summary": "",
-            "url": "classes/SmrCombatDrones.html#method_getMaxModifiedAccuracyAgainstForces"
-        },                {
             "fqsen": "\\SmrCombatDrones\u003A\u003AgetModifiedAccuracyAgainstForces\u0028\u0029",
             "name": "getModifiedAccuracyAgainstForces",
             "summary": "",
@@ -7826,11 +7806,6 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/SmrCombatDrones.html#method_getModifiedAccuracyAgainstPortUsingRandom"
         },                {
-            "fqsen": "\\SmrCombatDrones\u003A\u003AgetMaxModifiedAccuracyAgainstPort\u0028\u0029",
-            "name": "getMaxModifiedAccuracyAgainstPort",
-            "summary": "",
-            "url": "classes/SmrCombatDrones.html#method_getMaxModifiedAccuracyAgainstPort"
-        },                {
             "fqsen": "\\SmrCombatDrones\u003A\u003AgetModifiedAccuracyAgainstPort\u0028\u0029",
             "name": "getModifiedAccuracyAgainstPort",
             "summary": "",
@@ -7840,11 +7815,6 @@ Search.appendIndex(
             "name": "getModifiedAccuracyAgainstPlanetUsingRandom",
             "summary": "",
             "url": "classes/SmrCombatDrones.html#method_getModifiedAccuracyAgainstPlanetUsingRandom"
-        },                {
-            "fqsen": "\\SmrCombatDrones\u003A\u003AgetMaxModifiedAccuracyAgainstPlanet\u0028\u0029",
-            "name": "getMaxModifiedAccuracyAgainstPlanet",
-            "summary": "",
-            "url": "classes/SmrCombatDrones.html#method_getMaxModifiedAccuracyAgainstPlanet"
         },                {
             "fqsen": "\\SmrCombatDrones\u003A\u003AgetModifiedAccuracyAgainstPlanet\u0028\u0029",
             "name": "getModifiedAccuracyAgainstPlanet",
@@ -7860,11 +7830,6 @@ Search.appendIndex(
             "name": "getModifiedAccuracyAgainstPlayerUsingRandom",
             "summary": "",
             "url": "classes/SmrCombatDrones.html#method_getModifiedAccuracyAgainstPlayerUsingRandom"
-        },                {
-            "fqsen": "\\SmrCombatDrones\u003A\u003AgetMaxModifiedAccuracyAgainstPlayer\u0028\u0029",
-            "name": "getMaxModifiedAccuracyAgainstPlayer",
-            "summary": "",
-            "url": "classes/SmrCombatDrones.html#method_getMaxModifiedAccuracyAgainstPlayer"
         },                {
             "fqsen": "\\SmrCombatDrones\u003A\u003AgetModifiedForceAccuracyAgainstPlayer\u0028\u0029",
             "name": "getModifiedForceAccuracyAgainstPlayer",
@@ -7885,21 +7850,6 @@ Search.appendIndex(
             "name": "getModifiedPlanetAccuracyAgainstPlayer",
             "summary": "",
             "url": "classes/SmrCombatDrones.html#method_getModifiedPlanetAccuracyAgainstPlayer"
-        },                {
-            "fqsen": "\\SmrCombatDrones\u003A\u003AgetMaxModifiedForceAccuracyAgainstPlayer\u0028\u0029",
-            "name": "getMaxModifiedForceAccuracyAgainstPlayer",
-            "summary": "",
-            "url": "classes/SmrCombatDrones.html#method_getMaxModifiedForceAccuracyAgainstPlayer"
-        },                {
-            "fqsen": "\\SmrCombatDrones\u003A\u003AgetMaxModifiedPortAccuracyAgainstPlayer\u0028\u0029",
-            "name": "getMaxModifiedPortAccuracyAgainstPlayer",
-            "summary": "",
-            "url": "classes/SmrCombatDrones.html#method_getMaxModifiedPortAccuracyAgainstPlayer"
-        },                {
-            "fqsen": "\\SmrCombatDrones\u003A\u003AgetModifiedDamage\u0028\u0029",
-            "name": "getModifiedDamage",
-            "summary": "",
-            "url": "classes/SmrCombatDrones.html#method_getModifiedDamage"
         },                {
             "fqsen": "\\SmrCombatDrones\u003A\u003AgetModifiedDamageAgainstForces\u0028\u0029",
             "name": "getModifiedDamageAgainstForces",
@@ -8345,11 +8295,6 @@ Search.appendIndex(
             "name": "getRefreshAllHREF",
             "summary": "",
             "url": "classes/SmrForce.html#method_getRefreshAllHREF"
-        },                {
-            "fqsen": "\\SmrForce\u003A\u003AshootPlayer\u0028\u0029",
-            "name": "shootPlayer",
-            "summary": "",
-            "url": "classes/SmrForce.html#method_shootPlayer"
         },                {
             "fqsen": "\\SmrForce\u003A\u003AshootPlayers\u0028\u0029",
             "name": "shootPlayers",
@@ -9256,16 +9201,6 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/SmrMines.html#method_getModifiedForceAccuracyAgainstPlayerUsingRandom"
         },                {
-            "fqsen": "\\SmrMines\u003A\u003AgetMaxModifiedForceAccuracyAgainstPlayer\u0028\u0029",
-            "name": "getMaxModifiedForceAccuracyAgainstPlayer",
-            "summary": "",
-            "url": "classes/SmrMines.html#method_getMaxModifiedForceAccuracyAgainstPlayer"
-        },                {
-            "fqsen": "\\SmrMines\u003A\u003AgetModifiedDamage\u0028\u0029",
-            "name": "getModifiedDamage",
-            "summary": "",
-            "url": "classes/SmrMines.html#method_getModifiedDamage"
-        },                {
             "fqsen": "\\SmrMines\u003A\u003AgetModifiedDamageAgainstForces\u0028\u0029",
             "name": "getModifiedDamageAgainstForces",
             "summary": "",
@@ -9956,11 +9891,6 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/SmrPlanet.html#method_hasWeapons"
         },                {
-            "fqsen": "\\SmrPlanet\u003A\u003AshootPlayer\u0028\u0029",
-            "name": "shootPlayer",
-            "summary": "",
-            "url": "classes/SmrPlanet.html#method_shootPlayer"
-        },                {
             "fqsen": "\\SmrPlanet\u003A\u003AshootPlayers\u0028\u0029",
             "name": "shootPlayers",
             "summary": "",
@@ -10570,16 +10500,6 @@ Search.appendIndex(
             "name": "getModifiedForceAccuracyAgainstPlayerUsingRandom",
             "summary": "",
             "url": "classes/SmrScoutDrones.html#method_getModifiedForceAccuracyAgainstPlayerUsingRandom"
-        },                {
-            "fqsen": "\\SmrScoutDrones\u003A\u003AgetMaxModifiedForceAccuracyAgainstPlayer\u0028\u0029",
-            "name": "getMaxModifiedForceAccuracyAgainstPlayer",
-            "summary": "",
-            "url": "classes/SmrScoutDrones.html#method_getMaxModifiedForceAccuracyAgainstPlayer"
-        },                {
-            "fqsen": "\\SmrScoutDrones\u003A\u003AgetModifiedDamage\u0028\u0029",
-            "name": "getModifiedDamage",
-            "summary": "",
-            "url": "classes/SmrScoutDrones.html#method_getModifiedDamage"
         },                {
             "fqsen": "\\SmrScoutDrones\u003A\u003AgetModifiedDamageAgainstForces\u0028\u0029",
             "name": "getModifiedDamageAgainstForces",
@@ -11795,11 +11715,6 @@ Search.appendIndex(
             "name": "getModifiedPlanetAccuracyAgainstPlayer",
             "summary": "",
             "url": "classes/SmrWeapon.html#method_getModifiedPlanetAccuracyAgainstPlayer"
-        },                {
-            "fqsen": "\\SmrWeapon\u003A\u003AgetModifiedDamage\u0028\u0029",
-            "name": "getModifiedDamage",
-            "summary": "",
-            "url": "classes/SmrWeapon.html#method_getModifiedDamage"
         },                {
             "fqsen": "\\SmrWeapon\u003A\u003AgetModifiedDamageAgainstForces\u0028\u0029",
             "name": "getModifiedDamageAgainstForces",
