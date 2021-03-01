@@ -8021,6 +8021,11 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/SmrForce.html"
         },                {
+            "fqsen": "\\SmrForce\u003A\u003A__sleep\u0028\u0029",
+            "name": "__sleep",
+            "summary": "",
+            "url": "classes/SmrForce.html#method___sleep"
+        },                {
             "fqsen": "\\SmrForce\u003A\u003ArefreshCache\u0028\u0029",
             "name": "refreshCache",
             "summary": "",
@@ -9280,6 +9285,11 @@ Search.appendIndex(
             "name": "SmrPlanet",
             "summary": "",
             "url": "classes/SmrPlanet.html"
+        },                {
+            "fqsen": "\\SmrPlanet\u003A\u003A__sleep\u0028\u0029",
+            "name": "__sleep",
+            "summary": "",
+            "url": "classes/SmrPlanet.html#method___sleep"
         },                {
             "fqsen": "\\SmrPlanet\u003A\u003ArefreshCache\u0028\u0029",
             "name": "refreshCache",
