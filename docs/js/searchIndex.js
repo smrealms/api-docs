@@ -9601,10 +9601,10 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/SmrPlanet.html#method_isDestroyed"
         },                {
-            "fqsen": "\\SmrPlanet\u003A\u003Aexists\u0028\u0029",
+            "fqsen": "\\SmrPlanet\u003A\u003A\u0024exists",
             "name": "exists",
             "summary": "",
-            "url": "classes/SmrPlanet.html#method_exists"
+            "url": "classes/SmrPlanet.html#property_exists"
         },                {
             "fqsen": "\\SmrPlanet\u003A\u003AgetStockpile\u0028\u0029",
             "name": "getStockpile",
@@ -9761,10 +9761,10 @@ Search.appendIndex(
             "summary": "Returns\u0020true\u0020if\u0020there\u0020is\u0020a\u0020building\u0020in\u0020progress",
             "url": "classes/SmrPlanet.html#method_hasCurrentlyBuilding"
         },                {
-            "fqsen": "\\SmrPlanet\u003A\u003AcanBuild\u0028\u0029",
-            "name": "canBuild",
-            "summary": "",
-            "url": "classes/SmrPlanet.html#method_canBuild"
+            "fqsen": "\\SmrPlanet\u003A\u003AgetBuildRestriction\u0028\u0029",
+            "name": "getBuildRestriction",
+            "summary": "Returns\u0020the\u0020reason\u0020a\u0020build\u0020cannot\u0020be\u0020performed,\u0020or\u0020false\u0020if\u0020there\u0020is\nno\u0020restriction.",
+            "url": "classes/SmrPlanet.html#method_getBuildRestriction"
         },                {
             "fqsen": "\\SmrPlanet\u003A\u003AgetCompletionModifier\u0028\u0029",
             "name": "getCompletionModifier",
@@ -10240,6 +10240,11 @@ Search.appendIndex(
             "name": "maxLanded",
             "summary": "",
             "url": "classes/SmrPlanetType.html#method_maxLanded"
+        },                {
+            "fqsen": "\\SmrPlanetType\u003A\u003AmenuOptions\u0028\u0029",
+            "name": "menuOptions",
+            "summary": "",
+            "url": "classes/SmrPlanetType.html#method_menuOptions"
         },                {
             "fqsen": "\\SmrPlanetType\u003A\u003AgetTypeInfo\u0028\u0029",
             "name": "getTypeInfo",
