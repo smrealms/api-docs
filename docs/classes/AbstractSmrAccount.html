@@ -68,14 +68,6 @@
                                     </ul>
                         </section>
 
-        <section class="phpdocumentor-sidebar__category">
-        <h2 class="phpdocumentor-sidebar__category-header">Packages</h2>
-                    <h3 class="phpdocumentor-sidebar__root-package"><a href="packages/Default.html"><abbr title="\Default">Default</abbr></a></h3>
-                                <h3 class="phpdocumentor-sidebar__root-package"><a href="packages/Smr.html"><abbr title="\Smr">Smr</abbr></a></h3>
-                        <ul class="phpdocumentor-list">
-                                    <li><a href="packages/Smr-Container.html"><abbr title="\Smr\Container">Container</abbr></a></li>
-                            </ul>
-                        </section>
     
     <section class="phpdocumentor-sidebar__category">
         <h2 class="phpdocumentor-sidebar__category-header">Reports</h2>
@@ -99,12 +91,6 @@
     AbstractSmrAccount
 
     
-            <div class="phpdocumentor-element__package">
-            in package
-            <ul class="phpdocumentor-breadcrumbs">
-                                    <li class="phpdocumentor-breadcrumb"><a href="packages/Default.html">Default</a></li>
-                            </ul>
-        </div>
     
     
     </h2>
@@ -522,6 +508,13 @@
 <dd>Check if the given (plain-text) password is correct.</dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a href="classes/AbstractSmrAccount.html#method_clearCache">clearCache()</a>
+    <span>
+                        &nbsp;: void    </span>
+</dt>
+<dd></dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
     <a href="classes/AbstractSmrAccount.html#method_createAccount">createAccount()</a>
     <span>
                         &nbsp;: <a href="classes/SmrAccount.html"><abbr title="\SmrAccount">SmrAccount</abbr></a>    </span>
@@ -687,7 +680,7 @@
     <span>
                         &nbsp;: array&lt;string|int, mixed&gt;|float    </span>
 </dt>
-<dd></dd>
+<dd>Returns either the entire HOF array or the value for the given typeList.</dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
     <a href="classes/AbstractSmrAccount.html#method_getHofDisplayName">getHofDisplayName()</a>
@@ -2846,7 +2839,7 @@ it correctly we must escape html entities.</dd>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/AbstractSmrAccount.class.php"><a href="files/src-lib-default-abstractsmraccount-class.html"><abbr title="src/lib/Default/AbstractSmrAccount.class.php">AbstractSmrAccount.class.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">914</span>
+    <span class="phpdocumentor-element-found-in__line">918</span>
 </aside>
 
     
@@ -2895,7 +2888,7 @@ it correctly we must escape html entities.</dd>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/AbstractSmrAccount.class.php"><a href="files/src-lib-default-abstractsmraccount-class.html"><abbr title="src/lib/Default/AbstractSmrAccount.class.php">AbstractSmrAccount.class.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">1128</span>
+    <span class="phpdocumentor-element-found-in__line">1132</span>
 </aside>
 
     
@@ -2958,7 +2951,7 @@ it correctly we must escape html entities.</dd>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/AbstractSmrAccount.class.php"><a href="files/src-lib-default-abstractsmraccount-class.html"><abbr title="src/lib/Default/AbstractSmrAccount.class.php">AbstractSmrAccount.class.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">1188</span>
+    <span class="phpdocumentor-element-found-in__line">1192</span>
 </aside>
 
     
@@ -3028,7 +3021,7 @@ it correctly we must escape html entities.</dd>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/AbstractSmrAccount.class.php"><a href="files/src-lib-default-abstractsmraccount-class.html"><abbr title="src/lib/Default/AbstractSmrAccount.class.php">AbstractSmrAccount.class.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">653</span>
+    <span class="phpdocumentor-element-found-in__line">657</span>
 </aside>
 
         <p class="phpdocumentor-summary">Change e-mail address, unvalidate the account, and resend validation code</p>
@@ -3072,7 +3065,7 @@ it correctly we must escape html entities.</dd>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/AbstractSmrAccount.class.php"><a href="files/src-lib-default-abstractsmraccount-class.html"><abbr title="src/lib/Default/AbstractSmrAccount.class.php">AbstractSmrAccount.class.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">881</span>
+    <span class="phpdocumentor-element-found-in__line">885</span>
 </aside>
 
         <p class="phpdocumentor-summary">Check if the given (plain-text) password is correct.</p>
@@ -3110,6 +3103,38 @@ it correctly we must escape html entities.</dd>
             -public
                                     -static                    "
 >
+    <h4 class="phpdocumentor-element__name" id="method_clearCache">
+        clearCache()
+        <a href="classes/AbstractSmrAccount.html#method_clearCache" class="headerlink"><i class="fas fa-link"></i></a>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/AbstractSmrAccount.class.php"><a href="files/src-lib-default-abstractsmraccount-class.html"><abbr title="src/lib/Default/AbstractSmrAccount.class.php">AbstractSmrAccount.class.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">91</span>
+</aside>
+
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+            <span class="phpdocumentor-signature__static">static</span>    <span class="phpdocumentor-signature__name">clearCache</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">void</span></code>
+
+    
+    
+    
+
+        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
+    <span class="phpdocumentor-signature__response_type">void</span>
+            &mdash;
+            <section class="phpdocumentor-description"></section>
+
+    
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                    -static                    "
+>
     <h4 class="phpdocumentor-element__name" id="method_createAccount">
         createAccount()
         <a href="classes/AbstractSmrAccount.html#method_createAccount" class="headerlink"><i class="fas fa-link"></i></a>
@@ -3117,7 +3142,7 @@ it correctly we must escape html entities.</dd>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/AbstractSmrAccount.class.php"><a href="files/src-lib-default-abstractsmraccount-class.html"><abbr title="src/lib/Default/AbstractSmrAccount.class.php">AbstractSmrAccount.class.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">155</span>
+    <span class="phpdocumentor-element-found-in__line">159</span>
 </aside>
 
     
@@ -3187,7 +3212,7 @@ it correctly we must escape html entities.</dd>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/AbstractSmrAccount.class.php"><a href="files/src-lib-default-abstractsmraccount-class.html"><abbr title="src/lib/Default/AbstractSmrAccount.class.php">AbstractSmrAccount.class.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">1022</span>
+    <span class="phpdocumentor-element-found-in__line">1026</span>
 </aside>
 
     
@@ -3236,7 +3261,7 @@ it correctly we must escape html entities.</dd>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/AbstractSmrAccount.class.php"><a href="files/src-lib-default-abstractsmraccount-class.html"><abbr title="src/lib/Default/AbstractSmrAccount.class.php">AbstractSmrAccount.class.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">569</span>
+    <span class="phpdocumentor-element-found-in__line">573</span>
 </aside>
 
     
@@ -3278,7 +3303,7 @@ it correctly we must escape html entities.</dd>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/AbstractSmrAccount.class.php"><a href="files/src-lib-default-abstractsmraccount-class.html"><abbr title="src/lib/Default/AbstractSmrAccount.class.php">AbstractSmrAccount.class.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">510</span>
+    <span class="phpdocumentor-element-found-in__line">514</span>
 </aside>
 
     
@@ -3320,7 +3345,7 @@ it correctly we must escape html entities.</dd>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/AbstractSmrAccount.class.php"><a href="files/src-lib-default-abstractsmraccount-class.html"><abbr title="src/lib/Default/AbstractSmrAccount.class.php">AbstractSmrAccount.class.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">609</span>
+    <span class="phpdocumentor-element-found-in__line">613</span>
 </aside>
 
     
@@ -3383,7 +3408,7 @@ it correctly we must escape html entities.</dd>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/AbstractSmrAccount.class.php"><a href="files/src-lib-default-abstractsmraccount-class.html"><abbr title="src/lib/Default/AbstractSmrAccount.class.php">AbstractSmrAccount.class.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">925</span>
+    <span class="phpdocumentor-element-found-in__line">929</span>
 </aside>
 
     
@@ -3415,7 +3440,7 @@ it correctly we must escape html entities.</dd>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/AbstractSmrAccount.class.php"><a href="files/src-lib-default-abstractsmraccount-class.html"><abbr title="src/lib/Default/AbstractSmrAccount.class.php">AbstractSmrAccount.class.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">91</span>
+    <span class="phpdocumentor-element-found-in__line">95</span>
 </aside>
 
     
@@ -3464,7 +3489,7 @@ it correctly we must escape html entities.</dd>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/AbstractSmrAccount.class.php"><a href="files/src-lib-default-abstractsmraccount-class.html"><abbr title="src/lib/Default/AbstractSmrAccount.class.php">AbstractSmrAccount.class.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">120</span>
+    <span class="phpdocumentor-element-found-in__line">124</span>
 </aside>
 
     
@@ -3513,7 +3538,7 @@ it correctly we must escape html entities.</dd>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/AbstractSmrAccount.class.php"><a href="files/src-lib-default-abstractsmraccount-class.html"><abbr title="src/lib/Default/AbstractSmrAccount.class.php">AbstractSmrAccount.class.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">109</span>
+    <span class="phpdocumentor-element-found-in__line">113</span>
 </aside>
 
     
@@ -3562,7 +3587,7 @@ it correctly we must escape html entities.</dd>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/AbstractSmrAccount.class.php"><a href="files/src-lib-default-abstractsmraccount-class.html"><abbr title="src/lib/Default/AbstractSmrAccount.class.php">AbstractSmrAccount.class.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">131</span>
+    <span class="phpdocumentor-element-found-in__line">135</span>
 </aside>
 
     
@@ -3611,7 +3636,7 @@ it correctly we must escape html entities.</dd>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/AbstractSmrAccount.class.php"><a href="files/src-lib-default-abstractsmraccount-class.html"><abbr title="src/lib/Default/AbstractSmrAccount.class.php">AbstractSmrAccount.class.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">98</span>
+    <span class="phpdocumentor-element-found-in__line">102</span>
 </aside>
 
     
@@ -3660,7 +3685,7 @@ it correctly we must escape html entities.</dd>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/AbstractSmrAccount.class.php"><a href="files/src-lib-default-abstractsmraccount-class.html"><abbr title="src/lib/Default/AbstractSmrAccount.class.php">AbstractSmrAccount.class.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">142</span>
+    <span class="phpdocumentor-element-found-in__line">146</span>
 </aside>
 
     
@@ -3709,7 +3734,7 @@ it correctly we must escape html entities.</dd>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/AbstractSmrAccount.class.php"><a href="files/src-lib-default-abstractsmraccount-class.html"><abbr title="src/lib/Default/AbstractSmrAccount.class.php">AbstractSmrAccount.class.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">623</span>
+    <span class="phpdocumentor-element-found-in__line">627</span>
 </aside>
 
     
@@ -3741,7 +3766,7 @@ it correctly we must escape html entities.</dd>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/AbstractSmrAccount.class.php"><a href="files/src-lib-default-abstractsmraccount-class.html"><abbr title="src/lib/Default/AbstractSmrAccount.class.php">AbstractSmrAccount.class.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">746</span>
+    <span class="phpdocumentor-element-found-in__line">750</span>
 </aside>
 
     
@@ -3773,7 +3798,7 @@ it correctly we must escape html entities.</dd>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/AbstractSmrAccount.class.php"><a href="files/src-lib-default-abstractsmraccount-class.html"><abbr title="src/lib/Default/AbstractSmrAccount.class.php">AbstractSmrAccount.class.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">767</span>
+    <span class="phpdocumentor-element-found-in__line">771</span>
 </aside>
 
     
@@ -3805,7 +3830,7 @@ it correctly we must escape html entities.</dd>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/AbstractSmrAccount.class.php"><a href="files/src-lib-default-abstractsmraccount-class.html"><abbr title="src/lib/Default/AbstractSmrAccount.class.php">AbstractSmrAccount.class.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">718</span>
+    <span class="phpdocumentor-element-found-in__line">722</span>
 </aside>
 
     
@@ -3837,7 +3862,7 @@ it correctly we must escape html entities.</dd>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/AbstractSmrAccount.class.php"><a href="files/src-lib-default-abstractsmraccount-class.html"><abbr title="src/lib/Default/AbstractSmrAccount.class.php">AbstractSmrAccount.class.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">762</span>
+    <span class="phpdocumentor-element-found-in__line">766</span>
 </aside>
 
     
@@ -3901,7 +3926,7 @@ it correctly we must escape html entities.</dd>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/AbstractSmrAccount.class.php"><a href="files/src-lib-default-abstractsmraccount-class.html"><abbr title="src/lib/Default/AbstractSmrAccount.class.php">AbstractSmrAccount.class.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">808</span>
+    <span class="phpdocumentor-element-found-in__line">812</span>
 </aside>
 
     
@@ -3933,7 +3958,7 @@ it correctly we must escape html entities.</dd>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/AbstractSmrAccount.class.php"><a href="files/src-lib-default-abstractsmraccount-class.html"><abbr title="src/lib/Default/AbstractSmrAccount.class.php">AbstractSmrAccount.class.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">638</span>
+    <span class="phpdocumentor-element-found-in__line">642</span>
 </aside>
 
     
@@ -3965,7 +3990,7 @@ it correctly we must escape html entities.</dd>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/AbstractSmrAccount.class.php"><a href="files/src-lib-default-abstractsmraccount-class.html"><abbr title="src/lib/Default/AbstractSmrAccount.class.php">AbstractSmrAccount.class.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">1180</span>
+    <span class="phpdocumentor-element-found-in__line">1184</span>
 </aside>
 
     
@@ -3997,7 +4022,7 @@ it correctly we must escape html entities.</dd>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/AbstractSmrAccount.class.php"><a href="files/src-lib-default-abstractsmraccount-class.html"><abbr title="src/lib/Default/AbstractSmrAccount.class.php">AbstractSmrAccount.class.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">705</span>
+    <span class="phpdocumentor-element-found-in__line">709</span>
 </aside>
 
     
@@ -4029,7 +4054,7 @@ it correctly we must escape html entities.</dd>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/AbstractSmrAccount.class.php"><a href="files/src-lib-default-abstractsmraccount-class.html"><abbr title="src/lib/Default/AbstractSmrAccount.class.php">AbstractSmrAccount.class.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">1166</span>
+    <span class="phpdocumentor-element-found-in__line">1170</span>
 </aside>
 
     
@@ -4061,10 +4086,11 @@ it correctly we must escape html entities.</dd>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/AbstractSmrAccount.class.php"><a href="files/src-lib-default-abstractsmraccount-class.html"><abbr title="src/lib/Default/AbstractSmrAccount.class.php">AbstractSmrAccount.class.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">396</span>
+    <span class="phpdocumentor-element-found-in__line">400</span>
 </aside>
 
-    
+        <p class="phpdocumentor-summary">Returns either the entire HOF array or the value for the given typeList.</p>
+
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">public</span>
                 <span class="phpdocumentor-signature__name">getHOF</span><span>(</span><span class="phpdocumentor-signature__argument"><span>[</span><span class="phpdocumentor-signature__argument__return-type">array&lt;string|int, mixed&gt;&nbsp;</span><span class="phpdocumentor-signature__argument__name">$typeList</span><span> = </span><span class="phpdocumentor-signature__argument__default-value">null</span><span> ]</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">array&lt;string|int, mixed&gt;|float</span></code>
@@ -4104,7 +4130,7 @@ it correctly we must escape html entities.</dd>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/AbstractSmrAccount.class.php"><a href="files/src-lib-default-abstractsmraccount-class.html"><abbr title="src/lib/Default/AbstractSmrAccount.class.php">AbstractSmrAccount.class.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">775</span>
+    <span class="phpdocumentor-element-found-in__line">779</span>
 </aside>
 
         <p class="phpdocumentor-summary">The Hall Of Fame name is not html-escaped in the database, so to display
@@ -4149,7 +4175,7 @@ it correctly we must escape html entities.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/AbstractSmrAccount.class.php"><a href="files/src-lib-default-abstractsmraccount-class.html"><abbr title="src/lib/Default/AbstractSmrAccount.class.php">AbstractSmrAccount.class.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">784</span>
+    <span class="phpdocumentor-element-found-in__line">788</span>
 </aside>
 
     
@@ -4181,7 +4207,7 @@ it correctly we must escape html entities.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/AbstractSmrAccount.class.php"><a href="files/src-lib-default-abstractsmraccount-class.html"><abbr title="src/lib/Default/AbstractSmrAccount.class.php">AbstractSmrAccount.class.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">977</span>
+    <span class="phpdocumentor-element-found-in__line">981</span>
 </aside>
 
     
@@ -4223,7 +4249,7 @@ it correctly we must escape html entities.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/AbstractSmrAccount.class.php"><a href="files/src-lib-default-abstractsmraccount-class.html"><abbr title="src/lib/Default/AbstractSmrAccount.class.php">AbstractSmrAccount.class.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">431</span>
+    <span class="phpdocumentor-element-found-in__line">435</span>
 </aside>
 
     
@@ -4265,7 +4291,7 @@ it correctly we must escape html entities.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/AbstractSmrAccount.class.php"><a href="files/src-lib-default-abstractsmraccount-class.html"><abbr title="src/lib/Default/AbstractSmrAccount.class.php">AbstractSmrAccount.class.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">796</span>
+    <span class="phpdocumentor-element-found-in__line">800</span>
 </aside>
 
     
@@ -4297,7 +4323,7 @@ it correctly we must escape html entities.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/AbstractSmrAccount.class.php"><a href="files/src-lib-default-abstractsmraccount-class.html"><abbr title="src/lib/Default/AbstractSmrAccount.class.php">AbstractSmrAccount.class.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">340</span>
+    <span class="phpdocumentor-element-found-in__line">344</span>
 </aside>
 
     
@@ -4329,7 +4355,7 @@ it correctly we must escape html entities.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/AbstractSmrAccount.class.php"><a href="files/src-lib-default-abstractsmraccount-class.html"><abbr title="src/lib/Default/AbstractSmrAccount.class.php">AbstractSmrAccount.class.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">634</span>
+    <span class="phpdocumentor-element-found-in__line">638</span>
 </aside>
 
     
@@ -4361,7 +4387,7 @@ it correctly we must escape html entities.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/AbstractSmrAccount.class.php"><a href="files/src-lib-default-abstractsmraccount-class.html"><abbr title="src/lib/Default/AbstractSmrAccount.class.php">AbstractSmrAccount.class.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">1044</span>
+    <span class="phpdocumentor-element-found-in__line">1048</span>
 </aside>
 
     
@@ -4393,7 +4419,7 @@ it correctly we must escape html entities.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/AbstractSmrAccount.class.php"><a href="files/src-lib-default-abstractsmraccount-class.html"><abbr title="src/lib/Default/AbstractSmrAccount.class.php">AbstractSmrAccount.class.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">1000</span>
+    <span class="phpdocumentor-element-found-in__line">1004</span>
 </aside>
 
     
@@ -4435,7 +4461,7 @@ it correctly we must escape html entities.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/AbstractSmrAccount.class.php"><a href="files/src-lib-default-abstractsmraccount-class.html"><abbr title="src/lib/Default/AbstractSmrAccount.class.php">AbstractSmrAccount.class.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">1173</span>
+    <span class="phpdocumentor-element-found-in__line">1177</span>
 </aside>
 
     
@@ -4467,7 +4493,7 @@ it correctly we must escape html entities.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/AbstractSmrAccount.class.php"><a href="files/src-lib-default-abstractsmraccount-class.html"><abbr title="src/lib/Default/AbstractSmrAccount.class.php">AbstractSmrAccount.class.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">701</span>
+    <span class="phpdocumentor-element-found-in__line">705</span>
 </aside>
 
     
@@ -4499,7 +4525,7 @@ it correctly we must escape html entities.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/AbstractSmrAccount.class.php"><a href="files/src-lib-default-abstractsmraccount-class.html"><abbr title="src/lib/Default/AbstractSmrAccount.class.php">AbstractSmrAccount.class.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">630</span>
+    <span class="phpdocumentor-element-found-in__line">634</span>
 </aside>
 
         <p class="phpdocumentor-summary">Return the ID associated with this account in the given history database.</p>
@@ -4543,7 +4569,7 @@ it correctly we must escape html entities.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/AbstractSmrAccount.class.php"><a href="files/src-lib-default-abstractsmraccount-class.html"><abbr title="src/lib/Default/AbstractSmrAccount.class.php">AbstractSmrAccount.class.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">929</span>
+    <span class="phpdocumentor-element-found-in__line">933</span>
 </aside>
 
     
@@ -4575,7 +4601,7 @@ it correctly we must escape html entities.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/AbstractSmrAccount.class.php"><a href="files/src-lib-default-abstractsmraccount-class.html"><abbr title="src/lib/Default/AbstractSmrAccount.class.php">AbstractSmrAccount.class.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">1065</span>
+    <span class="phpdocumentor-element-found-in__line">1069</span>
 </aside>
 
     
@@ -4607,7 +4633,7 @@ it correctly we must escape html entities.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/AbstractSmrAccount.class.php"><a href="files/src-lib-default-abstractsmraccount-class.html"><abbr title="src/lib/Default/AbstractSmrAccount.class.php">AbstractSmrAccount.class.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">1248</span>
+    <span class="phpdocumentor-element-found-in__line">1252</span>
 </aside>
 
     
@@ -4639,7 +4665,7 @@ it correctly we must escape html entities.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/AbstractSmrAccount.class.php"><a href="files/src-lib-default-abstractsmraccount-class.html"><abbr title="src/lib/Default/AbstractSmrAccount.class.php">AbstractSmrAccount.class.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">1084</span>
+    <span class="phpdocumentor-element-found-in__line">1088</span>
 </aside>
 
     
@@ -4671,7 +4697,7 @@ it correctly we must escape html entities.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/AbstractSmrAccount.class.php"><a href="files/src-lib-default-abstractsmraccount-class.html"><abbr title="src/lib/Default/AbstractSmrAccount.class.php">AbstractSmrAccount.class.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">450</span>
+    <span class="phpdocumentor-element-found-in__line">454</span>
 </aside>
 
     
@@ -4703,7 +4729,7 @@ it correctly we must escape html entities.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/AbstractSmrAccount.class.php"><a href="files/src-lib-default-abstractsmraccount-class.html"><abbr title="src/lib/Default/AbstractSmrAccount.class.php">AbstractSmrAccount.class.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">411</span>
+    <span class="phpdocumentor-element-found-in__line">415</span>
 </aside>
 
     
@@ -4735,7 +4761,7 @@ it correctly we must escape html entities.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/AbstractSmrAccount.class.php"><a href="files/src-lib-default-abstractsmraccount-class.html"><abbr title="src/lib/Default/AbstractSmrAccount.class.php">AbstractSmrAccount.class.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">820</span>
+    <span class="phpdocumentor-element-found-in__line">824</span>
 </aside>
 
     
@@ -4767,7 +4793,7 @@ it correctly we must escape html entities.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/AbstractSmrAccount.class.php"><a href="files/src-lib-default-abstractsmraccount-class.html"><abbr title="src/lib/Default/AbstractSmrAccount.class.php">AbstractSmrAccount.class.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">482</span>
+    <span class="phpdocumentor-element-found-in__line">486</span>
 </aside>
 
     
@@ -4799,7 +4825,7 @@ it correctly we must escape html entities.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/AbstractSmrAccount.class.php"><a href="files/src-lib-default-abstractsmraccount-class.html"><abbr title="src/lib/Default/AbstractSmrAccount.class.php">AbstractSmrAccount.class.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">474</span>
+    <span class="phpdocumentor-element-found-in__line">478</span>
 </aside>
 
     
@@ -4831,7 +4857,7 @@ it correctly we must escape html entities.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/AbstractSmrAccount.class.php"><a href="files/src-lib-default-abstractsmraccount-class.html"><abbr title="src/lib/Default/AbstractSmrAccount.class.php">AbstractSmrAccount.class.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">420</span>
+    <span class="phpdocumentor-element-found-in__line">424</span>
 </aside>
 
     
@@ -4863,7 +4889,7 @@ it correctly we must escape html entities.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/AbstractSmrAccount.class.php"><a href="files/src-lib-default-abstractsmraccount-class.html"><abbr title="src/lib/Default/AbstractSmrAccount.class.php">AbstractSmrAccount.class.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">824</span>
+    <span class="phpdocumentor-element-found-in__line">828</span>
 </aside>
 
     
@@ -4895,7 +4921,7 @@ it correctly we must escape html entities.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/AbstractSmrAccount.class.php"><a href="files/src-lib-default-abstractsmraccount-class.html"><abbr title="src/lib/Default/AbstractSmrAccount.class.php">AbstractSmrAccount.class.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">836</span>
+    <span class="phpdocumentor-element-found-in__line">840</span>
 </aside>
 
     
@@ -4927,7 +4953,7 @@ it correctly we must escape html entities.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/AbstractSmrAccount.class.php"><a href="files/src-lib-default-abstractsmraccount-class.html"><abbr title="src/lib/Default/AbstractSmrAccount.class.php">AbstractSmrAccount.class.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">537</span>
+    <span class="phpdocumentor-element-found-in__line">541</span>
 </aside>
 
     
@@ -4959,7 +4985,7 @@ it correctly we must escape html entities.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/AbstractSmrAccount.class.php"><a href="files/src-lib-default-abstractsmraccount-class.html"><abbr title="src/lib/Default/AbstractSmrAccount.class.php">AbstractSmrAccount.class.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">542</span>
+    <span class="phpdocumentor-element-found-in__line">546</span>
 </aside>
 
     
@@ -4991,7 +5017,7 @@ it correctly we must escape html entities.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/AbstractSmrAccount.class.php"><a href="files/src-lib-default-abstractsmraccount-class.html"><abbr title="src/lib/Default/AbstractSmrAccount.class.php">AbstractSmrAccount.class.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">731</span>
+    <span class="phpdocumentor-element-found-in__line">735</span>
 </aside>
 
     
@@ -5023,7 +5049,7 @@ it correctly we must escape html entities.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/AbstractSmrAccount.class.php"><a href="files/src-lib-default-abstractsmraccount-class.html"><abbr title="src/lib/Default/AbstractSmrAccount.class.php">AbstractSmrAccount.class.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">1239</span>
+    <span class="phpdocumentor-element-found-in__line">1243</span>
 </aside>
 
     
@@ -5055,7 +5081,7 @@ it correctly we must escape html entities.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/AbstractSmrAccount.class.php"><a href="files/src-lib-default-abstractsmraccount-class.html"><abbr title="src/lib/Default/AbstractSmrAccount.class.php">AbstractSmrAccount.class.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">506</span>
+    <span class="phpdocumentor-element-found-in__line">510</span>
 </aside>
 
     
@@ -5087,7 +5113,7 @@ it correctly we must escape html entities.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/AbstractSmrAccount.class.php"><a href="files/src-lib-default-abstractsmraccount-class.html"><abbr title="src/lib/Default/AbstractSmrAccount.class.php">AbstractSmrAccount.class.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">1244</span>
+    <span class="phpdocumentor-element-found-in__line">1248</span>
 </aside>
 
     
@@ -5119,7 +5145,7 @@ it correctly we must escape html entities.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/AbstractSmrAccount.class.php"><a href="files/src-lib-default-abstractsmraccount-class.html"><abbr title="src/lib/Default/AbstractSmrAccount.class.php">AbstractSmrAccount.class.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">168</span>
+    <span class="phpdocumentor-element-found-in__line">172</span>
 </aside>
 
     
@@ -5161,7 +5187,7 @@ it correctly we must escape html entities.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/AbstractSmrAccount.class.php"><a href="files/src-lib-default-abstractsmraccount-class.html"><abbr title="src/lib/Default/AbstractSmrAccount.class.php">AbstractSmrAccount.class.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">848</span>
+    <span class="phpdocumentor-element-found-in__line">852</span>
 </aside>
 
     
@@ -5193,7 +5219,7 @@ it correctly we must escape html entities.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/AbstractSmrAccount.class.php"><a href="files/src-lib-default-abstractsmraccount-class.html"><abbr title="src/lib/Default/AbstractSmrAccount.class.php">AbstractSmrAccount.class.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">1076</span>
+    <span class="phpdocumentor-element-found-in__line">1080</span>
 </aside>
 
     
@@ -5235,7 +5261,7 @@ it correctly we must escape html entities.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/AbstractSmrAccount.class.php"><a href="files/src-lib-default-abstractsmraccount-class.html"><abbr title="src/lib/Default/AbstractSmrAccount.class.php">AbstractSmrAccount.class.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">478</span>
+    <span class="phpdocumentor-element-found-in__line">482</span>
 </aside>
 
     
@@ -5267,7 +5293,7 @@ it correctly we must escape html entities.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/AbstractSmrAccount.class.php"><a href="files/src-lib-default-abstractsmraccount-class.html"><abbr title="src/lib/Default/AbstractSmrAccount.class.php">AbstractSmrAccount.class.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">1060</span>
+    <span class="phpdocumentor-element-found-in__line">1064</span>
 </aside>
 
     
@@ -5309,7 +5335,7 @@ it correctly we must escape html entities.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/AbstractSmrAccount.class.php"><a href="files/src-lib-default-abstractsmraccount-class.html"><abbr title="src/lib/Default/AbstractSmrAccount.class.php">AbstractSmrAccount.class.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">1012</span>
+    <span class="phpdocumentor-element-found-in__line">1016</span>
 </aside>
 
     
@@ -5358,7 +5384,7 @@ it correctly we must escape html entities.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/AbstractSmrAccount.class.php"><a href="files/src-lib-default-abstractsmraccount-class.html"><abbr title="src/lib/Default/AbstractSmrAccount.class.php">AbstractSmrAccount.class.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">559</span>
+    <span class="phpdocumentor-element-found-in__line">563</span>
 </aside>
 
     
@@ -5400,7 +5426,7 @@ it correctly we must escape html entities.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/AbstractSmrAccount.class.php"><a href="files/src-lib-default-abstractsmraccount-class.html"><abbr title="src/lib/Default/AbstractSmrAccount.class.php">AbstractSmrAccount.class.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">594</span>
+    <span class="phpdocumentor-element-found-in__line">598</span>
 </aside>
 
     
@@ -5442,7 +5468,7 @@ it correctly we must escape html entities.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/AbstractSmrAccount.class.php"><a href="files/src-lib-default-abstractsmraccount-class.html"><abbr title="src/lib/Default/AbstractSmrAccount.class.php">AbstractSmrAccount.class.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">1032</span>
+    <span class="phpdocumentor-element-found-in__line">1036</span>
 </aside>
 
     
@@ -5474,7 +5500,7 @@ it correctly we must escape html entities.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/AbstractSmrAccount.class.php"><a href="files/src-lib-default-abstractsmraccount-class.html"><abbr title="src/lib/Default/AbstractSmrAccount.class.php">AbstractSmrAccount.class.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">965</span>
+    <span class="phpdocumentor-element-found-in__line">969</span>
 </aside>
 
     
@@ -5506,7 +5532,7 @@ it correctly we must escape html entities.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/AbstractSmrAccount.class.php"><a href="files/src-lib-default-abstractsmraccount-class.html"><abbr title="src/lib/Default/AbstractSmrAccount.class.php">AbstractSmrAccount.class.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">249</span>
+    <span class="phpdocumentor-element-found-in__line">253</span>
 </aside>
 
         <p class="phpdocumentor-summary">Check if the account is disabled.</p>
@@ -5540,7 +5566,7 @@ it correctly we must escape html entities.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/AbstractSmrAccount.class.php"><a href="files/src-lib-default-abstractsmraccount-class.html"><abbr title="src/lib/Default/AbstractSmrAccount.class.php">AbstractSmrAccount.class.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">941</span>
+    <span class="phpdocumentor-element-found-in__line">945</span>
 </aside>
 
     
@@ -5572,7 +5598,7 @@ it correctly we must escape html entities.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/AbstractSmrAccount.class.php"><a href="files/src-lib-default-abstractsmraccount-class.html"><abbr title="src/lib/Default/AbstractSmrAccount.class.php">AbstractSmrAccount.class.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">872</span>
+    <span class="phpdocumentor-element-found-in__line">876</span>
 </aside>
 
     
@@ -5604,7 +5630,7 @@ it correctly we must escape html entities.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/AbstractSmrAccount.class.php"><a href="files/src-lib-default-abstractsmraccount-class.html"><abbr title="src/lib/Default/AbstractSmrAccount.class.php">AbstractSmrAccount.class.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">352</span>
+    <span class="phpdocumentor-element-found-in__line">356</span>
 </aside>
 
     
@@ -5636,7 +5662,7 @@ it correctly we must escape html entities.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/AbstractSmrAccount.class.php"><a href="files/src-lib-default-abstractsmraccount-class.html"><abbr title="src/lib/Default/AbstractSmrAccount.class.php">AbstractSmrAccount.class.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">1048</span>
+    <span class="phpdocumentor-element-found-in__line">1052</span>
 </aside>
 
     
@@ -5668,7 +5694,7 @@ it correctly we must escape html entities.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/AbstractSmrAccount.class.php"><a href="files/src-lib-default-abstractsmraccount-class.html"><abbr title="src/lib/Default/AbstractSmrAccount.class.php">AbstractSmrAccount.class.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">366</span>
+    <span class="phpdocumentor-element-found-in__line">370</span>
 </aside>
 
     
@@ -5700,7 +5726,7 @@ it correctly we must escape html entities.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/AbstractSmrAccount.class.php"><a href="files/src-lib-default-abstractsmraccount-class.html"><abbr title="src/lib/Default/AbstractSmrAccount.class.php">AbstractSmrAccount.class.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">996</span>
+    <span class="phpdocumentor-element-found-in__line">1000</span>
 </aside>
 
     
@@ -5742,7 +5768,7 @@ it correctly we must escape html entities.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/AbstractSmrAccount.class.php"><a href="files/src-lib-default-abstractsmraccount-class.html"><abbr title="src/lib/Default/AbstractSmrAccount.class.php">AbstractSmrAccount.class.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">953</span>
+    <span class="phpdocumentor-element-found-in__line">957</span>
 </aside>
 
     
@@ -5774,7 +5800,7 @@ it correctly we must escape html entities.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/AbstractSmrAccount.class.php"><a href="files/src-lib-default-abstractsmraccount-class.html"><abbr title="src/lib/Default/AbstractSmrAccount.class.php">AbstractSmrAccount.class.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">868</span>
+    <span class="phpdocumentor-element-found-in__line">872</span>
 </aside>
 
     
@@ -5806,7 +5832,7 @@ it correctly we must escape html entities.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/AbstractSmrAccount.class.php"><a href="files/src-lib-default-abstractsmraccount-class.html"><abbr title="src/lib/Default/AbstractSmrAccount.class.php">AbstractSmrAccount.class.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">360</span>
+    <span class="phpdocumentor-element-found-in__line">364</span>
 </aside>
 
     
@@ -5838,7 +5864,7 @@ it correctly we must escape html entities.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/AbstractSmrAccount.class.php"><a href="files/src-lib-default-abstractsmraccount-class.html"><abbr title="src/lib/Default/AbstractSmrAccount.class.php">AbstractSmrAccount.class.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">356</span>
+    <span class="phpdocumentor-element-found-in__line">360</span>
 </aside>
 
     
@@ -5870,7 +5896,7 @@ it correctly we must escape html entities.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/AbstractSmrAccount.class.php"><a href="files/src-lib-default-abstractsmraccount-class.html"><abbr title="src/lib/Default/AbstractSmrAccount.class.php">AbstractSmrAccount.class.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">486</span>
+    <span class="phpdocumentor-element-found-in__line">490</span>
 </aside>
 
     
@@ -5926,7 +5952,7 @@ it correctly we must escape html entities.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/AbstractSmrAccount.class.php"><a href="files/src-lib-default-abstractsmraccount-class.html"><abbr title="src/lib/Default/AbstractSmrAccount.class.php">AbstractSmrAccount.class.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">1122</span>
+    <span class="phpdocumentor-element-found-in__line">1126</span>
 </aside>
 
     
@@ -5975,7 +6001,7 @@ it correctly we must escape html entities.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/AbstractSmrAccount.class.php"><a href="files/src-lib-default-abstractsmraccount-class.html"><abbr title="src/lib/Default/AbstractSmrAccount.class.php">AbstractSmrAccount.class.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">604</span>
+    <span class="phpdocumentor-element-found-in__line">608</span>
 </aside>
 
     
@@ -6024,7 +6050,7 @@ it correctly we must escape html entities.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/AbstractSmrAccount.class.php"><a href="files/src-lib-default-abstractsmraccount-class.html"><abbr title="src/lib/Default/AbstractSmrAccount.class.php">AbstractSmrAccount.class.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">684</span>
+    <span class="phpdocumentor-element-found-in__line">688</span>
 </aside>
 
     
@@ -6056,7 +6082,7 @@ it correctly we must escape html entities.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/AbstractSmrAccount.class.php"><a href="files/src-lib-default-abstractsmraccount-class.html"><abbr title="src/lib/Default/AbstractSmrAccount.class.php">AbstractSmrAccount.class.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">1036</span>
+    <span class="phpdocumentor-element-found-in__line">1040</span>
 </aside>
 
     
@@ -6098,7 +6124,7 @@ it correctly we must escape html entities.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/AbstractSmrAccount.class.php"><a href="files/src-lib-default-abstractsmraccount-class.html"><abbr title="src/lib/Default/AbstractSmrAccount.class.php">AbstractSmrAccount.class.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">750</span>
+    <span class="phpdocumentor-element-found-in__line">754</span>
 </aside>
 
     
@@ -6140,7 +6166,7 @@ it correctly we must escape html entities.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/AbstractSmrAccount.class.php"><a href="files/src-lib-default-abstractsmraccount-class.html"><abbr title="src/lib/Default/AbstractSmrAccount.class.php">AbstractSmrAccount.class.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">723</span>
+    <span class="phpdocumentor-element-found-in__line">727</span>
 </aside>
 
     
@@ -6182,7 +6208,7 @@ it correctly we must escape html entities.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/AbstractSmrAccount.class.php"><a href="files/src-lib-default-abstractsmraccount-class.html"><abbr title="src/lib/Default/AbstractSmrAccount.class.php">AbstractSmrAccount.class.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">969</span>
+    <span class="phpdocumentor-element-found-in__line">973</span>
 </aside>
 
     
@@ -6224,7 +6250,7 @@ it correctly we must escape html entities.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/AbstractSmrAccount.class.php"><a href="files/src-lib-default-abstractsmraccount-class.html"><abbr title="src/lib/Default/AbstractSmrAccount.class.php">AbstractSmrAccount.class.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">812</span>
+    <span class="phpdocumentor-element-found-in__line">816</span>
 </aside>
 
     
@@ -6266,7 +6292,7 @@ it correctly we must escape html entities.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/AbstractSmrAccount.class.php"><a href="files/src-lib-default-abstractsmraccount-class.html"><abbr title="src/lib/Default/AbstractSmrAccount.class.php">AbstractSmrAccount.class.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">945</span>
+    <span class="phpdocumentor-element-found-in__line">949</span>
 </aside>
 
     
@@ -6308,7 +6334,7 @@ it correctly we must escape html entities.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/AbstractSmrAccount.class.php"><a href="files/src-lib-default-abstractsmraccount-class.html"><abbr title="src/lib/Default/AbstractSmrAccount.class.php">AbstractSmrAccount.class.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">1183</span>
+    <span class="phpdocumentor-element-found-in__line">1187</span>
 </aside>
 
     
@@ -6350,7 +6376,7 @@ it correctly we must escape html entities.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/AbstractSmrAccount.class.php"><a href="files/src-lib-default-abstractsmraccount-class.html"><abbr title="src/lib/Default/AbstractSmrAccount.class.php">AbstractSmrAccount.class.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">709</span>
+    <span class="phpdocumentor-element-found-in__line">713</span>
 </aside>
 
     
@@ -6392,7 +6418,7 @@ it correctly we must escape html entities.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/AbstractSmrAccount.class.php"><a href="files/src-lib-default-abstractsmraccount-class.html"><abbr title="src/lib/Default/AbstractSmrAccount.class.php">AbstractSmrAccount.class.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">1169</span>
+    <span class="phpdocumentor-element-found-in__line">1173</span>
 </aside>
 
     
@@ -6434,7 +6460,7 @@ it correctly we must escape html entities.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/AbstractSmrAccount.class.php"><a href="files/src-lib-default-abstractsmraccount-class.html"><abbr title="src/lib/Default/AbstractSmrAccount.class.php">AbstractSmrAccount.class.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">788</span>
+    <span class="phpdocumentor-element-found-in__line">792</span>
 </aside>
 
     
@@ -6476,7 +6502,7 @@ it correctly we must escape html entities.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/AbstractSmrAccount.class.php"><a href="files/src-lib-default-abstractsmraccount-class.html"><abbr title="src/lib/Default/AbstractSmrAccount.class.php">AbstractSmrAccount.class.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">988</span>
+    <span class="phpdocumentor-element-found-in__line">992</span>
 </aside>
 
     
@@ -6525,7 +6551,7 @@ it correctly we must escape html entities.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/AbstractSmrAccount.class.php"><a href="files/src-lib-default-abstractsmraccount-class.html"><abbr title="src/lib/Default/AbstractSmrAccount.class.php">AbstractSmrAccount.class.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">800</span>
+    <span class="phpdocumentor-element-found-in__line">804</span>
 </aside>
 
     
@@ -6567,7 +6593,7 @@ it correctly we must escape html entities.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/AbstractSmrAccount.class.php"><a href="files/src-lib-default-abstractsmraccount-class.html"><abbr title="src/lib/Default/AbstractSmrAccount.class.php">AbstractSmrAccount.class.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">344</span>
+    <span class="phpdocumentor-element-found-in__line">348</span>
 </aside>
 
     
@@ -6609,7 +6635,7 @@ it correctly we must escape html entities.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/AbstractSmrAccount.class.php"><a href="files/src-lib-default-abstractsmraccount-class.html"><abbr title="src/lib/Default/AbstractSmrAccount.class.php">AbstractSmrAccount.class.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">1052</span>
+    <span class="phpdocumentor-element-found-in__line">1056</span>
 </aside>
 
     
@@ -6651,7 +6677,7 @@ it correctly we must escape html entities.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/AbstractSmrAccount.class.php"><a href="files/src-lib-default-abstractsmraccount-class.html"><abbr title="src/lib/Default/AbstractSmrAccount.class.php">AbstractSmrAccount.class.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">1004</span>
+    <span class="phpdocumentor-element-found-in__line">1008</span>
 </aside>
 
     
@@ -6700,7 +6726,7 @@ it correctly we must escape html entities.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/AbstractSmrAccount.class.php"><a href="files/src-lib-default-abstractsmraccount-class.html"><abbr title="src/lib/Default/AbstractSmrAccount.class.php">AbstractSmrAccount.class.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">1176</span>
+    <span class="phpdocumentor-element-found-in__line">1180</span>
 </aside>
 
     
@@ -6742,7 +6768,7 @@ it correctly we must escape html entities.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/AbstractSmrAccount.class.php"><a href="files/src-lib-default-abstractsmraccount-class.html"><abbr title="src/lib/Default/AbstractSmrAccount.class.php">AbstractSmrAccount.class.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">904</span>
+    <span class="phpdocumentor-element-found-in__line">908</span>
 </aside>
 
         <p class="phpdocumentor-summary">Set the (plain-text) password for this account.</p>
@@ -6786,7 +6812,7 @@ it correctly we must escape html entities.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/AbstractSmrAccount.class.php"><a href="files/src-lib-default-abstractsmraccount-class.html"><abbr title="src/lib/Default/AbstractSmrAccount.class.php">AbstractSmrAccount.class.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">1107</span>
+    <span class="phpdocumentor-element-found-in__line">1111</span>
 </aside>
 
     
@@ -6835,7 +6861,7 @@ it correctly we must escape html entities.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/AbstractSmrAccount.class.php"><a href="files/src-lib-default-abstractsmraccount-class.html"><abbr title="src/lib/Default/AbstractSmrAccount.class.php">AbstractSmrAccount.class.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">828</span>
+    <span class="phpdocumentor-element-found-in__line">832</span>
 </aside>
 
     
@@ -6877,7 +6903,7 @@ it correctly we must escape html entities.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/AbstractSmrAccount.class.php"><a href="files/src-lib-default-abstractsmraccount-class.html"><abbr title="src/lib/Default/AbstractSmrAccount.class.php">AbstractSmrAccount.class.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">840</span>
+    <span class="phpdocumentor-element-found-in__line">844</span>
 </aside>
 
     
@@ -6919,7 +6945,7 @@ it correctly we must escape html entities.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/AbstractSmrAccount.class.php"><a href="files/src-lib-default-abstractsmraccount-class.html"><abbr title="src/lib/Default/AbstractSmrAccount.class.php">AbstractSmrAccount.class.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">547</span>
+    <span class="phpdocumentor-element-found-in__line">551</span>
 </aside>
 
     
@@ -6961,7 +6987,7 @@ it correctly we must escape html entities.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/AbstractSmrAccount.class.php"><a href="files/src-lib-default-abstractsmraccount-class.html"><abbr title="src/lib/Default/AbstractSmrAccount.class.php">AbstractSmrAccount.class.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">582</span>
+    <span class="phpdocumentor-element-found-in__line">586</span>
 </aside>
 
     
@@ -7003,7 +7029,7 @@ it correctly we must escape html entities.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/AbstractSmrAccount.class.php"><a href="files/src-lib-default-abstractsmraccount-class.html"><abbr title="src/lib/Default/AbstractSmrAccount.class.php">AbstractSmrAccount.class.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">735</span>
+    <span class="phpdocumentor-element-found-in__line">739</span>
 </aside>
 
     
@@ -7045,7 +7071,7 @@ it correctly we must escape html entities.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/AbstractSmrAccount.class.php"><a href="files/src-lib-default-abstractsmraccount-class.html"><abbr title="src/lib/Default/AbstractSmrAccount.class.php">AbstractSmrAccount.class.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">957</span>
+    <span class="phpdocumentor-element-found-in__line">961</span>
 </aside>
 
     
@@ -7087,7 +7113,7 @@ it correctly we must escape html entities.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/AbstractSmrAccount.class.php"><a href="files/src-lib-default-abstractsmraccount-class.html"><abbr title="src/lib/Default/AbstractSmrAccount.class.php">AbstractSmrAccount.class.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">860</span>
+    <span class="phpdocumentor-element-found-in__line">864</span>
 </aside>
 
     
@@ -7129,7 +7155,7 @@ it correctly we must escape html entities.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/AbstractSmrAccount.class.php"><a href="files/src-lib-default-abstractsmraccount-class.html"><abbr title="src/lib/Default/AbstractSmrAccount.class.php">AbstractSmrAccount.class.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">1218</span>
+    <span class="phpdocumentor-element-found-in__line">1222</span>
 </aside>
 
     
@@ -7178,7 +7204,7 @@ it correctly we must escape html entities.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/AbstractSmrAccount.class.php"><a href="files/src-lib-default-abstractsmraccount-class.html"><abbr title="src/lib/Default/AbstractSmrAccount.class.php">AbstractSmrAccount.class.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">271</span>
+    <span class="phpdocumentor-element-found-in__line">275</span>
 </aside>
 
     
@@ -7210,7 +7236,7 @@ it correctly we must escape html entities.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/AbstractSmrAccount.class.php"><a href="files/src-lib-default-abstractsmraccount-class.html"><abbr title="src/lib/Default/AbstractSmrAccount.class.php">AbstractSmrAccount.class.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">303</span>
+    <span class="phpdocumentor-element-found-in__line">307</span>
 </aside>
 
     
@@ -7242,7 +7268,7 @@ it correctly we must escape html entities.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/AbstractSmrAccount.class.php"><a href="files/src-lib-default-abstractsmraccount-class.html"><abbr title="src/lib/Default/AbstractSmrAccount.class.php">AbstractSmrAccount.class.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">331</span>
+    <span class="phpdocumentor-element-found-in__line">335</span>
 </aside>
 
     
@@ -7274,7 +7300,7 @@ it correctly we must escape html entities.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/AbstractSmrAccount.class.php"><a href="files/src-lib-default-abstractsmraccount-class.html"><abbr title="src/lib/Default/AbstractSmrAccount.class.php">AbstractSmrAccount.class.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">180</span>
+    <span class="phpdocumentor-element-found-in__line">184</span>
 </aside>
 
     
@@ -7316,7 +7342,7 @@ it correctly we must escape html entities.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/AbstractSmrAccount.class.php"><a href="files/src-lib-default-abstractsmraccount-class.html"><abbr title="src/lib/Default/AbstractSmrAccount.class.php">AbstractSmrAccount.class.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">374</span>
+    <span class="phpdocumentor-element-found-in__line">378</span>
 </aside>
 
     
@@ -7348,7 +7374,7 @@ it correctly we must escape html entities.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/AbstractSmrAccount.class.php"><a href="files/src-lib-default-abstractsmraccount-class.html"><abbr title="src/lib/Default/AbstractSmrAccount.class.php">AbstractSmrAccount.class.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">494</span>
+    <span class="phpdocumentor-element-found-in__line">498</span>
 </aside>
 
     
@@ -7380,7 +7406,7 @@ it correctly we must escape html entities.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/AbstractSmrAccount.class.php"><a href="files/src-lib-default-abstractsmraccount-class.html"><abbr title="src/lib/Default/AbstractSmrAccount.class.php">AbstractSmrAccount.class.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">642</span>
+    <span class="phpdocumentor-element-found-in__line">646</span>
 </aside>
 
     
@@ -7422,7 +7448,7 @@ it correctly we must escape html entities.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/AbstractSmrAccount.class.php"><a href="files/src-lib-default-abstractsmraccount-class.html"><abbr title="src/lib/Default/AbstractSmrAccount.class.php">AbstractSmrAccount.class.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">933</span>
+    <span class="phpdocumentor-element-found-in__line">937</span>
 </aside>
 
     
@@ -7464,7 +7490,7 @@ it correctly we must escape html entities.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/AbstractSmrAccount.class.php"><a href="files/src-lib-default-abstractsmraccount-class.html"><abbr title="src/lib/Default/AbstractSmrAccount.class.php">AbstractSmrAccount.class.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">852</span>
+    <span class="phpdocumentor-element-found-in__line">856</span>
 </aside>
 
     
@@ -7506,7 +7532,7 @@ it correctly we must escape html entities.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/AbstractSmrAccount.class.php"><a href="files/src-lib-default-abstractsmraccount-class.html"><abbr title="src/lib/Default/AbstractSmrAccount.class.php">AbstractSmrAccount.class.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">461</span>
+    <span class="phpdocumentor-element-found-in__line">465</span>
 </aside>
 
     

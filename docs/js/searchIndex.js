@@ -101,6 +101,11 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/AbstractSmrAccount.html#method_getDefaultHotkeys"
         },                {
+            "fqsen": "\\AbstractSmrAccount\u003A\u003AclearCache\u0028\u0029",
+            "name": "clearCache",
+            "summary": "",
+            "url": "classes/AbstractSmrAccount.html#method_clearCache"
+        },                {
             "fqsen": "\\AbstractSmrAccount\u003A\u003AgetAccount\u0028\u0029",
             "name": "getAccount",
             "summary": "",
@@ -203,7 +208,7 @@ Search.appendIndex(
         },                {
             "fqsen": "\\AbstractSmrAccount\u003A\u003AgetHOF\u0028\u0029",
             "name": "getHOF",
-            "summary": "",
+            "summary": "Returns\u0020either\u0020the\u0020entire\u0020HOF\u0020array\u0020or\u0020the\u0020value\u0020for\u0020the\u0020given\u0020typeList.",
             "url": "classes/AbstractSmrAccount.html#method_getHOF"
         },                {
             "fqsen": "\\AbstractSmrAccount\u003A\u003AgetRankName\u0028\u0029",
@@ -7596,10 +7601,10 @@ Search.appendIndex(
             "summary": "Designate\u0020a\u0020player\u0020as\u0020the\u0020alliance\u0020flagship\u0020by\u0020their\u0020account\u0020ID.",
             "url": "classes/SmrAlliance.html#method_setFlagshipID"
         },                {
-            "fqsen": "\\SmrAlliance\u003A\u003AcanJoinAlliance\u0028\u0029",
-            "name": "canJoinAlliance",
+            "fqsen": "\\SmrAlliance\u003A\u003AgetJoinRestriction\u0028\u0029",
+            "name": "getJoinRestriction",
             "summary": "",
-            "url": "classes/SmrAlliance.html#method_canJoinAlliance"
+            "url": "classes/SmrAlliance.html#method_getJoinRestriction"
         },                {
             "fqsen": "\\SmrAlliance\u003A\u003AgetNumVeterans\u0028\u0029",
             "name": "getNumVeterans",
@@ -12353,7 +12358,7 @@ Search.appendIndex(
         },                {
             "fqsen": "\\Smr\\Container\\DiContainer",
             "name": "DiContainer",
-            "summary": "Class\u0020DiContainer\nA\u0020wrapper\u0020around\u0020the\u0020DI\\Container\u0020functionality\u0020that\u0020will\u0020allow\nstatic\u0020usage\u0020of\u0020container\u0020methods.",
+            "summary": "A\u0020wrapper\u0020around\u0020the\u0020DI\\Container\u0020functionality\u0020that\u0020will\u0020allow\nstatic\u0020usage\u0020of\u0020container\u0020methods.",
             "url": "classes/Smr-Container-DiContainer.html"
         },                {
             "fqsen": "\\Smr\\Container\\DiContainer\u003A\u003A__construct\u0028\u0029",
