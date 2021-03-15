@@ -4098,7 +4098,7 @@ Search.appendIndex(
         },                {
             "fqsen": "\\AbstractSmrShip",
             "name": "AbstractSmrShip",
-            "summary": "",
+            "summary": "Properties\u0020and\u0020methods\u0020for\u0020a\u0020ship\u0020instance.",
             "url": "classes/AbstractSmrShip.html"
         },                {
             "fqsen": "\\AbstractSmrShip\u003A\u003AgetBaseShip\u0028\u0029",
@@ -4296,31 +4296,6 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/AbstractSmrShip.html#method_giveStarterShip"
         },                {
-            "fqsen": "\\AbstractSmrShip\u003A\u003AhasCloak\u0028\u0029",
-            "name": "hasCloak",
-            "summary": "",
-            "url": "classes/AbstractSmrShip.html#method_hasCloak"
-        },                {
-            "fqsen": "\\AbstractSmrShip\u003A\u003AcanHaveCloak\u0028\u0029",
-            "name": "canHaveCloak",
-            "summary": "",
-            "url": "classes/AbstractSmrShip.html#method_canHaveCloak"
-        },                {
-            "fqsen": "\\AbstractSmrShip\u003A\u003AhasActiveIllusion\u0028\u0029",
-            "name": "hasActiveIllusion",
-            "summary": "",
-            "url": "classes/AbstractSmrShip.html#method_hasActiveIllusion"
-        },                {
-            "fqsen": "\\AbstractSmrShip\u003A\u003AhasIllusion\u0028\u0029",
-            "name": "hasIllusion",
-            "summary": "",
-            "url": "classes/AbstractSmrShip.html#method_hasIllusion"
-        },                {
-            "fqsen": "\\AbstractSmrShip\u003A\u003AcanHaveIllusion\u0028\u0029",
-            "name": "canHaveIllusion",
-            "summary": "",
-            "url": "classes/AbstractSmrShip.html#method_canHaveIllusion"
-        },                {
             "fqsen": "\\AbstractSmrShip\u003A\u003AhasJump\u0028\u0029",
             "name": "hasJump",
             "summary": "",
@@ -4351,6 +4326,21 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/AbstractSmrShip.html#method_canHaveScanner"
         },                {
+            "fqsen": "\\AbstractSmrShip\u003A\u003AhasCloak\u0028\u0029",
+            "name": "hasCloak",
+            "summary": "",
+            "url": "classes/AbstractSmrShip.html#method_hasCloak"
+        },                {
+            "fqsen": "\\AbstractSmrShip\u003A\u003AcanHaveCloak\u0028\u0029",
+            "name": "canHaveCloak",
+            "summary": "",
+            "url": "classes/AbstractSmrShip.html#method_canHaveCloak"
+        },                {
+            "fqsen": "\\AbstractSmrShip\u003A\u003A\u0024isCloaked",
+            "name": "isCloaked",
+            "summary": "",
+            "url": "classes/AbstractSmrShip.html#property_isCloaked"
+        },                {
             "fqsen": "\\AbstractSmrShip\u003A\u003Adecloak\u0028\u0029",
             "name": "decloak",
             "summary": "",
@@ -4360,6 +4350,26 @@ Search.appendIndex(
             "name": "enableCloak",
             "summary": "",
             "url": "classes/AbstractSmrShip.html#method_enableCloak"
+        },                {
+            "fqsen": "\\AbstractSmrShip\u003A\u003AhasIllusion\u0028\u0029",
+            "name": "hasIllusion",
+            "summary": "",
+            "url": "classes/AbstractSmrShip.html#method_hasIllusion"
+        },                {
+            "fqsen": "\\AbstractSmrShip\u003A\u003AcanHaveIllusion\u0028\u0029",
+            "name": "canHaveIllusion",
+            "summary": "",
+            "url": "classes/AbstractSmrShip.html#method_canHaveIllusion"
+        },                {
+            "fqsen": "\\AbstractSmrShip\u003A\u003AgetIllusionShip\u0028\u0029",
+            "name": "getIllusionShip",
+            "summary": "",
+            "url": "classes/AbstractSmrShip.html#method_getIllusionShip"
+        },                {
+            "fqsen": "\\AbstractSmrShip\u003A\u003AhasActiveIllusion\u0028\u0029",
+            "name": "hasActiveIllusion",
+            "summary": "",
+            "url": "classes/AbstractSmrShip.html#method_hasActiveIllusion"
         },                {
             "fqsen": "\\AbstractSmrShip\u003A\u003AsetIllusion\u0028\u0029",
             "name": "setIllusion",
@@ -4381,11 +4391,6 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/AbstractSmrShip.html#method_getIllusionShipName"
         },                {
-            "fqsen": "\\AbstractSmrShip\u003A\u003AgetIllusionShip\u0028\u0029",
-            "name": "getIllusionShip",
-            "summary": "",
-            "url": "classes/AbstractSmrShip.html#method_getIllusionShip"
-        },                {
             "fqsen": "\\AbstractSmrShip\u003A\u003AgetIllusionAttack\u0028\u0029",
             "name": "getIllusionAttack",
             "summary": "",
@@ -4400,6 +4405,11 @@ Search.appendIndex(
             "name": "getPlayer",
             "summary": "",
             "url": "classes/AbstractSmrShip.html#method_getPlayer"
+        },                {
+            "fqsen": "\\AbstractSmrShip\u003A\u003AgetAccountID\u0028\u0029",
+            "name": "getAccountID",
+            "summary": "",
+            "url": "classes/AbstractSmrShip.html#method_getAccountID"
         },                {
             "fqsen": "\\AbstractSmrShip\u003A\u003AgetGameID\u0028\u0029",
             "name": "getGameID",
@@ -4896,6 +4906,11 @@ Search.appendIndex(
             "summary": "Returns\u0020the\u0020maneuverability\u0020rating\u0020for\u0020this\u0020ship.",
             "url": "classes/AbstractSmrShip.html#method_getMR"
         },                {
+            "fqsen": "\\AbstractSmrShip\u003A\u003ASHIP_CLASS_HUNTER",
+            "name": "SHIP_CLASS_HUNTER",
+            "summary": "",
+            "url": "classes/AbstractSmrShip.html#constant_SHIP_CLASS_HUNTER"
+        },                {
             "fqsen": "\\AbstractSmrShip\u003A\u003ASHIP_CLASS_RAIDER",
             "name": "SHIP_CLASS_RAIDER",
             "summary": "",
@@ -4990,6 +5005,16 @@ Search.appendIndex(
             "name": "hasChangedHardware",
             "summary": "",
             "url": "classes/AbstractSmrShip.html#property_hasChangedHardware"
+        },                {
+            "fqsen": "\\AbstractSmrShip\u003A\u003A\u0024hasChangedCloak",
+            "name": "hasChangedCloak",
+            "summary": "",
+            "url": "classes/AbstractSmrShip.html#property_hasChangedCloak"
+        },                {
+            "fqsen": "\\AbstractSmrShip\u003A\u003A\u0024hasChangedIllusion",
+            "name": "hasChangedIllusion",
+            "summary": "",
+            "url": "classes/AbstractSmrShip.html#property_hasChangedIllusion"
         },                {
             "fqsen": "\\AdminPermissions",
             "name": "AdminPermissions",
@@ -5923,48 +5948,13 @@ Search.appendIndex(
         },                {
             "fqsen": "\\DummyShip",
             "name": "DummyShip",
-            "summary": "",
+            "summary": "Properties\u0020and\u0020methods\u0020for\u0020a\u0020ship\u0020instance.",
             "url": "classes/DummyShip.html"
         },                {
             "fqsen": "\\DummyShip\u003A\u003A__construct\u0028\u0029",
             "name": "__construct",
             "summary": "",
             "url": "classes/DummyShip.html#method___construct"
-        },                {
-            "fqsen": "\\DummyShip\u003A\u003AdoFullUNO\u0028\u0029",
-            "name": "doFullUNO",
-            "summary": "",
-            "url": "classes/DummyShip.html#method_doFullUNO"
-        },                {
-            "fqsen": "\\DummyShip\u003A\u003Aregenerate\u0028\u0029",
-            "name": "regenerate",
-            "summary": "",
-            "url": "classes/DummyShip.html#method_regenerate"
-        },                {
-            "fqsen": "\\DummyShip\u003A\u003Adecloak\u0028\u0029",
-            "name": "decloak",
-            "summary": "",
-            "url": "classes/DummyShip.html#method_decloak"
-        },                {
-            "fqsen": "\\DummyShip\u003A\u003AenableCloak\u0028\u0029",
-            "name": "enableCloak",
-            "summary": "",
-            "url": "classes/DummyShip.html#method_enableCloak"
-        },                {
-            "fqsen": "\\DummyShip\u003A\u003AsetIllusion\u0028\u0029",
-            "name": "setIllusion",
-            "summary": "",
-            "url": "classes/DummyShip.html#method_setIllusion"
-        },                {
-            "fqsen": "\\DummyShip\u003A\u003AdisableIllusion\u0028\u0029",
-            "name": "disableIllusion",
-            "summary": "",
-            "url": "classes/DummyShip.html#method_disableIllusion"
-        },                {
-            "fqsen": "\\DummyShip\u003A\u003AgetIllusionShip\u0028\u0029",
-            "name": "getIllusionShip",
-            "summary": "",
-            "url": "classes/DummyShip.html#method_getIllusionShip"
         },                {
             "fqsen": "\\DummyShip\u003A\u003AcacheDummyShip\u0028\u0029",
             "name": "cacheDummyShip",
@@ -5985,11 +5975,6 @@ Search.appendIndex(
             "name": "__sleep",
             "summary": "",
             "url": "classes/DummyShip.html#method___sleep"
-        },                {
-            "fqsen": "\\DummyShip\u003A\u003A__wakeup\u0028\u0029",
-            "name": "__wakeup",
-            "summary": "",
-            "url": "classes/DummyShip.html#method___wakeup"
         },                {
             "fqsen": "\\DummyShip\u003A\u003A\u0024CACHED_DUMMY_SHIPS",
             "name": "CACHED_DUMMY_SHIPS",
@@ -11443,7 +11428,7 @@ Search.appendIndex(
         },                {
             "fqsen": "\\SmrShip",
             "name": "SmrShip",
-            "summary": "",
+            "summary": "Adds\u0020a\u0020database\u0020layer\u0020to\u0020an\u0020AbstractSmrShip\u0020instance.",
             "url": "classes/SmrShip.html"
         },                {
             "fqsen": "\\SmrShip\u003A\u003ArefreshCache\u0028\u0029",
@@ -11471,25 +11456,25 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/SmrShip.html#method___construct"
         },                {
+            "fqsen": "\\SmrShip\u003A\u003Aupdate\u0028\u0029",
+            "name": "update",
+            "summary": "",
+            "url": "classes/SmrShip.html#method_update"
+        },                {
             "fqsen": "\\SmrShip\u003A\u003AloadWeapons\u0028\u0029",
             "name": "loadWeapons",
             "summary": "Initialize\u0020the\u0020weapons\u0020onboard\u0020this\u0020ship.",
             "url": "classes/SmrShip.html#method_loadWeapons"
-        },                {
-            "fqsen": "\\SmrShip\u003A\u003AloadCargo\u0028\u0029",
-            "name": "loadCargo",
-            "summary": "",
-            "url": "classes/SmrShip.html#method_loadCargo"
         },                {
             "fqsen": "\\SmrShip\u003A\u003AloadHardware\u0028\u0029",
             "name": "loadHardware",
             "summary": "",
             "url": "classes/SmrShip.html#method_loadHardware"
         },                {
-            "fqsen": "\\SmrShip\u003A\u003AgetAccountID\u0028\u0029",
-            "name": "getAccountID",
+            "fqsen": "\\SmrShip\u003A\u003AloadCargo\u0028\u0029",
+            "name": "loadCargo",
             "summary": "",
-            "url": "classes/SmrShip.html#method_getAccountID"
+            "url": "classes/SmrShip.html#method_loadCargo"
         },                {
             "fqsen": "\\SmrShip\u003A\u003AupdateCargo\u0028\u0029",
             "name": "updateCargo",
@@ -11501,60 +11486,35 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/SmrShip.html#method_updateHardware"
         },                {
-            "fqsen": "\\SmrShip\u003A\u003AupdateWeapon\u0028\u0029",
-            "name": "updateWeapon",
+            "fqsen": "\\SmrShip\u003A\u003AupdateWeapons\u0028\u0029",
+            "name": "updateWeapons",
             "summary": "",
-            "url": "classes/SmrShip.html#method_updateWeapon"
+            "url": "classes/SmrShip.html#method_updateWeapons"
         },                {
-            "fqsen": "\\SmrShip\u003A\u003Aupdate\u0028\u0029",
-            "name": "update",
+            "fqsen": "\\SmrShip\u003A\u003AloadCloak\u0028\u0029",
+            "name": "loadCloak",
             "summary": "",
-            "url": "classes/SmrShip.html#method_update"
+            "url": "classes/SmrShip.html#method_loadCloak"
         },                {
-            "fqsen": "\\SmrShip\u003A\u003A\u0024isCloaked",
-            "name": "isCloaked",
+            "fqsen": "\\SmrShip\u003A\u003AupdateCloak\u0028\u0029",
+            "name": "updateCloak",
             "summary": "",
-            "url": "classes/SmrShip.html#property_isCloaked"
+            "url": "classes/SmrShip.html#method_updateCloak"
         },                {
-            "fqsen": "\\SmrShip\u003A\u003Adecloak\u0028\u0029",
-            "name": "decloak",
+            "fqsen": "\\SmrShip\u003A\u003AloadIllusion\u0028\u0029",
+            "name": "loadIllusion",
             "summary": "",
-            "url": "classes/SmrShip.html#method_decloak"
+            "url": "classes/SmrShip.html#method_loadIllusion"
         },                {
-            "fqsen": "\\SmrShip\u003A\u003AenableCloak\u0028\u0029",
-            "name": "enableCloak",
+            "fqsen": "\\SmrShip\u003A\u003AupdateIllusion\u0028\u0029",
+            "name": "updateIllusion",
             "summary": "",
-            "url": "classes/SmrShip.html#method_enableCloak"
-        },                {
-            "fqsen": "\\SmrShip\u003A\u003AcloakOverload\u0028\u0029",
-            "name": "cloakOverload",
-            "summary": "",
-            "url": "classes/SmrShip.html#method_cloakOverload"
-        },                {
-            "fqsen": "\\SmrShip\u003A\u003AsetIllusion\u0028\u0029",
-            "name": "setIllusion",
-            "summary": "",
-            "url": "classes/SmrShip.html#method_setIllusion"
-        },                {
-            "fqsen": "\\SmrShip\u003A\u003AdisableIllusion\u0028\u0029",
-            "name": "disableIllusion",
-            "summary": "",
-            "url": "classes/SmrShip.html#method_disableIllusion"
-        },                {
-            "fqsen": "\\SmrShip\u003A\u003AgetIllusionShip\u0028\u0029",
-            "name": "getIllusionShip",
-            "summary": "",
-            "url": "classes/SmrShip.html#method_getIllusionShip"
+            "url": "classes/SmrShip.html#method_updateIllusion"
         },                {
             "fqsen": "\\SmrShip\u003A\u003A\u0024CACHE_SHIPS",
             "name": "CACHE_SHIPS",
             "summary": "",
             "url": "classes/SmrShip.html#property_CACHE_SHIPS"
-        },                {
-            "fqsen": "\\SmrShip\u003A\u003A\u0024db",
-            "name": "db",
-            "summary": "",
-            "url": "classes/SmrShip.html#property_db"
         },                {
             "fqsen": "\\SmrShip\u003A\u003A\u0024SQL",
             "name": "SQL",
