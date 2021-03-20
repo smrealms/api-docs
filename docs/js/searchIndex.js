@@ -2521,6 +2521,21 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/AbstractSmrPlayer.html#method_computeRanking"
         },                {
+            "fqsen": "\\AbstractSmrPlayer\u003A\u003AisUnderAttack\u0028\u0029",
+            "name": "isUnderAttack",
+            "summary": "",
+            "url": "classes/AbstractSmrPlayer.html#method_isUnderAttack"
+        },                {
+            "fqsen": "\\AbstractSmrPlayer\u003A\u003AsetUnderAttack\u0028\u0029",
+            "name": "setUnderAttack",
+            "summary": "",
+            "url": "classes/AbstractSmrPlayer.html#method_setUnderAttack"
+        },                {
+            "fqsen": "\\AbstractSmrPlayer\u003A\u003AremoveUnderAttack\u0028\u0029",
+            "name": "removeUnderAttack",
+            "summary": "",
+            "url": "classes/AbstractSmrPlayer.html#method_removeUnderAttack"
+        },                {
             "fqsen": "\\AbstractSmrPlayer\u003A\u003AkillPlayer\u0028\u0029",
             "name": "killPlayer",
             "summary": "",
@@ -3205,6 +3220,11 @@ Search.appendIndex(
             "name": "canFed",
             "summary": "",
             "url": "classes/AbstractSmrPlayer.html#property_canFed"
+        },                {
+            "fqsen": "\\AbstractSmrPlayer\u003A\u003A\u0024underAttack",
+            "name": "underAttack",
+            "summary": "",
+            "url": "classes/AbstractSmrPlayer.html#property_underAttack"
         },                {
             "fqsen": "\\AbstractSmrPlayer\u003A\u003A\u0024visitedSectors",
             "name": "visitedSectors",
@@ -4491,16 +4511,6 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/AbstractSmrShip.html#method_increaseHardware"
         },                {
-            "fqsen": "\\AbstractSmrShip\u003A\u003AgetOldHardware\u0028\u0029",
-            "name": "getOldHardware",
-            "summary": "",
-            "url": "classes/AbstractSmrShip.html#method_getOldHardware"
-        },                {
-            "fqsen": "\\AbstractSmrShip\u003A\u003AsetOldHardware\u0028\u0029",
-            "name": "setOldHardware",
-            "summary": "",
-            "url": "classes/AbstractSmrShip.html#method_setOldHardware"
-        },                {
             "fqsen": "\\AbstractSmrShip\u003A\u003AhasMaxHardware\u0028\u0029",
             "name": "hasMaxHardware",
             "summary": "",
@@ -4531,25 +4541,10 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/AbstractSmrShip.html#method_increaseShields"
         },                {
-            "fqsen": "\\AbstractSmrShip\u003A\u003AgetOldShields\u0028\u0029",
-            "name": "getOldShields",
-            "summary": "",
-            "url": "classes/AbstractSmrShip.html#method_getOldShields"
-        },                {
-            "fqsen": "\\AbstractSmrShip\u003A\u003AsetOldShields\u0028\u0029",
-            "name": "setOldShields",
-            "summary": "",
-            "url": "classes/AbstractSmrShip.html#method_setOldShields"
-        },                {
             "fqsen": "\\AbstractSmrShip\u003A\u003AhasShields\u0028\u0029",
             "name": "hasShields",
             "summary": "",
             "url": "classes/AbstractSmrShip.html#method_hasShields"
-        },                {
-            "fqsen": "\\AbstractSmrShip\u003A\u003AhasLostShields\u0028\u0029",
-            "name": "hasLostShields",
-            "summary": "",
-            "url": "classes/AbstractSmrShip.html#method_hasLostShields"
         },                {
             "fqsen": "\\AbstractSmrShip\u003A\u003AhasMaxShields\u0028\u0029",
             "name": "hasMaxShields",
@@ -4581,25 +4576,10 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/AbstractSmrShip.html#method_increaseArmour"
         },                {
-            "fqsen": "\\AbstractSmrShip\u003A\u003AgetOldArmour\u0028\u0029",
-            "name": "getOldArmour",
-            "summary": "",
-            "url": "classes/AbstractSmrShip.html#method_getOldArmour"
-        },                {
-            "fqsen": "\\AbstractSmrShip\u003A\u003AsetOldArmour\u0028\u0029",
-            "name": "setOldArmour",
-            "summary": "",
-            "url": "classes/AbstractSmrShip.html#method_setOldArmour"
-        },                {
             "fqsen": "\\AbstractSmrShip\u003A\u003AhasArmour\u0028\u0029",
             "name": "hasArmour",
             "summary": "",
             "url": "classes/AbstractSmrShip.html#method_hasArmour"
-        },                {
-            "fqsen": "\\AbstractSmrShip\u003A\u003AhasLostArmour\u0028\u0029",
-            "name": "hasLostArmour",
-            "summary": "",
-            "url": "classes/AbstractSmrShip.html#method_hasLostArmour"
         },                {
             "fqsen": "\\AbstractSmrShip\u003A\u003AhasMaxArmour\u0028\u0029",
             "name": "hasMaxArmour",
@@ -4658,28 +4638,13 @@ Search.appendIndex(
         },                {
             "fqsen": "\\AbstractSmrShip\u003A\u003AdecreaseCDs\u0028\u0029",
             "name": "decreaseCDs",
-            "summary": "Decreases\u0020the\u0020ship\u0020CDs.\u0020Use\u0020\u0024updateOldAmount\u003Dtrue\u0020to\u0020prevent\nthis\u0020change\u0020from\u0020triggering\u0020\u0060isUnderAttack\u0060.",
+            "summary": "",
             "url": "classes/AbstractSmrShip.html#method_decreaseCDs"
         },                {
             "fqsen": "\\AbstractSmrShip\u003A\u003AincreaseCDs\u0028\u0029",
             "name": "increaseCDs",
             "summary": "",
             "url": "classes/AbstractSmrShip.html#method_increaseCDs"
-        },                {
-            "fqsen": "\\AbstractSmrShip\u003A\u003AgetOldCDs\u0028\u0029",
-            "name": "getOldCDs",
-            "summary": "",
-            "url": "classes/AbstractSmrShip.html#method_getOldCDs"
-        },                {
-            "fqsen": "\\AbstractSmrShip\u003A\u003AsetOldCDs\u0028\u0029",
-            "name": "setOldCDs",
-            "summary": "",
-            "url": "classes/AbstractSmrShip.html#method_setOldCDs"
-        },                {
-            "fqsen": "\\AbstractSmrShip\u003A\u003AhasLostCDs\u0028\u0029",
-            "name": "hasLostCDs",
-            "summary": "",
-            "url": "classes/AbstractSmrShip.html#method_hasLostCDs"
         },                {
             "fqsen": "\\AbstractSmrShip\u003A\u003AgetMaxCDs\u0028\u0029",
             "name": "getMaxCDs",
@@ -4790,16 +4755,6 @@ Search.appendIndex(
             "name": "getMaxCargoHolds",
             "summary": "",
             "url": "classes/AbstractSmrShip.html#method_getMaxCargoHolds"
-        },                {
-            "fqsen": "\\AbstractSmrShip\u003A\u003AisUnderAttack\u0028\u0029",
-            "name": "isUnderAttack",
-            "summary": "",
-            "url": "classes/AbstractSmrShip.html#method_isUnderAttack"
-        },                {
-            "fqsen": "\\AbstractSmrShip\u003A\u003AremoveUnderAttack\u0028\u0029",
-            "name": "removeUnderAttack",
-            "summary": "",
-            "url": "classes/AbstractSmrShip.html#method_removeUnderAttack"
         },                {
             "fqsen": "\\AbstractSmrShip\u003A\u003AhasWeapons\u0028\u0029",
             "name": "hasWeapons",
@@ -4966,25 +4921,20 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/AbstractSmrShip.html#property_baseShip"
         },                {
-            "fqsen": "\\AbstractSmrShip\u003A\u003A\u0024hardware",
-            "name": "hardware",
+            "fqsen": "\\AbstractSmrShip\u003A\u003A\u0024weapons",
+            "name": "weapons",
             "summary": "",
-            "url": "classes/AbstractSmrShip.html#property_hardware"
-        },                {
-            "fqsen": "\\AbstractSmrShip\u003A\u003A\u0024oldHardware",
-            "name": "oldHardware",
-            "summary": "",
-            "url": "classes/AbstractSmrShip.html#property_oldHardware"
+            "url": "classes/AbstractSmrShip.html#property_weapons"
         },                {
             "fqsen": "\\AbstractSmrShip\u003A\u003A\u0024cargo",
             "name": "cargo",
             "summary": "",
             "url": "classes/AbstractSmrShip.html#property_cargo"
         },                {
-            "fqsen": "\\AbstractSmrShip\u003A\u003A\u0024weapons",
-            "name": "weapons",
+            "fqsen": "\\AbstractSmrShip\u003A\u003A\u0024hardware",
+            "name": "hardware",
             "summary": "",
-            "url": "classes/AbstractSmrShip.html#property_weapons"
+            "url": "classes/AbstractSmrShip.html#property_hardware"
         },                {
             "fqsen": "\\AbstractSmrShip\u003A\u003A\u0024illusionShip",
             "name": "illusionShip",
