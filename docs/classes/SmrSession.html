@@ -167,7 +167,6 @@
     &#039;feature_request.php&#039; =&gt; self::ALWAYS_AVAILABLE,
     &#039;forces_list.php&#039; =&gt; self::ALWAYS_AVAILABLE,
     &#039;forces_mass_refresh.php&#039; =&gt; self::ALWAYS_AVAILABLE,
-    &#039;government.php&#039; =&gt; 1,
     &#039;hall_of_fame_player_new.php&#039; =&gt; self::ALWAYS_AVAILABLE,
     &#039;hall_of_fame_player_detail.php&#039; =&gt; self::ALWAYS_AVAILABLE,
     &#039;leave_newbie.php&#039; =&gt; self::ALWAYS_AVAILABLE,
@@ -176,7 +175,7 @@
     &#039;message_view.php&#039; =&gt; self::ALWAYS_AVAILABLE,
     &#039;message_send.php&#039; =&gt; self::ALWAYS_AVAILABLE,
     &#039;news_read_advanced.php&#039; =&gt; self::ALWAYS_AVAILABLE,
-    &#039;news_read_current.php&#039; =&gt; 1,
+    &#039;news_read_current.php&#039; =&gt; self::ALWAYS_AVAILABLE,
     &#039;news_read.php&#039; =&gt; self::ALWAYS_AVAILABLE,
     &#039;planet_construction.php&#039; =&gt; self::ALWAYS_AVAILABLE,
     &#039;planet_defense.php&#039; =&gt; self::ALWAYS_AVAILABLE,
@@ -200,7 +199,6 @@
     &#039;rankings_race.php&#039; =&gt; self::ALWAYS_AVAILABLE,
     &#039;rankings_sector_kill.php&#039; =&gt; self::ALWAYS_AVAILABLE,
     &#039;rankings_view.php&#039; =&gt; self::ALWAYS_AVAILABLE,
-    &#039;sector_scan.php&#039; =&gt; self::ALWAYS_AVAILABLE,
     &#039;trader_bounties.php&#039; =&gt; self::ALWAYS_AVAILABLE,
     &#039;trader_relations.php&#039; =&gt; self::ALWAYS_AVAILABLE,
     &#039;trader_savings.php&#039; =&gt; self::ALWAYS_AVAILABLE,
@@ -247,63 +245,63 @@
                 <dt class="phpdocumentor-table-of-contents__entry -property -public">
     <a href="classes/SmrSession.html#property_last_accessed">$last_accessed</a>
     <span>
-                &nbsp;: mixed            </span>
+                &nbsp;: int            </span>
 </dt>
 <dd></dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -property -protected">
     <a href="classes/SmrSession.html#property_ajaxReturns">$ajaxReturns</a>
     <span>
-                &nbsp;: mixed            </span>
+                &nbsp;: array&lt;string|int, mixed&gt;            </span>
 </dt>
 <dd></dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -property -protected">
     <a href="classes/SmrSession.html#property_db">$db</a>
     <span>
-                &nbsp;: mixed            </span>
+                &nbsp;: <a href="classes/MySqlDatabase.html"><abbr title="\MySqlDatabase">MySqlDatabase</abbr></a>            </span>
 </dt>
 <dd></dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -property -protected">
     <a href="classes/SmrSession.html#property_previousAjaxReturns">$previousAjaxReturns</a>
     <span>
-                &nbsp;: mixed            </span>
+                &nbsp;: array&lt;string|int, mixed&gt;            </span>
 </dt>
 <dd></dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -property -private">
     <a href="classes/SmrSession.html#property_account_id">$account_id</a>
     <span>
-                &nbsp;: mixed            </span>
+                &nbsp;: int            </span>
 </dt>
 <dd></dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -property -private">
     <a href="classes/SmrSession.html#property_commonIDs">$commonIDs</a>
     <span>
-                &nbsp;: mixed            </span>
+                &nbsp;: array&lt;string|int, mixed&gt;            </span>
 </dt>
 <dd></dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -property -private">
     <a href="classes/SmrSession.html#property_game_id">$game_id</a>
     <span>
-                &nbsp;: mixed            </span>
+                &nbsp;: int            </span>
 </dt>
 <dd></dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -property -private">
     <a href="classes/SmrSession.html#property_generate">$generate</a>
     <span>
-                &nbsp;: mixed            </span>
+                &nbsp;: bool            </span>
 </dt>
 <dd></dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -property -private">
     <a href="classes/SmrSession.html#property_lastSN">$lastSN</a>
     <span>
-                &nbsp;: mixed            </span>
+                &nbsp;: string            </span>
 </dt>
 <dd></dd>
 
@@ -317,70 +315,70 @@
             <dt class="phpdocumentor-table-of-contents__entry -property -private">
     <a href="classes/SmrSession.html#property_session_id">$session_id</a>
     <span>
-                &nbsp;: mixed            </span>
+                &nbsp;: string|null            </span>
 </dt>
 <dd></dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -property -private">
     <a href="classes/SmrSession.html#property_SN">$SN</a>
     <span>
-                &nbsp;: mixed            </span>
+                &nbsp;: string            </span>
 </dt>
 <dd></dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -property -private">
     <a href="classes/SmrSession.html#property_var">$var</a>
     <span>
-                &nbsp;: mixed            </span>
+                &nbsp;: array&lt;string|int, mixed&gt;            </span>
 </dt>
 <dd></dd>
 
                 <dt class="phpdocumentor-table-of-contents__entry -method -public">
     <a href="classes/SmrSession.html#method_addAjaxReturns">addAjaxReturns()</a>
     <span>
-                        &nbsp;: mixed    </span>
+                        &nbsp;: bool    </span>
 </dt>
 <dd></dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
     <a href="classes/SmrSession.html#method_clearLinks">clearLinks()</a>
     <span>
-                        &nbsp;: mixed    </span>
+                        &nbsp;: void    </span>
 </dt>
 <dd></dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
     <a href="classes/SmrSession.html#method_destroy">destroy()</a>
     <span>
-                        &nbsp;: mixed    </span>
+                        &nbsp;: void    </span>
 </dt>
 <dd></dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
     <a href="classes/SmrSession.html#method_fetchVarInfo">fetchVarInfo()</a>
     <span>
-                        &nbsp;: mixed    </span>
+                        &nbsp;: void    </span>
 </dt>
 <dd></dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
     <a href="classes/SmrSession.html#method_getAccount">getAccount()</a>
     <span>
-                        &nbsp;: mixed    </span>
+                        &nbsp;: <a href="classes/SmrAccount.html"><abbr title="\SmrAccount">SmrAccount</abbr></a>    </span>
 </dt>
 <dd></dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
     <a href="classes/SmrSession.html#method_getAccountID">getAccountID()</a>
     <span>
-                        &nbsp;: mixed    </span>
+                        &nbsp;: int    </span>
 </dt>
 <dd></dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
     <a href="classes/SmrSession.html#method_getGameID">getGameID()</a>
     <span>
-                        &nbsp;: mixed    </span>
+                        &nbsp;: int    </span>
 </dt>
 <dd>Returns the Game ID associated with the session.</dd>
 
@@ -395,7 +393,7 @@ associated with this page request.</dd>
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
     <a href="classes/SmrSession.html#method_getNewHREF">getNewHREF()</a>
     <span>
-                        &nbsp;: mixed    </span>
+                        &nbsp;: string    </span>
 </dt>
 <dd></dd>
 
@@ -431,70 +429,70 @@ session so that it can still be retrieved when the page auto-refreshes.</dd>
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
     <a href="classes/SmrSession.html#method_hasAccount">hasAccount()</a>
     <span>
-                        &nbsp;: mixed    </span>
+                        &nbsp;: bool    </span>
 </dt>
 <dd></dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
     <a href="classes/SmrSession.html#method_hasChangedSN">hasChangedSN()</a>
     <span>
-                        &nbsp;: mixed    </span>
+                        &nbsp;: bool    </span>
 </dt>
 <dd>Returns true if the current SN is different than the previous SN.</dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
     <a href="classes/SmrSession.html#method_hasGame">hasGame()</a>
     <span>
-                        &nbsp;: mixed    </span>
+                        &nbsp;: bool    </span>
 </dt>
 <dd>Returns true if the session is inside a game, false otherwise.</dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
     <a href="classes/SmrSession.html#method_init">init()</a>
     <span>
-                        &nbsp;: mixed    </span>
+                        &nbsp;: void    </span>
 </dt>
 <dd></dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
     <a href="classes/SmrSession.html#method_resetLink">resetLink()</a>
     <span>
-                        &nbsp;: mixed    </span>
+                        &nbsp;: string    </span>
 </dt>
 <dd></dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
     <a href="classes/SmrSession.html#method_retrieveVar">retrieveVar()</a>
     <span>
-                        &nbsp;: mixed    </span>
+                        &nbsp;: array&lt;string|int, mixed&gt;|false    </span>
 </dt>
 <dd>Retrieve the session var for the page given by $sn.</dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
     <a href="classes/SmrSession.html#method_saveAjaxReturns">saveAjaxReturns()</a>
     <span>
-                        &nbsp;: mixed    </span>
+                        &nbsp;: void    </span>
 </dt>
 <dd></dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
     <a href="classes/SmrSession.html#method_setAccount">setAccount()</a>
     <span>
-                        &nbsp;: mixed    </span>
+                        &nbsp;: void    </span>
 </dt>
 <dd>Sets the `account_id` attribute of this session.</dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
     <a href="classes/SmrSession.html#method_update">update()</a>
     <span>
-                        &nbsp;: mixed    </span>
+                        &nbsp;: void    </span>
 </dt>
 <dd></dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
     <a href="classes/SmrSession.html#method_updateGame">updateGame()</a>
     <span>
-                        &nbsp;: mixed    </span>
+                        &nbsp;: void    </span>
 </dt>
 <dd>Updates the `game_id` attribute of the session and deletes any other
 active sessions in this game for this account.</dd>
@@ -509,35 +507,35 @@ active sessions in this game for this account.</dd>
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
     <a href="classes/SmrSession.html#method_updateVar">updateVar()</a>
     <span>
-                        &nbsp;: mixed    </span>
+                        &nbsp;: void    </span>
 </dt>
 <dd></dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -protected">
     <a href="classes/SmrSession.html#method_addLink">addLink()</a>
     <span>
-                        &nbsp;: mixed    </span>
+                        &nbsp;: string    </span>
 </dt>
 <dd></dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -protected">
     <a href="classes/SmrSession.html#method_generateSN">generateSN()</a>
     <span>
-                        &nbsp;: mixed    </span>
+                        &nbsp;: string    </span>
 </dt>
 <dd></dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -protected">
     <a href="classes/SmrSession.html#method_getCommonID">getCommonID()</a>
     <span>
-                        &nbsp;: mixed    </span>
+                        &nbsp;: string    </span>
 </dt>
 <dd></dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -private">
     <a href="classes/SmrSession.html#method_updateSN">updateSN()</a>
     <span>
-                        &nbsp;: mixed    </span>
+                        &nbsp;: void    </span>
 </dt>
 <dd></dd>
 
@@ -652,7 +650,6 @@ active sessions in this game for this account.</dd>
     &#039;feature_request.php&#039; =&gt; self::ALWAYS_AVAILABLE,
     &#039;forces_list.php&#039; =&gt; self::ALWAYS_AVAILABLE,
     &#039;forces_mass_refresh.php&#039; =&gt; self::ALWAYS_AVAILABLE,
-    &#039;government.php&#039; =&gt; 1,
     &#039;hall_of_fame_player_new.php&#039; =&gt; self::ALWAYS_AVAILABLE,
     &#039;hall_of_fame_player_detail.php&#039; =&gt; self::ALWAYS_AVAILABLE,
     &#039;leave_newbie.php&#039; =&gt; self::ALWAYS_AVAILABLE,
@@ -661,7 +658,7 @@ active sessions in this game for this account.</dd>
     &#039;message_view.php&#039; =&gt; self::ALWAYS_AVAILABLE,
     &#039;message_send.php&#039; =&gt; self::ALWAYS_AVAILABLE,
     &#039;news_read_advanced.php&#039; =&gt; self::ALWAYS_AVAILABLE,
-    &#039;news_read_current.php&#039; =&gt; 1,
+    &#039;news_read_current.php&#039; =&gt; self::ALWAYS_AVAILABLE,
     &#039;news_read.php&#039; =&gt; self::ALWAYS_AVAILABLE,
     &#039;planet_construction.php&#039; =&gt; self::ALWAYS_AVAILABLE,
     &#039;planet_defense.php&#039; =&gt; self::ALWAYS_AVAILABLE,
@@ -685,7 +682,6 @@ active sessions in this game for this account.</dd>
     &#039;rankings_race.php&#039; =&gt; self::ALWAYS_AVAILABLE,
     &#039;rankings_sector_kill.php&#039; =&gt; self::ALWAYS_AVAILABLE,
     &#039;rankings_view.php&#039; =&gt; self::ALWAYS_AVAILABLE,
-    &#039;sector_scan.php&#039; =&gt; self::ALWAYS_AVAILABLE,
     &#039;trader_bounties.php&#039; =&gt; self::ALWAYS_AVAILABLE,
     &#039;trader_relations.php&#039; =&gt; self::ALWAYS_AVAILABLE,
     &#039;trader_savings.php&#039; =&gt; self::ALWAYS_AVAILABLE,
@@ -735,7 +731,7 @@ active sessions in this game for this account.</dd>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/SmrSession.class.php"><a href="files/src-lib-default-smrsession-class.html"><abbr title="src/lib/Default/SmrSession.class.php">SmrSession.class.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">116</span>
+    <span class="phpdocumentor-element-found-in__line">114</span>
 </aside>
 
     
@@ -775,13 +771,13 @@ active sessions in this game for this account.</dd>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/SmrSession.class.php"><a href="files/src-lib-default-smrsession-class.html"><abbr title="src/lib/Default/SmrSession.class.php">SmrSession.class.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">139</span>
+    <span class="phpdocumentor-element-found-in__line">137</span>
 </aside>
 
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">public</span>
-    <span class="phpdocumentor-signature__static">static</span>    <span class="phpdocumentor-signature__type">mixed</span>
+    <span class="phpdocumentor-signature__static">static</span>    <span class="phpdocumentor-signature__type">int</span>
     <span class="phpdocumentor-signature__name">$last_accessed</span>
     </code>
 
@@ -805,13 +801,13 @@ active sessions in this game for this account.</dd>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/SmrSession.class.php"><a href="files/src-lib-default-smrsession-class.html"><abbr title="src/lib/Default/SmrSession.class.php">SmrSession.class.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">143</span>
+    <span class="phpdocumentor-element-found-in__line">141</span>
 </aside>
 
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">protected</span>
-    <span class="phpdocumentor-signature__static">static</span>    <span class="phpdocumentor-signature__type">mixed</span>
+    <span class="phpdocumentor-signature__static">static</span>    <span class="phpdocumentor-signature__type">array&lt;string|int, mixed&gt;</span>
     <span class="phpdocumentor-signature__name">$ajaxReturns</span>
      = <span class="phpdocumentor-signature__default-value">array()</span></code>
 
@@ -835,13 +831,13 @@ active sessions in this game for this account.</dd>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/SmrSession.class.php"><a href="files/src-lib-default-smrsession-class.html"><abbr title="src/lib/Default/SmrSession.class.php">SmrSession.class.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">129</span>
+    <span class="phpdocumentor-element-found-in__line">127</span>
 </aside>
 
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">protected</span>
-    <span class="phpdocumentor-signature__static">static</span>    <span class="phpdocumentor-signature__type">mixed</span>
+    <span class="phpdocumentor-signature__static">static</span>    <span class="phpdocumentor-signature__type"><a href="classes/MySqlDatabase.html"><abbr title="\MySqlDatabase">MySqlDatabase</abbr></a></span>
     <span class="phpdocumentor-signature__name">$db</span>
     </code>
 
@@ -865,13 +861,13 @@ active sessions in this game for this account.</dd>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/SmrSession.class.php"><a href="files/src-lib-default-smrsession-class.html"><abbr title="src/lib/Default/SmrSession.class.php">SmrSession.class.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">142</span>
+    <span class="phpdocumentor-element-found-in__line">140</span>
 </aside>
 
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">protected</span>
-    <span class="phpdocumentor-signature__static">static</span>    <span class="phpdocumentor-signature__type">mixed</span>
+    <span class="phpdocumentor-signature__static">static</span>    <span class="phpdocumentor-signature__type">array&lt;string|int, mixed&gt;</span>
     <span class="phpdocumentor-signature__name">$previousAjaxReturns</span>
     </code>
 
@@ -895,13 +891,13 @@ active sessions in this game for this account.</dd>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/SmrSession.class.php"><a href="files/src-lib-default-smrsession-class.html"><abbr title="src/lib/Default/SmrSession.class.php">SmrSession.class.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">138</span>
+    <span class="phpdocumentor-element-found-in__line">136</span>
 </aside>
 
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">private</span>
-    <span class="phpdocumentor-signature__static">static</span>    <span class="phpdocumentor-signature__type">mixed</span>
+    <span class="phpdocumentor-signature__static">static</span>    <span class="phpdocumentor-signature__type">int</span>
     <span class="phpdocumentor-signature__name">$account_id</span>
     </code>
 
@@ -925,13 +921,13 @@ active sessions in this game for this account.</dd>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/SmrSession.class.php"><a href="files/src-lib-default-smrsession-class.html"><abbr title="src/lib/Default/SmrSession.class.php">SmrSession.class.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">134</span>
+    <span class="phpdocumentor-element-found-in__line">132</span>
 </aside>
 
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">private</span>
-    <span class="phpdocumentor-signature__static">static</span>    <span class="phpdocumentor-signature__type">mixed</span>
+    <span class="phpdocumentor-signature__static">static</span>    <span class="phpdocumentor-signature__type">array&lt;string|int, mixed&gt;</span>
     <span class="phpdocumentor-signature__name">$commonIDs</span>
     </code>
 
@@ -955,13 +951,13 @@ active sessions in this game for this account.</dd>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/SmrSession.class.php"><a href="files/src-lib-default-smrsession-class.html"><abbr title="src/lib/Default/SmrSession.class.php">SmrSession.class.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">132</span>
+    <span class="phpdocumentor-element-found-in__line">130</span>
 </aside>
 
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">private</span>
-    <span class="phpdocumentor-signature__static">static</span>    <span class="phpdocumentor-signature__type">mixed</span>
+    <span class="phpdocumentor-signature__static">static</span>    <span class="phpdocumentor-signature__type">int</span>
     <span class="phpdocumentor-signature__name">$game_id</span>
     </code>
 
@@ -985,13 +981,13 @@ active sessions in this game for this account.</dd>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/SmrSession.class.php"><a href="files/src-lib-default-smrsession-class.html"><abbr title="src/lib/Default/SmrSession.class.php">SmrSession.class.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">135</span>
+    <span class="phpdocumentor-element-found-in__line">133</span>
 </aside>
 
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">private</span>
-    <span class="phpdocumentor-signature__static">static</span>    <span class="phpdocumentor-signature__type">mixed</span>
+    <span class="phpdocumentor-signature__static">static</span>    <span class="phpdocumentor-signature__type">bool</span>
     <span class="phpdocumentor-signature__name">$generate</span>
     </code>
 
@@ -1015,13 +1011,13 @@ active sessions in this game for this account.</dd>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/SmrSession.class.php"><a href="files/src-lib-default-smrsession-class.html"><abbr title="src/lib/Default/SmrSession.class.php">SmrSession.class.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">137</span>
+    <span class="phpdocumentor-element-found-in__line">135</span>
 </aside>
 
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">private</span>
-    <span class="phpdocumentor-signature__static">static</span>    <span class="phpdocumentor-signature__type">mixed</span>
+    <span class="phpdocumentor-signature__static">static</span>    <span class="phpdocumentor-signature__type">string</span>
     <span class="phpdocumentor-signature__name">$lastSN</span>
     </code>
 
@@ -1045,7 +1041,7 @@ active sessions in this game for this account.</dd>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/SmrSession.class.php"><a href="files/src-lib-default-smrsession-class.html"><abbr title="src/lib/Default/SmrSession.class.php">SmrSession.class.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">140</span>
+    <span class="phpdocumentor-element-found-in__line">138</span>
 </aside>
 
     
@@ -1075,13 +1071,13 @@ active sessions in this game for this account.</dd>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/SmrSession.class.php"><a href="files/src-lib-default-smrsession-class.html"><abbr title="src/lib/Default/SmrSession.class.php">SmrSession.class.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">131</span>
+    <span class="phpdocumentor-element-found-in__line">129</span>
 </aside>
 
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">private</span>
-    <span class="phpdocumentor-signature__static">static</span>    <span class="phpdocumentor-signature__type">mixed</span>
+    <span class="phpdocumentor-signature__static">static</span>    <span class="phpdocumentor-signature__type">string|null</span>
     <span class="phpdocumentor-signature__name">$session_id</span>
     </code>
 
@@ -1105,13 +1101,13 @@ active sessions in this game for this account.</dd>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/SmrSession.class.php"><a href="files/src-lib-default-smrsession-class.html"><abbr title="src/lib/Default/SmrSession.class.php">SmrSession.class.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">136</span>
+    <span class="phpdocumentor-element-found-in__line">134</span>
 </aside>
 
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">private</span>
-    <span class="phpdocumentor-signature__static">static</span>    <span class="phpdocumentor-signature__type">mixed</span>
+    <span class="phpdocumentor-signature__static">static</span>    <span class="phpdocumentor-signature__type">string</span>
     <span class="phpdocumentor-signature__name">$SN</span>
      = <span class="phpdocumentor-signature__default-value">&#039;&#039;</span></code>
 
@@ -1135,13 +1131,13 @@ active sessions in this game for this account.</dd>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/SmrSession.class.php"><a href="files/src-lib-default-smrsession-class.html"><abbr title="src/lib/Default/SmrSession.class.php">SmrSession.class.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">133</span>
+    <span class="phpdocumentor-element-found-in__line">131</span>
 </aside>
 
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">private</span>
-    <span class="phpdocumentor-signature__static">static</span>    <span class="phpdocumentor-signature__type">mixed</span>
+    <span class="phpdocumentor-signature__static">static</span>    <span class="phpdocumentor-signature__type">array&lt;string|int, mixed&gt;</span>
     <span class="phpdocumentor-signature__name">$var</span>
     </code>
 
@@ -1169,27 +1165,27 @@ active sessions in this game for this account.</dd>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/SmrSession.class.php"><a href="files/src-lib-default-smrsession-class.html"><abbr title="src/lib/Default/SmrSession.class.php">SmrSession.class.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">497</span>
+    <span class="phpdocumentor-element-found-in__line">500</span>
 </aside>
 
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">public</span>
-            <span class="phpdocumentor-signature__static">static</span>    <span class="phpdocumentor-signature__name">addAjaxReturns</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type">mixed&nbsp;</span><span class="phpdocumentor-signature__argument__name">$element</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__return-type">mixed&nbsp;</span><span class="phpdocumentor-signature__argument__name">$contents</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">mixed</span></code>
+            <span class="phpdocumentor-signature__static">static</span>    <span class="phpdocumentor-signature__name">addAjaxReturns</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type">string&nbsp;</span><span class="phpdocumentor-signature__argument__name">$element</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__return-type">string&nbsp;</span><span class="phpdocumentor-signature__argument__name">$contents</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">bool</span></code>
 
     
         <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
     <dl class="phpdocumentor-argument-list">
                     <dt class="phpdocumentor-argument-list__entry">
                 <span class="phpdocumentor-signature__argument__name">$element</span>
-                : <span class="phpdocumentor-signature__argument__return-type">mixed</span>
+                : <span class="phpdocumentor-signature__argument__return-type">string</span>
                             </dt>
             <dd class="phpdocumentor-argument-list__definition">
                 
             </dd>
                     <dt class="phpdocumentor-argument-list__entry">
                 <span class="phpdocumentor-signature__argument__name">$contents</span>
-                : <span class="phpdocumentor-signature__argument__return-type">mixed</span>
+                : <span class="phpdocumentor-signature__argument__return-type">string</span>
                             </dt>
             <dd class="phpdocumentor-argument-list__definition">
                 
@@ -1199,7 +1195,7 @@ active sessions in this game for this account.</dd>
     
 
         <h5 class="phpdocumentor-return-value__heading">Return values</h5>
-    <span class="phpdocumentor-signature__response_type">mixed</span>
+    <span class="phpdocumentor-signature__response_type">bool</span>
             &mdash;
             <section class="phpdocumentor-description"></section>
 
@@ -1224,14 +1220,14 @@ active sessions in this game for this account.</dd>
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">public</span>
-            <span class="phpdocumentor-signature__static">static</span>    <span class="phpdocumentor-signature__name">clearLinks</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">mixed</span></code>
+            <span class="phpdocumentor-signature__static">static</span>    <span class="phpdocumentor-signature__name">clearLinks</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">void</span></code>
 
     
     
     
 
         <h5 class="phpdocumentor-return-value__heading">Return values</h5>
-    <span class="phpdocumentor-signature__response_type">mixed</span>
+    <span class="phpdocumentor-signature__response_type">void</span>
             &mdash;
             <section class="phpdocumentor-description"></section>
 
@@ -1250,20 +1246,20 @@ active sessions in this game for this account.</dd>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/SmrSession.class.php"><a href="files/src-lib-default-smrsession-class.html"><abbr title="src/lib/Default/SmrSession.class.php">SmrSession.class.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">349</span>
+    <span class="phpdocumentor-element-found-in__line">348</span>
 </aside>
 
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">public</span>
-            <span class="phpdocumentor-signature__static">static</span>    <span class="phpdocumentor-signature__name">destroy</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">mixed</span></code>
+            <span class="phpdocumentor-signature__static">static</span>    <span class="phpdocumentor-signature__name">destroy</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">void</span></code>
 
     
     
     
 
         <h5 class="phpdocumentor-return-value__heading">Return values</h5>
-    <span class="phpdocumentor-signature__response_type">mixed</span>
+    <span class="phpdocumentor-signature__response_type">void</span>
             &mdash;
             <section class="phpdocumentor-description"></section>
 
@@ -1282,20 +1278,20 @@ active sessions in this game for this account.</dd>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/SmrSession.class.php"><a href="files/src-lib-default-smrsession-class.html"><abbr title="src/lib/Default/SmrSession.class.php">SmrSession.class.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">222</span>
+    <span class="phpdocumentor-element-found-in__line">221</span>
 </aside>
 
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">public</span>
-            <span class="phpdocumentor-signature__static">static</span>    <span class="phpdocumentor-signature__name">fetchVarInfo</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">mixed</span></code>
+            <span class="phpdocumentor-signature__static">static</span>    <span class="phpdocumentor-signature__name">fetchVarInfo</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">void</span></code>
 
     
     
     
 
         <h5 class="phpdocumentor-return-value__heading">Return values</h5>
-    <span class="phpdocumentor-signature__response_type">mixed</span>
+    <span class="phpdocumentor-signature__response_type">void</span>
             &mdash;
             <section class="phpdocumentor-description"></section>
 
@@ -1314,20 +1310,20 @@ active sessions in this game for this account.</dd>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/SmrSession.class.php"><a href="files/src-lib-default-smrsession-class.html"><abbr title="src/lib/Default/SmrSession.class.php">SmrSession.class.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">311</span>
+    <span class="phpdocumentor-element-found-in__line">310</span>
 </aside>
 
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">public</span>
-            <span class="phpdocumentor-signature__static">static</span>    <span class="phpdocumentor-signature__name">getAccount</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">mixed</span></code>
+            <span class="phpdocumentor-signature__static">static</span>    <span class="phpdocumentor-signature__name">getAccount</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type"><a href="classes/SmrAccount.html"><abbr title="\SmrAccount">SmrAccount</abbr></a></span></code>
 
     
     
     
 
         <h5 class="phpdocumentor-return-value__heading">Return values</h5>
-    <span class="phpdocumentor-signature__response_type">mixed</span>
+    <span class="phpdocumentor-signature__response_type"><a href="classes/SmrAccount.html"><abbr title="\SmrAccount">SmrAccount</abbr></a></span>
             &mdash;
             <section class="phpdocumentor-description"></section>
 
@@ -1346,20 +1342,20 @@ active sessions in this game for this account.</dd>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/SmrSession.class.php"><a href="files/src-lib-default-smrsession-class.html"><abbr title="src/lib/Default/SmrSession.class.php">SmrSession.class.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">307</span>
+    <span class="phpdocumentor-element-found-in__line">306</span>
 </aside>
 
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">public</span>
-            <span class="phpdocumentor-signature__static">static</span>    <span class="phpdocumentor-signature__name">getAccountID</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">mixed</span></code>
+            <span class="phpdocumentor-signature__static">static</span>    <span class="phpdocumentor-signature__name">getAccountID</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">int</span></code>
 
     
     
     
 
         <h5 class="phpdocumentor-return-value__heading">Return values</h5>
-    <span class="phpdocumentor-signature__response_type">mixed</span>
+    <span class="phpdocumentor-signature__response_type">int</span>
             &mdash;
             <section class="phpdocumentor-description"></section>
 
@@ -1378,14 +1374,14 @@ active sessions in this game for this account.</dd>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/SmrSession.class.php"><a href="files/src-lib-default-smrsession-class.html"><abbr title="src/lib/Default/SmrSession.class.php">SmrSession.class.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">292</span>
+    <span class="phpdocumentor-element-found-in__line">291</span>
 </aside>
 
         <p class="phpdocumentor-summary">Returns the Game ID associated with the session.</p>
 
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">public</span>
-            <span class="phpdocumentor-signature__static">static</span>    <span class="phpdocumentor-signature__name">getGameID</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">mixed</span></code>
+            <span class="phpdocumentor-signature__static">static</span>    <span class="phpdocumentor-signature__name">getGameID</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">int</span></code>
 
         <section class="phpdocumentor-description"></section>
 
@@ -1393,7 +1389,7 @@ active sessions in this game for this account.</dd>
     
 
         <h5 class="phpdocumentor-return-value__heading">Return values</h5>
-    <span class="phpdocumentor-signature__response_type">mixed</span>
+    <span class="phpdocumentor-signature__response_type">int</span>
             &mdash;
             <section class="phpdocumentor-description"></section>
 
@@ -1412,7 +1408,7 @@ active sessions in this game for this account.</dd>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/SmrSession.class.php"><a href="files/src-lib-default-smrsession-class.html"><abbr title="src/lib/Default/SmrSession.class.php">SmrSession.class.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">156</span>
+    <span class="phpdocumentor-element-found-in__line">154</span>
 </aside>
 
         <p class="phpdocumentor-summary">Returns the time (in seconds, with microsecond-level precision)
@@ -1447,27 +1443,27 @@ associated with this page request.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/SmrSession.class.php"><a href="files/src-lib-default-smrsession-class.html"><abbr title="src/lib/Default/SmrSession.class.php">SmrSession.class.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">489</span>
+    <span class="phpdocumentor-element-found-in__line">492</span>
 </aside>
 
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">public</span>
-            <span class="phpdocumentor-signature__static">static</span>    <span class="phpdocumentor-signature__name">getNewHREF</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type">mixed&nbsp;</span><span class="phpdocumentor-signature__argument__name">$container</span></span><span class="phpdocumentor-signature__argument"><span>[</span><span>, </span><span class="phpdocumentor-signature__argument__return-type">mixed&nbsp;</span><span class="phpdocumentor-signature__argument__name">$forceFullURL</span><span> = </span><span class="phpdocumentor-signature__argument__default-value">false</span><span> ]</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">mixed</span></code>
+            <span class="phpdocumentor-signature__static">static</span>    <span class="phpdocumentor-signature__name">getNewHREF</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type">array&lt;string|int, mixed&gt;&nbsp;</span><span class="phpdocumentor-signature__argument__name">$container</span></span><span class="phpdocumentor-signature__argument"><span>[</span><span>, </span><span class="phpdocumentor-signature__argument__return-type">bool&nbsp;</span><span class="phpdocumentor-signature__argument__name">$forceFullURL</span><span> = </span><span class="phpdocumentor-signature__argument__default-value">false</span><span> ]</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">string</span></code>
 
     
         <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
     <dl class="phpdocumentor-argument-list">
                     <dt class="phpdocumentor-argument-list__entry">
                 <span class="phpdocumentor-signature__argument__name">$container</span>
-                : <span class="phpdocumentor-signature__argument__return-type">mixed</span>
+                : <span class="phpdocumentor-signature__argument__return-type">array&lt;string|int, mixed&gt;</span>
                             </dt>
             <dd class="phpdocumentor-argument-list__definition">
                 
             </dd>
                     <dt class="phpdocumentor-argument-list__entry">
                 <span class="phpdocumentor-signature__argument__name">$forceFullURL</span>
-                : <span class="phpdocumentor-signature__argument__return-type">mixed</span>
+                : <span class="phpdocumentor-signature__argument__return-type">bool</span>
                  = <span class="phpdocumentor-signature__argument__default-value">false</span>            </dt>
             <dd class="phpdocumentor-argument-list__definition">
                 
@@ -1477,7 +1473,7 @@ associated with this page request.</p>
     
 
         <h5 class="phpdocumentor-return-value__heading">Return values</h5>
-    <span class="phpdocumentor-signature__response_type">mixed</span>
+    <span class="phpdocumentor-signature__response_type">string</span>
             &mdash;
             <section class="phpdocumentor-description"></section>
 
@@ -1496,7 +1492,7 @@ associated with this page request.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/SmrSession.class.php"><a href="files/src-lib-default-smrsession-class.html"><abbr title="src/lib/Default/SmrSession.class.php">SmrSession.class.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">386</span>
+    <span class="phpdocumentor-element-found-in__line">385</span>
 </aside>
 
         <p class="phpdocumentor-summary">Gets a var from $var, $_REQUEST, or $default. Then stores it in the
@@ -1550,7 +1546,7 @@ For processing pages, see the Request class.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/SmrSession.class.php"><a href="files/src-lib-default-smrsession-class.html"><abbr title="src/lib/Default/SmrSession.class.php">SmrSession.class.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">392</span>
+    <span class="phpdocumentor-element-found-in__line">391</span>
 </aside>
 
     
@@ -1599,7 +1595,7 @@ For processing pages, see the Request class.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/SmrSession.class.php"><a href="files/src-lib-default-smrsession-class.html"><abbr title="src/lib/Default/SmrSession.class.php">SmrSession.class.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">398</span>
+    <span class="phpdocumentor-element-found-in__line">397</span>
 </aside>
 
     
@@ -1648,7 +1644,7 @@ For processing pages, see the Request class.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/SmrSession.class.php"><a href="files/src-lib-default-smrsession-class.html"><abbr title="src/lib/Default/SmrSession.class.php">SmrSession.class.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">148</span>
+    <span class="phpdocumentor-element-found-in__line">146</span>
 </aside>
 
         <p class="phpdocumentor-summary">Returns the time (in seconds) associated with this page request.</p>
@@ -1682,20 +1678,20 @@ For processing pages, see the Request class.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/SmrSession.class.php"><a href="files/src-lib-default-smrsession-class.html"><abbr title="src/lib/Default/SmrSession.class.php">SmrSession.class.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">303</span>
+    <span class="phpdocumentor-element-found-in__line">302</span>
 </aside>
 
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">public</span>
-            <span class="phpdocumentor-signature__static">static</span>    <span class="phpdocumentor-signature__name">hasAccount</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">mixed</span></code>
+            <span class="phpdocumentor-signature__static">static</span>    <span class="phpdocumentor-signature__name">hasAccount</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">bool</span></code>
 
     
     
     
 
         <h5 class="phpdocumentor-return-value__heading">Return values</h5>
-    <span class="phpdocumentor-signature__response_type">mixed</span>
+    <span class="phpdocumentor-signature__response_type">bool</span>
             &mdash;
             <section class="phpdocumentor-description"></section>
 
@@ -1714,14 +1710,14 @@ For processing pages, see the Request class.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/SmrSession.class.php"><a href="files/src-lib-default-smrsession-class.html"><abbr title="src/lib/Default/SmrSession.class.php">SmrSession.class.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">338</span>
+    <span class="phpdocumentor-element-found-in__line">337</span>
 </aside>
 
         <p class="phpdocumentor-summary">Returns true if the current SN is different than the previous SN.</p>
 
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">public</span>
-            <span class="phpdocumentor-signature__static">static</span>    <span class="phpdocumentor-signature__name">hasChangedSN</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">mixed</span></code>
+            <span class="phpdocumentor-signature__static">static</span>    <span class="phpdocumentor-signature__name">hasChangedSN</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">bool</span></code>
 
         <section class="phpdocumentor-description"></section>
 
@@ -1729,7 +1725,7 @@ For processing pages, see the Request class.</p>
     
 
         <h5 class="phpdocumentor-return-value__heading">Return values</h5>
-    <span class="phpdocumentor-signature__response_type">mixed</span>
+    <span class="phpdocumentor-signature__response_type">bool</span>
             &mdash;
             <section class="phpdocumentor-description"></section>
 
@@ -1748,14 +1744,14 @@ For processing pages, see the Request class.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/SmrSession.class.php"><a href="files/src-lib-default-smrsession-class.html"><abbr title="src/lib/Default/SmrSession.class.php">SmrSession.class.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">299</span>
+    <span class="phpdocumentor-element-found-in__line">298</span>
 </aside>
 
         <p class="phpdocumentor-summary">Returns true if the session is inside a game, false otherwise.</p>
 
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">public</span>
-            <span class="phpdocumentor-signature__static">static</span>    <span class="phpdocumentor-signature__name">hasGame</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">mixed</span></code>
+            <span class="phpdocumentor-signature__static">static</span>    <span class="phpdocumentor-signature__name">hasGame</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">bool</span></code>
 
         <section class="phpdocumentor-description"></section>
 
@@ -1763,7 +1759,7 @@ For processing pages, see the Request class.</p>
     
 
         <h5 class="phpdocumentor-return-value__heading">Return values</h5>
-    <span class="phpdocumentor-signature__response_type">mixed</span>
+    <span class="phpdocumentor-signature__response_type">bool</span>
             &mdash;
             <section class="phpdocumentor-description"></section>
 
@@ -1782,20 +1778,20 @@ For processing pages, see the Request class.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/SmrSession.class.php"><a href="files/src-lib-default-smrsession-class.html"><abbr title="src/lib/Default/SmrSession.class.php">SmrSession.class.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">173</span>
+    <span class="phpdocumentor-element-found-in__line">171</span>
 </aside>
 
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">public</span>
-            <span class="phpdocumentor-signature__static">static</span>    <span class="phpdocumentor-signature__name">init</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">mixed</span></code>
+            <span class="phpdocumentor-signature__static">static</span>    <span class="phpdocumentor-signature__name">init</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">void</span></code>
 
     
     
     
 
         <h5 class="phpdocumentor-return-value__heading">Return values</h5>
-    <span class="phpdocumentor-signature__response_type">mixed</span>
+    <span class="phpdocumentor-signature__response_type">void</span>
             &mdash;
             <section class="phpdocumentor-description"></section>
 
@@ -1814,27 +1810,27 @@ For processing pages, see the Request class.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/SmrSession.class.php"><a href="files/src-lib-default-smrsession-class.html"><abbr title="src/lib/Default/SmrSession.class.php">SmrSession.class.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">404</span>
+    <span class="phpdocumentor-element-found-in__line">403</span>
 </aside>
 
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">public</span>
-            <span class="phpdocumentor-signature__static">static</span>    <span class="phpdocumentor-signature__name">resetLink</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type">mixed&nbsp;</span><span class="phpdocumentor-signature__argument__name">$container</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__return-type">mixed&nbsp;</span><span class="phpdocumentor-signature__argument__name">$sn</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">mixed</span></code>
+            <span class="phpdocumentor-signature__static">static</span>    <span class="phpdocumentor-signature__name">resetLink</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type">array&lt;string|int, mixed&gt;&nbsp;</span><span class="phpdocumentor-signature__argument__name">$container</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__return-type">string&nbsp;</span><span class="phpdocumentor-signature__argument__name">$sn</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">string</span></code>
 
     
         <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
     <dl class="phpdocumentor-argument-list">
                     <dt class="phpdocumentor-argument-list__entry">
                 <span class="phpdocumentor-signature__argument__name">$container</span>
-                : <span class="phpdocumentor-signature__argument__return-type">mixed</span>
+                : <span class="phpdocumentor-signature__argument__return-type">array&lt;string|int, mixed&gt;</span>
                             </dt>
             <dd class="phpdocumentor-argument-list__definition">
                 
             </dd>
                     <dt class="phpdocumentor-argument-list__entry">
                 <span class="phpdocumentor-signature__argument__name">$sn</span>
-                : <span class="phpdocumentor-signature__argument__return-type">mixed</span>
+                : <span class="phpdocumentor-signature__argument__return-type">string</span>
                             </dt>
             <dd class="phpdocumentor-argument-list__definition">
                 
@@ -1844,7 +1840,7 @@ For processing pages, see the Request class.</p>
     
 
         <h5 class="phpdocumentor-return-value__heading">Return values</h5>
-    <span class="phpdocumentor-signature__response_type">mixed</span>
+    <span class="phpdocumentor-signature__response_type">string</span>
             &mdash;
             <section class="phpdocumentor-description"></section>
 
@@ -1863,14 +1859,14 @@ For processing pages, see the Request class.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/SmrSession.class.php"><a href="files/src-lib-default-smrsession-class.html"><abbr title="src/lib/Default/SmrSession.class.php">SmrSession.class.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">360</span>
+    <span class="phpdocumentor-element-found-in__line">359</span>
 </aside>
 
         <p class="phpdocumentor-summary">Retrieve the session var for the page given by $sn.</p>
 
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">public</span>
-            <span class="phpdocumentor-signature__static">static</span>    <span class="phpdocumentor-signature__name">retrieveVar</span><span>(</span><span class="phpdocumentor-signature__argument"><span>[</span><span class="phpdocumentor-signature__argument__return-type">mixed&nbsp;</span><span class="phpdocumentor-signature__argument__name">$sn</span><span> = </span><span class="phpdocumentor-signature__argument__default-value">null</span><span> ]</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">mixed</span></code>
+            <span class="phpdocumentor-signature__static">static</span>    <span class="phpdocumentor-signature__name">retrieveVar</span><span>(</span><span class="phpdocumentor-signature__argument"><span>[</span><span class="phpdocumentor-signature__argument__return-type">string&nbsp;</span><span class="phpdocumentor-signature__argument__name">$sn</span><span> = </span><span class="phpdocumentor-signature__argument__default-value">null</span><span> ]</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">array&lt;string|int, mixed&gt;|false</span></code>
 
         <section class="phpdocumentor-description"><p>If $sn is not specified, use the current page (i.e. self::$SN).</p>
 </section>
@@ -1879,7 +1875,7 @@ For processing pages, see the Request class.</p>
     <dl class="phpdocumentor-argument-list">
                     <dt class="phpdocumentor-argument-list__entry">
                 <span class="phpdocumentor-signature__argument__name">$sn</span>
-                : <span class="phpdocumentor-signature__argument__return-type">mixed</span>
+                : <span class="phpdocumentor-signature__argument__return-type">string</span>
                  = <span class="phpdocumentor-signature__argument__default-value">null</span>            </dt>
             <dd class="phpdocumentor-argument-list__definition">
                 
@@ -1889,7 +1885,7 @@ For processing pages, see the Request class.</p>
     
 
         <h5 class="phpdocumentor-return-value__heading">Return values</h5>
-    <span class="phpdocumentor-signature__response_type">mixed</span>
+    <span class="phpdocumentor-signature__response_type">array&lt;string|int, mixed&gt;|false</span>
             &mdash;
             <section class="phpdocumentor-description"></section>
 
@@ -1908,20 +1904,20 @@ For processing pages, see the Request class.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/SmrSession.class.php"><a href="files/src-lib-default-smrsession-class.html"><abbr title="src/lib/Default/SmrSession.class.php">SmrSession.class.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">502</span>
+    <span class="phpdocumentor-element-found-in__line">505</span>
 </aside>
 
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">public</span>
-            <span class="phpdocumentor-signature__static">static</span>    <span class="phpdocumentor-signature__name">saveAjaxReturns</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">mixed</span></code>
+            <span class="phpdocumentor-signature__static">static</span>    <span class="phpdocumentor-signature__name">saveAjaxReturns</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">void</span></code>
 
     
     
     
 
         <h5 class="phpdocumentor-return-value__heading">Return values</h5>
-    <span class="phpdocumentor-signature__response_type">mixed</span>
+    <span class="phpdocumentor-signature__response_type">void</span>
             &mdash;
             <section class="phpdocumentor-description"></section>
 
@@ -1940,14 +1936,14 @@ For processing pages, see the Request class.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/SmrSession.class.php"><a href="files/src-lib-default-smrsession-class.html"><abbr title="src/lib/Default/SmrSession.class.php">SmrSession.class.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">318</span>
+    <span class="phpdocumentor-element-found-in__line">317</span>
 </aside>
 
         <p class="phpdocumentor-summary">Sets the `account_id` attribute of this session.</p>
 
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">public</span>
-            <span class="phpdocumentor-signature__static">static</span>    <span class="phpdocumentor-signature__name">setAccount</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type"><a href="classes/AbstractSmrAccount.html"><abbr title="\AbstractSmrAccount">AbstractSmrAccount</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$account</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">mixed</span></code>
+            <span class="phpdocumentor-signature__static">static</span>    <span class="phpdocumentor-signature__name">setAccount</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type"><a href="classes/AbstractSmrAccount.html"><abbr title="\AbstractSmrAccount">AbstractSmrAccount</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$account</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">void</span></code>
 
         <section class="phpdocumentor-description"></section>
 
@@ -1965,7 +1961,7 @@ For processing pages, see the Request class.</p>
     
 
         <h5 class="phpdocumentor-return-value__heading">Return values</h5>
-    <span class="phpdocumentor-signature__response_type">mixed</span>
+    <span class="phpdocumentor-signature__response_type">void</span>
             &mdash;
             <section class="phpdocumentor-description"></section>
 
@@ -1984,20 +1980,20 @@ For processing pages, see the Request class.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/SmrSession.class.php"><a href="files/src-lib-default-smrsession-class.html"><abbr title="src/lib/Default/SmrSession.class.php">SmrSession.class.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">270</span>
+    <span class="phpdocumentor-element-found-in__line">269</span>
 </aside>
 
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">public</span>
-            <span class="phpdocumentor-signature__static">static</span>    <span class="phpdocumentor-signature__name">update</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">mixed</span></code>
+            <span class="phpdocumentor-signature__static">static</span>    <span class="phpdocumentor-signature__name">update</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">void</span></code>
 
     
     
     
 
         <h5 class="phpdocumentor-return-value__heading">Return values</h5>
-    <span class="phpdocumentor-signature__response_type">mixed</span>
+    <span class="phpdocumentor-signature__response_type">void</span>
             &mdash;
             <section class="phpdocumentor-description"></section>
 
@@ -2016,7 +2012,7 @@ For processing pages, see the Request class.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/SmrSession.class.php"><a href="files/src-lib-default-smrsession-class.html"><abbr title="src/lib/Default/SmrSession.class.php">SmrSession.class.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">326</span>
+    <span class="phpdocumentor-element-found-in__line">325</span>
 </aside>
 
         <p class="phpdocumentor-summary">Updates the `game_id` attribute of the session and deletes any other
@@ -2024,7 +2020,7 @@ active sessions in this game for this account.</p>
 
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">public</span>
-            <span class="phpdocumentor-signature__static">static</span>    <span class="phpdocumentor-signature__name">updateGame</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type">mixed&nbsp;</span><span class="phpdocumentor-signature__argument__name">$gameID</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">mixed</span></code>
+            <span class="phpdocumentor-signature__static">static</span>    <span class="phpdocumentor-signature__name">updateGame</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type">int&nbsp;</span><span class="phpdocumentor-signature__argument__name">$gameID</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">void</span></code>
 
         <section class="phpdocumentor-description"></section>
 
@@ -2032,7 +2028,7 @@ active sessions in this game for this account.</p>
     <dl class="phpdocumentor-argument-list">
                     <dt class="phpdocumentor-argument-list__entry">
                 <span class="phpdocumentor-signature__argument__name">$gameID</span>
-                : <span class="phpdocumentor-signature__argument__return-type">mixed</span>
+                : <span class="phpdocumentor-signature__argument__return-type">int</span>
                             </dt>
             <dd class="phpdocumentor-argument-list__definition">
                 
@@ -2042,7 +2038,7 @@ active sessions in this game for this account.</p>
     
 
         <h5 class="phpdocumentor-return-value__heading">Return values</h5>
-    <span class="phpdocumentor-signature__response_type">mixed</span>
+    <span class="phpdocumentor-signature__response_type">void</span>
             &mdash;
             <section class="phpdocumentor-description"></section>
 
@@ -2061,7 +2057,7 @@ active sessions in this game for this account.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/SmrSession.class.php"><a href="files/src-lib-default-smrsession-class.html"><abbr title="src/lib/Default/SmrSession.class.php">SmrSession.class.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">166</span>
+    <span class="phpdocumentor-element-found-in__line">164</span>
 </aside>
 
         <p class="phpdocumentor-summary">Update the time associated with this page request.</p>
@@ -2103,14 +2099,14 @@ only be used by the CLI programs that run continuously.</p>
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">public</span>
-            <span class="phpdocumentor-signature__static">static</span>    <span class="phpdocumentor-signature__name">updateVar</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type">mixed&nbsp;</span><span class="phpdocumentor-signature__argument__name">$key</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__return-type">mixed&nbsp;</span><span class="phpdocumentor-signature__argument__name">$value</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">mixed</span></code>
+            <span class="phpdocumentor-signature__static">static</span>    <span class="phpdocumentor-signature__name">updateVar</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type">string&nbsp;</span><span class="phpdocumentor-signature__argument__name">$key</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__return-type">mixed&nbsp;</span><span class="phpdocumentor-signature__argument__name">$value</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">void</span></code>
 
     
         <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
     <dl class="phpdocumentor-argument-list">
                     <dt class="phpdocumentor-argument-list__entry">
                 <span class="phpdocumentor-signature__argument__name">$key</span>
-                : <span class="phpdocumentor-signature__argument__return-type">mixed</span>
+                : <span class="phpdocumentor-signature__argument__return-type">string</span>
                             </dt>
             <dd class="phpdocumentor-argument-list__definition">
                 
@@ -2127,7 +2123,7 @@ only be used by the CLI programs that run continuously.</p>
     
 
         <h5 class="phpdocumentor-return-value__heading">Return values</h5>
-    <span class="phpdocumentor-signature__response_type">mixed</span>
+    <span class="phpdocumentor-signature__response_type">void</span>
             &mdash;
             <section class="phpdocumentor-description"></section>
 
@@ -2152,22 +2148,22 @@ only be used by the CLI programs that run continuously.</p>
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">protected</span>
-            <span class="phpdocumentor-signature__static">static</span>    <span class="phpdocumentor-signature__name">addLink</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type">mixed&nbsp;</span><span class="phpdocumentor-signature__argument__name">$container</span></span><span class="phpdocumentor-signature__argument"><span>[</span><span>, </span><span class="phpdocumentor-signature__argument__return-type">mixed&nbsp;</span><span class="phpdocumentor-signature__argument__name">$sn</span><span> = </span><span class="phpdocumentor-signature__argument__default-value">false</span><span> ]</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">mixed</span></code>
+            <span class="phpdocumentor-signature__static">static</span>    <span class="phpdocumentor-signature__name">addLink</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type">array&lt;string|int, mixed&gt;&nbsp;</span><span class="phpdocumentor-signature__argument__name">$container</span></span><span class="phpdocumentor-signature__argument"><span>[</span><span>, </span><span class="phpdocumentor-signature__argument__return-type">string&nbsp;</span><span class="phpdocumentor-signature__argument__name">$sn</span><span> = </span><span class="phpdocumentor-signature__argument__default-value">null</span><span> ]</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">string</span></code>
 
     
         <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
     <dl class="phpdocumentor-argument-list">
                     <dt class="phpdocumentor-argument-list__entry">
                 <span class="phpdocumentor-signature__argument__name">$container</span>
-                : <span class="phpdocumentor-signature__argument__return-type">mixed</span>
+                : <span class="phpdocumentor-signature__argument__return-type">array&lt;string|int, mixed&gt;</span>
                             </dt>
             <dd class="phpdocumentor-argument-list__definition">
                 
             </dd>
                     <dt class="phpdocumentor-argument-list__entry">
                 <span class="phpdocumentor-signature__argument__name">$sn</span>
-                : <span class="phpdocumentor-signature__argument__return-type">mixed</span>
-                 = <span class="phpdocumentor-signature__argument__default-value">false</span>            </dt>
+                : <span class="phpdocumentor-signature__argument__return-type">string</span>
+                 = <span class="phpdocumentor-signature__argument__default-value">null</span>            </dt>
             <dd class="phpdocumentor-argument-list__definition">
                 
             </dd>
@@ -2176,7 +2172,7 @@ only be used by the CLI programs that run continuously.</p>
     
 
         <h5 class="phpdocumentor-return-value__heading">Return values</h5>
-    <span class="phpdocumentor-signature__response_type">mixed</span>
+    <span class="phpdocumentor-signature__response_type">string</span>
             &mdash;
             <section class="phpdocumentor-description"></section>
 
@@ -2195,20 +2191,20 @@ only be used by the CLI programs that run continuously.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/SmrSession.class.php"><a href="files/src-lib-default-smrsession-class.html"><abbr title="src/lib/Default/SmrSession.class.php">SmrSession.class.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">464</span>
+    <span class="phpdocumentor-element-found-in__line">467</span>
 </aside>
 
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">protected</span>
-            <span class="phpdocumentor-signature__static">static</span>    <span class="phpdocumentor-signature__name">generateSN</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type">mixed&nbsp;</span><span class="phpdocumentor-signature__argument__reference-operator">&amp;</span><span class="phpdocumentor-signature__argument__name">$container</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">mixed</span></code>
+            <span class="phpdocumentor-signature__static">static</span>    <span class="phpdocumentor-signature__name">generateSN</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type">array&lt;string|int, mixed&gt;&nbsp;</span><span class="phpdocumentor-signature__argument__reference-operator">&amp;</span><span class="phpdocumentor-signature__argument__name">$container</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">string</span></code>
 
     
         <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
     <dl class="phpdocumentor-argument-list">
                     <dt class="phpdocumentor-argument-list__entry">
                 <span class="phpdocumentor-signature__argument__name">$container</span>
-                : <span class="phpdocumentor-signature__argument__return-type">mixed</span>
+                : <span class="phpdocumentor-signature__argument__return-type">array&lt;string|int, mixed&gt;</span>
                             </dt>
             <dd class="phpdocumentor-argument-list__definition">
                 
@@ -2218,7 +2214,7 @@ only be used by the CLI programs that run continuously.</p>
     
 
         <h5 class="phpdocumentor-return-value__heading">Return values</h5>
-    <span class="phpdocumentor-signature__response_type">mixed</span>
+    <span class="phpdocumentor-signature__response_type">string</span>
             &mdash;
             <section class="phpdocumentor-description"></section>
 
@@ -2237,20 +2233,20 @@ only be used by the CLI programs that run continuously.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/SmrSession.class.php"><a href="files/src-lib-default-smrsession-class.html"><abbr title="src/lib/Default/SmrSession.class.php">SmrSession.class.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">479</span>
+    <span class="phpdocumentor-element-found-in__line">482</span>
 </aside>
 
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">protected</span>
-            <span class="phpdocumentor-signature__static">static</span>    <span class="phpdocumentor-signature__name">getCommonID</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type">mixed&nbsp;</span><span class="phpdocumentor-signature__argument__name">$commonContainer</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">mixed</span></code>
+            <span class="phpdocumentor-signature__static">static</span>    <span class="phpdocumentor-signature__name">getCommonID</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type">array&lt;string|int, mixed&gt;&nbsp;</span><span class="phpdocumentor-signature__argument__name">$commonContainer</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">string</span></code>
 
     
         <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
     <dl class="phpdocumentor-argument-list">
                     <dt class="phpdocumentor-argument-list__entry">
                 <span class="phpdocumentor-signature__argument__name">$commonContainer</span>
-                : <span class="phpdocumentor-signature__argument__return-type">mixed</span>
+                : <span class="phpdocumentor-signature__argument__return-type">array&lt;string|int, mixed&gt;</span>
                             </dt>
             <dd class="phpdocumentor-argument-list__definition">
                 
@@ -2260,7 +2256,7 @@ only be used by the CLI programs that run continuously.</p>
     
 
         <h5 class="phpdocumentor-return-value__heading">Return values</h5>
-    <span class="phpdocumentor-signature__response_type">mixed</span>
+    <span class="phpdocumentor-signature__response_type">string</span>
             &mdash;
             <section class="phpdocumentor-description"></section>
 
@@ -2279,20 +2275,20 @@ only be used by the CLI programs that run continuously.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/SmrSession.class.php"><a href="files/src-lib-default-smrsession-class.html"><abbr title="src/lib/Default/SmrSession.class.php">SmrSession.class.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">342</span>
+    <span class="phpdocumentor-element-found-in__line">341</span>
 </aside>
 
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">private</span>
-            <span class="phpdocumentor-signature__static">static</span>    <span class="phpdocumentor-signature__name">updateSN</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">mixed</span></code>
+            <span class="phpdocumentor-signature__static">static</span>    <span class="phpdocumentor-signature__name">updateSN</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">void</span></code>
 
     
     
     
 
         <h5 class="phpdocumentor-return-value__heading">Return values</h5>
-    <span class="phpdocumentor-signature__response_type">mixed</span>
+    <span class="phpdocumentor-signature__response_type">void</span>
             &mdash;
             <section class="phpdocumentor-description"></section>
 
