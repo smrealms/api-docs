@@ -7216,11 +7216,6 @@ Search.appendIndex(
             "summary": "",
             "url": "namespaces/default.html#function_forward"
         },                {
-            "fqsen": "\\forwardURL\u0028\u0029",
-            "name": "forwardURL",
-            "summary": "",
-            "url": "namespaces/default.html#function_forwardURL"
-        },                {
             "fqsen": "\\transfer\u0028\u0029",
             "name": "transfer",
             "summary": "",
