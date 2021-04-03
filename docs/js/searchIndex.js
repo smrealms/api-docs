@@ -6741,6 +6741,56 @@ Search.appendIndex(
             "summary": "",
             "url": "namespaces/default.html#function_doLottoNewsAssign"
         },                {
+            "fqsen": "\\Page",
+            "name": "Page",
+            "summary": "A\u0020container\u0020that\u0020holds\u0020data\u0020needed\u0020to\u0020create\u0020a\u0020new\u0020page.",
+            "url": "classes/Page.html"
+        },                {
+            "fqsen": "\\Page\u003A\u003Acreate\u0028\u0029",
+            "name": "create",
+            "summary": "Create\u0020a\u0020new\u0020Page\u0020object.",
+            "url": "classes/Page.html#method_create"
+        },                {
+            "fqsen": "\\Page\u003A\u003Acopy\u0028\u0029",
+            "name": "copy",
+            "summary": "Create\u0020a\u0020copy\u0020of\u0020a\u0020Page\u0020object.",
+            "url": "classes/Page.html#method_copy"
+        },                {
+            "fqsen": "\\Page\u003A\u003AuseAsGlobalVar\u0028\u0029",
+            "name": "useAsGlobalVar",
+            "summary": "Use\u0020this\u0020container\u0020as\u0020the\u0020global\u0020variable\u0020\u0024var.",
+            "url": "classes/Page.html#method_useAsGlobalVar"
+        },                {
+            "fqsen": "\\Page\u003A\u003Ago\u0028\u0029",
+            "name": "go",
+            "summary": "Forward\u0020to\u0020the\u0020page\u0020identified\u0020by\u0020this\u0020container.",
+            "url": "classes/Page.html#method_go"
+        },                {
+            "fqsen": "\\Page\u003A\u003AaddVar\u0028\u0029",
+            "name": "addVar",
+            "summary": "Transfer\u0020data\u0020from\u0020\u0024var\u0020into\u0020this\u0020container.",
+            "url": "classes/Page.html#method_addVar"
+        },                {
+            "fqsen": "\\Page\u003A\u003Ahref\u0028\u0029",
+            "name": "href",
+            "summary": "Create\u0020an\u0020HREF\u0020\u0028based\u0020on\u0020a\u0020random\u0020SN\u0029\u0020to\u0020link\u0020to\u0020this\u0020page.",
+            "url": "classes/Page.html#method_href"
+        },                {
+            "fqsen": "\\Page\u003A\u003AgetCommonID\u0028\u0029",
+            "name": "getCommonID",
+            "summary": "Returns\u0020a\u0020hash\u0020of\u0020the\u0020contents\u0020of\u0020the\u0020container\u0020to\u0020identify\u0020when\u0020two\ncontainers\u0020are\u0020equivalent\u0020\u0028apart\u0020from\u0020page\u002Dload\u0020tracking\u0020metadata,\u0020which\nwe\u0020strip\u0020out\u0020to\u0020prevent\u0020false\u0020differences\u0029.",
+            "url": "classes/Page.html#method_getCommonID"
+        },                {
+            "fqsen": "\\Page\u003A\u003AALWAYS_AVAILABLE",
+            "name": "ALWAYS_AVAILABLE",
+            "summary": "",
+            "url": "classes/Page.html#constant_ALWAYS_AVAILABLE"
+        },                {
+            "fqsen": "\\Page\u003A\u003AURL_DEFAULT_REMAINING_PAGE_LOADS",
+            "name": "URL_DEFAULT_REMAINING_PAGE_LOADS",
+            "summary": "",
+            "url": "classes/Page.html#constant_URL_DEFAULT_REMAINING_PAGE_LOADS"
+        },                {
             "fqsen": "\\planet_list_common\u0028\u0029",
             "name": "planet_list_common",
             "summary": "",
@@ -7205,26 +7255,6 @@ Search.appendIndex(
             "name": "create_error",
             "summary": "",
             "url": "namespaces/default.html#function_create_error"
-        },                {
-            "fqsen": "\\resetContainer\u0028\u0029",
-            "name": "resetContainer",
-            "summary": "",
-            "url": "namespaces/default.html#function_resetContainer"
-        },                {
-            "fqsen": "\\forward\u0028\u0029",
-            "name": "forward",
-            "summary": "",
-            "url": "namespaces/default.html#function_forward"
-        },                {
-            "fqsen": "\\transfer\u0028\u0029",
-            "name": "transfer",
-            "summary": "",
-            "url": "namespaces/default.html#function_transfer"
-        },                {
-            "fqsen": "\\create_container\u0028\u0029",
-            "name": "create_container",
-            "summary": "",
-            "url": "namespaces/default.html#function_create_container"
         },                {
             "fqsen": "\\create_link\u0028\u0029",
             "name": "create_link",
@@ -11266,16 +11296,6 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/SmrSession.html#method_generateSN"
         },                {
-            "fqsen": "\\SmrSession\u003A\u003AgetCommonID\u0028\u0029",
-            "name": "getCommonID",
-            "summary": "",
-            "url": "classes/SmrSession.html#method_getCommonID"
-        },                {
-            "fqsen": "\\SmrSession\u003A\u003AgetNewHREF\u0028\u0029",
-            "name": "getNewHREF",
-            "summary": "",
-            "url": "classes/SmrSession.html#method_getNewHREF"
-        },                {
             "fqsen": "\\SmrSession\u003A\u003AaddAjaxReturns\u0028\u0029",
             "name": "addAjaxReturns",
             "summary": "",
@@ -11286,20 +11306,10 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/SmrSession.html#method_saveAjaxReturns"
         },                {
-            "fqsen": "\\SmrSession\u003A\u003AALWAYS_AVAILABLE",
-            "name": "ALWAYS_AVAILABLE",
-            "summary": "",
-            "url": "classes/SmrSession.html#constant_ALWAYS_AVAILABLE"
-        },                {
             "fqsen": "\\SmrSession\u003A\u003ATIME_BEFORE_EXPIRY",
             "name": "TIME_BEFORE_EXPIRY",
             "summary": "",
             "url": "classes/SmrSession.html#constant_TIME_BEFORE_EXPIRY"
-        },                {
-            "fqsen": "\\SmrSession\u003A\u003AURL_DEFAULT_REMAINING_PAGE_LOADS",
-            "name": "URL_DEFAULT_REMAINING_PAGE_LOADS",
-            "summary": "",
-            "url": "classes/SmrSession.html#constant_URL_DEFAULT_REMAINING_PAGE_LOADS"
         },                {
             "fqsen": "\\SmrSession\u003A\u003AURL_LOAD_DELAY",
             "name": "URL_LOAD_DELAY",

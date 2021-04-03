@@ -1,0 +1,798 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Documentation</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <base href="../">
+    <link rel="icon" href="images/favicon.ico"/>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/base.css">
+            <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="css/template.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0/css/all.min.css" integrity="sha256-ybRkN9dBjhcS2qrW1z+hfCxq+1aBdwyQM5wlQoQVt/0=" crossorigin="anonymous" />
+                <script src="https://cdn.jsdelivr.net/npm/fuse.js@3.4.6"></script>
+        <script src="https://cdn.jsdelivr.net/npm/css-vars-ponyfill@2"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0/js/all.min.js" integrity="sha256-0vuk8LXoyrmCjp1f0O300qo1M75ZQyhH9X3J6d+scmk=" crossorigin="anonymous"></script>
+        <script src="js/search.js"></script>
+        <script defer src="js/searchIndex.js"></script>
+    </head>
+<body id="top">
+    <header class="phpdocumentor-header phpdocumentor-section">
+    <h1 class="phpdocumentor-title"><a href="" class="phpdocumentor-title__link">Documentation</a></h1>
+    <input class="phpdocumentor-header__menu-button" type="checkbox" id="menu-button" name="menu-button" />
+    <label class="phpdocumentor-header__menu-icon" for="menu-button">
+        <i class="fas fa-bars"></i>
+    </label>
+    <section data-search-form class="phpdocumentor-search">
+    <label>
+        <span class="visually-hidden">Search for</span>
+        <svg class="phpdocumentor-search__icon" width="21" height="20" viewBox="0 0 21 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <circle cx="7.5" cy="7.5" r="6.5" stroke="currentColor" stroke-width="2"/>
+            <line x1="12.4892" y1="12.2727" x2="19.1559" y2="18.9393" stroke="currentColor" stroke-width="3"/>
+        </svg>
+        <input type="search" class="phpdocumentor-field phpdocumentor-search__field" placeholder="Loading .." disabled />
+    </label>
+</section>
+
+    <nav class="phpdocumentor-topnav">
+    <ul class="phpdocumentor-topnav__menu">
+        </ul>
+</nav>
+</header>
+
+    <main class="phpdocumentor">
+        <div class="phpdocumentor-section">
+            <input class="phpdocumentor-sidebar__menu-button" type="checkbox" id="sidebar-button" name="sidebar-button" />
+<label class="phpdocumentor-sidebar__menu-icon" for="sidebar-button">
+    Menu
+</label>
+<aside class="phpdocumentor-column -four phpdocumentor-sidebar">
+    
+    <section class="phpdocumentor-sidebar__category">
+        <h2 class="phpdocumentor-sidebar__category-header">Namespaces</h2>
+                                <h3 class="phpdocumentor-sidebar__root-namespace"><a href="namespaces/default.html"><abbr title="\">Global</abbr></a></h3>
+                                        <h4 class="phpdocumentor-sidebar__root-namespace"><a href="namespaces/blackjack.html"><abbr title="\Blackjack">Blackjack</abbr></a></h4>
+                <ul class="phpdocumentor-list">
+                                    </ul>
+                            <h4 class="phpdocumentor-sidebar__root-namespace"><a href="namespaces/routes.html"><abbr title="\Routes">Routes</abbr></a></h4>
+                <ul class="phpdocumentor-list">
+                                    </ul>
+                            <h4 class="phpdocumentor-sidebar__root-namespace"><a href="namespaces/traits.html"><abbr title="\Traits">Traits</abbr></a></h4>
+                <ul class="phpdocumentor-list">
+                                    </ul>
+                            <h4 class="phpdocumentor-sidebar__root-namespace"><a href="namespaces/smr.html"><abbr title="\Smr">Smr</abbr></a></h4>
+                <ul class="phpdocumentor-list">
+                                            <li><a href="namespaces/smr-container.html"><abbr title="\Smr\Container">Container</abbr></a></li>
+                                            <li><a href="namespaces/smr-sociallogin.html"><abbr title="\Smr\SocialLogin">SocialLogin</abbr></a></li>
+                                    </ul>
+                        </section>
+
+    
+    <section class="phpdocumentor-sidebar__category">
+        <h2 class="phpdocumentor-sidebar__category-header">Reports</h2>
+                <h3 class="phpdocumentor-sidebar__root-package"><a href="reports/deprecated.html">Deprecated</a></h3>
+        <h3 class="phpdocumentor-sidebar__root-package"><a href="reports/errors.html">Errors</a></h3>
+        <h3 class="phpdocumentor-sidebar__root-package"><a href="reports/markers.html">Markers</a></h3>
+    </section>
+
+    <section class="phpdocumentor-sidebar__category">
+        <h2 class="phpdocumentor-sidebar__category-header">Indices</h2>
+        <h3 class="phpdocumentor-sidebar__root-package"><a href="indices/files.html">Files</a></h3>
+    </section>
+</aside>
+
+            <div class="phpdocumentor-column -eight phpdocumentor-content">
+                    <ul class="phpdocumentor-breadcrumbs">
+    </ul>
+
+    <article class="phpdocumentor-element -class">
+        <h2 class="phpdocumentor-content__title">
+    Page
+
+        <span class="phpdocumentor-element__extends">
+        extends <abbr title="\ArrayObject">ArrayObject</abbr>
+    </span>
+    
+    
+    
+    </h2>
+
+        <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/Page.class.php"><a href="files/src-lib-default-page-class.html"><abbr title="src/lib/Default/Page.class.php">Page.class.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">10</span>
+</aside>
+
+            <p class="phpdocumentor-summary">A container that holds data needed to create a new page.</p>
+
+    <section class="phpdocumentor-description"><p>This class acts like an array, whose keys define the page properties.
+Then we can either create an HREF so that it can be accessed by a future
+http request (via the SmrSession), or forwarded to within the same request.</p>
+</section>
+
+
+
+
+
+
+
+
+<h3 id="toc">
+    Table of Contents
+    <a href="#toc" class="headerlink"><i class="fas fa-link"></i></a>
+</h3>
+
+<dl class="phpdocumentor-table-of-contents">
+            <dt class="phpdocumentor-table-of-contents__entry -constant -private">
+    <a href="classes/Page.html#constant_ALWAYS_AVAILABLE">ALWAYS_AVAILABLE</a>
+    <span>
+        &nbsp;= 999999                    </span>
+</dt>
+<dd></dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -constant -private">
+    <a href="classes/Page.html#constant_URL_DEFAULT_REMAINING_PAGE_LOADS">URL_DEFAULT_REMAINING_PAGE_LOADS</a>
+    <span>
+        &nbsp;= array(
+    &#039;alliance_broadcast.php&#039; =&gt; self::ALWAYS_AVAILABLE,
+    &#039;alliance_forces.php&#039; =&gt; self::ALWAYS_AVAILABLE,
+    &#039;alliance_list.php&#039; =&gt; self::ALWAYS_AVAILABLE,
+    &#039;alliance_message_view.php&#039; =&gt; self::ALWAYS_AVAILABLE,
+    &#039;alliance_message.php&#039; =&gt; self::ALWAYS_AVAILABLE,
+    &#039;alliance_mod.php&#039; =&gt; self::ALWAYS_AVAILABLE,
+    &#039;alliance_option.php&#039; =&gt; self::ALWAYS_AVAILABLE,
+    &#039;alliance_pick.php&#039; =&gt; self::ALWAYS_AVAILABLE,
+    &#039;alliance_remove_member.php&#039; =&gt; self::ALWAYS_AVAILABLE,
+    &#039;alliance_roster.php&#039; =&gt; self::ALWAYS_AVAILABLE,
+    &#039;beta_functions.php&#039; =&gt; self::ALWAYS_AVAILABLE,
+    &#039;bug_report.php&#039; =&gt; self::ALWAYS_AVAILABLE,
+    &#039;cargo_dump.php&#039; =&gt; self::ALWAYS_AVAILABLE,
+    &#039;course_plot.php&#039; =&gt; self::ALWAYS_AVAILABLE,
+    &#039;changelog_view.php&#039; =&gt; self::ALWAYS_AVAILABLE,
+    &#039;chat_rules.php&#039; =&gt; self::ALWAYS_AVAILABLE,
+    &#039;chess_play.php&#039; =&gt; self::ALWAYS_AVAILABLE,
+    &#039;combat_log_list.php&#039; =&gt; self::ALWAYS_AVAILABLE,
+    &#039;combat_log_viewer.php&#039; =&gt; self::ALWAYS_AVAILABLE,
+    &#039;current_sector.php&#039; =&gt; self::ALWAYS_AVAILABLE,
+    &#039;configure_hardware.php&#039; =&gt; self::ALWAYS_AVAILABLE,
+    &#039;contact.php&#039; =&gt; self::ALWAYS_AVAILABLE,
+    &#039;council_embassy.php&#039; =&gt; self::ALWAYS_AVAILABLE,
+    &#039;council_list.php&#039; =&gt; self::ALWAYS_AVAILABLE,
+    &#039;council_politics.php&#039; =&gt; self::ALWAYS_AVAILABLE,
+    &#039;council_send_message.php&#039; =&gt; self::ALWAYS_AVAILABLE,
+    &#039;council_vote.php&#039; =&gt; self::ALWAYS_AVAILABLE,
+    &#039;current_players.php&#039; =&gt; self::ALWAYS_AVAILABLE,
+    &#039;donation.php&#039; =&gt; self::ALWAYS_AVAILABLE,
+    &#039;feature_request_comments.php&#039; =&gt; self::ALWAYS_AVAILABLE,
+    &#039;feature_request.php&#039; =&gt; self::ALWAYS_AVAILABLE,
+    &#039;forces_list.php&#039; =&gt; self::ALWAYS_AVAILABLE,
+    &#039;forces_mass_refresh.php&#039; =&gt; self::ALWAYS_AVAILABLE,
+    &#039;hall_of_fame_player_new.php&#039; =&gt; self::ALWAYS_AVAILABLE,
+    &#039;hall_of_fame_player_detail.php&#039; =&gt; self::ALWAYS_AVAILABLE,
+    &#039;leave_newbie.php&#039; =&gt; self::ALWAYS_AVAILABLE,
+    &#039;logoff.php&#039; =&gt; self::ALWAYS_AVAILABLE,
+    &#039;map_local.php&#039; =&gt; self::ALWAYS_AVAILABLE,
+    &#039;message_view.php&#039; =&gt; self::ALWAYS_AVAILABLE,
+    &#039;message_send.php&#039; =&gt; self::ALWAYS_AVAILABLE,
+    &#039;news_read_advanced.php&#039; =&gt; self::ALWAYS_AVAILABLE,
+    &#039;news_read_current.php&#039; =&gt; self::ALWAYS_AVAILABLE,
+    &#039;news_read.php&#039; =&gt; self::ALWAYS_AVAILABLE,
+    &#039;planet_construction.php&#039; =&gt; self::ALWAYS_AVAILABLE,
+    &#039;planet_defense.php&#039; =&gt; self::ALWAYS_AVAILABLE,
+    &#039;planet_financial.php&#039; =&gt; self::ALWAYS_AVAILABLE,
+    &#039;planet_main.php&#039; =&gt; self::ALWAYS_AVAILABLE,
+    &#039;planet_ownership.php&#039; =&gt; self::ALWAYS_AVAILABLE,
+    &#039;planet_stockpile.php&#039; =&gt; self::ALWAYS_AVAILABLE,
+    &#039;planet_list.php&#039; =&gt; self::ALWAYS_AVAILABLE,
+    &#039;planet_list_financial.php&#039; =&gt; self::ALWAYS_AVAILABLE,
+    &#039;preferences.php&#039; =&gt; self::ALWAYS_AVAILABLE,
+    &#039;rankings_alliance_death.php&#039; =&gt; self::ALWAYS_AVAILABLE,
+    &#039;rankings_alliance_experience.php&#039; =&gt; self::ALWAYS_AVAILABLE,
+    &#039;rankings_alliance_kills.php&#039; =&gt; self::ALWAYS_AVAILABLE,
+    &#039;rankings_alliance_vs_alliance.php&#039; =&gt; self::ALWAYS_AVAILABLE,
+    &#039;rankings_player_death.php&#039; =&gt; self::ALWAYS_AVAILABLE,
+    &#039;rankings_player_experience.php&#039; =&gt; self::ALWAYS_AVAILABLE,
+    &#039;rankings_player_kills.php&#039; =&gt; self::ALWAYS_AVAILABLE,
+    &#039;rankings_player_profit.php&#039; =&gt; self::ALWAYS_AVAILABLE,
+    &#039;rankings_race_death.php&#039; =&gt; self::ALWAYS_AVAILABLE,
+    &#039;rankings_race_kills.php&#039; =&gt; self::ALWAYS_AVAILABLE,
+    &#039;rankings_race.php&#039; =&gt; self::ALWAYS_AVAILABLE,
+    &#039;rankings_sector_kill.php&#039; =&gt; self::ALWAYS_AVAILABLE,
+    &#039;rankings_view.php&#039; =&gt; self::ALWAYS_AVAILABLE,
+    &#039;trader_bounties.php&#039; =&gt; self::ALWAYS_AVAILABLE,
+    &#039;trader_relations.php&#039; =&gt; self::ALWAYS_AVAILABLE,
+    &#039;trader_savings.php&#039; =&gt; self::ALWAYS_AVAILABLE,
+    &#039;trader_search_result.php&#039; =&gt; self::ALWAYS_AVAILABLE,
+    &#039;trader_search.php&#039; =&gt; self::ALWAYS_AVAILABLE,
+    &#039;trader_status.php&#039; =&gt; self::ALWAYS_AVAILABLE,
+    &#039;weapon_reorder.php&#039; =&gt; self::ALWAYS_AVAILABLE,
+    //Processing pages
+    &#039;alliance_message_add_processing.php&#039; =&gt; self::ALWAYS_AVAILABLE,
+    &#039;alliance_message_delete_processing.php&#039; =&gt; self::ALWAYS_AVAILABLE,
+    &#039;alliance_pick_processing.php&#039; =&gt; self::ALWAYS_AVAILABLE,
+    &#039;chess_move_processing.php&#039; =&gt; self::ALWAYS_AVAILABLE,
+    &#039;toggle_processing.php&#039; =&gt; self::ALWAYS_AVAILABLE,
+    //Admin pages
+    &#039;account_edit.php&#039; =&gt; self::ALWAYS_AVAILABLE,
+    &#039;album_moderate.php&#039; =&gt; self::ALWAYS_AVAILABLE,
+    &#039;box_view.php&#039; =&gt; self::ALWAYS_AVAILABLE,
+    &#039;changelog.php&#039; =&gt; self::ALWAYS_AVAILABLE,
+    &#039;comp_share.php&#039; =&gt; self::ALWAYS_AVAILABLE,
+    &#039;form_open.php&#039; =&gt; self::ALWAYS_AVAILABLE,
+    &#039;ip_view_results.php&#039; =&gt; self::ALWAYS_AVAILABLE,
+    &#039;ip_view.php&#039; =&gt; self::ALWAYS_AVAILABLE,
+    &#039;permission_manage.php&#039; =&gt; self::ALWAYS_AVAILABLE,
+    &#039;word_filter.php&#039; =&gt; self::ALWAYS_AVAILABLE,
+    //Uni gen
+    &#039;1.6/check_map.php&#039; =&gt; self::ALWAYS_AVAILABLE,
+    &#039;1.6/universe_create_locations.php&#039; =&gt; self::ALWAYS_AVAILABLE,
+    &#039;1.6/universe_create_planets.php&#039; =&gt; self::ALWAYS_AVAILABLE,
+    &#039;1.6/universe_create_ports.php&#039; =&gt; self::ALWAYS_AVAILABLE,
+    &#039;1.6/universe_create_sector_details.php&#039; =&gt; self::ALWAYS_AVAILABLE,
+    &#039;1.6/universe_create_sectors.php&#039; =&gt; self::ALWAYS_AVAILABLE,
+    &#039;1.6/universe_create_warps.php&#039; =&gt; self::ALWAYS_AVAILABLE,
+)                    </span>
+</dt>
+<dd></dd>
+
+                    <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a href="classes/Page.html#method_addVar">addVar()</a>
+    <span>
+                        &nbsp;: void    </span>
+</dt>
+<dd>Transfer data from $var into this container.</dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a href="classes/Page.html#method_copy">copy()</a>
+    <span>
+                        &nbsp;: self    </span>
+</dt>
+<dd>Create a copy of a Page object.</dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a href="classes/Page.html#method_create">create()</a>
+    <span>
+                        &nbsp;: self    </span>
+</dt>
+<dd>Create a new Page object.</dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a href="classes/Page.html#method_go">go()</a>
+    <span>
+                        &nbsp;: void    </span>
+</dt>
+<dd>Forward to the page identified by this container.</dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a href="classes/Page.html#method_href">href()</a>
+    <span>
+                        &nbsp;: string    </span>
+</dt>
+<dd>Create an HREF (based on a random SN) to link to this page.</dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a href="classes/Page.html#method_useAsGlobalVar">useAsGlobalVar()</a>
+    <span>
+                        &nbsp;: mixed    </span>
+</dt>
+<dd>Use this container as the global variable $var.</dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -private">
+    <a href="classes/Page.html#method_getCommonID">getCommonID()</a>
+    <span>
+                        &nbsp;: string    </span>
+</dt>
+<dd>Returns a hash of the contents of the container to identify when two
+containers are equivalent (apart from page-load tracking metadata, which
+we strip out to prevent false differences).</dd>
+
+        </dl>
+
+
+
+        
+    <section class="phpdocumentor-constants">
+        <h3 class="phpdocumentor-elements__header" id="constants">
+            Constants
+            <a href="classes/Page.html#constants" class="headerlink"><i class="fas fa-link"></i></a>
+        </h3>
+                    <article class="phpdocumentor-element -constant -private ">
+    <h4 class="phpdocumentor-element__name" id="constant_ALWAYS_AVAILABLE">
+        ALWAYS_AVAILABLE
+        <a href="classes/Page.html#constant_ALWAYS_AVAILABLE" class="headerlink"><i class="fas fa-link"></i></a>
+    </h4>
+
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/Page.class.php"><a href="files/src-lib-default-page-class.html"><abbr title="src/lib/Default/Page.class.php">Page.class.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">12</span>
+</aside>
+
+    
+    <code class="phpdocumentor-signature phpdocumentor-code ">
+    <span class="phpdocumentor-signature__visibility">private</span>
+    <span class="phpdocumentor-signature__type">mixed</span>
+    <span class="phpdocumentor-signature__name">ALWAYS_AVAILABLE</span>
+    = <span class="phpdocumentor-signature__default-value">999999</span>
+</code>
+
+
+    
+    
+
+</article>
+                    <article class="phpdocumentor-element -constant -private ">
+    <h4 class="phpdocumentor-element__name" id="constant_URL_DEFAULT_REMAINING_PAGE_LOADS">
+        URL_DEFAULT_REMAINING_PAGE_LOADS
+        <a href="classes/Page.html#constant_URL_DEFAULT_REMAINING_PAGE_LOADS" class="headerlink"><i class="fas fa-link"></i></a>
+    </h4>
+
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/Page.class.php"><a href="files/src-lib-default-page-class.html"><abbr title="src/lib/Default/Page.class.php">Page.class.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">17</span>
+</aside>
+
+    
+    <code class="phpdocumentor-signature phpdocumentor-code ">
+    <span class="phpdocumentor-signature__visibility">private</span>
+    <span class="phpdocumentor-signature__type">mixed</span>
+    <span class="phpdocumentor-signature__name">URL_DEFAULT_REMAINING_PAGE_LOADS</span>
+    = <span class="phpdocumentor-signature__default-value">array(
+    &#039;alliance_broadcast.php&#039; =&gt; self::ALWAYS_AVAILABLE,
+    &#039;alliance_forces.php&#039; =&gt; self::ALWAYS_AVAILABLE,
+    &#039;alliance_list.php&#039; =&gt; self::ALWAYS_AVAILABLE,
+    &#039;alliance_message_view.php&#039; =&gt; self::ALWAYS_AVAILABLE,
+    &#039;alliance_message.php&#039; =&gt; self::ALWAYS_AVAILABLE,
+    &#039;alliance_mod.php&#039; =&gt; self::ALWAYS_AVAILABLE,
+    &#039;alliance_option.php&#039; =&gt; self::ALWAYS_AVAILABLE,
+    &#039;alliance_pick.php&#039; =&gt; self::ALWAYS_AVAILABLE,
+    &#039;alliance_remove_member.php&#039; =&gt; self::ALWAYS_AVAILABLE,
+    &#039;alliance_roster.php&#039; =&gt; self::ALWAYS_AVAILABLE,
+    &#039;beta_functions.php&#039; =&gt; self::ALWAYS_AVAILABLE,
+    &#039;bug_report.php&#039; =&gt; self::ALWAYS_AVAILABLE,
+    &#039;cargo_dump.php&#039; =&gt; self::ALWAYS_AVAILABLE,
+    &#039;course_plot.php&#039; =&gt; self::ALWAYS_AVAILABLE,
+    &#039;changelog_view.php&#039; =&gt; self::ALWAYS_AVAILABLE,
+    &#039;chat_rules.php&#039; =&gt; self::ALWAYS_AVAILABLE,
+    &#039;chess_play.php&#039; =&gt; self::ALWAYS_AVAILABLE,
+    &#039;combat_log_list.php&#039; =&gt; self::ALWAYS_AVAILABLE,
+    &#039;combat_log_viewer.php&#039; =&gt; self::ALWAYS_AVAILABLE,
+    &#039;current_sector.php&#039; =&gt; self::ALWAYS_AVAILABLE,
+    &#039;configure_hardware.php&#039; =&gt; self::ALWAYS_AVAILABLE,
+    &#039;contact.php&#039; =&gt; self::ALWAYS_AVAILABLE,
+    &#039;council_embassy.php&#039; =&gt; self::ALWAYS_AVAILABLE,
+    &#039;council_list.php&#039; =&gt; self::ALWAYS_AVAILABLE,
+    &#039;council_politics.php&#039; =&gt; self::ALWAYS_AVAILABLE,
+    &#039;council_send_message.php&#039; =&gt; self::ALWAYS_AVAILABLE,
+    &#039;council_vote.php&#039; =&gt; self::ALWAYS_AVAILABLE,
+    &#039;current_players.php&#039; =&gt; self::ALWAYS_AVAILABLE,
+    &#039;donation.php&#039; =&gt; self::ALWAYS_AVAILABLE,
+    &#039;feature_request_comments.php&#039; =&gt; self::ALWAYS_AVAILABLE,
+    &#039;feature_request.php&#039; =&gt; self::ALWAYS_AVAILABLE,
+    &#039;forces_list.php&#039; =&gt; self::ALWAYS_AVAILABLE,
+    &#039;forces_mass_refresh.php&#039; =&gt; self::ALWAYS_AVAILABLE,
+    &#039;hall_of_fame_player_new.php&#039; =&gt; self::ALWAYS_AVAILABLE,
+    &#039;hall_of_fame_player_detail.php&#039; =&gt; self::ALWAYS_AVAILABLE,
+    &#039;leave_newbie.php&#039; =&gt; self::ALWAYS_AVAILABLE,
+    &#039;logoff.php&#039; =&gt; self::ALWAYS_AVAILABLE,
+    &#039;map_local.php&#039; =&gt; self::ALWAYS_AVAILABLE,
+    &#039;message_view.php&#039; =&gt; self::ALWAYS_AVAILABLE,
+    &#039;message_send.php&#039; =&gt; self::ALWAYS_AVAILABLE,
+    &#039;news_read_advanced.php&#039; =&gt; self::ALWAYS_AVAILABLE,
+    &#039;news_read_current.php&#039; =&gt; self::ALWAYS_AVAILABLE,
+    &#039;news_read.php&#039; =&gt; self::ALWAYS_AVAILABLE,
+    &#039;planet_construction.php&#039; =&gt; self::ALWAYS_AVAILABLE,
+    &#039;planet_defense.php&#039; =&gt; self::ALWAYS_AVAILABLE,
+    &#039;planet_financial.php&#039; =&gt; self::ALWAYS_AVAILABLE,
+    &#039;planet_main.php&#039; =&gt; self::ALWAYS_AVAILABLE,
+    &#039;planet_ownership.php&#039; =&gt; self::ALWAYS_AVAILABLE,
+    &#039;planet_stockpile.php&#039; =&gt; self::ALWAYS_AVAILABLE,
+    &#039;planet_list.php&#039; =&gt; self::ALWAYS_AVAILABLE,
+    &#039;planet_list_financial.php&#039; =&gt; self::ALWAYS_AVAILABLE,
+    &#039;preferences.php&#039; =&gt; self::ALWAYS_AVAILABLE,
+    &#039;rankings_alliance_death.php&#039; =&gt; self::ALWAYS_AVAILABLE,
+    &#039;rankings_alliance_experience.php&#039; =&gt; self::ALWAYS_AVAILABLE,
+    &#039;rankings_alliance_kills.php&#039; =&gt; self::ALWAYS_AVAILABLE,
+    &#039;rankings_alliance_vs_alliance.php&#039; =&gt; self::ALWAYS_AVAILABLE,
+    &#039;rankings_player_death.php&#039; =&gt; self::ALWAYS_AVAILABLE,
+    &#039;rankings_player_experience.php&#039; =&gt; self::ALWAYS_AVAILABLE,
+    &#039;rankings_player_kills.php&#039; =&gt; self::ALWAYS_AVAILABLE,
+    &#039;rankings_player_profit.php&#039; =&gt; self::ALWAYS_AVAILABLE,
+    &#039;rankings_race_death.php&#039; =&gt; self::ALWAYS_AVAILABLE,
+    &#039;rankings_race_kills.php&#039; =&gt; self::ALWAYS_AVAILABLE,
+    &#039;rankings_race.php&#039; =&gt; self::ALWAYS_AVAILABLE,
+    &#039;rankings_sector_kill.php&#039; =&gt; self::ALWAYS_AVAILABLE,
+    &#039;rankings_view.php&#039; =&gt; self::ALWAYS_AVAILABLE,
+    &#039;trader_bounties.php&#039; =&gt; self::ALWAYS_AVAILABLE,
+    &#039;trader_relations.php&#039; =&gt; self::ALWAYS_AVAILABLE,
+    &#039;trader_savings.php&#039; =&gt; self::ALWAYS_AVAILABLE,
+    &#039;trader_search_result.php&#039; =&gt; self::ALWAYS_AVAILABLE,
+    &#039;trader_search.php&#039; =&gt; self::ALWAYS_AVAILABLE,
+    &#039;trader_status.php&#039; =&gt; self::ALWAYS_AVAILABLE,
+    &#039;weapon_reorder.php&#039; =&gt; self::ALWAYS_AVAILABLE,
+    //Processing pages
+    &#039;alliance_message_add_processing.php&#039; =&gt; self::ALWAYS_AVAILABLE,
+    &#039;alliance_message_delete_processing.php&#039; =&gt; self::ALWAYS_AVAILABLE,
+    &#039;alliance_pick_processing.php&#039; =&gt; self::ALWAYS_AVAILABLE,
+    &#039;chess_move_processing.php&#039; =&gt; self::ALWAYS_AVAILABLE,
+    &#039;toggle_processing.php&#039; =&gt; self::ALWAYS_AVAILABLE,
+    //Admin pages
+    &#039;account_edit.php&#039; =&gt; self::ALWAYS_AVAILABLE,
+    &#039;album_moderate.php&#039; =&gt; self::ALWAYS_AVAILABLE,
+    &#039;box_view.php&#039; =&gt; self::ALWAYS_AVAILABLE,
+    &#039;changelog.php&#039; =&gt; self::ALWAYS_AVAILABLE,
+    &#039;comp_share.php&#039; =&gt; self::ALWAYS_AVAILABLE,
+    &#039;form_open.php&#039; =&gt; self::ALWAYS_AVAILABLE,
+    &#039;ip_view_results.php&#039; =&gt; self::ALWAYS_AVAILABLE,
+    &#039;ip_view.php&#039; =&gt; self::ALWAYS_AVAILABLE,
+    &#039;permission_manage.php&#039; =&gt; self::ALWAYS_AVAILABLE,
+    &#039;word_filter.php&#039; =&gt; self::ALWAYS_AVAILABLE,
+    //Uni gen
+    &#039;1.6/check_map.php&#039; =&gt; self::ALWAYS_AVAILABLE,
+    &#039;1.6/universe_create_locations.php&#039; =&gt; self::ALWAYS_AVAILABLE,
+    &#039;1.6/universe_create_planets.php&#039; =&gt; self::ALWAYS_AVAILABLE,
+    &#039;1.6/universe_create_ports.php&#039; =&gt; self::ALWAYS_AVAILABLE,
+    &#039;1.6/universe_create_sector_details.php&#039; =&gt; self::ALWAYS_AVAILABLE,
+    &#039;1.6/universe_create_sectors.php&#039; =&gt; self::ALWAYS_AVAILABLE,
+    &#039;1.6/universe_create_warps.php&#039; =&gt; self::ALWAYS_AVAILABLE,
+)</span>
+</code>
+
+
+    
+    
+
+</article>
+            </section>
+
+        
+
+            <section class="phpdocumentor-methods">
+        <h3 class="phpdocumentor-elements__header" id="methods">
+            Methods
+            <a href="classes/Page.html#methods" class="headerlink"><i class="fas fa-link"></i></a>
+        </h3>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="method_addVar">
+        addVar()
+        <a href="classes/Page.html#method_addVar" class="headerlink"><i class="fas fa-link"></i></a>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/Page.class.php"><a href="files/src-lib-default-page-class.html"><abbr title="src/lib/Default/Page.class.php">Page.class.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">176</span>
+</aside>
+
+        <p class="phpdocumentor-summary">Transfer data from $var into this container.</p>
+
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+                <span class="phpdocumentor-signature__name">addVar</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type">string&nbsp;</span><span class="phpdocumentor-signature__argument__name">$what</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">void</span></code>
+
+        <section class="phpdocumentor-description"></section>
+
+        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
+    <dl class="phpdocumentor-argument-list">
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$what</span>
+                : <span class="phpdocumentor-signature__argument__return-type">string</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                
+            </dd>
+            </dl>
+
+    
+
+        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
+    <span class="phpdocumentor-signature__response_type">void</span>
+            &mdash;
+            <section class="phpdocumentor-description"></section>
+
+    
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                    -static                    "
+>
+    <h4 class="phpdocumentor-element__name" id="method_copy">
+        copy()
+        <a href="classes/Page.html#method_copy" class="headerlink"><i class="fas fa-link"></i></a>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/Page.class.php"><a href="files/src-lib-default-page-class.html"><abbr title="src/lib/Default/Page.class.php">Page.class.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">141</span>
+</aside>
+
+        <p class="phpdocumentor-summary">Create a copy of a Page object.</p>
+
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+            <span class="phpdocumentor-signature__static">static</span>    <span class="phpdocumentor-signature__name">copy</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type"><a href="classes/Page.html"><abbr title="\Page">Page</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$other</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">self</span></code>
+
+        <section class="phpdocumentor-description"><p>This may be useful for reusing a Page object without modifying the
+original.</p>
+</section>
+
+        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
+    <dl class="phpdocumentor-argument-list">
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$other</span>
+                : <span class="phpdocumentor-signature__argument__return-type"><a href="classes/Page.html"><abbr title="\Page">Page</abbr></a></span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                
+            </dd>
+            </dl>
+
+    
+
+        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
+    <span class="phpdocumentor-signature__response_type">self</span>
+            &mdash;
+            <section class="phpdocumentor-description"></section>
+
+    
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                    -static                    "
+>
+    <h4 class="phpdocumentor-element__name" id="method_create">
+        create()
+        <a href="classes/Page.html#method_create" class="headerlink"><i class="fas fa-link"></i></a>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/Page.class.php"><a href="files/src-lib-default-page-class.html"><abbr title="src/lib/Default/Page.class.php">Page.class.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">122</span>
+</aside>
+
+        <p class="phpdocumentor-summary">Create a new Page object.</p>
+
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+            <span class="phpdocumentor-signature__static">static</span>    <span class="phpdocumentor-signature__name">create</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type">mixed&nbsp;</span><span class="phpdocumentor-signature__argument__name">$file</span></span><span class="phpdocumentor-signature__argument"><span>[</span><span>, </span><span class="phpdocumentor-signature__argument__return-type">mixed&nbsp;</span><span class="phpdocumentor-signature__argument__name">$body</span><span> = </span><span class="phpdocumentor-signature__argument__default-value">&#039;&#039;</span><span> ]</span></span><span class="phpdocumentor-signature__argument"><span>[</span><span>, </span><span class="phpdocumentor-signature__argument__return-type"><a href="classes/Page.html"><abbr title="\Page">Page</abbr></a>|array&lt;string|int, mixed&gt;&nbsp;</span><span class="phpdocumentor-signature__argument__name">$extra</span><span> = </span><span class="phpdocumentor-signature__argument__default-value">[]</span><span> ]</span></span><span class="phpdocumentor-signature__argument"><span>[</span><span>, </span><span class="phpdocumentor-signature__argument__return-type">mixed&nbsp;</span><span class="phpdocumentor-signature__argument__name">$remainingPageLoads</span><span> = </span><span class="phpdocumentor-signature__argument__default-value">null</span><span> ]</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">self</span></code>
+
+        <section class="phpdocumentor-description"><p>This is the standard method to package linked pages and the data to
+accompany them.</p>
+</section>
+
+        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
+    <dl class="phpdocumentor-argument-list">
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$file</span>
+                : <span class="phpdocumentor-signature__argument__return-type">mixed</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                
+            </dd>
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$body</span>
+                : <span class="phpdocumentor-signature__argument__return-type">mixed</span>
+                 = <span class="phpdocumentor-signature__argument__default-value">&#039;&#039;</span>            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                
+            </dd>
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$extra</span>
+                : <span class="phpdocumentor-signature__argument__return-type"><a href="classes/Page.html"><abbr title="\Page">Page</abbr></a>|array&lt;string|int, mixed&gt;</span>
+                 = <span class="phpdocumentor-signature__argument__default-value">[]</span>            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                
+            </dd>
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$remainingPageLoads</span>
+                : <span class="phpdocumentor-signature__argument__return-type">mixed</span>
+                 = <span class="phpdocumentor-signature__argument__default-value">null</span>            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                
+            </dd>
+            </dl>
+
+    
+
+        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
+    <span class="phpdocumentor-signature__response_type">self</span>
+            &mdash;
+            <section class="phpdocumentor-description"></section>
+
+    
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="method_go">
+        go()
+        <a href="classes/Page.html#method_go" class="headerlink"><i class="fas fa-link"></i></a>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/Page.class.php"><a href="files/src-lib-default-page-class.html"><abbr title="src/lib/Default/Page.class.php">Page.class.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">163</span>
+</aside>
+
+        <p class="phpdocumentor-summary">Forward to the page identified by this container.</p>
+
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+                <span class="phpdocumentor-signature__name">go</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">void</span></code>
+
+        <section class="phpdocumentor-description"></section>
+
+    
+    
+
+        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
+    <span class="phpdocumentor-signature__response_type">void</span>
+            &mdash;
+            <section class="phpdocumentor-description"></section>
+
+    
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="method_href">
+        href()
+        <a href="classes/Page.html#method_href" class="headerlink"><i class="fas fa-link"></i></a>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/Page.class.php"><a href="files/src-lib-default-page-class.html"><abbr title="src/lib/Default/Page.class.php">Page.class.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">190</span>
+</aside>
+
+        <p class="phpdocumentor-summary">Create an HREF (based on a random SN) to link to this page.</p>
+
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+                <span class="phpdocumentor-signature__name">href</span><span>(</span><span class="phpdocumentor-signature__argument"><span>[</span><span class="phpdocumentor-signature__argument__return-type">bool&nbsp;</span><span class="phpdocumentor-signature__argument__name">$forceFullURL</span><span> = </span><span class="phpdocumentor-signature__argument__default-value">false</span><span> ]</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">string</span></code>
+
+        <section class="phpdocumentor-description"><p>The container is saved in the SmrSession under this SN so that on
+the next request, we can grab the container out of the SmrSession.</p>
+</section>
+
+        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
+    <dl class="phpdocumentor-argument-list">
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$forceFullURL</span>
+                : <span class="phpdocumentor-signature__argument__return-type">bool</span>
+                 = <span class="phpdocumentor-signature__argument__default-value">false</span>            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                
+            </dd>
+            </dl>
+
+    
+
+        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
+    <span class="phpdocumentor-signature__response_type">string</span>
+            &mdash;
+            <section class="phpdocumentor-description"></section>
+
+    
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="method_useAsGlobalVar">
+        useAsGlobalVar()
+        <a href="classes/Page.html#method_useAsGlobalVar" class="headerlink"><i class="fas fa-link"></i></a>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/Page.class.php"><a href="files/src-lib-default-page-class.html"><abbr title="src/lib/Default/Page.class.php">Page.class.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">148</span>
+</aside>
+
+        <p class="phpdocumentor-summary">Use this container as the global variable $var.</p>
+
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+                <span class="phpdocumentor-signature__name">useAsGlobalVar</span><span>(</span><span class="phpdocumentor-signature__argument"><span>[</span><span class="phpdocumentor-signature__argument__return-type">mixed&nbsp;</span><span class="phpdocumentor-signature__argument__name">$sn</span><span> = </span><span class="phpdocumentor-signature__argument__default-value">null</span><span> ]</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">mixed</span></code>
+
+        <section class="phpdocumentor-description"></section>
+
+        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
+    <dl class="phpdocumentor-argument-list">
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$sn</span>
+                : <span class="phpdocumentor-signature__argument__return-type">mixed</span>
+                 = <span class="phpdocumentor-signature__argument__default-value">null</span>            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                
+            </dd>
+            </dl>
+
+    
+
+        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
+    <span class="phpdocumentor-signature__response_type">mixed</span>
+            &mdash;
+            <section class="phpdocumentor-description"></section>
+
+    
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -private
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="method_getCommonID">
+        getCommonID()
+        <a href="classes/Page.html#method_getCommonID" class="headerlink"><i class="fas fa-link"></i></a>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/Page.class.php"><a href="files/src-lib-default-page-class.html"><abbr title="src/lib/Default/Page.class.php">Page.class.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">227</span>
+</aside>
+
+        <p class="phpdocumentor-summary">Returns a hash of the contents of the container to identify when two
+containers are equivalent (apart from page-load tracking metadata, which
+we strip out to prevent false differences).</p>
+
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">private</span>
+                <span class="phpdocumentor-signature__name">getCommonID</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">string</span></code>
+
+        <section class="phpdocumentor-description"></section>
+
+    
+    
+
+        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
+    <span class="phpdocumentor-signature__response_type">string</span>
+            &mdash;
+            <section class="phpdocumentor-description"></section>
+
+    
+</article>
+            </section>
+
+    </article>
+                <section data-search-results class="phpdocumentor-search-results phpdocumentor-search-results--hidden">
+    <section class="phpdocumentor-search-results__dialog">
+        <header class="phpdocumentor-search-results__header">
+            <h2 class="phpdocumentor-search-results__title">Search results</h2>
+            <button class="phpdocumentor-search-results__close"><i class="fas fa-times"></i></button>
+        </header>
+        <section class="phpdocumentor-search-results__body">
+            <ul class="phpdocumentor-search-results__entries"></ul>
+        </section>
+    </section>
+</section>
+            </div>
+        </div>
+        <a href="classes/Page.html#top" class="phpdocumentor-back-to-top"><i class="fas fa-chevron-circle-up"></i></a>
+
+    </main>
+
+    <script>
+        cssVars({});
+    </script>
+</body>
+</html>
