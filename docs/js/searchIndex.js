@@ -11176,21 +11176,6 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/SmrSession.html"
         },                {
-            "fqsen": "\\SmrSession\u003A\u003AgetTime\u0028\u0029",
-            "name": "getTime",
-            "summary": "Returns\u0020the\u0020time\u0020\u0028in\u0020seconds\u0029\u0020associated\u0020with\u0020this\u0020page\u0020request.",
-            "url": "classes/SmrSession.html#method_getTime"
-        },                {
-            "fqsen": "\\SmrSession\u003A\u003AgetMicroTime\u0028\u0029",
-            "name": "getMicroTime",
-            "summary": "Returns\u0020the\u0020time\u0020\u0028in\u0020seconds,\u0020with\u0020microsecond\u002Dlevel\u0020precision\u0029\nassociated\u0020with\u0020this\u0020page\u0020request.",
-            "url": "classes/SmrSession.html#method_getMicroTime"
-        },                {
-            "fqsen": "\\SmrSession\u003A\u003AupdateTime\u0028\u0029",
-            "name": "updateTime",
-            "summary": "Update\u0020the\u0020time\u0020associated\u0020with\u0020this\u0020page\u0020request.",
-            "url": "classes/SmrSession.html#method_updateTime"
-        },                {
             "fqsen": "\\SmrSession\u003A\u003Ainit\u0028\u0029",
             "name": "init",
             "summary": "",
@@ -11370,11 +11355,6 @@ Search.appendIndex(
             "name": "last_accessed",
             "summary": "",
             "url": "classes/SmrSession.html#property_last_accessed"
-        },                {
-            "fqsen": "\\SmrSession\u003A\u003A\u0024pageRequestTime",
-            "name": "pageRequestTime",
-            "summary": "",
-            "url": "classes/SmrSession.html#property_pageRequestTime"
         },                {
             "fqsen": "\\SmrSession\u003A\u003A\u0024previousAjaxReturns",
             "name": "previousAjaxReturns",
@@ -12056,36 +12036,6 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/Template.html#property_jsSources"
         },                {
-            "fqsen": "\\Time",
-            "name": "Time",
-            "summary": "Stores\u0020the\u0020current\u0020time.",
-            "url": "classes/Time.html"
-        },                {
-            "fqsen": "\\Time\u003A\u003A__construct\u0028\u0029",
-            "name": "__construct",
-            "summary": "",
-            "url": "classes/Time.html#method___construct"
-        },                {
-            "fqsen": "\\Time\u003A\u003AgetMicroTime\u0028\u0029",
-            "name": "getMicroTime",
-            "summary": "",
-            "url": "classes/Time.html#method_getMicroTime"
-        },                {
-            "fqsen": "\\Time\u003A\u003AgetTime\u0028\u0029",
-            "name": "getTime",
-            "summary": "",
-            "url": "classes/Time.html#method_getTime"
-        },                {
-            "fqsen": "\\Time\u003A\u003A\u0024microtime",
-            "name": "microtime",
-            "summary": "",
-            "url": "classes/Time.html#property_microtime"
-        },                {
-            "fqsen": "\\Time\u003A\u003A\u0024time",
-            "name": "time",
-            "summary": "",
-            "url": "classes/Time.html#property_time"
-        },                {
             "fqsen": "\\Traits\\RaceID",
             "name": "RaceID",
             "summary": "Implements\u0020the\u0020interface\u0020for\u0020classes\u0020that\u0020need\u0020a\u0020\u0024raceID\u0020property.",
@@ -12325,6 +12275,46 @@ Search.appendIndex(
             "name": "container",
             "summary": "",
             "url": "classes/Smr-Container-DiContainer.html#property_container"
+        },                {
+            "fqsen": "\\Smr\\Epoch",
+            "name": "Epoch",
+            "summary": "Stores\u0020the\u0020current\u0020time\u0020as\u0020a\u0020fixed\u0020value.",
+            "url": "classes/Smr-Epoch.html"
+        },                {
+            "fqsen": "\\Smr\\Epoch\u003A\u003A__construct\u0028\u0029",
+            "name": "__construct",
+            "summary": "",
+            "url": "classes/Smr-Epoch.html#method___construct"
+        },                {
+            "fqsen": "\\Smr\\Epoch\u003A\u003AgetMicrotime\u0028\u0029",
+            "name": "getMicrotime",
+            "summary": "",
+            "url": "classes/Smr-Epoch.html#method_getMicrotime"
+        },                {
+            "fqsen": "\\Smr\\Epoch\u003A\u003AgetTime\u0028\u0029",
+            "name": "getTime",
+            "summary": "",
+            "url": "classes/Smr-Epoch.html#method_getTime"
+        },                {
+            "fqsen": "\\Smr\\Epoch\u003A\u003AgetInstance\u0028\u0029",
+            "name": "getInstance",
+            "summary": "Returns\u0020the\u0020instance\u0020of\u0020this\u0020class\u0020from\u0020the\u0020DI\u0020container.",
+            "url": "classes/Smr-Epoch.html#method_getInstance"
+        },                {
+            "fqsen": "\\Smr\\Epoch\u003A\u003A\u0024microtime",
+            "name": "microtime",
+            "summary": "",
+            "url": "classes/Smr-Epoch.html#property_microtime"
+        },                {
+            "fqsen": "\\Smr\\Epoch\u003A\u003A\u0024time",
+            "name": "time",
+            "summary": "",
+            "url": "classes/Smr-Epoch.html#property_time"
+        },                {
+            "fqsen": "\\Smr\\Epoch\u003A\u003Aupdate\u0028\u0029",
+            "name": "update",
+            "summary": "Update\u0020the\u0020time\u0020associated\u0020with\u0020this\u0020page\u0020request\n\u0028i.e.\u0020stored\u0020in\u0020the\u0020DI\u0020container\u0029.",
+            "url": "classes/Smr-Epoch.html#method_update"
         },                {
             "fqsen": "\\Smr\\MySqlProperties",
             "name": "MySqlProperties",

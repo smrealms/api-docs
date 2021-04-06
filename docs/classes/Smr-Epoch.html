@@ -84,11 +84,12 @@
 
             <div class="phpdocumentor-column -eight phpdocumentor-content">
                     <ul class="phpdocumentor-breadcrumbs">
+            <li class="phpdocumentor-breadcrumb"><a href="namespaces/smr.html">Smr</a></li>
     </ul>
 
     <article class="phpdocumentor-element -class">
         <h2 class="phpdocumentor-content__title">
-    Time
+    Epoch
 
     
     
@@ -96,14 +97,20 @@
     </h2>
 
         <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/Time.class.php"><a href="files/src-lib-default-time-class.html"><abbr title="src/lib/Default/Time.class.php">Time.class.php</abbr></a></abbr>
+    <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Epoch.php"><a href="files/src-lib-smr-epoch.html"><abbr title="src/lib/Smr/Epoch.php">Epoch.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">6</span>
+    <span class="phpdocumentor-element-found-in__line">17</span>
 </aside>
 
-            <p class="phpdocumentor-summary">Stores the current time.</p>
+            <p class="phpdocumentor-summary">Stores the current time as a fixed value.</p>
 
-    <section class="phpdocumentor-description"></section>
+    <section class="phpdocumentor-description"><p>This is useful for ensuring that times are used consistently within the
+context of an individual page request. It does not, however, represent
+the start time of the request.</p>
+<p>The static methods are a convenience wrapper around the instance of this
+class stored in the DI container (which is set on the first query, and
+then remains unchanged in subsequent calls).</p>
+</section>
 
 
 
@@ -119,39 +126,70 @@
 
 <dl class="phpdocumentor-table-of-contents">
                 <dt class="phpdocumentor-table-of-contents__entry -property -private">
-    <a href="classes/Time.html#property_microtime">$microtime</a>
+    <a href="classes/Smr-Epoch.html#property_microtime">$microtime</a>
     <span>
                 &nbsp;: float            </span>
 </dt>
 <dd></dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -property -private">
-    <a href="classes/Time.html#property_time">$time</a>
+    <a href="classes/Smr-Epoch.html#property_time">$time</a>
     <span>
                 &nbsp;: int            </span>
 </dt>
 <dd></dd>
 
                 <dt class="phpdocumentor-table-of-contents__entry -method -public">
-    <a href="classes/Time.html#method___construct">__construct()</a>
+    <a href="classes/Smr-Epoch.html#method___construct">__construct()</a>
     <span>
                         &nbsp;: mixed    </span>
 </dt>
 <dd></dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
-    <a href="classes/Time.html#method_getMicroTime">getMicroTime()</a>
+    <a href="classes/Smr-Epoch.html#method_getMicrotime">getMicrotime()</a>
     <span>
                         &nbsp;: float    </span>
 </dt>
 <dd></dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
-    <a href="classes/Time.html#method_getTime">getTime()</a>
+    <a href="classes/Smr-Epoch.html#method_getTime">getTime()</a>
     <span>
                         &nbsp;: int    </span>
 </dt>
 <dd></dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a href="classes/Smr-Epoch.html#method_microtime">microtime()</a>
+    <span>
+                        &nbsp;: float    </span>
+</dt>
+<dd>Return the time (in seconds, with microsecond-level precision)
+associated with a page request (i.e. stored in the DI container).</dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a href="classes/Smr-Epoch.html#method_time">time()</a>
+    <span>
+                        &nbsp;: int    </span>
+</dt>
+<dd>Return the time (in seconds) associated with a page request
+(i.e. stored in the DI container).</dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a href="classes/Smr-Epoch.html#method_update">update()</a>
+    <span>
+                        &nbsp;: void    </span>
+</dt>
+<dd>Update the time associated with this page request
+(i.e. stored in the DI container).</dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -private">
+    <a href="classes/Smr-Epoch.html#method_getInstance">getInstance()</a>
+    <span>
+                        &nbsp;: self    </span>
+</dt>
+<dd>Returns the instance of this class from the DI container.</dd>
 
         </dl>
 
@@ -163,7 +201,7 @@
     <section class="phpdocumentor-properties">
         <h3 class="phpdocumentor-elements__header" id="properties">
             Properties
-            <a href="classes/Time.html#properties" class="headerlink"><i class="fas fa-link"></i></a>
+            <a href="classes/Smr-Epoch.html#properties" class="headerlink"><i class="fas fa-link"></i></a>
         </h3>
                     <article
         class="
@@ -174,14 +212,14 @@
 >
     <h4 class="phpdocumentor-element__name" id="property_microtime">
         $microtime
-        <a href="classes/Time.html#property_microtime" class="headerlink"><i class="fas fa-link"></i></a>
+        <a href="classes/Smr-Epoch.html#property_microtime" class="headerlink"><i class="fas fa-link"></i></a>
         <span class="phpdocumentor-element__modifiers">
                                 </span>
     </h4>
     <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/Time.class.php"><a href="files/src-lib-default-time-class.html"><abbr title="src/lib/Default/Time.class.php">Time.class.php</abbr></a></abbr>
+    <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Epoch.php"><a href="files/src-lib-smr-epoch.html"><abbr title="src/lib/Smr/Epoch.php">Epoch.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">8</span>
+    <span class="phpdocumentor-element-found-in__line">19</span>
 </aside>
 
     
@@ -204,14 +242,14 @@
 >
     <h4 class="phpdocumentor-element__name" id="property_time">
         $time
-        <a href="classes/Time.html#property_time" class="headerlink"><i class="fas fa-link"></i></a>
+        <a href="classes/Smr-Epoch.html#property_time" class="headerlink"><i class="fas fa-link"></i></a>
         <span class="phpdocumentor-element__modifiers">
                                 </span>
     </h4>
     <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/Time.class.php"><a href="files/src-lib-default-time-class.html"><abbr title="src/lib/Default/Time.class.php">Time.class.php</abbr></a></abbr>
+    <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Epoch.php"><a href="files/src-lib-smr-epoch.html"><abbr title="src/lib/Smr/Epoch.php">Epoch.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">9</span>
+    <span class="phpdocumentor-element-found-in__line">20</span>
 </aside>
 
     
@@ -230,7 +268,7 @@
             <section class="phpdocumentor-methods">
         <h3 class="phpdocumentor-elements__header" id="methods">
             Methods
-            <a href="classes/Time.html#methods" class="headerlink"><i class="fas fa-link"></i></a>
+            <a href="classes/Smr-Epoch.html#methods" class="headerlink"><i class="fas fa-link"></i></a>
         </h3>
                     <article
         class="phpdocumentor-element
@@ -240,12 +278,12 @@
 >
     <h4 class="phpdocumentor-element__name" id="method___construct">
         __construct()
-        <a href="classes/Time.html#method___construct" class="headerlink"><i class="fas fa-link"></i></a>
+        <a href="classes/Smr-Epoch.html#method___construct" class="headerlink"><i class="fas fa-link"></i></a>
     </h4>
     <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/Time.class.php"><a href="files/src-lib-default-time-class.html"><abbr title="src/lib/Default/Time.class.php">Time.class.php</abbr></a></abbr>
+    <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Epoch.php"><a href="files/src-lib-smr-epoch.html"><abbr title="src/lib/Smr/Epoch.php">Epoch.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">11</span>
+    <span class="phpdocumentor-element-found-in__line">22</span>
 </aside>
 
     
@@ -270,20 +308,20 @@
             -public
                                                         "
 >
-    <h4 class="phpdocumentor-element__name" id="method_getMicroTime">
-        getMicroTime()
-        <a href="classes/Time.html#method_getMicroTime" class="headerlink"><i class="fas fa-link"></i></a>
+    <h4 class="phpdocumentor-element__name" id="method_getMicrotime">
+        getMicrotime()
+        <a href="classes/Smr-Epoch.html#method_getMicrotime" class="headerlink"><i class="fas fa-link"></i></a>
     </h4>
     <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/Time.class.php"><a href="files/src-lib-default-time-class.html"><abbr title="src/lib/Default/Time.class.php">Time.class.php</abbr></a></abbr>
+    <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Epoch.php"><a href="files/src-lib-smr-epoch.html"><abbr title="src/lib/Smr/Epoch.php">Epoch.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">16</span>
+    <span class="phpdocumentor-element-found-in__line">27</span>
 </aside>
 
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">public</span>
-                <span class="phpdocumentor-signature__name">getMicroTime</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">float</span></code>
+                <span class="phpdocumentor-signature__name">getMicrotime</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">float</span></code>
 
     
     
@@ -304,12 +342,12 @@
 >
     <h4 class="phpdocumentor-element__name" id="method_getTime">
         getTime()
-        <a href="classes/Time.html#method_getTime" class="headerlink"><i class="fas fa-link"></i></a>
+        <a href="classes/Smr-Epoch.html#method_getTime" class="headerlink"><i class="fas fa-link"></i></a>
     </h4>
     <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/Time.class.php"><a href="files/src-lib-default-time-class.html"><abbr title="src/lib/Default/Time.class.php">Time.class.php</abbr></a></abbr>
+    <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Epoch.php"><a href="files/src-lib-smr-epoch.html"><abbr title="src/lib/Smr/Epoch.php">Epoch.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">20</span>
+    <span class="phpdocumentor-element-found-in__line">31</span>
 </aside>
 
     
@@ -323,6 +361,149 @@
 
         <h5 class="phpdocumentor-return-value__heading">Return values</h5>
     <span class="phpdocumentor-signature__response_type">int</span>
+            &mdash;
+            <section class="phpdocumentor-description"></section>
+
+    
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                    -static                    "
+>
+    <h4 class="phpdocumentor-element__name" id="method_microtime">
+        microtime()
+        <a href="classes/Smr-Epoch.html#method_microtime" class="headerlink"><i class="fas fa-link"></i></a>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Epoch.php"><a href="files/src-lib-smr-epoch.html"><abbr title="src/lib/Smr/Epoch.php">Epoch.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">48</span>
+</aside>
+
+        <p class="phpdocumentor-summary">Return the time (in seconds, with microsecond-level precision)
+associated with a page request (i.e. stored in the DI container).</p>
+
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+            <span class="phpdocumentor-signature__static">static</span>    <span class="phpdocumentor-signature__name">microtime</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">float</span></code>
+
+        <section class="phpdocumentor-description"></section>
+
+    
+    
+
+        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
+    <span class="phpdocumentor-signature__response_type">float</span>
+            &mdash;
+            <section class="phpdocumentor-description"></section>
+
+    
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                    -static                    "
+>
+    <h4 class="phpdocumentor-element__name" id="method_time">
+        time()
+        <a href="classes/Smr-Epoch.html#method_time" class="headerlink"><i class="fas fa-link"></i></a>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Epoch.php"><a href="files/src-lib-smr-epoch.html"><abbr title="src/lib/Smr/Epoch.php">Epoch.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">56</span>
+</aside>
+
+        <p class="phpdocumentor-summary">Return the time (in seconds) associated with a page request
+(i.e. stored in the DI container).</p>
+
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+            <span class="phpdocumentor-signature__static">static</span>    <span class="phpdocumentor-signature__name">time</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">int</span></code>
+
+        <section class="phpdocumentor-description"></section>
+
+    
+    
+
+        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
+    <span class="phpdocumentor-signature__response_type">int</span>
+            &mdash;
+            <section class="phpdocumentor-description"></section>
+
+    
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                    -static                    "
+>
+    <h4 class="phpdocumentor-element__name" id="method_update">
+        update()
+        <a href="classes/Smr-Epoch.html#method_update" class="headerlink"><i class="fas fa-link"></i></a>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Epoch.php"><a href="files/src-lib-smr-epoch.html"><abbr title="src/lib/Smr/Epoch.php">Epoch.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">67</span>
+</aside>
+
+        <p class="phpdocumentor-summary">Update the time associated with this page request
+(i.e. stored in the DI container).</p>
+
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+            <span class="phpdocumentor-signature__static">static</span>    <span class="phpdocumentor-signature__name">update</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">void</span></code>
+
+        <section class="phpdocumentor-description"><p>NOTE: This should never be called by normal page requests, and should
+only be used by the CLI programs that run continuously.</p>
+</section>
+
+    
+    
+
+        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
+    <span class="phpdocumentor-signature__response_type">void</span>
+            &mdash;
+            <section class="phpdocumentor-description"></section>
+
+    
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -private
+                                    -static                    "
+>
+    <h4 class="phpdocumentor-element__name" id="method_getInstance">
+        getInstance()
+        <a href="classes/Smr-Epoch.html#method_getInstance" class="headerlink"><i class="fas fa-link"></i></a>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Epoch.php"><a href="files/src-lib-smr-epoch.html"><abbr title="src/lib/Smr/Epoch.php">Epoch.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">40</span>
+</aside>
+
+        <p class="phpdocumentor-summary">Returns the instance of this class from the DI container.</p>
+
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">private</span>
+            <span class="phpdocumentor-signature__static">static</span>    <span class="phpdocumentor-signature__name">getInstance</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">self</span></code>
+
+        <section class="phpdocumentor-description"><p>The first time this is called, it will populate the DI container,
+and this will be the time associated with the page request.</p>
+</section>
+
+    
+    
+
+        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
+    <span class="phpdocumentor-signature__response_type">self</span>
             &mdash;
             <section class="phpdocumentor-description"></section>
 
@@ -344,7 +525,7 @@
 </section>
             </div>
         </div>
-        <a href="classes/Time.html#top" class="phpdocumentor-back-to-top"><i class="fas fa-chevron-circle-up"></i></a>
+        <a href="classes/Smr-Epoch.html#top" class="phpdocumentor-back-to-top"><i class="fas fa-chevron-circle-up"></i></a>
 
     </main>
 
