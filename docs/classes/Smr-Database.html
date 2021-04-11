@@ -84,11 +84,12 @@
 
             <div class="phpdocumentor-column -eight phpdocumentor-content">
                     <ul class="phpdocumentor-breadcrumbs">
+            <li class="phpdocumentor-breadcrumb"><a href="namespaces/smr.html">Smr</a></li>
     </ul>
 
     <article class="phpdocumentor-element -class">
         <h2 class="phpdocumentor-content__title">
-    MySqlDatabase
+    Database
 
     
     
@@ -96,9 +97,9 @@
     </h2>
 
         <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/MySqlDatabase.class.php"><a href="files/src-lib-default-mysqldatabase-class.html"><abbr title="src/lib/Default/MySqlDatabase.class.php">MySqlDatabase.class.php</abbr></a></abbr>
+    <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Database.php"><a href="files/src-lib-smr-database.html"><abbr title="src/lib/Smr/Database.php">Database.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">6</span>
+    <span class="phpdocumentor-element-found-in__line">11</span>
 </aside>
 
         
@@ -117,63 +118,63 @@
 
 <dl class="phpdocumentor-table-of-contents">
                 <dt class="phpdocumentor-table-of-contents__entry -property -private">
-    <a href="classes/MySqlDatabase.html#property_dbConn">$dbConn</a>
+    <a href="classes/Smr-Database.html#property_dbConn">$dbConn</a>
     <span>
                 &nbsp;: <abbr title="\mysqli">mysqli</abbr>            </span>
 </dt>
 <dd></dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -property -private">
-    <a href="classes/MySqlDatabase.html#property_dbRecord">$dbRecord</a>
+    <a href="classes/Smr-Database.html#property_dbProperties">$dbProperties</a>
+    <span>
+                &nbsp;: <a href="classes/Smr-DatabaseProperties.html"><abbr title="\Smr\DatabaseProperties">DatabaseProperties</abbr></a>            </span>
+</dt>
+<dd></dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -property -private">
+    <a href="classes/Smr-Database.html#property_dbRecord">$dbRecord</a>
     <span>
                 &nbsp;: array&lt;string|int, mixed&gt;|null            </span>
 </dt>
 <dd></dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -property -private">
-    <a href="classes/MySqlDatabase.html#property_dbResult">$dbResult</a>
+    <a href="classes/Smr-Database.html#property_dbResult">$dbResult</a>
     <span>
-                &nbsp;: bool            </span>
+                &nbsp;: bool|<abbr title="\mysqli_result">mysqli_result</abbr>            </span>
 </dt>
 <dd></dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -property -private">
-    <a href="classes/MySqlDatabase.html#property_mysqlProperties">$mysqlProperties</a>
-    <span>
-                &nbsp;: <a href="classes/Smr-MySqlProperties.html"><abbr title="\Smr\MySqlProperties">MySqlProperties</abbr></a>            </span>
-</dt>
-<dd></dd>
-
-            <dt class="phpdocumentor-table-of-contents__entry -property -private">
-    <a href="classes/MySqlDatabase.html#property_selectedDbName">$selectedDbName</a>
+    <a href="classes/Smr-Database.html#property_selectedDbName">$selectedDbName</a>
     <span>
                 &nbsp;: string            </span>
 </dt>
 <dd></dd>
 
                 <dt class="phpdocumentor-table-of-contents__entry -method -public">
-    <a href="classes/MySqlDatabase.html#method___construct">__construct()</a>
+    <a href="classes/Smr-Database.html#method___construct">__construct()</a>
     <span>
                         &nbsp;: mixed    </span>
 </dt>
-<dd>MySqlDatabase constructor.</dd>
+<dd>Database constructor.</dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
-    <a href="classes/MySqlDatabase.html#method_close">close()</a>
+    <a href="classes/Smr-Database.html#method_close">close()</a>
     <span>
                         &nbsp;: bool    </span>
 </dt>
 <dd>This should not be needed except perhaps by persistent connections</dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
-    <a href="classes/MySqlDatabase.html#method_escape">escape()</a>
+    <a href="classes/Smr-Database.html#method_escape">escape()</a>
     <span>
                         &nbsp;: mixed    </span>
 </dt>
 <dd></dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
-    <a href="classes/MySqlDatabase.html#method_escapeArray">escapeArray()</a>
+    <a href="classes/Smr-Database.html#method_escapeArray">escapeArray()</a>
     <span>
                         &nbsp;: string    </span>
 </dt>
@@ -181,168 +182,168 @@
 but beware that the escaped array is flattened!</dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
-    <a href="classes/MySqlDatabase.html#method_escapeBinary">escapeBinary()</a>
+    <a href="classes/Smr-Database.html#method_escapeBinary">escapeBinary()</a>
     <span>
                         &nbsp;: mixed    </span>
 </dt>
 <dd></dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
-    <a href="classes/MySqlDatabase.html#method_escapeBoolean">escapeBoolean()</a>
+    <a href="classes/Smr-Database.html#method_escapeBoolean">escapeBoolean()</a>
     <span>
                         &nbsp;: string    </span>
 </dt>
 <dd></dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
-    <a href="classes/MySqlDatabase.html#method_escapeMicrotime">escapeMicrotime()</a>
+    <a href="classes/Smr-Database.html#method_escapeMicrotime">escapeMicrotime()</a>
     <span>
                         &nbsp;: string    </span>
 </dt>
 <dd></dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
-    <a href="classes/MySqlDatabase.html#method_escapeNumber">escapeNumber()</a>
+    <a href="classes/Smr-Database.html#method_escapeNumber">escapeNumber()</a>
     <span>
                         &nbsp;: mixed    </span>
 </dt>
 <dd></dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
-    <a href="classes/MySqlDatabase.html#method_escapeObject">escapeObject()</a>
+    <a href="classes/Smr-Database.html#method_escapeObject">escapeObject()</a>
     <span>
                         &nbsp;: string    </span>
 </dt>
 <dd></dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
-    <a href="classes/MySqlDatabase.html#method_escapeString">escapeString()</a>
+    <a href="classes/Smr-Database.html#method_escapeString">escapeString()</a>
     <span>
                         &nbsp;: string    </span>
 </dt>
 <dd></dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
-    <a href="classes/MySqlDatabase.html#method_getBoolean">getBoolean()</a>
+    <a href="classes/Smr-Database.html#method_getBoolean">getBoolean()</a>
     <span>
                         &nbsp;: bool    </span>
 </dt>
 <dd></dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
-    <a href="classes/MySqlDatabase.html#method_getChangedRows">getChangedRows()</a>
+    <a href="classes/Smr-Database.html#method_getChangedRows">getChangedRows()</a>
     <span>
                         &nbsp;: mixed    </span>
 </dt>
 <dd></dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
-    <a href="classes/MySqlDatabase.html#method_getDbBytes">getDbBytes()</a>
+    <a href="classes/Smr-Database.html#method_getDbBytes">getDbBytes()</a>
     <span>
                         &nbsp;: mixed    </span>
 </dt>
 <dd>Returns the size of the selected database in bytes.</dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
-    <a href="classes/MySqlDatabase.html#method_getField">getField()</a>
+    <a href="classes/Smr-Database.html#method_getField">getField()</a>
     <span>
                         &nbsp;: mixed    </span>
 </dt>
 <dd></dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
-    <a href="classes/MySqlDatabase.html#method_getFloat">getFloat()</a>
+    <a href="classes/Smr-Database.html#method_getFloat">getFloat()</a>
     <span>
                         &nbsp;: mixed    </span>
 </dt>
 <dd></dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
-    <a href="classes/MySqlDatabase.html#method_getInsertID">getInsertID()</a>
+    <a href="classes/Smr-Database.html#method_getInsertID">getInsertID()</a>
     <span>
                         &nbsp;: mixed    </span>
 </dt>
 <dd></dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
-    <a href="classes/MySqlDatabase.html#method_getInstance">getInstance()</a>
+    <a href="classes/Smr-Database.html#method_getInstance">getInstance()</a>
     <span>
-                        &nbsp;: <a href="classes/MySqlDatabase.html"><abbr title="\MySqlDatabase">MySqlDatabase</abbr></a>    </span>
+                        &nbsp;: self    </span>
 </dt>
 <dd></dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
-    <a href="classes/MySqlDatabase.html#method_getInt">getInt()</a>
+    <a href="classes/Smr-Database.html#method_getInt">getInt()</a>
     <span>
                         &nbsp;: mixed    </span>
 </dt>
 <dd></dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
-    <a href="classes/MySqlDatabase.html#method_getMicrotime">getMicrotime()</a>
+    <a href="classes/Smr-Database.html#method_getMicrotime">getMicrotime()</a>
     <span>
                         &nbsp;: string    </span>
 </dt>
 <dd></dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
-    <a href="classes/MySqlDatabase.html#method_getNumRows">getNumRows()</a>
+    <a href="classes/Smr-Database.html#method_getNumRows">getNumRows()</a>
     <span>
                         &nbsp;: mixed    </span>
 </dt>
 <dd></dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
-    <a href="classes/MySqlDatabase.html#method_getObject">getObject()</a>
+    <a href="classes/Smr-Database.html#method_getObject">getObject()</a>
     <span>
                         &nbsp;: mixed    </span>
 </dt>
 <dd></dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
-    <a href="classes/MySqlDatabase.html#method_getRow">getRow()</a>
+    <a href="classes/Smr-Database.html#method_getRow">getRow()</a>
     <span>
                         &nbsp;: mixed    </span>
 </dt>
 <dd></dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
-    <a href="classes/MySqlDatabase.html#method_hasField">hasField()</a>
+    <a href="classes/Smr-Database.html#method_hasField">hasField()</a>
     <span>
                         &nbsp;: mixed    </span>
 </dt>
 <dd></dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
-    <a href="classes/MySqlDatabase.html#method_lockTable">lockTable()</a>
+    <a href="classes/Smr-Database.html#method_lockTable">lockTable()</a>
     <span>
                         &nbsp;: mixed    </span>
 </dt>
 <dd></dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
-    <a href="classes/MySqlDatabase.html#method_mysqliFactory">mysqliFactory()</a>
+    <a href="classes/Smr-Database.html#method_mysqliFactory">mysqliFactory()</a>
     <span>
                         &nbsp;: <abbr title="\mysqli">mysqli</abbr>    </span>
 </dt>
 <dd></dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
-    <a href="classes/MySqlDatabase.html#method_nextRecord">nextRecord()</a>
+    <a href="classes/Smr-Database.html#method_nextRecord">nextRecord()</a>
     <span>
                         &nbsp;: bool    </span>
 </dt>
 <dd>Use to populate this instance with the next record of the active query.</dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
-    <a href="classes/MySqlDatabase.html#method_query">query()</a>
+    <a href="classes/Smr-Database.html#method_query">query()</a>
     <span>
                         &nbsp;: mixed    </span>
 </dt>
 <dd></dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
-    <a href="classes/MySqlDatabase.html#method_requireRecord">requireRecord()</a>
+    <a href="classes/Smr-Database.html#method_requireRecord">requireRecord()</a>
     <span>
                         &nbsp;: void    </span>
 </dt>
@@ -350,35 +351,35 @@ but beware that the escaped array is flattened!</dd>
 active query.</dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
-    <a href="classes/MySqlDatabase.html#method_switchDatabases">switchDatabases()</a>
+    <a href="classes/Smr-Database.html#method_switchDatabases">switchDatabases()</a>
     <span>
                         &nbsp;: mixed    </span>
 </dt>
 <dd>This method will switch the connection to the specified database.</dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
-    <a href="classes/MySqlDatabase.html#method_switchDatabaseToLive">switchDatabaseToLive()</a>
+    <a href="classes/Smr-Database.html#method_switchDatabaseToLive">switchDatabaseToLive()</a>
     <span>
                         &nbsp;: mixed    </span>
 </dt>
 <dd>Switch back to the configured live database</dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
-    <a href="classes/MySqlDatabase.html#method_unlock">unlock()</a>
+    <a href="classes/Smr-Database.html#method_unlock">unlock()</a>
     <span>
                         &nbsp;: mixed    </span>
 </dt>
 <dd></dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -protected">
-    <a href="classes/MySqlDatabase.html#method_error">error()</a>
+    <a href="classes/Smr-Database.html#method_error">error()</a>
     <span>
                         &nbsp;: mixed    </span>
 </dt>
 <dd></dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -private">
-    <a href="classes/MySqlDatabase.html#method_reconnectMysql">reconnectMysql()</a>
+    <a href="classes/Smr-Database.html#method_reconnectMysql">reconnectMysql()</a>
     <span>
                         &nbsp;: <abbr title="\mysqli">mysqli</abbr>    </span>
 </dt>
@@ -395,7 +396,7 @@ in the dependency injection container for future retrievals.</dd>
     <section class="phpdocumentor-properties">
         <h3 class="phpdocumentor-elements__header" id="properties">
             Properties
-            <a href="classes/MySqlDatabase.html#properties" class="headerlink"><i class="fas fa-link"></i></a>
+            <a href="classes/Smr-Database.html#properties" class="headerlink"><i class="fas fa-link"></i></a>
         </h3>
                     <article
         class="
@@ -406,14 +407,14 @@ in the dependency injection container for future retrievals.</dd>
 >
     <h4 class="phpdocumentor-element__name" id="property_dbConn">
         $dbConn
-        <a href="classes/MySqlDatabase.html#property_dbConn" class="headerlink"><i class="fas fa-link"></i></a>
+        <a href="classes/Smr-Database.html#property_dbConn" class="headerlink"><i class="fas fa-link"></i></a>
         <span class="phpdocumentor-element__modifiers">
                                 </span>
     </h4>
     <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/MySqlDatabase.class.php"><a href="files/src-lib-default-mysqldatabase-class.html"><abbr title="src/lib/Default/MySqlDatabase.class.php">MySqlDatabase.class.php</abbr></a></abbr>
+    <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Database.php"><a href="files/src-lib-smr-database.html"><abbr title="src/lib/Smr/Database.php">Database.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">7</span>
+    <span class="phpdocumentor-element-found-in__line">12</span>
 </aside>
 
     
@@ -434,16 +435,46 @@ in the dependency injection container for future retrievals.</dd>
             -private
                                                         "
 >
-    <h4 class="phpdocumentor-element__name" id="property_dbRecord">
-        $dbRecord
-        <a href="classes/MySqlDatabase.html#property_dbRecord" class="headerlink"><i class="fas fa-link"></i></a>
+    <h4 class="phpdocumentor-element__name" id="property_dbProperties">
+        $dbProperties
+        <a href="classes/Smr-Database.html#property_dbProperties" class="headerlink"><i class="fas fa-link"></i></a>
         <span class="phpdocumentor-element__modifiers">
                                 </span>
     </h4>
     <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/MySqlDatabase.class.php"><a href="files/src-lib-default-mysqldatabase-class.html"><abbr title="src/lib/Default/MySqlDatabase.class.php">MySqlDatabase.class.php</abbr></a></abbr>
+    <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Database.php"><a href="files/src-lib-smr-database.html"><abbr title="src/lib/Smr/Database.php">Database.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">14</span>
+    <span class="phpdocumentor-element-found-in__line">13</span>
+</aside>
+
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">private</span>
+        <span class="phpdocumentor-signature__type"><a href="classes/Smr-DatabaseProperties.html"><abbr title="\Smr\DatabaseProperties">DatabaseProperties</abbr></a></span>
+    <span class="phpdocumentor-signature__name">$dbProperties</span>
+    </code>
+
+    
+    
+
+</article>
+                    <article
+        class="
+            phpdocumentor-element
+            -property
+            -private
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="property_dbRecord">
+        $dbRecord
+        <a href="classes/Smr-Database.html#property_dbRecord" class="headerlink"><i class="fas fa-link"></i></a>
+        <span class="phpdocumentor-element__modifiers">
+                                </span>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Database.php"><a href="files/src-lib-smr-database.html"><abbr title="src/lib/Smr/Database.php">Database.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">16</span>
 </aside>
 
     
@@ -451,8 +482,7 @@ in the dependency injection container for future retrievals.</dd>
     <span class="phpdocumentor-signature__visibility">private</span>
         <span class="phpdocumentor-signature__type">array&lt;string|int, mixed&gt;|null</span>
     <span class="phpdocumentor-signature__name">$dbRecord</span>
-     = <span class="phpdocumentor-signature__default-value">
-ull</span></code>
+    </code>
 
     
     
@@ -467,53 +497,21 @@ ull</span></code>
 >
     <h4 class="phpdocumentor-element__name" id="property_dbResult">
         $dbResult
-        <a href="classes/MySqlDatabase.html#property_dbResult" class="headerlink"><i class="fas fa-link"></i></a>
+        <a href="classes/Smr-Database.html#property_dbResult" class="headerlink"><i class="fas fa-link"></i></a>
         <span class="phpdocumentor-element__modifiers">
                                 </span>
     </h4>
     <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/MySqlDatabase.class.php"><a href="files/src-lib-default-mysqldatabase-class.html"><abbr title="src/lib/Default/MySqlDatabase.class.php">MySqlDatabase.class.php</abbr></a></abbr>
+    <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Database.php"><a href="files/src-lib-smr-database.html"><abbr title="src/lib/Smr/Database.php">Database.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">13</span>
+    <span class="phpdocumentor-element-found-in__line">15</span>
 </aside>
 
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">private</span>
-        <span class="phpdocumentor-signature__type">bool</span>
+        <span class="phpdocumentor-signature__type">bool|<abbr title="\mysqli_result">mysqli_result</abbr></span>
     <span class="phpdocumentor-signature__name">$dbResult</span>
-     = <span class="phpdocumentor-signature__default-value">
-ull</span></code>
-
-        <section class="phpdocumentor-description"></section>
-
-    
-
-</article>
-                    <article
-        class="
-            phpdocumentor-element
-            -property
-            -private
-                                                        "
->
-    <h4 class="phpdocumentor-element__name" id="property_mysqlProperties">
-        $mysqlProperties
-        <a href="classes/MySqlDatabase.html#property_mysqlProperties" class="headerlink"><i class="fas fa-link"></i></a>
-        <span class="phpdocumentor-element__modifiers">
-                                </span>
-    </h4>
-    <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/MySqlDatabase.class.php"><a href="files/src-lib-default-mysqldatabase-class.html"><abbr title="src/lib/Default/MySqlDatabase.class.php">MySqlDatabase.class.php</abbr></a></abbr>
-    :
-    <span class="phpdocumentor-element-found-in__line">8</span>
-</aside>
-
-    
-    <code class="phpdocumentor-code phpdocumentor-signature ">
-    <span class="phpdocumentor-signature__visibility">private</span>
-        <span class="phpdocumentor-signature__type"><a href="classes/Smr-MySqlProperties.html"><abbr title="\Smr\MySqlProperties">MySqlProperties</abbr></a></span>
-    <span class="phpdocumentor-signature__name">$mysqlProperties</span>
     </code>
 
     
@@ -529,14 +527,14 @@ ull</span></code>
 >
     <h4 class="phpdocumentor-element__name" id="property_selectedDbName">
         $selectedDbName
-        <a href="classes/MySqlDatabase.html#property_selectedDbName" class="headerlink"><i class="fas fa-link"></i></a>
+        <a href="classes/Smr-Database.html#property_selectedDbName" class="headerlink"><i class="fas fa-link"></i></a>
         <span class="phpdocumentor-element__modifiers">
                                 </span>
     </h4>
     <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/MySqlDatabase.class.php"><a href="files/src-lib-default-mysqldatabase-class.html"><abbr title="src/lib/Default/MySqlDatabase.class.php">MySqlDatabase.class.php</abbr></a></abbr>
+    <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Database.php"><a href="files/src-lib-smr-database.html"><abbr title="src/lib/Smr/Database.php">Database.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">9</span>
+    <span class="phpdocumentor-element-found-in__line">14</span>
 </aside>
 
     
@@ -555,7 +553,7 @@ ull</span></code>
             <section class="phpdocumentor-methods">
         <h3 class="phpdocumentor-elements__header" id="methods">
             Methods
-            <a href="classes/MySqlDatabase.html#methods" class="headerlink"><i class="fas fa-link"></i></a>
+            <a href="classes/Smr-Database.html#methods" class="headerlink"><i class="fas fa-link"></i></a>
         </h3>
                     <article
         class="phpdocumentor-element
@@ -565,22 +563,22 @@ ull</span></code>
 >
     <h4 class="phpdocumentor-element__name" id="method___construct">
         __construct()
-        <a href="classes/MySqlDatabase.html#method___construct" class="headerlink"><i class="fas fa-link"></i></a>
+        <a href="classes/Smr-Database.html#method___construct" class="headerlink"><i class="fas fa-link"></i></a>
     </h4>
     <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/MySqlDatabase.class.php"><a href="files/src-lib-default-mysqldatabase-class.html"><abbr title="src/lib/Default/MySqlDatabase.class.php">MySqlDatabase.class.php</abbr></a></abbr>
+    <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Database.php"><a href="files/src-lib-smr-database.html"><abbr title="src/lib/Smr/Database.php">Database.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">55</span>
+    <span class="phpdocumentor-element-found-in__line">57</span>
 </aside>
 
-        <p class="phpdocumentor-summary">MySqlDatabase constructor.</p>
+        <p class="phpdocumentor-summary">Database constructor.</p>
 
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">public</span>
-                <span class="phpdocumentor-signature__name">__construct</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type"><abbr title="\mysqli">mysqli</abbr>|null&nbsp;</span><span class="phpdocumentor-signature__argument__name">$dbConn</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__return-type"><abbr title="\MySqlProperties">MySqlProperties</abbr>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$mysqlProperties</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">mixed</span></code>
+                <span class="phpdocumentor-signature__name">__construct</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type"><abbr title="\mysqli">mysqli</abbr>|null&nbsp;</span><span class="phpdocumentor-signature__argument__name">$dbConn</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__return-type"><a href="classes/Smr-DatabaseProperties.html"><abbr title="\Smr\DatabaseProperties">DatabaseProperties</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$dbProperties</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">mixed</span></code>
 
-        <section class="phpdocumentor-description"><p>Not intended to be constructed by hand. If you need an instance of MySqlDatabase,
-use MySqlDatabase::getInstance();</p>
+        <section class="phpdocumentor-description"><p>Not intended to be constructed by hand. If you need an instance of Database,
+use Database::getInstance();</p>
 </section>
 
         <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
@@ -595,8 +593,8 @@ use MySqlDatabase::getInstance();</p>
 
             </dd>
                     <dt class="phpdocumentor-argument-list__entry">
-                <span class="phpdocumentor-signature__argument__name">$mysqlProperties</span>
-                : <span class="phpdocumentor-signature__argument__return-type"><abbr title="\MySqlProperties">MySqlProperties</abbr></span>
+                <span class="phpdocumentor-signature__argument__name">$dbProperties</span>
+                : <span class="phpdocumentor-signature__argument__return-type"><a href="classes/Smr-DatabaseProperties.html"><abbr title="\Smr\DatabaseProperties">DatabaseProperties</abbr></a></span>
                             </dt>
             <dd class="phpdocumentor-argument-list__definition">
                     <section class="phpdocumentor-description"><p>The properties object that was used to construct the mysqli instance</p>
@@ -622,12 +620,12 @@ use MySqlDatabase::getInstance();</p>
 >
     <h4 class="phpdocumentor-element__name" id="method_close">
         close()
-        <a href="classes/MySqlDatabase.html#method_close" class="headerlink"><i class="fas fa-link"></i></a>
+        <a href="classes/Smr-Database.html#method_close" class="headerlink"><i class="fas fa-link"></i></a>
     </h4>
     <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/MySqlDatabase.class.php"><a href="files/src-lib-default-mysqldatabase-class.html"><abbr title="src/lib/Default/MySqlDatabase.class.php">MySqlDatabase.class.php</abbr></a></abbr>
+    <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Database.php"><a href="files/src-lib-smr-database.html"><abbr title="src/lib/Smr/Database.php">Database.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">103</span>
+    <span class="phpdocumentor-element-found-in__line">105</span>
 </aside>
 
         <p class="phpdocumentor-summary">This should not be needed except perhaps by persistent connections</p>
@@ -637,9 +635,9 @@ use MySqlDatabase::getInstance();</p>
                 <span class="phpdocumentor-signature__name">close</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">bool</span></code>
 
         <section class="phpdocumentor-description"><p>Closes the connection to the MySQL database. After closing this connection,
-this MySqlDatabase instance is no longer valid, and will subsequently throw exceptions when
+this instance is no longer valid, and will subsequently throw exceptions when
 attempting to perform database operations.</p>
-<p>You must call MySqlDatabase::getInstance() again to retrieve a valid instance that
+<p>You must call Database::getInstance() again to retrieve a valid instance that
 is reconnected to the database.</p>
 </section>
 
@@ -662,12 +660,12 @@ is reconnected to the database.</p>
 >
     <h4 class="phpdocumentor-element__name" id="method_escape">
         escape()
-        <a href="classes/MySqlDatabase.html#method_escape" class="headerlink"><i class="fas fa-link"></i></a>
+        <a href="classes/Smr-Database.html#method_escape" class="headerlink"><i class="fas fa-link"></i></a>
     </h4>
     <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/MySqlDatabase.class.php"><a href="files/src-lib-default-mysqldatabase-class.html"><abbr title="src/lib/Default/MySqlDatabase.class.php">MySqlDatabase.class.php</abbr></a></abbr>
+    <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Database.php"><a href="files/src-lib-smr-database.html"><abbr title="src/lib/Smr/Database.php">Database.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">214</span>
+    <span class="phpdocumentor-element-found-in__line">216</span>
 </aside>
 
     
@@ -704,12 +702,12 @@ is reconnected to the database.</p>
 >
     <h4 class="phpdocumentor-element__name" id="method_escapeArray">
         escapeArray()
-        <a href="classes/MySqlDatabase.html#method_escapeArray" class="headerlink"><i class="fas fa-link"></i></a>
+        <a href="classes/Smr-Database.html#method_escapeArray" class="headerlink"><i class="fas fa-link"></i></a>
     </h4>
     <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/MySqlDatabase.class.php"><a href="files/src-lib-default-mysqldatabase-class.html"><abbr title="src/lib/Default/MySqlDatabase.class.php">MySqlDatabase.class.php</abbr></a></abbr>
+    <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Database.php"><a href="files/src-lib-smr-database.html"><abbr title="src/lib/Smr/Database.php">Database.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">247</span>
+    <span class="phpdocumentor-element-found-in__line">249</span>
 </aside>
 
         <p class="phpdocumentor-summary">Warning: If escaping a nested array, use escapeIndividually=true,
@@ -763,12 +761,12 @@ but beware that the escaped array is flattened!</p>
 >
     <h4 class="phpdocumentor-element__name" id="method_escapeBinary">
         escapeBinary()
-        <a href="classes/MySqlDatabase.html#method_escapeBinary" class="headerlink"><i class="fas fa-link"></i></a>
+        <a href="classes/Smr-Database.html#method_escapeBinary" class="headerlink"><i class="fas fa-link"></i></a>
     </h4>
     <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/MySqlDatabase.class.php"><a href="files/src-lib-default-mysqldatabase-class.html"><abbr title="src/lib/Default/MySqlDatabase.class.php">MySqlDatabase.class.php</abbr></a></abbr>
+    <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Database.php"><a href="files/src-lib-smr-database.html"><abbr title="src/lib/Smr/Database.php">Database.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">239</span>
+    <span class="phpdocumentor-element-found-in__line">241</span>
 </aside>
 
     
@@ -805,12 +803,12 @@ but beware that the escaped array is flattened!</p>
 >
     <h4 class="phpdocumentor-element__name" id="method_escapeBoolean">
         escapeBoolean()
-        <a href="classes/MySqlDatabase.html#method_escapeBoolean" class="headerlink"><i class="fas fa-link"></i></a>
+        <a href="classes/Smr-Database.html#method_escapeBoolean" class="headerlink"><i class="fas fa-link"></i></a>
     </h4>
     <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/MySqlDatabase.class.php"><a href="files/src-lib-default-mysqldatabase-class.html"><abbr title="src/lib/Default/MySqlDatabase.class.php">MySqlDatabase.class.php</abbr></a></abbr>
+    <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Database.php"><a href="files/src-lib-smr-database.html"><abbr title="src/lib/Smr/Database.php">Database.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">271</span>
+    <span class="phpdocumentor-element-found-in__line">273</span>
 </aside>
 
     
@@ -847,12 +845,12 @@ but beware that the escaped array is flattened!</p>
 >
     <h4 class="phpdocumentor-element__name" id="method_escapeMicrotime">
         escapeMicrotime()
-        <a href="classes/MySqlDatabase.html#method_escapeMicrotime" class="headerlink"><i class="fas fa-link"></i></a>
+        <a href="classes/Smr-Database.html#method_escapeMicrotime" class="headerlink"><i class="fas fa-link"></i></a>
     </h4>
     <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/MySqlDatabase.class.php"><a href="files/src-lib-default-mysqldatabase-class.html"><abbr title="src/lib/Default/MySqlDatabase.class.php">MySqlDatabase.class.php</abbr></a></abbr>
+    <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Database.php"><a href="files/src-lib-smr-database.html"><abbr title="src/lib/Smr/Database.php">Database.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">266</span>
+    <span class="phpdocumentor-element-found-in__line">268</span>
 </aside>
 
     
@@ -889,12 +887,12 @@ but beware that the escaped array is flattened!</p>
 >
     <h4 class="phpdocumentor-element__name" id="method_escapeNumber">
         escapeNumber()
-        <a href="classes/MySqlDatabase.html#method_escapeNumber" class="headerlink"><i class="fas fa-link"></i></a>
+        <a href="classes/Smr-Database.html#method_escapeNumber" class="headerlink"><i class="fas fa-link"></i></a>
     </h4>
     <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/MySqlDatabase.class.php"><a href="files/src-lib-default-mysqldatabase-class.html"><abbr title="src/lib/Default/MySqlDatabase.class.php">MySqlDatabase.class.php</abbr></a></abbr>
+    <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Database.php"><a href="files/src-lib-smr-database.html"><abbr title="src/lib/Smr/Database.php">Database.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">256</span>
+    <span class="phpdocumentor-element-found-in__line">258</span>
 </aside>
 
     
@@ -931,12 +929,12 @@ but beware that the escaped array is flattened!</p>
 >
     <h4 class="phpdocumentor-element__name" id="method_escapeObject">
         escapeObject()
-        <a href="classes/MySqlDatabase.html#method_escapeObject" class="headerlink"><i class="fas fa-link"></i></a>
+        <a href="classes/Smr-Database.html#method_escapeObject" class="headerlink"><i class="fas fa-link"></i></a>
     </h4>
     <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/MySqlDatabase.class.php"><a href="files/src-lib-default-mysqldatabase-class.html"><abbr title="src/lib/Default/MySqlDatabase.class.php">MySqlDatabase.class.php</abbr></a></abbr>
+    <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Database.php"><a href="files/src-lib-smr-database.html"><abbr title="src/lib/Smr/Database.php">Database.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">280</span>
+    <span class="phpdocumentor-element-found-in__line">282</span>
 </aside>
 
     
@@ -987,12 +985,12 @@ but beware that the escaped array is flattened!</p>
 >
     <h4 class="phpdocumentor-element__name" id="method_escapeString">
         escapeString()
-        <a href="classes/MySqlDatabase.html#method_escapeString" class="headerlink"><i class="fas fa-link"></i></a>
+        <a href="classes/Smr-Database.html#method_escapeString" class="headerlink"><i class="fas fa-link"></i></a>
     </h4>
     <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/MySqlDatabase.class.php"><a href="files/src-lib-default-mysqldatabase-class.html"><abbr title="src/lib/Default/MySqlDatabase.class.php">MySqlDatabase.class.php</abbr></a></abbr>
+    <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Database.php"><a href="files/src-lib-smr-database.html"><abbr title="src/lib/Smr/Database.php">Database.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">232</span>
+    <span class="phpdocumentor-element-found-in__line">234</span>
 </aside>
 
     
@@ -1036,12 +1034,12 @@ but beware that the escaped array is flattened!</p>
 >
     <h4 class="phpdocumentor-element__name" id="method_getBoolean">
         getBoolean()
-        <a href="classes/MySqlDatabase.html#method_getBoolean" class="headerlink"><i class="fas fa-link"></i></a>
+        <a href="classes/Smr-Database.html#method_getBoolean" class="headerlink"><i class="fas fa-link"></i></a>
     </h4>
     <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/MySqlDatabase.class.php"><a href="files/src-lib-default-mysqldatabase-class.html"><abbr title="src/lib/Default/MySqlDatabase.class.php">MySqlDatabase.class.php</abbr></a></abbr>
+    <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Database.php"><a href="files/src-lib-smr-database.html"><abbr title="src/lib/Smr/Database.php">Database.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">152</span>
+    <span class="phpdocumentor-element-found-in__line">154</span>
 </aside>
 
     
@@ -1078,12 +1076,12 @@ but beware that the escaped array is flattened!</p>
 >
     <h4 class="phpdocumentor-element__name" id="method_getChangedRows">
         getChangedRows()
-        <a href="classes/MySqlDatabase.html#method_getChangedRows" class="headerlink"><i class="fas fa-link"></i></a>
+        <a href="classes/Smr-Database.html#method_getChangedRows" class="headerlink"><i class="fas fa-link"></i></a>
     </h4>
     <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/MySqlDatabase.class.php"><a href="files/src-lib-default-mysqldatabase-class.html"><abbr title="src/lib/Default/MySqlDatabase.class.php">MySqlDatabase.class.php</abbr></a></abbr>
+    <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Database.php"><a href="files/src-lib-smr-database.html"><abbr title="src/lib/Smr/Database.php">Database.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">202</span>
+    <span class="phpdocumentor-element-found-in__line">204</span>
 </aside>
 
     
@@ -1110,12 +1108,12 @@ but beware that the escaped array is flattened!</p>
 >
     <h4 class="phpdocumentor-element__name" id="method_getDbBytes">
         getDbBytes()
-        <a href="classes/MySqlDatabase.html#method_getDbBytes" class="headerlink"><i class="fas fa-link"></i></a>
+        <a href="classes/Smr-Database.html#method_getDbBytes" class="headerlink"><i class="fas fa-link"></i></a>
     </h4>
     <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/MySqlDatabase.class.php"><a href="files/src-lib-default-mysqldatabase-class.html"><abbr title="src/lib/Default/MySqlDatabase.class.php">MySqlDatabase.class.php</abbr></a></abbr>
+    <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Database.php"><a href="files/src-lib-smr-database.html"><abbr title="src/lib/Smr/Database.php">Database.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">85</span>
+    <span class="phpdocumentor-element-found-in__line">87</span>
 </aside>
 
         <p class="phpdocumentor-summary">Returns the size of the selected database in bytes.</p>
@@ -1144,12 +1142,12 @@ but beware that the escaped array is flattened!</p>
 >
     <h4 class="phpdocumentor-element__name" id="method_getField">
         getField()
-        <a href="classes/MySqlDatabase.html#method_getField" class="headerlink"><i class="fas fa-link"></i></a>
+        <a href="classes/Smr-Database.html#method_getField" class="headerlink"><i class="fas fa-link"></i></a>
     </h4>
     <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/MySqlDatabase.class.php"><a href="files/src-lib-default-mysqldatabase-class.html"><abbr title="src/lib/Default/MySqlDatabase.class.php">MySqlDatabase.class.php</abbr></a></abbr>
+    <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Database.php"><a href="files/src-lib-smr-database.html"><abbr title="src/lib/Smr/Database.php">Database.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">148</span>
+    <span class="phpdocumentor-element-found-in__line">150</span>
 </aside>
 
     
@@ -1186,12 +1184,12 @@ but beware that the escaped array is flattened!</p>
 >
     <h4 class="phpdocumentor-element__name" id="method_getFloat">
         getFloat()
-        <a href="classes/MySqlDatabase.html#method_getFloat" class="headerlink"><i class="fas fa-link"></i></a>
+        <a href="classes/Smr-Database.html#method_getFloat" class="headerlink"><i class="fas fa-link"></i></a>
     </h4>
     <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/MySqlDatabase.class.php"><a href="files/src-lib-default-mysqldatabase-class.html"><abbr title="src/lib/Default/MySqlDatabase.class.php">MySqlDatabase.class.php</abbr></a></abbr>
+    <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Database.php"><a href="files/src-lib-smr-database.html"><abbr title="src/lib/Smr/Database.php">Database.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">165</span>
+    <span class="phpdocumentor-element-found-in__line">167</span>
 </aside>
 
     
@@ -1228,12 +1226,12 @@ but beware that the escaped array is flattened!</p>
 >
     <h4 class="phpdocumentor-element__name" id="method_getInsertID">
         getInsertID()
-        <a href="classes/MySqlDatabase.html#method_getInsertID" class="headerlink"><i class="fas fa-link"></i></a>
+        <a href="classes/Smr-Database.html#method_getInsertID" class="headerlink"><i class="fas fa-link"></i></a>
     </h4>
     <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/MySqlDatabase.class.php"><a href="files/src-lib-default-mysqldatabase-class.html"><abbr title="src/lib/Default/MySqlDatabase.class.php">MySqlDatabase.class.php</abbr></a></abbr>
+    <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Database.php"><a href="files/src-lib-smr-database.html"><abbr title="src/lib/Smr/Database.php">Database.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">206</span>
+    <span class="phpdocumentor-element-found-in__line">208</span>
 </aside>
 
     
@@ -1260,25 +1258,25 @@ but beware that the escaped array is flattened!</p>
 >
     <h4 class="phpdocumentor-element__name" id="method_getInstance">
         getInstance()
-        <a href="classes/MySqlDatabase.html#method_getInstance" class="headerlink"><i class="fas fa-link"></i></a>
+        <a href="classes/Smr-Database.html#method_getInstance" class="headerlink"><i class="fas fa-link"></i></a>
     </h4>
     <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/MySqlDatabase.class.php"><a href="files/src-lib-default-mysqldatabase-class.html"><abbr title="src/lib/Default/MySqlDatabase.class.php">MySqlDatabase.class.php</abbr></a></abbr>
+    <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Database.php"><a href="files/src-lib-smr-database.html"><abbr title="src/lib/Smr/Database.php">Database.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">16</span>
+    <span class="phpdocumentor-element-found-in__line">18</span>
 </aside>
 
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">public</span>
-            <span class="phpdocumentor-signature__static">static</span>    <span class="phpdocumentor-signature__name">getInstance</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type"><a href="classes/MySqlDatabase.html"><abbr title="\MySqlDatabase">MySqlDatabase</abbr></a></span></code>
+            <span class="phpdocumentor-signature__static">static</span>    <span class="phpdocumentor-signature__name">getInstance</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">self</span></code>
 
     
     
     
 
         <h5 class="phpdocumentor-return-value__heading">Return values</h5>
-    <span class="phpdocumentor-signature__response_type"><a href="classes/MySqlDatabase.html"><abbr title="\MySqlDatabase">MySqlDatabase</abbr></a></span>
+    <span class="phpdocumentor-signature__response_type">self</span>
             &mdash;
             <section class="phpdocumentor-description"></section>
 
@@ -1292,12 +1290,12 @@ but beware that the escaped array is flattened!</p>
 >
     <h4 class="phpdocumentor-element__name" id="method_getInt">
         getInt()
-        <a href="classes/MySqlDatabase.html#method_getInt" class="headerlink"><i class="fas fa-link"></i></a>
+        <a href="classes/Smr-Database.html#method_getInt" class="headerlink"><i class="fas fa-link"></i></a>
     </h4>
     <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/MySqlDatabase.class.php"><a href="files/src-lib-default-mysqldatabase-class.html"><abbr title="src/lib/Default/MySqlDatabase.class.php">MySqlDatabase.class.php</abbr></a></abbr>
+    <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Database.php"><a href="files/src-lib-smr-database.html"><abbr title="src/lib/Smr/Database.php">Database.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">161</span>
+    <span class="phpdocumentor-element-found-in__line">163</span>
 </aside>
 
     
@@ -1334,12 +1332,12 @@ but beware that the escaped array is flattened!</p>
 >
     <h4 class="phpdocumentor-element__name" id="method_getMicrotime">
         getMicrotime()
-        <a href="classes/MySqlDatabase.html#method_getMicrotime" class="headerlink"><i class="fas fa-link"></i></a>
+        <a href="classes/Smr-Database.html#method_getMicrotime" class="headerlink"><i class="fas fa-link"></i></a>
     </h4>
     <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/MySqlDatabase.class.php"><a href="files/src-lib-default-mysqldatabase-class.html"><abbr title="src/lib/Default/MySqlDatabase.class.php">MySqlDatabase.class.php</abbr></a></abbr>
+    <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Database.php"><a href="files/src-lib-smr-database.html"><abbr title="src/lib/Smr/Database.php">Database.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">169</span>
+    <span class="phpdocumentor-element-found-in__line">171</span>
 </aside>
 
     
@@ -1376,12 +1374,12 @@ but beware that the escaped array is flattened!</p>
 >
     <h4 class="phpdocumentor-element__name" id="method_getNumRows">
         getNumRows()
-        <a href="classes/MySqlDatabase.html#method_getNumRows" class="headerlink"><i class="fas fa-link"></i></a>
+        <a href="classes/Smr-Database.html#method_getNumRows" class="headerlink"><i class="fas fa-link"></i></a>
     </h4>
     <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/MySqlDatabase.class.php"><a href="files/src-lib-default-mysqldatabase-class.html"><abbr title="src/lib/Default/MySqlDatabase.class.php">MySqlDatabase.class.php</abbr></a></abbr>
+    <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Database.php"><a href="files/src-lib-smr-database.html"><abbr title="src/lib/Smr/Database.php">Database.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">198</span>
+    <span class="phpdocumentor-element-found-in__line">200</span>
 </aside>
 
     
@@ -1408,12 +1406,12 @@ but beware that the escaped array is flattened!</p>
 >
     <h4 class="phpdocumentor-element__name" id="method_getObject">
         getObject()
-        <a href="classes/MySqlDatabase.html#method_getObject" class="headerlink"><i class="fas fa-link"></i></a>
+        <a href="classes/Smr-Database.html#method_getObject" class="headerlink"><i class="fas fa-link"></i></a>
     </h4>
     <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/MySqlDatabase.class.php"><a href="files/src-lib-default-mysqldatabase-class.html"><abbr title="src/lib/Default/MySqlDatabase.class.php">MySqlDatabase.class.php</abbr></a></abbr>
+    <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Database.php"><a href="files/src-lib-smr-database.html"><abbr title="src/lib/Smr/Database.php">Database.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">175</span>
+    <span class="phpdocumentor-element-found-in__line">177</span>
 </aside>
 
     
@@ -1464,12 +1462,12 @@ but beware that the escaped array is flattened!</p>
 >
     <h4 class="phpdocumentor-element__name" id="method_getRow">
         getRow()
-        <a href="classes/MySqlDatabase.html#method_getRow" class="headerlink"><i class="fas fa-link"></i></a>
+        <a href="classes/Smr-Database.html#method_getRow" class="headerlink"><i class="fas fa-link"></i></a>
     </h4>
     <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/MySqlDatabase.class.php"><a href="files/src-lib-default-mysqldatabase-class.html"><abbr title="src/lib/Default/MySqlDatabase.class.php">MySqlDatabase.class.php</abbr></a></abbr>
+    <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Database.php"><a href="files/src-lib-smr-database.html"><abbr title="src/lib/Smr/Database.php">Database.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">186</span>
+    <span class="phpdocumentor-element-found-in__line">188</span>
 </aside>
 
     
@@ -1496,12 +1494,12 @@ but beware that the escaped array is flattened!</p>
 >
     <h4 class="phpdocumentor-element__name" id="method_hasField">
         hasField()
-        <a href="classes/MySqlDatabase.html#method_hasField" class="headerlink"><i class="fas fa-link"></i></a>
+        <a href="classes/Smr-Database.html#method_hasField" class="headerlink"><i class="fas fa-link"></i></a>
     </h4>
     <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/MySqlDatabase.class.php"><a href="files/src-lib-default-mysqldatabase-class.html"><abbr title="src/lib/Default/MySqlDatabase.class.php">MySqlDatabase.class.php</abbr></a></abbr>
+    <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Database.php"><a href="files/src-lib-smr-database.html"><abbr title="src/lib/Smr/Database.php">Database.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">144</span>
+    <span class="phpdocumentor-element-found-in__line">146</span>
 </aside>
 
     
@@ -1538,12 +1536,12 @@ but beware that the escaped array is flattened!</p>
 >
     <h4 class="phpdocumentor-element__name" id="method_lockTable">
         lockTable()
-        <a href="classes/MySqlDatabase.html#method_lockTable" class="headerlink"><i class="fas fa-link"></i></a>
+        <a href="classes/Smr-Database.html#method_lockTable" class="headerlink"><i class="fas fa-link"></i></a>
     </h4>
     <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/MySqlDatabase.class.php"><a href="files/src-lib-default-mysqldatabase-class.html"><abbr title="src/lib/Default/MySqlDatabase.class.php">MySqlDatabase.class.php</abbr></a></abbr>
+    <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Database.php"><a href="files/src-lib-smr-database.html"><abbr title="src/lib/Smr/Database.php">Database.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">190</span>
+    <span class="phpdocumentor-element-found-in__line">192</span>
 </aside>
 
     
@@ -1580,25 +1578,25 @@ but beware that the escaped array is flattened!</p>
 >
     <h4 class="phpdocumentor-element__name" id="method_mysqliFactory">
         mysqliFactory()
-        <a href="classes/MySqlDatabase.html#method_mysqliFactory" class="headerlink"><i class="fas fa-link"></i></a>
+        <a href="classes/Smr-Database.html#method_mysqliFactory" class="headerlink"><i class="fas fa-link"></i></a>
     </h4>
     <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/MySqlDatabase.class.php"><a href="files/src-lib-default-mysqldatabase-class.html"><abbr title="src/lib/Default/MySqlDatabase.class.php">MySqlDatabase.class.php</abbr></a></abbr>
+    <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Database.php"><a href="files/src-lib-smr-database.html"><abbr title="src/lib/Smr/Database.php">Database.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">32</span>
+    <span class="phpdocumentor-element-found-in__line">34</span>
 </aside>
 
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">public</span>
-            <span class="phpdocumentor-signature__static">static</span>    <span class="phpdocumentor-signature__name">mysqliFactory</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type"><a href="classes/Smr-MySqlProperties.html"><abbr title="\Smr\MySqlProperties">MySqlProperties</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$mysqlProperties</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type"><abbr title="\mysqli">mysqli</abbr></span></code>
+            <span class="phpdocumentor-signature__static">static</span>    <span class="phpdocumentor-signature__name">mysqliFactory</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type"><a href="classes/Smr-DatabaseProperties.html"><abbr title="\Smr\DatabaseProperties">DatabaseProperties</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$dbProperties</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type"><abbr title="\mysqli">mysqli</abbr></span></code>
 
     
         <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
     <dl class="phpdocumentor-argument-list">
                     <dt class="phpdocumentor-argument-list__entry">
-                <span class="phpdocumentor-signature__argument__name">$mysqlProperties</span>
-                : <span class="phpdocumentor-signature__argument__return-type"><a href="classes/Smr-MySqlProperties.html"><abbr title="\Smr\MySqlProperties">MySqlProperties</abbr></a></span>
+                <span class="phpdocumentor-signature__argument__name">$dbProperties</span>
+                : <span class="phpdocumentor-signature__argument__return-type"><a href="classes/Smr-DatabaseProperties.html"><abbr title="\Smr\DatabaseProperties">DatabaseProperties</abbr></a></span>
                             </dt>
             <dd class="phpdocumentor-argument-list__definition">
                 
@@ -1622,12 +1620,12 @@ but beware that the escaped array is flattened!</p>
 >
     <h4 class="phpdocumentor-element__name" id="method_nextRecord">
         nextRecord()
-        <a href="classes/MySqlDatabase.html#method_nextRecord" class="headerlink"><i class="fas fa-link"></i></a>
+        <a href="classes/Smr-Database.html#method_nextRecord" class="headerlink"><i class="fas fa-link"></i></a>
     </h4>
     <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/MySqlDatabase.class.php"><a href="files/src-lib-default-mysqldatabase-class.html"><abbr title="src/lib/Default/MySqlDatabase.class.php">MySqlDatabase.class.php</abbr></a></abbr>
+    <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Database.php"><a href="files/src-lib-smr-database.html"><abbr title="src/lib/Smr/Database.php">Database.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">124</span>
+    <span class="phpdocumentor-element-found-in__line">126</span>
 </aside>
 
         <p class="phpdocumentor-summary">Use to populate this instance with the next record of the active query.</p>
@@ -1656,12 +1654,12 @@ but beware that the escaped array is flattened!</p>
 >
     <h4 class="phpdocumentor-element__name" id="method_query">
         query()
-        <a href="classes/MySqlDatabase.html#method_query" class="headerlink"><i class="fas fa-link"></i></a>
+        <a href="classes/Smr-Database.html#method_query" class="headerlink"><i class="fas fa-link"></i></a>
     </h4>
     <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/MySqlDatabase.class.php"><a href="files/src-lib-default-mysqldatabase-class.html"><abbr title="src/lib/Default/MySqlDatabase.class.php">MySqlDatabase.class.php</abbr></a></abbr>
+    <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Database.php"><a href="files/src-lib-smr-database.html"><abbr title="src/lib/Smr/Database.php">Database.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">117</span>
+    <span class="phpdocumentor-element-found-in__line">119</span>
 </aside>
 
     
@@ -1698,12 +1696,12 @@ but beware that the escaped array is flattened!</p>
 >
     <h4 class="phpdocumentor-element__name" id="method_requireRecord">
         requireRecord()
-        <a href="classes/MySqlDatabase.html#method_requireRecord" class="headerlink"><i class="fas fa-link"></i></a>
+        <a href="classes/Smr-Database.html#method_requireRecord" class="headerlink"><i class="fas fa-link"></i></a>
     </h4>
     <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/MySqlDatabase.class.php"><a href="files/src-lib-default-mysqldatabase-class.html"><abbr title="src/lib/Default/MySqlDatabase.class.php">MySqlDatabase.class.php</abbr></a></abbr>
+    <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Database.php"><a href="files/src-lib-smr-database.html"><abbr title="src/lib/Smr/Database.php">Database.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">138</span>
+    <span class="phpdocumentor-element-found-in__line">140</span>
 </aside>
 
         <p class="phpdocumentor-summary">Use instead of nextRecord when exactly one record is expected from the
@@ -1733,12 +1731,12 @@ active query.</p>
 >
     <h4 class="phpdocumentor-element__name" id="method_switchDatabases">
         switchDatabases()
-        <a href="classes/MySqlDatabase.html#method_switchDatabases" class="headerlink"><i class="fas fa-link"></i></a>
+        <a href="classes/Smr-Database.html#method_switchDatabases" class="headerlink"><i class="fas fa-link"></i></a>
     </h4>
     <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/MySqlDatabase.class.php"><a href="files/src-lib-default-mysqldatabase-class.html"><abbr title="src/lib/Default/MySqlDatabase.class.php">MySqlDatabase.class.php</abbr></a></abbr>
+    <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Database.php"><a href="files/src-lib-smr-database.html"><abbr title="src/lib/Smr/Database.php">Database.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">70</span>
+    <span class="phpdocumentor-element-found-in__line">72</span>
 </aside>
 
         <p class="phpdocumentor-summary">This method will switch the connection to the specified database.</p>
@@ -1780,12 +1778,12 @@ active query.</p>
 >
     <h4 class="phpdocumentor-element__name" id="method_switchDatabaseToLive">
         switchDatabaseToLive()
-        <a href="classes/MySqlDatabase.html#method_switchDatabaseToLive" class="headerlink"><i class="fas fa-link"></i></a>
+        <a href="classes/Smr-Database.html#method_switchDatabaseToLive" class="headerlink"><i class="fas fa-link"></i></a>
     </h4>
     <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/MySqlDatabase.class.php"><a href="files/src-lib-default-mysqldatabase-class.html"><abbr title="src/lib/Default/MySqlDatabase.class.php">MySqlDatabase.class.php</abbr></a></abbr>
+    <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Database.php"><a href="files/src-lib-smr-database.html"><abbr title="src/lib/Smr/Database.php">Database.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">78</span>
+    <span class="phpdocumentor-element-found-in__line">80</span>
 </aside>
 
         <p class="phpdocumentor-summary">Switch back to the configured live database</p>
@@ -1814,12 +1812,12 @@ active query.</p>
 >
     <h4 class="phpdocumentor-element__name" id="method_unlock">
         unlock()
-        <a href="classes/MySqlDatabase.html#method_unlock" class="headerlink"><i class="fas fa-link"></i></a>
+        <a href="classes/Smr-Database.html#method_unlock" class="headerlink"><i class="fas fa-link"></i></a>
     </h4>
     <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/MySqlDatabase.class.php"><a href="files/src-lib-default-mysqldatabase-class.html"><abbr title="src/lib/Default/MySqlDatabase.class.php">MySqlDatabase.class.php</abbr></a></abbr>
+    <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Database.php"><a href="files/src-lib-smr-database.html"><abbr title="src/lib/Smr/Database.php">Database.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">194</span>
+    <span class="phpdocumentor-element-found-in__line">196</span>
 </aside>
 
     
@@ -1846,12 +1844,12 @@ active query.</p>
 >
     <h4 class="phpdocumentor-element__name" id="method_error">
         error()
-        <a href="classes/MySqlDatabase.html#method_error" class="headerlink"><i class="fas fa-link"></i></a>
+        <a href="classes/Smr-Database.html#method_error" class="headerlink"><i class="fas fa-link"></i></a>
     </h4>
     <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/MySqlDatabase.class.php"><a href="files/src-lib-default-mysqldatabase-class.html"><abbr title="src/lib/Default/MySqlDatabase.class.php">MySqlDatabase.class.php</abbr></a></abbr>
+    <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Database.php"><a href="files/src-lib-smr-database.html"><abbr title="src/lib/Smr/Database.php">Database.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">210</span>
+    <span class="phpdocumentor-element-found-in__line">212</span>
 </aside>
 
     
@@ -1888,12 +1886,12 @@ active query.</p>
 >
     <h4 class="phpdocumentor-element__name" id="method_reconnectMysql">
         reconnectMysql()
-        <a href="classes/MySqlDatabase.html#method_reconnectMysql" class="headerlink"><i class="fas fa-link"></i></a>
+        <a href="classes/Smr-Database.html#method_reconnectMysql" class="headerlink"><i class="fas fa-link"></i></a>
     </h4>
     <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/MySqlDatabase.class.php"><a href="files/src-lib-default-mysqldatabase-class.html"><abbr title="src/lib/Default/MySqlDatabase.class.php">MySqlDatabase.class.php</abbr></a></abbr>
+    <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Database.php"><a href="files/src-lib-smr-database.html"><abbr title="src/lib/Smr/Database.php">Database.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">26</span>
+    <span class="phpdocumentor-element-found-in__line">28</span>
 </aside>
 
         <p class="phpdocumentor-summary">Reconnects to the MySQL database, and replaces the managed mysqli instance
@@ -1955,7 +1953,7 @@ in the dependency injection container for future retrievals.</p>
 </section>
             </div>
         </div>
-        <a href="classes/MySqlDatabase.html#top" class="phpdocumentor-back-to-top"><i class="fas fa-chevron-circle-up"></i></a>
+        <a href="classes/Smr-Database.html#top" class="phpdocumentor-back-to-top"><i class="fas fa-chevron-circle-up"></i></a>
 
     </main>
 

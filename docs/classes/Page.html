@@ -108,7 +108,7 @@
 
     <section class="phpdocumentor-description"><p>This class acts like an array, whose keys define the page properties.
 Then we can either create an HREF so that it can be accessed by a future
-http request (via the SmrSession), or forwarded to within the same request.</p>
+http request (via the Smr\Session), or forwarded to within the same request.</p>
 </section>
 
 
@@ -241,7 +241,7 @@ http request (via the SmrSession), or forwarded to within the same request.</p>
     <span>
                         &nbsp;: void    </span>
 </dt>
-<dd>Transfer data from $var into this container.</dd>
+<dd>Transfer $var[$source] into this container with new name $dest.</dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
     <a href="classes/Page.html#method_copy">copy()</a>
@@ -277,13 +277,6 @@ http request (via the SmrSession), or forwarded to within the same request.</p>
                         &nbsp;: void    </span>
 </dt>
 <dd>Process this page by executing the &#039;url&#039; and &#039;body&#039; files.</dd>
-
-            <dt class="phpdocumentor-table-of-contents__entry -method -public">
-    <a href="classes/Page.html#method_useAsGlobalVar">useAsGlobalVar()</a>
-    <span>
-                        &nbsp;: mixed    </span>
-</dt>
-<dd>Use this container as the global variable $var.</dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -private">
     <a href="classes/Page.html#method_getCommonID">getCommonID()</a>
@@ -474,23 +467,31 @@ we strip out to prevent false differences).</dd>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/Page.class.php"><a href="files/src-lib-default-page-class.html"><abbr title="src/lib/Default/Page.class.php">Page.class.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">176</span>
+    <span class="phpdocumentor-element-found-in__line">161</span>
 </aside>
 
-        <p class="phpdocumentor-summary">Transfer data from $var into this container.</p>
+        <p class="phpdocumentor-summary">Transfer $var[$source] into this container with new name $dest.</p>
 
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">public</span>
-                <span class="phpdocumentor-signature__name">addVar</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type">string&nbsp;</span><span class="phpdocumentor-signature__argument__name">$what</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">void</span></code>
+                <span class="phpdocumentor-signature__name">addVar</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type">string&nbsp;</span><span class="phpdocumentor-signature__argument__name">$source</span></span><span class="phpdocumentor-signature__argument"><span>[</span><span>, </span><span class="phpdocumentor-signature__argument__return-type">string&nbsp;</span><span class="phpdocumentor-signature__argument__name">$dest</span><span> = </span><span class="phpdocumentor-signature__argument__default-value">null</span><span> ]</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">void</span></code>
 
-        <section class="phpdocumentor-description"></section>
+        <section class="phpdocumentor-description"><p>If $dest is not specified, keep the index named $source.</p>
+</section>
 
         <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
     <dl class="phpdocumentor-argument-list">
                     <dt class="phpdocumentor-argument-list__entry">
-                <span class="phpdocumentor-signature__argument__name">$what</span>
+                <span class="phpdocumentor-signature__argument__name">$source</span>
                 : <span class="phpdocumentor-signature__argument__return-type">string</span>
                             </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                
+            </dd>
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$dest</span>
+                : <span class="phpdocumentor-signature__argument__return-type">string</span>
+                 = <span class="phpdocumentor-signature__argument__default-value">null</span>            </dt>
             <dd class="phpdocumentor-argument-list__definition">
                 
             </dd>
@@ -631,7 +632,7 @@ accompany them.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/Page.class.php"><a href="files/src-lib-default-page-class.html"><abbr title="src/lib/Default/Page.class.php">Page.class.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">163</span>
+    <span class="phpdocumentor-element-found-in__line">148</span>
 </aside>
 
         <p class="phpdocumentor-summary">Forward to the page identified by this container.</p>
@@ -665,7 +666,7 @@ accompany them.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/Page.class.php"><a href="files/src-lib-default-page-class.html"><abbr title="src/lib/Default/Page.class.php">Page.class.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">190</span>
+    <span class="phpdocumentor-element-found-in__line">179</span>
 </aside>
 
         <p class="phpdocumentor-summary">Create an HREF (based on a random SN) to link to this page.</p>
@@ -674,8 +675,8 @@ accompany them.</p>
     <span class="phpdocumentor-signature__visibility">public</span>
                 <span class="phpdocumentor-signature__name">href</span><span>(</span><span class="phpdocumentor-signature__argument"><span>[</span><span class="phpdocumentor-signature__argument__return-type">bool&nbsp;</span><span class="phpdocumentor-signature__argument__name">$forceFullURL</span><span> = </span><span class="phpdocumentor-signature__argument__default-value">false</span><span> ]</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">string</span></code>
 
-        <section class="phpdocumentor-description"><p>The container is saved in the SmrSession under this SN so that on
-the next request, we can grab the container out of the SmrSession.</p>
+        <section class="phpdocumentor-description"><p>The container is saved in the Smr\Session under this SN so that on
+the next request, we can grab the container out of the Smr\Session.</p>
 </section>
 
         <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
@@ -711,7 +712,7 @@ the next request, we can grab the container out of the SmrSession.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/Page.class.php"><a href="files/src-lib-default-page-class.html"><abbr title="src/lib/Default/Page.class.php">Page.class.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">243</span>
+    <span class="phpdocumentor-element-found-in__line">228</span>
 </aside>
 
         <p class="phpdocumentor-summary">Process this page by executing the &#039;url&#039; and &#039;body&#039; files.</p>
@@ -737,50 +738,6 @@ synchronized with <code class="prettyprint">do_voodoo</code>).</p>
                     <article
         class="phpdocumentor-element
             -method
-            -public
-                                                        "
->
-    <h4 class="phpdocumentor-element__name" id="method_useAsGlobalVar">
-        useAsGlobalVar()
-        <a href="classes/Page.html#method_useAsGlobalVar" class="headerlink"><i class="fas fa-link"></i></a>
-    </h4>
-    <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/Page.class.php"><a href="files/src-lib-default-page-class.html"><abbr title="src/lib/Default/Page.class.php">Page.class.php</abbr></a></abbr>
-    :
-    <span class="phpdocumentor-element-found-in__line">148</span>
-</aside>
-
-        <p class="phpdocumentor-summary">Use this container as the global variable $var.</p>
-
-    <code class="phpdocumentor-code phpdocumentor-signature ">
-    <span class="phpdocumentor-signature__visibility">public</span>
-                <span class="phpdocumentor-signature__name">useAsGlobalVar</span><span>(</span><span class="phpdocumentor-signature__argument"><span>[</span><span class="phpdocumentor-signature__argument__return-type">mixed&nbsp;</span><span class="phpdocumentor-signature__argument__name">$sn</span><span> = </span><span class="phpdocumentor-signature__argument__default-value">null</span><span> ]</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">mixed</span></code>
-
-        <section class="phpdocumentor-description"></section>
-
-        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
-    <dl class="phpdocumentor-argument-list">
-                    <dt class="phpdocumentor-argument-list__entry">
-                <span class="phpdocumentor-signature__argument__name">$sn</span>
-                : <span class="phpdocumentor-signature__argument__return-type">mixed</span>
-                 = <span class="phpdocumentor-signature__argument__default-value">null</span>            </dt>
-            <dd class="phpdocumentor-argument-list__definition">
-                
-            </dd>
-            </dl>
-
-    
-
-        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
-    <span class="phpdocumentor-signature__response_type">mixed</span>
-            &mdash;
-            <section class="phpdocumentor-description"></section>
-
-    
-</article>
-                    <article
-        class="phpdocumentor-element
-            -method
             -private
                                                         "
 >
@@ -791,7 +748,7 @@ synchronized with <code class="prettyprint">do_voodoo</code>).</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/Page.class.php"><a href="files/src-lib-default-page-class.html"><abbr title="src/lib/Default/Page.class.php">Page.class.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">227</span>
+    <span class="phpdocumentor-element-found-in__line">213</span>
 </aside>
 
         <p class="phpdocumentor-summary">Returns a hash of the contents of the container to identify when two
