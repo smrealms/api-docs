@@ -262,7 +262,7 @@
     <span>
                         &nbsp;: bool    </span>
 </dt>
-<dd>Check if the session has a var associated with the given $sn.</dd>
+<dd>Check if the session has a var associated with the current SN.</dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
     <a href="classes/Smr-Session.html#method_getAccount">getAccount()</a>
@@ -336,6 +336,20 @@ session so that it can still be retrieved when the page auto-refreshes.</dd>
 <dd></dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a href="classes/Smr-Session.html#method_getSessionID">getSessionID()</a>
+    <span>
+                        &nbsp;: string    </span>
+</dt>
+<dd>Uniquely identifies the session in the database.</dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a href="classes/Smr-Session.html#method_getSN">getSN()</a>
+    <span>
+                        &nbsp;: string    </span>
+</dt>
+<dd>The SN is the URL parameter that defines the page being requested.</dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
     <a href="classes/Smr-Session.html#method_hasAccount">hasAccount()</a>
     <span>
                         &nbsp;: bool    </span>
@@ -403,13 +417,6 @@ active sessions in this game for this account.</dd>
     <a href="classes/Smr-Session.html#method_generateSN">generateSN()</a>
     <span>
                         &nbsp;: string    </span>
-</dt>
-<dd></dd>
-
-            <dt class="phpdocumentor-table-of-contents__entry -method -private">
-    <a href="classes/Smr-Session.html#method_updateSN">updateSN()</a>
-    <span>
-                        &nbsp;: void    </span>
 </dt>
 <dd></dd>
 
@@ -805,7 +812,7 @@ active sessions in this game for this account.</dd>
     <span class="phpdocumentor-signature__visibility">private</span>
         <span class="phpdocumentor-signature__type">string</span>
     <span class="phpdocumentor-signature__name">$SN</span>
-     = <span class="phpdocumentor-signature__default-value">&#039;&#039;</span></code>
+    </code>
 
     
     
@@ -896,7 +903,7 @@ active sessions in this game for this account.</dd>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Session.php"><a href="files/src-lib-smr-session.html"><abbr title="src/lib/Smr/Session.php">Session.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">347</span>
+    <span class="phpdocumentor-element-found-in__line">349</span>
 </aside>
 
     
@@ -945,7 +952,7 @@ active sessions in this game for this account.</dd>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Session.php"><a href="files/src-lib-smr-session.html"><abbr title="src/lib/Smr/Session.php">Session.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">327</span>
+    <span class="phpdocumentor-element-found-in__line">329</span>
 </aside>
 
     
@@ -987,7 +994,7 @@ active sessions in this game for this account.</dd>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Session.php"><a href="files/src-lib-smr-session.html"><abbr title="src/lib/Smr/Session.php">Session.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">322</span>
+    <span class="phpdocumentor-element-found-in__line">324</span>
 </aside>
 
     
@@ -1019,7 +1026,7 @@ active sessions in this game for this account.</dd>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Session.php"><a href="files/src-lib-smr-session.html"><abbr title="src/lib/Smr/Session.php">Session.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">218</span>
+    <span class="phpdocumentor-element-found-in__line">225</span>
 </aside>
 
     
@@ -1083,29 +1090,18 @@ active sessions in this game for this account.</dd>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Session.php"><a href="files/src-lib-smr-session.html"><abbr title="src/lib/Smr/Session.php">Session.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">233</span>
+    <span class="phpdocumentor-element-found-in__line">239</span>
 </aside>
 
-        <p class="phpdocumentor-summary">Check if the session has a var associated with the given $sn.</p>
+        <p class="phpdocumentor-summary">Check if the session has a var associated with the current SN.</p>
 
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">public</span>
-                <span class="phpdocumentor-signature__name">findCurrentVar</span><span>(</span><span class="phpdocumentor-signature__argument"><span>[</span><span class="phpdocumentor-signature__argument__return-type">string&nbsp;</span><span class="phpdocumentor-signature__argument__name">$sn</span><span> = </span><span class="phpdocumentor-signature__argument__default-value">null</span><span> ]</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">bool</span></code>
+                <span class="phpdocumentor-signature__name">findCurrentVar</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">bool</span></code>
 
-        <section class="phpdocumentor-description"><p>If $sn is not specified, use the current SN (i.e. $this-&gt;SN).</p>
-</section>
+        <section class="phpdocumentor-description"></section>
 
-        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
-    <dl class="phpdocumentor-argument-list">
-                    <dt class="phpdocumentor-argument-list__entry">
-                <span class="phpdocumentor-signature__argument__name">$sn</span>
-                : <span class="phpdocumentor-signature__argument__return-type">string</span>
-                 = <span class="phpdocumentor-signature__argument__default-value">null</span>            </dt>
-            <dd class="phpdocumentor-argument-list__definition">
-                
-            </dd>
-            </dl>
-
+    
     
 
         <h5 class="phpdocumentor-return-value__heading">Return values</h5>
@@ -1128,7 +1124,7 @@ active sessions in this game for this account.</dd>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Session.php"><a href="files/src-lib-smr-session.html"><abbr title="src/lib/Smr/Session.php">Session.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">176</span>
+    <span class="phpdocumentor-element-found-in__line">183</span>
 </aside>
 
     
@@ -1160,7 +1156,7 @@ active sessions in this game for this account.</dd>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Session.php"><a href="files/src-lib-smr-session.html"><abbr title="src/lib/Smr/Session.php">Session.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">172</span>
+    <span class="phpdocumentor-element-found-in__line">179</span>
 </aside>
 
     
@@ -1192,7 +1188,7 @@ active sessions in this game for this account.</dd>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Session.php"><a href="files/src-lib-smr-session.html"><abbr title="src/lib/Smr/Session.php">Session.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">257</span>
+    <span class="phpdocumentor-element-found-in__line">259</span>
 </aside>
 
         <p class="phpdocumentor-summary">Returns the session var associated with the current SN.</p>
@@ -1227,7 +1223,7 @@ active sessions in this game for this account.</dd>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Session.php"><a href="files/src-lib-smr-session.html"><abbr title="src/lib/Smr/Session.php">Session.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">157</span>
+    <span class="phpdocumentor-element-found-in__line">164</span>
 </aside>
 
         <p class="phpdocumentor-summary">Returns the Game ID associated with the session.</p>
@@ -1297,7 +1293,7 @@ This is the intended way to construct this class.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Session.php"><a href="files/src-lib-smr-session.html"><abbr title="src/lib/Smr/Session.php">Session.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">225</span>
+    <span class="phpdocumentor-element-found-in__line">232</span>
 </aside>
 
     
@@ -1329,7 +1325,7 @@ This is the intended way to construct this class.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Session.php"><a href="files/src-lib-smr-session.html"><abbr title="src/lib/Smr/Session.php">Session.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">180</span>
+    <span class="phpdocumentor-element-found-in__line">187</span>
 </aside>
 
     
@@ -1371,7 +1367,7 @@ This is the intended way to construct this class.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Session.php"><a href="files/src-lib-smr-session.html"><abbr title="src/lib/Smr/Session.php">Session.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">267</span>
+    <span class="phpdocumentor-element-found-in__line">269</span>
 </aside>
 
         <p class="phpdocumentor-summary">Gets a var from $var, $_REQUEST, or $default. Then stores it in the
@@ -1425,7 +1421,7 @@ For processing pages, see the Request class.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Session.php"><a href="files/src-lib-smr-session.html"><abbr title="src/lib/Smr/Session.php">Session.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">273</span>
+    <span class="phpdocumentor-element-found-in__line">275</span>
 </aside>
 
     
@@ -1474,7 +1470,7 @@ For processing pages, see the Request class.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Session.php"><a href="files/src-lib-smr-session.html"><abbr title="src/lib/Smr/Session.php">Session.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">279</span>
+    <span class="phpdocumentor-element-found-in__line">281</span>
 </aside>
 
     
@@ -1516,6 +1512,74 @@ For processing pages, see the Request class.</p>
             -public
                                                         "
 >
+    <h4 class="phpdocumentor-element__name" id="method_getSessionID">
+        getSessionID()
+        <a href="classes/Smr-Session.html#method_getSessionID" class="headerlink"><i class="fas fa-link"></i></a>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Session.php"><a href="files/src-lib-smr-session.html"><abbr title="src/lib/Smr/Session.php">Session.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">157</span>
+</aside>
+
+        <p class="phpdocumentor-summary">Uniquely identifies the session in the database.</p>
+
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+                <span class="phpdocumentor-signature__name">getSessionID</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">string</span></code>
+
+        <section class="phpdocumentor-description"></section>
+
+    
+    
+
+        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
+    <span class="phpdocumentor-signature__response_type">string</span>
+            &mdash;
+            <section class="phpdocumentor-description"></section>
+
+    
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="method_getSN">
+        getSN()
+        <a href="classes/Smr-Session.html#method_getSN" class="headerlink"><i class="fas fa-link"></i></a>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Session.php"><a href="files/src-lib-smr-session.html"><abbr title="src/lib/Smr/Session.php">Session.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">214</span>
+</aside>
+
+        <p class="phpdocumentor-summary">The SN is the URL parameter that defines the page being requested.</p>
+
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+                <span class="phpdocumentor-signature__name">getSN</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">string</span></code>
+
+        <section class="phpdocumentor-description"></section>
+
+    
+    
+
+        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
+    <span class="phpdocumentor-signature__response_type">string</span>
+            &mdash;
+            <section class="phpdocumentor-description"></section>
+
+    
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                                        "
+>
     <h4 class="phpdocumentor-element__name" id="method_hasAccount">
         hasAccount()
         <a href="classes/Smr-Session.html#method_hasAccount" class="headerlink"><i class="fas fa-link"></i></a>
@@ -1523,7 +1587,7 @@ For processing pages, see the Request class.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Session.php"><a href="files/src-lib-smr-session.html"><abbr title="src/lib/Smr/Session.php">Session.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">168</span>
+    <span class="phpdocumentor-element-found-in__line">175</span>
 </aside>
 
     
@@ -1555,7 +1619,7 @@ For processing pages, see the Request class.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Session.php"><a href="files/src-lib-smr-session.html"><abbr title="src/lib/Smr/Session.php">Session.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">207</span>
+    <span class="phpdocumentor-element-found-in__line">221</span>
 </aside>
 
         <p class="phpdocumentor-summary">Returns true if the current SN is different than the previous SN.</p>
@@ -1589,7 +1653,7 @@ For processing pages, see the Request class.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Session.php"><a href="files/src-lib-smr-session.html"><abbr title="src/lib/Smr/Session.php">Session.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">164</span>
+    <span class="phpdocumentor-element-found-in__line">171</span>
 </aside>
 
         <p class="phpdocumentor-summary">Returns true if the session is inside a game, false otherwise.</p>
@@ -1623,7 +1687,7 @@ For processing pages, see the Request class.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Session.php"><a href="files/src-lib-smr-session.html"><abbr title="src/lib/Smr/Session.php">Session.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">352</span>
+    <span class="phpdocumentor-element-found-in__line">354</span>
 </aside>
 
     
@@ -1655,7 +1719,7 @@ For processing pages, see the Request class.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Session.php"><a href="files/src-lib-smr-session.html"><abbr title="src/lib/Smr/Session.php">Session.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">187</span>
+    <span class="phpdocumentor-element-found-in__line">194</span>
 </aside>
 
         <p class="phpdocumentor-summary">Sets the `accountID` attribute of this session.</p>
@@ -1699,7 +1763,7 @@ For processing pages, see the Request class.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Session.php"><a href="files/src-lib-smr-session.html"><abbr title="src/lib/Smr/Session.php">Session.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">288</span>
+    <span class="phpdocumentor-element-found-in__line">290</span>
 </aside>
 
         <p class="phpdocumentor-summary">Replace the global $var with the given $container.</p>
@@ -1782,7 +1846,7 @@ For processing pages, see the Request class.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Session.php"><a href="files/src-lib-smr-session.html"><abbr title="src/lib/Smr/Session.php">Session.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">195</span>
+    <span class="phpdocumentor-element-found-in__line">202</span>
 </aside>
 
         <p class="phpdocumentor-summary">Updates the `gameID` attribute of the session and deletes any other
@@ -1827,7 +1891,7 @@ active sessions in this game for this account.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Session.php"><a href="files/src-lib-smr-session.html"><abbr title="src/lib/Smr/Session.php">Session.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">311</span>
+    <span class="phpdocumentor-element-found-in__line">313</span>
 </aside>
 
     
@@ -1876,7 +1940,7 @@ active sessions in this game for this account.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Session.php"><a href="files/src-lib-smr-session.html"><abbr title="src/lib/Smr/Session.php">Session.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">333</span>
+    <span class="phpdocumentor-element-found-in__line">335</span>
 </aside>
 
     
@@ -1900,38 +1964,6 @@ active sessions in this game for this account.</p>
 
         <h5 class="phpdocumentor-return-value__heading">Return values</h5>
     <span class="phpdocumentor-signature__response_type">string</span>
-            &mdash;
-            <section class="phpdocumentor-description"></section>
-
-    
-</article>
-                    <article
-        class="phpdocumentor-element
-            -method
-            -private
-                                                        "
->
-    <h4 class="phpdocumentor-element__name" id="method_updateSN">
-        updateSN()
-        <a href="classes/Smr-Session.html#method_updateSN" class="headerlink"><i class="fas fa-link"></i></a>
-    </h4>
-    <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Session.php"><a href="files/src-lib-smr-session.html"><abbr title="src/lib/Smr/Session.php">Session.php</abbr></a></abbr>
-    :
-    <span class="phpdocumentor-element-found-in__line">211</span>
-</aside>
-
-    
-    <code class="phpdocumentor-code phpdocumentor-signature ">
-    <span class="phpdocumentor-signature__visibility">private</span>
-                <span class="phpdocumentor-signature__name">updateSN</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">void</span></code>
-
-    
-    
-    
-
-        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
-    <span class="phpdocumentor-signature__response_type">void</span>
             &mdash;
             <section class="phpdocumentor-description"></section>
 

@@ -12096,6 +12096,11 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/Smr-Session.html#method_update"
         },                {
+            "fqsen": "\\Smr\\Session\u003A\u003AgetSessionID\u0028\u0029",
+            "name": "getSessionID",
+            "summary": "Uniquely\u0020identifies\u0020the\u0020session\u0020in\u0020the\u0020database.",
+            "url": "classes/Smr-Session.html#method_getSessionID"
+        },                {
             "fqsen": "\\Smr\\Session\u003A\u003AgetGameID\u0028\u0029",
             "name": "getGameID",
             "summary": "Returns\u0020the\u0020Game\u0020ID\u0020associated\u0020with\u0020the\u0020session.",
@@ -12136,15 +12141,15 @@ Search.appendIndex(
             "summary": "Updates\u0020the\u0020\u0060gameID\u0060\u0020attribute\u0020of\u0020the\u0020session\u0020and\u0020deletes\u0020any\u0020other\nactive\u0020sessions\u0020in\u0020this\u0020game\u0020for\u0020this\u0020account.",
             "url": "classes/Smr-Session.html#method_updateGame"
         },                {
+            "fqsen": "\\Smr\\Session\u003A\u003AgetSN\u0028\u0029",
+            "name": "getSN",
+            "summary": "The\u0020SN\u0020is\u0020the\u0020URL\u0020parameter\u0020that\u0020defines\u0020the\u0020page\u0020being\u0020requested.",
+            "url": "classes/Smr-Session.html#method_getSN"
+        },                {
             "fqsen": "\\Smr\\Session\u003A\u003AhasChangedSN\u0028\u0029",
             "name": "hasChangedSN",
             "summary": "Returns\u0020true\u0020if\u0020the\u0020current\u0020SN\u0020is\u0020different\u0020than\u0020the\u0020previous\u0020SN.",
             "url": "classes/Smr-Session.html#method_hasChangedSN"
-        },                {
-            "fqsen": "\\Smr\\Session\u003A\u003AupdateSN\u0028\u0029",
-            "name": "updateSN",
-            "summary": "",
-            "url": "classes/Smr-Session.html#method_updateSN"
         },                {
             "fqsen": "\\Smr\\Session\u003A\u003Adestroy\u0028\u0029",
             "name": "destroy",
@@ -12158,7 +12163,7 @@ Search.appendIndex(
         },                {
             "fqsen": "\\Smr\\Session\u003A\u003AfindCurrentVar\u0028\u0029",
             "name": "findCurrentVar",
-            "summary": "Check\u0020if\u0020the\u0020session\u0020has\u0020a\u0020var\u0020associated\u0020with\u0020the\u0020given\u0020\u0024sn.",
+            "summary": "Check\u0020if\u0020the\u0020session\u0020has\u0020a\u0020var\u0020associated\u0020with\u0020the\u0020current\u0020SN.",
             "url": "classes/Smr-Session.html#method_findCurrentVar"
         },                {
             "fqsen": "\\Smr\\Session\u003A\u003AgetCurrentVar\u0028\u0029",
