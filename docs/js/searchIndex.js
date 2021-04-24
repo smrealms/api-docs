@@ -12161,10 +12161,10 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/Smr-Session.html#method_getLastAccessed"
         },                {
-            "fqsen": "\\Smr\\Session\u003A\u003AfindCurrentVar\u0028\u0029",
-            "name": "findCurrentVar",
+            "fqsen": "\\Smr\\Session\u003A\u003AhasCurrentVar\u0028\u0029",
+            "name": "hasCurrentVar",
             "summary": "Check\u0020if\u0020the\u0020session\u0020has\u0020a\u0020var\u0020associated\u0020with\u0020the\u0020current\u0020SN.",
-            "url": "classes/Smr-Session.html#method_findCurrentVar"
+            "url": "classes/Smr-Session.html#method_hasCurrentVar"
         },                {
             "fqsen": "\\Smr\\Session\u003A\u003AgetCurrentVar\u0028\u0029",
             "name": "getCurrentVar",
