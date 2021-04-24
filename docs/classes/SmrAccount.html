@@ -203,7 +203,7 @@
 <dd></dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -property -protected">
-    <a href="classes/AbstractSmrAccount.html#property_dateShort">$dateShort</a>
+    <a href="classes/AbstractSmrAccount.html#property_dateFormat">$dateFormat</a>
     <span>
                 &nbsp;: string            </span>
 </dt>
@@ -441,7 +441,7 @@
 <dd></dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -property -protected">
-    <a href="classes/AbstractSmrAccount.html#property_timeShort">$timeShort</a>
+    <a href="classes/AbstractSmrAccount.html#property_timeFormat">$timeFormat</a>
     <span>
                 &nbsp;: string            </span>
 </dt>
@@ -635,6 +635,28 @@
                         &nbsp;: string    </span>
 </dt>
 <dd></dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a href="classes/AbstractSmrAccount.html#method_getDateFormat">getDateFormat()</a>
+    <span>
+                        &nbsp;: string    </span>
+</dt>
+<dd></dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a href="classes/AbstractSmrAccount.html#method_getDateTimeFormat">getDateTimeFormat()</a>
+    <span>
+                        &nbsp;: string    </span>
+</dt>
+<dd>Get the epoch format string including both date and time.</dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a href="classes/AbstractSmrAccount.html#method_getDateTimeFormatSplit">getDateTimeFormatSplit()</a>
+    <span>
+                        &nbsp;: string    </span>
+</dt>
+<dd>Get the (HTML-only) epoch format string including both date and time,
+split across two lines.</dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
     <a href="classes/AbstractSmrAccount.html#method_getDefaultHotkeys">getDefaultHotkeys()</a>
@@ -841,20 +863,6 @@ it correctly we must escape html entities.</dd>
 <dd></dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
-    <a href="classes/AbstractSmrAccount.html#method_getShortDateFormat">getShortDateFormat()</a>
-    <span>
-                        &nbsp;: string    </span>
-</dt>
-<dd></dd>
-
-            <dt class="phpdocumentor-table-of-contents__entry -method -public">
-    <a href="classes/AbstractSmrAccount.html#method_getShortTimeFormat">getShortTimeFormat()</a>
-    <span>
-                        &nbsp;: string    </span>
-</dt>
-<dd></dd>
-
-            <dt class="phpdocumentor-table-of-contents__entry -method -public">
     <a href="classes/AbstractSmrAccount.html#method_getSmrCredits">getSmrCredits()</a>
     <span>
                         &nbsp;: int    </span>
@@ -870,6 +878,13 @@ it correctly we must escape html entities.</dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
     <a href="classes/AbstractSmrAccount.html#method_getTemplate">getTemplate()</a>
+    <span>
+                        &nbsp;: string    </span>
+</dt>
+<dd></dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a href="classes/AbstractSmrAccount.html#method_getTimeFormat">getTimeFormat()</a>
     <span>
                         &nbsp;: string    </span>
 </dt>
@@ -1093,6 +1108,13 @@ it correctly we must escape html entities.</dd>
 <dd></dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a href="classes/AbstractSmrAccount.html#method_setDateFormat">setDateFormat()</a>
+    <span>
+                        &nbsp;: void    </span>
+</dt>
+<dd></dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
     <a href="classes/AbstractSmrAccount.html#method_setDefaultCSSEnabled">setDefaultCSSEnabled()</a>
     <span>
                         &nbsp;: void    </span>
@@ -1198,20 +1220,6 @@ it correctly we must escape html entities.</dd>
 <dd></dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
-    <a href="classes/AbstractSmrAccount.html#method_setShortDateFormat">setShortDateFormat()</a>
-    <span>
-                        &nbsp;: void    </span>
-</dt>
-<dd></dd>
-
-            <dt class="phpdocumentor-table-of-contents__entry -method -public">
-    <a href="classes/AbstractSmrAccount.html#method_setShortTimeFormat">setShortTimeFormat()</a>
-    <span>
-                        &nbsp;: void    </span>
-</dt>
-<dd></dd>
-
-            <dt class="phpdocumentor-table-of-contents__entry -method -public">
     <a href="classes/AbstractSmrAccount.html#method_setSmrCredits">setSmrCredits()</a>
     <span>
                         &nbsp;: void    </span>
@@ -1227,6 +1235,13 @@ it correctly we must escape html entities.</dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
     <a href="classes/AbstractSmrAccount.html#method_setTemplate">setTemplate()</a>
+    <span>
+                        &nbsp;: void    </span>
+</dt>
+<dd></dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a href="classes/AbstractSmrAccount.html#method_setTimeFormat">setTimeFormat()</a>
     <span>
                         &nbsp;: void    </span>
 </dt>
@@ -1659,9 +1674,9 @@ it correctly we must escape html entities.</dd>
             -protected
                                                         "
 >
-    <h4 class="phpdocumentor-element__name" id="property_dateShort">
-        $dateShort
-        <a href="classes/AbstractSmrAccount.html#property_dateShort" class="headerlink"><i class="fas fa-link"></i></a>
+    <h4 class="phpdocumentor-element__name" id="property_dateFormat">
+        $dateFormat
+        <a href="classes/AbstractSmrAccount.html#property_dateFormat" class="headerlink"><i class="fas fa-link"></i></a>
         <span class="phpdocumentor-element__modifiers">
                                 </span>
     </h4>
@@ -1675,7 +1690,7 @@ it correctly we must escape html entities.</dd>
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">protected</span>
         <span class="phpdocumentor-signature__type">string</span>
-    <span class="phpdocumentor-signature__name">$dateShort</span>
+    <span class="phpdocumentor-signature__name">$dateFormat</span>
     </code>
 
     
@@ -2679,9 +2694,9 @@ it correctly we must escape html entities.</dd>
             -protected
                                                         "
 >
-    <h4 class="phpdocumentor-element__name" id="property_timeShort">
-        $timeShort
-        <a href="classes/AbstractSmrAccount.html#property_timeShort" class="headerlink"><i class="fas fa-link"></i></a>
+    <h4 class="phpdocumentor-element__name" id="property_timeFormat">
+        $timeFormat
+        <a href="classes/AbstractSmrAccount.html#property_timeFormat" class="headerlink"><i class="fas fa-link"></i></a>
         <span class="phpdocumentor-element__modifiers">
                                 </span>
     </h4>
@@ -2695,7 +2710,7 @@ it correctly we must escape html entities.</dd>
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">protected</span>
         <span class="phpdocumentor-signature__type">string</span>
-    <span class="phpdocumentor-signature__name">$timeShort</span>
+    <span class="phpdocumentor-signature__name">$timeFormat</span>
     </code>
 
     
@@ -2842,7 +2857,7 @@ it correctly we must escape html entities.</dd>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/AbstractSmrAccount.class.php"><a href="files/src-lib-default-abstractsmraccount-class.html"><abbr title="src/lib/Default/AbstractSmrAccount.class.php">AbstractSmrAccount.class.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">918</span>
+    <span class="phpdocumentor-element-found-in__line">934</span>
 </aside>
 
     
@@ -2891,7 +2906,7 @@ it correctly we must escape html entities.</dd>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/AbstractSmrAccount.class.php"><a href="files/src-lib-default-abstractsmraccount-class.html"><abbr title="src/lib/Default/AbstractSmrAccount.class.php">AbstractSmrAccount.class.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">1132</span>
+    <span class="phpdocumentor-element-found-in__line">1148</span>
 </aside>
 
     
@@ -2954,7 +2969,7 @@ it correctly we must escape html entities.</dd>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/AbstractSmrAccount.class.php"><a href="files/src-lib-default-abstractsmraccount-class.html"><abbr title="src/lib/Default/AbstractSmrAccount.class.php">AbstractSmrAccount.class.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">1192</span>
+    <span class="phpdocumentor-element-found-in__line">1208</span>
 </aside>
 
     
@@ -3068,7 +3083,7 @@ it correctly we must escape html entities.</dd>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/AbstractSmrAccount.class.php"><a href="files/src-lib-default-abstractsmraccount-class.html"><abbr title="src/lib/Default/AbstractSmrAccount.class.php">AbstractSmrAccount.class.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">885</span>
+    <span class="phpdocumentor-element-found-in__line">901</span>
 </aside>
 
         <p class="phpdocumentor-summary">Check if the given (plain-text) password is correct.</p>
@@ -3215,7 +3230,7 @@ it correctly we must escape html entities.</dd>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/AbstractSmrAccount.class.php"><a href="files/src-lib-default-abstractsmraccount-class.html"><abbr title="src/lib/Default/AbstractSmrAccount.class.php">AbstractSmrAccount.class.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">1026</span>
+    <span class="phpdocumentor-element-found-in__line">1042</span>
 </aside>
 
     
@@ -3411,7 +3426,7 @@ it correctly we must escape html entities.</dd>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/AbstractSmrAccount.class.php"><a href="files/src-lib-default-abstractsmraccount-class.html"><abbr title="src/lib/Default/AbstractSmrAccount.class.php">AbstractSmrAccount.class.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">929</span>
+    <span class="phpdocumentor-element-found-in__line">945</span>
 </aside>
 
     
@@ -3888,6 +3903,107 @@ it correctly we must escape html entities.</dd>
         class="phpdocumentor-element
             -method
             -public
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="method_getDateFormat">
+        getDateFormat()
+        <a href="classes/AbstractSmrAccount.html#method_getDateFormat" class="headerlink"><i class="fas fa-link"></i></a>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/AbstractSmrAccount.class.php"><a href="files/src-lib-default-abstractsmraccount-class.html"><abbr title="src/lib/Default/AbstractSmrAccount.class.php">AbstractSmrAccount.class.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">844</span>
+</aside>
+
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+                <span class="phpdocumentor-signature__name">getDateFormat</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">string</span></code>
+
+    
+    
+    
+
+        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
+    <span class="phpdocumentor-signature__response_type">string</span>
+            &mdash;
+            <section class="phpdocumentor-description"></section>
+
+    
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="method_getDateTimeFormat">
+        getDateTimeFormat()
+        <a href="classes/AbstractSmrAccount.html#method_getDateTimeFormat" class="headerlink"><i class="fas fa-link"></i></a>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/AbstractSmrAccount.class.php"><a href="files/src-lib-default-abstractsmraccount-class.html"><abbr title="src/lib/Default/AbstractSmrAccount.class.php">AbstractSmrAccount.class.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">831</span>
+</aside>
+
+        <p class="phpdocumentor-summary">Get the epoch format string including both date and time.</p>
+
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+                <span class="phpdocumentor-signature__name">getDateTimeFormat</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">string</span></code>
+
+        <section class="phpdocumentor-description"></section>
+
+    
+    
+
+        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
+    <span class="phpdocumentor-signature__response_type">string</span>
+            &mdash;
+            <section class="phpdocumentor-description"></section>
+
+    
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="method_getDateTimeFormatSplit">
+        getDateTimeFormatSplit()
+        <a href="classes/AbstractSmrAccount.html#method_getDateTimeFormatSplit" class="headerlink"><i class="fas fa-link"></i></a>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/AbstractSmrAccount.class.php"><a href="files/src-lib-default-abstractsmraccount-class.html"><abbr title="src/lib/Default/AbstractSmrAccount.class.php">AbstractSmrAccount.class.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">839</span>
+</aside>
+
+        <p class="phpdocumentor-summary">Get the (HTML-only) epoch format string including both date and time,
+split across two lines.</p>
+
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+                <span class="phpdocumentor-signature__name">getDateTimeFormatSplit</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">string</span></code>
+
+        <section class="phpdocumentor-description"></section>
+
+    
+    
+
+        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
+    <span class="phpdocumentor-signature__response_type">string</span>
+            &mdash;
+            <section class="phpdocumentor-description"></section>
+
+    
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
                                     -static                    "
 >
     <h4 class="phpdocumentor-element__name" id="method_getDefaultHotkeys">
@@ -3993,7 +4109,7 @@ it correctly we must escape html entities.</dd>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/AbstractSmrAccount.class.php"><a href="files/src-lib-default-abstractsmraccount-class.html"><abbr title="src/lib/Default/AbstractSmrAccount.class.php">AbstractSmrAccount.class.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">1184</span>
+    <span class="phpdocumentor-element-found-in__line">1200</span>
 </aside>
 
     
@@ -4057,7 +4173,7 @@ it correctly we must escape html entities.</dd>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/AbstractSmrAccount.class.php"><a href="files/src-lib-default-abstractsmraccount-class.html"><abbr title="src/lib/Default/AbstractSmrAccount.class.php">AbstractSmrAccount.class.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">1170</span>
+    <span class="phpdocumentor-element-found-in__line">1186</span>
 </aside>
 
     
@@ -4210,7 +4326,7 @@ it correctly we must escape html entities.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/AbstractSmrAccount.class.php"><a href="files/src-lib-default-abstractsmraccount-class.html"><abbr title="src/lib/Default/AbstractSmrAccount.class.php">AbstractSmrAccount.class.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">981</span>
+    <span class="phpdocumentor-element-found-in__line">997</span>
 </aside>
 
     
@@ -4390,7 +4506,7 @@ it correctly we must escape html entities.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/AbstractSmrAccount.class.php"><a href="files/src-lib-default-abstractsmraccount-class.html"><abbr title="src/lib/Default/AbstractSmrAccount.class.php">AbstractSmrAccount.class.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">1048</span>
+    <span class="phpdocumentor-element-found-in__line">1064</span>
 </aside>
 
     
@@ -4422,7 +4538,7 @@ it correctly we must escape html entities.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/AbstractSmrAccount.class.php"><a href="files/src-lib-default-abstractsmraccount-class.html"><abbr title="src/lib/Default/AbstractSmrAccount.class.php">AbstractSmrAccount.class.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">1004</span>
+    <span class="phpdocumentor-element-found-in__line">1020</span>
 </aside>
 
     
@@ -4464,7 +4580,7 @@ it correctly we must escape html entities.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/AbstractSmrAccount.class.php"><a href="files/src-lib-default-abstractsmraccount-class.html"><abbr title="src/lib/Default/AbstractSmrAccount.class.php">AbstractSmrAccount.class.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">1177</span>
+    <span class="phpdocumentor-element-found-in__line">1193</span>
 </aside>
 
     
@@ -4572,7 +4688,7 @@ it correctly we must escape html entities.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/AbstractSmrAccount.class.php"><a href="files/src-lib-default-abstractsmraccount-class.html"><abbr title="src/lib/Default/AbstractSmrAccount.class.php">AbstractSmrAccount.class.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">933</span>
+    <span class="phpdocumentor-element-found-in__line">949</span>
 </aside>
 
     
@@ -4604,7 +4720,7 @@ it correctly we must escape html entities.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/AbstractSmrAccount.class.php"><a href="files/src-lib-default-abstractsmraccount-class.html"><abbr title="src/lib/Default/AbstractSmrAccount.class.php">AbstractSmrAccount.class.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">1069</span>
+    <span class="phpdocumentor-element-found-in__line">1085</span>
 </aside>
 
     
@@ -4636,7 +4752,7 @@ it correctly we must escape html entities.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/AbstractSmrAccount.class.php"><a href="files/src-lib-default-abstractsmraccount-class.html"><abbr title="src/lib/Default/AbstractSmrAccount.class.php">AbstractSmrAccount.class.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">1252</span>
+    <span class="phpdocumentor-element-found-in__line">1268</span>
 </aside>
 
     
@@ -4668,7 +4784,7 @@ it correctly we must escape html entities.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/AbstractSmrAccount.class.php"><a href="files/src-lib-default-abstractsmraccount-class.html"><abbr title="src/lib/Default/AbstractSmrAccount.class.php">AbstractSmrAccount.class.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">1088</span>
+    <span class="phpdocumentor-element-found-in__line">1104</span>
 </aside>
 
     
@@ -4885,70 +5001,6 @@ it correctly we must escape html entities.</p>
             -public
                                                         "
 >
-    <h4 class="phpdocumentor-element__name" id="method_getShortDateFormat">
-        getShortDateFormat()
-        <a href="classes/AbstractSmrAccount.html#method_getShortDateFormat" class="headerlink"><i class="fas fa-link"></i></a>
-    </h4>
-    <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/AbstractSmrAccount.class.php"><a href="files/src-lib-default-abstractsmraccount-class.html"><abbr title="src/lib/Default/AbstractSmrAccount.class.php">AbstractSmrAccount.class.php</abbr></a></abbr>
-    :
-    <span class="phpdocumentor-element-found-in__line">828</span>
-</aside>
-
-    
-    <code class="phpdocumentor-code phpdocumentor-signature ">
-    <span class="phpdocumentor-signature__visibility">public</span>
-                <span class="phpdocumentor-signature__name">getShortDateFormat</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">string</span></code>
-
-    
-    
-    
-
-        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
-    <span class="phpdocumentor-signature__response_type">string</span>
-            &mdash;
-            <section class="phpdocumentor-description"></section>
-
-    
-</article>
-                    <article
-        class="phpdocumentor-element
-            -method
-            -public
-                                                        "
->
-    <h4 class="phpdocumentor-element__name" id="method_getShortTimeFormat">
-        getShortTimeFormat()
-        <a href="classes/AbstractSmrAccount.html#method_getShortTimeFormat" class="headerlink"><i class="fas fa-link"></i></a>
-    </h4>
-    <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/AbstractSmrAccount.class.php"><a href="files/src-lib-default-abstractsmraccount-class.html"><abbr title="src/lib/Default/AbstractSmrAccount.class.php">AbstractSmrAccount.class.php</abbr></a></abbr>
-    :
-    <span class="phpdocumentor-element-found-in__line">840</span>
-</aside>
-
-    
-    <code class="phpdocumentor-code phpdocumentor-signature ">
-    <span class="phpdocumentor-signature__visibility">public</span>
-                <span class="phpdocumentor-signature__name">getShortTimeFormat</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">string</span></code>
-
-    
-    
-    
-
-        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
-    <span class="phpdocumentor-signature__response_type">string</span>
-            &mdash;
-            <section class="phpdocumentor-description"></section>
-
-    
-</article>
-                    <article
-        class="phpdocumentor-element
-            -method
-            -public
-                                                        "
->
     <h4 class="phpdocumentor-element__name" id="method_getSmrCredits">
         getSmrCredits()
         <a href="classes/AbstractSmrAccount.html#method_getSmrCredits" class="headerlink"><i class="fas fa-link"></i></a>
@@ -5045,6 +5097,38 @@ it correctly we must escape html entities.</p>
             -public
                                                         "
 >
+    <h4 class="phpdocumentor-element__name" id="method_getTimeFormat">
+        getTimeFormat()
+        <a href="classes/AbstractSmrAccount.html#method_getTimeFormat" class="headerlink"><i class="fas fa-link"></i></a>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/AbstractSmrAccount.class.php"><a href="files/src-lib-default-abstractsmraccount-class.html"><abbr title="src/lib/Default/AbstractSmrAccount.class.php">AbstractSmrAccount.class.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">856</span>
+</aside>
+
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+                <span class="phpdocumentor-signature__name">getTimeFormat</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">string</span></code>
+
+    
+    
+    
+
+        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
+    <span class="phpdocumentor-signature__response_type">string</span>
+            &mdash;
+            <section class="phpdocumentor-description"></section>
+
+    
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                                        "
+>
     <h4 class="phpdocumentor-element__name" id="method_getToggleAJAXHREF">
         getToggleAJAXHREF()
         <a href="classes/AbstractSmrAccount.html#method_getToggleAJAXHREF" class="headerlink"><i class="fas fa-link"></i></a>
@@ -5052,7 +5136,7 @@ it correctly we must escape html entities.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/AbstractSmrAccount.class.php"><a href="files/src-lib-default-abstractsmraccount-class.html"><abbr title="src/lib/Default/AbstractSmrAccount.class.php">AbstractSmrAccount.class.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">1243</span>
+    <span class="phpdocumentor-element-found-in__line">1259</span>
 </aside>
 
     
@@ -5116,7 +5200,7 @@ it correctly we must escape html entities.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/AbstractSmrAccount.class.php"><a href="files/src-lib-default-abstractsmraccount-class.html"><abbr title="src/lib/Default/AbstractSmrAccount.class.php">AbstractSmrAccount.class.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">1248</span>
+    <span class="phpdocumentor-element-found-in__line">1264</span>
 </aside>
 
     
@@ -5190,7 +5274,7 @@ it correctly we must escape html entities.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/AbstractSmrAccount.class.php"><a href="files/src-lib-default-abstractsmraccount-class.html"><abbr title="src/lib/Default/AbstractSmrAccount.class.php">AbstractSmrAccount.class.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">852</span>
+    <span class="phpdocumentor-element-found-in__line">868</span>
 </aside>
 
     
@@ -5222,7 +5306,7 @@ it correctly we must escape html entities.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/AbstractSmrAccount.class.php"><a href="files/src-lib-default-abstractsmraccount-class.html"><abbr title="src/lib/Default/AbstractSmrAccount.class.php">AbstractSmrAccount.class.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">1080</span>
+    <span class="phpdocumentor-element-found-in__line">1096</span>
 </aside>
 
     
@@ -5296,7 +5380,7 @@ it correctly we must escape html entities.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/AbstractSmrAccount.class.php"><a href="files/src-lib-default-abstractsmraccount-class.html"><abbr title="src/lib/Default/AbstractSmrAccount.class.php">AbstractSmrAccount.class.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">1064</span>
+    <span class="phpdocumentor-element-found-in__line">1080</span>
 </aside>
 
     
@@ -5338,7 +5422,7 @@ it correctly we must escape html entities.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/AbstractSmrAccount.class.php"><a href="files/src-lib-default-abstractsmraccount-class.html"><abbr title="src/lib/Default/AbstractSmrAccount.class.php">AbstractSmrAccount.class.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">1016</span>
+    <span class="phpdocumentor-element-found-in__line">1032</span>
 </aside>
 
     
@@ -5471,7 +5555,7 @@ it correctly we must escape html entities.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/AbstractSmrAccount.class.php"><a href="files/src-lib-default-abstractsmraccount-class.html"><abbr title="src/lib/Default/AbstractSmrAccount.class.php">AbstractSmrAccount.class.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">1036</span>
+    <span class="phpdocumentor-element-found-in__line">1052</span>
 </aside>
 
     
@@ -5503,7 +5587,7 @@ it correctly we must escape html entities.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/AbstractSmrAccount.class.php"><a href="files/src-lib-default-abstractsmraccount-class.html"><abbr title="src/lib/Default/AbstractSmrAccount.class.php">AbstractSmrAccount.class.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">969</span>
+    <span class="phpdocumentor-element-found-in__line">985</span>
 </aside>
 
     
@@ -5569,7 +5653,7 @@ it correctly we must escape html entities.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/AbstractSmrAccount.class.php"><a href="files/src-lib-default-abstractsmraccount-class.html"><abbr title="src/lib/Default/AbstractSmrAccount.class.php">AbstractSmrAccount.class.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">945</span>
+    <span class="phpdocumentor-element-found-in__line">961</span>
 </aside>
 
     
@@ -5601,7 +5685,7 @@ it correctly we must escape html entities.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/AbstractSmrAccount.class.php"><a href="files/src-lib-default-abstractsmraccount-class.html"><abbr title="src/lib/Default/AbstractSmrAccount.class.php">AbstractSmrAccount.class.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">876</span>
+    <span class="phpdocumentor-element-found-in__line">892</span>
 </aside>
 
     
@@ -5665,7 +5749,7 @@ it correctly we must escape html entities.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/AbstractSmrAccount.class.php"><a href="files/src-lib-default-abstractsmraccount-class.html"><abbr title="src/lib/Default/AbstractSmrAccount.class.php">AbstractSmrAccount.class.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">1052</span>
+    <span class="phpdocumentor-element-found-in__line">1068</span>
 </aside>
 
     
@@ -5729,7 +5813,7 @@ it correctly we must escape html entities.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/AbstractSmrAccount.class.php"><a href="files/src-lib-default-abstractsmraccount-class.html"><abbr title="src/lib/Default/AbstractSmrAccount.class.php">AbstractSmrAccount.class.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">1000</span>
+    <span class="phpdocumentor-element-found-in__line">1016</span>
 </aside>
 
     
@@ -5771,7 +5855,7 @@ it correctly we must escape html entities.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/AbstractSmrAccount.class.php"><a href="files/src-lib-default-abstractsmraccount-class.html"><abbr title="src/lib/Default/AbstractSmrAccount.class.php">AbstractSmrAccount.class.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">957</span>
+    <span class="phpdocumentor-element-found-in__line">973</span>
 </aside>
 
     
@@ -5803,7 +5887,7 @@ it correctly we must escape html entities.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/AbstractSmrAccount.class.php"><a href="files/src-lib-default-abstractsmraccount-class.html"><abbr title="src/lib/Default/AbstractSmrAccount.class.php">AbstractSmrAccount.class.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">872</span>
+    <span class="phpdocumentor-element-found-in__line">888</span>
 </aside>
 
     
@@ -5955,7 +6039,7 @@ it correctly we must escape html entities.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/AbstractSmrAccount.class.php"><a href="files/src-lib-default-abstractsmraccount-class.html"><abbr title="src/lib/Default/AbstractSmrAccount.class.php">AbstractSmrAccount.class.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">1126</span>
+    <span class="phpdocumentor-element-found-in__line">1142</span>
 </aside>
 
     
@@ -6085,7 +6169,7 @@ it correctly we must escape html entities.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/AbstractSmrAccount.class.php"><a href="files/src-lib-default-abstractsmraccount-class.html"><abbr title="src/lib/Default/AbstractSmrAccount.class.php">AbstractSmrAccount.class.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">1040</span>
+    <span class="phpdocumentor-element-found-in__line">1056</span>
 </aside>
 
     
@@ -6204,6 +6288,48 @@ it correctly we must escape html entities.</p>
             -public
                                                         "
 >
+    <h4 class="phpdocumentor-element__name" id="method_setDateFormat">
+        setDateFormat()
+        <a href="classes/AbstractSmrAccount.html#method_setDateFormat" class="headerlink"><i class="fas fa-link"></i></a>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/AbstractSmrAccount.class.php"><a href="files/src-lib-default-abstractsmraccount-class.html"><abbr title="src/lib/Default/AbstractSmrAccount.class.php">AbstractSmrAccount.class.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">848</span>
+</aside>
+
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+                <span class="phpdocumentor-signature__name">setDateFormat</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type">string&nbsp;</span><span class="phpdocumentor-signature__argument__name">$format</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">void</span></code>
+
+    
+        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
+    <dl class="phpdocumentor-argument-list">
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$format</span>
+                : <span class="phpdocumentor-signature__argument__return-type">string</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                
+            </dd>
+            </dl>
+
+    
+
+        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
+    <span class="phpdocumentor-signature__response_type">void</span>
+            &mdash;
+            <section class="phpdocumentor-description"></section>
+
+    
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                                        "
+>
     <h4 class="phpdocumentor-element__name" id="method_setDefaultCSSEnabled">
         setDefaultCSSEnabled()
         <a href="classes/AbstractSmrAccount.html#method_setDefaultCSSEnabled" class="headerlink"><i class="fas fa-link"></i></a>
@@ -6211,7 +6337,7 @@ it correctly we must escape html entities.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/AbstractSmrAccount.class.php"><a href="files/src-lib-default-abstractsmraccount-class.html"><abbr title="src/lib/Default/AbstractSmrAccount.class.php">AbstractSmrAccount.class.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">973</span>
+    <span class="phpdocumentor-element-found-in__line">989</span>
 </aside>
 
     
@@ -6295,7 +6421,7 @@ it correctly we must escape html entities.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/AbstractSmrAccount.class.php"><a href="files/src-lib-default-abstractsmraccount-class.html"><abbr title="src/lib/Default/AbstractSmrAccount.class.php">AbstractSmrAccount.class.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">949</span>
+    <span class="phpdocumentor-element-found-in__line">965</span>
 </aside>
 
     
@@ -6337,7 +6463,7 @@ it correctly we must escape html entities.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/AbstractSmrAccount.class.php"><a href="files/src-lib-default-abstractsmraccount-class.html"><abbr title="src/lib/Default/AbstractSmrAccount.class.php">AbstractSmrAccount.class.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">1187</span>
+    <span class="phpdocumentor-element-found-in__line">1203</span>
 </aside>
 
     
@@ -6421,7 +6547,7 @@ it correctly we must escape html entities.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/AbstractSmrAccount.class.php"><a href="files/src-lib-default-abstractsmraccount-class.html"><abbr title="src/lib/Default/AbstractSmrAccount.class.php">AbstractSmrAccount.class.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">1173</span>
+    <span class="phpdocumentor-element-found-in__line">1189</span>
 </aside>
 
     
@@ -6505,7 +6631,7 @@ it correctly we must escape html entities.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/AbstractSmrAccount.class.php"><a href="files/src-lib-default-abstractsmraccount-class.html"><abbr title="src/lib/Default/AbstractSmrAccount.class.php">AbstractSmrAccount.class.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">992</span>
+    <span class="phpdocumentor-element-found-in__line">1008</span>
 </aside>
 
     
@@ -6638,7 +6764,7 @@ it correctly we must escape html entities.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/AbstractSmrAccount.class.php"><a href="files/src-lib-default-abstractsmraccount-class.html"><abbr title="src/lib/Default/AbstractSmrAccount.class.php">AbstractSmrAccount.class.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">1056</span>
+    <span class="phpdocumentor-element-found-in__line">1072</span>
 </aside>
 
     
@@ -6680,7 +6806,7 @@ it correctly we must escape html entities.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/AbstractSmrAccount.class.php"><a href="files/src-lib-default-abstractsmraccount-class.html"><abbr title="src/lib/Default/AbstractSmrAccount.class.php">AbstractSmrAccount.class.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">1008</span>
+    <span class="phpdocumentor-element-found-in__line">1024</span>
 </aside>
 
     
@@ -6729,7 +6855,7 @@ it correctly we must escape html entities.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/AbstractSmrAccount.class.php"><a href="files/src-lib-default-abstractsmraccount-class.html"><abbr title="src/lib/Default/AbstractSmrAccount.class.php">AbstractSmrAccount.class.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">1180</span>
+    <span class="phpdocumentor-element-found-in__line">1196</span>
 </aside>
 
     
@@ -6771,7 +6897,7 @@ it correctly we must escape html entities.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/AbstractSmrAccount.class.php"><a href="files/src-lib-default-abstractsmraccount-class.html"><abbr title="src/lib/Default/AbstractSmrAccount.class.php">AbstractSmrAccount.class.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">908</span>
+    <span class="phpdocumentor-element-found-in__line">924</span>
 </aside>
 
         <p class="phpdocumentor-summary">Set the (plain-text) password for this account.</p>
@@ -6815,7 +6941,7 @@ it correctly we must escape html entities.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/AbstractSmrAccount.class.php"><a href="files/src-lib-default-abstractsmraccount-class.html"><abbr title="src/lib/Default/AbstractSmrAccount.class.php">AbstractSmrAccount.class.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">1111</span>
+    <span class="phpdocumentor-element-found-in__line">1127</span>
 </aside>
 
     
@@ -6837,90 +6963,6 @@ it correctly we must escape html entities.</p>
                 <span class="phpdocumentor-signature__argument__name">$lastUpdate</span>
                 : <span class="phpdocumentor-signature__argument__return-type">int|null</span>
                  = <span class="phpdocumentor-signature__argument__default-value">null</span>            </dt>
-            <dd class="phpdocumentor-argument-list__definition">
-                
-            </dd>
-            </dl>
-
-    
-
-        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
-    <span class="phpdocumentor-signature__response_type">void</span>
-            &mdash;
-            <section class="phpdocumentor-description"></section>
-
-    
-</article>
-                    <article
-        class="phpdocumentor-element
-            -method
-            -public
-                                                        "
->
-    <h4 class="phpdocumentor-element__name" id="method_setShortDateFormat">
-        setShortDateFormat()
-        <a href="classes/AbstractSmrAccount.html#method_setShortDateFormat" class="headerlink"><i class="fas fa-link"></i></a>
-    </h4>
-    <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/AbstractSmrAccount.class.php"><a href="files/src-lib-default-abstractsmraccount-class.html"><abbr title="src/lib/Default/AbstractSmrAccount.class.php">AbstractSmrAccount.class.php</abbr></a></abbr>
-    :
-    <span class="phpdocumentor-element-found-in__line">832</span>
-</aside>
-
-    
-    <code class="phpdocumentor-code phpdocumentor-signature ">
-    <span class="phpdocumentor-signature__visibility">public</span>
-                <span class="phpdocumentor-signature__name">setShortDateFormat</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type">string&nbsp;</span><span class="phpdocumentor-signature__argument__name">$format</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">void</span></code>
-
-    
-        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
-    <dl class="phpdocumentor-argument-list">
-                    <dt class="phpdocumentor-argument-list__entry">
-                <span class="phpdocumentor-signature__argument__name">$format</span>
-                : <span class="phpdocumentor-signature__argument__return-type">string</span>
-                            </dt>
-            <dd class="phpdocumentor-argument-list__definition">
-                
-            </dd>
-            </dl>
-
-    
-
-        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
-    <span class="phpdocumentor-signature__response_type">void</span>
-            &mdash;
-            <section class="phpdocumentor-description"></section>
-
-    
-</article>
-                    <article
-        class="phpdocumentor-element
-            -method
-            -public
-                                                        "
->
-    <h4 class="phpdocumentor-element__name" id="method_setShortTimeFormat">
-        setShortTimeFormat()
-        <a href="classes/AbstractSmrAccount.html#method_setShortTimeFormat" class="headerlink"><i class="fas fa-link"></i></a>
-    </h4>
-    <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/AbstractSmrAccount.class.php"><a href="files/src-lib-default-abstractsmraccount-class.html"><abbr title="src/lib/Default/AbstractSmrAccount.class.php">AbstractSmrAccount.class.php</abbr></a></abbr>
-    :
-    <span class="phpdocumentor-element-found-in__line">844</span>
-</aside>
-
-    
-    <code class="phpdocumentor-code phpdocumentor-signature ">
-    <span class="phpdocumentor-signature__visibility">public</span>
-                <span class="phpdocumentor-signature__name">setShortTimeFormat</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type">string&nbsp;</span><span class="phpdocumentor-signature__argument__name">$format</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">void</span></code>
-
-    
-        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
-    <dl class="phpdocumentor-argument-list">
-                    <dt class="phpdocumentor-argument-list__entry">
-                <span class="phpdocumentor-signature__argument__name">$format</span>
-                : <span class="phpdocumentor-signature__argument__return-type">string</span>
-                            </dt>
             <dd class="phpdocumentor-argument-list__definition">
                 
             </dd>
@@ -7067,6 +7109,48 @@ it correctly we must escape html entities.</p>
             -public
                                                         "
 >
+    <h4 class="phpdocumentor-element__name" id="method_setTimeFormat">
+        setTimeFormat()
+        <a href="classes/AbstractSmrAccount.html#method_setTimeFormat" class="headerlink"><i class="fas fa-link"></i></a>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/AbstractSmrAccount.class.php"><a href="files/src-lib-default-abstractsmraccount-class.html"><abbr title="src/lib/Default/AbstractSmrAccount.class.php">AbstractSmrAccount.class.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">860</span>
+</aside>
+
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+                <span class="phpdocumentor-signature__name">setTimeFormat</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type">string&nbsp;</span><span class="phpdocumentor-signature__argument__name">$format</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">void</span></code>
+
+    
+        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
+    <dl class="phpdocumentor-argument-list">
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$format</span>
+                : <span class="phpdocumentor-signature__argument__return-type">string</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                
+            </dd>
+            </dl>
+
+    
+
+        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
+    <span class="phpdocumentor-signature__response_type">void</span>
+            &mdash;
+            <section class="phpdocumentor-description"></section>
+
+    
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                                        "
+>
     <h4 class="phpdocumentor-element__name" id="method_setUseAJAX">
         setUseAJAX()
         <a href="classes/AbstractSmrAccount.html#method_setUseAJAX" class="headerlink"><i class="fas fa-link"></i></a>
@@ -7074,7 +7158,7 @@ it correctly we must escape html entities.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/AbstractSmrAccount.class.php"><a href="files/src-lib-default-abstractsmraccount-class.html"><abbr title="src/lib/Default/AbstractSmrAccount.class.php">AbstractSmrAccount.class.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">961</span>
+    <span class="phpdocumentor-element-found-in__line">977</span>
 </aside>
 
     
@@ -7116,7 +7200,7 @@ it correctly we must escape html entities.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/AbstractSmrAccount.class.php"><a href="files/src-lib-default-abstractsmraccount-class.html"><abbr title="src/lib/Default/AbstractSmrAccount.class.php">AbstractSmrAccount.class.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">864</span>
+    <span class="phpdocumentor-element-found-in__line">880</span>
 </aside>
 
     
@@ -7158,7 +7242,7 @@ it correctly we must escape html entities.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/AbstractSmrAccount.class.php"><a href="files/src-lib-default-abstractsmraccount-class.html"><abbr title="src/lib/Default/AbstractSmrAccount.class.php">AbstractSmrAccount.class.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">1222</span>
+    <span class="phpdocumentor-element-found-in__line">1238</span>
 </aside>
 
     
@@ -7451,7 +7535,7 @@ it correctly we must escape html entities.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/AbstractSmrAccount.class.php"><a href="files/src-lib-default-abstractsmraccount-class.html"><abbr title="src/lib/Default/AbstractSmrAccount.class.php">AbstractSmrAccount.class.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">937</span>
+    <span class="phpdocumentor-element-found-in__line">953</span>
 </aside>
 
     
@@ -7493,7 +7577,7 @@ it correctly we must escape html entities.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/AbstractSmrAccount.class.php"><a href="files/src-lib-default-abstractsmraccount-class.html"><abbr title="src/lib/Default/AbstractSmrAccount.class.php">AbstractSmrAccount.class.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">856</span>
+    <span class="phpdocumentor-element-found-in__line">872</span>
 </aside>
 
     

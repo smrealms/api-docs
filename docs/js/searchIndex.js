@@ -446,25 +446,35 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/AbstractSmrAccount.html#method_getReferralLink"
         },                {
-            "fqsen": "\\AbstractSmrAccount\u003A\u003AgetShortDateFormat\u0028\u0029",
-            "name": "getShortDateFormat",
-            "summary": "",
-            "url": "classes/AbstractSmrAccount.html#method_getShortDateFormat"
+            "fqsen": "\\AbstractSmrAccount\u003A\u003AgetDateTimeFormat\u0028\u0029",
+            "name": "getDateTimeFormat",
+            "summary": "Get\u0020the\u0020epoch\u0020format\u0020string\u0020including\u0020both\u0020date\u0020and\u0020time.",
+            "url": "classes/AbstractSmrAccount.html#method_getDateTimeFormat"
         },                {
-            "fqsen": "\\AbstractSmrAccount\u003A\u003AsetShortDateFormat\u0028\u0029",
-            "name": "setShortDateFormat",
-            "summary": "",
-            "url": "classes/AbstractSmrAccount.html#method_setShortDateFormat"
+            "fqsen": "\\AbstractSmrAccount\u003A\u003AgetDateTimeFormatSplit\u0028\u0029",
+            "name": "getDateTimeFormatSplit",
+            "summary": "Get\u0020the\u0020\u0028HTML\u002Donly\u0029\u0020epoch\u0020format\u0020string\u0020including\u0020both\u0020date\u0020and\u0020time,\nsplit\u0020across\u0020two\u0020lines.",
+            "url": "classes/AbstractSmrAccount.html#method_getDateTimeFormatSplit"
         },                {
-            "fqsen": "\\AbstractSmrAccount\u003A\u003AgetShortTimeFormat\u0028\u0029",
-            "name": "getShortTimeFormat",
+            "fqsen": "\\AbstractSmrAccount\u003A\u003AgetDateFormat\u0028\u0029",
+            "name": "getDateFormat",
             "summary": "",
-            "url": "classes/AbstractSmrAccount.html#method_getShortTimeFormat"
+            "url": "classes/AbstractSmrAccount.html#method_getDateFormat"
         },                {
-            "fqsen": "\\AbstractSmrAccount\u003A\u003AsetShortTimeFormat\u0028\u0029",
-            "name": "setShortTimeFormat",
+            "fqsen": "\\AbstractSmrAccount\u003A\u003AsetDateFormat\u0028\u0029",
+            "name": "setDateFormat",
             "summary": "",
-            "url": "classes/AbstractSmrAccount.html#method_setShortTimeFormat"
+            "url": "classes/AbstractSmrAccount.html#method_setDateFormat"
+        },                {
+            "fqsen": "\\AbstractSmrAccount\u003A\u003AgetTimeFormat\u0028\u0029",
+            "name": "getTimeFormat",
+            "summary": "",
+            "url": "classes/AbstractSmrAccount.html#method_getTimeFormat"
+        },                {
+            "fqsen": "\\AbstractSmrAccount\u003A\u003AsetTimeFormat\u0028\u0029",
+            "name": "setTimeFormat",
+            "summary": "",
+            "url": "classes/AbstractSmrAccount.html#method_setTimeFormat"
         },                {
             "fqsen": "\\AbstractSmrAccount\u003A\u003AgetValidationCode\u0028\u0029",
             "name": "getValidationCode",
@@ -891,15 +901,15 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/AbstractSmrAccount.html#property_rewardCredits"
         },                {
-            "fqsen": "\\AbstractSmrAccount\u003A\u003A\u0024dateShort",
-            "name": "dateShort",
+            "fqsen": "\\AbstractSmrAccount\u003A\u003A\u0024dateFormat",
+            "name": "dateFormat",
             "summary": "",
-            "url": "classes/AbstractSmrAccount.html#property_dateShort"
+            "url": "classes/AbstractSmrAccount.html#property_dateFormat"
         },                {
-            "fqsen": "\\AbstractSmrAccount\u003A\u003A\u0024timeShort",
-            "name": "timeShort",
+            "fqsen": "\\AbstractSmrAccount\u003A\u003A\u0024timeFormat",
+            "name": "timeFormat",
             "summary": "",
-            "url": "classes/AbstractSmrAccount.html#property_timeShort"
+            "url": "classes/AbstractSmrAccount.html#property_timeFormat"
         },                {
             "fqsen": "\\AbstractSmrAccount\u003A\u003A\u0024template",
             "name": "template",
