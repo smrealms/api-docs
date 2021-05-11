@@ -3086,11 +3086,6 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/AbstractSmrPlayer.html#property_assists"
         },                {
-            "fqsen": "\\AbstractSmrPlayer\u003A\u003A\u0024stats",
-            "name": "stats",
-            "summary": "",
-            "url": "classes/AbstractSmrPlayer.html#property_stats"
-        },                {
             "fqsen": "\\AbstractSmrPlayer\u003A\u003A\u0024personalRelations",
             "name": "personalRelations",
             "summary": "",
@@ -5841,50 +5836,30 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/DummyPlayer.html#method___construct"
         },                {
-            "fqsen": "\\DummyPlayer\u003A\u003AgetPersonalRelationsData\u0028\u0029",
-            "name": "getPersonalRelationsData",
-            "summary": "",
-            "url": "classes/DummyPlayer.html#method_getPersonalRelationsData"
+            "fqsen": "\\DummyPlayer\u003A\u003AsetConstantProperties\u0028\u0029",
+            "name": "setConstantProperties",
+            "summary": "Sets\u0020properties\u0020that\u0020are\u0020needed\u0020for\u0020combat,\u0020but\u0020do\u0020not\u0020need\u0020to\nbe\u0020stored\u0020in\u0020the\u0020database.",
+            "url": "classes/DummyPlayer.html#method_setConstantProperties"
         },                {
-            "fqsen": "\\DummyPlayer\u003A\u003AgetHOFData\u0028\u0029",
-            "name": "getHOFData",
+            "fqsen": "\\DummyPlayer\u003A\u003A__sleep\u0028\u0029",
+            "name": "__sleep",
             "summary": "",
-            "url": "classes/DummyPlayer.html#method_getHOFData"
+            "url": "classes/DummyPlayer.html#method___sleep"
         },                {
-            "fqsen": "\\DummyPlayer\u003A\u003AgetBountiesData\u0028\u0029",
-            "name": "getBountiesData",
+            "fqsen": "\\DummyPlayer\u003A\u003A__wakeup\u0028\u0029",
+            "name": "__wakeup",
             "summary": "",
-            "url": "classes/DummyPlayer.html#method_getBountiesData"
+            "url": "classes/DummyPlayer.html#method___wakeup"
         },                {
-            "fqsen": "\\DummyPlayer\u003A\u003AkillPlayer\u0028\u0029",
-            "name": "killPlayer",
+            "fqsen": "\\DummyPlayer\u003A\u003AincreaseHOF\u0028\u0029",
+            "name": "increaseHOF",
             "summary": "",
-            "url": "classes/DummyPlayer.html#method_killPlayer"
-        },                {
-            "fqsen": "\\DummyPlayer\u003A\u003AsetAllianceID\u0028\u0029",
-            "name": "setAllianceID",
-            "summary": "",
-            "url": "classes/DummyPlayer.html#method_setAllianceID"
+            "url": "classes/DummyPlayer.html#method_increaseHOF"
         },                {
             "fqsen": "\\DummyPlayer\u003A\u003AkillPlayerByPlayer\u0028\u0029",
             "name": "killPlayerByPlayer",
             "summary": "",
             "url": "classes/DummyPlayer.html#method_killPlayerByPlayer"
-        },                {
-            "fqsen": "\\DummyPlayer\u003A\u003AkillPlayerByForces\u0028\u0029",
-            "name": "killPlayerByForces",
-            "summary": "",
-            "url": "classes/DummyPlayer.html#method_killPlayerByForces"
-        },                {
-            "fqsen": "\\DummyPlayer\u003A\u003AkillPlayerByPort\u0028\u0029",
-            "name": "killPlayerByPort",
-            "summary": "",
-            "url": "classes/DummyPlayer.html#method_killPlayerByPort"
-        },                {
-            "fqsen": "\\DummyPlayer\u003A\u003AkillPlayerByPlanet\u0028\u0029",
-            "name": "killPlayerByPlanet",
-            "summary": "",
-            "url": "classes/DummyPlayer.html#method_killPlayerByPlanet"
         },                {
             "fqsen": "\\DummyPlayer\u003A\u003AgetShip\u0028\u0029",
             "name": "getShip",
