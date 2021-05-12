@@ -1111,11 +1111,6 @@ Search.appendIndex(
             "summary": "Reduce\u0020the\u0020damage\u0020done\u0020to\u0020planets\u0020by\u0020this\u0020factor",
             "url": "classes/AbstractSmrCombatWeapon.html#constant_PLANET_DAMAGE_MOD"
         },                {
-            "fqsen": "\\AbstractSmrCombatWeapon\u003A\u003A\u0024gameTypeID",
-            "name": "gameTypeID",
-            "summary": "",
-            "url": "classes/AbstractSmrCombatWeapon.html#property_gameTypeID"
-        },                {
             "fqsen": "\\AbstractSmrCombatWeapon\u003A\u003A\u0024name",
             "name": "name",
             "summary": "",
