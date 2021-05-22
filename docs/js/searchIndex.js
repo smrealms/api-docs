@@ -5971,11 +5971,6 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/Globals.html#method_getRaceHeadImage"
         },                {
-            "fqsen": "\\Globals\u003A\u003AgetRaceGraphImage\u0028\u0029",
-            "name": "getRaceGraphImage",
-            "summary": "",
-            "url": "classes/Globals.html#method_getRaceGraphImage"
-        },                {
             "fqsen": "\\Globals\u003A\u003AgetColouredRaceNameForRace\u0028\u0029",
             "name": "getColouredRaceNameForRace",
             "summary": "",
