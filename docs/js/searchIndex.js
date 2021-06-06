@@ -3746,6 +3746,11 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/AbstractSmrPort.html#method_decreaseArmour"
         },                {
+            "fqsen": "\\AbstractSmrPort\u003A\u003AgetTradeRestriction\u0028\u0029",
+            "name": "getTradeRestriction",
+            "summary": "",
+            "url": "classes/AbstractSmrPort.html#method_getTradeRestriction"
+        },                {
             "fqsen": "\\AbstractSmrPort\u003A\u003AgetIdealPrice\u0028\u0029",
             "name": "getIdealPrice",
             "summary": "",
@@ -5331,6 +5336,11 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/ChessGame.html#method_getColourForAccountID"
         },                {
+            "fqsen": "\\ChessGame\u003A\u003AisPlayer\u0028\u0029",
+            "name": "isPlayer",
+            "summary": "Is\u0020the\u0020given\u0020account\u0020ID\u0020one\u0020of\u0020the\u0020two\u0020players\u0020of\u0020this\u0020game\u003F",
+            "url": "classes/ChessGame.html#method_isPlayer"
+        },                {
             "fqsen": "\\ChessGame\u003A\u003AgetEndDate\u0028\u0029",
             "name": "getEndDate",
             "summary": "",
@@ -5506,26 +5516,6 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/ChessPiece.html#method___construct"
         },                {
-            "fqsen": "\\ChessPiece\u003A\u003AgetX\u0028\u0029",
-            "name": "getX",
-            "summary": "",
-            "url": "classes/ChessPiece.html#method_getX"
-        },                {
-            "fqsen": "\\ChessPiece\u003A\u003AgetY\u0028\u0029",
-            "name": "getY",
-            "summary": "",
-            "url": "classes/ChessPiece.html#method_getY"
-        },                {
-            "fqsen": "\\ChessPiece\u003A\u003AsetX\u0028\u0029",
-            "name": "setX",
-            "summary": "",
-            "url": "classes/ChessPiece.html#method_setX"
-        },                {
-            "fqsen": "\\ChessPiece\u003A\u003AsetY\u0028\u0029",
-            "name": "setY",
-            "summary": "",
-            "url": "classes/ChessPiece.html#method_setY"
-        },                {
             "fqsen": "\\ChessPiece\u003A\u003AisSafeMove\u0028\u0029",
             "name": "isSafeMove",
             "summary": "",
@@ -5606,55 +5596,10 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/ChessPiece.html#constant_PAWN"
         },                {
-            "fqsen": "\\ChessPiece\u003A\u003A\u0024chessGameID",
-            "name": "chessGameID",
-            "summary": "",
-            "url": "classes/ChessPiece.html#property_chessGameID"
-        },                {
-            "fqsen": "\\ChessPiece\u003A\u003A\u0024accountID",
-            "name": "accountID",
-            "summary": "",
-            "url": "classes/ChessPiece.html#property_accountID"
-        },                {
-            "fqsen": "\\ChessPiece\u003A\u003A\u0024colour",
-            "name": "colour",
-            "summary": "",
-            "url": "classes/ChessPiece.html#property_colour"
-        },                {
-            "fqsen": "\\ChessPiece\u003A\u003A\u0024pieceID",
-            "name": "pieceID",
-            "summary": "",
-            "url": "classes/ChessPiece.html#property_pieceID"
-        },                {
-            "fqsen": "\\ChessPiece\u003A\u003A\u0024pieceNo",
-            "name": "pieceNo",
-            "summary": "",
-            "url": "classes/ChessPiece.html#property_pieceNo"
-        },                {
-            "fqsen": "\\ChessPiece\u003A\u003A\u0024x",
-            "name": "x",
-            "summary": "",
-            "url": "classes/ChessPiece.html#property_x"
-        },                {
-            "fqsen": "\\ChessPiece\u003A\u003A\u0024y",
-            "name": "y",
-            "summary": "",
-            "url": "classes/ChessPiece.html#property_y"
-        },                {
             "fqsen": "\\Council",
             "name": "Council",
             "summary": "",
             "url": "classes/Council.html"
-        },                {
-            "fqsen": "\\Council\u003A\u003A__construct\u0028\u0029",
-            "name": "__construct",
-            "summary": "",
-            "url": "classes/Council.html#method___construct"
-        },                {
-            "fqsen": "\\Council\u003A\u003AinitialiseDatabase\u0028\u0029",
-            "name": "initialiseDatabase",
-            "summary": "",
-            "url": "classes/Council.html#method_initialiseDatabase"
         },                {
             "fqsen": "\\Council\u003A\u003AgetRaceCouncil\u0028\u0029",
             "name": "getRaceCouncil",
@@ -5915,11 +5860,6 @@ Search.appendIndex(
             "name": "Globals",
             "summary": "",
             "url": "classes/Globals.html"
-        },                {
-            "fqsen": "\\Globals\u003A\u003A__construct\u0028\u0029",
-            "name": "__construct",
-            "summary": "",
-            "url": "classes/Globals.html#method___construct"
         },                {
             "fqsen": "\\Globals\u003A\u003AinitialiseDatabase\u0028\u0029",
             "name": "initialiseDatabase",
@@ -6341,11 +6281,6 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/Globals.html#property_HARDWARE_TYPES"
         },                {
-            "fqsen": "\\Globals\u003A\u003A\u0024GAMES",
-            "name": "GAMES",
-            "summary": "",
-            "url": "classes/Globals.html#property_GAMES"
-        },                {
             "fqsen": "\\Globals\u003A\u003A\u0024FEATURE_REQUEST_OPEN",
             "name": "FEATURE_REQUEST_OPEN",
             "summary": "",
@@ -6610,11 +6545,6 @@ Search.appendIndex(
             "name": "Rankings",
             "summary": "",
             "url": "classes/Rankings.html"
-        },                {
-            "fqsen": "\\Rankings\u003A\u003A__construct\u0028\u0029",
-            "name": "__construct",
-            "summary": "",
-            "url": "classes/Rankings.html#method___construct"
         },                {
             "fqsen": "\\Rankings\u003A\u003AcollectRaceRankings\u0028\u0029",
             "name": "collectRaceRankings",
@@ -6985,11 +6915,6 @@ Search.appendIndex(
             "name": "dontAddWorseThan",
             "summary": "",
             "url": "classes/Routes-RouteGenerator.html#property_dontAddWorseThan"
-        },                {
-            "fqsen": "\\checkPortTradeable\u0028\u0029",
-            "name": "checkPortTradeable",
-            "summary": "",
-            "url": "namespaces/default.html#function_checkPortTradeable"
         },                {
             "fqsen": "\\check_bargain_number\u0028\u0029",
             "name": "check_bargain_number",
@@ -11570,16 +11495,6 @@ Search.appendIndex(
             "name": "getSN",
             "summary": "Returns\u0020the\u0020SN\u0020to\u0020redirect\u0020the\u0020current\u0020page\u0020to\u0020if\u0020free\u0020turns\u0020are\navailable\u003B\u0020otherwise,\u0020returns\u0020false.",
             "url": "classes/VoteSite.html#method_getSN"
-        },                {
-            "fqsen": "\\VoteSite\u003A\u003A\u0024linkID",
-            "name": "linkID",
-            "summary": "",
-            "url": "classes/VoteSite.html#property_linkID"
-        },                {
-            "fqsen": "\\VoteSite\u003A\u003A\u0024data",
-            "name": "data",
-            "summary": "",
-            "url": "classes/VoteSite.html#property_data"
         },                {
             "fqsen": "\\WeightedRandom",
             "name": "WeightedRandom",
