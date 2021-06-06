@@ -12378,7 +12378,7 @@ Search.appendIndex(
         },                {
             "fqsen": "\\Smr\\Template\u003A\u003AcheckDisableAJAX\u0028\u0029",
             "name": "checkDisableAJAX",
-            "summary": "",
+            "summary": "Check\u0020if\u0020the\u0020HTML\u0020includes\u0020input\u0020elements\u0020where\u0020the\u0020user\u0020is\u0020able\u0020to\ninput\u0020data\u0020\u0028i.e.\u0020we\u0020don\u0027t\u0020want\u0020to\u0020AJAX\u0020update\u0020a\u0020form\u0020that\u0020they\u0020may\nhave\u0020already\u0020started\u0020filling\u0020out\u0029.",
             "url": "classes/Smr-Template.html#method_checkDisableAJAX"
         },                {
             "fqsen": "\\Smr\\Template\u003A\u003AdoDamageTypeReductionDisplay\u0028\u0029",
