@@ -96,6 +96,9 @@
     
     
     
+            <span class="phpdocumentor-element__extends">
+            Uses
+                            <a href="classes/Traits-CombatWeaponForce.html"><abbr title="\Traits\CombatWeaponForce">CombatWeaponForce</abbr></a>                    </span>
     </h2>
 
         <aside class="phpdocumentor-element-found-in">
@@ -134,14 +137,21 @@
 <dd>Reduce the damage done to planets by this factor</dd>
 
                 <dt class="phpdocumentor-table-of-contents__entry -property -protected">
-    <a href="classes/AbstractSmrCombatWeapon.html#property_accuracy">$accuracy</a>
+    <a href="classes/Traits-CombatWeaponForce.html#property_accuracy">$accuracy</a>
     <span>
                 &nbsp;: int            </span>
 </dt>
 <dd></dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -property -protected">
-    <a href="classes/AbstractSmrCombatWeapon.html#property_armourDamage">$armourDamage</a>
+    <a href="classes/Traits-CombatWeaponForce.html#property_amount">$amount</a>
+    <span>
+                &nbsp;: int            </span>
+</dt>
+<dd></dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -property -protected">
+    <a href="classes/Traits-CombatWeaponForce.html#property_armourDamage">$armourDamage</a>
     <span>
                 &nbsp;: int            </span>
 </dt>
@@ -155,28 +165,14 @@
 <dd></dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -property -protected">
-    <a href="classes/AbstractSmrCombatWeapon.html#property_maxDamage">$maxDamage</a>
-    <span>
-                &nbsp;: int            </span>
-</dt>
-<dd></dd>
-
-            <dt class="phpdocumentor-table-of-contents__entry -property -protected">
-    <a href="classes/AbstractSmrCombatWeapon.html#property_name">$name</a>
+    <a href="classes/Traits-CombatWeaponForce.html#property_name">$name</a>
     <span>
                 &nbsp;: string            </span>
 </dt>
 <dd></dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -property -protected">
-    <a href="classes/SmrCombatDrones.html#property_numberOfCDs">$numberOfCDs</a>
-    <span>
-                &nbsp;: int            </span>
-</dt>
-<dd></dd>
-
-            <dt class="phpdocumentor-table-of-contents__entry -property -protected">
-    <a href="classes/AbstractSmrCombatWeapon.html#property_shieldDamage">$shieldDamage</a>
+    <a href="classes/Traits-CombatWeaponForce.html#property_shieldDamage">$shieldDamage</a>
     <span>
                 &nbsp;: int            </span>
 </dt>
@@ -218,6 +214,13 @@
 <dd></dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a href="classes/Traits-CombatWeaponForce.html#method_getAmount">getAmount()</a>
+    <span>
+                        &nbsp;: int    </span>
+</dt>
+<dd>Returns the amount of this type of force.</dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
     <a href="classes/AbstractSmrCombatWeapon.html#method_getArmourDamage">getArmourDamage()</a>
     <span>
                         &nbsp;: int    </span>
@@ -243,7 +246,7 @@
     <span>
                         &nbsp;: int    </span>
 </dt>
-<dd></dd>
+<dd>Return the max weapon damage possible in a single round.</dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
     <a href="classes/SmrCombatDrones.html#method_getModifiedAccuracy">getModifiedAccuracy()</a>
@@ -340,13 +343,6 @@
     <a href="classes/AbstractSmrCombatWeapon.html#method_getName">getName()</a>
     <span>
                         &nbsp;: string    </span>
-</dt>
-<dd></dd>
-
-            <dt class="phpdocumentor-table-of-contents__entry -method -public">
-    <a href="classes/SmrCombatDrones.html#method_getNumberOfCDs">getNumberOfCDs()</a>
-    <span>
-                        &nbsp;: int    </span>
 </dt>
 <dd></dd>
 
@@ -530,7 +526,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/SmrCombatDrones.class.php"><a href="files/src-lib-default-smrcombatdrones-class.html"><abbr title="src/lib/Default/SmrCombatDrones.class.php">SmrCombatDrones.class.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">4</span>
+    <span class="phpdocumentor-element-found-in__line">6</span>
 </aside>
 
     
@@ -590,14 +586,14 @@
 >
     <h4 class="phpdocumentor-element__name" id="property_accuracy">
         $accuracy
-        <a href="classes/AbstractSmrCombatWeapon.html#property_accuracy" class="headerlink"><i class="fas fa-link"></i></a>
+        <a href="classes/Traits-CombatWeaponForce.html#property_accuracy" class="headerlink"><i class="fas fa-link"></i></a>
         <span class="phpdocumentor-element__modifiers">
                                 </span>
     </h4>
     <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/AbstractSmrCombatWeapon.class.php"><a href="files/src-lib-default-abstractsmrcombatweapon-class.html"><abbr title="src/lib/Default/AbstractSmrCombatWeapon.class.php">AbstractSmrCombatWeapon.class.php</abbr></a></abbr>
+    <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/Traits/CombatWeaponForce.class.php"><a href="files/src-lib-default-traits-combatweaponforce-class.html"><abbr title="src/lib/Default/Traits/CombatWeaponForce.class.php">CombatWeaponForce.class.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">13</span>
+    <span class="phpdocumentor-element-found-in__line">14</span>
 </aside>
 
     
@@ -618,16 +614,46 @@
             -protected
                                                         "
 >
-    <h4 class="phpdocumentor-element__name" id="property_armourDamage">
-        $armourDamage
-        <a href="classes/AbstractSmrCombatWeapon.html#property_armourDamage" class="headerlink"><i class="fas fa-link"></i></a>
+    <h4 class="phpdocumentor-element__name" id="property_amount">
+        $amount
+        <a href="classes/Traits-CombatWeaponForce.html#property_amount" class="headerlink"><i class="fas fa-link"></i></a>
         <span class="phpdocumentor-element__modifiers">
                                 </span>
     </h4>
     <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/AbstractSmrCombatWeapon.class.php"><a href="files/src-lib-default-abstractsmrcombatweapon-class.html"><abbr title="src/lib/Default/AbstractSmrCombatWeapon.class.php">AbstractSmrCombatWeapon.class.php</abbr></a></abbr>
+    <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/Traits/CombatWeaponForce.class.php"><a href="files/src-lib-default-traits-combatweaponforce-class.html"><abbr title="src/lib/Default/Traits/CombatWeaponForce.class.php">CombatWeaponForce.class.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">12</span>
+    <span class="phpdocumentor-element-found-in__line">15</span>
+</aside>
+
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">protected</span>
+        <span class="phpdocumentor-signature__type">int</span>
+    <span class="phpdocumentor-signature__name">$amount</span>
+    </code>
+
+    
+    
+
+</article>
+                    <article
+        class="
+            phpdocumentor-element
+            -property
+            -protected
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="property_armourDamage">
+        $armourDamage
+        <a href="classes/Traits-CombatWeaponForce.html#property_armourDamage" class="headerlink"><i class="fas fa-link"></i></a>
+        <span class="phpdocumentor-element__modifiers">
+                                </span>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/Traits/CombatWeaponForce.class.php"><a href="files/src-lib-default-traits-combatweaponforce-class.html"><abbr title="src/lib/Default/Traits/CombatWeaponForce.class.php">CombatWeaponForce.class.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">13</span>
 </aside>
 
     
@@ -657,7 +683,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/AbstractSmrCombatWeapon.class.php"><a href="files/src-lib-default-abstractsmrcombatweapon-class.html"><abbr title="src/lib/Default/AbstractSmrCombatWeapon.class.php">AbstractSmrCombatWeapon.class.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">14</span>
+    <span class="phpdocumentor-element-found-in__line">9</span>
 </aside>
 
     
@@ -678,46 +704,16 @@
             -protected
                                                         "
 >
-    <h4 class="phpdocumentor-element__name" id="property_maxDamage">
-        $maxDamage
-        <a href="classes/AbstractSmrCombatWeapon.html#property_maxDamage" class="headerlink"><i class="fas fa-link"></i></a>
-        <span class="phpdocumentor-element__modifiers">
-                                </span>
-    </h4>
-    <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/AbstractSmrCombatWeapon.class.php"><a href="files/src-lib-default-abstractsmrcombatweapon-class.html"><abbr title="src/lib/Default/AbstractSmrCombatWeapon.class.php">AbstractSmrCombatWeapon.class.php</abbr></a></abbr>
-    :
-    <span class="phpdocumentor-element-found-in__line">10</span>
-</aside>
-
-    
-    <code class="phpdocumentor-code phpdocumentor-signature ">
-    <span class="phpdocumentor-signature__visibility">protected</span>
-        <span class="phpdocumentor-signature__type">int</span>
-    <span class="phpdocumentor-signature__name">$maxDamage</span>
-    </code>
-
-    
-    
-
-</article>
-                    <article
-        class="
-            phpdocumentor-element
-            -property
-            -protected
-                                                        "
->
     <h4 class="phpdocumentor-element__name" id="property_name">
         $name
-        <a href="classes/AbstractSmrCombatWeapon.html#property_name" class="headerlink"><i class="fas fa-link"></i></a>
+        <a href="classes/Traits-CombatWeaponForce.html#property_name" class="headerlink"><i class="fas fa-link"></i></a>
         <span class="phpdocumentor-element__modifiers">
                                 </span>
     </h4>
     <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/AbstractSmrCombatWeapon.class.php"><a href="files/src-lib-default-abstractsmrcombatweapon-class.html"><abbr title="src/lib/Default/AbstractSmrCombatWeapon.class.php">AbstractSmrCombatWeapon.class.php</abbr></a></abbr>
+    <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/Traits/CombatWeaponForce.class.php"><a href="files/src-lib-default-traits-combatweaponforce-class.html"><abbr title="src/lib/Default/Traits/CombatWeaponForce.class.php">CombatWeaponForce.class.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">9</span>
+    <span class="phpdocumentor-element-found-in__line">11</span>
 </aside>
 
     
@@ -738,46 +734,16 @@
             -protected
                                                         "
 >
-    <h4 class="phpdocumentor-element__name" id="property_numberOfCDs">
-        $numberOfCDs
-        <a href="classes/SmrCombatDrones.html#property_numberOfCDs" class="headerlink"><i class="fas fa-link"></i></a>
-        <span class="phpdocumentor-element__modifiers">
-                                </span>
-    </h4>
-    <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/SmrCombatDrones.class.php"><a href="files/src-lib-default-smrcombatdrones-class.html"><abbr title="src/lib/Default/SmrCombatDrones.class.php">SmrCombatDrones.class.php</abbr></a></abbr>
-    :
-    <span class="phpdocumentor-element-found-in__line">5</span>
-</aside>
-
-    
-    <code class="phpdocumentor-code phpdocumentor-signature ">
-    <span class="phpdocumentor-signature__visibility">protected</span>
-        <span class="phpdocumentor-signature__type">int</span>
-    <span class="phpdocumentor-signature__name">$numberOfCDs</span>
-    </code>
-
-    
-    
-
-</article>
-                    <article
-        class="
-            phpdocumentor-element
-            -property
-            -protected
-                                                        "
->
     <h4 class="phpdocumentor-element__name" id="property_shieldDamage">
         $shieldDamage
-        <a href="classes/AbstractSmrCombatWeapon.html#property_shieldDamage" class="headerlink"><i class="fas fa-link"></i></a>
+        <a href="classes/Traits-CombatWeaponForce.html#property_shieldDamage" class="headerlink"><i class="fas fa-link"></i></a>
         <span class="phpdocumentor-element__modifiers">
                                 </span>
     </h4>
     <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/AbstractSmrCombatWeapon.class.php"><a href="files/src-lib-default-abstractsmrcombatweapon-class.html"><abbr title="src/lib/Default/AbstractSmrCombatWeapon.class.php">AbstractSmrCombatWeapon.class.php</abbr></a></abbr>
+    <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/Traits/CombatWeaponForce.class.php"><a href="files/src-lib-default-traits-combatweaponforce-class.html"><abbr title="src/lib/Default/Traits/CombatWeaponForce.class.php">CombatWeaponForce.class.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">11</span>
+    <span class="phpdocumentor-element-found-in__line">12</span>
 </aside>
 
     
@@ -811,7 +777,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/SmrCombatDrones.class.php"><a href="files/src-lib-default-smrcombatdrones-class.html"><abbr title="src/lib/Default/SmrCombatDrones.class.php">SmrCombatDrones.class.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">7</span>
+    <span class="phpdocumentor-element-found-in__line">8</span>
 </aside>
 
     
@@ -860,7 +826,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/AbstractSmrCombatWeapon.class.php"><a href="files/src-lib-default-abstractsmrcombatweapon-class.html"><abbr title="src/lib/Default/AbstractSmrCombatWeapon.class.php">AbstractSmrCombatWeapon.class.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">40</span>
+    <span class="phpdocumentor-element-found-in__line">27</span>
 </aside>
 
     
@@ -892,7 +858,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/AbstractSmrCombatWeapon.class.php"><a href="files/src-lib-default-abstractsmrcombatweapon-class.html"><abbr title="src/lib/Default/AbstractSmrCombatWeapon.class.php">AbstractSmrCombatWeapon.class.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">48</span>
+    <span class="phpdocumentor-element-found-in__line">35</span>
 </aside>
 
     
@@ -924,7 +890,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/AbstractSmrCombatWeapon.class.php"><a href="files/src-lib-default-abstractsmrcombatweapon-class.html"><abbr title="src/lib/Default/AbstractSmrCombatWeapon.class.php">AbstractSmrCombatWeapon.class.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">44</span>
+    <span class="phpdocumentor-element-found-in__line">31</span>
 </aside>
 
     
@@ -956,7 +922,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/AbstractSmrCombatWeapon.class.php"><a href="files/src-lib-default-abstractsmrcombatweapon-class.html"><abbr title="src/lib/Default/AbstractSmrCombatWeapon.class.php">AbstractSmrCombatWeapon.class.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">52</span>
+    <span class="phpdocumentor-element-found-in__line">39</span>
 </aside>
 
     
@@ -981,6 +947,40 @@
             -public
                                                         "
 >
+    <h4 class="phpdocumentor-element__name" id="method_getAmount">
+        getAmount()
+        <a href="classes/Traits-CombatWeaponForce.html#method_getAmount" class="headerlink"><i class="fas fa-link"></i></a>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/Traits/CombatWeaponForce.class.php"><a href="files/src-lib-default-traits-combatweaponforce-class.html"><abbr title="src/lib/Default/Traits/CombatWeaponForce.class.php">CombatWeaponForce.class.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">36</span>
+</aside>
+
+        <p class="phpdocumentor-summary">Returns the amount of this type of force.</p>
+
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+                <span class="phpdocumentor-signature__name">getAmount</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">int</span></code>
+
+        <section class="phpdocumentor-description"></section>
+
+    
+    
+
+        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
+    <span class="phpdocumentor-signature__response_type">int</span>
+            &mdash;
+            <section class="phpdocumentor-description"></section>
+
+    
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                        -abstract                                "
+>
     <h4 class="phpdocumentor-element__name" id="method_getArmourDamage">
         getArmourDamage()
         <a href="classes/AbstractSmrCombatWeapon.html#method_getArmourDamage" class="headerlink"><i class="fas fa-link"></i></a>
@@ -988,13 +988,13 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/AbstractSmrCombatWeapon.class.php"><a href="files/src-lib-default-abstractsmrcombatweapon-class.html"><abbr title="src/lib/Default/AbstractSmrCombatWeapon.class.php">AbstractSmrCombatWeapon.class.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">32</span>
+    <span class="phpdocumentor-element-found-in__line">21</span>
 </aside>
 
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">public</span>
-                <span class="phpdocumentor-signature__name">getArmourDamage</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">int</span></code>
+    <span class="phpdocumentor-signature__abstract">abstract</span>            <span class="phpdocumentor-signature__name">getArmourDamage</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">int</span></code>
 
     
     
@@ -1011,7 +1011,7 @@
         class="phpdocumentor-element
             -method
             -public
-                                                        "
+                        -abstract                                "
 >
     <h4 class="phpdocumentor-element__name" id="method_getBaseAccuracy">
         getBaseAccuracy()
@@ -1020,13 +1020,13 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/AbstractSmrCombatWeapon.class.php"><a href="files/src-lib-default-abstractsmrcombatweapon-class.html"><abbr title="src/lib/Default/AbstractSmrCombatWeapon.class.php">AbstractSmrCombatWeapon.class.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">16</span>
+    <span class="phpdocumentor-element-found-in__line">18</span>
 </aside>
 
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">public</span>
-                <span class="phpdocumentor-signature__name">getBaseAccuracy</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">int</span></code>
+    <span class="phpdocumentor-signature__abstract">abstract</span>            <span class="phpdocumentor-signature__name">getBaseAccuracy</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">int</span></code>
 
     
     
@@ -1052,7 +1052,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/AbstractSmrCombatWeapon.class.php"><a href="files/src-lib-default-abstractsmrcombatweapon-class.html"><abbr title="src/lib/Default/AbstractSmrCombatWeapon.class.php">AbstractSmrCombatWeapon.class.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">56</span>
+    <span class="phpdocumentor-element-found-in__line">43</span>
 </aside>
 
     
@@ -1084,15 +1084,17 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/AbstractSmrCombatWeapon.class.php"><a href="files/src-lib-default-abstractsmrcombatweapon-class.html"><abbr title="src/lib/Default/AbstractSmrCombatWeapon.class.php">AbstractSmrCombatWeapon.class.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">24</span>
+    <span class="phpdocumentor-element-found-in__line">14</span>
 </aside>
 
-    
+        <p class="phpdocumentor-summary">Return the max weapon damage possible in a single round.</p>
+
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">public</span>
                 <span class="phpdocumentor-signature__name">getMaxDamage</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">int</span></code>
 
-    
+        <section class="phpdocumentor-description"></section>
+
     
     
 
@@ -1116,7 +1118,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/SmrCombatDrones.class.php"><a href="files/src-lib-default-smrcombatdrones-class.html"><abbr title="src/lib/Default/SmrCombatDrones.class.php">SmrCombatDrones.class.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">27</span>
+    <span class="phpdocumentor-element-found-in__line">22</span>
 </aside>
 
     
@@ -1148,7 +1150,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/SmrCombatDrones.class.php"><a href="files/src-lib-default-smrcombatdrones-class.html"><abbr title="src/lib/Default/SmrCombatDrones.class.php">SmrCombatDrones.class.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">39</span>
+    <span class="phpdocumentor-element-found-in__line">34</span>
 </aside>
 
     
@@ -1197,7 +1199,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/SmrCombatDrones.class.php"><a href="files/src-lib-default-smrcombatdrones-class.html"><abbr title="src/lib/Default/SmrCombatDrones.class.php">SmrCombatDrones.class.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">61</span>
+    <span class="phpdocumentor-element-found-in__line">56</span>
 </aside>
 
     
@@ -1246,7 +1248,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/SmrCombatDrones.class.php"><a href="files/src-lib-default-smrcombatdrones-class.html"><abbr title="src/lib/Default/SmrCombatDrones.class.php">SmrCombatDrones.class.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">65</span>
+    <span class="phpdocumentor-element-found-in__line">60</span>
 </aside>
 
     
@@ -1295,7 +1297,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/SmrCombatDrones.class.php"><a href="files/src-lib-default-smrcombatdrones-class.html"><abbr title="src/lib/Default/SmrCombatDrones.class.php">SmrCombatDrones.class.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">50</span>
+    <span class="phpdocumentor-element-found-in__line">45</span>
 </aside>
 
     
@@ -1344,7 +1346,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/SmrCombatDrones.class.php"><a href="files/src-lib-default-smrcombatdrones-class.html"><abbr title="src/lib/Default/SmrCombatDrones.class.php">SmrCombatDrones.class.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">103</span>
+    <span class="phpdocumentor-element-found-in__line">98</span>
 </aside>
 
     
@@ -1393,7 +1395,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/SmrCombatDrones.class.php"><a href="files/src-lib-default-smrcombatdrones-class.html"><abbr title="src/lib/Default/SmrCombatDrones.class.php">SmrCombatDrones.class.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">141</span>
+    <span class="phpdocumentor-element-found-in__line">136</span>
 </aside>
 
     
@@ -1442,7 +1444,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/SmrCombatDrones.class.php"><a href="files/src-lib-default-smrcombatdrones-class.html"><abbr title="src/lib/Default/SmrCombatDrones.class.php">SmrCombatDrones.class.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">156</span>
+    <span class="phpdocumentor-element-found-in__line">151</span>
 </aside>
 
     
@@ -1491,7 +1493,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/SmrCombatDrones.class.php"><a href="files/src-lib-default-smrcombatdrones-class.html"><abbr title="src/lib/Default/SmrCombatDrones.class.php">SmrCombatDrones.class.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">127</span>
+    <span class="phpdocumentor-element-found-in__line">122</span>
 </aside>
 
     
@@ -1540,7 +1542,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/SmrCombatDrones.class.php"><a href="files/src-lib-default-smrcombatdrones-class.html"><abbr title="src/lib/Default/SmrCombatDrones.class.php">SmrCombatDrones.class.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">84</span>
+    <span class="phpdocumentor-element-found-in__line">79</span>
 </aside>
 
     
@@ -1589,7 +1591,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/SmrCombatDrones.class.php"><a href="files/src-lib-default-smrcombatdrones-class.html"><abbr title="src/lib/Default/SmrCombatDrones.class.php">SmrCombatDrones.class.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">174</span>
+    <span class="phpdocumentor-element-found-in__line">169</span>
 </aside>
 
     
@@ -1638,7 +1640,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/SmrCombatDrones.class.php"><a href="files/src-lib-default-smrcombatdrones-class.html"><abbr title="src/lib/Default/SmrCombatDrones.class.php">SmrCombatDrones.class.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">213</span>
+    <span class="phpdocumentor-element-found-in__line">208</span>
 </aside>
 
     
@@ -1687,7 +1689,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/SmrCombatDrones.class.php"><a href="files/src-lib-default-smrcombatdrones-class.html"><abbr title="src/lib/Default/SmrCombatDrones.class.php">SmrCombatDrones.class.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">194</span>
+    <span class="phpdocumentor-element-found-in__line">189</span>
 </aside>
 
     
@@ -1727,7 +1729,7 @@
         class="phpdocumentor-element
             -method
             -public
-                                                        "
+                        -abstract                                "
 >
     <h4 class="phpdocumentor-element__name" id="method_getName">
         getName()
@@ -1736,13 +1738,13 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/AbstractSmrCombatWeapon.class.php"><a href="files/src-lib-default-abstractsmrcombatweapon-class.html"><abbr title="src/lib/Default/AbstractSmrCombatWeapon.class.php">AbstractSmrCombatWeapon.class.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">20</span>
+    <span class="phpdocumentor-element-found-in__line">19</span>
 </aside>
 
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">public</span>
-                <span class="phpdocumentor-signature__name">getName</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">string</span></code>
+    <span class="phpdocumentor-signature__abstract">abstract</span>            <span class="phpdocumentor-signature__name">getName</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">string</span></code>
 
     
     
@@ -1759,39 +1761,7 @@
         class="phpdocumentor-element
             -method
             -public
-                                                        "
->
-    <h4 class="phpdocumentor-element__name" id="method_getNumberOfCDs">
-        getNumberOfCDs()
-        <a href="classes/SmrCombatDrones.html#method_getNumberOfCDs" class="headerlink"><i class="fas fa-link"></i></a>
-    </h4>
-    <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/SmrCombatDrones.class.php"><a href="files/src-lib-default-smrcombatdrones-class.html"><abbr title="src/lib/Default/SmrCombatDrones.class.php">SmrCombatDrones.class.php</abbr></a></abbr>
-    :
-    <span class="phpdocumentor-element-found-in__line">23</span>
-</aside>
-
-    
-    <code class="phpdocumentor-code phpdocumentor-signature ">
-    <span class="phpdocumentor-signature__visibility">public</span>
-                <span class="phpdocumentor-signature__name">getNumberOfCDs</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">int</span></code>
-
-    
-    
-    
-
-        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
-    <span class="phpdocumentor-signature__response_type">int</span>
-            &mdash;
-            <section class="phpdocumentor-description"></section>
-
-    
-</article>
-                    <article
-        class="phpdocumentor-element
-            -method
-            -public
-                                                        "
+                        -abstract                                "
 >
     <h4 class="phpdocumentor-element__name" id="method_getShieldDamage">
         getShieldDamage()
@@ -1800,13 +1770,13 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/AbstractSmrCombatWeapon.class.php"><a href="files/src-lib-default-abstractsmrcombatweapon-class.html"><abbr title="src/lib/Default/AbstractSmrCombatWeapon.class.php">AbstractSmrCombatWeapon.class.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">28</span>
+    <span class="phpdocumentor-element-found-in__line">20</span>
 </aside>
 
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">public</span>
-                <span class="phpdocumentor-signature__name">getShieldDamage</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">int</span></code>
+    <span class="phpdocumentor-signature__abstract">abstract</span>            <span class="phpdocumentor-signature__name">getShieldDamage</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">int</span></code>
 
     
     
@@ -1832,7 +1802,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/AbstractSmrCombatWeapon.class.php"><a href="files/src-lib-default-abstractsmrcombatweapon-class.html"><abbr title="src/lib/Default/AbstractSmrCombatWeapon.class.php">AbstractSmrCombatWeapon.class.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">36</span>
+    <span class="phpdocumentor-element-found-in__line">23</span>
 </aside>
 
     
@@ -1864,7 +1834,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/SmrCombatDrones.class.php"><a href="files/src-lib-default-smrcombatdrones-class.html"><abbr title="src/lib/Default/SmrCombatDrones.class.php">SmrCombatDrones.class.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">232</span>
+    <span class="phpdocumentor-element-found-in__line">227</span>
 </aside>
 
     
@@ -1913,7 +1883,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/SmrCombatDrones.class.php"><a href="files/src-lib-default-smrcombatdrones-class.html"><abbr title="src/lib/Default/SmrCombatDrones.class.php">SmrCombatDrones.class.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">246</span>
+    <span class="phpdocumentor-element-found-in__line">241</span>
 </aside>
 
     
@@ -1969,7 +1939,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/SmrCombatDrones.class.php"><a href="files/src-lib-default-smrcombatdrones-class.html"><abbr title="src/lib/Default/SmrCombatDrones.class.php">SmrCombatDrones.class.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">251</span>
+    <span class="phpdocumentor-element-found-in__line">246</span>
 </aside>
 
     
@@ -2018,7 +1988,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/SmrCombatDrones.class.php"><a href="files/src-lib-default-smrcombatdrones-class.html"><abbr title="src/lib/Default/SmrCombatDrones.class.php">SmrCombatDrones.class.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">256</span>
+    <span class="phpdocumentor-element-found-in__line">251</span>
 </aside>
 
     
@@ -2067,7 +2037,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/SmrCombatDrones.class.php"><a href="files/src-lib-default-smrcombatdrones-class.html"><abbr title="src/lib/Default/SmrCombatDrones.class.php">SmrCombatDrones.class.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">266</span>
+    <span class="phpdocumentor-element-found-in__line">261</span>
 </aside>
 
     
@@ -2116,7 +2086,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/SmrCombatDrones.class.php"><a href="files/src-lib-default-smrcombatdrones-class.html"><abbr title="src/lib/Default/SmrCombatDrones.class.php">SmrCombatDrones.class.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">261</span>
+    <span class="phpdocumentor-element-found-in__line">256</span>
 </aside>
 
     
@@ -2165,7 +2135,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/SmrCombatDrones.class.php"><a href="files/src-lib-default-smrcombatdrones-class.html"><abbr title="src/lib/Default/SmrCombatDrones.class.php">SmrCombatDrones.class.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">241</span>
+    <span class="phpdocumentor-element-found-in__line">236</span>
 </aside>
 
     
@@ -2214,7 +2184,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/AbstractSmrCombatWeapon.class.php"><a href="files/src-lib-default-abstractsmrcombatweapon-class.html"><abbr title="src/lib/Default/AbstractSmrCombatWeapon.class.php">AbstractSmrCombatWeapon.class.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">125</span>
+    <span class="phpdocumentor-element-found-in__line">112</span>
 </aside>
 
     
@@ -2270,7 +2240,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/AbstractSmrCombatWeapon.class.php"><a href="files/src-lib-default-abstractsmrcombatweapon-class.html"><abbr title="src/lib/Default/AbstractSmrCombatWeapon.class.php">AbstractSmrCombatWeapon.class.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">115</span>
+    <span class="phpdocumentor-element-found-in__line">102</span>
 </aside>
 
     
@@ -2326,7 +2296,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/AbstractSmrCombatWeapon.class.php"><a href="files/src-lib-default-abstractsmrcombatweapon-class.html"><abbr title="src/lib/Default/AbstractSmrCombatWeapon.class.php">AbstractSmrCombatWeapon.class.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">68</span>
+    <span class="phpdocumentor-element-found-in__line">55</span>
 </aside>
 
     
@@ -2382,7 +2352,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/AbstractSmrCombatWeapon.class.php"><a href="files/src-lib-default-abstractsmrcombatweapon-class.html"><abbr title="src/lib/Default/AbstractSmrCombatWeapon.class.php">AbstractSmrCombatWeapon.class.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">96</span>
+    <span class="phpdocumentor-element-found-in__line">83</span>
 </aside>
 
     
@@ -2445,7 +2415,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/AbstractSmrCombatWeapon.class.php"><a href="files/src-lib-default-abstractsmrcombatweapon-class.html"><abbr title="src/lib/Default/AbstractSmrCombatWeapon.class.php">AbstractSmrCombatWeapon.class.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">77</span>
+    <span class="phpdocumentor-element-found-in__line">64</span>
 </aside>
 
     
@@ -2501,7 +2471,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/AbstractSmrCombatWeapon.class.php"><a href="files/src-lib-default-abstractsmrcombatweapon-class.html"><abbr title="src/lib/Default/AbstractSmrCombatWeapon.class.php">AbstractSmrCombatWeapon.class.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">87</span>
+    <span class="phpdocumentor-element-found-in__line">74</span>
 </aside>
 
     
@@ -2557,7 +2527,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/AbstractSmrCombatWeapon.class.php"><a href="files/src-lib-default-abstractsmrcombatweapon-class.html"><abbr title="src/lib/Default/AbstractSmrCombatWeapon.class.php">AbstractSmrCombatWeapon.class.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">105</span>
+    <span class="phpdocumentor-element-found-in__line">92</span>
 </aside>
 
     
@@ -2613,7 +2583,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/SmrCombatDrones.class.php"><a href="files/src-lib-default-smrcombatdrones-class.html"><abbr title="src/lib/Default/SmrCombatDrones.class.php">SmrCombatDrones.class.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">32</span>
+    <span class="phpdocumentor-element-found-in__line">27</span>
 </aside>
 
     
@@ -2669,7 +2639,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/SmrCombatDrones.class.php"><a href="files/src-lib-default-smrcombatdrones-class.html"><abbr title="src/lib/Default/SmrCombatDrones.class.php">SmrCombatDrones.class.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">54</span>
+    <span class="phpdocumentor-element-found-in__line">49</span>
 </aside>
 
     
@@ -2725,7 +2695,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/SmrCombatDrones.class.php"><a href="files/src-lib-default-smrcombatdrones-class.html"><abbr title="src/lib/Default/SmrCombatDrones.class.php">SmrCombatDrones.class.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">69</span>
+    <span class="phpdocumentor-element-found-in__line">64</span>
 </aside>
 
     
@@ -2781,7 +2751,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/SmrCombatDrones.class.php"><a href="files/src-lib-default-smrcombatdrones-class.html"><abbr title="src/lib/Default/SmrCombatDrones.class.php">SmrCombatDrones.class.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">43</span>
+    <span class="phpdocumentor-element-found-in__line">38</span>
 </aside>
 
     
@@ -2837,7 +2807,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/SmrCombatDrones.class.php"><a href="files/src-lib-default-smrcombatdrones-class.html"><abbr title="src/lib/Default/SmrCombatDrones.class.php">SmrCombatDrones.class.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">88</span>
+    <span class="phpdocumentor-element-found-in__line">83</span>
 </aside>
 
     
@@ -2893,7 +2863,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/SmrCombatDrones.class.php"><a href="files/src-lib-default-smrcombatdrones-class.html"><abbr title="src/lib/Default/SmrCombatDrones.class.php">SmrCombatDrones.class.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">99</span>
+    <span class="phpdocumentor-element-found-in__line">94</span>
 </aside>
 
     
@@ -2942,7 +2912,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/SmrCombatDrones.class.php"><a href="files/src-lib-default-smrcombatdrones-class.html"><abbr title="src/lib/Default/SmrCombatDrones.class.php">SmrCombatDrones.class.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">95</span>
+    <span class="phpdocumentor-element-found-in__line">90</span>
 </aside>
 
     

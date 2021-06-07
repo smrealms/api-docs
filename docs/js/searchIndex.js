@@ -966,6 +966,11 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/AbstractSmrCombatWeapon.html"
         },                {
+            "fqsen": "\\AbstractSmrCombatWeapon\u003A\u003AgetMaxDamage\u0028\u0029",
+            "name": "getMaxDamage",
+            "summary": "Return\u0020the\u0020max\u0020weapon\u0020damage\u0020possible\u0020in\u0020a\u0020single\u0020round.",
+            "url": "classes/AbstractSmrCombatWeapon.html#method_getMaxDamage"
+        },                {
             "fqsen": "\\AbstractSmrCombatWeapon\u003A\u003AgetBaseAccuracy\u0028\u0029",
             "name": "getBaseAccuracy",
             "summary": "",
@@ -975,11 +980,6 @@ Search.appendIndex(
             "name": "getName",
             "summary": "",
             "url": "classes/AbstractSmrCombatWeapon.html#method_getName"
-        },                {
-            "fqsen": "\\AbstractSmrCombatWeapon\u003A\u003AgetMaxDamage\u0028\u0029",
-            "name": "getMaxDamage",
-            "summary": "",
-            "url": "classes/AbstractSmrCombatWeapon.html#method_getMaxDamage"
         },                {
             "fqsen": "\\AbstractSmrCombatWeapon\u003A\u003AgetShieldDamage\u0028\u0029",
             "name": "getShieldDamage",
@@ -1110,31 +1110,6 @@ Search.appendIndex(
             "name": "PLANET_DAMAGE_MOD",
             "summary": "Reduce\u0020the\u0020damage\u0020done\u0020to\u0020planets\u0020by\u0020this\u0020factor",
             "url": "classes/AbstractSmrCombatWeapon.html#constant_PLANET_DAMAGE_MOD"
-        },                {
-            "fqsen": "\\AbstractSmrCombatWeapon\u003A\u003A\u0024name",
-            "name": "name",
-            "summary": "",
-            "url": "classes/AbstractSmrCombatWeapon.html#property_name"
-        },                {
-            "fqsen": "\\AbstractSmrCombatWeapon\u003A\u003A\u0024maxDamage",
-            "name": "maxDamage",
-            "summary": "",
-            "url": "classes/AbstractSmrCombatWeapon.html#property_maxDamage"
-        },                {
-            "fqsen": "\\AbstractSmrCombatWeapon\u003A\u003A\u0024shieldDamage",
-            "name": "shieldDamage",
-            "summary": "",
-            "url": "classes/AbstractSmrCombatWeapon.html#property_shieldDamage"
-        },                {
-            "fqsen": "\\AbstractSmrCombatWeapon\u003A\u003A\u0024armourDamage",
-            "name": "armourDamage",
-            "summary": "",
-            "url": "classes/AbstractSmrCombatWeapon.html#property_armourDamage"
-        },                {
-            "fqsen": "\\AbstractSmrCombatWeapon\u003A\u003A\u0024accuracy",
-            "name": "accuracy",
-            "summary": "",
-            "url": "classes/AbstractSmrCombatWeapon.html#property_accuracy"
         },                {
             "fqsen": "\\AbstractSmrCombatWeapon\u003A\u003A\u0024damageRollover",
             "name": "damageRollover",
@@ -7451,11 +7426,6 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/SmrCombatDrones.html#method___construct"
         },                {
-            "fqsen": "\\SmrCombatDrones\u003A\u003AgetNumberOfCDs\u0028\u0029",
-            "name": "getNumberOfCDs",
-            "summary": "",
-            "url": "classes/SmrCombatDrones.html#method_getNumberOfCDs"
-        },                {
             "fqsen": "\\SmrCombatDrones\u003A\u003AgetModifiedAccuracy\u0028\u0029",
             "name": "getModifiedAccuracy",
             "summary": "",
@@ -7595,11 +7565,6 @@ Search.appendIndex(
             "name": "MAX_CDS_RAND",
             "summary": "",
             "url": "classes/SmrCombatDrones.html#constant_MAX_CDS_RAND"
-        },                {
-            "fqsen": "\\SmrCombatDrones\u003A\u003A\u0024numberOfCDs",
-            "name": "numberOfCDs",
-            "summary": "",
-            "url": "classes/SmrCombatDrones.html#property_numberOfCDs"
         },                {
             "fqsen": "\\SmrEnhancedWeaponEvent",
             "name": "SmrEnhancedWeaponEvent",
@@ -8856,11 +8821,6 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/SmrMines.html#method___construct"
         },                {
-            "fqsen": "\\SmrMines\u003A\u003AgetNumberOfMines\u0028\u0029",
-            "name": "getNumberOfMines",
-            "summary": "",
-            "url": "classes/SmrMines.html#method_getNumberOfMines"
-        },                {
             "fqsen": "\\SmrMines\u003A\u003AgetModifiedAccuracy\u0028\u0029",
             "name": "getModifiedAccuracy",
             "summary": "",
@@ -8945,11 +8905,6 @@ Search.appendIndex(
             "name": "DCS_DAMAGE_MODIFIER",
             "summary": "",
             "url": "classes/SmrMines.html#constant_DCS_DAMAGE_MODIFIER"
-        },                {
-            "fqsen": "\\SmrMines\u003A\u003A\u0024numberOfMines",
-            "name": "numberOfMines",
-            "summary": "",
-            "url": "classes/SmrMines.html#property_numberOfMines"
         },                {
             "fqsen": "\\SmrPlanet",
             "name": "SmrPlanet",
@@ -10166,11 +10121,6 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/SmrScoutDrones.html#method___construct"
         },                {
-            "fqsen": "\\SmrScoutDrones\u003A\u003AgetNumberOfSDs\u0028\u0029",
-            "name": "getNumberOfSDs",
-            "summary": "",
-            "url": "classes/SmrScoutDrones.html#method_getNumberOfSDs"
-        },                {
             "fqsen": "\\SmrScoutDrones\u003A\u003AgetModifiedAccuracy\u0028\u0029",
             "name": "getModifiedAccuracy",
             "summary": "",
@@ -10235,11 +10185,6 @@ Search.appendIndex(
             "name": "shootPlayerAsForce",
             "summary": "",
             "url": "classes/SmrScoutDrones.html#method_shootPlayerAsForce"
-        },                {
-            "fqsen": "\\SmrScoutDrones\u003A\u003A\u0024numberOfSDs",
-            "name": "numberOfSDs",
-            "summary": "",
-            "url": "classes/SmrScoutDrones.html#property_numberOfSDs"
         },                {
             "fqsen": "\\SectorNotFoundException",
             "name": "SectorNotFoundException",
@@ -11023,28 +10968,23 @@ Search.appendIndex(
         },                {
             "fqsen": "\\SmrWeapon\u003A\u003AgetName\u0028\u0029",
             "name": "getName",
-            "summary": "\u0028Override\u0029\u0020Return\u0020weapon\u0020name\u0020suitable\u0020for\u0020HTML\u0020display.",
+            "summary": "Return\u0020weapon\u0020name\u0020suitable\u0020for\u0020HTML\u0020display.",
             "url": "classes/SmrWeapon.html#method_getName"
         },                {
             "fqsen": "\\SmrWeapon\u003A\u003AgetBaseAccuracy\u0028\u0029",
             "name": "getBaseAccuracy",
-            "summary": "\u0028Override\u0029\u0020Return\u0020the\u0020weapon\u0020base\u0020accuracy.",
+            "summary": "Return\u0020the\u0020weapon\u0020base\u0020accuracy.",
             "url": "classes/SmrWeapon.html#method_getBaseAccuracy"
         },                {
             "fqsen": "\\SmrWeapon\u003A\u003AgetShieldDamage\u0028\u0029",
             "name": "getShieldDamage",
-            "summary": "\u0028Override\u0029\u0020Return\u0020the\u0020weapon\u0020shield\u0020damage.",
+            "summary": "Return\u0020the\u0020weapon\u0020shield\u0020damage.",
             "url": "classes/SmrWeapon.html#method_getShieldDamage"
         },                {
             "fqsen": "\\SmrWeapon\u003A\u003AgetArmourDamage\u0028\u0029",
             "name": "getArmourDamage",
-            "summary": "\u0028Override\u0029\u0020Return\u0020the\u0020weapon\u0020armour\u0020damage.",
+            "summary": "Return\u0020the\u0020weapon\u0020armour\u0020damage.",
             "url": "classes/SmrWeapon.html#method_getArmourDamage"
-        },                {
-            "fqsen": "\\SmrWeapon\u003A\u003AgetMaxDamage\u0028\u0029",
-            "name": "getMaxDamage",
-            "summary": "\u0028Override\u0029\u0020Return\u0020the\u0020max\u0020weapon\u0020damage\u0020possible\u0020in\u0020a\u0020single\u0020round.",
-            "url": "classes/SmrWeapon.html#method_getMaxDamage"
         },                {
             "fqsen": "\\SmrWeapon\u003A\u003AgetBuyHREF\u0028\u0029",
             "name": "getBuyHREF",
@@ -11420,6 +11360,61 @@ Search.appendIndex(
             "name": "reverseOrder",
             "summary": "",
             "url": "classes/Sorter.html#property_reverseOrder"
+        },                {
+            "fqsen": "\\Traits\\CombatWeaponForce",
+            "name": "CombatWeaponForce",
+            "summary": "Common\u0020interface\u0020used\u0020by\u0020the\u0020subset\u0020of\u0020AbstractSmrCombatWeapon\u0020classes\nthat\u0020are\u0020used\u0020for\u0020forces\u0020\u0028mines,\u0020combat\u0020drones,\u0020and\u0020scout\u0020drones\u0029.",
+            "url": "classes/Traits-CombatWeaponForce.html"
+        },                {
+            "fqsen": "\\Traits\\CombatWeaponForce\u003A\u003AgetBaseAccuracy\u0028\u0029",
+            "name": "getBaseAccuracy",
+            "summary": "",
+            "url": "classes/Traits-CombatWeaponForce.html#method_getBaseAccuracy"
+        },                {
+            "fqsen": "\\Traits\\CombatWeaponForce\u003A\u003AgetName\u0028\u0029",
+            "name": "getName",
+            "summary": "",
+            "url": "classes/Traits-CombatWeaponForce.html#method_getName"
+        },                {
+            "fqsen": "\\Traits\\CombatWeaponForce\u003A\u003AgetShieldDamage\u0028\u0029",
+            "name": "getShieldDamage",
+            "summary": "",
+            "url": "classes/Traits-CombatWeaponForce.html#method_getShieldDamage"
+        },                {
+            "fqsen": "\\Traits\\CombatWeaponForce\u003A\u003AgetArmourDamage\u0028\u0029",
+            "name": "getArmourDamage",
+            "summary": "",
+            "url": "classes/Traits-CombatWeaponForce.html#method_getArmourDamage"
+        },                {
+            "fqsen": "\\Traits\\CombatWeaponForce\u003A\u003AgetAmount\u0028\u0029",
+            "name": "getAmount",
+            "summary": "Returns\u0020the\u0020amount\u0020of\u0020this\u0020type\u0020of\u0020force.",
+            "url": "classes/Traits-CombatWeaponForce.html#method_getAmount"
+        },                {
+            "fqsen": "\\Traits\\CombatWeaponForce\u003A\u003A\u0024name",
+            "name": "name",
+            "summary": "",
+            "url": "classes/Traits-CombatWeaponForce.html#property_name"
+        },                {
+            "fqsen": "\\Traits\\CombatWeaponForce\u003A\u003A\u0024shieldDamage",
+            "name": "shieldDamage",
+            "summary": "",
+            "url": "classes/Traits-CombatWeaponForce.html#property_shieldDamage"
+        },                {
+            "fqsen": "\\Traits\\CombatWeaponForce\u003A\u003A\u0024armourDamage",
+            "name": "armourDamage",
+            "summary": "",
+            "url": "classes/Traits-CombatWeaponForce.html#property_armourDamage"
+        },                {
+            "fqsen": "\\Traits\\CombatWeaponForce\u003A\u003A\u0024accuracy",
+            "name": "accuracy",
+            "summary": "",
+            "url": "classes/Traits-CombatWeaponForce.html#property_accuracy"
+        },                {
+            "fqsen": "\\Traits\\CombatWeaponForce\u003A\u003A\u0024amount",
+            "name": "amount",
+            "summary": "",
+            "url": "classes/Traits-CombatWeaponForce.html#property_amount"
         },                {
             "fqsen": "\\Traits\\RaceID",
             "name": "RaceID",
