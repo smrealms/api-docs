@@ -4566,20 +4566,20 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/AbstractSmrShip.html#method_isDead"
         },                {
-            "fqsen": "\\AbstractSmrShip\u003A\u003AcanAcceptCDs\u0028\u0029",
-            "name": "canAcceptCDs",
+            "fqsen": "\\AbstractSmrShip\u003A\u003AhasMaxCDs\u0028\u0029",
+            "name": "hasMaxCDs",
             "summary": "",
-            "url": "classes/AbstractSmrShip.html#method_canAcceptCDs"
+            "url": "classes/AbstractSmrShip.html#method_hasMaxCDs"
         },                {
-            "fqsen": "\\AbstractSmrShip\u003A\u003AcanAcceptSDs\u0028\u0029",
-            "name": "canAcceptSDs",
+            "fqsen": "\\AbstractSmrShip\u003A\u003AhasMaxSDs\u0028\u0029",
+            "name": "hasMaxSDs",
             "summary": "",
-            "url": "classes/AbstractSmrShip.html#method_canAcceptSDs"
+            "url": "classes/AbstractSmrShip.html#method_hasMaxSDs"
         },                {
-            "fqsen": "\\AbstractSmrShip\u003A\u003AcanAcceptMines\u0028\u0029",
-            "name": "canAcceptMines",
+            "fqsen": "\\AbstractSmrShip\u003A\u003AhasMaxMines\u0028\u0029",
+            "name": "hasMaxMines",
             "summary": "",
-            "url": "classes/AbstractSmrShip.html#method_canAcceptMines"
+            "url": "classes/AbstractSmrShip.html#method_hasMaxMines"
         },                {
             "fqsen": "\\AbstractSmrShip\u003A\u003AhasCDs\u0028\u0029",
             "name": "hasCDs",
@@ -7661,20 +7661,20 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/SmrForce.html#method_exists"
         },                {
-            "fqsen": "\\SmrForce\u003A\u003AcanAcceptCDs\u0028\u0029",
-            "name": "canAcceptCDs",
+            "fqsen": "\\SmrForce\u003A\u003AhasMaxCDs\u0028\u0029",
+            "name": "hasMaxCDs",
             "summary": "",
-            "url": "classes/SmrForce.html#method_canAcceptCDs"
+            "url": "classes/SmrForce.html#method_hasMaxCDs"
         },                {
-            "fqsen": "\\SmrForce\u003A\u003AcanAcceptSDs\u0028\u0029",
-            "name": "canAcceptSDs",
+            "fqsen": "\\SmrForce\u003A\u003AhasMaxSDs\u0028\u0029",
+            "name": "hasMaxSDs",
             "summary": "",
-            "url": "classes/SmrForce.html#method_canAcceptSDs"
+            "url": "classes/SmrForce.html#method_hasMaxSDs"
         },                {
-            "fqsen": "\\SmrForce\u003A\u003AcanAcceptMines\u0028\u0029",
-            "name": "canAcceptMines",
+            "fqsen": "\\SmrForce\u003A\u003AhasMaxMines\u0028\u0029",
+            "name": "hasMaxMines",
             "summary": "",
-            "url": "classes/SmrForce.html#method_canAcceptMines"
+            "url": "classes/SmrForce.html#method_hasMaxMines"
         },                {
             "fqsen": "\\SmrForce\u003A\u003AhasCDs\u0028\u0029",
             "name": "hasCDs",
@@ -7950,6 +7950,21 @@ Search.appendIndex(
             "name": "REFRESH_ALL_TIME_PER_STACK",
             "summary": "",
             "url": "classes/SmrForce.html#constant_REFRESH_ALL_TIME_PER_STACK"
+        },                {
+            "fqsen": "\\SmrForce\u003A\u003AMAX_MINES",
+            "name": "MAX_MINES",
+            "summary": "",
+            "url": "classes/SmrForce.html#constant_MAX_MINES"
+        },                {
+            "fqsen": "\\SmrForce\u003A\u003AMAX_CDS",
+            "name": "MAX_CDS",
+            "summary": "",
+            "url": "classes/SmrForce.html#constant_MAX_CDS"
+        },                {
+            "fqsen": "\\SmrForce\u003A\u003AMAX_SDS",
+            "name": "MAX_SDS",
+            "summary": "",
+            "url": "classes/SmrForce.html#constant_MAX_SDS"
         },                {
             "fqsen": "\\SmrForce\u003A\u003A\u0024CACHE_FORCES",
             "name": "CACHE_FORCES",
