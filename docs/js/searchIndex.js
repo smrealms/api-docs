@@ -1578,7 +1578,7 @@ Search.appendIndex(
         },                {
             "fqsen": "\\AbstractSmrPlayer\u003A\u003AsetShipTypeID\u0028\u0029",
             "name": "setShipTypeID",
-            "summary": "Do\u0020not\u0020call\u0020directly.\u0020Use\u0020SmrShip\u003A\u003AsetShipTypeID\u0020instead.",
+            "summary": "Do\u0020not\u0020call\u0020directly.\u0020Use\u0020SmrShip\u003A\u003AsetTypeID\u0020instead.",
             "url": "classes/AbstractSmrPlayer.html#method_setShipTypeID"
         },                {
             "fqsen": "\\AbstractSmrPlayer\u003A\u003AhasCustomShipName\u0028\u0029",
@@ -4091,30 +4091,15 @@ Search.appendIndex(
             "summary": "Properties\u0020and\u0020methods\u0020for\u0020a\u0020ship\u0020instance.",
             "url": "classes/AbstractSmrShip.html"
         },                {
-            "fqsen": "\\AbstractSmrShip\u003A\u003AgetBaseShip\u0028\u0029",
-            "name": "getBaseShip",
-            "summary": "",
-            "url": "classes/AbstractSmrShip.html#method_getBaseShip"
-        },                {
-            "fqsen": "\\AbstractSmrShip\u003A\u003AbuildBaseShip\u0028\u0029",
-            "name": "buildBaseShip",
-            "summary": "",
-            "url": "classes/AbstractSmrShip.html#method_buildBaseShip"
-        },                {
-            "fqsen": "\\AbstractSmrShip\u003A\u003AgetAllBaseShips\u0028\u0029",
-            "name": "getAllBaseShips",
-            "summary": "",
-            "url": "classes/AbstractSmrShip.html#method_getAllBaseShips"
-        },                {
             "fqsen": "\\AbstractSmrShip\u003A\u003A__construct\u0028\u0029",
             "name": "__construct",
             "summary": "",
             "url": "classes/AbstractSmrShip.html#method___construct"
         },                {
-            "fqsen": "\\AbstractSmrShip\u003A\u003AregenerateBaseShip\u0028\u0029",
-            "name": "regenerateBaseShip",
+            "fqsen": "\\AbstractSmrShip\u003A\u003AregenerateShipType\u0028\u0029",
+            "name": "regenerateShipType",
             "summary": "",
-            "url": "classes/AbstractSmrShip.html#method_regenerateBaseShip"
+            "url": "classes/AbstractSmrShip.html#method_regenerateShipType"
         },                {
             "fqsen": "\\AbstractSmrShip\u003A\u003AcheckForExcess\u0028\u0029",
             "name": "checkForExcess",
@@ -4155,11 +4140,6 @@ Search.appendIndex(
             "name": "checkPowerAvailable",
             "summary": "given\u0020power\u0020level\u0020of\u0020new\u0020weapon,\u0020return\u0020whether\u0020there\u0020is\u0020enough\u0020power\u0020available\u0020to\u0020install\u0020it\u0020on\u0020this\u0020ship",
             "url": "classes/AbstractSmrShip.html#method_checkPowerAvailable"
-        },                {
-            "fqsen": "\\AbstractSmrShip\u003A\u003AgetMaxPower\u0028\u0029",
-            "name": "getMaxPower",
-            "summary": "",
-            "url": "classes/AbstractSmrShip.html#method_getMaxPower"
         },                {
             "fqsen": "\\AbstractSmrShip\u003A\u003AhasIllegalGoods\u0028\u0029",
             "name": "hasIllegalGoods",
@@ -4291,40 +4271,20 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/AbstractSmrShip.html#method_hasJump"
         },                {
-            "fqsen": "\\AbstractSmrShip\u003A\u003AcanHaveJump\u0028\u0029",
-            "name": "canHaveJump",
-            "summary": "",
-            "url": "classes/AbstractSmrShip.html#method_canHaveJump"
-        },                {
             "fqsen": "\\AbstractSmrShip\u003A\u003AhasDCS\u0028\u0029",
             "name": "hasDCS",
             "summary": "",
             "url": "classes/AbstractSmrShip.html#method_hasDCS"
-        },                {
-            "fqsen": "\\AbstractSmrShip\u003A\u003AcanHaveDCS\u0028\u0029",
-            "name": "canHaveDCS",
-            "summary": "",
-            "url": "classes/AbstractSmrShip.html#method_canHaveDCS"
         },                {
             "fqsen": "\\AbstractSmrShip\u003A\u003AhasScanner\u0028\u0029",
             "name": "hasScanner",
             "summary": "",
             "url": "classes/AbstractSmrShip.html#method_hasScanner"
         },                {
-            "fqsen": "\\AbstractSmrShip\u003A\u003AcanHaveScanner\u0028\u0029",
-            "name": "canHaveScanner",
-            "summary": "",
-            "url": "classes/AbstractSmrShip.html#method_canHaveScanner"
-        },                {
             "fqsen": "\\AbstractSmrShip\u003A\u003AhasCloak\u0028\u0029",
             "name": "hasCloak",
             "summary": "",
             "url": "classes/AbstractSmrShip.html#method_hasCloak"
-        },                {
-            "fqsen": "\\AbstractSmrShip\u003A\u003AcanHaveCloak\u0028\u0029",
-            "name": "canHaveCloak",
-            "summary": "",
-            "url": "classes/AbstractSmrShip.html#method_canHaveCloak"
         },                {
             "fqsen": "\\AbstractSmrShip\u003A\u003A\u0024isCloaked",
             "name": "isCloaked",
@@ -4345,11 +4305,6 @@ Search.appendIndex(
             "name": "hasIllusion",
             "summary": "",
             "url": "classes/AbstractSmrShip.html#method_hasIllusion"
-        },                {
-            "fqsen": "\\AbstractSmrShip\u003A\u003AcanHaveIllusion\u0028\u0029",
-            "name": "canHaveIllusion",
-            "summary": "",
-            "url": "classes/AbstractSmrShip.html#method_canHaveIllusion"
         },                {
             "fqsen": "\\AbstractSmrShip\u003A\u003AgetIllusionShip\u0028\u0029",
             "name": "getIllusionShip",
@@ -4411,20 +4366,25 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/AbstractSmrShip.html#method_getGame"
         },                {
-            "fqsen": "\\AbstractSmrShip\u003A\u003AgetShipTypeID\u0028\u0029",
-            "name": "getShipTypeID",
-            "summary": "",
-            "url": "classes/AbstractSmrShip.html#method_getShipTypeID"
-        },                {
-            "fqsen": "\\AbstractSmrShip\u003A\u003AgetShipClassID\u0028\u0029",
-            "name": "getShipClassID",
-            "summary": "",
-            "url": "classes/AbstractSmrShip.html#method_getShipClassID"
-        },                {
-            "fqsen": "\\AbstractSmrShip\u003A\u003AsetShipTypeID\u0028\u0029",
-            "name": "setShipTypeID",
+            "fqsen": "\\AbstractSmrShip\u003A\u003AsetTypeID\u0028\u0029",
+            "name": "setTypeID",
             "summary": "Switch\u0020to\u0020a\u0020new\u0020ship,\u0020updating\u0020player\u0020turns\u0020accordingly.",
-            "url": "classes/AbstractSmrShip.html#method_setShipTypeID"
+            "url": "classes/AbstractSmrShip.html#method_setTypeID"
+        },                {
+            "fqsen": "\\AbstractSmrShip\u003A\u003AgetType\u0028\u0029",
+            "name": "getType",
+            "summary": "",
+            "url": "classes/AbstractSmrShip.html#method_getType"
+        },                {
+            "fqsen": "\\AbstractSmrShip\u003A\u003AgetTypeID\u0028\u0029",
+            "name": "getTypeID",
+            "summary": "",
+            "url": "classes/AbstractSmrShip.html#method_getTypeID"
+        },                {
+            "fqsen": "\\AbstractSmrShip\u003A\u003AgetClassID\u0028\u0029",
+            "name": "getClassID",
+            "summary": "",
+            "url": "classes/AbstractSmrShip.html#method_getClassID"
         },                {
             "fqsen": "\\AbstractSmrShip\u003A\u003AgetName\u0028\u0029",
             "name": "getName",
@@ -4435,6 +4395,16 @@ Search.appendIndex(
             "name": "getCost",
             "summary": "",
             "url": "classes/AbstractSmrShip.html#method_getCost"
+        },                {
+            "fqsen": "\\AbstractSmrShip\u003A\u003AgetHardpoints\u0028\u0029",
+            "name": "getHardpoints",
+            "summary": "",
+            "url": "classes/AbstractSmrShip.html#method_getHardpoints"
+        },                {
+            "fqsen": "\\AbstractSmrShip\u003A\u003AgetRefundValue\u0028\u0029",
+            "name": "getRefundValue",
+            "summary": "Trade\u002Din\u0020value\u0020of\u0020the\u0020ship",
+            "url": "classes/AbstractSmrShip.html#method_getRefundValue"
         },                {
             "fqsen": "\\AbstractSmrShip\u003A\u003AgetCostToUpgrade\u0028\u0029",
             "name": "getCostToUpgrade",
@@ -4455,11 +4425,6 @@ Search.appendIndex(
             "name": "getCostToUNO",
             "summary": "",
             "url": "classes/AbstractSmrShip.html#method_getCostToUNO"
-        },                {
-            "fqsen": "\\AbstractSmrShip\u003A\u003AgetSpeed\u0028\u0029",
-            "name": "getSpeed",
-            "summary": "Returns\u0020the\u0020base\u0020ship\u0020speed\u0020\u0028unmodified\u0020by\u0020the\u0020game\u0020speed\u0029.",
-            "url": "classes/AbstractSmrShip.html#method_getSpeed"
         },                {
             "fqsen": "\\AbstractSmrShip\u003A\u003AgetRealSpeed\u0028\u0029",
             "name": "getRealSpeed",
@@ -4485,11 +4450,6 @@ Search.appendIndex(
             "name": "hasMaxHardware",
             "summary": "",
             "url": "classes/AbstractSmrShip.html#method_hasMaxHardware"
-        },                {
-            "fqsen": "\\AbstractSmrShip\u003A\u003AgetMaxHardware\u0028\u0029",
-            "name": "getMaxHardware",
-            "summary": "",
-            "url": "classes/AbstractSmrShip.html#method_getMaxHardware"
         },                {
             "fqsen": "\\AbstractSmrShip\u003A\u003AgetShields\u0028\u0029",
             "name": "getShields",
@@ -4756,11 +4716,6 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/AbstractSmrShip.html#method_hasOpenWeaponSlots"
         },                {
-            "fqsen": "\\AbstractSmrShip\u003A\u003AgetHardpoints\u0028\u0029",
-            "name": "getHardpoints",
-            "summary": "",
-            "url": "classes/AbstractSmrShip.html#method_getHardpoints"
-        },                {
             "fqsen": "\\AbstractSmrShip\u003A\u003AgetTotalShieldDamage\u0028\u0029",
             "name": "getTotalShieldDamage",
             "summary": "",
@@ -4856,11 +4811,6 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/AbstractSmrShip.html#constant_STARTER_SHIPS"
         },                {
-            "fqsen": "\\AbstractSmrShip\u003A\u003A\u0024CACHE_BASE_SHIPS",
-            "name": "CACHE_BASE_SHIPS",
-            "summary": "",
-            "url": "classes/AbstractSmrShip.html#property_CACHE_BASE_SHIPS"
-        },                {
             "fqsen": "\\AbstractSmrShip\u003A\u003A\u0024player",
             "name": "player",
             "summary": "",
@@ -4871,10 +4821,10 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/AbstractSmrShip.html#property_gameID"
         },                {
-            "fqsen": "\\AbstractSmrShip\u003A\u003A\u0024baseShip",
-            "name": "baseShip",
+            "fqsen": "\\AbstractSmrShip\u003A\u003A\u0024shipType",
+            "name": "shipType",
             "summary": "",
-            "url": "classes/AbstractSmrShip.html#property_baseShip"
+            "url": "classes/AbstractSmrShip.html#property_shipType"
         },                {
             "fqsen": "\\AbstractSmrShip\u003A\u003A\u0024weapons",
             "name": "weapons",
@@ -10880,6 +10830,161 @@ Search.appendIndex(
             "name": "SQL",
             "summary": "",
             "url": "classes/SmrShip.html#property_SQL"
+        },                {
+            "fqsen": "\\SmrShipType",
+            "name": "SmrShipType",
+            "summary": "Defines\u0020the\u0020base\u0020ship\u0020types",
+            "url": "classes/SmrShipType.html"
+        },                {
+            "fqsen": "\\SmrShipType\u003A\u003Aget\u0028\u0029",
+            "name": "get",
+            "summary": "",
+            "url": "classes/SmrShipType.html#method_get"
+        },                {
+            "fqsen": "\\SmrShipType\u003A\u003AgetAll\u0028\u0029",
+            "name": "getAll",
+            "summary": "",
+            "url": "classes/SmrShipType.html#method_getAll"
+        },                {
+            "fqsen": "\\SmrShipType\u003A\u003A__construct\u0028\u0029",
+            "name": "__construct",
+            "summary": "",
+            "url": "classes/SmrShipType.html#method___construct"
+        },                {
+            "fqsen": "\\SmrShipType\u003A\u003AgetTypeID\u0028\u0029",
+            "name": "getTypeID",
+            "summary": "",
+            "url": "classes/SmrShipType.html#method_getTypeID"
+        },                {
+            "fqsen": "\\SmrShipType\u003A\u003AgetClassID\u0028\u0029",
+            "name": "getClassID",
+            "summary": "",
+            "url": "classes/SmrShipType.html#method_getClassID"
+        },                {
+            "fqsen": "\\SmrShipType\u003A\u003AgetName\u0028\u0029",
+            "name": "getName",
+            "summary": "",
+            "url": "classes/SmrShipType.html#method_getName"
+        },                {
+            "fqsen": "\\SmrShipType\u003A\u003AgetCost\u0028\u0029",
+            "name": "getCost",
+            "summary": "",
+            "url": "classes/SmrShipType.html#method_getCost"
+        },                {
+            "fqsen": "\\SmrShipType\u003A\u003AgetRestriction\u0028\u0029",
+            "name": "getRestriction",
+            "summary": "",
+            "url": "classes/SmrShipType.html#method_getRestriction"
+        },                {
+            "fqsen": "\\SmrShipType\u003A\u003AgetSpeed\u0028\u0029",
+            "name": "getSpeed",
+            "summary": "Return\u0020the\u0020base\u0020ship\u0020speed\u0020\u0028unmodified\u0020by\u0020the\u0020game\u0020speed\u0029",
+            "url": "classes/SmrShipType.html#method_getSpeed"
+        },                {
+            "fqsen": "\\SmrShipType\u003A\u003AgetHardpoints\u0028\u0029",
+            "name": "getHardpoints",
+            "summary": "",
+            "url": "classes/SmrShipType.html#method_getHardpoints"
+        },                {
+            "fqsen": "\\SmrShipType\u003A\u003AgetMaxPower\u0028\u0029",
+            "name": "getMaxPower",
+            "summary": "Return\u0020the\u0020maximum\u0020weapon\u0020power",
+            "url": "classes/SmrShipType.html#method_getMaxPower"
+        },                {
+            "fqsen": "\\SmrShipType\u003A\u003AgetMaxHardware\u0028\u0029",
+            "name": "getMaxHardware",
+            "summary": "",
+            "url": "classes/SmrShipType.html#method_getMaxHardware"
+        },                {
+            "fqsen": "\\SmrShipType\u003A\u003AgetAllMaxHardware\u0028\u0029",
+            "name": "getAllMaxHardware",
+            "summary": "",
+            "url": "classes/SmrShipType.html#method_getAllMaxHardware"
+        },                {
+            "fqsen": "\\SmrShipType\u003A\u003AcanHaveJump\u0028\u0029",
+            "name": "canHaveJump",
+            "summary": "",
+            "url": "classes/SmrShipType.html#method_canHaveJump"
+        },                {
+            "fqsen": "\\SmrShipType\u003A\u003AcanHaveDCS\u0028\u0029",
+            "name": "canHaveDCS",
+            "summary": "",
+            "url": "classes/SmrShipType.html#method_canHaveDCS"
+        },                {
+            "fqsen": "\\SmrShipType\u003A\u003AcanHaveScanner\u0028\u0029",
+            "name": "canHaveScanner",
+            "summary": "",
+            "url": "classes/SmrShipType.html#method_canHaveScanner"
+        },                {
+            "fqsen": "\\SmrShipType\u003A\u003AcanHaveCloak\u0028\u0029",
+            "name": "canHaveCloak",
+            "summary": "",
+            "url": "classes/SmrShipType.html#method_canHaveCloak"
+        },                {
+            "fqsen": "\\SmrShipType\u003A\u003AcanHaveIllusion\u0028\u0029",
+            "name": "canHaveIllusion",
+            "summary": "",
+            "url": "classes/SmrShipType.html#method_canHaveIllusion"
+        },                {
+            "fqsen": "\\SmrShipType\u003A\u003A\u0024CACHE_SHIP_TYPES",
+            "name": "CACHE_SHIP_TYPES",
+            "summary": "",
+            "url": "classes/SmrShipType.html#property_CACHE_SHIP_TYPES"
+        },                {
+            "fqsen": "\\SmrShipType\u003A\u003A\u0024name",
+            "name": "name",
+            "summary": "",
+            "url": "classes/SmrShipType.html#property_name"
+        },                {
+            "fqsen": "\\SmrShipType\u003A\u003A\u0024typeID",
+            "name": "typeID",
+            "summary": "",
+            "url": "classes/SmrShipType.html#property_typeID"
+        },                {
+            "fqsen": "\\SmrShipType\u003A\u003A\u0024classID",
+            "name": "classID",
+            "summary": "",
+            "url": "classes/SmrShipType.html#property_classID"
+        },                {
+            "fqsen": "\\SmrShipType\u003A\u003A\u0024hardpoints",
+            "name": "hardpoints",
+            "summary": "",
+            "url": "classes/SmrShipType.html#property_hardpoints"
+        },                {
+            "fqsen": "\\SmrShipType\u003A\u003A\u0024speed",
+            "name": "speed",
+            "summary": "",
+            "url": "classes/SmrShipType.html#property_speed"
+        },                {
+            "fqsen": "\\SmrShipType\u003A\u003A\u0024cost",
+            "name": "cost",
+            "summary": "",
+            "url": "classes/SmrShipType.html#property_cost"
+        },                {
+            "fqsen": "\\SmrShipType\u003A\u003A\u0024restriction",
+            "name": "restriction",
+            "summary": "",
+            "url": "classes/SmrShipType.html#property_restriction"
+        },                {
+            "fqsen": "\\SmrShipType\u003A\u003A\u0024levelNeeded",
+            "name": "levelNeeded",
+            "summary": "",
+            "url": "classes/SmrShipType.html#property_levelNeeded"
+        },                {
+            "fqsen": "\\SmrShipType\u003A\u003A\u0024maxPower",
+            "name": "maxPower",
+            "summary": "",
+            "url": "classes/SmrShipType.html#property_maxPower"
+        },                {
+            "fqsen": "\\SmrShipType\u003A\u003A\u0024maxHardware",
+            "name": "maxHardware",
+            "summary": "",
+            "url": "classes/SmrShipType.html#property_maxHardware"
+        },                {
+            "fqsen": "\\SmrShipType\u003A\u003A\u0024baseManeuverability",
+            "name": "baseManeuverability",
+            "summary": "",
+            "url": "classes/SmrShipType.html#property_baseManeuverability"
         },                {
             "fqsen": "\\SmrTreaty",
             "name": "SmrTreaty",
