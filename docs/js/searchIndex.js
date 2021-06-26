@@ -1911,6 +1911,11 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/AbstractSmrPlayer.html#method_getNextLevelPercentRemaining"
         },                {
+            "fqsen": "\\AbstractSmrPlayer\u003A\u003AgetNextLevel\u0028\u0029",
+            "name": "getNextLevel",
+            "summary": "",
+            "url": "classes/AbstractSmrPlayer.html#method_getNextLevel"
+        },                {
             "fqsen": "\\AbstractSmrPlayer\u003A\u003AgetNextLevelExperience\u0028\u0029",
             "name": "getNextLevelExperience",
             "summary": "",
@@ -2333,7 +2338,7 @@ Search.appendIndex(
         },                {
             "fqsen": "\\AbstractSmrPlayer\u003A\u003AgetClaimableBounties\u0028\u0029",
             "name": "getClaimableBounties",
-            "summary": "",
+            "summary": "Get\u0020bounties\u0020that\u0020can\u0020be\u0020claimed\u0020by\u0020this\u0020player.",
             "url": "classes/AbstractSmrPlayer.html#method_getClaimableBounties"
         },                {
             "fqsen": "\\AbstractSmrPlayer\u003A\u003AgetBounties\u0028\u0029",
