@@ -2816,9 +2816,14 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/AbstractSmrPlayer.html#method_getVisibleGoods"
         },                {
+            "fqsen": "\\AbstractSmrPlayer\u003A\u003AgetUnvisitedSectors\u0028\u0029",
+            "name": "getUnvisitedSectors",
+            "summary": "Returns\u0020an\u0020array\u0020of\u0020all\u0020unvisited\u0020sectors.",
+            "url": "classes/AbstractSmrPlayer.html#method_getUnvisitedSectors"
+        },                {
             "fqsen": "\\AbstractSmrPlayer\u003A\u003AhasVisitedSector\u0028\u0029",
             "name": "hasVisitedSector",
-            "summary": "Will\u0020retrieve\u0020all\u0020visited\u0020sectors,\u0020use\u0020only\u0020when\u0020you\u0020are\u0020likely\u0020to\u0020check\u0020a\u0020large\u0020number\u0020of\u0020these",
+            "summary": "Check\u0020if\u0020player\u0020has\u0020visited\u0020the\u0020input\u0020sector.",
             "url": "classes/AbstractSmrPlayer.html#method_hasVisitedSector"
         },                {
             "fqsen": "\\AbstractSmrPlayer\u003A\u003AgetLeaveNewbieProtectionHREF\u0028\u0029",
@@ -3196,10 +3201,10 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/AbstractSmrPlayer.html#property_underAttack"
         },                {
-            "fqsen": "\\AbstractSmrPlayer\u003A\u003A\u0024visitedSectors",
-            "name": "visitedSectors",
+            "fqsen": "\\AbstractSmrPlayer\u003A\u003A\u0024unvisitedSectors",
+            "name": "unvisitedSectors",
             "summary": "",
-            "url": "classes/AbstractSmrPlayer.html#property_visitedSectors"
+            "url": "classes/AbstractSmrPlayer.html#property_unvisitedSectors"
         },                {
             "fqsen": "\\AbstractSmrPlayer\u003A\u003A\u0024allianceRoles",
             "name": "allianceRoles",
@@ -5530,11 +5535,6 @@ Search.appendIndex(
             "name": "PRESIDENTS",
             "summary": "",
             "url": "classes/Council.html#property_PRESIDENTS"
-        },                {
-            "fqsen": "\\Council\u003A\u003A\u0024db",
-            "name": "db",
-            "summary": "",
-            "url": "classes/Council.html#property_db"
         },                {
             "fqsen": "\\modifyRelations\u0028\u0029",
             "name": "modifyRelations",
@@ -11728,22 +11728,17 @@ Search.appendIndex(
         },                {
             "fqsen": "\\Smr\\Database",
             "name": "Database",
-            "summary": "",
+            "summary": "Wraps\u0020an\u0020active\u0020connection\u0020to\u0020the\u0020database.",
             "url": "classes/Smr-Database.html"
         },                {
             "fqsen": "\\Smr\\Database\u003A\u003AgetInstance\u0028\u0029",
             "name": "getInstance",
-            "summary": "",
+            "summary": "Returns\u0020the\u0020instance\u0020of\u0020this\u0020class\u0020from\u0020the\u0020DI\u0020container.",
             "url": "classes/Smr-Database.html#method_getInstance"
-        },                {
-            "fqsen": "\\Smr\\Database\u003A\u003AreconnectMysql\u0028\u0029",
-            "name": "reconnectMysql",
-            "summary": "Reconnects\u0020to\u0020the\u0020MySQL\u0020database,\u0020and\u0020replaces\u0020the\u0020managed\u0020mysqli\u0020instance\nin\u0020the\u0020dependency\u0020injection\u0020container\u0020for\u0020future\u0020retrievals.",
-            "url": "classes/Smr-Database.html#method_reconnectMysql"
         },                {
             "fqsen": "\\Smr\\Database\u003A\u003AmysqliFactory\u0028\u0029",
             "name": "mysqliFactory",
-            "summary": "",
+            "summary": "Used\u0020by\u0020the\u0020DI\u0020container\u0020to\u0020construct\u0020a\u0020mysqli\u0020instance.",
             "url": "classes/Smr-Database.html#method_mysqliFactory"
         },                {
             "fqsen": "\\Smr\\Database\u003A\u003A__construct\u0028\u0029",
@@ -11763,7 +11758,7 @@ Search.appendIndex(
         },                {
             "fqsen": "\\Smr\\Database\u003A\u003AgetDbBytes\u0028\u0029",
             "name": "getDbBytes",
-            "summary": "Returns\u0020the\u0020size\u0020of\u0020the\u0020selected\u0020database\u0020in\u0020bytes.",
+            "summary": "Returns\u0020the\u0020size\u0020of\u0020the\u0020live\u0020database\u0020in\u0020bytes.",
             "url": "classes/Smr-Database.html#method_getDbBytes"
         },                {
             "fqsen": "\\Smr\\Database\u003A\u003Aclose\u0028\u0029",
@@ -11771,60 +11766,20 @@ Search.appendIndex(
             "summary": "This\u0020should\u0020not\u0020be\u0020needed\u0020except\u0020perhaps\u0020by\u0020persistent\u0020connections",
             "url": "classes/Smr-Database.html#method_close"
         },                {
-            "fqsen": "\\Smr\\Database\u003A\u003Aquery\u0028\u0029",
-            "name": "query",
-            "summary": "",
-            "url": "classes/Smr-Database.html#method_query"
+            "fqsen": "\\Smr\\Database\u003A\u003Areconnect\u0028\u0029",
+            "name": "reconnect",
+            "summary": "Reconnects\u0020to\u0020the\u0020MySQL\u0020database,\u0020and\u0020replaces\u0020the\u0020managed\u0020mysqli\u0020instance\nin\u0020the\u0020dependency\u0020injection\u0020container\u0020for\u0020future\u0020retrievals.",
+            "url": "classes/Smr-Database.html#method_reconnect"
         },                {
-            "fqsen": "\\Smr\\Database\u003A\u003AnextRecord\u0028\u0029",
-            "name": "nextRecord",
-            "summary": "Use\u0020to\u0020populate\u0020this\u0020instance\u0020with\u0020the\u0020next\u0020record\u0020of\u0020the\u0020active\u0020query.",
-            "url": "classes/Smr-Database.html#method_nextRecord"
+            "fqsen": "\\Smr\\Database\u003A\u003Awrite\u0028\u0029",
+            "name": "write",
+            "summary": "Perform\u0020a\u0020write\u002Donly\u0020query\u0020on\u0020the\u0020database.",
+            "url": "classes/Smr-Database.html#method_write"
         },                {
-            "fqsen": "\\Smr\\Database\u003A\u003ArequireRecord\u0028\u0029",
-            "name": "requireRecord",
-            "summary": "Use\u0020instead\u0020of\u0020nextRecord\u0020when\u0020exactly\u0020one\u0020record\u0020is\u0020expected\u0020from\u0020the\nactive\u0020query.",
-            "url": "classes/Smr-Database.html#method_requireRecord"
-        },                {
-            "fqsen": "\\Smr\\Database\u003A\u003AhasField\u0028\u0029",
-            "name": "hasField",
-            "summary": "",
-            "url": "classes/Smr-Database.html#method_hasField"
-        },                {
-            "fqsen": "\\Smr\\Database\u003A\u003AgetField\u0028\u0029",
-            "name": "getField",
-            "summary": "",
-            "url": "classes/Smr-Database.html#method_getField"
-        },                {
-            "fqsen": "\\Smr\\Database\u003A\u003AgetBoolean\u0028\u0029",
-            "name": "getBoolean",
-            "summary": "",
-            "url": "classes/Smr-Database.html#method_getBoolean"
-        },                {
-            "fqsen": "\\Smr\\Database\u003A\u003AgetInt\u0028\u0029",
-            "name": "getInt",
-            "summary": "",
-            "url": "classes/Smr-Database.html#method_getInt"
-        },                {
-            "fqsen": "\\Smr\\Database\u003A\u003AgetFloat\u0028\u0029",
-            "name": "getFloat",
-            "summary": "",
-            "url": "classes/Smr-Database.html#method_getFloat"
-        },                {
-            "fqsen": "\\Smr\\Database\u003A\u003AgetMicrotime\u0028\u0029",
-            "name": "getMicrotime",
-            "summary": "",
-            "url": "classes/Smr-Database.html#method_getMicrotime"
-        },                {
-            "fqsen": "\\Smr\\Database\u003A\u003AgetObject\u0028\u0029",
-            "name": "getObject",
-            "summary": "",
-            "url": "classes/Smr-Database.html#method_getObject"
-        },                {
-            "fqsen": "\\Smr\\Database\u003A\u003AgetRow\u0028\u0029",
-            "name": "getRow",
-            "summary": "",
-            "url": "classes/Smr-Database.html#method_getRow"
+            "fqsen": "\\Smr\\Database\u003A\u003Aread\u0028\u0029",
+            "name": "read",
+            "summary": "Perform\u0020a\u0020read\u002Donly\u0020query\u0020on\u0020the\u0020database.",
+            "url": "classes/Smr-Database.html#method_read"
         },                {
             "fqsen": "\\Smr\\Database\u003A\u003AlockTable\u0028\u0029",
             "name": "lockTable",
@@ -11836,11 +11791,6 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/Smr-Database.html#method_unlock"
         },                {
-            "fqsen": "\\Smr\\Database\u003A\u003AgetNumRows\u0028\u0029",
-            "name": "getNumRows",
-            "summary": "",
-            "url": "classes/Smr-Database.html#method_getNumRows"
-        },                {
             "fqsen": "\\Smr\\Database\u003A\u003AgetChangedRows\u0028\u0029",
             "name": "getChangedRows",
             "summary": "",
@@ -11850,11 +11800,6 @@ Search.appendIndex(
             "name": "getInsertID",
             "summary": "",
             "url": "classes/Smr-Database.html#method_getInsertID"
-        },                {
-            "fqsen": "\\Smr\\Database\u003A\u003Aerror\u0028\u0029",
-            "name": "error",
-            "summary": "",
-            "url": "classes/Smr-Database.html#method_error"
         },                {
             "fqsen": "\\Smr\\Database\u003A\u003Aescape\u0028\u0029",
             "name": "escape",
@@ -11895,31 +11840,6 @@ Search.appendIndex(
             "name": "escapeObject",
             "summary": "",
             "url": "classes/Smr-Database.html#method_escapeObject"
-        },                {
-            "fqsen": "\\Smr\\Database\u003A\u003A\u0024dbConn",
-            "name": "dbConn",
-            "summary": "",
-            "url": "classes/Smr-Database.html#property_dbConn"
-        },                {
-            "fqsen": "\\Smr\\Database\u003A\u003A\u0024dbProperties",
-            "name": "dbProperties",
-            "summary": "",
-            "url": "classes/Smr-Database.html#property_dbProperties"
-        },                {
-            "fqsen": "\\Smr\\Database\u003A\u003A\u0024selectedDbName",
-            "name": "selectedDbName",
-            "summary": "",
-            "url": "classes/Smr-Database.html#property_selectedDbName"
-        },                {
-            "fqsen": "\\Smr\\Database\u003A\u003A\u0024dbResult",
-            "name": "dbResult",
-            "summary": "",
-            "url": "classes/Smr-Database.html#property_dbResult"
-        },                {
-            "fqsen": "\\Smr\\Database\u003A\u003A\u0024dbRecord",
-            "name": "dbRecord",
-            "summary": "",
-            "url": "classes/Smr-Database.html#property_dbRecord"
         },                {
             "fqsen": "\\Smr\\DatabaseProperties",
             "name": "DatabaseProperties",
@@ -11995,6 +11915,91 @@ Search.appendIndex(
             "name": "databaseName",
             "summary": "",
             "url": "classes/Smr-DatabaseProperties.html#property_databaseName"
+        },                {
+            "fqsen": "\\Smr\\DatabaseRecord",
+            "name": "DatabaseRecord",
+            "summary": "",
+            "url": "classes/Smr-DatabaseRecord.html"
+        },                {
+            "fqsen": "\\Smr\\DatabaseRecord\u003A\u003A__construct\u0028\u0029",
+            "name": "__construct",
+            "summary": "",
+            "url": "classes/Smr-DatabaseRecord.html#method___construct"
+        },                {
+            "fqsen": "\\Smr\\DatabaseRecord\u003A\u003AhasField\u0028\u0029",
+            "name": "hasField",
+            "summary": "",
+            "url": "classes/Smr-DatabaseRecord.html#method_hasField"
+        },                {
+            "fqsen": "\\Smr\\DatabaseRecord\u003A\u003AgetField\u0028\u0029",
+            "name": "getField",
+            "summary": "",
+            "url": "classes/Smr-DatabaseRecord.html#method_getField"
+        },                {
+            "fqsen": "\\Smr\\DatabaseRecord\u003A\u003AgetString\u0028\u0029",
+            "name": "getString",
+            "summary": "Get\u0020a\u0020string\u002Donly\u0020field\u0020from\u0020the\u0020database\u0020record.",
+            "url": "classes/Smr-DatabaseRecord.html#method_getString"
+        },                {
+            "fqsen": "\\Smr\\DatabaseRecord\u003A\u003AgetBoolean\u0028\u0029",
+            "name": "getBoolean",
+            "summary": "",
+            "url": "classes/Smr-DatabaseRecord.html#method_getBoolean"
+        },                {
+            "fqsen": "\\Smr\\DatabaseRecord\u003A\u003AgetInt\u0028\u0029",
+            "name": "getInt",
+            "summary": "",
+            "url": "classes/Smr-DatabaseRecord.html#method_getInt"
+        },                {
+            "fqsen": "\\Smr\\DatabaseRecord\u003A\u003AgetFloat\u0028\u0029",
+            "name": "getFloat",
+            "summary": "",
+            "url": "classes/Smr-DatabaseRecord.html#method_getFloat"
+        },                {
+            "fqsen": "\\Smr\\DatabaseRecord\u003A\u003AgetMicrotime\u0028\u0029",
+            "name": "getMicrotime",
+            "summary": "",
+            "url": "classes/Smr-DatabaseRecord.html#method_getMicrotime"
+        },                {
+            "fqsen": "\\Smr\\DatabaseRecord\u003A\u003AgetObject\u0028\u0029",
+            "name": "getObject",
+            "summary": "",
+            "url": "classes/Smr-DatabaseRecord.html#method_getObject"
+        },                {
+            "fqsen": "\\Smr\\DatabaseRecord\u003A\u003AgetRow\u0028\u0029",
+            "name": "getRow",
+            "summary": "",
+            "url": "classes/Smr-DatabaseRecord.html#method_getRow"
+        },                {
+            "fqsen": "\\Smr\\DatabaseResult",
+            "name": "DatabaseResult",
+            "summary": "Holds\u0020the\u0020result\u0020of\u0020a\u0020Database\u0020query\u0020\u0028e.g.\u0020read\u0020or\u0020write\u0029.",
+            "url": "classes/Smr-DatabaseResult.html"
+        },                {
+            "fqsen": "\\Smr\\DatabaseResult\u003A\u003A__construct\u0028\u0029",
+            "name": "__construct",
+            "summary": "",
+            "url": "classes/Smr-DatabaseResult.html#method___construct"
+        },                {
+            "fqsen": "\\Smr\\DatabaseResult\u003A\u003Arecords\u0028\u0029",
+            "name": "records",
+            "summary": "Use\u0020to\u0020iterate\u0020over\u0020the\u0020records\u0020from\u0020the\u0020result\u0020set.",
+            "url": "classes/Smr-DatabaseResult.html#method_records"
+        },                {
+            "fqsen": "\\Smr\\DatabaseResult\u003A\u003Arecord\u0028\u0029",
+            "name": "record",
+            "summary": "Use\u0020when\u0020exactly\u0020one\u0020record\u0020is\u0020expected\u0020from\u0020the\u0020result\u0020set.",
+            "url": "classes/Smr-DatabaseResult.html#method_record"
+        },                {
+            "fqsen": "\\Smr\\DatabaseResult\u003A\u003AgetNumRecords\u0028\u0029",
+            "name": "getNumRecords",
+            "summary": "",
+            "url": "classes/Smr-DatabaseResult.html#method_getNumRecords"
+        },                {
+            "fqsen": "\\Smr\\DatabaseResult\u003A\u003AhasRecord\u0028\u0029",
+            "name": "hasRecord",
+            "summary": "",
+            "url": "classes/Smr-DatabaseResult.html#method_hasRecord"
         },                {
             "fqsen": "\\Smr\\Epoch",
             "name": "Epoch",
