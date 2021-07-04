@@ -10253,12 +10253,12 @@ Search.appendIndex(
         },                {
             "fqsen": "\\SmrSector\u003A\u003AgetNumberOfLinks\u0028\u0029",
             "name": "getNumberOfLinks",
-            "summary": "",
+            "summary": "Returns\u0020the\u0020number\u0020of\u0020linked\u0020sectors\u0020\u0028excluding\u0020warps\u0029",
             "url": "classes/SmrSector.html#method_getNumberOfLinks"
         },                {
             "fqsen": "\\SmrSector\u003A\u003AgetNumberOfConnections\u0028\u0029",
             "name": "getNumberOfConnections",
-            "summary": "",
+            "summary": "Returns\u0020the\u0020number\u0020of\u0020linked\u0020sectors\u0020\u0028including\u0020warps\u0029",
             "url": "classes/SmrSector.html#method_getNumberOfConnections"
         },                {
             "fqsen": "\\SmrSector\u003A\u003AgetGalaxy\u0028\u0029",
@@ -10665,6 +10665,11 @@ Search.appendIndex(
             "name": "hasX",
             "summary": "",
             "url": "classes/SmrSector.html#method_hasX"
+        },                {
+            "fqsen": "\\SmrSector\u003A\u003ALINK_DIR_MAPPING",
+            "name": "LINK_DIR_MAPPING",
+            "summary": "Maps\u0020the\u0020SmrSector\u0020link\u0020direction\u0020names\u0020to\u0020database\u0020columns.",
+            "url": "classes/SmrSector.html#constant_LINK_DIR_MAPPING"
         },                {
             "fqsen": "\\SmrSector\u003A\u003A\u0024CACHE_SECTORS",
             "name": "CACHE_SECTORS",
