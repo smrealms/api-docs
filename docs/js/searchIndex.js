@@ -7936,11 +7936,6 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/SmrForce.html#property_TIDIED_UP"
         },                {
-            "fqsen": "\\SmrForce\u003A\u003A\u0024refreshAllHREF",
-            "name": "refreshAllHREF",
-            "summary": "",
-            "url": "classes/SmrForce.html#property_refreshAllHREF"
-        },                {
             "fqsen": "\\SmrForce\u003A\u003A\u0024db",
             "name": "db",
             "summary": "",
