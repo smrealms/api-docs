@@ -5506,6 +5506,41 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/ChessPiece.html#constant_PAWN"
         },                {
+            "fqsen": "\\ChessPiece\u003A\u003A\u0024chessGameID",
+            "name": "chessGameID",
+            "summary": "",
+            "url": "classes/ChessPiece.html#property_chessGameID"
+        },                {
+            "fqsen": "\\ChessPiece\u003A\u003A\u0024accountID",
+            "name": "accountID",
+            "summary": "",
+            "url": "classes/ChessPiece.html#property_accountID"
+        },                {
+            "fqsen": "\\ChessPiece\u003A\u003A\u0024colour",
+            "name": "colour",
+            "summary": "",
+            "url": "classes/ChessPiece.html#property_colour"
+        },                {
+            "fqsen": "\\ChessPiece\u003A\u003A\u0024pieceID",
+            "name": "pieceID",
+            "summary": "",
+            "url": "classes/ChessPiece.html#property_pieceID"
+        },                {
+            "fqsen": "\\ChessPiece\u003A\u003A\u0024x",
+            "name": "x",
+            "summary": "",
+            "url": "classes/ChessPiece.html#property_x"
+        },                {
+            "fqsen": "\\ChessPiece\u003A\u003A\u0024y",
+            "name": "y",
+            "summary": "",
+            "url": "classes/ChessPiece.html#property_y"
+        },                {
+            "fqsen": "\\ChessPiece\u003A\u003A\u0024pieceNo",
+            "name": "pieceNo",
+            "summary": "",
+            "url": "classes/ChessPiece.html#property_pieceNo"
+        },                {
             "fqsen": "\\Council",
             "name": "Council",
             "summary": "",
@@ -11571,6 +11606,16 @@ Search.appendIndex(
             "summary": "Returns\u0020the\u0020SN\u0020to\u0020redirect\u0020the\u0020current\u0020page\u0020to\u0020if\u0020free\u0020turns\u0020are\navailable\u003B\u0020otherwise,\u0020returns\u0020false.",
             "url": "classes/VoteSite.html#method_getSN"
         },                {
+            "fqsen": "\\VoteSite\u003A\u003A\u0024linkID",
+            "name": "linkID",
+            "summary": "",
+            "url": "classes/VoteSite.html#property_linkID"
+        },                {
+            "fqsen": "\\VoteSite\u003A\u003A\u0024data",
+            "name": "data",
+            "summary": "",
+            "url": "classes/VoteSite.html#property_data"
+        },                {
             "fqsen": "\\WeightedRandom",
             "name": "WeightedRandom",
             "summary": "Weighted\u0020random\u0020number\u0020generator\u0020used\u0020to\u0020make\u0020events\u0020achieve\u0020their\u0020expected\nrate\u0020of\u0020success\u0020faster\u0020than\u0020a\u0020pure\u0020random\u0020number\u0020generator.",
@@ -11841,6 +11886,16 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/Smr-Database.html#method_escapeObject"
         },                {
+            "fqsen": "\\Smr\\Database\u003A\u003A\u0024dbConn",
+            "name": "dbConn",
+            "summary": "",
+            "url": "classes/Smr-Database.html#property_dbConn"
+        },                {
+            "fqsen": "\\Smr\\Database\u003A\u003A\u0024dbProperties",
+            "name": "dbProperties",
+            "summary": "",
+            "url": "classes/Smr-Database.html#property_dbProperties"
+        },                {
             "fqsen": "\\Smr\\DatabaseProperties",
             "name": "DatabaseProperties",
             "summary": "",
@@ -11971,6 +12026,11 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/Smr-DatabaseRecord.html#method_getRow"
         },                {
+            "fqsen": "\\Smr\\DatabaseRecord\u003A\u003A\u0024dbRecord",
+            "name": "dbRecord",
+            "summary": "",
+            "url": "classes/Smr-DatabaseRecord.html#property_dbRecord"
+        },                {
             "fqsen": "\\Smr\\DatabaseResult",
             "name": "DatabaseResult",
             "summary": "Holds\u0020the\u0020result\u0020of\u0020a\u0020Database\u0020query\u0020\u0028e.g.\u0020read\u0020or\u0020write\u0029.",
@@ -12000,6 +12060,11 @@ Search.appendIndex(
             "name": "hasRecord",
             "summary": "",
             "url": "classes/Smr-DatabaseResult.html#method_hasRecord"
+        },                {
+            "fqsen": "\\Smr\\DatabaseResult\u003A\u003A\u0024dbResult",
+            "name": "dbResult",
+            "summary": "",
+            "url": "classes/Smr-DatabaseResult.html#property_dbResult"
         },                {
             "fqsen": "\\Smr\\Epoch",
             "name": "Epoch",
