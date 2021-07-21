@@ -5836,26 +5836,6 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/Globals.html#method_getLevelRequirements"
         },                {
-            "fqsen": "\\Globals\u003A\u003AgetRaces\u0028\u0029",
-            "name": "getRaces",
-            "summary": "",
-            "url": "classes/Globals.html#method_getRaces"
-        },                {
-            "fqsen": "\\Globals\u003A\u003AgetRaceName\u0028\u0029",
-            "name": "getRaceName",
-            "summary": "",
-            "url": "classes/Globals.html#method_getRaceName"
-        },                {
-            "fqsen": "\\Globals\u003A\u003AgetRaceImage\u0028\u0029",
-            "name": "getRaceImage",
-            "summary": "",
-            "url": "classes/Globals.html#method_getRaceImage"
-        },                {
-            "fqsen": "\\Globals\u003A\u003AgetRaceHeadImage\u0028\u0029",
-            "name": "getRaceHeadImage",
-            "summary": "",
-            "url": "classes/Globals.html#method_getRaceHeadImage"
-        },                {
             "fqsen": "\\Globals\u003A\u003AgetColouredRaceNameForRace\u0028\u0029",
             "name": "getColouredRaceNameForRace",
             "summary": "",
@@ -12110,6 +12090,76 @@ Search.appendIndex(
             "name": "update",
             "summary": "Update\u0020the\u0020time\u0020associated\u0020with\u0020this\u0020page\u0020request\n\u0028i.e.\u0020stored\u0020in\u0020the\u0020DI\u0020container\u0029.",
             "url": "classes/Smr-Epoch.html#method_update"
+        },                {
+            "fqsen": "\\Smr\\Race",
+            "name": "Race",
+            "summary": "Provides\u0020methods\u0020to\u0020map\u0020race\u0020IDs\u0020to\u0020basic\u0020race\u0020properties.",
+            "url": "classes/Smr-Race.html"
+        },                {
+            "fqsen": "\\Smr\\Race\u003A\u003AgetAllIDs\u0028\u0029",
+            "name": "getAllIDs",
+            "summary": "All\u0020possible\u0020race\u0020IDs.",
+            "url": "classes/Smr-Race.html#method_getAllIDs"
+        },                {
+            "fqsen": "\\Smr\\Race\u003A\u003AgetAllNames\u0028\u0029",
+            "name": "getAllNames",
+            "summary": "Maps\u0020all\u0020possible\u0020race\u0020IDs\u0020to\u0020race\u0020names.",
+            "url": "classes/Smr-Race.html#method_getAllNames"
+        },                {
+            "fqsen": "\\Smr\\Race\u003A\u003AgetPlayableIDs\u0028\u0029",
+            "name": "getPlayableIDs",
+            "summary": "Race\u0020IDs\u0020for\u0020playable\u0020races\u0020only.\u0020Practically\u0020speaking,\u0020this\u0020is\u0020the\nsame\u0020as\u0020\u0060getAllIDs\u0060\u0020with\u0020the\u0020Neutral\u0020race\u0020excluded.",
+            "url": "classes/Smr-Race.html#method_getPlayableIDs"
+        },                {
+            "fqsen": "\\Smr\\Race\u003A\u003AgetPlayableNames\u0028\u0029",
+            "name": "getPlayableNames",
+            "summary": "Maps\u0020race\u0020IDs\u0020to\u0020race\u0020names\u0020for\u0020playable\u0020races.\u0020Practically\u0020speaking,\nthis\u0020is\u0020the\u0020same\u0020as\u0020\u0060getAllNames\u0060\u0020with\u0020the\u0020Neutral\u0020race\u0020excluded.",
+            "url": "classes/Smr-Race.html#method_getPlayableNames"
+        },                {
+            "fqsen": "\\Smr\\Race\u003A\u003AgetName\u0028\u0029",
+            "name": "getName",
+            "summary": "",
+            "url": "classes/Smr-Race.html#method_getName"
+        },                {
+            "fqsen": "\\Smr\\Race\u003A\u003AgetImage\u0028\u0029",
+            "name": "getImage",
+            "summary": "Relative\u0020path\u0020to\u0020racial\u0020image\u0020file.",
+            "url": "classes/Smr-Race.html#method_getImage"
+        },                {
+            "fqsen": "\\Smr\\Race\u003A\u003AgetHeadImage\u0028\u0029",
+            "name": "getHeadImage",
+            "summary": "Relative\u0020path\u0020to\u0020racial\u0020image\u0020file\u0020\u0028portrait\u0020version\u0029.",
+            "url": "classes/Smr-Race.html#method_getHeadImage"
+        },                {
+            "fqsen": "\\Smr\\Race\u003A\u003ARACE_NAMES",
+            "name": "RACE_NAMES",
+            "summary": "",
+            "url": "classes/Smr-Race.html#constant_RACE_NAMES"
+        },                {
+            "fqsen": "\\Smr\\RaceDetails",
+            "name": "RaceDetails",
+            "summary": "Detailed\u0020race\u0020information\u0020for\u0020the\u0020Game\u0020Join\u0020page.",
+            "url": "classes/Smr-RaceDetails.html"
+        },                {
+            "fqsen": "\\Smr\\RaceDetails\u003A\u003AgetShortDescription\u0028\u0029",
+            "name": "getShortDescription",
+            "summary": "",
+            "url": "classes/Smr-RaceDetails.html#method_getShortDescription"
+        },                {
+            "fqsen": "\\Smr\\RaceDetails\u003A\u003AgetLongDescription\u0028\u0029",
+            "name": "getLongDescription",
+            "summary": "",
+            "url": "classes/Smr-RaceDetails.html#method_getLongDescription"
+        },                {
+            "fqsen": "\\Smr\\RaceDetails\u003A\u003ASHORT_DESCRIPTION",
+            "name": "SHORT_DESCRIPTION",
+            "summary": "",
+            "url": "classes/Smr-RaceDetails.html#constant_SHORT_DESCRIPTION"
+        },                {
+            "fqsen": "\\Smr\\RaceDetails\u003A\u003ALONG_DESCRIPTION",
+            "name": "LONG_DESCRIPTION",
+            "summary": "",
+            "url": "classes/Smr-RaceDetails.html#constant_LONG_DESCRIPTION"
         },                {
             "fqsen": "\\Smr\\Session",
             "name": "Session",
