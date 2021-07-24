@@ -11706,6 +11706,51 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/WeightedRandom.html#property_hasChanged"
         },                {
+            "fqsen": "\\Smr\\BarDrink",
+            "name": "BarDrink",
+            "summary": "Provides\u0020details\u0020about\u0020bar\u0020drinks",
+            "url": "classes/Smr-BarDrink.html"
+        },                {
+            "fqsen": "\\Smr\\BarDrink\u003A\u003AisSpecial\u0028\u0029",
+            "name": "isSpecial",
+            "summary": "",
+            "url": "classes/Smr-BarDrink.html#method_isSpecial"
+        },                {
+            "fqsen": "\\Smr\\BarDrink\u003A\u003AgetSpecialMessage\u0028\u0029",
+            "name": "getSpecialMessage",
+            "summary": "Returns\u0020the\u0020message\u0020displayed\u0020to\u0020the\u0020player\u0020when\u0020they\u0020buy\u0020a\u0020special\nbar\u0020drink\u0020with\u0020the\u0020given\u0020name.",
+            "url": "classes/Smr-BarDrink.html#method_getSpecialMessage"
+        },                {
+            "fqsen": "\\Smr\\BarDrink\u003A\u003AgetAll\u0028\u0029",
+            "name": "getAll",
+            "summary": "Returns\u0020the\u0020entire\u0020list\u0020of\u0020bar\u0020drinks.",
+            "url": "classes/Smr-BarDrink.html#method_getAll"
+        },                {
+            "fqsen": "\\Smr\\BarDrink\u003A\u003AgetSpecial\u0028\u0029",
+            "name": "getSpecial",
+            "summary": "Returns\u0020the\u0020list\u0020of\u0020special\u0020bar\u0020drinks.",
+            "url": "classes/Smr-BarDrink.html#method_getSpecial"
+        },                {
+            "fqsen": "\\Smr\\BarDrink\u003A\u003AgetCommon\u0028\u0029",
+            "name": "getCommon",
+            "summary": "Returns\u0020the\u0020bar\u0020drink\u0020list\u0020with\u0020special\u0020drinks\u0020removed.",
+            "url": "classes/Smr-BarDrink.html#method_getCommon"
+        },                {
+            "fqsen": "\\Smr\\BarDrink\u003A\u003ASALVENE_SWAMP_SODA",
+            "name": "SALVENE_SWAMP_SODA",
+            "summary": "",
+            "url": "classes/Smr-BarDrink.html#constant_SALVENE_SWAMP_SODA"
+        },                {
+            "fqsen": "\\Smr\\BarDrink\u003A\u003ADRINK_NAMES",
+            "name": "DRINK_NAMES",
+            "summary": "",
+            "url": "classes/Smr-BarDrink.html#constant_DRINK_NAMES"
+        },                {
+            "fqsen": "\\Smr\\BarDrink\u003A\u003ASPECIAL_DRINK_MESSAGES",
+            "name": "SPECIAL_DRINK_MESSAGES",
+            "summary": "",
+            "url": "classes/Smr-BarDrink.html#constant_SPECIAL_DRINK_MESSAGES"
+        },                {
             "fqsen": "\\Smr\\Container\\DiContainer",
             "name": "DiContainer",
             "summary": "A\u0020wrapper\u0020around\u0020the\u0020DI\\Container\u0020functionality\u0020that\u0020will\u0020allow\nstatic\u0020usage\u0020of\u0020container\u0020methods.",
@@ -12776,15 +12821,15 @@ Search.appendIndex(
             "summary": "",
             "url": "namespaces/traits.html"
         },                {
-            "fqsen": "\\Smr\\Container",
-            "name": "Container",
-            "summary": "",
-            "url": "namespaces/smr-container.html"
-        },                {
             "fqsen": "\\Smr",
             "name": "Smr",
             "summary": "",
             "url": "namespaces/smr.html"
+        },                {
+            "fqsen": "\\Smr\\Container",
+            "name": "Container",
+            "summary": "",
+            "url": "namespaces/smr-container.html"
         },                {
             "fqsen": "\\Smr\\SocialLogin",
             "name": "SocialLogin",
