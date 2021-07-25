@@ -6481,61 +6481,6 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/Rankings.html#method_calculateMinMaxRanks"
         },                {
-            "fqsen": "\\Request",
-            "name": "Request",
-            "summary": "Should\u0020be\u0020used\u0020for\u0020getting\u0020request\u0020data\u0020for\u0020processing\u0020pages.",
-            "url": "classes/Request.html"
-        },                {
-            "fqsen": "\\Request\u003A\u003Ahas\u0028\u0029",
-            "name": "has",
-            "summary": "Returns\u0020true\u0020if\u0020index\u0020is\u0020set.",
-            "url": "classes/Request.html#method_has"
-        },                {
-            "fqsen": "\\Request\u003A\u003AgetInt\u0028\u0029",
-            "name": "getInt",
-            "summary": "Returns\u0020index\u0020value\u0020as\u0020an\u0020integer.",
-            "url": "classes/Request.html#method_getInt"
-        },                {
-            "fqsen": "\\Request\u003A\u003AgetFloat\u0028\u0029",
-            "name": "getFloat",
-            "summary": "Returns\u0020index\u0020value\u0020as\u0020a\u0020float.",
-            "url": "classes/Request.html#method_getFloat"
-        },                {
-            "fqsen": "\\Request\u003A\u003AgetArray\u0028\u0029",
-            "name": "getArray",
-            "summary": "Returns\u0020index\u0020value\u0020as\u0020an\u0020array\u0020of\u0020strings.",
-            "url": "classes/Request.html#method_getArray"
-        },                {
-            "fqsen": "\\Request\u003A\u003AgetIntArray\u0028\u0029",
-            "name": "getIntArray",
-            "summary": "Returns\u0020index\u0020value\u0020as\u0020an\u0020array\u0020of\u0020integers.",
-            "url": "classes/Request.html#method_getIntArray"
-        },                {
-            "fqsen": "\\Request\u003A\u003Aget\u0028\u0029",
-            "name": "get",
-            "summary": "Returns\u0020index\u0020value\u0020as\u0020a\u0020string.",
-            "url": "classes/Request.html#method_get"
-        },                {
-            "fqsen": "\\Request\u003A\u003AgetVar\u0028\u0029",
-            "name": "getVar",
-            "summary": "Returns\u0020index\u0020value\u0020as\u0020a\u0020string\u0020from\u0020either\u0020\u0024_REQUEST\u0020or\u0020\u0024var.",
-            "url": "classes/Request.html#method_getVar"
-        },                {
-            "fqsen": "\\Request\u003A\u003AgetVarInt\u0028\u0029",
-            "name": "getVarInt",
-            "summary": "Like\u0020getVar,\u0020but\u0020returns\u0020an\u0020int\u0020instead\u0020of\u0020a\u0020string.",
-            "url": "classes/Request.html#method_getVarInt"
-        },                {
-            "fqsen": "\\Request\u003A\u003AgetVarIntArray\u0028\u0029",
-            "name": "getVarIntArray",
-            "summary": "Like\u0020getVar,\u0020but\u0020returns\u0020an\u0020array\u0020of\u0020ints\u0020instead\u0020of\u0020a\u0020string.",
-            "url": "classes/Request.html#method_getVarIntArray"
-        },                {
-            "fqsen": "\\Request\u003A\u003AgetVarX\u0028\u0029",
-            "name": "getVarX",
-            "summary": "Helper\u0020function\u0020to\u0020avoid\u0020code\u0020duplication\u0020in\u0020getVar\u002A\u0020functions.",
-            "url": "classes/Request.html#method_getVarX"
-        },                {
             "fqsen": "\\Routes\\MultiplePortRoute",
             "name": "MultiplePortRoute",
             "summary": "",
@@ -12205,6 +12150,61 @@ Search.appendIndex(
             "name": "LONG_DESCRIPTION",
             "summary": "",
             "url": "classes/Smr-RaceDetails.html#constant_LONG_DESCRIPTION"
+        },                {
+            "fqsen": "\\Smr\\Request",
+            "name": "Request",
+            "summary": "Should\u0020be\u0020used\u0020for\u0020getting\u0020request\u0020data\u0020for\u0020processing\u0020pages.",
+            "url": "classes/Smr-Request.html"
+        },                {
+            "fqsen": "\\Smr\\Request\u003A\u003Ahas\u0028\u0029",
+            "name": "has",
+            "summary": "Returns\u0020true\u0020if\u0020index\u0020is\u0020set.",
+            "url": "classes/Smr-Request.html#method_has"
+        },                {
+            "fqsen": "\\Smr\\Request\u003A\u003AgetInt\u0028\u0029",
+            "name": "getInt",
+            "summary": "Returns\u0020index\u0020value\u0020as\u0020an\u0020integer.",
+            "url": "classes/Smr-Request.html#method_getInt"
+        },                {
+            "fqsen": "\\Smr\\Request\u003A\u003AgetFloat\u0028\u0029",
+            "name": "getFloat",
+            "summary": "Returns\u0020index\u0020value\u0020as\u0020a\u0020float.",
+            "url": "classes/Smr-Request.html#method_getFloat"
+        },                {
+            "fqsen": "\\Smr\\Request\u003A\u003AgetArray\u0028\u0029",
+            "name": "getArray",
+            "summary": "Returns\u0020index\u0020value\u0020as\u0020an\u0020array\u0020of\u0020strings.",
+            "url": "classes/Smr-Request.html#method_getArray"
+        },                {
+            "fqsen": "\\Smr\\Request\u003A\u003AgetIntArray\u0028\u0029",
+            "name": "getIntArray",
+            "summary": "Returns\u0020index\u0020value\u0020as\u0020an\u0020array\u0020of\u0020integers.",
+            "url": "classes/Smr-Request.html#method_getIntArray"
+        },                {
+            "fqsen": "\\Smr\\Request\u003A\u003Aget\u0028\u0029",
+            "name": "get",
+            "summary": "Returns\u0020index\u0020value\u0020as\u0020a\u0020string.",
+            "url": "classes/Smr-Request.html#method_get"
+        },                {
+            "fqsen": "\\Smr\\Request\u003A\u003AgetVar\u0028\u0029",
+            "name": "getVar",
+            "summary": "Returns\u0020index\u0020value\u0020as\u0020a\u0020string\u0020from\u0020either\u0020\u0024_REQUEST\u0020or\u0020\u0024var.",
+            "url": "classes/Smr-Request.html#method_getVar"
+        },                {
+            "fqsen": "\\Smr\\Request\u003A\u003AgetVarInt\u0028\u0029",
+            "name": "getVarInt",
+            "summary": "Like\u0020getVar,\u0020but\u0020returns\u0020an\u0020int\u0020instead\u0020of\u0020a\u0020string.",
+            "url": "classes/Smr-Request.html#method_getVarInt"
+        },                {
+            "fqsen": "\\Smr\\Request\u003A\u003AgetVarIntArray\u0028\u0029",
+            "name": "getVarIntArray",
+            "summary": "Like\u0020getVar,\u0020but\u0020returns\u0020an\u0020array\u0020of\u0020ints\u0020instead\u0020of\u0020a\u0020string.",
+            "url": "classes/Smr-Request.html#method_getVarIntArray"
+        },                {
+            "fqsen": "\\Smr\\Request\u003A\u003AgetVarX\u0028\u0029",
+            "name": "getVarX",
+            "summary": "Helper\u0020function\u0020to\u0020avoid\u0020code\u0020duplication\u0020in\u0020getVar\u002A\u0020functions.",
+            "url": "classes/Smr-Request.html#method_getVarX"
         },                {
             "fqsen": "\\Smr\\Session",
             "name": "Session",
