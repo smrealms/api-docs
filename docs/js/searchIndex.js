@@ -12326,11 +12326,6 @@ Search.appendIndex(
             "summary": "Replace\u0020the\u0020global\u0020\u0024var\u0020with\u0020the\u0020given\u0020\u0024container.",
             "url": "classes/Smr-Session.html#method_setCurrentVar"
         },                {
-            "fqsen": "\\Smr\\Session\u003A\u003AupdateVar\u0028\u0029",
-            "name": "updateVar",
-            "summary": "",
-            "url": "classes/Smr-Session.html#method_updateVar"
-        },                {
             "fqsen": "\\Smr\\Session\u003A\u003AclearLinks\u0028\u0029",
             "name": "clearLinks",
             "summary": "",
