@@ -2476,31 +2476,6 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/AbstractSmrPlayer.html#method_setHOF"
         },                {
-            "fqsen": "\\AbstractSmrPlayer\u003A\u003AgetExperienceRank\u0028\u0029",
-            "name": "getExperienceRank",
-            "summary": "",
-            "url": "classes/AbstractSmrPlayer.html#method_getExperienceRank"
-        },                {
-            "fqsen": "\\AbstractSmrPlayer\u003A\u003AgetKillsRank\u0028\u0029",
-            "name": "getKillsRank",
-            "summary": "",
-            "url": "classes/AbstractSmrPlayer.html#method_getKillsRank"
-        },                {
-            "fqsen": "\\AbstractSmrPlayer\u003A\u003AgetDeathsRank\u0028\u0029",
-            "name": "getDeathsRank",
-            "summary": "",
-            "url": "classes/AbstractSmrPlayer.html#method_getDeathsRank"
-        },                {
-            "fqsen": "\\AbstractSmrPlayer\u003A\u003AgetAssistsRank\u0028\u0029",
-            "name": "getAssistsRank",
-            "summary": "",
-            "url": "classes/AbstractSmrPlayer.html#method_getAssistsRank"
-        },                {
-            "fqsen": "\\AbstractSmrPlayer\u003A\u003AcomputeRanking\u0028\u0029",
-            "name": "computeRanking",
-            "summary": "",
-            "url": "classes/AbstractSmrPlayer.html#method_computeRanking"
-        },                {
             "fqsen": "\\AbstractSmrPlayer\u003A\u003AisUnderAttack\u0028\u0029",
             "name": "isUnderAttack",
             "summary": "",
@@ -6451,6 +6426,11 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/Rankings.html"
         },                {
+            "fqsen": "\\Rankings\u003A\u003AcollectSectorRankings\u0028\u0029",
+            "name": "collectSectorRankings",
+            "summary": "",
+            "url": "classes/Rankings.html#method_collectSectorRankings"
+        },                {
             "fqsen": "\\Rankings\u003A\u003AcollectRaceRankings\u0028\u0029",
             "name": "collectRaceRankings",
             "summary": "",
@@ -6466,15 +6446,35 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/Rankings.html#method_collectRankings"
         },                {
-            "fqsen": "\\Rankings\u003A\u003AplayerRanks\u0028\u0029",
-            "name": "playerRanks",
-            "summary": "Get\u0020a\u0020subset\u0020of\u0020rankings\u0020from\u0020the\u0020player\u0020table\u0020sorted\u0020by\u0020\u0024stat.",
-            "url": "classes/Rankings.html#method_playerRanks"
+            "fqsen": "\\Rankings\u003A\u003AfilterRanks\u0028\u0029",
+            "name": "filterRanks",
+            "summary": "",
+            "url": "classes/Rankings.html#method_filterRanks"
         },                {
-            "fqsen": "\\Rankings\u003A\u003AallianceRanks\u0028\u0029",
-            "name": "allianceRanks",
-            "summary": "Get\u0020a\u0020subset\u0020of\u0020rankings\u0020from\u0020the\u0020alliance\u0020table\u0020sorted\u0020by\u0020\u0024stat.",
-            "url": "classes/Rankings.html#method_allianceRanks"
+            "fqsen": "\\Rankings\u003A\u003AraceStats\u0028\u0029",
+            "name": "raceStats",
+            "summary": "Get\u0020stats\u0020from\u0020the\u0020player\u0020table\u0020grouped\u0020by\u0020race\u0020and\u0020sorted\u0020by\u0020\u0024stat\u0020\u0028high\u0020to\u0020low\u0029.",
+            "url": "classes/Rankings.html#method_raceStats"
+        },                {
+            "fqsen": "\\Rankings\u003A\u003AplayerStats\u0028\u0029",
+            "name": "playerStats",
+            "summary": "Get\u0020stats\u0020from\u0020the\u0020player\u0020table\u0020sorted\u0020by\u0020\u0024stat\u0020\u0028high\u0020to\u0020low\u0029.",
+            "url": "classes/Rankings.html#method_playerStats"
+        },                {
+            "fqsen": "\\Rankings\u003A\u003AplayerStatsFromHOF\u0028\u0029",
+            "name": "playerStatsFromHOF",
+            "summary": "Gets\u0020player\u0020stats\u0020from\u0020the\u0020hof\u0020table\u0020sorted\u0020by\u0020\u0024category\u0020\u0028high\u0020to\u0020low\u0029.",
+            "url": "classes/Rankings.html#method_playerStatsFromHOF"
+        },                {
+            "fqsen": "\\Rankings\u003A\u003AallianceStats\u0028\u0029",
+            "name": "allianceStats",
+            "summary": "Get\u0020stats\u0020from\u0020the\u0020alliance\u0020table\u0020sorted\u0020by\u0020\u0024stat\u0020\u0028high\u0020to\u0020low\u0029.",
+            "url": "classes/Rankings.html#method_allianceStats"
+        },                {
+            "fqsen": "\\Rankings\u003A\u003AourRank\u0028\u0029",
+            "name": "ourRank",
+            "summary": "Given\u0020a\u0020\u0024rankedStats\u0020array\u0020returned\u0020by\u0020one\u0020of\u0020the\u0020stats\u0020functions,\nfind\u0020the\u0020rank\u0020associated\u0020with\u0020a\u0020specific\u0020ID.",
+            "url": "classes/Rankings.html#method_ourRank"
         },                {
             "fqsen": "\\Rankings\u003A\u003AcalculateMinMaxRanks\u0028\u0029",
             "name": "calculateMinMaxRanks",
