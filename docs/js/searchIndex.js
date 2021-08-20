@@ -3326,11 +3326,6 @@ Search.appendIndex(
             "summary": "Get\u0020IDs\u0020of\u0020goods\u0020that\u0020can\u0020be\u0020bought\u0020from\u0020the\u0020port",
             "url": "classes/AbstractSmrPort.html#method_getBoughtGoodIDs"
         },                {
-            "fqsen": "\\AbstractSmrPort\u003A\u003AgetGood\u0028\u0029",
-            "name": "getGood",
-            "summary": "",
-            "url": "classes/AbstractSmrPort.html#method_getGood"
-        },                {
             "fqsen": "\\AbstractSmrPort\u003A\u003AgetGoodDistance\u0028\u0029",
             "name": "getGoodDistance",
             "summary": "",
