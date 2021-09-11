@@ -145,9 +145,9 @@
 <dd></dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -property -private">
-    <a href="classes/Smr-Database.html#property_dbProperties">$dbProperties</a>
+    <a href="classes/Smr-Database.html#property_dbName">$dbName</a>
     <span>
-                &nbsp;: <a href="classes/Smr-DatabaseProperties.html"><abbr title="\Smr\DatabaseProperties">DatabaseProperties</abbr></a>            </span>
+                &nbsp;: string            </span>
 </dt>
 <dd></dd>
 
@@ -234,7 +234,7 @@ but beware that the escaped array is flattened!</dd>
     <span>
                         &nbsp;: int    </span>
 </dt>
-<dd>Returns the size of the live database in bytes.</dd>
+<dd>Returns the size of the current database in bytes.</dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
     <a href="classes/Smr-Database.html#method_getInsertID">getInsertID()</a>
@@ -360,9 +360,9 @@ in the dependency injection container for future retrievals.</dd>
             -private
                                                         "
 >
-    <h4 class="phpdocumentor-element__name" id="property_dbProperties">
-        $dbProperties
-        <a href="classes/Smr-Database.html#property_dbProperties" class="headerlink"><i class="fas fa-link"></i></a>
+    <h4 class="phpdocumentor-element__name" id="property_dbName">
+        $dbName
+        <a href="classes/Smr-Database.html#property_dbName" class="headerlink"><i class="fas fa-link"></i></a>
         <span class="phpdocumentor-element__modifiers">
                                 </span>
     </h4>
@@ -376,8 +376,8 @@ in the dependency injection container for future retrievals.</dd>
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">private</span>
-        <span class="phpdocumentor-signature__type"><a href="classes/Smr-DatabaseProperties.html"><abbr title="\Smr\DatabaseProperties">DatabaseProperties</abbr></a></span>
-    <span class="phpdocumentor-signature__name">$dbProperties</span>
+        <span class="phpdocumentor-signature__type">string</span>
+    <span class="phpdocumentor-signature__name">$dbName</span>
     </code>
 
         <section class="phpdocumentor-description"></section>
@@ -415,7 +415,7 @@ in the dependency injection container for future retrievals.</dd>
 
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">public</span>
-                <span class="phpdocumentor-signature__name">__construct</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type"><abbr title="\mysqli">mysqli</abbr>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$dbConn</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__return-type"><a href="classes/Smr-DatabaseProperties.html"><abbr title="\Smr\DatabaseProperties">DatabaseProperties</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$dbProperties</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">mixed</span></code>
+                <span class="phpdocumentor-signature__name">__construct</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type"><abbr title="\mysqli">mysqli</abbr>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$dbConn</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__return-type"><a href="classes/Smr-DatabaseProperties.html"><abbr title="\Smr\DatabaseProperties">DatabaseProperties</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$dbName</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">mixed</span></code>
 
         <section class="phpdocumentor-description"><p>Not intended to be constructed by hand. If you need an instance of Database,
 use Database::getInstance();</p>
@@ -433,11 +433,11 @@ use Database::getInstance();</p>
 
             </dd>
                     <dt class="phpdocumentor-argument-list__entry">
-                <span class="phpdocumentor-signature__argument__name">$dbProperties</span>
+                <span class="phpdocumentor-signature__argument__name">$dbName</span>
                 : <span class="phpdocumentor-signature__argument__return-type"><a href="classes/Smr-DatabaseProperties.html"><abbr title="\Smr\DatabaseProperties">DatabaseProperties</abbr></a></span>
                             </dt>
             <dd class="phpdocumentor-argument-list__definition">
-                    <section class="phpdocumentor-description"><p>The properties object that was used to construct the mysqli instance</p>
+                    <section class="phpdocumentor-description"><p>The name of the database that was used to construct the mysqli instance</p>
 </section>
 
             </dd>
@@ -935,7 +935,7 @@ but beware that the escaped array is flattened!</p>
 
     </aside>
 
-        <p class="phpdocumentor-summary">Returns the size of the live database in bytes.</p>
+        <p class="phpdocumentor-summary">Returns the size of the current database in bytes.</p>
 
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">public</span>

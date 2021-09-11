@@ -11711,10 +11711,10 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/Smr-Container-DiContainer.html#method_buildContainer"
         },                {
-            "fqsen": "\\Smr\\Container\\DiContainer\u003A\u003AinitializeContainer\u0028\u0029",
-            "name": "initializeContainer",
+            "fqsen": "\\Smr\\Container\\DiContainer\u003A\u003Ainitialize\u0028\u0029",
+            "name": "initialize",
             "summary": "Create\u0020a\u0020new\u0020DI\\Container\u0020instance.",
-            "url": "classes/Smr-Container-DiContainer.html#method_initializeContainer"
+            "url": "classes/Smr-Container-DiContainer.html#method_initialize"
         },                {
             "fqsen": "\\Smr\\Container\\DiContainer\u003A\u003Aget\u0028\u0029",
             "name": "get",
@@ -11773,7 +11773,7 @@ Search.appendIndex(
         },                {
             "fqsen": "\\Smr\\Database\u003A\u003AgetDbBytes\u0028\u0029",
             "name": "getDbBytes",
-            "summary": "Returns\u0020the\u0020size\u0020of\u0020the\u0020live\u0020database\u0020in\u0020bytes.",
+            "summary": "Returns\u0020the\u0020size\u0020of\u0020the\u0020current\u0020database\u0020in\u0020bytes.",
             "url": "classes/Smr-Database.html#method_getDbBytes"
         },                {
             "fqsen": "\\Smr\\Database\u003A\u003Aclose\u0028\u0029",
@@ -11861,10 +11861,10 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/Smr-Database.html#property_dbConn"
         },                {
-            "fqsen": "\\Smr\\Database\u003A\u003A\u0024dbProperties",
-            "name": "dbProperties",
+            "fqsen": "\\Smr\\Database\u003A\u003A\u0024dbName",
+            "name": "dbName",
             "summary": "",
-            "url": "classes/Smr-Database.html#property_dbProperties"
+            "url": "classes/Smr-Database.html#property_dbName"
         },                {
             "fqsen": "\\Smr\\DatabaseProperties",
             "name": "DatabaseProperties",
