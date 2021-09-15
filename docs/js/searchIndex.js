@@ -5106,6 +5106,11 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/ChessGame.html#method_getLastMove"
         },                {
+            "fqsen": "\\ChessGame\u003A\u003AisLastMoveSquare\u0028\u0029",
+            "name": "isLastMoveSquare",
+            "summary": "Determines\u0020if\u0020a\u0020board\u0020square\u0020is\u0020part\u0020of\u0020the\u0020last\u0020move\n\u0028returns\u0020true\u0020for\u0020both\u0020the\u0020\u0027To\u0027\u0020and\u0020\u0027From\u0027\u0020squares\u0029.",
+            "url": "classes/ChessGame.html#method_isLastMoveSquare"
+        },                {
             "fqsen": "\\ChessGame\u003A\u003AgetMoves\u0028\u0029",
             "name": "getMoves",
             "summary": "",
