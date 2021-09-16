@@ -6791,11 +6791,6 @@ Search.appendIndex(
             "summary": "Converts\u0020a\u0020BBCode\u0020tag\u0020into\u0020some\u0020other\u0020text\u0020depending\u0020on\u0020the\u0020tag\u0020and\u0020value.",
             "url": "namespaces/default.html#function_smrBBCode"
         },                {
-            "fqsen": "\\xmlify\u0028\u0029",
-            "name": "xmlify",
-            "summary": "",
-            "url": "namespaces/default.html#function_xmlify"
-        },                {
             "fqsen": "\\inify\u0028\u0029",
             "name": "inify",
             "summary": "",
