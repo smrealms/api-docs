@@ -3796,25 +3796,25 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/AbstractSmrPort.html#method_shootPlayers"
         },                {
-            "fqsen": "\\AbstractSmrPort\u003A\u003AdoWeaponDamage\u0028\u0029",
-            "name": "doWeaponDamage",
+            "fqsen": "\\AbstractSmrPort\u003A\u003AtakeDamage\u0028\u0029",
+            "name": "takeDamage",
             "summary": "",
-            "url": "classes/AbstractSmrPort.html#method_doWeaponDamage"
+            "url": "classes/AbstractSmrPort.html#method_takeDamage"
         },                {
-            "fqsen": "\\AbstractSmrPort\u003A\u003AdoShieldDamage\u0028\u0029",
-            "name": "doShieldDamage",
+            "fqsen": "\\AbstractSmrPort\u003A\u003AtakeDamageToShields\u0028\u0029",
+            "name": "takeDamageToShields",
             "summary": "",
-            "url": "classes/AbstractSmrPort.html#method_doShieldDamage"
+            "url": "classes/AbstractSmrPort.html#method_takeDamageToShields"
         },                {
-            "fqsen": "\\AbstractSmrPort\u003A\u003AdoCDDamage\u0028\u0029",
-            "name": "doCDDamage",
+            "fqsen": "\\AbstractSmrPort\u003A\u003AtakeDamageToCDs\u0028\u0029",
+            "name": "takeDamageToCDs",
             "summary": "",
-            "url": "classes/AbstractSmrPort.html#method_doCDDamage"
+            "url": "classes/AbstractSmrPort.html#method_takeDamageToCDs"
         },                {
-            "fqsen": "\\AbstractSmrPort\u003A\u003AdoArmourDamage\u0028\u0029",
-            "name": "doArmourDamage",
+            "fqsen": "\\AbstractSmrPort\u003A\u003AtakeDamageToArmour\u0028\u0029",
+            "name": "takeDamageToArmour",
             "summary": "",
-            "url": "classes/AbstractSmrPort.html#method_doArmourDamage"
+            "url": "classes/AbstractSmrPort.html#method_takeDamageToArmour"
         },                {
             "fqsen": "\\AbstractSmrPort\u003A\u003AgetAttackersToCredit\u0028\u0029",
             "name": "getAttackersToCredit",
@@ -4731,30 +4731,30 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/AbstractSmrShip.html#method_shootPlanet"
         },                {
-            "fqsen": "\\AbstractSmrShip\u003A\u003AdoWeaponDamage\u0028\u0029",
-            "name": "doWeaponDamage",
+            "fqsen": "\\AbstractSmrShip\u003A\u003AtakeDamage\u0028\u0029",
+            "name": "takeDamage",
             "summary": "",
-            "url": "classes/AbstractSmrShip.html#method_doWeaponDamage"
+            "url": "classes/AbstractSmrShip.html#method_takeDamage"
         },                {
-            "fqsen": "\\AbstractSmrShip\u003A\u003AdoMinesDamage\u0028\u0029",
-            "name": "doMinesDamage",
+            "fqsen": "\\AbstractSmrShip\u003A\u003AtakeDamageFromMines\u0028\u0029",
+            "name": "takeDamageFromMines",
             "summary": "",
-            "url": "classes/AbstractSmrShip.html#method_doMinesDamage"
+            "url": "classes/AbstractSmrShip.html#method_takeDamageFromMines"
         },                {
-            "fqsen": "\\AbstractSmrShip\u003A\u003AdoShieldDamage\u0028\u0029",
-            "name": "doShieldDamage",
+            "fqsen": "\\AbstractSmrShip\u003A\u003AtakeDamageToShields\u0028\u0029",
+            "name": "takeDamageToShields",
             "summary": "",
-            "url": "classes/AbstractSmrShip.html#method_doShieldDamage"
+            "url": "classes/AbstractSmrShip.html#method_takeDamageToShields"
         },                {
-            "fqsen": "\\AbstractSmrShip\u003A\u003AdoCDDamage\u0028\u0029",
-            "name": "doCDDamage",
+            "fqsen": "\\AbstractSmrShip\u003A\u003AtakeDamageToCDs\u0028\u0029",
+            "name": "takeDamageToCDs",
             "summary": "",
-            "url": "classes/AbstractSmrShip.html#method_doCDDamage"
+            "url": "classes/AbstractSmrShip.html#method_takeDamageToCDs"
         },                {
-            "fqsen": "\\AbstractSmrShip\u003A\u003AdoArmourDamage\u0028\u0029",
-            "name": "doArmourDamage",
+            "fqsen": "\\AbstractSmrShip\u003A\u003AtakeDamageToArmour\u0028\u0029",
+            "name": "takeDamageToArmour",
             "summary": "",
-            "url": "classes/AbstractSmrShip.html#method_doArmourDamage"
+            "url": "classes/AbstractSmrShip.html#method_takeDamageToArmour"
         },                {
             "fqsen": "\\AbstractSmrShip\u003A\u003AgetMR\u0028\u0029",
             "name": "getMR",
@@ -7796,25 +7796,25 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/SmrForce.html#method_shootPlayers"
         },                {
-            "fqsen": "\\SmrForce\u003A\u003AdoWeaponDamage\u0028\u0029",
-            "name": "doWeaponDamage",
+            "fqsen": "\\SmrForce\u003A\u003AtakeDamage\u0028\u0029",
+            "name": "takeDamage",
             "summary": "",
-            "url": "classes/SmrForce.html#method_doWeaponDamage"
+            "url": "classes/SmrForce.html#method_takeDamage"
         },                {
-            "fqsen": "\\SmrForce\u003A\u003AdoMinesDamage\u0028\u0029",
-            "name": "doMinesDamage",
+            "fqsen": "\\SmrForce\u003A\u003AtakeDamageToMines\u0028\u0029",
+            "name": "takeDamageToMines",
             "summary": "",
-            "url": "classes/SmrForce.html#method_doMinesDamage"
+            "url": "classes/SmrForce.html#method_takeDamageToMines"
         },                {
-            "fqsen": "\\SmrForce\u003A\u003AdoCDDamage\u0028\u0029",
-            "name": "doCDDamage",
+            "fqsen": "\\SmrForce\u003A\u003AtakeDamageToCDs\u0028\u0029",
+            "name": "takeDamageToCDs",
             "summary": "",
-            "url": "classes/SmrForce.html#method_doCDDamage"
+            "url": "classes/SmrForce.html#method_takeDamageToCDs"
         },                {
-            "fqsen": "\\SmrForce\u003A\u003AdoSDDamage\u0028\u0029",
-            "name": "doSDDamage",
+            "fqsen": "\\SmrForce\u003A\u003AtakeDamageToSDs\u0028\u0029",
+            "name": "takeDamageToSDs",
             "summary": "",
-            "url": "classes/SmrForce.html#method_doSDDamage"
+            "url": "classes/SmrForce.html#method_takeDamageToSDs"
         },                {
             "fqsen": "\\SmrForce\u003A\u003AkillForcesByPlayer\u0028\u0029",
             "name": "killForcesByPlayer",
@@ -9206,11 +9206,6 @@ Search.appendIndex(
             "summary": "Specifies\u0020which\u0020menu\u0020options\u0020the\u0020planet\u0020has.",
             "url": "classes/SmrPlanet.html#method_hasMenuOption"
         },                {
-            "fqsen": "\\SmrPlanet\u003A\u003AdoDelayedUpdates\u0028\u0029",
-            "name": "doDelayedUpdates",
-            "summary": "",
-            "url": "classes/SmrPlanet.html#method_doDelayedUpdates"
-        },                {
             "fqsen": "\\SmrPlanet\u003A\u003Aupdate\u0028\u0029",
             "name": "update",
             "summary": "",
@@ -9396,25 +9391,25 @@ Search.appendIndex(
             "summary": "Returns\u0020an\u0020array\u0020of\u0020structure\u0020losses\u0020due\u0020to\u0020damage\u0020taken.",
             "url": "classes/SmrPlanet.html#method_checkForDowngrade"
         },                {
-            "fqsen": "\\SmrPlanet\u003A\u003AdoWeaponDamage\u0028\u0029",
-            "name": "doWeaponDamage",
+            "fqsen": "\\SmrPlanet\u003A\u003AtakeDamage\u0028\u0029",
+            "name": "takeDamage",
             "summary": "",
-            "url": "classes/SmrPlanet.html#method_doWeaponDamage"
+            "url": "classes/SmrPlanet.html#method_takeDamage"
         },                {
-            "fqsen": "\\SmrPlanet\u003A\u003AdoShieldDamage\u0028\u0029",
-            "name": "doShieldDamage",
+            "fqsen": "\\SmrPlanet\u003A\u003AtakeDamageToShields\u0028\u0029",
+            "name": "takeDamageToShields",
             "summary": "",
-            "url": "classes/SmrPlanet.html#method_doShieldDamage"
+            "url": "classes/SmrPlanet.html#method_takeDamageToShields"
         },                {
-            "fqsen": "\\SmrPlanet\u003A\u003AdoCDDamage\u0028\u0029",
-            "name": "doCDDamage",
+            "fqsen": "\\SmrPlanet\u003A\u003AtakeDamageToCDs\u0028\u0029",
+            "name": "takeDamageToCDs",
             "summary": "",
-            "url": "classes/SmrPlanet.html#method_doCDDamage"
+            "url": "classes/SmrPlanet.html#method_takeDamageToCDs"
         },                {
-            "fqsen": "\\SmrPlanet\u003A\u003AdoArmourDamage\u0028\u0029",
-            "name": "doArmourDamage",
+            "fqsen": "\\SmrPlanet\u003A\u003AtakeDamageToArmour\u0028\u0029",
+            "name": "takeDamageToArmour",
             "summary": "",
-            "url": "classes/SmrPlanet.html#method_doArmourDamage"
+            "url": "classes/SmrPlanet.html#method_takeDamageToArmour"
         },                {
             "fqsen": "\\SmrPlanet\u003A\u003AcreditCurrentAttackersForKill\u0028\u0029",
             "name": "creditCurrentAttackersForKill",
@@ -9590,21 +9585,6 @@ Search.appendIndex(
             "name": "isNew",
             "summary": "",
             "url": "classes/SmrPlanet.html#property_isNew"
-        },                {
-            "fqsen": "\\SmrPlanet\u003A\u003A\u0024delayedShieldsDelta",
-            "name": "delayedShieldsDelta",
-            "summary": "",
-            "url": "classes/SmrPlanet.html#property_delayedShieldsDelta"
-        },                {
-            "fqsen": "\\SmrPlanet\u003A\u003A\u0024delayedCDsDelta",
-            "name": "delayedCDsDelta",
-            "summary": "",
-            "url": "classes/SmrPlanet.html#property_delayedCDsDelta"
-        },                {
-            "fqsen": "\\SmrPlanet\u003A\u003A\u0024delayedArmourDelta",
-            "name": "delayedArmourDelta",
-            "summary": "",
-            "url": "classes/SmrPlanet.html#property_delayedArmourDelta"
         },                {
             "fqsen": "\\SmrPlanetStructureType",
             "name": "SmrPlanetStructureType",
