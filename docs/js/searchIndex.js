@@ -1421,11 +1421,6 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/AbstractSmrPlayer.html"
         },                {
-            "fqsen": "\\AbstractSmrPlayer\u003A\u003ArefreshCache\u0028\u0029",
-            "name": "refreshCache",
-            "summary": "",
-            "url": "classes/AbstractSmrPlayer.html#method_refreshCache"
-        },                {
             "fqsen": "\\AbstractSmrPlayer\u003A\u003AclearCache\u0028\u0029",
             "name": "clearCache",
             "summary": "",
@@ -3235,11 +3230,6 @@ Search.appendIndex(
             "name": "AbstractSmrPort",
             "summary": "",
             "url": "classes/AbstractSmrPort.html"
-        },                {
-            "fqsen": "\\AbstractSmrPort\u003A\u003ArefreshCache\u0028\u0029",
-            "name": "refreshCache",
-            "summary": "",
-            "url": "classes/AbstractSmrPort.html#method_refreshCache"
         },                {
             "fqsen": "\\AbstractSmrPort\u003A\u003AclearCache\u0028\u0029",
             "name": "clearCache",
@@ -7531,11 +7521,6 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/SmrForce.html#method___sleep"
         },                {
-            "fqsen": "\\SmrForce\u003A\u003ArefreshCache\u0028\u0029",
-            "name": "refreshCache",
-            "summary": "",
-            "url": "classes/SmrForce.html#method_refreshCache"
-        },                {
             "fqsen": "\\SmrForce\u003A\u003AclearCache\u0028\u0029",
             "name": "clearCache",
             "summary": "",
@@ -8795,11 +8780,6 @@ Search.appendIndex(
             "name": "__sleep",
             "summary": "",
             "url": "classes/SmrPlanet.html#method___sleep"
-        },                {
-            "fqsen": "\\SmrPlanet\u003A\u003ArefreshCache\u0028\u0029",
-            "name": "refreshCache",
-            "summary": "",
-            "url": "classes/SmrPlanet.html#method_refreshCache"
         },                {
             "fqsen": "\\SmrPlanet\u003A\u003AclearCache\u0028\u0029",
             "name": "clearCache",
@@ -10705,11 +10685,6 @@ Search.appendIndex(
             "name": "SmrShip",
             "summary": "Adds\u0020a\u0020database\u0020layer\u0020to\u0020an\u0020AbstractSmrShip\u0020instance.",
             "url": "classes/SmrShip.html"
-        },                {
-            "fqsen": "\\SmrShip\u003A\u003ArefreshCache\u0028\u0029",
-            "name": "refreshCache",
-            "summary": "",
-            "url": "classes/SmrShip.html#method_refreshCache"
         },                {
             "fqsen": "\\SmrShip\u003A\u003AclearCache\u0028\u0029",
             "name": "clearCache",
