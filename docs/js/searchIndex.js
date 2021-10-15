@@ -6601,6 +6601,16 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/Routes-OneWayRoute.html#property_buySectorId"
         },                {
+            "fqsen": "\\Routes\\OneWayRoute\u003A\u003A\u0024sellPortRace",
+            "name": "sellPortRace",
+            "summary": "",
+            "url": "classes/Routes-OneWayRoute.html#property_sellPortRace"
+        },                {
+            "fqsen": "\\Routes\\OneWayRoute\u003A\u003A\u0024buyPortRace",
+            "name": "buyPortRace",
+            "summary": "",
+            "url": "classes/Routes-OneWayRoute.html#property_buyPortRace"
+        },                {
             "fqsen": "\\Routes\\OneWayRoute\u003A\u003A\u0024sellDi",
             "name": "sellDi",
             "summary": "",
@@ -6620,16 +6630,6 @@ Search.appendIndex(
             "name": "goodId",
             "summary": "",
             "url": "classes/Routes-OneWayRoute.html#property_goodId"
-        },                {
-            "fqsen": "\\Routes\\OneWayRoute\u003A\u003A\u0024sellPortRace",
-            "name": "sellPortRace",
-            "summary": "",
-            "url": "classes/Routes-OneWayRoute.html#property_sellPortRace"
-        },                {
-            "fqsen": "\\Routes\\OneWayRoute\u003A\u003A\u0024buyPortRace",
-            "name": "buyPortRace",
-            "summary": "",
-            "url": "classes/Routes-OneWayRoute.html#property_buyPortRace"
         },                {
             "fqsen": "\\Routes\\Route",
             "name": "Route",
