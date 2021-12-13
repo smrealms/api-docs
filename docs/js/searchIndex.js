@@ -86,11 +86,6 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/AbstractMenu.html#method_navigation"
         },                {
-            "fqsen": "\\AccountNotFoundException",
-            "name": "AccountNotFoundException",
-            "summary": "",
-            "url": "classes/AccountNotFoundException.html"
-        },                {
             "fqsen": "\\AbstractSmrAccount",
             "name": "AbstractSmrAccount",
             "summary": "",
@@ -1410,11 +1405,6 @@ Search.appendIndex(
             "name": "weaponsSold",
             "summary": "",
             "url": "classes/AbstractSmrLocation.html#property_weaponsSold"
-        },                {
-            "fqsen": "\\PlayerNotFoundException",
-            "name": "PlayerNotFoundException",
-            "summary": "",
-            "url": "classes/PlayerNotFoundException.html"
         },                {
             "fqsen": "\\AbstractSmrPlayer",
             "name": "AbstractSmrPlayer",
@@ -8196,11 +8186,6 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/SmrGalaxy.html#property_isNew"
         },                {
-            "fqsen": "\\GameNotFoundException",
-            "name": "GameNotFoundException",
-            "summary": "",
-            "url": "classes/GameNotFoundException.html"
-        },                {
             "fqsen": "\\SmrGame",
             "name": "SmrGame",
             "summary": "",
@@ -8590,11 +8575,6 @@ Search.appendIndex(
             "name": "isNew",
             "summary": "",
             "url": "classes/SmrGame.html#property_isNew"
-        },                {
-            "fqsen": "\\InvitationNotFoundException",
-            "name": "InvitationNotFoundException",
-            "summary": "",
-            "url": "classes/InvitationNotFoundException.html"
         },                {
             "fqsen": "\\SmrInvitation",
             "name": "SmrInvitation",
@@ -10025,11 +10005,6 @@ Search.appendIndex(
             "name": "shootPlayerAsForce",
             "summary": "",
             "url": "classes/SmrScoutDrones.html#method_shootPlayerAsForce"
-        },                {
-            "fqsen": "\\SectorNotFoundException",
-            "name": "SectorNotFoundException",
-            "summary": "",
-            "url": "classes/SectorNotFoundException.html"
         },                {
             "fqsen": "\\SmrSector",
             "name": "SmrSector",
@@ -12031,6 +12006,41 @@ Search.appendIndex(
             "summary": "Update\u0020the\u0020time\u0020associated\u0020with\u0020this\u0020page\u0020request\n\u0028i.e.\u0020stored\u0020in\u0020the\u0020DI\u0020container\u0029.",
             "url": "classes/Smr-Epoch.html#method_update"
         },                {
+            "fqsen": "\\Smr\\Exceptions\\AccountNotFound",
+            "name": "AccountNotFound",
+            "summary": "Exception\u0020thrown\u0020when\u0020an\u0020account\u0020cannot\u0020be\u0020found\u0020in\u0020the\u0020database",
+            "url": "classes/Smr-Exceptions-AccountNotFound.html"
+        },                {
+            "fqsen": "\\Smr\\Exceptions\\AllianceInvitationNotFound",
+            "name": "AllianceInvitationNotFound",
+            "summary": "Exception\u0020thrown\u0020when\u0020an\u0020alliance\u0020invitation\u0020cannot\u0020be\u0020found\u0020in\u0020the\u0020database",
+            "url": "classes/Smr-Exceptions-AllianceInvitationNotFound.html"
+        },                {
+            "fqsen": "\\Smr\\Exceptions\\GameNotFound",
+            "name": "GameNotFound",
+            "summary": "Exception\u0020thrown\u0020when\u0020a\u0020game\u0020cannot\u0020be\u0020found\u0020in\u0020the\u0020database",
+            "url": "classes/Smr-Exceptions-GameNotFound.html"
+        },                {
+            "fqsen": "\\Smr\\Exceptions\\PlayerNotFound",
+            "name": "PlayerNotFound",
+            "summary": "Exception\u0020thrown\u0020when\u0020a\u0020player\u0020cannot\u0020be\u0020found\u0020in\u0020the\u0020database",
+            "url": "classes/Smr-Exceptions-PlayerNotFound.html"
+        },                {
+            "fqsen": "\\Smr\\Exceptions\\SectorNotFound",
+            "name": "SectorNotFound",
+            "summary": "Exception\u0020thrown\u0020when\u0020a\u0020sector\u0020cannot\u0020be\u0020found\u0020in\u0020the\u0020database",
+            "url": "classes/Smr-Exceptions-SectorNotFound.html"
+        },                {
+            "fqsen": "\\Smr\\Exceptions\\SocialLoginInvalidType",
+            "name": "SocialLoginInvalidType",
+            "summary": "Exception\u0020thrown\u0020when\u0020a\u0020SocialLogin\u0020type\u0020is\u0020not\u0020valid",
+            "url": "classes/Smr-Exceptions-SocialLoginInvalidType.html"
+        },                {
+            "fqsen": "\\Smr\\Exceptions\\UserError",
+            "name": "UserError",
+            "summary": "This\u0020exception\u0020should\u0020be\u0020used\u0020to\u0020pass\u0020an\u0020error\u0020message\u0020to\u0020the\u0020user.",
+            "url": "classes/Smr-Exceptions-UserError.html"
+        },                {
             "fqsen": "\\Smr\\Race",
             "name": "Race",
             "summary": "Provides\u0020methods\u0020to\u0020map\u0020race\u0020IDs\u0020to\u0020basic\u0020race\u0020properties.",
@@ -12466,11 +12476,6 @@ Search.appendIndex(
             "summary": "Authenticates\u0020with\u0020the\u0020social\u0020platform.",
             "url": "classes/Smr-SocialLogin-Google.html#method_login"
         },                {
-            "fqsen": "\\Smr\\SocialLogin\\SocialLoginNotFound",
-            "name": "SocialLoginNotFound",
-            "summary": "Exception\u0020thrown\u0020when\u0020a\u0020SocialLogin\u0020type\u0020cannot\u0020be\u0020found",
-            "url": "classes/Smr-SocialLogin-SocialLoginNotFound.html"
-        },                {
             "fqsen": "\\Smr\\SocialLogin\\SocialLogin",
             "name": "SocialLogin",
             "summary": "Defines\u0020the\u0020methods\u0020to\u0020be\u0020implemented\u0020by\u0020each\u0020social\u0020login\u0020platform.",
@@ -12691,11 +12696,6 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/Smr-Template.html#property_jsSources"
         },                {
-            "fqsen": "\\Smr\\UserException",
-            "name": "UserException",
-            "summary": "This\u0020exception\u0020should\u0020be\u0020used\u0020to\u0020pass\u0020an\u0020error\u0020message\u0020to\u0020the\u0020user.",
-            "url": "classes/Smr-UserException.html"
-        },                {
             "fqsen": "\\Smr\\UserRanking",
             "name": "UserRanking",
             "summary": "User\u0020ranking\u0020titles",
@@ -12775,6 +12775,11 @@ Search.appendIndex(
             "name": "Container",
             "summary": "",
             "url": "namespaces/smr-container.html"
+        },                {
+            "fqsen": "\\Smr\\Exceptions",
+            "name": "Exceptions",
+            "summary": "",
+            "url": "namespaces/smr-exceptions.html"
         },                {
             "fqsen": "\\Smr\\SocialLogin",
             "name": "SocialLogin",

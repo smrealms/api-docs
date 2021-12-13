@@ -67,6 +67,10 @@
                 
             </li>
                     <li>
+                <a href="namespaces/smr-exceptions.html">Exceptions</a>
+                
+            </li>
+                    <li>
                 <a href="namespaces/smr-sociallogin.html">SocialLogin</a>
                 
             </li>
@@ -94,14 +98,16 @@
 
             <div class="phpdocumentor-column -eight phpdocumentor-content">
                     <ul class="phpdocumentor-breadcrumbs">
+            <li class="phpdocumentor-breadcrumb"><a href="namespaces/smr.html">Smr</a></li>
+            <li class="phpdocumentor-breadcrumb"><a href="namespaces/smr-exceptions.html">Exceptions</a></li>
     </ul>
 
     <article class="phpdocumentor-element -class">
         <h2 class="phpdocumentor-content__title">
-    AccountNotFoundException
+    UserError
 
         <span class="phpdocumentor-element__extends">
-        extends <abbr title="\Exception">Exception</abbr>
+        extends <abbr title="\RuntimeException">RuntimeException</abbr>
     </span>
     
             <div class="phpdocumentor-element__package">
@@ -115,14 +121,17 @@
     </h2>
 
         <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/AbstractSmrAccount.class.php"><a href="files/src-lib-default-abstractsmraccount-class.html"><abbr title="src/lib/Default/AbstractSmrAccount.class.php">AbstractSmrAccount.class.php</abbr></a></abbr>
+    <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Exceptions/UserError.php"><a href="files/src-lib-smr-exceptions-usererror.html"><abbr title="src/lib/Smr/Exceptions/UserError.php">UserError.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">4</span>
+    <span class="phpdocumentor-element-found-in__line">10</span>
 
     </aside>
 
-        
-    <section class="phpdocumentor-description"></section>
+            <p class="phpdocumentor-summary">This exception should be used to pass an error message to the user.</p>
+
+    <section class="phpdocumentor-description"><p>It should only encompass errors that can be triggered by otherwise
+valid user input (i.e. NOT internal errors, request forgery, etc.).</p>
+</section>
 
 
 
@@ -215,7 +224,7 @@
 </section>
             </div>
         </div>
-        <a href="classes/AccountNotFoundException.html#top" class="phpdocumentor-back-to-top"><i class="fas fa-chevron-circle-up"></i></a>
+        <a href="classes/Smr-Exceptions-UserError.html#top" class="phpdocumentor-back-to-top"><i class="fas fa-chevron-circle-up"></i></a>
 
     </main>
 
