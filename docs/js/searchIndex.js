@@ -11966,6 +11966,16 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/Smr-DatabaseResult.html#property_dbResult"
         },                {
+            "fqsen": "\\Smr\\DisplayNameValidator",
+            "name": "DisplayNameValidator",
+            "summary": "Displayed\u0020names\u0020\u0028player\u0020names,\u0020Hall\u0020of\u0020Fame\u0020names,\u0020etc.\u0029\u0020must\u0020all\u0020follow\u0020a\nbasic\u0020set\u0020of\u0020rules,\u0020which\u0020are\u0020defined\u0020here.",
+            "url": "classes/Smr-DisplayNameValidator.html"
+        },                {
+            "fqsen": "\\Smr\\DisplayNameValidator\u003A\u003Avalidate\u0028\u0029",
+            "name": "validate",
+            "summary": "",
+            "url": "classes/Smr-DisplayNameValidator.html#method_validate"
+        },                {
             "fqsen": "\\Smr\\Epoch",
             "name": "Epoch",
             "summary": "Stores\u0020the\u0020current\u0020time\u0020as\u0020a\u0020fixed\u0020value.",
