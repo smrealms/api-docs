@@ -54,14 +54,16 @@
 <aside class="phpdocumentor-column -four phpdocumentor-sidebar">
                     <section class="phpdocumentor-sidebar__category">
             <h2 class="phpdocumentor-sidebar__category-header">Namespaces</h2>
-                                    <h4 class="phpdocumentor-sidebar__root-namespace"><a href="namespaces/blackjack.html">Blackjack</a></h4>
-
                                     <h4 class="phpdocumentor-sidebar__root-namespace"><a href="namespaces/routes.html">Routes</a></h4>
 
                                     <h4 class="phpdocumentor-sidebar__root-namespace"><a href="namespaces/traits.html">Traits</a></h4>
 
                                     <h4 class="phpdocumentor-sidebar__root-namespace"><a href="namespaces/smr.html">Smr</a></h4>
     <ul class="phpdocumentor-list">
+                    <li>
+                <a href="namespaces/smr-blackjack.html">Blackjack</a>
+                
+            </li>
                     <li>
                 <a href="namespaces/smr-container.html">Container</a>
                 
@@ -98,7 +100,8 @@
 
             <div class="phpdocumentor-column -eight phpdocumentor-content">
                     <ul class="phpdocumentor-breadcrumbs">
-            <li class="phpdocumentor-breadcrumb"><a href="namespaces/blackjack.html">Blackjack</a></li>
+            <li class="phpdocumentor-breadcrumb"><a href="namespaces/smr.html">Smr</a></li>
+            <li class="phpdocumentor-breadcrumb"><a href="namespaces/smr-blackjack.html">Blackjack</a></li>
     </ul>
 
     <article class="phpdocumentor-element -class">
@@ -117,7 +120,7 @@
     </h2>
 
         <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/Blackjack/Hand.class.php"><a href="files/src-lib-default-blackjack-hand-class.html"><abbr title="src/lib/Default/Blackjack/Hand.class.php">Hand.class.php</abbr></a></abbr>
+    <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Blackjack/Hand.php"><a href="files/src-lib-smr-blackjack-hand.html"><abbr title="src/lib/Smr/Blackjack/Hand.php">Hand.php</abbr></a></abbr>
     :
     <span class="phpdocumentor-element-found-in__line">8</span>
 
@@ -140,60 +143,53 @@
 
 <dl class="phpdocumentor-table-of-contents">
                 <dt class="phpdocumentor-table-of-contents__entry -property -private">
-    <a href="classes/Blackjack-Hand.html#property_cards">$cards</a>
+    <a href="classes/Smr-Blackjack-Hand.html#property_cards">$cards</a>
     <span>
                 &nbsp;: array&lt;string|int, mixed&gt;            </span>
 </dt>
 <dd></dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -property -private">
-    <a href="classes/Blackjack-Hand.html#property_value">$value</a>
+    <a href="classes/Smr-Blackjack-Hand.html#property_value">$value</a>
     <span>
                 &nbsp;: int            </span>
 </dt>
 <dd></dd>
 
                 <dt class="phpdocumentor-table-of-contents__entry -method -public">
-    <a href="classes/Blackjack-Hand.html#method_drawCard">drawCard()</a>
+    <a href="classes/Smr-Blackjack-Hand.html#method_addCard">addCard()</a>
     <span>
                         &nbsp;: void    </span>
 </dt>
-<dd>Add a hand to this card by drawing it from $deck.</dd>
+<dd>Add a card to this hand.</dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
-    <a href="classes/Blackjack-Hand.html#method_getCards">getCards()</a>
+    <a href="classes/Smr-Blackjack-Hand.html#method_getCards">getCards()</a>
     <span>
                         &nbsp;: array&lt;string|int, mixed&gt;    </span>
 </dt>
 <dd></dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
-    <a href="classes/Blackjack-Hand.html#method_getNumCards">getNumCards()</a>
+    <a href="classes/Smr-Blackjack-Hand.html#method_getNumCards">getNumCards()</a>
     <span>
                         &nbsp;: int    </span>
 </dt>
 <dd>Return the number of cards in this hand.</dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
-    <a href="classes/Blackjack-Hand.html#method_getValue">getValue()</a>
+    <a href="classes/Smr-Blackjack-Hand.html#method_getValue">getValue()</a>
     <span>
                         &nbsp;: int    </span>
 </dt>
 <dd>Return the hand&#039;s total blackjack value.</dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
-    <a href="classes/Blackjack-Hand.html#method_hasBlackjack">hasBlackjack()</a>
+    <a href="classes/Smr-Blackjack-Hand.html#method_hasBlackjack">hasBlackjack()</a>
     <span>
                         &nbsp;: bool    </span>
 </dt>
 <dd>Does this hand have Blackjack?</dd>
-
-            <dt class="phpdocumentor-table-of-contents__entry -method -private">
-    <a href="classes/Blackjack-Hand.html#method_updateValue">updateValue()</a>
-    <span>
-                        &nbsp;: void    </span>
-</dt>
-<dd>Update the stored value of this hand.</dd>
 
         </dl>
 
@@ -205,7 +201,7 @@
     <section class="phpdocumentor-properties">
         <h3 class="phpdocumentor-elements__header" id="properties">
             Properties
-            <a href="classes/Blackjack-Hand.html#properties" class="headerlink"><i class="fas fa-link"></i></a>
+            <a href="classes/Smr-Blackjack-Hand.html#properties" class="headerlink"><i class="fas fa-link"></i></a>
         </h3>
                     <article
         class="
@@ -216,12 +212,12 @@
 >
     <h4 class="phpdocumentor-element__name" id="property_cards">
         $cards
-        <a href="classes/Blackjack-Hand.html#property_cards" class="headerlink"><i class="fas fa-link"></i></a>
+        <a href="classes/Smr-Blackjack-Hand.html#property_cards" class="headerlink"><i class="fas fa-link"></i></a>
         <span class="phpdocumentor-element__modifiers">
                                 </span>
     </h4>
     <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/Blackjack/Hand.class.php"><a href="files/src-lib-default-blackjack-hand-class.html"><abbr title="src/lib/Default/Blackjack/Hand.class.php">Hand.class.php</abbr></a></abbr>
+    <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Blackjack/Hand.php"><a href="files/src-lib-smr-blackjack-hand.html"><abbr title="src/lib/Smr/Blackjack/Hand.php">Hand.php</abbr></a></abbr>
     :
     <span class="phpdocumentor-element-found-in__line">10</span>
 
@@ -250,12 +246,12 @@
 >
     <h4 class="phpdocumentor-element__name" id="property_value">
         $value
-        <a href="classes/Blackjack-Hand.html#property_value" class="headerlink"><i class="fas fa-link"></i></a>
+        <a href="classes/Smr-Blackjack-Hand.html#property_value" class="headerlink"><i class="fas fa-link"></i></a>
         <span class="phpdocumentor-element__modifiers">
                                 </span>
     </h4>
     <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/Blackjack/Hand.class.php"><a href="files/src-lib-default-blackjack-hand-class.html"><abbr title="src/lib/Default/Blackjack/Hand.class.php">Hand.class.php</abbr></a></abbr>
+    <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Blackjack/Hand.php"><a href="files/src-lib-smr-blackjack-hand.html"><abbr title="src/lib/Smr/Blackjack/Hand.php">Hand.php</abbr></a></abbr>
     :
     <span class="phpdocumentor-element-found-in__line">11</span>
 
@@ -280,7 +276,7 @@
             <section class="phpdocumentor-methods">
         <h3 class="phpdocumentor-elements__header" id="methods">
             Methods
-            <a href="classes/Blackjack-Hand.html#methods" class="headerlink"><i class="fas fa-link"></i></a>
+            <a href="classes/Smr-Blackjack-Hand.html#methods" class="headerlink"><i class="fas fa-link"></i></a>
         </h3>
                     <article
         class="phpdocumentor-element
@@ -288,29 +284,29 @@
             -public
                                                         "
 >
-    <h4 class="phpdocumentor-element__name" id="method_drawCard">
-        drawCard()
-        <a href="classes/Blackjack-Hand.html#method_drawCard" class="headerlink"><i class="fas fa-link"></i></a>
+    <h4 class="phpdocumentor-element__name" id="method_addCard">
+        addCard()
+        <a href="classes/Smr-Blackjack-Hand.html#method_addCard" class="headerlink"><i class="fas fa-link"></i></a>
     </h4>
     <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/Blackjack/Hand.class.php"><a href="files/src-lib-default-blackjack-hand-class.html"><abbr title="src/lib/Default/Blackjack/Hand.class.php">Hand.class.php</abbr></a></abbr>
+    <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Blackjack/Hand.php"><a href="files/src-lib-smr-blackjack-hand.html"><abbr title="src/lib/Smr/Blackjack/Hand.php">Hand.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">16</span>
+    <span class="phpdocumentor-element-found-in__line">41</span>
 
     </aside>
 
-        <p class="phpdocumentor-summary">Add a hand to this card by drawing it from $deck.</p>
+        <p class="phpdocumentor-summary">Add a card to this hand.</p>
 
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">public</span>
-                <span class="phpdocumentor-signature__name">drawCard</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type"><a href="classes/Blackjack-Deck.html"><abbr title="\Blackjack\Deck">Deck</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$deck</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">void</span></code>
+                <span class="phpdocumentor-signature__name">addCard</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type"><a href="classes/Smr-Blackjack-Card.html"><abbr title="\Smr\Blackjack\Card">Card</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$card</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">void</span></code>
 
     
         <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
     <dl class="phpdocumentor-argument-list">
                     <dt class="phpdocumentor-argument-list__entry">
-                <span class="phpdocumentor-signature__argument__name">$deck</span>
-                : <span class="phpdocumentor-signature__argument__return-type"><a href="classes/Blackjack-Deck.html"><abbr title="\Blackjack\Deck">Deck</abbr></a></span>
+                <span class="phpdocumentor-signature__argument__name">$card</span>
+                : <span class="phpdocumentor-signature__argument__return-type"><a href="classes/Smr-Blackjack-Card.html"><abbr title="\Smr\Blackjack\Card">Card</abbr></a></span>
                             </dt>
             <dd class="phpdocumentor-argument-list__definition">
                     <section class="phpdocumentor-description"></section>
@@ -334,12 +330,12 @@
 >
     <h4 class="phpdocumentor-element__name" id="method_getCards">
         getCards()
-        <a href="classes/Blackjack-Hand.html#method_getCards" class="headerlink"><i class="fas fa-link"></i></a>
+        <a href="classes/Smr-Blackjack-Hand.html#method_getCards" class="headerlink"><i class="fas fa-link"></i></a>
     </h4>
     <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/Blackjack/Hand.class.php"><a href="files/src-lib-default-blackjack-hand-class.html"><abbr title="src/lib/Default/Blackjack/Hand.class.php">Hand.class.php</abbr></a></abbr>
+    <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Blackjack/Hand.php"><a href="files/src-lib-smr-blackjack-hand.html"><abbr title="src/lib/Smr/Blackjack/Hand.php">Hand.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">35</span>
+    <span class="phpdocumentor-element-found-in__line">27</span>
 
     </aside>
 
@@ -367,12 +363,12 @@
 >
     <h4 class="phpdocumentor-element__name" id="method_getNumCards">
         getNumCards()
-        <a href="classes/Blackjack-Hand.html#method_getNumCards" class="headerlink"><i class="fas fa-link"></i></a>
+        <a href="classes/Smr-Blackjack-Hand.html#method_getNumCards" class="headerlink"><i class="fas fa-link"></i></a>
     </h4>
     <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/Blackjack/Hand.class.php"><a href="files/src-lib-default-blackjack-hand-class.html"><abbr title="src/lib/Default/Blackjack/Hand.class.php">Hand.class.php</abbr></a></abbr>
+    <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Blackjack/Hand.php"><a href="files/src-lib-smr-blackjack-hand.html"><abbr title="src/lib/Smr/Blackjack/Hand.php">Hand.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">31</span>
+    <span class="phpdocumentor-element-found-in__line">23</span>
 
     </aside>
 
@@ -400,12 +396,12 @@
 >
     <h4 class="phpdocumentor-element__name" id="method_getValue">
         getValue()
-        <a href="classes/Blackjack-Hand.html#method_getValue" class="headerlink"><i class="fas fa-link"></i></a>
+        <a href="classes/Smr-Blackjack-Hand.html#method_getValue" class="headerlink"><i class="fas fa-link"></i></a>
     </h4>
     <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/Blackjack/Hand.class.php"><a href="files/src-lib-default-blackjack-hand-class.html"><abbr title="src/lib/Default/Blackjack/Hand.class.php">Hand.class.php</abbr></a></abbr>
+    <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Blackjack/Hand.php"><a href="files/src-lib-smr-blackjack-hand.html"><abbr title="src/lib/Smr/Blackjack/Hand.php">Hand.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">24</span>
+    <span class="phpdocumentor-element-found-in__line">16</span>
 
     </aside>
 
@@ -433,12 +429,12 @@
 >
     <h4 class="phpdocumentor-element__name" id="method_hasBlackjack">
         hasBlackjack()
-        <a href="classes/Blackjack-Hand.html#method_hasBlackjack" class="headerlink"><i class="fas fa-link"></i></a>
+        <a href="classes/Smr-Blackjack-Hand.html#method_hasBlackjack" class="headerlink"><i class="fas fa-link"></i></a>
     </h4>
     <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/Blackjack/Hand.class.php"><a href="files/src-lib-default-blackjack-hand-class.html"><abbr title="src/lib/Default/Blackjack/Hand.class.php">Hand.class.php</abbr></a></abbr>
+    <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Blackjack/Hand.php"><a href="files/src-lib-smr-blackjack-hand.html"><abbr title="src/lib/Smr/Blackjack/Hand.php">Hand.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">42</span>
+    <span class="phpdocumentor-element-found-in__line">34</span>
 
     </aside>
 
@@ -454,39 +450,6 @@
 
         <h5 class="phpdocumentor-return-value__heading">Return values</h5>
     <span class="phpdocumentor-signature__response_type">bool</span>
-            &mdash;
-        
-    
-</article>
-                    <article
-        class="phpdocumentor-element
-            -method
-            -private
-                                                        "
->
-    <h4 class="phpdocumentor-element__name" id="method_updateValue">
-        updateValue()
-        <a href="classes/Blackjack-Hand.html#method_updateValue" class="headerlink"><i class="fas fa-link"></i></a>
-    </h4>
-    <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/Blackjack/Hand.class.php"><a href="files/src-lib-default-blackjack-hand-class.html"><abbr title="src/lib/Default/Blackjack/Hand.class.php">Hand.class.php</abbr></a></abbr>
-    :
-    <span class="phpdocumentor-element-found-in__line">49</span>
-
-    </aside>
-
-        <p class="phpdocumentor-summary">Update the stored value of this hand.</p>
-
-    <code class="phpdocumentor-code phpdocumentor-signature ">
-    <span class="phpdocumentor-signature__visibility">private</span>
-                <span class="phpdocumentor-signature__name">updateValue</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">void</span></code>
-
-    
-    
-    
-
-        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
-    <span class="phpdocumentor-signature__response_type">void</span>
             &mdash;
         
     
@@ -569,7 +532,7 @@
 </section>
             </div>
         </div>
-        <a href="classes/Blackjack-Hand.html#top" class="phpdocumentor-back-to-top"><i class="fas fa-chevron-circle-up"></i></a>
+        <a href="classes/Smr-Blackjack-Hand.html#top" class="phpdocumentor-back-to-top"><i class="fas fa-chevron-circle-up"></i></a>
 
     </main>
 
