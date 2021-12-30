@@ -329,6 +329,13 @@
 <dd>List of all recruitment types and their descriptions.</dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a href="classes/SmrAlliance.html#method_clearCache">clearCache()</a>
+    <span>
+                                &nbsp;: void    </span>
+</dt>
+<dd></dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
     <a href="classes/SmrAlliance.html#method_createAlliance">createAlliance()</a>
     <span>
                                 &nbsp;: <a href="classes/SmrAlliance.html"><abbr title="\SmrAlliance">SmrAlliance</abbr></a>    </span>
@@ -614,6 +621,13 @@
                                 &nbsp;: bool    </span>
 </dt>
 <dd>Is the given sector in the alliance seedlist?</dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a href="classes/SmrAlliance.html#method_isNHA">isNHA()</a>
+    <span>
+                                &nbsp;: bool    </span>
+</dt>
+<dd>Returns true if the alliance is the Newbie Help Alliance.</dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
     <a href="classes/SmrAlliance.html#method_isNone">isNone()</a>
@@ -1552,7 +1566,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/SmrAlliance.class.php"><a href="files/src-lib-default-smralliance-class.html"><abbr title="src/lib/Default/SmrAlliance.class.php">SmrAlliance.class.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">335</span>
+    <span class="phpdocumentor-element-found-in__line">348</span>
 
     </aside>
 
@@ -1580,6 +1594,39 @@
             -public
                                     -static                    "
 >
+    <h4 class="phpdocumentor-element__name" id="method_clearCache">
+        clearCache()
+        <a href="classes/SmrAlliance.html#method_clearCache" class="headerlink"><i class="fas fa-link"></i></a>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/SmrAlliance.class.php"><a href="files/src-lib-default-smralliance-class.html"><abbr title="src/lib/Default/SmrAlliance.class.php">SmrAlliance.class.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">34</span>
+
+    </aside>
+
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+            <span class="phpdocumentor-signature__static">static</span>    <span class="phpdocumentor-signature__name">clearCache</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">void</span></code>
+
+        <section class="phpdocumentor-description"></section>
+
+    
+    
+
+        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
+    <span class="phpdocumentor-signature__response_type">void</span>
+            &mdash;
+        
+    
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                    -static                    "
+>
     <h4 class="phpdocumentor-element__name" id="method_createAlliance">
         createAlliance()
         <a href="classes/SmrAlliance.html#method_createAlliance" class="headerlink"><i class="fas fa-link"></i></a>
@@ -1587,7 +1634,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/SmrAlliance.class.php"><a href="files/src-lib-default-smralliance-class.html"><abbr title="src/lib/Default/SmrAlliance.class.php">SmrAlliance.class.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">104</span>
+    <span class="phpdocumentor-element-found-in__line">108</span>
 
     </aside>
 
@@ -1595,7 +1642,7 @@
 
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">public</span>
-            <span class="phpdocumentor-signature__static">static</span>    <span class="phpdocumentor-signature__name">createAlliance</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type">int&nbsp;</span><span class="phpdocumentor-signature__argument__name">$gameID</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__return-type">string&nbsp;</span><span class="phpdocumentor-signature__argument__name">$name</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type"><a href="classes/SmrAlliance.html"><abbr title="\SmrAlliance">SmrAlliance</abbr></a></span></code>
+            <span class="phpdocumentor-signature__static">static</span>    <span class="phpdocumentor-signature__name">createAlliance</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type">int&nbsp;</span><span class="phpdocumentor-signature__argument__name">$gameID</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__return-type">string&nbsp;</span><span class="phpdocumentor-signature__argument__name">$name</span></span><span class="phpdocumentor-signature__argument"><span>[</span><span>, </span><span class="phpdocumentor-signature__argument__return-type">bool&nbsp;</span><span class="phpdocumentor-signature__argument__name">$allowNHA</span><span> = </span><span class="phpdocumentor-signature__argument__default-value">false</span><span> ]</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type"><a href="classes/SmrAlliance.html"><abbr title="\SmrAlliance">SmrAlliance</abbr></a></span></code>
 
         <section class="phpdocumentor-description"><p>Starts alliance with &quot;closed&quot; recruitment (for safety).</p>
 </section>
@@ -1614,6 +1661,14 @@
                 <span class="phpdocumentor-signature__argument__name">$name</span>
                 : <span class="phpdocumentor-signature__argument__return-type">string</span>
                             </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                    <section class="phpdocumentor-description"></section>
+
+            </dd>
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$allowNHA</span>
+                : <span class="phpdocumentor-signature__argument__return-type">bool</span>
+                 = <span class="phpdocumentor-signature__argument__default-value">false</span>            </dt>
             <dd class="phpdocumentor-argument-list__definition">
                     <section class="phpdocumentor-description"></section>
 
@@ -1641,7 +1696,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/SmrAlliance.class.php"><a href="files/src-lib-default-smralliance-class.html"><abbr title="src/lib/Default/SmrAlliance.class.php">SmrAlliance.class.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">545</span>
+    <span class="phpdocumentor-element-found-in__line">560</span>
 
     </aside>
 
@@ -1687,7 +1742,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/SmrAlliance.class.php"><a href="files/src-lib-default-smralliance-class.html"><abbr title="src/lib/Default/SmrAlliance.class.php">SmrAlliance.class.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">271</span>
+    <span class="phpdocumentor-element-found-in__line">284</span>
 
     </aside>
 
@@ -1731,7 +1786,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/SmrAlliance.class.php"><a href="files/src-lib-default-smralliance-class.html"><abbr title="src/lib/Default/SmrAlliance.class.php">SmrAlliance.class.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">487</span>
+    <span class="phpdocumentor-element-found-in__line">502</span>
 
     </aside>
 
@@ -1764,7 +1819,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/SmrAlliance.class.php"><a href="files/src-lib-default-smralliance-class.html"><abbr title="src/lib/Default/SmrAlliance.class.php">SmrAlliance.class.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">34</span>
+    <span class="phpdocumentor-element-found-in__line">38</span>
 
     </aside>
 
@@ -1824,7 +1879,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/SmrAlliance.class.php"><a href="files/src-lib-default-smralliance-class.html"><abbr title="src/lib/Default/SmrAlliance.class.php">SmrAlliance.class.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">139</span>
+    <span class="phpdocumentor-element-found-in__line">152</span>
 
     </aside>
 
@@ -1857,7 +1912,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/SmrAlliance.class.php"><a href="files/src-lib-default-smralliance-class.html"><abbr title="src/lib/Default/SmrAlliance.class.php">SmrAlliance.class.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">41</span>
+    <span class="phpdocumentor-element-found-in__line">45</span>
 
     </aside>
 
@@ -1909,7 +1964,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/SmrAlliance.class.php"><a href="files/src-lib-default-smralliance-class.html"><abbr title="src/lib/Default/SmrAlliance.class.php">SmrAlliance.class.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">52</span>
+    <span class="phpdocumentor-element-found-in__line">56</span>
 
     </aside>
 
@@ -1961,7 +2016,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/SmrAlliance.class.php"><a href="files/src-lib-default-smralliance-class.html"><abbr title="src/lib/Default/SmrAlliance.class.php">SmrAlliance.class.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">63</span>
+    <span class="phpdocumentor-element-found-in__line">67</span>
 
     </aside>
 
@@ -2021,7 +2076,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/SmrAlliance.class.php"><a href="files/src-lib-default-smralliance-class.html"><abbr title="src/lib/Default/SmrAlliance.class.php">SmrAlliance.class.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">143</span>
+    <span class="phpdocumentor-element-found-in__line">156</span>
 
     </aside>
 
@@ -2073,7 +2128,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/SmrAlliance.class.php"><a href="files/src-lib-default-smralliance-class.html"><abbr title="src/lib/Default/SmrAlliance.class.php">SmrAlliance.class.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">135</span>
+    <span class="phpdocumentor-element-found-in__line">148</span>
 
     </aside>
 
@@ -2106,7 +2161,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/SmrAlliance.class.php"><a href="files/src-lib-default-smralliance-class.html"><abbr title="src/lib/Default/SmrAlliance.class.php">SmrAlliance.class.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">158</span>
+    <span class="phpdocumentor-element-found-in__line">171</span>
 
     </aside>
 
@@ -2141,7 +2196,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/SmrAlliance.class.php"><a href="files/src-lib-default-smralliance-class.html"><abbr title="src/lib/Default/SmrAlliance.class.php">SmrAlliance.class.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">256</span>
+    <span class="phpdocumentor-element-found-in__line">269</span>
 
     </aside>
 
@@ -2174,7 +2229,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/SmrAlliance.class.php"><a href="files/src-lib-default-smralliance-class.html"><abbr title="src/lib/Default/SmrAlliance.class.php">SmrAlliance.class.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">348</span>
+    <span class="phpdocumentor-element-found-in__line">361</span>
 
     </aside>
 
@@ -2207,7 +2262,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/SmrAlliance.class.php"><a href="files/src-lib-default-smralliance-class.html"><abbr title="src/lib/Default/SmrAlliance.class.php">SmrAlliance.class.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">355</span>
+    <span class="phpdocumentor-element-found-in__line">368</span>
 
     </aside>
 
@@ -2240,7 +2295,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/SmrAlliance.class.php"><a href="files/src-lib-default-smralliance-class.html"><abbr title="src/lib/Default/SmrAlliance.class.php">SmrAlliance.class.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">198</span>
+    <span class="phpdocumentor-element-found-in__line">211</span>
 
     </aside>
 
@@ -2273,7 +2328,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/SmrAlliance.class.php"><a href="files/src-lib-default-smralliance-class.html"><abbr title="src/lib/Default/SmrAlliance.class.php">SmrAlliance.class.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">190</span>
+    <span class="phpdocumentor-element-found-in__line">203</span>
 
     </aside>
 
@@ -2306,7 +2361,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/SmrAlliance.class.php"><a href="files/src-lib-default-smralliance-class.html"><abbr title="src/lib/Default/SmrAlliance.class.php">SmrAlliance.class.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">381</span>
+    <span class="phpdocumentor-element-found-in__line">396</span>
 
     </aside>
 
@@ -2341,7 +2396,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/SmrAlliance.class.php"><a href="files/src-lib-default-smralliance-class.html"><abbr title="src/lib/Default/SmrAlliance.class.php">SmrAlliance.class.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">166</span>
+    <span class="phpdocumentor-element-found-in__line">179</span>
 
     </aside>
 
@@ -2374,7 +2429,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/SmrAlliance.class.php"><a href="files/src-lib-default-smralliance-class.html"><abbr title="src/lib/Default/SmrAlliance.class.php">SmrAlliance.class.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">162</span>
+    <span class="phpdocumentor-element-found-in__line">175</span>
 
     </aside>
 
@@ -2407,7 +2462,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/SmrAlliance.class.php"><a href="files/src-lib-default-smralliance-class.html"><abbr title="src/lib/Default/SmrAlliance.class.php">SmrAlliance.class.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">242</span>
+    <span class="phpdocumentor-element-found-in__line">255</span>
 
     </aside>
 
@@ -2440,7 +2495,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/SmrAlliance.class.php"><a href="files/src-lib-default-smralliance-class.html"><abbr title="src/lib/Default/SmrAlliance.class.php">SmrAlliance.class.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">206</span>
+    <span class="phpdocumentor-element-found-in__line">219</span>
 
     </aside>
 
@@ -2473,7 +2528,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/SmrAlliance.class.php"><a href="files/src-lib-default-smralliance-class.html"><abbr title="src/lib/Default/SmrAlliance.class.php">SmrAlliance.class.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">395</span>
+    <span class="phpdocumentor-element-found-in__line">410</span>
 
     </aside>
 
@@ -2525,7 +2580,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/SmrAlliance.class.php"><a href="files/src-lib-default-smralliance-class.html"><abbr title="src/lib/Default/SmrAlliance.class.php">SmrAlliance.class.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">344</span>
+    <span class="phpdocumentor-element-found-in__line">357</span>
 
     </aside>
 
@@ -2558,7 +2613,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/SmrAlliance.class.php"><a href="files/src-lib-default-smralliance-class.html"><abbr title="src/lib/Default/SmrAlliance.class.php">SmrAlliance.class.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">182</span>
+    <span class="phpdocumentor-element-found-in__line">195</span>
 
     </aside>
 
@@ -2591,7 +2646,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/SmrAlliance.class.php"><a href="files/src-lib-default-smralliance-class.html"><abbr title="src/lib/Default/SmrAlliance.class.php">SmrAlliance.class.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">178</span>
+    <span class="phpdocumentor-element-found-in__line">191</span>
 
     </aside>
 
@@ -2624,7 +2679,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/SmrAlliance.class.php"><a href="files/src-lib-default-smralliance-class.html"><abbr title="src/lib/Default/SmrAlliance.class.php">SmrAlliance.class.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">474</span>
+    <span class="phpdocumentor-element-found-in__line">489</span>
 
     </aside>
 
@@ -2657,7 +2712,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/SmrAlliance.class.php"><a href="files/src-lib-default-smralliance-class.html"><abbr title="src/lib/Default/SmrAlliance.class.php">SmrAlliance.class.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">470</span>
+    <span class="phpdocumentor-element-found-in__line">485</span>
 
     </aside>
 
@@ -2690,7 +2745,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/SmrAlliance.class.php"><a href="files/src-lib-default-smralliance-class.html"><abbr title="src/lib/Default/SmrAlliance.class.php">SmrAlliance.class.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">283</span>
+    <span class="phpdocumentor-element-found-in__line">296</span>
 
     </aside>
 
@@ -2723,7 +2778,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/SmrAlliance.class.php"><a href="files/src-lib-default-smralliance-class.html"><abbr title="src/lib/Default/SmrAlliance.class.php">SmrAlliance.class.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">446</span>
+    <span class="phpdocumentor-element-found-in__line">461</span>
 
     </aside>
 
@@ -2756,7 +2811,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/SmrAlliance.class.php"><a href="files/src-lib-default-smralliance-class.html"><abbr title="src/lib/Default/SmrAlliance.class.php">SmrAlliance.class.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">436</span>
+    <span class="phpdocumentor-element-found-in__line">451</span>
 
     </aside>
 
@@ -2789,7 +2844,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/SmrAlliance.class.php"><a href="files/src-lib-default-smralliance-class.html"><abbr title="src/lib/Default/SmrAlliance.class.php">SmrAlliance.class.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">291</span>
+    <span class="phpdocumentor-element-found-in__line">304</span>
 
     </aside>
 
@@ -2822,7 +2877,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/SmrAlliance.class.php"><a href="files/src-lib-default-smralliance-class.html"><abbr title="src/lib/Default/SmrAlliance.class.php">SmrAlliance.class.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">505</span>
+    <span class="phpdocumentor-element-found-in__line">520</span>
 
     </aside>
 
@@ -2855,7 +2910,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/SmrAlliance.class.php"><a href="files/src-lib-default-smralliance-class.html"><abbr title="src/lib/Default/SmrAlliance.class.php">SmrAlliance.class.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">321</span>
+    <span class="phpdocumentor-element-found-in__line">334</span>
 
     </aside>
 
@@ -2888,7 +2943,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/SmrAlliance.class.php"><a href="files/src-lib-default-smralliance-class.html"><abbr title="src/lib/Default/SmrAlliance.class.php">SmrAlliance.class.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">523</span>
+    <span class="phpdocumentor-element-found-in__line">538</span>
 
     </aside>
 
@@ -2921,7 +2976,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/SmrAlliance.class.php"><a href="files/src-lib-default-smralliance-class.html"><abbr title="src/lib/Default/SmrAlliance.class.php">SmrAlliance.class.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">170</span>
+    <span class="phpdocumentor-element-found-in__line">183</span>
 
     </aside>
 
@@ -2954,7 +3009,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/SmrAlliance.class.php"><a href="files/src-lib-default-smralliance-class.html"><abbr title="src/lib/Default/SmrAlliance.class.php">SmrAlliance.class.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">373</span>
+    <span class="phpdocumentor-element-found-in__line">388</span>
 
     </aside>
 
@@ -2987,7 +3042,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/SmrAlliance.class.php"><a href="files/src-lib-default-smralliance-class.html"><abbr title="src/lib/Default/SmrAlliance.class.php">SmrAlliance.class.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">238</span>
+    <span class="phpdocumentor-element-found-in__line">251</span>
 
     </aside>
 
@@ -3020,7 +3075,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/SmrAlliance.class.php"><a href="files/src-lib-default-smralliance-class.html"><abbr title="src/lib/Default/SmrAlliance.class.php">SmrAlliance.class.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">174</span>
+    <span class="phpdocumentor-element-found-in__line">187</span>
 
     </aside>
 
@@ -3053,7 +3108,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/SmrAlliance.class.php"><a href="files/src-lib-default-smralliance-class.html"><abbr title="src/lib/Default/SmrAlliance.class.php">SmrAlliance.class.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">264</span>
+    <span class="phpdocumentor-element-found-in__line">277</span>
 
     </aside>
 
@@ -3099,7 +3154,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/SmrAlliance.class.php"><a href="files/src-lib-default-smralliance-class.html"><abbr title="src/lib/Default/SmrAlliance.class.php">SmrAlliance.class.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">537</span>
+    <span class="phpdocumentor-element-found-in__line">552</span>
 
     </aside>
 
@@ -3136,6 +3191,39 @@
             -public
                                                         "
 >
+    <h4 class="phpdocumentor-element__name" id="method_isNHA">
+        isNHA()
+        <a href="classes/SmrAlliance.html#method_isNHA" class="headerlink"><i class="fas fa-link"></i></a>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/SmrAlliance.class.php"><a href="files/src-lib-default-smralliance-class.html"><abbr title="src/lib/Default/SmrAlliance.class.php">SmrAlliance.class.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">144</span>
+
+    </aside>
+
+        <p class="phpdocumentor-summary">Returns true if the alliance is the Newbie Help Alliance.</p>
+
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+                <span class="phpdocumentor-signature__name">isNHA</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">bool</span></code>
+
+    
+    
+    
+
+        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
+    <span class="phpdocumentor-signature__response_type">bool</span>
+            &mdash;
+        
+    
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                                        "
+>
     <h4 class="phpdocumentor-element__name" id="method_isNone">
         isNone()
         <a href="classes/SmrAlliance.html#method_isNone" class="headerlink"><i class="fas fa-link"></i></a>
@@ -3143,7 +3231,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/SmrAlliance.class.php"><a href="files/src-lib-default-smralliance-class.html"><abbr title="src/lib/Default/SmrAlliance.class.php">SmrAlliance.class.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">131</span>
+    <span class="phpdocumentor-element-found-in__line">137</span>
 
     </aside>
 
@@ -3176,7 +3264,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/SmrAlliance.class.php"><a href="files/src-lib-default-smralliance-class.html"><abbr title="src/lib/Default/SmrAlliance.class.php">SmrAlliance.class.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">295</span>
+    <span class="phpdocumentor-element-found-in__line">308</span>
 
     </aside>
 
@@ -3209,14 +3297,14 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/SmrAlliance.class.php"><a href="files/src-lib-default-smralliance-class.html"><abbr title="src/lib/Default/SmrAlliance.class.php">SmrAlliance.class.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">363</span>
+    <span class="phpdocumentor-element-found-in__line">376</span>
 
     </aside>
 
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">public</span>
-                <span class="phpdocumentor-signature__name">setAllianceDescription</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type">string&nbsp;</span><span class="phpdocumentor-signature__argument__name">$description</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__return-type"><a href="classes/AbstractSmrPlayer.html"><abbr title="\AbstractSmrPlayer">AbstractSmrPlayer</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$player</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">void</span></code>
+                <span class="phpdocumentor-signature__name">setAllianceDescription</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type">string&nbsp;</span><span class="phpdocumentor-signature__argument__name">$description</span></span><span class="phpdocumentor-signature__argument"><span>[</span><span>, </span><span class="phpdocumentor-signature__argument__return-type"><a href="classes/AbstractSmrPlayer.html"><abbr title="\AbstractSmrPlayer">AbstractSmrPlayer</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$player</span><span> = </span><span class="phpdocumentor-signature__argument__default-value">null</span><span> ]</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">void</span></code>
 
         <section class="phpdocumentor-description"></section>
 
@@ -3233,7 +3321,7 @@
                     <dt class="phpdocumentor-argument-list__entry">
                 <span class="phpdocumentor-signature__argument__name">$player</span>
                 : <span class="phpdocumentor-signature__argument__return-type"><a href="classes/AbstractSmrPlayer.html"><abbr title="\AbstractSmrPlayer">AbstractSmrPlayer</abbr></a></span>
-                            </dt>
+                 = <span class="phpdocumentor-signature__argument__default-value">null</span>            </dt>
             <dd class="phpdocumentor-argument-list__definition">
                     <section class="phpdocumentor-description"></section>
 
@@ -3261,7 +3349,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/SmrAlliance.class.php"><a href="files/src-lib-default-smralliance-class.html"><abbr title="src/lib/Default/SmrAlliance.class.php">SmrAlliance.class.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">276</span>
+    <span class="phpdocumentor-element-found-in__line">289</span>
 
     </aside>
 
@@ -3305,7 +3393,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/SmrAlliance.class.php"><a href="files/src-lib-default-smralliance-class.html"><abbr title="src/lib/Default/SmrAlliance.class.php">SmrAlliance.class.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">202</span>
+    <span class="phpdocumentor-element-found-in__line">215</span>
 
     </aside>
 
@@ -3349,7 +3437,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/SmrAlliance.class.php"><a href="files/src-lib-default-smralliance-class.html"><abbr title="src/lib/Default/SmrAlliance.class.php">SmrAlliance.class.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">194</span>
+    <span class="phpdocumentor-element-found-in__line">207</span>
 
     </aside>
 
@@ -3393,7 +3481,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/SmrAlliance.class.php"><a href="files/src-lib-default-smralliance-class.html"><abbr title="src/lib/Default/SmrAlliance.class.php">SmrAlliance.class.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">388</span>
+    <span class="phpdocumentor-element-found-in__line">403</span>
 
     </aside>
 
@@ -3437,7 +3525,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/SmrAlliance.class.php"><a href="files/src-lib-default-smralliance-class.html"><abbr title="src/lib/Default/SmrAlliance.class.php">SmrAlliance.class.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">246</span>
+    <span class="phpdocumentor-element-found-in__line">259</span>
 
     </aside>
 
@@ -3481,7 +3569,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/SmrAlliance.class.php"><a href="files/src-lib-default-smralliance-class.html"><abbr title="src/lib/Default/SmrAlliance.class.php">SmrAlliance.class.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">218</span>
+    <span class="phpdocumentor-element-found-in__line">231</span>
 
     </aside>
 
@@ -3525,7 +3613,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/SmrAlliance.class.php"><a href="files/src-lib-default-smralliance-class.html"><abbr title="src/lib/Default/SmrAlliance.class.php">SmrAlliance.class.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">186</span>
+    <span class="phpdocumentor-element-found-in__line">199</span>
 
     </aside>
 
@@ -3569,7 +3657,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/SmrAlliance.class.php"><a href="files/src-lib-default-smralliance-class.html"><abbr title="src/lib/Default/SmrAlliance.class.php">SmrAlliance.class.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">287</span>
+    <span class="phpdocumentor-element-found-in__line">300</span>
 
     </aside>
 
@@ -3613,7 +3701,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/SmrAlliance.class.php"><a href="files/src-lib-default-smralliance-class.html"><abbr title="src/lib/Default/SmrAlliance.class.php">SmrAlliance.class.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">303</span>
+    <span class="phpdocumentor-element-found-in__line">316</span>
 
     </aside>
 
@@ -3667,7 +3755,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/SmrAlliance.class.php"><a href="files/src-lib-default-smralliance-class.html"><abbr title="src/lib/Default/SmrAlliance.class.php">SmrAlliance.class.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">450</span>
+    <span class="phpdocumentor-element-found-in__line">465</span>
 
     </aside>
 
@@ -3700,7 +3788,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/SmrAlliance.class.php"><a href="files/src-lib-default-smralliance-class.html"><abbr title="src/lib/Default/SmrAlliance.class.php">SmrAlliance.class.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">74</span>
+    <span class="phpdocumentor-element-found-in__line">78</span>
 
     </aside>
 

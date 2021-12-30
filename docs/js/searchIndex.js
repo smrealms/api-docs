@@ -5561,6 +5561,11 @@ Search.appendIndex(
             "summary": "",
             "url": "namespaces/default.html#function_doLottoNewsAssign"
         },                {
+            "fqsen": "\\createNHA\u0028\u0029",
+            "name": "createNHA",
+            "summary": "Create\u0020the\u0020Newbie\u0020Help\u0020Alliance\u0020and\u0020populate\u0020its\u0020Message\u0020Board",
+            "url": "namespaces/default.html#function_createNHA"
+        },                {
             "fqsen": "\\Page",
             "name": "Page",
             "summary": "A\u0020container\u0020that\u0020holds\u0020data\u0020needed\u0020to\u0020create\u0020a\u0020new\u0020page.",
@@ -6006,6 +6011,11 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/SmrAlliance.html"
         },                {
+            "fqsen": "\\SmrAlliance\u003A\u003AclearCache\u0028\u0029",
+            "name": "clearCache",
+            "summary": "",
+            "url": "classes/SmrAlliance.html#method_clearCache"
+        },                {
             "fqsen": "\\SmrAlliance\u003A\u003AgetAlliance\u0028\u0029",
             "name": "getAlliance",
             "summary": "",
@@ -6040,6 +6050,11 @@ Search.appendIndex(
             "name": "isNone",
             "summary": "Returns\u0020true\u0020if\u0020the\u0020alliance\u0020ID\u0020is\u0020associated\u0020with\u0020allianceless\u0020players.",
             "url": "classes/SmrAlliance.html#method_isNone"
+        },                {
+            "fqsen": "\\SmrAlliance\u003A\u003AisNHA\u0028\u0029",
+            "name": "isNHA",
+            "summary": "Returns\u0020true\u0020if\u0020the\u0020alliance\u0020is\u0020the\u0020Newbie\u0020Help\u0020Alliance.",
+            "url": "classes/SmrAlliance.html#method_isNHA"
         },                {
             "fqsen": "\\SmrAlliance\u003A\u003AgetAllianceID\u0028\u0029",
             "name": "getAllianceID",
