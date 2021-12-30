@@ -113,11 +113,12 @@
 
             <div class="phpdocumentor-column -eight phpdocumentor-content">
                     <ul class="phpdocumentor-breadcrumbs">
+            <li class="phpdocumentor-breadcrumb"><a href="namespaces/smr.html">Smr</a></li>
     </ul>
 
     <article class="phpdocumentor-element -class">
         <h2 class="phpdocumentor-content__title">
-    Distance
+    Path
 
     
             <div class="phpdocumentor-element__package">
@@ -131,9 +132,9 @@
     </h2>
 
         <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/Distance.class.php"><a href="files/src-lib-default-distance-class.html"><abbr title="src/lib/Default/Distance.class.php">Distance.class.php</abbr></a></abbr>
+    <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Path.php"><a href="files/src-lib-smr-path.html"><abbr title="src/lib/Smr/Path.php">Path.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">7</span>
+    <span class="phpdocumentor-element-found-in__line">9</span>
 
     </aside>
 
@@ -156,173 +157,132 @@
 
 <dl class="phpdocumentor-table-of-contents">
                     <dt class="phpdocumentor-table-of-contents__entry -property -private">
-    <a href="classes/Distance.html#property_distance">$distance</a>
+    <a href="classes/Smr-Path.html#property_numWarps">$numWarps</a>
     <span>
                         &nbsp;: int            </span>
 </dt>
 <dd></dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -property -private">
-    <a href="classes/Distance.html#property_gameID">$gameID</a>
-    <span>
-                        &nbsp;: int            </span>
-</dt>
-<dd></dd>
-
-            <dt class="phpdocumentor-table-of-contents__entry -property -private">
-    <a href="classes/Distance.html#property_numWarps">$numWarps</a>
-    <span>
-                        &nbsp;: int            </span>
-</dt>
-<dd></dd>
-
-            <dt class="phpdocumentor-table-of-contents__entry -property -private">
-    <a href="classes/Distance.html#property_path">$path</a>
+    <a href="classes/Smr-Path.html#property_path">$path</a>
     <span>
                         &nbsp;: array&lt;string|int, mixed&gt;            </span>
 </dt>
 <dd></dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -property -private">
-    <a href="classes/Distance.html#property_warpMap">$warpMap</a>
+    <a href="classes/Smr-Path.html#property_warpMap">$warpMap</a>
     <span>
                         &nbsp;: array&lt;string|int, mixed&gt;            </span>
 </dt>
 <dd></dd>
 
                 <dt class="phpdocumentor-table-of-contents__entry -method -public">
-    <a href="classes/Distance.html#method___construct">__construct()</a>
+    <a href="classes/Smr-Path.html#method___construct">__construct()</a>
     <span>
                                 &nbsp;: mixed    </span>
 </dt>
 <dd></dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
-    <a href="classes/Distance.html#method_addToPath">addToPath()</a>
+    <a href="classes/Smr-Path.html#method_addLink">addLink()</a>
+    <span>
+                                &nbsp;: void    </span>
+</dt>
+<dd>Add a neighboring sector to the path.</dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a href="classes/Smr-Path.html#method_addWarp">addWarp()</a>
+    <span>
+                                &nbsp;: void    </span>
+</dt>
+<dd>Add a warp to the path.</dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a href="classes/Smr-Path.html#method_followPath">followPath()</a>
     <span>
                                 &nbsp;: void    </span>
 </dt>
 <dd></dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
-    <a href="classes/Distance.html#method_addWarpToPath">addWarpToPath()</a>
-    <span>
-                                &nbsp;: void    </span>
-</dt>
-<dd></dd>
-
-            <dt class="phpdocumentor-table-of-contents__entry -method -public">
-    <a href="classes/Distance.html#method_followPath">followPath()</a>
-    <span>
-                                &nbsp;: void    </span>
-</dt>
-<dd></dd>
-
-            <dt class="phpdocumentor-table-of-contents__entry -method -public">
-    <a href="classes/Distance.html#method_getDistance">getDistance()</a>
+    <a href="classes/Smr-Path.html#method_getDistance">getDistance()</a>
     <span>
                                 &nbsp;: int    </span>
 </dt>
 <dd></dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
-    <a href="classes/Distance.html#method_getEndSector">getEndSector()</a>
-    <span>
-                                &nbsp;: <a href="classes/SmrSector.html"><abbr title="\SmrSector">SmrSector</abbr></a>    </span>
-</dt>
-<dd></dd>
-
-            <dt class="phpdocumentor-table-of-contents__entry -method -public">
-    <a href="classes/Distance.html#method_getEndSectorID">getEndSectorID()</a>
+    <a href="classes/Smr-Path.html#method_getEndSectorID">getEndSectorID()</a>
     <span>
                                 &nbsp;: int    </span>
 </dt>
 <dd></dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
-    <a href="classes/Distance.html#method_getNextOnPath">getNextOnPath()</a>
+    <a href="classes/Smr-Path.html#method_getLength">getLength()</a>
+    <span>
+                                &nbsp;: int    </span>
+</dt>
+<dd>Returns the number of sectors to get to the end of the path
+(does not include the start sector).</dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a href="classes/Smr-Path.html#method_getNextOnPath">getNextOnPath()</a>
     <span>
                                 &nbsp;: int    </span>
 </dt>
 <dd></dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
-    <a href="classes/Distance.html#method_getNumWarps">getNumWarps()</a>
+    <a href="classes/Smr-Path.html#method_getNumWarps">getNumWarps()</a>
     <span>
                                 &nbsp;: int    </span>
 </dt>
 <dd></dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
-    <a href="classes/Distance.html#method_getPath">getPath()</a>
+    <a href="classes/Smr-Path.html#method_getPath">getPath()</a>
     <span>
                                 &nbsp;: array&lt;string|int, mixed&gt;    </span>
 </dt>
 <dd></dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
-    <a href="classes/Distance.html#method_getRelativeDistance">getRelativeDistance()</a>
+    <a href="classes/Smr-Path.html#method_getStartSectorID">getStartSectorID()</a>
     <span>
                                 &nbsp;: int    </span>
 </dt>
 <dd></dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
-    <a href="classes/Distance.html#method_getTotalSectors">getTotalSectors()</a>
+    <a href="classes/Smr-Path.html#method_getTurns">getTurns()</a>
     <span>
                                 &nbsp;: int    </span>
 </dt>
 <dd></dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
-    <a href="classes/Distance.html#method_getTurns">getTurns()</a>
-    <span>
-                                &nbsp;: int    </span>
-</dt>
-<dd></dd>
-
-            <dt class="phpdocumentor-table-of-contents__entry -method -public">
-    <a href="classes/Distance.html#method_isInPath">isInPath()</a>
+    <a href="classes/Smr-Path.html#method_isInPath">isInPath()</a>
     <span>
                                 &nbsp;: bool    </span>
 </dt>
 <dd></dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
-    <a href="classes/Distance.html#method_removeStart">removeStart()</a>
-    <span>
-                                &nbsp;: int    </span>
-</dt>
-<dd></dd>
-
-            <dt class="phpdocumentor-table-of-contents__entry -method -public">
-    <a href="classes/Distance.html#method_reversePath">reversePath()</a>
+    <a href="classes/Smr-Path.html#method_reversePath">reversePath()</a>
     <span>
                                 &nbsp;: void    </span>
 </dt>
 <dd></dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
-    <a href="classes/Distance.html#method_skipToSector">skipToSector()</a>
+    <a href="classes/Smr-Path.html#method_skipToSector">skipToSector()</a>
     <span>
                                 &nbsp;: self    </span>
 </dt>
 <dd>If the given sector is in the path, then return the segment
 of the path that comes after the given sector.</dd>
-
-            <dt class="phpdocumentor-table-of-contents__entry -method -protected">
-    <a href="classes/Distance.html#method_incrementDistance">incrementDistance()</a>
-    <span>
-                                &nbsp;: void    </span>
-</dt>
-<dd></dd>
-
-            <dt class="phpdocumentor-table-of-contents__entry -method -protected">
-    <a href="classes/Distance.html#method_incrementNumWarps">incrementNumWarps()</a>
-    <span>
-                                &nbsp;: void    </span>
-</dt>
-<dd></dd>
 
         </dl>
 
@@ -334,76 +294,8 @@ of the path that comes after the given sector.</dd>
     <section class="phpdocumentor-properties">
         <h3 class="phpdocumentor-elements__header" id="properties">
             Properties
-            <a href="classes/Distance.html#properties" class="headerlink"><i class="fas fa-link"></i></a>
+            <a href="classes/Smr-Path.html#properties" class="headerlink"><i class="fas fa-link"></i></a>
         </h3>
-                    <article
-        class="
-            phpdocumentor-element
-            -property
-            -private
-                                                        "
->
-    <h4 class="phpdocumentor-element__name" id="property_distance">
-        $distance
-        <a href="classes/Distance.html#property_distance" class="headerlink"><i class="fas fa-link"></i></a>
-        <span class="phpdocumentor-element__modifiers">
-                                </span>
-    </h4>
-    <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/Distance.class.php"><a href="files/src-lib-default-distance-class.html"><abbr title="src/lib/Default/Distance.class.php">Distance.class.php</abbr></a></abbr>
-    :
-    <span class="phpdocumentor-element-found-in__line">9</span>
-
-    </aside>
-
-    
-    <code class="phpdocumentor-code phpdocumentor-signature ">
-    <span class="phpdocumentor-signature__visibility">private</span>
-        <span class="phpdocumentor-signature__type">int</span>
-    <span class="phpdocumentor-signature__name">$distance</span>
-     = <span class="phpdocumentor-signature__default-value">-1</span></code>
-
-        <section class="phpdocumentor-description"></section>
-
-        <section class="phpdocumentor-description"></section>
-
-    
-
-</article>
-                    <article
-        class="
-            phpdocumentor-element
-            -property
-            -private
-                                                        "
->
-    <h4 class="phpdocumentor-element__name" id="property_gameID">
-        $gameID
-        <a href="classes/Distance.html#property_gameID" class="headerlink"><i class="fas fa-link"></i></a>
-        <span class="phpdocumentor-element__modifiers">
-                                </span>
-    </h4>
-    <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/Distance.class.php"><a href="files/src-lib-default-distance-class.html"><abbr title="src/lib/Default/Distance.class.php">Distance.class.php</abbr></a></abbr>
-    :
-    <span class="phpdocumentor-element-found-in__line">8</span>
-
-    </aside>
-
-    
-    <code class="phpdocumentor-code phpdocumentor-signature ">
-    <span class="phpdocumentor-signature__visibility">private</span>
-        <span class="phpdocumentor-signature__type">int</span>
-    <span class="phpdocumentor-signature__name">$gameID</span>
-    </code>
-
-        <section class="phpdocumentor-description"></section>
-
-        <section class="phpdocumentor-description"></section>
-
-    
-
-</article>
                     <article
         class="
             phpdocumentor-element
@@ -413,14 +305,14 @@ of the path that comes after the given sector.</dd>
 >
     <h4 class="phpdocumentor-element__name" id="property_numWarps">
         $numWarps
-        <a href="classes/Distance.html#property_numWarps" class="headerlink"><i class="fas fa-link"></i></a>
+        <a href="classes/Smr-Path.html#property_numWarps" class="headerlink"><i class="fas fa-link"></i></a>
         <span class="phpdocumentor-element__modifiers">
                                 </span>
     </h4>
     <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/Distance.class.php"><a href="files/src-lib-default-distance-class.html"><abbr title="src/lib/Default/Distance.class.php">Distance.class.php</abbr></a></abbr>
+    <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Path.php"><a href="files/src-lib-smr-path.html"><abbr title="src/lib/Smr/Path.php">Path.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">10</span>
+    <span class="phpdocumentor-element-found-in__line">11</span>
 
     </aside>
 
@@ -447,14 +339,14 @@ of the path that comes after the given sector.</dd>
 >
     <h4 class="phpdocumentor-element__name" id="property_path">
         $path
-        <a href="classes/Distance.html#property_path" class="headerlink"><i class="fas fa-link"></i></a>
+        <a href="classes/Smr-Path.html#property_path" class="headerlink"><i class="fas fa-link"></i></a>
         <span class="phpdocumentor-element__modifiers">
                                 </span>
     </h4>
     <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/Distance.class.php"><a href="files/src-lib-default-distance-class.html"><abbr title="src/lib/Default/Distance.class.php">Distance.class.php</abbr></a></abbr>
+    <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Path.php"><a href="files/src-lib-smr-path.html"><abbr title="src/lib/Smr/Path.php">Path.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">11</span>
+    <span class="phpdocumentor-element-found-in__line">10</span>
 
     </aside>
 
@@ -463,7 +355,7 @@ of the path that comes after the given sector.</dd>
     <span class="phpdocumentor-signature__visibility">private</span>
         <span class="phpdocumentor-signature__type">array&lt;string|int, mixed&gt;</span>
     <span class="phpdocumentor-signature__name">$path</span>
-     = <span class="phpdocumentor-signature__default-value">[]</span></code>
+    </code>
 
         <section class="phpdocumentor-description"></section>
 
@@ -481,12 +373,12 @@ of the path that comes after the given sector.</dd>
 >
     <h4 class="phpdocumentor-element__name" id="property_warpMap">
         $warpMap
-        <a href="classes/Distance.html#property_warpMap" class="headerlink"><i class="fas fa-link"></i></a>
+        <a href="classes/Smr-Path.html#property_warpMap" class="headerlink"><i class="fas fa-link"></i></a>
         <span class="phpdocumentor-element__modifiers">
                                 </span>
     </h4>
     <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/Distance.class.php"><a href="files/src-lib-default-distance-class.html"><abbr title="src/lib/Default/Distance.class.php">Distance.class.php</abbr></a></abbr>
+    <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Path.php"><a href="files/src-lib-smr-path.html"><abbr title="src/lib/Smr/Path.php">Path.php</abbr></a></abbr>
     :
     <span class="phpdocumentor-element-found-in__line">12</span>
 
@@ -511,7 +403,7 @@ of the path that comes after the given sector.</dd>
             <section class="phpdocumentor-methods">
         <h3 class="phpdocumentor-elements__header" id="methods">
             Methods
-            <a href="classes/Distance.html#methods" class="headerlink"><i class="fas fa-link"></i></a>
+            <a href="classes/Smr-Path.html#methods" class="headerlink"><i class="fas fa-link"></i></a>
         </h3>
                     <article
         class="phpdocumentor-element
@@ -521,10 +413,10 @@ of the path that comes after the given sector.</dd>
 >
     <h4 class="phpdocumentor-element__name" id="method___construct">
         __construct()
-        <a href="classes/Distance.html#method___construct" class="headerlink"><i class="fas fa-link"></i></a>
+        <a href="classes/Smr-Path.html#method___construct" class="headerlink"><i class="fas fa-link"></i></a>
     </h4>
     <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/Distance.class.php"><a href="files/src-lib-default-distance-class.html"><abbr title="src/lib/Default/Distance.class.php">Distance.class.php</abbr></a></abbr>
+    <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Path.php"><a href="files/src-lib-smr-path.html"><abbr title="src/lib/Smr/Path.php">Path.php</abbr></a></abbr>
     :
     <span class="phpdocumentor-element-found-in__line">14</span>
 
@@ -533,22 +425,14 @@ of the path that comes after the given sector.</dd>
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">public</span>
-                <span class="phpdocumentor-signature__name">__construct</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type">int&nbsp;</span><span class="phpdocumentor-signature__argument__name">$gameID</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__return-type">int&nbsp;</span><span class="phpdocumentor-signature__argument__name">$_startSectorId</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">mixed</span></code>
+                <span class="phpdocumentor-signature__name">__construct</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type">int&nbsp;</span><span class="phpdocumentor-signature__argument__name">$startSectorID</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">mixed</span></code>
 
         <section class="phpdocumentor-description"></section>
 
         <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
     <dl class="phpdocumentor-argument-list">
                     <dt class="phpdocumentor-argument-list__entry">
-                <span class="phpdocumentor-signature__argument__name">$gameID</span>
-                : <span class="phpdocumentor-signature__argument__return-type">int</span>
-                            </dt>
-            <dd class="phpdocumentor-argument-list__definition">
-                    <section class="phpdocumentor-description"></section>
-
-            </dd>
-                    <dt class="phpdocumentor-argument-list__entry">
-                <span class="phpdocumentor-signature__argument__name">$_startSectorId</span>
+                <span class="phpdocumentor-signature__argument__name">$startSectorID</span>
                 : <span class="phpdocumentor-signature__argument__return-type">int</span>
                             </dt>
             <dd class="phpdocumentor-argument-list__definition">
@@ -571,24 +455,24 @@ of the path that comes after the given sector.</dd>
             -public
                                                         "
 >
-    <h4 class="phpdocumentor-element__name" id="method_addToPath">
-        addToPath()
-        <a href="classes/Distance.html#method_addToPath" class="headerlink"><i class="fas fa-link"></i></a>
+    <h4 class="phpdocumentor-element__name" id="method_addLink">
+        addLink()
+        <a href="classes/Smr-Path.html#method_addLink" class="headerlink"><i class="fas fa-link"></i></a>
     </h4>
     <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/Distance.class.php"><a href="files/src-lib-default-distance-class.html"><abbr title="src/lib/Default/Distance.class.php">Distance.class.php</abbr></a></abbr>
+    <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Path.php"><a href="files/src-lib-smr-path.html"><abbr title="src/lib/Smr/Path.php">Path.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">65</span>
+    <span class="phpdocumentor-element-found-in__line">55</span>
 
     </aside>
 
-    
+        <p class="phpdocumentor-summary">Add a neighboring sector to the path.</p>
+
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">public</span>
-                <span class="phpdocumentor-signature__name">addToPath</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type">int&nbsp;</span><span class="phpdocumentor-signature__argument__name">$nextSector</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">void</span></code>
+                <span class="phpdocumentor-signature__name">addLink</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type">int&nbsp;</span><span class="phpdocumentor-signature__argument__name">$nextSector</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">void</span></code>
 
-        <section class="phpdocumentor-description"></section>
-
+    
         <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
     <dl class="phpdocumentor-argument-list">
                     <dt class="phpdocumentor-argument-list__entry">
@@ -615,36 +499,28 @@ of the path that comes after the given sector.</dd>
             -public
                                                         "
 >
-    <h4 class="phpdocumentor-element__name" id="method_addWarpToPath">
-        addWarpToPath()
-        <a href="classes/Distance.html#method_addWarpToPath" class="headerlink"><i class="fas fa-link"></i></a>
+    <h4 class="phpdocumentor-element__name" id="method_addWarp">
+        addWarp()
+        <a href="classes/Smr-Path.html#method_addWarp" class="headerlink"><i class="fas fa-link"></i></a>
     </h4>
     <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/Distance.class.php"><a href="files/src-lib-default-distance-class.html"><abbr title="src/lib/Default/Distance.class.php">Distance.class.php</abbr></a></abbr>
+    <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Path.php"><a href="files/src-lib-smr-path.html"><abbr title="src/lib/Smr/Path.php">Path.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">70</span>
+    <span class="phpdocumentor-element-found-in__line">62</span>
 
     </aside>
 
-    
+        <p class="phpdocumentor-summary">Add a warp to the path.</p>
+
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">public</span>
-                <span class="phpdocumentor-signature__name">addWarpToPath</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type">int&nbsp;</span><span class="phpdocumentor-signature__argument__name">$sectorAfterWarp</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__return-type">int&nbsp;</span><span class="phpdocumentor-signature__argument__name">$sectorBeforeWarp</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">void</span></code>
+                <span class="phpdocumentor-signature__name">addWarp</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type">int&nbsp;</span><span class="phpdocumentor-signature__argument__name">$nextSector</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">void</span></code>
 
-        <section class="phpdocumentor-description"></section>
-
+    
         <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
     <dl class="phpdocumentor-argument-list">
                     <dt class="phpdocumentor-argument-list__entry">
-                <span class="phpdocumentor-signature__argument__name">$sectorAfterWarp</span>
-                : <span class="phpdocumentor-signature__argument__return-type">int</span>
-                            </dt>
-            <dd class="phpdocumentor-argument-list__definition">
-                    <section class="phpdocumentor-description"></section>
-
-            </dd>
-                    <dt class="phpdocumentor-argument-list__entry">
-                <span class="phpdocumentor-signature__argument__name">$sectorBeforeWarp</span>
+                <span class="phpdocumentor-signature__argument__name">$nextSector</span>
                 : <span class="phpdocumentor-signature__argument__return-type">int</span>
                             </dt>
             <dd class="phpdocumentor-argument-list__definition">
@@ -669,12 +545,12 @@ of the path that comes after the given sector.</dd>
 >
     <h4 class="phpdocumentor-element__name" id="method_followPath">
         followPath()
-        <a href="classes/Distance.html#method_followPath" class="headerlink"><i class="fas fa-link"></i></a>
+        <a href="classes/Smr-Path.html#method_followPath" class="headerlink"><i class="fas fa-link"></i></a>
     </h4>
     <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/Distance.class.php"><a href="files/src-lib-default-distance-class.html"><abbr title="src/lib/Default/Distance.class.php">Distance.class.php</abbr></a></abbr>
+    <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Path.php"><a href="files/src-lib-smr-path.html"><abbr title="src/lib/Smr/Path.php">Path.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">80</span>
+    <span class="phpdocumentor-element-found-in__line">76</span>
 
     </aside>
 
@@ -702,12 +578,12 @@ of the path that comes after the given sector.</dd>
 >
     <h4 class="phpdocumentor-element__name" id="method_getDistance">
         getDistance()
-        <a href="classes/Distance.html#method_getDistance" class="headerlink"><i class="fas fa-link"></i></a>
+        <a href="classes/Smr-Path.html#method_getDistance" class="headerlink"><i class="fas fa-link"></i></a>
     </h4>
     <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/Distance.class.php"><a href="files/src-lib-default-distance-class.html"><abbr title="src/lib/Default/Distance.class.php">Distance.class.php</abbr></a></abbr>
+    <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Path.php"><a href="files/src-lib-smr-path.html"><abbr title="src/lib/Smr/Path.php">Path.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">27</span>
+    <span class="phpdocumentor-element-found-in__line">34</span>
 
     </aside>
 
@@ -733,47 +609,14 @@ of the path that comes after the given sector.</dd>
             -public
                                                         "
 >
-    <h4 class="phpdocumentor-element__name" id="method_getEndSector">
-        getEndSector()
-        <a href="classes/Distance.html#method_getEndSector" class="headerlink"><i class="fas fa-link"></i></a>
-    </h4>
-    <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/Distance.class.php"><a href="files/src-lib-default-distance-class.html"><abbr title="src/lib/Default/Distance.class.php">Distance.class.php</abbr></a></abbr>
-    :
-    <span class="phpdocumentor-element-found-in__line">51</span>
-
-    </aside>
-
-    
-    <code class="phpdocumentor-code phpdocumentor-signature ">
-    <span class="phpdocumentor-signature__visibility">public</span>
-                <span class="phpdocumentor-signature__name">getEndSector</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type"><a href="classes/SmrSector.html"><abbr title="\SmrSector">SmrSector</abbr></a></span></code>
-
-        <section class="phpdocumentor-description"></section>
-
-    
-    
-
-        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
-    <span class="phpdocumentor-signature__response_type"><a href="classes/SmrSector.html"><abbr title="\SmrSector">SmrSector</abbr></a></span>
-            &mdash;
-        
-    
-</article>
-                    <article
-        class="phpdocumentor-element
-            -method
-            -public
-                                                        "
->
     <h4 class="phpdocumentor-element__name" id="method_getEndSectorID">
         getEndSectorID()
-        <a href="classes/Distance.html#method_getEndSectorID" class="headerlink"><i class="fas fa-link"></i></a>
+        <a href="classes/Smr-Path.html#method_getEndSectorID" class="headerlink"><i class="fas fa-link"></i></a>
     </h4>
     <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/Distance.class.php"><a href="files/src-lib-default-distance-class.html"><abbr title="src/lib/Default/Distance.class.php">Distance.class.php</abbr></a></abbr>
+    <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Path.php"><a href="files/src-lib-smr-path.html"><abbr title="src/lib/Smr/Path.php">Path.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">47</span>
+    <span class="phpdocumentor-element-found-in__line">38</span>
 
     </aside>
 
@@ -799,14 +642,48 @@ of the path that comes after the given sector.</dd>
             -public
                                                         "
 >
-    <h4 class="phpdocumentor-element__name" id="method_getNextOnPath">
-        getNextOnPath()
-        <a href="classes/Distance.html#method_getNextOnPath" class="headerlink"><i class="fas fa-link"></i></a>
+    <h4 class="phpdocumentor-element__name" id="method_getLength">
+        getLength()
+        <a href="classes/Smr-Path.html#method_getLength" class="headerlink"><i class="fas fa-link"></i></a>
     </h4>
     <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/Distance.class.php"><a href="files/src-lib-default-distance-class.html"><abbr title="src/lib/Default/Distance.class.php">Distance.class.php</abbr></a></abbr>
+    <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Path.php"><a href="files/src-lib-smr-path.html"><abbr title="src/lib/Smr/Path.php">Path.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">76</span>
+    <span class="phpdocumentor-element-found-in__line">22</span>
+
+    </aside>
+
+        <p class="phpdocumentor-summary">Returns the number of sectors to get to the end of the path
+(does not include the start sector).</p>
+
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+                <span class="phpdocumentor-signature__name">getLength</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">int</span></code>
+
+    
+    
+    
+
+        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
+    <span class="phpdocumentor-signature__response_type">int</span>
+            &mdash;
+        
+    
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="method_getNextOnPath">
+        getNextOnPath()
+        <a href="classes/Smr-Path.html#method_getNextOnPath" class="headerlink"><i class="fas fa-link"></i></a>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Path.php"><a href="files/src-lib-smr-path.html"><abbr title="src/lib/Smr/Path.php">Path.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">68</span>
 
     </aside>
 
@@ -834,12 +711,12 @@ of the path that comes after the given sector.</dd>
 >
     <h4 class="phpdocumentor-element__name" id="method_getNumWarps">
         getNumWarps()
-        <a href="classes/Distance.html#method_getNumWarps" class="headerlink"><i class="fas fa-link"></i></a>
+        <a href="classes/Smr-Path.html#method_getNumWarps" class="headerlink"><i class="fas fa-link"></i></a>
     </h4>
     <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/Distance.class.php"><a href="files/src-lib-default-distance-class.html"><abbr title="src/lib/Default/Distance.class.php">Distance.class.php</abbr></a></abbr>
+    <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Path.php"><a href="files/src-lib-smr-path.html"><abbr title="src/lib/Smr/Path.php">Path.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">35</span>
+    <span class="phpdocumentor-element-found-in__line">26</span>
 
     </aside>
 
@@ -867,12 +744,12 @@ of the path that comes after the given sector.</dd>
 >
     <h4 class="phpdocumentor-element__name" id="method_getPath">
         getPath()
-        <a href="classes/Distance.html#method_getPath" class="headerlink"><i class="fas fa-link"></i></a>
+        <a href="classes/Smr-Path.html#method_getPath" class="headerlink"><i class="fas fa-link"></i></a>
     </h4>
     <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/Distance.class.php"><a href="files/src-lib-default-distance-class.html"><abbr title="src/lib/Default/Distance.class.php">Distance.class.php</abbr></a></abbr>
+    <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Path.php"><a href="files/src-lib-smr-path.html"><abbr title="src/lib/Smr/Path.php">Path.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">55</span>
+    <span class="phpdocumentor-element-found-in__line">42</span>
 
     </aside>
 
@@ -898,54 +775,21 @@ of the path that comes after the given sector.</dd>
             -public
                                                         "
 >
-    <h4 class="phpdocumentor-element__name" id="method_getRelativeDistance">
-        getRelativeDistance()
-        <a href="classes/Distance.html#method_getRelativeDistance" class="headerlink"><i class="fas fa-link"></i></a>
+    <h4 class="phpdocumentor-element__name" id="method_getStartSectorID">
+        getStartSectorID()
+        <a href="classes/Smr-Path.html#method_getStartSectorID" class="headerlink"><i class="fas fa-link"></i></a>
     </h4>
     <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/Distance.class.php"><a href="files/src-lib-default-distance-class.html"><abbr title="src/lib/Default/Distance.class.php">Distance.class.php</abbr></a></abbr>
+    <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Path.php"><a href="files/src-lib-smr-path.html"><abbr title="src/lib/Smr/Path.php">Path.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">43</span>
+    <span class="phpdocumentor-element-found-in__line">72</span>
 
     </aside>
 
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">public</span>
-                <span class="phpdocumentor-signature__name">getRelativeDistance</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">int</span></code>
-
-        <section class="phpdocumentor-description"></section>
-
-    
-    
-
-        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
-    <span class="phpdocumentor-signature__response_type">int</span>
-            &mdash;
-        
-    
-</article>
-                    <article
-        class="phpdocumentor-element
-            -method
-            -public
-                                                        "
->
-    <h4 class="phpdocumentor-element__name" id="method_getTotalSectors">
-        getTotalSectors()
-        <a href="classes/Distance.html#method_getTotalSectors" class="headerlink"><i class="fas fa-link"></i></a>
-    </h4>
-    <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/Distance.class.php"><a href="files/src-lib-default-distance-class.html"><abbr title="src/lib/Default/Distance.class.php">Distance.class.php</abbr></a></abbr>
-    :
-    <span class="phpdocumentor-element-found-in__line">31</span>
-
-    </aside>
-
-    
-    <code class="phpdocumentor-code phpdocumentor-signature ">
-    <span class="phpdocumentor-signature__visibility">public</span>
-                <span class="phpdocumentor-signature__name">getTotalSectors</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">int</span></code>
+                <span class="phpdocumentor-signature__name">getStartSectorID</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">int</span></code>
 
         <section class="phpdocumentor-description"></section>
 
@@ -966,12 +810,12 @@ of the path that comes after the given sector.</dd>
 >
     <h4 class="phpdocumentor-element__name" id="method_getTurns">
         getTurns()
-        <a href="classes/Distance.html#method_getTurns" class="headerlink"><i class="fas fa-link"></i></a>
+        <a href="classes/Smr-Path.html#method_getTurns" class="headerlink"><i class="fas fa-link"></i></a>
     </h4>
     <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/Distance.class.php"><a href="files/src-lib-default-distance-class.html"><abbr title="src/lib/Default/Distance.class.php">Distance.class.php</abbr></a></abbr>
+    <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Path.php"><a href="files/src-lib-smr-path.html"><abbr title="src/lib/Smr/Path.php">Path.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">39</span>
+    <span class="phpdocumentor-element-found-in__line">30</span>
 
     </aside>
 
@@ -999,12 +843,12 @@ of the path that comes after the given sector.</dd>
 >
     <h4 class="phpdocumentor-element__name" id="method_isInPath">
         isInPath()
-        <a href="classes/Distance.html#method_isInPath" class="headerlink"><i class="fas fa-link"></i></a>
+        <a href="classes/Smr-Path.html#method_isInPath" class="headerlink"><i class="fas fa-link"></i></a>
     </h4>
     <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/Distance.class.php"><a href="files/src-lib-default-distance-class.html"><abbr title="src/lib/Default/Distance.class.php">Distance.class.php</abbr></a></abbr>
+    <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Path.php"><a href="files/src-lib-smr-path.html"><abbr title="src/lib/Smr/Path.php">Path.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">93</span>
+    <span class="phpdocumentor-element-found-in__line">84</span>
 
     </aside>
 
@@ -1041,47 +885,14 @@ of the path that comes after the given sector.</dd>
             -public
                                                         "
 >
-    <h4 class="phpdocumentor-element__name" id="method_removeStart">
-        removeStart()
-        <a href="classes/Distance.html#method_removeStart" class="headerlink"><i class="fas fa-link"></i></a>
-    </h4>
-    <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/Distance.class.php"><a href="files/src-lib-default-distance-class.html"><abbr title="src/lib/Default/Distance.class.php">Distance.class.php</abbr></a></abbr>
-    :
-    <span class="phpdocumentor-element-found-in__line">89</span>
-
-    </aside>
-
-    
-    <code class="phpdocumentor-code phpdocumentor-signature ">
-    <span class="phpdocumentor-signature__visibility">public</span>
-                <span class="phpdocumentor-signature__name">removeStart</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">int</span></code>
-
-        <section class="phpdocumentor-description"></section>
-
-    
-    
-
-        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
-    <span class="phpdocumentor-signature__response_type">int</span>
-            &mdash;
-        
-    
-</article>
-                    <article
-        class="phpdocumentor-element
-            -method
-            -public
-                                                        "
->
     <h4 class="phpdocumentor-element__name" id="method_reversePath">
         reversePath()
-        <a href="classes/Distance.html#method_reversePath" class="headerlink"><i class="fas fa-link"></i></a>
+        <a href="classes/Smr-Path.html#method_reversePath" class="headerlink"><i class="fas fa-link"></i></a>
     </h4>
     <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/Distance.class.php"><a href="files/src-lib-default-distance-class.html"><abbr title="src/lib/Default/Distance.class.php">Distance.class.php</abbr></a></abbr>
+    <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Path.php"><a href="files/src-lib-smr-path.html"><abbr title="src/lib/Smr/Path.php">Path.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">60</span>
+    <span class="phpdocumentor-element-found-in__line">47</span>
 
     </aside>
 
@@ -1109,12 +920,12 @@ of the path that comes after the given sector.</dd>
 >
     <h4 class="phpdocumentor-element__name" id="method_skipToSector">
         skipToSector()
-        <a href="classes/Distance.html#method_skipToSector" class="headerlink"><i class="fas fa-link"></i></a>
+        <a href="classes/Smr-Path.html#method_skipToSector" class="headerlink"><i class="fas fa-link"></i></a>
     </h4>
     <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/Distance.class.php"><a href="files/src-lib-default-distance-class.html"><abbr title="src/lib/Default/Distance.class.php">Distance.class.php</abbr></a></abbr>
+    <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Path.php"><a href="files/src-lib-smr-path.html"><abbr title="src/lib/Smr/Path.php">Path.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">101</span>
+    <span class="phpdocumentor-element-found-in__line">92</span>
 
     </aside>
 
@@ -1142,72 +953,6 @@ of the path that comes after the given sector.</p>
 
         <h5 class="phpdocumentor-return-value__heading">Return values</h5>
     <span class="phpdocumentor-signature__response_type">self</span>
-            &mdash;
-        
-    
-</article>
-                    <article
-        class="phpdocumentor-element
-            -method
-            -protected
-                                                        "
->
-    <h4 class="phpdocumentor-element__name" id="method_incrementDistance">
-        incrementDistance()
-        <a href="classes/Distance.html#method_incrementDistance" class="headerlink"><i class="fas fa-link"></i></a>
-    </h4>
-    <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/Distance.class.php"><a href="files/src-lib-default-distance-class.html"><abbr title="src/lib/Default/Distance.class.php">Distance.class.php</abbr></a></abbr>
-    :
-    <span class="phpdocumentor-element-found-in__line">19</span>
-
-    </aside>
-
-    
-    <code class="phpdocumentor-code phpdocumentor-signature ">
-    <span class="phpdocumentor-signature__visibility">protected</span>
-                <span class="phpdocumentor-signature__name">incrementDistance</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">void</span></code>
-
-        <section class="phpdocumentor-description"></section>
-
-    
-    
-
-        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
-    <span class="phpdocumentor-signature__response_type">void</span>
-            &mdash;
-        
-    
-</article>
-                    <article
-        class="phpdocumentor-element
-            -method
-            -protected
-                                                        "
->
-    <h4 class="phpdocumentor-element__name" id="method_incrementNumWarps">
-        incrementNumWarps()
-        <a href="classes/Distance.html#method_incrementNumWarps" class="headerlink"><i class="fas fa-link"></i></a>
-    </h4>
-    <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/Distance.class.php"><a href="files/src-lib-default-distance-class.html"><abbr title="src/lib/Default/Distance.class.php">Distance.class.php</abbr></a></abbr>
-    :
-    <span class="phpdocumentor-element-found-in__line">23</span>
-
-    </aside>
-
-    
-    <code class="phpdocumentor-code phpdocumentor-signature ">
-    <span class="phpdocumentor-signature__visibility">protected</span>
-                <span class="phpdocumentor-signature__name">incrementNumWarps</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">void</span></code>
-
-        <section class="phpdocumentor-description"></section>
-
-    
-    
-
-        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
-    <span class="phpdocumentor-signature__response_type">void</span>
             &mdash;
         
     
@@ -1290,7 +1035,7 @@ of the path that comes after the given sector.</p>
 </section>
             </div>
         </div>
-        <a href="classes/Distance.html#top" class="phpdocumentor-back-to-top"><i class="fas fa-chevron-circle-up"></i></a>
+        <a href="classes/Smr-Path.html#top" class="phpdocumentor-back-to-top"><i class="fas fa-chevron-circle-up"></i></a>
 
     </main>
 

@@ -3126,11 +3126,6 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/AbstractSmrPlayer.html#property_plottedCourse"
         },                {
-            "fqsen": "\\AbstractSmrPlayer\u003A\u003A\u0024plottedCourseFrom",
-            "name": "plottedCourseFrom",
-            "summary": "",
-            "url": "classes/AbstractSmrPlayer.html#property_plottedCourseFrom"
-        },                {
             "fqsen": "\\AbstractSmrPlayer\u003A\u003A\u0024nameChanged",
             "name": "nameChanged",
             "summary": "",
@@ -4916,131 +4911,6 @@ Search.appendIndex(
             "summary": "",
             "url": "namespaces/default.html#function_checkPacts"
         },                {
-            "fqsen": "\\Distance",
-            "name": "Distance",
-            "summary": "Class\u0020used\u0020to\u0020keep\u0020track\u0020of\u0020paths\u0020between\u0020two\u0020sectors.",
-            "url": "classes/Distance.html"
-        },                {
-            "fqsen": "\\Distance\u003A\u003A__construct\u0028\u0029",
-            "name": "__construct",
-            "summary": "",
-            "url": "classes/Distance.html#method___construct"
-        },                {
-            "fqsen": "\\Distance\u003A\u003AincrementDistance\u0028\u0029",
-            "name": "incrementDistance",
-            "summary": "",
-            "url": "classes/Distance.html#method_incrementDistance"
-        },                {
-            "fqsen": "\\Distance\u003A\u003AincrementNumWarps\u0028\u0029",
-            "name": "incrementNumWarps",
-            "summary": "",
-            "url": "classes/Distance.html#method_incrementNumWarps"
-        },                {
-            "fqsen": "\\Distance\u003A\u003AgetDistance\u0028\u0029",
-            "name": "getDistance",
-            "summary": "",
-            "url": "classes/Distance.html#method_getDistance"
-        },                {
-            "fqsen": "\\Distance\u003A\u003AgetTotalSectors\u0028\u0029",
-            "name": "getTotalSectors",
-            "summary": "",
-            "url": "classes/Distance.html#method_getTotalSectors"
-        },                {
-            "fqsen": "\\Distance\u003A\u003AgetNumWarps\u0028\u0029",
-            "name": "getNumWarps",
-            "summary": "",
-            "url": "classes/Distance.html#method_getNumWarps"
-        },                {
-            "fqsen": "\\Distance\u003A\u003AgetTurns\u0028\u0029",
-            "name": "getTurns",
-            "summary": "",
-            "url": "classes/Distance.html#method_getTurns"
-        },                {
-            "fqsen": "\\Distance\u003A\u003AgetRelativeDistance\u0028\u0029",
-            "name": "getRelativeDistance",
-            "summary": "",
-            "url": "classes/Distance.html#method_getRelativeDistance"
-        },                {
-            "fqsen": "\\Distance\u003A\u003AgetEndSectorID\u0028\u0029",
-            "name": "getEndSectorID",
-            "summary": "",
-            "url": "classes/Distance.html#method_getEndSectorID"
-        },                {
-            "fqsen": "\\Distance\u003A\u003AgetEndSector\u0028\u0029",
-            "name": "getEndSector",
-            "summary": "",
-            "url": "classes/Distance.html#method_getEndSector"
-        },                {
-            "fqsen": "\\Distance\u003A\u003AgetPath\u0028\u0029",
-            "name": "getPath",
-            "summary": "",
-            "url": "classes/Distance.html#method_getPath"
-        },                {
-            "fqsen": "\\Distance\u003A\u003AreversePath\u0028\u0029",
-            "name": "reversePath",
-            "summary": "",
-            "url": "classes/Distance.html#method_reversePath"
-        },                {
-            "fqsen": "\\Distance\u003A\u003AaddToPath\u0028\u0029",
-            "name": "addToPath",
-            "summary": "",
-            "url": "classes/Distance.html#method_addToPath"
-        },                {
-            "fqsen": "\\Distance\u003A\u003AaddWarpToPath\u0028\u0029",
-            "name": "addWarpToPath",
-            "summary": "",
-            "url": "classes/Distance.html#method_addWarpToPath"
-        },                {
-            "fqsen": "\\Distance\u003A\u003AgetNextOnPath\u0028\u0029",
-            "name": "getNextOnPath",
-            "summary": "",
-            "url": "classes/Distance.html#method_getNextOnPath"
-        },                {
-            "fqsen": "\\Distance\u003A\u003AfollowPath\u0028\u0029",
-            "name": "followPath",
-            "summary": "",
-            "url": "classes/Distance.html#method_followPath"
-        },                {
-            "fqsen": "\\Distance\u003A\u003AremoveStart\u0028\u0029",
-            "name": "removeStart",
-            "summary": "",
-            "url": "classes/Distance.html#method_removeStart"
-        },                {
-            "fqsen": "\\Distance\u003A\u003AisInPath\u0028\u0029",
-            "name": "isInPath",
-            "summary": "",
-            "url": "classes/Distance.html#method_isInPath"
-        },                {
-            "fqsen": "\\Distance\u003A\u003AskipToSector\u0028\u0029",
-            "name": "skipToSector",
-            "summary": "If\u0020the\u0020given\u0020sector\u0020is\u0020in\u0020the\u0020path,\u0020then\u0020return\u0020the\u0020segment\nof\u0020the\u0020path\u0020that\u0020comes\u0020after\u0020the\u0020given\u0020sector.",
-            "url": "classes/Distance.html#method_skipToSector"
-        },                {
-            "fqsen": "\\Distance\u003A\u003A\u0024gameID",
-            "name": "gameID",
-            "summary": "",
-            "url": "classes/Distance.html#property_gameID"
-        },                {
-            "fqsen": "\\Distance\u003A\u003A\u0024distance",
-            "name": "distance",
-            "summary": "",
-            "url": "classes/Distance.html#property_distance"
-        },                {
-            "fqsen": "\\Distance\u003A\u003A\u0024numWarps",
-            "name": "numWarps",
-            "summary": "",
-            "url": "classes/Distance.html#property_numWarps"
-        },                {
-            "fqsen": "\\Distance\u003A\u003A\u0024path",
-            "name": "path",
-            "summary": "",
-            "url": "classes/Distance.html#property_path"
-        },                {
-            "fqsen": "\\Distance\u003A\u003A\u0024warpMap",
-            "name": "warpMap",
-            "summary": "",
-            "url": "classes/Distance.html#property_warpMap"
-        },                {
             "fqsen": "\\DummyPlayer",
             "name": "DummyPlayer",
             "summary": "",
@@ -5906,10 +5776,10 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/Routes-OneWayRoute.html#method_getBuyDi"
         },                {
-            "fqsen": "\\Routes\\OneWayRoute\u003A\u003AgetDistance\u0028\u0029",
-            "name": "getDistance",
+            "fqsen": "\\Routes\\OneWayRoute\u003A\u003AgetPath\u0028\u0029",
+            "name": "getPath",
             "summary": "",
-            "url": "classes/Routes-OneWayRoute.html#method_getDistance"
+            "url": "classes/Routes-OneWayRoute.html#method_getPath"
         },                {
             "fqsen": "\\Routes\\OneWayRoute\u003A\u003AgetGoodID\u0028\u0029",
             "name": "getGoodID",
@@ -5986,10 +5856,10 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/Routes-OneWayRoute.html#property_buyDi"
         },                {
-            "fqsen": "\\Routes\\OneWayRoute\u003A\u003A\u0024distance",
-            "name": "distance",
+            "fqsen": "\\Routes\\OneWayRoute\u003A\u003A\u0024path",
+            "name": "path",
             "summary": "",
-            "url": "classes/Routes-OneWayRoute.html#property_distance"
+            "url": "classes/Routes-OneWayRoute.html#property_path"
         },                {
             "fqsen": "\\Routes\\OneWayRoute\u003A\u003A\u0024goodId",
             "name": "goodId",
@@ -11930,6 +11800,101 @@ Search.appendIndex(
             "name": "UserError",
             "summary": "This\u0020exception\u0020should\u0020be\u0020used\u0020to\u0020pass\u0020an\u0020error\u0020message\u0020to\u0020the\u0020user.",
             "url": "classes/Smr-Exceptions-UserError.html"
+        },                {
+            "fqsen": "\\Smr\\Path",
+            "name": "Path",
+            "summary": "Class\u0020used\u0020to\u0020keep\u0020track\u0020of\u0020paths\u0020between\u0020two\u0020sectors.",
+            "url": "classes/Smr-Path.html"
+        },                {
+            "fqsen": "\\Smr\\Path\u003A\u003A__construct\u0028\u0029",
+            "name": "__construct",
+            "summary": "",
+            "url": "classes/Smr-Path.html#method___construct"
+        },                {
+            "fqsen": "\\Smr\\Path\u003A\u003AgetLength\u0028\u0029",
+            "name": "getLength",
+            "summary": "Returns\u0020the\u0020number\u0020of\u0020sectors\u0020to\u0020get\u0020to\u0020the\u0020end\u0020of\u0020the\u0020path\n\u0028does\u0020not\u0020include\u0020the\u0020start\u0020sector\u0029.",
+            "url": "classes/Smr-Path.html#method_getLength"
+        },                {
+            "fqsen": "\\Smr\\Path\u003A\u003AgetNumWarps\u0028\u0029",
+            "name": "getNumWarps",
+            "summary": "",
+            "url": "classes/Smr-Path.html#method_getNumWarps"
+        },                {
+            "fqsen": "\\Smr\\Path\u003A\u003AgetTurns\u0028\u0029",
+            "name": "getTurns",
+            "summary": "",
+            "url": "classes/Smr-Path.html#method_getTurns"
+        },                {
+            "fqsen": "\\Smr\\Path\u003A\u003AgetDistance\u0028\u0029",
+            "name": "getDistance",
+            "summary": "",
+            "url": "classes/Smr-Path.html#method_getDistance"
+        },                {
+            "fqsen": "\\Smr\\Path\u003A\u003AgetEndSectorID\u0028\u0029",
+            "name": "getEndSectorID",
+            "summary": "",
+            "url": "classes/Smr-Path.html#method_getEndSectorID"
+        },                {
+            "fqsen": "\\Smr\\Path\u003A\u003AgetPath\u0028\u0029",
+            "name": "getPath",
+            "summary": "",
+            "url": "classes/Smr-Path.html#method_getPath"
+        },                {
+            "fqsen": "\\Smr\\Path\u003A\u003AreversePath\u0028\u0029",
+            "name": "reversePath",
+            "summary": "",
+            "url": "classes/Smr-Path.html#method_reversePath"
+        },                {
+            "fqsen": "\\Smr\\Path\u003A\u003AaddLink\u0028\u0029",
+            "name": "addLink",
+            "summary": "Add\u0020a\u0020neighboring\u0020sector\u0020to\u0020the\u0020path.",
+            "url": "classes/Smr-Path.html#method_addLink"
+        },                {
+            "fqsen": "\\Smr\\Path\u003A\u003AaddWarp\u0028\u0029",
+            "name": "addWarp",
+            "summary": "Add\u0020a\u0020warp\u0020to\u0020the\u0020path.",
+            "url": "classes/Smr-Path.html#method_addWarp"
+        },                {
+            "fqsen": "\\Smr\\Path\u003A\u003AgetNextOnPath\u0028\u0029",
+            "name": "getNextOnPath",
+            "summary": "",
+            "url": "classes/Smr-Path.html#method_getNextOnPath"
+        },                {
+            "fqsen": "\\Smr\\Path\u003A\u003AgetStartSectorID\u0028\u0029",
+            "name": "getStartSectorID",
+            "summary": "",
+            "url": "classes/Smr-Path.html#method_getStartSectorID"
+        },                {
+            "fqsen": "\\Smr\\Path\u003A\u003AfollowPath\u0028\u0029",
+            "name": "followPath",
+            "summary": "",
+            "url": "classes/Smr-Path.html#method_followPath"
+        },                {
+            "fqsen": "\\Smr\\Path\u003A\u003AisInPath\u0028\u0029",
+            "name": "isInPath",
+            "summary": "",
+            "url": "classes/Smr-Path.html#method_isInPath"
+        },                {
+            "fqsen": "\\Smr\\Path\u003A\u003AskipToSector\u0028\u0029",
+            "name": "skipToSector",
+            "summary": "If\u0020the\u0020given\u0020sector\u0020is\u0020in\u0020the\u0020path,\u0020then\u0020return\u0020the\u0020segment\nof\u0020the\u0020path\u0020that\u0020comes\u0020after\u0020the\u0020given\u0020sector.",
+            "url": "classes/Smr-Path.html#method_skipToSector"
+        },                {
+            "fqsen": "\\Smr\\Path\u003A\u003A\u0024path",
+            "name": "path",
+            "summary": "",
+            "url": "classes/Smr-Path.html#property_path"
+        },                {
+            "fqsen": "\\Smr\\Path\u003A\u003A\u0024numWarps",
+            "name": "numWarps",
+            "summary": "",
+            "url": "classes/Smr-Path.html#property_numWarps"
+        },                {
+            "fqsen": "\\Smr\\Path\u003A\u003A\u0024warpMap",
+            "name": "warpMap",
+            "summary": "",
+            "url": "classes/Smr-Path.html#property_warpMap"
         },                {
             "fqsen": "\\Smr\\Race",
             "name": "Race",
