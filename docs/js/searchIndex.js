@@ -4861,16 +4861,6 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/AdminPermissions.html#constant_PERMISSION_CATEGORIES"
         },                {
-            "fqsen": "\\checkForLottoWinner\u0028\u0029",
-            "name": "checkForLottoWinner",
-            "summary": "",
-            "url": "namespaces/default.html#function_checkForLottoWinner"
-        },                {
-            "fqsen": "\\getLottoInfo\u0028\u0029",
-            "name": "getLottoInfo",
-            "summary": "",
-            "url": "namespaces/default.html#function_getLottoInfo"
-        },                {
             "fqsen": "\\Council",
             "name": "Council",
             "summary": "",
@@ -4900,16 +4890,6 @@ Search.appendIndex(
             "name": "PRESIDENTS",
             "summary": "",
             "url": "classes/Council.html#property_PRESIDENTS"
-        },                {
-            "fqsen": "\\modifyRelations\u0028\u0029",
-            "name": "modifyRelations",
-            "summary": "",
-            "url": "namespaces/default.html#function_modifyRelations"
-        },                {
-            "fqsen": "\\checkPacts\u0028\u0029",
-            "name": "checkPacts",
-            "summary": "",
-            "url": "namespaces/default.html#function_checkPacts"
         },                {
             "fqsen": "\\DummyPlayer",
             "name": "DummyPlayer",
@@ -5406,11 +5386,6 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/Globals.html#property_db"
         },                {
-            "fqsen": "\\getBounties\u0028\u0029",
-            "name": "getBounties",
-            "summary": "Returns\u0020a\u0020list\u0020of\u0020all\u0020active\u0020\u0028not\u0020claimable\u0029\u0020bounties\u0020for\u0020given\u0020location\u0020\u0024type.",
-            "url": "namespaces/default.html#function_getBounties"
-        },                {
             "fqsen": "\\echo_nav\u0028\u0029",
             "name": "echo_nav",
             "summary": "",
@@ -5436,60 +5411,10 @@ Search.appendIndex(
             "summary": "",
             "url": "namespaces/default.html#function_get_numbering"
         },                {
-            "fqsen": "\\getHofCategories\u0028\u0029",
-            "name": "getHofCategories",
-            "summary": "",
-            "url": "namespaces/default.html#function_getHofCategories"
-        },                {
-            "fqsen": "\\applyHofVisibilityMask\u0028\u0029",
-            "name": "applyHofVisibilityMask",
-            "summary": "Conditionally\u0020hide\u0020displayed\u0020HoF\u0020stat.",
-            "url": "namespaces/default.html#function_applyHofVisibilityMask"
-        },                {
-            "fqsen": "\\getHofRank\u0028\u0029",
-            "name": "getHofRank",
-            "summary": "",
-            "url": "namespaces/default.html#function_getHofRank"
-        },                {
-            "fqsen": "\\displayHOFRow\u0028\u0029",
-            "name": "displayHOFRow",
-            "summary": "",
-            "url": "namespaces/default.html#function_displayHOFRow"
-        },                {
-            "fqsen": "\\buildBreadcrumb\u0028\u0029",
-            "name": "buildBreadcrumb",
-            "summary": "",
-            "url": "namespaces/default.html#function_buildBreadcrumb"
-        },                {
-            "fqsen": "\\redirectIfDisabled\u0028\u0029",
-            "name": "redirectIfDisabled",
-            "summary": "",
-            "url": "namespaces/default.html#function_redirectIfDisabled"
-        },                {
-            "fqsen": "\\redirectIfOffline\u0028\u0029",
-            "name": "redirectIfOffline",
-            "summary": "",
-            "url": "namespaces/default.html#function_redirectIfOffline"
-        },                {
             "fqsen": "\\Menu",
             "name": "Menu",
             "summary": "Creates\u0020menu\u0020navigation\u0020bars.",
             "url": "classes/Menu.html"
-        },                {
-            "fqsen": "\\getMessageTypeNames\u0028\u0029",
-            "name": "getMessageTypeNames",
-            "summary": "",
-            "url": "namespaces/default.html#function_getMessageTypeNames"
-        },                {
-            "fqsen": "\\getAdminBoxNames\u0028\u0029",
-            "name": "getAdminBoxNames",
-            "summary": "",
-            "url": "namespaces/default.html#function_getAdminBoxNames"
-        },                {
-            "fqsen": "\\getMessagePlayer\u0028\u0029",
-            "name": "getMessagePlayer",
-            "summary": "",
-            "url": "namespaces/default.html#function_getMessagePlayer"
         },                {
             "fqsen": "\\Mission",
             "name": "Mission",
@@ -5535,21 +5460,6 @@ Search.appendIndex(
             "name": "checkMissionRequirements",
             "summary": "",
             "url": "namespaces/default.html#function_checkMissionRequirements"
-        },                {
-            "fqsen": "\\getNewsItems\u0028\u0029",
-            "name": "getNewsItems",
-            "summary": "Takes\u0020a\u0020populated\u0020query\u0020and\u0020returns\u0020the\u0020news\u0020items.",
-            "url": "namespaces/default.html#function_getNewsItems"
-        },                {
-            "fqsen": "\\doBreakingNewsAssign\u0028\u0029",
-            "name": "doBreakingNewsAssign",
-            "summary": "",
-            "url": "namespaces/default.html#function_doBreakingNewsAssign"
-        },                {
-            "fqsen": "\\doLottoNewsAssign\u0028\u0029",
-            "name": "doLottoNewsAssign",
-            "summary": "",
-            "url": "namespaces/default.html#function_doLottoNewsAssign"
         },                {
             "fqsen": "\\createNHA\u0028\u0029",
             "name": "createNHA",
@@ -5605,11 +5515,6 @@ Search.appendIndex(
             "name": "URL_DEFAULT_REMAINING_PAGE_LOADS",
             "summary": "",
             "url": "classes/Page.html#constant_URL_DEFAULT_REMAINING_PAGE_LOADS"
-        },                {
-            "fqsen": "\\planet_list_common\u0028\u0029",
-            "name": "planet_list_common",
-            "summary": "",
-            "url": "namespaces/default.html#function_planet_list_common"
         },                {
             "fqsen": "\\Plotter",
             "name": "Plotter",
@@ -5985,11 +5890,6 @@ Search.appendIndex(
             "name": "dontAddWorseThan",
             "summary": "",
             "url": "classes/Routes-RouteGenerator.html#property_dontAddWorseThan"
-        },                {
-            "fqsen": "\\check_bargain_number\u0028\u0029",
-            "name": "check_bargain_number",
-            "summary": "",
-            "url": "namespaces/default.html#function_check_bargain_number"
         },                {
             "fqsen": "\\SmrAccount",
             "name": "SmrAccount",
@@ -10851,6 +10751,16 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/Smr-Blackjack-Hand.html#property_value"
         },                {
+            "fqsen": "\\Smr\\Bounties",
+            "name": "Bounties",
+            "summary": "Collection\u0020of\u0020functions\u0020to\u0020help\u0020with\u0020displaying\u0020bounties\u0020at\u0020HQ.",
+            "url": "classes/Smr-Bounties.html"
+        },                {
+            "fqsen": "\\Smr\\Bounties\u003A\u003AgetMostWanted\u0028\u0029",
+            "name": "getMostWanted",
+            "summary": "Returns\u0020a\u0020list\u0020of\u0020all\u0020active\u0020\u0028not\u0020claimable\u0029\u0020bounties\u0020for\u0020given\u0020location\u0020\u0024type.",
+            "url": "classes/Smr-Bounties.html#method_getMostWanted"
+        },                {
             "fqsen": "\\Smr\\Chess\\ChessGame",
             "name": "ChessGame",
             "summary": "",
@@ -11371,6 +11281,21 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/Smr-Container-DiContainer.html#property_container"
         },                {
+            "fqsen": "\\Smr\\CouncilVoting",
+            "name": "CouncilVoting",
+            "summary": "Collection\u0020of\u0020functions\u0020to\u0020help\u0020process\u0020council\u0020voting.",
+            "url": "classes/Smr-CouncilVoting.html"
+        },                {
+            "fqsen": "\\Smr\\CouncilVoting\u003A\u003AmodifyRelations\u0028\u0029",
+            "name": "modifyRelations",
+            "summary": "",
+            "url": "classes/Smr-CouncilVoting.html#method_modifyRelations"
+        },                {
+            "fqsen": "\\Smr\\CouncilVoting\u003A\u003AcheckPacts\u0028\u0029",
+            "name": "checkPacts",
+            "summary": "",
+            "url": "classes/Smr-CouncilVoting.html#method_checkPacts"
+        },                {
             "fqsen": "\\Smr\\Database",
             "name": "Database",
             "summary": "Wraps\u0020an\u0020active\u0020connection\u0020to\u0020the\u0020database.",
@@ -11756,6 +11681,106 @@ Search.appendIndex(
             "summary": "This\u0020exception\u0020should\u0020be\u0020used\u0020to\u0020pass\u0020an\u0020error\u0020message\u0020to\u0020the\u0020user.",
             "url": "classes/Smr-Exceptions-UserError.html"
         },                {
+            "fqsen": "\\Smr\\HallOfFame",
+            "name": "HallOfFame",
+            "summary": "Collection\u0020of\u0020functions\u0020to\u0020help\u0020display\u0020the\u0020Hall\u0020of\u0020Fame\u0020tables.",
+            "url": "classes/Smr-HallOfFame.html"
+        },                {
+            "fqsen": "\\Smr\\HallOfFame\u003A\u003AgetHofCategories\u0028\u0029",
+            "name": "getHofCategories",
+            "summary": "",
+            "url": "classes/Smr-HallOfFame.html#method_getHofCategories"
+        },                {
+            "fqsen": "\\Smr\\HallOfFame\u003A\u003AapplyHofVisibilityMask\u0028\u0029",
+            "name": "applyHofVisibilityMask",
+            "summary": "Conditionally\u0020hide\u0020displayed\u0020HoF\u0020stat.",
+            "url": "classes/Smr-HallOfFame.html#method_applyHofVisibilityMask"
+        },                {
+            "fqsen": "\\Smr\\HallOfFame\u003A\u003AgetHofRank\u0028\u0029",
+            "name": "getHofRank",
+            "summary": "",
+            "url": "classes/Smr-HallOfFame.html#method_getHofRank"
+        },                {
+            "fqsen": "\\Smr\\HallOfFame\u003A\u003AdisplayHOFRow\u0028\u0029",
+            "name": "displayHOFRow",
+            "summary": "",
+            "url": "classes/Smr-HallOfFame.html#method_displayHOFRow"
+        },                {
+            "fqsen": "\\Smr\\HallOfFame\u003A\u003AbuildBreadcrumb\u0028\u0029",
+            "name": "buildBreadcrumb",
+            "summary": "",
+            "url": "classes/Smr-HallOfFame.html#method_buildBreadcrumb"
+        },                {
+            "fqsen": "\\Smr\\Login\\Redirect",
+            "name": "Redirect",
+            "summary": "Collection\u0020of\u0020functions\u0020to\u0020help\u0020with\u0020login\u0020redirection.",
+            "url": "classes/Smr-Login-Redirect.html"
+        },                {
+            "fqsen": "\\Smr\\Login\\Redirect\u003A\u003AredirectIfDisabled\u0028\u0029",
+            "name": "redirectIfDisabled",
+            "summary": "",
+            "url": "classes/Smr-Login-Redirect.html#method_redirectIfDisabled"
+        },                {
+            "fqsen": "\\Smr\\Login\\Redirect\u003A\u003AredirectIfOffline\u0028\u0029",
+            "name": "redirectIfOffline",
+            "summary": "",
+            "url": "classes/Smr-Login-Redirect.html#method_redirectIfOffline"
+        },                {
+            "fqsen": "\\Smr\\Lotto",
+            "name": "Lotto",
+            "summary": "Collection\u0020of\u0020functions\u0020to\u0020help\u0020with\u0020Lotto\u0020processing.",
+            "url": "classes/Smr-Lotto.html"
+        },                {
+            "fqsen": "\\Smr\\Lotto\u003A\u003AcheckForLottoWinner\u0028\u0029",
+            "name": "checkForLottoWinner",
+            "summary": "",
+            "url": "classes/Smr-Lotto.html#method_checkForLottoWinner"
+        },                {
+            "fqsen": "\\Smr\\Lotto\u003A\u003AgetLottoInfo\u0028\u0029",
+            "name": "getLottoInfo",
+            "summary": "",
+            "url": "classes/Smr-Lotto.html#method_getLottoInfo"
+        },                {
+            "fqsen": "\\Smr\\Messages",
+            "name": "Messages",
+            "summary": "Collection\u0020of\u0020functions\u0020to\u0020help\u0020display\u0020messages\u0020and\u0020message\u0020boxes.",
+            "url": "classes/Smr-Messages.html"
+        },                {
+            "fqsen": "\\Smr\\Messages\u003A\u003AgetMessageTypeNames\u0028\u0029",
+            "name": "getMessageTypeNames",
+            "summary": "",
+            "url": "classes/Smr-Messages.html#method_getMessageTypeNames"
+        },                {
+            "fqsen": "\\Smr\\Messages\u003A\u003AgetAdminBoxNames\u0028\u0029",
+            "name": "getAdminBoxNames",
+            "summary": "",
+            "url": "classes/Smr-Messages.html#method_getAdminBoxNames"
+        },                {
+            "fqsen": "\\Smr\\Messages\u003A\u003AgetMessagePlayer\u0028\u0029",
+            "name": "getMessagePlayer",
+            "summary": "",
+            "url": "classes/Smr-Messages.html#method_getMessagePlayer"
+        },                {
+            "fqsen": "\\Smr\\News",
+            "name": "News",
+            "summary": "Collection\u0020of\u0020functions\u0020to\u0020help\u0020with\u0020displaying\u0020news.",
+            "url": "classes/Smr-News.html"
+        },                {
+            "fqsen": "\\Smr\\News\u003A\u003AgetNewsItems\u0028\u0029",
+            "name": "getNewsItems",
+            "summary": "Takes\u0020a\u0020populated\u0020query\u0020and\u0020returns\u0020the\u0020news\u0020items.",
+            "url": "classes/Smr-News.html#method_getNewsItems"
+        },                {
+            "fqsen": "\\Smr\\News\u003A\u003AdoBreakingNewsAssign\u0028\u0029",
+            "name": "doBreakingNewsAssign",
+            "summary": "",
+            "url": "classes/Smr-News.html#method_doBreakingNewsAssign"
+        },                {
+            "fqsen": "\\Smr\\News\u003A\u003AdoLottoNewsAssign\u0028\u0029",
+            "name": "doLottoNewsAssign",
+            "summary": "",
+            "url": "classes/Smr-News.html#method_doLottoNewsAssign"
+        },                {
             "fqsen": "\\Smr\\Path",
             "name": "Path",
             "summary": "Class\u0020used\u0020to\u0020keep\u0020track\u0020of\u0020paths\u0020between\u0020two\u0020sectors.",
@@ -11850,6 +11875,16 @@ Search.appendIndex(
             "name": "warpMap",
             "summary": "",
             "url": "classes/Smr-Path.html#property_warpMap"
+        },                {
+            "fqsen": "\\Smr\\PlanetList",
+            "name": "PlanetList",
+            "summary": "Collection\u0020of\u0020functions\u0020to\u0020help\u0020prepare\u0020Planet\u0020List\u0020pages.",
+            "url": "classes/Smr-PlanetList.html"
+        },                {
+            "fqsen": "\\Smr\\PlanetList\u003A\u003Acommon\u0028\u0029",
+            "name": "common",
+            "summary": "The\u0020engine\u0020files\u0020for\u0020planet\u0020lists\u0020have\u0020a\u0020lot\u0020in\u0020common,\u0020so\u0020do\nmost\u0020of\u0020the\u0020work\u0020here.",
+            "url": "classes/Smr-PlanetList.html#method_common"
         },                {
             "fqsen": "\\Smr\\Race",
             "name": "Race",
@@ -12715,6 +12750,11 @@ Search.appendIndex(
             "name": "Exceptions",
             "summary": "",
             "url": "namespaces/smr-exceptions.html"
+        },                {
+            "fqsen": "\\Smr\\Login",
+            "name": "Login",
+            "summary": "",
+            "url": "namespaces/smr-login.html"
         },                {
             "fqsen": "\\Smr\\SocialLogin",
             "name": "SocialLogin",
