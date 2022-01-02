@@ -5076,16 +5076,6 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/Globals.html#method_getHardwareCost"
         },                {
-            "fqsen": "\\Globals\u003A\u003AisValidGame\u0028\u0029",
-            "name": "isValidGame",
-            "summary": "",
-            "url": "classes/Globals.html#method_isValidGame"
-        },                {
-            "fqsen": "\\Globals\u003A\u003AgetGameType\u0028\u0029",
-            "name": "getGameType",
-            "summary": "",
-            "url": "classes/Globals.html#method_getGameType"
-        },                {
             "fqsen": "\\Globals\u003A\u003AisFeatureRequestOpen\u0028\u0029",
             "name": "isFeatureRequestOpen",
             "summary": "",
@@ -7346,10 +7336,20 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/SmrGame.html"
         },                {
+            "fqsen": "\\SmrGame\u003A\u003AgameExists\u0028\u0029",
+            "name": "gameExists",
+            "summary": "Attempts\u0020to\u0020construct\u0020the\u0020game\u0020to\u0020determine\u0020if\u0020it\u0020exists.",
+            "url": "classes/SmrGame.html#method_gameExists"
+        },                {
             "fqsen": "\\SmrGame\u003A\u003AgetGame\u0028\u0029",
             "name": "getGame",
             "summary": "",
             "url": "classes/SmrGame.html#method_getGame"
+        },                {
+            "fqsen": "\\SmrGame\u003A\u003AclearCache\u0028\u0029",
+            "name": "clearCache",
+            "summary": "",
+            "url": "classes/SmrGame.html#method_clearCache"
         },                {
             "fqsen": "\\SmrGame\u003A\u003AsaveGames\u0028\u0029",
             "name": "saveGames",
