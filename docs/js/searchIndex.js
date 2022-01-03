@@ -4831,36 +4831,6 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/AbstractSmrShip.html#property_hasChangedIllusion"
         },                {
-            "fqsen": "\\AdminPermissions",
-            "name": "AdminPermissions",
-            "summary": "",
-            "url": "classes/AdminPermissions.html"
-        },                {
-            "fqsen": "\\AdminPermissions\u003A\u003AgetPermissionInfo\u0028\u0029",
-            "name": "getPermissionInfo",
-            "summary": "Returns\u0020the\u0020info\u0020for\u0020the\u0020admin\u0020permission\u0020with\u0020the\u0020given\u0020ID.",
-            "url": "classes/AdminPermissions.html#method_getPermissionInfo"
-        },                {
-            "fqsen": "\\AdminPermissions\u003A\u003AgetPermissionsByCategory\u0028\u0029",
-            "name": "getPermissionsByCategory",
-            "summary": "Returns\u0020a\u0020list\u0020of\u0020all\u0020permissions\u0020with\u0020ID\u0020keys\u0020and\u0020name\u0020values,\ngrouped\u0020by\u0020the\u0020category\u0020ID\u0020of\u0020the\u0020permission.",
-            "url": "classes/AdminPermissions.html#method_getPermissionsByCategory"
-        },                {
-            "fqsen": "\\AdminPermissions\u003A\u003AgetCategoryName\u0028\u0029",
-            "name": "getCategoryName",
-            "summary": "",
-            "url": "classes/AdminPermissions.html#method_getCategoryName"
-        },                {
-            "fqsen": "\\AdminPermissions\u003A\u003APERMISSION_TABLE",
-            "name": "PERMISSION_TABLE",
-            "summary": "",
-            "url": "classes/AdminPermissions.html#constant_PERMISSION_TABLE"
-        },                {
-            "fqsen": "\\AdminPermissions\u003A\u003APERMISSION_CATEGORIES",
-            "name": "PERMISSION_CATEGORIES",
-            "summary": "",
-            "url": "classes/AdminPermissions.html#constant_PERMISSION_CATEGORIES"
-        },                {
             "fqsen": "\\Council",
             "name": "Council",
             "summary": "",
@@ -10565,6 +10535,36 @@ Search.appendIndex(
             "name": "hasChanged",
             "summary": "",
             "url": "classes/WeightedRandom.html#property_hasChanged"
+        },                {
+            "fqsen": "\\Smr\\AdminPermissions",
+            "name": "AdminPermissions",
+            "summary": "",
+            "url": "classes/Smr-AdminPermissions.html"
+        },                {
+            "fqsen": "\\Smr\\AdminPermissions\u003A\u003AgetPermissionInfo\u0028\u0029",
+            "name": "getPermissionInfo",
+            "summary": "Returns\u0020the\u0020info\u0020for\u0020the\u0020admin\u0020permission\u0020with\u0020the\u0020given\u0020ID.",
+            "url": "classes/Smr-AdminPermissions.html#method_getPermissionInfo"
+        },                {
+            "fqsen": "\\Smr\\AdminPermissions\u003A\u003AgetPermissionsByCategory\u0028\u0029",
+            "name": "getPermissionsByCategory",
+            "summary": "Returns\u0020a\u0020list\u0020of\u0020all\u0020permissions\u0020with\u0020ID\u0020keys\u0020and\u0020name\u0020values,\ngrouped\u0020by\u0020the\u0020category\u0020ID\u0020of\u0020the\u0020permission.",
+            "url": "classes/Smr-AdminPermissions.html#method_getPermissionsByCategory"
+        },                {
+            "fqsen": "\\Smr\\AdminPermissions\u003A\u003AgetCategoryName\u0028\u0029",
+            "name": "getCategoryName",
+            "summary": "",
+            "url": "classes/Smr-AdminPermissions.html#method_getCategoryName"
+        },                {
+            "fqsen": "\\Smr\\AdminPermissions\u003A\u003APERMISSION_TABLE",
+            "name": "PERMISSION_TABLE",
+            "summary": "",
+            "url": "classes/Smr-AdminPermissions.html#constant_PERMISSION_TABLE"
+        },                {
+            "fqsen": "\\Smr\\AdminPermissions\u003A\u003APERMISSION_CATEGORIES",
+            "name": "PERMISSION_CATEGORIES",
+            "summary": "",
+            "url": "classes/Smr-AdminPermissions.html#constant_PERMISSION_CATEGORIES"
         },                {
             "fqsen": "\\Smr\\BarDrink",
             "name": "BarDrink",
