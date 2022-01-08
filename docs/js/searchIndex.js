@@ -8686,6 +8686,11 @@ Search.appendIndex(
             "summary": "Defines\u0020intrinsic\u0020properties\u0020of\u0020planet\u0020types.",
             "url": "classes/SmrPlanetType.html"
         },                {
+            "fqsen": "\\SmrPlanetType\u003A\u003AgetStructureData\u0028\u0029",
+            "name": "getStructureData",
+            "summary": "Returns\u0020the\u0020properties\u0020of\u0020all\u0020the\u0020structures\u0020this\u0020planet\u0020type\u0020can\u0020build.",
+            "url": "classes/SmrPlanetType.html#method_getStructureData"
+        },                {
             "fqsen": "\\SmrPlanetType\u003A\u003Aname\u0028\u0029",
             "name": "name",
             "summary": "",
@@ -8751,6 +8756,11 @@ Search.appendIndex(
             "summary": "Defines\u0020intrinsic\u0020properties\u0020of\u0020planet\u0020types.",
             "url": "classes/TerranPlanet.html"
         },                {
+            "fqsen": "\\TerranPlanet\u003A\u003AgetStructureData\u0028\u0029",
+            "name": "getStructureData",
+            "summary": "Returns\u0020the\u0020properties\u0020of\u0020all\u0020the\u0020structures\u0020this\u0020planet\u0020type\u0020can\u0020build.",
+            "url": "classes/TerranPlanet.html#method_getStructureData"
+        },                {
             "fqsen": "\\TerranPlanet\u003A\u003Aname\u0028\u0029",
             "name": "name",
             "summary": "",
@@ -8790,6 +8800,11 @@ Search.appendIndex(
             "name": "AridPlanet",
             "summary": "Defines\u0020intrinsic\u0020properties\u0020of\u0020planet\u0020types.",
             "url": "classes/AridPlanet.html"
+        },                {
+            "fqsen": "\\AridPlanet\u003A\u003AgetStructureData\u0028\u0029",
+            "name": "getStructureData",
+            "summary": "Returns\u0020the\u0020properties\u0020of\u0020all\u0020the\u0020structures\u0020this\u0020planet\u0020type\u0020can\u0020build.",
+            "url": "classes/AridPlanet.html#method_getStructureData"
         },                {
             "fqsen": "\\AridPlanet\u003A\u003Aname\u0028\u0029",
             "name": "name",
@@ -8831,6 +8846,11 @@ Search.appendIndex(
             "summary": "Defines\u0020intrinsic\u0020properties\u0020of\u0020planet\u0020types.",
             "url": "classes/DwarfPlanet.html"
         },                {
+            "fqsen": "\\DwarfPlanet\u003A\u003AgetStructureData\u0028\u0029",
+            "name": "getStructureData",
+            "summary": "Returns\u0020the\u0020properties\u0020of\u0020all\u0020the\u0020structures\u0020this\u0020planet\u0020type\u0020can\u0020build.",
+            "url": "classes/DwarfPlanet.html#method_getStructureData"
+        },                {
             "fqsen": "\\DwarfPlanet\u003A\u003Aname\u0028\u0029",
             "name": "name",
             "summary": "",
@@ -8871,6 +8891,11 @@ Search.appendIndex(
             "summary": "Defines\u0020intrinsic\u0020properties\u0020of\u0020planet\u0020types.",
             "url": "classes/ProtoPlanet.html"
         },                {
+            "fqsen": "\\ProtoPlanet\u003A\u003AgetStructureData\u0028\u0029",
+            "name": "getStructureData",
+            "summary": "Returns\u0020the\u0020properties\u0020of\u0020all\u0020the\u0020structures\u0020this\u0020planet\u0020type\u0020can\u0020build.",
+            "url": "classes/ProtoPlanet.html#method_getStructureData"
+        },                {
             "fqsen": "\\ProtoPlanet\u003A\u003Aname\u0028\u0029",
             "name": "name",
             "summary": "",
@@ -8910,6 +8935,11 @@ Search.appendIndex(
             "name": "DefenseWorld",
             "summary": "Defines\u0020intrinsic\u0020properties\u0020of\u0020planet\u0020types.",
             "url": "classes/DefenseWorld.html"
+        },                {
+            "fqsen": "\\DefenseWorld\u003A\u003AgetStructureData\u0028\u0029",
+            "name": "getStructureData",
+            "summary": "Returns\u0020the\u0020properties\u0020of\u0020all\u0020the\u0020structures\u0020this\u0020planet\u0020type\u0020can\u0020build.",
+            "url": "classes/DefenseWorld.html#method_getStructureData"
         },                {
             "fqsen": "\\DefenseWorld\u003A\u003Aname\u0028\u0029",
             "name": "name",
