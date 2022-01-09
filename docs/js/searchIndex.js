@@ -5861,6 +5861,11 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/Routes-RouteGenerator.html#property_dontAddWorseThan"
         },                {
+            "fqsen": "\\check_bargain_number\u0028\u0029",
+            "name": "check_bargain_number",
+            "summary": "",
+            "url": "namespaces/default.html#function_check_bargain_number"
+        },                {
             "fqsen": "\\SmrAccount",
             "name": "SmrAccount",
             "summary": "",
