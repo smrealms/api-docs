@@ -11386,6 +11386,11 @@ Search.appendIndex(
             "summary": "Perform\u0020a\u0020read\u002Donly\u0020query\u0020on\u0020the\u0020database.",
             "url": "classes/Smr-Database.html#method_read"
         },                {
+            "fqsen": "\\Smr\\Database\u003A\u003Ainsert\u0028\u0029",
+            "name": "insert",
+            "summary": "INSERT\u0020a\u0020row\u0020into\u0020\u0024table.",
+            "url": "classes/Smr-Database.html#method_insert"
+        },                {
             "fqsen": "\\Smr\\Database\u003A\u003AlockTable\u0028\u0029",
             "name": "lockTable",
             "summary": "",
