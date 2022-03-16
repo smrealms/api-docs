@@ -135,7 +135,7 @@
     </h2>
 
         <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/SmrPlanetStructureType.class.php"><a href="files/src-lib-default-smrplanetstructuretype-class.html"><abbr title="src/lib/Default/SmrPlanetStructureType.class.php">SmrPlanetStructureType.class.php</abbr></a></abbr>
+    <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/SmrPlanetStructureType.php"><a href="files/src-lib-default-smrplanetstructuretype.html"><abbr title="src/lib/Default/SmrPlanetStructureType.php">SmrPlanetStructureType.php</abbr></a></abbr>
     :
     <span class="phpdocumentor-element-found-in__line">6</span>
 
@@ -157,7 +157,7 @@
 </h3>
 
 <dl class="phpdocumentor-table-of-contents">
-            <dt class="phpdocumentor-table-of-contents__entry -constant -public">
+            <dt class="phpdocumentor-table-of-contents__entry -constant -protected">
     <a href="classes/SmrPlanetStructureType.html#constant_GOODS">GOODS</a>
     <span>
         &nbsp;= [\PLANET_GENERATOR =&gt; [\GOODS_WOOD =&gt; 20, \GOODS_ORE =&gt; 15, \GOODS_MACHINERY =&gt; 35, \GOODS_COMPUTERS =&gt; 5], \PLANET_HANGAR =&gt; [\GOODS_WOOD =&gt; 25, \GOODS_FOOD =&gt; 10, \GOODS_ORE =&gt; 25], \PLANET_TURRET =&gt; [\GOODS_FOOD =&gt; 25, \GOODS_ORE =&gt; 10, \GOODS_MACHINERY =&gt; 25, \GOODS_COMPUTERS =&gt; 10], \PLANET_BUNKER =&gt; [\GOODS_WOOD =&gt; 20, \GOODS_FOOD =&gt; 35, \GOODS_CIRCUITRY =&gt; 15], \PLANET_WEAPON_MOUNT =&gt; [\GOODS_WOOD =&gt; 20, \GOODS_FOOD =&gt; 15, \GOODS_MACHINERY =&gt; 10, \GOODS_SLAVES =&gt; 5], \PLANET_RADAR =&gt; [\GOODS_WOOD =&gt; 100, \GOODS_MACHINERY =&gt; 75, \GOODS_CIRCUITRY =&gt; 150]]                            </span>
@@ -212,13 +212,6 @@
                                 &nbsp;: int    </span>
 </dt>
 <dd></dd>
-
-            <dt class="phpdocumentor-table-of-contents__entry -method -public">
-    <a href="classes/SmrPlanetStructureType.html#method_getTypes">getTypes()</a>
-    <span>
-                                &nbsp;: array&lt;string|int, mixed&gt;    </span>
-</dt>
-<dd>Return a list of possible planet structure types</dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
     <a href="classes/SmrPlanetStructureType.html#method_goods">goods()</a>
@@ -286,14 +279,14 @@
             Constants
             <a href="classes/SmrPlanetStructureType.html#constants" class="headerlink"><i class="fas fa-link"></i></a>
         </h3>
-                    <article class="phpdocumentor-element -constant -public ">
+                    <article class="phpdocumentor-element -constant -protected ">
     <h4 class="phpdocumentor-element__name" id="constant_GOODS">
         GOODS
         <a href="classes/SmrPlanetStructureType.html#constant_GOODS" class="headerlink"><i class="fas fa-link"></i></a>
     </h4>
 
     <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/SmrPlanetStructureType.class.php"><a href="files/src-lib-default-smrplanetstructuretype-class.html"><abbr title="src/lib/Default/SmrPlanetStructureType.class.php">SmrPlanetStructureType.class.php</abbr></a></abbr>
+    <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/SmrPlanetStructureType.php"><a href="files/src-lib-default-smrplanetstructuretype.html"><abbr title="src/lib/Default/SmrPlanetStructureType.php">SmrPlanetStructureType.php</abbr></a></abbr>
     :
     <span class="phpdocumentor-element-found-in__line">16</span>
 
@@ -302,7 +295,7 @@
         <p class="phpdocumentor-summary">Trade goods required to build each type of structure.</p>
 
     <code class="phpdocumentor-signature phpdocumentor-code ">
-    <span class="phpdocumentor-signature__visibility">public</span>
+    <span class="phpdocumentor-signature__visibility">protected</span>
         <span class="phpdocumentor-signature__type">mixed</span>
     <span class="phpdocumentor-signature__name">GOODS</span>
     = <span class="phpdocumentor-signature__default-value">[\PLANET_GENERATOR =&gt; [\GOODS_WOOD =&gt; 20, \GOODS_ORE =&gt; 15, \GOODS_MACHINERY =&gt; 35, \GOODS_COMPUTERS =&gt; 5], \PLANET_HANGAR =&gt; [\GOODS_WOOD =&gt; 25, \GOODS_FOOD =&gt; 10, \GOODS_ORE =&gt; 25], \PLANET_TURRET =&gt; [\GOODS_FOOD =&gt; 25, \GOODS_ORE =&gt; 10, \GOODS_MACHINERY =&gt; 25, \GOODS_COMPUTERS =&gt; 10], \PLANET_BUNKER =&gt; [\GOODS_WOOD =&gt; 20, \GOODS_FOOD =&gt; 35, \GOODS_CIRCUITRY =&gt; 15], \PLANET_WEAPON_MOUNT =&gt; [\GOODS_WOOD =&gt; 20, \GOODS_FOOD =&gt; 15, \GOODS_MACHINERY =&gt; 10, \GOODS_SLAVES =&gt; 5], \PLANET_RADAR =&gt; [\GOODS_WOOD =&gt; 100, \GOODS_MACHINERY =&gt; 75, \GOODS_CIRCUITRY =&gt; 150]]</span>
@@ -322,7 +315,7 @@
     </h4>
 
     <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/SmrPlanetStructureType.class.php"><a href="files/src-lib-default-smrplanetstructuretype-class.html"><abbr title="src/lib/Default/SmrPlanetStructureType.class.php">SmrPlanetStructureType.class.php</abbr></a></abbr>
+    <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/SmrPlanetStructureType.php"><a href="files/src-lib-default-smrplanetstructuretype.html"><abbr title="src/lib/Default/SmrPlanetStructureType.php">SmrPlanetStructureType.php</abbr></a></abbr>
     :
     <span class="phpdocumentor-element-found-in__line">55</span>
 
@@ -366,7 +359,7 @@
                                 </span>
     </h4>
     <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/SmrPlanetStructureType.class.php"><a href="files/src-lib-default-smrplanetstructuretype-class.html"><abbr title="src/lib/Default/SmrPlanetStructureType.class.php">SmrPlanetStructureType.class.php</abbr></a></abbr>
+    <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/SmrPlanetStructureType.php"><a href="files/src-lib-default-smrplanetstructuretype.html"><abbr title="src/lib/Default/SmrPlanetStructureType.php">SmrPlanetStructureType.php</abbr></a></abbr>
     :
     <span class="phpdocumentor-element-found-in__line">9</span>
 
@@ -400,7 +393,7 @@
                                 </span>
     </h4>
     <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/SmrPlanetStructureType.class.php"><a href="files/src-lib-default-smrplanetstructuretype-class.html"><abbr title="src/lib/Default/SmrPlanetStructureType.class.php">SmrPlanetStructureType.class.php</abbr></a></abbr>
+    <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/SmrPlanetStructureType.php"><a href="files/src-lib-default-smrplanetstructuretype.html"><abbr title="src/lib/Default/SmrPlanetStructureType.php">SmrPlanetStructureType.php</abbr></a></abbr>
     :
     <span class="phpdocumentor-element-found-in__line">10</span>
 
@@ -438,7 +431,7 @@
         <a href="classes/SmrPlanetStructureType.html#method___construct" class="headerlink"><i class="fas fa-link"></i></a>
     </h4>
     <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/SmrPlanetStructureType.class.php"><a href="files/src-lib-default-smrplanetstructuretype-class.html"><abbr title="src/lib/Default/SmrPlanetStructureType.class.php">SmrPlanetStructureType.class.php</abbr></a></abbr>
+    <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/SmrPlanetStructureType.php"><a href="files/src-lib-default-smrplanetstructuretype.html"><abbr title="src/lib/Default/SmrPlanetStructureType.php">SmrPlanetStructureType.php</abbr></a></abbr>
     :
     <span class="phpdocumentor-element-found-in__line">8</span>
 
@@ -490,9 +483,9 @@
         <a href="classes/SmrPlanetStructureType.html#method_baseTime" class="headerlink"><i class="fas fa-link"></i></a>
     </h4>
     <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/SmrPlanetStructureType.class.php"><a href="files/src-lib-default-smrplanetstructuretype-class.html"><abbr title="src/lib/Default/SmrPlanetStructureType.class.php">SmrPlanetStructureType.class.php</abbr></a></abbr>
+    <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/SmrPlanetStructureType.php"><a href="files/src-lib-default-smrplanetstructuretype.html"><abbr title="src/lib/Default/SmrPlanetStructureType.php">SmrPlanetStructureType.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">132</span>
+    <span class="phpdocumentor-element-found-in__line">125</span>
 
     </aside>
 
@@ -523,9 +516,9 @@
         <a href="classes/SmrPlanetStructureType.html#method_creditCost" class="headerlink"><i class="fas fa-link"></i></a>
     </h4>
     <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/SmrPlanetStructureType.class.php"><a href="files/src-lib-default-smrplanetstructuretype-class.html"><abbr title="src/lib/Default/SmrPlanetStructureType.class.php">SmrPlanetStructureType.class.php</abbr></a></abbr>
+    <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/SmrPlanetStructureType.php"><a href="files/src-lib-default-smrplanetstructuretype.html"><abbr title="src/lib/Default/SmrPlanetStructureType.php">SmrPlanetStructureType.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">129</span>
+    <span class="phpdocumentor-element-found-in__line">122</span>
 
     </aside>
 
@@ -556,9 +549,9 @@
         <a href="classes/SmrPlanetStructureType.html#method_expGain" class="headerlink"><i class="fas fa-link"></i></a>
     </h4>
     <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/SmrPlanetStructureType.class.php"><a href="files/src-lib-default-smrplanetstructuretype-class.html"><abbr title="src/lib/Default/SmrPlanetStructureType.class.php">SmrPlanetStructureType.class.php</abbr></a></abbr>
+    <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/SmrPlanetStructureType.php"><a href="files/src-lib-default-smrplanetstructuretype.html"><abbr title="src/lib/Default/SmrPlanetStructureType.php">SmrPlanetStructureType.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">135</span>
+    <span class="phpdocumentor-element-found-in__line">128</span>
 
     </aside>
 
@@ -582,39 +575,6 @@
         class="phpdocumentor-element
             -method
             -public
-                                    -static                    "
->
-    <h4 class="phpdocumentor-element__name" id="method_getTypes">
-        getTypes()
-        <a href="classes/SmrPlanetStructureType.html#method_getTypes" class="headerlink"><i class="fas fa-link"></i></a>
-    </h4>
-    <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/SmrPlanetStructureType.class.php"><a href="files/src-lib-default-smrplanetstructuretype-class.html"><abbr title="src/lib/Default/SmrPlanetStructureType.class.php">SmrPlanetStructureType.class.php</abbr></a></abbr>
-    :
-    <span class="phpdocumentor-element-found-in__line">98</span>
-
-    </aside>
-
-        <p class="phpdocumentor-summary">Return a list of possible planet structure types</p>
-
-    <code class="phpdocumentor-code phpdocumentor-signature ">
-    <span class="phpdocumentor-signature__visibility">public</span>
-            <span class="phpdocumentor-signature__static">static</span>    <span class="phpdocumentor-signature__name">getTypes</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">array&lt;string|int, mixed&gt;</span></code>
-
-    
-    
-    
-
-        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
-    <span class="phpdocumentor-signature__response_type">array&lt;string|int, mixed&gt;</span>
-            &mdash;
-        
-    
-</article>
-                    <article
-        class="phpdocumentor-element
-            -method
-            -public
                                                         "
 >
     <h4 class="phpdocumentor-element__name" id="method_goods">
@@ -622,9 +582,9 @@
         <a href="classes/SmrPlanetStructureType.html#method_goods" class="headerlink"><i class="fas fa-link"></i></a>
     </h4>
     <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/SmrPlanetStructureType.class.php"><a href="files/src-lib-default-smrplanetstructuretype-class.html"><abbr title="src/lib/Default/SmrPlanetStructureType.class.php">SmrPlanetStructureType.class.php</abbr></a></abbr>
+    <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/SmrPlanetStructureType.php"><a href="files/src-lib-default-smrplanetstructuretype.html"><abbr title="src/lib/Default/SmrPlanetStructureType.php">SmrPlanetStructureType.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">118</span>
+    <span class="phpdocumentor-element-found-in__line">111</span>
 
     </aside>
 
@@ -655,9 +615,9 @@
         <a href="classes/SmrPlanetStructureType.html#method_hardwareCost" class="headerlink"><i class="fas fa-link"></i></a>
     </h4>
     <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/SmrPlanetStructureType.class.php"><a href="files/src-lib-default-smrplanetstructuretype-class.html"><abbr title="src/lib/Default/SmrPlanetStructureType.class.php">SmrPlanetStructureType.class.php</abbr></a></abbr>
+    <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/SmrPlanetStructureType.php"><a href="files/src-lib-default-smrplanetstructuretype.html"><abbr title="src/lib/Default/SmrPlanetStructureType.php">SmrPlanetStructureType.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">121</span>
+    <span class="phpdocumentor-element-found-in__line">114</span>
 
     </aside>
 
@@ -688,9 +648,9 @@
         <a href="classes/SmrPlanetStructureType.html#method_image" class="headerlink"><i class="fas fa-link"></i></a>
     </h4>
     <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/SmrPlanetStructureType.class.php"><a href="files/src-lib-default-smrplanetstructuretype-class.html"><abbr title="src/lib/Default/SmrPlanetStructureType.class.php">SmrPlanetStructureType.class.php</abbr></a></abbr>
+    <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/SmrPlanetStructureType.php"><a href="files/src-lib-default-smrplanetstructuretype.html"><abbr title="src/lib/Default/SmrPlanetStructureType.php">SmrPlanetStructureType.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">109</span>
+    <span class="phpdocumentor-element-found-in__line">102</span>
 
     </aside>
 
@@ -721,9 +681,9 @@
         <a href="classes/SmrPlanetStructureType.html#method_maxAmount" class="headerlink"><i class="fas fa-link"></i></a>
     </h4>
     <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/SmrPlanetStructureType.class.php"><a href="files/src-lib-default-smrplanetstructuretype-class.html"><abbr title="src/lib/Default/SmrPlanetStructureType.class.php">SmrPlanetStructureType.class.php</abbr></a></abbr>
+    <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/SmrPlanetStructureType.php"><a href="files/src-lib-default-smrplanetstructuretype.html"><abbr title="src/lib/Default/SmrPlanetStructureType.php">SmrPlanetStructureType.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">126</span>
+    <span class="phpdocumentor-element-found-in__line">119</span>
 
     </aside>
 
@@ -754,9 +714,9 @@
         <a href="classes/SmrPlanetStructureType.html#method_name" class="headerlink"><i class="fas fa-link"></i></a>
     </h4>
     <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/SmrPlanetStructureType.class.php"><a href="files/src-lib-default-smrplanetstructuretype-class.html"><abbr title="src/lib/Default/SmrPlanetStructureType.class.php">SmrPlanetStructureType.class.php</abbr></a></abbr>
+    <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/SmrPlanetStructureType.php"><a href="files/src-lib-default-smrplanetstructuretype.html"><abbr title="src/lib/Default/SmrPlanetStructureType.php">SmrPlanetStructureType.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">106</span>
+    <span class="phpdocumentor-element-found-in__line">99</span>
 
     </aside>
 
@@ -787,9 +747,9 @@
         <a href="classes/SmrPlanetStructureType.html#method_structureID" class="headerlink"><i class="fas fa-link"></i></a>
     </h4>
     <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/SmrPlanetStructureType.class.php"><a href="files/src-lib-default-smrplanetstructuretype-class.html"><abbr title="src/lib/Default/SmrPlanetStructureType.class.php">SmrPlanetStructureType.class.php</abbr></a></abbr>
+    <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/SmrPlanetStructureType.php"><a href="files/src-lib-default-smrplanetstructuretype.html"><abbr title="src/lib/Default/SmrPlanetStructureType.php">SmrPlanetStructureType.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">103</span>
+    <span class="phpdocumentor-element-found-in__line">96</span>
 
     </aside>
 
@@ -820,9 +780,9 @@
         <a href="classes/SmrPlanetStructureType.html#method_summary" class="headerlink"><i class="fas fa-link"></i></a>
     </h4>
     <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/SmrPlanetStructureType.class.php"><a href="files/src-lib-default-smrplanetstructuretype-class.html"><abbr title="src/lib/Default/SmrPlanetStructureType.class.php">SmrPlanetStructureType.class.php</abbr></a></abbr>
+    <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/SmrPlanetStructureType.php"><a href="files/src-lib-default-smrplanetstructuretype.html"><abbr title="src/lib/Default/SmrPlanetStructureType.php">SmrPlanetStructureType.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">115</span>
+    <span class="phpdocumentor-element-found-in__line">108</span>
 
     </aside>
 
@@ -853,9 +813,9 @@
         <a href="classes/SmrPlanetStructureType.html#method_tooltip" class="headerlink"><i class="fas fa-link"></i></a>
     </h4>
     <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/SmrPlanetStructureType.class.php"><a href="files/src-lib-default-smrplanetstructuretype-class.html"><abbr title="src/lib/Default/SmrPlanetStructureType.class.php">SmrPlanetStructureType.class.php</abbr></a></abbr>
+    <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/SmrPlanetStructureType.php"><a href="files/src-lib-default-smrplanetstructuretype.html"><abbr title="src/lib/Default/SmrPlanetStructureType.php">SmrPlanetStructureType.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">112</span>
+    <span class="phpdocumentor-element-found-in__line">105</span>
 
     </aside>
 

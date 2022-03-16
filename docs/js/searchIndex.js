@@ -8606,11 +8606,6 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/SmrPlanetStructureType.html#method___construct"
         },                {
-            "fqsen": "\\SmrPlanetStructureType\u003A\u003AgetTypes\u0028\u0029",
-            "name": "getTypes",
-            "summary": "Return\u0020a\u0020list\u0020of\u0020possible\u0020planet\u0020structure\u0020types",
-            "url": "classes/SmrPlanetStructureType.html#method_getTypes"
-        },                {
             "fqsen": "\\SmrPlanetStructureType\u003A\u003AstructureID\u0028\u0029",
             "name": "structureID",
             "summary": "",
@@ -11071,11 +11066,6 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/Smr-Chess-ChessGame.html#method_getResignHREF"
         },                {
-            "fqsen": "\\Smr\\Chess\\ChessGame\u003A\u003AGAMETYPE_STANDARD",
-            "name": "GAMETYPE_STANDARD",
-            "summary": "",
-            "url": "classes/Smr-Chess-ChessGame.html#constant_GAMETYPE_STANDARD"
-        },                {
             "fqsen": "\\Smr\\Chess\\ChessGame\u003A\u003APLAYER_BLACK",
             "name": "PLAYER_BLACK",
             "summary": "",
@@ -11348,7 +11338,7 @@ Search.appendIndex(
         },                {
             "fqsen": "\\Smr\\Database\u003A\u003A__construct\u0028\u0029",
             "name": "__construct",
-            "summary": "Database\u0020constructor.",
+            "summary": "Not\u0020intended\u0020to\u0020be\u0020constructed\u0020by\u0020hand.\u0020If\u0020you\u0020need\u0020an\u0020instance\u0020of\u0020Database,\nuse\u0020Database\u003A\u003AgetInstance\u0028\u0029\u003B",
             "url": "classes/Smr-Database.html#method___construct"
         },                {
             "fqsen": "\\Smr\\Database\u003A\u003AswitchDatabases\u0028\u0029",
