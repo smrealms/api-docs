@@ -10766,6 +10766,11 @@ Search.appendIndex(
             "summary": "Does\u0020this\u0020hand\u0020have\u0020Blackjack\u003F",
             "url": "classes/Smr-Blackjack-Hand.html#method_hasBlackjack"
         },                {
+            "fqsen": "\\Smr\\Blackjack\\Hand\u003A\u003AhasBusted\u0028\u0029",
+            "name": "hasBusted",
+            "summary": "Has\u0020this\u0020hand\u0020busted\u003F",
+            "url": "classes/Smr-Blackjack-Hand.html#method_hasBusted"
+        },                {
             "fqsen": "\\Smr\\Blackjack\\Hand\u003A\u003AaddCard\u0028\u0029",
             "name": "addCard",
             "summary": "Add\u0020a\u0020card\u0020to\u0020this\u0020hand.",
