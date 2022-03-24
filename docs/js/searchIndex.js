@@ -16,35 +16,35 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/AbstractMenu.html#method_headquarters"
         },                {
-            "fqsen": "\\AbstractMenu\u003A\u003Aplanet_list\u0028\u0029",
-            "name": "planet_list",
+            "fqsen": "\\AbstractMenu\u003A\u003AplanetList\u0028\u0029",
+            "name": "planetList",
             "summary": "",
-            "url": "classes/AbstractMenu.html#method_planet_list"
+            "url": "classes/AbstractMenu.html#method_planetList"
         },                {
             "fqsen": "\\AbstractMenu\u003A\u003Aalliance\u0028\u0029",
             "name": "alliance",
             "summary": "",
             "url": "classes/AbstractMenu.html#method_alliance"
         },                {
-            "fqsen": "\\AbstractMenu\u003A\u003Agalactic_post\u0028\u0029",
-            "name": "galactic_post",
+            "fqsen": "\\AbstractMenu\u003A\u003AgalacticPost\u0028\u0029",
+            "name": "galacticPost",
             "summary": "",
-            "url": "classes/AbstractMenu.html#method_galactic_post"
+            "url": "classes/AbstractMenu.html#method_galacticPost"
         },                {
-            "fqsen": "\\AbstractMenu\u003A\u003Ahistory_games\u0028\u0029",
-            "name": "history_games",
+            "fqsen": "\\AbstractMenu\u003A\u003AhistoryGames\u0028\u0029",
+            "name": "historyGames",
             "summary": "",
-            "url": "classes/AbstractMenu.html#method_history_games"
+            "url": "classes/AbstractMenu.html#method_historyGames"
         },                {
             "fqsen": "\\AbstractMenu\u003A\u003Amessages\u0028\u0029",
             "name": "messages",
             "summary": "",
             "url": "classes/AbstractMenu.html#method_messages"
         },                {
-            "fqsen": "\\AbstractMenu\u003A\u003Acombat_log\u0028\u0029",
-            "name": "combat_log",
+            "fqsen": "\\AbstractMenu\u003A\u003AcombatLog\u0028\u0029",
+            "name": "combatLog",
             "summary": "",
-            "url": "classes/AbstractMenu.html#method_combat_log"
+            "url": "classes/AbstractMenu.html#method_combatLog"
         },                {
             "fqsen": "\\AbstractMenu\u003A\u003Atrader\u0028\u0029",
             "name": "trader",
