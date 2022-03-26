@@ -12023,7 +12023,7 @@ Search.appendIndex(
         },                {
             "fqsen": "\\Smr\\Request\u003A\u003Aget\u0028\u0029",
             "name": "get",
-            "summary": "Returns\u0020index\u0020value\u0020as\u0020a\u0020string.",
+            "summary": "Returns\u0020index\u0020value\u0020as\u0020a\u0020\u0028trimmed\u0029\u0020string.",
             "url": "classes/Smr-Request.html#method_get"
         },                {
             "fqsen": "\\Smr\\Request\u003A\u003AgetVar\u0028\u0029",
