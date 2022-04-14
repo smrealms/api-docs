@@ -8231,10 +8231,10 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/SmrPlanet.html#method_getMaxLevel"
         },                {
-            "fqsen": "\\SmrPlanet\u003A\u003Aaccuracy\u0028\u0029",
-            "name": "accuracy",
-            "summary": "",
-            "url": "classes/SmrPlanet.html#method_accuracy"
+            "fqsen": "\\SmrPlanet\u003A\u003AgetTurretAccuracy\u0028\u0029",
+            "name": "getTurretAccuracy",
+            "summary": "Returns\u0020the\u0020modified\u0020accuracy\u0020of\u0020turrets\u0020on\u0020this\u0020planet.",
+            "url": "classes/SmrPlanet.html#method_getTurretAccuracy"
         },                {
             "fqsen": "\\SmrPlanet\u003A\u003AgetAccuracyBonus\u0028\u0029",
             "name": "getAccuracyBonus",
@@ -8385,11 +8385,6 @@ Search.appendIndex(
             "name": "getWeapons",
             "summary": "",
             "url": "classes/SmrPlanet.html#method_getWeapons"
-        },                {
-            "fqsen": "\\SmrPlanet\u003A\u003AhasWeapons\u0028\u0029",
-            "name": "hasWeapons",
-            "summary": "",
-            "url": "classes/SmrPlanet.html#method_hasWeapons"
         },                {
             "fqsen": "\\SmrPlanet\u003A\u003AshootPlayers\u0028\u0029",
             "name": "shootPlayers",
