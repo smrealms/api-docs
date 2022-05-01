@@ -176,6 +176,13 @@ http request (via the Smr\Session), or forwarded to within the same request.</p>
 <dd></dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -constant -private">
+    <a href="classes/Page.html#constant_SKIP_REDIRECT">SKIP_REDIRECT</a>
+    <span>
+        &nbsp;= &#039;_skip_redirect&#039;                            </span>
+</dt>
+<dd></dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -constant -private">
     <a href="classes/Page.html#constant_URL_DEFAULT_REMAINING_PAGE_LOADS">URL_DEFAULT_REMAINING_PAGE_LOADS</a>
     <span>
         &nbsp;= [
@@ -322,6 +329,13 @@ http request (via the Smr\Session), or forwarded to within the same request.</p>
 </dt>
 <dd>Process this page by executing the &#039;url&#039; and &#039;body&#039; files.</dd>
 
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a href="classes/Page.html#method_skipRedirect">skipRedirect()</a>
+    <span>
+                                &nbsp;: bool    </span>
+</dt>
+<dd>Will this page skip the redirect hooks at the beginning of page processing?</dd>
+
             <dt class="phpdocumentor-table-of-contents__entry -method -private">
     <a href="classes/Page.html#method_getCommonID">getCommonID()</a>
     <span>
@@ -371,6 +385,35 @@ we strip out to prevent false differences).</dd>
 
 </article>
                     <article class="phpdocumentor-element -constant -private ">
+    <h4 class="phpdocumentor-element__name" id="constant_SKIP_REDIRECT">
+        SKIP_REDIRECT
+        <a href="classes/Page.html#constant_SKIP_REDIRECT" class="headerlink"><i class="fas fa-link"></i></a>
+    </h4>
+
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/Page.php"><a href="files/src-lib-default-page.html"><abbr title="src/lib/Default/Page.php">Page.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">13</span>
+
+    </aside>
+
+    
+    <code class="phpdocumentor-signature phpdocumentor-code ">
+    <span class="phpdocumentor-signature__visibility">private</span>
+        <span class="phpdocumentor-signature__type">mixed</span>
+    <span class="phpdocumentor-signature__name">SKIP_REDIRECT</span>
+    = <span class="phpdocumentor-signature__default-value">&#039;_skip_redirect&#039;</span>
+</code>
+
+
+        <section class="phpdocumentor-description"></section>
+
+        <section class="phpdocumentor-description"></section>
+
+    
+
+</article>
+                    <article class="phpdocumentor-element -constant -private ">
     <h4 class="phpdocumentor-element__name" id="constant_URL_DEFAULT_REMAINING_PAGE_LOADS">
         URL_DEFAULT_REMAINING_PAGE_LOADS
         <a href="classes/Page.html#constant_URL_DEFAULT_REMAINING_PAGE_LOADS" class="headerlink"><i class="fas fa-link"></i></a>
@@ -379,7 +422,7 @@ we strip out to prevent false differences).</dd>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/Page.php"><a href="files/src-lib-default-page.html"><abbr title="src/lib/Default/Page.php">Page.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">17</span>
+    <span class="phpdocumentor-element-found-in__line">18</span>
 
     </aside>
 
@@ -519,7 +562,7 @@ we strip out to prevent false differences).</dd>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/Page.php"><a href="files/src-lib-default-page.html"><abbr title="src/lib/Default/Page.php">Page.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">160</span>
+    <span class="phpdocumentor-element-found-in__line">176</span>
 
     </aside>
 
@@ -573,7 +616,7 @@ we strip out to prevent false differences).</dd>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/Page.php"><a href="files/src-lib-default-page.html"><abbr title="src/lib/Default/Page.php">Page.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">141</span>
+    <span class="phpdocumentor-element-found-in__line">150</span>
 
     </aside>
 
@@ -620,7 +663,7 @@ original.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/Page.php"><a href="files/src-lib-default-page.html"><abbr title="src/lib/Default/Page.php">Page.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">122</span>
+    <span class="phpdocumentor-element-found-in__line">123</span>
 
     </aside>
 
@@ -628,7 +671,7 @@ original.</p>
 
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">public</span>
-            <span class="phpdocumentor-signature__static">static</span>    <span class="phpdocumentor-signature__name">create</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type">string&nbsp;</span><span class="phpdocumentor-signature__argument__name">$file</span></span><span class="phpdocumentor-signature__argument"><span>[</span><span>, </span><span class="phpdocumentor-signature__argument__return-type">string&nbsp;</span><span class="phpdocumentor-signature__argument__name">$body</span><span> = </span><span class="phpdocumentor-signature__argument__default-value">&#039;&#039;</span><span> ]</span></span><span class="phpdocumentor-signature__argument"><span>[</span><span>, </span><span class="phpdocumentor-signature__argument__return-type"><a href="classes/Page.html"><abbr title="\Page">Page</abbr></a>|array&lt;string|int, mixed&gt;&nbsp;</span><span class="phpdocumentor-signature__argument__name">$extra</span><span> = </span><span class="phpdocumentor-signature__argument__default-value">[]</span><span> ]</span></span><span class="phpdocumentor-signature__argument"><span>[</span><span>, </span><span class="phpdocumentor-signature__argument__return-type">int&nbsp;</span><span class="phpdocumentor-signature__argument__name">$remainingPageLoads</span><span> = </span><span class="phpdocumentor-signature__argument__default-value">null</span><span> ]</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">self</span></code>
+            <span class="phpdocumentor-signature__static">static</span>    <span class="phpdocumentor-signature__name">create</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type">string&nbsp;</span><span class="phpdocumentor-signature__argument__name">$file</span></span><span class="phpdocumentor-signature__argument"><span>[</span><span>, </span><span class="phpdocumentor-signature__argument__return-type">string&nbsp;</span><span class="phpdocumentor-signature__argument__name">$body</span><span> = </span><span class="phpdocumentor-signature__argument__default-value">&#039;&#039;</span><span> ]</span></span><span class="phpdocumentor-signature__argument"><span>[</span><span>, </span><span class="phpdocumentor-signature__argument__return-type"><a href="classes/Page.html"><abbr title="\Page">Page</abbr></a>|array&lt;string|int, mixed&gt;&nbsp;</span><span class="phpdocumentor-signature__argument__name">$extra</span><span> = </span><span class="phpdocumentor-signature__argument__default-value">[]</span><span> ]</span></span><span class="phpdocumentor-signature__argument"><span>[</span><span>, </span><span class="phpdocumentor-signature__argument__return-type">int&nbsp;</span><span class="phpdocumentor-signature__argument__name">$remainingPageLoads</span><span> = </span><span class="phpdocumentor-signature__argument__default-value">null</span><span> ]</span></span><span class="phpdocumentor-signature__argument"><span>[</span><span>, </span><span class="phpdocumentor-signature__argument__return-type">bool&nbsp;</span><span class="phpdocumentor-signature__argument__name">$skipRedirect</span><span> = </span><span class="phpdocumentor-signature__argument__default-value">false</span><span> ]</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">self</span></code>
 
         <section class="phpdocumentor-description"><p>This is the standard method to package linked pages and the data to
 accompany them.</p>
@@ -668,6 +711,14 @@ accompany them.</p>
                     <section class="phpdocumentor-description"></section>
 
             </dd>
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$skipRedirect</span>
+                : <span class="phpdocumentor-signature__argument__return-type">bool</span>
+                 = <span class="phpdocumentor-signature__argument__default-value">false</span>            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                    <section class="phpdocumentor-description"></section>
+
+            </dd>
             </dl>
 
     
@@ -691,7 +742,7 @@ accompany them.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/Page.php"><a href="files/src-lib-default-page.html"><abbr title="src/lib/Default/Page.php">Page.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">148</span>
+    <span class="phpdocumentor-element-found-in__line">164</span>
 
     </aside>
 
@@ -724,7 +775,7 @@ accompany them.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/Page.php"><a href="files/src-lib-default-page.html"><abbr title="src/lib/Default/Page.php">Page.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">178</span>
+    <span class="phpdocumentor-element-found-in__line">194</span>
 
     </aside>
 
@@ -771,7 +822,7 @@ the next request, we can grab the container out of the Smr\Session.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/Page.php"><a href="files/src-lib-default-page.html"><abbr title="src/lib/Default/Page.php">Page.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">227</span>
+    <span class="phpdocumentor-element-found-in__line">243</span>
 
     </aside>
 
@@ -797,6 +848,39 @@ synchronized with <code class="prettyprint">do_voodoo</code>).</p>
                     <article
         class="phpdocumentor-element
             -method
+            -public
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="method_skipRedirect">
+        skipRedirect()
+        <a href="classes/Page.html#method_skipRedirect" class="headerlink"><i class="fas fa-link"></i></a>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/Page.php"><a href="files/src-lib-default-page.html"><abbr title="src/lib/Default/Page.php">Page.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">157</span>
+
+    </aside>
+
+        <p class="phpdocumentor-summary">Will this page skip the redirect hooks at the beginning of page processing?</p>
+
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+                <span class="phpdocumentor-signature__name">skipRedirect</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">bool</span></code>
+
+    
+    
+    
+
+        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
+    <span class="phpdocumentor-signature__response_type">bool</span>
+            &mdash;
+        
+    
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
             -private
                                                         "
 >
@@ -807,7 +891,7 @@ synchronized with <code class="prettyprint">do_voodoo</code>).</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/Page.php"><a href="files/src-lib-default-page.html"><abbr title="src/lib/Default/Page.php">Page.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">212</span>
+    <span class="phpdocumentor-element-found-in__line">228</span>
 
     </aside>
 

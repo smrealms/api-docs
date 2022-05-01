@@ -5066,11 +5066,6 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/Globals.html#method_getAttackTraderHREF"
         },                {
-            "fqsen": "\\Globals\u003A\u003AgetPodScreenHREF\u0028\u0029",
-            "name": "getPodScreenHREF",
-            "summary": "",
-            "url": "classes/Globals.html#method_getPodScreenHREF"
-        },                {
             "fqsen": "\\Globals\u003A\u003AgetBetaFunctionsHREF\u0028\u0029",
             "name": "getBetaFunctionsHREF",
             "summary": "",
@@ -5451,6 +5446,11 @@ Search.appendIndex(
             "summary": "Create\u0020a\u0020copy\u0020of\u0020a\u0020Page\u0020object.",
             "url": "classes/Page.html#method_copy"
         },                {
+            "fqsen": "\\Page\u003A\u003AskipRedirect\u0028\u0029",
+            "name": "skipRedirect",
+            "summary": "Will\u0020this\u0020page\u0020skip\u0020the\u0020redirect\u0020hooks\u0020at\u0020the\u0020beginning\u0020of\u0020page\u0020processing\u003F",
+            "url": "classes/Page.html#method_skipRedirect"
+        },                {
             "fqsen": "\\Page\u003A\u003Ago\u0028\u0029",
             "name": "go",
             "summary": "Forward\u0020to\u0020the\u0020page\u0020identified\u0020by\u0020this\u0020container.",
@@ -5480,6 +5480,11 @@ Search.appendIndex(
             "name": "ALWAYS_AVAILABLE",
             "summary": "",
             "url": "classes/Page.html#constant_ALWAYS_AVAILABLE"
+        },                {
+            "fqsen": "\\Page\u003A\u003ASKIP_REDIRECT",
+            "name": "SKIP_REDIRECT",
+            "summary": "",
+            "url": "classes/Page.html#constant_SKIP_REDIRECT"
         },                {
             "fqsen": "\\Page\u003A\u003AURL_DEFAULT_REMAINING_PAGE_LOADS",
             "name": "URL_DEFAULT_REMAINING_PAGE_LOADS",
