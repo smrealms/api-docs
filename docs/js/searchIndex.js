@@ -12621,11 +12621,6 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/Smr-Template.html#method_convertHtmlToAjaxXml"
         },                {
-            "fqsen": "\\Smr\\Template\u003A\u003A\u0024ignoreMiddle",
-            "name": "ignoreMiddle",
-            "summary": "",
-            "url": "classes/Smr-Template.html#property_ignoreMiddle"
-        },                {
             "fqsen": "\\Smr\\Template\u003A\u003A\u0024data",
             "name": "data",
             "summary": "",
