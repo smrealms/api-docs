@@ -2351,11 +2351,6 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/AbstractSmrPlayer.html#method_hasBounty"
         },                {
-            "fqsen": "\\AbstractSmrPlayer\u003A\u003AgetBountyAmount\u0028\u0029",
-            "name": "getBountyAmount",
-            "summary": "",
-            "url": "classes/AbstractSmrPlayer.html#method_getBountyAmount"
-        },                {
             "fqsen": "\\AbstractSmrPlayer\u003A\u003AcreateBounty\u0028\u0029",
             "name": "createBounty",
             "summary": "",
@@ -2370,11 +2365,6 @@ Search.appendIndex(
             "name": "setBounty",
             "summary": "",
             "url": "classes/AbstractSmrPlayer.html#method_setBounty"
-        },                {
-            "fqsen": "\\AbstractSmrPlayer\u003A\u003AsetBountyAmount\u0028\u0029",
-            "name": "setBountyAmount",
-            "summary": "",
-            "url": "classes/AbstractSmrPlayer.html#method_setBountyAmount"
         },                {
             "fqsen": "\\AbstractSmrPlayer\u003A\u003AgetCurrentBounty\u0028\u0029",
             "name": "getCurrentBounty",
@@ -8821,26 +8811,6 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/SmrSector.html#method_markVisited"
         },                {
-            "fqsen": "\\SmrSector\u003A\u003AhasWeaponShop\u0028\u0029",
-            "name": "hasWeaponShop",
-            "summary": "",
-            "url": "classes/SmrSector.html#method_hasWeaponShop"
-        },                {
-            "fqsen": "\\SmrSector\u003A\u003AhasHQ\u0028\u0029",
-            "name": "hasHQ",
-            "summary": "",
-            "url": "classes/SmrSector.html#method_hasHQ"
-        },                {
-            "fqsen": "\\SmrSector\u003A\u003AhasUG\u0028\u0029",
-            "name": "hasUG",
-            "summary": "",
-            "url": "classes/SmrSector.html#method_hasUG"
-        },                {
-            "fqsen": "\\SmrSector\u003A\u003AhasShipShop\u0028\u0029",
-            "name": "hasShipShop",
-            "summary": "",
-            "url": "classes/SmrSector.html#method_hasShipShop"
-        },                {
             "fqsen": "\\SmrSector\u003A\u003AoffersFederalProtection\u0028\u0029",
             "name": "offersFederalProtection",
             "summary": "",
@@ -8850,21 +8820,6 @@ Search.appendIndex(
             "name": "getFedRaceIDs",
             "summary": "",
             "url": "classes/SmrSector.html#method_getFedRaceIDs"
-        },                {
-            "fqsen": "\\SmrSector\u003A\u003AhasBar\u0028\u0029",
-            "name": "hasBar",
-            "summary": "",
-            "url": "classes/SmrSector.html#method_hasBar"
-        },                {
-            "fqsen": "\\SmrSector\u003A\u003AhasHardwareShop\u0028\u0029",
-            "name": "hasHardwareShop",
-            "summary": "",
-            "url": "classes/SmrSector.html#method_hasHardwareShop"
-        },                {
-            "fqsen": "\\SmrSector\u003A\u003AhasBank\u0028\u0029",
-            "name": "hasBank",
-            "summary": "",
-            "url": "classes/SmrSector.html#method_hasBank"
         },                {
             "fqsen": "\\SmrSector\u003A\u003AenteringSector\u0028\u0029",
             "name": "enteringSector",
