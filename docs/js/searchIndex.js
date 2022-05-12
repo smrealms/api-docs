@@ -11356,6 +11356,11 @@ Search.appendIndex(
             "summary": "Exception\u0020thrown\u0020when\u0020an\u0020alliance\u0020cannot\u0020be\u0020found\u0020in\u0020the\u0020database",
             "url": "classes/Smr-Exceptions-AllianceNotFound.html"
         },                {
+            "fqsen": "\\Smr\\Exceptions\\GalaxyNotFound",
+            "name": "GalaxyNotFound",
+            "summary": "Exception\u0020thrown\u0020when\u0020a\u0020galaxy\u0020cannot\u0020be\u0020found\u0020in\u0020the\u0020database",
+            "url": "classes/Smr-Exceptions-GalaxyNotFound.html"
+        },                {
             "fqsen": "\\Smr\\Exceptions\\GameNotFound",
             "name": "GameNotFound",
             "summary": "Exception\u0020thrown\u0020when\u0020a\u0020game\u0020cannot\u0020be\u0020found\u0020in\u0020the\u0020database",
