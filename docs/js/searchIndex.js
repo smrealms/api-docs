@@ -4001,6 +4001,11 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/AbstractSmrPort.html#property_goodAmountsChanged"
         },                {
+            "fqsen": "\\AbstractSmrPort\u003A\u003A\u0024goodExistenceChanged",
+            "name": "goodExistenceChanged",
+            "summary": "",
+            "url": "classes/AbstractSmrPort.html#property_goodExistenceChanged"
+        },                {
             "fqsen": "\\AbstractSmrPort\u003A\u003A\u0024goodDistances",
             "name": "goodDistances",
             "summary": "",
