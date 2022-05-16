@@ -56,10 +56,6 @@
                     <section class="phpdocumentor-sidebar__category">
             <h2 class="phpdocumentor-sidebar__category-header">Namespaces</h2>
                                     <h4 class="phpdocumentor-sidebar__root-namespace">
-    <a href="namespaces/routes.html" class="">Routes</a>
-</h4>
-
-                                    <h4 class="phpdocumentor-sidebar__root-namespace">
     <a href="namespaces/traits.html" class="">Traits</a>
 </h4>
 
@@ -92,6 +88,10 @@
                 
             </li>
                     <li>
+                <a href="namespaces/smr-routes.html" class="">Routes</a>
+                
+            </li>
+                    <li>
                 <a href="namespaces/smr-sociallogin.html" class="">SocialLogin</a>
                 
             </li>
@@ -121,16 +121,14 @@
 
             <div class="phpdocumentor-column -eight phpdocumentor-content">
                     <ul class="phpdocumentor-breadcrumbs">
-            <li class="phpdocumentor-breadcrumb"><a href="namespaces/routes.html">Routes</a></li>
+            <li class="phpdocumentor-breadcrumb"><a href="namespaces/smr.html">Smr</a></li>
+            <li class="phpdocumentor-breadcrumb"><a href="namespaces/smr-routes.html">Routes</a></li>
     </ul>
 
     <article class="phpdocumentor-element -class">
         <h2 class="phpdocumentor-content__title">
-    MultiplePortRoute
+    Route
 
-        <span class="phpdocumentor-element__extends">
-        extends <a href="classes/Routes-Route.html"><abbr title="\Routes\Route">Route</abbr></a>
-    </span>
     
             <div class="phpdocumentor-element__package">
             in package
@@ -143,7 +141,7 @@
     </h2>
 
         <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/Routes/MultiplePortRoute.php"><a href="files/src-lib-default-routes-multipleportroute.html"><abbr title="src/lib/Default/Routes/MultiplePortRoute.php">MultiplePortRoute.php</abbr></a></abbr>
+    <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Routes/Route.php"><a href="files/src-lib-smr-routes-route.html"><abbr title="src/lib/Smr/Routes/Route.php">Route.php</abbr></a></abbr>
     :
     <span class="phpdocumentor-element-found-in__line">5</span>
 
@@ -165,85 +163,64 @@
 </h3>
 
 <dl class="phpdocumentor-table-of-contents">
-                    <dt class="phpdocumentor-table-of-contents__entry -property -private">
-    <a href="classes/Routes-MultiplePortRoute.html#property_forwardRoute">$forwardRoute</a>
-    <span>
-                        &nbsp;: <a href="classes/Routes-OneWayRoute.html"><abbr title="\Routes\OneWayRoute">OneWayRoute</abbr></a>            </span>
-</dt>
-<dd></dd>
-
-            <dt class="phpdocumentor-table-of-contents__entry -property -private">
-    <a href="classes/Routes-MultiplePortRoute.html#property_returnRoute">$returnRoute</a>
-    <span>
-                        &nbsp;: <a href="classes/Routes-OneWayRoute.html"><abbr title="\Routes\OneWayRoute">OneWayRoute</abbr></a>            </span>
-</dt>
-<dd></dd>
-
-                <dt class="phpdocumentor-table-of-contents__entry -method -public">
-    <a href="classes/Routes-MultiplePortRoute.html#method___construct">__construct()</a>
-    <span>
-                                &nbsp;: mixed    </span>
-</dt>
-<dd></dd>
-
-            <dt class="phpdocumentor-table-of-contents__entry -method -public">
-    <a href="classes/Routes-Route.html#method_containsPort">containsPort()</a>
+                        <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a href="classes/Smr-Routes-Route.html#method_containsPort">containsPort()</a>
     <span>
                                 &nbsp;: bool    </span>
 </dt>
 <dd></dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
-    <a href="classes/Routes-Route.html#method_getExpMultiplierSum">getExpMultiplierSum()</a>
+    <a href="classes/Smr-Routes-Route.html#method_getExpMultiplierSum">getExpMultiplierSum()</a>
     <span>
                                 &nbsp;: int    </span>
 </dt>
 <dd></dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
-    <a href="classes/Routes-MultiplePortRoute.html#method_getForwardRoute">getForwardRoute()</a>
-    <span>
-                                &nbsp;: <a href="classes/Routes-OneWayRoute.html"><abbr title="\Routes\OneWayRoute">OneWayRoute</abbr></a>|null    </span>
-</dt>
-<dd></dd>
-
-            <dt class="phpdocumentor-table-of-contents__entry -method -public">
-    <a href="classes/Routes-Route.html#method_getMoneyMultiplierSum">getMoneyMultiplierSum()</a>
+    <a href="classes/Smr-Routes-Route.html#method_getMoneyMultiplierSum">getMoneyMultiplierSum()</a>
     <span>
                                 &nbsp;: int    </span>
 </dt>
 <dd></dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
-    <a href="classes/Routes-Route.html#method_getOverallExpMultiplier">getOverallExpMultiplier()</a>
+    <a href="classes/Smr-Routes-Route.html#method_getOneWayRoutes">getOneWayRoutes()</a>
+    <span>
+                                &nbsp;: array&lt;string|int, <a href="classes/Smr-Routes-OneWayRoute.html"><abbr title="\Smr\Routes\OneWayRoute">OneWayRoute</abbr></a>&gt;    </span>
+</dt>
+<dd>Recurse through the Route tree to get an ordered list.</dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a href="classes/Smr-Routes-Route.html#method_getOverallExpMultiplier">getOverallExpMultiplier()</a>
     <span>
                                 &nbsp;: float    </span>
 </dt>
 <dd></dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
-    <a href="classes/Routes-Route.html#method_getOverallMoneyMultiplier">getOverallMoneyMultiplier()</a>
+    <a href="classes/Smr-Routes-Route.html#method_getOverallMoneyMultiplier">getOverallMoneyMultiplier()</a>
     <span>
                                 &nbsp;: float    </span>
 </dt>
 <dd></dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
-    <a href="classes/Routes-MultiplePortRoute.html#method_getReturnRoute">getReturnRoute()</a>
+    <a href="classes/Smr-Routes-Route.html#method_getPortSectorIDs">getPortSectorIDs()</a>
     <span>
-                                &nbsp;: <a href="classes/Routes-OneWayRoute.html"><abbr title="\Routes\OneWayRoute">OneWayRoute</abbr></a>|null    </span>
+                                &nbsp;: array&lt;string|int, int&gt;    </span>
 </dt>
-<dd></dd>
+<dd>Provides a list of sector IDs for all ports in the Route.</dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
-    <a href="classes/Routes-Route.html#method_getRouteString">getRouteString()</a>
+    <a href="classes/Smr-Routes-Route.html#method_getRouteString">getRouteString()</a>
     <span>
                                 &nbsp;: string    </span>
 </dt>
 <dd></dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
-    <a href="classes/Routes-Route.html#method_getTurnsForRoute">getTurnsForRoute()</a>
+    <a href="classes/Smr-Routes-Route.html#method_getTurnsForRoute">getTurnsForRoute()</a>
     <span>
                                 &nbsp;: int    </span>
 </dt>
@@ -256,159 +233,33 @@
         
 
         
-    <section class="phpdocumentor-properties">
-        <h3 class="phpdocumentor-elements__header" id="properties">
-            Properties
-            <a href="classes/Routes-MultiplePortRoute.html#properties" class="headerlink"><i class="fas fa-link"></i></a>
-        </h3>
-                    <article
-        class="
-            phpdocumentor-element
-            -property
-            -private
-                                                        "
->
-    <h4 class="phpdocumentor-element__name" id="property_forwardRoute">
-        $forwardRoute
-        <a href="classes/Routes-MultiplePortRoute.html#property_forwardRoute" class="headerlink"><i class="fas fa-link"></i></a>
-        <span class="phpdocumentor-element__modifiers">
-                                </span>
-    </h4>
-    <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/Routes/MultiplePortRoute.php"><a href="files/src-lib-default-routes-multipleportroute.html"><abbr title="src/lib/Default/Routes/MultiplePortRoute.php">MultiplePortRoute.php</abbr></a></abbr>
-    :
-    <span class="phpdocumentor-element-found-in__line">8</span>
-
-    </aside>
-
-    
-    <code class="phpdocumentor-code phpdocumentor-signature ">
-    <span class="phpdocumentor-signature__visibility">private</span>
-        <span class="phpdocumentor-signature__type"><a href="classes/Routes-OneWayRoute.html"><abbr title="\Routes\OneWayRoute">OneWayRoute</abbr></a></span>
-    <span class="phpdocumentor-signature__name">$forwardRoute</span>
-    </code>
-
-        <section class="phpdocumentor-description"></section>
-
-        <section class="phpdocumentor-description"></section>
-
-    
-
-</article>
-                    <article
-        class="
-            phpdocumentor-element
-            -property
-            -private
-                                                        "
->
-    <h4 class="phpdocumentor-element__name" id="property_returnRoute">
-        $returnRoute
-        <a href="classes/Routes-MultiplePortRoute.html#property_returnRoute" class="headerlink"><i class="fas fa-link"></i></a>
-        <span class="phpdocumentor-element__modifiers">
-                                </span>
-    </h4>
-    <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/Routes/MultiplePortRoute.php"><a href="files/src-lib-default-routes-multipleportroute.html"><abbr title="src/lib/Default/Routes/MultiplePortRoute.php">MultiplePortRoute.php</abbr></a></abbr>
-    :
-    <span class="phpdocumentor-element-found-in__line">9</span>
-
-    </aside>
-
-    
-    <code class="phpdocumentor-code phpdocumentor-signature ">
-    <span class="phpdocumentor-signature__visibility">private</span>
-        <span class="phpdocumentor-signature__type"><a href="classes/Routes-OneWayRoute.html"><abbr title="\Routes\OneWayRoute">OneWayRoute</abbr></a></span>
-    <span class="phpdocumentor-signature__name">$returnRoute</span>
-    </code>
-
-        <section class="phpdocumentor-description"></section>
-
-        <section class="phpdocumentor-description"></section>
-
-    
-
-</article>
-            </section>
 
             <section class="phpdocumentor-methods">
         <h3 class="phpdocumentor-elements__header" id="methods">
             Methods
-            <a href="classes/Routes-MultiplePortRoute.html#methods" class="headerlink"><i class="fas fa-link"></i></a>
+            <a href="classes/Smr-Routes-Route.html#methods" class="headerlink"><i class="fas fa-link"></i></a>
         </h3>
                     <article
         class="phpdocumentor-element
             -method
             -public
-                                                        "
->
-    <h4 class="phpdocumentor-element__name" id="method___construct">
-        __construct()
-        <a href="classes/Routes-MultiplePortRoute.html#method___construct" class="headerlink"><i class="fas fa-link"></i></a>
-    </h4>
-    <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/Routes/MultiplePortRoute.php"><a href="files/src-lib-default-routes-multipleportroute.html"><abbr title="src/lib/Default/Routes/MultiplePortRoute.php">MultiplePortRoute.php</abbr></a></abbr>
-    :
-    <span class="phpdocumentor-element-found-in__line">7</span>
-
-    </aside>
-
-    
-    <code class="phpdocumentor-code phpdocumentor-signature ">
-    <span class="phpdocumentor-signature__visibility">public</span>
-                <span class="phpdocumentor-signature__name">__construct</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type"><a href="classes/Routes-OneWayRoute.html"><abbr title="\Routes\OneWayRoute">OneWayRoute</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$forwardRoute</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__return-type"><a href="classes/Routes-OneWayRoute.html"><abbr title="\Routes\OneWayRoute">OneWayRoute</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$returnRoute</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">mixed</span></code>
-
-        <section class="phpdocumentor-description"></section>
-
-        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
-    <dl class="phpdocumentor-argument-list">
-                    <dt class="phpdocumentor-argument-list__entry">
-                <span class="phpdocumentor-signature__argument__name">$forwardRoute</span>
-                : <span class="phpdocumentor-signature__argument__return-type"><a href="classes/Routes-OneWayRoute.html"><abbr title="\Routes\OneWayRoute">OneWayRoute</abbr></a></span>
-                            </dt>
-            <dd class="phpdocumentor-argument-list__definition">
-                    <section class="phpdocumentor-description"></section>
-
-            </dd>
-                    <dt class="phpdocumentor-argument-list__entry">
-                <span class="phpdocumentor-signature__argument__name">$returnRoute</span>
-                : <span class="phpdocumentor-signature__argument__return-type"><a href="classes/Routes-OneWayRoute.html"><abbr title="\Routes\OneWayRoute">OneWayRoute</abbr></a></span>
-                            </dt>
-            <dd class="phpdocumentor-argument-list__definition">
-                    <section class="phpdocumentor-description"></section>
-
-            </dd>
-            </dl>
-
-    
-
-        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
-    <span class="phpdocumentor-signature__response_type">mixed</span>
-            &mdash;
-        
-    
-</article>
-                    <article
-        class="phpdocumentor-element
-            -method
-            -public
-                                                        "
+                        -abstract                                "
 >
     <h4 class="phpdocumentor-element__name" id="method_containsPort">
         containsPort()
-        <a href="classes/Routes-Route.html#method_containsPort" class="headerlink"><i class="fas fa-link"></i></a>
+        <a href="classes/Smr-Routes-Route.html#method_containsPort" class="headerlink"><i class="fas fa-link"></i></a>
     </h4>
     <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/Routes/Route.php"><a href="files/src-lib-default-routes-route.html"><abbr title="src/lib/Default/Routes/Route.php">Route.php</abbr></a></abbr>
+    <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Routes/Route.php"><a href="files/src-lib-smr-routes-route.html"><abbr title="src/lib/Smr/Routes/Route.php">Route.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">27</span>
+    <span class="phpdocumentor-element-found-in__line">28</span>
 
     </aside>
 
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">public</span>
-                <span class="phpdocumentor-signature__name">containsPort</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type">int&nbsp;</span><span class="phpdocumentor-signature__argument__name">$sectorID</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">bool</span></code>
+    <span class="phpdocumentor-signature__abstract">abstract</span>            <span class="phpdocumentor-signature__name">containsPort</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type">int&nbsp;</span><span class="phpdocumentor-signature__argument__name">$sectorID</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">bool</span></code>
 
         <section class="phpdocumentor-description"></section>
 
@@ -436,80 +287,14 @@
         class="phpdocumentor-element
             -method
             -public
-                                                        "
+                        -abstract                                "
 >
     <h4 class="phpdocumentor-element__name" id="method_getExpMultiplierSum">
         getExpMultiplierSum()
-        <a href="classes/Routes-Route.html#method_getExpMultiplierSum" class="headerlink"><i class="fas fa-link"></i></a>
+        <a href="classes/Smr-Routes-Route.html#method_getExpMultiplierSum" class="headerlink"><i class="fas fa-link"></i></a>
     </h4>
     <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/Routes/Route.php"><a href="files/src-lib-default-routes-route.html"><abbr title="src/lib/Default/Routes/Route.php">Route.php</abbr></a></abbr>
-    :
-    <span class="phpdocumentor-element-found-in__line">23</span>
-
-    </aside>
-
-    
-    <code class="phpdocumentor-code phpdocumentor-signature ">
-    <span class="phpdocumentor-signature__visibility">public</span>
-                <span class="phpdocumentor-signature__name">getExpMultiplierSum</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">int</span></code>
-
-        <section class="phpdocumentor-description"></section>
-
-    
-    
-
-        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
-    <span class="phpdocumentor-signature__response_type">int</span>
-            &mdash;
-        
-    
-</article>
-                    <article
-        class="phpdocumentor-element
-            -method
-            -public
-                                                        "
->
-    <h4 class="phpdocumentor-element__name" id="method_getForwardRoute">
-        getForwardRoute()
-        <a href="classes/Routes-MultiplePortRoute.html#method_getForwardRoute" class="headerlink"><i class="fas fa-link"></i></a>
-    </h4>
-    <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/Routes/MultiplePortRoute.php"><a href="files/src-lib-default-routes-multipleportroute.html"><abbr title="src/lib/Default/Routes/MultiplePortRoute.php">MultiplePortRoute.php</abbr></a></abbr>
-    :
-    <span class="phpdocumentor-element-found-in__line">12</span>
-
-    </aside>
-
-    
-    <code class="phpdocumentor-code phpdocumentor-signature ">
-    <span class="phpdocumentor-signature__visibility">public</span>
-                <span class="phpdocumentor-signature__name">getForwardRoute</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type"><a href="classes/Routes-OneWayRoute.html"><abbr title="\Routes\OneWayRoute">OneWayRoute</abbr></a>|null</span></code>
-
-        <section class="phpdocumentor-description"></section>
-
-    
-    
-
-        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
-    <span class="phpdocumentor-signature__response_type"><a href="classes/Routes-OneWayRoute.html"><abbr title="\Routes\OneWayRoute">OneWayRoute</abbr></a>|null</span>
-            &mdash;
-        
-    
-</article>
-                    <article
-        class="phpdocumentor-element
-            -method
-            -public
-                                                        "
->
-    <h4 class="phpdocumentor-element__name" id="method_getMoneyMultiplierSum">
-        getMoneyMultiplierSum()
-        <a href="classes/Routes-Route.html#method_getMoneyMultiplierSum" class="headerlink"><i class="fas fa-link"></i></a>
-    </h4>
-    <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/Routes/Route.php"><a href="files/src-lib-default-routes-route.html"><abbr title="src/lib/Default/Routes/Route.php">Route.php</abbr></a></abbr>
+    <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Routes/Route.php"><a href="files/src-lib-smr-routes-route.html"><abbr title="src/lib/Smr/Routes/Route.php">Route.php</abbr></a></abbr>
     :
     <span class="phpdocumentor-element-found-in__line">19</span>
 
@@ -518,7 +303,7 @@
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">public</span>
-                <span class="phpdocumentor-signature__name">getMoneyMultiplierSum</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">int</span></code>
+    <span class="phpdocumentor-signature__abstract">abstract</span>            <span class="phpdocumentor-signature__name">getExpMultiplierSum</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">int</span></code>
 
         <section class="phpdocumentor-description"></section>
 
@@ -527,6 +312,72 @@
 
         <h5 class="phpdocumentor-return-value__heading">Return values</h5>
     <span class="phpdocumentor-signature__response_type">int</span>
+            &mdash;
+        
+    
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                        -abstract                                "
+>
+    <h4 class="phpdocumentor-element__name" id="method_getMoneyMultiplierSum">
+        getMoneyMultiplierSum()
+        <a href="classes/Smr-Routes-Route.html#method_getMoneyMultiplierSum" class="headerlink"><i class="fas fa-link"></i></a>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Routes/Route.php"><a href="files/src-lib-smr-routes-route.html"><abbr title="src/lib/Smr/Routes/Route.php">Route.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">17</span>
+
+    </aside>
+
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+    <span class="phpdocumentor-signature__abstract">abstract</span>            <span class="phpdocumentor-signature__name">getMoneyMultiplierSum</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">int</span></code>
+
+        <section class="phpdocumentor-description"></section>
+
+    
+    
+
+        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
+    <span class="phpdocumentor-signature__response_type">int</span>
+            &mdash;
+        
+    
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                        -abstract                                "
+>
+    <h4 class="phpdocumentor-element__name" id="method_getOneWayRoutes">
+        getOneWayRoutes()
+        <a href="classes/Smr-Routes-Route.html#method_getOneWayRoutes" class="headerlink"><i class="fas fa-link"></i></a>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Routes/Route.php"><a href="files/src-lib-smr-routes-route.html"><abbr title="src/lib/Smr/Routes/Route.php">Route.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">35</span>
+
+    </aside>
+
+        <p class="phpdocumentor-summary">Recurse through the Route tree to get an ordered list.</p>
+
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+    <span class="phpdocumentor-signature__abstract">abstract</span>            <span class="phpdocumentor-signature__name">getOneWayRoutes</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">array&lt;string|int, <a href="classes/Smr-Routes-OneWayRoute.html"><abbr title="\Smr\Routes\OneWayRoute">OneWayRoute</abbr></a>&gt;</span></code>
+
+    
+    
+    
+
+        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
+    <span class="phpdocumentor-signature__response_type">array&lt;string|int, <a href="classes/Smr-Routes-OneWayRoute.html"><abbr title="\Smr\Routes\OneWayRoute">OneWayRoute</abbr></a>&gt;</span>
             &mdash;
         
     
@@ -539,10 +390,10 @@
 >
     <h4 class="phpdocumentor-element__name" id="method_getOverallExpMultiplier">
         getOverallExpMultiplier()
-        <a href="classes/Routes-Route.html#method_getOverallExpMultiplier" class="headerlink"><i class="fas fa-link"></i></a>
+        <a href="classes/Smr-Routes-Route.html#method_getOverallExpMultiplier" class="headerlink"><i class="fas fa-link"></i></a>
     </h4>
     <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/Routes/Route.php"><a href="files/src-lib-default-routes-route.html"><abbr title="src/lib/Default/Routes/Route.php">Route.php</abbr></a></abbr>
+    <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Routes/Route.php"><a href="files/src-lib-smr-routes-route.html"><abbr title="src/lib/Smr/Routes/Route.php">Route.php</abbr></a></abbr>
     :
     <span class="phpdocumentor-element-found-in__line">7</span>
 
@@ -572,10 +423,10 @@
 >
     <h4 class="phpdocumentor-element__name" id="method_getOverallMoneyMultiplier">
         getOverallMoneyMultiplier()
-        <a href="classes/Routes-Route.html#method_getOverallMoneyMultiplier" class="headerlink"><i class="fas fa-link"></i></a>
+        <a href="classes/Smr-Routes-Route.html#method_getOverallMoneyMultiplier" class="headerlink"><i class="fas fa-link"></i></a>
     </h4>
     <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/Routes/Route.php"><a href="files/src-lib-default-routes-route.html"><abbr title="src/lib/Default/Routes/Route.php">Route.php</abbr></a></abbr>
+    <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Routes/Route.php"><a href="files/src-lib-smr-routes-route.html"><abbr title="src/lib/Smr/Routes/Route.php">Route.php</abbr></a></abbr>
     :
     <span class="phpdocumentor-element-found-in__line">11</span>
 
@@ -601,31 +452,31 @@
         class="phpdocumentor-element
             -method
             -public
-                                                        "
+                        -abstract                                "
 >
-    <h4 class="phpdocumentor-element__name" id="method_getReturnRoute">
-        getReturnRoute()
-        <a href="classes/Routes-MultiplePortRoute.html#method_getReturnRoute" class="headerlink"><i class="fas fa-link"></i></a>
+    <h4 class="phpdocumentor-element__name" id="method_getPortSectorIDs">
+        getPortSectorIDs()
+        <a href="classes/Smr-Routes-Route.html#method_getPortSectorIDs" class="headerlink"><i class="fas fa-link"></i></a>
     </h4>
     <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/Routes/MultiplePortRoute.php"><a href="files/src-lib-default-routes-multipleportroute.html"><abbr title="src/lib/Default/Routes/MultiplePortRoute.php">MultiplePortRoute.php</abbr></a></abbr>
+    <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Routes/Route.php"><a href="files/src-lib-smr-routes-route.html"><abbr title="src/lib/Smr/Routes/Route.php">Route.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">16</span>
+    <span class="phpdocumentor-element-found-in__line">26</span>
 
     </aside>
 
-    
+        <p class="phpdocumentor-summary">Provides a list of sector IDs for all ports in the Route.</p>
+
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">public</span>
-                <span class="phpdocumentor-signature__name">getReturnRoute</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type"><a href="classes/Routes-OneWayRoute.html"><abbr title="\Routes\OneWayRoute">OneWayRoute</abbr></a>|null</span></code>
+    <span class="phpdocumentor-signature__abstract">abstract</span>            <span class="phpdocumentor-signature__name">getPortSectorIDs</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">array&lt;string|int, int&gt;</span></code>
 
-        <section class="phpdocumentor-description"></section>
-
+    
     
     
 
         <h5 class="phpdocumentor-return-value__heading">Return values</h5>
-    <span class="phpdocumentor-signature__response_type"><a href="classes/Routes-OneWayRoute.html"><abbr title="\Routes\OneWayRoute">OneWayRoute</abbr></a>|null</span>
+    <span class="phpdocumentor-signature__response_type">array&lt;string|int, int&gt;</span>
             &mdash;
         
     
@@ -634,23 +485,23 @@
         class="phpdocumentor-element
             -method
             -public
-                                                        "
+                        -abstract                                "
 >
     <h4 class="phpdocumentor-element__name" id="method_getRouteString">
         getRouteString()
-        <a href="classes/Routes-Route.html#method_getRouteString" class="headerlink"><i class="fas fa-link"></i></a>
+        <a href="classes/Smr-Routes-Route.html#method_getRouteString" class="headerlink"><i class="fas fa-link"></i></a>
     </h4>
     <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/Routes/Route.php"><a href="files/src-lib-default-routes-route.html"><abbr title="src/lib/Default/Routes/Route.php">Route.php</abbr></a></abbr>
+    <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Routes/Route.php"><a href="files/src-lib-smr-routes-route.html"><abbr title="src/lib/Smr/Routes/Route.php">Route.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">36</span>
+    <span class="phpdocumentor-element-found-in__line">37</span>
 
     </aside>
 
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">public</span>
-                <span class="phpdocumentor-signature__name">getRouteString</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">string</span></code>
+    <span class="phpdocumentor-signature__abstract">abstract</span>            <span class="phpdocumentor-signature__name">getRouteString</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">string</span></code>
 
         <section class="phpdocumentor-description"></section>
 
@@ -667,14 +518,14 @@
         class="phpdocumentor-element
             -method
             -public
-                                                        "
+                        -abstract                                "
 >
     <h4 class="phpdocumentor-element__name" id="method_getTurnsForRoute">
         getTurnsForRoute()
-        <a href="classes/Routes-Route.html#method_getTurnsForRoute" class="headerlink"><i class="fas fa-link"></i></a>
+        <a href="classes/Smr-Routes-Route.html#method_getTurnsForRoute" class="headerlink"><i class="fas fa-link"></i></a>
     </h4>
     <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/Routes/Route.php"><a href="files/src-lib-default-routes-route.html"><abbr title="src/lib/Default/Routes/Route.php">Route.php</abbr></a></abbr>
+    <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Routes/Route.php"><a href="files/src-lib-smr-routes-route.html"><abbr title="src/lib/Smr/Routes/Route.php">Route.php</abbr></a></abbr>
     :
     <span class="phpdocumentor-element-found-in__line">15</span>
 
@@ -683,7 +534,7 @@
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">public</span>
-                <span class="phpdocumentor-signature__name">getTurnsForRoute</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">int</span></code>
+    <span class="phpdocumentor-signature__abstract">abstract</span>            <span class="phpdocumentor-signature__name">getTurnsForRoute</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">int</span></code>
 
         <section class="phpdocumentor-description"></section>
 
@@ -774,7 +625,7 @@
 </section>
             </div>
         </div>
-        <a href="classes/Routes-MultiplePortRoute.html#top" class="phpdocumentor-back-to-top"><i class="fas fa-chevron-circle-up"></i></a>
+        <a href="classes/Smr-Routes-Route.html#top" class="phpdocumentor-back-to-top"><i class="fas fa-chevron-circle-up"></i></a>
 
     </main>
 
