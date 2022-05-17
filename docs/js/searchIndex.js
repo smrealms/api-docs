@@ -6846,6 +6846,21 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/SmrGalaxy.html#method_equals"
         },                {
+            "fqsen": "\\SmrGalaxy\u003A\u003ATYPE_RACIAL",
+            "name": "TYPE_RACIAL",
+            "summary": "",
+            "url": "classes/SmrGalaxy.html#constant_TYPE_RACIAL"
+        },                {
+            "fqsen": "\\SmrGalaxy\u003A\u003ATYPE_NEUTRAL",
+            "name": "TYPE_NEUTRAL",
+            "summary": "",
+            "url": "classes/SmrGalaxy.html#constant_TYPE_NEUTRAL"
+        },                {
+            "fqsen": "\\SmrGalaxy\u003A\u003ATYPE_PLANET",
+            "name": "TYPE_PLANET",
+            "summary": "",
+            "url": "classes/SmrGalaxy.html#constant_TYPE_PLANET"
+        },                {
             "fqsen": "\\SmrGalaxy\u003A\u003ATYPES",
             "name": "TYPES",
             "summary": "",
@@ -7140,6 +7155,11 @@ Search.appendIndex(
             "name": "getTotalPlayers",
             "summary": "",
             "url": "classes/SmrGame.html#method_getTotalPlayers"
+        },                {
+            "fqsen": "\\SmrGame\u003A\u003AgetGalaxies\u0028\u0029",
+            "name": "getGalaxies",
+            "summary": "",
+            "url": "classes/SmrGame.html#method_getGalaxies"
         },                {
             "fqsen": "\\SmrGame\u003A\u003AgetNumberOfGalaxies\u0028\u0029",
             "name": "getNumberOfGalaxies",
