@@ -6666,6 +6666,11 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/SmrGalaxy.html"
         },                {
+            "fqsen": "\\SmrGalaxy\u003A\u003AclearCache\u0028\u0029",
+            "name": "clearCache",
+            "summary": "",
+            "url": "classes/SmrGalaxy.html#method_clearCache"
+        },                {
             "fqsen": "\\SmrGalaxy\u003A\u003AgetGameGalaxies\u0028\u0029",
             "name": "getGameGalaxies",
             "summary": "",
@@ -9185,6 +9190,11 @@ Search.appendIndex(
             "name": "SmrShipType",
             "summary": "Defines\u0020the\u0020base\u0020ship\u0020types",
             "url": "classes/SmrShipType.html"
+        },                {
+            "fqsen": "\\SmrShipType\u003A\u003AclearCache\u0028\u0029",
+            "name": "clearCache",
+            "summary": "",
+            "url": "classes/SmrShipType.html#method_clearCache"
         },                {
             "fqsen": "\\SmrShipType\u003A\u003Aget\u0028\u0029",
             "name": "get",
