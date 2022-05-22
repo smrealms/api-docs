@@ -2001,10 +2001,15 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/AbstractSmrPlayer.html#method_getLinkedDisplayName"
         },                {
-            "fqsen": "\\AbstractSmrPlayer\u003A\u003AsetPlayerNameByPlayer\u0028\u0029",
-            "name": "setPlayerNameByPlayer",
+            "fqsen": "\\AbstractSmrPlayer\u003A\u003AchangePlayerName\u0028\u0029",
+            "name": "changePlayerName",
+            "summary": "Change\u0020a\u0020player\u0027s\u0020name,\u0020with\u0020name\u0020validation.",
+            "url": "classes/AbstractSmrPlayer.html#method_changePlayerName"
+        },                {
+            "fqsen": "\\AbstractSmrPlayer\u003A\u003AchangePlayerNameByPlayer\u0028\u0029",
+            "name": "changePlayerNameByPlayer",
             "summary": "Use\u0020this\u0020method\u0020when\u0020the\u0020player\u0020is\u0020changing\u0020their\u0020own\u0020name.",
-            "url": "classes/AbstractSmrPlayer.html#method_setPlayerNameByPlayer"
+            "url": "classes/AbstractSmrPlayer.html#method_changePlayerNameByPlayer"
         },                {
             "fqsen": "\\AbstractSmrPlayer\u003A\u003AisNameChanged\u0028\u0029",
             "name": "isNameChanged",
