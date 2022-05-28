@@ -122,11 +122,12 @@
             <div class="phpdocumentor-column -eight phpdocumentor-content">
                     <ul class="phpdocumentor-breadcrumbs">
             <li class="phpdocumentor-breadcrumb"><a href="namespaces/smr.html">Smr</a></li>
+            <li class="phpdocumentor-breadcrumb"><a href="namespaces/smr-routes.html">Routes</a></li>
     </ul>
 
     <article class="phpdocumentor-element -class">
         <h2 class="phpdocumentor-content__title">
-    DatabaseResult
+    RouteIterator
 
     
             <div class="phpdocumentor-element__package">
@@ -140,13 +141,13 @@
     </h2>
 
         <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/DatabaseResult.php"><a href="files/src-lib-smr-databaseresult.html"><abbr title="src/lib/Smr/DatabaseResult.php">DatabaseResult.php</abbr></a></abbr>
+    <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Routes/RouteIterator.php"><a href="files/src-lib-smr-routes-routeiterator.html"><abbr title="src/lib/Smr/Routes/RouteIterator.php">RouteIterator.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">12</span>
+    <span class="phpdocumentor-element-found-in__line">11</span>
 
     </aside>
 
-            <p class="phpdocumentor-summary">Holds the result of a Database query (e.g. read or write).</p>
+            <p class="phpdocumentor-summary">Cyclically iterate over actions on a trade route</p>
 
 
 
@@ -163,46 +164,67 @@
 
 <dl class="phpdocumentor-table-of-contents">
                     <dt class="phpdocumentor-table-of-contents__entry -property -private">
-    <a href="classes/Smr-DatabaseResult.html#property_dbResult">$dbResult</a>
+    <a href="classes/Smr-Routes-RouteIterator.html#property_route">$route</a>
     <span>
-                        &nbsp;: <abbr title="\mysqli_result">mysqli_result</abbr>            </span>
+                        &nbsp;: <a href="classes/Smr-Routes-MultiplePortRoute.html"><abbr title="\Smr\Routes\MultiplePortRoute">MultiplePortRoute</abbr></a>            </span>
+</dt>
+<dd></dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -property -private">
+    <a href="classes/Smr-Routes-RouteIterator.html#property_routeIterator">$routeIterator</a>
+    <span>
+                        &nbsp;: <abbr title="\InfiniteIterator">InfiniteIterator</abbr>            </span>
+</dt>
+<dd></dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -property -private">
+    <a href="classes/Smr-Routes-RouteIterator.html#property_transaction">$transaction</a>
+    <span>
+                        &nbsp;: string            </span>
 </dt>
 <dd></dd>
 
                 <dt class="phpdocumentor-table-of-contents__entry -method -public">
-    <a href="classes/Smr-DatabaseResult.html#method___construct">__construct()</a>
+    <a href="classes/Smr-Routes-RouteIterator.html#method___construct">__construct()</a>
     <span>
                                 &nbsp;: mixed    </span>
 </dt>
 <dd></dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
-    <a href="classes/Smr-DatabaseResult.html#method_getNumRecords">getNumRecords()</a>
+    <a href="classes/Smr-Routes-RouteIterator.html#method_getCurrentRoute">getCurrentRoute()</a>
+    <span>
+                                &nbsp;: <a href="classes/Smr-Routes-OneWayRoute.html"><abbr title="\Smr\Routes\OneWayRoute">OneWayRoute</abbr></a>    </span>
+</dt>
+<dd></dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a href="classes/Smr-Routes-RouteIterator.html#method_getCurrentSectorID">getCurrentSectorID()</a>
     <span>
                                 &nbsp;: int    </span>
 </dt>
 <dd></dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
-    <a href="classes/Smr-DatabaseResult.html#method_hasRecord">hasRecord()</a>
+    <a href="classes/Smr-Routes-RouteIterator.html#method_getCurrentTransaction">getCurrentTransaction()</a>
     <span>
-                                &nbsp;: bool    </span>
+                                &nbsp;: string    </span>
 </dt>
 <dd></dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
-    <a href="classes/Smr-DatabaseResult.html#method_record">record()</a>
+    <a href="classes/Smr-Routes-RouteIterator.html#method_getEntireRoute">getEntireRoute()</a>
     <span>
-                                &nbsp;: <a href="classes/Smr-DatabaseRecord.html"><abbr title="\Smr\DatabaseRecord">DatabaseRecord</abbr></a>    </span>
+                                &nbsp;: <a href="classes/Smr-Routes-MultiplePortRoute.html"><abbr title="\Smr\Routes\MultiplePortRoute">MultiplePortRoute</abbr></a>    </span>
 </dt>
-<dd>Use when exactly one record is expected from the result set.</dd>
+<dd></dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
-    <a href="classes/Smr-DatabaseResult.html#method_records">records()</a>
+    <a href="classes/Smr-Routes-RouteIterator.html#method_next">next()</a>
     <span>
-                                &nbsp;: <abbr title="\Generator">Generator</abbr>&lt;string|int, <a href="classes/Smr-DatabaseRecord.html"><abbr title="\Smr\DatabaseRecord">DatabaseRecord</abbr></a>&gt;    </span>
+                                &nbsp;: void    </span>
 </dt>
-<dd>Use to iterate over the records from the result set.</dd>
+<dd>Advance to the next action on the route</dd>
 
         </dl>
 
@@ -214,34 +236,102 @@
     <section class="phpdocumentor-properties">
         <h3 class="phpdocumentor-elements__header" id="properties">
             Properties
-            <a href="classes/Smr-DatabaseResult.html#properties" class="headerlink"><i class="fas fa-link"></i></a>
+            <a href="classes/Smr-Routes-RouteIterator.html#properties" class="headerlink"><i class="fas fa-link"></i></a>
         </h3>
                     <article
         class="
             phpdocumentor-element
             -property
             -private
-                                                -read-only        "
+                                                        "
 >
-    <h4 class="phpdocumentor-element__name" id="property_dbResult">
-        $dbResult
-        <a href="classes/Smr-DatabaseResult.html#property_dbResult" class="headerlink"><i class="fas fa-link"></i></a>
+    <h4 class="phpdocumentor-element__name" id="property_route">
+        $route
+        <a href="classes/Smr-Routes-RouteIterator.html#property_route" class="headerlink"><i class="fas fa-link"></i></a>
         <span class="phpdocumentor-element__modifiers">
-                        <small class="phpdocumentor-element__modifier">read-only</small>        </span>
+                                </span>
     </h4>
     <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/DatabaseResult.php"><a href="files/src-lib-smr-databaseresult.html"><abbr title="src/lib/Smr/DatabaseResult.php">DatabaseResult.php</abbr></a></abbr>
+    <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Routes/RouteIterator.php"><a href="files/src-lib-smr-routes-routeiterator.html"><abbr title="src/lib/Smr/Routes/RouteIterator.php">RouteIterator.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">15</span>
+    <span class="phpdocumentor-element-found-in__line">17</span>
 
     </aside>
 
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">private</span>
-        <span class="phpdocumentor-signature__type"><abbr title="\mysqli_result">mysqli_result</abbr></span>
-    <span class="phpdocumentor-signature__name">$dbResult</span>
+        <span class="phpdocumentor-signature__type"><a href="classes/Smr-Routes-MultiplePortRoute.html"><abbr title="\Smr\Routes\MultiplePortRoute">MultiplePortRoute</abbr></a></span>
+    <span class="phpdocumentor-signature__name">$route</span>
     </code>
+
+        <section class="phpdocumentor-description"></section>
+
+        <section class="phpdocumentor-description"></section>
+
+    
+
+</article>
+                    <article
+        class="
+            phpdocumentor-element
+            -property
+            -private
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="property_routeIterator">
+        $routeIterator
+        <a href="classes/Smr-Routes-RouteIterator.html#property_routeIterator" class="headerlink"><i class="fas fa-link"></i></a>
+        <span class="phpdocumentor-element__modifiers">
+                                </span>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Routes/RouteIterator.php"><a href="files/src-lib-smr-routes-routeiterator.html"><abbr title="src/lib/Smr/Routes/RouteIterator.php">RouteIterator.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">13</span>
+
+    </aside>
+
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">private</span>
+        <span class="phpdocumentor-signature__type"><abbr title="\InfiniteIterator">InfiniteIterator</abbr></span>
+    <span class="phpdocumentor-signature__name">$routeIterator</span>
+    </code>
+
+        <section class="phpdocumentor-description"></section>
+
+        <section class="phpdocumentor-description"></section>
+
+    
+
+</article>
+                    <article
+        class="
+            phpdocumentor-element
+            -property
+            -private
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="property_transaction">
+        $transaction
+        <a href="classes/Smr-Routes-RouteIterator.html#property_transaction" class="headerlink"><i class="fas fa-link"></i></a>
+        <span class="phpdocumentor-element__modifiers">
+                                </span>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Routes/RouteIterator.php"><a href="files/src-lib-smr-routes-routeiterator.html"><abbr title="src/lib/Smr/Routes/RouteIterator.php">RouteIterator.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">14</span>
+
+    </aside>
+
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">private</span>
+        <span class="phpdocumentor-signature__type">string</span>
+    <span class="phpdocumentor-signature__name">$transaction</span>
+     = <span class="phpdocumentor-signature__default-value">TRADER_BUYS</span></code>
 
         <section class="phpdocumentor-description"></section>
 
@@ -255,7 +345,7 @@
             <section class="phpdocumentor-methods">
         <h3 class="phpdocumentor-elements__header" id="methods">
             Methods
-            <a href="classes/Smr-DatabaseResult.html#methods" class="headerlink"><i class="fas fa-link"></i></a>
+            <a href="classes/Smr-Routes-RouteIterator.html#methods" class="headerlink"><i class="fas fa-link"></i></a>
         </h3>
                     <article
         class="phpdocumentor-element
@@ -265,27 +355,27 @@
 >
     <h4 class="phpdocumentor-element__name" id="method___construct">
         __construct()
-        <a href="classes/Smr-DatabaseResult.html#method___construct" class="headerlink"><i class="fas fa-link"></i></a>
+        <a href="classes/Smr-Routes-RouteIterator.html#method___construct" class="headerlink"><i class="fas fa-link"></i></a>
     </h4>
     <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/DatabaseResult.php"><a href="files/src-lib-smr-databaseresult.html"><abbr title="src/lib/Smr/DatabaseResult.php">DatabaseResult.php</abbr></a></abbr>
+    <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Routes/RouteIterator.php"><a href="files/src-lib-smr-routes-routeiterator.html"><abbr title="src/lib/Smr/Routes/RouteIterator.php">RouteIterator.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">14</span>
+    <span class="phpdocumentor-element-found-in__line">16</span>
 
     </aside>
 
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">public</span>
-                <span class="phpdocumentor-signature__name">__construct</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type"><abbr title="\mysqli_result">mysqli_result</abbr>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$dbResult</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">mixed</span></code>
+                <span class="phpdocumentor-signature__name">__construct</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type"><a href="classes/Smr-Routes-MultiplePortRoute.html"><abbr title="\Smr\Routes\MultiplePortRoute">MultiplePortRoute</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$route</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">mixed</span></code>
 
         <section class="phpdocumentor-description"></section>
 
         <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
     <dl class="phpdocumentor-argument-list">
                     <dt class="phpdocumentor-argument-list__entry">
-                <span class="phpdocumentor-signature__argument__name">$dbResult</span>
-                : <span class="phpdocumentor-signature__argument__return-type"><abbr title="\mysqli_result">mysqli_result</abbr></span>
+                <span class="phpdocumentor-signature__argument__name">$route</span>
+                : <span class="phpdocumentor-signature__argument__return-type"><a href="classes/Smr-Routes-MultiplePortRoute.html"><abbr title="\Smr\Routes\MultiplePortRoute">MultiplePortRoute</abbr></a></span>
                             </dt>
             <dd class="phpdocumentor-argument-list__definition">
                     <section class="phpdocumentor-description"></section>
@@ -307,21 +397,54 @@
             -public
                                                         "
 >
-    <h4 class="phpdocumentor-element__name" id="method_getNumRecords">
-        getNumRecords()
-        <a href="classes/Smr-DatabaseResult.html#method_getNumRecords" class="headerlink"><i class="fas fa-link"></i></a>
+    <h4 class="phpdocumentor-element__name" id="method_getCurrentRoute">
+        getCurrentRoute()
+        <a href="classes/Smr-Routes-RouteIterator.html#method_getCurrentRoute" class="headerlink"><i class="fas fa-link"></i></a>
     </h4>
     <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/DatabaseResult.php"><a href="files/src-lib-smr-databaseresult.html"><abbr title="src/lib/Smr/DatabaseResult.php">DatabaseResult.php</abbr></a></abbr>
+    <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Routes/RouteIterator.php"><a href="files/src-lib-smr-routes-routeiterator.html"><abbr title="src/lib/Smr/Routes/RouteIterator.php">RouteIterator.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">38</span>
+    <span class="phpdocumentor-element-found-in__line">31</span>
 
     </aside>
 
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">public</span>
-                <span class="phpdocumentor-signature__name">getNumRecords</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">int</span></code>
+                <span class="phpdocumentor-signature__name">getCurrentRoute</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type"><a href="classes/Smr-Routes-OneWayRoute.html"><abbr title="\Smr\Routes\OneWayRoute">OneWayRoute</abbr></a></span></code>
+
+        <section class="phpdocumentor-description"></section>
+
+    
+    
+
+        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
+    <span class="phpdocumentor-signature__response_type"><a href="classes/Smr-Routes-OneWayRoute.html"><abbr title="\Smr\Routes\OneWayRoute">OneWayRoute</abbr></a></span>
+            &mdash;
+        
+    
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="method_getCurrentSectorID">
+        getCurrentSectorID()
+        <a href="classes/Smr-Routes-RouteIterator.html#method_getCurrentSectorID" class="headerlink"><i class="fas fa-link"></i></a>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Routes/RouteIterator.php"><a href="files/src-lib-smr-routes-routeiterator.html"><abbr title="src/lib/Smr/Routes/RouteIterator.php">RouteIterator.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">39</span>
+
+    </aside>
+
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+                <span class="phpdocumentor-signature__name">getCurrentSectorID</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">int</span></code>
 
         <section class="phpdocumentor-description"></section>
 
@@ -340,21 +463,21 @@
             -public
                                                         "
 >
-    <h4 class="phpdocumentor-element__name" id="method_hasRecord">
-        hasRecord()
-        <a href="classes/Smr-DatabaseResult.html#method_hasRecord" class="headerlink"><i class="fas fa-link"></i></a>
+    <h4 class="phpdocumentor-element__name" id="method_getCurrentTransaction">
+        getCurrentTransaction()
+        <a href="classes/Smr-Routes-RouteIterator.html#method_getCurrentTransaction" class="headerlink"><i class="fas fa-link"></i></a>
     </h4>
     <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/DatabaseResult.php"><a href="files/src-lib-smr-databaseresult.html"><abbr title="src/lib/Smr/DatabaseResult.php">DatabaseResult.php</abbr></a></abbr>
+    <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Routes/RouteIterator.php"><a href="files/src-lib-smr-routes-routeiterator.html"><abbr title="src/lib/Smr/Routes/RouteIterator.php">RouteIterator.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">42</span>
+    <span class="phpdocumentor-element-found-in__line">35</span>
 
     </aside>
 
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">public</span>
-                <span class="phpdocumentor-signature__name">hasRecord</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">bool</span></code>
+                <span class="phpdocumentor-signature__name">getCurrentTransaction</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">string</span></code>
 
         <section class="phpdocumentor-description"></section>
 
@@ -362,7 +485,7 @@
     
 
         <h5 class="phpdocumentor-return-value__heading">Return values</h5>
-    <span class="phpdocumentor-signature__response_type">bool</span>
+    <span class="phpdocumentor-signature__response_type">string</span>
             &mdash;
         
     
@@ -373,29 +496,29 @@
             -public
                                                         "
 >
-    <h4 class="phpdocumentor-element__name" id="method_record">
-        record()
-        <a href="classes/Smr-DatabaseResult.html#method_record" class="headerlink"><i class="fas fa-link"></i></a>
+    <h4 class="phpdocumentor-element__name" id="method_getEntireRoute">
+        getEntireRoute()
+        <a href="classes/Smr-Routes-RouteIterator.html#method_getEntireRoute" class="headerlink"><i class="fas fa-link"></i></a>
     </h4>
     <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/DatabaseResult.php"><a href="files/src-lib-smr-databaseresult.html"><abbr title="src/lib/Smr/DatabaseResult.php">DatabaseResult.php</abbr></a></abbr>
+    <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Routes/RouteIterator.php"><a href="files/src-lib-smr-routes-routeiterator.html"><abbr title="src/lib/Smr/Routes/RouteIterator.php">RouteIterator.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">31</span>
+    <span class="phpdocumentor-element-found-in__line">27</span>
 
     </aside>
 
-        <p class="phpdocumentor-summary">Use when exactly one record is expected from the result set.</p>
-
+    
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">public</span>
-                <span class="phpdocumentor-signature__name">record</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type"><a href="classes/Smr-DatabaseRecord.html"><abbr title="\Smr\DatabaseRecord">DatabaseRecord</abbr></a></span></code>
+                <span class="phpdocumentor-signature__name">getEntireRoute</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type"><a href="classes/Smr-Routes-MultiplePortRoute.html"><abbr title="\Smr\Routes\MultiplePortRoute">MultiplePortRoute</abbr></a></span></code>
 
-    
+        <section class="phpdocumentor-description"></section>
+
     
     
 
         <h5 class="phpdocumentor-return-value__heading">Return values</h5>
-    <span class="phpdocumentor-signature__response_type"><a href="classes/Smr-DatabaseRecord.html"><abbr title="\Smr\DatabaseRecord">DatabaseRecord</abbr></a></span>
+    <span class="phpdocumentor-signature__response_type"><a href="classes/Smr-Routes-MultiplePortRoute.html"><abbr title="\Smr\Routes\MultiplePortRoute">MultiplePortRoute</abbr></a></span>
             &mdash;
         
     
@@ -406,29 +529,29 @@
             -public
                                                         "
 >
-    <h4 class="phpdocumentor-element__name" id="method_records">
-        records()
-        <a href="classes/Smr-DatabaseResult.html#method_records" class="headerlink"><i class="fas fa-link"></i></a>
+    <h4 class="phpdocumentor-element__name" id="method_next">
+        next()
+        <a href="classes/Smr-Routes-RouteIterator.html#method_next" class="headerlink"><i class="fas fa-link"></i></a>
     </h4>
     <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/DatabaseResult.php"><a href="files/src-lib-smr-databaseresult.html"><abbr title="src/lib/Smr/DatabaseResult.php">DatabaseResult.php</abbr></a></abbr>
+    <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Routes/RouteIterator.php"><a href="files/src-lib-smr-routes-routeiterator.html"><abbr title="src/lib/Smr/Routes/RouteIterator.php">RouteIterator.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">22</span>
+    <span class="phpdocumentor-element-found-in__line">49</span>
 
     </aside>
 
-        <p class="phpdocumentor-summary">Use to iterate over the records from the result set.</p>
+        <p class="phpdocumentor-summary">Advance to the next action on the route</p>
 
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">public</span>
-                <span class="phpdocumentor-signature__name">records</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type"><abbr title="\Generator">Generator</abbr>&lt;string|int, <a href="classes/Smr-DatabaseRecord.html"><abbr title="\Smr\DatabaseRecord">DatabaseRecord</abbr></a>&gt;</span></code>
+                <span class="phpdocumentor-signature__name">next</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">void</span></code>
 
     
     
     
 
         <h5 class="phpdocumentor-return-value__heading">Return values</h5>
-    <span class="phpdocumentor-signature__response_type"><abbr title="\Generator">Generator</abbr>&lt;string|int, <a href="classes/Smr-DatabaseRecord.html"><abbr title="\Smr\DatabaseRecord">DatabaseRecord</abbr></a>&gt;</span>
+    <span class="phpdocumentor-signature__response_type">void</span>
             &mdash;
         
     
@@ -511,7 +634,7 @@
 </section>
             </div>
         </div>
-        <a href="classes/Smr-DatabaseResult.html#top" class="phpdocumentor-back-to-top"><i class="fas fa-chevron-circle-up"></i></a>
+        <a href="classes/Smr-Routes-RouteIterator.html#top" class="phpdocumentor-back-to-top"><i class="fas fa-chevron-circle-up"></i></a>
 
     </main>
 
