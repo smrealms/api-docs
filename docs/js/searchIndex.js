@@ -208,7 +208,7 @@ Search.appendIndex(
         },                {
             "fqsen": "\\AbstractSmrAccount\u003A\u003AgetHOF\u0028\u0029",
             "name": "getHOF",
-            "summary": "Returns\u0020either\u0020the\u0020entire\u0020HOF\u0020array\u0020or\u0020the\u0020value\u0020for\u0020the\u0020given\u0020typeList.",
+            "summary": "",
             "url": "classes/AbstractSmrAccount.html#method_getHOF"
         },                {
             "fqsen": "\\AbstractSmrAccount\u003A\u003AgetRankName\u0028\u0029",
@@ -345,6 +345,11 @@ Search.appendIndex(
             "name": "setEmail",
             "summary": "",
             "url": "classes/AbstractSmrAccount.html#method_setEmail"
+        },                {
+            "fqsen": "\\AbstractSmrAccount\u003A\u003AcheckEmail\u0028\u0029",
+            "name": "checkEmail",
+            "summary": "Perform\u0020basic\u0020sanity\u0020checks\u0020on\u0020the\u0020usability\u0020of\u0020an\u0020email\u0020address.",
+            "url": "classes/AbstractSmrAccount.html#method_checkEmail"
         },                {
             "fqsen": "\\AbstractSmrAccount\u003A\u003AchangeEmail\u0028\u0029",
             "name": "changeEmail",
@@ -2856,11 +2861,6 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/AbstractSmrPlayer.html#method_saveHOF"
         },                {
-            "fqsen": "\\AbstractSmrPlayer\u003A\u003AdoHOFSave\u0028\u0029",
-            "name": "doHOFSave",
-            "summary": "This\u0020should\u0020only\u0020be\u0020called\u0020by\u0020\u0060saveHOF\u0060\u0020\u0028and\u0020recursively\u0029\u0020to\nensure\u0020that\u0020the\u0020\u0060hasHOFChanged\u0060\u0020attribute\u0020is\u0020properly\u0020cleared.",
-            "url": "classes/AbstractSmrPlayer.html#method_doHOFSave"
-        },                {
             "fqsen": "\\AbstractSmrPlayer\u003A\u003ATIME_FOR_FEDERAL_BOUNTY_ON_PR",
             "name": "TIME_FOR_FEDERAL_BOUNTY_ON_PR",
             "summary": "",
@@ -4871,6 +4871,11 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/Council.html#property_PRESIDENTS"
         },                {
+            "fqsen": "\\course_plot_forward\u0028\u0029",
+            "name": "course_plot_forward",
+            "summary": "This\u0020function\u0020is\u0020called\u0020by\u0020\u0022Conventional\u0022\u0020and\u0020\u0022Plot\u0020To\u0020Nearest\u0022\u0020pages.",
+            "url": "namespaces/default.html#function_course_plot_forward"
+        },                {
             "fqsen": "\\DummyPlayer",
             "name": "DummyPlayer",
             "summary": "",
@@ -5501,6 +5506,11 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/Page.html#constant_URL_DEFAULT_REMAINING_PAGE_LOADS"
         },                {
+            "fqsen": "\\planet_common\u0028\u0029",
+            "name": "planet_common",
+            "summary": "Common\u0020code\u0020for\u0020all\u0020the\u0020planet\u0020display\u0020pages",
+            "url": "namespaces/default.html#function_planet_common"
+        },                {
             "fqsen": "\\Plotter",
             "name": "Plotter",
             "summary": "",
@@ -5590,6 +5600,11 @@ Search.appendIndex(
             "name": "calculateMinMaxRanks",
             "summary": "",
             "url": "classes/Rankings.html#method_calculateMinMaxRanks"
+        },                {
+            "fqsen": "\\hit_sector_mines\u0028\u0029",
+            "name": "hit_sector_mines",
+            "summary": "",
+            "url": "namespaces/default.html#function_hit_sector_mines"
         },                {
             "fqsen": "\\check_bargain_number\u0028\u0029",
             "name": "check_bargain_number",
@@ -10858,7 +10873,7 @@ Search.appendIndex(
         },                {
             "fqsen": "\\Smr\\Database\u003A\u003AescapeArray\u0028\u0029",
             "name": "escapeArray",
-            "summary": "Warning\u003A\u0020If\u0020escaping\u0020a\u0020nested\u0020array,\u0020use\u0020escapeIndividually\u003Dtrue,\nbut\u0020beware\u0020that\u0020the\u0020escaped\u0020array\u0020is\u0020flattened\u0021",
+            "summary": "Warning\u003A\u0020If\u0020escaping\u0020a\u0020nested\u0020array,\u0020beware\u0020that\u0020the\u0020escaped\u0020array\u0020is\nflattened\u0021",
             "url": "classes/Smr-Database.html#method_escapeArray"
         },                {
             "fqsen": "\\Smr\\Database\u003A\u003AescapeNumber\u0028\u0029",
@@ -11600,6 +11615,11 @@ Search.appendIndex(
             "name": "getMessageTypeNames",
             "summary": "",
             "url": "classes/Smr-Messages.html#method_getMessageTypeNames"
+        },                {
+            "fqsen": "\\Smr\\Messages\u003A\u003AgetMessageTypeImage\u0028\u0029",
+            "name": "getMessageTypeImage",
+            "summary": "",
+            "url": "classes/Smr-Messages.html#method_getMessageTypeImage"
         },                {
             "fqsen": "\\Smr\\Messages\u003A\u003AgetAdminBoxNames\u0028\u0029",
             "name": "getAdminBoxNames",
