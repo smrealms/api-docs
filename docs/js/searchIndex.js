@@ -5451,6 +5451,11 @@ Search.appendIndex(
             "summary": "A\u0020container\u0020that\u0020holds\u0020data\u0020needed\u0020to\u0020create\u0020a\u0020new\u0020page.",
             "url": "classes/Page.html"
         },                {
+            "fqsen": "\\Page\u003A\u003A__construct\u0028\u0029",
+            "name": "__construct",
+            "summary": "",
+            "url": "classes/Page.html#method___construct"
+        },                {
             "fqsen": "\\Page\u003A\u003Acreate\u0028\u0029",
             "name": "create",
             "summary": "Create\u0020a\u0020new\u0020Page\u0020object.",
@@ -5460,11 +5465,6 @@ Search.appendIndex(
             "name": "copy",
             "summary": "Create\u0020a\u0020copy\u0020of\u0020a\u0020Page\u0020object.",
             "url": "classes/Page.html#method_copy"
-        },                {
-            "fqsen": "\\Page\u003A\u003AskipRedirect\u0028\u0029",
-            "name": "skipRedirect",
-            "summary": "Will\u0020this\u0020page\u0020skip\u0020the\u0020redirect\u0020hooks\u0020at\u0020the\u0020beginning\u0020of\u0020page\u0020processing\u003F",
-            "url": "classes/Page.html#method_skipRedirect"
         },                {
             "fqsen": "\\Page\u003A\u003Ago\u0028\u0029",
             "name": "go",
@@ -5488,7 +5488,7 @@ Search.appendIndex(
         },                {
             "fqsen": "\\Page\u003A\u003Aprocess\u0028\u0029",
             "name": "process",
-            "summary": "Process\u0020this\u0020page\u0020by\u0020executing\u0020the\u0020\u0027url\u0027\u0020and\u0020\u0027body\u0027\u0020files.",
+            "summary": "Process\u0020this\u0020page\u0020by\u0020executing\u0020the\u0020associated\u0020file.",
             "url": "classes/Page.html#method_process"
         },                {
             "fqsen": "\\Page\u003A\u003AALWAYS_AVAILABLE",
@@ -5496,15 +5496,25 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/Page.html#constant_ALWAYS_AVAILABLE"
         },                {
-            "fqsen": "\\Page\u003A\u003ASKIP_REDIRECT",
-            "name": "SKIP_REDIRECT",
-            "summary": "",
-            "url": "classes/Page.html#constant_SKIP_REDIRECT"
-        },                {
             "fqsen": "\\Page\u003A\u003AURL_DEFAULT_REMAINING_PAGE_LOADS",
             "name": "URL_DEFAULT_REMAINING_PAGE_LOADS",
             "summary": "",
             "url": "classes/Page.html#constant_URL_DEFAULT_REMAINING_PAGE_LOADS"
+        },                {
+            "fqsen": "\\Page\u003A\u003A\u0024remainingPageLoads",
+            "name": "remainingPageLoads",
+            "summary": "",
+            "url": "classes/Page.html#property_remainingPageLoads"
+        },                {
+            "fqsen": "\\Page\u003A\u003A\u0024file",
+            "name": "file",
+            "summary": "",
+            "url": "classes/Page.html#property_file"
+        },                {
+            "fqsen": "\\Page\u003A\u003A\u0024skipRedirect",
+            "name": "skipRedirect",
+            "summary": "",
+            "url": "classes/Page.html#property_skipRedirect"
         },                {
             "fqsen": "\\planet_common\u0028\u0029",
             "name": "planet_common",
