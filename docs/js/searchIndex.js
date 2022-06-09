@@ -4756,6 +4756,11 @@ Search.appendIndex(
             "summary": "Returns\u0020the\u0020maneuverability\u0020rating\u0020for\u0020this\u0020ship.",
             "url": "classes/AbstractSmrShip.html#method_getMR"
         },                {
+            "fqsen": "\\AbstractSmrShip\u003A\u003Aupdate\u0028\u0029",
+            "name": "update",
+            "summary": "",
+            "url": "classes/AbstractSmrShip.html#method_update"
+        },                {
             "fqsen": "\\AbstractSmrShip\u003A\u003AEXP_PER_DAMAGE_PLAYER",
             "name": "EXP_PER_DAMAGE_PLAYER",
             "summary": "",
