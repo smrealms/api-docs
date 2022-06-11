@@ -4921,25 +4921,25 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/DummyPlayer.html#method_getShip"
         },                {
-            "fqsen": "\\DummyPlayer\u003A\u003AcacheDummyPlayer\u0028\u0029",
-            "name": "cacheDummyPlayer",
+            "fqsen": "\\DummyPlayer\u003A\u003A\u0024accountID",
+            "name": "accountID",
             "summary": "",
-            "url": "classes/DummyPlayer.html#method_cacheDummyPlayer"
+            "url": "classes/DummyPlayer.html#property_accountID"
         },                {
-            "fqsen": "\\DummyPlayer\u003A\u003AgetCachedDummyPlayer\u0028\u0029",
-            "name": "getCachedDummyPlayer",
+            "fqsen": "\\DummyPlayer\u003A\u003A\u0024gameID",
+            "name": "gameID",
             "summary": "",
-            "url": "classes/DummyPlayer.html#method_getCachedDummyPlayer"
-        },                {
-            "fqsen": "\\DummyPlayer\u003A\u003AgetDummyPlayerNames\u0028\u0029",
-            "name": "getDummyPlayerNames",
-            "summary": "",
-            "url": "classes/DummyPlayer.html#method_getDummyPlayerNames"
+            "url": "classes/DummyPlayer.html#property_gameID"
         },                {
             "fqsen": "\\DummyShip",
             "name": "DummyShip",
             "summary": "Properties\u0020and\u0020methods\u0020for\u0020a\u0020ship\u0020instance.",
             "url": "classes/DummyShip.html"
+        },                {
+            "fqsen": "\\DummyShip\u003A\u003AsaveDummyShips\u0028\u0029",
+            "name": "saveDummyShips",
+            "summary": "",
+            "url": "classes/DummyShip.html#method_saveDummyShips"
         },                {
             "fqsen": "\\DummyShip\u003A\u003A__construct\u0028\u0029",
             "name": "__construct",
@@ -4956,10 +4956,10 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/DummyShip.html#method_getCachedDummyShip"
         },                {
-            "fqsen": "\\DummyShip\u003A\u003AgetDummyShipNames\u0028\u0029",
-            "name": "getDummyShipNames",
+            "fqsen": "\\DummyShip\u003A\u003AgetDummyNames\u0028\u0029",
+            "name": "getDummyNames",
             "summary": "",
-            "url": "classes/DummyShip.html#method_getDummyShipNames"
+            "url": "classes/DummyShip.html#method_getDummyNames"
         },                {
             "fqsen": "\\DummyShip\u003A\u003A__sleep\u0028\u0029",
             "name": "__sleep",
