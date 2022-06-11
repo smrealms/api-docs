@@ -10896,11 +10896,6 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/Smr-Database.html#method_escapeNumber"
         },                {
-            "fqsen": "\\Smr\\Database\u003A\u003AescapeMicrotime\u0028\u0029",
-            "name": "escapeMicrotime",
-            "summary": "",
-            "url": "classes/Smr-Database.html#method_escapeMicrotime"
-        },                {
             "fqsen": "\\Smr\\Database\u003A\u003AescapeBoolean\u0028\u0029",
             "name": "escapeBoolean",
             "summary": "",
@@ -11035,11 +11030,6 @@ Search.appendIndex(
             "name": "getFloat",
             "summary": "",
             "url": "classes/Smr-DatabaseRecord.html#method_getFloat"
-        },                {
-            "fqsen": "\\Smr\\DatabaseRecord\u003A\u003AgetMicrotime\u0028\u0029",
-            "name": "getMicrotime",
-            "summary": "",
-            "url": "classes/Smr-DatabaseRecord.html#method_getMicrotime"
         },                {
             "fqsen": "\\Smr\\DatabaseRecord\u003A\u003AgetObject\u0028\u0029",
             "name": "getObject",
