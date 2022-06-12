@@ -10446,11 +10446,6 @@ Search.appendIndex(
             "summary": "Is\u0020the\u0020given\u0020account\u0020ID\u0020one\u0020of\u0020the\u0020two\u0020players\u0020of\u0020this\u0020game\u003F",
             "url": "classes/Smr-Chess-ChessGame.html#method_isPlayer"
         },                {
-            "fqsen": "\\Smr\\Chess\\ChessGame\u003A\u003AgetEndDate\u0028\u0029",
-            "name": "getEndDate",
-            "summary": "",
-            "url": "classes/Smr-Chess-ChessGame.html#method_getEndDate"
-        },                {
             "fqsen": "\\Smr\\Chess\\ChessGame\u003A\u003AhasEnded\u0028\u0029",
             "name": "hasEnded",
             "summary": "",
@@ -11001,25 +10996,25 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/Smr-DatabaseRecord.html#method___construct"
         },                {
-            "fqsen": "\\Smr\\DatabaseRecord\u003A\u003AhasField\u0028\u0029",
-            "name": "hasField",
+            "fqsen": "\\Smr\\DatabaseRecord\u003A\u003AgetNullableString\u0028\u0029",
+            "name": "getNullableString",
             "summary": "",
-            "url": "classes/Smr-DatabaseRecord.html#method_hasField"
-        },                {
-            "fqsen": "\\Smr\\DatabaseRecord\u003A\u003AgetField\u0028\u0029",
-            "name": "getField",
-            "summary": "",
-            "url": "classes/Smr-DatabaseRecord.html#method_getField"
+            "url": "classes/Smr-DatabaseRecord.html#method_getNullableString"
         },                {
             "fqsen": "\\Smr\\DatabaseRecord\u003A\u003AgetString\u0028\u0029",
             "name": "getString",
-            "summary": "Get\u0020a\u0020string\u002Donly\u0020field\u0020from\u0020the\u0020database\u0020record.",
+            "summary": "",
             "url": "classes/Smr-DatabaseRecord.html#method_getString"
         },                {
             "fqsen": "\\Smr\\DatabaseRecord\u003A\u003AgetBoolean\u0028\u0029",
             "name": "getBoolean",
             "summary": "",
             "url": "classes/Smr-DatabaseRecord.html#method_getBoolean"
+        },                {
+            "fqsen": "\\Smr\\DatabaseRecord\u003A\u003AgetNullableInt\u0028\u0029",
+            "name": "getNullableInt",
+            "summary": "",
+            "url": "classes/Smr-DatabaseRecord.html#method_getNullableInt"
         },                {
             "fqsen": "\\Smr\\DatabaseRecord\u003A\u003AgetInt\u0028\u0029",
             "name": "getInt",
