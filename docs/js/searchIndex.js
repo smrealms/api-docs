@@ -966,11 +966,6 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/AbstractSmrCombatWeapon.html"
         },                {
-            "fqsen": "\\AbstractSmrCombatWeapon\u003A\u003AgetMaxDamage\u0028\u0029",
-            "name": "getMaxDamage",
-            "summary": "Return\u0020the\u0020max\u0020weapon\u0020damage\u0020possible\u0020in\u0020a\u0020single\u0020round.",
-            "url": "classes/AbstractSmrCombatWeapon.html#method_getMaxDamage"
-        },                {
             "fqsen": "\\AbstractSmrCombatWeapon\u003A\u003AgetBaseAccuracy\u0028\u0029",
             "name": "getBaseAccuracy",
             "summary": "",
