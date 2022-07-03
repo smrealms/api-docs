@@ -225,6 +225,13 @@
 <dd></dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a href="classes/Smr-VoteLink.html#method_freeTurnsReady">freeTurnsReady()</a>
+    <span>
+                                &nbsp;: bool    </span>
+</dt>
+<dd>Returns true if account can currently receive free turns at this site.</dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
     <a href="classes/Smr-VoteLink.html#method_getImg">getImg()</a>
     <span>
                                 &nbsp;: string    </span>
@@ -270,14 +277,6 @@ available; otherwise, returns false.</dd>
 to award free turns?</dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
-    <a href="classes/Smr-VoteLink.html#method_isClicked">isClicked()</a>
-    <span>
-                                &nbsp;: bool    </span>
-</dt>
-<dd>Checks if setLinkClicked has been called since the last time
-free turns were awarded.</dd>
-
-            <dt class="phpdocumentor-table-of-contents__entry -method -public">
     <a href="classes/Smr-VoteLink.html#method_setClicked">setClicked()</a>
     <span>
                                 &nbsp;: void    </span>
@@ -289,16 +288,9 @@ that voting is done through an authenticated SMR session.</dd>
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
     <a href="classes/Smr-VoteLink.html#method_setFreeTurnsAwarded">setFreeTurnsAwarded()</a>
     <span>
-                                &nbsp;: void    </span>
-</dt>
-<dd>Register that the player has been awarded their free turns.</dd>
-
-            <dt class="phpdocumentor-table-of-contents__entry -method -private">
-    <a href="classes/Smr-VoteLink.html#method_freeTurnsReady">freeTurnsReady()</a>
-    <span>
                                 &nbsp;: bool    </span>
 </dt>
-<dd>Returns true if account can currently receive free turns at this site.</dd>
+<dd>Register that the player has been awarded their free turns.</dd>
 
         </dl>
 
@@ -623,6 +615,50 @@ that voting is done through an authenticated SMR session.</dd>
             -public
                                                         "
 >
+    <h4 class="phpdocumentor-element__name" id="method_freeTurnsReady">
+        freeTurnsReady()
+        <a href="classes/Smr-VoteLink.html#method_freeTurnsReady" class="headerlink"><i class="fas fa-link"></i></a>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/VoteLink.php"><a href="files/src-lib-smr-votelink.html"><abbr title="src/lib/Smr/VoteLink.php">VoteLink.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">121</span>
+
+    </aside>
+
+        <p class="phpdocumentor-summary">Returns true if account can currently receive free turns at this site.</p>
+
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+                <span class="phpdocumentor-signature__name">freeTurnsReady</span><span>(</span><span class="phpdocumentor-signature__argument"><span>[</span><span class="phpdocumentor-signature__argument__return-type">bool&nbsp;</span><span class="phpdocumentor-signature__argument__name">$forceUpdate</span><span> = </span><span class="phpdocumentor-signature__argument__default-value">false</span><span> ]</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">bool</span></code>
+
+    
+        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
+    <dl class="phpdocumentor-argument-list">
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$forceUpdate</span>
+                : <span class="phpdocumentor-signature__argument__return-type">bool</span>
+                 = <span class="phpdocumentor-signature__argument__default-value">false</span>            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                    <section class="phpdocumentor-description"></section>
+
+            </dd>
+            </dl>
+
+    
+
+        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
+    <span class="phpdocumentor-signature__response_type">bool</span>
+            &mdash;
+        
+    
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                                        "
+>
     <h4 class="phpdocumentor-element__name" id="method_getImg">
         getImg()
         <a href="classes/Smr-VoteLink.html#method_getImg" class="headerlink"><i class="fas fa-link"></i></a>
@@ -630,7 +666,7 @@ that voting is done through an authenticated SMR session.</dd>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/VoteLink.php"><a href="files/src-lib-smr-votelink.html"><abbr title="src/lib/Smr/VoteLink.php">VoteLink.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">131</span>
+    <span class="phpdocumentor-element-found-in__line">128</span>
 
     </aside>
 
@@ -716,7 +752,7 @@ are available across all voting sites.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/VoteLink.php"><a href="files/src-lib-smr-votelink.html"><abbr title="src/lib/Smr/VoteLink.php">VoteLink.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">152</span>
+    <span class="phpdocumentor-element-found-in__line">149</span>
 
     </aside>
 
@@ -758,12 +794,23 @@ available; otherwise, returns false.</p>
 
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">public</span>
-                <span class="phpdocumentor-signature__name">getTimeUntilFreeTurns</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">int</span></code>
+                <span class="phpdocumentor-signature__name">getTimeUntilFreeTurns</span><span>(</span><span class="phpdocumentor-signature__argument"><span>[</span><span class="phpdocumentor-signature__argument__return-type">bool&nbsp;</span><span class="phpdocumentor-signature__argument__name">$forceUpdate</span><span> = </span><span class="phpdocumentor-signature__argument__default-value">false</span><span> ]</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">int</span></code>
 
         <section class="phpdocumentor-description"><p>If the time is 0, this site is eligible for free turns.</p>
 </section>
 
-    
+        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
+    <dl class="phpdocumentor-argument-list">
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$forceUpdate</span>
+                : <span class="phpdocumentor-signature__argument__return-type">bool</span>
+                 = <span class="phpdocumentor-signature__argument__default-value">false</span>            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                    <section class="phpdocumentor-description"></section>
+
+            </dd>
+            </dl>
+
     
 
         <h5 class="phpdocumentor-return-value__heading">Return values</h5>
@@ -785,7 +832,7 @@ available; otherwise, returns false.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/VoteLink.php"><a href="files/src-lib-smr-votelink.html"><abbr title="src/lib/Smr/VoteLink.php">VoteLink.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">141</span>
+    <span class="phpdocumentor-element-found-in__line">138</span>
 
     </aside>
 
@@ -845,40 +892,6 @@ to award free turns?</p>
             -public
                                                         "
 >
-    <h4 class="phpdocumentor-element__name" id="method_isClicked">
-        isClicked()
-        <a href="classes/Smr-VoteLink.html#method_isClicked" class="headerlink"><i class="fas fa-link"></i></a>
-    </h4>
-    <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/VoteLink.php"><a href="files/src-lib-smr-votelink.html"><abbr title="src/lib/Smr/VoteLink.php">VoteLink.php</abbr></a></abbr>
-    :
-    <span class="phpdocumentor-element-found-in__line">101</span>
-
-    </aside>
-
-        <p class="phpdocumentor-summary">Checks if setLinkClicked has been called since the last time
-free turns were awarded.</p>
-
-    <code class="phpdocumentor-code phpdocumentor-signature ">
-    <span class="phpdocumentor-signature__visibility">public</span>
-                <span class="phpdocumentor-signature__name">isClicked</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">bool</span></code>
-
-    
-    
-    
-
-        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
-    <span class="phpdocumentor-signature__response_type">bool</span>
-            &mdash;
-        
-    
-</article>
-                    <article
-        class="phpdocumentor-element
-            -method
-            -public
-                                                        "
->
     <h4 class="phpdocumentor-element__name" id="method_setClicked">
         setClicked()
         <a href="classes/Smr-VoteLink.html#method_setClicked" class="headerlink"><i class="fas fa-link"></i></a>
@@ -921,7 +934,7 @@ that voting is done through an authenticated SMR session.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/VoteLink.php"><a href="files/src-lib-smr-votelink.html"><abbr title="src/lib/Smr/VoteLink.php">VoteLink.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">111</span>
+    <span class="phpdocumentor-element-found-in__line">112</span>
 
     </aside>
 
@@ -929,40 +942,7 @@ that voting is done through an authenticated SMR session.</p>
 
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">public</span>
-                <span class="phpdocumentor-signature__name">setFreeTurnsAwarded</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">void</span></code>
-
-    
-    
-    
-
-        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
-    <span class="phpdocumentor-signature__response_type">void</span>
-            &mdash;
-        
-    
-</article>
-                    <article
-        class="phpdocumentor-element
-            -method
-            -private
-                                                        "
->
-    <h4 class="phpdocumentor-element__name" id="method_freeTurnsReady">
-        freeTurnsReady()
-        <a href="classes/Smr-VoteLink.html#method_freeTurnsReady" class="headerlink"><i class="fas fa-link"></i></a>
-    </h4>
-    <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/VoteLink.php"><a href="files/src-lib-smr-votelink.html"><abbr title="src/lib/Smr/VoteLink.php">VoteLink.php</abbr></a></abbr>
-    :
-    <span class="phpdocumentor-element-found-in__line">124</span>
-
-    </aside>
-
-        <p class="phpdocumentor-summary">Returns true if account can currently receive free turns at this site.</p>
-
-    <code class="phpdocumentor-code phpdocumentor-signature ">
-    <span class="phpdocumentor-signature__visibility">private</span>
-                <span class="phpdocumentor-signature__name">freeTurnsReady</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">bool</span></code>
+                <span class="phpdocumentor-signature__name">setFreeTurnsAwarded</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">bool</span></code>
 
     
     
@@ -971,7 +951,9 @@ that voting is done through an authenticated SMR session.</p>
         <h5 class="phpdocumentor-return-value__heading">Return values</h5>
     <span class="phpdocumentor-signature__response_type">bool</span>
             &mdash;
-        
+            <section class="phpdocumentor-description"><p>True if account was eligible for free turns (i.e. in the setClicked state).</p>
+</section>
+
     
 </article>
             </section>

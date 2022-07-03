@@ -1851,6 +1851,21 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/AbstractSmrPlayer.html#method_increaseAssists"
         },                {
+            "fqsen": "\\AbstractSmrPlayer\u003A\u003AhasGoodAlignment\u0028\u0029",
+            "name": "hasGoodAlignment",
+            "summary": "",
+            "url": "classes/AbstractSmrPlayer.html#method_hasGoodAlignment"
+        },                {
+            "fqsen": "\\AbstractSmrPlayer\u003A\u003AhasEvilAlignment\u0028\u0029",
+            "name": "hasEvilAlignment",
+            "summary": "",
+            "url": "classes/AbstractSmrPlayer.html#method_hasEvilAlignment"
+        },                {
+            "fqsen": "\\AbstractSmrPlayer\u003A\u003AhasNeutralAlignment\u0028\u0029",
+            "name": "hasNeutralAlignment",
+            "summary": "",
+            "url": "classes/AbstractSmrPlayer.html#method_hasNeutralAlignment"
+        },                {
             "fqsen": "\\AbstractSmrPlayer\u003A\u003AgetAlignment\u0028\u0029",
             "name": "getAlignment",
             "summary": "",
@@ -9286,6 +9301,11 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/SmrShipType.html#method_getHardpoints"
         },                {
+            "fqsen": "\\SmrShipType\u003A\u003AgetBaseManeuverability\u0028\u0029",
+            "name": "getBaseManeuverability",
+            "summary": "",
+            "url": "classes/SmrShipType.html#method_getBaseManeuverability"
+        },                {
             "fqsen": "\\SmrShipType\u003A\u003AgetMaxPower\u0028\u0029",
             "name": "getMaxPower",
             "summary": "Return\u0020the\u0020maximum\u0020weapon\u0020power",
@@ -9365,11 +9385,6 @@ Search.appendIndex(
             "name": "restriction",
             "summary": "",
             "url": "classes/SmrShipType.html#property_restriction"
-        },                {
-            "fqsen": "\\SmrShipType\u003A\u003A\u0024levelNeeded",
-            "name": "levelNeeded",
-            "summary": "",
-            "url": "classes/SmrShipType.html#property_levelNeeded"
         },                {
             "fqsen": "\\SmrShipType\u003A\u003A\u0024maxPower",
             "name": "maxPower",
@@ -10585,6 +10600,16 @@ Search.appendIndex(
             "name": "PLAYER_WHITE",
             "summary": "",
             "url": "classes/Smr-Chess-ChessGame.html#constant_PLAYER_WHITE"
+        },                {
+            "fqsen": "\\Smr\\Chess\\ChessGame\u003A\u003AEND_RESIGN",
+            "name": "END_RESIGN",
+            "summary": "",
+            "url": "classes/Smr-Chess-ChessGame.html#constant_END_RESIGN"
+        },                {
+            "fqsen": "\\Smr\\Chess\\ChessGame\u003A\u003AEND_CANCEL",
+            "name": "END_CANCEL",
+            "summary": "",
+            "url": "classes/Smr-Chess-ChessGame.html#constant_END_CANCEL"
         },                {
             "fqsen": "\\Smr\\Chess\\ChessGame\u003A\u003A\u0024CACHE_CHESS_GAMES",
             "name": "CACHE_CHESS_GAMES",
@@ -13261,11 +13286,6 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/Smr-Template.html#method_doAn"
         },                {
-            "fqsen": "\\Smr\\Template\u003A\u003AsetListjsInclude\u0028\u0029",
-            "name": "setListjsInclude",
-            "summary": "Sets\u0020a\u0020listjs_include.js\u0020function\u0020to\u0020call\u0020at\u0020the\u0020end\u0020of\u0020the\u0020HTML\u0020body.",
-            "url": "classes/Smr-Template.html#method_setListjsInclude"
-        },                {
             "fqsen": "\\Smr\\Template\u003A\u003AaddJavascriptForAjax\u0028\u0029",
             "name": "addJavascriptForAjax",
             "summary": "",
@@ -13311,15 +13331,15 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/Smr-Template.html#property_displayCalled"
         },                {
-            "fqsen": "\\Smr\\Template\u003A\u003A\u0024listjsInclude",
-            "name": "listjsInclude",
-            "summary": "",
-            "url": "classes/Smr-Template.html#property_listjsInclude"
-        },                {
             "fqsen": "\\Smr\\Template\u003A\u003A\u0024jsSources",
             "name": "jsSources",
             "summary": "",
             "url": "classes/Smr-Template.html#property_jsSources"
+        },                {
+            "fqsen": "\\Smr\\Template\u003A\u003A\u0024listjsInclude",
+            "name": "listjsInclude",
+            "summary": "Defines\u0020a\u0020listjs_include.js\u0020function\u0020to\u0020call\u0020at\u0020the\u0020end\u0020of\u0020the\u0020HTML\u0020body.",
+            "url": "classes/Smr-Template.html#property_listjsInclude"
         },                {
             "fqsen": "\\Smr\\TurnsLevel",
             "name": "TurnsLevel",
@@ -13440,11 +13460,6 @@ Search.appendIndex(
             "name": "setClicked",
             "summary": "Register\u0020that\u0020the\u0020player\u0020has\u0020clicked\u0020on\u0020a\u0020vote\u0020site\u0020that\u0020is\u0020eligible\nfor\u0020free\u0020turns,\u0020so\u0020that\u0020we\u0020will\u0020accept\u0020incoming\u0020votes.\u0020This\u0020ensures\nthat\u0020voting\u0020is\u0020done\u0020through\u0020an\u0020authenticated\u0020SMR\u0020session.",
             "url": "classes/Smr-VoteLink.html#method_setClicked"
-        },                {
-            "fqsen": "\\Smr\\VoteLink\u003A\u003AisClicked\u0028\u0029",
-            "name": "isClicked",
-            "summary": "Checks\u0020if\u0020setLinkClicked\u0020has\u0020been\u0020called\u0020since\u0020the\u0020last\u0020time\nfree\u0020turns\u0020were\u0020awarded.",
-            "url": "classes/Smr-VoteLink.html#method_isClicked"
         },                {
             "fqsen": "\\Smr\\VoteLink\u003A\u003AsetFreeTurnsAwarded\u0028\u0029",
             "name": "setFreeTurnsAwarded",
