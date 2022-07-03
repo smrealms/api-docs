@@ -130,11 +130,8 @@
 
     <article class="phpdocumentor-element -class">
         <h2 class="phpdocumentor-content__title">
-    VoteSite
+    TurnsLevel
 
-            <span class="phpdocumentor-element__extends">
-        : int
-    </span>
     
             <div class="phpdocumentor-element__package">
             in package
@@ -146,13 +143,13 @@
     </h2>
 
         <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/VoteSite.php"><a href="files/src-lib-smr-votesite.html"><abbr title="src/lib/Smr/VoteSite.php">VoteSite.php</abbr></a></abbr>
+    <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/TurnsLevel.php"><a href="files/src-lib-smr-turnslevel.html"><abbr title="src/lib/Smr/TurnsLevel.php">TurnsLevel.php</abbr></a></abbr>
     :
     <span class="phpdocumentor-element-found-in__line">8</span>
 
     </aside>
 
-            <p class="phpdocumentor-summary">Enumerates external game voting sites and their properties.</p>
+            <p class="phpdocumentor-summary">Enumerates the warning levels that correspond to player turn thresholds</p>
 
 
 
@@ -169,32 +166,46 @@
 
 <dl class="phpdocumentor-table-of-contents">
                 <dt class="phpdocumentor-table-of-contents__entry -case -">
-    <a href="">DOG</a>
+    <a href="">High</a>
     <span>
-                &nbsp;= 4                    </span>
+                                    </span>
 </dt>
 <dd></dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -case -">
-    <a href="">PBBG</a>
+    <a href="">Low</a>
     <span>
-                &nbsp;= 5                    </span>
+                                    </span>
 </dt>
 <dd></dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -case -">
-    <a href="">TWG</a>
+    <a href="">Medium</a>
     <span>
-                &nbsp;= 3                    </span>
+                                    </span>
+</dt>
+<dd></dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -case -">
+    <a href="">None</a>
+    <span>
+                                    </span>
 </dt>
 <dd></dd>
 
                     <dt class="phpdocumentor-table-of-contents__entry -method -public">
-    <a href="classes/Smr-VoteSite.html#method_getData">getData()</a>
+    <a href="classes/Smr-TurnsLevel.html#method_color">color()</a>
     <span>
-                                &nbsp;: array&lt;string|int, mixed&gt;    </span>
+                                &nbsp;: string    </span>
 </dt>
-<dd></dd>
+<dd>Returns the CSS class color to use when displaying the player&#039;s turns</dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a href="classes/Smr-TurnsLevel.html#method_message">message()</a>
+    <span>
+                                &nbsp;: string    </span>
+</dt>
+<dd>Returns the warning to display when player&#039;s turns get low.</dd>
 
         </dl>
 
@@ -203,7 +214,7 @@
             <section class="phpdocumentor-cases">
         <h3 class="phpdocumentor-elements__header" id="cases">
             Cases
-            <a href="classes/Smr-VoteSite.html#cases" class="headerlink"><i class="fas fa-link"></i></a>
+            <a href="classes/Smr-TurnsLevel.html#cases" class="headerlink"><i class="fas fa-link"></i></a>
         </h3>
                     <article
         class="
@@ -211,12 +222,36 @@
             -enum-case
         "
 >
-    <h4 class="phpdocumentor-element__name" id="enumcase_TWG">
-        TWG
+    <h4 class="phpdocumentor-element__name" id="enumcase_None">
+        None
         <a href="" class="headerlink"><i class="fas fa-link"></i></a>
     </h4>
     <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/VoteSite.php"><a href="files/src-lib-smr-votesite.html"><abbr title="src/lib/Smr/VoteSite.php">VoteSite.php</abbr></a></abbr>
+    <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/TurnsLevel.php"><a href="files/src-lib-smr-turnslevel.html"><abbr title="src/lib/Smr/TurnsLevel.php">TurnsLevel.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">10</span>
+
+    </aside>
+
+    
+    
+        <section class="phpdocumentor-description"></section>
+
+    
+
+</article>
+                    <article
+        class="
+            phpdocumentor-element
+            -enum-case
+        "
+>
+    <h4 class="phpdocumentor-element__name" id="enumcase_Low">
+        Low
+        <a href="" class="headerlink"><i class="fas fa-link"></i></a>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/TurnsLevel.php"><a href="files/src-lib-smr-turnslevel.html"><abbr title="src/lib/Smr/TurnsLevel.php">TurnsLevel.php</abbr></a></abbr>
     :
     <span class="phpdocumentor-element-found-in__line">11</span>
 
@@ -235,12 +270,12 @@
             -enum-case
         "
 >
-    <h4 class="phpdocumentor-element__name" id="enumcase_DOG">
-        DOG
+    <h4 class="phpdocumentor-element__name" id="enumcase_Medium">
+        Medium
         <a href="" class="headerlink"><i class="fas fa-link"></i></a>
     </h4>
     <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/VoteSite.php"><a href="files/src-lib-smr-votesite.html"><abbr title="src/lib/Smr/VoteSite.php">VoteSite.php</abbr></a></abbr>
+    <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/TurnsLevel.php"><a href="files/src-lib-smr-turnslevel.html"><abbr title="src/lib/Smr/TurnsLevel.php">TurnsLevel.php</abbr></a></abbr>
     :
     <span class="phpdocumentor-element-found-in__line">12</span>
 
@@ -259,12 +294,12 @@
             -enum-case
         "
 >
-    <h4 class="phpdocumentor-element__name" id="enumcase_PBBG">
-        PBBG
+    <h4 class="phpdocumentor-element__name" id="enumcase_High">
+        High
         <a href="" class="headerlink"><i class="fas fa-link"></i></a>
     </h4>
     <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/VoteSite.php"><a href="files/src-lib-smr-votesite.html"><abbr title="src/lib/Smr/VoteSite.php">VoteSite.php</abbr></a></abbr>
+    <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/TurnsLevel.php"><a href="files/src-lib-smr-turnslevel.html"><abbr title="src/lib/Smr/TurnsLevel.php">TurnsLevel.php</abbr></a></abbr>
     :
     <span class="phpdocumentor-element-found-in__line">13</span>
 
@@ -282,7 +317,7 @@
             <section class="phpdocumentor-methods">
         <h3 class="phpdocumentor-elements__header" id="methods">
             Methods
-            <a href="classes/Smr-VoteSite.html#methods" class="headerlink"><i class="fas fa-link"></i></a>
+            <a href="classes/Smr-TurnsLevel.html#methods" class="headerlink"><i class="fas fa-link"></i></a>
         </h3>
                     <article
         class="phpdocumentor-element
@@ -290,29 +325,62 @@
             -public
                                                         "
 >
-    <h4 class="phpdocumentor-element__name" id="method_getData">
-        getData()
-        <a href="classes/Smr-VoteSite.html#method_getData" class="headerlink"><i class="fas fa-link"></i></a>
+    <h4 class="phpdocumentor-element__name" id="method_color">
+        color()
+        <a href="classes/Smr-TurnsLevel.html#method_color" class="headerlink"><i class="fas fa-link"></i></a>
     </h4>
     <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/VoteSite.php"><a href="files/src-lib-smr-votesite.html"><abbr title="src/lib/Smr/VoteSite.php">VoteSite.php</abbr></a></abbr>
+    <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/TurnsLevel.php"><a href="files/src-lib-smr-turnslevel.html"><abbr title="src/lib/Smr/TurnsLevel.php">TurnsLevel.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">20</span>
+    <span class="phpdocumentor-element-found-in__line">18</span>
 
     </aside>
 
-    
+        <p class="phpdocumentor-summary">Returns the CSS class color to use when displaying the player&#039;s turns</p>
+
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">public</span>
-                <span class="phpdocumentor-signature__name">getData</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">array&lt;string|int, mixed&gt;</span></code>
+                <span class="phpdocumentor-signature__name">color</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">string</span></code>
 
-        <section class="phpdocumentor-description"></section>
-
+    
     
     
 
         <h5 class="phpdocumentor-return-value__heading">Return values</h5>
-    <span class="phpdocumentor-signature__response_type">array&lt;string|int, mixed&gt;</span>
+    <span class="phpdocumentor-signature__response_type">string</span>
+            &mdash;
+        
+    
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="method_message">
+        message()
+        <a href="classes/Smr-TurnsLevel.html#method_message" class="headerlink"><i class="fas fa-link"></i></a>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/TurnsLevel.php"><a href="files/src-lib-smr-turnslevel.html"><abbr title="src/lib/Smr/TurnsLevel.php">TurnsLevel.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">29</span>
+
+    </aside>
+
+        <p class="phpdocumentor-summary">Returns the warning to display when player&#039;s turns get low.</p>
+
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+                <span class="phpdocumentor-signature__name">message</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">string</span></code>
+
+    
+    
+    
+
+        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
+    <span class="phpdocumentor-signature__response_type">string</span>
             &mdash;
         
     
@@ -395,7 +463,7 @@
 </section>
             </div>
         </div>
-        <a href="classes/Smr-VoteSite.html#top" class="phpdocumentor-back-to-top"><i class="fas fa-chevron-circle-up"></i></a>
+        <a href="classes/Smr-TurnsLevel.html#top" class="phpdocumentor-back-to-top"><i class="fas fa-chevron-circle-up"></i></a>
 
     </main>
 

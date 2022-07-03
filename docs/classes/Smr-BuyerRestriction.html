@@ -130,7 +130,7 @@
 
     <article class="phpdocumentor-element -class">
         <h2 class="phpdocumentor-content__title">
-    VoteSite
+    BuyerRestriction
 
             <span class="phpdocumentor-element__extends">
         : int
@@ -146,13 +146,13 @@
     </h2>
 
         <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/VoteSite.php"><a href="files/src-lib-smr-votesite.html"><abbr title="src/lib/Smr/VoteSite.php">VoteSite.php</abbr></a></abbr>
+    <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/BuyerRestriction.php"><a href="files/src-lib-smr-buyerrestriction.html"><abbr title="src/lib/Smr/BuyerRestriction.php">BuyerRestriction.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">8</span>
+    <span class="phpdocumentor-element-found-in__line">10</span>
 
     </aside>
 
-            <p class="phpdocumentor-summary">Enumerates external game voting sites and their properties.</p>
+            <p class="phpdocumentor-summary">Enumeration of buyer restrictions for ships and weapons.</p>
 
 
 
@@ -169,32 +169,60 @@
 
 <dl class="phpdocumentor-table-of-contents">
                 <dt class="phpdocumentor-table-of-contents__entry -case -">
-    <a href="">DOG</a>
+    <a href="">Evil</a>
     <span>
-                &nbsp;= 4                    </span>
+                &nbsp;= 2                    </span>
 </dt>
 <dd></dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -case -">
-    <a href="">PBBG</a>
+    <a href="">Good</a>
+    <span>
+                &nbsp;= 1                    </span>
+</dt>
+<dd></dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -case -">
+    <a href="">Newbie</a>
+    <span>
+                &nbsp;= 3                    </span>
+</dt>
+<dd></dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -case -">
+    <a href="">None</a>
+    <span>
+                                    </span>
+</dt>
+<dd></dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -case -">
+    <a href="">Planet</a>
     <span>
                 &nbsp;= 5                    </span>
 </dt>
 <dd></dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -case -">
-    <a href="">TWG</a>
+    <a href="">Port</a>
     <span>
-                &nbsp;= 3                    </span>
+                &nbsp;= 4                    </span>
 </dt>
 <dd></dd>
 
                     <dt class="phpdocumentor-table-of-contents__entry -method -public">
-    <a href="classes/Smr-VoteSite.html#method_getData">getData()</a>
+    <a href="classes/Smr-BuyerRestriction.html#method_display">display()</a>
     <span>
-                                &nbsp;: array&lt;string|int, mixed&gt;    </span>
+                                &nbsp;: string    </span>
 </dt>
 <dd></dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a href="classes/Smr-BuyerRestriction.html#method_passes">passes()</a>
+    <span>
+                                &nbsp;: bool    </span>
+</dt>
+<dd>Does the player pass the restriction?</dd>
 
         </dl>
 
@@ -203,7 +231,7 @@
             <section class="phpdocumentor-cases">
         <h3 class="phpdocumentor-elements__header" id="cases">
             Cases
-            <a href="classes/Smr-VoteSite.html#cases" class="headerlink"><i class="fas fa-link"></i></a>
+            <a href="classes/Smr-BuyerRestriction.html#cases" class="headerlink"><i class="fas fa-link"></i></a>
         </h3>
                     <article
         class="
@@ -211,62 +239,134 @@
             -enum-case
         "
 >
-    <h4 class="phpdocumentor-element__name" id="enumcase_TWG">
-        TWG
+    <h4 class="phpdocumentor-element__name" id="enumcase_None">
+        None
         <a href="" class="headerlink"><i class="fas fa-link"></i></a>
     </h4>
     <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/VoteSite.php"><a href="files/src-lib-smr-votesite.html"><abbr title="src/lib/Smr/VoteSite.php">VoteSite.php</abbr></a></abbr>
-    :
-    <span class="phpdocumentor-element-found-in__line">11</span>
-
-    </aside>
-
-    
-    
-        <section class="phpdocumentor-description"></section>
-
-    
-
-</article>
-                    <article
-        class="
-            phpdocumentor-element
-            -enum-case
-        "
->
-    <h4 class="phpdocumentor-element__name" id="enumcase_DOG">
-        DOG
-        <a href="" class="headerlink"><i class="fas fa-link"></i></a>
-    </h4>
-    <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/VoteSite.php"><a href="files/src-lib-smr-votesite.html"><abbr title="src/lib/Smr/VoteSite.php">VoteSite.php</abbr></a></abbr>
-    :
-    <span class="phpdocumentor-element-found-in__line">12</span>
-
-    </aside>
-
-    
-    
-        <section class="phpdocumentor-description"></section>
-
-    
-
-</article>
-                    <article
-        class="
-            phpdocumentor-element
-            -enum-case
-        "
->
-    <h4 class="phpdocumentor-element__name" id="enumcase_PBBG">
-        PBBG
-        <a href="" class="headerlink"><i class="fas fa-link"></i></a>
-    </h4>
-    <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/VoteSite.php"><a href="files/src-lib-smr-votesite.html"><abbr title="src/lib/Smr/VoteSite.php">VoteSite.php</abbr></a></abbr>
+    <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/BuyerRestriction.php"><a href="files/src-lib-smr-buyerrestriction.html"><abbr title="src/lib/Smr/BuyerRestriction.php">BuyerRestriction.php</abbr></a></abbr>
     :
     <span class="phpdocumentor-element-found-in__line">13</span>
+
+    </aside>
+
+    
+    
+        <section class="phpdocumentor-description"></section>
+
+    
+
+</article>
+                    <article
+        class="
+            phpdocumentor-element
+            -enum-case
+        "
+>
+    <h4 class="phpdocumentor-element__name" id="enumcase_Good">
+        Good
+        <a href="" class="headerlink"><i class="fas fa-link"></i></a>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/BuyerRestriction.php"><a href="files/src-lib-smr-buyerrestriction.html"><abbr title="src/lib/Smr/BuyerRestriction.php">BuyerRestriction.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">14</span>
+
+    </aside>
+
+    
+    
+        <section class="phpdocumentor-description"></section>
+
+    
+
+</article>
+                    <article
+        class="
+            phpdocumentor-element
+            -enum-case
+        "
+>
+    <h4 class="phpdocumentor-element__name" id="enumcase_Evil">
+        Evil
+        <a href="" class="headerlink"><i class="fas fa-link"></i></a>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/BuyerRestriction.php"><a href="files/src-lib-smr-buyerrestriction.html"><abbr title="src/lib/Smr/BuyerRestriction.php">BuyerRestriction.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">15</span>
+
+    </aside>
+
+    
+    
+        <section class="phpdocumentor-description"></section>
+
+    
+
+</article>
+                    <article
+        class="
+            phpdocumentor-element
+            -enum-case
+        "
+>
+    <h4 class="phpdocumentor-element__name" id="enumcase_Newbie">
+        Newbie
+        <a href="" class="headerlink"><i class="fas fa-link"></i></a>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/BuyerRestriction.php"><a href="files/src-lib-smr-buyerrestriction.html"><abbr title="src/lib/Smr/BuyerRestriction.php">BuyerRestriction.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">16</span>
+
+    </aside>
+
+    
+    
+        <section class="phpdocumentor-description"></section>
+
+    
+
+</article>
+                    <article
+        class="
+            phpdocumentor-element
+            -enum-case
+        "
+>
+    <h4 class="phpdocumentor-element__name" id="enumcase_Port">
+        Port
+        <a href="" class="headerlink"><i class="fas fa-link"></i></a>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/BuyerRestriction.php"><a href="files/src-lib-smr-buyerrestriction.html"><abbr title="src/lib/Smr/BuyerRestriction.php">BuyerRestriction.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">17</span>
+
+    </aside>
+
+    
+    
+        <section class="phpdocumentor-description"></section>
+
+    
+
+</article>
+                    <article
+        class="
+            phpdocumentor-element
+            -enum-case
+        "
+>
+    <h4 class="phpdocumentor-element__name" id="enumcase_Planet">
+        Planet
+        <a href="" class="headerlink"><i class="fas fa-link"></i></a>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/BuyerRestriction.php"><a href="files/src-lib-smr-buyerrestriction.html"><abbr title="src/lib/Smr/BuyerRestriction.php">BuyerRestriction.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">18</span>
 
     </aside>
 
@@ -282,7 +382,7 @@
             <section class="phpdocumentor-methods">
         <h3 class="phpdocumentor-elements__header" id="methods">
             Methods
-            <a href="classes/Smr-VoteSite.html#methods" class="headerlink"><i class="fas fa-link"></i></a>
+            <a href="classes/Smr-BuyerRestriction.html#methods" class="headerlink"><i class="fas fa-link"></i></a>
         </h3>
                     <article
         class="phpdocumentor-element
@@ -290,21 +390,21 @@
             -public
                                                         "
 >
-    <h4 class="phpdocumentor-element__name" id="method_getData">
-        getData()
-        <a href="classes/Smr-VoteSite.html#method_getData" class="headerlink"><i class="fas fa-link"></i></a>
+    <h4 class="phpdocumentor-element__name" id="method_display">
+        display()
+        <a href="classes/Smr-BuyerRestriction.html#method_display" class="headerlink"><i class="fas fa-link"></i></a>
     </h4>
     <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/VoteSite.php"><a href="files/src-lib-smr-votesite.html"><abbr title="src/lib/Smr/VoteSite.php">VoteSite.php</abbr></a></abbr>
+    <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/BuyerRestriction.php"><a href="files/src-lib-smr-buyerrestriction.html"><abbr title="src/lib/Smr/BuyerRestriction.php">BuyerRestriction.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">20</span>
+    <span class="phpdocumentor-element-found-in__line">34</span>
 
     </aside>
 
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">public</span>
-                <span class="phpdocumentor-signature__name">getData</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">array&lt;string|int, mixed&gt;</span></code>
+                <span class="phpdocumentor-signature__name">display</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">string</span></code>
 
         <section class="phpdocumentor-description"></section>
 
@@ -312,7 +412,51 @@
     
 
         <h5 class="phpdocumentor-return-value__heading">Return values</h5>
-    <span class="phpdocumentor-signature__response_type">array&lt;string|int, mixed&gt;</span>
+    <span class="phpdocumentor-signature__response_type">string</span>
+            &mdash;
+        
+    
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="method_passes">
+        passes()
+        <a href="classes/Smr-BuyerRestriction.html#method_passes" class="headerlink"><i class="fas fa-link"></i></a>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/BuyerRestriction.php"><a href="files/src-lib-smr-buyerrestriction.html"><abbr title="src/lib/Smr/BuyerRestriction.php">BuyerRestriction.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">23</span>
+
+    </aside>
+
+        <p class="phpdocumentor-summary">Does the player pass the restriction?</p>
+
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+                <span class="phpdocumentor-signature__name">passes</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type"><a href="classes/AbstractSmrPlayer.html"><abbr title="\AbstractSmrPlayer">AbstractSmrPlayer</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$player</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">bool</span></code>
+
+    
+        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
+    <dl class="phpdocumentor-argument-list">
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$player</span>
+                : <span class="phpdocumentor-signature__argument__return-type"><a href="classes/AbstractSmrPlayer.html"><abbr title="\AbstractSmrPlayer">AbstractSmrPlayer</abbr></a></span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                    <section class="phpdocumentor-description"></section>
+
+            </dd>
+            </dl>
+
+    
+
+        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
+    <span class="phpdocumentor-signature__response_type">bool</span>
             &mdash;
         
     
@@ -395,7 +539,7 @@
 </section>
             </div>
         </div>
-        <a href="classes/Smr-VoteSite.html#top" class="phpdocumentor-back-to-top"><i class="fas fa-chevron-circle-up"></i></a>
+        <a href="classes/Smr-BuyerRestriction.html#top" class="phpdocumentor-back-to-top"><i class="fas fa-chevron-circle-up"></i></a>
 
     </main>
 

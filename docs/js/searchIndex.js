@@ -1706,15 +1706,15 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/AbstractSmrPlayer.html#method_getScoutMessageGroupLimit"
         },                {
-            "fqsen": "\\AbstractSmrPlayer\u003A\u003AgetGroupScoutMessages\u0028\u0029",
-            "name": "getGroupScoutMessages",
+            "fqsen": "\\AbstractSmrPlayer\u003A\u003AgetScoutMessageGroupType\u0028\u0029",
+            "name": "getScoutMessageGroupType",
             "summary": "",
-            "url": "classes/AbstractSmrPlayer.html#method_getGroupScoutMessages"
+            "url": "classes/AbstractSmrPlayer.html#method_getScoutMessageGroupType"
         },                {
-            "fqsen": "\\AbstractSmrPlayer\u003A\u003AsetGroupScoutMessages\u0028\u0029",
-            "name": "setGroupScoutMessages",
+            "fqsen": "\\AbstractSmrPlayer\u003A\u003AsetScoutMessageGroupType\u0028\u0029",
+            "name": "setScoutMessageGroupType",
             "summary": "",
-            "url": "classes/AbstractSmrPlayer.html#method_setGroupScoutMessages"
+            "url": "classes/AbstractSmrPlayer.html#method_setScoutMessageGroupType"
         },                {
             "fqsen": "\\AbstractSmrPlayer\u003A\u003AdoMessageSending\u0028\u0029",
             "name": "doMessageSending",
@@ -2521,11 +2521,6 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/AbstractSmrPlayer.html#method_getTurnsLevel"
         },                {
-            "fqsen": "\\AbstractSmrPlayer\u003A\u003AgetTurnsColor\u0028\u0029",
-            "name": "getTurnsColor",
-            "summary": "Returns\u0020the\u0020CSS\u0020class\u0020color\u0020to\u0020use\u0020when\u0020displaying\u0020the\u0020player\u0027s\u0020turns",
-            "url": "classes/AbstractSmrPlayer.html#method_getTurnsColor"
-        },                {
             "fqsen": "\\AbstractSmrPlayer\u003A\u003AgetTurns\u0028\u0029",
             "name": "getTurns",
             "summary": "",
@@ -3101,10 +3096,10 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/AbstractSmrPlayer.html#property_forceDropMessages"
         },                {
-            "fqsen": "\\AbstractSmrPlayer\u003A\u003A\u0024groupScoutMessages",
-            "name": "groupScoutMessages",
+            "fqsen": "\\AbstractSmrPlayer\u003A\u003A\u0024scoutMessageGroupType",
+            "name": "scoutMessageGroupType",
             "summary": "",
-            "url": "classes/AbstractSmrPlayer.html#property_groupScoutMessages"
+            "url": "classes/AbstractSmrPlayer.html#property_scoutMessageGroupType"
         },                {
             "fqsen": "\\AbstractSmrPlayer\u003A\u003A\u0024ignoreGlobals",
             "name": "ignoreGlobals",
@@ -3291,15 +3286,15 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/AbstractSmrPort.html#method_getAllGoodIDs"
         },                {
-            "fqsen": "\\AbstractSmrPort\u003A\u003AgetSoldGoodIDs\u0028\u0029",
-            "name": "getSoldGoodIDs",
-            "summary": "Get\u0020IDs\u0020of\u0020goods\u0020that\u0020can\u0020be\u0020sold\u0020to\u0020the\u0020port",
-            "url": "classes/AbstractSmrPort.html#method_getSoldGoodIDs"
+            "fqsen": "\\AbstractSmrPort\u003A\u003AgetSellGoodIDs\u0028\u0029",
+            "name": "getSellGoodIDs",
+            "summary": "Get\u0020IDs\u0020of\u0020goods\u0020that\u0020can\u0020be\u0020sold\u0020to\u0020the\u0020port\u0020by\u0020the\u0020trader",
+            "url": "classes/AbstractSmrPort.html#method_getSellGoodIDs"
         },                {
-            "fqsen": "\\AbstractSmrPort\u003A\u003AgetBoughtGoodIDs\u0028\u0029",
-            "name": "getBoughtGoodIDs",
-            "summary": "Get\u0020IDs\u0020of\u0020goods\u0020that\u0020can\u0020be\u0020bought\u0020from\u0020the\u0020port",
-            "url": "classes/AbstractSmrPort.html#method_getBoughtGoodIDs"
+            "fqsen": "\\AbstractSmrPort\u003A\u003AgetBuyGoodIDs\u0028\u0029",
+            "name": "getBuyGoodIDs",
+            "summary": "Get\u0020IDs\u0020of\u0020goods\u0020that\u0020can\u0020be\u0020bought\u0020from\u0020the\u0020port\u0020by\u0020the\u0020trader",
+            "url": "classes/AbstractSmrPort.html#method_getBuyGoodIDs"
         },                {
             "fqsen": "\\AbstractSmrPort\u003A\u003AgetGoodDistance\u0028\u0029",
             "name": "getGoodDistance",
@@ -3991,11 +3986,6 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/AbstractSmrPort.html#property_experience"
         },                {
-            "fqsen": "\\AbstractSmrPort\u003A\u003A\u0024goodIDs",
-            "name": "goodIDs",
-            "summary": "",
-            "url": "classes/AbstractSmrPort.html#property_goodIDs"
-        },                {
             "fqsen": "\\AbstractSmrPort\u003A\u003A\u0024goodAmounts",
             "name": "goodAmounts",
             "summary": "",
@@ -4006,10 +3996,15 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/AbstractSmrPort.html#property_goodAmountsChanged"
         },                {
-            "fqsen": "\\AbstractSmrPort\u003A\u003A\u0024goodExistenceChanged",
-            "name": "goodExistenceChanged",
+            "fqsen": "\\AbstractSmrPort\u003A\u003A\u0024goodTransactions",
+            "name": "goodTransactions",
             "summary": "",
-            "url": "classes/AbstractSmrPort.html#property_goodExistenceChanged"
+            "url": "classes/AbstractSmrPort.html#property_goodTransactions"
+        },                {
+            "fqsen": "\\AbstractSmrPort\u003A\u003A\u0024goodTransactionsChanged",
+            "name": "goodTransactionsChanged",
+            "summary": "",
+            "url": "classes/AbstractSmrPort.html#property_goodTransactionsChanged"
         },                {
             "fqsen": "\\AbstractSmrPort\u003A\u003A\u0024goodDistances",
             "name": "goodDistances",
@@ -10251,6 +10246,66 @@ Search.appendIndex(
             "summary": "Returns\u0020a\u0020list\u0020of\u0020all\u0020active\u0020\u0028not\u0020claimable\u0029\u0020bounties\u0020for\u0020given\u0020location\u0020\u0024type.",
             "url": "classes/Smr-Bounties.html#method_getMostWanted"
         },                {
+            "fqsen": "\\Smr\\BountyType",
+            "name": "BountyType",
+            "summary": "",
+            "url": "classes/Smr-BountyType.html"
+        },                {
+            "fqsen": "\\Smr\\BountyType\u003A\u003AHQ",
+            "name": "HQ",
+            "summary": "",
+            "url": ""
+        },                {
+            "fqsen": "\\Smr\\BountyType\u003A\u003AUG",
+            "name": "UG",
+            "summary": "",
+            "url": ""
+        },                {
+            "fqsen": "\\Smr\\BuyerRestriction",
+            "name": "BuyerRestriction",
+            "summary": "Enumeration\u0020of\u0020buyer\u0020restrictions\u0020for\u0020ships\u0020and\u0020weapons.",
+            "url": "classes/Smr-BuyerRestriction.html"
+        },                {
+            "fqsen": "\\Smr\\BuyerRestriction\u003A\u003Apasses\u0028\u0029",
+            "name": "passes",
+            "summary": "Does\u0020the\u0020player\u0020pass\u0020the\u0020restriction\u003F",
+            "url": "classes/Smr-BuyerRestriction.html#method_passes"
+        },                {
+            "fqsen": "\\Smr\\BuyerRestriction\u003A\u003Adisplay\u0028\u0029",
+            "name": "display",
+            "summary": "",
+            "url": "classes/Smr-BuyerRestriction.html#method_display"
+        },                {
+            "fqsen": "\\Smr\\BuyerRestriction\u003A\u003ANone",
+            "name": "None",
+            "summary": "",
+            "url": ""
+        },                {
+            "fqsen": "\\Smr\\BuyerRestriction\u003A\u003AGood",
+            "name": "Good",
+            "summary": "",
+            "url": ""
+        },                {
+            "fqsen": "\\Smr\\BuyerRestriction\u003A\u003AEvil",
+            "name": "Evil",
+            "summary": "",
+            "url": ""
+        },                {
+            "fqsen": "\\Smr\\BuyerRestriction\u003A\u003ANewbie",
+            "name": "Newbie",
+            "summary": "",
+            "url": ""
+        },                {
+            "fqsen": "\\Smr\\BuyerRestriction\u003A\u003APort",
+            "name": "Port",
+            "summary": "",
+            "url": ""
+        },                {
+            "fqsen": "\\Smr\\BuyerRestriction\u003A\u003APlanet",
+            "name": "Planet",
+            "summary": "",
+            "url": ""
+        },                {
             "fqsen": "\\Smr\\Chess\\ChessGame",
             "name": "ChessGame",
             "summary": "",
@@ -10710,6 +10765,41 @@ Search.appendIndex(
             "name": "pieceNo",
             "summary": "",
             "url": "classes/Smr-Chess-ChessPiece.html#property_pieceNo"
+        },                {
+            "fqsen": "\\Smr\\CombatLogType",
+            "name": "CombatLogType",
+            "summary": "Enumerates\u0020the\u0020types\u0020of\u0020combat\u0020log\u0020pages",
+            "url": "classes/Smr-CombatLogType.html"
+        },                {
+            "fqsen": "\\Smr\\CombatLogType\u003A\u003APersonal",
+            "name": "Personal",
+            "summary": "",
+            "url": ""
+        },                {
+            "fqsen": "\\Smr\\CombatLogType\u003A\u003AAlliance",
+            "name": "Alliance",
+            "summary": "",
+            "url": ""
+        },                {
+            "fqsen": "\\Smr\\CombatLogType\u003A\u003AForce",
+            "name": "Force",
+            "summary": "",
+            "url": ""
+        },                {
+            "fqsen": "\\Smr\\CombatLogType\u003A\u003APort",
+            "name": "Port",
+            "summary": "",
+            "url": ""
+        },                {
+            "fqsen": "\\Smr\\CombatLogType\u003A\u003APlanet",
+            "name": "Planet",
+            "summary": "",
+            "url": ""
+        },                {
+            "fqsen": "\\Smr\\CombatLogType\u003A\u003ASaved",
+            "name": "Saved",
+            "summary": "",
+            "url": ""
         },                {
             "fqsen": "\\Smr\\Container\\DiContainer",
             "name": "DiContainer",
@@ -11626,6 +11716,26 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/Smr-Messages.html#method_getMessagePlayer"
         },                {
+            "fqsen": "\\Smr\\MovementType",
+            "name": "MovementType",
+            "summary": "Enumerates\u0020the\u0020types\u0020of\u0020movements\u0020that\u0020players\u0020can\u0020take.",
+            "url": "classes/Smr-MovementType.html"
+        },                {
+            "fqsen": "\\Smr\\MovementType\u003A\u003AWalk",
+            "name": "Walk",
+            "summary": "",
+            "url": ""
+        },                {
+            "fqsen": "\\Smr\\MovementType\u003A\u003AJump",
+            "name": "Jump",
+            "summary": "",
+            "url": ""
+        },                {
+            "fqsen": "\\Smr\\MovementType\u003A\u003AWarp",
+            "name": "Warp",
+            "summary": "",
+            "url": ""
+        },                {
             "fqsen": "\\Smr\\News",
             "name": "News",
             "summary": "Collection\u0020of\u0020functions\u0020to\u0020help\u0020with\u0020displaying\u0020news.",
@@ -12045,6 +12155,61 @@ Search.appendIndex(
             "name": "STRUCTURES",
             "summary": "",
             "url": "classes/Smr-PlanetTypes-TerranPlanet.html#constant_STRUCTURES"
+        },                {
+            "fqsen": "\\Smr\\PlotGroup",
+            "name": "PlotGroup",
+            "summary": "Enumerates\u0020the\u0020\u0022Plot\u0020to\u0020Nearest\u0022\u0020categories",
+            "url": "classes/Smr-PlotGroup.html"
+        },                {
+            "fqsen": "\\Smr\\PlotGroup\u003A\u003ATechnology",
+            "name": "Technology",
+            "summary": "",
+            "url": ""
+        },                {
+            "fqsen": "\\Smr\\PlotGroup\u003A\u003AShips",
+            "name": "Ships",
+            "summary": "",
+            "url": ""
+        },                {
+            "fqsen": "\\Smr\\PlotGroup\u003A\u003AWeapons",
+            "name": "Weapons",
+            "summary": "",
+            "url": ""
+        },                {
+            "fqsen": "\\Smr\\PlotGroup\u003A\u003ALocations",
+            "name": "Locations",
+            "summary": "",
+            "url": ""
+        },                {
+            "fqsen": "\\Smr\\PlotGroup\u003A\u003ASellGoods",
+            "name": "SellGoods",
+            "summary": "",
+            "url": ""
+        },                {
+            "fqsen": "\\Smr\\PlotGroup\u003A\u003ABuyGoods",
+            "name": "BuyGoods",
+            "summary": "",
+            "url": ""
+        },                {
+            "fqsen": "\\Smr\\PlotGroup\u003A\u003AGalaxies",
+            "name": "Galaxies",
+            "summary": "",
+            "url": ""
+        },                {
+            "fqsen": "\\Smr\\PortPayoutType",
+            "name": "PortPayoutType",
+            "summary": "Enumerates\u0020the\u0020actions\u0020that\u0020can\u0020trigger\u0020port\u0020payouts.",
+            "url": "classes/Smr-PortPayoutType.html"
+        },                {
+            "fqsen": "\\Smr\\PortPayoutType\u003A\u003ALoot",
+            "name": "Loot",
+            "summary": "",
+            "url": ""
+        },                {
+            "fqsen": "\\Smr\\PortPayoutType\u003A\u003ARaze",
+            "name": "Raze",
+            "summary": "",
+            "url": ""
         },                {
             "fqsen": "\\Smr\\Race",
             "name": "Race",
@@ -12530,6 +12695,26 @@ Search.appendIndex(
             "name": "route",
             "summary": "",
             "url": "classes/Smr-Routes-RouteIterator.html#property_route"
+        },                {
+            "fqsen": "\\Smr\\ScoutMessageGroupType",
+            "name": "ScoutMessageGroupType",
+            "summary": "Enumeration\u0020of\u0020ways\u0020to\u0020group\u0020scout\u0020messages\u0020when\u0020viewing\u0020them.",
+            "url": "classes/Smr-ScoutMessageGroupType.html"
+        },                {
+            "fqsen": "\\Smr\\ScoutMessageGroupType\u003A\u003AAlways",
+            "name": "Always",
+            "summary": "",
+            "url": ""
+        },                {
+            "fqsen": "\\Smr\\ScoutMessageGroupType\u003A\u003AAuto",
+            "name": "Auto",
+            "summary": "",
+            "url": ""
+        },                {
+            "fqsen": "\\Smr\\ScoutMessageGroupType\u003A\u003ANever",
+            "name": "Never",
+            "summary": "",
+            "url": ""
         },                {
             "fqsen": "\\Smr\\SectorLock",
             "name": "SectorLock",
@@ -13136,6 +13321,41 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/Smr-Template.html#property_jsSources"
         },                {
+            "fqsen": "\\Smr\\TurnsLevel",
+            "name": "TurnsLevel",
+            "summary": "Enumerates\u0020the\u0020warning\u0020levels\u0020that\u0020correspond\u0020to\u0020player\u0020turn\u0020thresholds",
+            "url": "classes/Smr-TurnsLevel.html"
+        },                {
+            "fqsen": "\\Smr\\TurnsLevel\u003A\u003Acolor\u0028\u0029",
+            "name": "color",
+            "summary": "Returns\u0020the\u0020CSS\u0020class\u0020color\u0020to\u0020use\u0020when\u0020displaying\u0020the\u0020player\u0027s\u0020turns",
+            "url": "classes/Smr-TurnsLevel.html#method_color"
+        },                {
+            "fqsen": "\\Smr\\TurnsLevel\u003A\u003Amessage\u0028\u0029",
+            "name": "message",
+            "summary": "Returns\u0020the\u0020warning\u0020to\u0020display\u0020when\u0020player\u0027s\u0020turns\u0020get\u0020low.",
+            "url": "classes/Smr-TurnsLevel.html#method_message"
+        },                {
+            "fqsen": "\\Smr\\TurnsLevel\u003A\u003ANone",
+            "name": "None",
+            "summary": "",
+            "url": ""
+        },                {
+            "fqsen": "\\Smr\\TurnsLevel\u003A\u003ALow",
+            "name": "Low",
+            "summary": "",
+            "url": ""
+        },                {
+            "fqsen": "\\Smr\\TurnsLevel\u003A\u003AMedium",
+            "name": "Medium",
+            "summary": "",
+            "url": ""
+        },                {
+            "fqsen": "\\Smr\\TurnsLevel\u003A\u003AHigh",
+            "name": "High",
+            "summary": "",
+            "url": ""
+        },                {
             "fqsen": "\\Smr\\UserRanking",
             "name": "UserRanking",
             "summary": "User\u0020ranking\u0020titles",
@@ -13186,125 +13406,125 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/Smr-UserRanking.html#constant_SCORE_POW_RANK_INCREMENT"
         },                {
-            "fqsen": "\\Smr\\VoteSite",
-            "name": "VoteSite",
-            "summary": "Handles\u0020links\u0020to\u0020external\u0020game\u0020voting\u0020sites.",
-            "url": "classes/Smr-VoteSite.html"
+            "fqsen": "\\Smr\\VoteLink",
+            "name": "VoteLink",
+            "summary": "Site\u002Dindependent\u0020handling\u0020of\u0020links\u0020to\u0020external\u0020game\u0020voting\u0020sites.",
+            "url": "classes/Smr-VoteLink.html"
         },                {
-            "fqsen": "\\Smr\\VoteSite\u003A\u003AgetSiteData\u0028\u0029",
-            "name": "getSiteData",
-            "summary": "",
-            "url": "classes/Smr-VoteSite.html#method_getSiteData"
-        },                {
-            "fqsen": "\\Smr\\VoteSite\u003A\u003AclearCache\u0028\u0029",
-            "name": "clearCache",
-            "summary": "",
-            "url": "classes/Smr-VoteSite.html#method_clearCache"
-        },                {
-            "fqsen": "\\Smr\\VoteSite\u003A\u003AgetSite\u0028\u0029",
-            "name": "getSite",
-            "summary": "",
-            "url": "classes/Smr-VoteSite.html#method_getSite"
-        },                {
-            "fqsen": "\\Smr\\VoteSite\u003A\u003AgetAllSites\u0028\u0029",
-            "name": "getAllSites",
-            "summary": "",
-            "url": "classes/Smr-VoteSite.html#method_getAllSites"
-        },                {
-            "fqsen": "\\Smr\\VoteSite\u003A\u003AgetMinTimeUntilFreeTurns\u0028\u0029",
-            "name": "getMinTimeUntilFreeTurns",
-            "summary": "Returns\u0020the\u0020earliest\u0020time\u0020\u0028in\u0020seconds\u0029\u0020until\u0020free\u0020turns\nare\u0020available\u0020across\u0020all\u0020voting\u0020sites.",
-            "url": "classes/Smr-VoteSite.html#method_getMinTimeUntilFreeTurns"
-        },                {
-            "fqsen": "\\Smr\\VoteSite\u003A\u003A__construct\u0028\u0029",
+            "fqsen": "\\Smr\\VoteLink\u003A\u003A__construct\u0028\u0029",
             "name": "__construct",
             "summary": "",
-            "url": "classes/Smr-VoteSite.html#method___construct"
+            "url": "classes/Smr-VoteLink.html#method___construct"
         },                {
-            "fqsen": "\\Smr\\VoteSite\u003A\u003AgivesFreeTurns\u0028\u0029",
+            "fqsen": "\\Smr\\VoteLink\u003A\u003AclearCache\u0028\u0029",
+            "name": "clearCache",
+            "summary": "",
+            "url": "classes/Smr-VoteLink.html#method_clearCache"
+        },                {
+            "fqsen": "\\Smr\\VoteLink\u003A\u003AgetMinTimeUntilFreeTurns\u0028\u0029",
+            "name": "getMinTimeUntilFreeTurns",
+            "summary": "Returns\u0020the\u0020earliest\u0020time\u0020\u0028in\u0020seconds\u0029\u0020until\u0020free\u0020turns\nare\u0020available\u0020across\u0020all\u0020voting\u0020sites.",
+            "url": "classes/Smr-VoteLink.html#method_getMinTimeUntilFreeTurns"
+        },                {
+            "fqsen": "\\Smr\\VoteLink\u003A\u003AgivesFreeTurns\u0028\u0029",
             "name": "givesFreeTurns",
             "summary": "Does\u0020this\u0020VoteSite\u0020have\u0020a\u0020voting\u0020callback\u0020that\u0020can\u0020be\u0020used\nto\u0020award\u0020free\u0020turns\u003F",
-            "url": "classes/Smr-VoteSite.html#method_givesFreeTurns"
+            "url": "classes/Smr-VoteLink.html#method_givesFreeTurns"
         },                {
-            "fqsen": "\\Smr\\VoteSite\u003A\u003AgetTimeUntilFreeTurns\u0028\u0029",
+            "fqsen": "\\Smr\\VoteLink\u003A\u003AgetTimeUntilFreeTurns\u0028\u0029",
             "name": "getTimeUntilFreeTurns",
             "summary": "Time\u0020until\u0020the\u0020account\u0020can\u0020get\u0020free\u0020turns\u0020from\u0020voting\u0020at\u0020this\u0020site.",
-            "url": "classes/Smr-VoteSite.html#method_getTimeUntilFreeTurns"
+            "url": "classes/Smr-VoteLink.html#method_getTimeUntilFreeTurns"
         },                {
-            "fqsen": "\\Smr\\VoteSite\u003A\u003AfreeTurnsReady\u0028\u0029",
-            "name": "freeTurnsReady",
-            "summary": "Returns\u0020true\u0020if\u0020account\u0020can\u0020currently\u0020receive\u0020free\u0020turns\u0020at\u0020this\u0020site.",
-            "url": "classes/Smr-VoteSite.html#method_freeTurnsReady"
-        },                {
-            "fqsen": "\\Smr\\VoteSite\u003A\u003AsetLinkClicked\u0028\u0029",
-            "name": "setLinkClicked",
+            "fqsen": "\\Smr\\VoteLink\u003A\u003AsetClicked\u0028\u0029",
+            "name": "setClicked",
             "summary": "Register\u0020that\u0020the\u0020player\u0020has\u0020clicked\u0020on\u0020a\u0020vote\u0020site\u0020that\u0020is\u0020eligible\nfor\u0020free\u0020turns,\u0020so\u0020that\u0020we\u0020will\u0020accept\u0020incoming\u0020votes.\u0020This\u0020ensures\nthat\u0020voting\u0020is\u0020done\u0020through\u0020an\u0020authenticated\u0020SMR\u0020session.",
-            "url": "classes/Smr-VoteSite.html#method_setLinkClicked"
+            "url": "classes/Smr-VoteLink.html#method_setClicked"
         },                {
-            "fqsen": "\\Smr\\VoteSite\u003A\u003AisLinkClicked\u0028\u0029",
-            "name": "isLinkClicked",
+            "fqsen": "\\Smr\\VoteLink\u003A\u003AisClicked\u0028\u0029",
+            "name": "isClicked",
             "summary": "Checks\u0020if\u0020setLinkClicked\u0020has\u0020been\u0020called\u0020since\u0020the\u0020last\u0020time\nfree\u0020turns\u0020were\u0020awarded.",
-            "url": "classes/Smr-VoteSite.html#method_isLinkClicked"
+            "url": "classes/Smr-VoteLink.html#method_isClicked"
         },                {
-            "fqsen": "\\Smr\\VoteSite\u003A\u003AsetFreeTurnsAwarded\u0028\u0029",
+            "fqsen": "\\Smr\\VoteLink\u003A\u003AsetFreeTurnsAwarded\u0028\u0029",
             "name": "setFreeTurnsAwarded",
             "summary": "Register\u0020that\u0020the\u0020player\u0020has\u0020been\u0020awarded\u0020their\u0020free\u0020turns.",
-            "url": "classes/Smr-VoteSite.html#method_setFreeTurnsAwarded"
+            "url": "classes/Smr-VoteLink.html#method_setFreeTurnsAwarded"
         },                {
-            "fqsen": "\\Smr\\VoteSite\u003A\u003AgetLinkImg\u0028\u0029",
-            "name": "getLinkImg",
+            "fqsen": "\\Smr\\VoteLink\u003A\u003AfreeTurnsReady\u0028\u0029",
+            "name": "freeTurnsReady",
+            "summary": "Returns\u0020true\u0020if\u0020account\u0020can\u0020currently\u0020receive\u0020free\u0020turns\u0020at\u0020this\u0020site.",
+            "url": "classes/Smr-VoteLink.html#method_freeTurnsReady"
+        },                {
+            "fqsen": "\\Smr\\VoteLink\u003A\u003AgetImg\u0028\u0029",
+            "name": "getImg",
             "summary": "Returns\u0020the\u0020image\u0020to\u0020display\u0020for\u0020this\u0020voting\u0020site.",
-            "url": "classes/Smr-VoteSite.html#method_getLinkImg"
+            "url": "classes/Smr-VoteLink.html#method_getImg"
         },                {
-            "fqsen": "\\Smr\\VoteSite\u003A\u003AgetLinkUrl\u0028\u0029",
-            "name": "getLinkUrl",
+            "fqsen": "\\Smr\\VoteLink\u003A\u003AgetUrl\u0028\u0029",
+            "name": "getUrl",
             "summary": "Returns\u0020the\u0020URL\u0020that\u0020should\u0020be\u0020used\u0020for\u0020this\u0020voting\u0020site.",
-            "url": "classes/Smr-VoteSite.html#method_getLinkUrl"
+            "url": "classes/Smr-VoteLink.html#method_getUrl"
         },                {
-            "fqsen": "\\Smr\\VoteSite\u003A\u003AgetSN\u0028\u0029",
+            "fqsen": "\\Smr\\VoteLink\u003A\u003AgetSN\u0028\u0029",
             "name": "getSN",
             "summary": "Returns\u0020the\u0020SN\u0020to\u0020redirect\u0020the\u0020current\u0020page\u0020to\u0020if\u0020free\u0020turns\u0020are\navailable\u003B\u0020otherwise,\u0020returns\u0020false.",
-            "url": "classes/Smr-VoteSite.html#method_getSN"
+            "url": "classes/Smr-VoteLink.html#method_getSN"
         },                {
-            "fqsen": "\\Smr\\VoteSite\u003A\u003ALINK_ID_TWG",
-            "name": "LINK_ID_TWG",
+            "fqsen": "\\Smr\\VoteLink\u003A\u003ATIME_BETWEEN_VOTING",
+            "name": "TIME_BETWEEN_VOTING",
             "summary": "",
-            "url": "classes/Smr-VoteSite.html#constant_LINK_ID_TWG"
+            "url": "classes/Smr-VoteLink.html#constant_TIME_BETWEEN_VOTING"
         },                {
-            "fqsen": "\\Smr\\VoteSite\u003A\u003ALINK_ID_DOG",
-            "name": "LINK_ID_DOG",
-            "summary": "",
-            "url": "classes/Smr-VoteSite.html#constant_LINK_ID_DOG"
-        },                {
-            "fqsen": "\\Smr\\VoteSite\u003A\u003ALINK_ID_PBBG",
-            "name": "LINK_ID_PBBG",
-            "summary": "",
-            "url": "classes/Smr-VoteSite.html#constant_LINK_ID_PBBG"
-        },                {
-            "fqsen": "\\Smr\\VoteSite\u003A\u003AACTIVE_LINKS",
-            "name": "ACTIVE_LINKS",
-            "summary": "",
-            "url": "classes/Smr-VoteSite.html#constant_ACTIVE_LINKS"
-        },                {
-            "fqsen": "\\Smr\\VoteSite\u003A\u003A\u0024CACHE_TIMEOUTS",
+            "fqsen": "\\Smr\\VoteLink\u003A\u003A\u0024CACHE_TIMEOUTS",
             "name": "CACHE_TIMEOUTS",
             "summary": "",
-            "url": "classes/Smr-VoteSite.html#property_CACHE_TIMEOUTS"
+            "url": "classes/Smr-VoteLink.html#property_CACHE_TIMEOUTS"
         },                {
-            "fqsen": "\\Smr\\VoteSite\u003A\u003A\u0024linkID",
-            "name": "linkID",
-            "summary": "",
-            "url": "classes/Smr-VoteSite.html#property_linkID"
-        },                {
-            "fqsen": "\\Smr\\VoteSite\u003A\u003A\u0024accountID",
-            "name": "accountID",
-            "summary": "",
-            "url": "classes/Smr-VoteSite.html#property_accountID"
-        },                {
-            "fqsen": "\\Smr\\VoteSite\u003A\u003A\u0024data",
+            "fqsen": "\\Smr\\VoteLink\u003A\u003A\u0024data",
             "name": "data",
             "summary": "",
-            "url": "classes/Smr-VoteSite.html#property_data"
+            "url": "classes/Smr-VoteLink.html#property_data"
+        },                {
+            "fqsen": "\\Smr\\VoteLink\u003A\u003A\u0024site",
+            "name": "site",
+            "summary": "",
+            "url": "classes/Smr-VoteLink.html#property_site"
+        },                {
+            "fqsen": "\\Smr\\VoteLink\u003A\u003A\u0024accountID",
+            "name": "accountID",
+            "summary": "",
+            "url": "classes/Smr-VoteLink.html#property_accountID"
+        },                {
+            "fqsen": "\\Smr\\VoteLink\u003A\u003A\u0024gameID",
+            "name": "gameID",
+            "summary": "",
+            "url": "classes/Smr-VoteLink.html#property_gameID"
+        },                {
+            "fqsen": "\\Smr\\VoteSite",
+            "name": "VoteSite",
+            "summary": "Enumerates\u0020external\u0020game\u0020voting\u0020sites\u0020and\u0020their\u0020properties.",
+            "url": "classes/Smr-VoteSite.html"
+        },                {
+            "fqsen": "\\Smr\\VoteSite\u003A\u003AgetData\u0028\u0029",
+            "name": "getData",
+            "summary": "",
+            "url": "classes/Smr-VoteSite.html#method_getData"
+        },                {
+            "fqsen": "\\Smr\\VoteSite\u003A\u003ATWG",
+            "name": "TWG",
+            "summary": "",
+            "url": ""
+        },                {
+            "fqsen": "\\Smr\\VoteSite\u003A\u003ADOG",
+            "name": "DOG",
+            "summary": "",
+            "url": ""
+        },                {
+            "fqsen": "\\Smr\\VoteSite\u003A\u003APBBG",
+            "name": "PBBG",
+            "summary": "",
+            "url": ""
         },                {
             "fqsen": "\\",
             "name": "\\",
