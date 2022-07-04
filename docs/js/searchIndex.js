@@ -10441,11 +10441,6 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/Smr-Chess-ChessGame.html#method_movePiece"
         },                {
-            "fqsen": "\\Smr\\Chess\\ChessGame\u003A\u003AundoMovePiece\u0028\u0029",
-            "name": "undoMovePiece",
-            "summary": "",
-            "url": "classes/Smr-Chess-ChessGame.html#method_undoMovePiece"
-        },                {
             "fqsen": "\\Smr\\Chess\\ChessGame\u003A\u003AtryAlgebraicMove\u0028\u0029",
             "name": "tryAlgebraicMove",
             "summary": "",
@@ -10571,11 +10566,6 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/Smr-Chess-ChessGame.html#method_isNPCGame"
         },                {
-            "fqsen": "\\Smr\\Chess\\ChessGame\u003A\u003AgetOtherColour\u0028\u0029",
-            "name": "getOtherColour",
-            "summary": "",
-            "url": "classes/Smr-Chess-ChessGame.html#method_getOtherColour"
-        },                {
             "fqsen": "\\Smr\\Chess\\ChessGame\u003A\u003Aresign\u0028\u0029",
             "name": "resign",
             "summary": "",
@@ -10590,16 +10580,6 @@ Search.appendIndex(
             "name": "getResignHREF",
             "summary": "",
             "url": "classes/Smr-Chess-ChessGame.html#method_getResignHREF"
-        },                {
-            "fqsen": "\\Smr\\Chess\\ChessGame\u003A\u003APLAYER_BLACK",
-            "name": "PLAYER_BLACK",
-            "summary": "",
-            "url": "classes/Smr-Chess-ChessGame.html#constant_PLAYER_BLACK"
-        },                {
-            "fqsen": "\\Smr\\Chess\\ChessGame\u003A\u003APLAYER_WHITE",
-            "name": "PLAYER_WHITE",
-            "summary": "",
-            "url": "classes/Smr-Chess-ChessGame.html#constant_PLAYER_WHITE"
         },                {
             "fqsen": "\\Smr\\Chess\\ChessGame\u003A\u003AEND_RESIGN",
             "name": "END_RESIGN",
@@ -10790,6 +10770,26 @@ Search.appendIndex(
             "name": "pieceNo",
             "summary": "",
             "url": "classes/Smr-Chess-ChessPiece.html#property_pieceNo"
+        },                {
+            "fqsen": "\\Smr\\Chess\\Colour",
+            "name": "Colour",
+            "summary": "Enumeration\u0020of\u0020possible\u0020player\u0020colours\u0020in\u0020a\u0020chess\u0020game.",
+            "url": "classes/Smr-Chess-Colour.html"
+        },                {
+            "fqsen": "\\Smr\\Chess\\Colour\u003A\u003Aopposite\u0028\u0029",
+            "name": "opposite",
+            "summary": "Return\u0020the\u0020opposite\u0020colour",
+            "url": "classes/Smr-Chess-Colour.html#method_opposite"
+        },                {
+            "fqsen": "\\Smr\\Chess\\Colour\u003A\u003AWhite",
+            "name": "White",
+            "summary": "",
+            "url": ""
+        },                {
+            "fqsen": "\\Smr\\Chess\\Colour\u003A\u003ABlack",
+            "name": "Black",
+            "summary": "",
+            "url": ""
         },                {
             "fqsen": "\\Smr\\CombatLogType",
             "name": "CombatLogType",
