@@ -3481,10 +3481,10 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/AbstractSmrShip.html#method_getTypeID"
         },                {
-            "fqsen": "\\AbstractSmrShip\u003A\u003AgetClassID\u0028\u0029",
-            "name": "getClassID",
+            "fqsen": "\\AbstractSmrShip\u003A\u003AgetClass\u0028\u0029",
+            "name": "getClass",
             "summary": "",
-            "url": "classes/AbstractSmrShip.html#method_getClassID"
+            "url": "classes/AbstractSmrShip.html#method_getClass"
         },                {
             "fqsen": "\\AbstractSmrShip\u003A\u003AgetName\u0028\u0029",
             "name": "getName",
@@ -4880,11 +4880,6 @@ Search.appendIndex(
             "name": "getHOF",
             "summary": "",
             "url": "classes/SmrAccount.html#method_getHOF"
-        },                {
-            "fqsen": "\\SmrAccount\u003A\u003AgetRankName\u0028\u0029",
-            "name": "getRankName",
-            "summary": "",
-            "url": "classes/SmrAccount.html#method_getRankName"
         },                {
             "fqsen": "\\SmrAccount\u003A\u003AgetScore\u0028\u0029",
             "name": "getScore",
@@ -9266,10 +9261,10 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/SmrShipType.html#method_getTypeID"
         },                {
-            "fqsen": "\\SmrShipType\u003A\u003AgetClassID\u0028\u0029",
-            "name": "getClassID",
+            "fqsen": "\\SmrShipType\u003A\u003AgetClass\u0028\u0029",
+            "name": "getClass",
             "summary": "",
-            "url": "classes/SmrShipType.html#method_getClassID"
+            "url": "classes/SmrShipType.html#method_getClass"
         },                {
             "fqsen": "\\SmrShipType\u003A\u003AgetName\u0028\u0029",
             "name": "getName",
@@ -9356,10 +9351,10 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/SmrShipType.html#property_typeID"
         },                {
-            "fqsen": "\\SmrShipType\u003A\u003A\u0024classID",
-            "name": "classID",
+            "fqsen": "\\SmrShipType\u003A\u003A\u0024class",
+            "name": "class",
             "summary": "",
-            "url": "classes/SmrShipType.html#property_classID"
+            "url": "classes/SmrShipType.html#property_class"
         },                {
             "fqsen": "\\SmrShipType\u003A\u003A\u0024hardpoints",
             "name": "hardpoints",
@@ -13036,45 +13031,30 @@ Search.appendIndex(
             "summary": "Categorization\u0020of\u0020ship\u0020types.",
             "url": "classes/Smr-ShipClass.html"
         },                {
-            "fqsen": "\\Smr\\ShipClass\u003A\u003AgetName\u0028\u0029",
-            "name": "getName",
+            "fqsen": "\\Smr\\ShipClass\u003A\u003AHunter",
+            "name": "Hunter",
             "summary": "",
-            "url": "classes/Smr-ShipClass.html#method_getName"
+            "url": ""
         },                {
-            "fqsen": "\\Smr\\ShipClass\u003A\u003AgetAllNames\u0028\u0029",
-            "name": "getAllNames",
+            "fqsen": "\\Smr\\ShipClass\u003A\u003ATrader",
+            "name": "Trader",
             "summary": "",
-            "url": "classes/Smr-ShipClass.html#method_getAllNames"
+            "url": ""
         },                {
-            "fqsen": "\\Smr\\ShipClass\u003A\u003AHUNTER",
-            "name": "HUNTER",
+            "fqsen": "\\Smr\\ShipClass\u003A\u003ARaider",
+            "name": "Raider",
             "summary": "",
-            "url": "classes/Smr-ShipClass.html#constant_HUNTER"
+            "url": ""
         },                {
-            "fqsen": "\\Smr\\ShipClass\u003A\u003ATRADER",
-            "name": "TRADER",
+            "fqsen": "\\Smr\\ShipClass\u003A\u003AScout",
+            "name": "Scout",
             "summary": "",
-            "url": "classes/Smr-ShipClass.html#constant_TRADER"
+            "url": ""
         },                {
-            "fqsen": "\\Smr\\ShipClass\u003A\u003ARAIDER",
-            "name": "RAIDER",
+            "fqsen": "\\Smr\\ShipClass\u003A\u003AStarter",
+            "name": "Starter",
             "summary": "",
-            "url": "classes/Smr-ShipClass.html#constant_RAIDER"
-        },                {
-            "fqsen": "\\Smr\\ShipClass\u003A\u003ASCOUT",
-            "name": "SCOUT",
-            "summary": "",
-            "url": "classes/Smr-ShipClass.html#constant_SCOUT"
-        },                {
-            "fqsen": "\\Smr\\ShipClass\u003A\u003ASTARTER",
-            "name": "STARTER",
-            "summary": "",
-            "url": "classes/Smr-ShipClass.html#constant_STARTER"
-        },                {
-            "fqsen": "\\Smr\\ShipClass\u003A\u003ANAMES",
-            "name": "NAMES",
-            "summary": "",
-            "url": "classes/Smr-ShipClass.html#constant_NAMES"
+            "url": ""
         },                {
             "fqsen": "\\Smr\\SocialLogin\\Facebook",
             "name": "Facebook",
@@ -13370,56 +13350,6 @@ Search.appendIndex(
             "name": "High",
             "summary": "",
             "url": ""
-        },                {
-            "fqsen": "\\Smr\\UserRanking",
-            "name": "UserRanking",
-            "summary": "User\u0020ranking\u0020titles",
-            "url": "classes/Smr-UserRanking.html"
-        },                {
-            "fqsen": "\\Smr\\UserRanking\u003A\u003AgetRankFromScore\u0028\u0029",
-            "name": "getRankFromScore",
-            "summary": "Given\u0020a\u0020score,\u0020return\u0020the\u0020associated\u0020rank",
-            "url": "classes/Smr-UserRanking.html#method_getRankFromScore"
-        },                {
-            "fqsen": "\\Smr\\UserRanking\u003A\u003AgetMinScoreForRank\u0028\u0029",
-            "name": "getMinScoreForRank",
-            "summary": "Given\u0020a\u0020rank,\u0020return\u0020the\u0020minimum\u0020score\u0020needed\u0020to\u0020achieve\u0020it\n\u0028this\u0020is\u0020an\u0020inversion\u0020of\u0020getRankFromScore\u0029",
-            "url": "classes/Smr-UserRanking.html#method_getMinScoreForRank"
-        },                {
-            "fqsen": "\\Smr\\UserRanking\u003A\u003AgetName\u0028\u0029",
-            "name": "getName",
-            "summary": "Return\u0020the\u0020title\u0020associated\u0020with\u0020the\u0020given\u0020rank",
-            "url": "classes/Smr-UserRanking.html#method_getName"
-        },                {
-            "fqsen": "\\Smr\\UserRanking\u003A\u003AgetAllNames\u0028\u0029",
-            "name": "getAllNames",
-            "summary": "",
-            "url": "classes/Smr-UserRanking.html#method_getAllNames"
-        },                {
-            "fqsen": "\\Smr\\UserRanking\u003A\u003ANAMES",
-            "name": "NAMES",
-            "summary": "",
-            "url": "classes/Smr-UserRanking.html#constant_NAMES"
-        },                {
-            "fqsen": "\\Smr\\UserRanking\u003A\u003AMIN_RANK",
-            "name": "MIN_RANK",
-            "summary": "",
-            "url": "classes/Smr-UserRanking.html#constant_MIN_RANK"
-        },                {
-            "fqsen": "\\Smr\\UserRanking\u003A\u003AMAX_RANK",
-            "name": "MAX_RANK",
-            "summary": "",
-            "url": "classes/Smr-UserRanking.html#constant_MAX_RANK"
-        },                {
-            "fqsen": "\\Smr\\UserRanking\u003A\u003ASCORE_POW",
-            "name": "SCORE_POW",
-            "summary": "",
-            "url": "classes/Smr-UserRanking.html#constant_SCORE_POW"
-        },                {
-            "fqsen": "\\Smr\\UserRanking\u003A\u003ASCORE_POW_RANK_INCREMENT",
-            "name": "SCORE_POW_RANK_INCREMENT",
-            "summary": "",
-            "url": "classes/Smr-UserRanking.html#constant_SCORE_POW_RANK_INCREMENT"
         },                {
             "fqsen": "\\Smr\\VoteLink",
             "name": "VoteLink",
