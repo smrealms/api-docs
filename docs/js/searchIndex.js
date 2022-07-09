@@ -10326,11 +10326,6 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/Smr-Chess-ChessGame.html#method_getOngoingPlayerGames"
         },                {
-            "fqsen": "\\Smr\\Chess\\ChessGame\u003A\u003AgetAccountGames\u0028\u0029",
-            "name": "getAccountGames",
-            "summary": "",
-            "url": "classes/Smr-Chess-ChessGame.html#method_getAccountGames"
-        },                {
             "fqsen": "\\Smr\\Chess\\ChessGame\u003A\u003AgetChessGame\u0028\u0029",
             "name": "getChessGame",
             "summary": "",
