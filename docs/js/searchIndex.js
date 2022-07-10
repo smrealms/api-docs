@@ -4466,11 +4466,6 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/Globals.html#property_LEVEL_REQUIREMENTS"
         },                {
-            "fqsen": "\\Globals\u003A\u003A\u0024RACES",
-            "name": "RACES",
-            "summary": "",
-            "url": "classes/Globals.html#property_RACES"
-        },                {
             "fqsen": "\\Globals\u003A\u003A\u0024GOODS",
             "name": "GOODS",
             "summary": "",
