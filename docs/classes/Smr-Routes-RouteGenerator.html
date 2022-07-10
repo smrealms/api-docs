@@ -205,7 +205,7 @@
                 <dt class="phpdocumentor-table-of-contents__entry -method -public">
     <a href="classes/Smr-Routes-RouteGenerator.html#method_generateMultiPortRoutes">generateMultiPortRoutes()</a>
     <span>
-                                &nbsp;: array&lt;int, array&lt;string, array&lt;string|int, <a href="classes/Smr-Routes-Route.html"><abbr title="\Smr\Routes\Route">Route</abbr></a>&gt;&gt;&gt;    </span>
+                                &nbsp;: array&lt;int, array&lt;numeric-string, array&lt;string|int, <a href="classes/Smr-Routes-MultiplePortRoute.html"><abbr title="\Smr\Routes\MultiplePortRoute">MultiplePortRoute</abbr></a>&gt;&gt;&gt;    </span>
 </dt>
 <dd></dd>
 
@@ -350,7 +350,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Routes/RouteGenerator.php"><a href="files/src-lib-smr-routes-routegenerator.html"><abbr title="src/lib/Smr/Routes/RouteGenerator.php">RouteGenerator.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">13</span>
+    <span class="phpdocumentor-element-found-in__line">16</span>
 
     </aside>
 
@@ -361,10 +361,8 @@
     <span class="phpdocumentor-signature__name">$dontAddWorseThan</span>
     </code>
 
-        <section class="phpdocumentor-description"></section>
-
-        <section class="phpdocumentor-description"></section>
-
+    
+    
     
 
 </article>
@@ -384,7 +382,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Routes/RouteGenerator.php"><a href="files/src-lib-smr-routes-routegenerator.html"><abbr title="src/lib/Smr/Routes/RouteGenerator.php">RouteGenerator.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">11</span>
+    <span class="phpdocumentor-element-found-in__line">12</span>
 
     </aside>
 
@@ -395,10 +393,8 @@
     <span class="phpdocumentor-signature__name">$expRoutes</span>
     </code>
 
-        <section class="phpdocumentor-description"></section>
-
-        <section class="phpdocumentor-description"></section>
-
+    
+    
     
 
 </article>
@@ -418,7 +414,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Routes/RouteGenerator.php"><a href="files/src-lib-smr-routes-routegenerator.html"><abbr title="src/lib/Smr/Routes/RouteGenerator.php">RouteGenerator.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">12</span>
+    <span class="phpdocumentor-element-found-in__line">14</span>
 
     </aside>
 
@@ -429,10 +425,8 @@
     <span class="phpdocumentor-signature__name">$moneyRoutes</span>
     </code>
 
-        <section class="phpdocumentor-description"></section>
-
-        <section class="phpdocumentor-description"></section>
-
+    
+    
     
 
 </article>
@@ -456,14 +450,14 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Routes/RouteGenerator.php"><a href="files/src-lib-smr-routes-routegenerator.html"><abbr title="src/lib/Smr/Routes/RouteGenerator.php">RouteGenerator.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">29</span>
+    <span class="phpdocumentor-element-found-in__line">32</span>
 
     </aside>
 
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">public</span>
-            <span class="phpdocumentor-signature__static">static</span>    <span class="phpdocumentor-signature__name">generateMultiPortRoutes</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type">int&nbsp;</span><span class="phpdocumentor-signature__argument__name">$maxNumPorts</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__return-type">array&lt;int, <a href="classes/SmrPort.html"><abbr title="\SmrPort">SmrPort</abbr></a>&gt;&nbsp;</span><span class="phpdocumentor-signature__argument__name">$ports</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__return-type">array&lt;int, bool&gt;&nbsp;</span><span class="phpdocumentor-signature__argument__name">$goods</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__return-type">array&lt;int, bool&gt;&nbsp;</span><span class="phpdocumentor-signature__argument__name">$races</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__return-type">array&lt;int, array&lt;int, <a href="classes/Smr-Path.html"><abbr title="\Smr\Path">Path</abbr></a>&gt;&gt;&nbsp;</span><span class="phpdocumentor-signature__argument__name">$distances</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__return-type">int&nbsp;</span><span class="phpdocumentor-signature__argument__name">$routesForPort</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__return-type">int&nbsp;</span><span class="phpdocumentor-signature__argument__name">$numberOfRoutes</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">array&lt;int, array&lt;string, array&lt;string|int, <a href="classes/Smr-Routes-Route.html"><abbr title="\Smr\Routes\Route">Route</abbr></a>&gt;&gt;&gt;</span></code>
+            <span class="phpdocumentor-signature__static">static</span>    <span class="phpdocumentor-signature__name">generateMultiPortRoutes</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type">int&nbsp;</span><span class="phpdocumentor-signature__argument__name">$maxNumPorts</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__return-type">array&lt;int, <a href="classes/SmrPort.html"><abbr title="\SmrPort">SmrPort</abbr></a>&gt;&nbsp;</span><span class="phpdocumentor-signature__argument__name">$ports</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__return-type">array&lt;int, bool&gt;&nbsp;</span><span class="phpdocumentor-signature__argument__name">$goods</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__return-type">array&lt;int, bool&gt;&nbsp;</span><span class="phpdocumentor-signature__argument__name">$races</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__return-type">array&lt;int, array&lt;int, <a href="classes/Smr-Path.html"><abbr title="\Smr\Path">Path</abbr></a>&gt;&gt;&nbsp;</span><span class="phpdocumentor-signature__argument__name">$distances</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__return-type">int&nbsp;</span><span class="phpdocumentor-signature__argument__name">$routesForPort</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__return-type">int&nbsp;</span><span class="phpdocumentor-signature__argument__name">$numberOfRoutes</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">array&lt;int, array&lt;numeric-string, array&lt;string|int, <a href="classes/Smr-Routes-MultiplePortRoute.html"><abbr title="\Smr\Routes\MultiplePortRoute">MultiplePortRoute</abbr></a>&gt;&gt;&gt;</span></code>
 
     
         <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
@@ -524,7 +518,7 @@
     
 
         <h5 class="phpdocumentor-return-value__heading">Return values</h5>
-    <span class="phpdocumentor-signature__response_type">array&lt;int, array&lt;string, array&lt;string|int, <a href="classes/Smr-Routes-Route.html"><abbr title="\Smr\Routes\Route">Route</abbr></a>&gt;&gt;&gt;</span>
+    <span class="phpdocumentor-signature__response_type">array&lt;int, array&lt;numeric-string, array&lt;string|int, <a href="classes/Smr-Routes-MultiplePortRoute.html"><abbr title="\Smr\Routes\MultiplePortRoute">MultiplePortRoute</abbr></a>&gt;&gt;&gt;</span>
             &mdash;
         
     
@@ -542,14 +536,14 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Routes/RouteGenerator.php"><a href="files/src-lib-smr-routes-routegenerator.html"><abbr title="src/lib/Smr/Routes/RouteGenerator.php">RouteGenerator.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">135</span>
+    <span class="phpdocumentor-element-found-in__line">138</span>
 
     </aside>
 
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">private</span>
-            <span class="phpdocumentor-signature__static">static</span>    <span class="phpdocumentor-signature__name">addExpRoute</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type"><a href="classes/Smr-Routes-Route.html"><abbr title="\Smr\Routes\Route">Route</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$r</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">void</span></code>
+            <span class="phpdocumentor-signature__static">static</span>    <span class="phpdocumentor-signature__name">addExpRoute</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type"><a href="classes/Smr-Routes-MultiplePortRoute.html"><abbr title="\Smr\Routes\MultiplePortRoute">MultiplePortRoute</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$r</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">void</span></code>
 
         <section class="phpdocumentor-description"></section>
 
@@ -557,7 +551,7 @@
     <dl class="phpdocumentor-argument-list">
                     <dt class="phpdocumentor-argument-list__entry">
                 <span class="phpdocumentor-signature__argument__name">$r</span>
-                : <span class="phpdocumentor-signature__argument__return-type"><a href="classes/Smr-Routes-Route.html"><abbr title="\Smr\Routes\Route">Route</abbr></a></span>
+                : <span class="phpdocumentor-signature__argument__return-type"><a href="classes/Smr-Routes-MultiplePortRoute.html"><abbr title="\Smr\Routes\MultiplePortRoute">MultiplePortRoute</abbr></a></span>
                             </dt>
             <dd class="phpdocumentor-argument-list__definition">
                     <section class="phpdocumentor-description"></section>
@@ -586,14 +580,14 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Routes/RouteGenerator.php"><a href="files/src-lib-smr-routes-routegenerator.html"><abbr title="src/lib/Smr/Routes/RouteGenerator.php">RouteGenerator.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">142</span>
+    <span class="phpdocumentor-element-found-in__line">145</span>
 
     </aside>
 
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">private</span>
-            <span class="phpdocumentor-signature__static">static</span>    <span class="phpdocumentor-signature__name">addMoneyRoute</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type"><a href="classes/Smr-Routes-Route.html"><abbr title="\Smr\Routes\Route">Route</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$r</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">void</span></code>
+            <span class="phpdocumentor-signature__static">static</span>    <span class="phpdocumentor-signature__name">addMoneyRoute</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type"><a href="classes/Smr-Routes-MultiplePortRoute.html"><abbr title="\Smr\Routes\MultiplePortRoute">MultiplePortRoute</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$r</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">void</span></code>
 
         <section class="phpdocumentor-description"></section>
 
@@ -601,7 +595,7 @@
     <dl class="phpdocumentor-argument-list">
                     <dt class="phpdocumentor-argument-list__entry">
                 <span class="phpdocumentor-signature__argument__name">$r</span>
-                : <span class="phpdocumentor-signature__argument__return-type"><a href="classes/Smr-Routes-Route.html"><abbr title="\Smr\Routes\Route">Route</abbr></a></span>
+                : <span class="phpdocumentor-signature__argument__return-type"><a href="classes/Smr-Routes-MultiplePortRoute.html"><abbr title="\Smr\Routes\MultiplePortRoute">MultiplePortRoute</abbr></a></span>
                             </dt>
             <dd class="phpdocumentor-argument-list__definition">
                     <section class="phpdocumentor-description"></section>
@@ -630,7 +624,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Routes/RouteGenerator.php"><a href="files/src-lib-smr-routes-routegenerator.html"><abbr title="src/lib/Smr/Routes/RouteGenerator.php">RouteGenerator.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">102</span>
+    <span class="phpdocumentor-element-found-in__line">105</span>
 
     </aside>
 
@@ -700,7 +694,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Routes/RouteGenerator.php"><a href="files/src-lib-smr-routes-routegenerator.html"><abbr title="src/lib/Smr/Routes/RouteGenerator.php">RouteGenerator.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">71</span>
+    <span class="phpdocumentor-element-found-in__line">74</span>
 
     </aside>
 
@@ -778,7 +772,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Routes/RouteGenerator.php"><a href="files/src-lib-smr-routes-routegenerator.html"><abbr title="src/lib/Smr/Routes/RouteGenerator.php">RouteGenerator.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">15</span>
+    <span class="phpdocumentor-element-found-in__line">18</span>
 
     </aside>
 
@@ -811,7 +805,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Routes/RouteGenerator.php"><a href="files/src-lib-smr-routes-routegenerator.html"><abbr title="src/lib/Smr/Routes/RouteGenerator.php">RouteGenerator.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">54</span>
+    <span class="phpdocumentor-element-found-in__line">57</span>
 
     </aside>
 
@@ -874,7 +868,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Routes/RouteGenerator.php"><a href="files/src-lib-smr-routes-routegenerator.html"><abbr title="src/lib/Smr/Routes/RouteGenerator.php">RouteGenerator.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">149</span>
+    <span class="phpdocumentor-element-found-in__line">152</span>
 
     </aside>
 
