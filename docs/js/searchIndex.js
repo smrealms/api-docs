@@ -4726,6 +4726,11 @@ Search.appendIndex(
             "summary": "Gets\u0020player\u0020stats\u0020from\u0020the\u0020hof\u0020table\u0020sorted\u0020by\u0020\u0024category\u0020\u0028high\u0020to\u0020low\u0029.",
             "url": "classes/Rankings.html#method_playerStatsFromHOF"
         },                {
+            "fqsen": "\\Rankings\u003A\u003AallianceStatsFromHOF\u0028\u0029",
+            "name": "allianceStatsFromHOF",
+            "summary": "Gets\u0020alliance\u0020stats\u0020from\u0020the\u0020hof\u0020table\u0020sorted\u0020by\u0020\u0024category\u0020\u0028high\u0020to\u0020low\u0029.",
+            "url": "classes/Rankings.html#method_allianceStatsFromHOF"
+        },                {
             "fqsen": "\\Rankings\u003A\u003AallianceStats\u0028\u0029",
             "name": "allianceStats",
             "summary": "Get\u0020stats\u0020from\u0020the\u0020alliance\u0020table\u0020sorted\u0020by\u0020\u0024stat\u0020\u0028high\u0020to\u0020low\u0029.",
