@@ -9646,6 +9646,11 @@ Search.appendIndex(
             "summary": "Construct\u0020a\u0020fresh\u0020instance\u0020of\u0020\u0024className.\u0020Dependencies\u0020will\u0020be\u0020retrieved\u0020from\u0020the\u0020container\u0020if\u0020they\nare\u0020already\u0020managed,\u0020and\u0020created\u0020themselves\u0020if\u0020they\u0020are\u0020not.",
             "url": "classes/Smr-Container-DiContainer.html#method_make"
         },                {
+            "fqsen": "\\Smr\\Container\\DiContainer\u003A\u003Ainitialized\u0028\u0029",
+            "name": "initialized",
+            "summary": "Check\u0020if\u0020a\u0020managed\u0020instance\u0020of\u0020\u0024className\u0020has\u0020been\u0020created.",
+            "url": "classes/Smr-Container-DiContainer.html#method_initialized"
+        },                {
             "fqsen": "\\Smr\\Container\\DiContainer\u003A\u003AgetContainer\u0028\u0029",
             "name": "getContainer",
             "summary": "Return\u0020the\u0020raw\u0020dependency\u0020injection\u0020Container\u0020instance\u0020for\u0020more\u0020robust\ncontainer\u0020management\u0020operations.",
@@ -9660,6 +9665,31 @@ Search.appendIndex(
             "name": "container",
             "summary": "",
             "url": "classes/Smr-Container-DiContainer.html#property_container"
+        },                {
+            "fqsen": "\\Smr\\Container\\ResettableCompiledContainer",
+            "name": "ResettableCompiledContainer",
+            "summary": "",
+            "url": "classes/Smr-Container-ResettableCompiledContainer.html"
+        },                {
+            "fqsen": "\\Smr\\Container\\ResettableContainer",
+            "name": "ResettableContainer",
+            "summary": "",
+            "url": "classes/Smr-Container-ResettableContainer.html"
+        },                {
+            "fqsen": "\\Smr\\Container\\ResettableContainerTrait",
+            "name": "ResettableContainerTrait",
+            "summary": "Extends\u0020a\u0020Di\\Container\u0020to\u0020allow\u0020for\u0020introspection\u0020and\u0020resetting.",
+            "url": "classes/Smr-Container-ResettableContainerTrait.html"
+        },                {
+            "fqsen": "\\Smr\\Container\\ResettableContainerTrait\u003A\u003Ainitialized\u0028\u0029",
+            "name": "initialized",
+            "summary": "Test\u0020if\u0020the\u0020entry\u0020given\u0020by\u0020\u0024name\u0020has\u0020been\u0020initialized\u0020in\u0020the\u0020container.",
+            "url": "classes/Smr-Container-ResettableContainerTrait.html#method_initialized"
+        },                {
+            "fqsen": "\\Smr\\Container\\ResettableContainerTrait\u003A\u003Areset\u0028\u0029",
+            "name": "reset",
+            "summary": "Unset\u0020the\u0020entry\u0020given\u0020by\u0020\u0024name\u0020in\u0020the\u0020container.",
+            "url": "classes/Smr-Container-ResettableContainerTrait.html#method_reset"
         },                {
             "fqsen": "\\Smr\\CouncilVoting",
             "name": "CouncilVoting",
@@ -9686,6 +9716,11 @@ Search.appendIndex(
             "summary": "Returns\u0020the\u0020instance\u0020of\u0020this\u0020class\u0020from\u0020the\u0020DI\u0020container.",
             "url": "classes/Smr-Database.html#method_getInstance"
         },                {
+            "fqsen": "\\Smr\\Database\u003A\u003AresetInstance\u0028\u0029",
+            "name": "resetInstance",
+            "summary": "This\u0020should\u0020not\u0020be\u0020needed\u0020except\u0020perhaps\u0020by\u0020persistent\u0020services\n\u0028such\u0020as\u0020Dicord\/IRC\u0020clients\u0029\u0020to\u0020prevent\u0020connection\u0020timeouts\u0020between\ncallbacks.",
+            "url": "classes/Smr-Database.html#method_resetInstance"
+        },                {
             "fqsen": "\\Smr\\Database\u003A\u003AmysqliFactory\u0028\u0029",
             "name": "mysqliFactory",
             "summary": "Used\u0020by\u0020the\u0020DI\u0020container\u0020to\u0020construct\u0020a\u0020mysqli\u0020instance.",
@@ -9710,16 +9745,6 @@ Search.appendIndex(
             "name": "getDbBytes",
             "summary": "Returns\u0020the\u0020size\u0020of\u0020the\u0020current\u0020database\u0020in\u0020bytes.",
             "url": "classes/Smr-Database.html#method_getDbBytes"
-        },                {
-            "fqsen": "\\Smr\\Database\u003A\u003Aclose\u0028\u0029",
-            "name": "close",
-            "summary": "This\u0020should\u0020not\u0020be\u0020needed\u0020except\u0020perhaps\u0020by\u0020persistent\u0020connections",
-            "url": "classes/Smr-Database.html#method_close"
-        },                {
-            "fqsen": "\\Smr\\Database\u003A\u003Areconnect\u0028\u0029",
-            "name": "reconnect",
-            "summary": "Reconnects\u0020to\u0020the\u0020MySQL\u0020database,\u0020and\u0020replaces\u0020the\u0020managed\u0020mysqli\u0020instance\nin\u0020the\u0020dependency\u0020injection\u0020container\u0020for\u0020future\u0020retrievals.",
-            "url": "classes/Smr-Database.html#method_reconnect"
         },                {
             "fqsen": "\\Smr\\Database\u003A\u003Awrite\u0028\u0029",
             "name": "write",
