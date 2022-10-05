@@ -11811,11 +11811,6 @@ Search.appendIndex(
             "summary": "Return\u0020the\u0020Smr\\Template\u0020in\u0020the\u0020DI\u0020container.",
             "url": "classes/Smr-Template.html#method_getInstance"
         },                {
-            "fqsen": "\\Smr\\Template\u003A\u003A__destruct\u0028\u0029",
-            "name": "__destruct",
-            "summary": "",
-            "url": "classes/Smr-Template.html#method___destruct"
-        },                {
             "fqsen": "\\Smr\\Template\u003A\u003AhasTemplateVar\u0028\u0029",
             "name": "hasTemplateVar",
             "summary": "",
@@ -11900,11 +11895,6 @@ Search.appendIndex(
             "name": "jsAlerts",
             "summary": "",
             "url": "classes/Smr-Template.html#property_jsAlerts"
-        },                {
-            "fqsen": "\\Smr\\Template\u003A\u003A\u0024displayCalled",
-            "name": "displayCalled",
-            "summary": "",
-            "url": "classes/Smr-Template.html#property_displayCalled"
         },                {
             "fqsen": "\\Smr\\Template\u003A\u003A\u0024jsSources",
             "name": "jsSources",
