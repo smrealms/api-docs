@@ -9151,6 +9151,31 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/WeightedRandom.html#property_typeID"
         },                {
+            "fqsen": "\\Smr\\Admin\\UniGenLocationCategories",
+            "name": "UniGenLocationCategories",
+            "summary": "Helper\u0020class\u0020for\u0020organizing\u0020Locations\u0020into\u0020categories.",
+            "url": "classes/Smr-Admin-UniGenLocationCategories.html"
+        },                {
+            "fqsen": "\\Smr\\Admin\\UniGenLocationCategories\u003A\u003AaddLoc\u0028\u0029",
+            "name": "addLoc",
+            "summary": "",
+            "url": "classes/Smr-Admin-UniGenLocationCategories.html#method_addLoc"
+        },                {
+            "fqsen": "\\Smr\\Admin\\UniGenLocationCategories\u003A\u003Aadded\u0028\u0029",
+            "name": "added",
+            "summary": "",
+            "url": "classes/Smr-Admin-UniGenLocationCategories.html#method_added"
+        },                {
+            "fqsen": "\\Smr\\Admin\\UniGenLocationCategories\u003A\u003A\u0024locTypes",
+            "name": "locTypes",
+            "summary": "",
+            "url": "classes/Smr-Admin-UniGenLocationCategories.html#property_locTypes"
+        },                {
+            "fqsen": "\\Smr\\Admin\\UniGenLocationCategories\u003A\u003A\u0024locAdded",
+            "name": "locAdded",
+            "summary": "",
+            "url": "classes/Smr-Admin-UniGenLocationCategories.html#property_locAdded"
+        },                {
             "fqsen": "\\Smr\\AdminPermissions",
             "name": "AdminPermissions",
             "summary": "",
@@ -11975,6 +12000,11 @@ Search.appendIndex(
             "name": "Traits",
             "summary": "",
             "url": "namespaces/traits.html"
+        },                {
+            "fqsen": "\\Smr\\Admin",
+            "name": "Admin",
+            "summary": "",
+            "url": "namespaces/smr-admin.html"
         },                {
             "fqsen": "\\Smr",
             "name": "Smr",
