@@ -3061,6 +3061,11 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/AbstractSmrPort.html#constant_RAZE_PAYOUT"
         },                {
+            "fqsen": "\\AbstractSmrPort\u003A\u003AKILLER_RELATIONS_LOSS",
+            "name": "KILLER_RELATIONS_LOSS",
+            "summary": "",
+            "url": "classes/AbstractSmrPort.html#constant_KILLER_RELATIONS_LOSS"
+        },                {
             "fqsen": "\\AbstractSmrPort\u003A\u003A\u0024CACHE_PORTS",
             "name": "CACHE_PORTS",
             "summary": "",
