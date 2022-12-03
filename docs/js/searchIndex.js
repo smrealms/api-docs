@@ -286,6 +286,11 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/AbstractSmrLocation.html#method___construct"
         },                {
+            "fqsen": "\\AbstractSmrLocation\u003A\u003AgetGameID\u0028\u0029",
+            "name": "getGameID",
+            "summary": "",
+            "url": "classes/AbstractSmrLocation.html#method_getGameID"
+        },                {
             "fqsen": "\\AbstractSmrLocation\u003A\u003AgetTypeID\u0028\u0029",
             "name": "getTypeID",
             "summary": "",
@@ -535,6 +540,11 @@ Search.appendIndex(
             "name": "weaponsSold",
             "summary": "",
             "url": "classes/AbstractSmrLocation.html#property_weaponsSold"
+        },                {
+            "fqsen": "\\AbstractSmrLocation\u003A\u003A\u0024gameID",
+            "name": "gameID",
+            "summary": "",
+            "url": "classes/AbstractSmrLocation.html#property_gameID"
         },                {
             "fqsen": "\\AbstractSmrLocation\u003A\u003A\u0024typeID",
             "name": "typeID",
@@ -2676,6 +2686,11 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/AbstractSmrPort.html#method_getLevel"
         },                {
+            "fqsen": "\\AbstractSmrPort\u003A\u003AgetMaxLevelByGame\u0028\u0029",
+            "name": "getMaxLevelByGame",
+            "summary": "",
+            "url": "classes/AbstractSmrPort.html#method_getMaxLevelByGame"
+        },                {
             "fqsen": "\\AbstractSmrPort\u003A\u003AgetMaxLevel\u0028\u0029",
             "name": "getMaxLevel",
             "summary": "",
@@ -3025,11 +3040,6 @@ Search.appendIndex(
             "name": "DEFENCES_PER_TEN_MIL_CREDITS",
             "summary": "",
             "url": "classes/AbstractSmrPort.html#constant_DEFENCES_PER_TEN_MIL_CREDITS"
-        },                {
-            "fqsen": "\\AbstractSmrPort\u003A\u003AMAX_LEVEL",
-            "name": "MAX_LEVEL",
-            "summary": "",
-            "url": "classes/AbstractSmrPort.html#constant_MAX_LEVEL"
         },                {
             "fqsen": "\\AbstractSmrPort\u003A\u003ABASE_REFRESH_PER_HOUR",
             "name": "BASE_REFRESH_PER_HOUR",
@@ -3980,6 +3990,11 @@ Search.appendIndex(
             "name": "hasChangedIllusion",
             "summary": "",
             "url": "classes/AbstractSmrShip.html#property_hasChangedIllusion"
+        },                {
+            "fqsen": "\\get_draft_teams\u0028\u0029",
+            "name": "get_draft_teams",
+            "summary": "Returns\u0020an\u0020array\u0020with\u0020all\u0020relevant\u0020information\u0020about\u0020draft\u0020teams,\nincluding\u0020their\u0020current\u0020size\u0020and\u0020if\u0020the\u0020leader\u0020can\u0020pick\u0020teammates.",
+            "url": "namespaces/default.html#function_get_draft_teams"
         },                {
             "fqsen": "\\Council",
             "name": "Council",
@@ -6250,6 +6265,11 @@ Search.appendIndex(
             "name": "setStartTurnHours",
             "summary": "",
             "url": "classes/SmrGame.html#method_setStartTurnHours"
+        },                {
+            "fqsen": "\\SmrGame\u003A\u003AisGameType\u0028\u0029",
+            "name": "isGameType",
+            "summary": "",
+            "url": "classes/SmrGame.html#method_isGameType"
         },                {
             "fqsen": "\\SmrGame\u003A\u003AgetGameType\u0028\u0029",
             "name": "getGameType",
