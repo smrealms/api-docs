@@ -31,11 +31,6 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/AbstractMenu.html#method_galacticPost"
         },                {
-            "fqsen": "\\AbstractMenu\u003A\u003AhistoryGames\u0028\u0029",
-            "name": "historyGames",
-            "summary": "",
-            "url": "classes/AbstractMenu.html#method_historyGames"
-        },                {
             "fqsen": "\\AbstractMenu\u003A\u003Amessages\u0028\u0029",
             "name": "messages",
             "summary": "",
@@ -4276,36 +4271,6 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/Globals.html#method_getPlotCourseHREF"
         },                {
-            "fqsen": "\\Globals\u003A\u003AgetPlanetMainHREF\u0028\u0029",
-            "name": "getPlanetMainHREF",
-            "summary": "",
-            "url": "classes/Globals.html#method_getPlanetMainHREF"
-        },                {
-            "fqsen": "\\Globals\u003A\u003AgetPlanetConstructionHREF\u0028\u0029",
-            "name": "getPlanetConstructionHREF",
-            "summary": "",
-            "url": "classes/Globals.html#method_getPlanetConstructionHREF"
-        },                {
-            "fqsen": "\\Globals\u003A\u003AgetPlanetDefensesHREF\u0028\u0029",
-            "name": "getPlanetDefensesHREF",
-            "summary": "",
-            "url": "classes/Globals.html#method_getPlanetDefensesHREF"
-        },                {
-            "fqsen": "\\Globals\u003A\u003AgetPlanetOwnershipHREF\u0028\u0029",
-            "name": "getPlanetOwnershipHREF",
-            "summary": "",
-            "url": "classes/Globals.html#method_getPlanetOwnershipHREF"
-        },                {
-            "fqsen": "\\Globals\u003A\u003AgetPlanetStockpileHREF\u0028\u0029",
-            "name": "getPlanetStockpileHREF",
-            "summary": "",
-            "url": "classes/Globals.html#method_getPlanetStockpileHREF"
-        },                {
-            "fqsen": "\\Globals\u003A\u003AgetPlanetFinancesHREF\u0028\u0029",
-            "name": "getPlanetFinancesHREF",
-            "summary": "",
-            "url": "classes/Globals.html#method_getPlanetFinancesHREF"
-        },                {
             "fqsen": "\\Globals\u003A\u003AgetAllianceHREF\u0028\u0029",
             "name": "getAllianceHREF",
             "summary": "",
@@ -4406,11 +4371,6 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/Globals.html#method_getTraderBountiesHREF"
         },                {
-            "fqsen": "\\Globals\u003A\u003AgetPoliticsHREF\u0028\u0029",
-            "name": "getPoliticsHREF",
-            "summary": "",
-            "url": "classes/Globals.html#method_getPoliticsHREF"
-        },                {
             "fqsen": "\\Globals\u003A\u003AgetCasinoHREF\u0028\u0029",
             "name": "getCasinoHREF",
             "summary": "",
@@ -4425,21 +4385,6 @@ Search.appendIndex(
             "name": "getChessCreateHREF",
             "summary": "",
             "url": "classes/Globals.html#method_getChessCreateHREF"
-        },                {
-            "fqsen": "\\Globals\u003A\u003AgetBarMainHREF\u0028\u0029",
-            "name": "getBarMainHREF",
-            "summary": "",
-            "url": "classes/Globals.html#method_getBarMainHREF"
-        },                {
-            "fqsen": "\\Globals\u003A\u003AgetBarLottoPlayHREF\u0028\u0029",
-            "name": "getBarLottoPlayHREF",
-            "summary": "",
-            "url": "classes/Globals.html#method_getBarLottoPlayHREF"
-        },                {
-            "fqsen": "\\Globals\u003A\u003AgetBarBlackjackHREF\u0028\u0029",
-            "name": "getBarBlackjackHREF",
-            "summary": "",
-            "url": "classes/Globals.html#method_getBarBlackjackHREF"
         },                {
             "fqsen": "\\Globals\u003A\u003AgetBuyMessageNotificationsHREF\u0028\u0029",
             "name": "getBuyMessageNotificationsHREF",
@@ -4546,31 +4491,6 @@ Search.appendIndex(
             "summary": "Creates\u0020menu\u0020navigation\u0020bars.",
             "url": "classes/Menu.html"
         },                {
-            "fqsen": "\\Mission",
-            "name": "Mission",
-            "summary": "",
-            "url": "classes/Mission.html"
-        },                {
-            "fqsen": "\\Mission\u003A\u003AgetAcceptHREF\u0028\u0029",
-            "name": "getAcceptHREF",
-            "summary": "",
-            "url": "classes/Mission.html#method_getAcceptHREF"
-        },                {
-            "fqsen": "\\Mission\u003A\u003AgetDeclineHREF\u0028\u0029",
-            "name": "getDeclineHREF",
-            "summary": "",
-            "url": "classes/Mission.html#method_getDeclineHREF"
-        },                {
-            "fqsen": "\\Mission\u003A\u003AgetAbandonHREF\u0028\u0029",
-            "name": "getAbandonHREF",
-            "summary": "",
-            "url": "classes/Mission.html#method_getAbandonHREF"
-        },                {
-            "fqsen": "\\Mission\u003A\u003AgetClaimRewardHREF\u0028\u0029",
-            "name": "getClaimRewardHREF",
-            "summary": "",
-            "url": "classes/Mission.html#method_getClaimRewardHREF"
-        },                {
             "fqsen": "\\MISSION_ACTIONS",
             "name": "MISSION_ACTIONS",
             "summary": "",
@@ -4595,71 +4515,6 @@ Search.appendIndex(
             "name": "createNHA",
             "summary": "Create\u0020the\u0020Newbie\u0020Help\u0020Alliance\u0020and\u0020populate\u0020its\u0020Message\u0020Board",
             "url": "namespaces/default.html#function_createNHA"
-        },                {
-            "fqsen": "\\Page",
-            "name": "Page",
-            "summary": "A\u0020container\u0020that\u0020holds\u0020data\u0020needed\u0020to\u0020create\u0020a\u0020new\u0020page.",
-            "url": "classes/Page.html"
-        },                {
-            "fqsen": "\\Page\u003A\u003A__construct\u0028\u0029",
-            "name": "__construct",
-            "summary": "",
-            "url": "classes/Page.html#method___construct"
-        },                {
-            "fqsen": "\\Page\u003A\u003Acreate\u0028\u0029",
-            "name": "create",
-            "summary": "Create\u0020a\u0020new\u0020Page\u0020object.",
-            "url": "classes/Page.html#method_create"
-        },                {
-            "fqsen": "\\Page\u003A\u003Acopy\u0028\u0029",
-            "name": "copy",
-            "summary": "Create\u0020a\u0020copy\u0020of\u0020a\u0020Page\u0020object.",
-            "url": "classes/Page.html#method_copy"
-        },                {
-            "fqsen": "\\Page\u003A\u003Ago\u0028\u0029",
-            "name": "go",
-            "summary": "Forward\u0020to\u0020the\u0020page\u0020identified\u0020by\u0020this\u0020container.",
-            "url": "classes/Page.html#method_go"
-        },                {
-            "fqsen": "\\Page\u003A\u003AaddVar\u0028\u0029",
-            "name": "addVar",
-            "summary": "Transfer\u0020\u0024var\u005B\u0024source\u005D\u0020into\u0020this\u0020container\u0020with\u0020new\u0020name\u0020\u0024dest.",
-            "url": "classes/Page.html#method_addVar"
-        },                {
-            "fqsen": "\\Page\u003A\u003Ahref\u0028\u0029",
-            "name": "href",
-            "summary": "Create\u0020an\u0020HREF\u0020\u0028based\u0020on\u0020a\u0020random\u0020SN\u0029\u0020to\u0020link\u0020to\u0020this\u0020page.",
-            "url": "classes/Page.html#method_href"
-        },                {
-            "fqsen": "\\Page\u003A\u003Aprocess\u0028\u0029",
-            "name": "process",
-            "summary": "Process\u0020this\u0020page\u0020by\u0020executing\u0020the\u0020associated\u0020file.",
-            "url": "classes/Page.html#method_process"
-        },                {
-            "fqsen": "\\Page\u003A\u003AALWAYS_AVAILABLE",
-            "name": "ALWAYS_AVAILABLE",
-            "summary": "",
-            "url": "classes/Page.html#constant_ALWAYS_AVAILABLE"
-        },                {
-            "fqsen": "\\Page\u003A\u003AALWAYS_AVAILABLE_PAGES",
-            "name": "ALWAYS_AVAILABLE_PAGES",
-            "summary": "",
-            "url": "classes/Page.html#constant_ALWAYS_AVAILABLE_PAGES"
-        },                {
-            "fqsen": "\\Page\u003A\u003A\u0024reusable",
-            "name": "reusable",
-            "summary": "",
-            "url": "classes/Page.html#property_reusable"
-        },                {
-            "fqsen": "\\Page\u003A\u003A\u0024file",
-            "name": "file",
-            "summary": "",
-            "url": "classes/Page.html#property_file"
-        },                {
-            "fqsen": "\\Page\u003A\u003A\u0024skipRedirect",
-            "name": "skipRedirect",
-            "summary": "",
-            "url": "classes/Page.html#property_skipRedirect"
         },                {
             "fqsen": "\\planet_common\u0028\u0029",
             "name": "planet_common",
@@ -4765,11 +4620,6 @@ Search.appendIndex(
             "name": "hit_sector_mines",
             "summary": "",
             "url": "namespaces/default.html#function_hit_sector_mines"
-        },                {
-            "fqsen": "\\check_bargain_number\u0028\u0029",
-            "name": "check_bargain_number",
-            "summary": "",
-            "url": "namespaces/default.html#function_check_bargain_number"
         },                {
             "fqsen": "\\SmrAlliance",
             "name": "SmrAlliance",
@@ -5665,11 +5515,6 @@ Search.appendIndex(
             "name": "getRefreshHREF",
             "summary": "",
             "url": "classes/SmrForce.html#method_getRefreshHREF"
-        },                {
-            "fqsen": "\\SmrForce\u003A\u003AgetDropContainer\u0028\u0029",
-            "name": "getDropContainer",
-            "summary": "",
-            "url": "classes/SmrForce.html#method_getDropContainer"
         },                {
             "fqsen": "\\SmrForce\u003A\u003AgetDropSDHREF\u0028\u0029",
             "name": "getDropSDHREF",
@@ -10711,6 +10556,101 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/Smr-News.html#method_doLottoNewsAssign"
         },                {
+            "fqsen": "\\Smr\\Page\\AccountPage",
+            "name": "AccountPage",
+            "summary": "A\u0020container\u0020that\u0020holds\u0020data\u0020needed\u0020to\u0020create\u0020a\u0020new\u0020page.",
+            "url": "classes/Smr-Page-AccountPage.html"
+        },                {
+            "fqsen": "\\Smr\\Page\\AccountPage\u003A\u003Abuild\u0028\u0029",
+            "name": "build",
+            "summary": "",
+            "url": "classes/Smr-Page-AccountPage.html#method_build"
+        },                {
+            "fqsen": "\\Smr\\Page\\AccountPageProcessor",
+            "name": "AccountPageProcessor",
+            "summary": "A\u0020container\u0020that\u0020holds\u0020data\u0020needed\u0020to\u0020create\u0020a\u0020new\u0020page.",
+            "url": "classes/Smr-Page-AccountPageProcessor.html"
+        },                {
+            "fqsen": "\\Smr\\Page\\AccountPageProcessor\u003A\u003Abuild\u0028\u0029",
+            "name": "build",
+            "summary": "",
+            "url": "classes/Smr-Page-AccountPageProcessor.html#method_build"
+        },                {
+            "fqsen": "\\Smr\\Page\\Page",
+            "name": "Page",
+            "summary": "A\u0020container\u0020that\u0020holds\u0020data\u0020needed\u0020to\u0020create\u0020a\u0020new\u0020page.",
+            "url": "classes/Smr-Page-Page.html"
+        },                {
+            "fqsen": "\\Smr\\Page\\Page\u003A\u003AisLinkReusable\u0028\u0029",
+            "name": "isLinkReusable",
+            "summary": "Defines\u0020if\u0020the\u0020page\u0020is\u0020is\u0020always\u0020available,\u0020or\u0020if\u0020it\u0020is\u0020invalid\u0020after\u0020one\nuse\u0020\u0028i.e.\u0020if\u0020you\u0020get\u0020a\u0020back\u0020button\u0020error\u0020when\u0020navigating\u0020back\u0020to\u0020it\u0029.",
+            "url": "classes/Smr-Page-Page.html#method_isLinkReusable"
+        },                {
+            "fqsen": "\\Smr\\Page\\Page\u003A\u003Ago\u0028\u0029",
+            "name": "go",
+            "summary": "Forward\u0020to\u0020the\u0020page\u0020identified\u0020by\u0020this\u0020container.",
+            "url": "classes/Smr-Page-Page.html#method_go"
+        },                {
+            "fqsen": "\\Smr\\Page\\Page\u003A\u003Ahref\u0028\u0029",
+            "name": "href",
+            "summary": "Create\u0020an\u0020HREF\u0020\u0028based\u0020on\u0020a\u0020random\u0020SN\u0029\u0020to\u0020link\u0020to\u0020this\u0020page.",
+            "url": "classes/Smr-Page-Page.html#method_href"
+        },                {
+            "fqsen": "\\Smr\\Page\\Page\u003A\u003Aprocess\u0028\u0029",
+            "name": "process",
+            "summary": "Process\u0020this\u0020page\u0020by\u0020executing\u0020the\u0020associated\u0020file.",
+            "url": "classes/Smr-Page-Page.html#method_process"
+        },                {
+            "fqsen": "\\Smr\\Page\\Page\u003A\u003A\u0024skipRedirect",
+            "name": "skipRedirect",
+            "summary": "Used\u0020to\u0020skip\u0020redirect\u0020hooks\u0020at\u0020the\u0020beginning\u0020of\u0020page\u0020processing.",
+            "url": "classes/Smr-Page-Page.html#property_skipRedirect"
+        },                {
+            "fqsen": "\\Smr\\Page\\Page\u003A\u003A\u0024allowAjax",
+            "name": "allowAjax",
+            "summary": "Used\u0020to\u0020allow\u0020a\u0020page\u0020to\u0020be\u0020processed\u0020from\u0020an\u0020AJAX\u0020call.",
+            "url": "classes/Smr-Page-Page.html#property_allowAjax"
+        },                {
+            "fqsen": "\\Smr\\Page\\Page\u003A\u003A\u0024underAttack",
+            "name": "underAttack",
+            "summary": "Storage\u0020to\u0020remember\u0020if\u0020we\u0020need\u0020to\u0020display\u0020the\u0020Under\u0020Attack\u0020message.",
+            "url": "classes/Smr-Page-Page.html#property_underAttack"
+        },                {
+            "fqsen": "\\Smr\\Page\\Page\u003A\u003A\u0024file",
+            "name": "file",
+            "summary": "Template\u0020file\u0020associated\u0020with\u0020page\u0020\u0028for\u0020display\u0020pages\u0020only\u0029.",
+            "url": "classes/Smr-Page-Page.html#property_file"
+        },                {
+            "fqsen": "\\Smr\\Page\\PlayerPage",
+            "name": "PlayerPage",
+            "summary": "A\u0020container\u0020that\u0020holds\u0020data\u0020needed\u0020to\u0020create\u0020a\u0020new\u0020page.",
+            "url": "classes/Smr-Page-PlayerPage.html"
+        },                {
+            "fqsen": "\\Smr\\Page\\PlayerPage\u003A\u003Abuild\u0028\u0029",
+            "name": "build",
+            "summary": "",
+            "url": "classes/Smr-Page-PlayerPage.html#method_build"
+        },                {
+            "fqsen": "\\Smr\\Page\\PlayerPageProcessor",
+            "name": "PlayerPageProcessor",
+            "summary": "A\u0020container\u0020that\u0020holds\u0020data\u0020needed\u0020to\u0020create\u0020a\u0020new\u0020page.",
+            "url": "classes/Smr-Page-PlayerPageProcessor.html"
+        },                {
+            "fqsen": "\\Smr\\Page\\PlayerPageProcessor\u003A\u003Abuild\u0028\u0029",
+            "name": "build",
+            "summary": "",
+            "url": "classes/Smr-Page-PlayerPageProcessor.html#method_build"
+        },                {
+            "fqsen": "\\Smr\\Page\\ReusableTrait",
+            "name": "ReusableTrait",
+            "summary": "",
+            "url": "classes/Smr-Page-ReusableTrait.html"
+        },                {
+            "fqsen": "\\Smr\\Page\\ReusableTrait\u003A\u003AisLinkReusable\u0028\u0029",
+            "name": "isLinkReusable",
+            "summary": "",
+            "url": "classes/Smr-Page-ReusableTrait.html#method_isLinkReusable"
+        },                {
             "fqsen": "\\Smr\\Path",
             "name": "Path",
             "summary": "Class\u0020used\u0020to\u0020keep\u0020track\u0020of\u0020paths\u0020between\u0020two\u0020sectors.",
@@ -11696,6 +11636,16 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/Smr-SectorLock.html#property_sectorID"
         },                {
+            "fqsen": "\\Smr\\SectorsFile",
+            "name": "SectorsFile",
+            "summary": "",
+            "url": "classes/Smr-SectorsFile.html"
+        },                {
+            "fqsen": "\\Smr\\SectorsFile\u003A\u003Acreate\u0028\u0029",
+            "name": "create",
+            "summary": "",
+            "url": "classes/Smr-SectorsFile.html#method_create"
+        },                {
             "fqsen": "\\Smr\\ShipClass",
             "name": "ShipClass",
             "summary": "Categorization\u0020of\u0020ship\u0020types.",
@@ -12065,6 +12015,11 @@ Search.appendIndex(
             "name": "Login",
             "summary": "",
             "url": "namespaces/smr-login.html"
+        },                {
+            "fqsen": "\\Smr\\Page",
+            "name": "Page",
+            "summary": "",
+            "url": "namespaces/smr-page.html"
         },                {
             "fqsen": "\\Smr\\PlanetTypes",
             "name": "PlanetTypes",

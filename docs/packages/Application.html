@@ -92,6 +92,10 @@
                 
             </li>
                     <li>
+                <a href="namespaces/smr-page.html" class="">Page</a>
+                
+            </li>
+                    <li>
                 <a href="namespaces/smr-planettypes.html" class="">PlanetTypes</a>
                 
             </li>
@@ -165,10 +169,6 @@
         <dd></dd>
             <dt class="phpdocumentor-table-of-contents__entry -class"><a href="classes/Menu.html"><abbr title="\Menu">Menu</abbr></a></dt>
         <dd>Creates menu navigation bars.</dd>
-            <dt class="phpdocumentor-table-of-contents__entry -class"><a href="classes/Mission.html"><abbr title="\Mission">Mission</abbr></a></dt>
-        <dd></dd>
-            <dt class="phpdocumentor-table-of-contents__entry -class"><a href="classes/Page.html"><abbr title="\Page">Page</abbr></a></dt>
-        <dd>A container that holds data needed to create a new page.</dd>
             <dt class="phpdocumentor-table-of-contents__entry -class"><a href="classes/Plotter.html"><abbr title="\Plotter">Plotter</abbr></a></dt>
         <dd></dd>
             <dt class="phpdocumentor-table-of-contents__entry -class"><a href="classes/Rankings.html"><abbr title="\Rankings">Rankings</abbr></a></dt>
@@ -318,6 +318,16 @@ basic set of rules, which are defined here.</dd>
         <dd>Collection of functions to help display messages and message boxes.</dd>
             <dt class="phpdocumentor-table-of-contents__entry -class"><a href="classes/Smr-News.html"><abbr title="\Smr\News">News</abbr></a></dt>
         <dd>Collection of functions to help with displaying news.</dd>
+            <dt class="phpdocumentor-table-of-contents__entry -class"><a href="classes/Smr-Page-AccountPage.html"><abbr title="\Smr\Page\AccountPage">AccountPage</abbr></a></dt>
+        <dd>A container that holds data needed to create a new page.</dd>
+            <dt class="phpdocumentor-table-of-contents__entry -class"><a href="classes/Smr-Page-AccountPageProcessor.html"><abbr title="\Smr\Page\AccountPageProcessor">AccountPageProcessor</abbr></a></dt>
+        <dd>A container that holds data needed to create a new page.</dd>
+            <dt class="phpdocumentor-table-of-contents__entry -class"><a href="classes/Smr-Page-Page.html"><abbr title="\Smr\Page\Page">Page</abbr></a></dt>
+        <dd>A container that holds data needed to create a new page.</dd>
+            <dt class="phpdocumentor-table-of-contents__entry -class"><a href="classes/Smr-Page-PlayerPage.html"><abbr title="\Smr\Page\PlayerPage">PlayerPage</abbr></a></dt>
+        <dd>A container that holds data needed to create a new page.</dd>
+            <dt class="phpdocumentor-table-of-contents__entry -class"><a href="classes/Smr-Page-PlayerPageProcessor.html"><abbr title="\Smr\Page\PlayerPageProcessor">PlayerPageProcessor</abbr></a></dt>
+        <dd>A container that holds data needed to create a new page.</dd>
             <dt class="phpdocumentor-table-of-contents__entry -class"><a href="classes/Smr-Path.html"><abbr title="\Smr\Path">Path</abbr></a></dt>
         <dd>Class used to keep track of paths between two sectors.</dd>
             <dt class="phpdocumentor-table-of-contents__entry -class"><a href="classes/Smr-PlanetList.html"><abbr title="\Smr\PlanetList">PlanetList</abbr></a></dt>
@@ -352,6 +362,8 @@ basic set of rules, which are defined here.</dd>
         <dd>This class is responsible for ensuring that page processing occurs
 sequentially as requests come in, avoiding race conditions by using a
 blocking queue.</dd>
+            <dt class="phpdocumentor-table-of-contents__entry -class"><a href="classes/Smr-SectorsFile.html"><abbr title="\Smr\SectorsFile">SectorsFile</abbr></a></dt>
+        <dd></dd>
             <dt class="phpdocumentor-table-of-contents__entry -class"><a href="classes/Smr-SocialLogin-Facebook.html"><abbr title="\Smr\SocialLogin\Facebook">Facebook</abbr></a></dt>
         <dd>Defines the methods to be implemented by each social login platform.</dd>
             <dt class="phpdocumentor-table-of-contents__entry -class"><a href="classes/Smr-SocialLogin-Google.html"><abbr title="\Smr\SocialLogin\Google">Google</abbr></a></dt>
@@ -368,6 +380,8 @@ that are used for forces (mines, combat drones, and scout drones).</dd>
         <dd>Implements the interface for classes that need a $raceID property.</dd>
             <dt class="phpdocumentor-table-of-contents__entry -trait"><a href="classes/Smr-Container-ResettableContainerTrait.html"><abbr title="\Smr\Container\ResettableContainerTrait">ResettableContainerTrait</abbr></a></dt>
         <dd>Extends a Di\Container to allow for introspection and resetting.</dd>
+            <dt class="phpdocumentor-table-of-contents__entry -trait"><a href="classes/Smr-Page-ReusableTrait.html"><abbr title="\Smr\Page\ReusableTrait">ReusableTrait</abbr></a></dt>
+        <dd></dd>
     
     </dl>
 
@@ -484,13 +498,6 @@ including their current size and if the leader can pick teammates.</dd>
 </dt>
 <dd></dd>
 
-            <dt class="phpdocumentor-table-of-contents__entry -function -">
-    <a href="namespaces/default.html#function_check_bargain_number">check_bargain_number()</a>
-    <span>
-                                &nbsp;: void    </span>
-</dt>
-<dd></dd>
-
     </dl>
 
         
@@ -572,7 +579,7 @@ including their current size and if the leader can pick teammates.</dd>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/AbstractMenu.php"><a href="files/src-lib-default-abstractmenu.html"><abbr title="src/lib/Default/AbstractMenu.php">AbstractMenu.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">401</span>
+    <span class="phpdocumentor-element-found-in__line">411</span>
 
     </aside>
 
@@ -665,7 +672,7 @@ including their current size and if the leader can pick teammates.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/course_plot.inc.php"><a href="files/src-lib-default-course-plot-inc.html"><abbr title="src/lib/Default/course_plot.inc.php">course_plot.inc.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">8</span>
+    <span class="phpdocumentor-element-found-in__line">10</span>
 
     </aside>
 
@@ -1075,7 +1082,7 @@ derived from the supplied data.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/sector_mines.inc.php"><a href="files/src-lib-default-sector-mines-inc.html"><abbr title="src/lib/Default/sector_mines.inc.php">sector_mines.inc.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">5</span>
+    <span class="phpdocumentor-element-found-in__line">7</span>
 
     </aside>
 
@@ -1088,85 +1095,6 @@ derived from the supplied data.</p>
 
         <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
     <dl class="phpdocumentor-argument-list">
-                    <dt class="phpdocumentor-argument-list__entry">
-                <span class="phpdocumentor-signature__argument__name">$player</span>
-                : <span class="phpdocumentor-signature__argument__return-type"><a href="classes/AbstractSmrPlayer.html"><abbr title="\AbstractSmrPlayer">AbstractSmrPlayer</abbr></a></span>
-                            </dt>
-            <dd class="phpdocumentor-argument-list__definition">
-                    <section class="phpdocumentor-description"></section>
-
-            </dd>
-            </dl>
-
-    
-
-        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
-    <span class="phpdocumentor-signature__response_type">void</span>
-            &mdash;
-        
-    
-</article>
-                    <article class="phpdocumentor-element -function - ">
-    <h4 class="phpdocumentor-element__name" id="function_check_bargain_number">
-        check_bargain_number()
-        <a href="namespaces/default.html#function_check_bargain_number" class="headerlink"><i class="fas fa-link"></i></a>
-    </h4>
-    <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/shop_goods.inc.php"><a href="files/src-lib-default-shop-goods-inc.html"><abbr title="src/lib/Default/shop_goods.inc.php">shop_goods.inc.php</abbr></a></abbr>
-    :
-    <span class="phpdocumentor-element-found-in__line">5</span>
-
-    </aside>
-
-    
-    <code class="phpdocumentor-code phpdocumentor-signature ">
-    <span class="phpdocumentor-signature__visibility"></span>
-                <span class="phpdocumentor-signature__name">check_bargain_number</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type">int&nbsp;</span><span class="phpdocumentor-signature__argument__name">$amount</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__return-type">int&nbsp;</span><span class="phpdocumentor-signature__argument__name">$ideal_price</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__return-type">int&nbsp;</span><span class="phpdocumentor-signature__argument__name">$offered_price</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__return-type">int&nbsp;</span><span class="phpdocumentor-signature__argument__name">$bargain_price</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__return-type"><a href="classes/Page.html"><abbr title="\Page">Page</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$container</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__return-type"><a href="classes/AbstractSmrPlayer.html"><abbr title="\AbstractSmrPlayer">AbstractSmrPlayer</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$player</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">void</span></code>
-
-        <section class="phpdocumentor-description"></section>
-
-        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
-    <dl class="phpdocumentor-argument-list">
-                    <dt class="phpdocumentor-argument-list__entry">
-                <span class="phpdocumentor-signature__argument__name">$amount</span>
-                : <span class="phpdocumentor-signature__argument__return-type">int</span>
-                            </dt>
-            <dd class="phpdocumentor-argument-list__definition">
-                    <section class="phpdocumentor-description"></section>
-
-            </dd>
-                    <dt class="phpdocumentor-argument-list__entry">
-                <span class="phpdocumentor-signature__argument__name">$ideal_price</span>
-                : <span class="phpdocumentor-signature__argument__return-type">int</span>
-                            </dt>
-            <dd class="phpdocumentor-argument-list__definition">
-                    <section class="phpdocumentor-description"></section>
-
-            </dd>
-                    <dt class="phpdocumentor-argument-list__entry">
-                <span class="phpdocumentor-signature__argument__name">$offered_price</span>
-                : <span class="phpdocumentor-signature__argument__return-type">int</span>
-                            </dt>
-            <dd class="phpdocumentor-argument-list__definition">
-                    <section class="phpdocumentor-description"></section>
-
-            </dd>
-                    <dt class="phpdocumentor-argument-list__entry">
-                <span class="phpdocumentor-signature__argument__name">$bargain_price</span>
-                : <span class="phpdocumentor-signature__argument__return-type">int</span>
-                            </dt>
-            <dd class="phpdocumentor-argument-list__definition">
-                    <section class="phpdocumentor-description"></section>
-
-            </dd>
-                    <dt class="phpdocumentor-argument-list__entry">
-                <span class="phpdocumentor-signature__argument__name">$container</span>
-                : <span class="phpdocumentor-signature__argument__return-type"><a href="classes/Page.html"><abbr title="\Page">Page</abbr></a></span>
-                            </dt>
-            <dd class="phpdocumentor-argument-list__definition">
-                    <section class="phpdocumentor-description"></section>
-
-            </dd>
                     <dt class="phpdocumentor-argument-list__entry">
                 <span class="phpdocumentor-signature__argument__name">$player</span>
                 : <span class="phpdocumentor-signature__argument__return-type"><a href="classes/AbstractSmrPlayer.html"><abbr title="\AbstractSmrPlayer">AbstractSmrPlayer</abbr></a></span>
