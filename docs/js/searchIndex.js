@@ -1621,11 +1621,6 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/AbstractSmrPlayer.html#method_setUnderAttack"
         },                {
-            "fqsen": "\\AbstractSmrPlayer\u003A\u003AremoveUnderAttack\u0028\u0029",
-            "name": "removeUnderAttack",
-            "summary": "",
-            "url": "classes/AbstractSmrPlayer.html#method_removeUnderAttack"
-        },                {
             "fqsen": "\\AbstractSmrPlayer\u003A\u003AkillPlayer\u0028\u0029",
             "name": "killPlayer",
             "summary": "",
@@ -1700,6 +1695,11 @@ Search.appendIndex(
             "name": "getTimeUntilMaxTurns",
             "summary": "Calculate\u0020the\u0020time\u0020in\u0020seconds\u0020between\u0020the\u0020given\u0020time\u0020and\u0020when\u0020the\nplayer\u0020will\u0020be\u0020at\u0020max\u0020turns.",
             "url": "classes/AbstractSmrPlayer.html#method_getTimeUntilMaxTurns"
+        },                {
+            "fqsen": "\\AbstractSmrPlayer\u003A\u003AgetTimeUntilNextTurn\u0028\u0029",
+            "name": "getTimeUntilNextTurn",
+            "summary": "Calculate\u0020the\u0020time\u0020in\u0020seconds\u0020until\u0020the\u0020next\u0020turn\u0020is\u0020awarded.",
+            "url": "classes/AbstractSmrPlayer.html#method_getTimeUntilNextTurn"
         },                {
             "fqsen": "\\AbstractSmrPlayer\u003A\u003AgiveStartingTurns\u0028\u0029",
             "name": "giveStartingTurns",
@@ -2450,6 +2450,11 @@ Search.appendIndex(
             "name": "getGoodTransaction",
             "summary": "Returns\u0020the\u0020transaction\u0020type\u0020for\u0020this\u0020good\u0020\u0028Buy\u0020or\u0020Sell\u0029.",
             "url": "classes/AbstractSmrPort.html#method_getGoodTransaction"
+        },                {
+            "fqsen": "\\AbstractSmrPort\u003A\u003AgetGoodTransactions\u0028\u0029",
+            "name": "getGoodTransactions",
+            "summary": "",
+            "url": "classes/AbstractSmrPort.html#method_getGoodTransactions"
         },                {
             "fqsen": "\\AbstractSmrPort\u003A\u003AhasGood\u0028\u0029",
             "name": "hasGood",
@@ -9986,6 +9991,11 @@ Search.appendIndex(
             "summary": "Constructs\u0020a\u0020textual\u0020response\u0020to\u0020a\u0020Command\u0020invocation.",
             "url": "classes/Smr-Discord-Command.html#method_response"
         },                {
+            "fqsen": "\\Smr\\Discord\\Command\u003A\u003AlogException\u0028\u0029",
+            "name": "logException",
+            "summary": "",
+            "url": "classes/Smr-Discord-Command.html#method_logException"
+        },                {
             "fqsen": "\\Smr\\Discord\\Command\u003A\u003Acallback\u0028\u0029",
             "name": "callback",
             "summary": "Wrapper\u0020to\u0020properly\u0020handle\u0020a\u0020Command\u0020response.",
@@ -10585,6 +10595,11 @@ Search.appendIndex(
             "name": "isLinkReusable",
             "summary": "Defines\u0020if\u0020the\u0020page\u0020is\u0020is\u0020always\u0020available,\u0020or\u0020if\u0020it\u0020is\u0020invalid\u0020after\u0020one\nuse\u0020\u0028i.e.\u0020if\u0020you\u0020get\u0020a\u0020back\u0020button\u0020error\u0020when\u0020navigating\u0020back\u0020to\u0020it\u0029.",
             "url": "classes/Smr-Page-Page.html#method_isLinkReusable"
+        },                {
+            "fqsen": "\\Smr\\Page\\Page\u003A\u003AshowUnderAttack\u0028\u0029",
+            "name": "showUnderAttack",
+            "summary": "Determine\u0020if\u0020we\u0020should\u0020show\u0020the\u0020player\u0020that\u0020they\u0020are\u0020under\u0020attack,\nsince\u0020it\u0020needs\u0020to\u0020persist\u0020across\u0020ajax\u0020updates.",
+            "url": "classes/Smr-Page-Page.html#method_showUnderAttack"
         },                {
             "fqsen": "\\Smr\\Page\\Page\u003A\u003Ago\u0028\u0029",
             "name": "go",
@@ -11795,6 +11810,41 @@ Search.appendIndex(
             "name": "valid",
             "summary": "",
             "url": "classes/Smr-SocialLogin-SocialLogin.html#property_valid"
+        },                {
+            "fqsen": "\\Smr\\StoredDestination",
+            "name": "StoredDestination",
+            "summary": "Data\u0020class\u0020for\u0020course\u0020plotting\u0020destinations\u0020stored\u0020by\u0020the\u0020player.",
+            "url": "classes/Smr-StoredDestination.html"
+        },                {
+            "fqsen": "\\Smr\\StoredDestination\u003A\u003A__construct\u0028\u0029",
+            "name": "__construct",
+            "summary": "",
+            "url": "classes/Smr-StoredDestination.html#method___construct"
+        },                {
+            "fqsen": "\\Smr\\StoredDestination\u003A\u003AgetDisplayName\u0028\u0029",
+            "name": "getDisplayName",
+            "summary": "Returns\u0020the\u0020name\u0020to\u0020display\u0020for\u0020this\u0020destination,\u0020e.g.\u0020\u0022\u002342\u0020\u002D\u0020UG\u0022.",
+            "url": "classes/Smr-StoredDestination.html#method_getDisplayName"
+        },                {
+            "fqsen": "\\Smr\\StoredDestination\u003A\u003A\u0024label",
+            "name": "label",
+            "summary": "",
+            "url": "classes/Smr-StoredDestination.html#property_label"
+        },                {
+            "fqsen": "\\Smr\\StoredDestination\u003A\u003A\u0024sectorID",
+            "name": "sectorID",
+            "summary": "",
+            "url": "classes/Smr-StoredDestination.html#property_sectorID"
+        },                {
+            "fqsen": "\\Smr\\StoredDestination\u003A\u003A\u0024offsetTop",
+            "name": "offsetTop",
+            "summary": "",
+            "url": "classes/Smr-StoredDestination.html#property_offsetTop"
+        },                {
+            "fqsen": "\\Smr\\StoredDestination\u003A\u003A\u0024offsetLeft",
+            "name": "offsetLeft",
+            "summary": "",
+            "url": "classes/Smr-StoredDestination.html#property_offsetLeft"
         },                {
             "fqsen": "\\Smr\\Template",
             "name": "Template",
