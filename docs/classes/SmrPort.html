@@ -691,7 +691,7 @@ as either &quot;Buy&quot; or &quot;Sell&quot;, meaning the player buys or sells.
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
     <a href="classes/AbstractSmrPort.html#method_getCachedPort">getCachedPort()</a>
     <span>
-                                &nbsp;: <a href="classes/SmrPort.html"><abbr title="\SmrPort">SmrPort</abbr></a>|false    </span>
+                                &nbsp;: <a href="classes/SmrPort.html"><abbr title="\SmrPort">SmrPort</abbr></a>    </span>
 </dt>
 <dd></dd>
 
@@ -957,16 +957,16 @@ as either &quot;Buy&quot; or &quot;Sell&quot;, meaning the player buys or sells.
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
     <a href="classes/AbstractSmrPort.html#method_getVisibleGoodsBought">getVisibleGoodsBought()</a>
     <span>
-                                &nbsp;: array&lt;string|int, int&gt;    </span>
+                                &nbsp;: array&lt;int, <abbr title="\TradeGood">TradeGood</abbr>&gt;    </span>
 </dt>
-<dd>Get IDs of goods that can be bought by $player from the port</dd>
+<dd>Get goods that can be bought by $player from the port</dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
     <a href="classes/AbstractSmrPort.html#method_getVisibleGoodsSold">getVisibleGoodsSold()</a>
     <span>
-                                &nbsp;: array&lt;string|int, int&gt;    </span>
+                                &nbsp;: array&lt;int, <abbr title="\TradeGood">TradeGood</abbr>&gt;    </span>
 </dt>
-<dd>Get IDs of goods that can be sold by $player to the port</dd>
+<dd>Get goods that can be sold by $player to the port</dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
     <a href="classes/AbstractSmrPort.html#method_getWeapons">getWeapons()</a>
@@ -1296,7 +1296,7 @@ ports to a specific level.</dd>
             <dt class="phpdocumentor-table-of-contents__entry -method -protected">
     <a href="classes/AbstractSmrPort.html#method_selectAndAddGood">selectAndAddGood()</a>
     <span>
-                                &nbsp;: array&lt;string, string|int&gt;    </span>
+                                &nbsp;: <a href="classes/Smr-TradeGood.html"><abbr title="\Smr\TradeGood">TradeGood</abbr></a>    </span>
 </dt>
 <dd></dd>
 
@@ -1352,7 +1352,7 @@ ports to a specific level.</dd>
             <dt class="phpdocumentor-table-of-contents__entry -method -private">
     <a href="classes/AbstractSmrPort.html#method_getVisibleGoods">getVisibleGoods()</a>
     <span>
-                                &nbsp;: array&lt;string|int, int&gt;    </span>
+                                &nbsp;: array&lt;int, <abbr title="\TradeGood">TradeGood</abbr>&gt;    </span>
 </dt>
 <dd></dd>
 
@@ -1403,7 +1403,7 @@ ports to a specific level.</dd>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/AbstractSmrPort.php"><a href="files/src-lib-default-abstractsmrport.html"><abbr title="src/lib/Default/AbstractSmrPort.php">AbstractSmrPort.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">26</span>
+    <span class="phpdocumentor-element-found-in__line">28</span>
 
     </aside>
 
@@ -1432,7 +1432,7 @@ ports to a specific level.</dd>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/AbstractSmrPort.php"><a href="files/src-lib-default-abstractsmrport.html"><abbr title="src/lib/Default/AbstractSmrPort.php">AbstractSmrPort.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">47</span>
+    <span class="phpdocumentor-element-found-in__line">49</span>
 
     </aside>
 
@@ -1461,7 +1461,7 @@ ports to a specific level.</dd>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/AbstractSmrPort.php"><a href="files/src-lib-default-abstractsmrport.html"><abbr title="src/lib/Default/AbstractSmrPort.php">AbstractSmrPort.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">46</span>
+    <span class="phpdocumentor-element-found-in__line">48</span>
 
     </aside>
 
@@ -1490,7 +1490,7 @@ ports to a specific level.</dd>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/AbstractSmrPort.php"><a href="files/src-lib-default-abstractsmrport.html"><abbr title="src/lib/Default/AbstractSmrPort.php">AbstractSmrPort.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">31</span>
+    <span class="phpdocumentor-element-found-in__line">33</span>
 
     </aside>
 
@@ -1519,7 +1519,7 @@ ports to a specific level.</dd>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/AbstractSmrPort.php"><a href="files/src-lib-default-abstractsmrport.html"><abbr title="src/lib/Default/AbstractSmrPort.php">AbstractSmrPort.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">34</span>
+    <span class="phpdocumentor-element-found-in__line">36</span>
 
     </aside>
 
@@ -1548,7 +1548,7 @@ ports to a specific level.</dd>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/AbstractSmrPort.php"><a href="files/src-lib-default-abstractsmrport.html"><abbr title="src/lib/Default/AbstractSmrPort.php">AbstractSmrPort.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">45</span>
+    <span class="phpdocumentor-element-found-in__line">47</span>
 
     </aside>
 
@@ -1577,7 +1577,7 @@ ports to a specific level.</dd>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/AbstractSmrPort.php"><a href="files/src-lib-default-abstractsmrport.html"><abbr title="src/lib/Default/AbstractSmrPort.php">AbstractSmrPort.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">37</span>
+    <span class="phpdocumentor-element-found-in__line">39</span>
 
     </aside>
 
@@ -1606,7 +1606,7 @@ ports to a specific level.</dd>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/AbstractSmrPort.php"><a href="files/src-lib-default-abstractsmrport.html"><abbr title="src/lib/Default/AbstractSmrPort.php">AbstractSmrPort.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">32</span>
+    <span class="phpdocumentor-element-found-in__line">34</span>
 
     </aside>
 
@@ -1635,7 +1635,7 @@ ports to a specific level.</dd>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/AbstractSmrPort.php"><a href="files/src-lib-default-abstractsmrport.html"><abbr title="src/lib/Default/AbstractSmrPort.php">AbstractSmrPort.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">33</span>
+    <span class="phpdocumentor-element-found-in__line">35</span>
 
     </aside>
 
@@ -1664,7 +1664,7 @@ ports to a specific level.</dd>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/AbstractSmrPort.php"><a href="files/src-lib-default-abstractsmrport.html"><abbr title="src/lib/Default/AbstractSmrPort.php">AbstractSmrPort.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">28</span>
+    <span class="phpdocumentor-element-found-in__line">30</span>
 
     </aside>
 
@@ -1693,7 +1693,7 @@ ports to a specific level.</dd>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/AbstractSmrPort.php"><a href="files/src-lib-default-abstractsmrport.html"><abbr title="src/lib/Default/AbstractSmrPort.php">AbstractSmrPort.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">27</span>
+    <span class="phpdocumentor-element-found-in__line">29</span>
 
     </aside>
 
@@ -1722,7 +1722,7 @@ ports to a specific level.</dd>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/AbstractSmrPort.php"><a href="files/src-lib-default-abstractsmrport.html"><abbr title="src/lib/Default/AbstractSmrPort.php">AbstractSmrPort.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">35</span>
+    <span class="phpdocumentor-element-found-in__line">37</span>
 
     </aside>
 
@@ -1751,7 +1751,7 @@ ports to a specific level.</dd>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/AbstractSmrPort.php"><a href="files/src-lib-default-abstractsmrport.html"><abbr title="src/lib/Default/AbstractSmrPort.php">AbstractSmrPort.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">36</span>
+    <span class="phpdocumentor-element-found-in__line">38</span>
 
     </aside>
 
@@ -1780,7 +1780,7 @@ ports to a specific level.</dd>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/AbstractSmrPort.php"><a href="files/src-lib-default-abstractsmrport.html"><abbr title="src/lib/Default/AbstractSmrPort.php">AbstractSmrPort.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">44</span>
+    <span class="phpdocumentor-element-found-in__line">46</span>
 
     </aside>
 
@@ -1809,7 +1809,7 @@ ports to a specific level.</dd>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/AbstractSmrPort.php"><a href="files/src-lib-default-abstractsmrport.html"><abbr title="src/lib/Default/AbstractSmrPort.php">AbstractSmrPort.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">30</span>
+    <span class="phpdocumentor-element-found-in__line">32</span>
 
     </aside>
 
@@ -1838,7 +1838,7 @@ ports to a specific level.</dd>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/AbstractSmrPort.php"><a href="files/src-lib-default-abstractsmrport.html"><abbr title="src/lib/Default/AbstractSmrPort.php">AbstractSmrPort.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">42</span>
+    <span class="phpdocumentor-element-found-in__line">44</span>
 
     </aside>
 
@@ -1867,7 +1867,7 @@ ports to a specific level.</dd>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/AbstractSmrPort.php"><a href="files/src-lib-default-abstractsmrport.html"><abbr title="src/lib/Default/AbstractSmrPort.php">AbstractSmrPort.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">29</span>
+    <span class="phpdocumentor-element-found-in__line">31</span>
 
     </aside>
 
@@ -1896,7 +1896,7 @@ ports to a specific level.</dd>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/AbstractSmrPort.php"><a href="files/src-lib-default-abstractsmrport.html"><abbr title="src/lib/Default/AbstractSmrPort.php">AbstractSmrPort.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">43</span>
+    <span class="phpdocumentor-element-found-in__line">45</span>
 
     </aside>
 
@@ -1940,7 +1940,7 @@ ports to a specific level.</dd>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/AbstractSmrPort.php"><a href="files/src-lib-default-abstractsmrport.html"><abbr title="src/lib/Default/AbstractSmrPort.php">AbstractSmrPort.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">54</span>
+    <span class="phpdocumentor-element-found-in__line">56</span>
 
     </aside>
 
@@ -1974,7 +1974,7 @@ ports to a specific level.</dd>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/AbstractSmrPort.php"><a href="files/src-lib-default-abstractsmrport.html"><abbr title="src/lib/Default/AbstractSmrPort.php">AbstractSmrPort.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">56</span>
+    <span class="phpdocumentor-element-found-in__line">58</span>
 
     </aside>
 
@@ -2008,7 +2008,7 @@ ports to a specific level.</dd>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/AbstractSmrPort.php"><a href="files/src-lib-default-abstractsmrport.html"><abbr title="src/lib/Default/AbstractSmrPort.php">AbstractSmrPort.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">24</span>
+    <span class="phpdocumentor-element-found-in__line">26</span>
 
     </aside>
 
@@ -2040,7 +2040,7 @@ ports to a specific level.</dd>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/AbstractSmrPort.php"><a href="files/src-lib-default-abstractsmrport.html"><abbr title="src/lib/Default/AbstractSmrPort.php">AbstractSmrPort.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">22</span>
+    <span class="phpdocumentor-element-found-in__line">24</span>
 
     </aside>
 
@@ -2072,7 +2072,7 @@ ports to a specific level.</dd>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/AbstractSmrPort.php"><a href="files/src-lib-default-abstractsmrport.html"><abbr title="src/lib/Default/AbstractSmrPort.php">AbstractSmrPort.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">74</span>
+    <span class="phpdocumentor-element-found-in__line">76</span>
 
     </aside>
 
@@ -2106,7 +2106,7 @@ ports to a specific level.</dd>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/AbstractSmrPort.php"><a href="files/src-lib-default-abstractsmrport.html"><abbr title="src/lib/Default/AbstractSmrPort.php">AbstractSmrPort.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">73</span>
+    <span class="phpdocumentor-element-found-in__line">75</span>
 
     </aside>
 
@@ -2140,7 +2140,7 @@ ports to a specific level.</dd>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/AbstractSmrPort.php"><a href="files/src-lib-default-abstractsmrport.html"><abbr title="src/lib/Default/AbstractSmrPort.php">AbstractSmrPort.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">75</span>
+    <span class="phpdocumentor-element-found-in__line">77</span>
 
     </aside>
 
@@ -2174,7 +2174,7 @@ ports to a specific level.</dd>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/AbstractSmrPort.php"><a href="files/src-lib-default-abstractsmrport.html"><abbr title="src/lib/Default/AbstractSmrPort.php">AbstractSmrPort.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">53</span>
+    <span class="phpdocumentor-element-found-in__line">55</span>
 
     </aside>
 
@@ -2208,7 +2208,7 @@ ports to a specific level.</dd>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/AbstractSmrPort.php"><a href="files/src-lib-default-abstractsmrport.html"><abbr title="src/lib/Default/AbstractSmrPort.php">AbstractSmrPort.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">58</span>
+    <span class="phpdocumentor-element-found-in__line">60</span>
 
     </aside>
 
@@ -2242,7 +2242,7 @@ ports to a specific level.</dd>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/AbstractSmrPort.php"><a href="files/src-lib-default-abstractsmrport.html"><abbr title="src/lib/Default/AbstractSmrPort.php">AbstractSmrPort.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">49</span>
+    <span class="phpdocumentor-element-found-in__line">51</span>
 
     </aside>
 
@@ -2276,7 +2276,7 @@ ports to a specific level.</dd>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/AbstractSmrPort.php"><a href="files/src-lib-default-abstractsmrport.html"><abbr title="src/lib/Default/AbstractSmrPort.php">AbstractSmrPort.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">60</span>
+    <span class="phpdocumentor-element-found-in__line">62</span>
 
     </aside>
 
@@ -2310,7 +2310,7 @@ ports to a specific level.</dd>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/AbstractSmrPort.php"><a href="files/src-lib-default-abstractsmrport.html"><abbr title="src/lib/Default/AbstractSmrPort.php">AbstractSmrPort.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">145</span>
+    <span class="phpdocumentor-element-found-in__line">147</span>
 
     </aside>
 
@@ -2344,7 +2344,7 @@ ports to a specific level.</dd>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/AbstractSmrPort.php"><a href="files/src-lib-default-abstractsmrport.html"><abbr title="src/lib/Default/AbstractSmrPort.php">AbstractSmrPort.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">63</span>
+    <span class="phpdocumentor-element-found-in__line">65</span>
 
     </aside>
 
@@ -2376,7 +2376,7 @@ ports to a specific level.</dd>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/AbstractSmrPort.php"><a href="files/src-lib-default-abstractsmrport.html"><abbr title="src/lib/Default/AbstractSmrPort.php">AbstractSmrPort.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">65</span>
+    <span class="phpdocumentor-element-found-in__line">67</span>
 
     </aside>
 
@@ -2408,7 +2408,7 @@ ports to a specific level.</dd>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/AbstractSmrPort.php"><a href="files/src-lib-default-abstractsmrport.html"><abbr title="src/lib/Default/AbstractSmrPort.php">AbstractSmrPort.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">71</span>
+    <span class="phpdocumentor-element-found-in__line">73</span>
 
     </aside>
 
@@ -2440,7 +2440,7 @@ ports to a specific level.</dd>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/AbstractSmrPort.php"><a href="files/src-lib-default-abstractsmrport.html"><abbr title="src/lib/Default/AbstractSmrPort.php">AbstractSmrPort.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">67</span>
+    <span class="phpdocumentor-element-found-in__line">69</span>
 
     </aside>
 
@@ -2472,7 +2472,7 @@ ports to a specific level.</dd>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/AbstractSmrPort.php"><a href="files/src-lib-default-abstractsmrport.html"><abbr title="src/lib/Default/AbstractSmrPort.php">AbstractSmrPort.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">69</span>
+    <span class="phpdocumentor-element-found-in__line">71</span>
 
     </aside>
 
@@ -2504,7 +2504,7 @@ ports to a specific level.</dd>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/AbstractSmrPort.php"><a href="files/src-lib-default-abstractsmrport.html"><abbr title="src/lib/Default/AbstractSmrPort.php">AbstractSmrPort.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">77</span>
+    <span class="phpdocumentor-element-found-in__line">79</span>
 
     </aside>
 
@@ -2538,7 +2538,7 @@ ports to a specific level.</dd>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/AbstractSmrPort.php"><a href="files/src-lib-default-abstractsmrport.html"><abbr title="src/lib/Default/AbstractSmrPort.php">AbstractSmrPort.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">78</span>
+    <span class="phpdocumentor-element-found-in__line">80</span>
 
     </aside>
 
@@ -2572,7 +2572,7 @@ ports to a specific level.</dd>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/AbstractSmrPort.php"><a href="files/src-lib-default-abstractsmrport.html"><abbr title="src/lib/Default/AbstractSmrPort.php">AbstractSmrPort.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">57</span>
+    <span class="phpdocumentor-element-found-in__line">59</span>
 
     </aside>
 
@@ -2640,7 +2640,7 @@ ports to a specific level.</dd>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/AbstractSmrPort.php"><a href="files/src-lib-default-abstractsmrport.html"><abbr title="src/lib/Default/AbstractSmrPort.php">AbstractSmrPort.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">55</span>
+    <span class="phpdocumentor-element-found-in__line">57</span>
 
     </aside>
 
@@ -2674,7 +2674,7 @@ ports to a specific level.</dd>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/AbstractSmrPort.php"><a href="files/src-lib-default-abstractsmrport.html"><abbr title="src/lib/Default/AbstractSmrPort.php">AbstractSmrPort.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">146</span>
+    <span class="phpdocumentor-element-found-in__line">148</span>
 
     </aside>
 
@@ -2708,7 +2708,7 @@ ports to a specific level.</dd>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/AbstractSmrPort.php"><a href="files/src-lib-default-abstractsmrport.html"><abbr title="src/lib/Default/AbstractSmrPort.php">AbstractSmrPort.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">52</span>
+    <span class="phpdocumentor-element-found-in__line">54</span>
 
     </aside>
 
@@ -2742,7 +2742,7 @@ ports to a specific level.</dd>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/AbstractSmrPort.php"><a href="files/src-lib-default-abstractsmrport.html"><abbr title="src/lib/Default/AbstractSmrPort.php">AbstractSmrPort.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">50</span>
+    <span class="phpdocumentor-element-found-in__line">52</span>
 
     </aside>
 
@@ -2776,7 +2776,7 @@ ports to a specific level.</dd>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/AbstractSmrPort.php"><a href="files/src-lib-default-abstractsmrport.html"><abbr title="src/lib/Default/AbstractSmrPort.php">AbstractSmrPort.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">59</span>
+    <span class="phpdocumentor-element-found-in__line">61</span>
 
     </aside>
 
@@ -2814,7 +2814,7 @@ ports to a specific level.</dd>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/AbstractSmrPort.php"><a href="files/src-lib-default-abstractsmrport.html"><abbr title="src/lib/Default/AbstractSmrPort.php">AbstractSmrPort.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">1219</span>
+    <span class="phpdocumentor-element-found-in__line">1214</span>
 
     </aside>
 
@@ -2847,7 +2847,7 @@ ports to a specific level.</dd>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/AbstractSmrPort.php"><a href="files/src-lib-default-abstractsmrport.html"><abbr title="src/lib/Default/AbstractSmrPort.php">AbstractSmrPort.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">1226</span>
+    <span class="phpdocumentor-element-found-in__line">1221</span>
 
     </aside>
 
@@ -2880,7 +2880,7 @@ ports to a specific level.</dd>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/AbstractSmrPort.php"><a href="files/src-lib-default-abstractsmrport.html"><abbr title="src/lib/Default/AbstractSmrPort.php">AbstractSmrPort.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">1162</span>
+    <span class="phpdocumentor-element-found-in__line">1150</span>
 
     </aside>
 
@@ -2924,7 +2924,7 @@ ports to a specific level.</dd>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/AbstractSmrPort.php"><a href="files/src-lib-default-abstractsmrport.html"><abbr title="src/lib/Default/AbstractSmrPort.php">AbstractSmrPort.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">1169</span>
+    <span class="phpdocumentor-element-found-in__line">1157</span>
 
     </aside>
 
@@ -2966,7 +2966,7 @@ ports to a specific level.</dd>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/AbstractSmrPort.php"><a href="files/src-lib-default-abstractsmrport.html"><abbr title="src/lib/Default/AbstractSmrPort.php">AbstractSmrPort.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">577</span>
+    <span class="phpdocumentor-element-found-in__line">565</span>
 
     </aside>
 
@@ -3023,7 +3023,7 @@ calling this function directly.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/AbstractSmrPort.php"><a href="files/src-lib-default-abstractsmrport.html"><abbr title="src/lib/Default/AbstractSmrPort.php">AbstractSmrPort.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">675</span>
+    <span class="phpdocumentor-element-found-in__line">663</span>
 
     </aside>
 
@@ -3073,24 +3073,26 @@ calling this function directly.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/AbstractSmrPort.php"><a href="files/src-lib-default-abstractsmrport.html"><abbr title="src/lib/Default/AbstractSmrPort.php">AbstractSmrPort.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">428</span>
+    <span class="phpdocumentor-element-found-in__line">425</span>
 
     </aside>
 
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">public</span>
-                <span class="phpdocumentor-signature__name">buyGoods</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type">array&lt;string, string|int&gt;&nbsp;</span><span class="phpdocumentor-signature__argument__name">$good</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__return-type">int&nbsp;</span><span class="phpdocumentor-signature__argument__name">$goodsTraded</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__return-type">int&nbsp;</span><span class="phpdocumentor-signature__argument__name">$idealPrice</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__return-type">int&nbsp;</span><span class="phpdocumentor-signature__argument__name">$bargainPrice</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__return-type">int&nbsp;</span><span class="phpdocumentor-signature__argument__name">$exp</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">void</span></code>
+                <span class="phpdocumentor-signature__name">buyGoods</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type"><a href="classes/Smr-TradeGood.html"><abbr title="\Smr\TradeGood">TradeGood</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$good</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__return-type">int&nbsp;</span><span class="phpdocumentor-signature__argument__name">$goodsTraded</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__return-type">int&nbsp;</span><span class="phpdocumentor-signature__argument__name">$idealPrice</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__return-type">int&nbsp;</span><span class="phpdocumentor-signature__argument__name">$bargainPrice</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__return-type">int&nbsp;</span><span class="phpdocumentor-signature__argument__name">$exp</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">void</span></code>
 
-    
+        <section class="phpdocumentor-description"></section>
+
         <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
     <dl class="phpdocumentor-argument-list">
                     <dt class="phpdocumentor-argument-list__entry">
                 <span class="phpdocumentor-signature__argument__name">$good</span>
-                : <span class="phpdocumentor-signature__argument__return-type">array&lt;string, string|int&gt;</span>
+                : <span class="phpdocumentor-signature__argument__return-type"><a href="classes/Smr-TradeGood.html"><abbr title="\Smr\TradeGood">TradeGood</abbr></a></span>
                             </dt>
             <dd class="phpdocumentor-argument-list__definition">
-                
+                    <section class="phpdocumentor-description"></section>
+
             </dd>
                     <dt class="phpdocumentor-argument-list__entry">
                 <span class="phpdocumentor-signature__argument__name">$goodsTraded</span>
@@ -3147,7 +3149,7 @@ calling this function directly.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/AbstractSmrPort.php"><a href="files/src-lib-default-abstractsmrport.html"><abbr title="src/lib/Default/AbstractSmrPort.php">AbstractSmrPort.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">1089</span>
+    <span class="phpdocumentor-element-found-in__line">1077</span>
 
     </aside>
 
@@ -3207,7 +3209,7 @@ calling this function directly.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/AbstractSmrPort.php"><a href="files/src-lib-default-abstractsmrport.html"><abbr title="src/lib/Default/AbstractSmrPort.php">AbstractSmrPort.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">193</span>
+    <span class="phpdocumentor-element-found-in__line">195</span>
 
     </aside>
 
@@ -3240,7 +3242,7 @@ calling this function directly.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/AbstractSmrPort.php"><a href="files/src-lib-default-abstractsmrport.html"><abbr title="src/lib/Default/AbstractSmrPort.php">AbstractSmrPort.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">624</span>
+    <span class="phpdocumentor-element-found-in__line">612</span>
 
     </aside>
 
@@ -3284,7 +3286,7 @@ calling this function directly.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/AbstractSmrPort.php"><a href="files/src-lib-default-abstractsmrport.html"><abbr title="src/lib/Default/AbstractSmrPort.php">AbstractSmrPort.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">450</span>
+    <span class="phpdocumentor-element-found-in__line">441</span>
 
     </aside>
 
@@ -3317,7 +3319,7 @@ calling this function directly.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/AbstractSmrPort.php"><a href="files/src-lib-default-abstractsmrport.html"><abbr title="src/lib/Default/AbstractSmrPort.php">AbstractSmrPort.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">80</span>
+    <span class="phpdocumentor-element-found-in__line">82</span>
 
     </aside>
 
@@ -3350,7 +3352,7 @@ calling this function directly.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/AbstractSmrPort.php"><a href="files/src-lib-default-abstractsmrport.html"><abbr title="src/lib/Default/AbstractSmrPort.php">AbstractSmrPort.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">124</span>
+    <span class="phpdocumentor-element-found-in__line">126</span>
 
     </aside>
 
@@ -3402,7 +3404,7 @@ calling this function directly.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/AbstractSmrPort.php"><a href="files/src-lib-default-abstractsmrport.html"><abbr title="src/lib/Default/AbstractSmrPort.php">AbstractSmrPort.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">1028</span>
+    <span class="phpdocumentor-element-found-in__line">1016</span>
 
     </aside>
 
@@ -3446,7 +3448,7 @@ calling this function directly.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/AbstractSmrPort.php"><a href="files/src-lib-default-abstractsmrport.html"><abbr title="src/lib/Default/AbstractSmrPort.php">AbstractSmrPort.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">1024</span>
+    <span class="phpdocumentor-element-found-in__line">1012</span>
 
     </aside>
 
@@ -3490,7 +3492,7 @@ calling this function directly.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/AbstractSmrPort.php"><a href="files/src-lib-default-abstractsmrport.html"><abbr title="src/lib/Default/AbstractSmrPort.php">AbstractSmrPort.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">788</span>
+    <span class="phpdocumentor-element-found-in__line">776</span>
 
     </aside>
 
@@ -3534,24 +3536,26 @@ calling this function directly.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/AbstractSmrPort.php"><a href="files/src-lib-default-abstractsmrport.html"><abbr title="src/lib/Default/AbstractSmrPort.php">AbstractSmrPort.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">383</span>
+    <span class="phpdocumentor-element-found-in__line">386</span>
 
     </aside>
 
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">public</span>
-                <span class="phpdocumentor-signature__name">decreaseGood</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type">array&lt;string, string|int&gt;&nbsp;</span><span class="phpdocumentor-signature__argument__name">$good</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__return-type">int&nbsp;</span><span class="phpdocumentor-signature__argument__name">$amount</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__return-type">bool&nbsp;</span><span class="phpdocumentor-signature__argument__name">$doRefresh</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">void</span></code>
+                <span class="phpdocumentor-signature__name">decreaseGood</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type"><a href="classes/Smr-TradeGood.html"><abbr title="\Smr\TradeGood">TradeGood</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$good</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__return-type">int&nbsp;</span><span class="phpdocumentor-signature__argument__name">$amount</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__return-type">bool&nbsp;</span><span class="phpdocumentor-signature__argument__name">$doRefresh</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">void</span></code>
 
-    
+        <section class="phpdocumentor-description"></section>
+
         <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
     <dl class="phpdocumentor-argument-list">
                     <dt class="phpdocumentor-argument-list__entry">
                 <span class="phpdocumentor-signature__argument__name">$good</span>
-                : <span class="phpdocumentor-signature__argument__return-type">array&lt;string, string|int&gt;</span>
+                : <span class="phpdocumentor-signature__argument__return-type"><a href="classes/Smr-TradeGood.html"><abbr title="\Smr\TradeGood">TradeGood</abbr></a></span>
                             </dt>
             <dd class="phpdocumentor-argument-list__definition">
-                
+                    <section class="phpdocumentor-description"></section>
+
             </dd>
                     <dt class="phpdocumentor-argument-list__entry">
                 <span class="phpdocumentor-signature__argument__name">$amount</span>
@@ -3592,7 +3596,7 @@ calling this function directly.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/AbstractSmrPort.php"><a href="files/src-lib-default-abstractsmrport.html"><abbr title="src/lib/Default/AbstractSmrPort.php">AbstractSmrPort.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">395</span>
+    <span class="phpdocumentor-element-found-in__line">398</span>
 
     </aside>
 
@@ -3644,7 +3648,7 @@ calling this function directly.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/AbstractSmrPort.php"><a href="files/src-lib-default-abstractsmrport.html"><abbr title="src/lib/Default/AbstractSmrPort.php">AbstractSmrPort.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">849</span>
+    <span class="phpdocumentor-element-found-in__line">837</span>
 
     </aside>
 
@@ -3688,7 +3692,7 @@ calling this function directly.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/AbstractSmrPort.php"><a href="files/src-lib-default-abstractsmrport.html"><abbr title="src/lib/Default/AbstractSmrPort.php">AbstractSmrPort.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">1020</span>
+    <span class="phpdocumentor-element-found-in__line">1008</span>
 
     </aside>
 
@@ -3732,7 +3736,7 @@ calling this function directly.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/AbstractSmrPort.php"><a href="files/src-lib-default-abstractsmrport.html"><abbr title="src/lib/Default/AbstractSmrPort.php">AbstractSmrPort.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">817</span>
+    <span class="phpdocumentor-element-found-in__line">805</span>
 
     </aside>
 
@@ -3776,7 +3780,7 @@ calling this function directly.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/AbstractSmrPort.php"><a href="files/src-lib-default-abstractsmrport.html"><abbr title="src/lib/Default/AbstractSmrPort.php">AbstractSmrPort.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">1016</span>
+    <span class="phpdocumentor-element-found-in__line">1004</span>
 
     </aside>
 
@@ -3809,7 +3813,7 @@ calling this function directly.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/AbstractSmrPort.php"><a href="files/src-lib-default-abstractsmrport.html"><abbr title="src/lib/Default/AbstractSmrPort.php">AbstractSmrPort.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">295</span>
+    <span class="phpdocumentor-element-found-in__line">298</span>
 
     </aside>
 
@@ -3841,7 +3845,7 @@ calling this function directly.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/AbstractSmrPort.php"><a href="files/src-lib-default-abstractsmrport.html"><abbr title="src/lib/Default/AbstractSmrPort.php">AbstractSmrPort.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">933</span>
+    <span class="phpdocumentor-element-found-in__line">921</span>
 
     </aside>
 
@@ -3874,7 +3878,7 @@ calling this function directly.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/AbstractSmrPort.php"><a href="files/src-lib-default-abstractsmrport.html"><abbr title="src/lib/Default/AbstractSmrPort.php">AbstractSmrPort.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">1406</span>
+    <span class="phpdocumentor-element-found-in__line">1401</span>
 
     </aside>
 
@@ -3906,7 +3910,7 @@ calling this function directly.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/AbstractSmrPort.php"><a href="files/src-lib-default-abstractsmrport.html"><abbr title="src/lib/Default/AbstractSmrPort.php">AbstractSmrPort.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">1108</span>
+    <span class="phpdocumentor-element-found-in__line">1096</span>
 
     </aside>
 
@@ -3939,7 +3943,7 @@ calling this function directly.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/AbstractSmrPort.php"><a href="files/src-lib-default-abstractsmrport.html"><abbr title="src/lib/Default/AbstractSmrPort.php">AbstractSmrPort.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">992</span>
+    <span class="phpdocumentor-element-found-in__line">980</span>
 
     </aside>
 
@@ -3972,7 +3976,7 @@ calling this function directly.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/AbstractSmrPort.php"><a href="files/src-lib-default-abstractsmrport.html"><abbr title="src/lib/Default/AbstractSmrPort.php">AbstractSmrPort.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">140</span>
+    <span class="phpdocumentor-element-found-in__line">142</span>
 
     </aside>
 
@@ -4024,7 +4028,7 @@ calling this function directly.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/AbstractSmrPort.php"><a href="files/src-lib-default-abstractsmrport.html"><abbr title="src/lib/Default/AbstractSmrPort.php">AbstractSmrPort.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">313</span>
+    <span class="phpdocumentor-element-found-in__line">316</span>
 
     </aside>
 
@@ -4057,17 +4061,16 @@ calling this function directly.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/AbstractSmrPort.php"><a href="files/src-lib-default-abstractsmrport.html"><abbr title="src/lib/Default/AbstractSmrPort.php">AbstractSmrPort.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">1196</span>
+    <span class="phpdocumentor-element-found-in__line">1187</span>
 
     </aside>
 
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">public</span>
-            <span class="phpdocumentor-signature__static">static</span>    <span class="phpdocumentor-signature__name">getCachedPort</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type">int&nbsp;</span><span class="phpdocumentor-signature__argument__name">$gameID</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__return-type">int&nbsp;</span><span class="phpdocumentor-signature__argument__name">$sectorID</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__return-type">int&nbsp;</span><span class="phpdocumentor-signature__argument__name">$accountID</span></span><span class="phpdocumentor-signature__argument"><span>[</span><span>, </span><span class="phpdocumentor-signature__argument__return-type">bool&nbsp;</span><span class="phpdocumentor-signature__argument__name">$forceUpdate</span><span> = </span><span class="phpdocumentor-signature__argument__default-value">false</span><span> ]</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type"><a href="classes/SmrPort.html"><abbr title="\SmrPort">SmrPort</abbr></a>|false</span></code>
+            <span class="phpdocumentor-signature__static">static</span>    <span class="phpdocumentor-signature__name">getCachedPort</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type">int&nbsp;</span><span class="phpdocumentor-signature__argument__name">$gameID</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__return-type">int&nbsp;</span><span class="phpdocumentor-signature__argument__name">$sectorID</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__return-type">int&nbsp;</span><span class="phpdocumentor-signature__argument__name">$accountID</span></span><span class="phpdocumentor-signature__argument"><span>[</span><span>, </span><span class="phpdocumentor-signature__argument__return-type">bool&nbsp;</span><span class="phpdocumentor-signature__argument__name">$forceUpdate</span><span> = </span><span class="phpdocumentor-signature__argument__default-value">false</span><span> ]</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type"><a href="classes/SmrPort.html"><abbr title="\SmrPort">SmrPort</abbr></a></span></code>
 
-        <section class="phpdocumentor-description"></section>
-
+    
         <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
     <dl class="phpdocumentor-argument-list">
                     <dt class="phpdocumentor-argument-list__entry">
@@ -4105,9 +4108,25 @@ calling this function directly.</p>
             </dl>
 
     
+    <h5 class="phpdocumentor-tag-list__heading" id="tags">
+        Tags
+        <a href="#tags" class="headerlink"><i class="fas fa-link"></i></a>
+    </h5>
+    <dl class="phpdocumentor-tag-list">
+                                    <dt class="phpdocumentor-tag-list__entry">
+                    <span class="phpdocumentor-tag__name">throws</span>
+                </dt>
+                <dd class="phpdocumentor-tag-list__definition">
+                                                                <span class="phpdocumentor-tag-link"><a href="classes/Smr-Exceptions-CachedPortNotFound.html"><abbr title="\Smr\Exceptions\CachedPortNotFound">CachedPortNotFound</abbr></a></span>
+                                                            
+                                                 <section class="phpdocumentor-description"><p>If the cached port is not found in the database.</p>
+</section>
+
+                                    </dd>
+                        </dl>
 
         <h5 class="phpdocumentor-return-value__heading">Return values</h5>
-    <span class="phpdocumentor-signature__response_type"><a href="classes/SmrPort.html"><abbr title="\SmrPort">SmrPort</abbr></a>|false</span>
+    <span class="phpdocumentor-signature__response_type"><a href="classes/SmrPort.html"><abbr title="\SmrPort">SmrPort</abbr></a></span>
             &mdash;
         
     
@@ -4125,7 +4144,7 @@ calling this function directly.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/AbstractSmrPort.php"><a href="files/src-lib-default-abstractsmrport.html"><abbr title="src/lib/Default/AbstractSmrPort.php">AbstractSmrPort.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">1145</span>
+    <span class="phpdocumentor-element-found-in__line">1133</span>
 
     </aside>
 
@@ -4158,7 +4177,7 @@ calling this function directly.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/AbstractSmrPort.php"><a href="files/src-lib-default-abstractsmrport.html"><abbr title="src/lib/Default/AbstractSmrPort.php">AbstractSmrPort.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">925</span>
+    <span class="phpdocumentor-element-found-in__line">913</span>
 
     </aside>
 
@@ -4191,7 +4210,7 @@ calling this function directly.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/AbstractSmrPort.php"><a href="files/src-lib-default-abstractsmrport.html"><abbr title="src/lib/Default/AbstractSmrPort.php">AbstractSmrPort.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">1112</span>
+    <span class="phpdocumentor-element-found-in__line">1100</span>
 
     </aside>
 
@@ -4224,7 +4243,7 @@ calling this function directly.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/AbstractSmrPort.php"><a href="files/src-lib-default-abstractsmrport.html"><abbr title="src/lib/Default/AbstractSmrPort.php">AbstractSmrPort.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">945</span>
+    <span class="phpdocumentor-element-found-in__line">933</span>
 
     </aside>
 
@@ -4257,7 +4276,7 @@ calling this function directly.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/AbstractSmrPort.php"><a href="files/src-lib-default-abstractsmrport.html"><abbr title="src/lib/Default/AbstractSmrPort.php">AbstractSmrPort.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">969</span>
+    <span class="phpdocumentor-element-found-in__line">957</span>
 
     </aside>
 
@@ -4290,7 +4309,7 @@ calling this function directly.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/AbstractSmrPort.php"><a href="files/src-lib-default-abstractsmrport.html"><abbr title="src/lib/Default/AbstractSmrPort.php">AbstractSmrPort.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">727</span>
+    <span class="phpdocumentor-element-found-in__line">715</span>
 
     </aside>
 
@@ -4323,7 +4342,7 @@ calling this function directly.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/AbstractSmrPort.php"><a href="files/src-lib-default-abstractsmrport.html"><abbr title="src/lib/Default/AbstractSmrPort.php">AbstractSmrPort.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">941</span>
+    <span class="phpdocumentor-element-found-in__line">929</span>
 
     </aside>
 
@@ -4356,7 +4375,7 @@ calling this function directly.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/AbstractSmrPort.php"><a href="files/src-lib-default-abstractsmrport.html"><abbr title="src/lib/Default/AbstractSmrPort.php">AbstractSmrPort.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">88</span>
+    <span class="phpdocumentor-element-found-in__line">90</span>
 
     </aside>
 
@@ -4415,7 +4434,7 @@ calling this function directly.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/AbstractSmrPort.php"><a href="files/src-lib-default-abstractsmrport.html"><abbr title="src/lib/Default/AbstractSmrPort.php">AbstractSmrPort.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">878</span>
+    <span class="phpdocumentor-element-found-in__line">866</span>
 
     </aside>
 
@@ -4448,7 +4467,7 @@ calling this function directly.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/AbstractSmrPort.php"><a href="files/src-lib-default-abstractsmrport.html"><abbr title="src/lib/Default/AbstractSmrPort.php">AbstractSmrPort.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">874</span>
+    <span class="phpdocumentor-element-found-in__line">862</span>
 
     </aside>
 
@@ -4481,7 +4500,7 @@ calling this function directly.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/AbstractSmrPort.php"><a href="files/src-lib-default-abstractsmrport.html"><abbr title="src/lib/Default/AbstractSmrPort.php">AbstractSmrPort.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">376</span>
+    <span class="phpdocumentor-element-found-in__line">382</span>
 
     </aside>
 
@@ -4525,7 +4544,7 @@ calling this function directly.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/AbstractSmrPort.php"><a href="files/src-lib-default-abstractsmrport.html"><abbr title="src/lib/Default/AbstractSmrPort.php">AbstractSmrPort.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">317</span>
+    <span class="phpdocumentor-element-found-in__line">320</span>
 
     </aside>
 
@@ -4569,7 +4588,7 @@ calling this function directly.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/AbstractSmrPort.php"><a href="files/src-lib-default-abstractsmrport.html"><abbr title="src/lib/Default/AbstractSmrPort.php">AbstractSmrPort.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">335</span>
+    <span class="phpdocumentor-element-found-in__line">341</span>
 
     </aside>
 
@@ -4615,7 +4634,7 @@ calling this function directly.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/AbstractSmrPort.php"><a href="files/src-lib-default-abstractsmrport.html"><abbr title="src/lib/Default/AbstractSmrPort.php">AbstractSmrPort.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">347</span>
+    <span class="phpdocumentor-element-found-in__line">353</span>
 
     </aside>
 
@@ -4647,7 +4666,7 @@ calling this function directly.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/AbstractSmrPort.php"><a href="files/src-lib-default-abstractsmrport.html"><abbr title="src/lib/Default/AbstractSmrPort.php">AbstractSmrPort.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">1048</span>
+    <span class="phpdocumentor-element-found-in__line">1036</span>
 
     </aside>
 
@@ -4715,7 +4734,7 @@ calling this function directly.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/AbstractSmrPort.php"><a href="files/src-lib-default-abstractsmrport.html"><abbr title="src/lib/Default/AbstractSmrPort.php">AbstractSmrPort.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">899</span>
+    <span class="phpdocumentor-element-found-in__line">887</span>
 
     </aside>
 
@@ -4748,7 +4767,7 @@ calling this function directly.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/AbstractSmrPort.php"><a href="files/src-lib-default-abstractsmrport.html"><abbr title="src/lib/Default/AbstractSmrPort.php">AbstractSmrPort.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">1136</span>
+    <span class="phpdocumentor-element-found-in__line">1124</span>
 
     </aside>
 
@@ -4792,7 +4811,7 @@ calling this function directly.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/AbstractSmrPort.php"><a href="files/src-lib-default-abstractsmrport.html"><abbr title="src/lib/Default/AbstractSmrPort.php">AbstractSmrPort.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">1127</span>
+    <span class="phpdocumentor-element-found-in__line">1115</span>
 
     </aside>
 
@@ -4835,7 +4854,7 @@ calling this function directly.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/AbstractSmrPort.php"><a href="files/src-lib-default-abstractsmrport.html"><abbr title="src/lib/Default/AbstractSmrPort.php">AbstractSmrPort.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">913</span>
+    <span class="phpdocumentor-element-found-in__line">901</span>
 
     </aside>
 
@@ -4868,7 +4887,7 @@ calling this function directly.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/AbstractSmrPort.php"><a href="files/src-lib-default-abstractsmrport.html"><abbr title="src/lib/Default/AbstractSmrPort.php">AbstractSmrPort.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">903</span>
+    <span class="phpdocumentor-element-found-in__line">891</span>
 
     </aside>
 
@@ -4912,7 +4931,7 @@ calling this function directly.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/AbstractSmrPort.php"><a href="files/src-lib-default-abstractsmrport.html"><abbr title="src/lib/Default/AbstractSmrPort.php">AbstractSmrPort.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">953</span>
+    <span class="phpdocumentor-element-found-in__line">941</span>
 
     </aside>
 
@@ -4945,7 +4964,7 @@ calling this function directly.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/AbstractSmrPort.php"><a href="files/src-lib-default-abstractsmrport.html"><abbr title="src/lib/Default/AbstractSmrPort.php">AbstractSmrPort.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">1076</span>
+    <span class="phpdocumentor-element-found-in__line">1064</span>
 
     </aside>
 
@@ -5005,7 +5024,7 @@ calling this function directly.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/AbstractSmrPort.php"><a href="files/src-lib-default-abstractsmrport.html"><abbr title="src/lib/Default/AbstractSmrPort.php">AbstractSmrPort.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">104</span>
+    <span class="phpdocumentor-element-found-in__line">106</span>
 
     </aside>
 
@@ -5139,7 +5158,7 @@ calling this function directly.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/AbstractSmrPort.php"><a href="files/src-lib-default-abstractsmrport.html"><abbr title="src/lib/Default/AbstractSmrPort.php">AbstractSmrPort.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">1104</span>
+    <span class="phpdocumentor-element-found-in__line">1092</span>
 
     </aside>
 
@@ -5172,7 +5191,7 @@ calling this function directly.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/AbstractSmrPort.php"><a href="files/src-lib-default-abstractsmrport.html"><abbr title="src/lib/Default/AbstractSmrPort.php">AbstractSmrPort.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">1119</span>
+    <span class="phpdocumentor-element-found-in__line">1107</span>
 
     </aside>
 
@@ -5215,7 +5234,7 @@ calling this function directly.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/AbstractSmrPort.php"><a href="files/src-lib-default-abstractsmrport.html"><abbr title="src/lib/Default/AbstractSmrPort.php">AbstractSmrPort.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">973</span>
+    <span class="phpdocumentor-element-found-in__line">961</span>
 
     </aside>
 
@@ -5248,7 +5267,7 @@ calling this function directly.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/AbstractSmrPort.php"><a href="files/src-lib-default-abstractsmrport.html"><abbr title="src/lib/Default/AbstractSmrPort.php">AbstractSmrPort.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">980</span>
+    <span class="phpdocumentor-element-found-in__line">968</span>
 
     </aside>
 
@@ -5281,7 +5300,7 @@ calling this function directly.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/AbstractSmrPort.php"><a href="files/src-lib-default-abstractsmrport.html"><abbr title="src/lib/Default/AbstractSmrPort.php">AbstractSmrPort.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">886</span>
+    <span class="phpdocumentor-element-found-in__line">874</span>
 
     </aside>
 
@@ -5314,7 +5333,7 @@ calling this function directly.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/AbstractSmrPort.php"><a href="files/src-lib-default-abstractsmrport.html"><abbr title="src/lib/Default/AbstractSmrPort.php">AbstractSmrPort.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">882</span>
+    <span class="phpdocumentor-element-found-in__line">870</span>
 
     </aside>
 
@@ -5347,7 +5366,7 @@ calling this function directly.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/AbstractSmrPort.php"><a href="files/src-lib-default-abstractsmrport.html"><abbr title="src/lib/Default/AbstractSmrPort.php">AbstractSmrPort.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">304</span>
+    <span class="phpdocumentor-element-found-in__line">307</span>
 
     </aside>
 
@@ -5380,7 +5399,7 @@ calling this function directly.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/AbstractSmrPort.php"><a href="files/src-lib-default-abstractsmrport.html"><abbr title="src/lib/Default/AbstractSmrPort.php">AbstractSmrPort.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">917</span>
+    <span class="phpdocumentor-element-found-in__line">905</span>
 
     </aside>
 
@@ -5413,7 +5432,7 @@ calling this function directly.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/AbstractSmrPort.php"><a href="files/src-lib-default-abstractsmrport.html"><abbr title="src/lib/Default/AbstractSmrPort.php">AbstractSmrPort.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">1032</span>
+    <span class="phpdocumentor-element-found-in__line">1020</span>
 
     </aside>
 
@@ -5457,7 +5476,7 @@ calling this function directly.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/AbstractSmrPort.php"><a href="files/src-lib-default-abstractsmrport.html"><abbr title="src/lib/Default/AbstractSmrPort.php">AbstractSmrPort.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">949</span>
+    <span class="phpdocumentor-element-found-in__line">937</span>
 
     </aside>
 
@@ -5490,7 +5509,7 @@ calling this function directly.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/AbstractSmrPort.php"><a href="files/src-lib-default-abstractsmrport.html"><abbr title="src/lib/Default/AbstractSmrPort.php">AbstractSmrPort.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">965</span>
+    <span class="phpdocumentor-element-found-in__line">953</span>
 
     </aside>
 
@@ -5523,7 +5542,7 @@ calling this function directly.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/AbstractSmrPort.php"><a href="files/src-lib-default-abstractsmrport.html"><abbr title="src/lib/Default/AbstractSmrPort.php">AbstractSmrPort.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">529</span>
+    <span class="phpdocumentor-element-found-in__line">517</span>
 
     </aside>
 
@@ -5556,15 +5575,15 @@ calling this function directly.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/AbstractSmrPort.php"><a href="files/src-lib-default-abstractsmrport.html"><abbr title="src/lib/Default/AbstractSmrPort.php">AbstractSmrPort.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">288</span>
+    <span class="phpdocumentor-element-found-in__line">291</span>
 
     </aside>
 
-        <p class="phpdocumentor-summary">Get IDs of goods that can be bought by $player from the port</p>
+        <p class="phpdocumentor-summary">Get goods that can be bought by $player from the port</p>
 
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">public</span>
-                <span class="phpdocumentor-signature__name">getVisibleGoodsBought</span><span>(</span><span class="phpdocumentor-signature__argument"><span>[</span><span class="phpdocumentor-signature__argument__return-type"><a href="classes/AbstractSmrPlayer.html"><abbr title="\AbstractSmrPlayer">AbstractSmrPlayer</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$player</span><span> = </span><span class="phpdocumentor-signature__argument__default-value">null</span><span> ]</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">array&lt;string|int, int&gt;</span></code>
+                <span class="phpdocumentor-signature__name">getVisibleGoodsBought</span><span>(</span><span class="phpdocumentor-signature__argument"><span>[</span><span class="phpdocumentor-signature__argument__return-type"><a href="classes/AbstractSmrPlayer.html"><abbr title="\AbstractSmrPlayer">AbstractSmrPlayer</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$player</span><span> = </span><span class="phpdocumentor-signature__argument__default-value">null</span><span> ]</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">array&lt;int, <abbr title="\TradeGood">TradeGood</abbr>&gt;</span></code>
 
     
         <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
@@ -5582,7 +5601,7 @@ calling this function directly.</p>
     
 
         <h5 class="phpdocumentor-return-value__heading">Return values</h5>
-    <span class="phpdocumentor-signature__response_type">array&lt;string|int, int&gt;</span>
+    <span class="phpdocumentor-signature__response_type">array&lt;int, <abbr title="\TradeGood">TradeGood</abbr>&gt;</span>
             &mdash;
         
     
@@ -5600,15 +5619,15 @@ calling this function directly.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/AbstractSmrPort.php"><a href="files/src-lib-default-abstractsmrport.html"><abbr title="src/lib/Default/AbstractSmrPort.php">AbstractSmrPort.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">279</span>
+    <span class="phpdocumentor-element-found-in__line">282</span>
 
     </aside>
 
-        <p class="phpdocumentor-summary">Get IDs of goods that can be sold by $player to the port</p>
+        <p class="phpdocumentor-summary">Get goods that can be sold by $player to the port</p>
 
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">public</span>
-                <span class="phpdocumentor-signature__name">getVisibleGoodsSold</span><span>(</span><span class="phpdocumentor-signature__argument"><span>[</span><span class="phpdocumentor-signature__argument__return-type"><a href="classes/AbstractSmrPlayer.html"><abbr title="\AbstractSmrPlayer">AbstractSmrPlayer</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$player</span><span> = </span><span class="phpdocumentor-signature__argument__default-value">null</span><span> ]</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">array&lt;string|int, int&gt;</span></code>
+                <span class="phpdocumentor-signature__name">getVisibleGoodsSold</span><span>(</span><span class="phpdocumentor-signature__argument"><span>[</span><span class="phpdocumentor-signature__argument__return-type"><a href="classes/AbstractSmrPlayer.html"><abbr title="\AbstractSmrPlayer">AbstractSmrPlayer</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$player</span><span> = </span><span class="phpdocumentor-signature__argument__default-value">null</span><span> ]</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">array&lt;int, <abbr title="\TradeGood">TradeGood</abbr>&gt;</span></code>
 
     
         <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
@@ -5626,7 +5645,7 @@ calling this function directly.</p>
     
 
         <h5 class="phpdocumentor-return-value__heading">Return values</h5>
-    <span class="phpdocumentor-signature__response_type">array&lt;string|int, int&gt;</span>
+    <span class="phpdocumentor-signature__response_type">array&lt;int, <abbr title="\TradeGood">TradeGood</abbr>&gt;</span>
             &mdash;
         
     
@@ -5644,7 +5663,7 @@ calling this function directly.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/AbstractSmrPort.php"><a href="files/src-lib-default-abstractsmrport.html"><abbr title="src/lib/Default/AbstractSmrPort.php">AbstractSmrPort.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">960</span>
+    <span class="phpdocumentor-element-found-in__line">948</span>
 
     </aside>
 
@@ -5676,7 +5695,7 @@ calling this function directly.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/AbstractSmrPort.php"><a href="files/src-lib-default-abstractsmrport.html"><abbr title="src/lib/Default/AbstractSmrPort.php">AbstractSmrPort.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">937</span>
+    <span class="phpdocumentor-element-found-in__line">925</span>
 
     </aside>
 
@@ -5709,7 +5728,7 @@ calling this function directly.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/AbstractSmrPort.php"><a href="files/src-lib-default-abstractsmrport.html"><abbr title="src/lib/Default/AbstractSmrPort.php">AbstractSmrPort.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">929</span>
+    <span class="phpdocumentor-element-found-in__line">917</span>
 
     </aside>
 
@@ -5742,7 +5761,7 @@ calling this function directly.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/AbstractSmrPort.php"><a href="files/src-lib-default-abstractsmrport.html"><abbr title="src/lib/Default/AbstractSmrPort.php">AbstractSmrPort.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">351</span>
+    <span class="phpdocumentor-element-found-in__line">357</span>
 
     </aside>
 
@@ -5794,7 +5813,7 @@ calling this function directly.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/AbstractSmrPort.php"><a href="files/src-lib-default-abstractsmrport.html"><abbr title="src/lib/Default/AbstractSmrPort.php">AbstractSmrPort.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">921</span>
+    <span class="phpdocumentor-element-found-in__line">909</span>
 
     </aside>
 
@@ -5827,7 +5846,7 @@ calling this function directly.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/AbstractSmrPort.php"><a href="files/src-lib-default-abstractsmrport.html"><abbr title="src/lib/Default/AbstractSmrPort.php">AbstractSmrPort.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">1499</span>
+    <span class="phpdocumentor-element-found-in__line">1494</span>
 
     </aside>
 
@@ -5871,7 +5890,7 @@ calling this function directly.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/AbstractSmrPort.php"><a href="files/src-lib-default-abstractsmrport.html"><abbr title="src/lib/Default/AbstractSmrPort.php">AbstractSmrPort.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">1057</span>
+    <span class="phpdocumentor-element-found-in__line">1045</span>
 
     </aside>
 
@@ -5955,7 +5974,7 @@ calling this function directly.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/AbstractSmrPort.php"><a href="files/src-lib-default-abstractsmrport.html"><abbr title="src/lib/Default/AbstractSmrPort.php">AbstractSmrPort.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">795</span>
+    <span class="phpdocumentor-element-found-in__line">783</span>
 
     </aside>
 
@@ -5999,7 +6018,7 @@ calling this function directly.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/AbstractSmrPort.php"><a href="files/src-lib-default-abstractsmrport.html"><abbr title="src/lib/Default/AbstractSmrPort.php">AbstractSmrPort.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">867</span>
+    <span class="phpdocumentor-element-found-in__line">855</span>
 
     </aside>
 
@@ -6043,7 +6062,7 @@ calling this function directly.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/AbstractSmrPort.php"><a href="files/src-lib-default-abstractsmrport.html"><abbr title="src/lib/Default/AbstractSmrPort.php">AbstractSmrPort.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">391</span>
+    <span class="phpdocumentor-element-found-in__line">394</span>
 
     </aside>
 
@@ -6095,7 +6114,7 @@ calling this function directly.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/AbstractSmrPort.php"><a href="files/src-lib-default-abstractsmrport.html"><abbr title="src/lib/Default/AbstractSmrPort.php">AbstractSmrPort.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">842</span>
+    <span class="phpdocumentor-element-found-in__line">830</span>
 
     </aside>
 
@@ -6139,7 +6158,7 @@ calling this function directly.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/AbstractSmrPort.php"><a href="files/src-lib-default-abstractsmrport.html"><abbr title="src/lib/Default/AbstractSmrPort.php">AbstractSmrPort.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">824</span>
+    <span class="phpdocumentor-element-found-in__line">812</span>
 
     </aside>
 
@@ -6183,7 +6202,7 @@ calling this function directly.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/AbstractSmrPort.php"><a href="files/src-lib-default-abstractsmrport.html"><abbr title="src/lib/Default/AbstractSmrPort.php">AbstractSmrPort.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">1141</span>
+    <span class="phpdocumentor-element-found-in__line">1129</span>
 
     </aside>
 
@@ -6216,7 +6235,7 @@ calling this function directly.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/AbstractSmrPort.php"><a href="files/src-lib-default-abstractsmrport.html"><abbr title="src/lib/Default/AbstractSmrPort.php">AbstractSmrPort.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">1012</span>
+    <span class="phpdocumentor-element-found-in__line">1000</span>
 
     </aside>
 
@@ -6249,7 +6268,7 @@ calling this function directly.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/AbstractSmrPort.php"><a href="files/src-lib-default-abstractsmrport.html"><abbr title="src/lib/Default/AbstractSmrPort.php">AbstractSmrPort.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">1008</span>
+    <span class="phpdocumentor-element-found-in__line">996</span>
 
     </aside>
 
@@ -6282,7 +6301,7 @@ calling this function directly.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/AbstractSmrPort.php"><a href="files/src-lib-default-abstractsmrport.html"><abbr title="src/lib/Default/AbstractSmrPort.php">AbstractSmrPort.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">1464</span>
+    <span class="phpdocumentor-element-found-in__line">1459</span>
 
     </aside>
 
@@ -6325,7 +6344,7 @@ calling this function directly.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/AbstractSmrPort.php"><a href="files/src-lib-default-abstractsmrport.html"><abbr title="src/lib/Default/AbstractSmrPort.php">AbstractSmrPort.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">1455</span>
+    <span class="phpdocumentor-element-found-in__line">1450</span>
 
     </aside>
 
@@ -6370,7 +6389,7 @@ successful port raid.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/AbstractSmrPort.php"><a href="files/src-lib-default-abstractsmrport.html"><abbr title="src/lib/Default/AbstractSmrPort.php">AbstractSmrPort.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">1443</span>
+    <span class="phpdocumentor-element-found-in__line">1438</span>
 
     </aside>
 
@@ -6415,7 +6434,7 @@ after a successful port raid.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/AbstractSmrPort.php"><a href="files/src-lib-default-abstractsmrport.html"><abbr title="src/lib/Default/AbstractSmrPort.php">AbstractSmrPort.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">111</span>
+    <span class="phpdocumentor-element-found-in__line">113</span>
 
     </aside>
 
@@ -6467,7 +6486,7 @@ after a successful port raid.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/AbstractSmrPort.php"><a href="files/src-lib-default-abstractsmrport.html"><abbr title="src/lib/Default/AbstractSmrPort.php">AbstractSmrPort.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">603</span>
+    <span class="phpdocumentor-element-found-in__line">591</span>
 
     </aside>
 
@@ -6515,7 +6534,7 @@ calling this function directly.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/AbstractSmrPort.php"><a href="files/src-lib-default-abstractsmrport.html"><abbr title="src/lib/Default/AbstractSmrPort.php">AbstractSmrPort.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">132</span>
+    <span class="phpdocumentor-element-found-in__line">134</span>
 
     </aside>
 
@@ -6548,24 +6567,26 @@ calling this function directly.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/AbstractSmrPort.php"><a href="files/src-lib-default-abstractsmrport.html"><abbr title="src/lib/Default/AbstractSmrPort.php">AbstractSmrPort.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">439</span>
+    <span class="phpdocumentor-element-found-in__line">433</span>
 
     </aside>
 
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">public</span>
-                <span class="phpdocumentor-signature__name">sellGoods</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type">array&lt;string, string|int&gt;&nbsp;</span><span class="phpdocumentor-signature__argument__name">$good</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__return-type">int&nbsp;</span><span class="phpdocumentor-signature__argument__name">$goodsTraded</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__return-type">int&nbsp;</span><span class="phpdocumentor-signature__argument__name">$exp</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">void</span></code>
+                <span class="phpdocumentor-signature__name">sellGoods</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type"><a href="classes/Smr-TradeGood.html"><abbr title="\Smr\TradeGood">TradeGood</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$good</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__return-type">int&nbsp;</span><span class="phpdocumentor-signature__argument__name">$goodsTraded</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__return-type">int&nbsp;</span><span class="phpdocumentor-signature__argument__name">$exp</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">void</span></code>
 
-    
+        <section class="phpdocumentor-description"></section>
+
         <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
     <dl class="phpdocumentor-argument-list">
                     <dt class="phpdocumentor-argument-list__entry">
                 <span class="phpdocumentor-signature__argument__name">$good</span>
-                : <span class="phpdocumentor-signature__argument__return-type">array&lt;string, string|int&gt;</span>
+                : <span class="phpdocumentor-signature__argument__return-type"><a href="classes/Smr-TradeGood.html"><abbr title="\Smr\TradeGood">TradeGood</abbr></a></span>
                             </dt>
             <dd class="phpdocumentor-argument-list__definition">
-                
+                    <section class="phpdocumentor-description"></section>
+
             </dd>
                     <dt class="phpdocumentor-argument-list__entry">
                 <span class="phpdocumentor-signature__argument__name">$goodsTraded</span>
@@ -6606,7 +6627,7 @@ calling this function directly.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/AbstractSmrPort.php"><a href="files/src-lib-default-abstractsmrport.html"><abbr title="src/lib/Default/AbstractSmrPort.php">AbstractSmrPort.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">745</span>
+    <span class="phpdocumentor-element-found-in__line">733</span>
 
     </aside>
 
@@ -6650,7 +6671,7 @@ calling this function directly.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/AbstractSmrPort.php"><a href="files/src-lib-default-abstractsmrport.html"><abbr title="src/lib/Default/AbstractSmrPort.php">AbstractSmrPort.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">759</span>
+    <span class="phpdocumentor-element-found-in__line">747</span>
 
     </aside>
 
@@ -6694,7 +6715,7 @@ calling this function directly.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/AbstractSmrPort.php"><a href="files/src-lib-default-abstractsmrport.html"><abbr title="src/lib/Default/AbstractSmrPort.php">AbstractSmrPort.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">777</span>
+    <span class="phpdocumentor-element-found-in__line">765</span>
 
     </aside>
 
@@ -6738,7 +6759,7 @@ calling this function directly.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/AbstractSmrPort.php"><a href="files/src-lib-default-abstractsmrport.html"><abbr title="src/lib/Default/AbstractSmrPort.php">AbstractSmrPort.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">773</span>
+    <span class="phpdocumentor-element-found-in__line">761</span>
 
     </aside>
 
@@ -6771,7 +6792,7 @@ calling this function directly.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/AbstractSmrPort.php"><a href="files/src-lib-default-abstractsmrport.html"><abbr title="src/lib/Default/AbstractSmrPort.php">AbstractSmrPort.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">856</span>
+    <span class="phpdocumentor-element-found-in__line">844</span>
 
     </aside>
 
@@ -6815,7 +6836,7 @@ calling this function directly.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/AbstractSmrPort.php"><a href="files/src-lib-default-abstractsmrport.html"><abbr title="src/lib/Default/AbstractSmrPort.php">AbstractSmrPort.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">831</span>
+    <span class="phpdocumentor-element-found-in__line">819</span>
 
     </aside>
 
@@ -6859,7 +6880,7 @@ calling this function directly.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/AbstractSmrPort.php"><a href="files/src-lib-default-abstractsmrport.html"><abbr title="src/lib/Default/AbstractSmrPort.php">AbstractSmrPort.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">541</span>
+    <span class="phpdocumentor-element-found-in__line">529</span>
 
     </aside>
 
@@ -6867,7 +6888,7 @@ calling this function directly.</p>
 
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">public</span>
-                <span class="phpdocumentor-signature__name">setPortGoods</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type">array&lt;int, <abbr title="\TransactionType">TransactionType</abbr>&gt;&nbsp;</span><span class="phpdocumentor-signature__argument__name">$goods</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">bool</span></code>
+                <span class="phpdocumentor-signature__name">setPortGoods</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type">array&lt;int, <abbr title="\TransactionType">TransactionType</abbr>&gt;&nbsp;</span><span class="phpdocumentor-signature__argument__name">$goodTransactions</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">bool</span></code>
 
         <section class="phpdocumentor-description"><p>Only modifies goods that need to change.
 Returns false on invalid input.</p>
@@ -6876,7 +6897,7 @@ Returns false on invalid input.</p>
         <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
     <dl class="phpdocumentor-argument-list">
                     <dt class="phpdocumentor-argument-list__entry">
-                <span class="phpdocumentor-signature__argument__name">$goods</span>
+                <span class="phpdocumentor-signature__argument__name">$goodTransactions</span>
                 : <span class="phpdocumentor-signature__argument__return-type">array&lt;int, <abbr title="\TransactionType">TransactionType</abbr>&gt;</span>
                             </dt>
             <dd class="phpdocumentor-argument-list__definition">
@@ -6905,7 +6926,7 @@ Returns false on invalid input.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/AbstractSmrPort.php"><a href="files/src-lib-default-abstractsmrport.html"><abbr title="src/lib/Default/AbstractSmrPort.php">AbstractSmrPort.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">890</span>
+    <span class="phpdocumentor-element-found-in__line">878</span>
 
     </aside>
 
@@ -6949,7 +6970,7 @@ Returns false on invalid input.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/AbstractSmrPort.php"><a href="files/src-lib-default-abstractsmrport.html"><abbr title="src/lib/Default/AbstractSmrPort.php">AbstractSmrPort.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">984</span>
+    <span class="phpdocumentor-element-found-in__line">972</span>
 
     </aside>
 
@@ -6993,7 +7014,7 @@ Returns false on invalid input.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/AbstractSmrPort.php"><a href="files/src-lib-default-abstractsmrport.html"><abbr title="src/lib/Default/AbstractSmrPort.php">AbstractSmrPort.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">731</span>
+    <span class="phpdocumentor-element-found-in__line">719</span>
 
     </aside>
 
@@ -7037,7 +7058,7 @@ Returns false on invalid input.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/AbstractSmrPort.php"><a href="files/src-lib-default-abstractsmrport.html"><abbr title="src/lib/Default/AbstractSmrPort.php">AbstractSmrPort.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">802</span>
+    <span class="phpdocumentor-element-found-in__line">790</span>
 
     </aside>
 
@@ -7081,7 +7102,7 @@ Returns false on invalid input.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/AbstractSmrPort.php"><a href="files/src-lib-default-abstractsmrport.html"><abbr title="src/lib/Default/AbstractSmrPort.php">AbstractSmrPort.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">1316</span>
+    <span class="phpdocumentor-element-found-in__line">1311</span>
 
     </aside>
 
@@ -7123,24 +7144,26 @@ Returns false on invalid input.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/AbstractSmrPort.php"><a href="files/src-lib-default-abstractsmrport.html"><abbr title="src/lib/Default/AbstractSmrPort.php">AbstractSmrPort.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">446</span>
+    <span class="phpdocumentor-element-found-in__line">437</span>
 
     </aside>
 
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">public</span>
-                <span class="phpdocumentor-signature__name">stealGoods</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type">array&lt;string, string|int&gt;&nbsp;</span><span class="phpdocumentor-signature__argument__name">$good</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__return-type">int&nbsp;</span><span class="phpdocumentor-signature__argument__name">$goodsTraded</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">void</span></code>
+                <span class="phpdocumentor-signature__name">stealGoods</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type"><a href="classes/Smr-TradeGood.html"><abbr title="\Smr\TradeGood">TradeGood</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$good</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__return-type">int&nbsp;</span><span class="phpdocumentor-signature__argument__name">$goodsTraded</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">void</span></code>
 
-    
+        <section class="phpdocumentor-description"></section>
+
         <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
     <dl class="phpdocumentor-argument-list">
                     <dt class="phpdocumentor-argument-list__entry">
                 <span class="phpdocumentor-signature__argument__name">$good</span>
-                : <span class="phpdocumentor-signature__argument__return-type">array&lt;string, string|int&gt;</span>
+                : <span class="phpdocumentor-signature__argument__return-type"><a href="classes/Smr-TradeGood.html"><abbr title="\Smr\TradeGood">TradeGood</abbr></a></span>
                             </dt>
             <dd class="phpdocumentor-argument-list__definition">
-                
+                    <section class="phpdocumentor-description"></section>
+
             </dd>
                     <dt class="phpdocumentor-argument-list__entry">
                 <span class="phpdocumentor-signature__argument__name">$goodsTraded</span>
@@ -7173,21 +7196,21 @@ Returns false on invalid input.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/AbstractSmrPort.php"><a href="files/src-lib-default-abstractsmrport.html"><abbr title="src/lib/Default/AbstractSmrPort.php">AbstractSmrPort.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">1352</span>
+    <span class="phpdocumentor-element-found-in__line">1347</span>
 
     </aside>
 
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">public</span>
-                <span class="phpdocumentor-signature__name">takeDamage</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type">array&lt;string, int|bool&gt;&nbsp;</span><span class="phpdocumentor-signature__argument__name">$damage</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">array&lt;string, int|bool&gt;</span></code>
+                <span class="phpdocumentor-signature__name">takeDamage</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type"><abbr title="\WeaponDamageData">WeaponDamageData</abbr>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$damage</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">array&lt;string, int|bool&gt;</span></code>
 
     
         <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
     <dl class="phpdocumentor-argument-list">
                     <dt class="phpdocumentor-argument-list__entry">
                 <span class="phpdocumentor-signature__argument__name">$damage</span>
-                : <span class="phpdocumentor-signature__argument__return-type">array&lt;string, int|bool&gt;</span>
+                : <span class="phpdocumentor-signature__argument__return-type"><abbr title="\WeaponDamageData">WeaponDamageData</abbr></span>
                             </dt>
             <dd class="phpdocumentor-argument-list__definition">
                 
@@ -7215,7 +7238,7 @@ Returns false on invalid input.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/AbstractSmrPort.php"><a href="files/src-lib-default-abstractsmrport.html"><abbr title="src/lib/Default/AbstractSmrPort.php">AbstractSmrPort.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">1231</span>
+    <span class="phpdocumentor-element-found-in__line">1226</span>
 
     </aside>
 
@@ -7248,7 +7271,7 @@ Returns false on invalid input.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/AbstractSmrPort.php"><a href="files/src-lib-default-abstractsmrport.html"><abbr title="src/lib/Default/AbstractSmrPort.php">AbstractSmrPort.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">1153</span>
+    <span class="phpdocumentor-element-found-in__line">1141</span>
 
     </aside>
 
@@ -7281,7 +7304,7 @@ Returns false on invalid input.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/AbstractSmrPort.php"><a href="files/src-lib-default-abstractsmrport.html"><abbr title="src/lib/Default/AbstractSmrPort.php">AbstractSmrPort.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">468</span>
+    <span class="phpdocumentor-element-found-in__line">459</span>
 
     </aside>
 
@@ -7326,7 +7349,7 @@ ports to a specific level.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/AbstractSmrPort.php"><a href="files/src-lib-default-abstractsmrport.html"><abbr title="src/lib/Default/AbstractSmrPort.php">AbstractSmrPort.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">144</span>
+    <span class="phpdocumentor-element-found-in__line">146</span>
 
     </aside>
 
@@ -7386,7 +7409,7 @@ ports to a specific level.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/AbstractSmrPort.php"><a href="files/src-lib-default-abstractsmrport.html"><abbr title="src/lib/Default/AbstractSmrPort.php">AbstractSmrPort.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">1416</span>
+    <span class="phpdocumentor-element-found-in__line">1411</span>
 
     </aside>
 
@@ -7419,7 +7442,7 @@ ports to a specific level.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/AbstractSmrPort.php"><a href="files/src-lib-default-abstractsmrport.html"><abbr title="src/lib/Default/AbstractSmrPort.php">AbstractSmrPort.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">651</span>
+    <span class="phpdocumentor-element-found-in__line">639</span>
 
     </aside>
 
@@ -7452,7 +7475,7 @@ ports to a specific level.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/AbstractSmrPort.php"><a href="files/src-lib-default-abstractsmrport.html"><abbr title="src/lib/Default/AbstractSmrPort.php">AbstractSmrPort.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">513</span>
+    <span class="phpdocumentor-element-found-in__line">501</span>
 
     </aside>
 
@@ -7485,7 +7508,7 @@ ports to a specific level.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/AbstractSmrPort.php"><a href="files/src-lib-default-abstractsmrport.html"><abbr title="src/lib/Default/AbstractSmrPort.php">AbstractSmrPort.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">485</span>
+    <span class="phpdocumentor-element-found-in__line">476</span>
 
     </aside>
 
@@ -7532,7 +7555,7 @@ This is useful for determining what trade goods to add/remove.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/AbstractSmrPort.php"><a href="files/src-lib-default-abstractsmrport.html"><abbr title="src/lib/Default/AbstractSmrPort.php">AbstractSmrPort.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">1425</span>
+    <span class="phpdocumentor-element-found-in__line">1420</span>
 
     </aside>
 
@@ -7592,7 +7615,7 @@ This is useful for determining what trade goods to add/remove.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/AbstractSmrPort.php"><a href="files/src-lib-default-abstractsmrport.html"><abbr title="src/lib/Default/AbstractSmrPort.php">AbstractSmrPort.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">402</span>
+    <span class="phpdocumentor-element-found-in__line">405</span>
 
     </aside>
 
@@ -7644,16 +7667,17 @@ This is useful for determining what trade goods to add/remove.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/AbstractSmrPort.php"><a href="files/src-lib-default-abstractsmrport.html"><abbr title="src/lib/Default/AbstractSmrPort.php">AbstractSmrPort.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">500</span>
+    <span class="phpdocumentor-element-found-in__line">488</span>
 
     </aside>
 
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">protected</span>
-                <span class="phpdocumentor-signature__name">selectAndAddGood</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type">int&nbsp;</span><span class="phpdocumentor-signature__argument__name">$goodClass</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">array&lt;string, string|int&gt;</span></code>
+                <span class="phpdocumentor-signature__name">selectAndAddGood</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type">int&nbsp;</span><span class="phpdocumentor-signature__argument__name">$goodClass</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type"><a href="classes/Smr-TradeGood.html"><abbr title="\Smr\TradeGood">TradeGood</abbr></a></span></code>
 
-    
+        <section class="phpdocumentor-description"></section>
+
         <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
     <dl class="phpdocumentor-argument-list">
                     <dt class="phpdocumentor-argument-list__entry">
@@ -7669,7 +7693,7 @@ This is useful for determining what trade goods to add/remove.</p>
     
 
         <h5 class="phpdocumentor-return-value__heading">Return values</h5>
-    <span class="phpdocumentor-signature__response_type">array&lt;string, string|int&gt;</span>
+    <span class="phpdocumentor-signature__response_type"><a href="classes/Smr-TradeGood.html"><abbr title="\Smr\TradeGood">TradeGood</abbr></a></span>
             &mdash;
         
     
@@ -7687,7 +7711,7 @@ This is useful for determining what trade goods to add/remove.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/AbstractSmrPort.php"><a href="files/src-lib-default-abstractsmrport.html"><abbr title="src/lib/Default/AbstractSmrPort.php">AbstractSmrPort.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">636</span>
+    <span class="phpdocumentor-element-found-in__line">624</span>
 
     </aside>
 
@@ -7731,7 +7755,7 @@ This is useful for determining what trade goods to add/remove.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/AbstractSmrPort.php"><a href="files/src-lib-default-abstractsmrport.html"><abbr title="src/lib/Default/AbstractSmrPort.php">AbstractSmrPort.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">1149</span>
+    <span class="phpdocumentor-element-found-in__line">1137</span>
 
     </aside>
 
@@ -7775,7 +7799,7 @@ This is useful for determining what trade goods to add/remove.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/AbstractSmrPort.php"><a href="files/src-lib-default-abstractsmrport.html"><abbr title="src/lib/Default/AbstractSmrPort.php">AbstractSmrPort.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">1397</span>
+    <span class="phpdocumentor-element-found-in__line">1392</span>
 
     </aside>
 
@@ -7819,7 +7843,7 @@ This is useful for determining what trade goods to add/remove.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/AbstractSmrPort.php"><a href="files/src-lib-default-abstractsmrport.html"><abbr title="src/lib/Default/AbstractSmrPort.php">AbstractSmrPort.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">1391</span>
+    <span class="phpdocumentor-element-found-in__line">1386</span>
 
     </aside>
 
@@ -7863,7 +7887,7 @@ This is useful for determining what trade goods to add/remove.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/AbstractSmrPort.php"><a href="files/src-lib-default-abstractsmrport.html"><abbr title="src/lib/Default/AbstractSmrPort.php">AbstractSmrPort.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">1385</span>
+    <span class="phpdocumentor-element-found-in__line">1380</span>
 
     </aside>
 
@@ -7914,17 +7938,19 @@ This is useful for determining what trade goods to add/remove.</p>
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">protected</span>
-                <span class="phpdocumentor-signature__name">tradeGoods</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type">array&lt;string, string|int&gt;&nbsp;</span><span class="phpdocumentor-signature__argument__name">$good</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__return-type">int&nbsp;</span><span class="phpdocumentor-signature__argument__name">$goodsTraded</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__return-type">int&nbsp;</span><span class="phpdocumentor-signature__argument__name">$exp</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">void</span></code>
+                <span class="phpdocumentor-signature__name">tradeGoods</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type"><a href="classes/Smr-TradeGood.html"><abbr title="\Smr\TradeGood">TradeGood</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$good</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__return-type">int&nbsp;</span><span class="phpdocumentor-signature__argument__name">$goodsTraded</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__return-type">int&nbsp;</span><span class="phpdocumentor-signature__argument__name">$exp</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">void</span></code>
 
-    
+        <section class="phpdocumentor-description"></section>
+
         <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
     <dl class="phpdocumentor-argument-list">
                     <dt class="phpdocumentor-argument-list__entry">
                 <span class="phpdocumentor-signature__argument__name">$good</span>
-                : <span class="phpdocumentor-signature__argument__return-type">array&lt;string, string|int&gt;</span>
+                : <span class="phpdocumentor-signature__argument__return-type"><a href="classes/Smr-TradeGood.html"><abbr title="\Smr\TradeGood">TradeGood</abbr></a></span>
                             </dt>
             <dd class="phpdocumentor-argument-list__definition">
-                
+                    <section class="phpdocumentor-description"></section>
+
             </dd>
                     <dt class="phpdocumentor-argument-list__entry">
                 <span class="phpdocumentor-signature__argument__name">$goodsTraded</span>
@@ -7965,7 +7991,7 @@ This is useful for determining what trade goods to add/remove.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/AbstractSmrPort.php"><a href="files/src-lib-default-abstractsmrport.html"><abbr title="src/lib/Default/AbstractSmrPort.php">AbstractSmrPort.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">243</span>
+    <span class="phpdocumentor-element-found-in__line">245</span>
 
     </aside>
 
@@ -7998,14 +8024,14 @@ This is useful for determining what trade goods to add/remove.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/AbstractSmrPort.php"><a href="files/src-lib-default-abstractsmrport.html"><abbr title="src/lib/Default/AbstractSmrPort.php">AbstractSmrPort.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">264</span>
+    <span class="phpdocumentor-element-found-in__line">266</span>
 
     </aside>
 
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">private</span>
-                <span class="phpdocumentor-signature__name">getVisibleGoods</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type">array&lt;string|int, int&gt;&nbsp;</span><span class="phpdocumentor-signature__argument__name">$goodIDs</span></span><span class="phpdocumentor-signature__argument"><span>[</span><span>, </span><span class="phpdocumentor-signature__argument__return-type"><a href="classes/AbstractSmrPlayer.html"><abbr title="\AbstractSmrPlayer">AbstractSmrPlayer</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$player</span><span> = </span><span class="phpdocumentor-signature__argument__default-value">null</span><span> ]</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">array&lt;string|int, int&gt;</span></code>
+                <span class="phpdocumentor-signature__name">getVisibleGoods</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type">array&lt;string|int, int&gt;&nbsp;</span><span class="phpdocumentor-signature__argument__name">$goodIDs</span></span><span class="phpdocumentor-signature__argument"><span>[</span><span>, </span><span class="phpdocumentor-signature__argument__return-type"><a href="classes/AbstractSmrPlayer.html"><abbr title="\AbstractSmrPlayer">AbstractSmrPlayer</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$player</span><span> = </span><span class="phpdocumentor-signature__argument__default-value">null</span><span> ]</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">array&lt;int, <abbr title="\TradeGood">TradeGood</abbr>&gt;</span></code>
 
     
         <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
@@ -8030,7 +8056,7 @@ This is useful for determining what trade goods to add/remove.</p>
     
 
         <h5 class="phpdocumentor-return-value__heading">Return values</h5>
-    <span class="phpdocumentor-signature__response_type">array&lt;string|int, int&gt;</span>
+    <span class="phpdocumentor-signature__response_type">array&lt;int, <abbr title="\TradeGood">TradeGood</abbr>&gt;</span>
             &mdash;
         
     
@@ -8048,7 +8074,7 @@ This is useful for determining what trade goods to add/remove.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/AbstractSmrPort.php"><a href="files/src-lib-default-abstractsmrport.html"><abbr title="src/lib/Default/AbstractSmrPort.php">AbstractSmrPort.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">223</span>
+    <span class="phpdocumentor-element-found-in__line">225</span>
 
     </aside>
 
@@ -8100,7 +8126,7 @@ This is useful for determining what trade goods to add/remove.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/AbstractSmrPort.php"><a href="files/src-lib-default-abstractsmrport.html"><abbr title="src/lib/Default/AbstractSmrPort.php">AbstractSmrPort.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">1000</span>
+    <span class="phpdocumentor-element-found-in__line">988</span>
 
     </aside>
 
@@ -8144,7 +8170,7 @@ This is useful for determining what trade goods to add/remove.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/AbstractSmrPort.php"><a href="files/src-lib-default-abstractsmrport.html"><abbr title="src/lib/Default/AbstractSmrPort.php">AbstractSmrPort.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">359</span>
+    <span class="phpdocumentor-element-found-in__line">365</span>
 
     </aside>
 
@@ -8204,7 +8230,7 @@ This is useful for determining what trade goods to add/remove.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/AbstractSmrPort.php"><a href="files/src-lib-default-abstractsmrport.html"><abbr title="src/lib/Default/AbstractSmrPort.php">AbstractSmrPort.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">996</span>
+    <span class="phpdocumentor-element-found-in__line">984</span>
 
     </aside>
 

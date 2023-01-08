@@ -1056,21 +1056,6 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/AbstractSmrPlayer.html#method_getNextLevelPercentRemaining"
         },                {
-            "fqsen": "\\AbstractSmrPlayer\u003A\u003AgetNextLevel\u0028\u0029",
-            "name": "getNextLevel",
-            "summary": "",
-            "url": "classes/AbstractSmrPlayer.html#method_getNextLevel"
-        },                {
-            "fqsen": "\\AbstractSmrPlayer\u003A\u003AgetNextLevelExperience\u0028\u0029",
-            "name": "getNextLevelExperience",
-            "summary": "",
-            "url": "classes/AbstractSmrPlayer.html#method_getNextLevelExperience"
-        },                {
-            "fqsen": "\\AbstractSmrPlayer\u003A\u003AgetThisLevelExperience\u0028\u0029",
-            "name": "getThisLevelExperience",
-            "summary": "",
-            "url": "classes/AbstractSmrPlayer.html#method_getThisLevelExperience"
-        },                {
             "fqsen": "\\AbstractSmrPlayer\u003A\u003AsetExperience\u0028\u0029",
             "name": "setExperience",
             "summary": "",
@@ -1110,6 +1095,11 @@ Search.appendIndex(
             "name": "setLandedOnPlanet",
             "summary": "",
             "url": "classes/AbstractSmrPlayer.html#method_setLandedOnPlanet"
+        },                {
+            "fqsen": "\\AbstractSmrPlayer\u003A\u003AgetLevel\u0028\u0029",
+            "name": "getLevel",
+            "summary": "",
+            "url": "classes/AbstractSmrPlayer.html#method_getLevel"
         },                {
             "fqsen": "\\AbstractSmrPlayer\u003A\u003AgetLevelID\u0028\u0029",
             "name": "getLevelID",
@@ -1481,11 +1471,6 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/AbstractSmrPlayer.html#method_decreaseMilitaryPayment"
         },                {
-            "fqsen": "\\AbstractSmrPlayer\u003A\u003AgetBountiesData\u0028\u0029",
-            "name": "getBountiesData",
-            "summary": "",
-            "url": "classes/AbstractSmrPlayer.html#method_getBountiesData"
-        },                {
             "fqsen": "\\AbstractSmrPlayer\u003A\u003AgetClaimableBounties\u0028\u0029",
             "name": "getClaimableBounties",
             "summary": "Get\u0020bounties\u0020that\u0020can\u0020be\u0020claimed\u0020by\u0020this\u0020player.",
@@ -1501,16 +1486,6 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/AbstractSmrPlayer.html#method_hasBounties"
         },                {
-            "fqsen": "\\AbstractSmrPlayer\u003A\u003AgetBounty\u0028\u0029",
-            "name": "getBounty",
-            "summary": "",
-            "url": "classes/AbstractSmrPlayer.html#method_getBounty"
-        },                {
-            "fqsen": "\\AbstractSmrPlayer\u003A\u003AhasBounty\u0028\u0029",
-            "name": "hasBounty",
-            "summary": "",
-            "url": "classes/AbstractSmrPlayer.html#method_hasBounty"
-        },                {
             "fqsen": "\\AbstractSmrPlayer\u003A\u003AcreateBounty\u0028\u0029",
             "name": "createBounty",
             "summary": "",
@@ -1521,64 +1496,19 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/AbstractSmrPlayer.html#method_getNextBountyID"
         },                {
-            "fqsen": "\\AbstractSmrPlayer\u003A\u003AsetBounty\u0028\u0029",
-            "name": "setBounty",
+            "fqsen": "\\AbstractSmrPlayer\u003A\u003AgetActiveBounty\u0028\u0029",
+            "name": "getActiveBounty",
             "summary": "",
-            "url": "classes/AbstractSmrPlayer.html#method_setBounty"
+            "url": "classes/AbstractSmrPlayer.html#method_getActiveBounty"
         },                {
-            "fqsen": "\\AbstractSmrPlayer\u003A\u003AgetCurrentBounty\u0028\u0029",
-            "name": "getCurrentBounty",
+            "fqsen": "\\AbstractSmrPlayer\u003A\u003AhasActiveBounty\u0028\u0029",
+            "name": "hasActiveBounty",
             "summary": "",
-            "url": "classes/AbstractSmrPlayer.html#method_getCurrentBounty"
-        },                {
-            "fqsen": "\\AbstractSmrPlayer\u003A\u003AhasCurrentBounty\u0028\u0029",
-            "name": "hasCurrentBounty",
-            "summary": "",
-            "url": "classes/AbstractSmrPlayer.html#method_hasCurrentBounty"
-        },                {
-            "fqsen": "\\AbstractSmrPlayer\u003A\u003AgetCurrentBountyAmount\u0028\u0029",
-            "name": "getCurrentBountyAmount",
-            "summary": "",
-            "url": "classes/AbstractSmrPlayer.html#method_getCurrentBountyAmount"
-        },                {
-            "fqsen": "\\AbstractSmrPlayer\u003A\u003AsetCurrentBountyAmount\u0028\u0029",
-            "name": "setCurrentBountyAmount",
-            "summary": "",
-            "url": "classes/AbstractSmrPlayer.html#method_setCurrentBountyAmount"
-        },                {
-            "fqsen": "\\AbstractSmrPlayer\u003A\u003AincreaseCurrentBountyAmount\u0028\u0029",
-            "name": "increaseCurrentBountyAmount",
-            "summary": "",
-            "url": "classes/AbstractSmrPlayer.html#method_increaseCurrentBountyAmount"
-        },                {
-            "fqsen": "\\AbstractSmrPlayer\u003A\u003AdecreaseCurrentBountyAmount\u0028\u0029",
-            "name": "decreaseCurrentBountyAmount",
-            "summary": "",
-            "url": "classes/AbstractSmrPlayer.html#method_decreaseCurrentBountyAmount"
-        },                {
-            "fqsen": "\\AbstractSmrPlayer\u003A\u003AgetCurrentBountySmrCredits\u0028\u0029",
-            "name": "getCurrentBountySmrCredits",
-            "summary": "",
-            "url": "classes/AbstractSmrPlayer.html#method_getCurrentBountySmrCredits"
-        },                {
-            "fqsen": "\\AbstractSmrPlayer\u003A\u003AsetCurrentBountySmrCredits\u0028\u0029",
-            "name": "setCurrentBountySmrCredits",
-            "summary": "",
-            "url": "classes/AbstractSmrPlayer.html#method_setCurrentBountySmrCredits"
-        },                {
-            "fqsen": "\\AbstractSmrPlayer\u003A\u003AincreaseCurrentBountySmrCredits\u0028\u0029",
-            "name": "increaseCurrentBountySmrCredits",
-            "summary": "",
-            "url": "classes/AbstractSmrPlayer.html#method_increaseCurrentBountySmrCredits"
-        },                {
-            "fqsen": "\\AbstractSmrPlayer\u003A\u003AdecreaseCurrentBountySmrCredits\u0028\u0029",
-            "name": "decreaseCurrentBountySmrCredits",
-            "summary": "",
-            "url": "classes/AbstractSmrPlayer.html#method_decreaseCurrentBountySmrCredits"
+            "url": "classes/AbstractSmrPlayer.html#method_hasActiveBounty"
         },                {
             "fqsen": "\\AbstractSmrPlayer\u003A\u003AsetBountiesClaimable\u0028\u0029",
             "name": "setBountiesClaimable",
-            "summary": "",
+            "summary": "Mark\u0020all\u0020active\u0020bounties\u0020on\u0020this\u0020player\u0020as\u0020claimable\u0020by\u0020\u0024claimer",
             "url": "classes/AbstractSmrPlayer.html#method_setBountiesClaimable"
         },                {
             "fqsen": "\\AbstractSmrPlayer\u003A\u003AgetHOFData\u0028\u0029",
@@ -2336,11 +2266,6 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/AbstractSmrPlayer.html#property_hasHOFVisChanged"
         },                {
-            "fqsen": "\\AbstractSmrPlayer\u003A\u003A\u0024hasBountyChanged",
-            "name": "hasBountyChanged",
-            "summary": "",
-            "url": "classes/AbstractSmrPlayer.html#property_hasBountyChanged"
-        },                {
             "fqsen": "\\AbstractSmrPlayer\u003A\u003A\u0024gameID",
             "name": "gameID",
             "summary": "",
@@ -2418,12 +2343,12 @@ Search.appendIndex(
         },                {
             "fqsen": "\\AbstractSmrPort\u003A\u003AgetVisibleGoodsSold\u0028\u0029",
             "name": "getVisibleGoodsSold",
-            "summary": "Get\u0020IDs\u0020of\u0020goods\u0020that\u0020can\u0020be\u0020sold\u0020by\u0020\u0024player\u0020to\u0020the\u0020port",
+            "summary": "Get\u0020goods\u0020that\u0020can\u0020be\u0020sold\u0020by\u0020\u0024player\u0020to\u0020the\u0020port",
             "url": "classes/AbstractSmrPort.html#method_getVisibleGoodsSold"
         },                {
             "fqsen": "\\AbstractSmrPort\u003A\u003AgetVisibleGoodsBought\u0028\u0029",
             "name": "getVisibleGoodsBought",
-            "summary": "Get\u0020IDs\u0020of\u0020goods\u0020that\u0020can\u0020be\u0020bought\u0020by\u0020\u0024player\u0020from\u0020the\u0020port",
+            "summary": "Get\u0020goods\u0020that\u0020can\u0020be\u0020bought\u0020by\u0020\u0024player\u0020from\u0020the\u0020port",
             "url": "classes/AbstractSmrPort.html#method_getVisibleGoodsBought"
         },                {
             "fqsen": "\\AbstractSmrPort\u003A\u003AgetAllGoodIDs\u0028\u0029",
@@ -3421,15 +3346,15 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/AbstractSmrShip.html#method_hasIllusion"
         },                {
-            "fqsen": "\\AbstractSmrShip\u003A\u003AgetIllusionShip\u0028\u0029",
-            "name": "getIllusionShip",
-            "summary": "",
-            "url": "classes/AbstractSmrShip.html#method_getIllusionShip"
-        },                {
             "fqsen": "\\AbstractSmrShip\u003A\u003AhasActiveIllusion\u0028\u0029",
             "name": "hasActiveIllusion",
             "summary": "",
             "url": "classes/AbstractSmrShip.html#method_hasActiveIllusion"
+        },                {
+            "fqsen": "\\AbstractSmrShip\u003A\u003AgetIllusion\u0028\u0029",
+            "name": "getIllusion",
+            "summary": "",
+            "url": "classes/AbstractSmrShip.html#method_getIllusion"
         },                {
             "fqsen": "\\AbstractSmrShip\u003A\u003AsetIllusion\u0028\u0029",
             "name": "setIllusion",
@@ -3440,26 +3365,6 @@ Search.appendIndex(
             "name": "disableIllusion",
             "summary": "",
             "url": "classes/AbstractSmrShip.html#method_disableIllusion"
-        },                {
-            "fqsen": "\\AbstractSmrShip\u003A\u003AgetIllusionShipID\u0028\u0029",
-            "name": "getIllusionShipID",
-            "summary": "",
-            "url": "classes/AbstractSmrShip.html#method_getIllusionShipID"
-        },                {
-            "fqsen": "\\AbstractSmrShip\u003A\u003AgetIllusionShipName\u0028\u0029",
-            "name": "getIllusionShipName",
-            "summary": "",
-            "url": "classes/AbstractSmrShip.html#method_getIllusionShipName"
-        },                {
-            "fqsen": "\\AbstractSmrShip\u003A\u003AgetIllusionAttack\u0028\u0029",
-            "name": "getIllusionAttack",
-            "summary": "",
-            "url": "classes/AbstractSmrShip.html#method_getIllusionAttack"
-        },                {
-            "fqsen": "\\AbstractSmrShip\u003A\u003AgetIllusionDefense\u0028\u0029",
-            "name": "getIllusionDefense",
-            "summary": "",
-            "url": "classes/AbstractSmrShip.html#method_getIllusionDefense"
         },                {
             "fqsen": "\\AbstractSmrShip\u003A\u003AgetPlayer\u0028\u0029",
             "name": "getPlayer",
@@ -4126,11 +4031,6 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/Globals.html"
         },                {
-            "fqsen": "\\Globals\u003A\u003AinitialiseDatabase\u0028\u0029",
-            "name": "initialiseDatabase",
-            "summary": "",
-            "url": "classes/Globals.html#method_initialiseDatabase"
-        },                {
             "fqsen": "\\Globals\u003A\u003AgetAvailableLinks\u0028\u0029",
             "name": "getAvailableLinks",
             "summary": "",
@@ -4151,11 +4051,6 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/Globals.html#method_getGalacticPostEditorIDs"
         },                {
-            "fqsen": "\\Globals\u003A\u003AgetLevelRequirements\u0028\u0029",
-            "name": "getLevelRequirements",
-            "summary": "",
-            "url": "classes/Globals.html#method_getLevelRequirements"
-        },                {
             "fqsen": "\\Globals\u003A\u003AgetColouredRaceNameForRace\u0028\u0029",
             "name": "getColouredRaceNameForRace",
             "summary": "",
@@ -4165,36 +4060,6 @@ Search.appendIndex(
             "name": "getColouredRaceName",
             "summary": "",
             "url": "classes/Globals.html#method_getColouredRaceName"
-        },                {
-            "fqsen": "\\Globals\u003A\u003AgetGoods\u0028\u0029",
-            "name": "getGoods",
-            "summary": "",
-            "url": "classes/Globals.html#method_getGoods"
-        },                {
-            "fqsen": "\\Globals\u003A\u003AgetGood\u0028\u0029",
-            "name": "getGood",
-            "summary": "",
-            "url": "classes/Globals.html#method_getGood"
-        },                {
-            "fqsen": "\\Globals\u003A\u003AgetGoodName\u0028\u0029",
-            "name": "getGoodName",
-            "summary": "",
-            "url": "classes/Globals.html#method_getGoodName"
-        },                {
-            "fqsen": "\\Globals\u003A\u003AgetHardwareTypes\u0028\u0029",
-            "name": "getHardwareTypes",
-            "summary": "",
-            "url": "classes/Globals.html#method_getHardwareTypes"
-        },                {
-            "fqsen": "\\Globals\u003A\u003AgetHardwareName\u0028\u0029",
-            "name": "getHardwareName",
-            "summary": "",
-            "url": "classes/Globals.html#method_getHardwareName"
-        },                {
-            "fqsen": "\\Globals\u003A\u003AgetHardwareCost\u0028\u0029",
-            "name": "getHardwareCost",
-            "summary": "",
-            "url": "classes/Globals.html#method_getHardwareCost"
         },                {
             "fqsen": "\\Globals\u003A\u003AisFeatureRequestOpen\u0028\u0029",
             "name": "isFeatureRequestOpen",
@@ -4431,21 +4296,6 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/Globals.html#property_HIDDEN_PLAYERS"
         },                {
-            "fqsen": "\\Globals\u003A\u003A\u0024LEVEL_REQUIREMENTS",
-            "name": "LEVEL_REQUIREMENTS",
-            "summary": "",
-            "url": "classes/Globals.html#property_LEVEL_REQUIREMENTS"
-        },                {
-            "fqsen": "\\Globals\u003A\u003A\u0024GOODS",
-            "name": "GOODS",
-            "summary": "",
-            "url": "classes/Globals.html#property_GOODS"
-        },                {
-            "fqsen": "\\Globals\u003A\u003A\u0024HARDWARE_TYPES",
-            "name": "HARDWARE_TYPES",
-            "summary": "",
-            "url": "classes/Globals.html#property_HARDWARE_TYPES"
-        },                {
             "fqsen": "\\Globals\u003A\u003A\u0024FEATURE_REQUEST_OPEN",
             "name": "FEATURE_REQUEST_OPEN",
             "summary": "",
@@ -4460,11 +4310,6 @@ Search.appendIndex(
             "name": "AVAILABLE_LINKS",
             "summary": "",
             "url": "classes/Globals.html#property_AVAILABLE_LINKS"
-        },                {
-            "fqsen": "\\Globals\u003A\u003A\u0024db",
-            "name": "db",
-            "summary": "",
-            "url": "classes/Globals.html#property_db"
         },                {
             "fqsen": "\\echo_nav\u0028\u0029",
             "name": "echo_nav",
@@ -4543,7 +4388,7 @@ Search.appendIndex(
         },                {
             "fqsen": "\\Plotter\u003A\u003AfindDistanceToX\u0028\u0029",
             "name": "findDistanceToX",
-            "summary": "Returns\u0020the\u0020shortest\u0020path\u0020from\u0020\u0024sector\u0020to\u0020\u0024x\u0020as\u0020a\u0020Distance\u0020object.",
+            "summary": "Returns\u0020the\u0020shortest\u0020path\u0020from\u0020\u0024sector\u0020to\u0020\u0024x\u0020as\u0020a\u0020Path\u0020object.",
             "url": "classes/Plotter.html#method_findDistanceToX"
         },                {
             "fqsen": "\\Plotter\u003A\u003AcalculatePortToPortDistances\u0028\u0029",
@@ -6215,6 +6060,11 @@ Search.appendIndex(
             "name": "getNumberOfGalaxies",
             "summary": "",
             "url": "classes/SmrGame.html#method_getNumberOfGalaxies"
+        },                {
+            "fqsen": "\\SmrGame\u003A\u003AgetLastSectorID\u0028\u0029",
+            "name": "getLastSectorID",
+            "summary": "",
+            "url": "classes/SmrGame.html#method_getLastSectorID"
         },                {
             "fqsen": "\\SmrGame\u003A\u003Aequals\u0028\u0029",
             "name": "equals",
@@ -9341,15 +9191,135 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/Smr-Blackjack-Table.html#property_dealerHand"
         },                {
-            "fqsen": "\\Smr\\Bounties",
-            "name": "Bounties",
-            "summary": "Collection\u0020of\u0020functions\u0020to\u0020help\u0020with\u0020displaying\u0020bounties\u0020at\u0020HQ.",
-            "url": "classes/Smr-Bounties.html"
+            "fqsen": "\\Smr\\Bounty",
+            "name": "Bounty",
+            "summary": "",
+            "url": "classes/Smr-Bounty.html"
         },                {
-            "fqsen": "\\Smr\\Bounties\u003A\u003AgetMostWanted\u0028\u0029",
+            "fqsen": "\\Smr\\Bounty\u003A\u003AgetMostWanted\u0028\u0029",
             "name": "getMostWanted",
             "summary": "Returns\u0020a\u0020list\u0020of\u0020all\u0020active\u0020\u0028not\u0020claimable\u0029\u0020bounties\u0020for\u0020given\u0020location\u0020\u0024type.",
-            "url": "classes/Smr-Bounties.html#method_getMostWanted"
+            "url": "classes/Smr-Bounty.html#method_getMostWanted"
+        },                {
+            "fqsen": "\\Smr\\Bounty\u003A\u003AgetPlacedOnPlayer\u0028\u0029",
+            "name": "getPlacedOnPlayer",
+            "summary": "Get\u0020bounties\u0020that\u0020have\u0020been\u0020placed\u0020on\u0020this\u0020player.",
+            "url": "classes/Smr-Bounty.html#method_getPlacedOnPlayer"
+        },                {
+            "fqsen": "\\Smr\\Bounty\u003A\u003AgetClaimableByPlayer\u0028\u0029",
+            "name": "getClaimableByPlayer",
+            "summary": "Get\u0020bounties\u0020that\u0020can\u0020be\u0020claimed\u0020by\u0020this\u0020player.",
+            "url": "classes/Smr-Bounty.html#method_getClaimableByPlayer"
+        },                {
+            "fqsen": "\\Smr\\Bounty\u003A\u003AgetFromRecord\u0028\u0029",
+            "name": "getFromRecord",
+            "summary": "",
+            "url": "classes/Smr-Bounty.html#method_getFromRecord"
+        },                {
+            "fqsen": "\\Smr\\Bounty\u003A\u003A__construct\u0028\u0029",
+            "name": "__construct",
+            "summary": "",
+            "url": "classes/Smr-Bounty.html#method___construct"
+        },                {
+            "fqsen": "\\Smr\\Bounty\u003A\u003AgetCredits\u0028\u0029",
+            "name": "getCredits",
+            "summary": "",
+            "url": "classes/Smr-Bounty.html#method_getCredits"
+        },                {
+            "fqsen": "\\Smr\\Bounty\u003A\u003AgetSmrCredits\u0028\u0029",
+            "name": "getSmrCredits",
+            "summary": "",
+            "url": "classes/Smr-Bounty.html#method_getSmrCredits"
+        },                {
+            "fqsen": "\\Smr\\Bounty\u003A\u003AisActive\u0028\u0029",
+            "name": "isActive",
+            "summary": "",
+            "url": "classes/Smr-Bounty.html#method_isActive"
+        },                {
+            "fqsen": "\\Smr\\Bounty\u003A\u003AsetClaimable\u0028\u0029",
+            "name": "setClaimable",
+            "summary": "",
+            "url": "classes/Smr-Bounty.html#method_setClaimable"
+        },                {
+            "fqsen": "\\Smr\\Bounty\u003A\u003AsetClaimed\u0028\u0029",
+            "name": "setClaimed",
+            "summary": "",
+            "url": "classes/Smr-Bounty.html#method_setClaimed"
+        },                {
+            "fqsen": "\\Smr\\Bounty\u003A\u003AsetCredits\u0028\u0029",
+            "name": "setCredits",
+            "summary": "",
+            "url": "classes/Smr-Bounty.html#method_setCredits"
+        },                {
+            "fqsen": "\\Smr\\Bounty\u003A\u003AsetSmrCredits\u0028\u0029",
+            "name": "setSmrCredits",
+            "summary": "",
+            "url": "classes/Smr-Bounty.html#method_setSmrCredits"
+        },                {
+            "fqsen": "\\Smr\\Bounty\u003A\u003AincreaseCredits\u0028\u0029",
+            "name": "increaseCredits",
+            "summary": "",
+            "url": "classes/Smr-Bounty.html#method_increaseCredits"
+        },                {
+            "fqsen": "\\Smr\\Bounty\u003A\u003AincreaseSmrCredits\u0028\u0029",
+            "name": "increaseSmrCredits",
+            "summary": "",
+            "url": "classes/Smr-Bounty.html#method_increaseSmrCredits"
+        },                {
+            "fqsen": "\\Smr\\Bounty\u003A\u003AgetTargetPlayer\u0028\u0029",
+            "name": "getTargetPlayer",
+            "summary": "",
+            "url": "classes/Smr-Bounty.html#method_getTargetPlayer"
+        },                {
+            "fqsen": "\\Smr\\Bounty\u003A\u003Aupdate\u0028\u0029",
+            "name": "update",
+            "summary": "",
+            "url": "classes/Smr-Bounty.html#method_update"
+        },                {
+            "fqsen": "\\Smr\\Bounty\u003A\u003A\u0024targetID",
+            "name": "targetID",
+            "summary": "",
+            "url": "classes/Smr-Bounty.html#property_targetID"
+        },                {
+            "fqsen": "\\Smr\\Bounty\u003A\u003A\u0024bountyID",
+            "name": "bountyID",
+            "summary": "",
+            "url": "classes/Smr-Bounty.html#property_bountyID"
+        },                {
+            "fqsen": "\\Smr\\Bounty\u003A\u003A\u0024gameID",
+            "name": "gameID",
+            "summary": "",
+            "url": "classes/Smr-Bounty.html#property_gameID"
+        },                {
+            "fqsen": "\\Smr\\Bounty\u003A\u003A\u0024type",
+            "name": "type",
+            "summary": "",
+            "url": "classes/Smr-Bounty.html#property_type"
+        },                {
+            "fqsen": "\\Smr\\Bounty\u003A\u003A\u0024time",
+            "name": "time",
+            "summary": "",
+            "url": "classes/Smr-Bounty.html#property_time"
+        },                {
+            "fqsen": "\\Smr\\Bounty\u003A\u003A\u0024claimerID",
+            "name": "claimerID",
+            "summary": "",
+            "url": "classes/Smr-Bounty.html#property_claimerID"
+        },                {
+            "fqsen": "\\Smr\\Bounty\u003A\u003A\u0024credits",
+            "name": "credits",
+            "summary": "",
+            "url": "classes/Smr-Bounty.html#property_credits"
+        },                {
+            "fqsen": "\\Smr\\Bounty\u003A\u003A\u0024smrCredits",
+            "name": "smrCredits",
+            "summary": "",
+            "url": "classes/Smr-Bounty.html#property_smrCredits"
+        },                {
+            "fqsen": "\\Smr\\Bounty\u003A\u003A\u0024hasChanged",
+            "name": "hasChanged",
+            "summary": "",
+            "url": "classes/Smr-Bounty.html#property_hasChanged"
         },                {
             "fqsen": "\\Smr\\BountyType",
             "name": "BountyType",
@@ -10411,6 +10381,11 @@ Search.appendIndex(
             "summary": "Exception\u0020thrown\u0020when\u0020an\u0020alliance\u0020cannot\u0020be\u0020found\u0020in\u0020the\u0020database",
             "url": "classes/Smr-Exceptions-AllianceNotFound.html"
         },                {
+            "fqsen": "\\Smr\\Exceptions\\CachedPortNotFound",
+            "name": "CachedPortNotFound",
+            "summary": "Exception\u0020thrown\u0020when\u0020a\u0020CachedPort\u0020cannot\u0020be\u0020found\u0020in\u0020the\u0020database",
+            "url": "classes/Smr-Exceptions-CachedPortNotFound.html"
+        },                {
             "fqsen": "\\Smr\\Exceptions\\GalaxyNotFound",
             "name": "GalaxyNotFound",
             "summary": "Exception\u0020thrown\u0020when\u0020a\u0020galaxy\u0020cannot\u0020be\u0020found\u0020in\u0020the\u0020database",
@@ -10471,6 +10446,51 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/Smr-HallOfFame.html#method_buildBreadcrumb"
         },                {
+            "fqsen": "\\Smr\\HardwareType",
+            "name": "HardwareType",
+            "summary": "",
+            "url": "classes/Smr-HardwareType.html"
+        },                {
+            "fqsen": "\\Smr\\HardwareType\u003A\u003AclearCache\u0028\u0029",
+            "name": "clearCache",
+            "summary": "",
+            "url": "classes/Smr-HardwareType.html#method_clearCache"
+        },                {
+            "fqsen": "\\Smr\\HardwareType\u003A\u003AgetAll\u0028\u0029",
+            "name": "getAll",
+            "summary": "",
+            "url": "classes/Smr-HardwareType.html#method_getAll"
+        },                {
+            "fqsen": "\\Smr\\HardwareType\u003A\u003Aget\u0028\u0029",
+            "name": "get",
+            "summary": "",
+            "url": "classes/Smr-HardwareType.html#method_get"
+        },                {
+            "fqsen": "\\Smr\\HardwareType\u003A\u003A__construct\u0028\u0029",
+            "name": "__construct",
+            "summary": "",
+            "url": "classes/Smr-HardwareType.html#method___construct"
+        },                {
+            "fqsen": "\\Smr\\HardwareType\u003A\u003A\u0024CACHE_HARDWARE_TYPES",
+            "name": "CACHE_HARDWARE_TYPES",
+            "summary": "",
+            "url": "classes/Smr-HardwareType.html#property_CACHE_HARDWARE_TYPES"
+        },                {
+            "fqsen": "\\Smr\\HardwareType\u003A\u003A\u0024typeID",
+            "name": "typeID",
+            "summary": "",
+            "url": "classes/Smr-HardwareType.html#property_typeID"
+        },                {
+            "fqsen": "\\Smr\\HardwareType\u003A\u003A\u0024name",
+            "name": "name",
+            "summary": "",
+            "url": "classes/Smr-HardwareType.html#property_name"
+        },                {
+            "fqsen": "\\Smr\\HardwareType\u003A\u003A\u0024cost",
+            "name": "cost",
+            "summary": "",
+            "url": "classes/Smr-HardwareType.html#property_cost"
+        },                {
             "fqsen": "\\Smr\\Login\\Redirect",
             "name": "Redirect",
             "summary": "Collection\u0020of\u0020functions\u0020to\u0020help\u0020with\u0020login\u0020redirection.",
@@ -10500,6 +10520,16 @@ Search.appendIndex(
             "name": "getLottoInfo",
             "summary": "",
             "url": "classes/Smr-Lotto.html#method_getLottoInfo"
+        },                {
+            "fqsen": "\\Smr\\Lotto\u003A\u003ATICKET_COST",
+            "name": "TICKET_COST",
+            "summary": "",
+            "url": "classes/Smr-Lotto.html#constant_TICKET_COST"
+        },                {
+            "fqsen": "\\Smr\\Lotto\u003A\u003AWIN_FRAC",
+            "name": "WIN_FRAC",
+            "summary": "",
+            "url": "classes/Smr-Lotto.html#constant_WIN_FRAC"
         },                {
             "fqsen": "\\Smr\\Messages",
             "name": "Messages",
@@ -11066,6 +11096,61 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/Smr-PlanetTypes-TerranPlanet.html#constant_STRUCTURES"
         },                {
+            "fqsen": "\\Smr\\PlayerLevel",
+            "name": "PlayerLevel",
+            "summary": "",
+            "url": "classes/Smr-PlayerLevel.html"
+        },                {
+            "fqsen": "\\Smr\\PlayerLevel\u003A\u003AclearCache\u0028\u0029",
+            "name": "clearCache",
+            "summary": "",
+            "url": "classes/Smr-PlayerLevel.html#method_clearCache"
+        },                {
+            "fqsen": "\\Smr\\PlayerLevel\u003A\u003AgetAll\u0028\u0029",
+            "name": "getAll",
+            "summary": "",
+            "url": "classes/Smr-PlayerLevel.html#method_getAll"
+        },                {
+            "fqsen": "\\Smr\\PlayerLevel\u003A\u003Aget\u0028\u0029",
+            "name": "get",
+            "summary": "",
+            "url": "classes/Smr-PlayerLevel.html#method_get"
+        },                {
+            "fqsen": "\\Smr\\PlayerLevel\u003A\u003AgetMax\u0028\u0029",
+            "name": "getMax",
+            "summary": "",
+            "url": "classes/Smr-PlayerLevel.html#method_getMax"
+        },                {
+            "fqsen": "\\Smr\\PlayerLevel\u003A\u003A__construct\u0028\u0029",
+            "name": "__construct",
+            "summary": "",
+            "url": "classes/Smr-PlayerLevel.html#method___construct"
+        },                {
+            "fqsen": "\\Smr\\PlayerLevel\u003A\u003Anext\u0028\u0029",
+            "name": "next",
+            "summary": "",
+            "url": "classes/Smr-PlayerLevel.html#method_next"
+        },                {
+            "fqsen": "\\Smr\\PlayerLevel\u003A\u003A\u0024CACHE_LEVELS",
+            "name": "CACHE_LEVELS",
+            "summary": "",
+            "url": "classes/Smr-PlayerLevel.html#property_CACHE_LEVELS"
+        },                {
+            "fqsen": "\\Smr\\PlayerLevel\u003A\u003A\u0024id",
+            "name": "id",
+            "summary": "",
+            "url": "classes/Smr-PlayerLevel.html#property_id"
+        },                {
+            "fqsen": "\\Smr\\PlayerLevel\u003A\u003A\u0024name",
+            "name": "name",
+            "summary": "",
+            "url": "classes/Smr-PlayerLevel.html#property_name"
+        },                {
+            "fqsen": "\\Smr\\PlayerLevel\u003A\u003A\u0024expRequired",
+            "name": "expRequired",
+            "summary": "",
+            "url": "classes/Smr-PlayerLevel.html#property_expRequired"
+        },                {
             "fqsen": "\\Smr\\PlotGroup",
             "name": "PlotGroup",
             "summary": "Enumerates\u0020the\u0020\u0022Plot\u0020to\u0020Nearest\u0022\u0020categories",
@@ -11335,6 +11420,11 @@ Search.appendIndex(
             "name": "getOneWayRoutes",
             "summary": "Recurse\u0020through\u0020the\u0020Route\u0020tree\u0020to\u0020get\u0020an\u0020ordered\u0020list.",
             "url": "classes/Smr-Routes-OneWayRoute.html#method_getOneWayRoutes"
+        },                {
+            "fqsen": "\\Smr\\Routes\\OneWayRoute\u003A\u003AgetGoodName\u0028\u0029",
+            "name": "getGoodName",
+            "summary": "",
+            "url": "classes/Smr-Routes-OneWayRoute.html#method_getGoodName"
         },                {
             "fqsen": "\\Smr\\Routes\\OneWayRoute\u003A\u003AgetRouteString\u0028\u0029",
             "name": "getRouteString",
@@ -11691,6 +11781,36 @@ Search.appendIndex(
             "summary": "",
             "url": ""
         },                {
+            "fqsen": "\\Smr\\ShipIllusion",
+            "name": "ShipIllusion",
+            "summary": "Data\u0020storage\u0020for\u0020the\u0020SmrShip\u003A\u003AillusionShip\u0020property.",
+            "url": "classes/Smr-ShipIllusion.html"
+        },                {
+            "fqsen": "\\Smr\\ShipIllusion\u003A\u003A__construct\u0028\u0029",
+            "name": "__construct",
+            "summary": "",
+            "url": "classes/Smr-ShipIllusion.html#method___construct"
+        },                {
+            "fqsen": "\\Smr\\ShipIllusion\u003A\u003AgetName\u0028\u0029",
+            "name": "getName",
+            "summary": "",
+            "url": "classes/Smr-ShipIllusion.html#method_getName"
+        },                {
+            "fqsen": "\\Smr\\ShipIllusion\u003A\u003A\u0024shipTypeID",
+            "name": "shipTypeID",
+            "summary": "",
+            "url": "classes/Smr-ShipIllusion.html#property_shipTypeID"
+        },                {
+            "fqsen": "\\Smr\\ShipIllusion\u003A\u003A\u0024attackRating",
+            "name": "attackRating",
+            "summary": "",
+            "url": "classes/Smr-ShipIllusion.html#property_attackRating"
+        },                {
+            "fqsen": "\\Smr\\ShipIllusion\u003A\u003A\u0024defenseRating",
+            "name": "defenseRating",
+            "summary": "",
+            "url": "classes/Smr-ShipIllusion.html#property_defenseRating"
+        },                {
             "fqsen": "\\Smr\\SocialLogin\\Facebook",
             "name": "Facebook",
             "summary": "Defines\u0020the\u0020methods\u0020to\u0020be\u0020implemented\u0020by\u0020each\u0020social\u0020login\u0020platform.",
@@ -11950,6 +12070,76 @@ Search.appendIndex(
             "name": "listjsInclude",
             "summary": "Defines\u0020a\u0020listjs_include.js\u0020function\u0020to\u0020call\u0020at\u0020the\u0020end\u0020of\u0020the\u0020HTML\u0020body.",
             "url": "classes/Smr-Template.html#property_listjsInclude"
+        },                {
+            "fqsen": "\\Smr\\TradeGood",
+            "name": "TradeGood",
+            "summary": "",
+            "url": "classes/Smr-TradeGood.html"
+        },                {
+            "fqsen": "\\Smr\\TradeGood\u003A\u003AclearCache\u0028\u0029",
+            "name": "clearCache",
+            "summary": "",
+            "url": "classes/Smr-TradeGood.html#method_clearCache"
+        },                {
+            "fqsen": "\\Smr\\TradeGood\u003A\u003AgetAll\u0028\u0029",
+            "name": "getAll",
+            "summary": "",
+            "url": "classes/Smr-TradeGood.html#method_getAll"
+        },                {
+            "fqsen": "\\Smr\\TradeGood\u003A\u003AgetAllIDs\u0028\u0029",
+            "name": "getAllIDs",
+            "summary": "",
+            "url": "classes/Smr-TradeGood.html#method_getAllIDs"
+        },                {
+            "fqsen": "\\Smr\\TradeGood\u003A\u003Aget\u0028\u0029",
+            "name": "get",
+            "summary": "",
+            "url": "classes/Smr-TradeGood.html#method_get"
+        },                {
+            "fqsen": "\\Smr\\TradeGood\u003A\u003A__construct\u0028\u0029",
+            "name": "__construct",
+            "summary": "",
+            "url": "classes/Smr-TradeGood.html#method___construct"
+        },                {
+            "fqsen": "\\Smr\\TradeGood\u003A\u003AgetImageHTML\u0028\u0029",
+            "name": "getImageHTML",
+            "summary": "",
+            "url": "classes/Smr-TradeGood.html#method_getImageHTML"
+        },                {
+            "fqsen": "\\Smr\\TradeGood\u003A\u003A\u0024CACHE_GOODS",
+            "name": "CACHE_GOODS",
+            "summary": "",
+            "url": "classes/Smr-TradeGood.html#property_CACHE_GOODS"
+        },                {
+            "fqsen": "\\Smr\\TradeGood\u003A\u003A\u0024id",
+            "name": "id",
+            "summary": "",
+            "url": "classes/Smr-TradeGood.html#property_id"
+        },                {
+            "fqsen": "\\Smr\\TradeGood\u003A\u003A\u0024name",
+            "name": "name",
+            "summary": "",
+            "url": "classes/Smr-TradeGood.html#property_name"
+        },                {
+            "fqsen": "\\Smr\\TradeGood\u003A\u003A\u0024maxPortAmount",
+            "name": "maxPortAmount",
+            "summary": "",
+            "url": "classes/Smr-TradeGood.html#property_maxPortAmount"
+        },                {
+            "fqsen": "\\Smr\\TradeGood\u003A\u003A\u0024basePrice",
+            "name": "basePrice",
+            "summary": "",
+            "url": "classes/Smr-TradeGood.html#property_basePrice"
+        },                {
+            "fqsen": "\\Smr\\TradeGood\u003A\u003A\u0024class",
+            "name": "class",
+            "summary": "",
+            "url": "classes/Smr-TradeGood.html#property_class"
+        },                {
+            "fqsen": "\\Smr\\TradeGood\u003A\u003A\u0024alignRestriction",
+            "name": "alignRestriction",
+            "summary": "",
+            "url": "classes/Smr-TradeGood.html#property_alignRestriction"
         },                {
             "fqsen": "\\Smr\\TurnsLevel",
             "name": "TurnsLevel",
