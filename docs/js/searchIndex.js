@@ -2906,11 +2906,6 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/AbstractSmrPort.html#method_killPortByPlayer"
         },                {
-            "fqsen": "\\AbstractSmrPort\u003A\u003AhasX\u0028\u0029",
-            "name": "hasX",
-            "summary": "",
-            "url": "classes/AbstractSmrPort.html#method_hasX"
-        },                {
             "fqsen": "\\AbstractSmrPort\u003A\u003ADAMAGE_NEEDED_FOR_ALIGNMENT_CHANGE",
             "name": "DAMAGE_NEEDED_FOR_ALIGNMENT_CHANGE",
             "summary": "",
@@ -12140,6 +12135,26 @@ Search.appendIndex(
             "name": "alignRestriction",
             "summary": "",
             "url": "classes/Smr-TradeGood.html#property_alignRestriction"
+        },                {
+            "fqsen": "\\Smr\\TradeGoodTransaction",
+            "name": "TradeGoodTransaction",
+            "summary": "Data\u0020class\u0020for\u0020defining\u0020the\u0020good\u0020and\u0020transaction\u0020type\u0020of\u0020a\u0020TradeGood\ntransaction.",
+            "url": "classes/Smr-TradeGoodTransaction.html"
+        },                {
+            "fqsen": "\\Smr\\TradeGoodTransaction\u003A\u003A__construct\u0028\u0029",
+            "name": "__construct",
+            "summary": "",
+            "url": "classes/Smr-TradeGoodTransaction.html#method___construct"
+        },                {
+            "fqsen": "\\Smr\\TradeGoodTransaction\u003A\u003A\u0024goodID",
+            "name": "goodID",
+            "summary": "",
+            "url": "classes/Smr-TradeGoodTransaction.html#property_goodID"
+        },                {
+            "fqsen": "\\Smr\\TradeGoodTransaction\u003A\u003A\u0024transactionType",
+            "name": "transactionType",
+            "summary": "",
+            "url": "classes/Smr-TradeGoodTransaction.html#property_transactionType"
         },                {
             "fqsen": "\\Smr\\TurnsLevel",
             "name": "TurnsLevel",
