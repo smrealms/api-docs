@@ -8626,66 +8626,6 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/SmrWeaponType.html#property_weaponTypeID"
         },                {
-            "fqsen": "\\Sorter",
-            "name": "Sorter",
-            "summary": "",
-            "url": "classes/Sorter.html"
-        },                {
-            "fqsen": "\\Sorter\u003A\u003AcmpStrProp\u0028\u0029",
-            "name": "cmpStrProp",
-            "summary": "",
-            "url": "classes/Sorter.html#method_cmpStrProp"
-        },                {
-            "fqsen": "\\Sorter\u003A\u003AcmpNumElement\u0028\u0029",
-            "name": "cmpNumElement",
-            "summary": "",
-            "url": "classes/Sorter.html#method_cmpNumElement"
-        },                {
-            "fqsen": "\\Sorter\u003A\u003AcmpNumProp\u0028\u0029",
-            "name": "cmpNumProp",
-            "summary": "",
-            "url": "classes/Sorter.html#method_cmpNumProp"
-        },                {
-            "fqsen": "\\Sorter\u003A\u003AcmpNumMethod\u0028\u0029",
-            "name": "cmpNumMethod",
-            "summary": "",
-            "url": "classes/Sorter.html#method_cmpNumMethod"
-        },                {
-            "fqsen": "\\Sorter\u003A\u003AcmpNum\u0028\u0029",
-            "name": "cmpNum",
-            "summary": "",
-            "url": "classes/Sorter.html#method_cmpNum"
-        },                {
-            "fqsen": "\\Sorter\u003A\u003AsortByStrProp\u0028\u0029",
-            "name": "sortByStrProp",
-            "summary": "",
-            "url": "classes/Sorter.html#method_sortByStrProp"
-        },                {
-            "fqsen": "\\Sorter\u003A\u003AsortByNumElement\u0028\u0029",
-            "name": "sortByNumElement",
-            "summary": "",
-            "url": "classes/Sorter.html#method_sortByNumElement"
-        },                {
-            "fqsen": "\\Sorter\u003A\u003AsortByNumProp\u0028\u0029",
-            "name": "sortByNumProp",
-            "summary": "",
-            "url": "classes/Sorter.html#method_sortByNumProp"
-        },                {
-            "fqsen": "\\Sorter\u003A\u003AsortByNumMethod\u0028\u0029",
-            "name": "sortByNumMethod",
-            "summary": "",
-            "url": "classes/Sorter.html#method_sortByNumMethod"
-        },                {
-            "fqsen": "\\Sorter\u003A\u003A\u0024sortKey",
-            "name": "sortKey",
-            "summary": "",
-            "url": "classes/Sorter.html#property_sortKey"
-        },                {
-            "fqsen": "\\Sorter\u003A\u003A\u0024reverseOrder",
-            "name": "reverseOrder",
-            "summary": "",
-            "url": "classes/Sorter.html#property_reverseOrder"
-        },                {
             "fqsen": "\\Traits\\CombatWeaponForce",
             "name": "CombatWeaponForce",
             "summary": "Common\u0020interface\u0020used\u0020by\u0020the\u0020subset\u0020of\u0020AbstractSmrCombatWeapon\u0020classes\nthat\u0020are\u0020used\u0020for\u0020forces\u0020\u0028mines,\u0020combat\u0020drones,\u0020and\u0020scout\u0020drones\u0029.",
