@@ -56,10 +56,6 @@
                     <section class="phpdocumentor-sidebar__category">
             <h2 class="phpdocumentor-sidebar__category-header">Namespaces</h2>
                                     <h4 class="phpdocumentor-sidebar__root-namespace">
-    <a href="namespaces/traits.html" class="">Traits</a>
-</h4>
-
-                                    <h4 class="phpdocumentor-sidebar__root-namespace">
     <a href="namespaces/smr.html" class="-active">Smr</a>
 </h4>
     <ul class="phpdocumentor-list">
@@ -73,6 +69,10 @@
             </li>
                     <li>
                 <a href="namespaces/smr-chess.html" class="">Chess</a>
+                
+            </li>
+                    <li>
+                <a href="namespaces/smr-combat.html" class="">Combat</a>
                 
             </li>
                     <li>
@@ -105,6 +105,10 @@
             </li>
                     <li>
                 <a href="namespaces/smr-sociallogin.html" class="">SocialLogin</a>
+                
+            </li>
+                    <li>
+                <a href="namespaces/smr-traits.html" class="">Traits</a>
                 
             </li>
             </ul>
@@ -148,6 +152,7 @@
             <dt class="phpdocumentor-table-of-contents__entry -namespace"><a href="namespaces/smr-admin.html"><abbr title="\Smr\Admin">Admin</abbr></a></dt>
             <dt class="phpdocumentor-table-of-contents__entry -namespace"><a href="namespaces/smr-blackjack.html"><abbr title="\Smr\Blackjack">Blackjack</abbr></a></dt>
             <dt class="phpdocumentor-table-of-contents__entry -namespace"><a href="namespaces/smr-chess.html"><abbr title="\Smr\Chess">Chess</abbr></a></dt>
+            <dt class="phpdocumentor-table-of-contents__entry -namespace"><a href="namespaces/smr-combat.html"><abbr title="\Smr\Combat">Combat</abbr></a></dt>
             <dt class="phpdocumentor-table-of-contents__entry -namespace"><a href="namespaces/smr-container.html"><abbr title="\Smr\Container">Container</abbr></a></dt>
             <dt class="phpdocumentor-table-of-contents__entry -namespace"><a href="namespaces/smr-discord.html"><abbr title="\Smr\Discord">Discord</abbr></a></dt>
             <dt class="phpdocumentor-table-of-contents__entry -namespace"><a href="namespaces/smr-exceptions.html"><abbr title="\Smr\Exceptions">Exceptions</abbr></a></dt>
@@ -156,6 +161,7 @@
             <dt class="phpdocumentor-table-of-contents__entry -namespace"><a href="namespaces/smr-planettypes.html"><abbr title="\Smr\PlanetTypes">PlanetTypes</abbr></a></dt>
             <dt class="phpdocumentor-table-of-contents__entry -namespace"><a href="namespaces/smr-routes.html"><abbr title="\Smr\Routes">Routes</abbr></a></dt>
             <dt class="phpdocumentor-table-of-contents__entry -namespace"><a href="namespaces/smr-sociallogin.html"><abbr title="\Smr\SocialLogin">SocialLogin</abbr></a></dt>
+            <dt class="phpdocumentor-table-of-contents__entry -namespace"><a href="namespaces/smr-traits.html"><abbr title="\Smr\Traits">Traits</abbr></a></dt>
     </dl>
 
 <h3 id="interfaces_class_traits">
@@ -165,11 +171,21 @@
 
 <dl class="phpdocumentor-table-of-contents">
     
+            <dt class="phpdocumentor-table-of-contents__entry -class"><a href="classes/Smr-AbstractPlayer.html"><abbr title="\Smr\AbstractPlayer">AbstractPlayer</abbr></a></dt>
+        <dd></dd>
+            <dt class="phpdocumentor-table-of-contents__entry -class"><a href="classes/Smr-AbstractShip.html"><abbr title="\Smr\AbstractShip">AbstractShip</abbr></a></dt>
+        <dd>Properties and methods for a ship instance.</dd>
             <dt class="phpdocumentor-table-of-contents__entry -class"><a href="classes/Smr-AdminPermissions.html"><abbr title="\Smr\AdminPermissions">AdminPermissions</abbr></a></dt>
         <dd></dd>
+            <dt class="phpdocumentor-table-of-contents__entry -class"><a href="classes/Smr-Alliance.html"><abbr title="\Smr\Alliance">Alliance</abbr></a></dt>
+        <dd></dd>
+            <dt class="phpdocumentor-table-of-contents__entry -class"><a href="classes/Smr-AllianceInvite.html"><abbr title="\Smr\AllianceInvite">AllianceInvite</abbr></a></dt>
+        <dd>Object interfacing with the alliance_invites_player table.</dd>
             <dt class="phpdocumentor-table-of-contents__entry -class"><a href="classes/Smr-BarDrink.html"><abbr title="\Smr\BarDrink">BarDrink</abbr></a></dt>
         <dd>Provides details about bar drinks</dd>
             <dt class="phpdocumentor-table-of-contents__entry -class"><a href="classes/Smr-Bounty.html"><abbr title="\Smr\Bounty">Bounty</abbr></a></dt>
+        <dd></dd>
+            <dt class="phpdocumentor-table-of-contents__entry -class"><a href="classes/Smr-Council.html"><abbr title="\Smr\Council">Council</abbr></a></dt>
         <dd></dd>
             <dt class="phpdocumentor-table-of-contents__entry -class"><a href="classes/Smr-CouncilVoting.html"><abbr title="\Smr\CouncilVoting">CouncilVoting</abbr></a></dt>
         <dd>Collection of functions to help process council voting.</dd>
@@ -184,36 +200,72 @@
             <dt class="phpdocumentor-table-of-contents__entry -class"><a href="classes/Smr-DisplayNameValidator.html"><abbr title="\Smr\DisplayNameValidator">DisplayNameValidator</abbr></a></dt>
         <dd>Displayed names (player names, Hall of Fame names, etc.) must all follow a
 basic set of rules, which are defined here.</dd>
+            <dt class="phpdocumentor-table-of-contents__entry -class"><a href="classes/Smr-DummyPlayer.html"><abbr title="\Smr\DummyPlayer">DummyPlayer</abbr></a></dt>
+        <dd></dd>
+            <dt class="phpdocumentor-table-of-contents__entry -class"><a href="classes/Smr-DummyShip.html"><abbr title="\Smr\DummyShip">DummyShip</abbr></a></dt>
+        <dd>Properties and methods for a ship instance.</dd>
+            <dt class="phpdocumentor-table-of-contents__entry -class"><a href="classes/Smr-EnhancedWeaponEvent.html"><abbr title="\Smr\EnhancedWeaponEvent">EnhancedWeaponEvent</abbr></a></dt>
+        <dd>Defines enhanced weapon sale events for weapon shops.</dd>
             <dt class="phpdocumentor-table-of-contents__entry -class"><a href="classes/Smr-Epoch.html"><abbr title="\Smr\Epoch">Epoch</abbr></a></dt>
         <dd>Stores the current time as a fixed value.</dd>
+            <dt class="phpdocumentor-table-of-contents__entry -class"><a href="classes/Smr-Force.html"><abbr title="\Smr\Force">Force</abbr></a></dt>
+        <dd></dd>
+            <dt class="phpdocumentor-table-of-contents__entry -class"><a href="classes/Smr-Galaxy.html"><abbr title="\Smr\Galaxy">Galaxy</abbr></a></dt>
+        <dd></dd>
+            <dt class="phpdocumentor-table-of-contents__entry -class"><a href="classes/Smr-Game.html"><abbr title="\Smr\Game">Game</abbr></a></dt>
+        <dd></dd>
+            <dt class="phpdocumentor-table-of-contents__entry -class"><a href="classes/Smr-Globals.html"><abbr title="\Smr\Globals">Globals</abbr></a></dt>
+        <dd></dd>
             <dt class="phpdocumentor-table-of-contents__entry -class"><a href="classes/Smr-HallOfFame.html"><abbr title="\Smr\HallOfFame">HallOfFame</abbr></a></dt>
         <dd>Collection of functions to help display the Hall of Fame tables.</dd>
             <dt class="phpdocumentor-table-of-contents__entry -class"><a href="classes/Smr-HardwareType.html"><abbr title="\Smr\HardwareType">HardwareType</abbr></a></dt>
         <dd></dd>
+            <dt class="phpdocumentor-table-of-contents__entry -class"><a href="classes/Smr-Location.html"><abbr title="\Smr\Location">Location</abbr></a></dt>
+        <dd></dd>
             <dt class="phpdocumentor-table-of-contents__entry -class"><a href="classes/Smr-Lotto.html"><abbr title="\Smr\Lotto">Lotto</abbr></a></dt>
         <dd>Collection of functions to help with Lotto processing.</dd>
+            <dt class="phpdocumentor-table-of-contents__entry -class"><a href="classes/Smr-Menu.html"><abbr title="\Smr\Menu">Menu</abbr></a></dt>
+        <dd>Creates menu navigation bars.</dd>
             <dt class="phpdocumentor-table-of-contents__entry -class"><a href="classes/Smr-Messages.html"><abbr title="\Smr\Messages">Messages</abbr></a></dt>
         <dd>Collection of functions to help display messages and message boxes.</dd>
             <dt class="phpdocumentor-table-of-contents__entry -class"><a href="classes/Smr-News.html"><abbr title="\Smr\News">News</abbr></a></dt>
         <dd>Collection of functions to help with displaying news.</dd>
             <dt class="phpdocumentor-table-of-contents__entry -class"><a href="classes/Smr-Path.html"><abbr title="\Smr\Path">Path</abbr></a></dt>
         <dd>Class used to keep track of paths between two sectors.</dd>
+            <dt class="phpdocumentor-table-of-contents__entry -class"><a href="classes/Smr-Planet.html"><abbr title="\Smr\Planet">Planet</abbr></a></dt>
+        <dd></dd>
             <dt class="phpdocumentor-table-of-contents__entry -class"><a href="classes/Smr-PlanetList.html"><abbr title="\Smr\PlanetList">PlanetList</abbr></a></dt>
         <dd>Collection of functions to help prepare Planet List pages.</dd>
+            <dt class="phpdocumentor-table-of-contents__entry -class"><a href="classes/Smr-PlanetStructureType.html"><abbr title="\Smr\PlanetStructureType">PlanetStructureType</abbr></a></dt>
+        <dd>Defines intrinsic properties of planetary structure types.</dd>
+            <dt class="phpdocumentor-table-of-contents__entry -class"><a href="classes/Smr-Player.html"><abbr title="\Smr\Player">Player</abbr></a></dt>
+        <dd></dd>
             <dt class="phpdocumentor-table-of-contents__entry -class"><a href="classes/Smr-PlayerLevel.html"><abbr title="\Smr\PlayerLevel">PlayerLevel</abbr></a></dt>
+        <dd></dd>
+            <dt class="phpdocumentor-table-of-contents__entry -class"><a href="classes/Smr-Plotter.html"><abbr title="\Smr\Plotter">Plotter</abbr></a></dt>
+        <dd></dd>
+            <dt class="phpdocumentor-table-of-contents__entry -class"><a href="classes/Smr-Port.html"><abbr title="\Smr\Port">Port</abbr></a></dt>
         <dd></dd>
             <dt class="phpdocumentor-table-of-contents__entry -class"><a href="classes/Smr-Race.html"><abbr title="\Smr\Race">Race</abbr></a></dt>
         <dd>Provides methods to map race IDs to basic race properties.</dd>
             <dt class="phpdocumentor-table-of-contents__entry -class"><a href="classes/Smr-RaceDetails.html"><abbr title="\Smr\RaceDetails">RaceDetails</abbr></a></dt>
         <dd>Detailed race information for the Game Join page.</dd>
+            <dt class="phpdocumentor-table-of-contents__entry -class"><a href="classes/Smr-Rankings.html"><abbr title="\Smr\Rankings">Rankings</abbr></a></dt>
+        <dd></dd>
+            <dt class="phpdocumentor-table-of-contents__entry -class"><a href="classes/Smr-Sector.html"><abbr title="\Smr\Sector">Sector</abbr></a></dt>
+        <dd></dd>
             <dt class="phpdocumentor-table-of-contents__entry -class"><a href="classes/Smr-SectorLock.html"><abbr title="\Smr\SectorLock">SectorLock</abbr></a></dt>
         <dd>This class is responsible for ensuring that page processing occurs
 sequentially as requests come in, avoiding race conditions by using a
 blocking queue.</dd>
             <dt class="phpdocumentor-table-of-contents__entry -class"><a href="classes/Smr-SectorsFile.html"><abbr title="\Smr\SectorsFile">SectorsFile</abbr></a></dt>
         <dd></dd>
+            <dt class="phpdocumentor-table-of-contents__entry -class"><a href="classes/Smr-Ship.html"><abbr title="\Smr\Ship">Ship</abbr></a></dt>
+        <dd>Adds a database layer to an AbstractShip instance.</dd>
             <dt class="phpdocumentor-table-of-contents__entry -class"><a href="classes/Smr-ShipIllusion.html"><abbr title="\Smr\ShipIllusion">ShipIllusion</abbr></a></dt>
-        <dd>Data storage for the SmrShip::illusionShip property.</dd>
+        <dd>Data storage for the Ship::illusionShip property.</dd>
+            <dt class="phpdocumentor-table-of-contents__entry -class"><a href="classes/Smr-ShipType.html"><abbr title="\Smr\ShipType">ShipType</abbr></a></dt>
+        <dd>Defines the base ship types</dd>
             <dt class="phpdocumentor-table-of-contents__entry -class"><a href="classes/Smr-StoredDestination.html"><abbr title="\Smr\StoredDestination">StoredDestination</abbr></a></dt>
         <dd>Data class for course plotting destinations stored by the player.</dd>
             <dt class="phpdocumentor-table-of-contents__entry -class"><a href="classes/Smr-Template.html"><abbr title="\Smr\Template">Template</abbr></a></dt>
@@ -223,6 +275,13 @@ blocking queue.</dd>
             <dt class="phpdocumentor-table-of-contents__entry -class"><a href="classes/Smr-TradeGoodTransaction.html"><abbr title="\Smr\TradeGoodTransaction">TradeGoodTransaction</abbr></a></dt>
         <dd>Data class for defining the good and transaction type of a TradeGood
 transaction.</dd>
+            <dt class="phpdocumentor-table-of-contents__entry -class"><a href="classes/Smr-Treaty.html"><abbr title="\Smr\Treaty">Treaty</abbr></a></dt>
+        <dd></dd>
+            <dt class="phpdocumentor-table-of-contents__entry -class"><a href="classes/Smr-WeaponType.html"><abbr title="\Smr\WeaponType">WeaponType</abbr></a></dt>
+        <dd>Defines the base weapon types for ships/planets.</dd>
+            <dt class="phpdocumentor-table-of-contents__entry -class"><a href="classes/Smr-WeightedRandom.html"><abbr title="\Smr\WeightedRandom">WeightedRandom</abbr></a></dt>
+        <dd>Weighted random number generator used to make events achieve their expected
+rate of success faster than a pure random number generator.</dd>
     
     
             <dt class="phpdocumentor-table-of-contents__entry -enum"><a href="classes/Smr-BountyType.html"><abbr title="\Smr\BountyType">BountyType</abbr></a></dt>
@@ -248,10 +307,83 @@ transaction.</dd>
     </dl>
 
 
+<h3 id="toc">
+    Table of Contents
+    <a href="#toc" class="headerlink"><i class="fas fa-link"></i></a>
+</h3>
+
+<dl class="phpdocumentor-table-of-contents">
+                            <dt class="phpdocumentor-table-of-contents__entry -function -">
+    <a href="namespaces/smr.html#function_create_sub_menu">create_sub_menu()</a>
+    <span>
+                                &nbsp;: void    </span>
+</dt>
+<dd></dd>
+
+    </dl>
 
         
 
+            <section class="phpdocumentor-functions">
+        <h3 class="phpdocumentor-elements__header" id="functions">
+            Functions
+            <a href="namespaces/smr.html#functions" class="headerlink"><i class="fas fa-link"></i></a>
+        </h3>
+                    <article class="phpdocumentor-element -function - ">
+    <h4 class="phpdocumentor-element__name" id="function_create_sub_menu">
+        create_sub_menu()
+        <a href="namespaces/smr.html#function_create_sub_menu" class="headerlink"><i class="fas fa-link"></i></a>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Menu.php"><a href="files/src-lib-smr-menu.html"><abbr title="src/lib/Smr/Menu.php">Menu.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">412</span>
+
+    </aside>
+
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility"></span>
+                <span class="phpdocumentor-signature__name">create_sub_menu</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type">array&lt;string|int, array&lt;string, mixed&gt;&gt;&nbsp;</span><span class="phpdocumentor-signature__argument__name">$menu</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__return-type">int&nbsp;</span><span class="phpdocumentor-signature__argument__name">$active_level1</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__return-type">int&nbsp;</span><span class="phpdocumentor-signature__argument__name">$active_level2</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">void</span></code>
+
+    
+        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
+    <dl class="phpdocumentor-argument-list">
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$menu</span>
+                : <span class="phpdocumentor-signature__argument__return-type">array&lt;string|int, array&lt;string, mixed&gt;&gt;</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                
+            </dd>
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$active_level1</span>
+                : <span class="phpdocumentor-signature__argument__return-type">int</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                    <section class="phpdocumentor-description"></section>
+
+            </dd>
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$active_level2</span>
+                : <span class="phpdocumentor-signature__argument__return-type">int</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                    <section class="phpdocumentor-description"></section>
+
+            </dd>
+            </dl>
+
+    
+
+        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
+    <span class="phpdocumentor-signature__response_type">void</span>
+            &mdash;
         
+    
+</article>
+            </section>
+
     </article>
                 <section data-search-results class="phpdocumentor-search-results phpdocumentor-search-results--hidden">
     <section class="phpdocumentor-search-results__dialog">
