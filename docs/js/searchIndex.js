@@ -3461,6 +3461,11 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/Smr-Bounty.html#method_getTargetPlayer"
         },                {
+            "fqsen": "\\Smr\\Bounty\u003A\u003AgetClaimerPlayer\u0028\u0029",
+            "name": "getClaimerPlayer",
+            "summary": "",
+            "url": "classes/Smr-Bounty.html#method_getClaimerPlayer"
+        },                {
             "fqsen": "\\Smr\\Bounty\u003A\u003Aupdate\u0028\u0029",
             "name": "update",
             "summary": "",
