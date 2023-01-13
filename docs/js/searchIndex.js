@@ -61,11 +61,6 @@ Search.appendIndex(
             "summary": "Create\u0020the\u0020Newbie\u0020Help\u0020Alliance\u0020and\u0020populate\u0020its\u0020Message\u0020Board",
             "url": "namespaces/default.html#function_createNHA"
         },                {
-            "fqsen": "\\planet_common\u0028\u0029",
-            "name": "planet_common",
-            "summary": "Common\u0020code\u0020for\u0020all\u0020the\u0020planet\u0020display\u0020pages",
-            "url": "namespaces/default.html#function_planet_common"
-        },                {
             "fqsen": "\\hit_sector_mines\u0028\u0029",
             "name": "hit_sector_mines",
             "summary": "",
@@ -7491,11 +7486,6 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/Smr-Menu.html#method_trader"
         },                {
-            "fqsen": "\\Smr\\Menu\u003A\u003Aplanet\u0028\u0029",
-            "name": "planet",
-            "summary": "",
-            "url": "classes/Smr-Menu.html#method_planet"
-        },                {
             "fqsen": "\\Smr\\Menu\u003A\u003Arankings\u0028\u0029",
             "name": "rankings",
             "summary": "",
@@ -8606,6 +8596,41 @@ Search.appendIndex(
             "summary": "The\u0020engine\u0020files\u0020for\u0020planet\u0020lists\u0020have\u0020a\u0020lot\u0020in\u0020common,\u0020so\u0020do\nmost\u0020of\u0020the\u0020work\u0020here.",
             "url": "classes/Smr-PlanetList.html#method_common"
         },                {
+            "fqsen": "\\Smr\\PlanetMenuOption",
+            "name": "PlanetMenuOption",
+            "summary": "Enumerates\u0020menu\u0020options\u0020on\u0020planets.\u0020Backing\u0020value\u0020is\u0020the\u0020link\u0020display\u0020name.",
+            "url": "classes/Smr-PlanetMenuOption.html"
+        },                {
+            "fqsen": "\\Smr\\PlanetMenuOption\u003A\u003AMAIN",
+            "name": "MAIN",
+            "summary": "",
+            "url": ""
+        },                {
+            "fqsen": "\\Smr\\PlanetMenuOption\u003A\u003ACONSTRUCTION",
+            "name": "CONSTRUCTION",
+            "summary": "",
+            "url": ""
+        },                {
+            "fqsen": "\\Smr\\PlanetMenuOption\u003A\u003ADEFENSE",
+            "name": "DEFENSE",
+            "summary": "",
+            "url": ""
+        },                {
+            "fqsen": "\\Smr\\PlanetMenuOption\u003A\u003AOWNERSHIP",
+            "name": "OWNERSHIP",
+            "summary": "",
+            "url": ""
+        },                {
+            "fqsen": "\\Smr\\PlanetMenuOption\u003A\u003ASTOCKPILE",
+            "name": "STOCKPILE",
+            "summary": "",
+            "url": ""
+        },                {
+            "fqsen": "\\Smr\\PlanetMenuOption\u003A\u003AFINANCE",
+            "name": "FINANCE",
+            "summary": "",
+            "url": ""
+        },                {
             "fqsen": "\\Smr\\PlanetStructureType",
             "name": "PlanetStructureType",
             "summary": "Defines\u0020intrinsic\u0020properties\u0020of\u0020planetary\u0020structure\u0020types.",
@@ -8880,11 +8905,6 @@ Search.appendIndex(
             "name": "MAX_LANDED_UNLIMITED",
             "summary": "",
             "url": "classes/Smr-PlanetTypes-PlanetType.html#constant_MAX_LANDED_UNLIMITED"
-        },                {
-            "fqsen": "\\Smr\\PlanetTypes\\PlanetType\u003A\u003ADEFAULT_MENU_OPTIONS",
-            "name": "DEFAULT_MENU_OPTIONS",
-            "summary": "",
-            "url": "classes/Smr-PlanetTypes-PlanetType.html#constant_DEFAULT_MENU_OPTIONS"
         },                {
             "fqsen": "\\Smr\\PlanetTypes\\PlanetType\u003A\u003APLANET_TYPES",
             "name": "PLANET_TYPES",
