@@ -946,26 +946,6 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/Smr-AbstractPlayer.html#method_hasTicker"
         },                {
-            "fqsen": "\\Smr\\AbstractPlayer\u003A\u003AshootForces\u0028\u0029",
-            "name": "shootForces",
-            "summary": "",
-            "url": "classes/Smr-AbstractPlayer.html#method_shootForces"
-        },                {
-            "fqsen": "\\Smr\\AbstractPlayer\u003A\u003AshootPort\u0028\u0029",
-            "name": "shootPort",
-            "summary": "",
-            "url": "classes/Smr-AbstractPlayer.html#method_shootPort"
-        },                {
-            "fqsen": "\\Smr\\AbstractPlayer\u003A\u003AshootPlanet\u0028\u0029",
-            "name": "shootPlanet",
-            "summary": "",
-            "url": "classes/Smr-AbstractPlayer.html#method_shootPlanet"
-        },                {
-            "fqsen": "\\Smr\\AbstractPlayer\u003A\u003AshootPlayers\u0028\u0029",
-            "name": "shootPlayers",
-            "summary": "",
-            "url": "classes/Smr-AbstractPlayer.html#method_shootPlayers"
-        },                {
             "fqsen": "\\Smr\\AbstractPlayer\u003A\u003AgetMilitaryPayment\u0028\u0029",
             "name": "getMilitaryPayment",
             "summary": "",
@@ -5898,17 +5878,17 @@ Search.appendIndex(
         },                {
             "fqsen": "\\Smr\\Force\u003A\u003AtakeDamageToMines\u0028\u0029",
             "name": "takeDamageToMines",
-            "summary": "",
+            "summary": "Returns\u0020the\u0020number\u0020of\u0020mines\u0020destroyed",
             "url": "classes/Smr-Force.html#method_takeDamageToMines"
         },                {
             "fqsen": "\\Smr\\Force\u003A\u003AtakeDamageToCDs\u0028\u0029",
             "name": "takeDamageToCDs",
-            "summary": "",
+            "summary": "Returns\u0020the\u0020number\u0020of\u0020CDs\u0020destroyed",
             "url": "classes/Smr-Force.html#method_takeDamageToCDs"
         },                {
             "fqsen": "\\Smr\\Force\u003A\u003AtakeDamageToSDs\u0028\u0029",
             "name": "takeDamageToSDs",
-            "summary": "",
+            "summary": "Returns\u0020the\u0020number\u0020of\u0020SDs\u0020destroyed",
             "url": "classes/Smr-Force.html#method_takeDamageToSDs"
         },                {
             "fqsen": "\\Smr\\Force\u003A\u003AkillForcesByPlayer\u0028\u0029",

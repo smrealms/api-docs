@@ -1092,7 +1092,7 @@ no restriction.</dd>
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
     <a href="classes/Smr-Planet.html#method_killPlanetByPlayer">killPlanetByPlayer()</a>
     <span>
-                                &nbsp;: array&lt;string, mixed&gt;    </span>
+                                &nbsp;: array&lt;string|int, mixed&gt;    </span>
 </dt>
 <dd></dd>
 
@@ -1232,7 +1232,7 @@ no restriction.</dd>
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
     <a href="classes/Smr-Planet.html#method_shootPlayers">shootPlayers()</a>
     <span>
-                                &nbsp;: array&lt;string, mixed&gt;    </span>
+                                &nbsp;: array&lt;string|int, mixed&gt;    </span>
 </dt>
 <dd></dd>
 
@@ -1253,7 +1253,7 @@ no restriction.</dd>
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
     <a href="classes/Smr-Planet.html#method_takeDamage">takeDamage()</a>
     <span>
-                                &nbsp;: array&lt;string, int|bool&gt;    </span>
+                                &nbsp;: <abbr title="\Smr\TakenDamageData">TakenDamageData</abbr>    </span>
 </dt>
 <dd></dd>
 
@@ -2678,7 +2678,7 @@ no restriction.</dd>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Planet.php"><a href="files/src-lib-smr-planet.html"><abbr title="src/lib/Smr/Planet.php">Planet.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">1236</span>
+    <span class="phpdocumentor-element-found-in__line">1241</span>
 
     </aside>
 
@@ -2889,7 +2889,7 @@ no restriction.</dd>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Planet.php"><a href="files/src-lib-smr-planet.html"><abbr title="src/lib/Smr/Planet.php">Planet.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">1320</span>
+    <span class="phpdocumentor-element-found-in__line">1325</span>
 
     </aside>
 
@@ -6176,14 +6176,14 @@ no restriction.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Planet.php"><a href="files/src-lib-smr-planet.html"><abbr title="src/lib/Smr/Planet.php">Planet.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">1334</span>
+    <span class="phpdocumentor-element-found-in__line">1339</span>
 
     </aside>
 
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">public</span>
-                <span class="phpdocumentor-signature__name">killPlanetByPlayer</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type"><a href="classes/Smr-AbstractPlayer.html"><abbr title="\Smr\AbstractPlayer">AbstractPlayer</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$killer</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">array&lt;string, mixed&gt;</span></code>
+                <span class="phpdocumentor-signature__name">killPlanetByPlayer</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type"><a href="classes/Smr-AbstractPlayer.html"><abbr title="\Smr\AbstractPlayer">AbstractPlayer</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$killer</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">array&lt;string|int, mixed&gt;</span></code>
 
     
         <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
@@ -6201,7 +6201,7 @@ no restriction.</p>
     
 
         <h5 class="phpdocumentor-return-value__heading">Return values</h5>
-    <span class="phpdocumentor-signature__response_type">array&lt;string, mixed&gt;</span>
+    <span class="phpdocumentor-signature__response_type">array&lt;string|int, mixed&gt;</span>
             &mdash;
         
     
@@ -7053,7 +7053,7 @@ no restriction.</p>
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">public</span>
-                <span class="phpdocumentor-signature__name">shootPlayers</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type">array&lt;string|int, <a href="classes/Smr-AbstractPlayer.html"><abbr title="\Smr\AbstractPlayer">AbstractPlayer</abbr></a>&gt;&nbsp;</span><span class="phpdocumentor-signature__argument__name">$targetPlayers</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">array&lt;string, mixed&gt;</span></code>
+                <span class="phpdocumentor-signature__name">shootPlayers</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type">array&lt;string|int, <a href="classes/Smr-AbstractPlayer.html"><abbr title="\Smr\AbstractPlayer">AbstractPlayer</abbr></a>&gt;&nbsp;</span><span class="phpdocumentor-signature__argument__name">$targetPlayers</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">array&lt;string|int, mixed&gt;</span></code>
 
     
         <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
@@ -7070,7 +7070,7 @@ no restriction.</p>
     
 
         <h5 class="phpdocumentor-return-value__heading">Return values</h5>
-    <span class="phpdocumentor-signature__response_type">array&lt;string, mixed&gt;</span>
+    <span class="phpdocumentor-signature__response_type">array&lt;string|int, mixed&gt;</span>
             &mdash;
         
     
@@ -7199,14 +7199,14 @@ no restriction.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Planet.php"><a href="files/src-lib-smr-planet.html"><abbr title="src/lib/Smr/Planet.php">Planet.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">1270</span>
+    <span class="phpdocumentor-element-found-in__line">1275</span>
 
     </aside>
 
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">public</span>
-                <span class="phpdocumentor-signature__name">takeDamage</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type"><abbr title="\Smr\WeaponDamageData">WeaponDamageData</abbr>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$damage</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">array&lt;string, int|bool&gt;</span></code>
+                <span class="phpdocumentor-signature__name">takeDamage</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type"><abbr title="\Smr\WeaponDamageData">WeaponDamageData</abbr>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$damage</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type"><abbr title="\Smr\TakenDamageData">TakenDamageData</abbr></span></code>
 
     
         <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
@@ -7223,7 +7223,7 @@ no restriction.</p>
     
 
         <h5 class="phpdocumentor-return-value__heading">Return values</h5>
-    <span class="phpdocumentor-signature__response_type">array&lt;string, int|bool&gt;</span>
+    <span class="phpdocumentor-signature__response_type"><abbr title="\Smr\TakenDamageData">TakenDamageData</abbr></span>
             &mdash;
         
     
@@ -7334,7 +7334,7 @@ no restriction.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Planet.php"><a href="files/src-lib-smr-planet.html"><abbr title="src/lib/Smr/Planet.php">Planet.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">1314</span>
+    <span class="phpdocumentor-element-found-in__line">1319</span>
 
     </aside>
 
@@ -7378,7 +7378,7 @@ no restriction.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Planet.php"><a href="files/src-lib-smr-planet.html"><abbr title="src/lib/Smr/Planet.php">Planet.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">1308</span>
+    <span class="phpdocumentor-element-found-in__line">1313</span>
 
     </aside>
 
@@ -7422,7 +7422,7 @@ no restriction.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Planet.php"><a href="files/src-lib-smr-planet.html"><abbr title="src/lib/Smr/Planet.php">Planet.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">1302</span>
+    <span class="phpdocumentor-element-found-in__line">1307</span>
 
     </aside>
 
