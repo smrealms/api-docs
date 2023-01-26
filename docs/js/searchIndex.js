@@ -5571,6 +5571,11 @@ Search.appendIndex(
             "summary": "Exception\u0020thrown\u0020when\u0020a\u0020game\u0020cannot\u0020be\u0020found\u0020in\u0020the\u0020database",
             "url": "classes/Smr-Exceptions-GameNotFound.html"
         },                {
+            "fqsen": "\\Smr\\Exceptions\\PathNotFound",
+            "name": "PathNotFound",
+            "summary": "Exception\u0020thrown\u0020when\u0020Plotter\u0020cannot\u0020find\u0020a\u0020Path",
+            "url": "classes/Smr-Exceptions-PathNotFound.html"
+        },                {
             "fqsen": "\\Smr\\Exceptions\\PlayerNotFound",
             "name": "PlayerNotFound",
             "summary": "Exception\u0020thrown\u0020when\u0020a\u0020player\u0020cannot\u0020be\u0020found\u0020in\u0020the\u0020database",
@@ -7305,11 +7310,6 @@ Search.appendIndex(
             "name": "CACHE_SECTOR_LOCATIONS",
             "summary": "",
             "url": "classes/Smr-Location.html#property_CACHE_SECTOR_LOCATIONS"
-        },                {
-            "fqsen": "\\Smr\\Location\u003A\u003A\u0024db",
-            "name": "db",
-            "summary": "",
-            "url": "classes/Smr-Location.html#property_db"
         },                {
             "fqsen": "\\Smr\\Location\u003A\u003A\u0024SQL",
             "name": "SQL",
@@ -11596,6 +11596,11 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/Smr-SocialLogin-SocialLogin.html#method_getEmail"
         },                {
+            "fqsen": "\\Smr\\SocialLogin\\SocialLogin\u003A\u003AgetErrorMessage\u0028\u0029",
+            "name": "getErrorMessage",
+            "summary": "Returns\u0020the\u0020authentication\u0020error\u0020message,\u0020if\u0020one\u0020has\u0020been\u0020set.",
+            "url": "classes/Smr-SocialLogin-SocialLogin.html#method_getErrorMessage"
+        },                {
             "fqsen": "\\Smr\\SocialLogin\\SocialLogin\u003A\u003A\u0024userID",
             "name": "userID",
             "summary": "",
@@ -11610,6 +11615,11 @@ Search.appendIndex(
             "name": "valid",
             "summary": "",
             "url": "classes/Smr-SocialLogin-SocialLogin.html#property_valid"
+        },                {
+            "fqsen": "\\Smr\\SocialLogin\\SocialLogin\u003A\u003A\u0024errorMessage",
+            "name": "errorMessage",
+            "summary": "",
+            "url": "classes/Smr-SocialLogin-SocialLogin.html#property_errorMessage"
         },                {
             "fqsen": "\\Smr\\StoredDestination",
             "name": "StoredDestination",
