@@ -3551,6 +3551,136 @@ Search.appendIndex(
             "summary": "",
             "url": ""
         },                {
+            "fqsen": "\\Smr\\Chess\\Board",
+            "name": "Board",
+            "summary": "",
+            "url": "classes/Smr-Chess-Board.html"
+        },                {
+            "fqsen": "\\Smr\\Chess\\Board\u003A\u003A__construct\u0028\u0029",
+            "name": "__construct",
+            "summary": "",
+            "url": "classes/Smr-Chess-Board.html#method___construct"
+        },                {
+            "fqsen": "\\Smr\\Chess\\Board\u003A\u003Ainitialize\u0028\u0029",
+            "name": "initialize",
+            "summary": "",
+            "url": "classes/Smr-Chess-Board.html#method_initialize"
+        },                {
+            "fqsen": "\\Smr\\Chess\\Board\u003A\u003AdeepCopy\u0028\u0029",
+            "name": "deepCopy",
+            "summary": "",
+            "url": "classes/Smr-Chess-Board.html#method_deepCopy"
+        },                {
+            "fqsen": "\\Smr\\Chess\\Board\u003A\u003AgetFEN\u0028\u0029",
+            "name": "getFEN",
+            "summary": "",
+            "url": "classes/Smr-Chess-Board.html#method_getFEN"
+        },                {
+            "fqsen": "\\Smr\\Chess\\Board\u003A\u003AgetCurrentTurnColour\u0028\u0029",
+            "name": "getCurrentTurnColour",
+            "summary": "",
+            "url": "classes/Smr-Chess-Board.html#method_getCurrentTurnColour"
+        },                {
+            "fqsen": "\\Smr\\Chess\\Board\u003A\u003AgetBoardDisplay\u0028\u0029",
+            "name": "getBoardDisplay",
+            "summary": "Get\u0020the\u0020board\u0020from\u0020the\u0020colour\u0027s\u0020perspective\u0020as\u0020an\u0020array.",
+            "url": "classes/Smr-Chess-Board.html#method_getBoardDisplay"
+        },                {
+            "fqsen": "\\Smr\\Chess\\Board\u003A\u003AisValidCoord\u0028\u0029",
+            "name": "isValidCoord",
+            "summary": "",
+            "url": "classes/Smr-Chess-Board.html#method_isValidCoord"
+        },                {
+            "fqsen": "\\Smr\\Chess\\Board\u003A\u003AgetPieces\u0028\u0029",
+            "name": "getPieces",
+            "summary": "",
+            "url": "classes/Smr-Chess-Board.html#method_getPieces"
+        },                {
+            "fqsen": "\\Smr\\Chess\\Board\u003A\u003AhasPiece\u0028\u0029",
+            "name": "hasPiece",
+            "summary": "",
+            "url": "classes/Smr-Chess-Board.html#method_hasPiece"
+        },                {
+            "fqsen": "\\Smr\\Chess\\Board\u003A\u003AgetPiece\u0028\u0029",
+            "name": "getPiece",
+            "summary": "",
+            "url": "classes/Smr-Chess-Board.html#method_getPiece"
+        },                {
+            "fqsen": "\\Smr\\Chess\\Board\u003A\u003AgetKing\u0028\u0029",
+            "name": "getKing",
+            "summary": "",
+            "url": "classes/Smr-Chess-Board.html#method_getKing"
+        },                {
+            "fqsen": "\\Smr\\Chess\\Board\u003A\u003A\u0024canCastle",
+            "name": "canCastle",
+            "summary": "",
+            "url": "classes/Smr-Chess-Board.html#property_canCastle"
+        },                {
+            "fqsen": "\\Smr\\Chess\\Board\u003A\u003AgetEnPassantPawn\u0028\u0029",
+            "name": "getEnPassantPawn",
+            "summary": "",
+            "url": "classes/Smr-Chess-Board.html#method_getEnPassantPawn"
+        },                {
+            "fqsen": "\\Smr\\Chess\\Board\u003A\u003AisChecked\u0028\u0029",
+            "name": "isChecked",
+            "summary": "Is\u0020the\u0020\u0024colour\u0020King\u0020being\u0020attacked\u0020by\u0020any\u0020enemy\u0020pieces\u003F",
+            "url": "classes/Smr-Chess-Board.html#method_isChecked"
+        },                {
+            "fqsen": "\\Smr\\Chess\\Board\u003A\u003AsetSquare\u0028\u0029",
+            "name": "setSquare",
+            "summary": "Change\u0020the\u0020position\u0020of\u0020a\u0020piece\u0020on\u0020the\u0020board",
+            "url": "classes/Smr-Chess-Board.html#method_setSquare"
+        },                {
+            "fqsen": "\\Smr\\Chess\\Board\u003A\u003AclearSquare\u0028\u0029",
+            "name": "clearSquare",
+            "summary": "",
+            "url": "classes/Smr-Chess-Board.html#method_clearSquare"
+        },                {
+            "fqsen": "\\Smr\\Chess\\Board\u003A\u003AmovePiece\u0028\u0029",
+            "name": "movePiece",
+            "summary": "Move\u0020a\u0020piece.\u0020Note\u0020that\u0020legality\u0020of\u0020the\u0020move\u0020is\u0020not\u0020checked\u0020here.",
+            "url": "classes/Smr-Chess-Board.html#method_movePiece"
+        },                {
+            "fqsen": "\\Smr\\Chess\\Board\u003A\u003ANX",
+            "name": "NX",
+            "summary": "",
+            "url": "classes/Smr-Chess-Board.html#constant_NX"
+        },                {
+            "fqsen": "\\Smr\\Chess\\Board\u003A\u003ANY",
+            "name": "NY",
+            "summary": "",
+            "url": "classes/Smr-Chess-Board.html#constant_NY"
+        },                {
+            "fqsen": "\\Smr\\Chess\\Board\u003A\u003A\u0024enPassantPawn",
+            "name": "enPassantPawn",
+            "summary": "",
+            "url": "classes/Smr-Chess-Board.html#property_enPassantPawn"
+        },                {
+            "fqsen": "\\Smr\\Chess\\Board\u003A\u003A\u0024board",
+            "name": "board",
+            "summary": "",
+            "url": "classes/Smr-Chess-Board.html#property_board"
+        },                {
+            "fqsen": "\\Smr\\Chess\\Board\u003A\u003A\u0024numMoves",
+            "name": "numMoves",
+            "summary": "",
+            "url": "classes/Smr-Chess-Board.html#property_numMoves"
+        },                {
+            "fqsen": "\\Smr\\Chess\\Castling",
+            "name": "Castling",
+            "summary": "Enum\u0020values\u0020are\u0020database\u0020types\u0020and\u0020must\u0020not\u0020be\u0020changed.",
+            "url": "classes/Smr-Chess-Castling.html"
+        },                {
+            "fqsen": "\\Smr\\Chess\\Castling\u003A\u003AKingside",
+            "name": "Kingside",
+            "summary": "",
+            "url": ""
+        },                {
+            "fqsen": "\\Smr\\Chess\\Castling\u003A\u003AQueenside",
+            "name": "Queenside",
+            "summary": "",
+            "url": ""
+        },                {
             "fqsen": "\\Smr\\Chess\\ChessPiece",
             "name": "ChessPiece",
             "summary": "",
@@ -3568,7 +3698,7 @@ Search.appendIndex(
         },                {
             "fqsen": "\\Smr\\Chess\\ChessPiece\u003A\u003AisAttacking\u0028\u0029",
             "name": "isAttacking",
-            "summary": "",
+            "summary": "Check\u0020if\u0020the\u0020piece\u0020is\u0020attacking\u0020a\u0020specific\u0020square",
             "url": "classes/Smr-Chess-ChessPiece.html#method_isAttacking"
         },                {
             "fqsen": "\\Smr\\Chess\\ChessPiece\u003A\u003AgetPossibleMoves\u0028\u0029",
@@ -3580,11 +3710,6 @@ Search.appendIndex(
             "name": "addMove",
             "summary": "",
             "url": "classes/Smr-Chess-ChessPiece.html#method_addMove"
-        },                {
-            "fqsen": "\\Smr\\Chess\\ChessPiece\u003A\u003Apromote\u0028\u0029",
-            "name": "promote",
-            "summary": "",
-            "url": "classes/Smr-Chess-ChessPiece.html#method_promote"
         },                {
             "fqsen": "\\Smr\\Chess\\ChessPiece\u003A\u003AgetPieceLetter\u0028\u0029",
             "name": "getPieceLetter",
@@ -3660,11 +3785,6 @@ Search.appendIndex(
             "name": "y",
             "summary": "",
             "url": "classes/Smr-Chess-ChessPiece.html#property_y"
-        },                {
-            "fqsen": "\\Smr\\Chess\\ChessPiece\u003A\u003A\u0024pieceNo",
-            "name": "pieceNo",
-            "summary": "",
-            "url": "classes/Smr-Chess-ChessPiece.html#property_pieceNo"
         },                {
             "fqsen": "\\Smr\\Chess\\Colour",
             "name": "Colour",
