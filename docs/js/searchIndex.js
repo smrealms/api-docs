@@ -4888,7 +4888,7 @@ Search.appendIndex(
         },                {
             "fqsen": "\\Smr\\DatabaseProperties",
             "name": "DatabaseProperties",
-            "summary": "",
+            "summary": "Expects\u0020the\u0020following\u0020environment\u0020variables\u0020to\u0020be\u0020set\u0020by\u0020the\u0020OS\u003A",
             "url": "classes/Smr-DatabaseProperties.html"
         },                {
             "fqsen": "\\Smr\\DatabaseProperties\u003A\u003A__construct\u0028\u0029",
@@ -4896,50 +4896,15 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/Smr-DatabaseProperties.html#method___construct"
         },                {
-            "fqsen": "\\Smr\\DatabaseProperties\u003A\u003AvalidateConfig\u0028\u0029",
-            "name": "validateConfig",
+            "fqsen": "\\Smr\\DatabaseProperties\u003A\u003AgetFromEnv\u0028\u0029",
+            "name": "getFromEnv",
             "summary": "",
-            "url": "classes/Smr-DatabaseProperties.html#method_validateConfig"
+            "url": "classes/Smr-DatabaseProperties.html#method_getFromEnv"
         },                {
-            "fqsen": "\\Smr\\DatabaseProperties\u003A\u003AgetHost\u0028\u0029",
-            "name": "getHost",
+            "fqsen": "\\Smr\\DatabaseProperties\u003A\u003AgetFromFile\u0028\u0029",
+            "name": "getFromFile",
             "summary": "",
-            "url": "classes/Smr-DatabaseProperties.html#method_getHost"
-        },                {
-            "fqsen": "\\Smr\\DatabaseProperties\u003A\u003AgetUser\u0028\u0029",
-            "name": "getUser",
-            "summary": "",
-            "url": "classes/Smr-DatabaseProperties.html#method_getUser"
-        },                {
-            "fqsen": "\\Smr\\DatabaseProperties\u003A\u003AgetPassword\u0028\u0029",
-            "name": "getPassword",
-            "summary": "",
-            "url": "classes/Smr-DatabaseProperties.html#method_getPassword"
-        },                {
-            "fqsen": "\\Smr\\DatabaseProperties\u003A\u003AgetDatabaseName\u0028\u0029",
-            "name": "getDatabaseName",
-            "summary": "",
-            "url": "classes/Smr-DatabaseProperties.html#method_getDatabaseName"
-        },                {
-            "fqsen": "\\Smr\\DatabaseProperties\u003A\u003ACONFIG_HOST",
-            "name": "CONFIG_HOST",
-            "summary": "",
-            "url": "classes/Smr-DatabaseProperties.html#constant_CONFIG_HOST"
-        },                {
-            "fqsen": "\\Smr\\DatabaseProperties\u003A\u003ACONFIG_USER",
-            "name": "CONFIG_USER",
-            "summary": "",
-            "url": "classes/Smr-DatabaseProperties.html#constant_CONFIG_USER"
-        },                {
-            "fqsen": "\\Smr\\DatabaseProperties\u003A\u003ACONFIG_PASSWORD",
-            "name": "CONFIG_PASSWORD",
-            "summary": "",
-            "url": "classes/Smr-DatabaseProperties.html#constant_CONFIG_PASSWORD"
-        },                {
-            "fqsen": "\\Smr\\DatabaseProperties\u003A\u003ACONFIG_DATABASE",
-            "name": "CONFIG_DATABASE",
-            "summary": "",
-            "url": "classes/Smr-DatabaseProperties.html#constant_CONFIG_DATABASE"
+            "url": "classes/Smr-DatabaseProperties.html#method_getFromFile"
         },                {
             "fqsen": "\\Smr\\DatabaseProperties\u003A\u003A\u0024host",
             "name": "host",
@@ -4956,10 +4921,10 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/Smr-DatabaseProperties.html#property_password"
         },                {
-            "fqsen": "\\Smr\\DatabaseProperties\u003A\u003A\u0024databaseName",
-            "name": "databaseName",
+            "fqsen": "\\Smr\\DatabaseProperties\u003A\u003A\u0024database",
+            "name": "database",
             "summary": "",
-            "url": "classes/Smr-DatabaseProperties.html#property_databaseName"
+            "url": "classes/Smr-DatabaseProperties.html#property_database"
         },                {
             "fqsen": "\\Smr\\DatabaseRecord",
             "name": "DatabaseRecord",
