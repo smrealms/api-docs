@@ -1471,11 +1471,6 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/Smr-AbstractPlayer.html#property_CACHE_PLAYERS"
         },                {
-            "fqsen": "\\Smr\\AbstractPlayer\u003A\u003A\u0024db",
-            "name": "db",
-            "summary": "",
-            "url": "classes/Smr-AbstractPlayer.html#property_db"
-        },                {
             "fqsen": "\\Smr\\AbstractPlayer\u003A\u003A\u0024SQL",
             "name": "SQL",
             "summary": "",
@@ -2915,11 +2910,6 @@ Search.appendIndex(
             "name": "CACHE_ALLIANCES",
             "summary": "",
             "url": "classes/Smr-Alliance.html#property_CACHE_ALLIANCES"
-        },                {
-            "fqsen": "\\Smr\\Alliance\u003A\u003A\u0024db",
-            "name": "db",
-            "summary": "",
-            "url": "classes/Smr-Alliance.html#property_db"
         },                {
             "fqsen": "\\Smr\\Alliance\u003A\u003A\u0024SQL",
             "name": "SQL",
@@ -6046,11 +6036,6 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/Smr-Force.html#property_TIDIED_UP"
         },                {
-            "fqsen": "\\Smr\\Force\u003A\u003A\u0024db",
-            "name": "db",
-            "summary": "",
-            "url": "classes/Smr-Force.html#property_db"
-        },                {
             "fqsen": "\\Smr\\Force\u003A\u003A\u0024SQL",
             "name": "SQL",
             "summary": "",
@@ -6320,11 +6305,6 @@ Search.appendIndex(
             "name": "CACHE_GAME_GALAXIES",
             "summary": "",
             "url": "classes/Smr-Galaxy.html#property_CACHE_GAME_GALAXIES"
-        },                {
-            "fqsen": "\\Smr\\Galaxy\u003A\u003A\u0024db",
-            "name": "db",
-            "summary": "",
-            "url": "classes/Smr-Galaxy.html#property_db"
         },                {
             "fqsen": "\\Smr\\Galaxy\u003A\u003A\u0024SQL",
             "name": "SQL",
@@ -6685,11 +6665,6 @@ Search.appendIndex(
             "name": "CACHE_GAMES",
             "summary": "",
             "url": "classes/Smr-Game.html#property_CACHE_GAMES"
-        },                {
-            "fqsen": "\\Smr\\Game\u003A\u003A\u0024db",
-            "name": "db",
-            "summary": "",
-            "url": "classes/Smr-Game.html#property_db"
         },                {
             "fqsen": "\\Smr\\Game\u003A\u003A\u0024name",
             "name": "name",
@@ -8516,11 +8491,6 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/Smr-Planet.html#property_CACHE_PLANETS"
         },                {
-            "fqsen": "\\Smr\\Planet\u003A\u003A\u0024db",
-            "name": "db",
-            "summary": "",
-            "url": "classes/Smr-Planet.html#property_db"
-        },                {
             "fqsen": "\\Smr\\Planet\u003A\u003A\u0024SQL",
             "name": "SQL",
             "summary": "",
@@ -9931,11 +9901,6 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/Smr-Port.html#property_CACHE_CACHED_PORTS"
         },                {
-            "fqsen": "\\Smr\\Port\u003A\u003A\u0024db",
-            "name": "db",
-            "summary": "",
-            "url": "classes/Smr-Port.html#property_db"
-        },                {
             "fqsen": "\\Smr\\Port\u003A\u003A\u0024SQL",
             "name": "SQL",
             "summary": "",
@@ -11121,11 +11086,6 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/Smr-Sector.html#property_CACHE_LOCATION_SECTORS"
         },                {
-            "fqsen": "\\Smr\\Sector\u003A\u003A\u0024db",
-            "name": "db",
-            "summary": "",
-            "url": "classes/Smr-Sector.html#property_db"
-        },                {
             "fqsen": "\\Smr\\Sector\u003A\u003A\u0024SQL",
             "name": "SQL",
             "summary": "",
@@ -12205,11 +12165,6 @@ Search.appendIndex(
             "name": "CACHE_RANDOMS",
             "summary": "",
             "url": "classes/Smr-WeightedRandom.html#property_CACHE_RANDOMS"
-        },                {
-            "fqsen": "\\Smr\\WeightedRandom\u003A\u003A\u0024db",
-            "name": "db",
-            "summary": "",
-            "url": "classes/Smr-WeightedRandom.html#property_db"
         },                {
             "fqsen": "\\Smr\\WeightedRandom\u003A\u003A\u0024weighting",
             "name": "weighting",
