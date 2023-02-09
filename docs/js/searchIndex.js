@@ -4836,6 +4836,11 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/Smr-Database.html#method_escape"
         },                {
+            "fqsen": "\\Smr\\Database\u003A\u003AescapeNullableString\u0028\u0029",
+            "name": "escapeNullableString",
+            "summary": "",
+            "url": "classes/Smr-Database.html#method_escapeNullableString"
+        },                {
             "fqsen": "\\Smr\\Database\u003A\u003AescapeString\u0028\u0029",
             "name": "escapeString",
             "summary": "",
@@ -5375,11 +5380,6 @@ Search.appendIndex(
             "name": "__construct",
             "summary": "",
             "url": "classes/Smr-Discord-PlayerLink.html#method___construct"
-        },                {
-            "fqsen": "\\Smr\\Discord\\PlayerLink\u003A\u003A\u0024valid",
-            "name": "valid",
-            "summary": "Identifies\u0020if\u0020the\u0020message\u0020is\u0020linked\u0020to\u0020game\u0020data",
-            "url": "classes/Smr-Discord-PlayerLink.html#property_valid"
         },                {
             "fqsen": "\\Smr\\Discord\\PlayerLink\u003A\u003A\u0024player",
             "name": "player",
@@ -8606,11 +8606,6 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/Smr-Planet.html#property_hasStoppedBuilding"
         },                {
-            "fqsen": "\\Smr\\Planet\u003A\u003A\u0024isNew",
-            "name": "isNew",
-            "summary": "",
-            "url": "classes/Smr-Planet.html#property_isNew"
-        },                {
             "fqsen": "\\Smr\\Planet\u003A\u003A\u0024gameID",
             "name": "gameID",
             "summary": "",
@@ -11655,11 +11650,6 @@ Search.appendIndex(
             "name": "email",
             "summary": "",
             "url": "classes/Smr-SocialLogin-SocialLogin.html#property_email"
-        },                {
-            "fqsen": "\\Smr\\SocialLogin\\SocialLogin\u003A\u003A\u0024valid",
-            "name": "valid",
-            "summary": "",
-            "url": "classes/Smr-SocialLogin-SocialLogin.html#property_valid"
         },                {
             "fqsen": "\\Smr\\SocialLogin\\SocialLogin\u003A\u003A\u0024errorMessage",
             "name": "errorMessage",
