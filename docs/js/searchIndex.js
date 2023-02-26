@@ -4846,14 +4846,9 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/Smr-Database.html#method_escapeString"
         },                {
-            "fqsen": "\\Smr\\Database\u003A\u003AescapeBinary\u0028\u0029",
-            "name": "escapeBinary",
-            "summary": "",
-            "url": "classes/Smr-Database.html#method_escapeBinary"
-        },                {
             "fqsen": "\\Smr\\Database\u003A\u003AescapeArray\u0028\u0029",
             "name": "escapeArray",
-            "summary": "Warning\u003A\u0020If\u0020escaping\u0020a\u0020nested\u0020array,\u0020beware\u0020that\u0020the\u0020escaped\u0020array\u0020is\nflattened\u0021",
+            "summary": "",
             "url": "classes/Smr-Database.html#method_escapeArray"
         },                {
             "fqsen": "\\Smr\\Database\u003A\u003AescapeNumber\u0028\u0029",
