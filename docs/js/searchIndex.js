@@ -4861,6 +4861,11 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/Smr-Database.html#method_escapeBoolean"
         },                {
+            "fqsen": "\\Smr\\Database\u003A\u003AescapeNullableObject\u0028\u0029",
+            "name": "escapeNullableObject",
+            "summary": "",
+            "url": "classes/Smr-Database.html#method_escapeNullableObject"
+        },                {
             "fqsen": "\\Smr\\Database\u003A\u003AescapeObject\u0028\u0029",
             "name": "escapeObject",
             "summary": "",
@@ -4955,6 +4960,11 @@ Search.appendIndex(
             "name": "getFloat",
             "summary": "",
             "url": "classes/Smr-DatabaseRecord.html#method_getFloat"
+        },                {
+            "fqsen": "\\Smr\\DatabaseRecord\u003A\u003AgetNullableObject\u0028\u0029",
+            "name": "getNullableObject",
+            "summary": "",
+            "url": "classes/Smr-DatabaseRecord.html#method_getNullableObject"
         },                {
             "fqsen": "\\Smr\\DatabaseRecord\u003A\u003AgetObject\u0028\u0029",
             "name": "getObject",
