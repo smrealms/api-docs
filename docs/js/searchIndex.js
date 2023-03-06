@@ -4971,6 +4971,16 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/Smr-DatabaseRecord.html#method_getObject"
         },                {
+            "fqsen": "\\Smr\\DatabaseRecord\u003A\u003AgetIntEnum\u0028\u0029",
+            "name": "getIntEnum",
+            "summary": "",
+            "url": "classes/Smr-DatabaseRecord.html#method_getIntEnum"
+        },                {
+            "fqsen": "\\Smr\\DatabaseRecord\u003A\u003AgetStringEnum\u0028\u0029",
+            "name": "getStringEnum",
+            "summary": "",
+            "url": "classes/Smr-DatabaseRecord.html#method_getStringEnum"
+        },                {
             "fqsen": "\\Smr\\DatabaseRecord\u003A\u003AgetRow\u0028\u0029",
             "name": "getRow",
             "summary": "",
