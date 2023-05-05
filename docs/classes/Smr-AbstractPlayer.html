@@ -204,6 +204,13 @@
 </h3>
 
 <dl class="phpdocumentor-table-of-contents">
+            <dt class="phpdocumentor-table-of-contents__entry -constant -public">
+    <a href="classes/Smr-AbstractPlayer.html#constant_SQL">SQL</a>
+    <span>
+        &nbsp;= &#039;account_id = :account_id AND game_id = :game_id&#039;                            </span>
+</dt>
+<dd></dd>
+
             <dt class="phpdocumentor-table-of-contents__entry -constant -protected">
     <a href="classes/Smr-AbstractPlayer.html#constant_HOF_CHANGED">HOF_CHANGED</a>
     <span>
@@ -239,7 +246,14 @@
 </dt>
 <dd></dd>
 
-                    <dt class="phpdocumentor-table-of-contents__entry -property -protected">
+                    <dt class="phpdocumentor-table-of-contents__entry -property -public">
+    <a href="classes/Smr-AbstractPlayer.html#property_SQLID">$SQLID</a>
+    <span>
+                        &nbsp;: array&lt;string|int, mixed&gt;            </span>
+</dt>
+<dd></dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -property -protected">
     <a href="classes/Smr-AbstractPlayer.html#property_accountID">$accountID</a>
     <span>
                         &nbsp;: int            </span>
@@ -642,13 +656,6 @@
     <a href="classes/Smr-AbstractPlayer.html#property_shipID">$shipID</a>
     <span>
                         &nbsp;: int            </span>
-</dt>
-<dd></dd>
-
-            <dt class="phpdocumentor-table-of-contents__entry -property -protected">
-    <a href="classes/Smr-AbstractPlayer.html#property_SQL">$SQL</a>
-    <span>
-                        &nbsp;: string            </span>
 </dt>
 <dd></dd>
 
@@ -1487,13 +1494,6 @@ for reducing the number of queries in galaxy-wide processing.</dd>
     <a href="classes/Smr-AbstractPlayer.html#method_getShipTypeID">getShipTypeID()</a>
     <span>
                                 &nbsp;: int    </span>
-</dt>
-<dd></dd>
-
-            <dt class="phpdocumentor-table-of-contents__entry -method -public">
-    <a href="classes/Smr-AbstractPlayer.html#method_getSQL">getSQL()</a>
-    <span>
-                                &nbsp;: string    </span>
 </dt>
 <dd></dd>
 
@@ -2624,6 +2624,35 @@ which does not acquire a sector lock.</dd>
             Constants
             <a href="classes/Smr-AbstractPlayer.html#constants" class="headerlink"><i class="fas fa-link"></i></a>
         </h3>
+                    <article class="phpdocumentor-element -constant -public ">
+    <h4 class="phpdocumentor-element__name" id="constant_SQL">
+        SQL
+        <a href="classes/Smr-AbstractPlayer.html#constant_SQL" class="headerlink"><i class="fas fa-link"></i></a>
+    </h4>
+
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/AbstractPlayer.php"><a href="files/src-lib-smr-abstractplayer.html"><abbr title="src/lib/Smr/AbstractPlayer.php">AbstractPlayer.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">44</span>
+
+    </aside>
+
+    
+    <code class="phpdocumentor-signature phpdocumentor-code ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+        <span class="phpdocumentor-signature__type">mixed</span>
+    <span class="phpdocumentor-signature__name">SQL</span>
+    = <span class="phpdocumentor-signature__default-value">&#039;account_id = :account_id AND game_id = :game_id&#039;</span>
+</code>
+
+
+        <section class="phpdocumentor-description"></section>
+
+        <section class="phpdocumentor-description"></section>
+
+    
+
+</article>
                     <article class="phpdocumentor-element -constant -protected ">
     <h4 class="phpdocumentor-element__name" id="constant_HOF_CHANGED">
         HOF_CHANGED
@@ -2781,6 +2810,40 @@ which does not acquire a sector lock.</dd>
         class="
             phpdocumentor-element
             -property
+            -public
+                                                -read-only        "
+>
+    <h4 class="phpdocumentor-element__name" id="property_SQLID">
+        $SQLID
+        <a href="classes/Smr-AbstractPlayer.html#property_SQLID" class="headerlink"><i class="fas fa-link"></i></a>
+        <span class="phpdocumentor-element__modifiers">
+                        <small class="phpdocumentor-element__modifier">read-only</small>        </span>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/AbstractPlayer.php"><a href="files/src-lib-smr-abstractplayer.html"><abbr title="src/lib/Smr/AbstractPlayer.php">AbstractPlayer.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">46</span>
+
+    </aside>
+
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+        <span class="phpdocumentor-signature__type">array&lt;string|int, mixed&gt;</span>
+    <span class="phpdocumentor-signature__name">$SQLID</span>
+    </code>
+
+    
+        <section class="phpdocumentor-description"><p>array{account_id: int, game_id: int}</p>
+</section>
+
+    
+
+</article>
+                    <article
+        class="
+            phpdocumentor-element
+            -property
             -protected
                                                 -read-only        "
 >
@@ -2793,7 +2856,7 @@ which does not acquire a sector lock.</dd>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/AbstractPlayer.php"><a href="files/src-lib-smr-abstractplayer.html"><abbr title="src/lib/Smr/AbstractPlayer.php">AbstractPlayer.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">253</span>
+    <span class="phpdocumentor-element-found-in__line">284</span>
 
     </aside>
 
@@ -2827,7 +2890,7 @@ which does not acquire a sector lock.</dd>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/AbstractPlayer.php"><a href="files/src-lib-smr-abstractplayer.html"><abbr title="src/lib/Smr/AbstractPlayer.php">AbstractPlayer.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">58</span>
+    <span class="phpdocumentor-element-found-in__line">60</span>
 
     </aside>
 
@@ -2861,7 +2924,7 @@ which does not acquire a sector lock.</dd>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/AbstractPlayer.php"><a href="files/src-lib-smr-abstractplayer.html"><abbr title="src/lib/Smr/AbstractPlayer.php">AbstractPlayer.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">61</span>
+    <span class="phpdocumentor-element-found-in__line">63</span>
 
     </aside>
 
@@ -2895,7 +2958,7 @@ which does not acquire a sector lock.</dd>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/AbstractPlayer.php"><a href="files/src-lib-smr-abstractplayer.html"><abbr title="src/lib/Smr/AbstractPlayer.php">AbstractPlayer.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">83</span>
+    <span class="phpdocumentor-element-found-in__line">85</span>
 
     </aside>
 
@@ -2929,7 +2992,7 @@ which does not acquire a sector lock.</dd>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/AbstractPlayer.php"><a href="files/src-lib-smr-abstractplayer.html"><abbr title="src/lib/Smr/AbstractPlayer.php">AbstractPlayer.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">106</span>
+    <span class="phpdocumentor-element-found-in__line">108</span>
 
     </aside>
 
@@ -2961,7 +3024,7 @@ which does not acquire a sector lock.</dd>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/AbstractPlayer.php"><a href="files/src-lib-smr-abstractplayer.html"><abbr title="src/lib/Smr/AbstractPlayer.php">AbstractPlayer.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">65</span>
+    <span class="phpdocumentor-element-found-in__line">67</span>
 
     </aside>
 
@@ -2995,7 +3058,7 @@ which does not acquire a sector lock.</dd>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/AbstractPlayer.php"><a href="files/src-lib-smr-abstractplayer.html"><abbr title="src/lib/Smr/AbstractPlayer.php">AbstractPlayer.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">82</span>
+    <span class="phpdocumentor-element-found-in__line">84</span>
 
     </aside>
 
@@ -3029,7 +3092,7 @@ which does not acquire a sector lock.</dd>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/AbstractPlayer.php"><a href="files/src-lib-smr-abstractplayer.html"><abbr title="src/lib/Smr/AbstractPlayer.php">AbstractPlayer.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">85</span>
+    <span class="phpdocumentor-element-found-in__line">87</span>
 
     </aside>
 
@@ -3063,7 +3126,7 @@ which does not acquire a sector lock.</dd>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/AbstractPlayer.php"><a href="files/src-lib-smr-abstractplayer.html"><abbr title="src/lib/Smr/AbstractPlayer.php">AbstractPlayer.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">72</span>
+    <span class="phpdocumentor-element-found-in__line">74</span>
 
     </aside>
 
@@ -3223,7 +3286,7 @@ which does not acquire a sector lock.</dd>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/AbstractPlayer.php"><a href="files/src-lib-smr-abstractplayer.html"><abbr title="src/lib/Smr/AbstractPlayer.php">AbstractPlayer.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">100</span>
+    <span class="phpdocumentor-element-found-in__line">102</span>
 
     </aside>
 
@@ -3255,7 +3318,7 @@ which does not acquire a sector lock.</dd>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/AbstractPlayer.php"><a href="files/src-lib-smr-abstractplayer.html"><abbr title="src/lib/Smr/AbstractPlayer.php">AbstractPlayer.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">95</span>
+    <span class="phpdocumentor-element-found-in__line">97</span>
 
     </aside>
 
@@ -3289,7 +3352,7 @@ which does not acquire a sector lock.</dd>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/AbstractPlayer.php"><a href="files/src-lib-smr-abstractplayer.html"><abbr title="src/lib/Smr/AbstractPlayer.php">AbstractPlayer.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">57</span>
+    <span class="phpdocumentor-element-found-in__line">59</span>
 
     </aside>
 
@@ -3323,7 +3386,7 @@ which does not acquire a sector lock.</dd>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/AbstractPlayer.php"><a href="files/src-lib-smr-abstractplayer.html"><abbr title="src/lib/Smr/AbstractPlayer.php">AbstractPlayer.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">96</span>
+    <span class="phpdocumentor-element-found-in__line">98</span>
 
     </aside>
 
@@ -3357,7 +3420,7 @@ which does not acquire a sector lock.</dd>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/AbstractPlayer.php"><a href="files/src-lib-smr-abstractplayer.html"><abbr title="src/lib/Smr/AbstractPlayer.php">AbstractPlayer.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">51</span>
+    <span class="phpdocumentor-element-found-in__line">53</span>
 
     </aside>
 
@@ -3391,7 +3454,7 @@ which does not acquire a sector lock.</dd>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/AbstractPlayer.php"><a href="files/src-lib-smr-abstractplayer.html"><abbr title="src/lib/Smr/AbstractPlayer.php">AbstractPlayer.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">64</span>
+    <span class="phpdocumentor-element-found-in__line">66</span>
 
     </aside>
 
@@ -3425,7 +3488,7 @@ which does not acquire a sector lock.</dd>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/AbstractPlayer.php"><a href="files/src-lib-smr-abstractplayer.html"><abbr title="src/lib/Smr/AbstractPlayer.php">AbstractPlayer.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">87</span>
+    <span class="phpdocumentor-element-found-in__line">89</span>
 
     </aside>
 
@@ -3459,7 +3522,7 @@ which does not acquire a sector lock.</dd>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/AbstractPlayer.php"><a href="files/src-lib-smr-abstractplayer.html"><abbr title="src/lib/Smr/AbstractPlayer.php">AbstractPlayer.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">88</span>
+    <span class="phpdocumentor-element-found-in__line">90</span>
 
     </aside>
 
@@ -3493,7 +3556,7 @@ which does not acquire a sector lock.</dd>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/AbstractPlayer.php"><a href="files/src-lib-smr-abstractplayer.html"><abbr title="src/lib/Smr/AbstractPlayer.php">AbstractPlayer.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">110</span>
+    <span class="phpdocumentor-element-found-in__line">112</span>
 
     </aside>
 
@@ -3527,7 +3590,7 @@ which does not acquire a sector lock.</dd>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/AbstractPlayer.php"><a href="files/src-lib-smr-abstractplayer.html"><abbr title="src/lib/Smr/AbstractPlayer.php">AbstractPlayer.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">59</span>
+    <span class="phpdocumentor-element-found-in__line">61</span>
 
     </aside>
 
@@ -3561,7 +3624,7 @@ which does not acquire a sector lock.</dd>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/AbstractPlayer.php"><a href="files/src-lib-smr-abstractplayer.html"><abbr title="src/lib/Smr/AbstractPlayer.php">AbstractPlayer.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">89</span>
+    <span class="phpdocumentor-element-found-in__line">91</span>
 
     </aside>
 
@@ -3595,7 +3658,7 @@ which does not acquire a sector lock.</dd>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/AbstractPlayer.php"><a href="files/src-lib-smr-abstractplayer.html"><abbr title="src/lib/Smr/AbstractPlayer.php">AbstractPlayer.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">252</span>
+    <span class="phpdocumentor-element-found-in__line">283</span>
 
     </aside>
 
@@ -3629,7 +3692,7 @@ which does not acquire a sector lock.</dd>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/AbstractPlayer.php"><a href="files/src-lib-smr-abstractplayer.html"><abbr title="src/lib/Smr/AbstractPlayer.php">AbstractPlayer.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">111</span>
+    <span class="phpdocumentor-element-found-in__line">113</span>
 
     </aside>
 
@@ -3663,7 +3726,7 @@ which does not acquire a sector lock.</dd>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/AbstractPlayer.php"><a href="files/src-lib-smr-abstractplayer.html"><abbr title="src/lib/Smr/AbstractPlayer.php">AbstractPlayer.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">117</span>
+    <span class="phpdocumentor-element-found-in__line">119</span>
 
     </aside>
 
@@ -3697,7 +3760,7 @@ which does not acquire a sector lock.</dd>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/AbstractPlayer.php"><a href="files/src-lib-smr-abstractplayer.html"><abbr title="src/lib/Smr/AbstractPlayer.php">AbstractPlayer.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">119</span>
+    <span class="phpdocumentor-element-found-in__line">121</span>
 
     </aside>
 
@@ -3729,7 +3792,7 @@ which does not acquire a sector lock.</dd>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/AbstractPlayer.php"><a href="files/src-lib-smr-abstractplayer.html"><abbr title="src/lib/Smr/AbstractPlayer.php">AbstractPlayer.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">121</span>
+    <span class="phpdocumentor-element-found-in__line">123</span>
 
     </aside>
 
@@ -3761,7 +3824,7 @@ which does not acquire a sector lock.</dd>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/AbstractPlayer.php"><a href="files/src-lib-smr-abstractplayer.html"><abbr title="src/lib/Smr/AbstractPlayer.php">AbstractPlayer.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">113</span>
+    <span class="phpdocumentor-element-found-in__line">115</span>
 
     </aside>
 
@@ -3793,7 +3856,7 @@ which does not acquire a sector lock.</dd>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/AbstractPlayer.php"><a href="files/src-lib-smr-abstractplayer.html"><abbr title="src/lib/Smr/AbstractPlayer.php">AbstractPlayer.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">115</span>
+    <span class="phpdocumentor-element-found-in__line">117</span>
 
     </aside>
 
@@ -3825,7 +3888,7 @@ which does not acquire a sector lock.</dd>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/AbstractPlayer.php"><a href="files/src-lib-smr-abstractplayer.html"><abbr title="src/lib/Smr/AbstractPlayer.php">AbstractPlayer.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">91</span>
+    <span class="phpdocumentor-element-found-in__line">93</span>
 
     </aside>
 
@@ -3859,7 +3922,7 @@ which does not acquire a sector lock.</dd>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/AbstractPlayer.php"><a href="files/src-lib-smr-abstractplayer.html"><abbr title="src/lib/Smr/AbstractPlayer.php">AbstractPlayer.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">63</span>
+    <span class="phpdocumentor-element-found-in__line">65</span>
 
     </aside>
 
@@ -3893,7 +3956,7 @@ which does not acquire a sector lock.</dd>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/AbstractPlayer.php"><a href="files/src-lib-smr-abstractplayer.html"><abbr title="src/lib/Smr/AbstractPlayer.php">AbstractPlayer.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">55</span>
+    <span class="phpdocumentor-element-found-in__line">57</span>
 
     </aside>
 
@@ -3927,7 +3990,7 @@ which does not acquire a sector lock.</dd>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/AbstractPlayer.php"><a href="files/src-lib-smr-abstractplayer.html"><abbr title="src/lib/Smr/AbstractPlayer.php">AbstractPlayer.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">56</span>
+    <span class="phpdocumentor-element-found-in__line">58</span>
 
     </aside>
 
@@ -3961,7 +4024,7 @@ which does not acquire a sector lock.</dd>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/AbstractPlayer.php"><a href="files/src-lib-smr-abstractplayer.html"><abbr title="src/lib/Smr/AbstractPlayer.php">AbstractPlayer.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">74</span>
+    <span class="phpdocumentor-element-found-in__line">76</span>
 
     </aside>
 
@@ -3995,7 +4058,7 @@ which does not acquire a sector lock.</dd>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/AbstractPlayer.php"><a href="files/src-lib-smr-abstractplayer.html"><abbr title="src/lib/Smr/AbstractPlayer.php">AbstractPlayer.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">81</span>
+    <span class="phpdocumentor-element-found-in__line">83</span>
 
     </aside>
 
@@ -4029,7 +4092,7 @@ which does not acquire a sector lock.</dd>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/AbstractPlayer.php"><a href="files/src-lib-smr-abstractplayer.html"><abbr title="src/lib/Smr/AbstractPlayer.php">AbstractPlayer.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">84</span>
+    <span class="phpdocumentor-element-found-in__line">86</span>
 
     </aside>
 
@@ -4063,7 +4126,7 @@ which does not acquire a sector lock.</dd>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/AbstractPlayer.php"><a href="files/src-lib-smr-abstractplayer.html"><abbr title="src/lib/Smr/AbstractPlayer.php">AbstractPlayer.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">49</span>
+    <span class="phpdocumentor-element-found-in__line">51</span>
 
     </aside>
 
@@ -4097,7 +4160,7 @@ which does not acquire a sector lock.</dd>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/AbstractPlayer.php"><a href="files/src-lib-smr-abstractplayer.html"><abbr title="src/lib/Smr/AbstractPlayer.php">AbstractPlayer.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">80</span>
+    <span class="phpdocumentor-element-found-in__line">82</span>
 
     </aside>
 
@@ -4131,7 +4194,7 @@ which does not acquire a sector lock.</dd>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/AbstractPlayer.php"><a href="files/src-lib-smr-abstractplayer.html"><abbr title="src/lib/Smr/AbstractPlayer.php">AbstractPlayer.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">60</span>
+    <span class="phpdocumentor-element-found-in__line">62</span>
 
     </aside>
 
@@ -4165,7 +4228,7 @@ which does not acquire a sector lock.</dd>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/AbstractPlayer.php"><a href="files/src-lib-smr-abstractplayer.html"><abbr title="src/lib/Smr/AbstractPlayer.php">AbstractPlayer.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">70</span>
+    <span class="phpdocumentor-element-found-in__line">72</span>
 
     </aside>
 
@@ -4199,7 +4262,7 @@ which does not acquire a sector lock.</dd>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/AbstractPlayer.php"><a href="files/src-lib-smr-abstractplayer.html"><abbr title="src/lib/Smr/AbstractPlayer.php">AbstractPlayer.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">76</span>
+    <span class="phpdocumentor-element-found-in__line">78</span>
 
     </aside>
 
@@ -4231,7 +4294,7 @@ which does not acquire a sector lock.</dd>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/AbstractPlayer.php"><a href="files/src-lib-smr-abstractplayer.html"><abbr title="src/lib/Smr/AbstractPlayer.php">AbstractPlayer.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">93</span>
+    <span class="phpdocumentor-element-found-in__line">95</span>
 
     </aside>
 
@@ -4265,7 +4328,7 @@ which does not acquire a sector lock.</dd>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/AbstractPlayer.php"><a href="files/src-lib-smr-abstractplayer.html"><abbr title="src/lib/Smr/AbstractPlayer.php">AbstractPlayer.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">53</span>
+    <span class="phpdocumentor-element-found-in__line">55</span>
 
     </aside>
 
@@ -4299,7 +4362,7 @@ which does not acquire a sector lock.</dd>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/AbstractPlayer.php"><a href="files/src-lib-smr-abstractplayer.html"><abbr title="src/lib/Smr/AbstractPlayer.php">AbstractPlayer.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">50</span>
+    <span class="phpdocumentor-element-found-in__line">52</span>
 
     </aside>
 
@@ -4333,7 +4396,7 @@ which does not acquire a sector lock.</dd>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/AbstractPlayer.php"><a href="files/src-lib-smr-abstractplayer.html"><abbr title="src/lib/Smr/AbstractPlayer.php">AbstractPlayer.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">54</span>
+    <span class="phpdocumentor-element-found-in__line">56</span>
 
     </aside>
 
@@ -4367,7 +4430,7 @@ which does not acquire a sector lock.</dd>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/AbstractPlayer.php"><a href="files/src-lib-smr-abstractplayer.html"><abbr title="src/lib/Smr/AbstractPlayer.php">AbstractPlayer.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">52</span>
+    <span class="phpdocumentor-element-found-in__line">54</span>
 
     </aside>
 
@@ -4401,7 +4464,7 @@ which does not acquire a sector lock.</dd>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/AbstractPlayer.php"><a href="files/src-lib-smr-abstractplayer.html"><abbr title="src/lib/Smr/AbstractPlayer.php">AbstractPlayer.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">67</span>
+    <span class="phpdocumentor-element-found-in__line">69</span>
 
     </aside>
 
@@ -4433,7 +4496,7 @@ which does not acquire a sector lock.</dd>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/AbstractPlayer.php"><a href="files/src-lib-smr-abstractplayer.html"><abbr title="src/lib/Smr/AbstractPlayer.php">AbstractPlayer.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">47</span>
+    <span class="phpdocumentor-element-found-in__line">49</span>
 
     </aside>
 
@@ -4467,7 +4530,7 @@ which does not acquire a sector lock.</dd>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/AbstractPlayer.php"><a href="files/src-lib-smr-abstractplayer.html"><abbr title="src/lib/Smr/AbstractPlayer.php">AbstractPlayer.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">46</span>
+    <span class="phpdocumentor-element-found-in__line">48</span>
 
     </aside>
 
@@ -4501,7 +4564,7 @@ which does not acquire a sector lock.</dd>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/AbstractPlayer.php"><a href="files/src-lib-smr-abstractplayer.html"><abbr title="src/lib/Smr/AbstractPlayer.php">AbstractPlayer.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">92</span>
+    <span class="phpdocumentor-element-found-in__line">94</span>
 
     </aside>
 
@@ -4535,7 +4598,7 @@ which does not acquire a sector lock.</dd>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/AbstractPlayer.php"><a href="files/src-lib-smr-abstractplayer.html"><abbr title="src/lib/Smr/AbstractPlayer.php">AbstractPlayer.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">94</span>
+    <span class="phpdocumentor-element-found-in__line">96</span>
 
     </aside>
 
@@ -4603,7 +4666,7 @@ which does not acquire a sector lock.</dd>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/AbstractPlayer.php"><a href="files/src-lib-smr-abstractplayer.html"><abbr title="src/lib/Smr/AbstractPlayer.php">AbstractPlayer.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">69</span>
+    <span class="phpdocumentor-element-found-in__line">71</span>
 
     </aside>
 
@@ -4635,7 +4698,7 @@ which does not acquire a sector lock.</dd>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/AbstractPlayer.php"><a href="files/src-lib-smr-abstractplayer.html"><abbr title="src/lib/Smr/AbstractPlayer.php">AbstractPlayer.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">90</span>
+    <span class="phpdocumentor-element-found-in__line">92</span>
 
     </aside>
 
@@ -4669,7 +4732,7 @@ which does not acquire a sector lock.</dd>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/AbstractPlayer.php"><a href="files/src-lib-smr-abstractplayer.html"><abbr title="src/lib/Smr/AbstractPlayer.php">AbstractPlayer.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">48</span>
+    <span class="phpdocumentor-element-found-in__line">50</span>
 
     </aside>
 
@@ -4703,7 +4766,7 @@ which does not acquire a sector lock.</dd>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/AbstractPlayer.php"><a href="files/src-lib-smr-abstractplayer.html"><abbr title="src/lib/Smr/AbstractPlayer.php">AbstractPlayer.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">62</span>
+    <span class="phpdocumentor-element-found-in__line">64</span>
 
     </aside>
 
@@ -4712,40 +4775,6 @@ which does not acquire a sector lock.</dd>
     <span class="phpdocumentor-signature__visibility">protected</span>
         <span class="phpdocumentor-signature__type">int</span>
     <span class="phpdocumentor-signature__name">$shipID</span>
-    </code>
-
-        <section class="phpdocumentor-description"></section>
-
-        <section class="phpdocumentor-description"></section>
-
-    
-
-</article>
-                    <article
-        class="
-            phpdocumentor-element
-            -property
-            -protected
-                                                -read-only        "
->
-    <h4 class="phpdocumentor-element__name" id="property_SQL">
-        $SQL
-        <a href="classes/Smr-AbstractPlayer.html#property_SQL" class="headerlink"><i class="fas fa-link"></i></a>
-        <span class="phpdocumentor-element__modifiers">
-                        <small class="phpdocumentor-element__modifier">read-only</small>        </span>
-    </h4>
-    <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/AbstractPlayer.php"><a href="files/src-lib-smr-abstractplayer.html"><abbr title="src/lib/Smr/AbstractPlayer.php">AbstractPlayer.php</abbr></a></abbr>
-    :
-    <span class="phpdocumentor-element-found-in__line">44</span>
-
-    </aside>
-
-    
-    <code class="phpdocumentor-code phpdocumentor-signature ">
-    <span class="phpdocumentor-signature__visibility">protected</span>
-        <span class="phpdocumentor-signature__type">string</span>
-    <span class="phpdocumentor-signature__name">$SQL</span>
     </code>
 
         <section class="phpdocumentor-description"></section>
@@ -4771,7 +4800,7 @@ which does not acquire a sector lock.</dd>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/AbstractPlayer.php"><a href="files/src-lib-smr-abstractplayer.html"><abbr title="src/lib/Smr/AbstractPlayer.php">AbstractPlayer.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">98</span>
+    <span class="phpdocumentor-element-found-in__line">100</span>
 
     </aside>
 
@@ -4803,7 +4832,7 @@ which does not acquire a sector lock.</dd>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/AbstractPlayer.php"><a href="files/src-lib-smr-abstractplayer.html"><abbr title="src/lib/Smr/AbstractPlayer.php">AbstractPlayer.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">79</span>
+    <span class="phpdocumentor-element-found-in__line">81</span>
 
     </aside>
 
@@ -4835,7 +4864,7 @@ which does not acquire a sector lock.</dd>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/AbstractPlayer.php"><a href="files/src-lib-smr-abstractplayer.html"><abbr title="src/lib/Smr/AbstractPlayer.php">AbstractPlayer.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">73</span>
+    <span class="phpdocumentor-element-found-in__line">75</span>
 
     </aside>
 
@@ -4869,7 +4898,7 @@ which does not acquire a sector lock.</dd>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/AbstractPlayer.php"><a href="files/src-lib-smr-abstractplayer.html"><abbr title="src/lib/Smr/AbstractPlayer.php">AbstractPlayer.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">101</span>
+    <span class="phpdocumentor-element-found-in__line">103</span>
 
     </aside>
 
@@ -4903,7 +4932,7 @@ which does not acquire a sector lock.</dd>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/AbstractPlayer.php"><a href="files/src-lib-smr-abstractplayer.html"><abbr title="src/lib/Smr/AbstractPlayer.php">AbstractPlayer.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">104</span>
+    <span class="phpdocumentor-element-found-in__line">106</span>
 
     </aside>
 
@@ -4935,7 +4964,7 @@ which does not acquire a sector lock.</dd>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/AbstractPlayer.php"><a href="files/src-lib-smr-abstractplayer.html"><abbr title="src/lib/Smr/AbstractPlayer.php">AbstractPlayer.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">86</span>
+    <span class="phpdocumentor-element-found-in__line">88</span>
 
     </aside>
 
@@ -4973,7 +5002,7 @@ which does not acquire a sector lock.</dd>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/AbstractPlayer.php"><a href="files/src-lib-smr-abstractplayer.html"><abbr title="src/lib/Smr/AbstractPlayer.php">AbstractPlayer.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">1782</span>
+    <span class="phpdocumentor-element-found-in__line">1838</span>
 
     </aside>
 
@@ -5006,7 +5035,7 @@ which does not acquire a sector lock.</dd>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/AbstractPlayer.php"><a href="files/src-lib-smr-abstractplayer.html"><abbr title="src/lib/Smr/AbstractPlayer.php">AbstractPlayer.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">2874</span>
+    <span class="phpdocumentor-element-found-in__line">2963</span>
 
     </aside>
 
@@ -5056,7 +5085,7 @@ which does not acquire a sector lock.</dd>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/AbstractPlayer.php"><a href="files/src-lib-smr-abstractplayer.html"><abbr title="src/lib/Smr/AbstractPlayer.php">AbstractPlayer.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">1832</span>
+    <span class="phpdocumentor-element-found-in__line">1895</span>
 
     </aside>
 
@@ -5108,7 +5137,7 @@ which does not acquire a sector lock.</dd>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/AbstractPlayer.php"><a href="files/src-lib-smr-abstractplayer.html"><abbr title="src/lib/Smr/AbstractPlayer.php">AbstractPlayer.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">2742</span>
+    <span class="phpdocumentor-element-found-in__line">2829</span>
 
     </aside>
 
@@ -5160,7 +5189,7 @@ which does not acquire a sector lock.</dd>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/AbstractPlayer.php"><a href="files/src-lib-smr-abstractplayer.html"><abbr title="src/lib/Smr/AbstractPlayer.php">AbstractPlayer.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">929</span>
+    <span class="phpdocumentor-element-found-in__line">977</span>
 
     </aside>
 
@@ -5204,7 +5233,7 @@ which does not acquire a sector lock.</dd>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/AbstractPlayer.php"><a href="files/src-lib-smr-abstractplayer.html"><abbr title="src/lib/Smr/AbstractPlayer.php">AbstractPlayer.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">1358</span>
+    <span class="phpdocumentor-element-found-in__line">1409</span>
 
     </aside>
 
@@ -5237,7 +5266,7 @@ which does not acquire a sector lock.</dd>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/AbstractPlayer.php"><a href="files/src-lib-smr-abstractplayer.html"><abbr title="src/lib/Smr/AbstractPlayer.php">AbstractPlayer.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">949</span>
+    <span class="phpdocumentor-element-found-in__line">1000</span>
 
     </aside>
 
@@ -5271,7 +5300,7 @@ participate in battles.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/AbstractPlayer.php"><a href="files/src-lib-smr-abstractplayer.html"><abbr title="src/lib/Smr/AbstractPlayer.php">AbstractPlayer.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">2927</span>
+    <span class="phpdocumentor-element-found-in__line">3016</span>
 
     </aside>
 
@@ -5315,7 +5344,7 @@ participate in battles.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/AbstractPlayer.php"><a href="files/src-lib-smr-abstractplayer.html"><abbr title="src/lib/Smr/AbstractPlayer.php">AbstractPlayer.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">2918</span>
+    <span class="phpdocumentor-element-found-in__line">3007</span>
 
     </aside>
 
@@ -5357,7 +5386,7 @@ participate in battles.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/AbstractPlayer.php"><a href="files/src-lib-smr-abstractplayer.html"><abbr title="src/lib/Smr/AbstractPlayer.php">AbstractPlayer.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">1304</span>
+    <span class="phpdocumentor-element-found-in__line">1355</span>
 
     </aside>
 
@@ -5417,7 +5446,7 @@ participate in battles.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/AbstractPlayer.php"><a href="files/src-lib-smr-abstractplayer.html"><abbr title="src/lib/Smr/AbstractPlayer.php">AbstractPlayer.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">1335</span>
+    <span class="phpdocumentor-element-found-in__line">1386</span>
 
     </aside>
 
@@ -5463,7 +5492,7 @@ participate in battles.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/AbstractPlayer.php"><a href="files/src-lib-smr-abstractplayer.html"><abbr title="src/lib/Smr/AbstractPlayer.php">AbstractPlayer.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">2817</span>
+    <span class="phpdocumentor-element-found-in__line">2906</span>
 
     </aside>
 
@@ -5507,7 +5536,7 @@ participate in battles.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/AbstractPlayer.php"><a href="files/src-lib-smr-abstractplayer.html"><abbr title="src/lib/Smr/AbstractPlayer.php">AbstractPlayer.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">123</span>
+    <span class="phpdocumentor-element-found-in__line">125</span>
 
     </aside>
 
@@ -5540,7 +5569,7 @@ participate in battles.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/AbstractPlayer.php"><a href="files/src-lib-smr-abstractplayer.html"><abbr title="src/lib/Smr/AbstractPlayer.php">AbstractPlayer.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">313</span>
+    <span class="phpdocumentor-element-found-in__line">347</span>
 
     </aside>
 
@@ -5624,7 +5653,7 @@ participate in battles.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/AbstractPlayer.php"><a href="files/src-lib-smr-abstractplayer.html"><abbr title="src/lib/Smr/AbstractPlayer.php">AbstractPlayer.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">2737</span>
+    <span class="phpdocumentor-element-found-in__line">2824</span>
 
     </aside>
 
@@ -5669,7 +5698,7 @@ by adding it in its completed state.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/AbstractPlayer.php"><a href="files/src-lib-smr-abstractplayer.html"><abbr title="src/lib/Smr/AbstractPlayer.php">AbstractPlayer.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">1041</span>
+    <span class="phpdocumentor-element-found-in__line">1092</span>
 
     </aside>
 
@@ -5713,7 +5742,7 @@ by adding it in its completed state.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/AbstractPlayer.php"><a href="files/src-lib-smr-abstractplayer.html"><abbr title="src/lib/Smr/AbstractPlayer.php">AbstractPlayer.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">1085</span>
+    <span class="phpdocumentor-element-found-in__line">1136</span>
 
     </aside>
 
@@ -5757,7 +5786,7 @@ by adding it in its completed state.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/AbstractPlayer.php"><a href="files/src-lib-smr-abstractplayer.html"><abbr title="src/lib/Smr/AbstractPlayer.php">AbstractPlayer.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">1166</span>
+    <span class="phpdocumentor-element-found-in__line">1217</span>
 
     </aside>
 
@@ -5801,7 +5830,7 @@ by adding it in its completed state.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/AbstractPlayer.php"><a href="files/src-lib-smr-abstractplayer.html"><abbr title="src/lib/Smr/AbstractPlayer.php">AbstractPlayer.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">1203</span>
+    <span class="phpdocumentor-element-found-in__line">1254</span>
 
     </aside>
 
@@ -5845,7 +5874,7 @@ by adding it in its completed state.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/AbstractPlayer.php"><a href="files/src-lib-smr-abstractplayer.html"><abbr title="src/lib/Smr/AbstractPlayer.php">AbstractPlayer.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">2071</span>
+    <span class="phpdocumentor-element-found-in__line">2136</span>
 
     </aside>
 
@@ -5903,7 +5932,7 @@ by adding it in its completed state.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/AbstractPlayer.php"><a href="files/src-lib-smr-abstractplayer.html"><abbr title="src/lib/Smr/AbstractPlayer.php">AbstractPlayer.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">1937</span>
+    <span class="phpdocumentor-element-found-in__line">2002</span>
 
     </aside>
 
@@ -5947,7 +5976,7 @@ by adding it in its completed state.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/AbstractPlayer.php"><a href="files/src-lib-smr-abstractplayer.html"><abbr title="src/lib/Smr/AbstractPlayer.php">AbstractPlayer.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">1634</span>
+    <span class="phpdocumentor-element-found-in__line">1692</span>
 
     </aside>
 
@@ -5999,7 +6028,7 @@ by adding it in its completed state.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/AbstractPlayer.php"><a href="files/src-lib-smr-abstractplayer.html"><abbr title="src/lib/Smr/AbstractPlayer.php">AbstractPlayer.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">1612</span>
+    <span class="phpdocumentor-element-found-in__line">1670</span>
 
     </aside>
 
@@ -6052,7 +6081,7 @@ bargaining and getting caught stealing.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/AbstractPlayer.php"><a href="files/src-lib-smr-abstractplayer.html"><abbr title="src/lib/Smr/AbstractPlayer.php">AbstractPlayer.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">410</span>
+    <span class="phpdocumentor-element-found-in__line">442</span>
 
     </aside>
 
@@ -6096,7 +6125,7 @@ bargaining and getting caught stealing.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/AbstractPlayer.php"><a href="files/src-lib-smr-abstractplayer.html"><abbr title="src/lib/Smr/AbstractPlayer.php">AbstractPlayer.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">1862</span>
+    <span class="phpdocumentor-element-found-in__line">1924</span>
 
     </aside>
 
@@ -6140,7 +6169,7 @@ bargaining and getting caught stealing.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/AbstractPlayer.php"><a href="files/src-lib-smr-abstractplayer.html"><abbr title="src/lib/Smr/AbstractPlayer.php">AbstractPlayer.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">2790</span>
+    <span class="phpdocumentor-element-found-in__line">2876</span>
 
     </aside>
 
@@ -6184,7 +6213,7 @@ bargaining and getting caught stealing.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/AbstractPlayer.php"><a href="files/src-lib-smr-abstractplayer.html"><abbr title="src/lib/Smr/AbstractPlayer.php">AbstractPlayer.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">1761</span>
+    <span class="phpdocumentor-element-found-in__line">1817</span>
 
     </aside>
 
@@ -6217,7 +6246,7 @@ bargaining and getting caught stealing.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/AbstractPlayer.php"><a href="files/src-lib-smr-abstractplayer.html"><abbr title="src/lib/Smr/AbstractPlayer.php">AbstractPlayer.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">2940</span>
+    <span class="phpdocumentor-element-found-in__line">3029</span>
 
     </aside>
 
@@ -6261,7 +6290,7 @@ bargaining and getting caught stealing.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/AbstractPlayer.php"><a href="files/src-lib-smr-abstractplayer.html"><abbr title="src/lib/Smr/AbstractPlayer.php">AbstractPlayer.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">2952</span>
+    <span class="phpdocumentor-element-found-in__line">3041</span>
 
     </aside>
 
@@ -6305,7 +6334,7 @@ bargaining and getting caught stealing.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/AbstractPlayer.php"><a href="files/src-lib-smr-abstractplayer.html"><abbr title="src/lib/Smr/AbstractPlayer.php">AbstractPlayer.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">441</span>
+    <span class="phpdocumentor-element-found-in__line">473</span>
 
     </aside>
 
@@ -6338,7 +6367,7 @@ bargaining and getting caught stealing.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/AbstractPlayer.php"><a href="files/src-lib-smr-abstractplayer.html"><abbr title="src/lib/Smr/AbstractPlayer.php">AbstractPlayer.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">445</span>
+    <span class="phpdocumentor-element-found-in__line">477</span>
 
     </aside>
 
@@ -6371,7 +6400,7 @@ bargaining and getting caught stealing.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/AbstractPlayer.php"><a href="files/src-lib-smr-abstractplayer.html"><abbr title="src/lib/Smr/AbstractPlayer.php">AbstractPlayer.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">1986</span>
+    <span class="phpdocumentor-element-found-in__line">2051</span>
 
     </aside>
 
@@ -6415,7 +6444,7 @@ bargaining and getting caught stealing.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/AbstractPlayer.php"><a href="files/src-lib-smr-abstractplayer.html"><abbr title="src/lib/Smr/AbstractPlayer.php">AbstractPlayer.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">2670</span>
+    <span class="phpdocumentor-element-found-in__line">2751</span>
 
     </aside>
 
@@ -6447,7 +6476,7 @@ bargaining and getting caught stealing.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/AbstractPlayer.php"><a href="files/src-lib-smr-abstractplayer.html"><abbr title="src/lib/Smr/AbstractPlayer.php">AbstractPlayer.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">1026</span>
+    <span class="phpdocumentor-element-found-in__line">1077</span>
 
     </aside>
 
@@ -6480,7 +6509,7 @@ bargaining and getting caught stealing.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/AbstractPlayer.php"><a href="files/src-lib-smr-abstractplayer.html"><abbr title="src/lib/Smr/AbstractPlayer.php">AbstractPlayer.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">1386</span>
+    <span class="phpdocumentor-element-found-in__line">1437</span>
 
     </aside>
 
@@ -6524,7 +6553,7 @@ bargaining and getting caught stealing.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/AbstractPlayer.php"><a href="files/src-lib-smr-abstractplayer.html"><abbr title="src/lib/Smr/AbstractPlayer.php">AbstractPlayer.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">1412</span>
+    <span class="phpdocumentor-element-found-in__line">1468</span>
 
     </aside>
 
@@ -6557,7 +6586,7 @@ bargaining and getting caught stealing.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/AbstractPlayer.php"><a href="files/src-lib-smr-abstractplayer.html"><abbr title="src/lib/Smr/AbstractPlayer.php">AbstractPlayer.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">1416</span>
+    <span class="phpdocumentor-element-found-in__line">1472</span>
 
     </aside>
 
@@ -6609,7 +6638,7 @@ bargaining and getting caught stealing.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/AbstractPlayer.php"><a href="files/src-lib-smr-abstractplayer.html"><abbr title="src/lib/Smr/AbstractPlayer.php">AbstractPlayer.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">1390</span>
+    <span class="phpdocumentor-element-found-in__line">1441</span>
 
     </aside>
 
@@ -6642,7 +6671,7 @@ bargaining and getting caught stealing.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/AbstractPlayer.php"><a href="files/src-lib-smr-abstractplayer.html"><abbr title="src/lib/Smr/AbstractPlayer.php">AbstractPlayer.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">1502</span>
+    <span class="phpdocumentor-element-found-in__line">1560</span>
 
     </aside>
 
@@ -6675,7 +6704,7 @@ bargaining and getting caught stealing.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/AbstractPlayer.php"><a href="files/src-lib-smr-abstractplayer.html"><abbr title="src/lib/Smr/AbstractPlayer.php">AbstractPlayer.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">210</span>
+    <span class="phpdocumentor-element-found-in__line">232</span>
 
     </aside>
 
@@ -6734,7 +6763,7 @@ bargaining and getting caught stealing.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/AbstractPlayer.php"><a href="files/src-lib-smr-abstractplayer.html"><abbr title="src/lib/Smr/AbstractPlayer.php">AbstractPlayer.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">1423</span>
+    <span class="phpdocumentor-element-found-in__line">1479</span>
 
     </aside>
 
@@ -6778,7 +6807,7 @@ bargaining and getting caught stealing.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/AbstractPlayer.php"><a href="files/src-lib-smr-abstractplayer.html"><abbr title="src/lib/Smr/AbstractPlayer.php">AbstractPlayer.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">3062</span>
+    <span class="phpdocumentor-element-found-in__line">3151</span>
 
     </aside>
 
@@ -6811,7 +6840,7 @@ bargaining and getting caught stealing.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/AbstractPlayer.php"><a href="files/src-lib-smr-abstractplayer.html"><abbr title="src/lib/Smr/AbstractPlayer.php">AbstractPlayer.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">1002</span>
+    <span class="phpdocumentor-element-found-in__line">1053</span>
 
     </aside>
 
@@ -6844,7 +6873,7 @@ bargaining and getting caught stealing.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/AbstractPlayer.php"><a href="files/src-lib-smr-abstractplayer.html"><abbr title="src/lib/Smr/AbstractPlayer.php">AbstractPlayer.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">417</span>
+    <span class="phpdocumentor-element-found-in__line">449</span>
 
     </aside>
 
@@ -6877,7 +6906,7 @@ bargaining and getting caught stealing.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/AbstractPlayer.php"><a href="files/src-lib-smr-abstractplayer.html"><abbr title="src/lib/Smr/AbstractPlayer.php">AbstractPlayer.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">3048</span>
+    <span class="phpdocumentor-element-found-in__line">3137</span>
 
     </aside>
 
@@ -6910,7 +6939,7 @@ bargaining and getting caught stealing.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/AbstractPlayer.php"><a href="files/src-lib-smr-abstractplayer.html"><abbr title="src/lib/Smr/AbstractPlayer.php">AbstractPlayer.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">2850</span>
+    <span class="phpdocumentor-element-found-in__line">2939</span>
 
     </aside>
 
@@ -6942,7 +6971,7 @@ bargaining and getting caught stealing.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/AbstractPlayer.php"><a href="files/src-lib-smr-abstractplayer.html"><abbr title="src/lib/Smr/AbstractPlayer.php">AbstractPlayer.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">1064</span>
+    <span class="phpdocumentor-element-found-in__line">1115</span>
 
     </aside>
 
@@ -6975,7 +7004,7 @@ bargaining and getting caught stealing.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/AbstractPlayer.php"><a href="files/src-lib-smr-abstractplayer.html"><abbr title="src/lib/Smr/AbstractPlayer.php">AbstractPlayer.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">1287</span>
+    <span class="phpdocumentor-element-found-in__line">1338</span>
 
     </aside>
 
@@ -7008,7 +7037,7 @@ bargaining and getting caught stealing.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/AbstractPlayer.php"><a href="files/src-lib-smr-abstractplayer.html"><abbr title="src/lib/Smr/AbstractPlayer.php">AbstractPlayer.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">1956</span>
+    <span class="phpdocumentor-element-found-in__line">2021</span>
 
     </aside>
 
@@ -7040,7 +7069,7 @@ bargaining and getting caught stealing.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/AbstractPlayer.php"><a href="files/src-lib-smr-abstractplayer.html"><abbr title="src/lib/Smr/AbstractPlayer.php">AbstractPlayer.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">1949</span>
+    <span class="phpdocumentor-element-found-in__line">2014</span>
 
     </aside>
 
@@ -7084,7 +7113,7 @@ bargaining and getting caught stealing.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/AbstractPlayer.php"><a href="files/src-lib-smr-abstractplayer.html"><abbr title="src/lib/Smr/AbstractPlayer.php">AbstractPlayer.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">1370</span>
+    <span class="phpdocumentor-element-found-in__line">1421</span>
 
     </aside>
 
@@ -7136,7 +7165,7 @@ bargaining and getting caught stealing.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/AbstractPlayer.php"><a href="files/src-lib-smr-abstractplayer.html"><abbr title="src/lib/Smr/AbstractPlayer.php">AbstractPlayer.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">1362</span>
+    <span class="phpdocumentor-element-found-in__line">1413</span>
 
     </aside>
 
@@ -7196,7 +7225,7 @@ bargaining and getting caught stealing.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/AbstractPlayer.php"><a href="files/src-lib-smr-abstractplayer.html"><abbr title="src/lib/Smr/AbstractPlayer.php">AbstractPlayer.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">1060</span>
+    <span class="phpdocumentor-element-found-in__line">1111</span>
 
     </aside>
 
@@ -7229,7 +7258,7 @@ bargaining and getting caught stealing.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/AbstractPlayer.php"><a href="files/src-lib-smr-abstractplayer.html"><abbr title="src/lib/Smr/AbstractPlayer.php">AbstractPlayer.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">499</span>
+    <span class="phpdocumentor-element-found-in__line">531</span>
 
     </aside>
 
@@ -7262,7 +7291,7 @@ bargaining and getting caught stealing.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/AbstractPlayer.php"><a href="files/src-lib-smr-abstractplayer.html"><abbr title="src/lib/Smr/AbstractPlayer.php">AbstractPlayer.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">983</span>
+    <span class="phpdocumentor-element-found-in__line">1034</span>
 
     </aside>
 
@@ -7295,7 +7324,7 @@ bargaining and getting caught stealing.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/AbstractPlayer.php"><a href="files/src-lib-smr-abstractplayer.html"><abbr title="src/lib/Smr/AbstractPlayer.php">AbstractPlayer.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">1275</span>
+    <span class="phpdocumentor-element-found-in__line">1326</span>
 
     </aside>
 
@@ -7339,7 +7368,7 @@ bargaining and getting caught stealing.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/AbstractPlayer.php"><a href="files/src-lib-smr-abstractplayer.html"><abbr title="src/lib/Smr/AbstractPlayer.php">AbstractPlayer.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">3043</span>
+    <span class="phpdocumentor-element-found-in__line">3132</span>
 
     </aside>
 
@@ -7372,7 +7401,7 @@ bargaining and getting caught stealing.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/AbstractPlayer.php"><a href="files/src-lib-smr-abstractplayer.html"><abbr title="src/lib/Smr/AbstractPlayer.php">AbstractPlayer.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">1110</span>
+    <span class="phpdocumentor-element-found-in__line">1161</span>
 
     </aside>
 
@@ -7405,7 +7434,7 @@ bargaining and getting caught stealing.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/AbstractPlayer.php"><a href="files/src-lib-smr-abstractplayer.html"><abbr title="src/lib/Smr/AbstractPlayer.php">AbstractPlayer.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">159</span>
+    <span class="phpdocumentor-element-found-in__line">161</span>
 
     </aside>
 
@@ -7467,7 +7496,7 @@ for reducing the number of queries in galaxy-wide processing.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/AbstractPlayer.php"><a href="files/src-lib-smr-abstractplayer.html"><abbr title="src/lib/Smr/AbstractPlayer.php">AbstractPlayer.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">453</span>
+    <span class="phpdocumentor-element-found-in__line">485</span>
 
     </aside>
 
@@ -7511,7 +7540,7 @@ for reducing the number of queries in galaxy-wide processing.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/AbstractPlayer.php"><a href="files/src-lib-smr-abstractplayer.html"><abbr title="src/lib/Smr/AbstractPlayer.php">AbstractPlayer.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">449</span>
+    <span class="phpdocumentor-element-found-in__line">481</span>
 
     </aside>
 
@@ -7544,7 +7573,7 @@ for reducing the number of queries in galaxy-wide processing.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/AbstractPlayer.php"><a href="files/src-lib-smr-abstractplayer.html"><abbr title="src/lib/Smr/AbstractPlayer.php">AbstractPlayer.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">654</span>
+    <span class="phpdocumentor-element-found-in__line">688</span>
 
     </aside>
 
@@ -7577,7 +7606,7 @@ for reducing the number of queries in galaxy-wide processing.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/AbstractPlayer.php"><a href="files/src-lib-smr-abstractplayer.html"><abbr title="src/lib/Smr/AbstractPlayer.php">AbstractPlayer.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">2050</span>
+    <span class="phpdocumentor-element-found-in__line">2115</span>
 
     </aside>
 
@@ -7619,7 +7648,7 @@ for reducing the number of queries in galaxy-wide processing.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/AbstractPlayer.php"><a href="files/src-lib-smr-abstractplayer.html"><abbr title="src/lib/Smr/AbstractPlayer.php">AbstractPlayer.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">2031</span>
+    <span class="phpdocumentor-element-found-in__line">2096</span>
 
     </aside>
 
@@ -7651,7 +7680,7 @@ for reducing the number of queries in galaxy-wide processing.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/AbstractPlayer.php"><a href="files/src-lib-smr-abstractplayer.html"><abbr title="src/lib/Smr/AbstractPlayer.php">AbstractPlayer.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">581</span>
+    <span class="phpdocumentor-element-found-in__line">612</span>
 
     </aside>
 
@@ -7684,7 +7713,7 @@ for reducing the number of queries in galaxy-wide processing.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/AbstractPlayer.php"><a href="files/src-lib-smr-abstractplayer.html"><abbr title="src/lib/Smr/AbstractPlayer.php">AbstractPlayer.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">1773</span>
+    <span class="phpdocumentor-element-found-in__line">1829</span>
 
     </aside>
 
@@ -7742,7 +7771,7 @@ for reducing the number of queries in galaxy-wide processing.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/AbstractPlayer.php"><a href="files/src-lib-smr-abstractplayer.html"><abbr title="src/lib/Smr/AbstractPlayer.php">AbstractPlayer.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">964</span>
+    <span class="phpdocumentor-element-found-in__line">1015</span>
 
     </aside>
 
@@ -7775,7 +7804,7 @@ for reducing the number of queries in galaxy-wide processing.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/AbstractPlayer.php"><a href="files/src-lib-smr-abstractplayer.html"><abbr title="src/lib/Smr/AbstractPlayer.php">AbstractPlayer.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">2590</span>
+    <span class="phpdocumentor-element-found-in__line">2671</span>
 
     </aside>
 
@@ -7808,7 +7837,7 @@ for reducing the number of queries in galaxy-wide processing.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/AbstractPlayer.php"><a href="files/src-lib-smr-abstractplayer.html"><abbr title="src/lib/Smr/AbstractPlayer.php">AbstractPlayer.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">2602</span>
+    <span class="phpdocumentor-element-found-in__line">2683</span>
 
     </aside>
 
@@ -7841,7 +7870,7 @@ for reducing the number of queries in galaxy-wide processing.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/AbstractPlayer.php"><a href="files/src-lib-smr-abstractplayer.html"><abbr title="src/lib/Smr/AbstractPlayer.php">AbstractPlayer.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">1680</span>
+    <span class="phpdocumentor-element-found-in__line">1737</span>
 
     </aside>
 
@@ -7874,7 +7903,7 @@ for reducing the number of queries in galaxy-wide processing.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/AbstractPlayer.php"><a href="files/src-lib-smr-abstractplayer.html"><abbr title="src/lib/Smr/AbstractPlayer.php">AbstractPlayer.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">1696</span>
+    <span class="phpdocumentor-element-found-in__line">1753</span>
 
     </aside>
 
@@ -7907,7 +7936,7 @@ for reducing the number of queries in galaxy-wide processing.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/AbstractPlayer.php"><a href="files/src-lib-smr-abstractplayer.html"><abbr title="src/lib/Smr/AbstractPlayer.php">AbstractPlayer.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">569</span>
+    <span class="phpdocumentor-element-found-in__line">600</span>
 
     </aside>
 
@@ -7940,7 +7969,7 @@ for reducing the number of queries in galaxy-wide processing.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/AbstractPlayer.php"><a href="files/src-lib-smr-abstractplayer.html"><abbr title="src/lib/Smr/AbstractPlayer.php">AbstractPlayer.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">2578</span>
+    <span class="phpdocumentor-element-found-in__line">2659</span>
 
     </aside>
 
@@ -7973,7 +8002,7 @@ for reducing the number of queries in galaxy-wide processing.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/AbstractPlayer.php"><a href="files/src-lib-smr-abstractplayer.html"><abbr title="src/lib/Smr/AbstractPlayer.php">AbstractPlayer.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">3039</span>
+    <span class="phpdocumentor-element-found-in__line">3128</span>
 
     </aside>
 
@@ -8006,7 +8035,7 @@ for reducing the number of queries in galaxy-wide processing.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/AbstractPlayer.php"><a href="files/src-lib-smr-abstractplayer.html"><abbr title="src/lib/Smr/AbstractPlayer.php">AbstractPlayer.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">1227</span>
+    <span class="phpdocumentor-element-found-in__line">1278</span>
 
     </aside>
 
@@ -8039,7 +8068,7 @@ for reducing the number of queries in galaxy-wide processing.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/AbstractPlayer.php"><a href="files/src-lib-smr-abstractplayer.html"><abbr title="src/lib/Smr/AbstractPlayer.php">AbstractPlayer.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">1239</span>
+    <span class="phpdocumentor-element-found-in__line">1290</span>
 
     </aside>
 
@@ -8072,7 +8101,7 @@ for reducing the number of queries in galaxy-wide processing.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/AbstractPlayer.php"><a href="files/src-lib-smr-abstractplayer.html"><abbr title="src/lib/Smr/AbstractPlayer.php">AbstractPlayer.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">1243</span>
+    <span class="phpdocumentor-element-found-in__line">1294</span>
 
     </aside>
 
@@ -8105,7 +8134,7 @@ for reducing the number of queries in galaxy-wide processing.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/AbstractPlayer.php"><a href="files/src-lib-smr-abstractplayer.html"><abbr title="src/lib/Smr/AbstractPlayer.php">AbstractPlayer.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">1291</span>
+    <span class="phpdocumentor-element-found-in__line">1342</span>
 
     </aside>
 
@@ -8149,7 +8178,7 @@ for reducing the number of queries in galaxy-wide processing.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/AbstractPlayer.php"><a href="files/src-lib-smr-abstractplayer.html"><abbr title="src/lib/Smr/AbstractPlayer.php">AbstractPlayer.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">1251</span>
+    <span class="phpdocumentor-element-found-in__line">1302</span>
 
     </aside>
 
@@ -8182,7 +8211,7 @@ for reducing the number of queries in galaxy-wide processing.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/AbstractPlayer.php"><a href="files/src-lib-smr-abstractplayer.html"><abbr title="src/lib/Smr/AbstractPlayer.php">AbstractPlayer.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">2481</span>
+    <span class="phpdocumentor-element-found-in__line">2562</span>
 
     </aside>
 
@@ -8215,7 +8244,7 @@ for reducing the number of queries in galaxy-wide processing.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/AbstractPlayer.php"><a href="files/src-lib-smr-abstractplayer.html"><abbr title="src/lib/Smr/AbstractPlayer.php">AbstractPlayer.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">1914</span>
+    <span class="phpdocumentor-element-found-in__line">1979</span>
 
     </aside>
 
@@ -8248,7 +8277,7 @@ for reducing the number of queries in galaxy-wide processing.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/AbstractPlayer.php"><a href="files/src-lib-smr-abstractplayer.html"><abbr title="src/lib/Smr/AbstractPlayer.php">AbstractPlayer.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">2645</span>
+    <span class="phpdocumentor-element-found-in__line">2726</span>
 
     </aside>
 
@@ -8280,7 +8309,7 @@ for reducing the number of queries in galaxy-wide processing.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/AbstractPlayer.php"><a href="files/src-lib-smr-abstractplayer.html"><abbr title="src/lib/Smr/AbstractPlayer.php">AbstractPlayer.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">457</span>
+    <span class="phpdocumentor-element-found-in__line">489</span>
 
     </aside>
 
@@ -8313,7 +8342,7 @@ for reducing the number of queries in galaxy-wide processing.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/AbstractPlayer.php"><a href="files/src-lib-smr-abstractplayer.html"><abbr title="src/lib/Smr/AbstractPlayer.php">AbstractPlayer.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">2626</span>
+    <span class="phpdocumentor-element-found-in__line">2707</span>
 
     </aside>
 
@@ -8346,7 +8375,7 @@ for reducing the number of queries in galaxy-wide processing.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/AbstractPlayer.php"><a href="files/src-lib-smr-abstractplayer.html"><abbr title="src/lib/Smr/AbstractPlayer.php">AbstractPlayer.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">1118</span>
+    <span class="phpdocumentor-element-found-in__line">1169</span>
 
     </aside>
 
@@ -8381,7 +8410,7 @@ for reducing the number of queries in galaxy-wide processing.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/AbstractPlayer.php"><a href="files/src-lib-smr-abstractplayer.html"><abbr title="src/lib/Smr/AbstractPlayer.php">AbstractPlayer.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">1127</span>
+    <span class="phpdocumentor-element-found-in__line">1178</span>
 
     </aside>
 
@@ -8414,7 +8443,7 @@ for reducing the number of queries in galaxy-wide processing.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/AbstractPlayer.php"><a href="files/src-lib-smr-abstractplayer.html"><abbr title="src/lib/Smr/AbstractPlayer.php">AbstractPlayer.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">1564</span>
+    <span class="phpdocumentor-element-found-in__line">1622</span>
 
     </aside>
 
@@ -8458,7 +8487,7 @@ for reducing the number of queries in galaxy-wide processing.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/AbstractPlayer.php"><a href="files/src-lib-smr-abstractplayer.html"><abbr title="src/lib/Smr/AbstractPlayer.php">AbstractPlayer.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">1556</span>
+    <span class="phpdocumentor-element-found-in__line">1614</span>
 
     </aside>
 
@@ -8490,7 +8519,7 @@ for reducing the number of queries in galaxy-wide processing.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/AbstractPlayer.php"><a href="files/src-lib-smr-abstractplayer.html"><abbr title="src/lib/Smr/AbstractPlayer.php">AbstractPlayer.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">525</span>
+    <span class="phpdocumentor-element-found-in__line">556</span>
 
     </aside>
 
@@ -8525,7 +8554,7 @@ for reducing the number of queries in galaxy-wide processing.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/AbstractPlayer.php"><a href="files/src-lib-smr-abstractplayer.html"><abbr title="src/lib/Smr/AbstractPlayer.php">AbstractPlayer.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">3052</span>
+    <span class="phpdocumentor-element-found-in__line">3141</span>
 
     </aside>
 
@@ -8558,7 +8587,7 @@ for reducing the number of queries in galaxy-wide processing.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/AbstractPlayer.php"><a href="files/src-lib-smr-abstractplayer.html"><abbr title="src/lib/Smr/AbstractPlayer.php">AbstractPlayer.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">193</span>
+    <span class="phpdocumentor-element-found-in__line">208</span>
 
     </aside>
 
@@ -8617,7 +8646,7 @@ for reducing the number of queries in galaxy-wide processing.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/AbstractPlayer.php"><a href="files/src-lib-smr-abstractplayer.html"><abbr title="src/lib/Smr/AbstractPlayer.php">AbstractPlayer.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">224</span>
+    <span class="phpdocumentor-element-found-in__line">249</span>
 
     </aside>
 
@@ -8685,7 +8714,7 @@ for reducing the number of queries in galaxy-wide processing.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/AbstractPlayer.php"><a href="files/src-lib-smr-abstractplayer.html"><abbr title="src/lib/Smr/AbstractPlayer.php">AbstractPlayer.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">231</span>
+    <span class="phpdocumentor-element-found-in__line">256</span>
 
     </aside>
 
@@ -8745,7 +8774,7 @@ for reducing the number of queries in galaxy-wide processing.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/AbstractPlayer.php"><a href="files/src-lib-smr-abstractplayer.html"><abbr title="src/lib/Smr/AbstractPlayer.php">AbstractPlayer.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">241</span>
+    <span class="phpdocumentor-element-found-in__line">269</span>
 
     </aside>
 
@@ -8805,7 +8834,7 @@ for reducing the number of queries in galaxy-wide processing.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/AbstractPlayer.php"><a href="files/src-lib-smr-abstractplayer.html"><abbr title="src/lib/Smr/AbstractPlayer.php">AbstractPlayer.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">1255</span>
+    <span class="phpdocumentor-element-found-in__line">1306</span>
 
     </aside>
 
@@ -8838,7 +8867,7 @@ for reducing the number of queries in galaxy-wide processing.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/AbstractPlayer.php"><a href="files/src-lib-smr-abstractplayer.html"><abbr title="src/lib/Smr/AbstractPlayer.php">AbstractPlayer.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">1263</span>
+    <span class="phpdocumentor-element-found-in__line">1314</span>
 
     </aside>
 
@@ -8873,7 +8902,7 @@ for reducing the number of queries in galaxy-wide processing.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/AbstractPlayer.php"><a href="files/src-lib-smr-abstractplayer.html"><abbr title="src/lib/Smr/AbstractPlayer.php">AbstractPlayer.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">1708</span>
+    <span class="phpdocumentor-element-found-in__line">1765</span>
 
     </aside>
 
@@ -8972,7 +9001,7 @@ for reducing the number of queries in galaxy-wide processing.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/AbstractPlayer.php"><a href="files/src-lib-smr-abstractplayer.html"><abbr title="src/lib/Smr/AbstractPlayer.php">AbstractPlayer.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">1590</span>
+    <span class="phpdocumentor-element-found-in__line">1648</span>
 
     </aside>
 
@@ -9016,7 +9045,7 @@ for reducing the number of queries in galaxy-wide processing.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/AbstractPlayer.php"><a href="files/src-lib-smr-abstractplayer.html"><abbr title="src/lib/Smr/AbstractPlayer.php">AbstractPlayer.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">1574</span>
+    <span class="phpdocumentor-element-found-in__line">1632</span>
 
     </aside>
 
@@ -9049,7 +9078,7 @@ for reducing the number of queries in galaxy-wide processing.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/AbstractPlayer.php"><a href="files/src-lib-smr-abstractplayer.html"><abbr title="src/lib/Smr/AbstractPlayer.php">AbstractPlayer.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">903</span>
+    <span class="phpdocumentor-element-found-in__line">951</span>
 
     </aside>
 
@@ -9082,7 +9111,7 @@ for reducing the number of queries in galaxy-wide processing.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/AbstractPlayer.php"><a href="files/src-lib-smr-abstractplayer.html"><abbr title="src/lib/Smr/AbstractPlayer.php">AbstractPlayer.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">682</span>
+    <span class="phpdocumentor-element-found-in__line">716</span>
 
     </aside>
 
@@ -9115,7 +9144,7 @@ for reducing the number of queries in galaxy-wide processing.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/AbstractPlayer.php"><a href="files/src-lib-smr-abstractplayer.html"><abbr title="src/lib/Smr/AbstractPlayer.php">AbstractPlayer.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">690</span>
+    <span class="phpdocumentor-element-found-in__line">724</span>
 
     </aside>
 
@@ -9148,7 +9177,7 @@ for reducing the number of queries in galaxy-wide processing.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/AbstractPlayer.php"><a href="files/src-lib-smr-abstractplayer.html"><abbr title="src/lib/Smr/AbstractPlayer.php">AbstractPlayer.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">547</span>
+    <span class="phpdocumentor-element-found-in__line">578</span>
 
     </aside>
 
@@ -9181,7 +9210,7 @@ for reducing the number of queries in galaxy-wide processing.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/AbstractPlayer.php"><a href="files/src-lib-smr-abstractplayer.html"><abbr title="src/lib/Smr/AbstractPlayer.php">AbstractPlayer.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">543</span>
+    <span class="phpdocumentor-element-found-in__line">574</span>
 
     </aside>
 
@@ -9214,7 +9243,7 @@ for reducing the number of queries in galaxy-wide processing.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/AbstractPlayer.php"><a href="files/src-lib-smr-abstractplayer.html"><abbr title="src/lib/Smr/AbstractPlayer.php">AbstractPlayer.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">535</span>
+    <span class="phpdocumentor-element-found-in__line">566</span>
 
     </aside>
 
@@ -9247,7 +9276,7 @@ for reducing the number of queries in galaxy-wide processing.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/AbstractPlayer.php"><a href="files/src-lib-smr-abstractplayer.html"><abbr title="src/lib/Smr/AbstractPlayer.php">AbstractPlayer.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">176</span>
+    <span class="phpdocumentor-element-found-in__line">183</span>
 
     </aside>
 
@@ -9306,7 +9335,7 @@ for reducing the number of queries in galaxy-wide processing.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/AbstractPlayer.php"><a href="files/src-lib-smr-abstractplayer.html"><abbr title="src/lib/Smr/AbstractPlayer.php">AbstractPlayer.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">142</span>
+    <span class="phpdocumentor-element-found-in__line">144</span>
 
     </aside>
 
@@ -9372,7 +9401,7 @@ for reducing the number of queries in galaxy-wide processing.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/AbstractPlayer.php"><a href="files/src-lib-smr-abstractplayer.html"><abbr title="src/lib/Smr/AbstractPlayer.php">AbstractPlayer.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">539</span>
+    <span class="phpdocumentor-element-found-in__line">570</span>
 
     </aside>
 
@@ -9405,7 +9434,7 @@ for reducing the number of queries in galaxy-wide processing.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/AbstractPlayer.php"><a href="files/src-lib-smr-abstractplayer.html"><abbr title="src/lib/Smr/AbstractPlayer.php">AbstractPlayer.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">357</span>
+    <span class="phpdocumentor-element-found-in__line">393</span>
 
     </aside>
 
@@ -9451,7 +9480,7 @@ for reducing the number of queries in galaxy-wide processing.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/AbstractPlayer.php"><a href="files/src-lib-smr-abstractplayer.html"><abbr title="src/lib/Smr/AbstractPlayer.php">AbstractPlayer.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">473</span>
+    <span class="phpdocumentor-element-found-in__line">505</span>
 
     </aside>
 
@@ -9495,7 +9524,7 @@ for reducing the number of queries in galaxy-wide processing.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/AbstractPlayer.php"><a href="files/src-lib-smr-abstractplayer.html"><abbr title="src/lib/Smr/AbstractPlayer.php">AbstractPlayer.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">477</span>
+    <span class="phpdocumentor-element-found-in__line">509</span>
 
     </aside>
 
@@ -9521,39 +9550,6 @@ for reducing the number of queries in galaxy-wide processing.</p>
             -public
                                                         "
 >
-    <h4 class="phpdocumentor-element__name" id="method_getSQL">
-        getSQL()
-        <a href="classes/Smr-AbstractPlayer.html#method_getSQL" class="headerlink"><i class="fas fa-link"></i></a>
-    </h4>
-    <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/AbstractPlayer.php"><a href="files/src-lib-smr-abstractplayer.html"><abbr title="src/lib/Smr/AbstractPlayer.php">AbstractPlayer.php</abbr></a></abbr>
-    :
-    <span class="phpdocumentor-element-found-in__line">385</span>
-
-    </aside>
-
-    
-    <code class="phpdocumentor-code phpdocumentor-signature ">
-    <span class="phpdocumentor-signature__visibility">public</span>
-                <span class="phpdocumentor-signature__name">getSQL</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">string</span></code>
-
-        <section class="phpdocumentor-description"></section>
-
-    
-    
-
-        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
-    <span class="phpdocumentor-signature__response_type">string</span>
-            &mdash;
-        
-    
-</article>
-                    <article
-        class="phpdocumentor-element
-            -method
-            -public
-                                                        "
->
     <h4 class="phpdocumentor-element__name" id="method_getStoredDestinations">
         getStoredDestinations()
         <a href="classes/Smr-AbstractPlayer.html#method_getStoredDestinations" class="headerlink"><i class="fas fa-link"></i></a>
@@ -9561,7 +9557,7 @@ for reducing the number of queries in galaxy-wide processing.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/AbstractPlayer.php"><a href="files/src-lib-smr-abstractplayer.html"><abbr title="src/lib/Smr/AbstractPlayer.php">AbstractPlayer.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">1789</span>
+    <span class="phpdocumentor-element-found-in__line">1845</span>
 
     </aside>
 
@@ -9593,7 +9589,7 @@ for reducing the number of queries in galaxy-wide processing.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/AbstractPlayer.php"><a href="files/src-lib-smr-abstractplayer.html"><abbr title="src/lib/Smr/AbstractPlayer.php">AbstractPlayer.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">1905</span>
+    <span class="phpdocumentor-element-found-in__line">1970</span>
 
     </aside>
 
@@ -9636,7 +9632,7 @@ for reducing the number of queries in galaxy-wide processing.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/AbstractPlayer.php"><a href="files/src-lib-smr-abstractplayer.html"><abbr title="src/lib/Smr/AbstractPlayer.php">AbstractPlayer.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">1880</span>
+    <span class="phpdocumentor-element-found-in__line">1942</span>
 
     </aside>
 
@@ -9668,7 +9664,7 @@ for reducing the number of queries in galaxy-wide processing.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/AbstractPlayer.php"><a href="files/src-lib-smr-abstractplayer.html"><abbr title="src/lib/Smr/AbstractPlayer.php">AbstractPlayer.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">2525</span>
+    <span class="phpdocumentor-element-found-in__line">2606</span>
 
     </aside>
 
@@ -9721,7 +9717,7 @@ player will be at max turns.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/AbstractPlayer.php"><a href="files/src-lib-smr-abstractplayer.html"><abbr title="src/lib/Smr/AbstractPlayer.php">AbstractPlayer.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">2537</span>
+    <span class="phpdocumentor-element-found-in__line">2618</span>
 
     </aside>
 
@@ -9754,7 +9750,7 @@ player will be at max turns.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/AbstractPlayer.php"><a href="files/src-lib-smr-abstractplayer.html"><abbr title="src/lib/Smr/AbstractPlayer.php">AbstractPlayer.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">3066</span>
+    <span class="phpdocumentor-element-found-in__line">3155</span>
 
     </aside>
 
@@ -9798,7 +9794,7 @@ player will be at max turns.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/AbstractPlayer.php"><a href="files/src-lib-smr-abstractplayer.html"><abbr title="src/lib/Smr/AbstractPlayer.php">AbstractPlayer.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">3057</span>
+    <span class="phpdocumentor-element-found-in__line">3146</span>
 
     </aside>
 
@@ -9831,7 +9827,7 @@ player will be at max turns.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/AbstractPlayer.php"><a href="files/src-lib-smr-abstractplayer.html"><abbr title="src/lib/Smr/AbstractPlayer.php">AbstractPlayer.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">2473</span>
+    <span class="phpdocumentor-element-found-in__line">2554</span>
 
     </aside>
 
@@ -9864,7 +9860,7 @@ player will be at max turns.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/AbstractPlayer.php"><a href="files/src-lib-smr-abstractplayer.html"><abbr title="src/lib/Smr/AbstractPlayer.php">AbstractPlayer.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">2554</span>
+    <span class="phpdocumentor-element-found-in__line">2635</span>
 
     </aside>
 
@@ -9916,7 +9912,7 @@ player will be at max turns.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/AbstractPlayer.php"><a href="files/src-lib-smr-abstractplayer.html"><abbr title="src/lib/Smr/AbstractPlayer.php">AbstractPlayer.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">2464</span>
+    <span class="phpdocumentor-element-found-in__line">2545</span>
 
     </aside>
 
@@ -9949,7 +9945,7 @@ player will be at max turns.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/AbstractPlayer.php"><a href="files/src-lib-smr-abstractplayer.html"><abbr title="src/lib/Smr/AbstractPlayer.php">AbstractPlayer.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">3018</span>
+    <span class="phpdocumentor-element-found-in__line">3107</span>
 
     </aside>
 
@@ -9982,7 +9978,7 @@ player will be at max turns.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/AbstractPlayer.php"><a href="files/src-lib-smr-abstractplayer.html"><abbr title="src/lib/Smr/AbstractPlayer.php">AbstractPlayer.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">3003</span>
+    <span class="phpdocumentor-element-found-in__line">3092</span>
 
     </aside>
 
@@ -10015,7 +10011,7 @@ player will be at max turns.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/AbstractPlayer.php"><a href="files/src-lib-smr-abstractplayer.html"><abbr title="src/lib/Smr/AbstractPlayer.php">AbstractPlayer.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">389</span>
+    <span class="phpdocumentor-element-found-in__line">421</span>
 
     </aside>
 
@@ -10048,7 +10044,7 @@ player will be at max turns.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/AbstractPlayer.php"><a href="files/src-lib-smr-abstractplayer.html"><abbr title="src/lib/Smr/AbstractPlayer.php">AbstractPlayer.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">1671</span>
+    <span class="phpdocumentor-element-found-in__line">1728</span>
 
     </aside>
 
@@ -10081,7 +10077,7 @@ player will be at max turns.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/AbstractPlayer.php"><a href="files/src-lib-smr-abstractplayer.html"><abbr title="src/lib/Smr/AbstractPlayer.php">AbstractPlayer.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">2546</span>
+    <span class="phpdocumentor-element-found-in__line">2627</span>
 
     </aside>
 
@@ -10114,7 +10110,7 @@ player will be at max turns.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/AbstractPlayer.php"><a href="files/src-lib-smr-abstractplayer.html"><abbr title="src/lib/Smr/AbstractPlayer.php">AbstractPlayer.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">2513</span>
+    <span class="phpdocumentor-element-found-in__line">2594</span>
 
     </aside>
 
@@ -10166,7 +10162,7 @@ player will be at max turns.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/AbstractPlayer.php"><a href="files/src-lib-smr-abstractplayer.html"><abbr title="src/lib/Smr/AbstractPlayer.php">AbstractPlayer.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">1995</span>
+    <span class="phpdocumentor-element-found-in__line">2060</span>
 
     </aside>
 
@@ -10210,7 +10206,7 @@ player will be at max turns.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/AbstractPlayer.php"><a href="files/src-lib-smr-abstractplayer.html"><abbr title="src/lib/Smr/AbstractPlayer.php">AbstractPlayer.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">1394</span>
+    <span class="phpdocumentor-element-found-in__line">1445</span>
 
     </aside>
 
@@ -10243,7 +10239,7 @@ player will be at max turns.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/AbstractPlayer.php"><a href="files/src-lib-smr-abstractplayer.html"><abbr title="src/lib/Smr/AbstractPlayer.php">AbstractPlayer.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">1963</span>
+    <span class="phpdocumentor-element-found-in__line">2028</span>
 
     </aside>
 
@@ -10276,7 +10272,7 @@ player will be at max turns.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/AbstractPlayer.php"><a href="files/src-lib-smr-abstractplayer.html"><abbr title="src/lib/Smr/AbstractPlayer.php">AbstractPlayer.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">495</span>
+    <span class="phpdocumentor-element-found-in__line">527</span>
 
     </aside>
 
@@ -10323,7 +10319,7 @@ player will be at max turns.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/AbstractPlayer.php"><a href="files/src-lib-smr-abstractplayer.html"><abbr title="src/lib/Smr/AbstractPlayer.php">AbstractPlayer.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">1018</span>
+    <span class="phpdocumentor-element-found-in__line">1069</span>
 
     </aside>
 
@@ -10356,7 +10352,7 @@ player will be at max turns.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/AbstractPlayer.php"><a href="files/src-lib-smr-abstractplayer.html"><abbr title="src/lib/Smr/AbstractPlayer.php">AbstractPlayer.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">907</span>
+    <span class="phpdocumentor-element-found-in__line">955</span>
 
     </aside>
 
@@ -10389,7 +10385,7 @@ player will be at max turns.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/AbstractPlayer.php"><a href="files/src-lib-smr-abstractplayer.html"><abbr title="src/lib/Smr/AbstractPlayer.php">AbstractPlayer.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">1014</span>
+    <span class="phpdocumentor-element-found-in__line">1065</span>
 
     </aside>
 
@@ -10422,7 +10418,7 @@ player will be at max turns.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/AbstractPlayer.php"><a href="files/src-lib-smr-abstractplayer.html"><abbr title="src/lib/Smr/AbstractPlayer.php">AbstractPlayer.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">1918</span>
+    <span class="phpdocumentor-element-found-in__line">1983</span>
 
     </aside>
 
@@ -10455,7 +10451,7 @@ player will be at max turns.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/AbstractPlayer.php"><a href="files/src-lib-smr-abstractplayer.html"><abbr title="src/lib/Smr/AbstractPlayer.php">AbstractPlayer.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">1022</span>
+    <span class="phpdocumentor-element-found-in__line">1073</span>
 
     </aside>
 
@@ -10488,7 +10484,7 @@ player will be at max turns.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/AbstractPlayer.php"><a href="files/src-lib-smr-abstractplayer.html"><abbr title="src/lib/Smr/AbstractPlayer.php">AbstractPlayer.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">614</span>
+    <span class="phpdocumentor-element-found-in__line">648</span>
 
     </aside>
 
@@ -10521,7 +10517,7 @@ player will be at max turns.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/AbstractPlayer.php"><a href="files/src-lib-smr-abstractplayer.html"><abbr title="src/lib/Smr/AbstractPlayer.php">AbstractPlayer.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">461</span>
+    <span class="phpdocumentor-element-found-in__line">493</span>
 
     </aside>
 
@@ -10554,7 +10550,7 @@ player will be at max turns.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/AbstractPlayer.php"><a href="files/src-lib-smr-abstractplayer.html"><abbr title="src/lib/Smr/AbstractPlayer.php">AbstractPlayer.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">1753</span>
+    <span class="phpdocumentor-element-found-in__line">1809</span>
 
     </aside>
 
@@ -10601,7 +10597,7 @@ player will be at max turns.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/AbstractPlayer.php"><a href="files/src-lib-smr-abstractplayer.html"><abbr title="src/lib/Smr/AbstractPlayer.php">AbstractPlayer.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">1910</span>
+    <span class="phpdocumentor-element-found-in__line">1975</span>
 
     </aside>
 
@@ -10645,7 +10641,7 @@ player will be at max turns.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/AbstractPlayer.php"><a href="files/src-lib-smr-abstractplayer.html"><abbr title="src/lib/Smr/AbstractPlayer.php">AbstractPlayer.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">1898</span>
+    <span class="phpdocumentor-element-found-in__line">1963</span>
 
     </aside>
 
@@ -10678,7 +10674,7 @@ player will be at max turns.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/AbstractPlayer.php"><a href="files/src-lib-smr-abstractplayer.html"><abbr title="src/lib/Smr/AbstractPlayer.php">AbstractPlayer.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">2477</span>
+    <span class="phpdocumentor-element-found-in__line">2558</span>
 
     </aside>
 
@@ -10711,7 +10707,7 @@ player will be at max turns.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/AbstractPlayer.php"><a href="files/src-lib-smr-abstractplayer.html"><abbr title="src/lib/Smr/AbstractPlayer.php">AbstractPlayer.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">3035</span>
+    <span class="phpdocumentor-element-found-in__line">3124</span>
 
     </aside>
 
@@ -10757,7 +10753,7 @@ player will be at max turns.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/AbstractPlayer.php"><a href="files/src-lib-smr-abstractplayer.html"><abbr title="src/lib/Smr/AbstractPlayer.php">AbstractPlayer.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">1030</span>
+    <span class="phpdocumentor-element-found-in__line">1081</span>
 
     </aside>
 
@@ -10801,7 +10797,7 @@ player will be at max turns.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/AbstractPlayer.php"><a href="files/src-lib-smr-abstractplayer.html"><abbr title="src/lib/Smr/AbstractPlayer.php">AbstractPlayer.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">1006</span>
+    <span class="phpdocumentor-element-found-in__line">1057</span>
 
     </aside>
 
@@ -10845,7 +10841,7 @@ player will be at max turns.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/AbstractPlayer.php"><a href="files/src-lib-smr-abstractplayer.html"><abbr title="src/lib/Smr/AbstractPlayer.php">AbstractPlayer.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">1072</span>
+    <span class="phpdocumentor-element-found-in__line">1123</span>
 
     </aside>
 
@@ -10891,7 +10887,7 @@ player will be at max turns.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/AbstractPlayer.php"><a href="files/src-lib-smr-abstractplayer.html"><abbr title="src/lib/Smr/AbstractPlayer.php">AbstractPlayer.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">1153</span>
+    <span class="phpdocumentor-element-found-in__line">1204</span>
 
     </aside>
 
@@ -10937,7 +10933,7 @@ player will be at max turns.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/AbstractPlayer.php"><a href="files/src-lib-smr-abstractplayer.html"><abbr title="src/lib/Smr/AbstractPlayer.php">AbstractPlayer.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">987</span>
+    <span class="phpdocumentor-element-found-in__line">1038</span>
 
     </aside>
 
@@ -10981,7 +10977,7 @@ player will be at max turns.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/AbstractPlayer.php"><a href="files/src-lib-smr-abstractplayer.html"><abbr title="src/lib/Smr/AbstractPlayer.php">AbstractPlayer.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">1191</span>
+    <span class="phpdocumentor-element-found-in__line">1242</span>
 
     </aside>
 
@@ -11025,7 +11021,7 @@ player will be at max turns.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/AbstractPlayer.php"><a href="files/src-lib-smr-abstractplayer.html"><abbr title="src/lib/Smr/AbstractPlayer.php">AbstractPlayer.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">2058</span>
+    <span class="phpdocumentor-element-found-in__line">2123</span>
 
     </aside>
 
@@ -11083,7 +11079,7 @@ player will be at max turns.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/AbstractPlayer.php"><a href="files/src-lib-smr-abstractplayer.html"><abbr title="src/lib/Smr/AbstractPlayer.php">AbstractPlayer.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">968</span>
+    <span class="phpdocumentor-element-found-in__line">1019</span>
 
     </aside>
 
@@ -11127,7 +11123,7 @@ player will be at max turns.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/AbstractPlayer.php"><a href="files/src-lib-smr-abstractplayer.html"><abbr title="src/lib/Smr/AbstractPlayer.php">AbstractPlayer.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">1930</span>
+    <span class="phpdocumentor-element-found-in__line">1995</span>
 
     </aside>
 
@@ -11171,7 +11167,7 @@ player will be at max turns.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/AbstractPlayer.php"><a href="files/src-lib-smr-abstractplayer.html"><abbr title="src/lib/Smr/AbstractPlayer.php">AbstractPlayer.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">1620</span>
+    <span class="phpdocumentor-element-found-in__line">1678</span>
 
     </aside>
 
@@ -11223,7 +11219,7 @@ player will be at max turns.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/AbstractPlayer.php"><a href="files/src-lib-smr-abstractplayer.html"><abbr title="src/lib/Smr/AbstractPlayer.php">AbstractPlayer.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">1599</span>
+    <span class="phpdocumentor-element-found-in__line">1657</span>
 
     </aside>
 
@@ -11276,7 +11272,7 @@ of the port given by $raceID.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/AbstractPlayer.php"><a href="files/src-lib-smr-abstractplayer.html"><abbr title="src/lib/Smr/AbstractPlayer.php">AbstractPlayer.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">403</span>
+    <span class="phpdocumentor-element-found-in__line">435</span>
 
     </aside>
 
@@ -11320,7 +11316,7 @@ of the port given by $raceID.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/AbstractPlayer.php"><a href="files/src-lib-smr-abstractplayer.html"><abbr title="src/lib/Smr/AbstractPlayer.php">AbstractPlayer.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">2458</span>
+    <span class="phpdocumentor-element-found-in__line">2535</span>
 
     </aside>
 
@@ -11364,7 +11360,7 @@ of the port given by $raceID.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/AbstractPlayer.php"><a href="files/src-lib-smr-abstractplayer.html"><abbr title="src/lib/Smr/AbstractPlayer.php">AbstractPlayer.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">2452</span>
+    <span class="phpdocumentor-element-found-in__line">2525</span>
 
     </aside>
 
@@ -11408,7 +11404,7 @@ of the port given by $raceID.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/AbstractPlayer.php"><a href="files/src-lib-smr-abstractplayer.html"><abbr title="src/lib/Smr/AbstractPlayer.php">AbstractPlayer.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">1382</span>
+    <span class="phpdocumentor-element-found-in__line">1433</span>
 
     </aside>
 
@@ -11452,7 +11448,7 @@ of the port given by $raceID.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/AbstractPlayer.php"><a href="files/src-lib-smr-abstractplayer.html"><abbr title="src/lib/Smr/AbstractPlayer.php">AbstractPlayer.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">1526</span>
+    <span class="phpdocumentor-element-found-in__line">1584</span>
 
     </aside>
 
@@ -11485,7 +11481,7 @@ of the port given by $raceID.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/AbstractPlayer.php"><a href="files/src-lib-smr-abstractplayer.html"><abbr title="src/lib/Smr/AbstractPlayer.php">AbstractPlayer.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">603</span>
+    <span class="phpdocumentor-element-found-in__line">637</span>
 
     </aside>
 
@@ -11518,7 +11514,7 @@ of the port given by $raceID.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/AbstractPlayer.php"><a href="files/src-lib-smr-abstractplayer.html"><abbr title="src/lib/Smr/AbstractPlayer.php">AbstractPlayer.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">2630</span>
+    <span class="phpdocumentor-element-found-in__line">2711</span>
 
     </aside>
 
@@ -11551,7 +11547,7 @@ of the port given by $raceID.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/AbstractPlayer.php"><a href="files/src-lib-smr-abstractplayer.html"><abbr title="src/lib/Smr/AbstractPlayer.php">AbstractPlayer.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">3072</span>
+    <span class="phpdocumentor-element-found-in__line">3161</span>
 
     </aside>
 
@@ -11584,7 +11580,7 @@ of the port given by $raceID.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/AbstractPlayer.php"><a href="files/src-lib-smr-abstractplayer.html"><abbr title="src/lib/Smr/AbstractPlayer.php">AbstractPlayer.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">645</span>
+    <span class="phpdocumentor-element-found-in__line">679</span>
 
     </aside>
 
@@ -11617,7 +11613,7 @@ of the port given by $raceID.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/AbstractPlayer.php"><a href="files/src-lib-smr-abstractplayer.html"><abbr title="src/lib/Smr/AbstractPlayer.php">AbstractPlayer.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">633</span>
+    <span class="phpdocumentor-element-found-in__line">667</span>
 
     </aside>
 
@@ -11650,7 +11646,7 @@ of the port given by $raceID.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/AbstractPlayer.php"><a href="files/src-lib-smr-abstractplayer.html"><abbr title="src/lib/Smr/AbstractPlayer.php">AbstractPlayer.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">670</span>
+    <span class="phpdocumentor-element-found-in__line">704</span>
 
     </aside>
 
@@ -11683,7 +11679,7 @@ of the port given by $raceID.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/AbstractPlayer.php"><a href="files/src-lib-smr-abstractplayer.html"><abbr title="src/lib/Smr/AbstractPlayer.php">AbstractPlayer.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">666</span>
+    <span class="phpdocumentor-element-found-in__line">700</span>
 
     </aside>
 
@@ -11716,7 +11712,7 @@ of the port given by $raceID.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/AbstractPlayer.php"><a href="files/src-lib-smr-abstractplayer.html"><abbr title="src/lib/Smr/AbstractPlayer.php">AbstractPlayer.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">429</span>
+    <span class="phpdocumentor-element-found-in__line">461</span>
 
     </aside>
 
@@ -11749,7 +11745,7 @@ of the port given by $raceID.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/AbstractPlayer.php"><a href="files/src-lib-smr-abstractplayer.html"><abbr title="src/lib/Smr/AbstractPlayer.php">AbstractPlayer.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">1215</span>
+    <span class="phpdocumentor-element-found-in__line">1266</span>
 
     </aside>
 
@@ -11782,7 +11778,7 @@ of the port given by $raceID.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/AbstractPlayer.php"><a href="files/src-lib-smr-abstractplayer.html"><abbr title="src/lib/Smr/AbstractPlayer.php">AbstractPlayer.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">1340</span>
+    <span class="phpdocumentor-element-found-in__line">1391</span>
 
     </aside>
 
@@ -11815,7 +11811,7 @@ of the port given by $raceID.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/AbstractPlayer.php"><a href="files/src-lib-smr-abstractplayer.html"><abbr title="src/lib/Smr/AbstractPlayer.php">AbstractPlayer.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">607</span>
+    <span class="phpdocumentor-element-found-in__line">641</span>
 
     </aside>
 
@@ -11848,7 +11844,7 @@ of the port given by $raceID.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/AbstractPlayer.php"><a href="files/src-lib-smr-abstractplayer.html"><abbr title="src/lib/Smr/AbstractPlayer.php">AbstractPlayer.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">641</span>
+    <span class="phpdocumentor-element-found-in__line">675</span>
 
     </aside>
 
@@ -11881,7 +11877,7 @@ of the port given by $raceID.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/AbstractPlayer.php"><a href="files/src-lib-smr-abstractplayer.html"><abbr title="src/lib/Smr/AbstractPlayer.php">AbstractPlayer.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">1757</span>
+    <span class="phpdocumentor-element-found-in__line">1813</span>
 
     </aside>
 
@@ -11925,7 +11921,7 @@ of the port given by $raceID.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/AbstractPlayer.php"><a href="files/src-lib-smr-abstractplayer.html"><abbr title="src/lib/Smr/AbstractPlayer.php">AbstractPlayer.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">637</span>
+    <span class="phpdocumentor-element-found-in__line">671</span>
 
     </aside>
 
@@ -11958,7 +11954,7 @@ of the port given by $raceID.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/AbstractPlayer.php"><a href="files/src-lib-smr-abstractplayer.html"><abbr title="src/lib/Smr/AbstractPlayer.php">AbstractPlayer.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">1349</span>
+    <span class="phpdocumentor-element-found-in__line">1400</span>
 
     </aside>
 
@@ -11991,7 +11987,7 @@ of the port given by $raceID.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/AbstractPlayer.php"><a href="files/src-lib-smr-abstractplayer.html"><abbr title="src/lib/Smr/AbstractPlayer.php">AbstractPlayer.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">2112</span>
+    <span class="phpdocumentor-element-found-in__line">2177</span>
 
     </aside>
 
@@ -12024,7 +12020,7 @@ of the port given by $raceID.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/AbstractPlayer.php"><a href="files/src-lib-smr-abstractplayer.html"><abbr title="src/lib/Smr/AbstractPlayer.php">AbstractPlayer.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">1473</span>
+    <span class="phpdocumentor-element-found-in__line">1532</span>
 
     </aside>
 
@@ -12068,7 +12064,7 @@ of the port given by $raceID.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/AbstractPlayer.php"><a href="files/src-lib-smr-abstractplayer.html"><abbr title="src/lib/Smr/AbstractPlayer.php">AbstractPlayer.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">2124</span>
+    <span class="phpdocumentor-element-found-in__line">2189</span>
 
     </aside>
 
@@ -12112,7 +12108,7 @@ of the port given by $raceID.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/AbstractPlayer.php"><a href="files/src-lib-smr-abstractplayer.html"><abbr title="src/lib/Smr/AbstractPlayer.php">AbstractPlayer.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">2312</span>
+    <span class="phpdocumentor-element-found-in__line">2385</span>
 
     </aside>
 
@@ -12155,7 +12151,7 @@ of the port given by $raceID.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/AbstractPlayer.php"><a href="files/src-lib-smr-abstractplayer.html"><abbr title="src/lib/Smr/AbstractPlayer.php">AbstractPlayer.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">2406</span>
+    <span class="phpdocumentor-element-found-in__line">2479</span>
 
     </aside>
 
@@ -12198,7 +12194,7 @@ of the port given by $raceID.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/AbstractPlayer.php"><a href="files/src-lib-smr-abstractplayer.html"><abbr title="src/lib/Smr/AbstractPlayer.php">AbstractPlayer.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">2164</span>
+    <span class="phpdocumentor-element-found-in__line">2232</span>
 
     </aside>
 
@@ -12241,7 +12237,7 @@ of the port given by $raceID.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/AbstractPlayer.php"><a href="files/src-lib-smr-abstractplayer.html"><abbr title="src/lib/Smr/AbstractPlayer.php">AbstractPlayer.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">2361</span>
+    <span class="phpdocumentor-element-found-in__line">2434</span>
 
     </aside>
 
@@ -12284,7 +12280,7 @@ of the port given by $raceID.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/AbstractPlayer.php"><a href="files/src-lib-smr-abstractplayer.html"><abbr title="src/lib/Smr/AbstractPlayer.php">AbstractPlayer.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">1441</span>
+    <span class="phpdocumentor-element-found-in__line">1500</span>
 
     </aside>
 
@@ -12328,7 +12324,7 @@ of the port given by $raceID.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/AbstractPlayer.php"><a href="files/src-lib-smr-abstractplayer.html"><abbr title="src/lib/Smr/AbstractPlayer.php">AbstractPlayer.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">2867</span>
+    <span class="phpdocumentor-element-found-in__line">2956</span>
 
     </aside>
 
@@ -12380,7 +12376,7 @@ of the port given by $raceID.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/AbstractPlayer.php"><a href="files/src-lib-smr-abstractplayer.html"><abbr title="src/lib/Smr/AbstractPlayer.php">AbstractPlayer.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">2804</span>
+    <span class="phpdocumentor-element-found-in__line">2893</span>
 
     </aside>
 
@@ -12412,7 +12408,7 @@ of the port given by $raceID.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/AbstractPlayer.php"><a href="files/src-lib-smr-abstractplayer.html"><abbr title="src/lib/Smr/AbstractPlayer.php">AbstractPlayer.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">2988</span>
+    <span class="phpdocumentor-element-found-in__line">3077</span>
 
     </aside>
 
@@ -12456,7 +12452,7 @@ of the port given by $raceID.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/AbstractPlayer.php"><a href="files/src-lib-smr-abstractplayer.html"><abbr title="src/lib/Smr/AbstractPlayer.php">AbstractPlayer.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">1807</span>
+    <span class="phpdocumentor-element-found-in__line">1863</span>
 
     </aside>
 
@@ -12516,7 +12512,7 @@ of the port given by $raceID.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/AbstractPlayer.php"><a href="files/src-lib-smr-abstractplayer.html"><abbr title="src/lib/Smr/AbstractPlayer.php">AbstractPlayer.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">2956</span>
+    <span class="phpdocumentor-element-found-in__line">3045</span>
 
     </aside>
 
@@ -12560,7 +12556,7 @@ of the port given by $raceID.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/AbstractPlayer.php"><a href="files/src-lib-smr-abstractplayer.html"><abbr title="src/lib/Smr/AbstractPlayer.php">AbstractPlayer.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">2944</span>
+    <span class="phpdocumentor-element-found-in__line">3033</span>
 
     </aside>
 
@@ -12604,7 +12600,7 @@ of the port given by $raceID.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/AbstractPlayer.php"><a href="files/src-lib-smr-abstractplayer.html"><abbr title="src/lib/Smr/AbstractPlayer.php">AbstractPlayer.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">3094</span>
+    <span class="phpdocumentor-element-found-in__line">3187</span>
 
     </aside>
 
@@ -12637,7 +12633,7 @@ of the port given by $raceID.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/AbstractPlayer.php"><a href="files/src-lib-smr-abstractplayer.html"><abbr title="src/lib/Smr/AbstractPlayer.php">AbstractPlayer.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">3144</span>
+    <span class="phpdocumentor-element-found-in__line">3242</span>
 
     </aside>
 
@@ -12670,7 +12666,7 @@ of the port given by $raceID.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/AbstractPlayer.php"><a href="files/src-lib-smr-abstractplayer.html"><abbr title="src/lib/Smr/AbstractPlayer.php">AbstractPlayer.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">130</span>
+    <span class="phpdocumentor-element-found-in__line">132</span>
 
     </aside>
 
@@ -12703,7 +12699,7 @@ of the port given by $raceID.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/AbstractPlayer.php"><a href="files/src-lib-smr-abstractplayer.html"><abbr title="src/lib/Smr/AbstractPlayer.php">AbstractPlayer.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">1517</span>
+    <span class="phpdocumentor-element-found-in__line">1575</span>
 
     </aside>
 
@@ -12763,7 +12759,7 @@ of the port given by $raceID.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/AbstractPlayer.php"><a href="files/src-lib-smr-abstractplayer.html"><abbr title="src/lib/Smr/AbstractPlayer.php">AbstractPlayer.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">759</span>
+    <span class="phpdocumentor-element-found-in__line">793</span>
 
     </aside>
 
@@ -12815,7 +12811,7 @@ of the port given by $raceID.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/AbstractPlayer.php"><a href="files/src-lib-smr-abstractplayer.html"><abbr title="src/lib/Smr/AbstractPlayer.php">AbstractPlayer.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">786</span>
+    <span class="phpdocumentor-element-found-in__line">823</span>
 
     </aside>
 
@@ -12906,7 +12902,7 @@ of the port given by $raceID.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/AbstractPlayer.php"><a href="files/src-lib-smr-abstractplayer.html"><abbr title="src/lib/Smr/AbstractPlayer.php">AbstractPlayer.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">859</span>
+    <span class="phpdocumentor-element-found-in__line">899</span>
 
     </aside>
 
@@ -12974,7 +12970,7 @@ of the port given by $raceID.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/AbstractPlayer.php"><a href="files/src-lib-smr-abstractplayer.html"><abbr title="src/lib/Smr/AbstractPlayer.php">AbstractPlayer.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">868</span>
+    <span class="phpdocumentor-element-found-in__line">908</span>
 
     </aside>
 
@@ -13042,7 +13038,7 @@ of the port given by $raceID.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/AbstractPlayer.php"><a href="files/src-lib-smr-abstractplayer.html"><abbr title="src/lib/Smr/AbstractPlayer.php">AbstractPlayer.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">835</span>
+    <span class="phpdocumentor-element-found-in__line">875</span>
 
     </aside>
 
@@ -13094,7 +13090,7 @@ of the port given by $raceID.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/AbstractPlayer.php"><a href="files/src-lib-smr-abstractplayer.html"><abbr title="src/lib/Smr/AbstractPlayer.php">AbstractPlayer.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">877</span>
+    <span class="phpdocumentor-element-found-in__line">917</span>
 
     </aside>
 
@@ -13146,7 +13142,7 @@ of the port given by $raceID.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/AbstractPlayer.php"><a href="files/src-lib-smr-abstractplayer.html"><abbr title="src/lib/Smr/AbstractPlayer.php">AbstractPlayer.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">854</span>
+    <span class="phpdocumentor-element-found-in__line">894</span>
 
     </aside>
 
@@ -13206,7 +13202,7 @@ of the port given by $raceID.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/AbstractPlayer.php"><a href="files/src-lib-smr-abstractplayer.html"><abbr title="src/lib/Smr/AbstractPlayer.php">AbstractPlayer.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">827</span>
+    <span class="phpdocumentor-element-found-in__line">867</span>
 
     </aside>
 
@@ -13266,7 +13262,7 @@ of the port given by $raceID.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/AbstractPlayer.php"><a href="files/src-lib-smr-abstractplayer.html"><abbr title="src/lib/Smr/AbstractPlayer.php">AbstractPlayer.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">840</span>
+    <span class="phpdocumentor-element-found-in__line">880</span>
 
     </aside>
 
@@ -13326,7 +13322,7 @@ of the port given by $raceID.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/AbstractPlayer.php"><a href="files/src-lib-smr-abstractplayer.html"><abbr title="src/lib/Smr/AbstractPlayer.php">AbstractPlayer.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">847</span>
+    <span class="phpdocumentor-element-found-in__line">887</span>
 
     </aside>
 
@@ -13386,7 +13382,7 @@ of the port given by $raceID.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/AbstractPlayer.php"><a href="files/src-lib-smr-abstractplayer.html"><abbr title="src/lib/Smr/AbstractPlayer.php">AbstractPlayer.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">886</span>
+    <span class="phpdocumentor-element-found-in__line">926</span>
 
     </aside>
 
@@ -13462,7 +13458,7 @@ of the port given by $raceID.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/AbstractPlayer.php"><a href="files/src-lib-smr-abstractplayer.html"><abbr title="src/lib/Smr/AbstractPlayer.php">AbstractPlayer.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">754</span>
+    <span class="phpdocumentor-element-found-in__line">788</span>
 
     </aside>
 
@@ -13514,7 +13510,7 @@ of the port given by $raceID.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/AbstractPlayer.php"><a href="files/src-lib-smr-abstractplayer.html"><abbr title="src/lib/Smr/AbstractPlayer.php">AbstractPlayer.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">1052</span>
+    <span class="phpdocumentor-element-found-in__line">1103</span>
 
     </aside>
 
@@ -13558,7 +13554,7 @@ of the port given by $raceID.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/AbstractPlayer.php"><a href="files/src-lib-smr-abstractplayer.html"><abbr title="src/lib/Smr/AbstractPlayer.php">AbstractPlayer.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">421</span>
+    <span class="phpdocumentor-element-found-in__line">453</span>
 
     </aside>
 
@@ -13602,7 +13598,7 @@ of the port given by $raceID.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/AbstractPlayer.php"><a href="files/src-lib-smr-abstractplayer.html"><abbr title="src/lib/Smr/AbstractPlayer.php">AbstractPlayer.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">1096</span>
+    <span class="phpdocumentor-element-found-in__line">1147</span>
 
     </aside>
 
@@ -13646,7 +13642,7 @@ of the port given by $raceID.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/AbstractPlayer.php"><a href="files/src-lib-smr-abstractplayer.html"><abbr title="src/lib/Smr/AbstractPlayer.php">AbstractPlayer.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">2007</span>
+    <span class="phpdocumentor-element-found-in__line">2072</span>
 
     </aside>
 
@@ -13690,7 +13686,7 @@ of the port given by $raceID.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/AbstractPlayer.php"><a href="files/src-lib-smr-abstractplayer.html"><abbr title="src/lib/Smr/AbstractPlayer.php">AbstractPlayer.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">1530</span>
+    <span class="phpdocumentor-element-found-in__line">1588</span>
 
     </aside>
 
@@ -13734,7 +13730,7 @@ of the port given by $raceID.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/AbstractPlayer.php"><a href="files/src-lib-smr-abstractplayer.html"><abbr title="src/lib/Smr/AbstractPlayer.php">AbstractPlayer.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">1177</span>
+    <span class="phpdocumentor-element-found-in__line">1228</span>
 
     </aside>
 
@@ -13778,7 +13774,7 @@ of the port given by $raceID.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/AbstractPlayer.php"><a href="files/src-lib-smr-abstractplayer.html"><abbr title="src/lib/Smr/AbstractPlayer.php">AbstractPlayer.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">512</span>
+    <span class="phpdocumentor-element-found-in__line">544</span>
 
     </aside>
 
@@ -13822,7 +13818,7 @@ of the port given by $raceID.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/AbstractPlayer.php"><a href="files/src-lib-smr-abstractplayer.html"><abbr title="src/lib/Smr/AbstractPlayer.php">AbstractPlayer.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">956</span>
+    <span class="phpdocumentor-element-found-in__line">1007</span>
 
     </aside>
 
@@ -13866,7 +13862,7 @@ of the port given by $raceID.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/AbstractPlayer.php"><a href="files/src-lib-smr-abstractplayer.html"><abbr title="src/lib/Smr/AbstractPlayer.php">AbstractPlayer.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">994</span>
+    <span class="phpdocumentor-element-found-in__line">1045</span>
 
     </aside>
 
@@ -13910,7 +13906,7 @@ of the port given by $raceID.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/AbstractPlayer.php"><a href="files/src-lib-smr-abstractplayer.html"><abbr title="src/lib/Smr/AbstractPlayer.php">AbstractPlayer.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">2634</span>
+    <span class="phpdocumentor-element-found-in__line">2715</span>
 
     </aside>
 
@@ -13954,7 +13950,7 @@ of the port given by $raceID.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/AbstractPlayer.php"><a href="files/src-lib-smr-abstractplayer.html"><abbr title="src/lib/Smr/AbstractPlayer.php">AbstractPlayer.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">3081</span>
+    <span class="phpdocumentor-element-found-in__line">3170</span>
 
     </aside>
 
@@ -14000,7 +13996,7 @@ which does not acquire a sector lock.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/AbstractPlayer.php"><a href="files/src-lib-smr-abstractplayer.html"><abbr title="src/lib/Smr/AbstractPlayer.php">AbstractPlayer.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">1131</span>
+    <span class="phpdocumentor-element-found-in__line">1182</span>
 
     </aside>
 
@@ -14044,7 +14040,7 @@ which does not acquire a sector lock.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/AbstractPlayer.php"><a href="files/src-lib-smr-abstractplayer.html"><abbr title="src/lib/Smr/AbstractPlayer.php">AbstractPlayer.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">674</span>
+    <span class="phpdocumentor-element-found-in__line">708</span>
 
     </aside>
 
@@ -14088,7 +14084,7 @@ which does not acquire a sector lock.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/AbstractPlayer.php"><a href="files/src-lib-smr-abstractplayer.html"><abbr title="src/lib/Smr/AbstractPlayer.php">AbstractPlayer.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">2084</span>
+    <span class="phpdocumentor-element-found-in__line">2149</span>
 
     </aside>
 
@@ -14146,7 +14142,7 @@ which does not acquire a sector lock.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/AbstractPlayer.php"><a href="files/src-lib-smr-abstractplayer.html"><abbr title="src/lib/Smr/AbstractPlayer.php">AbstractPlayer.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">433</span>
+    <span class="phpdocumentor-element-found-in__line">465</span>
 
     </aside>
 
@@ -14190,7 +14186,7 @@ which does not acquire a sector lock.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/AbstractPlayer.php"><a href="files/src-lib-smr-abstractplayer.html"><abbr title="src/lib/Smr/AbstractPlayer.php">AbstractPlayer.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">975</span>
+    <span class="phpdocumentor-element-found-in__line">1026</span>
 
     </aside>
 
@@ -14234,7 +14230,7 @@ which does not acquire a sector lock.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/AbstractPlayer.php"><a href="files/src-lib-smr-abstractplayer.html"><abbr title="src/lib/Smr/AbstractPlayer.php">AbstractPlayer.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">1219</span>
+    <span class="phpdocumentor-element-found-in__line">1270</span>
 
     </aside>
 
@@ -14278,7 +14274,7 @@ which does not acquire a sector lock.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/AbstractPlayer.php"><a href="files/src-lib-smr-abstractplayer.html"><abbr title="src/lib/Smr/AbstractPlayer.php">AbstractPlayer.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">2594</span>
+    <span class="phpdocumentor-element-found-in__line">2675</span>
 
     </aside>
 
@@ -14322,7 +14318,7 @@ which does not acquire a sector lock.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/AbstractPlayer.php"><a href="files/src-lib-smr-abstractplayer.html"><abbr title="src/lib/Smr/AbstractPlayer.php">AbstractPlayer.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">2606</span>
+    <span class="phpdocumentor-element-found-in__line">2687</span>
 
     </aside>
 
@@ -14366,7 +14362,7 @@ which does not acquire a sector lock.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/AbstractPlayer.php"><a href="files/src-lib-smr-abstractplayer.html"><abbr title="src/lib/Smr/AbstractPlayer.php">AbstractPlayer.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">1700</span>
+    <span class="phpdocumentor-element-found-in__line">1757</span>
 
     </aside>
 
@@ -14410,7 +14406,7 @@ which does not acquire a sector lock.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/AbstractPlayer.php"><a href="files/src-lib-smr-abstractplayer.html"><abbr title="src/lib/Smr/AbstractPlayer.php">AbstractPlayer.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">573</span>
+    <span class="phpdocumentor-element-found-in__line">604</span>
 
     </aside>
 
@@ -14454,7 +14450,7 @@ which does not acquire a sector lock.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/AbstractPlayer.php"><a href="files/src-lib-smr-abstractplayer.html"><abbr title="src/lib/Smr/AbstractPlayer.php">AbstractPlayer.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">2582</span>
+    <span class="phpdocumentor-element-found-in__line">2663</span>
 
     </aside>
 
@@ -14498,7 +14494,7 @@ which does not acquire a sector lock.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/AbstractPlayer.php"><a href="files/src-lib-smr-abstractplayer.html"><abbr title="src/lib/Smr/AbstractPlayer.php">AbstractPlayer.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">895</span>
+    <span class="phpdocumentor-element-found-in__line">935</span>
 
     </aside>
 
@@ -14542,7 +14538,7 @@ which does not acquire a sector lock.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/AbstractPlayer.php"><a href="files/src-lib-smr-abstractplayer.html"><abbr title="src/lib/Smr/AbstractPlayer.php">AbstractPlayer.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">1922</span>
+    <span class="phpdocumentor-element-found-in__line">1987</span>
 
     </aside>
 
@@ -14586,7 +14582,7 @@ which does not acquire a sector lock.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/AbstractPlayer.php"><a href="files/src-lib-smr-abstractplayer.html"><abbr title="src/lib/Smr/AbstractPlayer.php">AbstractPlayer.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">1344</span>
+    <span class="phpdocumentor-element-found-in__line">1395</span>
 
     </aside>
 
@@ -14630,7 +14626,7 @@ which does not acquire a sector lock.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/AbstractPlayer.php"><a href="files/src-lib-smr-abstractplayer.html"><abbr title="src/lib/Smr/AbstractPlayer.php">AbstractPlayer.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">465</span>
+    <span class="phpdocumentor-element-found-in__line">497</span>
 
     </aside>
 
@@ -14674,7 +14670,7 @@ which does not acquire a sector lock.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/AbstractPlayer.php"><a href="files/src-lib-smr-abstractplayer.html"><abbr title="src/lib/Smr/AbstractPlayer.php">AbstractPlayer.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">2618</span>
+    <span class="phpdocumentor-element-found-in__line">2699</span>
 
     </aside>
 
@@ -14718,7 +14714,7 @@ which does not acquire a sector lock.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/AbstractPlayer.php"><a href="files/src-lib-smr-abstractplayer.html"><abbr title="src/lib/Smr/AbstractPlayer.php">AbstractPlayer.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">1267</span>
+    <span class="phpdocumentor-element-found-in__line">1318</span>
 
     </aside>
 
@@ -14762,7 +14758,7 @@ which does not acquire a sector lock.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/AbstractPlayer.php"><a href="files/src-lib-smr-abstractplayer.html"><abbr title="src/lib/Smr/AbstractPlayer.php">AbstractPlayer.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">1740</span>
+    <span class="phpdocumentor-element-found-in__line">1797</span>
 
     </aside>
 
@@ -14806,7 +14802,7 @@ which does not acquire a sector lock.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/AbstractPlayer.php"><a href="files/src-lib-smr-abstractplayer.html"><abbr title="src/lib/Smr/AbstractPlayer.php">AbstractPlayer.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">1353</span>
+    <span class="phpdocumentor-element-found-in__line">1404</span>
 
     </aside>
 
@@ -14850,7 +14846,7 @@ which does not acquire a sector lock.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/AbstractPlayer.php"><a href="files/src-lib-smr-abstractplayer.html"><abbr title="src/lib/Smr/AbstractPlayer.php">AbstractPlayer.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">1374</span>
+    <span class="phpdocumentor-element-found-in__line">1425</span>
 
     </aside>
 
@@ -14894,7 +14890,7 @@ which does not acquire a sector lock.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/AbstractPlayer.php"><a href="files/src-lib-smr-abstractplayer.html"><abbr title="src/lib/Smr/AbstractPlayer.php">AbstractPlayer.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">1648</span>
+    <span class="phpdocumentor-element-found-in__line">1706</span>
 
     </aside>
 
@@ -14946,7 +14942,7 @@ which does not acquire a sector lock.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/AbstractPlayer.php"><a href="files/src-lib-smr-abstractplayer.html"><abbr title="src/lib/Smr/AbstractPlayer.php">AbstractPlayer.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">694</span>
+    <span class="phpdocumentor-element-found-in__line">728</span>
 
     </aside>
 
@@ -14990,7 +14986,7 @@ which does not acquire a sector lock.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/AbstractPlayer.php"><a href="files/src-lib-smr-abstractplayer.html"><abbr title="src/lib/Smr/AbstractPlayer.php">AbstractPlayer.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">551</span>
+    <span class="phpdocumentor-element-found-in__line">582</span>
 
     </aside>
 
@@ -15034,7 +15030,7 @@ which does not acquire a sector lock.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/AbstractPlayer.php"><a href="files/src-lib-smr-abstractplayer.html"><abbr title="src/lib/Smr/AbstractPlayer.php">AbstractPlayer.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">484</span>
+    <span class="phpdocumentor-element-found-in__line">516</span>
 
     </aside>
 
@@ -15078,7 +15074,7 @@ which does not acquire a sector lock.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/AbstractPlayer.php"><a href="files/src-lib-smr-abstractplayer.html"><abbr title="src/lib/Smr/AbstractPlayer.php">AbstractPlayer.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">2485</span>
+    <span class="phpdocumentor-element-found-in__line">2566</span>
 
     </aside>
 
@@ -15122,7 +15118,7 @@ which does not acquire a sector lock.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/AbstractPlayer.php"><a href="files/src-lib-smr-abstractplayer.html"><abbr title="src/lib/Smr/AbstractPlayer.php">AbstractPlayer.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">2116</span>
+    <span class="phpdocumentor-element-found-in__line">2181</span>
 
     </aside>
 
@@ -15166,7 +15162,7 @@ which does not acquire a sector lock.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/AbstractPlayer.php"><a href="files/src-lib-smr-abstractplayer.html"><abbr title="src/lib/Smr/AbstractPlayer.php">AbstractPlayer.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">2948</span>
+    <span class="phpdocumentor-element-found-in__line">3037</span>
 
     </aside>
 
@@ -15210,7 +15206,7 @@ which does not acquire a sector lock.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/AbstractPlayer.php"><a href="files/src-lib-smr-abstractplayer.html"><abbr title="src/lib/Smr/AbstractPlayer.php">AbstractPlayer.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">2494</span>
+    <span class="phpdocumentor-element-found-in__line">2575</span>
 
     </aside>
 
@@ -15262,7 +15258,7 @@ which does not acquire a sector lock.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/AbstractPlayer.php"><a href="files/src-lib-smr-abstractplayer.html"><abbr title="src/lib/Smr/AbstractPlayer.php">AbstractPlayer.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">2976</span>
+    <span class="phpdocumentor-element-found-in__line">3065</span>
 
     </aside>
 
@@ -15306,7 +15302,7 @@ which does not acquire a sector lock.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/AbstractPlayer.php"><a href="files/src-lib-smr-abstractplayer.html"><abbr title="src/lib/Smr/AbstractPlayer.php">AbstractPlayer.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">2984</span>
+    <span class="phpdocumentor-element-found-in__line">3073</span>
 
     </aside>
 
@@ -15350,7 +15346,7 @@ which does not acquire a sector lock.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/AbstractPlayer.php"><a href="files/src-lib-smr-abstractplayer.html"><abbr title="src/lib/Smr/AbstractPlayer.php">AbstractPlayer.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">2980</span>
+    <span class="phpdocumentor-element-found-in__line">3069</span>
 
     </aside>
 
@@ -15394,7 +15390,7 @@ which does not acquire a sector lock.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/AbstractPlayer.php"><a href="files/src-lib-smr-abstractplayer.html"><abbr title="src/lib/Smr/AbstractPlayer.php">AbstractPlayer.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">2968</span>
+    <span class="phpdocumentor-element-found-in__line">3057</span>
 
     </aside>
 
@@ -15438,7 +15434,7 @@ which does not acquire a sector lock.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/AbstractPlayer.php"><a href="files/src-lib-smr-abstractplayer.html"><abbr title="src/lib/Smr/AbstractPlayer.php">AbstractPlayer.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">2972</span>
+    <span class="phpdocumentor-element-found-in__line">3061</span>
 
     </aside>
 
@@ -15482,7 +15478,7 @@ which does not acquire a sector lock.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/AbstractPlayer.php"><a href="files/src-lib-smr-abstractplayer.html"><abbr title="src/lib/Smr/AbstractPlayer.php">AbstractPlayer.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">2964</span>
+    <span class="phpdocumentor-element-found-in__line">3053</span>
 
     </aside>
 
@@ -15526,7 +15522,7 @@ which does not acquire a sector lock.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/AbstractPlayer.php"><a href="files/src-lib-smr-abstractplayer.html"><abbr title="src/lib/Smr/AbstractPlayer.php">AbstractPlayer.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">2960</span>
+    <span class="phpdocumentor-element-found-in__line">3049</span>
 
     </aside>
 
@@ -15570,7 +15566,7 @@ which does not acquire a sector lock.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/AbstractPlayer.php"><a href="files/src-lib-smr-abstractplayer.html"><abbr title="src/lib/Smr/AbstractPlayer.php">AbstractPlayer.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">3090</span>
+    <span class="phpdocumentor-element-found-in__line">3183</span>
 
     </aside>
 
@@ -15603,7 +15599,7 @@ which does not acquire a sector lock.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/AbstractPlayer.php"><a href="files/src-lib-smr-abstractplayer.html"><abbr title="src/lib/Smr/AbstractPlayer.php">AbstractPlayer.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">2614</span>
+    <span class="phpdocumentor-element-found-in__line">2695</span>
 
     </aside>
 
@@ -15636,7 +15632,7 @@ which does not acquire a sector lock.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/AbstractPlayer.php"><a href="files/src-lib-smr-abstractplayer.html"><abbr title="src/lib/Smr/AbstractPlayer.php">AbstractPlayer.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">1692</span>
+    <span class="phpdocumentor-element-found-in__line">1749</span>
 
     </aside>
 
@@ -15669,7 +15665,7 @@ which does not acquire a sector lock.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/AbstractPlayer.php"><a href="files/src-lib-smr-abstractplayer.html"><abbr title="src/lib/Smr/AbstractPlayer.php">AbstractPlayer.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">622</span>
+    <span class="phpdocumentor-element-found-in__line">656</span>
 
     </aside>
 
@@ -15704,7 +15700,7 @@ which does not acquire a sector lock.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/AbstractPlayer.php"><a href="files/src-lib-smr-abstractplayer.html"><abbr title="src/lib/Smr/AbstractPlayer.php">AbstractPlayer.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">2560</span>
+    <span class="phpdocumentor-element-found-in__line">2641</span>
 
     </aside>
 
@@ -15737,7 +15733,7 @@ which does not acquire a sector lock.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/AbstractPlayer.php"><a href="files/src-lib-smr-abstractplayer.html"><abbr title="src/lib/Smr/AbstractPlayer.php">AbstractPlayer.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">251</span>
+    <span class="phpdocumentor-element-found-in__line">282</span>
 
     </aside>
 
@@ -15797,7 +15793,7 @@ which does not acquire a sector lock.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/AbstractPlayer.php"><a href="files/src-lib-smr-abstractplayer.html"><abbr title="src/lib/Smr/AbstractPlayer.php">AbstractPlayer.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">1967</span>
+    <span class="phpdocumentor-element-found-in__line">2032</span>
 
     </aside>
 
@@ -15841,7 +15837,7 @@ which does not acquire a sector lock.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/AbstractPlayer.php"><a href="files/src-lib-smr-abstractplayer.html"><abbr title="src/lib/Smr/AbstractPlayer.php">AbstractPlayer.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">705</span>
+    <span class="phpdocumentor-element-found-in__line">739</span>
 
     </aside>
 
@@ -15942,7 +15938,7 @@ which does not acquire a sector lock.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/AbstractPlayer.php"><a href="files/src-lib-smr-abstractplayer.html"><abbr title="src/lib/Smr/AbstractPlayer.php">AbstractPlayer.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">2015</span>
+    <span class="phpdocumentor-element-found-in__line">2080</span>
 
     </aside>
 
@@ -15975,7 +15971,7 @@ which does not acquire a sector lock.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/AbstractPlayer.php"><a href="files/src-lib-smr-abstractplayer.html"><abbr title="src/lib/Smr/AbstractPlayer.php">AbstractPlayer.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">2683</span>
+    <span class="phpdocumentor-element-found-in__line">2764</span>
 
     </aside>
 
@@ -16018,7 +16014,7 @@ which does not acquire a sector lock.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/AbstractPlayer.php"><a href="files/src-lib-smr-abstractplayer.html"><abbr title="src/lib/Smr/AbstractPlayer.php">AbstractPlayer.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">1979</span>
+    <span class="phpdocumentor-element-found-in__line">2044</span>
 
     </aside>
 
@@ -16051,7 +16047,7 @@ which does not acquire a sector lock.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/AbstractPlayer.php"><a href="files/src-lib-smr-abstractplayer.html"><abbr title="src/lib/Smr/AbstractPlayer.php">AbstractPlayer.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">1538</span>
+    <span class="phpdocumentor-element-found-in__line">1596</span>
 
     </aside>
 
@@ -16084,7 +16080,7 @@ which does not acquire a sector lock.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/AbstractPlayer.php"><a href="files/src-lib-smr-abstractplayer.html"><abbr title="src/lib/Smr/AbstractPlayer.php">AbstractPlayer.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">2688</span>
+    <span class="phpdocumentor-element-found-in__line">2769</span>
 
     </aside>
 
@@ -16128,7 +16124,7 @@ which does not acquire a sector lock.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/AbstractPlayer.php"><a href="files/src-lib-smr-abstractplayer.html"><abbr title="src/lib/Smr/AbstractPlayer.php">AbstractPlayer.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">1398</span>
+    <span class="phpdocumentor-element-found-in__line">1449</span>
 
     </aside>
 
@@ -16172,7 +16168,7 @@ which does not acquire a sector lock.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/AbstractPlayer.php"><a href="files/src-lib-smr-abstractplayer.html"><abbr title="src/lib/Smr/AbstractPlayer.php">AbstractPlayer.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">393</span>
+    <span class="phpdocumentor-element-found-in__line">425</span>
 
     </aside>
 
@@ -16216,7 +16212,7 @@ which does not acquire a sector lock.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/AbstractPlayer.php"><a href="files/src-lib-smr-abstractplayer.html"><abbr title="src/lib/Smr/AbstractPlayer.php">AbstractPlayer.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">2692</span>
+    <span class="phpdocumentor-element-found-in__line">2773</span>
 
     </aside>
 
@@ -16260,7 +16256,7 @@ which does not acquire a sector lock.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/AbstractPlayer.php"><a href="files/src-lib-smr-abstractplayer.html"><abbr title="src/lib/Smr/AbstractPlayer.php">AbstractPlayer.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">2775</span>
+    <span class="phpdocumentor-element-found-in__line">2861</span>
 
     </aside>
 
@@ -16304,7 +16300,7 @@ which does not acquire a sector lock.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/AbstractPlayer.php"><a href="files/src-lib-smr-abstractplayer.html"><abbr title="src/lib/Smr/AbstractPlayer.php">AbstractPlayer.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">1506</span>
+    <span class="phpdocumentor-element-found-in__line">1564</span>
 
     </aside>
 
@@ -16348,7 +16344,7 @@ which does not acquire a sector lock.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/AbstractPlayer.php"><a href="files/src-lib-smr-abstractplayer.html"><abbr title="src/lib/Smr/AbstractPlayer.php">AbstractPlayer.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">1684</span>
+    <span class="phpdocumentor-element-found-in__line">1741</span>
 
     </aside>
 
@@ -16392,7 +16388,7 @@ which does not acquire a sector lock.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/AbstractPlayer.php"><a href="files/src-lib-smr-abstractplayer.html"><abbr title="src/lib/Smr/AbstractPlayer.php">AbstractPlayer.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">2711</span>
+    <span class="phpdocumentor-element-found-in__line">2798</span>
 
     </aside>
 

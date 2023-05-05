@@ -136,11 +136,6 @@ Search.appendIndex(
             "summary": "Get\u0020array\u0020of\u0020players\u0020whose\u0020info\u0020can\u0020be\u0020accessed\u0020by\u0020this\u0020player.",
             "url": "classes/Smr-AbstractPlayer.html#method_getSharingPlayers"
         },                {
-            "fqsen": "\\Smr\\AbstractPlayer\u003A\u003AgetSQL\u0028\u0029",
-            "name": "getSQL",
-            "summary": "",
-            "url": "classes/Smr-AbstractPlayer.html#method_getSQL"
-        },                {
             "fqsen": "\\Smr\\AbstractPlayer\u003A\u003AgetZoom\u0028\u0029",
             "name": "getZoom",
             "summary": "",
@@ -1451,6 +1446,11 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/Smr-AbstractPlayer.html#constant_HOF_NEW"
         },                {
+            "fqsen": "\\Smr\\AbstractPlayer\u003A\u003ASQL",
+            "name": "SQL",
+            "summary": "",
+            "url": "classes/Smr-AbstractPlayer.html#constant_SQL"
+        },                {
             "fqsen": "\\Smr\\AbstractPlayer\u003A\u003A\u0024CACHE_SECTOR_PLAYERS",
             "name": "CACHE_SECTOR_PLAYERS",
             "summary": "",
@@ -1471,10 +1471,10 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/Smr-AbstractPlayer.html#property_CACHE_PLAYERS"
         },                {
-            "fqsen": "\\Smr\\AbstractPlayer\u003A\u003A\u0024SQL",
-            "name": "SQL",
+            "fqsen": "\\Smr\\AbstractPlayer\u003A\u003A\u0024SQLID",
+            "name": "SQLID",
             "summary": "",
-            "url": "classes/Smr-AbstractPlayer.html#property_SQL"
+            "url": "classes/Smr-AbstractPlayer.html#property_SQLID"
         },                {
             "fqsen": "\\Smr\\AbstractPlayer\u003A\u003A\u0024playerName",
             "name": "playerName",
@@ -2891,6 +2891,11 @@ Search.appendIndex(
             "summary": "Create\u0020the\u0020default\u0020roles\u0020for\u0020this\u0020alliance.",
             "url": "classes/Smr-Alliance.html#method_createDefaultRoles"
         },                {
+            "fqsen": "\\Smr\\Alliance\u003A\u003ASQL",
+            "name": "SQL",
+            "summary": "",
+            "url": "classes/Smr-Alliance.html#constant_SQL"
+        },                {
             "fqsen": "\\Smr\\Alliance\u003A\u003ARECRUIT_OPEN",
             "name": "RECRUIT_OPEN",
             "summary": "",
@@ -2911,10 +2916,10 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/Smr-Alliance.html#property_CACHE_ALLIANCES"
         },                {
-            "fqsen": "\\Smr\\Alliance\u003A\u003A\u0024SQL",
-            "name": "SQL",
+            "fqsen": "\\Smr\\Alliance\u003A\u003A\u0024SQLID",
+            "name": "SQLID",
             "summary": "",
-            "url": "classes/Smr-Alliance.html#property_SQL"
+            "url": "classes/Smr-Alliance.html#property_SQLID"
         },                {
             "fqsen": "\\Smr\\Alliance\u003A\u003A\u0024allianceName",
             "name": "allianceName",
@@ -4766,10 +4771,10 @@ Search.appendIndex(
             "summary": "This\u0020should\u0020not\u0020be\u0020needed\u0020except\u0020perhaps\u0020by\u0020persistent\u0020services\n\u0028such\u0020as\u0020Dicord\/IRC\u0020clients\u0029\u0020to\u0020prevent\u0020connection\u0020timeouts\u0020between\ncallbacks.",
             "url": "classes/Smr-Database.html#method_resetInstance"
         },                {
-            "fqsen": "\\Smr\\Database\u003A\u003AmysqliFactory\u0028\u0029",
-            "name": "mysqliFactory",
-            "summary": "Used\u0020by\u0020the\u0020DI\u0020container\u0020to\u0020construct\u0020a\u0020mysqli\u0020instance.",
-            "url": "classes/Smr-Database.html#method_mysqliFactory"
+            "fqsen": "\\Smr\\Database\u003A\u003AconnectionFactory\u0028\u0029",
+            "name": "connectionFactory",
+            "summary": "Used\u0020by\u0020the\u0020DI\u0020container\u0020to\u0020construct\u0020the\u0020underlying\u0020connection\u0020object.",
+            "url": "classes/Smr-Database.html#method_connectionFactory"
         },                {
             "fqsen": "\\Smr\\Database\u003A\u003A__construct\u0028\u0029",
             "name": "__construct",
@@ -4801,6 +4806,21 @@ Search.appendIndex(
             "summary": "Perform\u0020a\u0020read\u002Donly\u0020query\u0020on\u0020the\u0020database.",
             "url": "classes/Smr-Database.html#method_read"
         },                {
+            "fqsen": "\\Smr\\Database\u003A\u003AgetParamTypes\u0028\u0029",
+            "name": "getParamTypes",
+            "summary": "Determine\u0020Doctrine\\DBAL\u0020types\u0020automatically\u0020based\u0020on\u0020the\u0020passed\u0020in\u0020type.",
+            "url": "classes/Smr-Database.html#method_getParamTypes"
+        },                {
+            "fqsen": "\\Smr\\Database\u003A\u003Aupdate\u0028\u0029",
+            "name": "update",
+            "summary": "UPDATE\u0020\u0024fields\u0020in\u0020\u0024table\u0020for\u0020rows\u0020that\u0020meet\u0020\u0024criteria.",
+            "url": "classes/Smr-Database.html#method_update"
+        },                {
+            "fqsen": "\\Smr\\Database\u003A\u003Adelete\u0028\u0029",
+            "name": "delete",
+            "summary": "DELETE\u0020row\u0028s\u0029\u0020from\u0020\u0024table\u0020that\u0020meet\u0020\u0024criteria.",
+            "url": "classes/Smr-Database.html#method_delete"
+        },                {
             "fqsen": "\\Smr\\Database\u003A\u003Ainsert\u0028\u0029",
             "name": "insert",
             "summary": "INSERT\u0020a\u0020row\u0020into\u0020\u0024table.",
@@ -4821,20 +4841,10 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/Smr-Database.html#method_unlock"
         },                {
-            "fqsen": "\\Smr\\Database\u003A\u003AgetChangedRows\u0028\u0029",
-            "name": "getChangedRows",
-            "summary": "",
-            "url": "classes/Smr-Database.html#method_getChangedRows"
-        },                {
             "fqsen": "\\Smr\\Database\u003A\u003AgetInsertID\u0028\u0029",
             "name": "getInsertID",
             "summary": "",
             "url": "classes/Smr-Database.html#method_getInsertID"
-        },                {
-            "fqsen": "\\Smr\\Database\u003A\u003Aescape\u0028\u0029",
-            "name": "escape",
-            "summary": "",
-            "url": "classes/Smr-Database.html#method_escape"
         },                {
             "fqsen": "\\Smr\\Database\u003A\u003AescapeNullableString\u0028\u0029",
             "name": "escapeNullableString",
@@ -6036,6 +6046,11 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/Smr-Force.html#constant_MAX_SDS"
         },                {
+            "fqsen": "\\Smr\\Force\u003A\u003ASQL",
+            "name": "SQL",
+            "summary": "",
+            "url": "classes/Smr-Force.html#constant_SQL"
+        },                {
             "fqsen": "\\Smr\\Force\u003A\u003A\u0024CACHE_FORCES",
             "name": "CACHE_FORCES",
             "summary": "",
@@ -6051,10 +6066,10 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/Smr-Force.html#property_TIDIED_UP"
         },                {
-            "fqsen": "\\Smr\\Force\u003A\u003A\u0024SQL",
-            "name": "SQL",
+            "fqsen": "\\Smr\\Force\u003A\u003A\u0024SQLID",
+            "name": "SQLID",
             "summary": "",
-            "url": "classes/Smr-Force.html#property_SQL"
+            "url": "classes/Smr-Force.html#property_SQLID"
         },                {
             "fqsen": "\\Smr\\Force\u003A\u003A\u0024combatDrones",
             "name": "combatDrones",
@@ -6311,6 +6326,11 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/Smr-Galaxy.html#constant_TYPES"
         },                {
+            "fqsen": "\\Smr\\Galaxy\u003A\u003ASQL",
+            "name": "SQL",
+            "summary": "",
+            "url": "classes/Smr-Galaxy.html#constant_SQL"
+        },                {
             "fqsen": "\\Smr\\Galaxy\u003A\u003A\u0024CACHE_GALAXIES",
             "name": "CACHE_GALAXIES",
             "summary": "",
@@ -6321,10 +6341,10 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/Smr-Galaxy.html#property_CACHE_GAME_GALAXIES"
         },                {
-            "fqsen": "\\Smr\\Galaxy\u003A\u003A\u0024SQL",
-            "name": "SQL",
+            "fqsen": "\\Smr\\Galaxy\u003A\u003A\u0024SQLID",
+            "name": "SQLID",
             "summary": "",
-            "url": "classes/Smr-Galaxy.html#property_SQL"
+            "url": "classes/Smr-Galaxy.html#property_SQLID"
         },                {
             "fqsen": "\\Smr\\Galaxy\u003A\u003A\u0024name",
             "name": "name",
@@ -7371,6 +7391,11 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/Smr-Location.html#method_hasX"
         },                {
+            "fqsen": "\\Smr\\Location\u003A\u003ASQL",
+            "name": "SQL",
+            "summary": "",
+            "url": "classes/Smr-Location.html#constant_SQL"
+        },                {
             "fqsen": "\\Smr\\Location\u003A\u003A\u0024CACHE_ALL_LOCATIONS",
             "name": "CACHE_ALL_LOCATIONS",
             "summary": "",
@@ -7386,10 +7411,10 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/Smr-Location.html#property_CACHE_SECTOR_LOCATIONS"
         },                {
-            "fqsen": "\\Smr\\Location\u003A\u003A\u0024SQL",
-            "name": "SQL",
+            "fqsen": "\\Smr\\Location\u003A\u003A\u0024SQLID",
+            "name": "SQLID",
             "summary": "",
-            "url": "classes/Smr-Location.html#property_SQL"
+            "url": "classes/Smr-Location.html#property_SQLID"
         },                {
             "fqsen": "\\Smr\\Location\u003A\u003A\u0024name",
             "name": "name",
@@ -8501,15 +8526,20 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/Smr-Planet.html#constant_MAX_STOCKPILE"
         },                {
+            "fqsen": "\\Smr\\Planet\u003A\u003ASQL",
+            "name": "SQL",
+            "summary": "",
+            "url": "classes/Smr-Planet.html#constant_SQL"
+        },                {
             "fqsen": "\\Smr\\Planet\u003A\u003A\u0024CACHE_PLANETS",
             "name": "CACHE_PLANETS",
             "summary": "",
             "url": "classes/Smr-Planet.html#property_CACHE_PLANETS"
         },                {
-            "fqsen": "\\Smr\\Planet\u003A\u003A\u0024SQL",
-            "name": "SQL",
+            "fqsen": "\\Smr\\Planet\u003A\u003A\u0024SQLID",
+            "name": "SQLID",
             "summary": "",
-            "url": "classes/Smr-Planet.html#property_SQL"
+            "url": "classes/Smr-Planet.html#property_SQLID"
         },                {
             "fqsen": "\\Smr\\Planet\u003A\u003A\u0024planetName",
             "name": "planetName",
@@ -9901,6 +9931,11 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/Smr-Port.html#constant_KILLER_RELATIONS_LOSS"
         },                {
+            "fqsen": "\\Smr\\Port\u003A\u003ASQL",
+            "name": "SQL",
+            "summary": "",
+            "url": "classes/Smr-Port.html#constant_SQL"
+        },                {
             "fqsen": "\\Smr\\Port\u003A\u003A\u0024CACHE_PORTS",
             "name": "CACHE_PORTS",
             "summary": "",
@@ -9911,10 +9946,10 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/Smr-Port.html#property_CACHE_CACHED_PORTS"
         },                {
-            "fqsen": "\\Smr\\Port\u003A\u003A\u0024SQL",
-            "name": "SQL",
+            "fqsen": "\\Smr\\Port\u003A\u003A\u0024SQLID",
+            "name": "SQLID",
             "summary": "",
-            "url": "classes/Smr-Port.html#property_SQL"
+            "url": "classes/Smr-Port.html#property_SQLID"
         },                {
             "fqsen": "\\Smr\\Port\u003A\u003A\u0024shields",
             "name": "shields",
@@ -10636,11 +10671,6 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/Smr-Sector.html#method_diedHere"
         },                {
-            "fqsen": "\\Smr\\Sector\u003A\u003AgetSQL\u0028\u0029",
-            "name": "getSQL",
-            "summary": "",
-            "url": "classes/Smr-Sector.html#method_getSQL"
-        },                {
             "fqsen": "\\Smr\\Sector\u003A\u003AgetGameID\u0028\u0029",
             "name": "getGameID",
             "summary": "",
@@ -11076,6 +11106,11 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/Smr-Sector.html#method_hasX"
         },                {
+            "fqsen": "\\Smr\\Sector\u003A\u003ASQL",
+            "name": "SQL",
+            "summary": "",
+            "url": "classes/Smr-Sector.html#constant_SQL"
+        },                {
             "fqsen": "\\Smr\\Sector\u003A\u003ALINK_DIR_MAPPING",
             "name": "LINK_DIR_MAPPING",
             "summary": "Maps\u0020the\u0020Sector\u0020link\u0020direction\u0020names\u0020to\u0020database\u0020columns.",
@@ -11096,10 +11131,10 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/Smr-Sector.html#property_CACHE_LOCATION_SECTORS"
         },                {
-            "fqsen": "\\Smr\\Sector\u003A\u003A\u0024SQL",
-            "name": "SQL",
+            "fqsen": "\\Smr\\Sector\u003A\u003A\u0024SQLID",
+            "name": "SQLID",
             "summary": "",
-            "url": "classes/Smr-Sector.html#property_SQL"
+            "url": "classes/Smr-Sector.html#property_SQLID"
         },                {
             "fqsen": "\\Smr\\Sector\u003A\u003A\u0024battles",
             "name": "battles",
@@ -11316,15 +11351,20 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/Smr-Ship.html#method_updateIllusion"
         },                {
+            "fqsen": "\\Smr\\Ship\u003A\u003ASQL",
+            "name": "SQL",
+            "summary": "",
+            "url": "classes/Smr-Ship.html#constant_SQL"
+        },                {
             "fqsen": "\\Smr\\Ship\u003A\u003A\u0024CACHE_SHIPS",
             "name": "CACHE_SHIPS",
             "summary": "",
             "url": "classes/Smr-Ship.html#property_CACHE_SHIPS"
         },                {
-            "fqsen": "\\Smr\\Ship\u003A\u003A\u0024SQL",
-            "name": "SQL",
+            "fqsen": "\\Smr\\Ship\u003A\u003A\u0024SQLID",
+            "name": "SQLID",
             "summary": "",
-            "url": "classes/Smr-Ship.html#property_SQL"
+            "url": "classes/Smr-Ship.html#property_SQLID"
         },                {
             "fqsen": "\\Smr\\ShipClass",
             "name": "ShipClass",
