@@ -11636,6 +11636,31 @@ Search.appendIndex(
             "summary": "Authenticates\u0020with\u0020the\u0020social\u0020platform.",
             "url": "classes/Smr-SocialLogin-Google.html#method_login"
         },                {
+            "fqsen": "\\Smr\\SocialLogin\\SocialIdentity",
+            "name": "SocialIdentity",
+            "summary": "",
+            "url": "classes/Smr-SocialLogin-SocialIdentity.html"
+        },                {
+            "fqsen": "\\Smr\\SocialLogin\\SocialIdentity\u003A\u003A__construct\u0028\u0029",
+            "name": "__construct",
+            "summary": "",
+            "url": "classes/Smr-SocialLogin-SocialIdentity.html#method___construct"
+        },                {
+            "fqsen": "\\Smr\\SocialLogin\\SocialIdentity\u003A\u003A\u0024type",
+            "name": "type",
+            "summary": "",
+            "url": "classes/Smr-SocialLogin-SocialIdentity.html#property_type"
+        },                {
+            "fqsen": "\\Smr\\SocialLogin\\SocialIdentity\u003A\u003A\u0024id",
+            "name": "id",
+            "summary": "",
+            "url": "classes/Smr-SocialLogin-SocialIdentity.html#property_id"
+        },                {
+            "fqsen": "\\Smr\\SocialLogin\\SocialIdentity\u003A\u003A\u0024email",
+            "name": "email",
+            "summary": "",
+            "url": "classes/Smr-SocialLogin-SocialIdentity.html#property_email"
+        },                {
             "fqsen": "\\Smr\\SocialLogin\\SocialLogin",
             "name": "SocialLogin",
             "summary": "Defines\u0020the\u0020methods\u0020to\u0020be\u0020implemented\u0020by\u0020each\u0020social\u0020login\u0020platform.",
@@ -11656,11 +11681,6 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/Smr-SocialLogin-SocialLogin.html#method___construct"
         },                {
-            "fqsen": "\\Smr\\SocialLogin\\SocialLogin\u003A\u003AsetCredentials\u0028\u0029",
-            "name": "setCredentials",
-            "summary": "After\u0020a\u0020successful\u0020authentication,\u0020set\u0020credentials.",
-            "url": "classes/Smr-SocialLogin-SocialLogin.html#method_setCredentials"
-        },                {
             "fqsen": "\\Smr\\SocialLogin\\SocialLogin\u003A\u003AgetRedirectUrl\u0028\u0029",
             "name": "getRedirectUrl",
             "summary": "Returns\u0020the\u0020URL\u0020that\u0020the\u0020social\u0020platform\u0020will\u0020redirect\u0020to\nafter\u0020authentication.",
@@ -11675,41 +11695,6 @@ Search.appendIndex(
             "name": "login",
             "summary": "Authenticates\u0020with\u0020the\u0020social\u0020platform.",
             "url": "classes/Smr-SocialLogin-SocialLogin.html#method_login"
-        },                {
-            "fqsen": "\\Smr\\SocialLogin\\SocialLogin\u003A\u003AisValid\u0028\u0029",
-            "name": "isValid",
-            "summary": "Returns\u0020true\u0020if\u0020the\u0020authentication\u0020was\u0020successful.",
-            "url": "classes/Smr-SocialLogin-SocialLogin.html#method_isValid"
-        },                {
-            "fqsen": "\\Smr\\SocialLogin\\SocialLogin\u003A\u003AgetUserID\u0028\u0029",
-            "name": "getUserID",
-            "summary": "",
-            "url": "classes/Smr-SocialLogin-SocialLogin.html#method_getUserID"
-        },                {
-            "fqsen": "\\Smr\\SocialLogin\\SocialLogin\u003A\u003AgetEmail\u0028\u0029",
-            "name": "getEmail",
-            "summary": "",
-            "url": "classes/Smr-SocialLogin-SocialLogin.html#method_getEmail"
-        },                {
-            "fqsen": "\\Smr\\SocialLogin\\SocialLogin\u003A\u003AgetErrorMessage\u0028\u0029",
-            "name": "getErrorMessage",
-            "summary": "Returns\u0020the\u0020authentication\u0020error\u0020message,\u0020if\u0020one\u0020has\u0020been\u0020set.",
-            "url": "classes/Smr-SocialLogin-SocialLogin.html#method_getErrorMessage"
-        },                {
-            "fqsen": "\\Smr\\SocialLogin\\SocialLogin\u003A\u003A\u0024userID",
-            "name": "userID",
-            "summary": "",
-            "url": "classes/Smr-SocialLogin-SocialLogin.html#property_userID"
-        },                {
-            "fqsen": "\\Smr\\SocialLogin\\SocialLogin\u003A\u003A\u0024email",
-            "name": "email",
-            "summary": "",
-            "url": "classes/Smr-SocialLogin-SocialLogin.html#property_email"
-        },                {
-            "fqsen": "\\Smr\\SocialLogin\\SocialLogin\u003A\u003A\u0024errorMessage",
-            "name": "errorMessage",
-            "summary": "",
-            "url": "classes/Smr-SocialLogin-SocialLogin.html#property_errorMessage"
         },                {
             "fqsen": "\\Smr\\StoredDestination",
             "name": "StoredDestination",

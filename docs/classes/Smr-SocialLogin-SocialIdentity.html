@@ -143,7 +143,7 @@
 
     <article class="phpdocumentor-element -class">
         <h2 class="phpdocumentor-content__title">
-    SocialLogin
+    SocialIdentity
 
     
             <div class="phpdocumentor-element__package">
@@ -157,14 +157,14 @@
     </h2>
 
         <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/SocialLogin/SocialLogin.php"><a href="files/src-lib-smr-sociallogin-sociallogin.html"><abbr title="src/lib/Smr/SocialLogin/SocialLogin.php">SocialLogin.php</abbr></a></abbr>
+    <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/SocialLogin/SocialIdentity.php"><a href="files/src-lib-smr-sociallogin-socialidentity.html"><abbr title="src/lib/Smr/SocialLogin/SocialIdentity.php">SocialIdentity.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">11</span>
+    <span class="phpdocumentor-element-found-in__line">7</span>
 
     </aside>
 
-            <p class="phpdocumentor-summary">Defines the methods to be implemented by each social login platform.</p>
-
+        
+    <section class="phpdocumentor-description"></section>
 
 
 
@@ -179,48 +179,33 @@
 </h3>
 
 <dl class="phpdocumentor-table-of-contents">
-                        <dt class="phpdocumentor-table-of-contents__entry -method -public">
-    <a href="classes/Smr-SocialLogin-SocialLogin.html#method___construct">__construct()</a>
+                    <dt class="phpdocumentor-table-of-contents__entry -property -public">
+    <a href="classes/Smr-SocialLogin-SocialIdentity.html#property_email">$email</a>
+    <span>
+                        &nbsp;: string            </span>
+</dt>
+<dd></dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -property -public">
+    <a href="classes/Smr-SocialLogin-SocialIdentity.html#property_id">$id</a>
+    <span>
+                        &nbsp;: string            </span>
+</dt>
+<dd></dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -property -public">
+    <a href="classes/Smr-SocialLogin-SocialIdentity.html#property_type">$type</a>
+    <span>
+                        &nbsp;: string            </span>
+</dt>
+<dd></dd>
+
+                <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a href="classes/Smr-SocialLogin-SocialIdentity.html#method___construct">__construct()</a>
     <span>
                                 &nbsp;: mixed    </span>
 </dt>
 <dd></dd>
-
-            <dt class="phpdocumentor-table-of-contents__entry -method -public">
-    <a href="classes/Smr-SocialLogin-SocialLogin.html#method_get">get()</a>
-    <span>
-                                &nbsp;: self    </span>
-</dt>
-<dd>Returns a SocialLogin class of the given derived type.</dd>
-
-            <dt class="phpdocumentor-table-of-contents__entry -method -public">
-    <a href="classes/Smr-SocialLogin-SocialLogin.html#method_getLoginType">getLoginType()</a>
-    <span>
-                                &nbsp;: string    </span>
-</dt>
-<dd>Provides the canonical name of the platform to use in string comparison.</dd>
-
-            <dt class="phpdocumentor-table-of-contents__entry -method -public">
-    <a href="classes/Smr-SocialLogin-SocialLogin.html#method_getLoginUrl">getLoginUrl()</a>
-    <span>
-                                &nbsp;: string    </span>
-</dt>
-<dd>Returns the URL to authenticate with the social platform.</dd>
-
-            <dt class="phpdocumentor-table-of-contents__entry -method -public">
-    <a href="classes/Smr-SocialLogin-SocialLogin.html#method_login">login()</a>
-    <span>
-                                &nbsp;: <a href="classes/Smr-SocialLogin-SocialIdentity.html"><abbr title="\Smr\SocialLogin\SocialIdentity">SocialIdentity</abbr></a>    </span>
-</dt>
-<dd>Authenticates with the social platform.</dd>
-
-            <dt class="phpdocumentor-table-of-contents__entry -method -protected">
-    <a href="classes/Smr-SocialLogin-SocialLogin.html#method_getRedirectUrl">getRedirectUrl()</a>
-    <span>
-                                &nbsp;: string    </span>
-</dt>
-<dd>Returns the URL that the social platform will redirect to
-after authentication.</dd>
 
         </dl>
 
@@ -229,11 +214,115 @@ after authentication.</dd>
         
 
         
+    <section class="phpdocumentor-properties">
+        <h3 class="phpdocumentor-elements__header" id="properties">
+            Properties
+            <a href="classes/Smr-SocialLogin-SocialIdentity.html#properties" class="headerlink"><i class="fas fa-link"></i></a>
+        </h3>
+                    <article
+        class="
+            phpdocumentor-element
+            -property
+            -public
+                                                -read-only        "
+>
+    <h4 class="phpdocumentor-element__name" id="property_email">
+        $email
+        <a href="classes/Smr-SocialLogin-SocialIdentity.html#property_email" class="headerlink"><i class="fas fa-link"></i></a>
+        <span class="phpdocumentor-element__modifiers">
+                        <small class="phpdocumentor-element__modifier">read-only</small>        </span>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/SocialLogin/SocialIdentity.php"><a href="files/src-lib-smr-sociallogin-socialidentity.html"><abbr title="src/lib/Smr/SocialLogin/SocialIdentity.php">SocialIdentity.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">13</span>
+
+    </aside>
+
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+        <span class="phpdocumentor-signature__type">string</span>
+    <span class="phpdocumentor-signature__name">$email</span>
+    </code>
+
+    
+    
+    
+
+</article>
+                    <article
+        class="
+            phpdocumentor-element
+            -property
+            -public
+                                                -read-only        "
+>
+    <h4 class="phpdocumentor-element__name" id="property_id">
+        $id
+        <a href="classes/Smr-SocialLogin-SocialIdentity.html#property_id" class="headerlink"><i class="fas fa-link"></i></a>
+        <span class="phpdocumentor-element__modifiers">
+                        <small class="phpdocumentor-element__modifier">read-only</small>        </span>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/SocialLogin/SocialIdentity.php"><a href="files/src-lib-smr-sociallogin-socialidentity.html"><abbr title="src/lib/Smr/SocialLogin/SocialIdentity.php">SocialIdentity.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">11</span>
+
+    </aside>
+
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+        <span class="phpdocumentor-signature__type">string</span>
+    <span class="phpdocumentor-signature__name">$id</span>
+    </code>
+
+    
+    
+    
+
+</article>
+                    <article
+        class="
+            phpdocumentor-element
+            -property
+            -public
+                                                -read-only        "
+>
+    <h4 class="phpdocumentor-element__name" id="property_type">
+        $type
+        <a href="classes/Smr-SocialLogin-SocialIdentity.html#property_type" class="headerlink"><i class="fas fa-link"></i></a>
+        <span class="phpdocumentor-element__modifiers">
+                        <small class="phpdocumentor-element__modifier">read-only</small>        </span>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/SocialLogin/SocialIdentity.php"><a href="files/src-lib-smr-sociallogin-socialidentity.html"><abbr title="src/lib/Smr/SocialLogin/SocialIdentity.php">SocialIdentity.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">9</span>
+
+    </aside>
+
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+        <span class="phpdocumentor-signature__type">string</span>
+    <span class="phpdocumentor-signature__name">$type</span>
+    </code>
+
+        <section class="phpdocumentor-description"></section>
+
+        <section class="phpdocumentor-description"></section>
+
+    
+
+</article>
+            </section>
 
             <section class="phpdocumentor-methods">
         <h3 class="phpdocumentor-elements__header" id="methods">
             Methods
-            <a href="classes/Smr-SocialLogin-SocialLogin.html#methods" class="headerlink"><i class="fas fa-link"></i></a>
+            <a href="classes/Smr-SocialLogin-SocialIdentity.html#methods" class="headerlink"><i class="fas fa-link"></i></a>
         </h3>
                     <article
         class="phpdocumentor-element
@@ -243,59 +332,42 @@ after authentication.</dd>
 >
     <h4 class="phpdocumentor-element__name" id="method___construct">
         __construct()
-        <a href="classes/Smr-SocialLogin-SocialLogin.html#method___construct" class="headerlink"><i class="fas fa-link"></i></a>
+        <a href="classes/Smr-SocialLogin-SocialIdentity.html#method___construct" class="headerlink"><i class="fas fa-link"></i></a>
     </h4>
     <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/SocialLogin/SocialLogin.php"><a href="files/src-lib-smr-sociallogin-sociallogin.html"><abbr title="src/lib/Smr/SocialLogin/SocialLogin.php">SocialLogin.php</abbr></a></abbr>
+    <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/SocialLogin/SocialIdentity.php"><a href="files/src-lib-smr-sociallogin-socialidentity.html"><abbr title="src/lib/Smr/SocialLogin/SocialIdentity.php">SocialIdentity.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">30</span>
+    <span class="phpdocumentor-element-found-in__line">15</span>
 
     </aside>
 
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">public</span>
-                <span class="phpdocumentor-signature__name">__construct</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">mixed</span></code>
+                <span class="phpdocumentor-signature__name">__construct</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type">string|null&nbsp;</span><span class="phpdocumentor-signature__argument__name">$id</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__return-type">string|null&nbsp;</span><span class="phpdocumentor-signature__argument__name">$email</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__return-type">string&nbsp;</span><span class="phpdocumentor-signature__argument__name">$type</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">mixed</span></code>
 
         <section class="phpdocumentor-description"></section>
 
-    
-    
-
-        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
-    <span class="phpdocumentor-signature__response_type">mixed</span>
-            &mdash;
-        
-    
-</article>
-                    <article
-        class="phpdocumentor-element
-            -method
-            -public
-                                    -static                    "
->
-    <h4 class="phpdocumentor-element__name" id="method_get">
-        get()
-        <a href="classes/Smr-SocialLogin-SocialLogin.html#method_get" class="headerlink"><i class="fas fa-link"></i></a>
-    </h4>
-    <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/SocialLogin/SocialLogin.php"><a href="files/src-lib-smr-sociallogin-sociallogin.html"><abbr title="src/lib/Smr/SocialLogin/SocialLogin.php">SocialLogin.php</abbr></a></abbr>
-    :
-    <span class="phpdocumentor-element-found-in__line">21</span>
-
-    </aside>
-
-        <p class="phpdocumentor-summary">Returns a SocialLogin class of the given derived type.</p>
-
-    <code class="phpdocumentor-code phpdocumentor-signature ">
-    <span class="phpdocumentor-signature__visibility">public</span>
-            <span class="phpdocumentor-signature__static">static</span>    <span class="phpdocumentor-signature__name">get</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type">string&nbsp;</span><span class="phpdocumentor-signature__argument__name">$loginType</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">self</span></code>
-
-    
         <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
     <dl class="phpdocumentor-argument-list">
                     <dt class="phpdocumentor-argument-list__entry">
-                <span class="phpdocumentor-signature__argument__name">$loginType</span>
+                <span class="phpdocumentor-signature__argument__name">$id</span>
+                : <span class="phpdocumentor-signature__argument__return-type">string|null</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                    <section class="phpdocumentor-description"></section>
+
+            </dd>
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$email</span>
+                : <span class="phpdocumentor-signature__argument__return-type">string|null</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                    <section class="phpdocumentor-description"></section>
+
+            </dd>
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$type</span>
                 : <span class="phpdocumentor-signature__argument__return-type">string</span>
                             </dt>
             <dd class="phpdocumentor-argument-list__definition">
@@ -307,140 +379,7 @@ after authentication.</dd>
     
 
         <h5 class="phpdocumentor-return-value__heading">Return values</h5>
-    <span class="phpdocumentor-signature__response_type">self</span>
-            &mdash;
-        
-    
-</article>
-                    <article
-        class="phpdocumentor-element
-            -method
-            -public
-                        -abstract            -static                    "
->
-    <h4 class="phpdocumentor-element__name" id="method_getLoginType">
-        getLoginType()
-        <a href="classes/Smr-SocialLogin-SocialLogin.html#method_getLoginType" class="headerlink"><i class="fas fa-link"></i></a>
-    </h4>
-    <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/SocialLogin/SocialLogin.php"><a href="files/src-lib-smr-sociallogin-sociallogin.html"><abbr title="src/lib/Smr/SocialLogin/SocialLogin.php">SocialLogin.php</abbr></a></abbr>
-    :
-    <span class="phpdocumentor-element-found-in__line">16</span>
-
-    </aside>
-
-        <p class="phpdocumentor-summary">Provides the canonical name of the platform to use in string comparison.</p>
-
-    <code class="phpdocumentor-code phpdocumentor-signature ">
-    <span class="phpdocumentor-signature__visibility">public</span>
-    <span class="phpdocumentor-signature__abstract">abstract</span>        <span class="phpdocumentor-signature__static">static</span>    <span class="phpdocumentor-signature__name">getLoginType</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">string</span></code>
-
-    
-    
-    
-
-        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
-    <span class="phpdocumentor-signature__response_type">string</span>
-            &mdash;
-        
-    
-</article>
-                    <article
-        class="phpdocumentor-element
-            -method
-            -public
-                        -abstract                                "
->
-    <h4 class="phpdocumentor-element__name" id="method_getLoginUrl">
-        getLoginUrl()
-        <a href="classes/Smr-SocialLogin-SocialLogin.html#method_getLoginUrl" class="headerlink"><i class="fas fa-link"></i></a>
-    </h4>
-    <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/SocialLogin/SocialLogin.php"><a href="files/src-lib-smr-sociallogin-sociallogin.html"><abbr title="src/lib/Smr/SocialLogin/SocialLogin.php">SocialLogin.php</abbr></a></abbr>
-    :
-    <span class="phpdocumentor-element-found-in__line">50</span>
-
-    </aside>
-
-        <p class="phpdocumentor-summary">Returns the URL to authenticate with the social platform.</p>
-
-    <code class="phpdocumentor-code phpdocumentor-signature ">
-    <span class="phpdocumentor-signature__visibility">public</span>
-    <span class="phpdocumentor-signature__abstract">abstract</span>            <span class="phpdocumentor-signature__name">getLoginUrl</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">string</span></code>
-
-    
-    
-    
-
-        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
-    <span class="phpdocumentor-signature__response_type">string</span>
-            &mdash;
-        
-    
-</article>
-                    <article
-        class="phpdocumentor-element
-            -method
-            -public
-                        -abstract                                "
->
-    <h4 class="phpdocumentor-element__name" id="method_login">
-        login()
-        <a href="classes/Smr-SocialLogin-SocialLogin.html#method_login" class="headerlink"><i class="fas fa-link"></i></a>
-    </h4>
-    <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/SocialLogin/SocialLogin.php"><a href="files/src-lib-smr-sociallogin-sociallogin.html"><abbr title="src/lib/Smr/SocialLogin/SocialLogin.php">SocialLogin.php</abbr></a></abbr>
-    :
-    <span class="phpdocumentor-element-found-in__line">55</span>
-
-    </aside>
-
-        <p class="phpdocumentor-summary">Authenticates with the social platform.</p>
-
-    <code class="phpdocumentor-code phpdocumentor-signature ">
-    <span class="phpdocumentor-signature__visibility">public</span>
-    <span class="phpdocumentor-signature__abstract">abstract</span>            <span class="phpdocumentor-signature__name">login</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type"><a href="classes/Smr-SocialLogin-SocialIdentity.html"><abbr title="\Smr\SocialLogin\SocialIdentity">SocialIdentity</abbr></a></span></code>
-
-    
-    
-    
-
-        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
-    <span class="phpdocumentor-signature__response_type"><a href="classes/Smr-SocialLogin-SocialIdentity.html"><abbr title="\Smr\SocialLogin\SocialIdentity">SocialIdentity</abbr></a></span>
-            &mdash;
-        
-    
-</article>
-                    <article
-        class="phpdocumentor-element
-            -method
-            -protected
-                                                        "
->
-    <h4 class="phpdocumentor-element__name" id="method_getRedirectUrl">
-        getRedirectUrl()
-        <a href="classes/Smr-SocialLogin-SocialLogin.html#method_getRedirectUrl" class="headerlink"><i class="fas fa-link"></i></a>
-    </h4>
-    <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/SocialLogin/SocialLogin.php"><a href="files/src-lib-smr-sociallogin-sociallogin.html"><abbr title="src/lib/Smr/SocialLogin/SocialLogin.php">SocialLogin.php</abbr></a></abbr>
-    :
-    <span class="phpdocumentor-element-found-in__line">43</span>
-
-    </aside>
-
-        <p class="phpdocumentor-summary">Returns the URL that the social platform will redirect to
-after authentication.</p>
-
-    <code class="phpdocumentor-code phpdocumentor-signature ">
-    <span class="phpdocumentor-signature__visibility">protected</span>
-                <span class="phpdocumentor-signature__name">getRedirectUrl</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">string</span></code>
-
-    
-    
-    
-
-        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
-    <span class="phpdocumentor-signature__response_type">string</span>
+    <span class="phpdocumentor-signature__response_type">mixed</span>
             &mdash;
         
     
@@ -523,7 +462,7 @@ after authentication.</p>
 </section>
             </div>
         </div>
-        <a href="classes/Smr-SocialLogin-SocialLogin.html#top" class="phpdocumentor-back-to-top"><i class="fas fa-chevron-circle-up"></i></a>
+        <a href="classes/Smr-SocialLogin-SocialIdentity.html#top" class="phpdocumentor-back-to-top"><i class="fas fa-chevron-circle-up"></i></a>
 
     </main>
 
