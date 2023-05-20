@@ -5646,6 +5646,11 @@ Search.appendIndex(
             "summary": "Exception\u0020thrown\u0020when\u0020an\u0020account\u0020cannot\u0020be\u0020found\u0020in\u0020the\u0020database",
             "url": "classes/Smr-Exceptions-AccountNotFound.html"
         },                {
+            "fqsen": "\\Smr\\Exceptions\\AlbumNotFound",
+            "name": "AlbumNotFound",
+            "summary": "Exception\u0020thrown\u0020when\u0020an\u0020album\u0020entry\u0020cannot\u0020be\u0020found\u0020in\u0020the\u0020database",
+            "url": "classes/Smr-Exceptions-AlbumNotFound.html"
+        },                {
             "fqsen": "\\Smr\\Exceptions\\AllianceInvitationNotFound",
             "name": "AllianceInvitationNotFound",
             "summary": "Exception\u0020thrown\u0020when\u0020an\u0020alliance\u0020invitation\u0020cannot\u0020be\u0020found\u0020in\u0020the\u0020database",
