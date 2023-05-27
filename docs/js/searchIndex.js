@@ -286,6 +286,11 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/Smr-AbstractPlayer.html#method_getHome"
         },                {
+            "fqsen": "\\Smr\\AbstractPlayer\u003A\u003AisObserver\u0028\u0029",
+            "name": "isObserver",
+            "summary": "Is\u0020player\u0020a\u0020non\u002Dinteracting\u0020observer\u0020\u0028hidden\u0020to\u0020other\u0020players\u0029\u003F",
+            "url": "classes/Smr-AbstractPlayer.html#method_isObserver"
+        },                {
             "fqsen": "\\Smr\\AbstractPlayer\u003A\u003AisDead\u0028\u0029",
             "name": "isDead",
             "summary": "",
@@ -2780,6 +2785,11 @@ Search.appendIndex(
             "name": "getPassword",
             "summary": "",
             "url": "classes/Smr-Alliance.html#method_getPassword"
+        },                {
+            "fqsen": "\\Smr\\Alliance\u003A\u003AhasPassword\u0028\u0029",
+            "name": "hasPassword",
+            "summary": "",
+            "url": "classes/Smr-Alliance.html#method_hasPassword"
         },                {
             "fqsen": "\\Smr\\Alliance\u003A\u003AisRecruiting\u0028\u0029",
             "name": "isRecruiting",
@@ -9820,6 +9830,11 @@ Search.appendIndex(
             "name": "getAttackersToCredit",
             "summary": "",
             "url": "classes/Smr-Port.html#method_getAttackersToCredit"
+        },                {
+            "fqsen": "\\Smr\\Port\u003A\u003AisCreditedAttacker\u0028\u0029",
+            "name": "isCreditedAttacker",
+            "summary": "Identifies\u0020if\u0020the\u0020given\u0020\u0024player\u0020is\u0020a\u0020credited\u0020attacker\u0020of\u0020this\u0020port.",
+            "url": "classes/Smr-Port.html#method_isCreditedAttacker"
         },                {
             "fqsen": "\\Smr\\Port\u003A\u003AcreditCurrentAttackersForKill\u0028\u0029",
             "name": "creditCurrentAttackersForKill",

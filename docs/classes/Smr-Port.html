@@ -1058,6 +1058,13 @@ as either &quot;Buy&quot; or &quot;Sell&quot;, meaning the player buys or sells.
 <dd></dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a href="classes/Smr-Port.html#method_isCreditedAttacker">isCreditedAttacker()</a>
+    <span>
+                                &nbsp;: bool    </span>
+</dt>
+<dd>Identifies if the given $player is a credited attacker of this port.</dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
     <a href="classes/Smr-Port.html#method_isDestroyed">isDestroyed()</a>
     <span>
                                 &nbsp;: bool    </span>
@@ -1202,7 +1209,7 @@ after a successful port raid.</dd>
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
     <a href="classes/Smr-Port.html#method_shootPlayers">shootPlayers()</a>
     <span>
-                                &nbsp;: array&lt;string|int, mixed&gt;    </span>
+                                &nbsp;: <abbr title="\Smr\PortCombatResults">PortCombatResults</abbr>    </span>
 </dt>
 <dd></dd>
 
@@ -6177,6 +6184,50 @@ calling this function directly.</p>
             -public
                                                         "
 >
+    <h4 class="phpdocumentor-element__name" id="method_isCreditedAttacker">
+        isCreditedAttacker()
+        <a href="classes/Smr-Port.html#method_isCreditedAttacker" class="headerlink"><i class="fas fa-link"></i></a>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Port.php"><a href="files/src-lib-smr-port.html"><abbr title="src/lib/Smr/Port.php">Port.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">1456</span>
+
+    </aside>
+
+        <p class="phpdocumentor-summary">Identifies if the given $player is a credited attacker of this port.</p>
+
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+                <span class="phpdocumentor-signature__name">isCreditedAttacker</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type"><a href="classes/Smr-AbstractPlayer.html"><abbr title="\Smr\AbstractPlayer">AbstractPlayer</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$player</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">bool</span></code>
+
+    
+        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
+    <dl class="phpdocumentor-argument-list">
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$player</span>
+                : <span class="phpdocumentor-signature__argument__return-type"><a href="classes/Smr-AbstractPlayer.html"><abbr title="\Smr\AbstractPlayer">AbstractPlayer</abbr></a></span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                    <section class="phpdocumentor-description"></section>
+
+            </dd>
+            </dl>
+
+    
+
+        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
+    <span class="phpdocumentor-signature__response_type">bool</span>
+            &mdash;
+        
+    
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                                        "
+>
     <h4 class="phpdocumentor-element__name" id="method_isDestroyed">
         isDestroyed()
         <a href="classes/Smr-Port.html#method_isDestroyed" class="headerlink"><i class="fas fa-link"></i></a>
@@ -6250,7 +6301,7 @@ calling this function directly.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Port.php"><a href="files/src-lib-smr-port.html"><abbr title="src/lib/Smr/Port.php">Port.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">1501</span>
+    <span class="phpdocumentor-element-found-in__line">1513</span>
 
     </aside>
 
@@ -6293,7 +6344,7 @@ calling this function directly.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Port.php"><a href="files/src-lib-smr-port.html"><abbr title="src/lib/Smr/Port.php">Port.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">1492</span>
+    <span class="phpdocumentor-element-found-in__line">1504</span>
 
     </aside>
 
@@ -6338,7 +6389,7 @@ successful port raid.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Port.php"><a href="files/src-lib-smr-port.html"><abbr title="src/lib/Smr/Port.php">Port.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">1480</span>
+    <span class="phpdocumentor-element-found-in__line">1492</span>
 
     </aside>
 
@@ -7058,7 +7109,7 @@ Returns false on invalid input.</p>
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">public</span>
-                <span class="phpdocumentor-signature__name">shootPlayers</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type">array&lt;string|int, <a href="classes/Smr-AbstractPlayer.html"><abbr title="\Smr\AbstractPlayer">AbstractPlayer</abbr></a>&gt;&nbsp;</span><span class="phpdocumentor-signature__argument__name">$targetPlayers</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">array&lt;string|int, mixed&gt;</span></code>
+                <span class="phpdocumentor-signature__name">shootPlayers</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type">array&lt;string|int, <a href="classes/Smr-AbstractPlayer.html"><abbr title="\Smr\AbstractPlayer">AbstractPlayer</abbr></a>&gt;&nbsp;</span><span class="phpdocumentor-signature__argument__name">$targetPlayers</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type"><abbr title="\Smr\PortCombatResults">PortCombatResults</abbr></span></code>
 
     
         <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
@@ -7075,7 +7126,7 @@ Returns false on invalid input.</p>
     
 
         <h5 class="phpdocumentor-return-value__heading">Return values</h5>
-    <span class="phpdocumentor-signature__response_type">array&lt;string|int, mixed&gt;</span>
+    <span class="phpdocumentor-signature__response_type"><abbr title="\Smr\PortCombatResults">PortCombatResults</abbr></span>
             &mdash;
         
     
@@ -7358,7 +7409,7 @@ ports to a specific level.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Port.php"><a href="files/src-lib-smr-port.html"><abbr title="src/lib/Smr/Port.php">Port.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">1453</span>
+    <span class="phpdocumentor-element-found-in__line">1465</span>
 
     </aside>
 
@@ -7504,7 +7555,7 @@ This is useful for determining what trade goods to add/remove.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Port.php"><a href="files/src-lib-smr-port.html"><abbr title="src/lib/Smr/Port.php">Port.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">1462</span>
+    <span class="phpdocumentor-element-found-in__line">1474</span>
 
     </aside>
 
