@@ -7716,6 +7716,11 @@ Search.appendIndex(
             "summary": "Forward\u0020to\u0020the\u0020page\u0020identified\u0020by\u0020this\u0020container.",
             "url": "classes/Smr-Page-Page.html#method_go"
         },                {
+            "fqsen": "\\Smr\\Page\\Page\u003A\u003AgetLandingPage\u0028\u0029",
+            "name": "getLandingPage",
+            "summary": "Returns\u0020the\u0020default\u0020display\u0020page\u0020when\u0020in\u0020or\u0020out\u0020of\u0020a\u0020game.",
+            "url": "classes/Smr-Page-Page.html#method_getLandingPage"
+        },                {
             "fqsen": "\\Smr\\Page\\Page\u003A\u003Ahref\u0028\u0029",
             "name": "href",
             "summary": "Create\u0020an\u0020HREF\u0020\u0028based\u0020on\u0020a\u0020random\u0020SN\u0029\u0020to\u0020link\u0020to\u0020this\u0020page.",
@@ -10930,6 +10935,11 @@ Search.appendIndex(
             "name": "addLocation",
             "summary": "",
             "url": "classes/Smr-Sector.html#method_addLocation"
+        },                {
+            "fqsen": "\\Smr\\Sector\u003A\u003AaddLinkedLocations\u0028\u0029",
+            "name": "addLinkedLocations",
+            "summary": "",
+            "url": "classes/Smr-Sector.html#method_addLinkedLocations"
         },                {
             "fqsen": "\\Smr\\Sector\u003A\u003AremoveAllLocations\u0028\u0029",
             "name": "removeAllLocations",
