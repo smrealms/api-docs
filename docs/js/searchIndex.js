@@ -311,6 +311,11 @@ Search.appendIndex(
             "summary": "Update\u0020the\u0020player\u0027s\u0020newbie\u0020status\u0020if\u0020it\u0020has\u0020changed.",
             "url": "classes/Smr-AbstractPlayer.html#method_updateNewbieStatus"
         },                {
+            "fqsen": "\\Smr\\AbstractPlayer\u003A\u003AisNewbieCombatant\u0028\u0029",
+            "name": "isNewbieCombatant",
+            "summary": "Does\u0020this\u0020player\u0020qualify\u0020for\u0020new\u0020player\u0020protections\u003F",
+            "url": "classes/Smr-AbstractPlayer.html#method_isNewbieCombatant"
+        },                {
             "fqsen": "\\Smr\\AbstractPlayer\u003A\u003AisFlagship\u0028\u0029",
             "name": "isFlagship",
             "summary": "Has\u0020this\u0020player\u0020been\u0020designated\u0020as\u0020the\u0020alliance\u0020flagship\u003F",
