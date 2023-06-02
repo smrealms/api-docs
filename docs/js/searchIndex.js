@@ -156,16 +156,6 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/Smr-AbstractPlayer.html#method_decreaseZoom"
         },                {
-            "fqsen": "\\Smr\\AbstractPlayer\u003A\u003AgetAttackColour\u0028\u0029",
-            "name": "getAttackColour",
-            "summary": "",
-            "url": "classes/Smr-AbstractPlayer.html#method_getAttackColour"
-        },                {
-            "fqsen": "\\Smr\\AbstractPlayer\u003A\u003AsetAttackColour\u0028\u0029",
-            "name": "setAttackColour",
-            "summary": "",
-            "url": "classes/Smr-AbstractPlayer.html#method_setAttackColour"
-        },                {
             "fqsen": "\\Smr\\AbstractPlayer\u003A\u003AisIgnoreGlobals\u0028\u0029",
             "name": "isIgnoreGlobals",
             "summary": "",
@@ -1635,11 +1625,6 @@ Search.appendIndex(
             "name": "lastNewsUpdate",
             "summary": "",
             "url": "classes/Smr-AbstractPlayer.html#property_lastNewsUpdate"
-        },                {
-            "fqsen": "\\Smr\\AbstractPlayer\u003A\u003A\u0024attackColour",
-            "name": "attackColour",
-            "summary": "",
-            "url": "classes/Smr-AbstractPlayer.html#property_attackColour"
         },                {
             "fqsen": "\\Smr\\AbstractPlayer\u003A\u003A\u0024allianceJoinable",
             "name": "allianceJoinable",
