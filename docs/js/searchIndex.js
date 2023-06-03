@@ -3546,6 +3546,16 @@ Search.appendIndex(
             "summary": "",
             "url": ""
         },                {
+            "fqsen": "\\Smr\\Changelog",
+            "name": "Changelog",
+            "summary": "",
+            "url": "classes/Smr-Changelog.html"
+        },                {
+            "fqsen": "\\Smr\\Changelog\u003A\u003AgetDisplayVersions\u0028\u0029",
+            "name": "getDisplayVersions",
+            "summary": "",
+            "url": "classes/Smr-Changelog.html#method_getDisplayVersions"
+        },                {
             "fqsen": "\\Smr\\Chess\\Board",
             "name": "Board",
             "summary": "",
