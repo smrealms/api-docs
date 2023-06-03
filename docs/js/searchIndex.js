@@ -4833,7 +4833,7 @@ Search.appendIndex(
         },                {
             "fqsen": "\\Smr\\Database\u003A\u003AlockTable\u0028\u0029",
             "name": "lockTable",
-            "summary": "",
+            "summary": "Acquire\u0020a\u0020write\u0020lock\u0020for\u0020\u0024table.",
             "url": "classes/Smr-Database.html#method_lockTable"
         },                {
             "fqsen": "\\Smr\\Database\u003A\u003Aunlock\u0028\u0029",
