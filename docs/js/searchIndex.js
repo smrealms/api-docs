@@ -733,7 +733,7 @@ Search.appendIndex(
         },                {
             "fqsen": "\\Smr\\AbstractPlayer\u003A\u003AsetAllianceID\u0028\u0029",
             "name": "setAllianceID",
-            "summary": "",
+            "summary": "Not\u0020called\u0020directly.\u0020See\u0020joinAlliance\u0020and\u0020leaveAlliance.",
             "url": "classes/Smr-AbstractPlayer.html#method_setAllianceID"
         },                {
             "fqsen": "\\Smr\\AbstractPlayer\u003A\u003AgetAllianceBBLink\u0028\u0029",
