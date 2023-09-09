@@ -2631,11 +2631,6 @@ Search.appendIndex(
             "summary": "Create\u0020an\u0020alliance\u0020and\u0020return\u0020the\u0020new\u0020object.",
             "url": "classes/Smr-Alliance.html#method_createAlliance"
         },                {
-            "fqsen": "\\Smr\\Alliance\u003A\u003AisNone\u0028\u0029",
-            "name": "isNone",
-            "summary": "Returns\u0020true\u0020if\u0020the\u0020alliance\u0020ID\u0020is\u0020associated\u0020with\u0020allianceless\u0020players.",
-            "url": "classes/Smr-Alliance.html#method_isNone"
-        },                {
             "fqsen": "\\Smr\\Alliance\u003A\u003AisNHA\u0028\u0029",
             "name": "isNHA",
             "summary": "Returns\u0020true\u0020if\u0020the\u0020alliance\u0020is\u0020the\u0020Newbie\u0020Help\u0020Alliance.",
