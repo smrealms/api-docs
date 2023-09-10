@@ -11221,6 +11221,11 @@ Search.appendIndex(
             "summary": "Acquire\u0020an\u0020exclusive\u0020lock\u0020on\u0020a\u0020sector.",
             "url": "classes/Smr-SectorLock.html#method_acquire"
         },                {
+            "fqsen": "\\Smr\\SectorLock\u003A\u003AgetSectorID\u0028\u0029",
+            "name": "getSectorID",
+            "summary": "",
+            "url": "classes/Smr-SectorLock.html#method_getSectorID"
+        },                {
             "fqsen": "\\Smr\\SectorLock\u003A\u003AisActive\u0028\u0029",
             "name": "isActive",
             "summary": "",
