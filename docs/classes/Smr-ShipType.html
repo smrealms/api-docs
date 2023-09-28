@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/base.css">
             <link rel="preconnect" href="https://fonts.gstatic.com">
-        <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@400;600;700&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="css/template.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0/css/all.min.css" integrity="sha256-ybRkN9dBjhcS2qrW1z+hfCxq+1aBdwyQM5wlQoQVt/0=" crossorigin="anonymous" />
@@ -19,6 +19,7 @@
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/prismjs@1.23.0/plugins/line-highlight/prism-line-highlight.css">
                 <script src="https://cdn.jsdelivr.net/npm/fuse.js@3.4.6"></script>
         <script src="https://cdn.jsdelivr.net/npm/css-vars-ponyfill@2"></script>
+        <script src="js/template.js"></script>
         <script src="js/search.js"></script>
         <script defer src="js/searchIndex.js"></script>
     </head>
@@ -52,7 +53,7 @@
 <label class="phpdocumentor-sidebar__menu-icon" for="sidebar-button">
     Menu
 </label>
-<aside class="phpdocumentor-column -four phpdocumentor-sidebar">
+<aside class="phpdocumentor-column -three phpdocumentor-sidebar">
                     <section class="phpdocumentor-sidebar__category">
             <h2 class="phpdocumentor-sidebar__category-header">Namespaces</h2>
                                     <h4 class="phpdocumentor-sidebar__root-namespace">
@@ -135,8 +136,9 @@
     </section>
 </aside>
 
-            <div class="phpdocumentor-column -eight phpdocumentor-content">
-                    <ul class="phpdocumentor-breadcrumbs">
+            <div class="phpdocumentor-column -nine phpdocumentor-content">
+                                <section>
+                                        <ul class="phpdocumentor-breadcrumbs">
             <li class="phpdocumentor-breadcrumb"><a href="namespaces/smr.html">Smr</a></li>
     </ul>
 
@@ -158,11 +160,17 @@
                             <a href="classes/Smr-Traits-RaceID.html"><abbr title="\Smr\Traits\RaceID">RaceID</abbr></a>                    </span>
     </h2>
 
+<div class="phpdocumentor-label-line">
+
+
+</div>
+
         <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/ShipType.php"><a href="files/src-lib-smr-shiptype.html"><abbr title="src/lib/Smr/ShipType.php">ShipType.php</abbr></a></abbr>
     :
     <span class="phpdocumentor-element-found-in__line">11</span>
 
+            <a href="classes/Smr-ShipType.html#source-view.11" class="phpdocumentor-element-found-in__source" data-line="11" data-modal="source-view" data-src="files/src/lib/Smr/ShipType.php.txt"></a>
     </aside>
 
             <p class="phpdocumentor-summary">Defines the base ship types</p>
@@ -172,196 +180,189 @@
 
 
 
-
-
-
 <h3 id="toc">
     Table of Contents
-    <a href="#toc" class="headerlink"><i class="fas fa-link"></i></a>
+    <a href="classes/Smr-ShipType.html#toc" class="headerlink"><i class="fas fa-link"></i></a>
+
 </h3>
 
+
+
+
+
+
+
+
+
+<h4 id="toc-properties">
+    Properties
+    <a href="classes/Smr-ShipType.html#toc-properties" class="headerlink"><i class="fas fa-link"></i></a>
+
+</h4>
 <dl class="phpdocumentor-table-of-contents">
-                    <dt class="phpdocumentor-table-of-contents__entry -property -protected">
+            <dt class="phpdocumentor-table-of-contents__entry -property -protected">
     <a href="classes/Smr-Traits-RaceID.html#property_raceID">$raceID</a>
     <span>
                         &nbsp;: int            </span>
 </dt>
-<dd></dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -property -private">
     <a href="classes/Smr-ShipType.html#property_baseManeuverability">$baseManeuverability</a>
     <span>
                         &nbsp;: int            </span>
 </dt>
-<dd></dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -property -private">
     <a href="classes/Smr-ShipType.html#property_CACHE_SHIP_TYPES">$CACHE_SHIP_TYPES</a>
     <span>
-                        &nbsp;: array&lt;string|int, mixed&gt;            </span>
+                        &nbsp;: array&lt;int, self&gt;            </span>
 </dt>
-<dd></dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -property -private">
     <a href="classes/Smr-ShipType.html#property_class">$class</a>
     <span>
                         &nbsp;: <a href="classes/Smr-ShipClass.html"><abbr title="\Smr\ShipClass">ShipClass</abbr></a>            </span>
 </dt>
-<dd></dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -property -private">
     <a href="classes/Smr-ShipType.html#property_cost">$cost</a>
     <span>
                         &nbsp;: int            </span>
 </dt>
-<dd></dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -property -private">
     <a href="classes/Smr-ShipType.html#property_hardpoints">$hardpoints</a>
     <span>
                         &nbsp;: int            </span>
 </dt>
-<dd></dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -property -private">
     <a href="classes/Smr-ShipType.html#property_maxHardware">$maxHardware</a>
     <span>
-                        &nbsp;: array&lt;string|int, mixed&gt;            </span>
+                        &nbsp;: array&lt;int, int&gt;            </span>
 </dt>
-<dd></dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -property -private">
     <a href="classes/Smr-ShipType.html#property_maxPower">$maxPower</a>
     <span>
                         &nbsp;: int            </span>
 </dt>
-<dd></dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -property -private">
     <a href="classes/Smr-ShipType.html#property_name">$name</a>
     <span>
                         &nbsp;: string            </span>
 </dt>
-<dd></dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -property -private">
     <a href="classes/Smr-ShipType.html#property_restriction">$restriction</a>
     <span>
                         &nbsp;: <a href="classes/Smr-BuyerRestriction.html"><abbr title="\Smr\BuyerRestriction">BuyerRestriction</abbr></a>            </span>
 </dt>
-<dd></dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -property -private">
     <a href="classes/Smr-ShipType.html#property_speed">$speed</a>
     <span>
                         &nbsp;: int            </span>
 </dt>
-<dd></dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -property -private">
     <a href="classes/Smr-ShipType.html#property_typeID">$typeID</a>
     <span>
                         &nbsp;: int            </span>
 </dt>
-<dd></dd>
 
-                <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    </dl>
+
+<h4 id="toc-methods">
+    Methods
+    <a href="classes/Smr-ShipType.html#toc-methods" class="headerlink"><i class="fas fa-link"></i></a>
+
+</h4>
+<dl class="phpdocumentor-table-of-contents">
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
     <a href="classes/Smr-ShipType.html#method_canHaveCloak">canHaveCloak()</a>
     <span>
                                 &nbsp;: bool    </span>
 </dt>
-<dd></dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
     <a href="classes/Smr-ShipType.html#method_canHaveDCS">canHaveDCS()</a>
     <span>
                                 &nbsp;: bool    </span>
 </dt>
-<dd></dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
     <a href="classes/Smr-ShipType.html#method_canHaveIllusion">canHaveIllusion()</a>
     <span>
                                 &nbsp;: bool    </span>
 </dt>
-<dd></dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
     <a href="classes/Smr-ShipType.html#method_canHaveJump">canHaveJump()</a>
     <span>
                                 &nbsp;: bool    </span>
 </dt>
-<dd></dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
     <a href="classes/Smr-ShipType.html#method_canHaveScanner">canHaveScanner()</a>
     <span>
                                 &nbsp;: bool    </span>
 </dt>
-<dd></dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
     <a href="classes/Smr-ShipType.html#method_clearCache">clearCache()</a>
     <span>
                                 &nbsp;: void    </span>
 </dt>
-<dd></dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
     <a href="classes/Smr-ShipType.html#method_get">get()</a>
     <span>
                                 &nbsp;: self    </span>
 </dt>
-<dd></dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
     <a href="classes/Smr-ShipType.html#method_getAll">getAll()</a>
     <span>
                                 &nbsp;: array&lt;int, self&gt;    </span>
 </dt>
-<dd></dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
     <a href="classes/Smr-ShipType.html#method_getAllMaxHardware">getAllMaxHardware()</a>
     <span>
                                 &nbsp;: array&lt;int, int&gt;    </span>
 </dt>
-<dd></dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
     <a href="classes/Smr-ShipType.html#method_getBaseManeuverability">getBaseManeuverability()</a>
     <span>
                                 &nbsp;: int    </span>
 </dt>
-<dd></dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
     <a href="classes/Smr-ShipType.html#method_getClass">getClass()</a>
     <span>
                                 &nbsp;: <a href="classes/Smr-ShipClass.html"><abbr title="\Smr\ShipClass">ShipClass</abbr></a>    </span>
 </dt>
-<dd></dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
     <a href="classes/Smr-ShipType.html#method_getCost">getCost()</a>
     <span>
                                 &nbsp;: int    </span>
 </dt>
-<dd></dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
     <a href="classes/Smr-ShipType.html#method_getHardpoints">getHardpoints()</a>
     <span>
                                 &nbsp;: int    </span>
 </dt>
-<dd></dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
     <a href="classes/Smr-ShipType.html#method_getMaxHardware">getMaxHardware()</a>
     <span>
                                 &nbsp;: int    </span>
 </dt>
-<dd></dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
     <a href="classes/Smr-ShipType.html#method_getMaxPower">getMaxPower()</a>
@@ -375,28 +376,24 @@
     <span>
                                 &nbsp;: string    </span>
 </dt>
-<dd></dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
     <a href="classes/Smr-Traits-RaceID.html#method_getRaceID">getRaceID()</a>
     <span>
                                 &nbsp;: int    </span>
 </dt>
-<dd></dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
     <a href="classes/Smr-Traits-RaceID.html#method_getRaceName">getRaceName()</a>
     <span>
                                 &nbsp;: string    </span>
 </dt>
-<dd></dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
     <a href="classes/Smr-ShipType.html#method_getRestriction">getRestriction()</a>
     <span>
                                 &nbsp;: <a href="classes/Smr-BuyerRestriction.html"><abbr title="\Smr\BuyerRestriction">BuyerRestriction</abbr></a>    </span>
 </dt>
-<dd></dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
     <a href="classes/Smr-ShipType.html#method_getSpeed">getSpeed()</a>
@@ -410,16 +407,15 @@
     <span>
                                 &nbsp;: int    </span>
 </dt>
-<dd></dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -protected">
     <a href="classes/Smr-ShipType.html#method___construct">__construct()</a>
     <span>
                                 &nbsp;: mixed    </span>
 </dt>
-<dd></dd>
 
-        </dl>
+    </dl>
+
 
 
 
@@ -430,6 +426,7 @@
         <h3 class="phpdocumentor-elements__header" id="properties">
             Properties
             <a href="classes/Smr-ShipType.html#properties" class="headerlink"><i class="fas fa-link"></i></a>
+
         </h3>
                     <article
         class="
@@ -441,6 +438,7 @@
     <h4 class="phpdocumentor-element__name" id="property_raceID">
         $raceID
         <a href="classes/Smr-Traits-RaceID.html#property_raceID" class="headerlink"><i class="fas fa-link"></i></a>
+
         <span class="phpdocumentor-element__modifiers">
                                 </span>
     </h4>
@@ -449,6 +447,7 @@
     :
     <span class="phpdocumentor-element-found-in__line">12</span>
 
+            <a href="classes/Smr-ShipType.html#source-view.12" class="phpdocumentor-element-found-in__source" data-line="12" data-modal="source-view" data-src="files/src/lib/Smr/Traits/RaceID.php.txt"></a>
     </aside>
 
     
@@ -458,10 +457,8 @@
     <span class="phpdocumentor-signature__name">$raceID</span>
     </code>
 
-        <section class="phpdocumentor-description"></section>
-
-        <section class="phpdocumentor-description"></section>
-
+    
+    
     
 
 </article>
@@ -475,6 +472,7 @@
     <h4 class="phpdocumentor-element__name" id="property_baseManeuverability">
         $baseManeuverability
         <a href="classes/Smr-ShipType.html#property_baseManeuverability" class="headerlink"><i class="fas fa-link"></i></a>
+
         <span class="phpdocumentor-element__modifiers">
                         <small class="phpdocumentor-element__modifier">read-only</small>        </span>
     </h4>
@@ -483,6 +481,7 @@
     :
     <span class="phpdocumentor-element-found-in__line">29</span>
 
+            <a href="classes/Smr-ShipType.html#source-view.29" class="phpdocumentor-element-found-in__source" data-line="29" data-modal="source-view" data-src="files/src/lib/Smr/ShipType.php.txt"></a>
     </aside>
 
     
@@ -492,10 +491,8 @@
     <span class="phpdocumentor-signature__name">$baseManeuverability</span>
     </code>
 
-        <section class="phpdocumentor-description"></section>
-
-        <section class="phpdocumentor-description"></section>
-
+    
+    
     
 
 </article>
@@ -509,6 +506,7 @@
     <h4 class="phpdocumentor-element__name" id="property_CACHE_SHIP_TYPES">
         $CACHE_SHIP_TYPES
         <a href="classes/Smr-ShipType.html#property_CACHE_SHIP_TYPES" class="headerlink"><i class="fas fa-link"></i></a>
+
         <span class="phpdocumentor-element__modifiers">
                                 </span>
     </h4>
@@ -517,12 +515,13 @@
     :
     <span class="phpdocumentor-element-found-in__line">16</span>
 
+            <a href="classes/Smr-ShipType.html#source-view.16" class="phpdocumentor-element-found-in__source" data-line="16" data-modal="source-view" data-src="files/src/lib/Smr/ShipType.php.txt"></a>
     </aside>
 
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">private</span>
-    <span class="phpdocumentor-signature__static">static</span>    <span class="phpdocumentor-signature__type">array&lt;string|int, mixed&gt;</span>
+    <span class="phpdocumentor-signature__static">static</span>    <span class="phpdocumentor-signature__type">array&lt;int, self&gt;</span>
     <span class="phpdocumentor-signature__name">$CACHE_SHIP_TYPES</span>
      = <span class="phpdocumentor-signature__default-value">[]</span></code>
 
@@ -541,6 +540,7 @@
     <h4 class="phpdocumentor-element__name" id="property_class">
         $class
         <a href="classes/Smr-ShipType.html#property_class" class="headerlink"><i class="fas fa-link"></i></a>
+
         <span class="phpdocumentor-element__modifiers">
                         <small class="phpdocumentor-element__modifier">read-only</small>        </span>
     </h4>
@@ -549,6 +549,7 @@
     :
     <span class="phpdocumentor-element-found-in__line">20</span>
 
+            <a href="classes/Smr-ShipType.html#source-view.20" class="phpdocumentor-element-found-in__source" data-line="20" data-modal="source-view" data-src="files/src/lib/Smr/ShipType.php.txt"></a>
     </aside>
 
     
@@ -558,10 +559,8 @@
     <span class="phpdocumentor-signature__name">$class</span>
     </code>
 
-        <section class="phpdocumentor-description"></section>
-
-        <section class="phpdocumentor-description"></section>
-
+    
+    
     
 
 </article>
@@ -575,6 +574,7 @@
     <h4 class="phpdocumentor-element__name" id="property_cost">
         $cost
         <a href="classes/Smr-ShipType.html#property_cost" class="headerlink"><i class="fas fa-link"></i></a>
+
         <span class="phpdocumentor-element__modifiers">
                         <small class="phpdocumentor-element__modifier">read-only</small>        </span>
     </h4>
@@ -583,6 +583,7 @@
     :
     <span class="phpdocumentor-element-found-in__line">23</span>
 
+            <a href="classes/Smr-ShipType.html#source-view.23" class="phpdocumentor-element-found-in__source" data-line="23" data-modal="source-view" data-src="files/src/lib/Smr/ShipType.php.txt"></a>
     </aside>
 
     
@@ -592,10 +593,8 @@
     <span class="phpdocumentor-signature__name">$cost</span>
     </code>
 
-        <section class="phpdocumentor-description"></section>
-
-        <section class="phpdocumentor-description"></section>
-
+    
+    
     
 
 </article>
@@ -609,6 +608,7 @@
     <h4 class="phpdocumentor-element__name" id="property_hardpoints">
         $hardpoints
         <a href="classes/Smr-ShipType.html#property_hardpoints" class="headerlink"><i class="fas fa-link"></i></a>
+
         <span class="phpdocumentor-element__modifiers">
                         <small class="phpdocumentor-element__modifier">read-only</small>        </span>
     </h4>
@@ -617,6 +617,7 @@
     :
     <span class="phpdocumentor-element-found-in__line">21</span>
 
+            <a href="classes/Smr-ShipType.html#source-view.21" class="phpdocumentor-element-found-in__source" data-line="21" data-modal="source-view" data-src="files/src/lib/Smr/ShipType.php.txt"></a>
     </aside>
 
     
@@ -626,10 +627,8 @@
     <span class="phpdocumentor-signature__name">$hardpoints</span>
     </code>
 
-        <section class="phpdocumentor-description"></section>
-
-        <section class="phpdocumentor-description"></section>
-
+    
+    
     
 
 </article>
@@ -643,6 +642,7 @@
     <h4 class="phpdocumentor-element__name" id="property_maxHardware">
         $maxHardware
         <a href="classes/Smr-ShipType.html#property_maxHardware" class="headerlink"><i class="fas fa-link"></i></a>
+
         <span class="phpdocumentor-element__modifiers">
                         <small class="phpdocumentor-element__modifier">read-only</small>        </span>
     </h4>
@@ -651,12 +651,13 @@
     :
     <span class="phpdocumentor-element-found-in__line">28</span>
 
+            <a href="classes/Smr-ShipType.html#source-view.28" class="phpdocumentor-element-found-in__source" data-line="28" data-modal="source-view" data-src="files/src/lib/Smr/ShipType.php.txt"></a>
     </aside>
 
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">private</span>
-        <span class="phpdocumentor-signature__type">array&lt;string|int, mixed&gt;</span>
+        <span class="phpdocumentor-signature__type">array&lt;int, int&gt;</span>
     <span class="phpdocumentor-signature__name">$maxHardware</span>
     </code>
 
@@ -675,6 +676,7 @@
     <h4 class="phpdocumentor-element__name" id="property_maxPower">
         $maxPower
         <a href="classes/Smr-ShipType.html#property_maxPower" class="headerlink"><i class="fas fa-link"></i></a>
+
         <span class="phpdocumentor-element__modifiers">
                         <small class="phpdocumentor-element__modifier">read-only</small>        </span>
     </h4>
@@ -683,6 +685,7 @@
     :
     <span class="phpdocumentor-element-found-in__line">26</span>
 
+            <a href="classes/Smr-ShipType.html#source-view.26" class="phpdocumentor-element-found-in__source" data-line="26" data-modal="source-view" data-src="files/src/lib/Smr/ShipType.php.txt"></a>
     </aside>
 
     
@@ -692,10 +695,8 @@
     <span class="phpdocumentor-signature__name">$maxPower</span>
     </code>
 
-        <section class="phpdocumentor-description"></section>
-
-        <section class="phpdocumentor-description"></section>
-
+    
+    
     
 
 </article>
@@ -709,6 +710,7 @@
     <h4 class="phpdocumentor-element__name" id="property_name">
         $name
         <a href="classes/Smr-ShipType.html#property_name" class="headerlink"><i class="fas fa-link"></i></a>
+
         <span class="phpdocumentor-element__modifiers">
                         <small class="phpdocumentor-element__modifier">read-only</small>        </span>
     </h4>
@@ -717,6 +719,7 @@
     :
     <span class="phpdocumentor-element-found-in__line">18</span>
 
+            <a href="classes/Smr-ShipType.html#source-view.18" class="phpdocumentor-element-found-in__source" data-line="18" data-modal="source-view" data-src="files/src/lib/Smr/ShipType.php.txt"></a>
     </aside>
 
     
@@ -726,10 +729,8 @@
     <span class="phpdocumentor-signature__name">$name</span>
     </code>
 
-        <section class="phpdocumentor-description"></section>
-
-        <section class="phpdocumentor-description"></section>
-
+    
+    
     
 
 </article>
@@ -743,6 +744,7 @@
     <h4 class="phpdocumentor-element__name" id="property_restriction">
         $restriction
         <a href="classes/Smr-ShipType.html#property_restriction" class="headerlink"><i class="fas fa-link"></i></a>
+
         <span class="phpdocumentor-element__modifiers">
                         <small class="phpdocumentor-element__modifier">read-only</small>        </span>
     </h4>
@@ -751,6 +753,7 @@
     :
     <span class="phpdocumentor-element-found-in__line">24</span>
 
+            <a href="classes/Smr-ShipType.html#source-view.24" class="phpdocumentor-element-found-in__source" data-line="24" data-modal="source-view" data-src="files/src/lib/Smr/ShipType.php.txt"></a>
     </aside>
 
     
@@ -760,10 +763,8 @@
     <span class="phpdocumentor-signature__name">$restriction</span>
     </code>
 
-        <section class="phpdocumentor-description"></section>
-
-        <section class="phpdocumentor-description"></section>
-
+    
+    
     
 
 </article>
@@ -777,6 +778,7 @@
     <h4 class="phpdocumentor-element__name" id="property_speed">
         $speed
         <a href="classes/Smr-ShipType.html#property_speed" class="headerlink"><i class="fas fa-link"></i></a>
+
         <span class="phpdocumentor-element__modifiers">
                         <small class="phpdocumentor-element__modifier">read-only</small>        </span>
     </h4>
@@ -785,6 +787,7 @@
     :
     <span class="phpdocumentor-element-found-in__line">22</span>
 
+            <a href="classes/Smr-ShipType.html#source-view.22" class="phpdocumentor-element-found-in__source" data-line="22" data-modal="source-view" data-src="files/src/lib/Smr/ShipType.php.txt"></a>
     </aside>
 
     
@@ -794,10 +797,8 @@
     <span class="phpdocumentor-signature__name">$speed</span>
     </code>
 
-        <section class="phpdocumentor-description"></section>
-
-        <section class="phpdocumentor-description"></section>
-
+    
+    
     
 
 </article>
@@ -811,6 +812,7 @@
     <h4 class="phpdocumentor-element__name" id="property_typeID">
         $typeID
         <a href="classes/Smr-ShipType.html#property_typeID" class="headerlink"><i class="fas fa-link"></i></a>
+
         <span class="phpdocumentor-element__modifiers">
                         <small class="phpdocumentor-element__modifier">read-only</small>        </span>
     </h4>
@@ -819,6 +821,7 @@
     :
     <span class="phpdocumentor-element-found-in__line">19</span>
 
+            <a href="classes/Smr-ShipType.html#source-view.19" class="phpdocumentor-element-found-in__source" data-line="19" data-modal="source-view" data-src="files/src/lib/Smr/ShipType.php.txt"></a>
     </aside>
 
     
@@ -828,10 +831,8 @@
     <span class="phpdocumentor-signature__name">$typeID</span>
     </code>
 
-        <section class="phpdocumentor-description"></section>
-
-        <section class="phpdocumentor-description"></section>
-
+    
+    
     
 
 </article>
@@ -841,6 +842,7 @@
         <h3 class="phpdocumentor-elements__header" id="methods">
             Methods
             <a href="classes/Smr-ShipType.html#methods" class="headerlink"><i class="fas fa-link"></i></a>
+
         </h3>
                     <article
         class="phpdocumentor-element
@@ -851,29 +853,32 @@
     <h4 class="phpdocumentor-element__name" id="method_canHaveCloak">
         canHaveCloak()
         <a href="classes/Smr-ShipType.html#method_canHaveCloak" class="headerlink"><i class="fas fa-link"></i></a>
+
     </h4>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/ShipType.php"><a href="files/src-lib-smr-shiptype.html"><abbr title="src/lib/Smr/ShipType.php">ShipType.php</abbr></a></abbr>
     :
     <span class="phpdocumentor-element-found-in__line">187</span>
 
+            <a href="classes/Smr-ShipType.html#source-view.187" class="phpdocumentor-element-found-in__source" data-line="187" data-modal="source-view" data-src="files/src/lib/Smr/ShipType.php.txt"></a>
     </aside>
 
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">public</span>
-                <span class="phpdocumentor-signature__name">canHaveCloak</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">bool</span></code>
+                    <span class="phpdocumentor-signature__name">canHaveCloak</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">bool</span></code>
 
-        <section class="phpdocumentor-description"></section>
-
+    <div class="phpdocumentor-label-line">
+        </div>
     
     
+    
 
+            <section>
         <h5 class="phpdocumentor-return-value__heading">Return values</h5>
-    <span class="phpdocumentor-signature__response_type">bool</span>
-            &mdash;
-        
-    
+        <span class="phpdocumentor-signature__response_type">bool</span>
+            </section>
+
 </article>
                     <article
         class="phpdocumentor-element
@@ -884,29 +889,32 @@
     <h4 class="phpdocumentor-element__name" id="method_canHaveDCS">
         canHaveDCS()
         <a href="classes/Smr-ShipType.html#method_canHaveDCS" class="headerlink"><i class="fas fa-link"></i></a>
+
     </h4>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/ShipType.php"><a href="files/src-lib-smr-shiptype.html"><abbr title="src/lib/Smr/ShipType.php">ShipType.php</abbr></a></abbr>
     :
     <span class="phpdocumentor-element-found-in__line">179</span>
 
+            <a href="classes/Smr-ShipType.html#source-view.179" class="phpdocumentor-element-found-in__source" data-line="179" data-modal="source-view" data-src="files/src/lib/Smr/ShipType.php.txt"></a>
     </aside>
 
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">public</span>
-                <span class="phpdocumentor-signature__name">canHaveDCS</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">bool</span></code>
+                    <span class="phpdocumentor-signature__name">canHaveDCS</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">bool</span></code>
 
-        <section class="phpdocumentor-description"></section>
-
+    <div class="phpdocumentor-label-line">
+        </div>
     
     
+    
 
+            <section>
         <h5 class="phpdocumentor-return-value__heading">Return values</h5>
-    <span class="phpdocumentor-signature__response_type">bool</span>
-            &mdash;
-        
-    
+        <span class="phpdocumentor-signature__response_type">bool</span>
+            </section>
+
 </article>
                     <article
         class="phpdocumentor-element
@@ -917,29 +925,32 @@
     <h4 class="phpdocumentor-element__name" id="method_canHaveIllusion">
         canHaveIllusion()
         <a href="classes/Smr-ShipType.html#method_canHaveIllusion" class="headerlink"><i class="fas fa-link"></i></a>
+
     </h4>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/ShipType.php"><a href="files/src-lib-smr-shiptype.html"><abbr title="src/lib/Smr/ShipType.php">ShipType.php</abbr></a></abbr>
     :
     <span class="phpdocumentor-element-found-in__line">191</span>
 
+            <a href="classes/Smr-ShipType.html#source-view.191" class="phpdocumentor-element-found-in__source" data-line="191" data-modal="source-view" data-src="files/src/lib/Smr/ShipType.php.txt"></a>
     </aside>
 
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">public</span>
-                <span class="phpdocumentor-signature__name">canHaveIllusion</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">bool</span></code>
+                    <span class="phpdocumentor-signature__name">canHaveIllusion</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">bool</span></code>
 
-        <section class="phpdocumentor-description"></section>
-
+    <div class="phpdocumentor-label-line">
+        </div>
     
     
+    
 
+            <section>
         <h5 class="phpdocumentor-return-value__heading">Return values</h5>
-    <span class="phpdocumentor-signature__response_type">bool</span>
-            &mdash;
-        
-    
+        <span class="phpdocumentor-signature__response_type">bool</span>
+            </section>
+
 </article>
                     <article
         class="phpdocumentor-element
@@ -950,29 +961,32 @@
     <h4 class="phpdocumentor-element__name" id="method_canHaveJump">
         canHaveJump()
         <a href="classes/Smr-ShipType.html#method_canHaveJump" class="headerlink"><i class="fas fa-link"></i></a>
+
     </h4>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/ShipType.php"><a href="files/src-lib-smr-shiptype.html"><abbr title="src/lib/Smr/ShipType.php">ShipType.php</abbr></a></abbr>
     :
     <span class="phpdocumentor-element-found-in__line">175</span>
 
+            <a href="classes/Smr-ShipType.html#source-view.175" class="phpdocumentor-element-found-in__source" data-line="175" data-modal="source-view" data-src="files/src/lib/Smr/ShipType.php.txt"></a>
     </aside>
 
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">public</span>
-                <span class="phpdocumentor-signature__name">canHaveJump</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">bool</span></code>
+                    <span class="phpdocumentor-signature__name">canHaveJump</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">bool</span></code>
 
-        <section class="phpdocumentor-description"></section>
-
+    <div class="phpdocumentor-label-line">
+        </div>
     
     
+    
 
+            <section>
         <h5 class="phpdocumentor-return-value__heading">Return values</h5>
-    <span class="phpdocumentor-signature__response_type">bool</span>
-            &mdash;
-        
-    
+        <span class="phpdocumentor-signature__response_type">bool</span>
+            </section>
+
 </article>
                     <article
         class="phpdocumentor-element
@@ -983,29 +997,32 @@
     <h4 class="phpdocumentor-element__name" id="method_canHaveScanner">
         canHaveScanner()
         <a href="classes/Smr-ShipType.html#method_canHaveScanner" class="headerlink"><i class="fas fa-link"></i></a>
+
     </h4>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/ShipType.php"><a href="files/src-lib-smr-shiptype.html"><abbr title="src/lib/Smr/ShipType.php">ShipType.php</abbr></a></abbr>
     :
     <span class="phpdocumentor-element-found-in__line">183</span>
 
+            <a href="classes/Smr-ShipType.html#source-view.183" class="phpdocumentor-element-found-in__source" data-line="183" data-modal="source-view" data-src="files/src/lib/Smr/ShipType.php.txt"></a>
     </aside>
 
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">public</span>
-                <span class="phpdocumentor-signature__name">canHaveScanner</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">bool</span></code>
+                    <span class="phpdocumentor-signature__name">canHaveScanner</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">bool</span></code>
 
-        <section class="phpdocumentor-description"></section>
-
+    <div class="phpdocumentor-label-line">
+        </div>
     
     
+    
 
+            <section>
         <h5 class="phpdocumentor-return-value__heading">Return values</h5>
-    <span class="phpdocumentor-signature__response_type">bool</span>
-            &mdash;
-        
-    
+        <span class="phpdocumentor-signature__response_type">bool</span>
+            </section>
+
 </article>
                     <article
         class="phpdocumentor-element
@@ -1016,28 +1033,27 @@
     <h4 class="phpdocumentor-element__name" id="method_clearCache">
         clearCache()
         <a href="classes/Smr-ShipType.html#method_clearCache" class="headerlink"><i class="fas fa-link"></i></a>
+
     </h4>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/ShipType.php"><a href="files/src-lib-smr-shiptype.html"><abbr title="src/lib/Smr/ShipType.php">ShipType.php</abbr></a></abbr>
     :
     <span class="phpdocumentor-element-found-in__line">31</span>
 
+            <a href="classes/Smr-ShipType.html#source-view.31" class="phpdocumentor-element-found-in__source" data-line="31" data-modal="source-view" data-src="files/src/lib/Smr/ShipType.php.txt"></a>
     </aside>
 
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">public</span>
-            <span class="phpdocumentor-signature__static">static</span>    <span class="phpdocumentor-signature__name">clearCache</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">void</span></code>
+            <span class="phpdocumentor-signature__static">static</span>        <span class="phpdocumentor-signature__name">clearCache</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">void</span></code>
 
-        <section class="phpdocumentor-description"></section>
-
+    <div class="phpdocumentor-label-line">
+        </div>
     
     
+    
 
-        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
-    <span class="phpdocumentor-signature__response_type">void</span>
-            &mdash;
-        
     
 </article>
                     <article
@@ -1049,21 +1065,24 @@
     <h4 class="phpdocumentor-element__name" id="method_get">
         get()
         <a href="classes/Smr-ShipType.html#method_get" class="headerlink"><i class="fas fa-link"></i></a>
+
     </h4>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/ShipType.php"><a href="files/src-lib-smr-shiptype.html"><abbr title="src/lib/Smr/ShipType.php">ShipType.php</abbr></a></abbr>
     :
     <span class="phpdocumentor-element-found-in__line">35</span>
 
+            <a href="classes/Smr-ShipType.html#source-view.35" class="phpdocumentor-element-found-in__source" data-line="35" data-modal="source-view" data-src="files/src/lib/Smr/ShipType.php.txt"></a>
     </aside>
 
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">public</span>
-            <span class="phpdocumentor-signature__static">static</span>    <span class="phpdocumentor-signature__name">get</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type">int&nbsp;</span><span class="phpdocumentor-signature__argument__name">$shipTypeID</span></span><span class="phpdocumentor-signature__argument"><span>[</span><span>, </span><span class="phpdocumentor-signature__argument__return-type"><a href="classes/Smr-DatabaseRecord.html"><abbr title="\Smr\DatabaseRecord">DatabaseRecord</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$dbRecord</span><span> = </span><span class="phpdocumentor-signature__argument__default-value">null</span><span> ]</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">self</span></code>
+            <span class="phpdocumentor-signature__static">static</span>        <span class="phpdocumentor-signature__name">get</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type">int&nbsp;</span><span class="phpdocumentor-signature__argument__name">$shipTypeID</span></span><span class="phpdocumentor-signature__argument"><span>[</span><span>, </span><span class="phpdocumentor-signature__argument__return-type"><a href="classes/Smr-DatabaseRecord.html"><abbr title="\Smr\DatabaseRecord">DatabaseRecord</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$dbRecord</span><span> = </span><span class="phpdocumentor-signature__argument__default-value">null</span><span> ]</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">self</span></code>
 
-        <section class="phpdocumentor-description"></section>
-
+    <div class="phpdocumentor-label-line">
+        </div>
+    
         <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
     <dl class="phpdocumentor-argument-list">
                     <dt class="phpdocumentor-argument-list__entry">
@@ -1071,26 +1090,24 @@
                 : <span class="phpdocumentor-signature__argument__return-type">int</span>
                             </dt>
             <dd class="phpdocumentor-argument-list__definition">
-                    <section class="phpdocumentor-description"></section>
-
+                
             </dd>
                     <dt class="phpdocumentor-argument-list__entry">
                 <span class="phpdocumentor-signature__argument__name">$dbRecord</span>
                 : <span class="phpdocumentor-signature__argument__return-type"><a href="classes/Smr-DatabaseRecord.html"><abbr title="\Smr\DatabaseRecord">DatabaseRecord</abbr></a></span>
                  = <span class="phpdocumentor-signature__argument__default-value">null</span>            </dt>
             <dd class="phpdocumentor-argument-list__definition">
-                    <section class="phpdocumentor-description"></section>
-
+                
             </dd>
             </dl>
 
     
 
+            <section>
         <h5 class="phpdocumentor-return-value__heading">Return values</h5>
-    <span class="phpdocumentor-signature__response_type">self</span>
-            &mdash;
-        
-    
+        <span class="phpdocumentor-signature__response_type">self</span>
+            </section>
+
 </article>
                     <article
         class="phpdocumentor-element
@@ -1101,28 +1118,32 @@
     <h4 class="phpdocumentor-element__name" id="method_getAll">
         getAll()
         <a href="classes/Smr-ShipType.html#method_getAll" class="headerlink"><i class="fas fa-link"></i></a>
+
     </h4>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/ShipType.php"><a href="files/src-lib-smr-shiptype.html"><abbr title="src/lib/Smr/ShipType.php">ShipType.php</abbr></a></abbr>
     :
     <span class="phpdocumentor-element-found-in__line">54</span>
 
+            <a href="classes/Smr-ShipType.html#source-view.54" class="phpdocumentor-element-found-in__source" data-line="54" data-modal="source-view" data-src="files/src/lib/Smr/ShipType.php.txt"></a>
     </aside>
 
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">public</span>
-            <span class="phpdocumentor-signature__static">static</span>    <span class="phpdocumentor-signature__name">getAll</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">array&lt;int, self&gt;</span></code>
+            <span class="phpdocumentor-signature__static">static</span>        <span class="phpdocumentor-signature__name">getAll</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">array&lt;int, self&gt;</span></code>
 
+    <div class="phpdocumentor-label-line">
+        </div>
     
     
     
 
+            <section>
         <h5 class="phpdocumentor-return-value__heading">Return values</h5>
-    <span class="phpdocumentor-signature__response_type">array&lt;int, self&gt;</span>
-            &mdash;
-        
-    
+        <span class="phpdocumentor-signature__response_type">array&lt;int, self&gt;</span>
+            </section>
+
 </article>
                     <article
         class="phpdocumentor-element
@@ -1133,28 +1154,32 @@
     <h4 class="phpdocumentor-element__name" id="method_getAllMaxHardware">
         getAllMaxHardware()
         <a href="classes/Smr-ShipType.html#method_getAllMaxHardware" class="headerlink"><i class="fas fa-link"></i></a>
+
     </h4>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/ShipType.php"><a href="files/src-lib-smr-shiptype.html"><abbr title="src/lib/Smr/ShipType.php">ShipType.php</abbr></a></abbr>
     :
     <span class="phpdocumentor-element-found-in__line">171</span>
 
+            <a href="classes/Smr-ShipType.html#source-view.171" class="phpdocumentor-element-found-in__source" data-line="171" data-modal="source-view" data-src="files/src/lib/Smr/ShipType.php.txt"></a>
     </aside>
 
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">public</span>
-                <span class="phpdocumentor-signature__name">getAllMaxHardware</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">array&lt;int, int&gt;</span></code>
+                    <span class="phpdocumentor-signature__name">getAllMaxHardware</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">array&lt;int, int&gt;</span></code>
 
+    <div class="phpdocumentor-label-line">
+        </div>
     
     
     
 
+            <section>
         <h5 class="phpdocumentor-return-value__heading">Return values</h5>
-    <span class="phpdocumentor-signature__response_type">array&lt;int, int&gt;</span>
-            &mdash;
-        
-    
+        <span class="phpdocumentor-signature__response_type">array&lt;int, int&gt;</span>
+            </section>
+
 </article>
                     <article
         class="phpdocumentor-element
@@ -1165,29 +1190,32 @@
     <h4 class="phpdocumentor-element__name" id="method_getBaseManeuverability">
         getBaseManeuverability()
         <a href="classes/Smr-ShipType.html#method_getBaseManeuverability" class="headerlink"><i class="fas fa-link"></i></a>
+
     </h4>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/ShipType.php"><a href="files/src-lib-smr-shiptype.html"><abbr title="src/lib/Smr/ShipType.php">ShipType.php</abbr></a></abbr>
     :
     <span class="phpdocumentor-element-found-in__line">153</span>
 
+            <a href="classes/Smr-ShipType.html#source-view.153" class="phpdocumentor-element-found-in__source" data-line="153" data-modal="source-view" data-src="files/src/lib/Smr/ShipType.php.txt"></a>
     </aside>
 
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">public</span>
-                <span class="phpdocumentor-signature__name">getBaseManeuverability</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">int</span></code>
+                    <span class="phpdocumentor-signature__name">getBaseManeuverability</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">int</span></code>
 
-        <section class="phpdocumentor-description"></section>
-
+    <div class="phpdocumentor-label-line">
+        </div>
     
     
+    
 
+            <section>
         <h5 class="phpdocumentor-return-value__heading">Return values</h5>
-    <span class="phpdocumentor-signature__response_type">int</span>
-            &mdash;
-        
-    
+        <span class="phpdocumentor-signature__response_type">int</span>
+            </section>
+
 </article>
                     <article
         class="phpdocumentor-element
@@ -1198,29 +1226,32 @@
     <h4 class="phpdocumentor-element__name" id="method_getClass">
         getClass()
         <a href="classes/Smr-ShipType.html#method_getClass" class="headerlink"><i class="fas fa-link"></i></a>
+
     </h4>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/ShipType.php"><a href="files/src-lib-smr-shiptype.html"><abbr title="src/lib/Smr/ShipType.php">ShipType.php</abbr></a></abbr>
     :
     <span class="phpdocumentor-element-found-in__line">126</span>
 
+            <a href="classes/Smr-ShipType.html#source-view.126" class="phpdocumentor-element-found-in__source" data-line="126" data-modal="source-view" data-src="files/src/lib/Smr/ShipType.php.txt"></a>
     </aside>
 
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">public</span>
-                <span class="phpdocumentor-signature__name">getClass</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type"><a href="classes/Smr-ShipClass.html"><abbr title="\Smr\ShipClass">ShipClass</abbr></a></span></code>
+                    <span class="phpdocumentor-signature__name">getClass</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type"><a href="classes/Smr-ShipClass.html"><abbr title="\Smr\ShipClass">ShipClass</abbr></a></span></code>
 
-        <section class="phpdocumentor-description"></section>
-
+    <div class="phpdocumentor-label-line">
+        </div>
     
     
+    
 
+            <section>
         <h5 class="phpdocumentor-return-value__heading">Return values</h5>
-    <span class="phpdocumentor-signature__response_type"><a href="classes/Smr-ShipClass.html"><abbr title="\Smr\ShipClass">ShipClass</abbr></a></span>
-            &mdash;
-        
-    
+        <span class="phpdocumentor-signature__response_type"><a href="classes/Smr-ShipClass.html"><abbr title="\Smr\ShipClass">ShipClass</abbr></a></span>
+            </section>
+
 </article>
                     <article
         class="phpdocumentor-element
@@ -1231,29 +1262,32 @@
     <h4 class="phpdocumentor-element__name" id="method_getCost">
         getCost()
         <a href="classes/Smr-ShipType.html#method_getCost" class="headerlink"><i class="fas fa-link"></i></a>
+
     </h4>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/ShipType.php"><a href="files/src-lib-smr-shiptype.html"><abbr title="src/lib/Smr/ShipType.php">ShipType.php</abbr></a></abbr>
     :
     <span class="phpdocumentor-element-found-in__line">134</span>
 
+            <a href="classes/Smr-ShipType.html#source-view.134" class="phpdocumentor-element-found-in__source" data-line="134" data-modal="source-view" data-src="files/src/lib/Smr/ShipType.php.txt"></a>
     </aside>
 
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">public</span>
-                <span class="phpdocumentor-signature__name">getCost</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">int</span></code>
+                    <span class="phpdocumentor-signature__name">getCost</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">int</span></code>
 
-        <section class="phpdocumentor-description"></section>
-
+    <div class="phpdocumentor-label-line">
+        </div>
     
     
+    
 
+            <section>
         <h5 class="phpdocumentor-return-value__heading">Return values</h5>
-    <span class="phpdocumentor-signature__response_type">int</span>
-            &mdash;
-        
-    
+        <span class="phpdocumentor-signature__response_type">int</span>
+            </section>
+
 </article>
                     <article
         class="phpdocumentor-element
@@ -1264,29 +1298,32 @@
     <h4 class="phpdocumentor-element__name" id="method_getHardpoints">
         getHardpoints()
         <a href="classes/Smr-ShipType.html#method_getHardpoints" class="headerlink"><i class="fas fa-link"></i></a>
+
     </h4>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/ShipType.php"><a href="files/src-lib-smr-shiptype.html"><abbr title="src/lib/Smr/ShipType.php">ShipType.php</abbr></a></abbr>
     :
     <span class="phpdocumentor-element-found-in__line">149</span>
 
+            <a href="classes/Smr-ShipType.html#source-view.149" class="phpdocumentor-element-found-in__source" data-line="149" data-modal="source-view" data-src="files/src/lib/Smr/ShipType.php.txt"></a>
     </aside>
 
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">public</span>
-                <span class="phpdocumentor-signature__name">getHardpoints</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">int</span></code>
+                    <span class="phpdocumentor-signature__name">getHardpoints</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">int</span></code>
 
-        <section class="phpdocumentor-description"></section>
-
+    <div class="phpdocumentor-label-line">
+        </div>
     
     
+    
 
+            <section>
         <h5 class="phpdocumentor-return-value__heading">Return values</h5>
-    <span class="phpdocumentor-signature__response_type">int</span>
-            &mdash;
-        
-    
+        <span class="phpdocumentor-signature__response_type">int</span>
+            </section>
+
 </article>
                     <article
         class="phpdocumentor-element
@@ -1297,21 +1334,24 @@
     <h4 class="phpdocumentor-element__name" id="method_getMaxHardware">
         getMaxHardware()
         <a href="classes/Smr-ShipType.html#method_getMaxHardware" class="headerlink"><i class="fas fa-link"></i></a>
+
     </h4>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/ShipType.php"><a href="files/src-lib-smr-shiptype.html"><abbr title="src/lib/Smr/ShipType.php">ShipType.php</abbr></a></abbr>
     :
     <span class="phpdocumentor-element-found-in__line">164</span>
 
+            <a href="classes/Smr-ShipType.html#source-view.164" class="phpdocumentor-element-found-in__source" data-line="164" data-modal="source-view" data-src="files/src/lib/Smr/ShipType.php.txt"></a>
     </aside>
 
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">public</span>
-                <span class="phpdocumentor-signature__name">getMaxHardware</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type">int&nbsp;</span><span class="phpdocumentor-signature__argument__name">$hardwareTypeID</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">int</span></code>
+                    <span class="phpdocumentor-signature__name">getMaxHardware</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type">int&nbsp;</span><span class="phpdocumentor-signature__argument__name">$hardwareTypeID</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">int</span></code>
 
-        <section class="phpdocumentor-description"></section>
-
+    <div class="phpdocumentor-label-line">
+        </div>
+    
         <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
     <dl class="phpdocumentor-argument-list">
                     <dt class="phpdocumentor-argument-list__entry">
@@ -1319,18 +1359,17 @@
                 : <span class="phpdocumentor-signature__argument__return-type">int</span>
                             </dt>
             <dd class="phpdocumentor-argument-list__definition">
-                    <section class="phpdocumentor-description"></section>
-
+                
             </dd>
             </dl>
 
     
 
+            <section>
         <h5 class="phpdocumentor-return-value__heading">Return values</h5>
-    <span class="phpdocumentor-signature__response_type">int</span>
-            &mdash;
-        
-    
+        <span class="phpdocumentor-signature__response_type">int</span>
+            </section>
+
 </article>
                     <article
         class="phpdocumentor-element
@@ -1341,29 +1380,33 @@
     <h4 class="phpdocumentor-element__name" id="method_getMaxPower">
         getMaxPower()
         <a href="classes/Smr-ShipType.html#method_getMaxPower" class="headerlink"><i class="fas fa-link"></i></a>
+
     </h4>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/ShipType.php"><a href="files/src-lib-smr-shiptype.html"><abbr title="src/lib/Smr/ShipType.php">ShipType.php</abbr></a></abbr>
     :
     <span class="phpdocumentor-element-found-in__line">160</span>
 
+            <a href="classes/Smr-ShipType.html#source-view.160" class="phpdocumentor-element-found-in__source" data-line="160" data-modal="source-view" data-src="files/src/lib/Smr/ShipType.php.txt"></a>
     </aside>
 
         <p class="phpdocumentor-summary">Return the maximum weapon power</p>
 
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">public</span>
-                <span class="phpdocumentor-signature__name">getMaxPower</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">int</span></code>
+                    <span class="phpdocumentor-signature__name">getMaxPower</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">int</span></code>
 
+    <div class="phpdocumentor-label-line">
+        </div>
     
     
     
 
+            <section>
         <h5 class="phpdocumentor-return-value__heading">Return values</h5>
-    <span class="phpdocumentor-signature__response_type">int</span>
-            &mdash;
-        
-    
+        <span class="phpdocumentor-signature__response_type">int</span>
+            </section>
+
 </article>
                     <article
         class="phpdocumentor-element
@@ -1374,29 +1417,32 @@
     <h4 class="phpdocumentor-element__name" id="method_getName">
         getName()
         <a href="classes/Smr-ShipType.html#method_getName" class="headerlink"><i class="fas fa-link"></i></a>
+
     </h4>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/ShipType.php"><a href="files/src-lib-smr-shiptype.html"><abbr title="src/lib/Smr/ShipType.php">ShipType.php</abbr></a></abbr>
     :
     <span class="phpdocumentor-element-found-in__line">130</span>
 
+            <a href="classes/Smr-ShipType.html#source-view.130" class="phpdocumentor-element-found-in__source" data-line="130" data-modal="source-view" data-src="files/src/lib/Smr/ShipType.php.txt"></a>
     </aside>
 
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">public</span>
-                <span class="phpdocumentor-signature__name">getName</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">string</span></code>
+                    <span class="phpdocumentor-signature__name">getName</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">string</span></code>
 
-        <section class="phpdocumentor-description"></section>
-
+    <div class="phpdocumentor-label-line">
+        </div>
     
     
+    
 
+            <section>
         <h5 class="phpdocumentor-return-value__heading">Return values</h5>
-    <span class="phpdocumentor-signature__response_type">string</span>
-            &mdash;
-        
-    
+        <span class="phpdocumentor-signature__response_type">string</span>
+            </section>
+
 </article>
                     <article
         class="phpdocumentor-element
@@ -1407,29 +1453,32 @@
     <h4 class="phpdocumentor-element__name" id="method_getRaceID">
         getRaceID()
         <a href="classes/Smr-Traits-RaceID.html#method_getRaceID" class="headerlink"><i class="fas fa-link"></i></a>
+
     </h4>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Traits/RaceID.php"><a href="files/src-lib-smr-traits-raceid.html"><abbr title="src/lib/Smr/Traits/RaceID.php">RaceID.php</abbr></a></abbr>
     :
     <span class="phpdocumentor-element-found-in__line">14</span>
 
+            <a href="classes/Smr-ShipType.html#source-view.14" class="phpdocumentor-element-found-in__source" data-line="14" data-modal="source-view" data-src="files/src/lib/Smr/Traits/RaceID.php.txt"></a>
     </aside>
 
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">public</span>
-                <span class="phpdocumentor-signature__name">getRaceID</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">int</span></code>
+                    <span class="phpdocumentor-signature__name">getRaceID</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">int</span></code>
 
-        <section class="phpdocumentor-description"></section>
-
+    <div class="phpdocumentor-label-line">
+        </div>
     
     
+    
 
+            <section>
         <h5 class="phpdocumentor-return-value__heading">Return values</h5>
-    <span class="phpdocumentor-signature__response_type">int</span>
-            &mdash;
-        
-    
+        <span class="phpdocumentor-signature__response_type">int</span>
+            </section>
+
 </article>
                     <article
         class="phpdocumentor-element
@@ -1440,29 +1489,32 @@
     <h4 class="phpdocumentor-element__name" id="method_getRaceName">
         getRaceName()
         <a href="classes/Smr-Traits-RaceID.html#method_getRaceName" class="headerlink"><i class="fas fa-link"></i></a>
+
     </h4>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Traits/RaceID.php"><a href="files/src-lib-smr-traits-raceid.html"><abbr title="src/lib/Smr/Traits/RaceID.php">RaceID.php</abbr></a></abbr>
     :
     <span class="phpdocumentor-element-found-in__line">18</span>
 
+            <a href="classes/Smr-ShipType.html#source-view.18" class="phpdocumentor-element-found-in__source" data-line="18" data-modal="source-view" data-src="files/src/lib/Smr/Traits/RaceID.php.txt"></a>
     </aside>
 
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">public</span>
-                <span class="phpdocumentor-signature__name">getRaceName</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">string</span></code>
+                    <span class="phpdocumentor-signature__name">getRaceName</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">string</span></code>
 
-        <section class="phpdocumentor-description"></section>
-
+    <div class="phpdocumentor-label-line">
+        </div>
     
     
+    
 
+            <section>
         <h5 class="phpdocumentor-return-value__heading">Return values</h5>
-    <span class="phpdocumentor-signature__response_type">string</span>
-            &mdash;
-        
-    
+        <span class="phpdocumentor-signature__response_type">string</span>
+            </section>
+
 </article>
                     <article
         class="phpdocumentor-element
@@ -1473,29 +1525,32 @@
     <h4 class="phpdocumentor-element__name" id="method_getRestriction">
         getRestriction()
         <a href="classes/Smr-ShipType.html#method_getRestriction" class="headerlink"><i class="fas fa-link"></i></a>
+
     </h4>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/ShipType.php"><a href="files/src-lib-smr-shiptype.html"><abbr title="src/lib/Smr/ShipType.php">ShipType.php</abbr></a></abbr>
     :
     <span class="phpdocumentor-element-found-in__line">138</span>
 
+            <a href="classes/Smr-ShipType.html#source-view.138" class="phpdocumentor-element-found-in__source" data-line="138" data-modal="source-view" data-src="files/src/lib/Smr/ShipType.php.txt"></a>
     </aside>
 
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">public</span>
-                <span class="phpdocumentor-signature__name">getRestriction</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type"><a href="classes/Smr-BuyerRestriction.html"><abbr title="\Smr\BuyerRestriction">BuyerRestriction</abbr></a></span></code>
+                    <span class="phpdocumentor-signature__name">getRestriction</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type"><a href="classes/Smr-BuyerRestriction.html"><abbr title="\Smr\BuyerRestriction">BuyerRestriction</abbr></a></span></code>
 
-        <section class="phpdocumentor-description"></section>
-
+    <div class="phpdocumentor-label-line">
+        </div>
     
     
+    
 
+            <section>
         <h5 class="phpdocumentor-return-value__heading">Return values</h5>
-    <span class="phpdocumentor-signature__response_type"><a href="classes/Smr-BuyerRestriction.html"><abbr title="\Smr\BuyerRestriction">BuyerRestriction</abbr></a></span>
-            &mdash;
-        
-    
+        <span class="phpdocumentor-signature__response_type"><a href="classes/Smr-BuyerRestriction.html"><abbr title="\Smr\BuyerRestriction">BuyerRestriction</abbr></a></span>
+            </section>
+
 </article>
                     <article
         class="phpdocumentor-element
@@ -1506,29 +1561,33 @@
     <h4 class="phpdocumentor-element__name" id="method_getSpeed">
         getSpeed()
         <a href="classes/Smr-ShipType.html#method_getSpeed" class="headerlink"><i class="fas fa-link"></i></a>
+
     </h4>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/ShipType.php"><a href="files/src-lib-smr-shiptype.html"><abbr title="src/lib/Smr/ShipType.php">ShipType.php</abbr></a></abbr>
     :
     <span class="phpdocumentor-element-found-in__line">145</span>
 
+            <a href="classes/Smr-ShipType.html#source-view.145" class="phpdocumentor-element-found-in__source" data-line="145" data-modal="source-view" data-src="files/src/lib/Smr/ShipType.php.txt"></a>
     </aside>
 
         <p class="phpdocumentor-summary">Return the base ship speed (unmodified by the game speed)</p>
 
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">public</span>
-                <span class="phpdocumentor-signature__name">getSpeed</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">int</span></code>
+                    <span class="phpdocumentor-signature__name">getSpeed</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">int</span></code>
 
+    <div class="phpdocumentor-label-line">
+        </div>
     
     
     
 
+            <section>
         <h5 class="phpdocumentor-return-value__heading">Return values</h5>
-    <span class="phpdocumentor-signature__response_type">int</span>
-            &mdash;
-        
-    
+        <span class="phpdocumentor-signature__response_type">int</span>
+            </section>
+
 </article>
                     <article
         class="phpdocumentor-element
@@ -1539,29 +1598,32 @@
     <h4 class="phpdocumentor-element__name" id="method_getTypeID">
         getTypeID()
         <a href="classes/Smr-ShipType.html#method_getTypeID" class="headerlink"><i class="fas fa-link"></i></a>
+
     </h4>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/ShipType.php"><a href="files/src-lib-smr-shiptype.html"><abbr title="src/lib/Smr/ShipType.php">ShipType.php</abbr></a></abbr>
     :
     <span class="phpdocumentor-element-found-in__line">122</span>
 
+            <a href="classes/Smr-ShipType.html#source-view.122" class="phpdocumentor-element-found-in__source" data-line="122" data-modal="source-view" data-src="files/src/lib/Smr/ShipType.php.txt"></a>
     </aside>
 
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">public</span>
-                <span class="phpdocumentor-signature__name">getTypeID</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">int</span></code>
+                    <span class="phpdocumentor-signature__name">getTypeID</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">int</span></code>
 
-        <section class="phpdocumentor-description"></section>
-
+    <div class="phpdocumentor-label-line">
+        </div>
     
     
+    
 
+            <section>
         <h5 class="phpdocumentor-return-value__heading">Return values</h5>
-    <span class="phpdocumentor-signature__response_type">int</span>
-            &mdash;
-        
-    
+        <span class="phpdocumentor-signature__response_type">int</span>
+            </section>
+
 </article>
                     <article
         class="phpdocumentor-element
@@ -1572,21 +1634,24 @@
     <h4 class="phpdocumentor-element__name" id="method___construct">
         __construct()
         <a href="classes/Smr-ShipType.html#method___construct" class="headerlink"><i class="fas fa-link"></i></a>
+
     </h4>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/ShipType.php"><a href="files/src-lib-smr-shiptype.html"><abbr title="src/lib/Smr/ShipType.php">ShipType.php</abbr></a></abbr>
     :
     <span class="phpdocumentor-element-found-in__line">64</span>
 
+            <a href="classes/Smr-ShipType.html#source-view.64" class="phpdocumentor-element-found-in__source" data-line="64" data-modal="source-view" data-src="files/src/lib/Smr/ShipType.php.txt"></a>
     </aside>
 
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">protected</span>
-                <span class="phpdocumentor-signature__name">__construct</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type"><a href="classes/Smr-DatabaseRecord.html"><abbr title="\Smr\DatabaseRecord">DatabaseRecord</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$dbRecord</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">mixed</span></code>
+                    <span class="phpdocumentor-signature__name">__construct</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type"><a href="classes/Smr-DatabaseRecord.html"><abbr title="\Smr\DatabaseRecord">DatabaseRecord</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$dbRecord</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">mixed</span></code>
 
-        <section class="phpdocumentor-description"></section>
-
+    <div class="phpdocumentor-label-line">
+        </div>
+    
         <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
     <dl class="phpdocumentor-argument-list">
                     <dt class="phpdocumentor-argument-list__entry">
@@ -1594,85 +1659,175 @@
                 : <span class="phpdocumentor-signature__argument__return-type"><a href="classes/Smr-DatabaseRecord.html"><abbr title="\Smr\DatabaseRecord">DatabaseRecord</abbr></a></span>
                             </dt>
             <dd class="phpdocumentor-argument-list__definition">
-                    <section class="phpdocumentor-description"></section>
-
+                
             </dd>
             </dl>
 
     
 
-        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
-    <span class="phpdocumentor-signature__response_type">mixed</span>
-            &mdash;
-        
     
 </article>
             </section>
 
-        
+        <div class="phpdocumentor-modal" id="source-view">
+    <div class="phpdocumentor-modal-bg" data-exit-button></div>
+    <div class="phpdocumentor-modal-container">
+        <div class="phpdocumentor-modal-content">
+            <pre style="max-height: 500px; overflow-y: scroll" data-src="files/src/lib/Smr/ShipType.php.txt" class="language-php line-numbers linkable-line-numbers"></pre>
+        </div>
+        <button data-exit-button class="phpdocumentor-modal__close">&times;</button>
+    </div>
+</div>
+
     <script type="text/javascript">
-        function loadExternalCodeSnippets(line) {
-            Array.prototype.slice.call(document.querySelectorAll('pre[data-src]')).forEach((pre) => {
-                var src = pre.getAttribute('data-src').replace( /\\/g, '/');
-                var extension = (src.match(/\.(\w+)$/) || [, ''])[1];
-                var language = 'php';
+        (function () {
+            function loadExternalCodeSnippet(el, url, line) {
+                Array.prototype.slice.call(el.querySelectorAll('pre[data-src]')).forEach((pre) => {
+                    const src = url || pre.getAttribute('data-src').replace(/\\/g, '/');
+                    const language = 'php';
 
-                var code = document.createElement('code');
-                code.className = 'language-' + language;
+                    const code = document.createElement('code');
+                    code.className = 'language-' + language;
+                    pre.textContent = '';
+                    pre.setAttribute('data-line', line)
+                    code.textContent = 'Loading…';
+                    pre.appendChild(code);
 
-                pre.textContent = '';
+                    var xhr = new XMLHttpRequest();
 
-                pre.setAttribute('data-line', line)
-                code.textContent = 'Loading…';
+                    xhr.open('GET', src, true);
 
-                pre.appendChild(code);
-
-                var xhr = new XMLHttpRequest();
-
-                xhr.open('GET', src, true);
-
-                xhr.onreadystatechange = function () {
-                    if (xhr.readyState == 4) {
+                    xhr.onreadystatechange = function () {
+                        if (xhr.readyState !== 4) {
+                            return;
+                        }
 
                         if (xhr.status < 400 && xhr.responseText) {
                             code.textContent = xhr.responseText;
-
                             Prism.highlightElement(code);
+                            return;
                         }
-                        else if (xhr.status >= 400) {
+
+                        if (xhr.status === 404) {
+                            code.textContent = '✖ Error: File could not be found';
+                            return;
+                        }
+
+                        if (xhr.status >= 400) {
                             code.textContent = '✖ Error ' + xhr.status + ' while fetching file: ' + xhr.statusText;
+                            return;
                         }
-                        else {
-                            code.textContent = '✖ Error: File does not exist, is empty or trying to view from localhost';
-                        }
+
+                        code.textContent = '✖ Error: An unknown error occurred';
+                    };
+
+                    xhr.send(null);
+                });
+            }
+
+            const modalButtons = document.querySelectorAll("[data-modal]");
+            const openedAsLocalFile = window.location.protocol === 'file:';
+            if (modalButtons.length > 0 && openedAsLocalFile) {
+                console.warn(
+                    'Viewing the source code is unavailable because you are opening this page from the file:// scheme; ' +
+                    'browsers block XHR requests when a page is opened this way'
+                );
+            }
+
+            modalButtons.forEach(function (trigger) {
+                if (openedAsLocalFile) {
+                    trigger.setAttribute("hidden", "hidden");
+                }
+
+                trigger.addEventListener("click", function (event) {
+                    event.preventDefault();
+                    const modal = document.getElementById(trigger.dataset.modal);
+                    if (!modal) {
+                        console.error(`Modal with id "${trigger.dataset.modal}" could not be found`);
+                        return;
                     }
-                };
+                    modal.classList.add("phpdocumentor-modal__open");
 
-                xhr.send(null);
-            });
-        }
-
-        var modals = document.querySelectorAll("[data-modal]");
-
-        modals.forEach(function (trigger) {
-            trigger.addEventListener("click", function (event) {
-                //event.preventDefault();
-                const modal = document.getElementById(trigger.dataset.modal);
-                modal.classList.add("phpdocumentor-modal__open");
-                loadExternalCodeSnippets(trigger.dataset.line)
-                const exits = modal.querySelectorAll("[data-exit-button]");
-                exits.forEach(function (exit) {
-                    exit.addEventListener("click", function (event) {
-                        event.preventDefault();
-                        modal.classList.remove("phpdocumentor-modal__open");
+                    loadExternalCodeSnippet(modal, trigger.dataset.src || null, trigger.dataset.line)
+                    const exits = modal.querySelectorAll("[data-exit-button]");
+                    exits.forEach(function (exit) {
+                        exit.addEventListener("click", function (event) {
+                            event.preventDefault();
+                            modal.classList.remove("phpdocumentor-modal__open");
+                        });
                     });
                 });
             });
-        });
+        })();
     </script>
 
     </article>
-                <section data-search-results class="phpdocumentor-search-results phpdocumentor-search-results--hidden">
+                                </section>
+                <section class="phpdocumentor-on-this-page__sidebar">
+                                
+    <section class="phpdocumentor-on-this-page__content">
+        <strong class="phpdocumentor-on-this-page__title">On this page</strong>
+
+        <ul class="phpdocumentor-list -clean">
+            <li class="phpdocumentor-on-this-page-section__title">Table Of Contents</li>
+            <li>
+                <ul class="phpdocumentor-list -clean">
+                                                            <li><a href="classes/Smr-ShipType.html#toc-properties">Properties</a></li>
+                                                            <li><a href="classes/Smr-ShipType.html#toc-methods">Methods</a></li>
+                                    </ul>
+            </li>
+            
+                            <li class="phpdocumentor-on-this-page-section__title">Properties</li>
+                <li>
+                    <ul class="phpdocumentor-list -clean">
+                                                    <li><a href="classes/Smr-Traits-RaceID.html#property_raceID">$raceID<a href="classes/Smr-ShipType.html"></li>
+                                                    <li><a href="classes/Smr-ShipType.html#property_baseManeuverability">$baseManeuverability<a href="classes/Smr-ShipType.html"></li>
+                                                    <li><a href="classes/Smr-ShipType.html#property_CACHE_SHIP_TYPES">$CACHE_SHIP_TYPES<a href="classes/Smr-ShipType.html"></li>
+                                                    <li><a href="classes/Smr-ShipType.html#property_class">$class<a href="classes/Smr-ShipType.html"></li>
+                                                    <li><a href="classes/Smr-ShipType.html#property_cost">$cost<a href="classes/Smr-ShipType.html"></li>
+                                                    <li><a href="classes/Smr-ShipType.html#property_hardpoints">$hardpoints<a href="classes/Smr-ShipType.html"></li>
+                                                    <li><a href="classes/Smr-ShipType.html#property_maxHardware">$maxHardware<a href="classes/Smr-ShipType.html"></li>
+                                                    <li><a href="classes/Smr-ShipType.html#property_maxPower">$maxPower<a href="classes/Smr-ShipType.html"></li>
+                                                    <li><a href="classes/Smr-ShipType.html#property_name">$name<a href="classes/Smr-ShipType.html"></li>
+                                                    <li><a href="classes/Smr-ShipType.html#property_restriction">$restriction<a href="classes/Smr-ShipType.html"></li>
+                                                    <li><a href="classes/Smr-ShipType.html#property_speed">$speed<a href="classes/Smr-ShipType.html"></li>
+                                                    <li><a href="classes/Smr-ShipType.html#property_typeID">$typeID<a href="classes/Smr-ShipType.html"></li>
+                                            </ul>
+                </li>
+            
+                        <li class="phpdocumentor-on-this-page-section__title">Methods</li>
+            <li>
+                <ul class="phpdocumentor-list -clean">
+                                            <li><a href="classes/Smr-ShipType.html#method_canHaveCloak">canHaveCloak()</a></li>
+                                            <li><a href="classes/Smr-ShipType.html#method_canHaveDCS">canHaveDCS()</a></li>
+                                            <li><a href="classes/Smr-ShipType.html#method_canHaveIllusion">canHaveIllusion()</a></li>
+                                            <li><a href="classes/Smr-ShipType.html#method_canHaveJump">canHaveJump()</a></li>
+                                            <li><a href="classes/Smr-ShipType.html#method_canHaveScanner">canHaveScanner()</a></li>
+                                            <li><a href="classes/Smr-ShipType.html#method_clearCache">clearCache()</a></li>
+                                            <li><a href="classes/Smr-ShipType.html#method_get">get()</a></li>
+                                            <li><a href="classes/Smr-ShipType.html#method_getAll">getAll()</a></li>
+                                            <li><a href="classes/Smr-ShipType.html#method_getAllMaxHardware">getAllMaxHardware()</a></li>
+                                            <li><a href="classes/Smr-ShipType.html#method_getBaseManeuverability">getBaseManeuverability()</a></li>
+                                            <li><a href="classes/Smr-ShipType.html#method_getClass">getClass()</a></li>
+                                            <li><a href="classes/Smr-ShipType.html#method_getCost">getCost()</a></li>
+                                            <li><a href="classes/Smr-ShipType.html#method_getHardpoints">getHardpoints()</a></li>
+                                            <li><a href="classes/Smr-ShipType.html#method_getMaxHardware">getMaxHardware()</a></li>
+                                            <li><a href="classes/Smr-ShipType.html#method_getMaxPower">getMaxPower()</a></li>
+                                            <li><a href="classes/Smr-ShipType.html#method_getName">getName()</a></li>
+                                            <li><a href="classes/Smr-Traits-RaceID.html#method_getRaceID">getRaceID()</a></li>
+                                            <li><a href="classes/Smr-Traits-RaceID.html#method_getRaceName">getRaceName()</a></li>
+                                            <li><a href="classes/Smr-ShipType.html#method_getRestriction">getRestriction()</a></li>
+                                            <li><a href="classes/Smr-ShipType.html#method_getSpeed">getSpeed()</a></li>
+                                            <li><a href="classes/Smr-ShipType.html#method_getTypeID">getTypeID()</a></li>
+                                            <li><a href="classes/Smr-ShipType.html#method___construct">__construct()</a></li>
+                                    </ul>
+            </li>
+                    </ul>
+    </section>
+
+                </section>
+                            </div>
+            <section data-search-results class="phpdocumentor-search-results phpdocumentor-search-results--hidden">
     <section class="phpdocumentor-search-results__dialog">
         <header class="phpdocumentor-search-results__header">
             <h2 class="phpdocumentor-search-results__title">Search results</h2>
@@ -1683,7 +1838,6 @@
         </section>
     </section>
 </section>
-            </div>
         </div>
         <a href="classes/Smr-ShipType.html#top" class="phpdocumentor-back-to-top"><i class="fas fa-chevron-circle-up"></i></a>
 

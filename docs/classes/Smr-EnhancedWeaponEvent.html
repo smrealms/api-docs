@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/base.css">
             <link rel="preconnect" href="https://fonts.gstatic.com">
-        <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@400;600;700&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="css/template.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0/css/all.min.css" integrity="sha256-ybRkN9dBjhcS2qrW1z+hfCxq+1aBdwyQM5wlQoQVt/0=" crossorigin="anonymous" />
@@ -19,6 +19,7 @@
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/prismjs@1.23.0/plugins/line-highlight/prism-line-highlight.css">
                 <script src="https://cdn.jsdelivr.net/npm/fuse.js@3.4.6"></script>
         <script src="https://cdn.jsdelivr.net/npm/css-vars-ponyfill@2"></script>
+        <script src="js/template.js"></script>
         <script src="js/search.js"></script>
         <script defer src="js/searchIndex.js"></script>
     </head>
@@ -52,7 +53,7 @@
 <label class="phpdocumentor-sidebar__menu-icon" for="sidebar-button">
     Menu
 </label>
-<aside class="phpdocumentor-column -four phpdocumentor-sidebar">
+<aside class="phpdocumentor-column -three phpdocumentor-sidebar">
                     <section class="phpdocumentor-sidebar__category">
             <h2 class="phpdocumentor-sidebar__category-header">Namespaces</h2>
                                     <h4 class="phpdocumentor-sidebar__root-namespace">
@@ -135,8 +136,9 @@
     </section>
 </aside>
 
-            <div class="phpdocumentor-column -eight phpdocumentor-content">
-                    <ul class="phpdocumentor-breadcrumbs">
+            <div class="phpdocumentor-column -nine phpdocumentor-content">
+                                <section>
+                                        <ul class="phpdocumentor-breadcrumbs">
             <li class="phpdocumentor-breadcrumb"><a href="namespaces/smr.html">Smr</a></li>
     </ul>
 
@@ -155,11 +157,17 @@
     
     </h2>
 
+<div class="phpdocumentor-label-line">
+
+
+</div>
+
         <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/EnhancedWeaponEvent.php"><a href="files/src-lib-smr-enhancedweaponevent.html"><abbr title="src/lib/Smr/EnhancedWeaponEvent.php">EnhancedWeaponEvent.php</abbr></a></abbr>
     :
     <span class="phpdocumentor-element-found-in__line">10</span>
 
+            <a href="classes/Smr-EnhancedWeaponEvent.html#source-view.10" class="phpdocumentor-element-found-in__source" data-line="10" data-modal="source-view" data-src="files/src/lib/Smr/EnhancedWeaponEvent.php.txt"></a>
     </aside>
 
             <p class="phpdocumentor-summary">Defines enhanced weapon sale events for weapon shops.</p>
@@ -169,72 +177,90 @@
 
 
 
-
-
-
 <h3 id="toc">
     Table of Contents
-    <a href="#toc" class="headerlink"><i class="fas fa-link"></i></a>
+    <a href="classes/Smr-EnhancedWeaponEvent.html#toc" class="headerlink"><i class="fas fa-link"></i></a>
+
 </h3>
 
+
+
+
+
+
+
+<h4 id="toc-constants">
+    Constants
+    <a href="classes/Smr-EnhancedWeaponEvent.html#toc-constants" class="headerlink"><i class="fas fa-link"></i></a>
+
+</h4>
 <dl class="phpdocumentor-table-of-contents">
             <dt class="phpdocumentor-table-of-contents__entry -constant -protected">
     <a href="classes/Smr-EnhancedWeaponEvent.html#constant_DURATION">DURATION</a>
     <span>
         &nbsp;= 21600                            </span>
 </dt>
-<dd></dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -constant -protected">
     <a href="classes/Smr-EnhancedWeaponEvent.html#constant_GRACE_PERIOD">GRACE_PERIOD</a>
     <span>
         &nbsp;= 3600                            </span>
 </dt>
-<dd></dd>
 
-                    <dt class="phpdocumentor-table-of-contents__entry -property -protected">
+    </dl>
+
+
+<h4 id="toc-properties">
+    Properties
+    <a href="classes/Smr-EnhancedWeaponEvent.html#toc-properties" class="headerlink"><i class="fas fa-link"></i></a>
+
+</h4>
+<dl class="phpdocumentor-table-of-contents">
+            <dt class="phpdocumentor-table-of-contents__entry -property -protected">
     <a href="classes/Smr-EnhancedWeaponEvent.html#property_expires">$expires</a>
     <span>
                         &nbsp;: int            </span>
 </dt>
-<dd></dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -property -protected">
     <a href="classes/Smr-EnhancedWeaponEvent.html#property_gameID">$gameID</a>
     <span>
                         &nbsp;: int            </span>
 </dt>
-<dd></dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -property -protected">
     <a href="classes/Smr-EnhancedWeaponEvent.html#property_locationTypeID">$locationTypeID</a>
     <span>
                         &nbsp;: int            </span>
 </dt>
-<dd></dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -property -protected">
     <a href="classes/Smr-EnhancedWeaponEvent.html#property_sectorID">$sectorID</a>
     <span>
                         &nbsp;: int            </span>
 </dt>
-<dd></dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -property -protected">
     <a href="classes/Smr-EnhancedWeaponEvent.html#property_weapon">$weapon</a>
     <span>
                         &nbsp;: <a href="classes/Smr-Combat-Weapon-Weapon.html"><abbr title="\Smr\Combat\Weapon\Weapon">Weapon</abbr></a>            </span>
 </dt>
-<dd></dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -property -protected">
     <a href="classes/Smr-EnhancedWeaponEvent.html#property_weaponTypeID">$weaponTypeID</a>
     <span>
                         &nbsp;: int            </span>
 </dt>
-<dd></dd>
 
-                <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    </dl>
+
+<h4 id="toc-methods">
+    Methods
+    <a href="classes/Smr-EnhancedWeaponEvent.html#toc-methods" class="headerlink"><i class="fas fa-link"></i></a>
+
+</h4>
+<dl class="phpdocumentor-table-of-contents">
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
     <a href="classes/Smr-EnhancedWeaponEvent.html#method_getDurationRemainingPercent">getDurationRemainingPercent()</a>
     <span>
                                 &nbsp;: float    </span>
@@ -247,7 +273,6 @@ total duration of the event.</dd>
     <span>
                                 &nbsp;: int    </span>
 </dt>
-<dd></dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
     <a href="classes/Smr-EnhancedWeaponEvent.html#method_getLatestEvent">getLatestEvent()</a>
@@ -261,7 +286,6 @@ total duration of the event.</dd>
     <span>
                                 &nbsp;: int    </span>
 </dt>
-<dd></dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
     <a href="classes/Smr-EnhancedWeaponEvent.html#method_getShopEvents">getShopEvents()</a>
@@ -275,14 +299,12 @@ total duration of the event.</dd>
     <span>
                                 &nbsp;: <a href="classes/Smr-Combat-Weapon-Weapon.html"><abbr title="\Smr\Combat\Weapon\Weapon">Weapon</abbr></a>    </span>
 </dt>
-<dd></dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -protected">
     <a href="classes/Smr-EnhancedWeaponEvent.html#method___construct">__construct()</a>
     <span>
                                 &nbsp;: mixed    </span>
 </dt>
-<dd></dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -private">
     <a href="classes/Smr-EnhancedWeaponEvent.html#method_createEvent">createEvent()</a>
@@ -298,7 +320,8 @@ total duration of the event.</dd>
 </dt>
 <dd>Convenience function to instantiate an event from a query result.</dd>
 
-        </dl>
+    </dl>
+
 
 
 
@@ -307,11 +330,13 @@ total duration of the event.</dd>
         <h3 class="phpdocumentor-elements__header" id="constants">
             Constants
             <a href="classes/Smr-EnhancedWeaponEvent.html#constants" class="headerlink"><i class="fas fa-link"></i></a>
+
         </h3>
                     <article class="phpdocumentor-element -constant -protected ">
     <h4 class="phpdocumentor-element__name" id="constant_DURATION">
         DURATION
         <a href="classes/Smr-EnhancedWeaponEvent.html#constant_DURATION" class="headerlink"><i class="fas fa-link"></i></a>
+
     </h4>
 
     <aside class="phpdocumentor-element-found-in">
@@ -319,6 +344,7 @@ total duration of the event.</dd>
     :
     <span class="phpdocumentor-element-found-in__line">13</span>
 
+            <a href="classes/Smr-EnhancedWeaponEvent.html#source-view.13" class="phpdocumentor-element-found-in__source" data-line="13" data-modal="source-view" data-src="files/src/lib/Smr/EnhancedWeaponEvent.php.txt"></a>
     </aside>
 
     
@@ -330,10 +356,8 @@ total duration of the event.</dd>
 </code>
 
 
-        <section class="phpdocumentor-description"></section>
-
-        <section class="phpdocumentor-description"></section>
-
+    
+    
     
 
 </article>
@@ -341,6 +365,7 @@ total duration of the event.</dd>
     <h4 class="phpdocumentor-element__name" id="constant_GRACE_PERIOD">
         GRACE_PERIOD
         <a href="classes/Smr-EnhancedWeaponEvent.html#constant_GRACE_PERIOD" class="headerlink"><i class="fas fa-link"></i></a>
+
     </h4>
 
     <aside class="phpdocumentor-element-found-in">
@@ -348,6 +373,7 @@ total duration of the event.</dd>
     :
     <span class="phpdocumentor-element-found-in__line">12</span>
 
+            <a href="classes/Smr-EnhancedWeaponEvent.html#source-view.12" class="phpdocumentor-element-found-in__source" data-line="12" data-modal="source-view" data-src="files/src/lib/Smr/EnhancedWeaponEvent.php.txt"></a>
     </aside>
 
     
@@ -359,10 +385,8 @@ total duration of the event.</dd>
 </code>
 
 
-        <section class="phpdocumentor-description"></section>
-
-        <section class="phpdocumentor-description"></section>
-
+    
+    
     
 
 </article>
@@ -373,6 +397,7 @@ total duration of the event.</dd>
         <h3 class="phpdocumentor-elements__header" id="properties">
             Properties
             <a href="classes/Smr-EnhancedWeaponEvent.html#properties" class="headerlink"><i class="fas fa-link"></i></a>
+
         </h3>
                     <article
         class="
@@ -384,6 +409,7 @@ total duration of the event.</dd>
     <h4 class="phpdocumentor-element__name" id="property_expires">
         $expires
         <a href="classes/Smr-EnhancedWeaponEvent.html#property_expires" class="headerlink"><i class="fas fa-link"></i></a>
+
         <span class="phpdocumentor-element__modifiers">
                         <small class="phpdocumentor-element__modifier">read-only</small>        </span>
     </h4>
@@ -392,6 +418,7 @@ total duration of the event.</dd>
     :
     <span class="phpdocumentor-element-found-in__line">136</span>
 
+            <a href="classes/Smr-EnhancedWeaponEvent.html#source-view.136" class="phpdocumentor-element-found-in__source" data-line="136" data-modal="source-view" data-src="files/src/lib/Smr/EnhancedWeaponEvent.php.txt"></a>
     </aside>
 
     
@@ -401,10 +428,8 @@ total duration of the event.</dd>
     <span class="phpdocumentor-signature__name">$expires</span>
     </code>
 
-        <section class="phpdocumentor-description"></section>
-
-        <section class="phpdocumentor-description"></section>
-
+    
+    
     
 
 </article>
@@ -418,6 +443,7 @@ total duration of the event.</dd>
     <h4 class="phpdocumentor-element__name" id="property_gameID">
         $gameID
         <a href="classes/Smr-EnhancedWeaponEvent.html#property_gameID" class="headerlink"><i class="fas fa-link"></i></a>
+
         <span class="phpdocumentor-element__modifiers">
                         <small class="phpdocumentor-element__modifier">read-only</small>        </span>
     </h4>
@@ -426,6 +452,7 @@ total duration of the event.</dd>
     :
     <span class="phpdocumentor-element-found-in__line">132</span>
 
+            <a href="classes/Smr-EnhancedWeaponEvent.html#source-view.132" class="phpdocumentor-element-found-in__source" data-line="132" data-modal="source-view" data-src="files/src/lib/Smr/EnhancedWeaponEvent.php.txt"></a>
     </aside>
 
     
@@ -435,10 +462,8 @@ total duration of the event.</dd>
     <span class="phpdocumentor-signature__name">$gameID</span>
     </code>
 
-        <section class="phpdocumentor-description"></section>
-
-        <section class="phpdocumentor-description"></section>
-
+    
+    
     
 
 </article>
@@ -452,6 +477,7 @@ total duration of the event.</dd>
     <h4 class="phpdocumentor-element__name" id="property_locationTypeID">
         $locationTypeID
         <a href="classes/Smr-EnhancedWeaponEvent.html#property_locationTypeID" class="headerlink"><i class="fas fa-link"></i></a>
+
         <span class="phpdocumentor-element__modifiers">
                         <small class="phpdocumentor-element__modifier">read-only</small>        </span>
     </h4>
@@ -460,6 +486,7 @@ total duration of the event.</dd>
     :
     <span class="phpdocumentor-element-found-in__line">134</span>
 
+            <a href="classes/Smr-EnhancedWeaponEvent.html#source-view.134" class="phpdocumentor-element-found-in__source" data-line="134" data-modal="source-view" data-src="files/src/lib/Smr/EnhancedWeaponEvent.php.txt"></a>
     </aside>
 
     
@@ -469,10 +496,8 @@ total duration of the event.</dd>
     <span class="phpdocumentor-signature__name">$locationTypeID</span>
     </code>
 
-        <section class="phpdocumentor-description"></section>
-
-        <section class="phpdocumentor-description"></section>
-
+    
+    
     
 
 </article>
@@ -486,6 +511,7 @@ total duration of the event.</dd>
     <h4 class="phpdocumentor-element__name" id="property_sectorID">
         $sectorID
         <a href="classes/Smr-EnhancedWeaponEvent.html#property_sectorID" class="headerlink"><i class="fas fa-link"></i></a>
+
         <span class="phpdocumentor-element__modifiers">
                         <small class="phpdocumentor-element__modifier">read-only</small>        </span>
     </h4>
@@ -494,6 +520,7 @@ total duration of the event.</dd>
     :
     <span class="phpdocumentor-element-found-in__line">135</span>
 
+            <a href="classes/Smr-EnhancedWeaponEvent.html#source-view.135" class="phpdocumentor-element-found-in__source" data-line="135" data-modal="source-view" data-src="files/src/lib/Smr/EnhancedWeaponEvent.php.txt"></a>
     </aside>
 
     
@@ -503,10 +530,8 @@ total duration of the event.</dd>
     <span class="phpdocumentor-signature__name">$sectorID</span>
     </code>
 
-        <section class="phpdocumentor-description"></section>
-
-        <section class="phpdocumentor-description"></section>
-
+    
+    
     
 
 </article>
@@ -520,6 +545,7 @@ total duration of the event.</dd>
     <h4 class="phpdocumentor-element__name" id="property_weapon">
         $weapon
         <a href="classes/Smr-EnhancedWeaponEvent.html#property_weapon" class="headerlink"><i class="fas fa-link"></i></a>
+
         <span class="phpdocumentor-element__modifiers">
                         <small class="phpdocumentor-element__modifier">read-only</small>        </span>
     </h4>
@@ -528,6 +554,7 @@ total duration of the event.</dd>
     :
     <span class="phpdocumentor-element-found-in__line">15</span>
 
+            <a href="classes/Smr-EnhancedWeaponEvent.html#source-view.15" class="phpdocumentor-element-found-in__source" data-line="15" data-modal="source-view" data-src="files/src/lib/Smr/EnhancedWeaponEvent.php.txt"></a>
     </aside>
 
     
@@ -537,10 +564,8 @@ total duration of the event.</dd>
     <span class="phpdocumentor-signature__name">$weapon</span>
     </code>
 
-        <section class="phpdocumentor-description"></section>
-
-        <section class="phpdocumentor-description"></section>
-
+    
+    
     
 
 </article>
@@ -554,6 +579,7 @@ total duration of the event.</dd>
     <h4 class="phpdocumentor-element__name" id="property_weaponTypeID">
         $weaponTypeID
         <a href="classes/Smr-EnhancedWeaponEvent.html#property_weaponTypeID" class="headerlink"><i class="fas fa-link"></i></a>
+
         <span class="phpdocumentor-element__modifiers">
                         <small class="phpdocumentor-element__modifier">read-only</small>        </span>
     </h4>
@@ -562,6 +588,7 @@ total duration of the event.</dd>
     :
     <span class="phpdocumentor-element-found-in__line">133</span>
 
+            <a href="classes/Smr-EnhancedWeaponEvent.html#source-view.133" class="phpdocumentor-element-found-in__source" data-line="133" data-modal="source-view" data-src="files/src/lib/Smr/EnhancedWeaponEvent.php.txt"></a>
     </aside>
 
     
@@ -571,10 +598,8 @@ total duration of the event.</dd>
     <span class="phpdocumentor-signature__name">$weaponTypeID</span>
     </code>
 
-        <section class="phpdocumentor-description"></section>
-
-        <section class="phpdocumentor-description"></section>
-
+    
+    
     
 
 </article>
@@ -584,6 +609,7 @@ total duration of the event.</dd>
         <h3 class="phpdocumentor-elements__header" id="methods">
             Methods
             <a href="classes/Smr-EnhancedWeaponEvent.html#methods" class="headerlink"><i class="fas fa-link"></i></a>
+
         </h3>
                     <article
         class="phpdocumentor-element
@@ -594,12 +620,14 @@ total duration of the event.</dd>
     <h4 class="phpdocumentor-element__name" id="method_getDurationRemainingPercent">
         getDurationRemainingPercent()
         <a href="classes/Smr-EnhancedWeaponEvent.html#method_getDurationRemainingPercent" class="headerlink"><i class="fas fa-link"></i></a>
+
     </h4>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/EnhancedWeaponEvent.php"><a href="files/src-lib-smr-enhancedweaponevent.html"><abbr title="src/lib/Smr/EnhancedWeaponEvent.php">EnhancedWeaponEvent.php</abbr></a></abbr>
     :
     <span class="phpdocumentor-element-found-in__line">161</span>
 
+            <a href="classes/Smr-EnhancedWeaponEvent.html#source-view.161" class="phpdocumentor-element-found-in__source" data-line="161" data-modal="source-view" data-src="files/src/lib/Smr/EnhancedWeaponEvent.php.txt"></a>
     </aside>
 
         <p class="phpdocumentor-summary">Returns the amount of time left in the event as a percent of the
@@ -607,17 +635,19 @@ total duration of the event.</p>
 
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">public</span>
-                <span class="phpdocumentor-signature__name">getDurationRemainingPercent</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">float</span></code>
+                    <span class="phpdocumentor-signature__name">getDurationRemainingPercent</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">float</span></code>
 
+    <div class="phpdocumentor-label-line">
+        </div>
     
     
     
 
+            <section>
         <h5 class="phpdocumentor-return-value__heading">Return values</h5>
-    <span class="phpdocumentor-signature__response_type">float</span>
-            &mdash;
-        
-    
+        <span class="phpdocumentor-signature__response_type">float</span>
+            </section>
+
 </article>
                     <article
         class="phpdocumentor-element
@@ -628,29 +658,32 @@ total duration of the event.</p>
     <h4 class="phpdocumentor-element__name" id="method_getExpireTime">
         getExpireTime()
         <a href="classes/Smr-EnhancedWeaponEvent.html#method_getExpireTime" class="headerlink"><i class="fas fa-link"></i></a>
+
     </h4>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/EnhancedWeaponEvent.php"><a href="files/src-lib-smr-enhancedweaponevent.html"><abbr title="src/lib/Smr/EnhancedWeaponEvent.php">EnhancedWeaponEvent.php</abbr></a></abbr>
     :
     <span class="phpdocumentor-element-found-in__line">149</span>
 
+            <a href="classes/Smr-EnhancedWeaponEvent.html#source-view.149" class="phpdocumentor-element-found-in__source" data-line="149" data-modal="source-view" data-src="files/src/lib/Smr/EnhancedWeaponEvent.php.txt"></a>
     </aside>
 
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">public</span>
-                <span class="phpdocumentor-signature__name">getExpireTime</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">int</span></code>
+                    <span class="phpdocumentor-signature__name">getExpireTime</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">int</span></code>
 
-        <section class="phpdocumentor-description"></section>
-
+    <div class="phpdocumentor-label-line">
+        </div>
     
     
+    
 
+            <section>
         <h5 class="phpdocumentor-return-value__heading">Return values</h5>
-    <span class="phpdocumentor-signature__response_type">int</span>
-            &mdash;
-        
-    
+        <span class="phpdocumentor-signature__response_type">int</span>
+            </section>
+
 </article>
                     <article
         class="phpdocumentor-element
@@ -661,20 +694,24 @@ total duration of the event.</p>
     <h4 class="phpdocumentor-element__name" id="method_getLatestEvent">
         getLatestEvent()
         <a href="classes/Smr-EnhancedWeaponEvent.html#method_getLatestEvent" class="headerlink"><i class="fas fa-link"></i></a>
+
     </h4>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/EnhancedWeaponEvent.php"><a href="files/src-lib-smr-enhancedweaponevent.html"><abbr title="src/lib/Smr/EnhancedWeaponEvent.php">EnhancedWeaponEvent.php</abbr></a></abbr>
     :
     <span class="phpdocumentor-element-found-in__line">43</span>
 
+            <a href="classes/Smr-EnhancedWeaponEvent.html#source-view.43" class="phpdocumentor-element-found-in__source" data-line="43" data-modal="source-view" data-src="files/src/lib/Smr/EnhancedWeaponEvent.php.txt"></a>
     </aside>
 
         <p class="phpdocumentor-summary">Get the most recent event.</p>
 
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">public</span>
-            <span class="phpdocumentor-signature__static">static</span>    <span class="phpdocumentor-signature__name">getLatestEvent</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type">int&nbsp;</span><span class="phpdocumentor-signature__argument__name">$gameID</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">self</span></code>
+            <span class="phpdocumentor-signature__static">static</span>        <span class="phpdocumentor-signature__name">getLatestEvent</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type">int&nbsp;</span><span class="phpdocumentor-signature__argument__name">$gameID</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">self</span></code>
 
+    <div class="phpdocumentor-label-line">
+        </div>
         <section class="phpdocumentor-description"><p>This function also does the work of cleaning up expired events and
 creating new ones when necessary.</p>
 </section>
@@ -686,18 +723,17 @@ creating new ones when necessary.</p>
                 : <span class="phpdocumentor-signature__argument__return-type">int</span>
                             </dt>
             <dd class="phpdocumentor-argument-list__definition">
-                    <section class="phpdocumentor-description"></section>
-
+                
             </dd>
             </dl>
 
     
 
+            <section>
         <h5 class="phpdocumentor-return-value__heading">Return values</h5>
-    <span class="phpdocumentor-signature__response_type">self</span>
-            &mdash;
-        
-    
+        <span class="phpdocumentor-signature__response_type">self</span>
+            </section>
+
 </article>
                     <article
         class="phpdocumentor-element
@@ -708,29 +744,32 @@ creating new ones when necessary.</p>
     <h4 class="phpdocumentor-element__name" id="method_getSectorID">
         getSectorID()
         <a href="classes/Smr-EnhancedWeaponEvent.html#method_getSectorID" class="headerlink"><i class="fas fa-link"></i></a>
+
     </h4>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/EnhancedWeaponEvent.php"><a href="files/src-lib-smr-enhancedweaponevent.html"><abbr title="src/lib/Smr/EnhancedWeaponEvent.php">EnhancedWeaponEvent.php</abbr></a></abbr>
     :
     <span class="phpdocumentor-element-found-in__line">145</span>
 
+            <a href="classes/Smr-EnhancedWeaponEvent.html#source-view.145" class="phpdocumentor-element-found-in__source" data-line="145" data-modal="source-view" data-src="files/src/lib/Smr/EnhancedWeaponEvent.php.txt"></a>
     </aside>
 
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">public</span>
-                <span class="phpdocumentor-signature__name">getSectorID</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">int</span></code>
+                    <span class="phpdocumentor-signature__name">getSectorID</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">int</span></code>
 
-        <section class="phpdocumentor-description"></section>
-
+    <div class="phpdocumentor-label-line">
+        </div>
     
     
+    
 
+            <section>
         <h5 class="phpdocumentor-return-value__heading">Return values</h5>
-    <span class="phpdocumentor-signature__response_type">int</span>
-            &mdash;
-        
-    
+        <span class="phpdocumentor-signature__response_type">int</span>
+            </section>
+
 </article>
                     <article
         class="phpdocumentor-element
@@ -741,20 +780,24 @@ creating new ones when necessary.</p>
     <h4 class="phpdocumentor-element__name" id="method_getShopEvents">
         getShopEvents()
         <a href="classes/Smr-EnhancedWeaponEvent.html#method_getShopEvents" class="headerlink"><i class="fas fa-link"></i></a>
+
     </h4>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/EnhancedWeaponEvent.php"><a href="files/src-lib-smr-enhancedweaponevent.html"><abbr title="src/lib/Smr/EnhancedWeaponEvent.php">EnhancedWeaponEvent.php</abbr></a></abbr>
     :
     <span class="phpdocumentor-element-found-in__line">22</span>
 
+            <a href="classes/Smr-EnhancedWeaponEvent.html#source-view.22" class="phpdocumentor-element-found-in__source" data-line="22" data-modal="source-view" data-src="files/src/lib/Smr/EnhancedWeaponEvent.php.txt"></a>
     </aside>
 
         <p class="phpdocumentor-summary">Return all the valid events for the given location in a sector.</p>
 
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">public</span>
-            <span class="phpdocumentor-signature__static">static</span>    <span class="phpdocumentor-signature__name">getShopEvents</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type">int&nbsp;</span><span class="phpdocumentor-signature__argument__name">$gameID</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__return-type">int&nbsp;</span><span class="phpdocumentor-signature__argument__name">$sectorID</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__return-type">int&nbsp;</span><span class="phpdocumentor-signature__argument__name">$locationID</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">array&lt;string|int, self&gt;</span></code>
+            <span class="phpdocumentor-signature__static">static</span>        <span class="phpdocumentor-signature__name">getShopEvents</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type">int&nbsp;</span><span class="phpdocumentor-signature__argument__name">$gameID</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__return-type">int&nbsp;</span><span class="phpdocumentor-signature__argument__name">$sectorID</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__return-type">int&nbsp;</span><span class="phpdocumentor-signature__argument__name">$locationID</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">array&lt;string|int, self&gt;</span></code>
 
+    <div class="phpdocumentor-label-line">
+        </div>
     
         <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
     <dl class="phpdocumentor-argument-list">
@@ -763,34 +806,31 @@ creating new ones when necessary.</p>
                 : <span class="phpdocumentor-signature__argument__return-type">int</span>
                             </dt>
             <dd class="phpdocumentor-argument-list__definition">
-                    <section class="phpdocumentor-description"></section>
-
+                
             </dd>
                     <dt class="phpdocumentor-argument-list__entry">
                 <span class="phpdocumentor-signature__argument__name">$sectorID</span>
                 : <span class="phpdocumentor-signature__argument__return-type">int</span>
                             </dt>
             <dd class="phpdocumentor-argument-list__definition">
-                    <section class="phpdocumentor-description"></section>
-
+                
             </dd>
                     <dt class="phpdocumentor-argument-list__entry">
                 <span class="phpdocumentor-signature__argument__name">$locationID</span>
                 : <span class="phpdocumentor-signature__argument__return-type">int</span>
                             </dt>
             <dd class="phpdocumentor-argument-list__definition">
-                    <section class="phpdocumentor-description"></section>
-
+                
             </dd>
             </dl>
 
     
 
+            <section>
         <h5 class="phpdocumentor-return-value__heading">Return values</h5>
-    <span class="phpdocumentor-signature__response_type">array&lt;string|int, self&gt;</span>
-            &mdash;
-        
-    
+        <span class="phpdocumentor-signature__response_type">array&lt;string|int, self&gt;</span>
+            </section>
+
 </article>
                     <article
         class="phpdocumentor-element
@@ -801,29 +841,32 @@ creating new ones when necessary.</p>
     <h4 class="phpdocumentor-element__name" id="method_getWeapon">
         getWeapon()
         <a href="classes/Smr-EnhancedWeaponEvent.html#method_getWeapon" class="headerlink"><i class="fas fa-link"></i></a>
+
     </h4>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/EnhancedWeaponEvent.php"><a href="files/src-lib-smr-enhancedweaponevent.html"><abbr title="src/lib/Smr/EnhancedWeaponEvent.php">EnhancedWeaponEvent.php</abbr></a></abbr>
     :
     <span class="phpdocumentor-element-found-in__line">153</span>
 
+            <a href="classes/Smr-EnhancedWeaponEvent.html#source-view.153" class="phpdocumentor-element-found-in__source" data-line="153" data-modal="source-view" data-src="files/src/lib/Smr/EnhancedWeaponEvent.php.txt"></a>
     </aside>
 
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">public</span>
-                <span class="phpdocumentor-signature__name">getWeapon</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type"><a href="classes/Smr-Combat-Weapon-Weapon.html"><abbr title="\Smr\Combat\Weapon\Weapon">Weapon</abbr></a></span></code>
+                    <span class="phpdocumentor-signature__name">getWeapon</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type"><a href="classes/Smr-Combat-Weapon-Weapon.html"><abbr title="\Smr\Combat\Weapon\Weapon">Weapon</abbr></a></span></code>
 
-        <section class="phpdocumentor-description"></section>
-
+    <div class="phpdocumentor-label-line">
+        </div>
     
     
+    
 
+            <section>
         <h5 class="phpdocumentor-return-value__heading">Return values</h5>
-    <span class="phpdocumentor-signature__response_type"><a href="classes/Smr-Combat-Weapon-Weapon.html"><abbr title="\Smr\Combat\Weapon\Weapon">Weapon</abbr></a></span>
-            &mdash;
-        
-    
+        <span class="phpdocumentor-signature__response_type"><a href="classes/Smr-Combat-Weapon-Weapon.html"><abbr title="\Smr\Combat\Weapon\Weapon">Weapon</abbr></a></span>
+            </section>
+
 </article>
                     <article
         class="phpdocumentor-element
@@ -834,21 +877,24 @@ creating new ones when necessary.</p>
     <h4 class="phpdocumentor-element__name" id="method___construct">
         __construct()
         <a href="classes/Smr-EnhancedWeaponEvent.html#method___construct" class="headerlink"><i class="fas fa-link"></i></a>
+
     </h4>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/EnhancedWeaponEvent.php"><a href="files/src-lib-smr-enhancedweaponevent.html"><abbr title="src/lib/Smr/EnhancedWeaponEvent.php">EnhancedWeaponEvent.php</abbr></a></abbr>
     :
     <span class="phpdocumentor-element-found-in__line">131</span>
 
+            <a href="classes/Smr-EnhancedWeaponEvent.html#source-view.131" class="phpdocumentor-element-found-in__source" data-line="131" data-modal="source-view" data-src="files/src/lib/Smr/EnhancedWeaponEvent.php.txt"></a>
     </aside>
 
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">protected</span>
-                <span class="phpdocumentor-signature__name">__construct</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type">int&nbsp;</span><span class="phpdocumentor-signature__argument__name">$gameID</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__return-type">int&nbsp;</span><span class="phpdocumentor-signature__argument__name">$weaponTypeID</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__return-type">int&nbsp;</span><span class="phpdocumentor-signature__argument__name">$locationTypeID</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__return-type">int&nbsp;</span><span class="phpdocumentor-signature__argument__name">$sectorID</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__return-type">int&nbsp;</span><span class="phpdocumentor-signature__argument__name">$expires</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__return-type">bool&nbsp;</span><span class="phpdocumentor-signature__argument__name">$bonusAccuracy</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__return-type">bool&nbsp;</span><span class="phpdocumentor-signature__argument__name">$bonusDamage</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">mixed</span></code>
+                    <span class="phpdocumentor-signature__name">__construct</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type">int&nbsp;</span><span class="phpdocumentor-signature__argument__name">$gameID</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__return-type">int&nbsp;</span><span class="phpdocumentor-signature__argument__name">$weaponTypeID</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__return-type">int&nbsp;</span><span class="phpdocumentor-signature__argument__name">$locationTypeID</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__return-type">int&nbsp;</span><span class="phpdocumentor-signature__argument__name">$sectorID</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__return-type">int&nbsp;</span><span class="phpdocumentor-signature__argument__name">$expires</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__return-type">bool&nbsp;</span><span class="phpdocumentor-signature__argument__name">$bonusAccuracy</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__return-type">bool&nbsp;</span><span class="phpdocumentor-signature__argument__name">$bonusDamage</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">mixed</span></code>
 
-        <section class="phpdocumentor-description"></section>
-
+    <div class="phpdocumentor-label-line">
+        </div>
+    
         <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
     <dl class="phpdocumentor-argument-list">
                     <dt class="phpdocumentor-argument-list__entry">
@@ -856,65 +902,54 @@ creating new ones when necessary.</p>
                 : <span class="phpdocumentor-signature__argument__return-type">int</span>
                             </dt>
             <dd class="phpdocumentor-argument-list__definition">
-                    <section class="phpdocumentor-description"></section>
-
+                
             </dd>
                     <dt class="phpdocumentor-argument-list__entry">
                 <span class="phpdocumentor-signature__argument__name">$weaponTypeID</span>
                 : <span class="phpdocumentor-signature__argument__return-type">int</span>
                             </dt>
             <dd class="phpdocumentor-argument-list__definition">
-                    <section class="phpdocumentor-description"></section>
-
+                
             </dd>
                     <dt class="phpdocumentor-argument-list__entry">
                 <span class="phpdocumentor-signature__argument__name">$locationTypeID</span>
                 : <span class="phpdocumentor-signature__argument__return-type">int</span>
                             </dt>
             <dd class="phpdocumentor-argument-list__definition">
-                    <section class="phpdocumentor-description"></section>
-
+                
             </dd>
                     <dt class="phpdocumentor-argument-list__entry">
                 <span class="phpdocumentor-signature__argument__name">$sectorID</span>
                 : <span class="phpdocumentor-signature__argument__return-type">int</span>
                             </dt>
             <dd class="phpdocumentor-argument-list__definition">
-                    <section class="phpdocumentor-description"></section>
-
+                
             </dd>
                     <dt class="phpdocumentor-argument-list__entry">
                 <span class="phpdocumentor-signature__argument__name">$expires</span>
                 : <span class="phpdocumentor-signature__argument__return-type">int</span>
                             </dt>
             <dd class="phpdocumentor-argument-list__definition">
-                    <section class="phpdocumentor-description"></section>
-
+                
             </dd>
                     <dt class="phpdocumentor-argument-list__entry">
                 <span class="phpdocumentor-signature__argument__name">$bonusAccuracy</span>
                 : <span class="phpdocumentor-signature__argument__return-type">bool</span>
                             </dt>
             <dd class="phpdocumentor-argument-list__definition">
-                    <section class="phpdocumentor-description"></section>
-
+                
             </dd>
                     <dt class="phpdocumentor-argument-list__entry">
                 <span class="phpdocumentor-signature__argument__name">$bonusDamage</span>
                 : <span class="phpdocumentor-signature__argument__return-type">bool</span>
                             </dt>
             <dd class="phpdocumentor-argument-list__definition">
-                    <section class="phpdocumentor-description"></section>
-
+                
             </dd>
             </dl>
 
     
 
-        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
-    <span class="phpdocumentor-signature__response_type">mixed</span>
-            &mdash;
-        
     
 </article>
                     <article
@@ -926,20 +961,24 @@ creating new ones when necessary.</p>
     <h4 class="phpdocumentor-element__name" id="method_createEvent">
         createEvent()
         <a href="classes/Smr-EnhancedWeaponEvent.html#method_createEvent" class="headerlink"><i class="fas fa-link"></i></a>
+
     </h4>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/EnhancedWeaponEvent.php"><a href="files/src-lib-smr-enhancedweaponevent.html"><abbr title="src/lib/Smr/EnhancedWeaponEvent.php">EnhancedWeaponEvent.php</abbr></a></abbr>
     :
     <span class="phpdocumentor-element-found-in__line">73</span>
 
+            <a href="classes/Smr-EnhancedWeaponEvent.html#source-view.73" class="phpdocumentor-element-found-in__source" data-line="73" data-modal="source-view" data-src="files/src/lib/Smr/EnhancedWeaponEvent.php.txt"></a>
     </aside>
 
         <p class="phpdocumentor-summary">Create a new event.</p>
 
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">private</span>
-            <span class="phpdocumentor-signature__static">static</span>    <span class="phpdocumentor-signature__name">createEvent</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type">int&nbsp;</span><span class="phpdocumentor-signature__argument__name">$gameID</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">self</span></code>
+            <span class="phpdocumentor-signature__static">static</span>        <span class="phpdocumentor-signature__name">createEvent</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type">int&nbsp;</span><span class="phpdocumentor-signature__argument__name">$gameID</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">self</span></code>
 
+    <div class="phpdocumentor-label-line">
+        </div>
         <section class="phpdocumentor-description"><p>Events are generated randomly across all weapon types available in the
 game, and then randomly across locations that offer that weapon type.</p>
 </section>
@@ -951,18 +990,17 @@ game, and then randomly across locations that offer that weapon type.</p>
                 : <span class="phpdocumentor-signature__argument__return-type">int</span>
                             </dt>
             <dd class="phpdocumentor-argument-list__definition">
-                    <section class="phpdocumentor-description"></section>
-
+                
             </dd>
             </dl>
 
     
 
+            <section>
         <h5 class="phpdocumentor-return-value__heading">Return values</h5>
-    <span class="phpdocumentor-signature__response_type">self</span>
-            &mdash;
-        
-    
+        <span class="phpdocumentor-signature__response_type">self</span>
+            </section>
+
 </article>
                     <article
         class="phpdocumentor-element
@@ -973,20 +1011,24 @@ game, and then randomly across locations that offer that weapon type.</p>
     <h4 class="phpdocumentor-element__name" id="method_getEventFromDatabase">
         getEventFromDatabase()
         <a href="classes/Smr-EnhancedWeaponEvent.html#method_getEventFromDatabase" class="headerlink"><i class="fas fa-link"></i></a>
+
     </h4>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/EnhancedWeaponEvent.php"><a href="files/src-lib-smr-enhancedweaponevent.html"><abbr title="src/lib/Smr/EnhancedWeaponEvent.php">EnhancedWeaponEvent.php</abbr></a></abbr>
     :
     <span class="phpdocumentor-element-found-in__line">119</span>
 
+            <a href="classes/Smr-EnhancedWeaponEvent.html#source-view.119" class="phpdocumentor-element-found-in__source" data-line="119" data-modal="source-view" data-src="files/src/lib/Smr/EnhancedWeaponEvent.php.txt"></a>
     </aside>
 
         <p class="phpdocumentor-summary">Convenience function to instantiate an event from a query result.</p>
 
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">private</span>
-            <span class="phpdocumentor-signature__static">static</span>    <span class="phpdocumentor-signature__name">getEventFromDatabase</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type"><a href="classes/Smr-DatabaseRecord.html"><abbr title="\Smr\DatabaseRecord">DatabaseRecord</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$dbRecord</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">self</span></code>
+            <span class="phpdocumentor-signature__static">static</span>        <span class="phpdocumentor-signature__name">getEventFromDatabase</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type"><a href="classes/Smr-DatabaseRecord.html"><abbr title="\Smr\DatabaseRecord">DatabaseRecord</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$dbRecord</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">self</span></code>
 
+    <div class="phpdocumentor-label-line">
+        </div>
     
         <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
     <dl class="phpdocumentor-argument-list">
@@ -995,85 +1037,168 @@ game, and then randomly across locations that offer that weapon type.</p>
                 : <span class="phpdocumentor-signature__argument__return-type"><a href="classes/Smr-DatabaseRecord.html"><abbr title="\Smr\DatabaseRecord">DatabaseRecord</abbr></a></span>
                             </dt>
             <dd class="phpdocumentor-argument-list__definition">
-                    <section class="phpdocumentor-description"></section>
-
+                
             </dd>
             </dl>
 
     
 
+            <section>
         <h5 class="phpdocumentor-return-value__heading">Return values</h5>
-    <span class="phpdocumentor-signature__response_type">self</span>
-            &mdash;
-        
-    
+        <span class="phpdocumentor-signature__response_type">self</span>
+            </section>
+
 </article>
             </section>
 
-        
+        <div class="phpdocumentor-modal" id="source-view">
+    <div class="phpdocumentor-modal-bg" data-exit-button></div>
+    <div class="phpdocumentor-modal-container">
+        <div class="phpdocumentor-modal-content">
+            <pre style="max-height: 500px; overflow-y: scroll" data-src="files/src/lib/Smr/EnhancedWeaponEvent.php.txt" class="language-php line-numbers linkable-line-numbers"></pre>
+        </div>
+        <button data-exit-button class="phpdocumentor-modal__close">&times;</button>
+    </div>
+</div>
+
     <script type="text/javascript">
-        function loadExternalCodeSnippets(line) {
-            Array.prototype.slice.call(document.querySelectorAll('pre[data-src]')).forEach((pre) => {
-                var src = pre.getAttribute('data-src').replace( /\\/g, '/');
-                var extension = (src.match(/\.(\w+)$/) || [, ''])[1];
-                var language = 'php';
+        (function () {
+            function loadExternalCodeSnippet(el, url, line) {
+                Array.prototype.slice.call(el.querySelectorAll('pre[data-src]')).forEach((pre) => {
+                    const src = url || pre.getAttribute('data-src').replace(/\\/g, '/');
+                    const language = 'php';
 
-                var code = document.createElement('code');
-                code.className = 'language-' + language;
+                    const code = document.createElement('code');
+                    code.className = 'language-' + language;
+                    pre.textContent = '';
+                    pre.setAttribute('data-line', line)
+                    code.textContent = 'Loading…';
+                    pre.appendChild(code);
 
-                pre.textContent = '';
+                    var xhr = new XMLHttpRequest();
 
-                pre.setAttribute('data-line', line)
-                code.textContent = 'Loading…';
+                    xhr.open('GET', src, true);
 
-                pre.appendChild(code);
-
-                var xhr = new XMLHttpRequest();
-
-                xhr.open('GET', src, true);
-
-                xhr.onreadystatechange = function () {
-                    if (xhr.readyState == 4) {
+                    xhr.onreadystatechange = function () {
+                        if (xhr.readyState !== 4) {
+                            return;
+                        }
 
                         if (xhr.status < 400 && xhr.responseText) {
                             code.textContent = xhr.responseText;
-
                             Prism.highlightElement(code);
+                            return;
                         }
-                        else if (xhr.status >= 400) {
+
+                        if (xhr.status === 404) {
+                            code.textContent = '✖ Error: File could not be found';
+                            return;
+                        }
+
+                        if (xhr.status >= 400) {
                             code.textContent = '✖ Error ' + xhr.status + ' while fetching file: ' + xhr.statusText;
+                            return;
                         }
-                        else {
-                            code.textContent = '✖ Error: File does not exist, is empty or trying to view from localhost';
-                        }
+
+                        code.textContent = '✖ Error: An unknown error occurred';
+                    };
+
+                    xhr.send(null);
+                });
+            }
+
+            const modalButtons = document.querySelectorAll("[data-modal]");
+            const openedAsLocalFile = window.location.protocol === 'file:';
+            if (modalButtons.length > 0 && openedAsLocalFile) {
+                console.warn(
+                    'Viewing the source code is unavailable because you are opening this page from the file:// scheme; ' +
+                    'browsers block XHR requests when a page is opened this way'
+                );
+            }
+
+            modalButtons.forEach(function (trigger) {
+                if (openedAsLocalFile) {
+                    trigger.setAttribute("hidden", "hidden");
+                }
+
+                trigger.addEventListener("click", function (event) {
+                    event.preventDefault();
+                    const modal = document.getElementById(trigger.dataset.modal);
+                    if (!modal) {
+                        console.error(`Modal with id "${trigger.dataset.modal}" could not be found`);
+                        return;
                     }
-                };
+                    modal.classList.add("phpdocumentor-modal__open");
 
-                xhr.send(null);
-            });
-        }
-
-        var modals = document.querySelectorAll("[data-modal]");
-
-        modals.forEach(function (trigger) {
-            trigger.addEventListener("click", function (event) {
-                //event.preventDefault();
-                const modal = document.getElementById(trigger.dataset.modal);
-                modal.classList.add("phpdocumentor-modal__open");
-                loadExternalCodeSnippets(trigger.dataset.line)
-                const exits = modal.querySelectorAll("[data-exit-button]");
-                exits.forEach(function (exit) {
-                    exit.addEventListener("click", function (event) {
-                        event.preventDefault();
-                        modal.classList.remove("phpdocumentor-modal__open");
+                    loadExternalCodeSnippet(modal, trigger.dataset.src || null, trigger.dataset.line)
+                    const exits = modal.querySelectorAll("[data-exit-button]");
+                    exits.forEach(function (exit) {
+                        exit.addEventListener("click", function (event) {
+                            event.preventDefault();
+                            modal.classList.remove("phpdocumentor-modal__open");
+                        });
                     });
                 });
             });
-        });
+        })();
     </script>
 
     </article>
-                <section data-search-results class="phpdocumentor-search-results phpdocumentor-search-results--hidden">
+                                </section>
+                <section class="phpdocumentor-on-this-page__sidebar">
+                                
+    <section class="phpdocumentor-on-this-page__content">
+        <strong class="phpdocumentor-on-this-page__title">On this page</strong>
+
+        <ul class="phpdocumentor-list -clean">
+            <li class="phpdocumentor-on-this-page-section__title">Table Of Contents</li>
+            <li>
+                <ul class="phpdocumentor-list -clean">
+                                        <li><a href="classes/Smr-EnhancedWeaponEvent.html#toc-constants">Constants</a></li>
+                                                            <li><a href="classes/Smr-EnhancedWeaponEvent.html#toc-properties">Properties</a></li>
+                                                            <li><a href="classes/Smr-EnhancedWeaponEvent.html#toc-methods">Methods</a></li>
+                                    </ul>
+            </li>
+                            <li class="phpdocumentor-on-this-page-section__title">Constants</li>
+                <li>
+                    <ul class="phpdocumentor-list -clean">
+                                                    <li><a href="classes/Smr-EnhancedWeaponEvent.html#constant_DURATION">DURATION</a></li>
+                                                    <li><a href="classes/Smr-EnhancedWeaponEvent.html#constant_GRACE_PERIOD">GRACE_PERIOD</a></li>
+                                            </ul>
+                </li>
+            
+                            <li class="phpdocumentor-on-this-page-section__title">Properties</li>
+                <li>
+                    <ul class="phpdocumentor-list -clean">
+                                                    <li><a href="classes/Smr-EnhancedWeaponEvent.html#property_expires">$expires<a href="classes/Smr-EnhancedWeaponEvent.html"></li>
+                                                    <li><a href="classes/Smr-EnhancedWeaponEvent.html#property_gameID">$gameID<a href="classes/Smr-EnhancedWeaponEvent.html"></li>
+                                                    <li><a href="classes/Smr-EnhancedWeaponEvent.html#property_locationTypeID">$locationTypeID<a href="classes/Smr-EnhancedWeaponEvent.html"></li>
+                                                    <li><a href="classes/Smr-EnhancedWeaponEvent.html#property_sectorID">$sectorID<a href="classes/Smr-EnhancedWeaponEvent.html"></li>
+                                                    <li><a href="classes/Smr-EnhancedWeaponEvent.html#property_weapon">$weapon<a href="classes/Smr-EnhancedWeaponEvent.html"></li>
+                                                    <li><a href="classes/Smr-EnhancedWeaponEvent.html#property_weaponTypeID">$weaponTypeID<a href="classes/Smr-EnhancedWeaponEvent.html"></li>
+                                            </ul>
+                </li>
+            
+                        <li class="phpdocumentor-on-this-page-section__title">Methods</li>
+            <li>
+                <ul class="phpdocumentor-list -clean">
+                                            <li><a href="classes/Smr-EnhancedWeaponEvent.html#method_getDurationRemainingPercent">getDurationRemainingPercent()</a></li>
+                                            <li><a href="classes/Smr-EnhancedWeaponEvent.html#method_getExpireTime">getExpireTime()</a></li>
+                                            <li><a href="classes/Smr-EnhancedWeaponEvent.html#method_getLatestEvent">getLatestEvent()</a></li>
+                                            <li><a href="classes/Smr-EnhancedWeaponEvent.html#method_getSectorID">getSectorID()</a></li>
+                                            <li><a href="classes/Smr-EnhancedWeaponEvent.html#method_getShopEvents">getShopEvents()</a></li>
+                                            <li><a href="classes/Smr-EnhancedWeaponEvent.html#method_getWeapon">getWeapon()</a></li>
+                                            <li><a href="classes/Smr-EnhancedWeaponEvent.html#method___construct">__construct()</a></li>
+                                            <li><a href="classes/Smr-EnhancedWeaponEvent.html#method_createEvent">createEvent()</a></li>
+                                            <li><a href="classes/Smr-EnhancedWeaponEvent.html#method_getEventFromDatabase">getEventFromDatabase()</a></li>
+                                    </ul>
+            </li>
+                    </ul>
+    </section>
+
+                </section>
+                            </div>
+            <section data-search-results class="phpdocumentor-search-results phpdocumentor-search-results--hidden">
     <section class="phpdocumentor-search-results__dialog">
         <header class="phpdocumentor-search-results__header">
             <h2 class="phpdocumentor-search-results__title">Search results</h2>
@@ -1084,7 +1209,6 @@ game, and then randomly across locations that offer that weapon type.</p>
         </section>
     </section>
 </section>
-            </div>
         </div>
         <a href="classes/Smr-EnhancedWeaponEvent.html#top" class="phpdocumentor-back-to-top"><i class="fas fa-chevron-circle-up"></i></a>
 

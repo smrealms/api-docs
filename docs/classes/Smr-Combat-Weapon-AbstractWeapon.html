@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/base.css">
             <link rel="preconnect" href="https://fonts.gstatic.com">
-        <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@400;600;700&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="css/template.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0/css/all.min.css" integrity="sha256-ybRkN9dBjhcS2qrW1z+hfCxq+1aBdwyQM5wlQoQVt/0=" crossorigin="anonymous" />
@@ -19,6 +19,7 @@
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/prismjs@1.23.0/plugins/line-highlight/prism-line-highlight.css">
                 <script src="https://cdn.jsdelivr.net/npm/fuse.js@3.4.6"></script>
         <script src="https://cdn.jsdelivr.net/npm/css-vars-ponyfill@2"></script>
+        <script src="js/template.js"></script>
         <script src="js/search.js"></script>
         <script defer src="js/searchIndex.js"></script>
     </head>
@@ -52,7 +53,7 @@
 <label class="phpdocumentor-sidebar__menu-icon" for="sidebar-button">
     Menu
 </label>
-<aside class="phpdocumentor-column -four phpdocumentor-sidebar">
+<aside class="phpdocumentor-column -three phpdocumentor-sidebar">
                     <section class="phpdocumentor-sidebar__category">
             <h2 class="phpdocumentor-sidebar__category-header">Namespaces</h2>
                                     <h4 class="phpdocumentor-sidebar__root-namespace">
@@ -135,8 +136,9 @@
     </section>
 </aside>
 
-            <div class="phpdocumentor-column -eight phpdocumentor-content">
-                    <ul class="phpdocumentor-breadcrumbs">
+            <div class="phpdocumentor-column -nine phpdocumentor-content">
+                                <section>
+                                        <ul class="phpdocumentor-breadcrumbs">
             <li class="phpdocumentor-breadcrumb"><a href="namespaces/smr.html">Smr</a></li>
             <li class="phpdocumentor-breadcrumb"><a href="namespaces/smr-combat.html">Combat</a></li>
             <li class="phpdocumentor-breadcrumb"><a href="namespaces/smr-combat-weapon.html">Weapon</a></li>
@@ -157,18 +159,22 @@
     
     </h2>
 
+<div class="phpdocumentor-label-line">
+
+
+    <div class="phpdocumentor-label phpdocumentor-label--success"><span>Abstract</span><span>Yes</span></div>
+
+</div>
+
         <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Combat/Weapon/AbstractWeapon.php"><a href="files/src-lib-smr-combat-weapon-abstractweapon.html"><abbr title="src/lib/Smr/Combat/Weapon/AbstractWeapon.php">AbstractWeapon.php</abbr></a></abbr>
     :
     <span class="phpdocumentor-element-found-in__line">10</span>
 
+            <a href="classes/Smr-Combat-Weapon-AbstractWeapon.html#source-view.10" class="phpdocumentor-element-found-in__source" data-line="10" data-modal="source-view" data-src="files/src/lib/Smr/Combat/Weapon/AbstractWeapon.php.txt"></a>
     </aside>
 
         
-    <section class="phpdocumentor-description"></section>
-
-
-
 
 
 
@@ -176,9 +182,21 @@
 
 <h3 id="toc">
     Table of Contents
-    <a href="#toc" class="headerlink"><i class="fas fa-link"></i></a>
+    <a href="classes/Smr-Combat-Weapon-AbstractWeapon.html#toc" class="headerlink"><i class="fas fa-link"></i></a>
+
 </h3>
 
+
+
+
+
+
+
+<h4 id="toc-constants">
+    Constants
+    <a href="classes/Smr-Combat-Weapon-AbstractWeapon.html#toc-constants" class="headerlink"><i class="fas fa-link"></i></a>
+
+</h4>
 <dl class="phpdocumentor-table-of-contents">
             <dt class="phpdocumentor-table-of-contents__entry -constant -protected">
     <a href="classes/Smr-Combat-Weapon-AbstractWeapon.html#constant_PLANET_DAMAGE_MOD">PLANET_DAMAGE_MOD</a>
@@ -187,203 +205,193 @@
 </dt>
 <dd>Reduce the damage done to planets by this factor</dd>
 
-                    <dt class="phpdocumentor-table-of-contents__entry -property -protected">
+    </dl>
+
+
+<h4 id="toc-properties">
+    Properties
+    <a href="classes/Smr-Combat-Weapon-AbstractWeapon.html#toc-properties" class="headerlink"><i class="fas fa-link"></i></a>
+
+</h4>
+<dl class="phpdocumentor-table-of-contents">
+            <dt class="phpdocumentor-table-of-contents__entry -property -protected">
     <a href="classes/Smr-Combat-Weapon-AbstractWeapon.html#property_damageRollover">$damageRollover</a>
     <span>
                         &nbsp;: bool            </span>
 </dt>
-<dd></dd>
 
-                <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    </dl>
+
+<h4 id="toc-methods">
+    Methods
+    <a href="classes/Smr-Combat-Weapon-AbstractWeapon.html#toc-methods" class="headerlink"><i class="fas fa-link"></i></a>
+
+</h4>
+<dl class="phpdocumentor-table-of-contents">
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
     <a href="classes/Smr-Combat-Weapon-AbstractWeapon.html#method_canShootForces">canShootForces()</a>
     <span>
                                 &nbsp;: bool    </span>
 </dt>
-<dd></dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
     <a href="classes/Smr-Combat-Weapon-AbstractWeapon.html#method_canShootPlanets">canShootPlanets()</a>
     <span>
                                 &nbsp;: bool    </span>
 </dt>
-<dd></dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
     <a href="classes/Smr-Combat-Weapon-AbstractWeapon.html#method_canShootPorts">canShootPorts()</a>
     <span>
                                 &nbsp;: bool    </span>
 </dt>
-<dd></dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
     <a href="classes/Smr-Combat-Weapon-AbstractWeapon.html#method_canShootTraders">canShootTraders()</a>
     <span>
                                 &nbsp;: bool    </span>
 </dt>
-<dd></dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
     <a href="classes/Smr-Combat-Weapon-AbstractWeapon.html#method_getArmourDamage">getArmourDamage()</a>
     <span>
                                 &nbsp;: int    </span>
 </dt>
-<dd></dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
     <a href="classes/Smr-Combat-Weapon-AbstractWeapon.html#method_getBaseAccuracy">getBaseAccuracy()</a>
     <span>
                                 &nbsp;: int    </span>
 </dt>
-<dd></dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
     <a href="classes/Smr-Combat-Weapon-AbstractWeapon.html#method_getDamage">getDamage()</a>
     <span>
                                 &nbsp;: <abbr title="\Smr\Combat\Weapon\WeaponDamageData">WeaponDamageData</abbr>    </span>
 </dt>
-<dd></dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
     <a href="classes/Smr-Combat-Weapon-AbstractWeapon.html#method_getModifiedDamageAgainstForces">getModifiedDamageAgainstForces()</a>
     <span>
                                 &nbsp;: <abbr title="\Smr\Combat\Weapon\WeaponDamageData">WeaponDamageData</abbr>    </span>
 </dt>
-<dd></dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
     <a href="classes/Smr-Combat-Weapon-AbstractWeapon.html#method_getModifiedDamageAgainstPlanet">getModifiedDamageAgainstPlanet()</a>
     <span>
                                 &nbsp;: <abbr title="\Smr\Combat\Weapon\WeaponDamageData">WeaponDamageData</abbr>    </span>
 </dt>
-<dd></dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
     <a href="classes/Smr-Combat-Weapon-AbstractWeapon.html#method_getModifiedDamageAgainstPlayer">getModifiedDamageAgainstPlayer()</a>
     <span>
                                 &nbsp;: <abbr title="\Smr\Combat\Weapon\WeaponDamageData">WeaponDamageData</abbr>    </span>
 </dt>
-<dd></dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
     <a href="classes/Smr-Combat-Weapon-AbstractWeapon.html#method_getModifiedDamageAgainstPort">getModifiedDamageAgainstPort()</a>
     <span>
                                 &nbsp;: <abbr title="\Smr\Combat\Weapon\WeaponDamageData">WeaponDamageData</abbr>    </span>
 </dt>
-<dd></dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
     <a href="classes/Smr-Combat-Weapon-AbstractWeapon.html#method_getModifiedForceDamageAgainstPlayer">getModifiedForceDamageAgainstPlayer()</a>
     <span>
                                 &nbsp;: <abbr title="\Smr\Combat\Weapon\WeaponDamageData">WeaponDamageData</abbr>    </span>
 </dt>
-<dd></dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
     <a href="classes/Smr-Combat-Weapon-AbstractWeapon.html#method_getModifiedPlanetDamageAgainstPlayer">getModifiedPlanetDamageAgainstPlayer()</a>
     <span>
                                 &nbsp;: <abbr title="\Smr\Combat\Weapon\WeaponDamageData">WeaponDamageData</abbr>    </span>
 </dt>
-<dd></dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
     <a href="classes/Smr-Combat-Weapon-AbstractWeapon.html#method_getModifiedPortDamageAgainstPlayer">getModifiedPortDamageAgainstPlayer()</a>
     <span>
                                 &nbsp;: <abbr title="\Smr\Combat\Weapon\WeaponDamageData">WeaponDamageData</abbr>    </span>
 </dt>
-<dd></dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
     <a href="classes/Smr-Combat-Weapon-AbstractWeapon.html#method_getName">getName()</a>
     <span>
                                 &nbsp;: string    </span>
 </dt>
-<dd></dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
     <a href="classes/Smr-Combat-Weapon-AbstractWeapon.html#method_getShieldDamage">getShieldDamage()</a>
     <span>
                                 &nbsp;: int    </span>
 </dt>
-<dd></dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
     <a href="classes/Smr-Combat-Weapon-AbstractWeapon.html#method_isDamageRollover">isDamageRollover()</a>
     <span>
                                 &nbsp;: bool    </span>
 </dt>
-<dd></dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
     <a href="classes/Smr-Combat-Weapon-AbstractWeapon.html#method_shootForces">shootForces()</a>
     <span>
-                                &nbsp;: array&lt;string|int, mixed&gt;    </span>
+                                &nbsp;: <abbr title="array{Weapon: self, Target: \Smr\Force, Hit: bool, WeaponDamage?: \Smr\Combat\Weapon\WeaponDamageData, ActualDamage?: \Smr\Combat\Weapon\ForceTakenDamageData, KillResults?: array{}}">ForceTakenDamageData, KillResults?: array{}}</abbr>    </span>
 </dt>
-<dd></dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
     <a href="classes/Smr-Combat-Weapon-AbstractWeapon.html#method_shootPlayer">shootPlayer()</a>
     <span>
-                                &nbsp;: array&lt;string|int, mixed&gt;    </span>
+                                &nbsp;: <abbr title="array{Weapon: self, Target: \Smr\AbstractPlayer, Hit: bool, WeaponDamage?: \Smr\Combat\Weapon\WeaponDamageData, ActualDamage?: \Smr\Combat\Weapon\TakenDamageData, KillResults?: array{DeadExp: int, KillerExp: int, KillerCredits: int}}">TakenDamageData, KillResults?: array{DeadExp: int, KillerExp: int, KillerCredits: int}}</abbr>    </span>
 </dt>
-<dd></dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
     <a href="classes/Smr-Combat-Weapon-AbstractWeapon.html#method_shootPlayerAsForce">shootPlayerAsForce()</a>
     <span>
-                                &nbsp;: array&lt;string|int, mixed&gt;    </span>
+                                &nbsp;: <abbr title="array{Weapon: self, Target: \Smr\AbstractPlayer, Hit: bool, WeaponDamage: \Smr\Combat\Weapon\WeaponDamageData, ActualDamage: \Smr\Combat\Weapon\TakenDamageData, KillResults?: array{DeadExp: int, LostCredits: int}}">TakenDamageData, KillResults?: array{DeadExp: int, LostCredits: int}}</abbr>    </span>
 </dt>
-<dd></dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -protected">
     <a href="classes/Smr-Combat-Weapon-AbstractWeapon.html#method_doForceDamageToPlayer">doForceDamageToPlayer()</a>
     <span>
-                                &nbsp;: array&lt;string|int, mixed&gt;    </span>
+                                &nbsp;: <abbr title="array{Weapon: self, Target: \Smr\AbstractPlayer, Hit: bool, WeaponDamage: \Smr\Combat\Weapon\WeaponDamageData, ActualDamage: \Smr\Combat\Weapon\TakenDamageData, KillResults?: array{DeadExp: int, LostCredits: int}}">TakenDamageData, KillResults?: array{DeadExp: int, LostCredits: int}}</abbr>    </span>
 </dt>
-<dd></dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -protected">
     <a href="classes/Smr-Combat-Weapon-AbstractWeapon.html#method_doPlanetDamageToPlayer">doPlanetDamageToPlayer()</a>
     <span>
-                                &nbsp;: array&lt;string|int, mixed&gt;    </span>
+                                &nbsp;: <abbr title="array{Weapon: self, Target: \Smr\AbstractPlayer, Hit: bool, WeaponDamage: \Smr\Combat\Weapon\WeaponDamageData, ActualDamage: \Smr\Combat\Weapon\TakenDamageData, KillResults?: array{DeadExp: int, LostCredits: int}}">TakenDamageData, KillResults?: array{DeadExp: int, LostCredits: int}}</abbr>    </span>
 </dt>
-<dd></dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -protected">
     <a href="classes/Smr-Combat-Weapon-AbstractWeapon.html#method_doPlayerDamageToForce">doPlayerDamageToForce()</a>
     <span>
-                                &nbsp;: array&lt;string|int, mixed&gt;    </span>
+                                &nbsp;: <abbr title="array{Weapon: self, Target: \Smr\Force, Hit: bool, WeaponDamage: \Smr\Combat\Weapon\WeaponDamageData, ActualDamage: \Smr\Combat\Weapon\ForceTakenDamageData, KillResults?: array{}}">ForceTakenDamageData, KillResults?: array{}}</abbr>    </span>
 </dt>
-<dd></dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -protected">
     <a href="classes/Smr-Combat-Weapon-AbstractWeapon.html#method_doPlayerDamageToPlanet">doPlayerDamageToPlanet()</a>
     <span>
-                                &nbsp;: array&lt;string|int, mixed&gt;    </span>
+                                &nbsp;: <abbr title="array{Weapon: self, Target: \Smr\Planet, Hit: bool, WeaponDamage: \Smr\Combat\Weapon\WeaponDamageData, ActualDamage: \Smr\Combat\Weapon\TakenDamageData, KillResults?: array{}}">TakenDamageData, KillResults?: array{}}</abbr>    </span>
 </dt>
-<dd></dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -protected">
     <a href="classes/Smr-Combat-Weapon-AbstractWeapon.html#method_doPlayerDamageToPlayer">doPlayerDamageToPlayer()</a>
     <span>
-                                &nbsp;: array&lt;string|int, mixed&gt;    </span>
+                                &nbsp;: <abbr title="array{Weapon: self, Target: \Smr\AbstractPlayer, Hit: bool, WeaponDamage: \Smr\Combat\Weapon\WeaponDamageData, ActualDamage: \Smr\Combat\Weapon\TakenDamageData, KillResults?: array{DeadExp: int, KillerExp: int, KillerCredits: int}}">TakenDamageData, KillResults?: array{DeadExp: int, KillerExp: int, KillerCredits: int}}</abbr>    </span>
 </dt>
-<dd></dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -protected">
     <a href="classes/Smr-Combat-Weapon-AbstractWeapon.html#method_doPlayerDamageToPort">doPlayerDamageToPort()</a>
     <span>
-                                &nbsp;: array&lt;string|int, mixed&gt;    </span>
+                                &nbsp;: <abbr title="array{Weapon: self, Target: \Smr\Port, Hit: bool, WeaponDamage: \Smr\Combat\Weapon\WeaponDamageData, ActualDamage: \Smr\Combat\Weapon\TakenDamageData, KillResults?: array{}}">TakenDamageData, KillResults?: array{}}</abbr>    </span>
 </dt>
-<dd></dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -protected">
     <a href="classes/Smr-Combat-Weapon-AbstractWeapon.html#method_doPortDamageToPlayer">doPortDamageToPlayer()</a>
     <span>
-                                &nbsp;: array&lt;string|int, mixed&gt;    </span>
+                                &nbsp;: <abbr title="array{Weapon: self, Target: \Smr\AbstractPlayer, Hit: bool, WeaponDamage: \Smr\Combat\Weapon\WeaponDamageData, ActualDamage: \Smr\Combat\Weapon\TakenDamageData, KillResults?: array{DeadExp: int, LostCredits: int}}">TakenDamageData, KillResults?: array{DeadExp: int, LostCredits: int}}</abbr>    </span>
 </dt>
-<dd></dd>
 
-        </dl>
+    </dl>
+
 
 
 
@@ -392,11 +400,13 @@
         <h3 class="phpdocumentor-elements__header" id="constants">
             Constants
             <a href="classes/Smr-Combat-Weapon-AbstractWeapon.html#constants" class="headerlink"><i class="fas fa-link"></i></a>
+
         </h3>
                     <article class="phpdocumentor-element -constant -protected ">
     <h4 class="phpdocumentor-element__name" id="constant_PLANET_DAMAGE_MOD">
         PLANET_DAMAGE_MOD
         <a href="classes/Smr-Combat-Weapon-AbstractWeapon.html#constant_PLANET_DAMAGE_MOD" class="headerlink"><i class="fas fa-link"></i></a>
+
     </h4>
 
     <aside class="phpdocumentor-element-found-in">
@@ -404,6 +414,7 @@
     :
     <span class="phpdocumentor-element-found-in__line">15</span>
 
+            <a href="classes/Smr-Combat-Weapon-AbstractWeapon.html#source-view.15" class="phpdocumentor-element-found-in__source" data-line="15" data-modal="source-view" data-src="files/src/lib/Smr/Combat/Weapon/AbstractWeapon.php.txt"></a>
     </aside>
 
         <p class="phpdocumentor-summary">Reduce the damage done to planets by this factor</p>
@@ -417,8 +428,7 @@
 
 
     
-        <section class="phpdocumentor-description"></section>
-
+    
     
 
 </article>
@@ -429,6 +439,7 @@
         <h3 class="phpdocumentor-elements__header" id="properties">
             Properties
             <a href="classes/Smr-Combat-Weapon-AbstractWeapon.html#properties" class="headerlink"><i class="fas fa-link"></i></a>
+
         </h3>
                     <article
         class="
@@ -440,6 +451,7 @@
     <h4 class="phpdocumentor-element__name" id="property_damageRollover">
         $damageRollover
         <a href="classes/Smr-Combat-Weapon-AbstractWeapon.html#property_damageRollover" class="headerlink"><i class="fas fa-link"></i></a>
+
         <span class="phpdocumentor-element__modifiers">
                                 </span>
     </h4>
@@ -448,6 +460,7 @@
     :
     <span class="phpdocumentor-element-found-in__line">17</span>
 
+            <a href="classes/Smr-Combat-Weapon-AbstractWeapon.html#source-view.17" class="phpdocumentor-element-found-in__source" data-line="17" data-modal="source-view" data-src="files/src/lib/Smr/Combat/Weapon/AbstractWeapon.php.txt"></a>
     </aside>
 
     
@@ -457,10 +470,8 @@
     <span class="phpdocumentor-signature__name">$damageRollover</span>
     </code>
 
-        <section class="phpdocumentor-description"></section>
-
-        <section class="phpdocumentor-description"></section>
-
+    
+    
     
 
 </article>
@@ -470,6 +481,7 @@
         <h3 class="phpdocumentor-elements__header" id="methods">
             Methods
             <a href="classes/Smr-Combat-Weapon-AbstractWeapon.html#methods" class="headerlink"><i class="fas fa-link"></i></a>
+
         </h3>
                     <article
         class="phpdocumentor-element
@@ -480,29 +492,32 @@
     <h4 class="phpdocumentor-element__name" id="method_canShootForces">
         canShootForces()
         <a href="classes/Smr-Combat-Weapon-AbstractWeapon.html#method_canShootForces" class="headerlink"><i class="fas fa-link"></i></a>
+
     </h4>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Combat/Weapon/AbstractWeapon.php"><a href="files/src-lib-smr-combat-weapon-abstractweapon.html"><abbr title="src/lib/Smr/Combat/Weapon/AbstractWeapon.php">AbstractWeapon.php</abbr></a></abbr>
     :
     <span class="phpdocumentor-element-found-in__line">28</span>
 
+            <a href="classes/Smr-Combat-Weapon-AbstractWeapon.html#source-view.28" class="phpdocumentor-element-found-in__source" data-line="28" data-modal="source-view" data-src="files/src/lib/Smr/Combat/Weapon/AbstractWeapon.php.txt"></a>
     </aside>
 
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">public</span>
-                <span class="phpdocumentor-signature__name">canShootForces</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">bool</span></code>
+                    <span class="phpdocumentor-signature__name">canShootForces</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">bool</span></code>
 
-        <section class="phpdocumentor-description"></section>
-
+    <div class="phpdocumentor-label-line">
+        </div>
     
     
+    
 
+            <section>
         <h5 class="phpdocumentor-return-value__heading">Return values</h5>
-    <span class="phpdocumentor-signature__response_type">bool</span>
-            &mdash;
-        
-    
+        <span class="phpdocumentor-signature__response_type">bool</span>
+            </section>
+
 </article>
                     <article
         class="phpdocumentor-element
@@ -513,29 +528,32 @@
     <h4 class="phpdocumentor-element__name" id="method_canShootPlanets">
         canShootPlanets()
         <a href="classes/Smr-Combat-Weapon-AbstractWeapon.html#method_canShootPlanets" class="headerlink"><i class="fas fa-link"></i></a>
+
     </h4>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Combat/Weapon/AbstractWeapon.php"><a href="files/src-lib-smr-combat-weapon-abstractweapon.html"><abbr title="src/lib/Smr/Combat/Weapon/AbstractWeapon.php">AbstractWeapon.php</abbr></a></abbr>
     :
     <span class="phpdocumentor-element-found-in__line">36</span>
 
+            <a href="classes/Smr-Combat-Weapon-AbstractWeapon.html#source-view.36" class="phpdocumentor-element-found-in__source" data-line="36" data-modal="source-view" data-src="files/src/lib/Smr/Combat/Weapon/AbstractWeapon.php.txt"></a>
     </aside>
 
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">public</span>
-                <span class="phpdocumentor-signature__name">canShootPlanets</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">bool</span></code>
+                    <span class="phpdocumentor-signature__name">canShootPlanets</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">bool</span></code>
 
-        <section class="phpdocumentor-description"></section>
-
+    <div class="phpdocumentor-label-line">
+        </div>
     
     
+    
 
+            <section>
         <h5 class="phpdocumentor-return-value__heading">Return values</h5>
-    <span class="phpdocumentor-signature__response_type">bool</span>
-            &mdash;
-        
-    
+        <span class="phpdocumentor-signature__response_type">bool</span>
+            </section>
+
 </article>
                     <article
         class="phpdocumentor-element
@@ -546,29 +564,32 @@
     <h4 class="phpdocumentor-element__name" id="method_canShootPorts">
         canShootPorts()
         <a href="classes/Smr-Combat-Weapon-AbstractWeapon.html#method_canShootPorts" class="headerlink"><i class="fas fa-link"></i></a>
+
     </h4>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Combat/Weapon/AbstractWeapon.php"><a href="files/src-lib-smr-combat-weapon-abstractweapon.html"><abbr title="src/lib/Smr/Combat/Weapon/AbstractWeapon.php">AbstractWeapon.php</abbr></a></abbr>
     :
     <span class="phpdocumentor-element-found-in__line">32</span>
 
+            <a href="classes/Smr-Combat-Weapon-AbstractWeapon.html#source-view.32" class="phpdocumentor-element-found-in__source" data-line="32" data-modal="source-view" data-src="files/src/lib/Smr/Combat/Weapon/AbstractWeapon.php.txt"></a>
     </aside>
 
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">public</span>
-                <span class="phpdocumentor-signature__name">canShootPorts</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">bool</span></code>
+                    <span class="phpdocumentor-signature__name">canShootPorts</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">bool</span></code>
 
-        <section class="phpdocumentor-description"></section>
-
+    <div class="phpdocumentor-label-line">
+        </div>
     
     
+    
 
+            <section>
         <h5 class="phpdocumentor-return-value__heading">Return values</h5>
-    <span class="phpdocumentor-signature__response_type">bool</span>
-            &mdash;
-        
-    
+        <span class="phpdocumentor-signature__response_type">bool</span>
+            </section>
+
 </article>
                     <article
         class="phpdocumentor-element
@@ -579,29 +600,32 @@
     <h4 class="phpdocumentor-element__name" id="method_canShootTraders">
         canShootTraders()
         <a href="classes/Smr-Combat-Weapon-AbstractWeapon.html#method_canShootTraders" class="headerlink"><i class="fas fa-link"></i></a>
+
     </h4>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Combat/Weapon/AbstractWeapon.php"><a href="files/src-lib-smr-combat-weapon-abstractweapon.html"><abbr title="src/lib/Smr/Combat/Weapon/AbstractWeapon.php">AbstractWeapon.php</abbr></a></abbr>
     :
     <span class="phpdocumentor-element-found-in__line">40</span>
 
+            <a href="classes/Smr-Combat-Weapon-AbstractWeapon.html#source-view.40" class="phpdocumentor-element-found-in__source" data-line="40" data-modal="source-view" data-src="files/src/lib/Smr/Combat/Weapon/AbstractWeapon.php.txt"></a>
     </aside>
 
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">public</span>
-                <span class="phpdocumentor-signature__name">canShootTraders</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">bool</span></code>
+                    <span class="phpdocumentor-signature__name">canShootTraders</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">bool</span></code>
 
-        <section class="phpdocumentor-description"></section>
-
+    <div class="phpdocumentor-label-line">
+        </div>
     
     
+    
 
+            <section>
         <h5 class="phpdocumentor-return-value__heading">Return values</h5>
-    <span class="phpdocumentor-signature__response_type">bool</span>
-            &mdash;
-        
-    
+        <span class="phpdocumentor-signature__response_type">bool</span>
+            </section>
+
 </article>
                     <article
         class="phpdocumentor-element
@@ -612,29 +636,32 @@
     <h4 class="phpdocumentor-element__name" id="method_getArmourDamage">
         getArmourDamage()
         <a href="classes/Smr-Combat-Weapon-AbstractWeapon.html#method_getArmourDamage" class="headerlink"><i class="fas fa-link"></i></a>
+
     </h4>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Combat/Weapon/AbstractWeapon.php"><a href="files/src-lib-smr-combat-weapon-abstractweapon.html"><abbr title="src/lib/Smr/Combat/Weapon/AbstractWeapon.php">AbstractWeapon.php</abbr></a></abbr>
     :
     <span class="phpdocumentor-element-found-in__line">22</span>
 
+            <a href="classes/Smr-Combat-Weapon-AbstractWeapon.html#source-view.22" class="phpdocumentor-element-found-in__source" data-line="22" data-modal="source-view" data-src="files/src/lib/Smr/Combat/Weapon/AbstractWeapon.php.txt"></a>
     </aside>
 
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">public</span>
-    <span class="phpdocumentor-signature__abstract">abstract</span>            <span class="phpdocumentor-signature__name">getArmourDamage</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">int</span></code>
+    <span class="phpdocumentor-signature__abstract">abstract</span>                <span class="phpdocumentor-signature__name">getArmourDamage</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">int</span></code>
 
-        <section class="phpdocumentor-description"></section>
-
+    <div class="phpdocumentor-label-line">
+        </div>
     
     
+    
 
+            <section>
         <h5 class="phpdocumentor-return-value__heading">Return values</h5>
-    <span class="phpdocumentor-signature__response_type">int</span>
-            &mdash;
-        
-    
+        <span class="phpdocumentor-signature__response_type">int</span>
+            </section>
+
 </article>
                     <article
         class="phpdocumentor-element
@@ -645,29 +672,32 @@
     <h4 class="phpdocumentor-element__name" id="method_getBaseAccuracy">
         getBaseAccuracy()
         <a href="classes/Smr-Combat-Weapon-AbstractWeapon.html#method_getBaseAccuracy" class="headerlink"><i class="fas fa-link"></i></a>
+
     </h4>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Combat/Weapon/AbstractWeapon.php"><a href="files/src-lib-smr-combat-weapon-abstractweapon.html"><abbr title="src/lib/Smr/Combat/Weapon/AbstractWeapon.php">AbstractWeapon.php</abbr></a></abbr>
     :
     <span class="phpdocumentor-element-found-in__line">19</span>
 
+            <a href="classes/Smr-Combat-Weapon-AbstractWeapon.html#source-view.19" class="phpdocumentor-element-found-in__source" data-line="19" data-modal="source-view" data-src="files/src/lib/Smr/Combat/Weapon/AbstractWeapon.php.txt"></a>
     </aside>
 
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">public</span>
-    <span class="phpdocumentor-signature__abstract">abstract</span>            <span class="phpdocumentor-signature__name">getBaseAccuracy</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">int</span></code>
+    <span class="phpdocumentor-signature__abstract">abstract</span>                <span class="phpdocumentor-signature__name">getBaseAccuracy</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">int</span></code>
 
-        <section class="phpdocumentor-description"></section>
-
+    <div class="phpdocumentor-label-line">
+        </div>
     
     
+    
 
+            <section>
         <h5 class="phpdocumentor-return-value__heading">Return values</h5>
-    <span class="phpdocumentor-signature__response_type">int</span>
-            &mdash;
-        
-    
+        <span class="phpdocumentor-signature__response_type">int</span>
+            </section>
+
 </article>
                     <article
         class="phpdocumentor-element
@@ -678,28 +708,32 @@
     <h4 class="phpdocumentor-element__name" id="method_getDamage">
         getDamage()
         <a href="classes/Smr-Combat-Weapon-AbstractWeapon.html#method_getDamage" class="headerlink"><i class="fas fa-link"></i></a>
+
     </h4>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Combat/Weapon/AbstractWeapon.php"><a href="files/src-lib-smr-combat-weapon-abstractweapon.html"><abbr title="src/lib/Smr/Combat/Weapon/AbstractWeapon.php">AbstractWeapon.php</abbr></a></abbr>
     :
     <span class="phpdocumentor-element-found-in__line">47</span>
 
+            <a href="classes/Smr-Combat-Weapon-AbstractWeapon.html#source-view.47" class="phpdocumentor-element-found-in__source" data-line="47" data-modal="source-view" data-src="files/src/lib/Smr/Combat/Weapon/AbstractWeapon.php.txt"></a>
     </aside>
 
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">public</span>
-                <span class="phpdocumentor-signature__name">getDamage</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type"><abbr title="\Smr\Combat\Weapon\WeaponDamageData">WeaponDamageData</abbr></span></code>
+                    <span class="phpdocumentor-signature__name">getDamage</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type"><abbr title="\Smr\Combat\Weapon\WeaponDamageData">WeaponDamageData</abbr></span></code>
 
+    <div class="phpdocumentor-label-line">
+        </div>
     
     
     
 
+            <section>
         <h5 class="phpdocumentor-return-value__heading">Return values</h5>
-    <span class="phpdocumentor-signature__response_type"><abbr title="\Smr\Combat\Weapon\WeaponDamageData">WeaponDamageData</abbr></span>
-            &mdash;
-        
-    
+        <span class="phpdocumentor-signature__response_type"><abbr title="\Smr\Combat\Weapon\WeaponDamageData">WeaponDamageData</abbr></span>
+            </section>
+
 </article>
                     <article
         class="phpdocumentor-element
@@ -710,19 +744,23 @@
     <h4 class="phpdocumentor-element__name" id="method_getModifiedDamageAgainstForces">
         getModifiedDamageAgainstForces()
         <a href="classes/Smr-Combat-Weapon-AbstractWeapon.html#method_getModifiedDamageAgainstForces" class="headerlink"><i class="fas fa-link"></i></a>
+
     </h4>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Combat/Weapon/AbstractWeapon.php"><a href="files/src-lib-smr-combat-weapon-abstractweapon.html"><abbr title="src/lib/Smr/Combat/Weapon/AbstractWeapon.php">AbstractWeapon.php</abbr></a></abbr>
     :
     <span class="phpdocumentor-element-found-in__line">54</span>
 
+            <a href="classes/Smr-Combat-Weapon-AbstractWeapon.html#source-view.54" class="phpdocumentor-element-found-in__source" data-line="54" data-modal="source-view" data-src="files/src/lib/Smr/Combat/Weapon/AbstractWeapon.php.txt"></a>
     </aside>
 
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">public</span>
-    <span class="phpdocumentor-signature__abstract">abstract</span>            <span class="phpdocumentor-signature__name">getModifiedDamageAgainstForces</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type"><a href="classes/Smr-AbstractPlayer.html"><abbr title="\Smr\AbstractPlayer">AbstractPlayer</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$weaponPlayer</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__return-type"><a href="classes/Smr-Force.html"><abbr title="\Smr\Force">Force</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$forces</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type"><abbr title="\Smr\Combat\Weapon\WeaponDamageData">WeaponDamageData</abbr></span></code>
+    <span class="phpdocumentor-signature__abstract">abstract</span>                <span class="phpdocumentor-signature__name">getModifiedDamageAgainstForces</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type"><a href="classes/Smr-AbstractPlayer.html"><abbr title="\Smr\AbstractPlayer">AbstractPlayer</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$weaponPlayer</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__return-type"><a href="classes/Smr-Force.html"><abbr title="\Smr\Force">Force</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$forces</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type"><abbr title="\Smr\Combat\Weapon\WeaponDamageData">WeaponDamageData</abbr></span></code>
 
+    <div class="phpdocumentor-label-line">
+        </div>
     
         <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
     <dl class="phpdocumentor-argument-list">
@@ -731,26 +769,24 @@
                 : <span class="phpdocumentor-signature__argument__return-type"><a href="classes/Smr-AbstractPlayer.html"><abbr title="\Smr\AbstractPlayer">AbstractPlayer</abbr></a></span>
                             </dt>
             <dd class="phpdocumentor-argument-list__definition">
-                    <section class="phpdocumentor-description"></section>
-
+                
             </dd>
                     <dt class="phpdocumentor-argument-list__entry">
                 <span class="phpdocumentor-signature__argument__name">$forces</span>
                 : <span class="phpdocumentor-signature__argument__return-type"><a href="classes/Smr-Force.html"><abbr title="\Smr\Force">Force</abbr></a></span>
                             </dt>
             <dd class="phpdocumentor-argument-list__definition">
-                    <section class="phpdocumentor-description"></section>
-
+                
             </dd>
             </dl>
 
     
 
+            <section>
         <h5 class="phpdocumentor-return-value__heading">Return values</h5>
-    <span class="phpdocumentor-signature__response_type"><abbr title="\Smr\Combat\Weapon\WeaponDamageData">WeaponDamageData</abbr></span>
-            &mdash;
-        
-    
+        <span class="phpdocumentor-signature__response_type"><abbr title="\Smr\Combat\Weapon\WeaponDamageData">WeaponDamageData</abbr></span>
+            </section>
+
 </article>
                     <article
         class="phpdocumentor-element
@@ -761,19 +797,23 @@
     <h4 class="phpdocumentor-element__name" id="method_getModifiedDamageAgainstPlanet">
         getModifiedDamageAgainstPlanet()
         <a href="classes/Smr-Combat-Weapon-AbstractWeapon.html#method_getModifiedDamageAgainstPlanet" class="headerlink"><i class="fas fa-link"></i></a>
+
     </h4>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Combat/Weapon/AbstractWeapon.php"><a href="files/src-lib-smr-combat-weapon-abstractweapon.html"><abbr title="src/lib/Smr/Combat/Weapon/AbstractWeapon.php">AbstractWeapon.php</abbr></a></abbr>
     :
     <span class="phpdocumentor-element-found-in__line">64</span>
 
+            <a href="classes/Smr-Combat-Weapon-AbstractWeapon.html#source-view.64" class="phpdocumentor-element-found-in__source" data-line="64" data-modal="source-view" data-src="files/src/lib/Smr/Combat/Weapon/AbstractWeapon.php.txt"></a>
     </aside>
 
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">public</span>
-    <span class="phpdocumentor-signature__abstract">abstract</span>            <span class="phpdocumentor-signature__name">getModifiedDamageAgainstPlanet</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type"><a href="classes/Smr-AbstractPlayer.html"><abbr title="\Smr\AbstractPlayer">AbstractPlayer</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$weaponPlayer</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__return-type"><a href="classes/Smr-Planet.html"><abbr title="\Smr\Planet">Planet</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$planet</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type"><abbr title="\Smr\Combat\Weapon\WeaponDamageData">WeaponDamageData</abbr></span></code>
+    <span class="phpdocumentor-signature__abstract">abstract</span>                <span class="phpdocumentor-signature__name">getModifiedDamageAgainstPlanet</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type"><a href="classes/Smr-AbstractPlayer.html"><abbr title="\Smr\AbstractPlayer">AbstractPlayer</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$weaponPlayer</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__return-type"><a href="classes/Smr-Planet.html"><abbr title="\Smr\Planet">Planet</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$planet</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type"><abbr title="\Smr\Combat\Weapon\WeaponDamageData">WeaponDamageData</abbr></span></code>
 
+    <div class="phpdocumentor-label-line">
+        </div>
     
         <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
     <dl class="phpdocumentor-argument-list">
@@ -782,26 +822,24 @@
                 : <span class="phpdocumentor-signature__argument__return-type"><a href="classes/Smr-AbstractPlayer.html"><abbr title="\Smr\AbstractPlayer">AbstractPlayer</abbr></a></span>
                             </dt>
             <dd class="phpdocumentor-argument-list__definition">
-                    <section class="phpdocumentor-description"></section>
-
+                
             </dd>
                     <dt class="phpdocumentor-argument-list__entry">
                 <span class="phpdocumentor-signature__argument__name">$planet</span>
                 : <span class="phpdocumentor-signature__argument__return-type"><a href="classes/Smr-Planet.html"><abbr title="\Smr\Planet">Planet</abbr></a></span>
                             </dt>
             <dd class="phpdocumentor-argument-list__definition">
-                    <section class="phpdocumentor-description"></section>
-
+                
             </dd>
             </dl>
 
     
 
+            <section>
         <h5 class="phpdocumentor-return-value__heading">Return values</h5>
-    <span class="phpdocumentor-signature__response_type"><abbr title="\Smr\Combat\Weapon\WeaponDamageData">WeaponDamageData</abbr></span>
-            &mdash;
-        
-    
+        <span class="phpdocumentor-signature__response_type"><abbr title="\Smr\Combat\Weapon\WeaponDamageData">WeaponDamageData</abbr></span>
+            </section>
+
 </article>
                     <article
         class="phpdocumentor-element
@@ -812,19 +850,23 @@
     <h4 class="phpdocumentor-element__name" id="method_getModifiedDamageAgainstPlayer">
         getModifiedDamageAgainstPlayer()
         <a href="classes/Smr-Combat-Weapon-AbstractWeapon.html#method_getModifiedDamageAgainstPlayer" class="headerlink"><i class="fas fa-link"></i></a>
+
     </h4>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Combat/Weapon/AbstractWeapon.php"><a href="files/src-lib-smr-combat-weapon-abstractweapon.html"><abbr title="src/lib/Smr/Combat/Weapon/AbstractWeapon.php">AbstractWeapon.php</abbr></a></abbr>
     :
     <span class="phpdocumentor-element-found-in__line">74</span>
 
+            <a href="classes/Smr-Combat-Weapon-AbstractWeapon.html#source-view.74" class="phpdocumentor-element-found-in__source" data-line="74" data-modal="source-view" data-src="files/src/lib/Smr/Combat/Weapon/AbstractWeapon.php.txt"></a>
     </aside>
 
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">public</span>
-    <span class="phpdocumentor-signature__abstract">abstract</span>            <span class="phpdocumentor-signature__name">getModifiedDamageAgainstPlayer</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type"><a href="classes/Smr-AbstractPlayer.html"><abbr title="\Smr\AbstractPlayer">AbstractPlayer</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$weaponPlayer</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__return-type"><a href="classes/Smr-AbstractPlayer.html"><abbr title="\Smr\AbstractPlayer">AbstractPlayer</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$targetPlayer</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type"><abbr title="\Smr\Combat\Weapon\WeaponDamageData">WeaponDamageData</abbr></span></code>
+    <span class="phpdocumentor-signature__abstract">abstract</span>                <span class="phpdocumentor-signature__name">getModifiedDamageAgainstPlayer</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type"><a href="classes/Smr-AbstractPlayer.html"><abbr title="\Smr\AbstractPlayer">AbstractPlayer</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$weaponPlayer</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__return-type"><a href="classes/Smr-AbstractPlayer.html"><abbr title="\Smr\AbstractPlayer">AbstractPlayer</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$targetPlayer</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type"><abbr title="\Smr\Combat\Weapon\WeaponDamageData">WeaponDamageData</abbr></span></code>
 
+    <div class="phpdocumentor-label-line">
+        </div>
     
         <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
     <dl class="phpdocumentor-argument-list">
@@ -833,26 +875,24 @@
                 : <span class="phpdocumentor-signature__argument__return-type"><a href="classes/Smr-AbstractPlayer.html"><abbr title="\Smr\AbstractPlayer">AbstractPlayer</abbr></a></span>
                             </dt>
             <dd class="phpdocumentor-argument-list__definition">
-                    <section class="phpdocumentor-description"></section>
-
+                
             </dd>
                     <dt class="phpdocumentor-argument-list__entry">
                 <span class="phpdocumentor-signature__argument__name">$targetPlayer</span>
                 : <span class="phpdocumentor-signature__argument__return-type"><a href="classes/Smr-AbstractPlayer.html"><abbr title="\Smr\AbstractPlayer">AbstractPlayer</abbr></a></span>
                             </dt>
             <dd class="phpdocumentor-argument-list__definition">
-                    <section class="phpdocumentor-description"></section>
-
+                
             </dd>
             </dl>
 
     
 
+            <section>
         <h5 class="phpdocumentor-return-value__heading">Return values</h5>
-    <span class="phpdocumentor-signature__response_type"><abbr title="\Smr\Combat\Weapon\WeaponDamageData">WeaponDamageData</abbr></span>
-            &mdash;
-        
-    
+        <span class="phpdocumentor-signature__response_type"><abbr title="\Smr\Combat\Weapon\WeaponDamageData">WeaponDamageData</abbr></span>
+            </section>
+
 </article>
                     <article
         class="phpdocumentor-element
@@ -863,19 +903,23 @@
     <h4 class="phpdocumentor-element__name" id="method_getModifiedDamageAgainstPort">
         getModifiedDamageAgainstPort()
         <a href="classes/Smr-Combat-Weapon-AbstractWeapon.html#method_getModifiedDamageAgainstPort" class="headerlink"><i class="fas fa-link"></i></a>
+
     </h4>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Combat/Weapon/AbstractWeapon.php"><a href="files/src-lib-smr-combat-weapon-abstractweapon.html"><abbr title="src/lib/Smr/Combat/Weapon/AbstractWeapon.php">AbstractWeapon.php</abbr></a></abbr>
     :
     <span class="phpdocumentor-element-found-in__line">59</span>
 
+            <a href="classes/Smr-Combat-Weapon-AbstractWeapon.html#source-view.59" class="phpdocumentor-element-found-in__source" data-line="59" data-modal="source-view" data-src="files/src/lib/Smr/Combat/Weapon/AbstractWeapon.php.txt"></a>
     </aside>
 
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">public</span>
-    <span class="phpdocumentor-signature__abstract">abstract</span>            <span class="phpdocumentor-signature__name">getModifiedDamageAgainstPort</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type"><a href="classes/Smr-AbstractPlayer.html"><abbr title="\Smr\AbstractPlayer">AbstractPlayer</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$weaponPlayer</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__return-type"><a href="classes/Smr-Port.html"><abbr title="\Smr\Port">Port</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$port</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type"><abbr title="\Smr\Combat\Weapon\WeaponDamageData">WeaponDamageData</abbr></span></code>
+    <span class="phpdocumentor-signature__abstract">abstract</span>                <span class="phpdocumentor-signature__name">getModifiedDamageAgainstPort</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type"><a href="classes/Smr-AbstractPlayer.html"><abbr title="\Smr\AbstractPlayer">AbstractPlayer</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$weaponPlayer</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__return-type"><a href="classes/Smr-Port.html"><abbr title="\Smr\Port">Port</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$port</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type"><abbr title="\Smr\Combat\Weapon\WeaponDamageData">WeaponDamageData</abbr></span></code>
 
+    <div class="phpdocumentor-label-line">
+        </div>
     
         <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
     <dl class="phpdocumentor-argument-list">
@@ -884,26 +928,24 @@
                 : <span class="phpdocumentor-signature__argument__return-type"><a href="classes/Smr-AbstractPlayer.html"><abbr title="\Smr\AbstractPlayer">AbstractPlayer</abbr></a></span>
                             </dt>
             <dd class="phpdocumentor-argument-list__definition">
-                    <section class="phpdocumentor-description"></section>
-
+                
             </dd>
                     <dt class="phpdocumentor-argument-list__entry">
                 <span class="phpdocumentor-signature__argument__name">$port</span>
                 : <span class="phpdocumentor-signature__argument__return-type"><a href="classes/Smr-Port.html"><abbr title="\Smr\Port">Port</abbr></a></span>
                             </dt>
             <dd class="phpdocumentor-argument-list__definition">
-                    <section class="phpdocumentor-description"></section>
-
+                
             </dd>
             </dl>
 
     
 
+            <section>
         <h5 class="phpdocumentor-return-value__heading">Return values</h5>
-    <span class="phpdocumentor-signature__response_type"><abbr title="\Smr\Combat\Weapon\WeaponDamageData">WeaponDamageData</abbr></span>
-            &mdash;
-        
-    
+        <span class="phpdocumentor-signature__response_type"><abbr title="\Smr\Combat\Weapon\WeaponDamageData">WeaponDamageData</abbr></span>
+            </section>
+
 </article>
                     <article
         class="phpdocumentor-element
@@ -914,19 +956,23 @@
     <h4 class="phpdocumentor-element__name" id="method_getModifiedForceDamageAgainstPlayer">
         getModifiedForceDamageAgainstPlayer()
         <a href="classes/Smr-Combat-Weapon-AbstractWeapon.html#method_getModifiedForceDamageAgainstPlayer" class="headerlink"><i class="fas fa-link"></i></a>
+
     </h4>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Combat/Weapon/AbstractWeapon.php"><a href="files/src-lib-smr-combat-weapon-abstractweapon.html"><abbr title="src/lib/Smr/Combat/Weapon/AbstractWeapon.php">AbstractWeapon.php</abbr></a></abbr>
     :
     <span class="phpdocumentor-element-found-in__line">79</span>
 
+            <a href="classes/Smr-Combat-Weapon-AbstractWeapon.html#source-view.79" class="phpdocumentor-element-found-in__source" data-line="79" data-modal="source-view" data-src="files/src/lib/Smr/Combat/Weapon/AbstractWeapon.php.txt"></a>
     </aside>
 
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">public</span>
-    <span class="phpdocumentor-signature__abstract">abstract</span>            <span class="phpdocumentor-signature__name">getModifiedForceDamageAgainstPlayer</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type"><a href="classes/Smr-Force.html"><abbr title="\Smr\Force">Force</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$forces</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__return-type"><a href="classes/Smr-AbstractPlayer.html"><abbr title="\Smr\AbstractPlayer">AbstractPlayer</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$targetPlayer</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type"><abbr title="\Smr\Combat\Weapon\WeaponDamageData">WeaponDamageData</abbr></span></code>
+    <span class="phpdocumentor-signature__abstract">abstract</span>                <span class="phpdocumentor-signature__name">getModifiedForceDamageAgainstPlayer</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type"><a href="classes/Smr-Force.html"><abbr title="\Smr\Force">Force</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$forces</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__return-type"><a href="classes/Smr-AbstractPlayer.html"><abbr title="\Smr\AbstractPlayer">AbstractPlayer</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$targetPlayer</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type"><abbr title="\Smr\Combat\Weapon\WeaponDamageData">WeaponDamageData</abbr></span></code>
 
+    <div class="phpdocumentor-label-line">
+        </div>
     
         <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
     <dl class="phpdocumentor-argument-list">
@@ -935,26 +981,24 @@
                 : <span class="phpdocumentor-signature__argument__return-type"><a href="classes/Smr-Force.html"><abbr title="\Smr\Force">Force</abbr></a></span>
                             </dt>
             <dd class="phpdocumentor-argument-list__definition">
-                    <section class="phpdocumentor-description"></section>
-
+                
             </dd>
                     <dt class="phpdocumentor-argument-list__entry">
                 <span class="phpdocumentor-signature__argument__name">$targetPlayer</span>
                 : <span class="phpdocumentor-signature__argument__return-type"><a href="classes/Smr-AbstractPlayer.html"><abbr title="\Smr\AbstractPlayer">AbstractPlayer</abbr></a></span>
                             </dt>
             <dd class="phpdocumentor-argument-list__definition">
-                    <section class="phpdocumentor-description"></section>
-
+                
             </dd>
             </dl>
 
     
 
+            <section>
         <h5 class="phpdocumentor-return-value__heading">Return values</h5>
-    <span class="phpdocumentor-signature__response_type"><abbr title="\Smr\Combat\Weapon\WeaponDamageData">WeaponDamageData</abbr></span>
-            &mdash;
-        
-    
+        <span class="phpdocumentor-signature__response_type"><abbr title="\Smr\Combat\Weapon\WeaponDamageData">WeaponDamageData</abbr></span>
+            </section>
+
 </article>
                     <article
         class="phpdocumentor-element
@@ -965,19 +1009,23 @@
     <h4 class="phpdocumentor-element__name" id="method_getModifiedPlanetDamageAgainstPlayer">
         getModifiedPlanetDamageAgainstPlayer()
         <a href="classes/Smr-Combat-Weapon-AbstractWeapon.html#method_getModifiedPlanetDamageAgainstPlayer" class="headerlink"><i class="fas fa-link"></i></a>
+
     </h4>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Combat/Weapon/AbstractWeapon.php"><a href="files/src-lib-smr-combat-weapon-abstractweapon.html"><abbr title="src/lib/Smr/Combat/Weapon/AbstractWeapon.php">AbstractWeapon.php</abbr></a></abbr>
     :
     <span class="phpdocumentor-element-found-in__line">84</span>
 
+            <a href="classes/Smr-Combat-Weapon-AbstractWeapon.html#source-view.84" class="phpdocumentor-element-found-in__source" data-line="84" data-modal="source-view" data-src="files/src/lib/Smr/Combat/Weapon/AbstractWeapon.php.txt"></a>
     </aside>
 
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">public</span>
-    <span class="phpdocumentor-signature__abstract">abstract</span>            <span class="phpdocumentor-signature__name">getModifiedPlanetDamageAgainstPlayer</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type"><a href="classes/Smr-Planet.html"><abbr title="\Smr\Planet">Planet</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$planet</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__return-type"><a href="classes/Smr-AbstractPlayer.html"><abbr title="\Smr\AbstractPlayer">AbstractPlayer</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$targetPlayer</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type"><abbr title="\Smr\Combat\Weapon\WeaponDamageData">WeaponDamageData</abbr></span></code>
+    <span class="phpdocumentor-signature__abstract">abstract</span>                <span class="phpdocumentor-signature__name">getModifiedPlanetDamageAgainstPlayer</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type"><a href="classes/Smr-Planet.html"><abbr title="\Smr\Planet">Planet</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$planet</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__return-type"><a href="classes/Smr-AbstractPlayer.html"><abbr title="\Smr\AbstractPlayer">AbstractPlayer</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$targetPlayer</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type"><abbr title="\Smr\Combat\Weapon\WeaponDamageData">WeaponDamageData</abbr></span></code>
 
+    <div class="phpdocumentor-label-line">
+        </div>
     
         <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
     <dl class="phpdocumentor-argument-list">
@@ -986,26 +1034,24 @@
                 : <span class="phpdocumentor-signature__argument__return-type"><a href="classes/Smr-Planet.html"><abbr title="\Smr\Planet">Planet</abbr></a></span>
                             </dt>
             <dd class="phpdocumentor-argument-list__definition">
-                    <section class="phpdocumentor-description"></section>
-
+                
             </dd>
                     <dt class="phpdocumentor-argument-list__entry">
                 <span class="phpdocumentor-signature__argument__name">$targetPlayer</span>
                 : <span class="phpdocumentor-signature__argument__return-type"><a href="classes/Smr-AbstractPlayer.html"><abbr title="\Smr\AbstractPlayer">AbstractPlayer</abbr></a></span>
                             </dt>
             <dd class="phpdocumentor-argument-list__definition">
-                    <section class="phpdocumentor-description"></section>
-
+                
             </dd>
             </dl>
 
     
 
+            <section>
         <h5 class="phpdocumentor-return-value__heading">Return values</h5>
-    <span class="phpdocumentor-signature__response_type"><abbr title="\Smr\Combat\Weapon\WeaponDamageData">WeaponDamageData</abbr></span>
-            &mdash;
-        
-    
+        <span class="phpdocumentor-signature__response_type"><abbr title="\Smr\Combat\Weapon\WeaponDamageData">WeaponDamageData</abbr></span>
+            </section>
+
 </article>
                     <article
         class="phpdocumentor-element
@@ -1016,19 +1062,23 @@
     <h4 class="phpdocumentor-element__name" id="method_getModifiedPortDamageAgainstPlayer">
         getModifiedPortDamageAgainstPlayer()
         <a href="classes/Smr-Combat-Weapon-AbstractWeapon.html#method_getModifiedPortDamageAgainstPlayer" class="headerlink"><i class="fas fa-link"></i></a>
+
     </h4>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Combat/Weapon/AbstractWeapon.php"><a href="files/src-lib-smr-combat-weapon-abstractweapon.html"><abbr title="src/lib/Smr/Combat/Weapon/AbstractWeapon.php">AbstractWeapon.php</abbr></a></abbr>
     :
     <span class="phpdocumentor-element-found-in__line">69</span>
 
+            <a href="classes/Smr-Combat-Weapon-AbstractWeapon.html#source-view.69" class="phpdocumentor-element-found-in__source" data-line="69" data-modal="source-view" data-src="files/src/lib/Smr/Combat/Weapon/AbstractWeapon.php.txt"></a>
     </aside>
 
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">public</span>
-    <span class="phpdocumentor-signature__abstract">abstract</span>            <span class="phpdocumentor-signature__name">getModifiedPortDamageAgainstPlayer</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type"><a href="classes/Smr-Port.html"><abbr title="\Smr\Port">Port</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$port</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__return-type"><a href="classes/Smr-AbstractPlayer.html"><abbr title="\Smr\AbstractPlayer">AbstractPlayer</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$targetPlayer</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type"><abbr title="\Smr\Combat\Weapon\WeaponDamageData">WeaponDamageData</abbr></span></code>
+    <span class="phpdocumentor-signature__abstract">abstract</span>                <span class="phpdocumentor-signature__name">getModifiedPortDamageAgainstPlayer</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type"><a href="classes/Smr-Port.html"><abbr title="\Smr\Port">Port</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$port</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__return-type"><a href="classes/Smr-AbstractPlayer.html"><abbr title="\Smr\AbstractPlayer">AbstractPlayer</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$targetPlayer</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type"><abbr title="\Smr\Combat\Weapon\WeaponDamageData">WeaponDamageData</abbr></span></code>
 
+    <div class="phpdocumentor-label-line">
+        </div>
     
         <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
     <dl class="phpdocumentor-argument-list">
@@ -1037,26 +1087,24 @@
                 : <span class="phpdocumentor-signature__argument__return-type"><a href="classes/Smr-Port.html"><abbr title="\Smr\Port">Port</abbr></a></span>
                             </dt>
             <dd class="phpdocumentor-argument-list__definition">
-                    <section class="phpdocumentor-description"></section>
-
+                
             </dd>
                     <dt class="phpdocumentor-argument-list__entry">
                 <span class="phpdocumentor-signature__argument__name">$targetPlayer</span>
                 : <span class="phpdocumentor-signature__argument__return-type"><a href="classes/Smr-AbstractPlayer.html"><abbr title="\Smr\AbstractPlayer">AbstractPlayer</abbr></a></span>
                             </dt>
             <dd class="phpdocumentor-argument-list__definition">
-                    <section class="phpdocumentor-description"></section>
-
+                
             </dd>
             </dl>
 
     
 
+            <section>
         <h5 class="phpdocumentor-return-value__heading">Return values</h5>
-    <span class="phpdocumentor-signature__response_type"><abbr title="\Smr\Combat\Weapon\WeaponDamageData">WeaponDamageData</abbr></span>
-            &mdash;
-        
-    
+        <span class="phpdocumentor-signature__response_type"><abbr title="\Smr\Combat\Weapon\WeaponDamageData">WeaponDamageData</abbr></span>
+            </section>
+
 </article>
                     <article
         class="phpdocumentor-element
@@ -1067,29 +1115,32 @@
     <h4 class="phpdocumentor-element__name" id="method_getName">
         getName()
         <a href="classes/Smr-Combat-Weapon-AbstractWeapon.html#method_getName" class="headerlink"><i class="fas fa-link"></i></a>
+
     </h4>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Combat/Weapon/AbstractWeapon.php"><a href="files/src-lib-smr-combat-weapon-abstractweapon.html"><abbr title="src/lib/Smr/Combat/Weapon/AbstractWeapon.php">AbstractWeapon.php</abbr></a></abbr>
     :
     <span class="phpdocumentor-element-found-in__line">20</span>
 
+            <a href="classes/Smr-Combat-Weapon-AbstractWeapon.html#source-view.20" class="phpdocumentor-element-found-in__source" data-line="20" data-modal="source-view" data-src="files/src/lib/Smr/Combat/Weapon/AbstractWeapon.php.txt"></a>
     </aside>
 
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">public</span>
-    <span class="phpdocumentor-signature__abstract">abstract</span>            <span class="phpdocumentor-signature__name">getName</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">string</span></code>
+    <span class="phpdocumentor-signature__abstract">abstract</span>                <span class="phpdocumentor-signature__name">getName</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">string</span></code>
 
-        <section class="phpdocumentor-description"></section>
-
+    <div class="phpdocumentor-label-line">
+        </div>
     
     
+    
 
+            <section>
         <h5 class="phpdocumentor-return-value__heading">Return values</h5>
-    <span class="phpdocumentor-signature__response_type">string</span>
-            &mdash;
-        
-    
+        <span class="phpdocumentor-signature__response_type">string</span>
+            </section>
+
 </article>
                     <article
         class="phpdocumentor-element
@@ -1100,29 +1151,32 @@
     <h4 class="phpdocumentor-element__name" id="method_getShieldDamage">
         getShieldDamage()
         <a href="classes/Smr-Combat-Weapon-AbstractWeapon.html#method_getShieldDamage" class="headerlink"><i class="fas fa-link"></i></a>
+
     </h4>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Combat/Weapon/AbstractWeapon.php"><a href="files/src-lib-smr-combat-weapon-abstractweapon.html"><abbr title="src/lib/Smr/Combat/Weapon/AbstractWeapon.php">AbstractWeapon.php</abbr></a></abbr>
     :
     <span class="phpdocumentor-element-found-in__line">21</span>
 
+            <a href="classes/Smr-Combat-Weapon-AbstractWeapon.html#source-view.21" class="phpdocumentor-element-found-in__source" data-line="21" data-modal="source-view" data-src="files/src/lib/Smr/Combat/Weapon/AbstractWeapon.php.txt"></a>
     </aside>
 
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">public</span>
-    <span class="phpdocumentor-signature__abstract">abstract</span>            <span class="phpdocumentor-signature__name">getShieldDamage</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">int</span></code>
+    <span class="phpdocumentor-signature__abstract">abstract</span>                <span class="phpdocumentor-signature__name">getShieldDamage</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">int</span></code>
 
-        <section class="phpdocumentor-description"></section>
-
+    <div class="phpdocumentor-label-line">
+        </div>
     
     
+    
 
+            <section>
         <h5 class="phpdocumentor-return-value__heading">Return values</h5>
-    <span class="phpdocumentor-signature__response_type">int</span>
-            &mdash;
-        
-    
+        <span class="phpdocumentor-signature__response_type">int</span>
+            </section>
+
 </article>
                     <article
         class="phpdocumentor-element
@@ -1133,29 +1187,32 @@
     <h4 class="phpdocumentor-element__name" id="method_isDamageRollover">
         isDamageRollover()
         <a href="classes/Smr-Combat-Weapon-AbstractWeapon.html#method_isDamageRollover" class="headerlink"><i class="fas fa-link"></i></a>
+
     </h4>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Combat/Weapon/AbstractWeapon.php"><a href="files/src-lib-smr-combat-weapon-abstractweapon.html"><abbr title="src/lib/Smr/Combat/Weapon/AbstractWeapon.php">AbstractWeapon.php</abbr></a></abbr>
     :
     <span class="phpdocumentor-element-found-in__line">24</span>
 
+            <a href="classes/Smr-Combat-Weapon-AbstractWeapon.html#source-view.24" class="phpdocumentor-element-found-in__source" data-line="24" data-modal="source-view" data-src="files/src/lib/Smr/Combat/Weapon/AbstractWeapon.php.txt"></a>
     </aside>
 
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">public</span>
-                <span class="phpdocumentor-signature__name">isDamageRollover</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">bool</span></code>
+                    <span class="phpdocumentor-signature__name">isDamageRollover</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">bool</span></code>
 
-        <section class="phpdocumentor-description"></section>
-
+    <div class="phpdocumentor-label-line">
+        </div>
     
     
+    
 
+            <section>
         <h5 class="phpdocumentor-return-value__heading">Return values</h5>
-    <span class="phpdocumentor-signature__response_type">bool</span>
-            &mdash;
-        
-    
+        <span class="phpdocumentor-signature__response_type">bool</span>
+            </section>
+
 </article>
                     <article
         class="phpdocumentor-element
@@ -1166,19 +1223,23 @@
     <h4 class="phpdocumentor-element__name" id="method_shootForces">
         shootForces()
         <a href="classes/Smr-Combat-Weapon-AbstractWeapon.html#method_shootForces" class="headerlink"><i class="fas fa-link"></i></a>
+
     </h4>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Combat/Weapon/AbstractWeapon.php"><a href="files/src-lib-smr-combat-weapon-abstractweapon.html"><abbr title="src/lib/Smr/Combat/Weapon/AbstractWeapon.php">AbstractWeapon.php</abbr></a></abbr>
     :
     <span class="phpdocumentor-element-found-in__line">184</span>
 
+            <a href="classes/Smr-Combat-Weapon-AbstractWeapon.html#source-view.184" class="phpdocumentor-element-found-in__source" data-line="184" data-modal="source-view" data-src="files/src/lib/Smr/Combat/Weapon/AbstractWeapon.php.txt"></a>
     </aside>
 
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">public</span>
-    <span class="phpdocumentor-signature__abstract">abstract</span>            <span class="phpdocumentor-signature__name">shootForces</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type"><a href="classes/Smr-AbstractPlayer.html"><abbr title="\Smr\AbstractPlayer">AbstractPlayer</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$weaponPlayer</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__return-type"><a href="classes/Smr-Force.html"><abbr title="\Smr\Force">Force</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$forces</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">array&lt;string|int, mixed&gt;</span></code>
+    <span class="phpdocumentor-signature__abstract">abstract</span>                <span class="phpdocumentor-signature__name">shootForces</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type"><a href="classes/Smr-AbstractPlayer.html"><abbr title="\Smr\AbstractPlayer">AbstractPlayer</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$weaponPlayer</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__return-type"><a href="classes/Smr-Force.html"><abbr title="\Smr\Force">Force</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$forces</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type"><abbr title="array{Weapon: self, Target: \Smr\Force, Hit: bool, WeaponDamage?: \Smr\Combat\Weapon\WeaponDamageData, ActualDamage?: \Smr\Combat\Weapon\ForceTakenDamageData, KillResults?: array{}}">ForceTakenDamageData, KillResults?: array{}}</abbr></span></code>
 
+    <div class="phpdocumentor-label-line">
+        </div>
     
         <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
     <dl class="phpdocumentor-argument-list">
@@ -1187,26 +1248,24 @@
                 : <span class="phpdocumentor-signature__argument__return-type"><a href="classes/Smr-AbstractPlayer.html"><abbr title="\Smr\AbstractPlayer">AbstractPlayer</abbr></a></span>
                             </dt>
             <dd class="phpdocumentor-argument-list__definition">
-                    <section class="phpdocumentor-description"></section>
-
+                
             </dd>
                     <dt class="phpdocumentor-argument-list__entry">
                 <span class="phpdocumentor-signature__argument__name">$forces</span>
                 : <span class="phpdocumentor-signature__argument__return-type"><a href="classes/Smr-Force.html"><abbr title="\Smr\Force">Force</abbr></a></span>
                             </dt>
             <dd class="phpdocumentor-argument-list__definition">
-                    <section class="phpdocumentor-description"></section>
-
+                
             </dd>
             </dl>
 
     
 
+            <section>
         <h5 class="phpdocumentor-return-value__heading">Return values</h5>
-    <span class="phpdocumentor-signature__response_type">array&lt;string|int, mixed&gt;</span>
-            &mdash;
-        
-    
+        <span class="phpdocumentor-signature__response_type"><abbr title="array{Weapon: self, Target: \Smr\Force, Hit: bool, WeaponDamage?: \Smr\Combat\Weapon\WeaponDamageData, ActualDamage?: \Smr\Combat\Weapon\ForceTakenDamageData, KillResults?: array{}}">ForceTakenDamageData, KillResults?: array{}}</abbr></span>
+            </section>
+
 </article>
                     <article
         class="phpdocumentor-element
@@ -1217,19 +1276,23 @@
     <h4 class="phpdocumentor-element__name" id="method_shootPlayer">
         shootPlayer()
         <a href="classes/Smr-Combat-Weapon-AbstractWeapon.html#method_shootPlayer" class="headerlink"><i class="fas fa-link"></i></a>
+
     </h4>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Combat/Weapon/AbstractWeapon.php"><a href="files/src-lib-smr-combat-weapon-abstractweapon.html"><abbr title="src/lib/Smr/Combat/Weapon/AbstractWeapon.php">AbstractWeapon.php</abbr></a></abbr>
     :
     <span class="phpdocumentor-element-found-in__line">189</span>
 
+            <a href="classes/Smr-Combat-Weapon-AbstractWeapon.html#source-view.189" class="phpdocumentor-element-found-in__source" data-line="189" data-modal="source-view" data-src="files/src/lib/Smr/Combat/Weapon/AbstractWeapon.php.txt"></a>
     </aside>
 
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">public</span>
-    <span class="phpdocumentor-signature__abstract">abstract</span>            <span class="phpdocumentor-signature__name">shootPlayer</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type"><a href="classes/Smr-AbstractPlayer.html"><abbr title="\Smr\AbstractPlayer">AbstractPlayer</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$weaponPlayer</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__return-type"><a href="classes/Smr-AbstractPlayer.html"><abbr title="\Smr\AbstractPlayer">AbstractPlayer</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$targetPlayer</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">array&lt;string|int, mixed&gt;</span></code>
+    <span class="phpdocumentor-signature__abstract">abstract</span>                <span class="phpdocumentor-signature__name">shootPlayer</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type"><a href="classes/Smr-AbstractPlayer.html"><abbr title="\Smr\AbstractPlayer">AbstractPlayer</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$weaponPlayer</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__return-type"><a href="classes/Smr-AbstractPlayer.html"><abbr title="\Smr\AbstractPlayer">AbstractPlayer</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$targetPlayer</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type"><abbr title="array{Weapon: self, Target: \Smr\AbstractPlayer, Hit: bool, WeaponDamage?: \Smr\Combat\Weapon\WeaponDamageData, ActualDamage?: \Smr\Combat\Weapon\TakenDamageData, KillResults?: array{DeadExp: int, KillerExp: int, KillerCredits: int}}">TakenDamageData, KillResults?: array{DeadExp: int, KillerExp: int, KillerCredits: int}}</abbr></span></code>
 
+    <div class="phpdocumentor-label-line">
+        </div>
     
         <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
     <dl class="phpdocumentor-argument-list">
@@ -1238,26 +1301,24 @@
                 : <span class="phpdocumentor-signature__argument__return-type"><a href="classes/Smr-AbstractPlayer.html"><abbr title="\Smr\AbstractPlayer">AbstractPlayer</abbr></a></span>
                             </dt>
             <dd class="phpdocumentor-argument-list__definition">
-                    <section class="phpdocumentor-description"></section>
-
+                
             </dd>
                     <dt class="phpdocumentor-argument-list__entry">
                 <span class="phpdocumentor-signature__argument__name">$targetPlayer</span>
                 : <span class="phpdocumentor-signature__argument__return-type"><a href="classes/Smr-AbstractPlayer.html"><abbr title="\Smr\AbstractPlayer">AbstractPlayer</abbr></a></span>
                             </dt>
             <dd class="phpdocumentor-argument-list__definition">
-                    <section class="phpdocumentor-description"></section>
-
+                
             </dd>
             </dl>
 
     
 
+            <section>
         <h5 class="phpdocumentor-return-value__heading">Return values</h5>
-    <span class="phpdocumentor-signature__response_type">array&lt;string|int, mixed&gt;</span>
-            &mdash;
-        
-    
+        <span class="phpdocumentor-signature__response_type"><abbr title="array{Weapon: self, Target: \Smr\AbstractPlayer, Hit: bool, WeaponDamage?: \Smr\Combat\Weapon\WeaponDamageData, ActualDamage?: \Smr\Combat\Weapon\TakenDamageData, KillResults?: array{DeadExp: int, KillerExp: int, KillerCredits: int}}">TakenDamageData, KillResults?: array{DeadExp: int, KillerExp: int, KillerCredits: int}}</abbr></span>
+            </section>
+
 </article>
                     <article
         class="phpdocumentor-element
@@ -1268,19 +1329,23 @@
     <h4 class="phpdocumentor-element__name" id="method_shootPlayerAsForce">
         shootPlayerAsForce()
         <a href="classes/Smr-Combat-Weapon-AbstractWeapon.html#method_shootPlayerAsForce" class="headerlink"><i class="fas fa-link"></i></a>
+
     </h4>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Combat/Weapon/AbstractWeapon.php"><a href="files/src-lib-smr-combat-weapon-abstractweapon.html"><abbr title="src/lib/Smr/Combat/Weapon/AbstractWeapon.php">AbstractWeapon.php</abbr></a></abbr>
     :
     <span class="phpdocumentor-element-found-in__line">194</span>
 
+            <a href="classes/Smr-Combat-Weapon-AbstractWeapon.html#source-view.194" class="phpdocumentor-element-found-in__source" data-line="194" data-modal="source-view" data-src="files/src/lib/Smr/Combat/Weapon/AbstractWeapon.php.txt"></a>
     </aside>
 
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">public</span>
-    <span class="phpdocumentor-signature__abstract">abstract</span>            <span class="phpdocumentor-signature__name">shootPlayerAsForce</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type"><a href="classes/Smr-Force.html"><abbr title="\Smr\Force">Force</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$forces</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__return-type"><a href="classes/Smr-AbstractPlayer.html"><abbr title="\Smr\AbstractPlayer">AbstractPlayer</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$targetPlayer</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">array&lt;string|int, mixed&gt;</span></code>
+    <span class="phpdocumentor-signature__abstract">abstract</span>                <span class="phpdocumentor-signature__name">shootPlayerAsForce</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type"><a href="classes/Smr-Force.html"><abbr title="\Smr\Force">Force</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$forces</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__return-type"><a href="classes/Smr-AbstractPlayer.html"><abbr title="\Smr\AbstractPlayer">AbstractPlayer</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$targetPlayer</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type"><abbr title="array{Weapon: self, Target: \Smr\AbstractPlayer, Hit: bool, WeaponDamage: \Smr\Combat\Weapon\WeaponDamageData, ActualDamage: \Smr\Combat\Weapon\TakenDamageData, KillResults?: array{DeadExp: int, LostCredits: int}}">TakenDamageData, KillResults?: array{DeadExp: int, LostCredits: int}}</abbr></span></code>
 
+    <div class="phpdocumentor-label-line">
+        </div>
     
         <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
     <dl class="phpdocumentor-argument-list">
@@ -1289,26 +1354,24 @@
                 : <span class="phpdocumentor-signature__argument__return-type"><a href="classes/Smr-Force.html"><abbr title="\Smr\Force">Force</abbr></a></span>
                             </dt>
             <dd class="phpdocumentor-argument-list__definition">
-                    <section class="phpdocumentor-description"></section>
-
+                
             </dd>
                     <dt class="phpdocumentor-argument-list__entry">
                 <span class="phpdocumentor-signature__argument__name">$targetPlayer</span>
                 : <span class="phpdocumentor-signature__argument__return-type"><a href="classes/Smr-AbstractPlayer.html"><abbr title="\Smr\AbstractPlayer">AbstractPlayer</abbr></a></span>
                             </dt>
             <dd class="phpdocumentor-argument-list__definition">
-                    <section class="phpdocumentor-description"></section>
-
+                
             </dd>
             </dl>
 
     
 
+            <section>
         <h5 class="phpdocumentor-return-value__heading">Return values</h5>
-    <span class="phpdocumentor-signature__response_type">array&lt;string|int, mixed&gt;</span>
-            &mdash;
-        
-    
+        <span class="phpdocumentor-signature__response_type"><abbr title="array{Weapon: self, Target: \Smr\AbstractPlayer, Hit: bool, WeaponDamage: \Smr\Combat\Weapon\WeaponDamageData, ActualDamage: \Smr\Combat\Weapon\TakenDamageData, KillResults?: array{DeadExp: int, LostCredits: int}}">TakenDamageData, KillResults?: array{DeadExp: int, LostCredits: int}}</abbr></span>
+            </section>
+
 </article>
                     <article
         class="phpdocumentor-element
@@ -1319,55 +1382,56 @@
     <h4 class="phpdocumentor-element__name" id="method_doForceDamageToPlayer">
         doForceDamageToPlayer()
         <a href="classes/Smr-Combat-Weapon-AbstractWeapon.html#method_doForceDamageToPlayer" class="headerlink"><i class="fas fa-link"></i></a>
+
     </h4>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Combat/Weapon/AbstractWeapon.php"><a href="files/src-lib-smr-combat-weapon-abstractweapon.html"><abbr title="src/lib/Smr/Combat/Weapon/AbstractWeapon.php">AbstractWeapon.php</abbr></a></abbr>
     :
     <span class="phpdocumentor-element-found-in__line">171</span>
 
+            <a href="classes/Smr-Combat-Weapon-AbstractWeapon.html#source-view.171" class="phpdocumentor-element-found-in__source" data-line="171" data-modal="source-view" data-src="files/src/lib/Smr/Combat/Weapon/AbstractWeapon.php.txt"></a>
     </aside>
 
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">protected</span>
-                <span class="phpdocumentor-signature__name">doForceDamageToPlayer</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type">array&lt;string|int, mixed&gt;&nbsp;</span><span class="phpdocumentor-signature__argument__name">$return</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__return-type"><a href="classes/Smr-Force.html"><abbr title="\Smr\Force">Force</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$forces</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__return-type"><a href="classes/Smr-AbstractPlayer.html"><abbr title="\Smr\AbstractPlayer">AbstractPlayer</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$targetPlayer</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">array&lt;string|int, mixed&gt;</span></code>
+                    <span class="phpdocumentor-signature__name">doForceDamageToPlayer</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type"><abbr title="array{Weapon: self, Target: \Smr\AbstractPlayer, Hit: bool}">AbstractPlayer, Hit: bool}</abbr>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$return</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__return-type"><a href="classes/Smr-Force.html"><abbr title="\Smr\Force">Force</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$forces</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__return-type"><a href="classes/Smr-AbstractPlayer.html"><abbr title="\Smr\AbstractPlayer">AbstractPlayer</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$targetPlayer</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type"><abbr title="array{Weapon: self, Target: \Smr\AbstractPlayer, Hit: bool, WeaponDamage: \Smr\Combat\Weapon\WeaponDamageData, ActualDamage: \Smr\Combat\Weapon\TakenDamageData, KillResults?: array{DeadExp: int, LostCredits: int}}">TakenDamageData, KillResults?: array{DeadExp: int, LostCredits: int}}</abbr></span></code>
 
+    <div class="phpdocumentor-label-line">
+        </div>
     
         <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
     <dl class="phpdocumentor-argument-list">
                     <dt class="phpdocumentor-argument-list__entry">
                 <span class="phpdocumentor-signature__argument__name">$return</span>
-                : <span class="phpdocumentor-signature__argument__return-type">array&lt;string|int, mixed&gt;</span>
+                : <span class="phpdocumentor-signature__argument__return-type"><abbr title="array{Weapon: self, Target: \Smr\AbstractPlayer, Hit: bool}">AbstractPlayer, Hit: bool}</abbr></span>
                             </dt>
             <dd class="phpdocumentor-argument-list__definition">
-                    <section class="phpdocumentor-description"></section>
-
+                
             </dd>
                     <dt class="phpdocumentor-argument-list__entry">
                 <span class="phpdocumentor-signature__argument__name">$forces</span>
                 : <span class="phpdocumentor-signature__argument__return-type"><a href="classes/Smr-Force.html"><abbr title="\Smr\Force">Force</abbr></a></span>
                             </dt>
             <dd class="phpdocumentor-argument-list__definition">
-                    <section class="phpdocumentor-description"></section>
-
+                
             </dd>
                     <dt class="phpdocumentor-argument-list__entry">
                 <span class="phpdocumentor-signature__argument__name">$targetPlayer</span>
                 : <span class="phpdocumentor-signature__argument__return-type"><a href="classes/Smr-AbstractPlayer.html"><abbr title="\Smr\AbstractPlayer">AbstractPlayer</abbr></a></span>
                             </dt>
             <dd class="phpdocumentor-argument-list__definition">
-                    <section class="phpdocumentor-description"></section>
-
+                
             </dd>
             </dl>
 
     
 
+            <section>
         <h5 class="phpdocumentor-return-value__heading">Return values</h5>
-    <span class="phpdocumentor-signature__response_type">array&lt;string|int, mixed&gt;</span>
-            &mdash;
-        
-    
+        <span class="phpdocumentor-signature__response_type"><abbr title="array{Weapon: self, Target: \Smr\AbstractPlayer, Hit: bool, WeaponDamage: \Smr\Combat\Weapon\WeaponDamageData, ActualDamage: \Smr\Combat\Weapon\TakenDamageData, KillResults?: array{DeadExp: int, LostCredits: int}}">TakenDamageData, KillResults?: array{DeadExp: int, LostCredits: int}}</abbr></span>
+            </section>
+
 </article>
                     <article
         class="phpdocumentor-element
@@ -1378,55 +1442,56 @@
     <h4 class="phpdocumentor-element__name" id="method_doPlanetDamageToPlayer">
         doPlanetDamageToPlayer()
         <a href="classes/Smr-Combat-Weapon-AbstractWeapon.html#method_doPlanetDamageToPlayer" class="headerlink"><i class="fas fa-link"></i></a>
+
     </h4>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Combat/Weapon/AbstractWeapon.php"><a href="files/src-lib-smr-combat-weapon-abstractweapon.html"><abbr title="src/lib/Smr/Combat/Weapon/AbstractWeapon.php">AbstractWeapon.php</abbr></a></abbr>
     :
     <span class="phpdocumentor-element-found-in__line">157</span>
 
+            <a href="classes/Smr-Combat-Weapon-AbstractWeapon.html#source-view.157" class="phpdocumentor-element-found-in__source" data-line="157" data-modal="source-view" data-src="files/src/lib/Smr/Combat/Weapon/AbstractWeapon.php.txt"></a>
     </aside>
 
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">protected</span>
-                <span class="phpdocumentor-signature__name">doPlanetDamageToPlayer</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type">array&lt;string|int, mixed&gt;&nbsp;</span><span class="phpdocumentor-signature__argument__name">$return</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__return-type"><a href="classes/Smr-Planet.html"><abbr title="\Smr\Planet">Planet</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$planet</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__return-type"><a href="classes/Smr-AbstractPlayer.html"><abbr title="\Smr\AbstractPlayer">AbstractPlayer</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$targetPlayer</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">array&lt;string|int, mixed&gt;</span></code>
+                    <span class="phpdocumentor-signature__name">doPlanetDamageToPlayer</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type"><abbr title="array{Weapon: self, Target: \Smr\AbstractPlayer, Hit: bool}">AbstractPlayer, Hit: bool}</abbr>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$return</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__return-type"><a href="classes/Smr-Planet.html"><abbr title="\Smr\Planet">Planet</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$planet</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__return-type"><a href="classes/Smr-AbstractPlayer.html"><abbr title="\Smr\AbstractPlayer">AbstractPlayer</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$targetPlayer</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type"><abbr title="array{Weapon: self, Target: \Smr\AbstractPlayer, Hit: bool, WeaponDamage: \Smr\Combat\Weapon\WeaponDamageData, ActualDamage: \Smr\Combat\Weapon\TakenDamageData, KillResults?: array{DeadExp: int, LostCredits: int}}">TakenDamageData, KillResults?: array{DeadExp: int, LostCredits: int}}</abbr></span></code>
 
+    <div class="phpdocumentor-label-line">
+        </div>
     
         <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
     <dl class="phpdocumentor-argument-list">
                     <dt class="phpdocumentor-argument-list__entry">
                 <span class="phpdocumentor-signature__argument__name">$return</span>
-                : <span class="phpdocumentor-signature__argument__return-type">array&lt;string|int, mixed&gt;</span>
+                : <span class="phpdocumentor-signature__argument__return-type"><abbr title="array{Weapon: self, Target: \Smr\AbstractPlayer, Hit: bool}">AbstractPlayer, Hit: bool}</abbr></span>
                             </dt>
             <dd class="phpdocumentor-argument-list__definition">
-                    <section class="phpdocumentor-description"></section>
-
+                
             </dd>
                     <dt class="phpdocumentor-argument-list__entry">
                 <span class="phpdocumentor-signature__argument__name">$planet</span>
                 : <span class="phpdocumentor-signature__argument__return-type"><a href="classes/Smr-Planet.html"><abbr title="\Smr\Planet">Planet</abbr></a></span>
                             </dt>
             <dd class="phpdocumentor-argument-list__definition">
-                    <section class="phpdocumentor-description"></section>
-
+                
             </dd>
                     <dt class="phpdocumentor-argument-list__entry">
                 <span class="phpdocumentor-signature__argument__name">$targetPlayer</span>
                 : <span class="phpdocumentor-signature__argument__return-type"><a href="classes/Smr-AbstractPlayer.html"><abbr title="\Smr\AbstractPlayer">AbstractPlayer</abbr></a></span>
                             </dt>
             <dd class="phpdocumentor-argument-list__definition">
-                    <section class="phpdocumentor-description"></section>
-
+                
             </dd>
             </dl>
 
     
 
+            <section>
         <h5 class="phpdocumentor-return-value__heading">Return values</h5>
-    <span class="phpdocumentor-signature__response_type">array&lt;string|int, mixed&gt;</span>
-            &mdash;
-        
-    
+        <span class="phpdocumentor-signature__response_type"><abbr title="array{Weapon: self, Target: \Smr\AbstractPlayer, Hit: bool, WeaponDamage: \Smr\Combat\Weapon\WeaponDamageData, ActualDamage: \Smr\Combat\Weapon\TakenDamageData, KillResults?: array{DeadExp: int, LostCredits: int}}">TakenDamageData, KillResults?: array{DeadExp: int, LostCredits: int}}</abbr></span>
+            </section>
+
 </article>
                     <article
         class="phpdocumentor-element
@@ -1437,55 +1502,56 @@
     <h4 class="phpdocumentor-element__name" id="method_doPlayerDamageToForce">
         doPlayerDamageToForce()
         <a href="classes/Smr-Combat-Weapon-AbstractWeapon.html#method_doPlayerDamageToForce" class="headerlink"><i class="fas fa-link"></i></a>
+
     </h4>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Combat/Weapon/AbstractWeapon.php"><a href="files/src-lib-smr-combat-weapon-abstractweapon.html"><abbr title="src/lib/Smr/Combat/Weapon/AbstractWeapon.php">AbstractWeapon.php</abbr></a></abbr>
     :
     <span class="phpdocumentor-element-found-in__line">90</span>
 
+            <a href="classes/Smr-Combat-Weapon-AbstractWeapon.html#source-view.90" class="phpdocumentor-element-found-in__source" data-line="90" data-modal="source-view" data-src="files/src/lib/Smr/Combat/Weapon/AbstractWeapon.php.txt"></a>
     </aside>
 
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">protected</span>
-                <span class="phpdocumentor-signature__name">doPlayerDamageToForce</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type">array&lt;string|int, mixed&gt;&nbsp;</span><span class="phpdocumentor-signature__argument__name">$return</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__return-type"><a href="classes/Smr-AbstractPlayer.html"><abbr title="\Smr\AbstractPlayer">AbstractPlayer</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$weaponPlayer</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__return-type"><a href="classes/Smr-Force.html"><abbr title="\Smr\Force">Force</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$forces</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">array&lt;string|int, mixed&gt;</span></code>
+                    <span class="phpdocumentor-signature__name">doPlayerDamageToForce</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type"><abbr title="array{Weapon: self, Target: \Smr\Force, Hit: bool}">Force, Hit: bool}</abbr>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$return</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__return-type"><a href="classes/Smr-AbstractPlayer.html"><abbr title="\Smr\AbstractPlayer">AbstractPlayer</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$weaponPlayer</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__return-type"><a href="classes/Smr-Force.html"><abbr title="\Smr\Force">Force</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$forces</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type"><abbr title="array{Weapon: self, Target: \Smr\Force, Hit: bool, WeaponDamage: \Smr\Combat\Weapon\WeaponDamageData, ActualDamage: \Smr\Combat\Weapon\ForceTakenDamageData, KillResults?: array{}}">ForceTakenDamageData, KillResults?: array{}}</abbr></span></code>
 
+    <div class="phpdocumentor-label-line">
+        </div>
     
         <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
     <dl class="phpdocumentor-argument-list">
                     <dt class="phpdocumentor-argument-list__entry">
                 <span class="phpdocumentor-signature__argument__name">$return</span>
-                : <span class="phpdocumentor-signature__argument__return-type">array&lt;string|int, mixed&gt;</span>
+                : <span class="phpdocumentor-signature__argument__return-type"><abbr title="array{Weapon: self, Target: \Smr\Force, Hit: bool}">Force, Hit: bool}</abbr></span>
                             </dt>
             <dd class="phpdocumentor-argument-list__definition">
-                    <section class="phpdocumentor-description"></section>
-
+                
             </dd>
                     <dt class="phpdocumentor-argument-list__entry">
                 <span class="phpdocumentor-signature__argument__name">$weaponPlayer</span>
                 : <span class="phpdocumentor-signature__argument__return-type"><a href="classes/Smr-AbstractPlayer.html"><abbr title="\Smr\AbstractPlayer">AbstractPlayer</abbr></a></span>
                             </dt>
             <dd class="phpdocumentor-argument-list__definition">
-                    <section class="phpdocumentor-description"></section>
-
+                
             </dd>
                     <dt class="phpdocumentor-argument-list__entry">
                 <span class="phpdocumentor-signature__argument__name">$forces</span>
                 : <span class="phpdocumentor-signature__argument__return-type"><a href="classes/Smr-Force.html"><abbr title="\Smr\Force">Force</abbr></a></span>
                             </dt>
             <dd class="phpdocumentor-argument-list__definition">
-                    <section class="phpdocumentor-description"></section>
-
+                
             </dd>
             </dl>
 
     
 
+            <section>
         <h5 class="phpdocumentor-return-value__heading">Return values</h5>
-    <span class="phpdocumentor-signature__response_type">array&lt;string|int, mixed&gt;</span>
-            &mdash;
-        
-    
+        <span class="phpdocumentor-signature__response_type"><abbr title="array{Weapon: self, Target: \Smr\Force, Hit: bool, WeaponDamage: \Smr\Combat\Weapon\WeaponDamageData, ActualDamage: \Smr\Combat\Weapon\ForceTakenDamageData, KillResults?: array{}}">ForceTakenDamageData, KillResults?: array{}}</abbr></span>
+            </section>
+
 </article>
                     <article
         class="phpdocumentor-element
@@ -1496,55 +1562,56 @@
     <h4 class="phpdocumentor-element__name" id="method_doPlayerDamageToPlanet">
         doPlayerDamageToPlanet()
         <a href="classes/Smr-Combat-Weapon-AbstractWeapon.html#method_doPlayerDamageToPlanet" class="headerlink"><i class="fas fa-link"></i></a>
+
     </h4>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Combat/Weapon/AbstractWeapon.php"><a href="files/src-lib-smr-combat-weapon-abstractweapon.html"><abbr title="src/lib/Smr/Combat/Weapon/AbstractWeapon.php">AbstractWeapon.php</abbr></a></abbr>
     :
     <span class="phpdocumentor-element-found-in__line">130</span>
 
+            <a href="classes/Smr-Combat-Weapon-AbstractWeapon.html#source-view.130" class="phpdocumentor-element-found-in__source" data-line="130" data-modal="source-view" data-src="files/src/lib/Smr/Combat/Weapon/AbstractWeapon.php.txt"></a>
     </aside>
 
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">protected</span>
-                <span class="phpdocumentor-signature__name">doPlayerDamageToPlanet</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type">array&lt;string|int, mixed&gt;&nbsp;</span><span class="phpdocumentor-signature__argument__name">$return</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__return-type"><a href="classes/Smr-AbstractPlayer.html"><abbr title="\Smr\AbstractPlayer">AbstractPlayer</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$weaponPlayer</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__return-type"><a href="classes/Smr-Planet.html"><abbr title="\Smr\Planet">Planet</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$planet</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">array&lt;string|int, mixed&gt;</span></code>
+                    <span class="phpdocumentor-signature__name">doPlayerDamageToPlanet</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type"><abbr title="array{Weapon: self, Target: \Smr\Planet, Hit: bool}">Planet, Hit: bool}</abbr>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$return</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__return-type"><a href="classes/Smr-AbstractPlayer.html"><abbr title="\Smr\AbstractPlayer">AbstractPlayer</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$weaponPlayer</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__return-type"><a href="classes/Smr-Planet.html"><abbr title="\Smr\Planet">Planet</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$planet</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type"><abbr title="array{Weapon: self, Target: \Smr\Planet, Hit: bool, WeaponDamage: \Smr\Combat\Weapon\WeaponDamageData, ActualDamage: \Smr\Combat\Weapon\TakenDamageData, KillResults?: array{}}">TakenDamageData, KillResults?: array{}}</abbr></span></code>
 
+    <div class="phpdocumentor-label-line">
+        </div>
     
         <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
     <dl class="phpdocumentor-argument-list">
                     <dt class="phpdocumentor-argument-list__entry">
                 <span class="phpdocumentor-signature__argument__name">$return</span>
-                : <span class="phpdocumentor-signature__argument__return-type">array&lt;string|int, mixed&gt;</span>
+                : <span class="phpdocumentor-signature__argument__return-type"><abbr title="array{Weapon: self, Target: \Smr\Planet, Hit: bool}">Planet, Hit: bool}</abbr></span>
                             </dt>
             <dd class="phpdocumentor-argument-list__definition">
-                    <section class="phpdocumentor-description"></section>
-
+                
             </dd>
                     <dt class="phpdocumentor-argument-list__entry">
                 <span class="phpdocumentor-signature__argument__name">$weaponPlayer</span>
                 : <span class="phpdocumentor-signature__argument__return-type"><a href="classes/Smr-AbstractPlayer.html"><abbr title="\Smr\AbstractPlayer">AbstractPlayer</abbr></a></span>
                             </dt>
             <dd class="phpdocumentor-argument-list__definition">
-                    <section class="phpdocumentor-description"></section>
-
+                
             </dd>
                     <dt class="phpdocumentor-argument-list__entry">
                 <span class="phpdocumentor-signature__argument__name">$planet</span>
                 : <span class="phpdocumentor-signature__argument__return-type"><a href="classes/Smr-Planet.html"><abbr title="\Smr\Planet">Planet</abbr></a></span>
                             </dt>
             <dd class="phpdocumentor-argument-list__definition">
-                    <section class="phpdocumentor-description"></section>
-
+                
             </dd>
             </dl>
 
     
 
+            <section>
         <h5 class="phpdocumentor-return-value__heading">Return values</h5>
-    <span class="phpdocumentor-signature__response_type">array&lt;string|int, mixed&gt;</span>
-            &mdash;
-        
-    
+        <span class="phpdocumentor-signature__response_type"><abbr title="array{Weapon: self, Target: \Smr\Planet, Hit: bool, WeaponDamage: \Smr\Combat\Weapon\WeaponDamageData, ActualDamage: \Smr\Combat\Weapon\TakenDamageData, KillResults?: array{}}">TakenDamageData, KillResults?: array{}}</abbr></span>
+            </section>
+
 </article>
                     <article
         class="phpdocumentor-element
@@ -1555,55 +1622,56 @@
     <h4 class="phpdocumentor-element__name" id="method_doPlayerDamageToPlayer">
         doPlayerDamageToPlayer()
         <a href="classes/Smr-Combat-Weapon-AbstractWeapon.html#method_doPlayerDamageToPlayer" class="headerlink"><i class="fas fa-link"></i></a>
+
     </h4>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Combat/Weapon/AbstractWeapon.php"><a href="files/src-lib-smr-combat-weapon-abstractweapon.html"><abbr title="src/lib/Smr/Combat/Weapon/AbstractWeapon.php">AbstractWeapon.php</abbr></a></abbr>
     :
     <span class="phpdocumentor-element-found-in__line">103</span>
 
+            <a href="classes/Smr-Combat-Weapon-AbstractWeapon.html#source-view.103" class="phpdocumentor-element-found-in__source" data-line="103" data-modal="source-view" data-src="files/src/lib/Smr/Combat/Weapon/AbstractWeapon.php.txt"></a>
     </aside>
 
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">protected</span>
-                <span class="phpdocumentor-signature__name">doPlayerDamageToPlayer</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type">array&lt;string|int, mixed&gt;&nbsp;</span><span class="phpdocumentor-signature__argument__name">$return</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__return-type"><a href="classes/Smr-AbstractPlayer.html"><abbr title="\Smr\AbstractPlayer">AbstractPlayer</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$weaponPlayer</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__return-type"><a href="classes/Smr-AbstractPlayer.html"><abbr title="\Smr\AbstractPlayer">AbstractPlayer</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$targetPlayer</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">array&lt;string|int, mixed&gt;</span></code>
+                    <span class="phpdocumentor-signature__name">doPlayerDamageToPlayer</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type"><abbr title="array{Weapon: self, Target: \Smr\AbstractPlayer, Hit: bool}">AbstractPlayer, Hit: bool}</abbr>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$return</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__return-type"><a href="classes/Smr-AbstractPlayer.html"><abbr title="\Smr\AbstractPlayer">AbstractPlayer</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$weaponPlayer</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__return-type"><a href="classes/Smr-AbstractPlayer.html"><abbr title="\Smr\AbstractPlayer">AbstractPlayer</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$targetPlayer</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type"><abbr title="array{Weapon: self, Target: \Smr\AbstractPlayer, Hit: bool, WeaponDamage: \Smr\Combat\Weapon\WeaponDamageData, ActualDamage: \Smr\Combat\Weapon\TakenDamageData, KillResults?: array{DeadExp: int, KillerExp: int, KillerCredits: int}}">TakenDamageData, KillResults?: array{DeadExp: int, KillerExp: int, KillerCredits: int}}</abbr></span></code>
 
+    <div class="phpdocumentor-label-line">
+        </div>
     
         <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
     <dl class="phpdocumentor-argument-list">
                     <dt class="phpdocumentor-argument-list__entry">
                 <span class="phpdocumentor-signature__argument__name">$return</span>
-                : <span class="phpdocumentor-signature__argument__return-type">array&lt;string|int, mixed&gt;</span>
+                : <span class="phpdocumentor-signature__argument__return-type"><abbr title="array{Weapon: self, Target: \Smr\AbstractPlayer, Hit: bool}">AbstractPlayer, Hit: bool}</abbr></span>
                             </dt>
             <dd class="phpdocumentor-argument-list__definition">
-                    <section class="phpdocumentor-description"></section>
-
+                
             </dd>
                     <dt class="phpdocumentor-argument-list__entry">
                 <span class="phpdocumentor-signature__argument__name">$weaponPlayer</span>
                 : <span class="phpdocumentor-signature__argument__return-type"><a href="classes/Smr-AbstractPlayer.html"><abbr title="\Smr\AbstractPlayer">AbstractPlayer</abbr></a></span>
                             </dt>
             <dd class="phpdocumentor-argument-list__definition">
-                    <section class="phpdocumentor-description"></section>
-
+                
             </dd>
                     <dt class="phpdocumentor-argument-list__entry">
                 <span class="phpdocumentor-signature__argument__name">$targetPlayer</span>
                 : <span class="phpdocumentor-signature__argument__return-type"><a href="classes/Smr-AbstractPlayer.html"><abbr title="\Smr\AbstractPlayer">AbstractPlayer</abbr></a></span>
                             </dt>
             <dd class="phpdocumentor-argument-list__definition">
-                    <section class="phpdocumentor-description"></section>
-
+                
             </dd>
             </dl>
 
     
 
+            <section>
         <h5 class="phpdocumentor-return-value__heading">Return values</h5>
-    <span class="phpdocumentor-signature__response_type">array&lt;string|int, mixed&gt;</span>
-            &mdash;
-        
-    
+        <span class="phpdocumentor-signature__response_type"><abbr title="array{Weapon: self, Target: \Smr\AbstractPlayer, Hit: bool, WeaponDamage: \Smr\Combat\Weapon\WeaponDamageData, ActualDamage: \Smr\Combat\Weapon\TakenDamageData, KillResults?: array{DeadExp: int, KillerExp: int, KillerCredits: int}}">TakenDamageData, KillResults?: array{DeadExp: int, KillerExp: int, KillerCredits: int}}</abbr></span>
+            </section>
+
 </article>
                     <article
         class="phpdocumentor-element
@@ -1614,55 +1682,56 @@
     <h4 class="phpdocumentor-element__name" id="method_doPlayerDamageToPort">
         doPlayerDamageToPort()
         <a href="classes/Smr-Combat-Weapon-AbstractWeapon.html#method_doPlayerDamageToPort" class="headerlink"><i class="fas fa-link"></i></a>
+
     </h4>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Combat/Weapon/AbstractWeapon.php"><a href="files/src-lib-smr-combat-weapon-abstractweapon.html"><abbr title="src/lib/Smr/Combat/Weapon/AbstractWeapon.php">AbstractWeapon.php</abbr></a></abbr>
     :
     <span class="phpdocumentor-element-found-in__line">117</span>
 
+            <a href="classes/Smr-Combat-Weapon-AbstractWeapon.html#source-view.117" class="phpdocumentor-element-found-in__source" data-line="117" data-modal="source-view" data-src="files/src/lib/Smr/Combat/Weapon/AbstractWeapon.php.txt"></a>
     </aside>
 
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">protected</span>
-                <span class="phpdocumentor-signature__name">doPlayerDamageToPort</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type">array&lt;string|int, mixed&gt;&nbsp;</span><span class="phpdocumentor-signature__argument__name">$return</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__return-type"><a href="classes/Smr-AbstractPlayer.html"><abbr title="\Smr\AbstractPlayer">AbstractPlayer</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$weaponPlayer</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__return-type"><a href="classes/Smr-Port.html"><abbr title="\Smr\Port">Port</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$port</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">array&lt;string|int, mixed&gt;</span></code>
+                    <span class="phpdocumentor-signature__name">doPlayerDamageToPort</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type"><abbr title="array{Weapon: self, Target: \Smr\Port, Hit: bool}">Port, Hit: bool}</abbr>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$return</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__return-type"><a href="classes/Smr-AbstractPlayer.html"><abbr title="\Smr\AbstractPlayer">AbstractPlayer</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$weaponPlayer</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__return-type"><a href="classes/Smr-Port.html"><abbr title="\Smr\Port">Port</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$port</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type"><abbr title="array{Weapon: self, Target: \Smr\Port, Hit: bool, WeaponDamage: \Smr\Combat\Weapon\WeaponDamageData, ActualDamage: \Smr\Combat\Weapon\TakenDamageData, KillResults?: array{}}">TakenDamageData, KillResults?: array{}}</abbr></span></code>
 
+    <div class="phpdocumentor-label-line">
+        </div>
     
         <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
     <dl class="phpdocumentor-argument-list">
                     <dt class="phpdocumentor-argument-list__entry">
                 <span class="phpdocumentor-signature__argument__name">$return</span>
-                : <span class="phpdocumentor-signature__argument__return-type">array&lt;string|int, mixed&gt;</span>
+                : <span class="phpdocumentor-signature__argument__return-type"><abbr title="array{Weapon: self, Target: \Smr\Port, Hit: bool}">Port, Hit: bool}</abbr></span>
                             </dt>
             <dd class="phpdocumentor-argument-list__definition">
-                    <section class="phpdocumentor-description"></section>
-
+                
             </dd>
                     <dt class="phpdocumentor-argument-list__entry">
                 <span class="phpdocumentor-signature__argument__name">$weaponPlayer</span>
                 : <span class="phpdocumentor-signature__argument__return-type"><a href="classes/Smr-AbstractPlayer.html"><abbr title="\Smr\AbstractPlayer">AbstractPlayer</abbr></a></span>
                             </dt>
             <dd class="phpdocumentor-argument-list__definition">
-                    <section class="phpdocumentor-description"></section>
-
+                
             </dd>
                     <dt class="phpdocumentor-argument-list__entry">
                 <span class="phpdocumentor-signature__argument__name">$port</span>
                 : <span class="phpdocumentor-signature__argument__return-type"><a href="classes/Smr-Port.html"><abbr title="\Smr\Port">Port</abbr></a></span>
                             </dt>
             <dd class="phpdocumentor-argument-list__definition">
-                    <section class="phpdocumentor-description"></section>
-
+                
             </dd>
             </dl>
 
     
 
+            <section>
         <h5 class="phpdocumentor-return-value__heading">Return values</h5>
-    <span class="phpdocumentor-signature__response_type">array&lt;string|int, mixed&gt;</span>
-            &mdash;
-        
-    
+        <span class="phpdocumentor-signature__response_type"><abbr title="array{Weapon: self, Target: \Smr\Port, Hit: bool, WeaponDamage: \Smr\Combat\Weapon\WeaponDamageData, ActualDamage: \Smr\Combat\Weapon\TakenDamageData, KillResults?: array{}}">TakenDamageData, KillResults?: array{}}</abbr></span>
+            </section>
+
 </article>
                     <article
         class="phpdocumentor-element
@@ -1673,122 +1742,219 @@
     <h4 class="phpdocumentor-element__name" id="method_doPortDamageToPlayer">
         doPortDamageToPlayer()
         <a href="classes/Smr-Combat-Weapon-AbstractWeapon.html#method_doPortDamageToPlayer" class="headerlink"><i class="fas fa-link"></i></a>
+
     </h4>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Combat/Weapon/AbstractWeapon.php"><a href="files/src-lib-smr-combat-weapon-abstractweapon.html"><abbr title="src/lib/Smr/Combat/Weapon/AbstractWeapon.php">AbstractWeapon.php</abbr></a></abbr>
     :
     <span class="phpdocumentor-element-found-in__line">143</span>
 
+            <a href="classes/Smr-Combat-Weapon-AbstractWeapon.html#source-view.143" class="phpdocumentor-element-found-in__source" data-line="143" data-modal="source-view" data-src="files/src/lib/Smr/Combat/Weapon/AbstractWeapon.php.txt"></a>
     </aside>
 
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">protected</span>
-                <span class="phpdocumentor-signature__name">doPortDamageToPlayer</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type">array&lt;string|int, mixed&gt;&nbsp;</span><span class="phpdocumentor-signature__argument__name">$return</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__return-type"><a href="classes/Smr-Port.html"><abbr title="\Smr\Port">Port</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$port</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__return-type"><a href="classes/Smr-AbstractPlayer.html"><abbr title="\Smr\AbstractPlayer">AbstractPlayer</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$targetPlayer</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">array&lt;string|int, mixed&gt;</span></code>
+                    <span class="phpdocumentor-signature__name">doPortDamageToPlayer</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type"><abbr title="array{Weapon: self, Target: \Smr\AbstractPlayer, Hit: bool}">AbstractPlayer, Hit: bool}</abbr>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$return</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__return-type"><a href="classes/Smr-Port.html"><abbr title="\Smr\Port">Port</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$port</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__return-type"><a href="classes/Smr-AbstractPlayer.html"><abbr title="\Smr\AbstractPlayer">AbstractPlayer</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$targetPlayer</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type"><abbr title="array{Weapon: self, Target: \Smr\AbstractPlayer, Hit: bool, WeaponDamage: \Smr\Combat\Weapon\WeaponDamageData, ActualDamage: \Smr\Combat\Weapon\TakenDamageData, KillResults?: array{DeadExp: int, LostCredits: int}}">TakenDamageData, KillResults?: array{DeadExp: int, LostCredits: int}}</abbr></span></code>
 
+    <div class="phpdocumentor-label-line">
+        </div>
     
         <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
     <dl class="phpdocumentor-argument-list">
                     <dt class="phpdocumentor-argument-list__entry">
                 <span class="phpdocumentor-signature__argument__name">$return</span>
-                : <span class="phpdocumentor-signature__argument__return-type">array&lt;string|int, mixed&gt;</span>
+                : <span class="phpdocumentor-signature__argument__return-type"><abbr title="array{Weapon: self, Target: \Smr\AbstractPlayer, Hit: bool}">AbstractPlayer, Hit: bool}</abbr></span>
                             </dt>
             <dd class="phpdocumentor-argument-list__definition">
-                    <section class="phpdocumentor-description"></section>
-
+                
             </dd>
                     <dt class="phpdocumentor-argument-list__entry">
                 <span class="phpdocumentor-signature__argument__name">$port</span>
                 : <span class="phpdocumentor-signature__argument__return-type"><a href="classes/Smr-Port.html"><abbr title="\Smr\Port">Port</abbr></a></span>
                             </dt>
             <dd class="phpdocumentor-argument-list__definition">
-                    <section class="phpdocumentor-description"></section>
-
+                
             </dd>
                     <dt class="phpdocumentor-argument-list__entry">
                 <span class="phpdocumentor-signature__argument__name">$targetPlayer</span>
                 : <span class="phpdocumentor-signature__argument__return-type"><a href="classes/Smr-AbstractPlayer.html"><abbr title="\Smr\AbstractPlayer">AbstractPlayer</abbr></a></span>
                             </dt>
             <dd class="phpdocumentor-argument-list__definition">
-                    <section class="phpdocumentor-description"></section>
-
+                
             </dd>
             </dl>
 
     
 
+            <section>
         <h5 class="phpdocumentor-return-value__heading">Return values</h5>
-    <span class="phpdocumentor-signature__response_type">array&lt;string|int, mixed&gt;</span>
-            &mdash;
-        
-    
+        <span class="phpdocumentor-signature__response_type"><abbr title="array{Weapon: self, Target: \Smr\AbstractPlayer, Hit: bool, WeaponDamage: \Smr\Combat\Weapon\WeaponDamageData, ActualDamage: \Smr\Combat\Weapon\TakenDamageData, KillResults?: array{DeadExp: int, LostCredits: int}}">TakenDamageData, KillResults?: array{DeadExp: int, LostCredits: int}}</abbr></span>
+            </section>
+
 </article>
             </section>
 
-        
+        <div class="phpdocumentor-modal" id="source-view">
+    <div class="phpdocumentor-modal-bg" data-exit-button></div>
+    <div class="phpdocumentor-modal-container">
+        <div class="phpdocumentor-modal-content">
+            <pre style="max-height: 500px; overflow-y: scroll" data-src="files/src/lib/Smr/Combat/Weapon/AbstractWeapon.php.txt" class="language-php line-numbers linkable-line-numbers"></pre>
+        </div>
+        <button data-exit-button class="phpdocumentor-modal__close">&times;</button>
+    </div>
+</div>
+
     <script type="text/javascript">
-        function loadExternalCodeSnippets(line) {
-            Array.prototype.slice.call(document.querySelectorAll('pre[data-src]')).forEach((pre) => {
-                var src = pre.getAttribute('data-src').replace( /\\/g, '/');
-                var extension = (src.match(/\.(\w+)$/) || [, ''])[1];
-                var language = 'php';
+        (function () {
+            function loadExternalCodeSnippet(el, url, line) {
+                Array.prototype.slice.call(el.querySelectorAll('pre[data-src]')).forEach((pre) => {
+                    const src = url || pre.getAttribute('data-src').replace(/\\/g, '/');
+                    const language = 'php';
 
-                var code = document.createElement('code');
-                code.className = 'language-' + language;
+                    const code = document.createElement('code');
+                    code.className = 'language-' + language;
+                    pre.textContent = '';
+                    pre.setAttribute('data-line', line)
+                    code.textContent = 'Loading…';
+                    pre.appendChild(code);
 
-                pre.textContent = '';
+                    var xhr = new XMLHttpRequest();
 
-                pre.setAttribute('data-line', line)
-                code.textContent = 'Loading…';
+                    xhr.open('GET', src, true);
 
-                pre.appendChild(code);
-
-                var xhr = new XMLHttpRequest();
-
-                xhr.open('GET', src, true);
-
-                xhr.onreadystatechange = function () {
-                    if (xhr.readyState == 4) {
+                    xhr.onreadystatechange = function () {
+                        if (xhr.readyState !== 4) {
+                            return;
+                        }
 
                         if (xhr.status < 400 && xhr.responseText) {
                             code.textContent = xhr.responseText;
-
                             Prism.highlightElement(code);
+                            return;
                         }
-                        else if (xhr.status >= 400) {
+
+                        if (xhr.status === 404) {
+                            code.textContent = '✖ Error: File could not be found';
+                            return;
+                        }
+
+                        if (xhr.status >= 400) {
                             code.textContent = '✖ Error ' + xhr.status + ' while fetching file: ' + xhr.statusText;
+                            return;
                         }
-                        else {
-                            code.textContent = '✖ Error: File does not exist, is empty or trying to view from localhost';
-                        }
+
+                        code.textContent = '✖ Error: An unknown error occurred';
+                    };
+
+                    xhr.send(null);
+                });
+            }
+
+            const modalButtons = document.querySelectorAll("[data-modal]");
+            const openedAsLocalFile = window.location.protocol === 'file:';
+            if (modalButtons.length > 0 && openedAsLocalFile) {
+                console.warn(
+                    'Viewing the source code is unavailable because you are opening this page from the file:// scheme; ' +
+                    'browsers block XHR requests when a page is opened this way'
+                );
+            }
+
+            modalButtons.forEach(function (trigger) {
+                if (openedAsLocalFile) {
+                    trigger.setAttribute("hidden", "hidden");
+                }
+
+                trigger.addEventListener("click", function (event) {
+                    event.preventDefault();
+                    const modal = document.getElementById(trigger.dataset.modal);
+                    if (!modal) {
+                        console.error(`Modal with id "${trigger.dataset.modal}" could not be found`);
+                        return;
                     }
-                };
+                    modal.classList.add("phpdocumentor-modal__open");
 
-                xhr.send(null);
-            });
-        }
-
-        var modals = document.querySelectorAll("[data-modal]");
-
-        modals.forEach(function (trigger) {
-            trigger.addEventListener("click", function (event) {
-                //event.preventDefault();
-                const modal = document.getElementById(trigger.dataset.modal);
-                modal.classList.add("phpdocumentor-modal__open");
-                loadExternalCodeSnippets(trigger.dataset.line)
-                const exits = modal.querySelectorAll("[data-exit-button]");
-                exits.forEach(function (exit) {
-                    exit.addEventListener("click", function (event) {
-                        event.preventDefault();
-                        modal.classList.remove("phpdocumentor-modal__open");
+                    loadExternalCodeSnippet(modal, trigger.dataset.src || null, trigger.dataset.line)
+                    const exits = modal.querySelectorAll("[data-exit-button]");
+                    exits.forEach(function (exit) {
+                        exit.addEventListener("click", function (event) {
+                            event.preventDefault();
+                            modal.classList.remove("phpdocumentor-modal__open");
+                        });
                     });
                 });
             });
-        });
+        })();
     </script>
 
     </article>
-                <section data-search-results class="phpdocumentor-search-results phpdocumentor-search-results--hidden">
+                                </section>
+                <section class="phpdocumentor-on-this-page__sidebar">
+                                
+    <section class="phpdocumentor-on-this-page__content">
+        <strong class="phpdocumentor-on-this-page__title">On this page</strong>
+
+        <ul class="phpdocumentor-list -clean">
+            <li class="phpdocumentor-on-this-page-section__title">Table Of Contents</li>
+            <li>
+                <ul class="phpdocumentor-list -clean">
+                                        <li><a href="classes/Smr-Combat-Weapon-AbstractWeapon.html#toc-constants">Constants</a></li>
+                                                            <li><a href="classes/Smr-Combat-Weapon-AbstractWeapon.html#toc-properties">Properties</a></li>
+                                                            <li><a href="classes/Smr-Combat-Weapon-AbstractWeapon.html#toc-methods">Methods</a></li>
+                                    </ul>
+            </li>
+                            <li class="phpdocumentor-on-this-page-section__title">Constants</li>
+                <li>
+                    <ul class="phpdocumentor-list -clean">
+                                                    <li><a href="classes/Smr-Combat-Weapon-AbstractWeapon.html#constant_PLANET_DAMAGE_MOD">PLANET_DAMAGE_MOD</a></li>
+                                            </ul>
+                </li>
+            
+                            <li class="phpdocumentor-on-this-page-section__title">Properties</li>
+                <li>
+                    <ul class="phpdocumentor-list -clean">
+                                                    <li><a href="classes/Smr-Combat-Weapon-AbstractWeapon.html#property_damageRollover">$damageRollover<a href="classes/Smr-Combat-Weapon-AbstractWeapon.html"></li>
+                                            </ul>
+                </li>
+            
+                        <li class="phpdocumentor-on-this-page-section__title">Methods</li>
+            <li>
+                <ul class="phpdocumentor-list -clean">
+                                            <li><a href="classes/Smr-Combat-Weapon-AbstractWeapon.html#method_canShootForces">canShootForces()</a></li>
+                                            <li><a href="classes/Smr-Combat-Weapon-AbstractWeapon.html#method_canShootPlanets">canShootPlanets()</a></li>
+                                            <li><a href="classes/Smr-Combat-Weapon-AbstractWeapon.html#method_canShootPorts">canShootPorts()</a></li>
+                                            <li><a href="classes/Smr-Combat-Weapon-AbstractWeapon.html#method_canShootTraders">canShootTraders()</a></li>
+                                            <li><a href="classes/Smr-Combat-Weapon-AbstractWeapon.html#method_getArmourDamage">getArmourDamage()</a></li>
+                                            <li><a href="classes/Smr-Combat-Weapon-AbstractWeapon.html#method_getBaseAccuracy">getBaseAccuracy()</a></li>
+                                            <li><a href="classes/Smr-Combat-Weapon-AbstractWeapon.html#method_getDamage">getDamage()</a></li>
+                                            <li><a href="classes/Smr-Combat-Weapon-AbstractWeapon.html#method_getModifiedDamageAgainstForces">getModifiedDamageAgainstForces()</a></li>
+                                            <li><a href="classes/Smr-Combat-Weapon-AbstractWeapon.html#method_getModifiedDamageAgainstPlanet">getModifiedDamageAgainstPlanet()</a></li>
+                                            <li><a href="classes/Smr-Combat-Weapon-AbstractWeapon.html#method_getModifiedDamageAgainstPlayer">getModifiedDamageAgainstPlayer()</a></li>
+                                            <li><a href="classes/Smr-Combat-Weapon-AbstractWeapon.html#method_getModifiedDamageAgainstPort">getModifiedDamageAgainstPort()</a></li>
+                                            <li><a href="classes/Smr-Combat-Weapon-AbstractWeapon.html#method_getModifiedForceDamageAgainstPlayer">getModifiedForceDamageAgainstPlayer()</a></li>
+                                            <li><a href="classes/Smr-Combat-Weapon-AbstractWeapon.html#method_getModifiedPlanetDamageAgainstPlayer">getModifiedPlanetDamageAgainstPlayer()</a></li>
+                                            <li><a href="classes/Smr-Combat-Weapon-AbstractWeapon.html#method_getModifiedPortDamageAgainstPlayer">getModifiedPortDamageAgainstPlayer()</a></li>
+                                            <li><a href="classes/Smr-Combat-Weapon-AbstractWeapon.html#method_getName">getName()</a></li>
+                                            <li><a href="classes/Smr-Combat-Weapon-AbstractWeapon.html#method_getShieldDamage">getShieldDamage()</a></li>
+                                            <li><a href="classes/Smr-Combat-Weapon-AbstractWeapon.html#method_isDamageRollover">isDamageRollover()</a></li>
+                                            <li><a href="classes/Smr-Combat-Weapon-AbstractWeapon.html#method_shootForces">shootForces()</a></li>
+                                            <li><a href="classes/Smr-Combat-Weapon-AbstractWeapon.html#method_shootPlayer">shootPlayer()</a></li>
+                                            <li><a href="classes/Smr-Combat-Weapon-AbstractWeapon.html#method_shootPlayerAsForce">shootPlayerAsForce()</a></li>
+                                            <li><a href="classes/Smr-Combat-Weapon-AbstractWeapon.html#method_doForceDamageToPlayer">doForceDamageToPlayer()</a></li>
+                                            <li><a href="classes/Smr-Combat-Weapon-AbstractWeapon.html#method_doPlanetDamageToPlayer">doPlanetDamageToPlayer()</a></li>
+                                            <li><a href="classes/Smr-Combat-Weapon-AbstractWeapon.html#method_doPlayerDamageToForce">doPlayerDamageToForce()</a></li>
+                                            <li><a href="classes/Smr-Combat-Weapon-AbstractWeapon.html#method_doPlayerDamageToPlanet">doPlayerDamageToPlanet()</a></li>
+                                            <li><a href="classes/Smr-Combat-Weapon-AbstractWeapon.html#method_doPlayerDamageToPlayer">doPlayerDamageToPlayer()</a></li>
+                                            <li><a href="classes/Smr-Combat-Weapon-AbstractWeapon.html#method_doPlayerDamageToPort">doPlayerDamageToPort()</a></li>
+                                            <li><a href="classes/Smr-Combat-Weapon-AbstractWeapon.html#method_doPortDamageToPlayer">doPortDamageToPlayer()</a></li>
+                                    </ul>
+            </li>
+                    </ul>
+    </section>
+
+                </section>
+                            </div>
+            <section data-search-results class="phpdocumentor-search-results phpdocumentor-search-results--hidden">
     <section class="phpdocumentor-search-results__dialog">
         <header class="phpdocumentor-search-results__header">
             <h2 class="phpdocumentor-search-results__title">Search results</h2>
@@ -1799,7 +1965,6 @@
         </section>
     </section>
 </section>
-            </div>
         </div>
         <a href="classes/Smr-Combat-Weapon-AbstractWeapon.html#top" class="phpdocumentor-back-to-top"><i class="fas fa-chevron-circle-up"></i></a>
 

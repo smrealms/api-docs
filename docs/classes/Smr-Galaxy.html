@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/base.css">
             <link rel="preconnect" href="https://fonts.gstatic.com">
-        <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@400;600;700&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="css/template.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0/css/all.min.css" integrity="sha256-ybRkN9dBjhcS2qrW1z+hfCxq+1aBdwyQM5wlQoQVt/0=" crossorigin="anonymous" />
@@ -19,6 +19,7 @@
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/prismjs@1.23.0/plugins/line-highlight/prism-line-highlight.css">
                 <script src="https://cdn.jsdelivr.net/npm/fuse.js@3.4.6"></script>
         <script src="https://cdn.jsdelivr.net/npm/css-vars-ponyfill@2"></script>
+        <script src="js/template.js"></script>
         <script src="js/search.js"></script>
         <script defer src="js/searchIndex.js"></script>
     </head>
@@ -52,7 +53,7 @@
 <label class="phpdocumentor-sidebar__menu-icon" for="sidebar-button">
     Menu
 </label>
-<aside class="phpdocumentor-column -four phpdocumentor-sidebar">
+<aside class="phpdocumentor-column -three phpdocumentor-sidebar">
                     <section class="phpdocumentor-sidebar__category">
             <h2 class="phpdocumentor-sidebar__category-header">Namespaces</h2>
                                     <h4 class="phpdocumentor-sidebar__root-namespace">
@@ -135,8 +136,9 @@
     </section>
 </aside>
 
-            <div class="phpdocumentor-column -eight phpdocumentor-content">
-                    <ul class="phpdocumentor-breadcrumbs">
+            <div class="phpdocumentor-column -nine phpdocumentor-content">
+                                <section>
+                                        <ul class="phpdocumentor-breadcrumbs">
             <li class="phpdocumentor-breadcrumb"><a href="namespaces/smr.html">Smr</a></li>
     </ul>
 
@@ -155,18 +157,20 @@
     
     </h2>
 
+<div class="phpdocumentor-label-line">
+
+
+</div>
+
         <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Galaxy.php"><a href="files/src-lib-smr-galaxy.html"><abbr title="src/lib/Smr/Galaxy.php">Galaxy.php</abbr></a></abbr>
     :
     <span class="phpdocumentor-element-found-in__line">7</span>
 
+            <a href="classes/Smr-Galaxy.html#source-view.7" class="phpdocumentor-element-found-in__source" data-line="7" data-modal="source-view" data-src="files/src/lib/Smr/Galaxy.php.txt"></a>
     </aside>
 
         
-    <section class="phpdocumentor-description"></section>
-
-
-
 
 
 
@@ -174,142 +178,152 @@
 
 <h3 id="toc">
     Table of Contents
-    <a href="#toc" class="headerlink"><i class="fas fa-link"></i></a>
+    <a href="classes/Smr-Galaxy.html#toc" class="headerlink"><i class="fas fa-link"></i></a>
+
 </h3>
 
+
+
+
+
+
+
+<h4 id="toc-constants">
+    Constants
+    <a href="classes/Smr-Galaxy.html#toc-constants" class="headerlink"><i class="fas fa-link"></i></a>
+
+</h4>
 <dl class="phpdocumentor-table-of-contents">
             <dt class="phpdocumentor-table-of-contents__entry -constant -public">
     <a href="classes/Smr-Galaxy.html#constant_SQL">SQL</a>
     <span>
         &nbsp;= &#039;game_id = :game_id AND galaxy_id = :galaxy_id&#039;                            </span>
 </dt>
-<dd></dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -constant -public">
     <a href="classes/Smr-Galaxy.html#constant_TYPE_NEUTRAL">TYPE_NEUTRAL</a>
     <span>
         &nbsp;= &#039;Neutral&#039;                            </span>
 </dt>
-<dd></dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -constant -public">
     <a href="classes/Smr-Galaxy.html#constant_TYPE_PLANET">TYPE_PLANET</a>
     <span>
         &nbsp;= &#039;Planet&#039;                            </span>
 </dt>
-<dd></dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -constant -public">
     <a href="classes/Smr-Galaxy.html#constant_TYPE_RACIAL">TYPE_RACIAL</a>
     <span>
         &nbsp;= &#039;Racial&#039;                            </span>
 </dt>
-<dd></dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -constant -public">
     <a href="classes/Smr-Galaxy.html#constant_TYPES">TYPES</a>
     <span>
         &nbsp;= [self::TYPE_RACIAL, self::TYPE_NEUTRAL, self::TYPE_PLANET]                            </span>
 </dt>
-<dd></dd>
 
-                    <dt class="phpdocumentor-table-of-contents__entry -property -public">
+    </dl>
+
+
+<h4 id="toc-properties">
+    Properties
+    <a href="classes/Smr-Galaxy.html#toc-properties" class="headerlink"><i class="fas fa-link"></i></a>
+
+</h4>
+<dl class="phpdocumentor-table-of-contents">
+            <dt class="phpdocumentor-table-of-contents__entry -property -public">
     <a href="classes/Smr-Galaxy.html#property_SQLID">$SQLID</a>
     <span>
-                        &nbsp;: array&lt;string|int, mixed&gt;            </span>
+                        &nbsp;: array{game_id: int, galaxy_id: int}            </span>
 </dt>
-<dd></dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -property -protected">
     <a href="classes/Smr-Galaxy.html#property_CACHE_GALAXIES">$CACHE_GALAXIES</a>
     <span>
-                        &nbsp;: array&lt;string|int, mixed&gt;            </span>
+                        &nbsp;: array&lt;int, array&lt;int, self&gt;&gt;            </span>
 </dt>
-<dd></dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -property -protected">
     <a href="classes/Smr-Galaxy.html#property_CACHE_GAME_GALAXIES">$CACHE_GAME_GALAXIES</a>
     <span>
-                        &nbsp;: array&lt;string|int, mixed&gt;            </span>
+                        &nbsp;: array&lt;int, array&lt;int, self&gt;&gt;            </span>
 </dt>
-<dd></dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -property -protected">
     <a href="classes/Smr-Galaxy.html#property_galaxyID">$galaxyID</a>
     <span>
                         &nbsp;: int            </span>
 </dt>
-<dd></dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -property -protected">
     <a href="classes/Smr-Galaxy.html#property_galaxyType">$galaxyType</a>
     <span>
                         &nbsp;: string            </span>
 </dt>
-<dd></dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -property -protected">
     <a href="classes/Smr-Galaxy.html#property_gameID">$gameID</a>
     <span>
                         &nbsp;: int            </span>
 </dt>
-<dd></dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -property -protected">
     <a href="classes/Smr-Galaxy.html#property_hasChanged">$hasChanged</a>
     <span>
                         &nbsp;: bool            </span>
 </dt>
-<dd></dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -property -protected">
     <a href="classes/Smr-Galaxy.html#property_height">$height</a>
     <span>
                         &nbsp;: int            </span>
 </dt>
-<dd></dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -property -protected">
     <a href="classes/Smr-Galaxy.html#property_isNew">$isNew</a>
     <span>
                         &nbsp;: bool            </span>
 </dt>
-<dd></dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -property -protected">
     <a href="classes/Smr-Galaxy.html#property_maxForceTime">$maxForceTime</a>
     <span>
                         &nbsp;: int            </span>
 </dt>
-<dd></dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -property -protected">
     <a href="classes/Smr-Galaxy.html#property_name">$name</a>
     <span>
                         &nbsp;: string            </span>
 </dt>
-<dd></dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -property -protected">
     <a href="classes/Smr-Galaxy.html#property_startSector">$startSector</a>
     <span>
                         &nbsp;: int            </span>
 </dt>
-<dd></dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -property -protected">
     <a href="classes/Smr-Galaxy.html#property_width">$width</a>
     <span>
                         &nbsp;: int            </span>
 </dt>
-<dd></dd>
 
-                <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    </dl>
+
+<h4 id="toc-methods">
+    Methods
+    <a href="classes/Smr-Galaxy.html#toc-methods" class="headerlink"><i class="fas fa-link"></i></a>
+
+</h4>
+<dl class="phpdocumentor-table-of-contents">
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
     <a href="classes/Smr-Galaxy.html#method_clearCache">clearCache()</a>
     <span>
                                 &nbsp;: void    </span>
 </dt>
-<dd></dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
     <a href="classes/Smr-Galaxy.html#method_contains">contains()</a>
@@ -323,21 +337,18 @@
     <span>
                                 &nbsp;: self    </span>
 </dt>
-<dd></dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
     <a href="classes/Smr-Galaxy.html#method_equals">equals()</a>
     <span>
                                 &nbsp;: bool    </span>
 </dt>
-<dd></dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
     <a href="classes/Smr-Galaxy.html#method_generateSectors">generateSectors()</a>
     <span>
                                 &nbsp;: void    </span>
 </dt>
-<dd></dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
     <a href="classes/Smr-Galaxy.html#method_getConnectivity">getConnectivity()</a>
@@ -358,77 +369,66 @@
     <span>
                                 &nbsp;: int    </span>
 </dt>
-<dd></dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
     <a href="classes/Smr-Galaxy.html#method_getForces">getForces()</a>
     <span>
                                 &nbsp;: array&lt;int, array&lt;int, <a href="classes/Smr-Force.html"><abbr title="\Smr\Force">Force</abbr></a>&gt;&gt;    </span>
 </dt>
-<dd></dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
     <a href="classes/Smr-Galaxy.html#method_getGalaxy">getGalaxy()</a>
     <span>
                                 &nbsp;: self    </span>
 </dt>
-<dd></dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
     <a href="classes/Smr-Galaxy.html#method_getGalaxyContaining">getGalaxyContaining()</a>
     <span>
                                 &nbsp;: self    </span>
 </dt>
-<dd></dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
     <a href="classes/Smr-Galaxy.html#method_getGalaxyID">getGalaxyID()</a>
     <span>
                                 &nbsp;: int    </span>
 </dt>
-<dd></dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
     <a href="classes/Smr-Galaxy.html#method_getGalaxyMapHREF">getGalaxyMapHREF()</a>
     <span>
                                 &nbsp;: string    </span>
 </dt>
-<dd></dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
     <a href="classes/Smr-Galaxy.html#method_getGalaxyType">getGalaxyType()</a>
     <span>
                                 &nbsp;: string    </span>
 </dt>
-<dd></dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
     <a href="classes/Smr-Galaxy.html#method_getGameGalaxies">getGameGalaxies()</a>
     <span>
                                 &nbsp;: array&lt;int, self&gt;    </span>
 </dt>
-<dd></dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
     <a href="classes/Smr-Galaxy.html#method_getGameID">getGameID()</a>
     <span>
                                 &nbsp;: int    </span>
 </dt>
-<dd></dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
     <a href="classes/Smr-Galaxy.html#method_getHeight">getHeight()</a>
     <span>
                                 &nbsp;: int    </span>
 </dt>
-<dd></dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
     <a href="classes/Smr-Galaxy.html#method_getLocations">getLocations()</a>
     <span>
                                 &nbsp;: array&lt;int, array&lt;int, <a href="classes/Smr-Location.html"><abbr title="\Smr\Location">Location</abbr></a>&gt;&gt;    </span>
 </dt>
-<dd></dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
     <a href="classes/Smr-Galaxy.html#method_getMapSectors">getMapSectors()</a>
@@ -442,7 +442,6 @@
     <span>
                                 &nbsp;: int    </span>
 </dt>
-<dd></dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
     <a href="classes/Smr-Galaxy.html#method_getName">getName()</a>
@@ -456,63 +455,54 @@
     <span>
                                 &nbsp;: array&lt;int, <a href="classes/Smr-Planet.html"><abbr title="\Smr\Planet">Planet</abbr></a>&gt;    </span>
 </dt>
-<dd></dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
     <a href="classes/Smr-Galaxy.html#method_getPlayers">getPlayers()</a>
     <span>
                                 &nbsp;: array&lt;int, array&lt;int, <a href="classes/Smr-Player.html"><abbr title="\Smr\Player">Player</abbr></a>&gt;&gt;    </span>
 </dt>
-<dd></dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
     <a href="classes/Smr-Galaxy.html#method_getPorts">getPorts()</a>
     <span>
                                 &nbsp;: array&lt;int, <a href="classes/Smr-Port.html"><abbr title="\Smr\Port">Port</abbr></a>&gt;    </span>
 </dt>
-<dd></dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
     <a href="classes/Smr-Galaxy.html#method_getSectors">getSectors()</a>
     <span>
                                 &nbsp;: array&lt;int, <a href="classes/Smr-Sector.html"><abbr title="\Smr\Sector">Sector</abbr></a>&gt;    </span>
 </dt>
-<dd></dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
     <a href="classes/Smr-Galaxy.html#method_getSize">getSize()</a>
     <span>
                                 &nbsp;: int    </span>
 </dt>
-<dd></dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
     <a href="classes/Smr-Galaxy.html#method_getStartSector">getStartSector()</a>
     <span>
                                 &nbsp;: int    </span>
 </dt>
-<dd></dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
     <a href="classes/Smr-Galaxy.html#method_getWidth">getWidth()</a>
     <span>
                                 &nbsp;: int    </span>
 </dt>
-<dd></dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
     <a href="classes/Smr-Galaxy.html#method_save">save()</a>
     <span>
                                 &nbsp;: void    </span>
 </dt>
-<dd></dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
     <a href="classes/Smr-Galaxy.html#method_saveGalaxies">saveGalaxies()</a>
     <span>
                                 &nbsp;: void    </span>
 </dt>
-<dd></dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
     <a href="classes/Smr-Galaxy.html#method_setConnectivity">setConnectivity()</a>
@@ -526,44 +516,39 @@
     <span>
                                 &nbsp;: void    </span>
 </dt>
-<dd></dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
     <a href="classes/Smr-Galaxy.html#method_setHeight">setHeight()</a>
     <span>
                                 &nbsp;: void    </span>
 </dt>
-<dd></dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
     <a href="classes/Smr-Galaxy.html#method_setMaxForceTime">setMaxForceTime()</a>
     <span>
                                 &nbsp;: void    </span>
 </dt>
-<dd></dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
     <a href="classes/Smr-Galaxy.html#method_setName">setName()</a>
     <span>
                                 &nbsp;: void    </span>
 </dt>
-<dd></dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
     <a href="classes/Smr-Galaxy.html#method_setWidth">setWidth()</a>
     <span>
                                 &nbsp;: void    </span>
 </dt>
-<dd></dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -protected">
     <a href="classes/Smr-Galaxy.html#method___construct">__construct()</a>
     <span>
                                 &nbsp;: mixed    </span>
 </dt>
-<dd></dd>
 
-        </dl>
+    </dl>
+
 
 
 
@@ -572,11 +557,13 @@
         <h3 class="phpdocumentor-elements__header" id="constants">
             Constants
             <a href="classes/Smr-Galaxy.html#constants" class="headerlink"><i class="fas fa-link"></i></a>
+
         </h3>
                     <article class="phpdocumentor-element -constant -public ">
     <h4 class="phpdocumentor-element__name" id="constant_SQL">
         SQL
         <a href="classes/Smr-Galaxy.html#constant_SQL" class="headerlink"><i class="fas fa-link"></i></a>
+
     </h4>
 
     <aside class="phpdocumentor-element-found-in">
@@ -584,6 +571,7 @@
     :
     <span class="phpdocumentor-element-found-in__line">19</span>
 
+            <a href="classes/Smr-Galaxy.html#source-view.19" class="phpdocumentor-element-found-in__source" data-line="19" data-modal="source-view" data-src="files/src/lib/Smr/Galaxy.php.txt"></a>
     </aside>
 
     
@@ -595,10 +583,8 @@
 </code>
 
 
-        <section class="phpdocumentor-description"></section>
-
-        <section class="phpdocumentor-description"></section>
-
+    
+    
     
 
 </article>
@@ -606,6 +592,7 @@
     <h4 class="phpdocumentor-element__name" id="constant_TYPE_NEUTRAL">
         TYPE_NEUTRAL
         <a href="classes/Smr-Galaxy.html#constant_TYPE_NEUTRAL" class="headerlink"><i class="fas fa-link"></i></a>
+
     </h4>
 
     <aside class="phpdocumentor-element-found-in">
@@ -613,6 +600,7 @@
     :
     <span class="phpdocumentor-element-found-in__line">15</span>
 
+            <a href="classes/Smr-Galaxy.html#source-view.15" class="phpdocumentor-element-found-in__source" data-line="15" data-modal="source-view" data-src="files/src/lib/Smr/Galaxy.php.txt"></a>
     </aside>
 
     
@@ -624,10 +612,8 @@
 </code>
 
 
-        <section class="phpdocumentor-description"></section>
-
-        <section class="phpdocumentor-description"></section>
-
+    
+    
     
 
 </article>
@@ -635,6 +621,7 @@
     <h4 class="phpdocumentor-element__name" id="constant_TYPE_PLANET">
         TYPE_PLANET
         <a href="classes/Smr-Galaxy.html#constant_TYPE_PLANET" class="headerlink"><i class="fas fa-link"></i></a>
+
     </h4>
 
     <aside class="phpdocumentor-element-found-in">
@@ -642,6 +629,7 @@
     :
     <span class="phpdocumentor-element-found-in__line">16</span>
 
+            <a href="classes/Smr-Galaxy.html#source-view.16" class="phpdocumentor-element-found-in__source" data-line="16" data-modal="source-view" data-src="files/src/lib/Smr/Galaxy.php.txt"></a>
     </aside>
 
     
@@ -653,10 +641,8 @@
 </code>
 
 
-        <section class="phpdocumentor-description"></section>
-
-        <section class="phpdocumentor-description"></section>
-
+    
+    
     
 
 </article>
@@ -664,6 +650,7 @@
     <h4 class="phpdocumentor-element__name" id="constant_TYPE_RACIAL">
         TYPE_RACIAL
         <a href="classes/Smr-Galaxy.html#constant_TYPE_RACIAL" class="headerlink"><i class="fas fa-link"></i></a>
+
     </h4>
 
     <aside class="phpdocumentor-element-found-in">
@@ -671,6 +658,7 @@
     :
     <span class="phpdocumentor-element-found-in__line">14</span>
 
+            <a href="classes/Smr-Galaxy.html#source-view.14" class="phpdocumentor-element-found-in__source" data-line="14" data-modal="source-view" data-src="files/src/lib/Smr/Galaxy.php.txt"></a>
     </aside>
 
     
@@ -682,10 +670,8 @@
 </code>
 
 
-        <section class="phpdocumentor-description"></section>
-
-        <section class="phpdocumentor-description"></section>
-
+    
+    
     
 
 </article>
@@ -693,6 +679,7 @@
     <h4 class="phpdocumentor-element__name" id="constant_TYPES">
         TYPES
         <a href="classes/Smr-Galaxy.html#constant_TYPES" class="headerlink"><i class="fas fa-link"></i></a>
+
     </h4>
 
     <aside class="phpdocumentor-element-found-in">
@@ -700,6 +687,7 @@
     :
     <span class="phpdocumentor-element-found-in__line">17</span>
 
+            <a href="classes/Smr-Galaxy.html#source-view.17" class="phpdocumentor-element-found-in__source" data-line="17" data-modal="source-view" data-src="files/src/lib/Smr/Galaxy.php.txt"></a>
     </aside>
 
     
@@ -711,10 +699,8 @@
 </code>
 
 
-        <section class="phpdocumentor-description"></section>
-
-        <section class="phpdocumentor-description"></section>
-
+    
+    
     
 
 </article>
@@ -725,6 +711,7 @@
         <h3 class="phpdocumentor-elements__header" id="properties">
             Properties
             <a href="classes/Smr-Galaxy.html#properties" class="headerlink"><i class="fas fa-link"></i></a>
+
         </h3>
                     <article
         class="
@@ -736,6 +723,7 @@
     <h4 class="phpdocumentor-element__name" id="property_SQLID">
         $SQLID
         <a href="classes/Smr-Galaxy.html#property_SQLID" class="headerlink"><i class="fas fa-link"></i></a>
+
         <span class="phpdocumentor-element__modifiers">
                         <small class="phpdocumentor-element__modifier">read-only</small>        </span>
     </h4>
@@ -744,19 +732,18 @@
     :
     <span class="phpdocumentor-element-found-in__line">21</span>
 
+            <a href="classes/Smr-Galaxy.html#source-view.21" class="phpdocumentor-element-found-in__source" data-line="21" data-modal="source-view" data-src="files/src/lib/Smr/Galaxy.php.txt"></a>
     </aside>
 
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">public</span>
-        <span class="phpdocumentor-signature__type">array&lt;string|int, mixed&gt;</span>
+        <span class="phpdocumentor-signature__type">array{game_id: int, galaxy_id: int}</span>
     <span class="phpdocumentor-signature__name">$SQLID</span>
     </code>
 
     
-        <section class="phpdocumentor-description"><p>array{game_id: int, galaxy_id: int}</p>
-</section>
-
+    
     
 
 </article>
@@ -770,6 +757,7 @@
     <h4 class="phpdocumentor-element__name" id="property_CACHE_GALAXIES">
         $CACHE_GALAXIES
         <a href="classes/Smr-Galaxy.html#property_CACHE_GALAXIES" class="headerlink"><i class="fas fa-link"></i></a>
+
         <span class="phpdocumentor-element__modifiers">
                                 </span>
     </h4>
@@ -778,12 +766,13 @@
     :
     <span class="phpdocumentor-element-found-in__line">10</span>
 
+            <a href="classes/Smr-Galaxy.html#source-view.10" class="phpdocumentor-element-found-in__source" data-line="10" data-modal="source-view" data-src="files/src/lib/Smr/Galaxy.php.txt"></a>
     </aside>
 
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">protected</span>
-    <span class="phpdocumentor-signature__static">static</span>    <span class="phpdocumentor-signature__type">array&lt;string|int, mixed&gt;</span>
+    <span class="phpdocumentor-signature__static">static</span>    <span class="phpdocumentor-signature__type">array&lt;int, array&lt;int, self&gt;&gt;</span>
     <span class="phpdocumentor-signature__name">$CACHE_GALAXIES</span>
      = <span class="phpdocumentor-signature__default-value">[]</span></code>
 
@@ -802,6 +791,7 @@
     <h4 class="phpdocumentor-element__name" id="property_CACHE_GAME_GALAXIES">
         $CACHE_GAME_GALAXIES
         <a href="classes/Smr-Galaxy.html#property_CACHE_GAME_GALAXIES" class="headerlink"><i class="fas fa-link"></i></a>
+
         <span class="phpdocumentor-element__modifiers">
                                 </span>
     </h4>
@@ -810,12 +800,13 @@
     :
     <span class="phpdocumentor-element-found-in__line">12</span>
 
+            <a href="classes/Smr-Galaxy.html#source-view.12" class="phpdocumentor-element-found-in__source" data-line="12" data-modal="source-view" data-src="files/src/lib/Smr/Galaxy.php.txt"></a>
     </aside>
 
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">protected</span>
-    <span class="phpdocumentor-signature__static">static</span>    <span class="phpdocumentor-signature__type">array&lt;string|int, mixed&gt;</span>
+    <span class="phpdocumentor-signature__static">static</span>    <span class="phpdocumentor-signature__type">array&lt;int, array&lt;int, self&gt;&gt;</span>
     <span class="phpdocumentor-signature__name">$CACHE_GAME_GALAXIES</span>
      = <span class="phpdocumentor-signature__default-value">[]</span></code>
 
@@ -834,6 +825,7 @@
     <h4 class="phpdocumentor-element__name" id="property_galaxyID">
         $galaxyID
         <a href="classes/Smr-Galaxy.html#property_galaxyID" class="headerlink"><i class="fas fa-link"></i></a>
+
         <span class="phpdocumentor-element__modifiers">
                         <small class="phpdocumentor-element__modifier">read-only</small>        </span>
     </h4>
@@ -842,6 +834,7 @@
     :
     <span class="phpdocumentor-element-found-in__line">84</span>
 
+            <a href="classes/Smr-Galaxy.html#source-view.84" class="phpdocumentor-element-found-in__source" data-line="84" data-modal="source-view" data-src="files/src/lib/Smr/Galaxy.php.txt"></a>
     </aside>
 
     
@@ -851,10 +844,8 @@
     <span class="phpdocumentor-signature__name">$galaxyID</span>
     </code>
 
-        <section class="phpdocumentor-description"></section>
-
-        <section class="phpdocumentor-description"></section>
-
+    
+    
     
 
 </article>
@@ -868,6 +859,7 @@
     <h4 class="phpdocumentor-element__name" id="property_galaxyType">
         $galaxyType
         <a href="classes/Smr-Galaxy.html#property_galaxyType" class="headerlink"><i class="fas fa-link"></i></a>
+
         <span class="phpdocumentor-element__modifiers">
                                 </span>
     </h4>
@@ -876,6 +868,7 @@
     :
     <span class="phpdocumentor-element-found-in__line">26</span>
 
+            <a href="classes/Smr-Galaxy.html#source-view.26" class="phpdocumentor-element-found-in__source" data-line="26" data-modal="source-view" data-src="files/src/lib/Smr/Galaxy.php.txt"></a>
     </aside>
 
     
@@ -885,10 +878,8 @@
     <span class="phpdocumentor-signature__name">$galaxyType</span>
     </code>
 
-        <section class="phpdocumentor-description"></section>
-
-        <section class="phpdocumentor-description"></section>
-
+    
+    
     
 
 </article>
@@ -902,6 +893,7 @@
     <h4 class="phpdocumentor-element__name" id="property_gameID">
         $gameID
         <a href="classes/Smr-Galaxy.html#property_gameID" class="headerlink"><i class="fas fa-link"></i></a>
+
         <span class="phpdocumentor-element__modifiers">
                         <small class="phpdocumentor-element__modifier">read-only</small>        </span>
     </h4>
@@ -910,6 +902,7 @@
     :
     <span class="phpdocumentor-element-found-in__line">83</span>
 
+            <a href="classes/Smr-Galaxy.html#source-view.83" class="phpdocumentor-element-found-in__source" data-line="83" data-modal="source-view" data-src="files/src/lib/Smr/Galaxy.php.txt"></a>
     </aside>
 
     
@@ -919,10 +912,8 @@
     <span class="phpdocumentor-signature__name">$gameID</span>
     </code>
 
-        <section class="phpdocumentor-description"></section>
-
-        <section class="phpdocumentor-description"></section>
-
+    
+    
     
 
 </article>
@@ -936,6 +927,7 @@
     <h4 class="phpdocumentor-element__name" id="property_hasChanged">
         $hasChanged
         <a href="classes/Smr-Galaxy.html#property_hasChanged" class="headerlink"><i class="fas fa-link"></i></a>
+
         <span class="phpdocumentor-element__modifiers">
                                 </span>
     </h4>
@@ -944,6 +936,7 @@
     :
     <span class="phpdocumentor-element-found-in__line">31</span>
 
+            <a href="classes/Smr-Galaxy.html#source-view.31" class="phpdocumentor-element-found-in__source" data-line="31" data-modal="source-view" data-src="files/src/lib/Smr/Galaxy.php.txt"></a>
     </aside>
 
     
@@ -953,10 +946,8 @@
     <span class="phpdocumentor-signature__name">$hasChanged</span>
      = <span class="phpdocumentor-signature__default-value">false</span></code>
 
-        <section class="phpdocumentor-description"></section>
-
-        <section class="phpdocumentor-description"></section>
-
+    
+    
     
 
 </article>
@@ -970,6 +961,7 @@
     <h4 class="phpdocumentor-element__name" id="property_height">
         $height
         <a href="classes/Smr-Galaxy.html#property_height" class="headerlink"><i class="fas fa-link"></i></a>
+
         <span class="phpdocumentor-element__modifiers">
                                 </span>
     </h4>
@@ -978,6 +970,7 @@
     :
     <span class="phpdocumentor-element-found-in__line">25</span>
 
+            <a href="classes/Smr-Galaxy.html#source-view.25" class="phpdocumentor-element-found-in__source" data-line="25" data-modal="source-view" data-src="files/src/lib/Smr/Galaxy.php.txt"></a>
     </aside>
 
     
@@ -987,10 +980,8 @@
     <span class="phpdocumentor-signature__name">$height</span>
     </code>
 
-        <section class="phpdocumentor-description"></section>
-
-        <section class="phpdocumentor-description"></section>
-
+    
+    
     
 
 </article>
@@ -1004,6 +995,7 @@
     <h4 class="phpdocumentor-element__name" id="property_isNew">
         $isNew
         <a href="classes/Smr-Galaxy.html#property_isNew" class="headerlink"><i class="fas fa-link"></i></a>
+
         <span class="phpdocumentor-element__modifiers">
                                 </span>
     </h4>
@@ -1012,6 +1004,7 @@
     :
     <span class="phpdocumentor-element-found-in__line">32</span>
 
+            <a href="classes/Smr-Galaxy.html#source-view.32" class="phpdocumentor-element-found-in__source" data-line="32" data-modal="source-view" data-src="files/src/lib/Smr/Galaxy.php.txt"></a>
     </aside>
 
     
@@ -1021,10 +1014,8 @@
     <span class="phpdocumentor-signature__name">$isNew</span>
      = <span class="phpdocumentor-signature__default-value">true</span></code>
 
-        <section class="phpdocumentor-description"></section>
-
-        <section class="phpdocumentor-description"></section>
-
+    
+    
     
 
 </article>
@@ -1038,6 +1029,7 @@
     <h4 class="phpdocumentor-element__name" id="property_maxForceTime">
         $maxForceTime
         <a href="classes/Smr-Galaxy.html#property_maxForceTime" class="headerlink"><i class="fas fa-link"></i></a>
+
         <span class="phpdocumentor-element__modifiers">
                                 </span>
     </h4>
@@ -1046,6 +1038,7 @@
     :
     <span class="phpdocumentor-element-found-in__line">27</span>
 
+            <a href="classes/Smr-Galaxy.html#source-view.27" class="phpdocumentor-element-found-in__source" data-line="27" data-modal="source-view" data-src="files/src/lib/Smr/Galaxy.php.txt"></a>
     </aside>
 
     
@@ -1055,10 +1048,8 @@
     <span class="phpdocumentor-signature__name">$maxForceTime</span>
     </code>
 
-        <section class="phpdocumentor-description"></section>
-
-        <section class="phpdocumentor-description"></section>
-
+    
+    
     
 
 </article>
@@ -1072,6 +1063,7 @@
     <h4 class="phpdocumentor-element__name" id="property_name">
         $name
         <a href="classes/Smr-Galaxy.html#property_name" class="headerlink"><i class="fas fa-link"></i></a>
+
         <span class="phpdocumentor-element__modifiers">
                                 </span>
     </h4>
@@ -1080,6 +1072,7 @@
     :
     <span class="phpdocumentor-element-found-in__line">23</span>
 
+            <a href="classes/Smr-Galaxy.html#source-view.23" class="phpdocumentor-element-found-in__source" data-line="23" data-modal="source-view" data-src="files/src/lib/Smr/Galaxy.php.txt"></a>
     </aside>
 
     
@@ -1089,10 +1082,8 @@
     <span class="phpdocumentor-signature__name">$name</span>
     </code>
 
-        <section class="phpdocumentor-description"></section>
-
-        <section class="phpdocumentor-description"></section>
-
+    
+    
     
 
 </article>
@@ -1106,6 +1097,7 @@
     <h4 class="phpdocumentor-element__name" id="property_startSector">
         $startSector
         <a href="classes/Smr-Galaxy.html#property_startSector" class="headerlink"><i class="fas fa-link"></i></a>
+
         <span class="phpdocumentor-element__modifiers">
                                 </span>
     </h4>
@@ -1114,6 +1106,7 @@
     :
     <span class="phpdocumentor-element-found-in__line">29</span>
 
+            <a href="classes/Smr-Galaxy.html#source-view.29" class="phpdocumentor-element-found-in__source" data-line="29" data-modal="source-view" data-src="files/src/lib/Smr/Galaxy.php.txt"></a>
     </aside>
 
     
@@ -1123,10 +1116,8 @@
     <span class="phpdocumentor-signature__name">$startSector</span>
     </code>
 
-        <section class="phpdocumentor-description"></section>
-
-        <section class="phpdocumentor-description"></section>
-
+    
+    
     
 
 </article>
@@ -1140,6 +1131,7 @@
     <h4 class="phpdocumentor-element__name" id="property_width">
         $width
         <a href="classes/Smr-Galaxy.html#property_width" class="headerlink"><i class="fas fa-link"></i></a>
+
         <span class="phpdocumentor-element__modifiers">
                                 </span>
     </h4>
@@ -1148,6 +1140,7 @@
     :
     <span class="phpdocumentor-element-found-in__line">24</span>
 
+            <a href="classes/Smr-Galaxy.html#source-view.24" class="phpdocumentor-element-found-in__source" data-line="24" data-modal="source-view" data-src="files/src/lib/Smr/Galaxy.php.txt"></a>
     </aside>
 
     
@@ -1157,10 +1150,8 @@
     <span class="phpdocumentor-signature__name">$width</span>
     </code>
 
-        <section class="phpdocumentor-description"></section>
-
-        <section class="phpdocumentor-description"></section>
-
+    
+    
     
 
 </article>
@@ -1170,6 +1161,7 @@
         <h3 class="phpdocumentor-elements__header" id="methods">
             Methods
             <a href="classes/Smr-Galaxy.html#methods" class="headerlink"><i class="fas fa-link"></i></a>
+
         </h3>
                     <article
         class="phpdocumentor-element
@@ -1180,28 +1172,27 @@
     <h4 class="phpdocumentor-element__name" id="method_clearCache">
         clearCache()
         <a href="classes/Smr-Galaxy.html#method_clearCache" class="headerlink"><i class="fas fa-link"></i></a>
+
     </h4>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Galaxy.php"><a href="files/src-lib-smr-galaxy.html"><abbr title="src/lib/Smr/Galaxy.php">Galaxy.php</abbr></a></abbr>
     :
     <span class="phpdocumentor-element-found-in__line">34</span>
 
+            <a href="classes/Smr-Galaxy.html#source-view.34" class="phpdocumentor-element-found-in__source" data-line="34" data-modal="source-view" data-src="files/src/lib/Smr/Galaxy.php.txt"></a>
     </aside>
 
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">public</span>
-            <span class="phpdocumentor-signature__static">static</span>    <span class="phpdocumentor-signature__name">clearCache</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">void</span></code>
+            <span class="phpdocumentor-signature__static">static</span>        <span class="phpdocumentor-signature__name">clearCache</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">void</span></code>
 
-        <section class="phpdocumentor-description"></section>
-
+    <div class="phpdocumentor-label-line">
+        </div>
     
     
+    
 
-        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
-    <span class="phpdocumentor-signature__response_type">void</span>
-            &mdash;
-        
     
 </article>
                     <article
@@ -1213,20 +1204,24 @@
     <h4 class="phpdocumentor-element__name" id="method_contains">
         contains()
         <a href="classes/Smr-Galaxy.html#method_contains" class="headerlink"><i class="fas fa-link"></i></a>
+
     </h4>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Galaxy.php"><a href="files/src-lib-smr-galaxy.html"><abbr title="src/lib/Smr/Galaxy.php">Galaxy.php</abbr></a></abbr>
     :
     <span class="phpdocumentor-element-found-in__line">401</span>
 
+            <a href="classes/Smr-Galaxy.html#source-view.401" class="phpdocumentor-element-found-in__source" data-line="401" data-modal="source-view" data-src="files/src/lib/Smr/Galaxy.php.txt"></a>
     </aside>
 
         <p class="phpdocumentor-summary">Check if the galaxy contains a specific sector.</p>
 
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">public</span>
-                <span class="phpdocumentor-signature__name">contains</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type">int|<a href="classes/Smr-Sector.html"><abbr title="\Smr\Sector">Sector</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$sectorID</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">bool</span></code>
+                    <span class="phpdocumentor-signature__name">contains</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type">int|<a href="classes/Smr-Sector.html"><abbr title="\Smr\Sector">Sector</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$sectorID</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">bool</span></code>
 
+    <div class="phpdocumentor-label-line">
+        </div>
     
         <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
     <dl class="phpdocumentor-argument-list">
@@ -1235,18 +1230,17 @@
                 : <span class="phpdocumentor-signature__argument__return-type">int|<a href="classes/Smr-Sector.html"><abbr title="\Smr\Sector">Sector</abbr></a></span>
                             </dt>
             <dd class="phpdocumentor-argument-list__definition">
-                    <section class="phpdocumentor-description"></section>
-
+                
             </dd>
             </dl>
 
     
 
+            <section>
         <h5 class="phpdocumentor-return-value__heading">Return values</h5>
-    <span class="phpdocumentor-signature__response_type">bool</span>
-            &mdash;
-        
-    
+        <span class="phpdocumentor-signature__response_type">bool</span>
+            </section>
+
 </article>
                     <article
         class="phpdocumentor-element
@@ -1257,21 +1251,24 @@
     <h4 class="phpdocumentor-element__name" id="method_createGalaxy">
         createGalaxy()
         <a href="classes/Smr-Galaxy.html#method_createGalaxy" class="headerlink"><i class="fas fa-link"></i></a>
+
     </h4>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Galaxy.php"><a href="files/src-lib-smr-galaxy.html"><abbr title="src/lib/Smr/Galaxy.php">Galaxy.php</abbr></a></abbr>
     :
     <span class="phpdocumentor-element-found-in__line">74</span>
 
+            <a href="classes/Smr-Galaxy.html#source-view.74" class="phpdocumentor-element-found-in__source" data-line="74" data-modal="source-view" data-src="files/src/lib/Smr/Galaxy.php.txt"></a>
     </aside>
 
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">public</span>
-            <span class="phpdocumentor-signature__static">static</span>    <span class="phpdocumentor-signature__name">createGalaxy</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type">int&nbsp;</span><span class="phpdocumentor-signature__argument__name">$gameID</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__return-type">int&nbsp;</span><span class="phpdocumentor-signature__argument__name">$galaxyID</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">self</span></code>
+            <span class="phpdocumentor-signature__static">static</span>        <span class="phpdocumentor-signature__name">createGalaxy</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type">int&nbsp;</span><span class="phpdocumentor-signature__argument__name">$gameID</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__return-type">int&nbsp;</span><span class="phpdocumentor-signature__argument__name">$galaxyID</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">self</span></code>
 
-        <section class="phpdocumentor-description"></section>
-
+    <div class="phpdocumentor-label-line">
+        </div>
+    
         <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
     <dl class="phpdocumentor-argument-list">
                     <dt class="phpdocumentor-argument-list__entry">
@@ -1279,26 +1276,24 @@
                 : <span class="phpdocumentor-signature__argument__return-type">int</span>
                             </dt>
             <dd class="phpdocumentor-argument-list__definition">
-                    <section class="phpdocumentor-description"></section>
-
+                
             </dd>
                     <dt class="phpdocumentor-argument-list__entry">
                 <span class="phpdocumentor-signature__argument__name">$galaxyID</span>
                 : <span class="phpdocumentor-signature__argument__return-type">int</span>
                             </dt>
             <dd class="phpdocumentor-argument-list__definition">
-                    <section class="phpdocumentor-description"></section>
-
+                
             </dd>
             </dl>
 
     
 
+            <section>
         <h5 class="phpdocumentor-return-value__heading">Return values</h5>
-    <span class="phpdocumentor-signature__response_type">self</span>
-            &mdash;
-        
-    
+        <span class="phpdocumentor-signature__response_type">self</span>
+            </section>
+
 </article>
                     <article
         class="phpdocumentor-element
@@ -1309,21 +1304,24 @@
     <h4 class="phpdocumentor-element__name" id="method_equals">
         equals()
         <a href="classes/Smr-Galaxy.html#method_equals" class="headerlink"><i class="fas fa-link"></i></a>
+
     </h4>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Galaxy.php"><a href="files/src-lib-smr-galaxy.html"><abbr title="src/lib/Smr/Galaxy.php">Galaxy.php</abbr></a></abbr>
     :
     <span class="phpdocumentor-element-found-in__line">412</span>
 
+            <a href="classes/Smr-Galaxy.html#source-view.412" class="phpdocumentor-element-found-in__source" data-line="412" data-modal="source-view" data-src="files/src/lib/Smr/Galaxy.php.txt"></a>
     </aside>
 
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">public</span>
-                <span class="phpdocumentor-signature__name">equals</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type"><a href="classes/Smr-Galaxy.html"><abbr title="\Smr\Galaxy">Galaxy</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$otherGalaxy</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">bool</span></code>
+                    <span class="phpdocumentor-signature__name">equals</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type"><a href="classes/Smr-Galaxy.html"><abbr title="\Smr\Galaxy">Galaxy</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$otherGalaxy</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">bool</span></code>
 
-        <section class="phpdocumentor-description"></section>
-
+    <div class="phpdocumentor-label-line">
+        </div>
+    
         <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
     <dl class="phpdocumentor-argument-list">
                     <dt class="phpdocumentor-argument-list__entry">
@@ -1331,18 +1329,17 @@
                 : <span class="phpdocumentor-signature__argument__return-type"><a href="classes/Smr-Galaxy.html"><abbr title="\Smr\Galaxy">Galaxy</abbr></a></span>
                             </dt>
             <dd class="phpdocumentor-argument-list__definition">
-                    <section class="phpdocumentor-description"></section>
-
+                
             </dd>
             </dl>
 
     
 
+            <section>
         <h5 class="phpdocumentor-return-value__heading">Return values</h5>
-    <span class="phpdocumentor-signature__response_type">bool</span>
-            &mdash;
-        
-    
+        <span class="phpdocumentor-signature__response_type">bool</span>
+            </section>
+
 </article>
                     <article
         class="phpdocumentor-element
@@ -1353,28 +1350,27 @@
     <h4 class="phpdocumentor-element__name" id="method_generateSectors">
         generateSectors()
         <a href="classes/Smr-Galaxy.html#method_generateSectors" class="headerlink"><i class="fas fa-link"></i></a>
+
     </h4>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Galaxy.php"><a href="files/src-lib-smr-galaxy.html"><abbr title="src/lib/Smr/Galaxy.php">Galaxy.php</abbr></a></abbr>
     :
     <span class="phpdocumentor-element-found-in__line">334</span>
 
+            <a href="classes/Smr-Galaxy.html#source-view.334" class="phpdocumentor-element-found-in__source" data-line="334" data-modal="source-view" data-src="files/src/lib/Smr/Galaxy.php.txt"></a>
     </aside>
 
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">public</span>
-                <span class="phpdocumentor-signature__name">generateSectors</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">void</span></code>
+                    <span class="phpdocumentor-signature__name">generateSectors</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">void</span></code>
 
-        <section class="phpdocumentor-description"></section>
-
+    <div class="phpdocumentor-label-line">
+        </div>
     
     
+    
 
-        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
-    <span class="phpdocumentor-signature__response_type">void</span>
-            &mdash;
-        
     
 </article>
                     <article
@@ -1386,29 +1382,33 @@
     <h4 class="phpdocumentor-element__name" id="method_getConnectivity">
         getConnectivity()
         <a href="classes/Smr-Galaxy.html#method_getConnectivity" class="headerlink"><i class="fas fa-link"></i></a>
+
     </h4>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Galaxy.php"><a href="files/src-lib-smr-galaxy.html"><abbr title="src/lib/Smr/Galaxy.php">Galaxy.php</abbr></a></abbr>
     :
     <span class="phpdocumentor-element-found-in__line">389</span>
 
+            <a href="classes/Smr-Galaxy.html#source-view.389" class="phpdocumentor-element-found-in__source" data-line="389" data-modal="source-view" data-src="files/src/lib/Smr/Galaxy.php.txt"></a>
     </aside>
 
         <p class="phpdocumentor-summary">Returns the sector connectivity of the galaxy as a percent.</p>
 
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">public</span>
-                <span class="phpdocumentor-signature__name">getConnectivity</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">float</span></code>
+                    <span class="phpdocumentor-signature__name">getConnectivity</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">float</span></code>
 
+    <div class="phpdocumentor-label-line">
+        </div>
     
     
     
 
+            <section>
         <h5 class="phpdocumentor-return-value__heading">Return values</h5>
-    <span class="phpdocumentor-signature__response_type">float</span>
-            &mdash;
-        
-    
+        <span class="phpdocumentor-signature__response_type">float</span>
+            </section>
+
 </article>
                     <article
         class="phpdocumentor-element
@@ -1419,29 +1419,33 @@
     <h4 class="phpdocumentor-element__name" id="method_getDisplayName">
         getDisplayName()
         <a href="classes/Smr-Galaxy.html#method_getDisplayName" class="headerlink"><i class="fas fa-link"></i></a>
+
     </h4>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Galaxy.php"><a href="files/src-lib-smr-galaxy.html"><abbr title="src/lib/Smr/Galaxy.php">Galaxy.php</abbr></a></abbr>
     :
     <span class="phpdocumentor-element-found-in__line">164</span>
 
+            <a href="classes/Smr-Galaxy.html#source-view.164" class="phpdocumentor-element-found-in__source" data-line="164" data-modal="source-view" data-src="files/src/lib/Smr/Galaxy.php.txt"></a>
     </aside>
 
         <p class="phpdocumentor-summary">Returns the galaxy name, suitable for HTML display.</p>
 
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">public</span>
-                <span class="phpdocumentor-signature__name">getDisplayName</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">string</span></code>
+                    <span class="phpdocumentor-signature__name">getDisplayName</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">string</span></code>
 
+    <div class="phpdocumentor-label-line">
+        </div>
     
     
     
 
+            <section>
         <h5 class="phpdocumentor-return-value__heading">Return values</h5>
-    <span class="phpdocumentor-signature__response_type">string</span>
-            &mdash;
-        
-    
+        <span class="phpdocumentor-signature__response_type">string</span>
+            </section>
+
 </article>
                     <article
         class="phpdocumentor-element
@@ -1452,29 +1456,32 @@
     <h4 class="phpdocumentor-element__name" id="method_getEndSector">
         getEndSector()
         <a href="classes/Smr-Galaxy.html#method_getEndSector" class="headerlink"><i class="fas fa-link"></i></a>
+
     </h4>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Galaxy.php"><a href="files/src-lib-smr-galaxy.html"><abbr title="src/lib/Smr/Galaxy.php">Galaxy.php</abbr></a></abbr>
     :
     <span class="phpdocumentor-element-found-in__line">213</span>
 
+            <a href="classes/Smr-Galaxy.html#source-view.213" class="phpdocumentor-element-found-in__source" data-line="213" data-modal="source-view" data-src="files/src/lib/Smr/Galaxy.php.txt"></a>
     </aside>
 
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">public</span>
-                <span class="phpdocumentor-signature__name">getEndSector</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">int</span></code>
+                    <span class="phpdocumentor-signature__name">getEndSector</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">int</span></code>
 
-        <section class="phpdocumentor-description"></section>
-
+    <div class="phpdocumentor-label-line">
+        </div>
     
     
+    
 
+            <section>
         <h5 class="phpdocumentor-return-value__heading">Return values</h5>
-    <span class="phpdocumentor-signature__response_type">int</span>
-            &mdash;
-        
-    
+        <span class="phpdocumentor-signature__response_type">int</span>
+            </section>
+
 </article>
                     <article
         class="phpdocumentor-element
@@ -1485,28 +1492,32 @@
     <h4 class="phpdocumentor-element__name" id="method_getForces">
         getForces()
         <a href="classes/Smr-Galaxy.html#method_getForces" class="headerlink"><i class="fas fa-link"></i></a>
+
     </h4>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Galaxy.php"><a href="files/src-lib-smr-galaxy.html"><abbr title="src/lib/Smr/Galaxy.php">Galaxy.php</abbr></a></abbr>
     :
     <span class="phpdocumentor-element-found-in__line">252</span>
 
+            <a href="classes/Smr-Galaxy.html#source-view.252" class="phpdocumentor-element-found-in__source" data-line="252" data-modal="source-view" data-src="files/src/lib/Smr/Galaxy.php.txt"></a>
     </aside>
 
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">public</span>
-                <span class="phpdocumentor-signature__name">getForces</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">array&lt;int, array&lt;int, <a href="classes/Smr-Force.html"><abbr title="\Smr\Force">Force</abbr></a>&gt;&gt;</span></code>
+                    <span class="phpdocumentor-signature__name">getForces</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">array&lt;int, array&lt;int, <a href="classes/Smr-Force.html"><abbr title="\Smr\Force">Force</abbr></a>&gt;&gt;</span></code>
 
+    <div class="phpdocumentor-label-line">
+        </div>
     
     
     
 
+            <section>
         <h5 class="phpdocumentor-return-value__heading">Return values</h5>
-    <span class="phpdocumentor-signature__response_type">array&lt;int, array&lt;int, <a href="classes/Smr-Force.html"><abbr title="\Smr\Force">Force</abbr></a>&gt;&gt;</span>
-            &mdash;
-        
-    
+        <span class="phpdocumentor-signature__response_type">array&lt;int, array&lt;int, <a href="classes/Smr-Force.html"><abbr title="\Smr\Force">Force</abbr></a>&gt;&gt;</span>
+            </section>
+
 </article>
                     <article
         class="phpdocumentor-element
@@ -1517,21 +1528,24 @@
     <h4 class="phpdocumentor-element__name" id="method_getGalaxy">
         getGalaxy()
         <a href="classes/Smr-Galaxy.html#method_getGalaxy" class="headerlink"><i class="fas fa-link"></i></a>
+
     </h4>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Galaxy.php"><a href="files/src-lib-smr-galaxy.html"><abbr title="src/lib/Smr/Galaxy.php">Galaxy.php</abbr></a></abbr>
     :
     <span class="phpdocumentor-element-found-in__line">58</span>
 
+            <a href="classes/Smr-Galaxy.html#source-view.58" class="phpdocumentor-element-found-in__source" data-line="58" data-modal="source-view" data-src="files/src/lib/Smr/Galaxy.php.txt"></a>
     </aside>
 
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">public</span>
-            <span class="phpdocumentor-signature__static">static</span>    <span class="phpdocumentor-signature__name">getGalaxy</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type">int&nbsp;</span><span class="phpdocumentor-signature__argument__name">$gameID</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__return-type">int&nbsp;</span><span class="phpdocumentor-signature__argument__name">$galaxyID</span></span><span class="phpdocumentor-signature__argument"><span>[</span><span>, </span><span class="phpdocumentor-signature__argument__return-type">bool&nbsp;</span><span class="phpdocumentor-signature__argument__name">$forceUpdate</span><span> = </span><span class="phpdocumentor-signature__argument__default-value">false</span><span> ]</span></span><span class="phpdocumentor-signature__argument"><span>[</span><span>, </span><span class="phpdocumentor-signature__argument__return-type"><a href="classes/Smr-DatabaseRecord.html"><abbr title="\Smr\DatabaseRecord">DatabaseRecord</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$dbRecord</span><span> = </span><span class="phpdocumentor-signature__argument__default-value">null</span><span> ]</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">self</span></code>
+            <span class="phpdocumentor-signature__static">static</span>        <span class="phpdocumentor-signature__name">getGalaxy</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type">int&nbsp;</span><span class="phpdocumentor-signature__argument__name">$gameID</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__return-type">int&nbsp;</span><span class="phpdocumentor-signature__argument__name">$galaxyID</span></span><span class="phpdocumentor-signature__argument"><span>[</span><span>, </span><span class="phpdocumentor-signature__argument__return-type">bool&nbsp;</span><span class="phpdocumentor-signature__argument__name">$forceUpdate</span><span> = </span><span class="phpdocumentor-signature__argument__default-value">false</span><span> ]</span></span><span class="phpdocumentor-signature__argument"><span>[</span><span>, </span><span class="phpdocumentor-signature__argument__return-type"><a href="classes/Smr-DatabaseRecord.html"><abbr title="\Smr\DatabaseRecord">DatabaseRecord</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$dbRecord</span><span> = </span><span class="phpdocumentor-signature__argument__default-value">null</span><span> ]</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">self</span></code>
 
-        <section class="phpdocumentor-description"></section>
-
+    <div class="phpdocumentor-label-line">
+        </div>
+    
         <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
     <dl class="phpdocumentor-argument-list">
                     <dt class="phpdocumentor-argument-list__entry">
@@ -1539,42 +1553,38 @@
                 : <span class="phpdocumentor-signature__argument__return-type">int</span>
                             </dt>
             <dd class="phpdocumentor-argument-list__definition">
-                    <section class="phpdocumentor-description"></section>
-
+                
             </dd>
                     <dt class="phpdocumentor-argument-list__entry">
                 <span class="phpdocumentor-signature__argument__name">$galaxyID</span>
                 : <span class="phpdocumentor-signature__argument__return-type">int</span>
                             </dt>
             <dd class="phpdocumentor-argument-list__definition">
-                    <section class="phpdocumentor-description"></section>
-
+                
             </dd>
                     <dt class="phpdocumentor-argument-list__entry">
                 <span class="phpdocumentor-signature__argument__name">$forceUpdate</span>
                 : <span class="phpdocumentor-signature__argument__return-type">bool</span>
                  = <span class="phpdocumentor-signature__argument__default-value">false</span>            </dt>
             <dd class="phpdocumentor-argument-list__definition">
-                    <section class="phpdocumentor-description"></section>
-
+                
             </dd>
                     <dt class="phpdocumentor-argument-list__entry">
                 <span class="phpdocumentor-signature__argument__name">$dbRecord</span>
                 : <span class="phpdocumentor-signature__argument__return-type"><a href="classes/Smr-DatabaseRecord.html"><abbr title="\Smr\DatabaseRecord">DatabaseRecord</abbr></a></span>
                  = <span class="phpdocumentor-signature__argument__default-value">null</span>            </dt>
             <dd class="phpdocumentor-argument-list__definition">
-                    <section class="phpdocumentor-description"></section>
-
+                
             </dd>
             </dl>
 
     
 
+            <section>
         <h5 class="phpdocumentor-return-value__heading">Return values</h5>
-    <span class="phpdocumentor-signature__response_type">self</span>
-            &mdash;
-        
-    
+        <span class="phpdocumentor-signature__response_type">self</span>
+            </section>
+
 </article>
                     <article
         class="phpdocumentor-element
@@ -1585,21 +1595,24 @@
     <h4 class="phpdocumentor-element__name" id="method_getGalaxyContaining">
         getGalaxyContaining()
         <a href="classes/Smr-Galaxy.html#method_getGalaxyContaining" class="headerlink"><i class="fas fa-link"></i></a>
+
     </h4>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Galaxy.php"><a href="files/src-lib-smr-galaxy.html"><abbr title="src/lib/Smr/Galaxy.php">Galaxy.php</abbr></a></abbr>
     :
     <span class="phpdocumentor-element-found-in__line">408</span>
 
+            <a href="classes/Smr-Galaxy.html#source-view.408" class="phpdocumentor-element-found-in__source" data-line="408" data-modal="source-view" data-src="files/src/lib/Smr/Galaxy.php.txt"></a>
     </aside>
 
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">public</span>
-            <span class="phpdocumentor-signature__static">static</span>    <span class="phpdocumentor-signature__name">getGalaxyContaining</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type">int&nbsp;</span><span class="phpdocumentor-signature__argument__name">$gameID</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__return-type">int&nbsp;</span><span class="phpdocumentor-signature__argument__name">$sectorID</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">self</span></code>
+            <span class="phpdocumentor-signature__static">static</span>        <span class="phpdocumentor-signature__name">getGalaxyContaining</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type">int&nbsp;</span><span class="phpdocumentor-signature__argument__name">$gameID</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__return-type">int&nbsp;</span><span class="phpdocumentor-signature__argument__name">$sectorID</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">self</span></code>
 
-        <section class="phpdocumentor-description"></section>
-
+    <div class="phpdocumentor-label-line">
+        </div>
+    
         <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
     <dl class="phpdocumentor-argument-list">
                     <dt class="phpdocumentor-argument-list__entry">
@@ -1607,26 +1620,24 @@
                 : <span class="phpdocumentor-signature__argument__return-type">int</span>
                             </dt>
             <dd class="phpdocumentor-argument-list__definition">
-                    <section class="phpdocumentor-description"></section>
-
+                
             </dd>
                     <dt class="phpdocumentor-argument-list__entry">
                 <span class="phpdocumentor-signature__argument__name">$sectorID</span>
                 : <span class="phpdocumentor-signature__argument__return-type">int</span>
                             </dt>
             <dd class="phpdocumentor-argument-list__definition">
-                    <section class="phpdocumentor-description"></section>
-
+                
             </dd>
             </dl>
 
     
 
+            <section>
         <h5 class="phpdocumentor-return-value__heading">Return values</h5>
-    <span class="phpdocumentor-signature__response_type">self</span>
-            &mdash;
-        
-    
+        <span class="phpdocumentor-signature__response_type">self</span>
+            </section>
+
 </article>
                     <article
         class="phpdocumentor-element
@@ -1637,29 +1648,32 @@
     <h4 class="phpdocumentor-element__name" id="method_getGalaxyID">
         getGalaxyID()
         <a href="classes/Smr-Galaxy.html#method_getGalaxyID" class="headerlink"><i class="fas fa-link"></i></a>
+
     </h4>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Galaxy.php"><a href="files/src-lib-smr-galaxy.html"><abbr title="src/lib/Smr/Galaxy.php">Galaxy.php</abbr></a></abbr>
     :
     <span class="phpdocumentor-element-found-in__line">145</span>
 
+            <a href="classes/Smr-Galaxy.html#source-view.145" class="phpdocumentor-element-found-in__source" data-line="145" data-modal="source-view" data-src="files/src/lib/Smr/Galaxy.php.txt"></a>
     </aside>
 
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">public</span>
-                <span class="phpdocumentor-signature__name">getGalaxyID</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">int</span></code>
+                    <span class="phpdocumentor-signature__name">getGalaxyID</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">int</span></code>
 
-        <section class="phpdocumentor-description"></section>
-
+    <div class="phpdocumentor-label-line">
+        </div>
     
     
+    
 
+            <section>
         <h5 class="phpdocumentor-return-value__heading">Return values</h5>
-    <span class="phpdocumentor-signature__response_type">int</span>
-            &mdash;
-        
-    
+        <span class="phpdocumentor-signature__response_type">int</span>
+            </section>
+
 </article>
                     <article
         class="phpdocumentor-element
@@ -1670,29 +1684,32 @@
     <h4 class="phpdocumentor-element__name" id="method_getGalaxyMapHREF">
         getGalaxyMapHREF()
         <a href="classes/Smr-Galaxy.html#method_getGalaxyMapHREF" class="headerlink"><i class="fas fa-link"></i></a>
+
     </h4>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Galaxy.php"><a href="files/src-lib-smr-galaxy.html"><abbr title="src/lib/Smr/Galaxy.php">Galaxy.php</abbr></a></abbr>
     :
     <span class="phpdocumentor-element-found-in__line">149</span>
 
+            <a href="classes/Smr-Galaxy.html#source-view.149" class="phpdocumentor-element-found-in__source" data-line="149" data-modal="source-view" data-src="files/src/lib/Smr/Galaxy.php.txt"></a>
     </aside>
 
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">public</span>
-                <span class="phpdocumentor-signature__name">getGalaxyMapHREF</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">string</span></code>
+                    <span class="phpdocumentor-signature__name">getGalaxyMapHREF</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">string</span></code>
 
-        <section class="phpdocumentor-description"></section>
-
+    <div class="phpdocumentor-label-line">
+        </div>
     
     
+    
 
+            <section>
         <h5 class="phpdocumentor-return-value__heading">Return values</h5>
-    <span class="phpdocumentor-signature__response_type">string</span>
-            &mdash;
-        
-    
+        <span class="phpdocumentor-signature__response_type">string</span>
+            </section>
+
 </article>
                     <article
         class="phpdocumentor-element
@@ -1703,29 +1720,32 @@
     <h4 class="phpdocumentor-element__name" id="method_getGalaxyType">
         getGalaxyType()
         <a href="classes/Smr-Galaxy.html#method_getGalaxyType" class="headerlink"><i class="fas fa-link"></i></a>
+
     </h4>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Galaxy.php"><a href="files/src-lib-smr-galaxy.html"><abbr title="src/lib/Smr/Galaxy.php">Galaxy.php</abbr></a></abbr>
     :
     <span class="phpdocumentor-element-found-in__line">310</span>
 
+            <a href="classes/Smr-Galaxy.html#source-view.310" class="phpdocumentor-element-found-in__source" data-line="310" data-modal="source-view" data-src="files/src/lib/Smr/Galaxy.php.txt"></a>
     </aside>
 
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">public</span>
-                <span class="phpdocumentor-signature__name">getGalaxyType</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">string</span></code>
+                    <span class="phpdocumentor-signature__name">getGalaxyType</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">string</span></code>
 
-        <section class="phpdocumentor-description"></section>
-
+    <div class="phpdocumentor-label-line">
+        </div>
     
     
+    
 
+            <section>
         <h5 class="phpdocumentor-return-value__heading">Return values</h5>
-    <span class="phpdocumentor-signature__response_type">string</span>
-            &mdash;
-        
-    
+        <span class="phpdocumentor-signature__response_type">string</span>
+            </section>
+
 </article>
                     <article
         class="phpdocumentor-element
@@ -1736,19 +1756,23 @@
     <h4 class="phpdocumentor-element__name" id="method_getGameGalaxies">
         getGameGalaxies()
         <a href="classes/Smr-Galaxy.html#method_getGameGalaxies" class="headerlink"><i class="fas fa-link"></i></a>
+
     </h4>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Galaxy.php"><a href="files/src-lib-smr-galaxy.html"><abbr title="src/lib/Smr/Galaxy.php">Galaxy.php</abbr></a></abbr>
     :
     <span class="phpdocumentor-element-found-in__line">42</span>
 
+            <a href="classes/Smr-Galaxy.html#source-view.42" class="phpdocumentor-element-found-in__source" data-line="42" data-modal="source-view" data-src="files/src/lib/Smr/Galaxy.php.txt"></a>
     </aside>
 
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">public</span>
-            <span class="phpdocumentor-signature__static">static</span>    <span class="phpdocumentor-signature__name">getGameGalaxies</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type">int&nbsp;</span><span class="phpdocumentor-signature__argument__name">$gameID</span></span><span class="phpdocumentor-signature__argument"><span>[</span><span>, </span><span class="phpdocumentor-signature__argument__return-type">bool&nbsp;</span><span class="phpdocumentor-signature__argument__name">$forceUpdate</span><span> = </span><span class="phpdocumentor-signature__argument__default-value">false</span><span> ]</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">array&lt;int, self&gt;</span></code>
+            <span class="phpdocumentor-signature__static">static</span>        <span class="phpdocumentor-signature__name">getGameGalaxies</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type">int&nbsp;</span><span class="phpdocumentor-signature__argument__name">$gameID</span></span><span class="phpdocumentor-signature__argument"><span>[</span><span>, </span><span class="phpdocumentor-signature__argument__return-type">bool&nbsp;</span><span class="phpdocumentor-signature__argument__name">$forceUpdate</span><span> = </span><span class="phpdocumentor-signature__argument__default-value">false</span><span> ]</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">array&lt;int, self&gt;</span></code>
 
+    <div class="phpdocumentor-label-line">
+        </div>
     
         <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
     <dl class="phpdocumentor-argument-list">
@@ -1757,26 +1781,24 @@
                 : <span class="phpdocumentor-signature__argument__return-type">int</span>
                             </dt>
             <dd class="phpdocumentor-argument-list__definition">
-                    <section class="phpdocumentor-description"></section>
-
+                
             </dd>
                     <dt class="phpdocumentor-argument-list__entry">
                 <span class="phpdocumentor-signature__argument__name">$forceUpdate</span>
                 : <span class="phpdocumentor-signature__argument__return-type">bool</span>
                  = <span class="phpdocumentor-signature__argument__default-value">false</span>            </dt>
             <dd class="phpdocumentor-argument-list__definition">
-                    <section class="phpdocumentor-description"></section>
-
+                
             </dd>
             </dl>
 
     
 
+            <section>
         <h5 class="phpdocumentor-return-value__heading">Return values</h5>
-    <span class="phpdocumentor-signature__response_type">array&lt;int, self&gt;</span>
-            &mdash;
-        
-    
+        <span class="phpdocumentor-signature__response_type">array&lt;int, self&gt;</span>
+            </section>
+
 </article>
                     <article
         class="phpdocumentor-element
@@ -1787,29 +1809,32 @@
     <h4 class="phpdocumentor-element__name" id="method_getGameID">
         getGameID()
         <a href="classes/Smr-Galaxy.html#method_getGameID" class="headerlink"><i class="fas fa-link"></i></a>
+
     </h4>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Galaxy.php"><a href="files/src-lib-smr-galaxy.html"><abbr title="src/lib/Smr/Galaxy.php">Galaxy.php</abbr></a></abbr>
     :
     <span class="phpdocumentor-element-found-in__line">141</span>
 
+            <a href="classes/Smr-Galaxy.html#source-view.141" class="phpdocumentor-element-found-in__source" data-line="141" data-modal="source-view" data-src="files/src/lib/Smr/Galaxy.php.txt"></a>
     </aside>
 
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">public</span>
-                <span class="phpdocumentor-signature__name">getGameID</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">int</span></code>
+                    <span class="phpdocumentor-signature__name">getGameID</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">int</span></code>
 
-        <section class="phpdocumentor-description"></section>
-
+    <div class="phpdocumentor-label-line">
+        </div>
     
     
+    
 
+            <section>
         <h5 class="phpdocumentor-return-value__heading">Return values</h5>
-    <span class="phpdocumentor-signature__response_type">int</span>
-            &mdash;
-        
-    
+        <span class="phpdocumentor-signature__response_type">int</span>
+            </section>
+
 </article>
                     <article
         class="phpdocumentor-element
@@ -1820,29 +1845,32 @@
     <h4 class="phpdocumentor-element__name" id="method_getHeight">
         getHeight()
         <a href="classes/Smr-Galaxy.html#method_getHeight" class="headerlink"><i class="fas fa-link"></i></a>
+
     </h4>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Galaxy.php"><a href="files/src-lib-smr-galaxy.html"><abbr title="src/lib/Smr/Galaxy.php">Galaxy.php</abbr></a></abbr>
     :
     <span class="phpdocumentor-element-found-in__line">188</span>
 
+            <a href="classes/Smr-Galaxy.html#source-view.188" class="phpdocumentor-element-found-in__source" data-line="188" data-modal="source-view" data-src="files/src/lib/Smr/Galaxy.php.txt"></a>
     </aside>
 
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">public</span>
-                <span class="phpdocumentor-signature__name">getHeight</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">int</span></code>
+                    <span class="phpdocumentor-signature__name">getHeight</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">int</span></code>
 
-        <section class="phpdocumentor-description"></section>
-
+    <div class="phpdocumentor-label-line">
+        </div>
     
     
+    
 
+            <section>
         <h5 class="phpdocumentor-return-value__heading">Return values</h5>
-    <span class="phpdocumentor-signature__response_type">int</span>
-            &mdash;
-        
-    
+        <span class="phpdocumentor-signature__response_type">int</span>
+            </section>
+
 </article>
                     <article
         class="phpdocumentor-element
@@ -1853,28 +1881,32 @@
     <h4 class="phpdocumentor-element__name" id="method_getLocations">
         getLocations()
         <a href="classes/Smr-Galaxy.html#method_getLocations" class="headerlink"><i class="fas fa-link"></i></a>
+
     </h4>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Galaxy.php"><a href="files/src-lib-smr-galaxy.html"><abbr title="src/lib/Smr/Galaxy.php">Galaxy.php</abbr></a></abbr>
     :
     <span class="phpdocumentor-element-found-in__line">238</span>
 
+            <a href="classes/Smr-Galaxy.html#source-view.238" class="phpdocumentor-element-found-in__source" data-line="238" data-modal="source-view" data-src="files/src/lib/Smr/Galaxy.php.txt"></a>
     </aside>
 
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">public</span>
-                <span class="phpdocumentor-signature__name">getLocations</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">array&lt;int, array&lt;int, <a href="classes/Smr-Location.html"><abbr title="\Smr\Location">Location</abbr></a>&gt;&gt;</span></code>
+                    <span class="phpdocumentor-signature__name">getLocations</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">array&lt;int, array&lt;int, <a href="classes/Smr-Location.html"><abbr title="\Smr\Location">Location</abbr></a>&gt;&gt;</span></code>
 
+    <div class="phpdocumentor-label-line">
+        </div>
     
     
     
 
+            <section>
         <h5 class="phpdocumentor-return-value__heading">Return values</h5>
-    <span class="phpdocumentor-signature__response_type">array&lt;int, array&lt;int, <a href="classes/Smr-Location.html"><abbr title="\Smr\Location">Location</abbr></a>&gt;&gt;</span>
-            &mdash;
-        
-    
+        <span class="phpdocumentor-signature__response_type">array&lt;int, array&lt;int, <a href="classes/Smr-Location.html"><abbr title="\Smr\Location">Location</abbr></a>&gt;&gt;</span>
+            </section>
+
 </article>
                     <article
         class="phpdocumentor-element
@@ -1885,20 +1917,24 @@
     <h4 class="phpdocumentor-element__name" id="method_getMapSectors">
         getMapSectors()
         <a href="classes/Smr-Galaxy.html#method_getMapSectors" class="headerlink"><i class="fas fa-link"></i></a>
+
     </h4>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Galaxy.php"><a href="files/src-lib-smr-galaxy.html"><abbr title="src/lib/Smr/Galaxy.php">Galaxy.php</abbr></a></abbr>
     :
     <span class="phpdocumentor-element-found-in__line">273</span>
 
+            <a href="classes/Smr-Galaxy.html#source-view.273" class="phpdocumentor-element-found-in__source" data-line="273" data-modal="source-view" data-src="files/src/lib/Smr/Galaxy.php.txt"></a>
     </aside>
 
         <p class="phpdocumentor-summary">Returns a 2D array of sectors in the galaxy.</p>
 
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">public</span>
-                <span class="phpdocumentor-signature__name">getMapSectors</span><span>(</span><span class="phpdocumentor-signature__argument"><span>[</span><span class="phpdocumentor-signature__argument__return-type">int&nbsp;</span><span class="phpdocumentor-signature__argument__name">$centerSectorID</span><span> = </span><span class="phpdocumentor-signature__argument__default-value">null</span><span> ]</span></span><span class="phpdocumentor-signature__argument"><span>[</span><span>, </span><span class="phpdocumentor-signature__argument__return-type">int&nbsp;</span><span class="phpdocumentor-signature__argument__name">$dist</span><span> = </span><span class="phpdocumentor-signature__argument__default-value">null</span><span> ]</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">array&lt;int, array&lt;int, <a href="classes/Smr-Sector.html"><abbr title="\Smr\Sector">Sector</abbr></a>&gt;&gt;</span></code>
+                    <span class="phpdocumentor-signature__name">getMapSectors</span><span>(</span><span class="phpdocumentor-signature__argument"><span>[</span><span class="phpdocumentor-signature__argument__return-type">int&nbsp;</span><span class="phpdocumentor-signature__argument__name">$centerSectorID</span><span> = </span><span class="phpdocumentor-signature__argument__default-value">null</span><span> ]</span></span><span class="phpdocumentor-signature__argument"><span>[</span><span>, </span><span class="phpdocumentor-signature__argument__return-type">int&nbsp;</span><span class="phpdocumentor-signature__argument__name">$dist</span><span> = </span><span class="phpdocumentor-signature__argument__default-value">null</span><span> ]</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">array&lt;int, array&lt;int, <a href="classes/Smr-Sector.html"><abbr title="\Smr\Sector">Sector</abbr></a>&gt;&gt;</span></code>
 
+    <div class="phpdocumentor-label-line">
+        </div>
         <section class="phpdocumentor-description"><p>If $centerSectorID is specified, it will be in the center of the array.
 If $dist is also specified, only include sectors $dist away from center.</p>
 <p>NOTE: This routine queries sectors inefficiently. You may want to
@@ -1912,26 +1948,24 @@ construct the cache efficiently before calling this.</p>
                 : <span class="phpdocumentor-signature__argument__return-type">int</span>
                  = <span class="phpdocumentor-signature__argument__default-value">null</span>            </dt>
             <dd class="phpdocumentor-argument-list__definition">
-                    <section class="phpdocumentor-description"></section>
-
+                
             </dd>
                     <dt class="phpdocumentor-argument-list__entry">
                 <span class="phpdocumentor-signature__argument__name">$dist</span>
                 : <span class="phpdocumentor-signature__argument__return-type">int</span>
                  = <span class="phpdocumentor-signature__argument__default-value">null</span>            </dt>
             <dd class="phpdocumentor-argument-list__definition">
-                    <section class="phpdocumentor-description"></section>
-
+                
             </dd>
             </dl>
 
     
 
+            <section>
         <h5 class="phpdocumentor-return-value__heading">Return values</h5>
-    <span class="phpdocumentor-signature__response_type">array&lt;int, array&lt;int, <a href="classes/Smr-Sector.html"><abbr title="\Smr\Sector">Sector</abbr></a>&gt;&gt;</span>
-            &mdash;
-        
-    
+        <span class="phpdocumentor-signature__response_type">array&lt;int, array&lt;int, <a href="classes/Smr-Sector.html"><abbr title="\Smr\Sector">Sector</abbr></a>&gt;&gt;</span>
+            </section>
+
 </article>
                     <article
         class="phpdocumentor-element
@@ -1942,29 +1976,32 @@ construct the cache efficiently before calling this.</p>
     <h4 class="phpdocumentor-element__name" id="method_getMaxForceTime">
         getMaxForceTime()
         <a href="classes/Smr-Galaxy.html#method_getMaxForceTime" class="headerlink"><i class="fas fa-link"></i></a>
+
     </h4>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Galaxy.php"><a href="files/src-lib-smr-galaxy.html"><abbr title="src/lib/Smr/Galaxy.php">Galaxy.php</abbr></a></abbr>
     :
     <span class="phpdocumentor-element-found-in__line">322</span>
 
+            <a href="classes/Smr-Galaxy.html#source-view.322" class="phpdocumentor-element-found-in__source" data-line="322" data-modal="source-view" data-src="files/src/lib/Smr/Galaxy.php.txt"></a>
     </aside>
 
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">public</span>
-                <span class="phpdocumentor-signature__name">getMaxForceTime</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">int</span></code>
+                    <span class="phpdocumentor-signature__name">getMaxForceTime</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">int</span></code>
 
-        <section class="phpdocumentor-description"></section>
-
+    <div class="phpdocumentor-label-line">
+        </div>
     
     
+    
 
+            <section>
         <h5 class="phpdocumentor-return-value__heading">Return values</h5>
-    <span class="phpdocumentor-signature__response_type">int</span>
-            &mdash;
-        
-    
+        <span class="phpdocumentor-signature__response_type">int</span>
+            </section>
+
 </article>
                     <article
         class="phpdocumentor-element
@@ -1975,31 +2012,35 @@ construct the cache efficiently before calling this.</p>
     <h4 class="phpdocumentor-element__name" id="method_getName">
         getName()
         <a href="classes/Smr-Galaxy.html#method_getName" class="headerlink"><i class="fas fa-link"></i></a>
+
     </h4>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Galaxy.php"><a href="files/src-lib-smr-galaxy.html"><abbr title="src/lib/Smr/Galaxy.php">Galaxy.php</abbr></a></abbr>
     :
     <span class="phpdocumentor-element-found-in__line">157</span>
 
+            <a href="classes/Smr-Galaxy.html#source-view.157" class="phpdocumentor-element-found-in__source" data-line="157" data-modal="source-view" data-src="files/src/lib/Smr/Galaxy.php.txt"></a>
     </aside>
 
         <p class="phpdocumentor-summary">Returns the galaxy name.</p>
 
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">public</span>
-                <span class="phpdocumentor-signature__name">getName</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">string</span></code>
+                    <span class="phpdocumentor-signature__name">getName</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">string</span></code>
 
+    <div class="phpdocumentor-label-line">
+        </div>
         <section class="phpdocumentor-description"><p>Use getDisplayName for an HTML-safe version.</p>
 </section>
 
     
     
 
+            <section>
         <h5 class="phpdocumentor-return-value__heading">Return values</h5>
-    <span class="phpdocumentor-signature__response_type">string</span>
-            &mdash;
-        
-    
+        <span class="phpdocumentor-signature__response_type">string</span>
+            </section>
+
 </article>
                     <article
         class="phpdocumentor-element
@@ -2010,28 +2051,32 @@ construct the cache efficiently before calling this.</p>
     <h4 class="phpdocumentor-element__name" id="method_getPlanets">
         getPlanets()
         <a href="classes/Smr-Galaxy.html#method_getPlanets" class="headerlink"><i class="fas fa-link"></i></a>
+
     </h4>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Galaxy.php"><a href="files/src-lib-smr-galaxy.html"><abbr title="src/lib/Smr/Galaxy.php">Galaxy.php</abbr></a></abbr>
     :
     <span class="phpdocumentor-element-found-in__line">245</span>
 
+            <a href="classes/Smr-Galaxy.html#source-view.245" class="phpdocumentor-element-found-in__source" data-line="245" data-modal="source-view" data-src="files/src/lib/Smr/Galaxy.php.txt"></a>
     </aside>
 
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">public</span>
-                <span class="phpdocumentor-signature__name">getPlanets</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">array&lt;int, <a href="classes/Smr-Planet.html"><abbr title="\Smr\Planet">Planet</abbr></a>&gt;</span></code>
+                    <span class="phpdocumentor-signature__name">getPlanets</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">array&lt;int, <a href="classes/Smr-Planet.html"><abbr title="\Smr\Planet">Planet</abbr></a>&gt;</span></code>
 
+    <div class="phpdocumentor-label-line">
+        </div>
     
     
     
 
+            <section>
         <h5 class="phpdocumentor-return-value__heading">Return values</h5>
-    <span class="phpdocumentor-signature__response_type">array&lt;int, <a href="classes/Smr-Planet.html"><abbr title="\Smr\Planet">Planet</abbr></a>&gt;</span>
-            &mdash;
-        
-    
+        <span class="phpdocumentor-signature__response_type">array&lt;int, <a href="classes/Smr-Planet.html"><abbr title="\Smr\Planet">Planet</abbr></a>&gt;</span>
+            </section>
+
 </article>
                     <article
         class="phpdocumentor-element
@@ -2042,28 +2087,32 @@ construct the cache efficiently before calling this.</p>
     <h4 class="phpdocumentor-element__name" id="method_getPlayers">
         getPlayers()
         <a href="classes/Smr-Galaxy.html#method_getPlayers" class="headerlink"><i class="fas fa-link"></i></a>
+
     </h4>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Galaxy.php"><a href="files/src-lib-smr-galaxy.html"><abbr title="src/lib/Smr/Galaxy.php">Galaxy.php</abbr></a></abbr>
     :
     <span class="phpdocumentor-element-found-in__line">259</span>
 
+            <a href="classes/Smr-Galaxy.html#source-view.259" class="phpdocumentor-element-found-in__source" data-line="259" data-modal="source-view" data-src="files/src/lib/Smr/Galaxy.php.txt"></a>
     </aside>
 
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">public</span>
-                <span class="phpdocumentor-signature__name">getPlayers</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">array&lt;int, array&lt;int, <a href="classes/Smr-Player.html"><abbr title="\Smr\Player">Player</abbr></a>&gt;&gt;</span></code>
+                    <span class="phpdocumentor-signature__name">getPlayers</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">array&lt;int, array&lt;int, <a href="classes/Smr-Player.html"><abbr title="\Smr\Player">Player</abbr></a>&gt;&gt;</span></code>
 
+    <div class="phpdocumentor-label-line">
+        </div>
     
     
     
 
+            <section>
         <h5 class="phpdocumentor-return-value__heading">Return values</h5>
-    <span class="phpdocumentor-signature__response_type">array&lt;int, array&lt;int, <a href="classes/Smr-Player.html"><abbr title="\Smr\Player">Player</abbr></a>&gt;&gt;</span>
-            &mdash;
-        
-    
+        <span class="phpdocumentor-signature__response_type">array&lt;int, array&lt;int, <a href="classes/Smr-Player.html"><abbr title="\Smr\Player">Player</abbr></a>&gt;&gt;</span>
+            </section>
+
 </article>
                     <article
         class="phpdocumentor-element
@@ -2074,28 +2123,32 @@ construct the cache efficiently before calling this.</p>
     <h4 class="phpdocumentor-element__name" id="method_getPorts">
         getPorts()
         <a href="classes/Smr-Galaxy.html#method_getPorts" class="headerlink"><i class="fas fa-link"></i></a>
+
     </h4>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Galaxy.php"><a href="files/src-lib-smr-galaxy.html"><abbr title="src/lib/Smr/Galaxy.php">Galaxy.php</abbr></a></abbr>
     :
     <span class="phpdocumentor-element-found-in__line">231</span>
 
+            <a href="classes/Smr-Galaxy.html#source-view.231" class="phpdocumentor-element-found-in__source" data-line="231" data-modal="source-view" data-src="files/src/lib/Smr/Galaxy.php.txt"></a>
     </aside>
 
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">public</span>
-                <span class="phpdocumentor-signature__name">getPorts</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">array&lt;int, <a href="classes/Smr-Port.html"><abbr title="\Smr\Port">Port</abbr></a>&gt;</span></code>
+                    <span class="phpdocumentor-signature__name">getPorts</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">array&lt;int, <a href="classes/Smr-Port.html"><abbr title="\Smr\Port">Port</abbr></a>&gt;</span></code>
 
+    <div class="phpdocumentor-label-line">
+        </div>
     
     
     
 
+            <section>
         <h5 class="phpdocumentor-return-value__heading">Return values</h5>
-    <span class="phpdocumentor-signature__response_type">array&lt;int, <a href="classes/Smr-Port.html"><abbr title="\Smr\Port">Port</abbr></a>&gt;</span>
-            &mdash;
-        
-    
+        <span class="phpdocumentor-signature__response_type">array&lt;int, <a href="classes/Smr-Port.html"><abbr title="\Smr\Port">Port</abbr></a>&gt;</span>
+            </section>
+
 </article>
                     <article
         class="phpdocumentor-element
@@ -2106,28 +2159,32 @@ construct the cache efficiently before calling this.</p>
     <h4 class="phpdocumentor-element__name" id="method_getSectors">
         getSectors()
         <a href="classes/Smr-Galaxy.html#method_getSectors" class="headerlink"><i class="fas fa-link"></i></a>
+
     </h4>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Galaxy.php"><a href="files/src-lib-smr-galaxy.html"><abbr title="src/lib/Smr/Galaxy.php">Galaxy.php</abbr></a></abbr>
     :
     <span class="phpdocumentor-element-found-in__line">224</span>
 
+            <a href="classes/Smr-Galaxy.html#source-view.224" class="phpdocumentor-element-found-in__source" data-line="224" data-modal="source-view" data-src="files/src/lib/Smr/Galaxy.php.txt"></a>
     </aside>
 
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">public</span>
-                <span class="phpdocumentor-signature__name">getSectors</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">array&lt;int, <a href="classes/Smr-Sector.html"><abbr title="\Smr\Sector">Sector</abbr></a>&gt;</span></code>
+                    <span class="phpdocumentor-signature__name">getSectors</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">array&lt;int, <a href="classes/Smr-Sector.html"><abbr title="\Smr\Sector">Sector</abbr></a>&gt;</span></code>
 
+    <div class="phpdocumentor-label-line">
+        </div>
     
     
     
 
+            <section>
         <h5 class="phpdocumentor-return-value__heading">Return values</h5>
-    <span class="phpdocumentor-signature__response_type">array&lt;int, <a href="classes/Smr-Sector.html"><abbr title="\Smr\Sector">Sector</abbr></a>&gt;</span>
-            &mdash;
-        
-    
+        <span class="phpdocumentor-signature__response_type">array&lt;int, <a href="classes/Smr-Sector.html"><abbr title="\Smr\Sector">Sector</abbr></a>&gt;</span>
+            </section>
+
 </article>
                     <article
         class="phpdocumentor-element
@@ -2138,29 +2195,32 @@ construct the cache efficiently before calling this.</p>
     <h4 class="phpdocumentor-element__name" id="method_getSize">
         getSize()
         <a href="classes/Smr-Galaxy.html#method_getSize" class="headerlink"><i class="fas fa-link"></i></a>
+
     </h4>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Galaxy.php"><a href="files/src-lib-smr-galaxy.html"><abbr title="src/lib/Smr/Galaxy.php">Galaxy.php</abbr></a></abbr>
     :
     <span class="phpdocumentor-element-found-in__line">217</span>
 
+            <a href="classes/Smr-Galaxy.html#source-view.217" class="phpdocumentor-element-found-in__source" data-line="217" data-modal="source-view" data-src="files/src/lib/Smr/Galaxy.php.txt"></a>
     </aside>
 
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">public</span>
-                <span class="phpdocumentor-signature__name">getSize</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">int</span></code>
+                    <span class="phpdocumentor-signature__name">getSize</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">int</span></code>
 
-        <section class="phpdocumentor-description"></section>
-
+    <div class="phpdocumentor-label-line">
+        </div>
     
     
+    
 
+            <section>
         <h5 class="phpdocumentor-return-value__heading">Return values</h5>
-    <span class="phpdocumentor-signature__response_type">int</span>
-            &mdash;
-        
-    
+        <span class="phpdocumentor-signature__response_type">int</span>
+            </section>
+
 </article>
                     <article
         class="phpdocumentor-element
@@ -2171,29 +2231,32 @@ construct the cache efficiently before calling this.</p>
     <h4 class="phpdocumentor-element__name" id="method_getStartSector">
         getStartSector()
         <a href="classes/Smr-Galaxy.html#method_getStartSector" class="headerlink"><i class="fas fa-link"></i></a>
+
     </h4>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Galaxy.php"><a href="files/src-lib-smr-galaxy.html"><abbr title="src/lib/Smr/Galaxy.php">Galaxy.php</abbr></a></abbr>
     :
     <span class="phpdocumentor-element-found-in__line">200</span>
 
+            <a href="classes/Smr-Galaxy.html#source-view.200" class="phpdocumentor-element-found-in__source" data-line="200" data-modal="source-view" data-src="files/src/lib/Smr/Galaxy.php.txt"></a>
     </aside>
 
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">public</span>
-                <span class="phpdocumentor-signature__name">getStartSector</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">int</span></code>
+                    <span class="phpdocumentor-signature__name">getStartSector</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">int</span></code>
 
-        <section class="phpdocumentor-description"></section>
-
+    <div class="phpdocumentor-label-line">
+        </div>
     
     
+    
 
+            <section>
         <h5 class="phpdocumentor-return-value__heading">Return values</h5>
-    <span class="phpdocumentor-signature__response_type">int</span>
-            &mdash;
-        
-    
+        <span class="phpdocumentor-signature__response_type">int</span>
+            </section>
+
 </article>
                     <article
         class="phpdocumentor-element
@@ -2204,29 +2267,32 @@ construct the cache efficiently before calling this.</p>
     <h4 class="phpdocumentor-element__name" id="method_getWidth">
         getWidth()
         <a href="classes/Smr-Galaxy.html#method_getWidth" class="headerlink"><i class="fas fa-link"></i></a>
+
     </h4>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Galaxy.php"><a href="files/src-lib-smr-galaxy.html"><abbr title="src/lib/Smr/Galaxy.php">Galaxy.php</abbr></a></abbr>
     :
     <span class="phpdocumentor-element-found-in__line">176</span>
 
+            <a href="classes/Smr-Galaxy.html#source-view.176" class="phpdocumentor-element-found-in__source" data-line="176" data-modal="source-view" data-src="files/src/lib/Smr/Galaxy.php.txt"></a>
     </aside>
 
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">public</span>
-                <span class="phpdocumentor-signature__name">getWidth</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">int</span></code>
+                    <span class="phpdocumentor-signature__name">getWidth</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">int</span></code>
 
-        <section class="phpdocumentor-description"></section>
-
+    <div class="phpdocumentor-label-line">
+        </div>
     
     
+    
 
+            <section>
         <h5 class="phpdocumentor-return-value__heading">Return values</h5>
-    <span class="phpdocumentor-signature__response_type">int</span>
-            &mdash;
-        
-    
+        <span class="phpdocumentor-signature__response_type">int</span>
+            </section>
+
 </article>
                     <article
         class="phpdocumentor-element
@@ -2237,28 +2303,27 @@ construct the cache efficiently before calling this.</p>
     <h4 class="phpdocumentor-element__name" id="method_save">
         save()
         <a href="classes/Smr-Galaxy.html#method_save" class="headerlink"><i class="fas fa-link"></i></a>
+
     </h4>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Galaxy.php"><a href="files/src-lib-smr-galaxy.html"><abbr title="src/lib/Smr/Galaxy.php">Galaxy.php</abbr></a></abbr>
     :
     <span class="phpdocumentor-element-found-in__line">113</span>
 
+            <a href="classes/Smr-Galaxy.html#source-view.113" class="phpdocumentor-element-found-in__source" data-line="113" data-modal="source-view" data-src="files/src/lib/Smr/Galaxy.php.txt"></a>
     </aside>
 
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">public</span>
-                <span class="phpdocumentor-signature__name">save</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">void</span></code>
+                    <span class="phpdocumentor-signature__name">save</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">void</span></code>
 
-        <section class="phpdocumentor-description"></section>
-
+    <div class="phpdocumentor-label-line">
+        </div>
     
     
+    
 
-        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
-    <span class="phpdocumentor-signature__response_type">void</span>
-            &mdash;
-        
     
 </article>
                     <article
@@ -2270,28 +2335,27 @@ construct the cache efficiently before calling this.</p>
     <h4 class="phpdocumentor-element__name" id="method_saveGalaxies">
         saveGalaxies()
         <a href="classes/Smr-Galaxy.html#method_saveGalaxies" class="headerlink"><i class="fas fa-link"></i></a>
+
     </h4>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Galaxy.php"><a href="files/src-lib-smr-galaxy.html"><abbr title="src/lib/Smr/Galaxy.php">Galaxy.php</abbr></a></abbr>
     :
     <span class="phpdocumentor-element-found-in__line">66</span>
 
+            <a href="classes/Smr-Galaxy.html#source-view.66" class="phpdocumentor-element-found-in__source" data-line="66" data-modal="source-view" data-src="files/src/lib/Smr/Galaxy.php.txt"></a>
     </aside>
 
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">public</span>
-            <span class="phpdocumentor-signature__static">static</span>    <span class="phpdocumentor-signature__name">saveGalaxies</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">void</span></code>
+            <span class="phpdocumentor-signature__static">static</span>        <span class="phpdocumentor-signature__name">saveGalaxies</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">void</span></code>
 
-        <section class="phpdocumentor-description"></section>
-
+    <div class="phpdocumentor-label-line">
+        </div>
     
     
+    
 
-        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
-    <span class="phpdocumentor-signature__response_type">void</span>
-            &mdash;
-        
     
 </article>
                     <article
@@ -2303,20 +2367,24 @@ construct the cache efficiently before calling this.</p>
     <h4 class="phpdocumentor-element__name" id="method_setConnectivity">
         setConnectivity()
         <a href="classes/Smr-Galaxy.html#method_setConnectivity" class="headerlink"><i class="fas fa-link"></i></a>
+
     </h4>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Galaxy.php"><a href="files/src-lib-smr-galaxy.html"><abbr title="src/lib/Smr/Galaxy.php">Galaxy.php</abbr></a></abbr>
     :
     <span class="phpdocumentor-element-found-in__line">350</span>
 
+            <a href="classes/Smr-Galaxy.html#source-view.350" class="phpdocumentor-element-found-in__source" data-line="350" data-modal="source-view" data-src="files/src/lib/Smr/Galaxy.php.txt"></a>
     </aside>
 
         <p class="phpdocumentor-summary">Randomly set the connections between all galaxy sectors.</p>
 
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">public</span>
-                <span class="phpdocumentor-signature__name">setConnectivity</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type">float&nbsp;</span><span class="phpdocumentor-signature__argument__name">$connectivity</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">bool</span></code>
+                    <span class="phpdocumentor-signature__name">setConnectivity</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type">float&nbsp;</span><span class="phpdocumentor-signature__argument__name">$connectivity</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">bool</span></code>
 
+    <div class="phpdocumentor-label-line">
+        </div>
         <section class="phpdocumentor-description"><p>$connectivity = (average) percent of connections to enable.</p>
 </section>
 
@@ -2327,18 +2395,17 @@ construct the cache efficiently before calling this.</p>
                 : <span class="phpdocumentor-signature__argument__return-type">float</span>
                             </dt>
             <dd class="phpdocumentor-argument-list__definition">
-                    <section class="phpdocumentor-description"></section>
-
+                
             </dd>
             </dl>
 
     
 
+            <section>
         <h5 class="phpdocumentor-return-value__heading">Return values</h5>
-    <span class="phpdocumentor-signature__response_type">bool</span>
-            &mdash;
-        
-    
+        <span class="phpdocumentor-signature__response_type">bool</span>
+            </section>
+
 </article>
                     <article
         class="phpdocumentor-element
@@ -2349,21 +2416,24 @@ construct the cache efficiently before calling this.</p>
     <h4 class="phpdocumentor-element__name" id="method_setGalaxyType">
         setGalaxyType()
         <a href="classes/Smr-Galaxy.html#method_setGalaxyType" class="headerlink"><i class="fas fa-link"></i></a>
+
     </h4>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Galaxy.php"><a href="files/src-lib-smr-galaxy.html"><abbr title="src/lib/Smr/Galaxy.php">Galaxy.php</abbr></a></abbr>
     :
     <span class="phpdocumentor-element-found-in__line">314</span>
 
+            <a href="classes/Smr-Galaxy.html#source-view.314" class="phpdocumentor-element-found-in__source" data-line="314" data-modal="source-view" data-src="files/src/lib/Smr/Galaxy.php.txt"></a>
     </aside>
 
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">public</span>
-                <span class="phpdocumentor-signature__name">setGalaxyType</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type">string&nbsp;</span><span class="phpdocumentor-signature__argument__name">$galaxyType</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">void</span></code>
+                    <span class="phpdocumentor-signature__name">setGalaxyType</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type">string&nbsp;</span><span class="phpdocumentor-signature__argument__name">$galaxyType</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">void</span></code>
 
-        <section class="phpdocumentor-description"></section>
-
+    <div class="phpdocumentor-label-line">
+        </div>
+    
         <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
     <dl class="phpdocumentor-argument-list">
                     <dt class="phpdocumentor-argument-list__entry">
@@ -2371,17 +2441,12 @@ construct the cache efficiently before calling this.</p>
                 : <span class="phpdocumentor-signature__argument__return-type">string</span>
                             </dt>
             <dd class="phpdocumentor-argument-list__definition">
-                    <section class="phpdocumentor-description"></section>
-
+                
             </dd>
             </dl>
 
     
 
-        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
-    <span class="phpdocumentor-signature__response_type">void</span>
-            &mdash;
-        
     
 </article>
                     <article
@@ -2393,21 +2458,24 @@ construct the cache efficiently before calling this.</p>
     <h4 class="phpdocumentor-element__name" id="method_setHeight">
         setHeight()
         <a href="classes/Smr-Galaxy.html#method_setHeight" class="headerlink"><i class="fas fa-link"></i></a>
+
     </h4>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Galaxy.php"><a href="files/src-lib-smr-galaxy.html"><abbr title="src/lib/Smr/Galaxy.php">Galaxy.php</abbr></a></abbr>
     :
     <span class="phpdocumentor-element-found-in__line">192</span>
 
+            <a href="classes/Smr-Galaxy.html#source-view.192" class="phpdocumentor-element-found-in__source" data-line="192" data-modal="source-view" data-src="files/src/lib/Smr/Galaxy.php.txt"></a>
     </aside>
 
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">public</span>
-                <span class="phpdocumentor-signature__name">setHeight</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type">int&nbsp;</span><span class="phpdocumentor-signature__argument__name">$height</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">void</span></code>
+                    <span class="phpdocumentor-signature__name">setHeight</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type">int&nbsp;</span><span class="phpdocumentor-signature__argument__name">$height</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">void</span></code>
 
-        <section class="phpdocumentor-description"></section>
-
+    <div class="phpdocumentor-label-line">
+        </div>
+    
         <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
     <dl class="phpdocumentor-argument-list">
                     <dt class="phpdocumentor-argument-list__entry">
@@ -2415,17 +2483,12 @@ construct the cache efficiently before calling this.</p>
                 : <span class="phpdocumentor-signature__argument__return-type">int</span>
                             </dt>
             <dd class="phpdocumentor-argument-list__definition">
-                    <section class="phpdocumentor-description"></section>
-
+                
             </dd>
             </dl>
 
     
 
-        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
-    <span class="phpdocumentor-signature__response_type">void</span>
-            &mdash;
-        
     
 </article>
                     <article
@@ -2437,21 +2500,24 @@ construct the cache efficiently before calling this.</p>
     <h4 class="phpdocumentor-element__name" id="method_setMaxForceTime">
         setMaxForceTime()
         <a href="classes/Smr-Galaxy.html#method_setMaxForceTime" class="headerlink"><i class="fas fa-link"></i></a>
+
     </h4>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Galaxy.php"><a href="files/src-lib-smr-galaxy.html"><abbr title="src/lib/Smr/Galaxy.php">Galaxy.php</abbr></a></abbr>
     :
     <span class="phpdocumentor-element-found-in__line">326</span>
 
+            <a href="classes/Smr-Galaxy.html#source-view.326" class="phpdocumentor-element-found-in__source" data-line="326" data-modal="source-view" data-src="files/src/lib/Smr/Galaxy.php.txt"></a>
     </aside>
 
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">public</span>
-                <span class="phpdocumentor-signature__name">setMaxForceTime</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type">int&nbsp;</span><span class="phpdocumentor-signature__argument__name">$maxForceTime</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">void</span></code>
+                    <span class="phpdocumentor-signature__name">setMaxForceTime</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type">int&nbsp;</span><span class="phpdocumentor-signature__argument__name">$maxForceTime</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">void</span></code>
 
-        <section class="phpdocumentor-description"></section>
-
+    <div class="phpdocumentor-label-line">
+        </div>
+    
         <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
     <dl class="phpdocumentor-argument-list">
                     <dt class="phpdocumentor-argument-list__entry">
@@ -2459,17 +2525,12 @@ construct the cache efficiently before calling this.</p>
                 : <span class="phpdocumentor-signature__argument__return-type">int</span>
                             </dt>
             <dd class="phpdocumentor-argument-list__definition">
-                    <section class="phpdocumentor-description"></section>
-
+                
             </dd>
             </dl>
 
     
 
-        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
-    <span class="phpdocumentor-signature__response_type">void</span>
-            &mdash;
-        
     
 </article>
                     <article
@@ -2481,21 +2542,24 @@ construct the cache efficiently before calling this.</p>
     <h4 class="phpdocumentor-element__name" id="method_setName">
         setName()
         <a href="classes/Smr-Galaxy.html#method_setName" class="headerlink"><i class="fas fa-link"></i></a>
+
     </h4>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Galaxy.php"><a href="files/src-lib-smr-galaxy.html"><abbr title="src/lib/Smr/Galaxy.php">Galaxy.php</abbr></a></abbr>
     :
     <span class="phpdocumentor-element-found-in__line">168</span>
 
+            <a href="classes/Smr-Galaxy.html#source-view.168" class="phpdocumentor-element-found-in__source" data-line="168" data-modal="source-view" data-src="files/src/lib/Smr/Galaxy.php.txt"></a>
     </aside>
 
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">public</span>
-                <span class="phpdocumentor-signature__name">setName</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type">string&nbsp;</span><span class="phpdocumentor-signature__argument__name">$name</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">void</span></code>
+                    <span class="phpdocumentor-signature__name">setName</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type">string&nbsp;</span><span class="phpdocumentor-signature__argument__name">$name</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">void</span></code>
 
-        <section class="phpdocumentor-description"></section>
-
+    <div class="phpdocumentor-label-line">
+        </div>
+    
         <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
     <dl class="phpdocumentor-argument-list">
                     <dt class="phpdocumentor-argument-list__entry">
@@ -2503,17 +2567,12 @@ construct the cache efficiently before calling this.</p>
                 : <span class="phpdocumentor-signature__argument__return-type">string</span>
                             </dt>
             <dd class="phpdocumentor-argument-list__definition">
-                    <section class="phpdocumentor-description"></section>
-
+                
             </dd>
             </dl>
 
     
 
-        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
-    <span class="phpdocumentor-signature__response_type">void</span>
-            &mdash;
-        
     
 </article>
                     <article
@@ -2525,21 +2584,24 @@ construct the cache efficiently before calling this.</p>
     <h4 class="phpdocumentor-element__name" id="method_setWidth">
         setWidth()
         <a href="classes/Smr-Galaxy.html#method_setWidth" class="headerlink"><i class="fas fa-link"></i></a>
+
     </h4>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Galaxy.php"><a href="files/src-lib-smr-galaxy.html"><abbr title="src/lib/Smr/Galaxy.php">Galaxy.php</abbr></a></abbr>
     :
     <span class="phpdocumentor-element-found-in__line">180</span>
 
+            <a href="classes/Smr-Galaxy.html#source-view.180" class="phpdocumentor-element-found-in__source" data-line="180" data-modal="source-view" data-src="files/src/lib/Smr/Galaxy.php.txt"></a>
     </aside>
 
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">public</span>
-                <span class="phpdocumentor-signature__name">setWidth</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type">int&nbsp;</span><span class="phpdocumentor-signature__argument__name">$width</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">void</span></code>
+                    <span class="phpdocumentor-signature__name">setWidth</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type">int&nbsp;</span><span class="phpdocumentor-signature__argument__name">$width</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">void</span></code>
 
-        <section class="phpdocumentor-description"></section>
-
+    <div class="phpdocumentor-label-line">
+        </div>
+    
         <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
     <dl class="phpdocumentor-argument-list">
                     <dt class="phpdocumentor-argument-list__entry">
@@ -2547,17 +2609,12 @@ construct the cache efficiently before calling this.</p>
                 : <span class="phpdocumentor-signature__argument__return-type">int</span>
                             </dt>
             <dd class="phpdocumentor-argument-list__definition">
-                    <section class="phpdocumentor-description"></section>
-
+                
             </dd>
             </dl>
 
     
 
-        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
-    <span class="phpdocumentor-signature__response_type">void</span>
-            &mdash;
-        
     
 </article>
                     <article
@@ -2569,21 +2626,24 @@ construct the cache efficiently before calling this.</p>
     <h4 class="phpdocumentor-element__name" id="method___construct">
         __construct()
         <a href="classes/Smr-Galaxy.html#method___construct" class="headerlink"><i class="fas fa-link"></i></a>
+
     </h4>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Galaxy.php"><a href="files/src-lib-smr-galaxy.html"><abbr title="src/lib/Smr/Galaxy.php">Galaxy.php</abbr></a></abbr>
     :
     <span class="phpdocumentor-element-found-in__line">82</span>
 
+            <a href="classes/Smr-Galaxy.html#source-view.82" class="phpdocumentor-element-found-in__source" data-line="82" data-modal="source-view" data-src="files/src/lib/Smr/Galaxy.php.txt"></a>
     </aside>
 
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">protected</span>
-                <span class="phpdocumentor-signature__name">__construct</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type">int&nbsp;</span><span class="phpdocumentor-signature__argument__name">$gameID</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__return-type">int&nbsp;</span><span class="phpdocumentor-signature__argument__name">$galaxyID</span></span><span class="phpdocumentor-signature__argument"><span>[</span><span>, </span><span class="phpdocumentor-signature__argument__return-type">bool&nbsp;</span><span class="phpdocumentor-signature__argument__name">$create</span><span> = </span><span class="phpdocumentor-signature__argument__default-value">false</span><span> ]</span></span><span class="phpdocumentor-signature__argument"><span>[</span><span>, </span><span class="phpdocumentor-signature__argument__return-type"><a href="classes/Smr-DatabaseRecord.html"><abbr title="\Smr\DatabaseRecord">DatabaseRecord</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$dbRecord</span><span> = </span><span class="phpdocumentor-signature__argument__default-value">null</span><span> ]</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">mixed</span></code>
+                    <span class="phpdocumentor-signature__name">__construct</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type">int&nbsp;</span><span class="phpdocumentor-signature__argument__name">$gameID</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__return-type">int&nbsp;</span><span class="phpdocumentor-signature__argument__name">$galaxyID</span></span><span class="phpdocumentor-signature__argument"><span>[</span><span>, </span><span class="phpdocumentor-signature__argument__return-type">bool&nbsp;</span><span class="phpdocumentor-signature__argument__name">$create</span><span> = </span><span class="phpdocumentor-signature__argument__default-value">false</span><span> ]</span></span><span class="phpdocumentor-signature__argument"><span>[</span><span>, </span><span class="phpdocumentor-signature__argument__return-type"><a href="classes/Smr-DatabaseRecord.html"><abbr title="\Smr\DatabaseRecord">DatabaseRecord</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$dbRecord</span><span> = </span><span class="phpdocumentor-signature__argument__default-value">null</span><span> ]</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">mixed</span></code>
 
-        <section class="phpdocumentor-description"></section>
-
+    <div class="phpdocumentor-label-line">
+        </div>
+    
         <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
     <dl class="phpdocumentor-argument-list">
                     <dt class="phpdocumentor-argument-list__entry">
@@ -2591,109 +2651,223 @@ construct the cache efficiently before calling this.</p>
                 : <span class="phpdocumentor-signature__argument__return-type">int</span>
                             </dt>
             <dd class="phpdocumentor-argument-list__definition">
-                    <section class="phpdocumentor-description"></section>
-
+                
             </dd>
                     <dt class="phpdocumentor-argument-list__entry">
                 <span class="phpdocumentor-signature__argument__name">$galaxyID</span>
                 : <span class="phpdocumentor-signature__argument__return-type">int</span>
                             </dt>
             <dd class="phpdocumentor-argument-list__definition">
-                    <section class="phpdocumentor-description"></section>
-
+                
             </dd>
                     <dt class="phpdocumentor-argument-list__entry">
                 <span class="phpdocumentor-signature__argument__name">$create</span>
                 : <span class="phpdocumentor-signature__argument__return-type">bool</span>
                  = <span class="phpdocumentor-signature__argument__default-value">false</span>            </dt>
             <dd class="phpdocumentor-argument-list__definition">
-                    <section class="phpdocumentor-description"></section>
-
+                
             </dd>
                     <dt class="phpdocumentor-argument-list__entry">
                 <span class="phpdocumentor-signature__argument__name">$dbRecord</span>
                 : <span class="phpdocumentor-signature__argument__return-type"><a href="classes/Smr-DatabaseRecord.html"><abbr title="\Smr\DatabaseRecord">DatabaseRecord</abbr></a></span>
                  = <span class="phpdocumentor-signature__argument__default-value">null</span>            </dt>
             <dd class="phpdocumentor-argument-list__definition">
-                    <section class="phpdocumentor-description"></section>
-
+                
             </dd>
             </dl>
 
     
 
-        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
-    <span class="phpdocumentor-signature__response_type">mixed</span>
-            &mdash;
-        
     
 </article>
             </section>
 
-        
+        <div class="phpdocumentor-modal" id="source-view">
+    <div class="phpdocumentor-modal-bg" data-exit-button></div>
+    <div class="phpdocumentor-modal-container">
+        <div class="phpdocumentor-modal-content">
+            <pre style="max-height: 500px; overflow-y: scroll" data-src="files/src/lib/Smr/Galaxy.php.txt" class="language-php line-numbers linkable-line-numbers"></pre>
+        </div>
+        <button data-exit-button class="phpdocumentor-modal__close">&times;</button>
+    </div>
+</div>
+
     <script type="text/javascript">
-        function loadExternalCodeSnippets(line) {
-            Array.prototype.slice.call(document.querySelectorAll('pre[data-src]')).forEach((pre) => {
-                var src = pre.getAttribute('data-src').replace( /\\/g, '/');
-                var extension = (src.match(/\.(\w+)$/) || [, ''])[1];
-                var language = 'php';
+        (function () {
+            function loadExternalCodeSnippet(el, url, line) {
+                Array.prototype.slice.call(el.querySelectorAll('pre[data-src]')).forEach((pre) => {
+                    const src = url || pre.getAttribute('data-src').replace(/\\/g, '/');
+                    const language = 'php';
 
-                var code = document.createElement('code');
-                code.className = 'language-' + language;
+                    const code = document.createElement('code');
+                    code.className = 'language-' + language;
+                    pre.textContent = '';
+                    pre.setAttribute('data-line', line)
+                    code.textContent = 'Loading…';
+                    pre.appendChild(code);
 
-                pre.textContent = '';
+                    var xhr = new XMLHttpRequest();
 
-                pre.setAttribute('data-line', line)
-                code.textContent = 'Loading…';
+                    xhr.open('GET', src, true);
 
-                pre.appendChild(code);
-
-                var xhr = new XMLHttpRequest();
-
-                xhr.open('GET', src, true);
-
-                xhr.onreadystatechange = function () {
-                    if (xhr.readyState == 4) {
+                    xhr.onreadystatechange = function () {
+                        if (xhr.readyState !== 4) {
+                            return;
+                        }
 
                         if (xhr.status < 400 && xhr.responseText) {
                             code.textContent = xhr.responseText;
-
                             Prism.highlightElement(code);
+                            return;
                         }
-                        else if (xhr.status >= 400) {
+
+                        if (xhr.status === 404) {
+                            code.textContent = '✖ Error: File could not be found';
+                            return;
+                        }
+
+                        if (xhr.status >= 400) {
                             code.textContent = '✖ Error ' + xhr.status + ' while fetching file: ' + xhr.statusText;
+                            return;
                         }
-                        else {
-                            code.textContent = '✖ Error: File does not exist, is empty or trying to view from localhost';
-                        }
+
+                        code.textContent = '✖ Error: An unknown error occurred';
+                    };
+
+                    xhr.send(null);
+                });
+            }
+
+            const modalButtons = document.querySelectorAll("[data-modal]");
+            const openedAsLocalFile = window.location.protocol === 'file:';
+            if (modalButtons.length > 0 && openedAsLocalFile) {
+                console.warn(
+                    'Viewing the source code is unavailable because you are opening this page from the file:// scheme; ' +
+                    'browsers block XHR requests when a page is opened this way'
+                );
+            }
+
+            modalButtons.forEach(function (trigger) {
+                if (openedAsLocalFile) {
+                    trigger.setAttribute("hidden", "hidden");
+                }
+
+                trigger.addEventListener("click", function (event) {
+                    event.preventDefault();
+                    const modal = document.getElementById(trigger.dataset.modal);
+                    if (!modal) {
+                        console.error(`Modal with id "${trigger.dataset.modal}" could not be found`);
+                        return;
                     }
-                };
+                    modal.classList.add("phpdocumentor-modal__open");
 
-                xhr.send(null);
-            });
-        }
-
-        var modals = document.querySelectorAll("[data-modal]");
-
-        modals.forEach(function (trigger) {
-            trigger.addEventListener("click", function (event) {
-                //event.preventDefault();
-                const modal = document.getElementById(trigger.dataset.modal);
-                modal.classList.add("phpdocumentor-modal__open");
-                loadExternalCodeSnippets(trigger.dataset.line)
-                const exits = modal.querySelectorAll("[data-exit-button]");
-                exits.forEach(function (exit) {
-                    exit.addEventListener("click", function (event) {
-                        event.preventDefault();
-                        modal.classList.remove("phpdocumentor-modal__open");
+                    loadExternalCodeSnippet(modal, trigger.dataset.src || null, trigger.dataset.line)
+                    const exits = modal.querySelectorAll("[data-exit-button]");
+                    exits.forEach(function (exit) {
+                        exit.addEventListener("click", function (event) {
+                            event.preventDefault();
+                            modal.classList.remove("phpdocumentor-modal__open");
+                        });
                     });
                 });
             });
-        });
+        })();
     </script>
 
     </article>
-                <section data-search-results class="phpdocumentor-search-results phpdocumentor-search-results--hidden">
+                                </section>
+                <section class="phpdocumentor-on-this-page__sidebar">
+                                
+    <section class="phpdocumentor-on-this-page__content">
+        <strong class="phpdocumentor-on-this-page__title">On this page</strong>
+
+        <ul class="phpdocumentor-list -clean">
+            <li class="phpdocumentor-on-this-page-section__title">Table Of Contents</li>
+            <li>
+                <ul class="phpdocumentor-list -clean">
+                                        <li><a href="classes/Smr-Galaxy.html#toc-constants">Constants</a></li>
+                                                            <li><a href="classes/Smr-Galaxy.html#toc-properties">Properties</a></li>
+                                                            <li><a href="classes/Smr-Galaxy.html#toc-methods">Methods</a></li>
+                                    </ul>
+            </li>
+                            <li class="phpdocumentor-on-this-page-section__title">Constants</li>
+                <li>
+                    <ul class="phpdocumentor-list -clean">
+                                                    <li><a href="classes/Smr-Galaxy.html#constant_SQL">SQL</a></li>
+                                                    <li><a href="classes/Smr-Galaxy.html#constant_TYPE_NEUTRAL">TYPE_NEUTRAL</a></li>
+                                                    <li><a href="classes/Smr-Galaxy.html#constant_TYPE_PLANET">TYPE_PLANET</a></li>
+                                                    <li><a href="classes/Smr-Galaxy.html#constant_TYPE_RACIAL">TYPE_RACIAL</a></li>
+                                                    <li><a href="classes/Smr-Galaxy.html#constant_TYPES">TYPES</a></li>
+                                            </ul>
+                </li>
+            
+                            <li class="phpdocumentor-on-this-page-section__title">Properties</li>
+                <li>
+                    <ul class="phpdocumentor-list -clean">
+                                                    <li><a href="classes/Smr-Galaxy.html#property_SQLID">$SQLID<a href="classes/Smr-Galaxy.html"></li>
+                                                    <li><a href="classes/Smr-Galaxy.html#property_CACHE_GALAXIES">$CACHE_GALAXIES<a href="classes/Smr-Galaxy.html"></li>
+                                                    <li><a href="classes/Smr-Galaxy.html#property_CACHE_GAME_GALAXIES">$CACHE_GAME_GALAXIES<a href="classes/Smr-Galaxy.html"></li>
+                                                    <li><a href="classes/Smr-Galaxy.html#property_galaxyID">$galaxyID<a href="classes/Smr-Galaxy.html"></li>
+                                                    <li><a href="classes/Smr-Galaxy.html#property_galaxyType">$galaxyType<a href="classes/Smr-Galaxy.html"></li>
+                                                    <li><a href="classes/Smr-Galaxy.html#property_gameID">$gameID<a href="classes/Smr-Galaxy.html"></li>
+                                                    <li><a href="classes/Smr-Galaxy.html#property_hasChanged">$hasChanged<a href="classes/Smr-Galaxy.html"></li>
+                                                    <li><a href="classes/Smr-Galaxy.html#property_height">$height<a href="classes/Smr-Galaxy.html"></li>
+                                                    <li><a href="classes/Smr-Galaxy.html#property_isNew">$isNew<a href="classes/Smr-Galaxy.html"></li>
+                                                    <li><a href="classes/Smr-Galaxy.html#property_maxForceTime">$maxForceTime<a href="classes/Smr-Galaxy.html"></li>
+                                                    <li><a href="classes/Smr-Galaxy.html#property_name">$name<a href="classes/Smr-Galaxy.html"></li>
+                                                    <li><a href="classes/Smr-Galaxy.html#property_startSector">$startSector<a href="classes/Smr-Galaxy.html"></li>
+                                                    <li><a href="classes/Smr-Galaxy.html#property_width">$width<a href="classes/Smr-Galaxy.html"></li>
+                                            </ul>
+                </li>
+            
+                        <li class="phpdocumentor-on-this-page-section__title">Methods</li>
+            <li>
+                <ul class="phpdocumentor-list -clean">
+                                            <li><a href="classes/Smr-Galaxy.html#method_clearCache">clearCache()</a></li>
+                                            <li><a href="classes/Smr-Galaxy.html#method_contains">contains()</a></li>
+                                            <li><a href="classes/Smr-Galaxy.html#method_createGalaxy">createGalaxy()</a></li>
+                                            <li><a href="classes/Smr-Galaxy.html#method_equals">equals()</a></li>
+                                            <li><a href="classes/Smr-Galaxy.html#method_generateSectors">generateSectors()</a></li>
+                                            <li><a href="classes/Smr-Galaxy.html#method_getConnectivity">getConnectivity()</a></li>
+                                            <li><a href="classes/Smr-Galaxy.html#method_getDisplayName">getDisplayName()</a></li>
+                                            <li><a href="classes/Smr-Galaxy.html#method_getEndSector">getEndSector()</a></li>
+                                            <li><a href="classes/Smr-Galaxy.html#method_getForces">getForces()</a></li>
+                                            <li><a href="classes/Smr-Galaxy.html#method_getGalaxy">getGalaxy()</a></li>
+                                            <li><a href="classes/Smr-Galaxy.html#method_getGalaxyContaining">getGalaxyContaining()</a></li>
+                                            <li><a href="classes/Smr-Galaxy.html#method_getGalaxyID">getGalaxyID()</a></li>
+                                            <li><a href="classes/Smr-Galaxy.html#method_getGalaxyMapHREF">getGalaxyMapHREF()</a></li>
+                                            <li><a href="classes/Smr-Galaxy.html#method_getGalaxyType">getGalaxyType()</a></li>
+                                            <li><a href="classes/Smr-Galaxy.html#method_getGameGalaxies">getGameGalaxies()</a></li>
+                                            <li><a href="classes/Smr-Galaxy.html#method_getGameID">getGameID()</a></li>
+                                            <li><a href="classes/Smr-Galaxy.html#method_getHeight">getHeight()</a></li>
+                                            <li><a href="classes/Smr-Galaxy.html#method_getLocations">getLocations()</a></li>
+                                            <li><a href="classes/Smr-Galaxy.html#method_getMapSectors">getMapSectors()</a></li>
+                                            <li><a href="classes/Smr-Galaxy.html#method_getMaxForceTime">getMaxForceTime()</a></li>
+                                            <li><a href="classes/Smr-Galaxy.html#method_getName">getName()</a></li>
+                                            <li><a href="classes/Smr-Galaxy.html#method_getPlanets">getPlanets()</a></li>
+                                            <li><a href="classes/Smr-Galaxy.html#method_getPlayers">getPlayers()</a></li>
+                                            <li><a href="classes/Smr-Galaxy.html#method_getPorts">getPorts()</a></li>
+                                            <li><a href="classes/Smr-Galaxy.html#method_getSectors">getSectors()</a></li>
+                                            <li><a href="classes/Smr-Galaxy.html#method_getSize">getSize()</a></li>
+                                            <li><a href="classes/Smr-Galaxy.html#method_getStartSector">getStartSector()</a></li>
+                                            <li><a href="classes/Smr-Galaxy.html#method_getWidth">getWidth()</a></li>
+                                            <li><a href="classes/Smr-Galaxy.html#method_save">save()</a></li>
+                                            <li><a href="classes/Smr-Galaxy.html#method_saveGalaxies">saveGalaxies()</a></li>
+                                            <li><a href="classes/Smr-Galaxy.html#method_setConnectivity">setConnectivity()</a></li>
+                                            <li><a href="classes/Smr-Galaxy.html#method_setGalaxyType">setGalaxyType()</a></li>
+                                            <li><a href="classes/Smr-Galaxy.html#method_setHeight">setHeight()</a></li>
+                                            <li><a href="classes/Smr-Galaxy.html#method_setMaxForceTime">setMaxForceTime()</a></li>
+                                            <li><a href="classes/Smr-Galaxy.html#method_setName">setName()</a></li>
+                                            <li><a href="classes/Smr-Galaxy.html#method_setWidth">setWidth()</a></li>
+                                            <li><a href="classes/Smr-Galaxy.html#method___construct">__construct()</a></li>
+                                    </ul>
+            </li>
+                    </ul>
+    </section>
+
+                </section>
+                            </div>
+            <section data-search-results class="phpdocumentor-search-results phpdocumentor-search-results--hidden">
     <section class="phpdocumentor-search-results__dialog">
         <header class="phpdocumentor-search-results__header">
             <h2 class="phpdocumentor-search-results__title">Search results</h2>
@@ -2704,7 +2878,6 @@ construct the cache efficiently before calling this.</p>
         </section>
     </section>
 </section>
-            </div>
         </div>
         <a href="classes/Smr-Galaxy.html#top" class="phpdocumentor-back-to-top"><i class="fas fa-chevron-circle-up"></i></a>
 

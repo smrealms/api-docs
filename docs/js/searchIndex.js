@@ -2536,6 +2536,866 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/Smr-AbstractShip.html#property_hasChangedIllusion"
         },                {
+            "fqsen": "\\Smr\\Account",
+            "name": "Account",
+            "summary": "",
+            "url": "classes/Smr-Account.html"
+        },                {
+            "fqsen": "\\Smr\\Account\u003A\u003AgetDefaultHotkeys\u0028\u0029",
+            "name": "getDefaultHotkeys",
+            "summary": "",
+            "url": "classes/Smr-Account.html#method_getDefaultHotkeys"
+        },                {
+            "fqsen": "\\Smr\\Account\u003A\u003AclearCache\u0028\u0029",
+            "name": "clearCache",
+            "summary": "",
+            "url": "classes/Smr-Account.html#method_clearCache"
+        },                {
+            "fqsen": "\\Smr\\Account\u003A\u003AgetAccount\u0028\u0029",
+            "name": "getAccount",
+            "summary": "",
+            "url": "classes/Smr-Account.html#method_getAccount"
+        },                {
+            "fqsen": "\\Smr\\Account\u003A\u003AgetAccountByLogin\u0028\u0029",
+            "name": "getAccountByLogin",
+            "summary": "",
+            "url": "classes/Smr-Account.html#method_getAccountByLogin"
+        },                {
+            "fqsen": "\\Smr\\Account\u003A\u003AgetAccountByHofName\u0028\u0029",
+            "name": "getAccountByHofName",
+            "summary": "",
+            "url": "classes/Smr-Account.html#method_getAccountByHofName"
+        },                {
+            "fqsen": "\\Smr\\Account\u003A\u003AgetAccountByEmail\u0028\u0029",
+            "name": "getAccountByEmail",
+            "summary": "",
+            "url": "classes/Smr-Account.html#method_getAccountByEmail"
+        },                {
+            "fqsen": "\\Smr\\Account\u003A\u003AgetAccountByDiscordId\u0028\u0029",
+            "name": "getAccountByDiscordId",
+            "summary": "",
+            "url": "classes/Smr-Account.html#method_getAccountByDiscordId"
+        },                {
+            "fqsen": "\\Smr\\Account\u003A\u003AgetAccountByIrcNick\u0028\u0029",
+            "name": "getAccountByIrcNick",
+            "summary": "",
+            "url": "classes/Smr-Account.html#method_getAccountByIrcNick"
+        },                {
+            "fqsen": "\\Smr\\Account\u003A\u003AgetAccountBySocialId\u0028\u0029",
+            "name": "getAccountBySocialId",
+            "summary": "",
+            "url": "classes/Smr-Account.html#method_getAccountBySocialId"
+        },                {
+            "fqsen": "\\Smr\\Account\u003A\u003AcreateAccount\u0028\u0029",
+            "name": "createAccount",
+            "summary": "",
+            "url": "classes/Smr-Account.html#method_createAccount"
+        },                {
+            "fqsen": "\\Smr\\Account\u003A\u003AgetUserScoreCaseStatement\u0028\u0029",
+            "name": "getUserScoreCaseStatement",
+            "summary": "",
+            "url": "classes/Smr-Account.html#method_getUserScoreCaseStatement"
+        },                {
+            "fqsen": "\\Smr\\Account\u003A\u003A__construct\u0028\u0029",
+            "name": "__construct",
+            "summary": "",
+            "url": "classes/Smr-Account.html#method___construct"
+        },                {
+            "fqsen": "\\Smr\\Account\u003A\u003AisDisabled\u0028\u0029",
+            "name": "isDisabled",
+            "summary": "Check\u0020if\u0020the\u0020account\u0020is\u0020disabled.",
+            "url": "classes/Smr-Account.html#method_isDisabled"
+        },                {
+            "fqsen": "\\Smr\\Account\u003A\u003Aupdate\u0028\u0029",
+            "name": "update",
+            "summary": "",
+            "url": "classes/Smr-Account.html#method_update"
+        },                {
+            "fqsen": "\\Smr\\Account\u003A\u003AupdateIP\u0028\u0029",
+            "name": "updateIP",
+            "summary": "",
+            "url": "classes/Smr-Account.html#method_updateIP"
+        },                {
+            "fqsen": "\\Smr\\Account\u003A\u003AupdateLastLogin\u0028\u0029",
+            "name": "updateLastLogin",
+            "summary": "",
+            "url": "classes/Smr-Account.html#method_updateLastLogin"
+        },                {
+            "fqsen": "\\Smr\\Account\u003A\u003AgetLastLogin\u0028\u0029",
+            "name": "getLastLogin",
+            "summary": "",
+            "url": "classes/Smr-Account.html#method_getLastLogin"
+        },                {
+            "fqsen": "\\Smr\\Account\u003A\u003AsetLoggingEnabled\u0028\u0029",
+            "name": "setLoggingEnabled",
+            "summary": "",
+            "url": "classes/Smr-Account.html#method_setLoggingEnabled"
+        },                {
+            "fqsen": "\\Smr\\Account\u003A\u003AisLoggingEnabled\u0028\u0029",
+            "name": "isLoggingEnabled",
+            "summary": "",
+            "url": "classes/Smr-Account.html#method_isLoggingEnabled"
+        },                {
+            "fqsen": "\\Smr\\Account\u003A\u003AisVeteranForced\u0028\u0029",
+            "name": "isVeteranForced",
+            "summary": "",
+            "url": "classes/Smr-Account.html#method_isVeteranForced"
+        },                {
+            "fqsen": "\\Smr\\Account\u003A\u003AisVeteran\u0028\u0029",
+            "name": "isVeteran",
+            "summary": "",
+            "url": "classes/Smr-Account.html#method_isVeteran"
+        },                {
+            "fqsen": "\\Smr\\Account\u003A\u003AisNPC\u0028\u0029",
+            "name": "isNPC",
+            "summary": "",
+            "url": "classes/Smr-Account.html#method_isNPC"
+        },                {
+            "fqsen": "\\Smr\\Account\u003A\u003AgetHOFData\u0028\u0029",
+            "name": "getHOFData",
+            "summary": "",
+            "url": "classes/Smr-Account.html#method_getHOFData"
+        },                {
+            "fqsen": "\\Smr\\Account\u003A\u003AgetHOF\u0028\u0029",
+            "name": "getHOF",
+            "summary": "",
+            "url": "classes/Smr-Account.html#method_getHOF"
+        },                {
+            "fqsen": "\\Smr\\Account\u003A\u003AgetScore\u0028\u0029",
+            "name": "getScore",
+            "summary": "",
+            "url": "classes/Smr-Account.html#method_getScore"
+        },                {
+            "fqsen": "\\Smr\\Account\u003A\u003AgetIndividualScores\u0028\u0029",
+            "name": "getIndividualScores",
+            "summary": "",
+            "url": "classes/Smr-Account.html#method_getIndividualScores"
+        },                {
+            "fqsen": "\\Smr\\Account\u003A\u003AgetRank\u0028\u0029",
+            "name": "getRank",
+            "summary": "",
+            "url": "classes/Smr-Account.html#method_getRank"
+        },                {
+            "fqsen": "\\Smr\\Account\u003A\u003AupdateMaxRankAchieved\u0028\u0029",
+            "name": "updateMaxRankAchieved",
+            "summary": "",
+            "url": "classes/Smr-Account.html#method_updateMaxRankAchieved"
+        },                {
+            "fqsen": "\\Smr\\Account\u003A\u003AgetReferrerID\u0028\u0029",
+            "name": "getReferrerID",
+            "summary": "",
+            "url": "classes/Smr-Account.html#method_getReferrerID"
+        },                {
+            "fqsen": "\\Smr\\Account\u003A\u003AhasReferrer\u0028\u0029",
+            "name": "hasReferrer",
+            "summary": "",
+            "url": "classes/Smr-Account.html#method_hasReferrer"
+        },                {
+            "fqsen": "\\Smr\\Account\u003A\u003AgetReferrer\u0028\u0029",
+            "name": "getReferrer",
+            "summary": "",
+            "url": "classes/Smr-Account.html#method_getReferrer"
+        },                {
+            "fqsen": "\\Smr\\Account\u003A\u003Alog\u0028\u0029",
+            "name": "log",
+            "summary": "",
+            "url": "classes/Smr-Account.html#method_log"
+        },                {
+            "fqsen": "\\Smr\\Account\u003A\u003AgetSmrCreditsData\u0028\u0029",
+            "name": "getSmrCreditsData",
+            "summary": "",
+            "url": "classes/Smr-Account.html#method_getSmrCreditsData"
+        },                {
+            "fqsen": "\\Smr\\Account\u003A\u003AgetTotalSmrCredits\u0028\u0029",
+            "name": "getTotalSmrCredits",
+            "summary": "",
+            "url": "classes/Smr-Account.html#method_getTotalSmrCredits"
+        },                {
+            "fqsen": "\\Smr\\Account\u003A\u003AdecreaseTotalSmrCredits\u0028\u0029",
+            "name": "decreaseTotalSmrCredits",
+            "summary": "",
+            "url": "classes/Smr-Account.html#method_decreaseTotalSmrCredits"
+        },                {
+            "fqsen": "\\Smr\\Account\u003A\u003AgetSmrCredits\u0028\u0029",
+            "name": "getSmrCredits",
+            "summary": "",
+            "url": "classes/Smr-Account.html#method_getSmrCredits"
+        },                {
+            "fqsen": "\\Smr\\Account\u003A\u003AgetSmrRewardCredits\u0028\u0029",
+            "name": "getSmrRewardCredits",
+            "summary": "",
+            "url": "classes/Smr-Account.html#method_getSmrRewardCredits"
+        },                {
+            "fqsen": "\\Smr\\Account\u003A\u003AsetSmrCredits\u0028\u0029",
+            "name": "setSmrCredits",
+            "summary": "",
+            "url": "classes/Smr-Account.html#method_setSmrCredits"
+        },                {
+            "fqsen": "\\Smr\\Account\u003A\u003AincreaseSmrCredits\u0028\u0029",
+            "name": "increaseSmrCredits",
+            "summary": "",
+            "url": "classes/Smr-Account.html#method_increaseSmrCredits"
+        },                {
+            "fqsen": "\\Smr\\Account\u003A\u003AdecreaseSmrCredits\u0028\u0029",
+            "name": "decreaseSmrCredits",
+            "summary": "",
+            "url": "classes/Smr-Account.html#method_decreaseSmrCredits"
+        },                {
+            "fqsen": "\\Smr\\Account\u003A\u003AsetSmrRewardCredits\u0028\u0029",
+            "name": "setSmrRewardCredits",
+            "summary": "",
+            "url": "classes/Smr-Account.html#method_setSmrRewardCredits"
+        },                {
+            "fqsen": "\\Smr\\Account\u003A\u003AincreaseSmrRewardCredits\u0028\u0029",
+            "name": "increaseSmrRewardCredits",
+            "summary": "",
+            "url": "classes/Smr-Account.html#method_increaseSmrRewardCredits"
+        },                {
+            "fqsen": "\\Smr\\Account\u003A\u003AsendMessageToBox\u0028\u0029",
+            "name": "sendMessageToBox",
+            "summary": "",
+            "url": "classes/Smr-Account.html#method_sendMessageToBox"
+        },                {
+            "fqsen": "\\Smr\\Account\u003A\u003AdoMessageSendingToBox\u0028\u0029",
+            "name": "doMessageSendingToBox",
+            "summary": "",
+            "url": "classes/Smr-Account.html#method_doMessageSendingToBox"
+        },                {
+            "fqsen": "\\Smr\\Account\u003A\u003Aequals\u0028\u0029",
+            "name": "equals",
+            "summary": "",
+            "url": "classes/Smr-Account.html#method_equals"
+        },                {
+            "fqsen": "\\Smr\\Account\u003A\u003AgetAccountID\u0028\u0029",
+            "name": "getAccountID",
+            "summary": "",
+            "url": "classes/Smr-Account.html#method_getAccountID"
+        },                {
+            "fqsen": "\\Smr\\Account\u003A\u003AgetOldAccountID\u0028\u0029",
+            "name": "getOldAccountID",
+            "summary": "Return\u0020the\u0020ID\u0020associated\u0020with\u0020this\u0020account\u0020in\u0020the\u0020given\u0020history\u0020database.",
+            "url": "classes/Smr-Account.html#method_getOldAccountID"
+        },                {
+            "fqsen": "\\Smr\\Account\u003A\u003AgetLogin\u0028\u0029",
+            "name": "getLogin",
+            "summary": "",
+            "url": "classes/Smr-Account.html#method_getLogin"
+        },                {
+            "fqsen": "\\Smr\\Account\u003A\u003AgetEmail\u0028\u0029",
+            "name": "getEmail",
+            "summary": "",
+            "url": "classes/Smr-Account.html#method_getEmail"
+        },                {
+            "fqsen": "\\Smr\\Account\u003A\u003AsetEmail\u0028\u0029",
+            "name": "setEmail",
+            "summary": "",
+            "url": "classes/Smr-Account.html#method_setEmail"
+        },                {
+            "fqsen": "\\Smr\\Account\u003A\u003AcheckEmail\u0028\u0029",
+            "name": "checkEmail",
+            "summary": "Perform\u0020basic\u0020sanity\u0020checks\u0020on\u0020the\u0020usability\u0020of\u0020an\u0020email\u0020address.",
+            "url": "classes/Smr-Account.html#method_checkEmail"
+        },                {
+            "fqsen": "\\Smr\\Account\u003A\u003AchangeEmail\u0028\u0029",
+            "name": "changeEmail",
+            "summary": "Change\u0020e\u002Dmail\u0020address,\u0020unvalidate\u0020the\u0020account,\u0020and\u0020resend\u0020validation\u0020code",
+            "url": "classes/Smr-Account.html#method_changeEmail"
+        },                {
+            "fqsen": "\\Smr\\Account\u003A\u003AsendValidationEmail\u0028\u0029",
+            "name": "sendValidationEmail",
+            "summary": "",
+            "url": "classes/Smr-Account.html#method_sendValidationEmail"
+        },                {
+            "fqsen": "\\Smr\\Account\u003A\u003AgetOffset\u0028\u0029",
+            "name": "getOffset",
+            "summary": "",
+            "url": "classes/Smr-Account.html#method_getOffset"
+        },                {
+            "fqsen": "\\Smr\\Account\u003A\u003AgetFontSize\u0028\u0029",
+            "name": "getFontSize",
+            "summary": "",
+            "url": "classes/Smr-Account.html#method_getFontSize"
+        },                {
+            "fqsen": "\\Smr\\Account\u003A\u003AsetFontSize\u0028\u0029",
+            "name": "setFontSize",
+            "summary": "",
+            "url": "classes/Smr-Account.html#method_setFontSize"
+        },                {
+            "fqsen": "\\Smr\\Account\u003A\u003AgetCssLink\u0028\u0029",
+            "name": "getCssLink",
+            "summary": "",
+            "url": "classes/Smr-Account.html#method_getCssLink"
+        },                {
+            "fqsen": "\\Smr\\Account\u003A\u003AsetCssLink\u0028\u0029",
+            "name": "setCssLink",
+            "summary": "",
+            "url": "classes/Smr-Account.html#method_setCssLink"
+        },                {
+            "fqsen": "\\Smr\\Account\u003A\u003AgetTemplate\u0028\u0029",
+            "name": "getTemplate",
+            "summary": "",
+            "url": "classes/Smr-Account.html#method_getTemplate"
+        },                {
+            "fqsen": "\\Smr\\Account\u003A\u003AsetTemplate\u0028\u0029",
+            "name": "setTemplate",
+            "summary": "",
+            "url": "classes/Smr-Account.html#method_setTemplate"
+        },                {
+            "fqsen": "\\Smr\\Account\u003A\u003AgetColourScheme\u0028\u0029",
+            "name": "getColourScheme",
+            "summary": "",
+            "url": "classes/Smr-Account.html#method_getColourScheme"
+        },                {
+            "fqsen": "\\Smr\\Account\u003A\u003AsetColourScheme\u0028\u0029",
+            "name": "setColourScheme",
+            "summary": "",
+            "url": "classes/Smr-Account.html#method_setColourScheme"
+        },                {
+            "fqsen": "\\Smr\\Account\u003A\u003AgetCssUrl\u0028\u0029",
+            "name": "getCssUrl",
+            "summary": "",
+            "url": "classes/Smr-Account.html#method_getCssUrl"
+        },                {
+            "fqsen": "\\Smr\\Account\u003A\u003AgetCssColourUrl\u0028\u0029",
+            "name": "getCssColourUrl",
+            "summary": "",
+            "url": "classes/Smr-Account.html#method_getCssColourUrl"
+        },                {
+            "fqsen": "\\Smr\\Account\u003A\u003AgetHofDisplayName\u0028\u0029",
+            "name": "getHofDisplayName",
+            "summary": "The\u0020Hall\u0020Of\u0020Fame\u0020name\u0020is\u0020not\u0020html\u002Descaped\u0020in\u0020the\u0020database,\u0020so\u0020to\u0020display\nit\u0020correctly\u0020we\u0020must\u0020escape\u0020html\u0020entities.",
+            "url": "classes/Smr-Account.html#method_getHofDisplayName"
+        },                {
+            "fqsen": "\\Smr\\Account\u003A\u003AgetHofName\u0028\u0029",
+            "name": "getHofName",
+            "summary": "",
+            "url": "classes/Smr-Account.html#method_getHofName"
+        },                {
+            "fqsen": "\\Smr\\Account\u003A\u003AsetHofName\u0028\u0029",
+            "name": "setHofName",
+            "summary": "",
+            "url": "classes/Smr-Account.html#method_setHofName"
+        },                {
+            "fqsen": "\\Smr\\Account\u003A\u003AgetIrcNick\u0028\u0029",
+            "name": "getIrcNick",
+            "summary": "",
+            "url": "classes/Smr-Account.html#method_getIrcNick"
+        },                {
+            "fqsen": "\\Smr\\Account\u003A\u003AsetIrcNick\u0028\u0029",
+            "name": "setIrcNick",
+            "summary": "",
+            "url": "classes/Smr-Account.html#method_setIrcNick"
+        },                {
+            "fqsen": "\\Smr\\Account\u003A\u003AgetDiscordId\u0028\u0029",
+            "name": "getDiscordId",
+            "summary": "",
+            "url": "classes/Smr-Account.html#method_getDiscordId"
+        },                {
+            "fqsen": "\\Smr\\Account\u003A\u003AsetDiscordId\u0028\u0029",
+            "name": "setDiscordId",
+            "summary": "",
+            "url": "classes/Smr-Account.html#method_setDiscordId"
+        },                {
+            "fqsen": "\\Smr\\Account\u003A\u003AgetReferralLink\u0028\u0029",
+            "name": "getReferralLink",
+            "summary": "",
+            "url": "classes/Smr-Account.html#method_getReferralLink"
+        },                {
+            "fqsen": "\\Smr\\Account\u003A\u003AgetDateTimeFormat\u0028\u0029",
+            "name": "getDateTimeFormat",
+            "summary": "Get\u0020the\u0020epoch\u0020format\u0020string\u0020including\u0020both\u0020date\u0020and\u0020time.",
+            "url": "classes/Smr-Account.html#method_getDateTimeFormat"
+        },                {
+            "fqsen": "\\Smr\\Account\u003A\u003AgetDateTimeFormatSplit\u0028\u0029",
+            "name": "getDateTimeFormatSplit",
+            "summary": "Get\u0020the\u0020\u0028HTML\u002Donly\u0029\u0020epoch\u0020format\u0020string\u0020including\u0020both\u0020date\u0020and\u0020time,\nsplit\u0020across\u0020two\u0020lines.",
+            "url": "classes/Smr-Account.html#method_getDateTimeFormatSplit"
+        },                {
+            "fqsen": "\\Smr\\Account\u003A\u003AgetDateFormat\u0028\u0029",
+            "name": "getDateFormat",
+            "summary": "",
+            "url": "classes/Smr-Account.html#method_getDateFormat"
+        },                {
+            "fqsen": "\\Smr\\Account\u003A\u003AsetDateFormat\u0028\u0029",
+            "name": "setDateFormat",
+            "summary": "",
+            "url": "classes/Smr-Account.html#method_setDateFormat"
+        },                {
+            "fqsen": "\\Smr\\Account\u003A\u003AgetTimeFormat\u0028\u0029",
+            "name": "getTimeFormat",
+            "summary": "",
+            "url": "classes/Smr-Account.html#method_getTimeFormat"
+        },                {
+            "fqsen": "\\Smr\\Account\u003A\u003AsetTimeFormat\u0028\u0029",
+            "name": "setTimeFormat",
+            "summary": "",
+            "url": "classes/Smr-Account.html#method_setTimeFormat"
+        },                {
+            "fqsen": "\\Smr\\Account\u003A\u003AgetValidationCode\u0028\u0029",
+            "name": "getValidationCode",
+            "summary": "",
+            "url": "classes/Smr-Account.html#method_getValidationCode"
+        },                {
+            "fqsen": "\\Smr\\Account\u003A\u003AsetValidationCode\u0028\u0029",
+            "name": "setValidationCode",
+            "summary": "",
+            "url": "classes/Smr-Account.html#method_setValidationCode"
+        },                {
+            "fqsen": "\\Smr\\Account\u003A\u003AsetValidated\u0028\u0029",
+            "name": "setValidated",
+            "summary": "",
+            "url": "classes/Smr-Account.html#method_setValidated"
+        },                {
+            "fqsen": "\\Smr\\Account\u003A\u003AisValidated\u0028\u0029",
+            "name": "isValidated",
+            "summary": "",
+            "url": "classes/Smr-Account.html#method_isValidated"
+        },                {
+            "fqsen": "\\Smr\\Account\u003A\u003AisActive\u0028\u0029",
+            "name": "isActive",
+            "summary": "",
+            "url": "classes/Smr-Account.html#method_isActive"
+        },                {
+            "fqsen": "\\Smr\\Account\u003A\u003AcheckPassword\u0028\u0029",
+            "name": "checkPassword",
+            "summary": "Check\u0020if\u0020the\u0020given\u0020\u0028plain\u002Dtext\u0029\u0020password\u0020is\u0020correct.",
+            "url": "classes/Smr-Account.html#method_checkPassword"
+        },                {
+            "fqsen": "\\Smr\\Account\u003A\u003AsetPassword\u0028\u0029",
+            "name": "setPassword",
+            "summary": "Set\u0020the\u0020\u0028plain\u002Dtext\u0029\u0020password\u0020for\u0020this\u0020account.",
+            "url": "classes/Smr-Account.html#method_setPassword"
+        },                {
+            "fqsen": "\\Smr\\Account\u003A\u003AaddAuthMethod\u0028\u0029",
+            "name": "addAuthMethod",
+            "summary": "",
+            "url": "classes/Smr-Account.html#method_addAuthMethod"
+        },                {
+            "fqsen": "\\Smr\\Account\u003A\u003AgeneratePasswordReset\u0028\u0029",
+            "name": "generatePasswordReset",
+            "summary": "",
+            "url": "classes/Smr-Account.html#method_generatePasswordReset"
+        },                {
+            "fqsen": "\\Smr\\Account\u003A\u003AgetPasswordReset\u0028\u0029",
+            "name": "getPasswordReset",
+            "summary": "",
+            "url": "classes/Smr-Account.html#method_getPasswordReset"
+        },                {
+            "fqsen": "\\Smr\\Account\u003A\u003AsetPasswordReset\u0028\u0029",
+            "name": "setPasswordReset",
+            "summary": "",
+            "url": "classes/Smr-Account.html#method_setPasswordReset"
+        },                {
+            "fqsen": "\\Smr\\Account\u003A\u003AisDisplayShipImages\u0028\u0029",
+            "name": "isDisplayShipImages",
+            "summary": "",
+            "url": "classes/Smr-Account.html#method_isDisplayShipImages"
+        },                {
+            "fqsen": "\\Smr\\Account\u003A\u003AsetDisplayShipImages\u0028\u0029",
+            "name": "setDisplayShipImages",
+            "summary": "",
+            "url": "classes/Smr-Account.html#method_setDisplayShipImages"
+        },                {
+            "fqsen": "\\Smr\\Account\u003A\u003AisUseAJAX\u0028\u0029",
+            "name": "isUseAJAX",
+            "summary": "",
+            "url": "classes/Smr-Account.html#method_isUseAJAX"
+        },                {
+            "fqsen": "\\Smr\\Account\u003A\u003AsetUseAJAX\u0028\u0029",
+            "name": "setUseAJAX",
+            "summary": "",
+            "url": "classes/Smr-Account.html#method_setUseAJAX"
+        },                {
+            "fqsen": "\\Smr\\Account\u003A\u003AisDefaultCSSEnabled\u0028\u0029",
+            "name": "isDefaultCSSEnabled",
+            "summary": "",
+            "url": "classes/Smr-Account.html#method_isDefaultCSSEnabled"
+        },                {
+            "fqsen": "\\Smr\\Account\u003A\u003AsetDefaultCSSEnabled\u0028\u0029",
+            "name": "setDefaultCSSEnabled",
+            "summary": "",
+            "url": "classes/Smr-Account.html#method_setDefaultCSSEnabled"
+        },                {
+            "fqsen": "\\Smr\\Account\u003A\u003AgetHotkeys\u0028\u0029",
+            "name": "getHotkeys",
+            "summary": "",
+            "url": "classes/Smr-Account.html#method_getHotkeys"
+        },                {
+            "fqsen": "\\Smr\\Account\u003A\u003AsetHotkey\u0028\u0029",
+            "name": "setHotkey",
+            "summary": "",
+            "url": "classes/Smr-Account.html#method_setHotkey"
+        },                {
+            "fqsen": "\\Smr\\Account\u003A\u003AisReceivingMessageNotifications\u0028\u0029",
+            "name": "isReceivingMessageNotifications",
+            "summary": "",
+            "url": "classes/Smr-Account.html#method_isReceivingMessageNotifications"
+        },                {
+            "fqsen": "\\Smr\\Account\u003A\u003AgetMessageNotifications\u0028\u0029",
+            "name": "getMessageNotifications",
+            "summary": "",
+            "url": "classes/Smr-Account.html#method_getMessageNotifications"
+        },                {
+            "fqsen": "\\Smr\\Account\u003A\u003AsetMessageNotifications\u0028\u0029",
+            "name": "setMessageNotifications",
+            "summary": "",
+            "url": "classes/Smr-Account.html#method_setMessageNotifications"
+        },                {
+            "fqsen": "\\Smr\\Account\u003A\u003AincreaseMessageNotifications\u0028\u0029",
+            "name": "increaseMessageNotifications",
+            "summary": "",
+            "url": "classes/Smr-Account.html#method_increaseMessageNotifications"
+        },                {
+            "fqsen": "\\Smr\\Account\u003A\u003AdecreaseMessageNotifications\u0028\u0029",
+            "name": "decreaseMessageNotifications",
+            "summary": "",
+            "url": "classes/Smr-Account.html#method_decreaseMessageNotifications"
+        },                {
+            "fqsen": "\\Smr\\Account\u003A\u003AisCenterGalaxyMapOnPlayer\u0028\u0029",
+            "name": "isCenterGalaxyMapOnPlayer",
+            "summary": "",
+            "url": "classes/Smr-Account.html#method_isCenterGalaxyMapOnPlayer"
+        },                {
+            "fqsen": "\\Smr\\Account\u003A\u003AsetCenterGalaxyMapOnPlayer\u0028\u0029",
+            "name": "setCenterGalaxyMapOnPlayer",
+            "summary": "",
+            "url": "classes/Smr-Account.html#method_setCenterGalaxyMapOnPlayer"
+        },                {
+            "fqsen": "\\Smr\\Account\u003A\u003AgetMailBanned\u0028\u0029",
+            "name": "getMailBanned",
+            "summary": "",
+            "url": "classes/Smr-Account.html#method_getMailBanned"
+        },                {
+            "fqsen": "\\Smr\\Account\u003A\u003AisMailBanned\u0028\u0029",
+            "name": "isMailBanned",
+            "summary": "",
+            "url": "classes/Smr-Account.html#method_isMailBanned"
+        },                {
+            "fqsen": "\\Smr\\Account\u003A\u003AsetMailBanned\u0028\u0029",
+            "name": "setMailBanned",
+            "summary": "",
+            "url": "classes/Smr-Account.html#method_setMailBanned"
+        },                {
+            "fqsen": "\\Smr\\Account\u003A\u003AincreaseMailBanned\u0028\u0029",
+            "name": "increaseMailBanned",
+            "summary": "",
+            "url": "classes/Smr-Account.html#method_increaseMailBanned"
+        },                {
+            "fqsen": "\\Smr\\Account\u003A\u003AgetPermissions\u0028\u0029",
+            "name": "getPermissions",
+            "summary": "",
+            "url": "classes/Smr-Account.html#method_getPermissions"
+        },                {
+            "fqsen": "\\Smr\\Account\u003A\u003AhasPermission\u0028\u0029",
+            "name": "hasPermission",
+            "summary": "",
+            "url": "classes/Smr-Account.html#method_hasPermission"
+        },                {
+            "fqsen": "\\Smr\\Account\u003A\u003AgetPoints\u0028\u0029",
+            "name": "getPoints",
+            "summary": "",
+            "url": "classes/Smr-Account.html#method_getPoints"
+        },                {
+            "fqsen": "\\Smr\\Account\u003A\u003AsetPoints\u0028\u0029",
+            "name": "setPoints",
+            "summary": "",
+            "url": "classes/Smr-Account.html#method_setPoints"
+        },                {
+            "fqsen": "\\Smr\\Account\u003A\u003AremovePoints\u0028\u0029",
+            "name": "removePoints",
+            "summary": "",
+            "url": "classes/Smr-Account.html#method_removePoints"
+        },                {
+            "fqsen": "\\Smr\\Account\u003A\u003AaddPoints\u0028\u0029",
+            "name": "addPoints",
+            "summary": "",
+            "url": "classes/Smr-Account.html#method_addPoints"
+        },                {
+            "fqsen": "\\Smr\\Account\u003A\u003AgetFriendlyColour\u0028\u0029",
+            "name": "getFriendlyColour",
+            "summary": "",
+            "url": "classes/Smr-Account.html#method_getFriendlyColour"
+        },                {
+            "fqsen": "\\Smr\\Account\u003A\u003AsetFriendlyColour\u0028\u0029",
+            "name": "setFriendlyColour",
+            "summary": "",
+            "url": "classes/Smr-Account.html#method_setFriendlyColour"
+        },                {
+            "fqsen": "\\Smr\\Account\u003A\u003AgetNeutralColour\u0028\u0029",
+            "name": "getNeutralColour",
+            "summary": "",
+            "url": "classes/Smr-Account.html#method_getNeutralColour"
+        },                {
+            "fqsen": "\\Smr\\Account\u003A\u003AsetNeutralColour\u0028\u0029",
+            "name": "setNeutralColour",
+            "summary": "",
+            "url": "classes/Smr-Account.html#method_setNeutralColour"
+        },                {
+            "fqsen": "\\Smr\\Account\u003A\u003AgetEnemyColour\u0028\u0029",
+            "name": "getEnemyColour",
+            "summary": "",
+            "url": "classes/Smr-Account.html#method_getEnemyColour"
+        },                {
+            "fqsen": "\\Smr\\Account\u003A\u003AsetEnemyColour\u0028\u0029",
+            "name": "setEnemyColour",
+            "summary": "",
+            "url": "classes/Smr-Account.html#method_setEnemyColour"
+        },                {
+            "fqsen": "\\Smr\\Account\u003A\u003AbanAccount\u0028\u0029",
+            "name": "banAccount",
+            "summary": "",
+            "url": "classes/Smr-Account.html#method_banAccount"
+        },                {
+            "fqsen": "\\Smr\\Account\u003A\u003AunbanAccount\u0028\u0029",
+            "name": "unbanAccount",
+            "summary": "",
+            "url": "classes/Smr-Account.html#method_unbanAccount"
+        },                {
+            "fqsen": "\\Smr\\Account\u003A\u003AgetPersonalHofHREF\u0028\u0029",
+            "name": "getPersonalHofHREF",
+            "summary": "",
+            "url": "classes/Smr-Account.html#method_getPersonalHofHREF"
+        },                {
+            "fqsen": "\\Smr\\Account\u003A\u003AUSER_RANKINGS_EACH_STAT_POW",
+            "name": "USER_RANKINGS_EACH_STAT_POW",
+            "summary": "",
+            "url": "classes/Smr-Account.html#constant_USER_RANKINGS_EACH_STAT_POW"
+        },                {
+            "fqsen": "\\Smr\\Account\u003A\u003AUSER_RANKINGS_SCORE",
+            "name": "USER_RANKINGS_SCORE",
+            "summary": "",
+            "url": "classes/Smr-Account.html#constant_USER_RANKINGS_SCORE"
+        },                {
+            "fqsen": "\\Smr\\Account\u003A\u003ADEFAULT_HOTKEYS",
+            "name": "DEFAULT_HOTKEYS",
+            "summary": "",
+            "url": "classes/Smr-Account.html#constant_DEFAULT_HOTKEYS"
+        },                {
+            "fqsen": "\\Smr\\Account\u003A\u003ASQL",
+            "name": "SQL",
+            "summary": "",
+            "url": "classes/Smr-Account.html#constant_SQL"
+        },                {
+            "fqsen": "\\Smr\\Account\u003A\u003A\u0024CACHE_ACCOUNTS",
+            "name": "CACHE_ACCOUNTS",
+            "summary": "",
+            "url": "classes/Smr-Account.html#property_CACHE_ACCOUNTS"
+        },                {
+            "fqsen": "\\Smr\\Account\u003A\u003A\u0024SQLID",
+            "name": "SQLID",
+            "summary": "",
+            "url": "classes/Smr-Account.html#property_SQLID"
+        },                {
+            "fqsen": "\\Smr\\Account\u003A\u003A\u0024login",
+            "name": "login",
+            "summary": "",
+            "url": "classes/Smr-Account.html#property_login"
+        },                {
+            "fqsen": "\\Smr\\Account\u003A\u003A\u0024passwordHash",
+            "name": "passwordHash",
+            "summary": "",
+            "url": "classes/Smr-Account.html#property_passwordHash"
+        },                {
+            "fqsen": "\\Smr\\Account\u003A\u003A\u0024email",
+            "name": "email",
+            "summary": "",
+            "url": "classes/Smr-Account.html#property_email"
+        },                {
+            "fqsen": "\\Smr\\Account\u003A\u003A\u0024validated",
+            "name": "validated",
+            "summary": "",
+            "url": "classes/Smr-Account.html#property_validated"
+        },                {
+            "fqsen": "\\Smr\\Account\u003A\u003A\u0024validation_code",
+            "name": "validation_code",
+            "summary": "",
+            "url": "classes/Smr-Account.html#property_validation_code"
+        },                {
+            "fqsen": "\\Smr\\Account\u003A\u003A\u0024last_login",
+            "name": "last_login",
+            "summary": "",
+            "url": "classes/Smr-Account.html#property_last_login"
+        },                {
+            "fqsen": "\\Smr\\Account\u003A\u003A\u0024hofName",
+            "name": "hofName",
+            "summary": "",
+            "url": "classes/Smr-Account.html#property_hofName"
+        },                {
+            "fqsen": "\\Smr\\Account\u003A\u003A\u0024discordId",
+            "name": "discordId",
+            "summary": "",
+            "url": "classes/Smr-Account.html#property_discordId"
+        },                {
+            "fqsen": "\\Smr\\Account\u003A\u003A\u0024ircNick",
+            "name": "ircNick",
+            "summary": "",
+            "url": "classes/Smr-Account.html#property_ircNick"
+        },                {
+            "fqsen": "\\Smr\\Account\u003A\u003A\u0024veteranForced",
+            "name": "veteranForced",
+            "summary": "",
+            "url": "classes/Smr-Account.html#property_veteranForced"
+        },                {
+            "fqsen": "\\Smr\\Account\u003A\u003A\u0024logging",
+            "name": "logging",
+            "summary": "",
+            "url": "classes/Smr-Account.html#property_logging"
+        },                {
+            "fqsen": "\\Smr\\Account\u003A\u003A\u0024offset",
+            "name": "offset",
+            "summary": "",
+            "url": "classes/Smr-Account.html#property_offset"
+        },                {
+            "fqsen": "\\Smr\\Account\u003A\u003A\u0024images",
+            "name": "images",
+            "summary": "",
+            "url": "classes/Smr-Account.html#property_images"
+        },                {
+            "fqsen": "\\Smr\\Account\u003A\u003A\u0024fontSize",
+            "name": "fontSize",
+            "summary": "",
+            "url": "classes/Smr-Account.html#property_fontSize"
+        },                {
+            "fqsen": "\\Smr\\Account\u003A\u003A\u0024passwordReset",
+            "name": "passwordReset",
+            "summary": "",
+            "url": "classes/Smr-Account.html#property_passwordReset"
+        },                {
+            "fqsen": "\\Smr\\Account\u003A\u003A\u0024points",
+            "name": "points",
+            "summary": "",
+            "url": "classes/Smr-Account.html#property_points"
+        },                {
+            "fqsen": "\\Smr\\Account\u003A\u003A\u0024useAJAX",
+            "name": "useAJAX",
+            "summary": "",
+            "url": "classes/Smr-Account.html#property_useAJAX"
+        },                {
+            "fqsen": "\\Smr\\Account\u003A\u003A\u0024mailBanned",
+            "name": "mailBanned",
+            "summary": "",
+            "url": "classes/Smr-Account.html#property_mailBanned"
+        },                {
+            "fqsen": "\\Smr\\Account\u003A\u003A\u0024HOF",
+            "name": "HOF",
+            "summary": "",
+            "url": "classes/Smr-Account.html#property_HOF"
+        },                {
+            "fqsen": "\\Smr\\Account\u003A\u003A\u0024individualScores",
+            "name": "individualScores",
+            "summary": "",
+            "url": "classes/Smr-Account.html#property_individualScores"
+        },                {
+            "fqsen": "\\Smr\\Account\u003A\u003A\u0024score",
+            "name": "score",
+            "summary": "",
+            "url": "classes/Smr-Account.html#property_score"
+        },                {
+            "fqsen": "\\Smr\\Account\u003A\u003A\u0024cssLink",
+            "name": "cssLink",
+            "summary": "",
+            "url": "classes/Smr-Account.html#property_cssLink"
+        },                {
+            "fqsen": "\\Smr\\Account\u003A\u003A\u0024defaultCSSEnabled",
+            "name": "defaultCSSEnabled",
+            "summary": "",
+            "url": "classes/Smr-Account.html#property_defaultCSSEnabled"
+        },                {
+            "fqsen": "\\Smr\\Account\u003A\u003A\u0024messageNotifications",
+            "name": "messageNotifications",
+            "summary": "",
+            "url": "classes/Smr-Account.html#property_messageNotifications"
+        },                {
+            "fqsen": "\\Smr\\Account\u003A\u003A\u0024centerGalaxyMapOnPlayer",
+            "name": "centerGalaxyMapOnPlayer",
+            "summary": "",
+            "url": "classes/Smr-Account.html#property_centerGalaxyMapOnPlayer"
+        },                {
+            "fqsen": "\\Smr\\Account\u003A\u003A\u0024oldAccountIDs",
+            "name": "oldAccountIDs",
+            "summary": "",
+            "url": "classes/Smr-Account.html#property_oldAccountIDs"
+        },                {
+            "fqsen": "\\Smr\\Account\u003A\u003A\u0024maxRankAchieved",
+            "name": "maxRankAchieved",
+            "summary": "",
+            "url": "classes/Smr-Account.html#property_maxRankAchieved"
+        },                {
+            "fqsen": "\\Smr\\Account\u003A\u003A\u0024referrerID",
+            "name": "referrerID",
+            "summary": "",
+            "url": "classes/Smr-Account.html#property_referrerID"
+        },                {
+            "fqsen": "\\Smr\\Account\u003A\u003A\u0024credits",
+            "name": "credits",
+            "summary": "",
+            "url": "classes/Smr-Account.html#property_credits"
+        },                {
+            "fqsen": "\\Smr\\Account\u003A\u003A\u0024rewardCredits",
+            "name": "rewardCredits",
+            "summary": "",
+            "url": "classes/Smr-Account.html#property_rewardCredits"
+        },                {
+            "fqsen": "\\Smr\\Account\u003A\u003A\u0024dateFormat",
+            "name": "dateFormat",
+            "summary": "",
+            "url": "classes/Smr-Account.html#property_dateFormat"
+        },                {
+            "fqsen": "\\Smr\\Account\u003A\u003A\u0024timeFormat",
+            "name": "timeFormat",
+            "summary": "",
+            "url": "classes/Smr-Account.html#property_timeFormat"
+        },                {
+            "fqsen": "\\Smr\\Account\u003A\u003A\u0024template",
+            "name": "template",
+            "summary": "",
+            "url": "classes/Smr-Account.html#property_template"
+        },                {
+            "fqsen": "\\Smr\\Account\u003A\u003A\u0024colourScheme",
+            "name": "colourScheme",
+            "summary": "",
+            "url": "classes/Smr-Account.html#property_colourScheme"
+        },                {
+            "fqsen": "\\Smr\\Account\u003A\u003A\u0024hotkeys",
+            "name": "hotkeys",
+            "summary": "",
+            "url": "classes/Smr-Account.html#property_hotkeys"
+        },                {
+            "fqsen": "\\Smr\\Account\u003A\u003A\u0024permissions",
+            "name": "permissions",
+            "summary": "",
+            "url": "classes/Smr-Account.html#property_permissions"
+        },                {
+            "fqsen": "\\Smr\\Account\u003A\u003A\u0024friendlyColour",
+            "name": "friendlyColour",
+            "summary": "",
+            "url": "classes/Smr-Account.html#property_friendlyColour"
+        },                {
+            "fqsen": "\\Smr\\Account\u003A\u003A\u0024neutralColour",
+            "name": "neutralColour",
+            "summary": "",
+            "url": "classes/Smr-Account.html#property_neutralColour"
+        },                {
+            "fqsen": "\\Smr\\Account\u003A\u003A\u0024enemyColour",
+            "name": "enemyColour",
+            "summary": "",
+            "url": "classes/Smr-Account.html#property_enemyColour"
+        },                {
+            "fqsen": "\\Smr\\Account\u003A\u003A\u0024npc",
+            "name": "npc",
+            "summary": "",
+            "url": "classes/Smr-Account.html#property_npc"
+        },                {
+            "fqsen": "\\Smr\\Account\u003A\u003A\u0024hasChanged",
+            "name": "hasChanged",
+            "summary": "",
+            "url": "classes/Smr-Account.html#property_hasChanged"
+        },                {
+            "fqsen": "\\Smr\\Account\u003A\u003A\u0024accountID",
+            "name": "accountID",
+            "summary": "",
+            "url": "classes/Smr-Account.html#property_accountID"
+        },                {
             "fqsen": "\\Smr\\Admin\\UniGenLocationCategories",
             "name": "UniGenLocationCategories",
             "summary": "Helper\u0020class\u0020for\u0020organizing\u0020Locations\u0020into\u0020categories.",
@@ -2590,6 +3450,131 @@ Search.appendIndex(
             "name": "PERMISSION_CATEGORIES",
             "summary": "",
             "url": "classes/Smr-AdminPermissions.html#constant_PERMISSION_CATEGORIES"
+        },                {
+            "fqsen": "\\Smr\\Album",
+            "name": "Album",
+            "summary": "",
+            "url": "classes/Smr-Album.html"
+        },                {
+            "fqsen": "\\Smr\\Album\u003A\u003AgetNextUnapproved\u0028\u0029",
+            "name": "getNextUnapproved",
+            "summary": "",
+            "url": "classes/Smr-Album.html#method_getNextUnapproved"
+        },                {
+            "fqsen": "\\Smr\\Album\u003A\u003AgetAllApproved\u0028\u0029",
+            "name": "getAllApproved",
+            "summary": "",
+            "url": "classes/Smr-Album.html#method_getAllApproved"
+        },                {
+            "fqsen": "\\Smr\\Album\u003A\u003AgetByHofName\u0028\u0029",
+            "name": "getByHofName",
+            "summary": "",
+            "url": "classes/Smr-Album.html#method_getByHofName"
+        },                {
+            "fqsen": "\\Smr\\Album\u003A\u003A__construct\u0028\u0029",
+            "name": "__construct",
+            "summary": "",
+            "url": "classes/Smr-Album.html#method___construct"
+        },                {
+            "fqsen": "\\Smr\\Album\u003A\u003AgetDisplayBirthdate\u0028\u0029",
+            "name": "getDisplayBirthdate",
+            "summary": "",
+            "url": "classes/Smr-Album.html#method_getDisplayBirthdate"
+        },                {
+            "fqsen": "\\Smr\\Album\u003A\u003AgetDisplayWebsite\u0028\u0029",
+            "name": "getDisplayWebsite",
+            "summary": "",
+            "url": "classes/Smr-Album.html#method_getDisplayWebsite"
+        },                {
+            "fqsen": "\\Smr\\Album\u003A\u003AgetDisplayOtherInfo\u0028\u0029",
+            "name": "getDisplayOtherInfo",
+            "summary": "",
+            "url": "classes/Smr-Album.html#method_getDisplayOtherInfo"
+        },                {
+            "fqsen": "\\Smr\\Album\u003A\u003AgetDisplayLocation\u0028\u0029",
+            "name": "getDisplayLocation",
+            "summary": "",
+            "url": "classes/Smr-Album.html#method_getDisplayLocation"
+        },                {
+            "fqsen": "\\Smr\\Album\u003A\u003AgetDisplayEmail\u0028\u0029",
+            "name": "getDisplayEmail",
+            "summary": "",
+            "url": "classes/Smr-Album.html#method_getDisplayEmail"
+        },                {
+            "fqsen": "\\Smr\\Album\u003A\u003AgetImageSrc\u0028\u0029",
+            "name": "getImageSrc",
+            "summary": "",
+            "url": "classes/Smr-Album.html#method_getImageSrc"
+        },                {
+            "fqsen": "\\Smr\\Album\u003A\u003AgetComments\u0028\u0029",
+            "name": "getComments",
+            "summary": "Returns\u0020all\u0020comments\u0020on\u0020this\u0020album\u0020entry\u0020in\u0020HTML\u002Dsafe\u0020format.",
+            "url": "classes/Smr-Album.html#method_getComments"
+        },                {
+            "fqsen": "\\Smr\\Album\u003A\u003A\u0024location",
+            "name": "location",
+            "summary": "",
+            "url": "classes/Smr-Album.html#property_location"
+        },                {
+            "fqsen": "\\Smr\\Album\u003A\u003A\u0024email",
+            "name": "email",
+            "summary": "",
+            "url": "classes/Smr-Album.html#property_email"
+        },                {
+            "fqsen": "\\Smr\\Album\u003A\u003A\u0024website",
+            "name": "website",
+            "summary": "",
+            "url": "classes/Smr-Album.html#property_website"
+        },                {
+            "fqsen": "\\Smr\\Album\u003A\u003A\u0024birthDay",
+            "name": "birthDay",
+            "summary": "",
+            "url": "classes/Smr-Album.html#property_birthDay"
+        },                {
+            "fqsen": "\\Smr\\Album\u003A\u003A\u0024birthMonth",
+            "name": "birthMonth",
+            "summary": "",
+            "url": "classes/Smr-Album.html#property_birthMonth"
+        },                {
+            "fqsen": "\\Smr\\Album\u003A\u003A\u0024birthYear",
+            "name": "birthYear",
+            "summary": "",
+            "url": "classes/Smr-Album.html#property_birthYear"
+        },                {
+            "fqsen": "\\Smr\\Album\u003A\u003A\u0024otherInfo",
+            "name": "otherInfo",
+            "summary": "",
+            "url": "classes/Smr-Album.html#property_otherInfo"
+        },                {
+            "fqsen": "\\Smr\\Album\u003A\u003A\u0024created",
+            "name": "created",
+            "summary": "",
+            "url": "classes/Smr-Album.html#property_created"
+        },                {
+            "fqsen": "\\Smr\\Album\u003A\u003A\u0024lastChanged",
+            "name": "lastChanged",
+            "summary": "",
+            "url": "classes/Smr-Album.html#property_lastChanged"
+        },                {
+            "fqsen": "\\Smr\\Album\u003A\u003A\u0024isPictureDisabled",
+            "name": "isPictureDisabled",
+            "summary": "",
+            "url": "classes/Smr-Album.html#property_isPictureDisabled"
+        },                {
+            "fqsen": "\\Smr\\Album\u003A\u003A\u0024approved",
+            "name": "approved",
+            "summary": "",
+            "url": "classes/Smr-Album.html#property_approved"
+        },                {
+            "fqsen": "\\Smr\\Album\u003A\u003A\u0024pageViews",
+            "name": "pageViews",
+            "summary": "",
+            "url": "classes/Smr-Album.html#property_pageViews"
+        },                {
+            "fqsen": "\\Smr\\Album\u003A\u003A\u0024accountID",
+            "name": "accountID",
+            "summary": "",
+            "url": "classes/Smr-Album.html#property_accountID"
         },                {
             "fqsen": "\\Smr\\Alliance",
             "name": "Alliance",
@@ -3279,22 +4264,22 @@ Search.appendIndex(
             "fqsen": "\\Smr\\Blackjack\\Result\u003A\u003AWin",
             "name": "Win",
             "summary": "",
-            "url": ""
+            "url": "classes/Smr-Blackjack-Result.html#enumcase_Win"
         },                {
             "fqsen": "\\Smr\\Blackjack\\Result\u003A\u003ABlackjack",
             "name": "Blackjack",
             "summary": "",
-            "url": ""
+            "url": "classes/Smr-Blackjack-Result.html#enumcase_Blackjack"
         },                {
             "fqsen": "\\Smr\\Blackjack\\Result\u003A\u003ATie",
             "name": "Tie",
             "summary": "",
-            "url": ""
+            "url": "classes/Smr-Blackjack-Result.html#enumcase_Tie"
         },                {
             "fqsen": "\\Smr\\Blackjack\\Result\u003A\u003ALose",
             "name": "Lose",
             "summary": "",
-            "url": ""
+            "url": "classes/Smr-Blackjack-Result.html#enumcase_Lose"
         },                {
             "fqsen": "\\Smr\\Blackjack\\Table",
             "name": "Table",
@@ -3489,12 +4474,12 @@ Search.appendIndex(
             "fqsen": "\\Smr\\BountyType\u003A\u003AHQ",
             "name": "HQ",
             "summary": "",
-            "url": ""
+            "url": "classes/Smr-BountyType.html#enumcase_HQ"
         },                {
             "fqsen": "\\Smr\\BountyType\u003A\u003AUG",
             "name": "UG",
             "summary": "",
-            "url": ""
+            "url": "classes/Smr-BountyType.html#enumcase_UG"
         },                {
             "fqsen": "\\Smr\\BuyerRestriction",
             "name": "BuyerRestriction",
@@ -3514,32 +4499,32 @@ Search.appendIndex(
             "fqsen": "\\Smr\\BuyerRestriction\u003A\u003ANone",
             "name": "None",
             "summary": "",
-            "url": ""
+            "url": "classes/Smr-BuyerRestriction.html#enumcase_None"
         },                {
             "fqsen": "\\Smr\\BuyerRestriction\u003A\u003AGood",
             "name": "Good",
             "summary": "",
-            "url": ""
+            "url": "classes/Smr-BuyerRestriction.html#enumcase_Good"
         },                {
             "fqsen": "\\Smr\\BuyerRestriction\u003A\u003AEvil",
             "name": "Evil",
             "summary": "",
-            "url": ""
+            "url": "classes/Smr-BuyerRestriction.html#enumcase_Evil"
         },                {
             "fqsen": "\\Smr\\BuyerRestriction\u003A\u003ANewbie",
             "name": "Newbie",
             "summary": "",
-            "url": ""
+            "url": "classes/Smr-BuyerRestriction.html#enumcase_Newbie"
         },                {
             "fqsen": "\\Smr\\BuyerRestriction\u003A\u003APort",
             "name": "Port",
             "summary": "",
-            "url": ""
+            "url": "classes/Smr-BuyerRestriction.html#enumcase_Port"
         },                {
             "fqsen": "\\Smr\\BuyerRestriction\u003A\u003APlanet",
             "name": "Planet",
             "summary": "",
-            "url": ""
+            "url": "classes/Smr-BuyerRestriction.html#enumcase_Planet"
         },                {
             "fqsen": "\\Smr\\Changelog",
             "name": "Changelog",
@@ -3674,12 +4659,287 @@ Search.appendIndex(
             "fqsen": "\\Smr\\Chess\\Castling\u003A\u003AKingside",
             "name": "Kingside",
             "summary": "",
-            "url": ""
+            "url": "classes/Smr-Chess-Castling.html#enumcase_Kingside"
         },                {
             "fqsen": "\\Smr\\Chess\\Castling\u003A\u003AQueenside",
             "name": "Queenside",
             "summary": "",
-            "url": ""
+            "url": "classes/Smr-Chess-Castling.html#enumcase_Queenside"
+        },                {
+            "fqsen": "\\Smr\\Chess\\ChessGame",
+            "name": "ChessGame",
+            "summary": "",
+            "url": "classes/Smr-Chess-ChessGame.html"
+        },                {
+            "fqsen": "\\Smr\\Chess\\ChessGame\u003A\u003AgetNPCMoveGames\u0028\u0029",
+            "name": "getNPCMoveGames",
+            "summary": "",
+            "url": "classes/Smr-Chess-ChessGame.html#method_getNPCMoveGames"
+        },                {
+            "fqsen": "\\Smr\\Chess\\ChessGame\u003A\u003AgetOngoingPlayerGames\u0028\u0029",
+            "name": "getOngoingPlayerGames",
+            "summary": "",
+            "url": "classes/Smr-Chess-ChessGame.html#method_getOngoingPlayerGames"
+        },                {
+            "fqsen": "\\Smr\\Chess\\ChessGame\u003A\u003AgetChessGame\u0028\u0029",
+            "name": "getChessGame",
+            "summary": "",
+            "url": "classes/Smr-Chess-ChessGame.html#method_getChessGame"
+        },                {
+            "fqsen": "\\Smr\\Chess\\ChessGame\u003A\u003A__construct\u0028\u0029",
+            "name": "__construct",
+            "summary": "",
+            "url": "classes/Smr-Chess-ChessGame.html#method___construct"
+        },                {
+            "fqsen": "\\Smr\\Chess\\ChessGame\u003A\u003AgetBoard\u0028\u0029",
+            "name": "getBoard",
+            "summary": "",
+            "url": "classes/Smr-Chess-ChessGame.html#method_getBoard"
+        },                {
+            "fqsen": "\\Smr\\Chess\\ChessGame\u003A\u003AgetLastMove\u0028\u0029",
+            "name": "getLastMove",
+            "summary": "",
+            "url": "classes/Smr-Chess-ChessGame.html#method_getLastMove"
+        },                {
+            "fqsen": "\\Smr\\Chess\\ChessGame\u003A\u003AisLastMoveSquare\u0028\u0029",
+            "name": "isLastMoveSquare",
+            "summary": "Determines\u0020if\u0020a\u0020board\u0020square\u0020is\u0020part\u0020of\u0020the\u0020last\u0020move\n\u0028returns\u0020true\u0020for\u0020both\u0020the\u0020\u0027To\u0027\u0020and\u0020\u0027From\u0027\u0020squares\u0029.",
+            "url": "classes/Smr-Chess-ChessGame.html#method_isLastMoveSquare"
+        },                {
+            "fqsen": "\\Smr\\Chess\\ChessGame\u003A\u003AgetMoves\u0028\u0029",
+            "name": "getMoves",
+            "summary": "",
+            "url": "classes/Smr-Chess-ChessGame.html#method_getMoves"
+        },                {
+            "fqsen": "\\Smr\\Chess\\ChessGame\u003A\u003AgetStandardGame\u0028\u0029",
+            "name": "getStandardGame",
+            "summary": "",
+            "url": "classes/Smr-Chess-ChessGame.html#method_getStandardGame"
+        },                {
+            "fqsen": "\\Smr\\Chess\\ChessGame\u003A\u003AinsertNewGame\u0028\u0029",
+            "name": "insertNewGame",
+            "summary": "",
+            "url": "classes/Smr-Chess-ChessGame.html#method_insertNewGame"
+        },                {
+            "fqsen": "\\Smr\\Chess\\ChessGame\u003A\u003AcreateMove\u0028\u0029",
+            "name": "createMove",
+            "summary": "",
+            "url": "classes/Smr-Chess-ChessGame.html#method_createMove"
+        },                {
+            "fqsen": "\\Smr\\Chess\\ChessGame\u003A\u003AisCheckmated\u0028\u0029",
+            "name": "isCheckmated",
+            "summary": "",
+            "url": "classes/Smr-Chess-ChessGame.html#method_isCheckmated"
+        },                {
+            "fqsen": "\\Smr\\Chess\\ChessGame\u003A\u003AisCastling\u0028\u0029",
+            "name": "isCastling",
+            "summary": "",
+            "url": "classes/Smr-Chess-ChessGame.html#method_isCastling"
+        },                {
+            "fqsen": "\\Smr\\Chess\\ChessGame\u003A\u003AtryAlgebraicMove\u0028\u0029",
+            "name": "tryAlgebraicMove",
+            "summary": "",
+            "url": "classes/Smr-Chess-ChessGame.html#method_tryAlgebraicMove"
+        },                {
+            "fqsen": "\\Smr\\Chess\\ChessGame\u003A\u003AtryMove\u0028\u0029",
+            "name": "tryMove",
+            "summary": "",
+            "url": "classes/Smr-Chess-ChessGame.html#method_tryMove"
+        },                {
+            "fqsen": "\\Smr\\Chess\\ChessGame\u003A\u003AgetChessGameID\u0028\u0029",
+            "name": "getChessGameID",
+            "summary": "",
+            "url": "classes/Smr-Chess-ChessGame.html#method_getChessGameID"
+        },                {
+            "fqsen": "\\Smr\\Chess\\ChessGame\u003A\u003AgetStartDate\u0028\u0029",
+            "name": "getStartDate",
+            "summary": "",
+            "url": "classes/Smr-Chess-ChessGame.html#method_getStartDate"
+        },                {
+            "fqsen": "\\Smr\\Chess\\ChessGame\u003A\u003AgetGameID\u0028\u0029",
+            "name": "getGameID",
+            "summary": "",
+            "url": "classes/Smr-Chess-ChessGame.html#method_getGameID"
+        },                {
+            "fqsen": "\\Smr\\Chess\\ChessGame\u003A\u003AgetWhitePlayer\u0028\u0029",
+            "name": "getWhitePlayer",
+            "summary": "",
+            "url": "classes/Smr-Chess-ChessGame.html#method_getWhitePlayer"
+        },                {
+            "fqsen": "\\Smr\\Chess\\ChessGame\u003A\u003AgetWhiteID\u0028\u0029",
+            "name": "getWhiteID",
+            "summary": "",
+            "url": "classes/Smr-Chess-ChessGame.html#method_getWhiteID"
+        },                {
+            "fqsen": "\\Smr\\Chess\\ChessGame\u003A\u003AgetBlackPlayer\u0028\u0029",
+            "name": "getBlackPlayer",
+            "summary": "",
+            "url": "classes/Smr-Chess-ChessGame.html#method_getBlackPlayer"
+        },                {
+            "fqsen": "\\Smr\\Chess\\ChessGame\u003A\u003AgetBlackID\u0028\u0029",
+            "name": "getBlackID",
+            "summary": "",
+            "url": "classes/Smr-Chess-ChessGame.html#method_getBlackID"
+        },                {
+            "fqsen": "\\Smr\\Chess\\ChessGame\u003A\u003AgetColourID\u0028\u0029",
+            "name": "getColourID",
+            "summary": "",
+            "url": "classes/Smr-Chess-ChessGame.html#method_getColourID"
+        },                {
+            "fqsen": "\\Smr\\Chess\\ChessGame\u003A\u003AgetColourPlayer\u0028\u0029",
+            "name": "getColourPlayer",
+            "summary": "",
+            "url": "classes/Smr-Chess-ChessGame.html#method_getColourPlayer"
+        },                {
+            "fqsen": "\\Smr\\Chess\\ChessGame\u003A\u003AgetColourForAccountID\u0028\u0029",
+            "name": "getColourForAccountID",
+            "summary": "",
+            "url": "classes/Smr-Chess-ChessGame.html#method_getColourForAccountID"
+        },                {
+            "fqsen": "\\Smr\\Chess\\ChessGame\u003A\u003AisPlayer\u0028\u0029",
+            "name": "isPlayer",
+            "summary": "Is\u0020the\u0020given\u0020account\u0020ID\u0020one\u0020of\u0020the\u0020two\u0020players\u0020of\u0020this\u0020game\u003F",
+            "url": "classes/Smr-Chess-ChessGame.html#method_isPlayer"
+        },                {
+            "fqsen": "\\Smr\\Chess\\ChessGame\u003A\u003AhasEnded\u0028\u0029",
+            "name": "hasEnded",
+            "summary": "",
+            "url": "classes/Smr-Chess-ChessGame.html#method_hasEnded"
+        },                {
+            "fqsen": "\\Smr\\Chess\\ChessGame\u003A\u003AhasWinner\u0028\u0029",
+            "name": "hasWinner",
+            "summary": "",
+            "url": "classes/Smr-Chess-ChessGame.html#method_hasWinner"
+        },                {
+            "fqsen": "\\Smr\\Chess\\ChessGame\u003A\u003AgetWinner\u0028\u0029",
+            "name": "getWinner",
+            "summary": "",
+            "url": "classes/Smr-Chess-ChessGame.html#method_getWinner"
+        },                {
+            "fqsen": "\\Smr\\Chess\\ChessGame\u003A\u003AsetWinner\u0028\u0029",
+            "name": "setWinner",
+            "summary": "",
+            "url": "classes/Smr-Chess-ChessGame.html#method_setWinner"
+        },                {
+            "fqsen": "\\Smr\\Chess\\ChessGame\u003A\u003AgetCurrentTurnColour\u0028\u0029",
+            "name": "getCurrentTurnColour",
+            "summary": "",
+            "url": "classes/Smr-Chess-ChessGame.html#method_getCurrentTurnColour"
+        },                {
+            "fqsen": "\\Smr\\Chess\\ChessGame\u003A\u003AgetCurrentTurnAccountID\u0028\u0029",
+            "name": "getCurrentTurnAccountID",
+            "summary": "",
+            "url": "classes/Smr-Chess-ChessGame.html#method_getCurrentTurnAccountID"
+        },                {
+            "fqsen": "\\Smr\\Chess\\ChessGame\u003A\u003AgetCurrentTurnPlayer\u0028\u0029",
+            "name": "getCurrentTurnPlayer",
+            "summary": "",
+            "url": "classes/Smr-Chess-ChessGame.html#method_getCurrentTurnPlayer"
+        },                {
+            "fqsen": "\\Smr\\Chess\\ChessGame\u003A\u003AgetCurrentTurnAccount\u0028\u0029",
+            "name": "getCurrentTurnAccount",
+            "summary": "",
+            "url": "classes/Smr-Chess-ChessGame.html#method_getCurrentTurnAccount"
+        },                {
+            "fqsen": "\\Smr\\Chess\\ChessGame\u003A\u003AgetWhiteAccount\u0028\u0029",
+            "name": "getWhiteAccount",
+            "summary": "",
+            "url": "classes/Smr-Chess-ChessGame.html#method_getWhiteAccount"
+        },                {
+            "fqsen": "\\Smr\\Chess\\ChessGame\u003A\u003AgetBlackAccount\u0028\u0029",
+            "name": "getBlackAccount",
+            "summary": "",
+            "url": "classes/Smr-Chess-ChessGame.html#method_getBlackAccount"
+        },                {
+            "fqsen": "\\Smr\\Chess\\ChessGame\u003A\u003AisCurrentTurn\u0028\u0029",
+            "name": "isCurrentTurn",
+            "summary": "",
+            "url": "classes/Smr-Chess-ChessGame.html#method_isCurrentTurn"
+        },                {
+            "fqsen": "\\Smr\\Chess\\ChessGame\u003A\u003AisNPCGame\u0028\u0029",
+            "name": "isNPCGame",
+            "summary": "",
+            "url": "classes/Smr-Chess-ChessGame.html#method_isNPCGame"
+        },                {
+            "fqsen": "\\Smr\\Chess\\ChessGame\u003A\u003Aresign\u0028\u0029",
+            "name": "resign",
+            "summary": "",
+            "url": "classes/Smr-Chess-ChessGame.html#method_resign"
+        },                {
+            "fqsen": "\\Smr\\Chess\\ChessGame\u003A\u003AgetPlayGameHREF\u0028\u0029",
+            "name": "getPlayGameHREF",
+            "summary": "",
+            "url": "classes/Smr-Chess-ChessGame.html#method_getPlayGameHREF"
+        },                {
+            "fqsen": "\\Smr\\Chess\\ChessGame\u003A\u003AgetResignHREF\u0028\u0029",
+            "name": "getResignHREF",
+            "summary": "",
+            "url": "classes/Smr-Chess-ChessGame.html#method_getResignHREF"
+        },                {
+            "fqsen": "\\Smr\\Chess\\ChessGame\u003A\u003AEND_RESIGN",
+            "name": "END_RESIGN",
+            "summary": "",
+            "url": "classes/Smr-Chess-ChessGame.html#constant_END_RESIGN"
+        },                {
+            "fqsen": "\\Smr\\Chess\\ChessGame\u003A\u003AEND_CANCEL",
+            "name": "END_CANCEL",
+            "summary": "",
+            "url": "classes/Smr-Chess-ChessGame.html#constant_END_CANCEL"
+        },                {
+            "fqsen": "\\Smr\\Chess\\ChessGame\u003A\u003A\u0024CACHE_CHESS_GAMES",
+            "name": "CACHE_CHESS_GAMES",
+            "summary": "",
+            "url": "classes/Smr-Chess-ChessGame.html#property_CACHE_CHESS_GAMES"
+        },                {
+            "fqsen": "\\Smr\\Chess\\ChessGame\u003A\u003A\u0024whiteID",
+            "name": "whiteID",
+            "summary": "",
+            "url": "classes/Smr-Chess-ChessGame.html#property_whiteID"
+        },                {
+            "fqsen": "\\Smr\\Chess\\ChessGame\u003A\u003A\u0024blackID",
+            "name": "blackID",
+            "summary": "",
+            "url": "classes/Smr-Chess-ChessGame.html#property_blackID"
+        },                {
+            "fqsen": "\\Smr\\Chess\\ChessGame\u003A\u003A\u0024gameID",
+            "name": "gameID",
+            "summary": "",
+            "url": "classes/Smr-Chess-ChessGame.html#property_gameID"
+        },                {
+            "fqsen": "\\Smr\\Chess\\ChessGame\u003A\u003A\u0024startDate",
+            "name": "startDate",
+            "summary": "",
+            "url": "classes/Smr-Chess-ChessGame.html#property_startDate"
+        },                {
+            "fqsen": "\\Smr\\Chess\\ChessGame\u003A\u003A\u0024endDate",
+            "name": "endDate",
+            "summary": "",
+            "url": "classes/Smr-Chess-ChessGame.html#property_endDate"
+        },                {
+            "fqsen": "\\Smr\\Chess\\ChessGame\u003A\u003A\u0024winner",
+            "name": "winner",
+            "summary": "",
+            "url": "classes/Smr-Chess-ChessGame.html#property_winner"
+        },                {
+            "fqsen": "\\Smr\\Chess\\ChessGame\u003A\u003A\u0024board",
+            "name": "board",
+            "summary": "",
+            "url": "classes/Smr-Chess-ChessGame.html#property_board"
+        },                {
+            "fqsen": "\\Smr\\Chess\\ChessGame\u003A\u003A\u0024moves",
+            "name": "moves",
+            "summary": "",
+            "url": "classes/Smr-Chess-ChessGame.html#property_moves"
+        },                {
+            "fqsen": "\\Smr\\Chess\\ChessGame\u003A\u003A\u0024lastMove",
+            "name": "lastMove",
+            "summary": "",
+            "url": "classes/Smr-Chess-ChessGame.html#property_lastMove"
+        },                {
+            "fqsen": "\\Smr\\Chess\\ChessGame\u003A\u003A\u0024chessGameID",
+            "name": "chessGameID",
+            "summary": "",
+            "url": "classes/Smr-Chess-ChessGame.html#property_chessGameID"
         },                {
             "fqsen": "\\Smr\\Chess\\ChessPiece",
             "name": "ChessPiece",
@@ -3799,12 +5059,12 @@ Search.appendIndex(
             "fqsen": "\\Smr\\Chess\\Colour\u003A\u003AWhite",
             "name": "White",
             "summary": "",
-            "url": ""
+            "url": "classes/Smr-Chess-Colour.html#enumcase_White"
         },                {
             "fqsen": "\\Smr\\Chess\\Colour\u003A\u003ABlack",
             "name": "Black",
             "summary": "",
-            "url": ""
+            "url": "classes/Smr-Chess-Colour.html#enumcase_Black"
         },                {
             "fqsen": "\\Smr\\Combat\\Weapon\\AbstractWeapon",
             "name": "AbstractWeapon",
@@ -4609,32 +5869,32 @@ Search.appendIndex(
             "fqsen": "\\Smr\\CombatLogType\u003A\u003APersonal",
             "name": "Personal",
             "summary": "",
-            "url": ""
+            "url": "classes/Smr-CombatLogType.html#enumcase_Personal"
         },                {
             "fqsen": "\\Smr\\CombatLogType\u003A\u003AAlliance",
             "name": "Alliance",
             "summary": "",
-            "url": ""
+            "url": "classes/Smr-CombatLogType.html#enumcase_Alliance"
         },                {
             "fqsen": "\\Smr\\CombatLogType\u003A\u003AForce",
             "name": "Force",
             "summary": "",
-            "url": ""
+            "url": "classes/Smr-CombatLogType.html#enumcase_Force"
         },                {
             "fqsen": "\\Smr\\CombatLogType\u003A\u003APort",
             "name": "Port",
             "summary": "",
-            "url": ""
+            "url": "classes/Smr-CombatLogType.html#enumcase_Port"
         },                {
             "fqsen": "\\Smr\\CombatLogType\u003A\u003APlanet",
             "name": "Planet",
             "summary": "",
-            "url": ""
+            "url": "classes/Smr-CombatLogType.html#enumcase_Planet"
         },                {
             "fqsen": "\\Smr\\CombatLogType\u003A\u003ASaved",
             "name": "Saved",
             "summary": "",
-            "url": ""
+            "url": "classes/Smr-CombatLogType.html#enumcase_Saved"
         },                {
             "fqsen": "\\Smr\\Container\\DiContainer",
             "name": "DiContainer",
@@ -7639,17 +8899,17 @@ Search.appendIndex(
             "fqsen": "\\Smr\\MovementType\u003A\u003AWalk",
             "name": "Walk",
             "summary": "",
-            "url": ""
+            "url": "classes/Smr-MovementType.html#enumcase_Walk"
         },                {
             "fqsen": "\\Smr\\MovementType\u003A\u003AJump",
             "name": "Jump",
             "summary": "",
-            "url": ""
+            "url": "classes/Smr-MovementType.html#enumcase_Jump"
         },                {
             "fqsen": "\\Smr\\MovementType\u003A\u003AWarp",
             "name": "Warp",
             "summary": "",
-            "url": ""
+            "url": "classes/Smr-MovementType.html#enumcase_Warp"
         },                {
             "fqsen": "\\Smr\\News",
             "name": "News",
@@ -8694,32 +9954,32 @@ Search.appendIndex(
             "fqsen": "\\Smr\\PlanetMenuOption\u003A\u003AMAIN",
             "name": "MAIN",
             "summary": "",
-            "url": ""
+            "url": "classes/Smr-PlanetMenuOption.html#enumcase_MAIN"
         },                {
             "fqsen": "\\Smr\\PlanetMenuOption\u003A\u003ACONSTRUCTION",
             "name": "CONSTRUCTION",
             "summary": "",
-            "url": ""
+            "url": "classes/Smr-PlanetMenuOption.html#enumcase_CONSTRUCTION"
         },                {
             "fqsen": "\\Smr\\PlanetMenuOption\u003A\u003ADEFENSE",
             "name": "DEFENSE",
             "summary": "",
-            "url": ""
+            "url": "classes/Smr-PlanetMenuOption.html#enumcase_DEFENSE"
         },                {
             "fqsen": "\\Smr\\PlanetMenuOption\u003A\u003AOWNERSHIP",
             "name": "OWNERSHIP",
             "summary": "",
-            "url": ""
+            "url": "classes/Smr-PlanetMenuOption.html#enumcase_OWNERSHIP"
         },                {
             "fqsen": "\\Smr\\PlanetMenuOption\u003A\u003ASTOCKPILE",
             "name": "STOCKPILE",
             "summary": "",
-            "url": ""
+            "url": "classes/Smr-PlanetMenuOption.html#enumcase_STOCKPILE"
         },                {
             "fqsen": "\\Smr\\PlanetMenuOption\u003A\u003AFINANCE",
             "name": "FINANCE",
             "summary": "",
-            "url": ""
+            "url": "classes/Smr-PlanetMenuOption.html#enumcase_FINANCE"
         },                {
             "fqsen": "\\Smr\\PlanetStructureType",
             "name": "PlanetStructureType",
@@ -9164,37 +10424,37 @@ Search.appendIndex(
             "fqsen": "\\Smr\\PlotGroup\u003A\u003ATechnology",
             "name": "Technology",
             "summary": "",
-            "url": ""
+            "url": "classes/Smr-PlotGroup.html#enumcase_Technology"
         },                {
             "fqsen": "\\Smr\\PlotGroup\u003A\u003AShips",
             "name": "Ships",
             "summary": "",
-            "url": ""
+            "url": "classes/Smr-PlotGroup.html#enumcase_Ships"
         },                {
             "fqsen": "\\Smr\\PlotGroup\u003A\u003AWeapons",
             "name": "Weapons",
             "summary": "",
-            "url": ""
+            "url": "classes/Smr-PlotGroup.html#enumcase_Weapons"
         },                {
             "fqsen": "\\Smr\\PlotGroup\u003A\u003ALocations",
             "name": "Locations",
             "summary": "",
-            "url": ""
+            "url": "classes/Smr-PlotGroup.html#enumcase_Locations"
         },                {
             "fqsen": "\\Smr\\PlotGroup\u003A\u003ASellGoods",
             "name": "SellGoods",
             "summary": "",
-            "url": ""
+            "url": "classes/Smr-PlotGroup.html#enumcase_SellGoods"
         },                {
             "fqsen": "\\Smr\\PlotGroup\u003A\u003ABuyGoods",
             "name": "BuyGoods",
             "summary": "",
-            "url": ""
+            "url": "classes/Smr-PlotGroup.html#enumcase_BuyGoods"
         },                {
             "fqsen": "\\Smr\\PlotGroup\u003A\u003AGalaxies",
             "name": "Galaxies",
             "summary": "",
-            "url": ""
+            "url": "classes/Smr-PlotGroup.html#enumcase_Galaxies"
         },                {
             "fqsen": "\\Smr\\Plotter",
             "name": "Plotter",
@@ -10084,12 +11344,12 @@ Search.appendIndex(
             "fqsen": "\\Smr\\PortPayoutType\u003A\u003ALoot",
             "name": "Loot",
             "summary": "",
-            "url": ""
+            "url": "classes/Smr-PortPayoutType.html#enumcase_Loot"
         },                {
             "fqsen": "\\Smr\\PortPayoutType\u003A\u003ARaze",
             "name": "Raze",
             "summary": "",
-            "url": ""
+            "url": "classes/Smr-PortPayoutType.html#enumcase_Raze"
         },                {
             "fqsen": "\\Smr\\Race",
             "name": "Race",
@@ -10225,6 +11485,66 @@ Search.appendIndex(
             "name": "calculateMinMaxRanks",
             "summary": "",
             "url": "classes/Smr-Rankings.html#method_calculateMinMaxRanks"
+        },                {
+            "fqsen": "\\Smr\\Request",
+            "name": "Request",
+            "summary": "Should\u0020be\u0020used\u0020for\u0020getting\u0020request\u0020data\u0020for\u0020processing\u0020pages.",
+            "url": "classes/Smr-Request.html"
+        },                {
+            "fqsen": "\\Smr\\Request\u003A\u003Ahas\u0028\u0029",
+            "name": "has",
+            "summary": "Returns\u0020true\u0020if\u0020index\u0020is\u0020set.",
+            "url": "classes/Smr-Request.html#method_has"
+        },                {
+            "fqsen": "\\Smr\\Request\u003A\u003AgetBool\u0028\u0029",
+            "name": "getBool",
+            "summary": "Returns\u0020index\u0020value\u0020as\u0020a\u0020boolean\u0020for\u0020boolean\u002Dlike\u0020inputs.",
+            "url": "classes/Smr-Request.html#method_getBool"
+        },                {
+            "fqsen": "\\Smr\\Request\u003A\u003AgetInt\u0028\u0029",
+            "name": "getInt",
+            "summary": "Returns\u0020index\u0020value\u0020as\u0020an\u0020integer.",
+            "url": "classes/Smr-Request.html#method_getInt"
+        },                {
+            "fqsen": "\\Smr\\Request\u003A\u003AgetFloat\u0028\u0029",
+            "name": "getFloat",
+            "summary": "Returns\u0020index\u0020value\u0020as\u0020a\u0020float.",
+            "url": "classes/Smr-Request.html#method_getFloat"
+        },                {
+            "fqsen": "\\Smr\\Request\u003A\u003AgetArray\u0028\u0029",
+            "name": "getArray",
+            "summary": "Returns\u0020index\u0020value\u0020as\u0020an\u0020array\u0020of\u0020strings\u0020with\u0020integer\u0020keys.",
+            "url": "classes/Smr-Request.html#method_getArray"
+        },                {
+            "fqsen": "\\Smr\\Request\u003A\u003AgetIntArray\u0028\u0029",
+            "name": "getIntArray",
+            "summary": "Returns\u0020index\u0020value\u0020as\u0020an\u0020array\u0020of\u0020integers\u0020with\u0020integer\u0020keys.",
+            "url": "classes/Smr-Request.html#method_getIntArray"
+        },                {
+            "fqsen": "\\Smr\\Request\u003A\u003Aget\u0028\u0029",
+            "name": "get",
+            "summary": "Returns\u0020index\u0020value\u0020as\u0020a\u0020\u0028trimmed\u0029\u0020string.",
+            "url": "classes/Smr-Request.html#method_get"
+        },                {
+            "fqsen": "\\Smr\\Request\u003A\u003AgetVar\u0028\u0029",
+            "name": "getVar",
+            "summary": "Returns\u0020index\u0020value\u0020as\u0020a\u0020string\u0020from\u0020either\u0020\u0024_REQUEST\u0020or\u0020\u0024var.",
+            "url": "classes/Smr-Request.html#method_getVar"
+        },                {
+            "fqsen": "\\Smr\\Request\u003A\u003AgetVarInt\u0028\u0029",
+            "name": "getVarInt",
+            "summary": "Like\u0020getVar,\u0020but\u0020returns\u0020an\u0020int\u0020instead\u0020of\u0020a\u0020string.",
+            "url": "classes/Smr-Request.html#method_getVarInt"
+        },                {
+            "fqsen": "\\Smr\\Request\u003A\u003AgetVarIntArray\u0028\u0029",
+            "name": "getVarIntArray",
+            "summary": "Like\u0020getVar,\u0020but\u0020returns\u0020an\u0020array\u0020of\u0020ints\u0020instead\u0020of\u0020a\u0020string.",
+            "url": "classes/Smr-Request.html#method_getVarIntArray"
+        },                {
+            "fqsen": "\\Smr\\Request\u003A\u003AgetVarX\u0028\u0029",
+            "name": "getVarX",
+            "summary": "Helper\u0020function\u0020to\u0020avoid\u0020code\u0020duplication\u0020in\u0020getVar\u002A\u0020functions.",
+            "url": "classes/Smr-Request.html#method_getVarX"
         },                {
             "fqsen": "\\Smr\\Routes\\MultiplePortRoute",
             "name": "MultiplePortRoute",
@@ -10599,17 +11919,17 @@ Search.appendIndex(
             "fqsen": "\\Smr\\ScoutMessageGroupType\u003A\u003AAlways",
             "name": "Always",
             "summary": "",
-            "url": ""
+            "url": "classes/Smr-ScoutMessageGroupType.html#enumcase_Always"
         },                {
             "fqsen": "\\Smr\\ScoutMessageGroupType\u003A\u003AAuto",
             "name": "Auto",
             "summary": "",
-            "url": ""
+            "url": "classes/Smr-ScoutMessageGroupType.html#enumcase_Auto"
         },                {
             "fqsen": "\\Smr\\ScoutMessageGroupType\u003A\u003ANever",
             "name": "Never",
             "summary": "",
-            "url": ""
+            "url": "classes/Smr-ScoutMessageGroupType.html#enumcase_Never"
         },                {
             "fqsen": "\\Smr\\Sector",
             "name": "Sector",
@@ -11301,6 +12621,226 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/Smr-SectorsFile.html#method_create"
         },                {
+            "fqsen": "\\Smr\\Session",
+            "name": "Session",
+            "summary": "",
+            "url": "classes/Smr-Session.html"
+        },                {
+            "fqsen": "\\Smr\\Session\u003A\u003AgetInstance\u0028\u0029",
+            "name": "getInstance",
+            "summary": "Return\u0020the\u0020Smr\\Session\u0020in\u0020the\u0020DI\u0020container.",
+            "url": "classes/Smr-Session.html#method_getInstance"
+        },                {
+            "fqsen": "\\Smr\\Session\u003A\u003A__construct\u0028\u0029",
+            "name": "__construct",
+            "summary": "Smr\\Session\u0020constructor.",
+            "url": "classes/Smr-Session.html#method___construct"
+        },                {
+            "fqsen": "\\Smr\\Session\u003A\u003AfetchVarInfo\u0028\u0029",
+            "name": "fetchVarInfo",
+            "summary": "",
+            "url": "classes/Smr-Session.html#method_fetchVarInfo"
+        },                {
+            "fqsen": "\\Smr\\Session\u003A\u003Aupdate\u0028\u0029",
+            "name": "update",
+            "summary": "",
+            "url": "classes/Smr-Session.html#method_update"
+        },                {
+            "fqsen": "\\Smr\\Session\u003A\u003AgetSessionID\u0028\u0029",
+            "name": "getSessionID",
+            "summary": "Uniquely\u0020identifies\u0020the\u0020session\u0020in\u0020the\u0020database.",
+            "url": "classes/Smr-Session.html#method_getSessionID"
+        },                {
+            "fqsen": "\\Smr\\Session\u003A\u003AgetGameID\u0028\u0029",
+            "name": "getGameID",
+            "summary": "Returns\u0020the\u0020Game\u0020ID\u0020associated\u0020with\u0020the\u0020session.",
+            "url": "classes/Smr-Session.html#method_getGameID"
+        },                {
+            "fqsen": "\\Smr\\Session\u003A\u003AhasGame\u0028\u0029",
+            "name": "hasGame",
+            "summary": "Returns\u0020true\u0020if\u0020the\u0020session\u0020is\u0020inside\u0020a\u0020game,\u0020false\u0020otherwise.",
+            "url": "classes/Smr-Session.html#method_hasGame"
+        },                {
+            "fqsen": "\\Smr\\Session\u003A\u003AhasAccount\u0028\u0029",
+            "name": "hasAccount",
+            "summary": "",
+            "url": "classes/Smr-Session.html#method_hasAccount"
+        },                {
+            "fqsen": "\\Smr\\Session\u003A\u003AgetAccountID\u0028\u0029",
+            "name": "getAccountID",
+            "summary": "",
+            "url": "classes/Smr-Session.html#method_getAccountID"
+        },                {
+            "fqsen": "\\Smr\\Session\u003A\u003AgetAccount\u0028\u0029",
+            "name": "getAccount",
+            "summary": "",
+            "url": "classes/Smr-Session.html#method_getAccount"
+        },                {
+            "fqsen": "\\Smr\\Session\u003A\u003AgetPlayer\u0028\u0029",
+            "name": "getPlayer",
+            "summary": "",
+            "url": "classes/Smr-Session.html#method_getPlayer"
+        },                {
+            "fqsen": "\\Smr\\Session\u003A\u003AsetAccount\u0028\u0029",
+            "name": "setAccount",
+            "summary": "Sets\u0020the\u0020\u0060accountID\u0060\u0020attribute\u0020of\u0020this\u0020session.",
+            "url": "classes/Smr-Session.html#method_setAccount"
+        },                {
+            "fqsen": "\\Smr\\Session\u003A\u003AupdateGame\u0028\u0029",
+            "name": "updateGame",
+            "summary": "Updates\u0020the\u0020\u0060gameID\u0060\u0020attribute\u0020of\u0020the\u0020session\u0020and\u0020deletes\u0020any\u0020other\nactive\u0020sessions\u0020in\u0020this\u0020game\u0020for\u0020this\u0020account.",
+            "url": "classes/Smr-Session.html#method_updateGame"
+        },                {
+            "fqsen": "\\Smr\\Session\u003A\u003AgetSN\u0028\u0029",
+            "name": "getSN",
+            "summary": "The\u0020SN\u0020is\u0020the\u0020URL\u0020parameter\u0020that\u0020defines\u0020the\u0020page\u0020being\u0020requested.",
+            "url": "classes/Smr-Session.html#method_getSN"
+        },                {
+            "fqsen": "\\Smr\\Session\u003A\u003AhasChangedSN\u0028\u0029",
+            "name": "hasChangedSN",
+            "summary": "Returns\u0020true\u0020if\u0020the\u0020current\u0020SN\u0020is\u0020different\u0020than\u0020the\u0020previous\u0020SN.",
+            "url": "classes/Smr-Session.html#method_hasChangedSN"
+        },                {
+            "fqsen": "\\Smr\\Session\u003A\u003Adestroy\u0028\u0029",
+            "name": "destroy",
+            "summary": "",
+            "url": "classes/Smr-Session.html#method_destroy"
+        },                {
+            "fqsen": "\\Smr\\Session\u003A\u003AgetLastAccessed\u0028\u0029",
+            "name": "getLastAccessed",
+            "summary": "",
+            "url": "classes/Smr-Session.html#method_getLastAccessed"
+        },                {
+            "fqsen": "\\Smr\\Session\u003A\u003AhasCurrentVar\u0028\u0029",
+            "name": "hasCurrentVar",
+            "summary": "Check\u0020if\u0020the\u0020session\u0020has\u0020a\u0020var\u0020associated\u0020with\u0020the\u0020current\u0020SN.",
+            "url": "classes/Smr-Session.html#method_hasCurrentVar"
+        },                {
+            "fqsen": "\\Smr\\Session\u003A\u003AgetCurrentVar\u0028\u0029",
+            "name": "getCurrentVar",
+            "summary": "Returns\u0020the\u0020session\u0020var\u0020associated\u0020with\u0020the\u0020current\u0020SN.",
+            "url": "classes/Smr-Session.html#method_getCurrentVar"
+        },                {
+            "fqsen": "\\Smr\\Session\u003A\u003AgetRequestData\u0028\u0029",
+            "name": "getRequestData",
+            "summary": "",
+            "url": "classes/Smr-Session.html#method_getRequestData"
+        },                {
+            "fqsen": "\\Smr\\Session\u003A\u003AgetRequestVar\u0028\u0029",
+            "name": "getRequestVar",
+            "summary": "Gets\u0020a\u0020var\u0020from\u0020\u0024var,\u0020\u0024_REQUEST,\u0020or\u0020\u0024default.\u0020Then\u0020stores\u0020it\u0020in\u0020the\nsession\u0020so\u0020that\u0020it\u0020can\u0020still\u0020be\u0020retrieved\u0020when\u0020the\u0020page\u0020auto\u002Drefreshes.",
+            "url": "classes/Smr-Session.html#method_getRequestVar"
+        },                {
+            "fqsen": "\\Smr\\Session\u003A\u003AgetRequestVarInt\u0028\u0029",
+            "name": "getRequestVarInt",
+            "summary": "",
+            "url": "classes/Smr-Session.html#method_getRequestVarInt"
+        },                {
+            "fqsen": "\\Smr\\Session\u003A\u003AgetRequestVarIntArray\u0028\u0029",
+            "name": "getRequestVarIntArray",
+            "summary": "",
+            "url": "classes/Smr-Session.html#method_getRequestVarIntArray"
+        },                {
+            "fqsen": "\\Smr\\Session\u003A\u003AsetCurrentVar\u0028\u0029",
+            "name": "setCurrentVar",
+            "summary": "Replace\u0020the\u0020global\u0020\u0024var\u0020with\u0020the\u0020given\u0020\u0024container.",
+            "url": "classes/Smr-Session.html#method_setCurrentVar"
+        },                {
+            "fqsen": "\\Smr\\Session\u003A\u003AclearLinks\u0028\u0029",
+            "name": "clearLinks",
+            "summary": "",
+            "url": "classes/Smr-Session.html#method_clearLinks"
+        },                {
+            "fqsen": "\\Smr\\Session\u003A\u003AaddLink\u0028\u0029",
+            "name": "addLink",
+            "summary": "Add\u0020a\u0020page\u0020to\u0020the\u0020session\u0020so\u0020that\u0020it\u0020can\u0020be\u0020used\u0020on\u0020next\u0020page\u0020load.",
+            "url": "classes/Smr-Session.html#method_addLink"
+        },                {
+            "fqsen": "\\Smr\\Session\u003A\u003AaddAjaxReturns\u0028\u0029",
+            "name": "addAjaxReturns",
+            "summary": "",
+            "url": "classes/Smr-Session.html#method_addAjaxReturns"
+        },                {
+            "fqsen": "\\Smr\\Session\u003A\u003AsaveAjaxReturns\u0028\u0029",
+            "name": "saveAjaxReturns",
+            "summary": "",
+            "url": "classes/Smr-Session.html#method_saveAjaxReturns"
+        },                {
+            "fqsen": "\\Smr\\Session\u003A\u003ATIME_BEFORE_EXPIRY",
+            "name": "TIME_BEFORE_EXPIRY",
+            "summary": "",
+            "url": "classes/Smr-Session.html#constant_TIME_BEFORE_EXPIRY"
+        },                {
+            "fqsen": "\\Smr\\Session\u003A\u003AURL_LOAD_DELAY",
+            "name": "URL_LOAD_DELAY",
+            "summary": "",
+            "url": "classes/Smr-Session.html#constant_URL_LOAD_DELAY"
+        },                {
+            "fqsen": "\\Smr\\Session\u003A\u003A\u0024sessionID",
+            "name": "sessionID",
+            "summary": "",
+            "url": "classes/Smr-Session.html#property_sessionID"
+        },                {
+            "fqsen": "\\Smr\\Session\u003A\u003A\u0024gameID",
+            "name": "gameID",
+            "summary": "",
+            "url": "classes/Smr-Session.html#property_gameID"
+        },                {
+            "fqsen": "\\Smr\\Session\u003A\u003A\u0024links",
+            "name": "links",
+            "summary": "",
+            "url": "classes/Smr-Session.html#property_links"
+        },                {
+            "fqsen": "\\Smr\\Session\u003A\u003A\u0024currentPage",
+            "name": "currentPage",
+            "summary": "",
+            "url": "classes/Smr-Session.html#property_currentPage"
+        },                {
+            "fqsen": "\\Smr\\Session\u003A\u003A\u0024requestData",
+            "name": "requestData",
+            "summary": "",
+            "url": "classes/Smr-Session.html#property_requestData"
+        },                {
+            "fqsen": "\\Smr\\Session\u003A\u003A\u0024generate",
+            "name": "generate",
+            "summary": "",
+            "url": "classes/Smr-Session.html#property_generate"
+        },                {
+            "fqsen": "\\Smr\\Session\u003A\u003A\u0024ajax",
+            "name": "ajax",
+            "summary": "",
+            "url": "classes/Smr-Session.html#property_ajax"
+        },                {
+            "fqsen": "\\Smr\\Session\u003A\u003A\u0024SN",
+            "name": "SN",
+            "summary": "",
+            "url": "classes/Smr-Session.html#property_SN"
+        },                {
+            "fqsen": "\\Smr\\Session\u003A\u003A\u0024lastSN",
+            "name": "lastSN",
+            "summary": "",
+            "url": "classes/Smr-Session.html#property_lastSN"
+        },                {
+            "fqsen": "\\Smr\\Session\u003A\u003A\u0024accountID",
+            "name": "accountID",
+            "summary": "",
+            "url": "classes/Smr-Session.html#property_accountID"
+        },                {
+            "fqsen": "\\Smr\\Session\u003A\u003A\u0024lastAccessed",
+            "name": "lastAccessed",
+            "summary": "",
+            "url": "classes/Smr-Session.html#property_lastAccessed"
+        },                {
+            "fqsen": "\\Smr\\Session\u003A\u003A\u0024previousAjaxReturns",
+            "name": "previousAjaxReturns",
+            "summary": "",
+            "url": "classes/Smr-Session.html#property_previousAjaxReturns"
+        },                {
+            "fqsen": "\\Smr\\Session\u003A\u003A\u0024ajaxReturns",
+            "name": "ajaxReturns",
+            "summary": "",
+            "url": "classes/Smr-Session.html#property_ajaxReturns"
+        },                {
             "fqsen": "\\Smr\\Ship",
             "name": "Ship",
             "summary": "Adds\u0020a\u0020database\u0020layer\u0020to\u0020an\u0020AbstractShip\u0020instance.",
@@ -11404,27 +12944,27 @@ Search.appendIndex(
             "fqsen": "\\Smr\\ShipClass\u003A\u003AHunter",
             "name": "Hunter",
             "summary": "",
-            "url": ""
+            "url": "classes/Smr-ShipClass.html#enumcase_Hunter"
         },                {
             "fqsen": "\\Smr\\ShipClass\u003A\u003ATrader",
             "name": "Trader",
             "summary": "",
-            "url": ""
+            "url": "classes/Smr-ShipClass.html#enumcase_Trader"
         },                {
             "fqsen": "\\Smr\\ShipClass\u003A\u003ARaider",
             "name": "Raider",
             "summary": "",
-            "url": ""
+            "url": "classes/Smr-ShipClass.html#enumcase_Raider"
         },                {
             "fqsen": "\\Smr\\ShipClass\u003A\u003AScout",
             "name": "Scout",
             "summary": "",
-            "url": ""
+            "url": "classes/Smr-ShipClass.html#enumcase_Scout"
         },                {
             "fqsen": "\\Smr\\ShipClass\u003A\u003AStarter",
             "name": "Starter",
             "summary": "",
-            "url": ""
+            "url": "classes/Smr-ShipClass.html#enumcase_Starter"
         },                {
             "fqsen": "\\Smr\\ShipIllusion",
             "name": "ShipIllusion",
@@ -11726,6 +13266,31 @@ Search.appendIndex(
             "summary": "Authenticates\u0020with\u0020the\u0020social\u0020platform.",
             "url": "classes/Smr-SocialLogin-SocialLogin.html#method_login"
         },                {
+            "fqsen": "\\Smr\\SocialLogin\\Twitter",
+            "name": "Twitter",
+            "summary": "Defines\u0020the\u0020methods\u0020to\u0020be\u0020implemented\u0020by\u0020each\u0020social\u0020login\u0020platform.",
+            "url": "classes/Smr-SocialLogin-Twitter.html"
+        },                {
+            "fqsen": "\\Smr\\SocialLogin\\Twitter\u003A\u003AgetLoginType\u0028\u0029",
+            "name": "getLoginType",
+            "summary": "Provides\u0020the\u0020canonical\u0020name\u0020of\u0020the\u0020platform\u0020to\u0020use\u0020in\u0020string\u0020comparison.",
+            "url": "classes/Smr-SocialLogin-Twitter.html#method_getLoginType"
+        },                {
+            "fqsen": "\\Smr\\SocialLogin\\Twitter\u003A\u003AgetTwitterObj\u0028\u0029",
+            "name": "getTwitterObj",
+            "summary": "",
+            "url": "classes/Smr-SocialLogin-Twitter.html#method_getTwitterObj"
+        },                {
+            "fqsen": "\\Smr\\SocialLogin\\Twitter\u003A\u003AgetLoginUrl\u0028\u0029",
+            "name": "getLoginUrl",
+            "summary": "Returns\u0020the\u0020URL\u0020to\u0020authenticate\u0020with\u0020the\u0020social\u0020platform.",
+            "url": "classes/Smr-SocialLogin-Twitter.html#method_getLoginUrl"
+        },                {
+            "fqsen": "\\Smr\\SocialLogin\\Twitter\u003A\u003Alogin\u0028\u0029",
+            "name": "login",
+            "summary": "Authenticates\u0020with\u0020the\u0020social\u0020platform.",
+            "url": "classes/Smr-SocialLogin-Twitter.html#method_login"
+        },                {
             "fqsen": "\\Smr\\StoredDestination",
             "name": "StoredDestination",
             "summary": "Data\u0020class\u0020for\u0020course\u0020plotting\u0020destinations\u0020stored\u0020by\u0020the\u0020player.",
@@ -11976,6 +13541,26 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/Smr-Traits-RaceID.html#property_raceID"
         },                {
+            "fqsen": "\\Smr\\TransactionType",
+            "name": "TransactionType",
+            "summary": "Enumerates\u0020the\u0020types\u0020of\u0020trade\u0020transactions\u0020that\u0020players\u0020may\u0020have\u0020with\u0020ports.",
+            "url": "classes/Smr-TransactionType.html"
+        },                {
+            "fqsen": "\\Smr\\TransactionType\u003A\u003Aopposite\u0028\u0029",
+            "name": "opposite",
+            "summary": "",
+            "url": "classes/Smr-TransactionType.html#method_opposite"
+        },                {
+            "fqsen": "\\Smr\\TransactionType\u003A\u003ABuy",
+            "name": "Buy",
+            "summary": "",
+            "url": "classes/Smr-TransactionType.html#enumcase_Buy"
+        },                {
+            "fqsen": "\\Smr\\TransactionType\u003A\u003ASell",
+            "name": "Sell",
+            "summary": "",
+            "url": "classes/Smr-TransactionType.html#enumcase_Sell"
+        },                {
             "fqsen": "\\Smr\\Treaty",
             "name": "Treaty",
             "summary": "",
@@ -12004,22 +13589,172 @@ Search.appendIndex(
             "fqsen": "\\Smr\\TurnsLevel\u003A\u003ANone",
             "name": "None",
             "summary": "",
-            "url": ""
+            "url": "classes/Smr-TurnsLevel.html#enumcase_None"
         },                {
             "fqsen": "\\Smr\\TurnsLevel\u003A\u003ALow",
             "name": "Low",
             "summary": "",
-            "url": ""
+            "url": "classes/Smr-TurnsLevel.html#enumcase_Low"
         },                {
             "fqsen": "\\Smr\\TurnsLevel\u003A\u003AMedium",
             "name": "Medium",
             "summary": "",
-            "url": ""
+            "url": "classes/Smr-TurnsLevel.html#enumcase_Medium"
         },                {
             "fqsen": "\\Smr\\TurnsLevel\u003A\u003AHigh",
             "name": "High",
             "summary": "",
-            "url": ""
+            "url": "classes/Smr-TurnsLevel.html#enumcase_High"
+        },                {
+            "fqsen": "\\Smr\\UserRanking",
+            "name": "UserRanking",
+            "summary": "User\u0020ranking\u0020titles",
+            "url": "classes/Smr-UserRanking.html"
+        },                {
+            "fqsen": "\\Smr\\UserRanking\u003A\u003AgetRankFromScore\u0028\u0029",
+            "name": "getRankFromScore",
+            "summary": "Given\u0020a\u0020score,\u0020return\u0020the\u0020associated\u0020rank",
+            "url": "classes/Smr-UserRanking.html#method_getRankFromScore"
+        },                {
+            "fqsen": "\\Smr\\UserRanking\u003A\u003AgetMinScore\u0028\u0029",
+            "name": "getMinScore",
+            "summary": "Given\u0020a\u0020rank,\u0020return\u0020the\u0020minimum\u0020score\u0020needed\u0020to\u0020achieve\u0020it\n\u0028this\u0020is\u0020an\u0020inversion\u0020of\u0020getRankFromScore\u0029",
+            "url": "classes/Smr-UserRanking.html#method_getMinScore"
+        },                {
+            "fqsen": "\\Smr\\UserRanking\u003A\u003ANewbie",
+            "name": "Newbie",
+            "summary": "",
+            "url": "classes/Smr-UserRanking.html#enumcase_Newbie"
+        },                {
+            "fqsen": "\\Smr\\UserRanking\u003A\u003ABeginner",
+            "name": "Beginner",
+            "summary": "",
+            "url": "classes/Smr-UserRanking.html#enumcase_Beginner"
+        },                {
+            "fqsen": "\\Smr\\UserRanking\u003A\u003AFledgling",
+            "name": "Fledgling",
+            "summary": "",
+            "url": "classes/Smr-UserRanking.html#enumcase_Fledgling"
+        },                {
+            "fqsen": "\\Smr\\UserRanking\u003A\u003AAverage",
+            "name": "Average",
+            "summary": "",
+            "url": "classes/Smr-UserRanking.html#enumcase_Average"
+        },                {
+            "fqsen": "\\Smr\\UserRanking\u003A\u003AAdept",
+            "name": "Adept",
+            "summary": "",
+            "url": "classes/Smr-UserRanking.html#enumcase_Adept"
+        },                {
+            "fqsen": "\\Smr\\UserRanking\u003A\u003AExpert",
+            "name": "Expert",
+            "summary": "",
+            "url": "classes/Smr-UserRanking.html#enumcase_Expert"
+        },                {
+            "fqsen": "\\Smr\\UserRanking\u003A\u003AElite",
+            "name": "Elite",
+            "summary": "",
+            "url": "classes/Smr-UserRanking.html#enumcase_Elite"
+        },                {
+            "fqsen": "\\Smr\\UserRanking\u003A\u003AMaster",
+            "name": "Master",
+            "summary": "",
+            "url": "classes/Smr-UserRanking.html#enumcase_Master"
+        },                {
+            "fqsen": "\\Smr\\UserRanking\u003A\u003AGrandmaster",
+            "name": "Grandmaster",
+            "summary": "",
+            "url": "classes/Smr-UserRanking.html#enumcase_Grandmaster"
+        },                {
+            "fqsen": "\\Smr\\VoteLink",
+            "name": "VoteLink",
+            "summary": "Site\u002Dindependent\u0020handling\u0020of\u0020links\u0020to\u0020external\u0020game\u0020voting\u0020sites.",
+            "url": "classes/Smr-VoteLink.html"
+        },                {
+            "fqsen": "\\Smr\\VoteLink\u003A\u003A__construct\u0028\u0029",
+            "name": "__construct",
+            "summary": "",
+            "url": "classes/Smr-VoteLink.html#method___construct"
+        },                {
+            "fqsen": "\\Smr\\VoteLink\u003A\u003AclearCache\u0028\u0029",
+            "name": "clearCache",
+            "summary": "",
+            "url": "classes/Smr-VoteLink.html#method_clearCache"
+        },                {
+            "fqsen": "\\Smr\\VoteLink\u003A\u003AgetMinTimeUntilFreeTurns\u0028\u0029",
+            "name": "getMinTimeUntilFreeTurns",
+            "summary": "Returns\u0020the\u0020earliest\u0020time\u0020\u0028in\u0020seconds\u0029\u0020until\u0020free\u0020turns\nare\u0020available\u0020across\u0020all\u0020voting\u0020sites.",
+            "url": "classes/Smr-VoteLink.html#method_getMinTimeUntilFreeTurns"
+        },                {
+            "fqsen": "\\Smr\\VoteLink\u003A\u003AgivesFreeTurns\u0028\u0029",
+            "name": "givesFreeTurns",
+            "summary": "Does\u0020this\u0020VoteSite\u0020have\u0020a\u0020voting\u0020callback\u0020that\u0020can\u0020be\u0020used\nto\u0020award\u0020free\u0020turns\u003F",
+            "url": "classes/Smr-VoteLink.html#method_givesFreeTurns"
+        },                {
+            "fqsen": "\\Smr\\VoteLink\u003A\u003AgetTimeUntilFreeTurns\u0028\u0029",
+            "name": "getTimeUntilFreeTurns",
+            "summary": "Time\u0020until\u0020the\u0020account\u0020can\u0020get\u0020free\u0020turns\u0020from\u0020voting\u0020at\u0020this\u0020site.",
+            "url": "classes/Smr-VoteLink.html#method_getTimeUntilFreeTurns"
+        },                {
+            "fqsen": "\\Smr\\VoteLink\u003A\u003AsetClicked\u0028\u0029",
+            "name": "setClicked",
+            "summary": "Register\u0020that\u0020the\u0020player\u0020has\u0020clicked\u0020on\u0020a\u0020vote\u0020site\u0020that\u0020is\u0020eligible\nfor\u0020free\u0020turns,\u0020so\u0020that\u0020we\u0020will\u0020accept\u0020incoming\u0020votes.\u0020This\u0020ensures\nthat\u0020voting\u0020is\u0020done\u0020through\u0020an\u0020authenticated\u0020SMR\u0020session.",
+            "url": "classes/Smr-VoteLink.html#method_setClicked"
+        },                {
+            "fqsen": "\\Smr\\VoteLink\u003A\u003AsetFreeTurnsAwarded\u0028\u0029",
+            "name": "setFreeTurnsAwarded",
+            "summary": "Register\u0020that\u0020the\u0020player\u0020has\u0020been\u0020awarded\u0020their\u0020free\u0020turns.",
+            "url": "classes/Smr-VoteLink.html#method_setFreeTurnsAwarded"
+        },                {
+            "fqsen": "\\Smr\\VoteLink\u003A\u003AfreeTurnsReady\u0028\u0029",
+            "name": "freeTurnsReady",
+            "summary": "Returns\u0020true\u0020if\u0020account\u0020can\u0020currently\u0020receive\u0020free\u0020turns\u0020at\u0020this\u0020site.",
+            "url": "classes/Smr-VoteLink.html#method_freeTurnsReady"
+        },                {
+            "fqsen": "\\Smr\\VoteLink\u003A\u003AgetImg\u0028\u0029",
+            "name": "getImg",
+            "summary": "Returns\u0020the\u0020image\u0020to\u0020display\u0020for\u0020this\u0020voting\u0020site.",
+            "url": "classes/Smr-VoteLink.html#method_getImg"
+        },                {
+            "fqsen": "\\Smr\\VoteLink\u003A\u003AgetUrl\u0028\u0029",
+            "name": "getUrl",
+            "summary": "Returns\u0020the\u0020URL\u0020that\u0020should\u0020be\u0020used\u0020for\u0020this\u0020voting\u0020site.",
+            "url": "classes/Smr-VoteLink.html#method_getUrl"
+        },                {
+            "fqsen": "\\Smr\\VoteLink\u003A\u003AgetSN\u0028\u0029",
+            "name": "getSN",
+            "summary": "Returns\u0020the\u0020SN\u0020to\u0020redirect\u0020the\u0020current\u0020page\u0020to\u0020if\u0020free\u0020turns\u0020are\navailable\u003B\u0020otherwise,\u0020returns\u0020false.",
+            "url": "classes/Smr-VoteLink.html#method_getSN"
+        },                {
+            "fqsen": "\\Smr\\VoteLink\u003A\u003ATIME_BETWEEN_VOTING",
+            "name": "TIME_BETWEEN_VOTING",
+            "summary": "",
+            "url": "classes/Smr-VoteLink.html#constant_TIME_BETWEEN_VOTING"
+        },                {
+            "fqsen": "\\Smr\\VoteLink\u003A\u003A\u0024CACHE_TIMEOUTS",
+            "name": "CACHE_TIMEOUTS",
+            "summary": "",
+            "url": "classes/Smr-VoteLink.html#property_CACHE_TIMEOUTS"
+        },                {
+            "fqsen": "\\Smr\\VoteLink\u003A\u003A\u0024data",
+            "name": "data",
+            "summary": "",
+            "url": "classes/Smr-VoteLink.html#property_data"
+        },                {
+            "fqsen": "\\Smr\\VoteLink\u003A\u003A\u0024site",
+            "name": "site",
+            "summary": "",
+            "url": "classes/Smr-VoteLink.html#property_site"
+        },                {
+            "fqsen": "\\Smr\\VoteLink\u003A\u003A\u0024accountID",
+            "name": "accountID",
+            "summary": "",
+            "url": "classes/Smr-VoteLink.html#property_accountID"
+        },                {
+            "fqsen": "\\Smr\\VoteLink\u003A\u003A\u0024gameID",
+            "name": "gameID",
+            "summary": "",
+            "url": "classes/Smr-VoteLink.html#property_gameID"
         },                {
             "fqsen": "\\Smr\\VoteSite",
             "name": "VoteSite",
@@ -12034,17 +13769,17 @@ Search.appendIndex(
             "fqsen": "\\Smr\\VoteSite\u003A\u003ATWG",
             "name": "TWG",
             "summary": "",
-            "url": ""
+            "url": "classes/Smr-VoteSite.html#enumcase_TWG"
         },                {
             "fqsen": "\\Smr\\VoteSite\u003A\u003ADOG",
             "name": "DOG",
             "summary": "",
-            "url": ""
+            "url": "classes/Smr-VoteSite.html#enumcase_DOG"
         },                {
             "fqsen": "\\Smr\\VoteSite\u003A\u003APBBG",
             "name": "PBBG",
             "summary": "",
-            "url": ""
+            "url": "classes/Smr-VoteSite.html#enumcase_PBBG"
         },                {
             "fqsen": "\\Smr\\WeaponType",
             "name": "WeaponType",

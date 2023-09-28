@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/base.css">
             <link rel="preconnect" href="https://fonts.gstatic.com">
-        <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@400;600;700&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="css/template.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0/css/all.min.css" integrity="sha256-ybRkN9dBjhcS2qrW1z+hfCxq+1aBdwyQM5wlQoQVt/0=" crossorigin="anonymous" />
@@ -19,6 +19,7 @@
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/prismjs@1.23.0/plugins/line-highlight/prism-line-highlight.css">
                 <script src="https://cdn.jsdelivr.net/npm/fuse.js@3.4.6"></script>
         <script src="https://cdn.jsdelivr.net/npm/css-vars-ponyfill@2"></script>
+        <script src="js/template.js"></script>
         <script src="js/search.js"></script>
         <script defer src="js/searchIndex.js"></script>
     </head>
@@ -52,7 +53,7 @@
 <label class="phpdocumentor-sidebar__menu-icon" for="sidebar-button">
     Menu
 </label>
-<aside class="phpdocumentor-column -four phpdocumentor-sidebar">
+<aside class="phpdocumentor-column -three phpdocumentor-sidebar">
                     <section class="phpdocumentor-sidebar__category">
             <h2 class="phpdocumentor-sidebar__category-header">Namespaces</h2>
                                     <h4 class="phpdocumentor-sidebar__root-namespace">
@@ -135,8 +136,9 @@
     </section>
 </aside>
 
-            <div class="phpdocumentor-column -eight phpdocumentor-content">
-                    <ul class="phpdocumentor-breadcrumbs">
+            <div class="phpdocumentor-column -nine phpdocumentor-content">
+                                <section>
+                                        <ul class="phpdocumentor-breadcrumbs">
             <li class="phpdocumentor-breadcrumb"><a href="namespaces/smr.html">Smr</a></li>
     </ul>
 
@@ -155,11 +157,17 @@
     
     </h2>
 
+<div class="phpdocumentor-label-line">
+
+
+</div>
+
         <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/RaceDetails.php"><a href="files/src-lib-smr-racedetails.html"><abbr title="src/lib/Smr/RaceDetails.php">RaceDetails.php</abbr></a></abbr>
     :
     <span class="phpdocumentor-element-found-in__line">8</span>
 
+            <a href="classes/Smr-RaceDetails.html#source-view.8" class="phpdocumentor-element-found-in__source" data-line="8" data-modal="source-view" data-src="files/src/lib/Smr/RaceDetails.php.txt"></a>
     </aside>
 
             <p class="phpdocumentor-summary">Detailed race information for the Game Join page.</p>
@@ -169,44 +177,60 @@
 
 
 
-
-
-
 <h3 id="toc">
     Table of Contents
-    <a href="#toc" class="headerlink"><i class="fas fa-link"></i></a>
+    <a href="classes/Smr-RaceDetails.html#toc" class="headerlink"><i class="fas fa-link"></i></a>
+
 </h3>
 
+
+
+
+
+
+
+<h4 id="toc-constants">
+    Constants
+    <a href="classes/Smr-RaceDetails.html#toc-constants" class="headerlink"><i class="fas fa-link"></i></a>
+
+</h4>
 <dl class="phpdocumentor-table-of-contents">
             <dt class="phpdocumentor-table-of-contents__entry -constant -private">
     <a href="classes/Smr-RaceDetails.html#constant_LONG_DESCRIPTION">LONG_DESCRIPTION</a>
     <span>
         &nbsp;= [RACE_ALSKANT =&gt; &#039;This race of tall, thin humanoids has just recently (in the last 100 years) discovered interstellar travel. However, their charisma and enterprising nature has allowed them to trade for much of the advanced technology the other races had already developed. Alskants are generally peaceful, and have designed their ships for commerce rather than war. Since they pose no military threat, they tend to have relatively good relationships with the other races. They continue to seek the knowledge of the cosmos, and to explore to the edges of space.&#039;, RACE_CREONTI =&gt; &#039;As the manufacturers of the most colossal warships known to history, the Creonti are perceived as formidable opponents in war. The fact that they stand over 11 feet tall does not soften their brutish reputation. While a focus on war-waging has long served the Creonti in their pursuit of resources, it has also severely stunted their culture in almost every other aspect. Compared to the other races, the Creonti lack advanced technology and only have a rudimentary economy. Painfully aware of this weakness, the Creonti are now attempting to leverage peace for assistance with trade and economic development.&#039;, RACE_HUMAN =&gt; &#039;After discovering Jump Drive technology, the Human race underwent a space exploration renaissance marked by many noble and altruistic deeds, including an attempt to unify all of the races through the creation of The Federation. Over time, the Human military grew in power and co-opted the Jump Drive for the purposes of conquest and colonization, weakening the Federation and dissolving any hope for true unification. Today, the Humans continue down this hegemonic path, fighting in wars over resources, and using the crumbling Federation to legitimize their political interests.&#039;, RACE_IKTHORNE =&gt; &#039;The Ik\&#039;Thorne are an ancient race known for their extremely long life spans and expertise with autonomous drone systems. They were the first space-faring civilization, and amassed incalculable wealth due to their unfettered access to the cosmos. As more races ascended to the interstellar stage, the Ik\&#039;Thorne became targets to be plundered for their resources and knowledge. Weary from endless conflict, the Ik\&#039;Thorne grew introverted and isolationist, and they withdrew from the affairs of the other races. But their long lives give them long memories, which have not forgotten the transgressions of the past.&#039;, RACE_SALVENE =&gt; &#039;The Salvene are a species of hive-like quadrupeds that have long sought dominion over the other races. This is their prime objective, which they have been maneuvering to advance through alliances of convenience and opportunistic declarations of war. They are quite ruthless, and have been known to violate peace treaties when it is to their advantage. Even in battle, the Salvene employ Illusion Generator technology to deceive their enemies, often tricking them into attacking what appears to be a weak and vulnerable ship. These behaviors have led to a growing distrust of the Salvene, putting them in a position where they can only rely on each other for help.&#039;, RACE_THEVIAN =&gt; &#039;The Thevian are a race of cybernetic creatures that are encased in a biomechanoid shell. This shell gives them a humanoid appearance, but their true form is shrouded in mystery and known to few outside the Thevian territories. It also gives them supernatural strength and reflexes, making them some of the best pilots around. Thevians are uniquely individualistic, with their desire for personal renown often driving them to extreme behavior. Some become vigilantes, relentlessly hunting down evil throughout the galaxy, even if no bounty is set. Others take the opposite path, becoming the most notorious criminals in the galaxy for their acts of destruction and cruelty.&#039;, RACE_WQHUMAN =&gt; &#039;The WQ Humans are a rogue faction of the Human race who withdrew from the Human territories in opposition to the creation of the Federation. They settled in the distant Western Quadrant, where they developed their new society and began extensive trading with the other races. Ever fearful of retribution for their rebellion, the WQ Humans outfitted their ships with Cloaking Device technology to remain inconspicuous. The WQ Humans may not be the most powerful race, but they are by far the most resourceful.&#039;, RACE_NIJARIN =&gt; &#039;The Nijarin are a race of six-limbed reptilian creatures. They have existed just as long if not longer than the other races, but have only recently come out of hiding. As a naturally aggressive race, the Nijarin have already become fearsome contenders in the war for resources. Their focus is on offensive power, which has driven the creation of ships that are overloaded with destructive weaponry. To support such a heavy offensive payload, these ships have suffered defensively due to a reduction in shields and armour. The Nijarin use a technology called the Drone Communications Scrambler to bolster their defenses against enemy drones. The Nijarin fleet cannot be held back from taking dominion over this universe of war.&#039;]                            </span>
 </dt>
-<dd></dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -constant -private">
     <a href="classes/Smr-RaceDetails.html#constant_SHORT_DESCRIPTION">SHORT_DESCRIPTION</a>
     <span>
         &nbsp;= [RACE_ALSKANT =&gt; &#039;Diverse assortment of hardware, but no dedicated warship. Trade bonuses with all races.&#039;, RACE_CREONTI =&gt; &#039;Bulky ships reinforced with heavy armour plating and lots of firepower.&#039;, RACE_HUMAN =&gt; &#039;Jump drive technology which enables fast inter-galactic movement.&#039;, RACE_IKTHORNE =&gt; &#039;Most overall defense, relying heavily on swarms of combat drones.&#039;, RACE_SALVENE =&gt; &#039;Illusion Generator technology which allows ships to mask their full strength.&#039;, RACE_THEVIAN =&gt; &#039;Fastest racial ships in the universe.&#039;, RACE_WQHUMAN =&gt; &#039;Cloaking Device technology which allows ships to hide from lower level traders.&#039;, RACE_NIJARIN =&gt; &#039;Strong weapons and Drone Communication Scrambler technology offsets lower defenses.&#039;]                            </span>
 </dt>
-<dd></dd>
 
-                        <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    </dl>
+
+
+
+<h4 id="toc-methods">
+    Methods
+    <a href="classes/Smr-RaceDetails.html#toc-methods" class="headerlink"><i class="fas fa-link"></i></a>
+
+</h4>
+<dl class="phpdocumentor-table-of-contents">
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
     <a href="classes/Smr-RaceDetails.html#method_getLongDescription">getLongDescription()</a>
     <span>
                                 &nbsp;: string    </span>
 </dt>
-<dd></dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
     <a href="classes/Smr-RaceDetails.html#method_getShortDescription">getShortDescription()</a>
     <span>
                                 &nbsp;: string    </span>
 </dt>
-<dd></dd>
 
-        </dl>
+    </dl>
+
 
 
 
@@ -215,11 +239,13 @@
         <h3 class="phpdocumentor-elements__header" id="constants">
             Constants
             <a href="classes/Smr-RaceDetails.html#constants" class="headerlink"><i class="fas fa-link"></i></a>
+
         </h3>
                     <article class="phpdocumentor-element -constant -private ">
     <h4 class="phpdocumentor-element__name" id="constant_LONG_DESCRIPTION">
         LONG_DESCRIPTION
         <a href="classes/Smr-RaceDetails.html#constant_LONG_DESCRIPTION" class="headerlink"><i class="fas fa-link"></i></a>
+
     </h4>
 
     <aside class="phpdocumentor-element-found-in">
@@ -227,6 +253,7 @@
     :
     <span class="phpdocumentor-element-found-in__line">21</span>
 
+            <a href="classes/Smr-RaceDetails.html#source-view.21" class="phpdocumentor-element-found-in__source" data-line="21" data-modal="source-view" data-src="files/src/lib/Smr/RaceDetails.php.txt"></a>
     </aside>
 
     
@@ -238,10 +265,8 @@
 </code>
 
 
-        <section class="phpdocumentor-description"></section>
-
-        <section class="phpdocumentor-description"></section>
-
+    
+    
     
 
 </article>
@@ -249,6 +274,7 @@
     <h4 class="phpdocumentor-element__name" id="constant_SHORT_DESCRIPTION">
         SHORT_DESCRIPTION
         <a href="classes/Smr-RaceDetails.html#constant_SHORT_DESCRIPTION" class="headerlink"><i class="fas fa-link"></i></a>
+
     </h4>
 
     <aside class="phpdocumentor-element-found-in">
@@ -256,6 +282,7 @@
     :
     <span class="phpdocumentor-element-found-in__line">10</span>
 
+            <a href="classes/Smr-RaceDetails.html#source-view.10" class="phpdocumentor-element-found-in__source" data-line="10" data-modal="source-view" data-src="files/src/lib/Smr/RaceDetails.php.txt"></a>
     </aside>
 
     
@@ -267,10 +294,8 @@
 </code>
 
 
-        <section class="phpdocumentor-description"></section>
-
-        <section class="phpdocumentor-description"></section>
-
+    
+    
     
 
 </article>
@@ -282,6 +307,7 @@
         <h3 class="phpdocumentor-elements__header" id="methods">
             Methods
             <a href="classes/Smr-RaceDetails.html#methods" class="headerlink"><i class="fas fa-link"></i></a>
+
         </h3>
                     <article
         class="phpdocumentor-element
@@ -292,21 +318,24 @@
     <h4 class="phpdocumentor-element__name" id="method_getLongDescription">
         getLongDescription()
         <a href="classes/Smr-RaceDetails.html#method_getLongDescription" class="headerlink"><i class="fas fa-link"></i></a>
+
     </h4>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/RaceDetails.php"><a href="files/src-lib-smr-racedetails.html"><abbr title="src/lib/Smr/RaceDetails.php">RaceDetails.php</abbr></a></abbr>
     :
     <span class="phpdocumentor-element-found-in__line">36</span>
 
+            <a href="classes/Smr-RaceDetails.html#source-view.36" class="phpdocumentor-element-found-in__source" data-line="36" data-modal="source-view" data-src="files/src/lib/Smr/RaceDetails.php.txt"></a>
     </aside>
 
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">public</span>
-            <span class="phpdocumentor-signature__static">static</span>    <span class="phpdocumentor-signature__name">getLongDescription</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type">int&nbsp;</span><span class="phpdocumentor-signature__argument__name">$raceID</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">string</span></code>
+            <span class="phpdocumentor-signature__static">static</span>        <span class="phpdocumentor-signature__name">getLongDescription</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type">int&nbsp;</span><span class="phpdocumentor-signature__argument__name">$raceID</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">string</span></code>
 
-        <section class="phpdocumentor-description"></section>
-
+    <div class="phpdocumentor-label-line">
+        </div>
+    
         <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
     <dl class="phpdocumentor-argument-list">
                     <dt class="phpdocumentor-argument-list__entry">
@@ -314,18 +343,17 @@
                 : <span class="phpdocumentor-signature__argument__return-type">int</span>
                             </dt>
             <dd class="phpdocumentor-argument-list__definition">
-                    <section class="phpdocumentor-description"></section>
-
+                
             </dd>
             </dl>
 
     
 
+            <section>
         <h5 class="phpdocumentor-return-value__heading">Return values</h5>
-    <span class="phpdocumentor-signature__response_type">string</span>
-            &mdash;
-        
-    
+        <span class="phpdocumentor-signature__response_type">string</span>
+            </section>
+
 </article>
                     <article
         class="phpdocumentor-element
@@ -336,21 +364,24 @@
     <h4 class="phpdocumentor-element__name" id="method_getShortDescription">
         getShortDescription()
         <a href="classes/Smr-RaceDetails.html#method_getShortDescription" class="headerlink"><i class="fas fa-link"></i></a>
+
     </h4>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/RaceDetails.php"><a href="files/src-lib-smr-racedetails.html"><abbr title="src/lib/Smr/RaceDetails.php">RaceDetails.php</abbr></a></abbr>
     :
     <span class="phpdocumentor-element-found-in__line">32</span>
 
+            <a href="classes/Smr-RaceDetails.html#source-view.32" class="phpdocumentor-element-found-in__source" data-line="32" data-modal="source-view" data-src="files/src/lib/Smr/RaceDetails.php.txt"></a>
     </aside>
 
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">public</span>
-            <span class="phpdocumentor-signature__static">static</span>    <span class="phpdocumentor-signature__name">getShortDescription</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type">int&nbsp;</span><span class="phpdocumentor-signature__argument__name">$raceID</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">string</span></code>
+            <span class="phpdocumentor-signature__static">static</span>        <span class="phpdocumentor-signature__name">getShortDescription</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type">int&nbsp;</span><span class="phpdocumentor-signature__argument__name">$raceID</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">string</span></code>
 
-        <section class="phpdocumentor-description"></section>
-
+    <div class="phpdocumentor-label-line">
+        </div>
+    
         <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
     <dl class="phpdocumentor-argument-list">
                     <dt class="phpdocumentor-argument-list__entry">
@@ -358,85 +389,149 @@
                 : <span class="phpdocumentor-signature__argument__return-type">int</span>
                             </dt>
             <dd class="phpdocumentor-argument-list__definition">
-                    <section class="phpdocumentor-description"></section>
-
+                
             </dd>
             </dl>
 
     
 
+            <section>
         <h5 class="phpdocumentor-return-value__heading">Return values</h5>
-    <span class="phpdocumentor-signature__response_type">string</span>
-            &mdash;
-        
-    
+        <span class="phpdocumentor-signature__response_type">string</span>
+            </section>
+
 </article>
             </section>
 
-        
+        <div class="phpdocumentor-modal" id="source-view">
+    <div class="phpdocumentor-modal-bg" data-exit-button></div>
+    <div class="phpdocumentor-modal-container">
+        <div class="phpdocumentor-modal-content">
+            <pre style="max-height: 500px; overflow-y: scroll" data-src="files/src/lib/Smr/RaceDetails.php.txt" class="language-php line-numbers linkable-line-numbers"></pre>
+        </div>
+        <button data-exit-button class="phpdocumentor-modal__close">&times;</button>
+    </div>
+</div>
+
     <script type="text/javascript">
-        function loadExternalCodeSnippets(line) {
-            Array.prototype.slice.call(document.querySelectorAll('pre[data-src]')).forEach((pre) => {
-                var src = pre.getAttribute('data-src').replace( /\\/g, '/');
-                var extension = (src.match(/\.(\w+)$/) || [, ''])[1];
-                var language = 'php';
+        (function () {
+            function loadExternalCodeSnippet(el, url, line) {
+                Array.prototype.slice.call(el.querySelectorAll('pre[data-src]')).forEach((pre) => {
+                    const src = url || pre.getAttribute('data-src').replace(/\\/g, '/');
+                    const language = 'php';
 
-                var code = document.createElement('code');
-                code.className = 'language-' + language;
+                    const code = document.createElement('code');
+                    code.className = 'language-' + language;
+                    pre.textContent = '';
+                    pre.setAttribute('data-line', line)
+                    code.textContent = 'Loading…';
+                    pre.appendChild(code);
 
-                pre.textContent = '';
+                    var xhr = new XMLHttpRequest();
 
-                pre.setAttribute('data-line', line)
-                code.textContent = 'Loading…';
+                    xhr.open('GET', src, true);
 
-                pre.appendChild(code);
-
-                var xhr = new XMLHttpRequest();
-
-                xhr.open('GET', src, true);
-
-                xhr.onreadystatechange = function () {
-                    if (xhr.readyState == 4) {
+                    xhr.onreadystatechange = function () {
+                        if (xhr.readyState !== 4) {
+                            return;
+                        }
 
                         if (xhr.status < 400 && xhr.responseText) {
                             code.textContent = xhr.responseText;
-
                             Prism.highlightElement(code);
+                            return;
                         }
-                        else if (xhr.status >= 400) {
+
+                        if (xhr.status === 404) {
+                            code.textContent = '✖ Error: File could not be found';
+                            return;
+                        }
+
+                        if (xhr.status >= 400) {
                             code.textContent = '✖ Error ' + xhr.status + ' while fetching file: ' + xhr.statusText;
+                            return;
                         }
-                        else {
-                            code.textContent = '✖ Error: File does not exist, is empty or trying to view from localhost';
-                        }
+
+                        code.textContent = '✖ Error: An unknown error occurred';
+                    };
+
+                    xhr.send(null);
+                });
+            }
+
+            const modalButtons = document.querySelectorAll("[data-modal]");
+            const openedAsLocalFile = window.location.protocol === 'file:';
+            if (modalButtons.length > 0 && openedAsLocalFile) {
+                console.warn(
+                    'Viewing the source code is unavailable because you are opening this page from the file:// scheme; ' +
+                    'browsers block XHR requests when a page is opened this way'
+                );
+            }
+
+            modalButtons.forEach(function (trigger) {
+                if (openedAsLocalFile) {
+                    trigger.setAttribute("hidden", "hidden");
+                }
+
+                trigger.addEventListener("click", function (event) {
+                    event.preventDefault();
+                    const modal = document.getElementById(trigger.dataset.modal);
+                    if (!modal) {
+                        console.error(`Modal with id "${trigger.dataset.modal}" could not be found`);
+                        return;
                     }
-                };
+                    modal.classList.add("phpdocumentor-modal__open");
 
-                xhr.send(null);
-            });
-        }
-
-        var modals = document.querySelectorAll("[data-modal]");
-
-        modals.forEach(function (trigger) {
-            trigger.addEventListener("click", function (event) {
-                //event.preventDefault();
-                const modal = document.getElementById(trigger.dataset.modal);
-                modal.classList.add("phpdocumentor-modal__open");
-                loadExternalCodeSnippets(trigger.dataset.line)
-                const exits = modal.querySelectorAll("[data-exit-button]");
-                exits.forEach(function (exit) {
-                    exit.addEventListener("click", function (event) {
-                        event.preventDefault();
-                        modal.classList.remove("phpdocumentor-modal__open");
+                    loadExternalCodeSnippet(modal, trigger.dataset.src || null, trigger.dataset.line)
+                    const exits = modal.querySelectorAll("[data-exit-button]");
+                    exits.forEach(function (exit) {
+                        exit.addEventListener("click", function (event) {
+                            event.preventDefault();
+                            modal.classList.remove("phpdocumentor-modal__open");
+                        });
                     });
                 });
             });
-        });
+        })();
     </script>
 
     </article>
-                <section data-search-results class="phpdocumentor-search-results phpdocumentor-search-results--hidden">
+                                </section>
+                <section class="phpdocumentor-on-this-page__sidebar">
+                                
+    <section class="phpdocumentor-on-this-page__content">
+        <strong class="phpdocumentor-on-this-page__title">On this page</strong>
+
+        <ul class="phpdocumentor-list -clean">
+            <li class="phpdocumentor-on-this-page-section__title">Table Of Contents</li>
+            <li>
+                <ul class="phpdocumentor-list -clean">
+                                        <li><a href="classes/Smr-RaceDetails.html#toc-constants">Constants</a></li>
+                                                                                <li><a href="classes/Smr-RaceDetails.html#toc-methods">Methods</a></li>
+                                    </ul>
+            </li>
+                            <li class="phpdocumentor-on-this-page-section__title">Constants</li>
+                <li>
+                    <ul class="phpdocumentor-list -clean">
+                                                    <li><a href="classes/Smr-RaceDetails.html#constant_LONG_DESCRIPTION">LONG_DESCRIPTION</a></li>
+                                                    <li><a href="classes/Smr-RaceDetails.html#constant_SHORT_DESCRIPTION">SHORT_DESCRIPTION</a></li>
+                                            </ul>
+                </li>
+            
+            
+                        <li class="phpdocumentor-on-this-page-section__title">Methods</li>
+            <li>
+                <ul class="phpdocumentor-list -clean">
+                                            <li><a href="classes/Smr-RaceDetails.html#method_getLongDescription">getLongDescription()</a></li>
+                                            <li><a href="classes/Smr-RaceDetails.html#method_getShortDescription">getShortDescription()</a></li>
+                                    </ul>
+            </li>
+                    </ul>
+    </section>
+
+                </section>
+                            </div>
+            <section data-search-results class="phpdocumentor-search-results phpdocumentor-search-results--hidden">
     <section class="phpdocumentor-search-results__dialog">
         <header class="phpdocumentor-search-results__header">
             <h2 class="phpdocumentor-search-results__title">Search results</h2>
@@ -447,7 +542,6 @@
         </section>
     </section>
 </section>
-            </div>
         </div>
         <a href="classes/Smr-RaceDetails.html#top" class="phpdocumentor-back-to-top"><i class="fas fa-chevron-circle-up"></i></a>
 
