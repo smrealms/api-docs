@@ -6091,10 +6091,20 @@ Search.appendIndex(
             "summary": "INSERT\u0020a\u0020row\u0020into\u0020\u0024table.",
             "url": "classes/Smr-Database.html#method_insert"
         },                {
+            "fqsen": "\\Smr\\Database\u003A\u003AinsertAutoIncrement\u0028\u0029",
+            "name": "insertAutoIncrement",
+            "summary": "INSERT\u0020a\u0020row\u0020into\u0020a\u0020\u0024table\u0020with\u0020an\u0020auto\u002Dincrement\u0020column.",
+            "url": "classes/Smr-Database.html#method_insertAutoIncrement"
+        },                {
             "fqsen": "\\Smr\\Database\u003A\u003Areplace\u0028\u0029",
             "name": "replace",
             "summary": "REPLACE\u0020a\u0020row\u0020into\u0020\u0024table.",
             "url": "classes/Smr-Database.html#method_replace"
+        },                {
+            "fqsen": "\\Smr\\Database\u003A\u003AreplaceAutoIncrement\u0028\u0029",
+            "name": "replaceAutoIncrement",
+            "summary": "REPLACE\u0020a\u0020row\u0020into\u0020\u0024table\u0020with\u0020an\u0020auto\u002Dincrement\u0020column.",
+            "url": "classes/Smr-Database.html#method_replaceAutoIncrement"
         },                {
             "fqsen": "\\Smr\\Database\u003A\u003AlockTable\u0028\u0029",
             "name": "lockTable",
