@@ -168,9 +168,9 @@
         <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Port.php"><a href="files/src-lib-smr-port.html"><abbr title="src/lib/Smr/Port.php">Port.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">19</span>
+    <span class="phpdocumentor-element-found-in__line">17</span>
 
-            <a href="classes/Smr-Port.html#source-view.19" class="phpdocumentor-element-found-in__source" data-line="19" data-modal="source-view" data-src="files/src/lib/Smr/Port.php.txt"></a>
+            <a href="classes/Smr-Port.html#source-view.17" class="phpdocumentor-element-found-in__source" data-line="17" data-modal="source-view" data-src="files/src/lib/Smr/Port.php.txt"></a>
     </aside>
 
         
@@ -197,6 +197,12 @@
 
 </h4>
 <dl class="phpdocumentor-table-of-contents">
+            <dt class="phpdocumentor-table-of-contents__entry -constant -public">
+    <a href="classes/Smr-Port.html#constant_CLAIM_PAYOUT">CLAIM_PAYOUT</a>
+    <span>
+        &nbsp;= 0.5                            </span>
+</dt>
+
             <dt class="phpdocumentor-table-of-contents__entry -constant -public">
     <a href="classes/Smr-Port.html#constant_DAMAGE_NEEDED_FOR_ALIGNMENT_CHANGE">DAMAGE_NEEDED_FOR_ALIGNMENT_CHANGE</a>
     <span>
@@ -530,6 +536,13 @@ as either &quot;Buy&quot; or &quot;Sell&quot;, meaning the player buys or sells.
 <dd>Return the fraction of max exp earned.</dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a href="classes/Smr-Port.html#method_canBeDestroyed">canBeDestroyed()</a>
+    <span>
+                                &nbsp;: bool    </span>
+</dt>
+<dd>Can ports be destroyed after a successful port raid?</dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
     <a href="classes/Smr-Port.html#method_checkDefenses">checkDefenses()</a>
     <span>
                                 &nbsp;: void    </span>
@@ -547,6 +560,13 @@ as either &quot;Buy&quot; or &quot;Sell&quot;, meaning the player buys or sells.
     <span>
                                 &nbsp;: int    </span>
 </dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a href="classes/Smr-Port.html#method_claimPort">claimPort()</a>
+    <span>
+                                &nbsp;: int    </span>
+</dt>
+<dd>Claim port for your race after a successful port raid.</dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
     <a href="classes/Smr-Port.html#method_clearCache">clearCache()</a>
@@ -607,6 +627,13 @@ as either &quot;Buy&quot; or &quot;Sell&quot;, meaning the player buys or sells.
     <span>
                                 &nbsp;: void    </span>
 </dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a href="classes/Smr-Port.html#method_destroyPort">destroyPort()</a>
+    <span>
+                                &nbsp;: int    </span>
+</dt>
+<dd>Permanently destroy the port after a successful port raid.</dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
     <a href="classes/Smr-Port.html#method_exists">exists()</a>
@@ -673,12 +700,6 @@ as either &quot;Buy&quot; or &quot;Sell&quot;, meaning the player buys or sells.
     <a href="classes/Smr-Port.html#method_getCDs">getCDs()</a>
     <span>
                                 &nbsp;: int    </span>
-</dt>
-
-            <dt class="phpdocumentor-table-of-contents__entry -method -public">
-    <a href="classes/Smr-Port.html#method_getClaimHREF">getClaimHREF()</a>
-    <span>
-                                &nbsp;: string    </span>
 </dt>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
@@ -767,12 +788,6 @@ as either &quot;Buy&quot; or &quot;Sell&quot;, meaning the player buys or sells.
 </dt>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
-    <a href="classes/Smr-Port.html#method_getLootHREF">getLootHREF()</a>
-    <span>
-                                &nbsp;: mixed    </span>
-</dt>
-
-            <dt class="phpdocumentor-table-of-contents__entry -method -public">
     <a href="classes/Smr-Port.html#method_getMaxLevel">getMaxLevel()</a>
     <span>
                                 &nbsp;: int    </span>
@@ -797,6 +812,12 @@ as either &quot;Buy&quot; or &quot;Sell&quot;, meaning the player buys or sells.
 </dt>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a href="classes/Smr-Port.html#method_getPayoutHREF">getPayoutHREF()</a>
+    <span>
+                                &nbsp;: string    </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
     <a href="classes/Smr-Port.html#method_getPort">getPort()</a>
     <span>
                                 &nbsp;: self    </span>
@@ -818,12 +839,6 @@ as either &quot;Buy&quot; or &quot;Sell&quot;, meaning the player buys or sells.
     <a href="classes/Smr-Port.html#method_getRaidWarningHREF">getRaidWarningHREF()</a>
     <span>
                                 &nbsp;: string    </span>
-</dt>
-
-            <dt class="phpdocumentor-table-of-contents__entry -method -public">
-    <a href="classes/Smr-Port.html#method_getRazeHREF">getRazeHREF()</a>
-    <span>
-                                &nbsp;: mixed    </span>
 </dt>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
@@ -969,6 +984,12 @@ as either &quot;Buy&quot; or &quot;Sell&quot;, meaning the player buys or sells.
 </dt>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a href="classes/Smr-Port.html#method_isBusted">isBusted()</a>
+    <span>
+                                &nbsp;: bool    </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
     <a href="classes/Smr-Port.html#method_isCachedVersion">isCachedVersion()</a>
     <span>
                                 &nbsp;: bool    </span>
@@ -980,12 +1001,6 @@ as either &quot;Buy&quot; or &quot;Sell&quot;, meaning the player buys or sells.
                                 &nbsp;: bool    </span>
 </dt>
 <dd>Identifies if the given $player is a credited attacker of this port.</dd>
-
-            <dt class="phpdocumentor-table-of-contents__entry -method -public">
-    <a href="classes/Smr-Port.html#method_isDestroyed">isDestroyed()</a>
-    <span>
-                                &nbsp;: bool    </span>
-</dt>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
     <a href="classes/Smr-Port.html#method_isUnderAttack">isUnderAttack()</a>
@@ -1281,6 +1296,35 @@ ports to a specific level.</dd>
 
         </h3>
                     <article class="phpdocumentor-element -constant -public ">
+    <h4 class="phpdocumentor-element__name" id="constant_CLAIM_PAYOUT">
+        CLAIM_PAYOUT
+        <a href="classes/Smr-Port.html#constant_CLAIM_PAYOUT" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Port.php"><a href="files/src-lib-smr-port.html"><abbr title="src/lib/Smr/Port.php">Port.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">47</span>
+
+            <a href="classes/Smr-Port.html#source-view.47" class="phpdocumentor-element-found-in__source" data-line="47" data-modal="source-view" data-src="files/src/lib/Smr/Port.php.txt"></a>
+    </aside>
+
+    
+    <code class="phpdocumentor-signature phpdocumentor-code ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+        <span class="phpdocumentor-signature__type">mixed</span>
+    <span class="phpdocumentor-signature__name">CLAIM_PAYOUT</span>
+    = <span class="phpdocumentor-signature__default-value">0.5</span>
+</code>
+
+
+    
+    
+    
+
+</article>
+                    <article class="phpdocumentor-element -constant -public ">
     <h4 class="phpdocumentor-element__name" id="constant_DAMAGE_NEEDED_FOR_ALIGNMENT_CHANGE">
         DAMAGE_NEEDED_FOR_ALIGNMENT_CHANGE
         <a href="classes/Smr-Port.html#constant_DAMAGE_NEEDED_FOR_ALIGNMENT_CHANGE" class="headerlink"><i class="fas fa-link"></i></a>
@@ -1290,9 +1334,9 @@ ports to a specific level.</dd>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Port.php"><a href="files/src-lib-smr-port.html"><abbr title="src/lib/Smr/Port.php">Port.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">28</span>
+    <span class="phpdocumentor-element-found-in__line">26</span>
 
-            <a href="classes/Smr-Port.html#source-view.28" class="phpdocumentor-element-found-in__source" data-line="28" data-modal="source-view" data-src="files/src/lib/Smr/Port.php.txt"></a>
+            <a href="classes/Smr-Port.html#source-view.26" class="phpdocumentor-element-found-in__source" data-line="26" data-modal="source-view" data-src="files/src/lib/Smr/Port.php.txt"></a>
     </aside>
 
     
@@ -1319,9 +1363,9 @@ ports to a specific level.</dd>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Port.php"><a href="files/src-lib-smr-port.html"><abbr title="src/lib/Smr/Port.php">Port.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">49</span>
+    <span class="phpdocumentor-element-found-in__line">48</span>
 
-            <a href="classes/Smr-Port.html#source-view.49" class="phpdocumentor-element-found-in__source" data-line="49" data-modal="source-view" data-src="files/src/lib/Smr/Port.php.txt"></a>
+            <a href="classes/Smr-Port.html#source-view.48" class="phpdocumentor-element-found-in__source" data-line="48" data-modal="source-view" data-src="files/src/lib/Smr/Port.php.txt"></a>
     </aside>
 
     
@@ -1348,9 +1392,9 @@ ports to a specific level.</dd>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Port.php"><a href="files/src-lib-smr-port.html"><abbr title="src/lib/Smr/Port.php">Port.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">48</span>
+    <span class="phpdocumentor-element-found-in__line">46</span>
 
-            <a href="classes/Smr-Port.html#source-view.48" class="phpdocumentor-element-found-in__source" data-line="48" data-modal="source-view" data-src="files/src/lib/Smr/Port.php.txt"></a>
+            <a href="classes/Smr-Port.html#source-view.46" class="phpdocumentor-element-found-in__source" data-line="46" data-modal="source-view" data-src="files/src/lib/Smr/Port.php.txt"></a>
     </aside>
 
     
@@ -1377,9 +1421,9 @@ ports to a specific level.</dd>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Port.php"><a href="files/src-lib-smr-port.html"><abbr title="src/lib/Smr/Port.php">Port.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">51</span>
+    <span class="phpdocumentor-element-found-in__line">50</span>
 
-            <a href="classes/Smr-Port.html#source-view.51" class="phpdocumentor-element-found-in__source" data-line="51" data-modal="source-view" data-src="files/src/lib/Smr/Port.php.txt"></a>
+            <a href="classes/Smr-Port.html#source-view.50" class="phpdocumentor-element-found-in__source" data-line="50" data-modal="source-view" data-src="files/src/lib/Smr/Port.php.txt"></a>
     </aside>
 
     
@@ -1406,9 +1450,9 @@ ports to a specific level.</dd>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Port.php"><a href="files/src-lib-smr-port.html"><abbr title="src/lib/Smr/Port.php">Port.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">33</span>
+    <span class="phpdocumentor-element-found-in__line">31</span>
 
-            <a href="classes/Smr-Port.html#source-view.33" class="phpdocumentor-element-found-in__source" data-line="33" data-modal="source-view" data-src="files/src/lib/Smr/Port.php.txt"></a>
+            <a href="classes/Smr-Port.html#source-view.31" class="phpdocumentor-element-found-in__source" data-line="31" data-modal="source-view" data-src="files/src/lib/Smr/Port.php.txt"></a>
     </aside>
 
     
@@ -1435,9 +1479,9 @@ ports to a specific level.</dd>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Port.php"><a href="files/src-lib-smr-port.html"><abbr title="src/lib/Smr/Port.php">Port.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">36</span>
+    <span class="phpdocumentor-element-found-in__line">34</span>
 
-            <a href="classes/Smr-Port.html#source-view.36" class="phpdocumentor-element-found-in__source" data-line="36" data-modal="source-view" data-src="files/src/lib/Smr/Port.php.txt"></a>
+            <a href="classes/Smr-Port.html#source-view.34" class="phpdocumentor-element-found-in__source" data-line="34" data-modal="source-view" data-src="files/src/lib/Smr/Port.php.txt"></a>
     </aside>
 
     
@@ -1464,9 +1508,9 @@ ports to a specific level.</dd>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Port.php"><a href="files/src-lib-smr-port.html"><abbr title="src/lib/Smr/Port.php">Port.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">47</span>
+    <span class="phpdocumentor-element-found-in__line">45</span>
 
-            <a href="classes/Smr-Port.html#source-view.47" class="phpdocumentor-element-found-in__source" data-line="47" data-modal="source-view" data-src="files/src/lib/Smr/Port.php.txt"></a>
+            <a href="classes/Smr-Port.html#source-view.45" class="phpdocumentor-element-found-in__source" data-line="45" data-modal="source-view" data-src="files/src/lib/Smr/Port.php.txt"></a>
     </aside>
 
     
@@ -1493,9 +1537,9 @@ ports to a specific level.</dd>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Port.php"><a href="files/src-lib-smr-port.html"><abbr title="src/lib/Smr/Port.php">Port.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">39</span>
+    <span class="phpdocumentor-element-found-in__line">37</span>
 
-            <a href="classes/Smr-Port.html#source-view.39" class="phpdocumentor-element-found-in__source" data-line="39" data-modal="source-view" data-src="files/src/lib/Smr/Port.php.txt"></a>
+            <a href="classes/Smr-Port.html#source-view.37" class="phpdocumentor-element-found-in__source" data-line="37" data-modal="source-view" data-src="files/src/lib/Smr/Port.php.txt"></a>
     </aside>
 
     
@@ -1522,9 +1566,9 @@ ports to a specific level.</dd>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Port.php"><a href="files/src-lib-smr-port.html"><abbr title="src/lib/Smr/Port.php">Port.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">34</span>
+    <span class="phpdocumentor-element-found-in__line">32</span>
 
-            <a href="classes/Smr-Port.html#source-view.34" class="phpdocumentor-element-found-in__source" data-line="34" data-modal="source-view" data-src="files/src/lib/Smr/Port.php.txt"></a>
+            <a href="classes/Smr-Port.html#source-view.32" class="phpdocumentor-element-found-in__source" data-line="32" data-modal="source-view" data-src="files/src/lib/Smr/Port.php.txt"></a>
     </aside>
 
     
@@ -1551,9 +1595,9 @@ ports to a specific level.</dd>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Port.php"><a href="files/src-lib-smr-port.html"><abbr title="src/lib/Smr/Port.php">Port.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">35</span>
+    <span class="phpdocumentor-element-found-in__line">33</span>
 
-            <a href="classes/Smr-Port.html#source-view.35" class="phpdocumentor-element-found-in__source" data-line="35" data-modal="source-view" data-src="files/src/lib/Smr/Port.php.txt"></a>
+            <a href="classes/Smr-Port.html#source-view.33" class="phpdocumentor-element-found-in__source" data-line="33" data-modal="source-view" data-src="files/src/lib/Smr/Port.php.txt"></a>
     </aside>
 
     
@@ -1580,9 +1624,9 @@ ports to a specific level.</dd>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Port.php"><a href="files/src-lib-smr-port.html"><abbr title="src/lib/Smr/Port.php">Port.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">30</span>
+    <span class="phpdocumentor-element-found-in__line">28</span>
 
-            <a href="classes/Smr-Port.html#source-view.30" class="phpdocumentor-element-found-in__source" data-line="30" data-modal="source-view" data-src="files/src/lib/Smr/Port.php.txt"></a>
+            <a href="classes/Smr-Port.html#source-view.28" class="phpdocumentor-element-found-in__source" data-line="28" data-modal="source-view" data-src="files/src/lib/Smr/Port.php.txt"></a>
     </aside>
 
     
@@ -1609,9 +1653,9 @@ ports to a specific level.</dd>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Port.php"><a href="files/src-lib-smr-port.html"><abbr title="src/lib/Smr/Port.php">Port.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">29</span>
+    <span class="phpdocumentor-element-found-in__line">27</span>
 
-            <a href="classes/Smr-Port.html#source-view.29" class="phpdocumentor-element-found-in__source" data-line="29" data-modal="source-view" data-src="files/src/lib/Smr/Port.php.txt"></a>
+            <a href="classes/Smr-Port.html#source-view.27" class="phpdocumentor-element-found-in__source" data-line="27" data-modal="source-view" data-src="files/src/lib/Smr/Port.php.txt"></a>
     </aside>
 
     
@@ -1638,9 +1682,9 @@ ports to a specific level.</dd>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Port.php"><a href="files/src-lib-smr-port.html"><abbr title="src/lib/Smr/Port.php">Port.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">37</span>
+    <span class="phpdocumentor-element-found-in__line">35</span>
 
-            <a href="classes/Smr-Port.html#source-view.37" class="phpdocumentor-element-found-in__source" data-line="37" data-modal="source-view" data-src="files/src/lib/Smr/Port.php.txt"></a>
+            <a href="classes/Smr-Port.html#source-view.35" class="phpdocumentor-element-found-in__source" data-line="35" data-modal="source-view" data-src="files/src/lib/Smr/Port.php.txt"></a>
     </aside>
 
     
@@ -1667,9 +1711,9 @@ ports to a specific level.</dd>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Port.php"><a href="files/src-lib-smr-port.html"><abbr title="src/lib/Smr/Port.php">Port.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">38</span>
+    <span class="phpdocumentor-element-found-in__line">36</span>
 
-            <a href="classes/Smr-Port.html#source-view.38" class="phpdocumentor-element-found-in__source" data-line="38" data-modal="source-view" data-src="files/src/lib/Smr/Port.php.txt"></a>
+            <a href="classes/Smr-Port.html#source-view.36" class="phpdocumentor-element-found-in__source" data-line="36" data-modal="source-view" data-src="files/src/lib/Smr/Port.php.txt"></a>
     </aside>
 
     
@@ -1696,9 +1740,9 @@ ports to a specific level.</dd>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Port.php"><a href="files/src-lib-smr-port.html"><abbr title="src/lib/Smr/Port.php">Port.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">46</span>
+    <span class="phpdocumentor-element-found-in__line">44</span>
 
-            <a href="classes/Smr-Port.html#source-view.46" class="phpdocumentor-element-found-in__source" data-line="46" data-modal="source-view" data-src="files/src/lib/Smr/Port.php.txt"></a>
+            <a href="classes/Smr-Port.html#source-view.44" class="phpdocumentor-element-found-in__source" data-line="44" data-modal="source-view" data-src="files/src/lib/Smr/Port.php.txt"></a>
     </aside>
 
     
@@ -1725,9 +1769,9 @@ ports to a specific level.</dd>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Port.php"><a href="files/src-lib-smr-port.html"><abbr title="src/lib/Smr/Port.php">Port.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">32</span>
+    <span class="phpdocumentor-element-found-in__line">30</span>
 
-            <a href="classes/Smr-Port.html#source-view.32" class="phpdocumentor-element-found-in__source" data-line="32" data-modal="source-view" data-src="files/src/lib/Smr/Port.php.txt"></a>
+            <a href="classes/Smr-Port.html#source-view.30" class="phpdocumentor-element-found-in__source" data-line="30" data-modal="source-view" data-src="files/src/lib/Smr/Port.php.txt"></a>
     </aside>
 
     
@@ -1754,9 +1798,9 @@ ports to a specific level.</dd>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Port.php"><a href="files/src-lib-smr-port.html"><abbr title="src/lib/Smr/Port.php">Port.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">44</span>
+    <span class="phpdocumentor-element-found-in__line">42</span>
 
-            <a href="classes/Smr-Port.html#source-view.44" class="phpdocumentor-element-found-in__source" data-line="44" data-modal="source-view" data-src="files/src/lib/Smr/Port.php.txt"></a>
+            <a href="classes/Smr-Port.html#source-view.42" class="phpdocumentor-element-found-in__source" data-line="42" data-modal="source-view" data-src="files/src/lib/Smr/Port.php.txt"></a>
     </aside>
 
     
@@ -1783,9 +1827,9 @@ ports to a specific level.</dd>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Port.php"><a href="files/src-lib-smr-port.html"><abbr title="src/lib/Smr/Port.php">Port.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">31</span>
+    <span class="phpdocumentor-element-found-in__line">29</span>
 
-            <a href="classes/Smr-Port.html#source-view.31" class="phpdocumentor-element-found-in__source" data-line="31" data-modal="source-view" data-src="files/src/lib/Smr/Port.php.txt"></a>
+            <a href="classes/Smr-Port.html#source-view.29" class="phpdocumentor-element-found-in__source" data-line="29" data-modal="source-view" data-src="files/src/lib/Smr/Port.php.txt"></a>
     </aside>
 
     
@@ -1812,9 +1856,9 @@ ports to a specific level.</dd>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Port.php"><a href="files/src-lib-smr-port.html"><abbr title="src/lib/Smr/Port.php">Port.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">45</span>
+    <span class="phpdocumentor-element-found-in__line">43</span>
 
-            <a href="classes/Smr-Port.html#source-view.45" class="phpdocumentor-element-found-in__source" data-line="45" data-modal="source-view" data-src="files/src/lib/Smr/Port.php.txt"></a>
+            <a href="classes/Smr-Port.html#source-view.43" class="phpdocumentor-element-found-in__source" data-line="43" data-modal="source-view" data-src="files/src/lib/Smr/Port.php.txt"></a>
     </aside>
 
     
@@ -1857,9 +1901,9 @@ ports to a specific level.</dd>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Port.php"><a href="files/src-lib-smr-port.html"><abbr title="src/lib/Smr/Port.php">Port.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">53</span>
+    <span class="phpdocumentor-element-found-in__line">52</span>
 
-            <a href="classes/Smr-Port.html#source-view.53" class="phpdocumentor-element-found-in__source" data-line="53" data-modal="source-view" data-src="files/src/lib/Smr/Port.php.txt"></a>
+            <a href="classes/Smr-Port.html#source-view.52" class="phpdocumentor-element-found-in__source" data-line="52" data-modal="source-view" data-src="files/src/lib/Smr/Port.php.txt"></a>
     </aside>
 
     
@@ -1891,9 +1935,9 @@ ports to a specific level.</dd>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Port.php"><a href="files/src-lib-smr-port.html"><abbr title="src/lib/Smr/Port.php">Port.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">57</span>
+    <span class="phpdocumentor-element-found-in__line">56</span>
 
-            <a href="classes/Smr-Port.html#source-view.57" class="phpdocumentor-element-found-in__source" data-line="57" data-modal="source-view" data-src="files/src/lib/Smr/Port.php.txt"></a>
+            <a href="classes/Smr-Port.html#source-view.56" class="phpdocumentor-element-found-in__source" data-line="56" data-modal="source-view" data-src="files/src/lib/Smr/Port.php.txt"></a>
     </aside>
 
     
@@ -1925,9 +1969,9 @@ ports to a specific level.</dd>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Port.php"><a href="files/src-lib-smr-port.html"><abbr title="src/lib/Smr/Port.php">Port.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">59</span>
+    <span class="phpdocumentor-element-found-in__line">58</span>
 
-            <a href="classes/Smr-Port.html#source-view.59" class="phpdocumentor-element-found-in__source" data-line="59" data-modal="source-view" data-src="files/src/lib/Smr/Port.php.txt"></a>
+            <a href="classes/Smr-Port.html#source-view.58" class="phpdocumentor-element-found-in__source" data-line="58" data-modal="source-view" data-src="files/src/lib/Smr/Port.php.txt"></a>
     </aside>
 
     
@@ -1959,9 +2003,9 @@ ports to a specific level.</dd>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Port.php"><a href="files/src-lib-smr-port.html"><abbr title="src/lib/Smr/Port.php">Port.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">26</span>
+    <span class="phpdocumentor-element-found-in__line">24</span>
 
-            <a href="classes/Smr-Port.html#source-view.26" class="phpdocumentor-element-found-in__source" data-line="26" data-modal="source-view" data-src="files/src/lib/Smr/Port.php.txt"></a>
+            <a href="classes/Smr-Port.html#source-view.24" class="phpdocumentor-element-found-in__source" data-line="24" data-modal="source-view" data-src="files/src/lib/Smr/Port.php.txt"></a>
     </aside>
 
     
@@ -1993,9 +2037,9 @@ ports to a specific level.</dd>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Port.php"><a href="files/src-lib-smr-port.html"><abbr title="src/lib/Smr/Port.php">Port.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">24</span>
+    <span class="phpdocumentor-element-found-in__line">22</span>
 
-            <a href="classes/Smr-Port.html#source-view.24" class="phpdocumentor-element-found-in__source" data-line="24" data-modal="source-view" data-src="files/src/lib/Smr/Port.php.txt"></a>
+            <a href="classes/Smr-Port.html#source-view.22" class="phpdocumentor-element-found-in__source" data-line="22" data-modal="source-view" data-src="files/src/lib/Smr/Port.php.txt"></a>
     </aside>
 
     
@@ -2027,9 +2071,9 @@ ports to a specific level.</dd>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Port.php"><a href="files/src-lib-smr-port.html"><abbr title="src/lib/Smr/Port.php">Port.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">77</span>
+    <span class="phpdocumentor-element-found-in__line">76</span>
 
-            <a href="classes/Smr-Port.html#source-view.77" class="phpdocumentor-element-found-in__source" data-line="77" data-modal="source-view" data-src="files/src/lib/Smr/Port.php.txt"></a>
+            <a href="classes/Smr-Port.html#source-view.76" class="phpdocumentor-element-found-in__source" data-line="76" data-modal="source-view" data-src="files/src/lib/Smr/Port.php.txt"></a>
     </aside>
 
     
@@ -2061,9 +2105,9 @@ ports to a specific level.</dd>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Port.php"><a href="files/src-lib-smr-port.html"><abbr title="src/lib/Smr/Port.php">Port.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">76</span>
+    <span class="phpdocumentor-element-found-in__line">75</span>
 
-            <a href="classes/Smr-Port.html#source-view.76" class="phpdocumentor-element-found-in__source" data-line="76" data-modal="source-view" data-src="files/src/lib/Smr/Port.php.txt"></a>
+            <a href="classes/Smr-Port.html#source-view.75" class="phpdocumentor-element-found-in__source" data-line="75" data-modal="source-view" data-src="files/src/lib/Smr/Port.php.txt"></a>
     </aside>
 
     
@@ -2095,9 +2139,9 @@ ports to a specific level.</dd>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Port.php"><a href="files/src-lib-smr-port.html"><abbr title="src/lib/Smr/Port.php">Port.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">78</span>
+    <span class="phpdocumentor-element-found-in__line">77</span>
 
-            <a href="classes/Smr-Port.html#source-view.78" class="phpdocumentor-element-found-in__source" data-line="78" data-modal="source-view" data-src="files/src/lib/Smr/Port.php.txt"></a>
+            <a href="classes/Smr-Port.html#source-view.77" class="phpdocumentor-element-found-in__source" data-line="77" data-modal="source-view" data-src="files/src/lib/Smr/Port.php.txt"></a>
     </aside>
 
     
@@ -2129,9 +2173,9 @@ ports to a specific level.</dd>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Port.php"><a href="files/src-lib-smr-port.html"><abbr title="src/lib/Smr/Port.php">Port.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">56</span>
+    <span class="phpdocumentor-element-found-in__line">55</span>
 
-            <a href="classes/Smr-Port.html#source-view.56" class="phpdocumentor-element-found-in__source" data-line="56" data-modal="source-view" data-src="files/src/lib/Smr/Port.php.txt"></a>
+            <a href="classes/Smr-Port.html#source-view.55" class="phpdocumentor-element-found-in__source" data-line="55" data-modal="source-view" data-src="files/src/lib/Smr/Port.php.txt"></a>
     </aside>
 
     
@@ -2163,9 +2207,9 @@ ports to a specific level.</dd>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Port.php"><a href="files/src-lib-smr-port.html"><abbr title="src/lib/Smr/Port.php">Port.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">61</span>
+    <span class="phpdocumentor-element-found-in__line">60</span>
 
-            <a href="classes/Smr-Port.html#source-view.61" class="phpdocumentor-element-found-in__source" data-line="61" data-modal="source-view" data-src="files/src/lib/Smr/Port.php.txt"></a>
+            <a href="classes/Smr-Port.html#source-view.60" class="phpdocumentor-element-found-in__source" data-line="60" data-modal="source-view" data-src="files/src/lib/Smr/Port.php.txt"></a>
     </aside>
 
     
@@ -2197,9 +2241,9 @@ ports to a specific level.</dd>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Port.php"><a href="files/src-lib-smr-port.html"><abbr title="src/lib/Smr/Port.php">Port.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">63</span>
+    <span class="phpdocumentor-element-found-in__line">62</span>
 
-            <a href="classes/Smr-Port.html#source-view.63" class="phpdocumentor-element-found-in__source" data-line="63" data-modal="source-view" data-src="files/src/lib/Smr/Port.php.txt"></a>
+            <a href="classes/Smr-Port.html#source-view.62" class="phpdocumentor-element-found-in__source" data-line="62" data-modal="source-view" data-src="files/src/lib/Smr/Port.php.txt"></a>
     </aside>
 
     
@@ -2231,9 +2275,9 @@ ports to a specific level.</dd>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Port.php"><a href="files/src-lib-smr-port.html"><abbr title="src/lib/Smr/Port.php">Port.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">152</span>
+    <span class="phpdocumentor-element-found-in__line">151</span>
 
-            <a href="classes/Smr-Port.html#source-view.152" class="phpdocumentor-element-found-in__source" data-line="152" data-modal="source-view" data-src="files/src/lib/Smr/Port.php.txt"></a>
+            <a href="classes/Smr-Port.html#source-view.151" class="phpdocumentor-element-found-in__source" data-line="151" data-modal="source-view" data-src="files/src/lib/Smr/Port.php.txt"></a>
     </aside>
 
     
@@ -2265,9 +2309,9 @@ ports to a specific level.</dd>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Port.php"><a href="files/src-lib-smr-port.html"><abbr title="src/lib/Smr/Port.php">Port.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">66</span>
+    <span class="phpdocumentor-element-found-in__line">65</span>
 
-            <a href="classes/Smr-Port.html#source-view.66" class="phpdocumentor-element-found-in__source" data-line="66" data-modal="source-view" data-src="files/src/lib/Smr/Port.php.txt"></a>
+            <a href="classes/Smr-Port.html#source-view.65" class="phpdocumentor-element-found-in__source" data-line="65" data-modal="source-view" data-src="files/src/lib/Smr/Port.php.txt"></a>
     </aside>
 
     
@@ -2299,9 +2343,9 @@ ports to a specific level.</dd>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Port.php"><a href="files/src-lib-smr-port.html"><abbr title="src/lib/Smr/Port.php">Port.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">68</span>
+    <span class="phpdocumentor-element-found-in__line">67</span>
 
-            <a href="classes/Smr-Port.html#source-view.68" class="phpdocumentor-element-found-in__source" data-line="68" data-modal="source-view" data-src="files/src/lib/Smr/Port.php.txt"></a>
+            <a href="classes/Smr-Port.html#source-view.67" class="phpdocumentor-element-found-in__source" data-line="67" data-modal="source-view" data-src="files/src/lib/Smr/Port.php.txt"></a>
     </aside>
 
     
@@ -2333,9 +2377,9 @@ ports to a specific level.</dd>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Port.php"><a href="files/src-lib-smr-port.html"><abbr title="src/lib/Smr/Port.php">Port.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">74</span>
+    <span class="phpdocumentor-element-found-in__line">73</span>
 
-            <a href="classes/Smr-Port.html#source-view.74" class="phpdocumentor-element-found-in__source" data-line="74" data-modal="source-view" data-src="files/src/lib/Smr/Port.php.txt"></a>
+            <a href="classes/Smr-Port.html#source-view.73" class="phpdocumentor-element-found-in__source" data-line="73" data-modal="source-view" data-src="files/src/lib/Smr/Port.php.txt"></a>
     </aside>
 
     
@@ -2367,9 +2411,9 @@ ports to a specific level.</dd>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Port.php"><a href="files/src-lib-smr-port.html"><abbr title="src/lib/Smr/Port.php">Port.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">70</span>
+    <span class="phpdocumentor-element-found-in__line">69</span>
 
-            <a href="classes/Smr-Port.html#source-view.70" class="phpdocumentor-element-found-in__source" data-line="70" data-modal="source-view" data-src="files/src/lib/Smr/Port.php.txt"></a>
+            <a href="classes/Smr-Port.html#source-view.69" class="phpdocumentor-element-found-in__source" data-line="69" data-modal="source-view" data-src="files/src/lib/Smr/Port.php.txt"></a>
     </aside>
 
     
@@ -2401,9 +2445,9 @@ ports to a specific level.</dd>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Port.php"><a href="files/src-lib-smr-port.html"><abbr title="src/lib/Smr/Port.php">Port.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">72</span>
+    <span class="phpdocumentor-element-found-in__line">71</span>
 
-            <a href="classes/Smr-Port.html#source-view.72" class="phpdocumentor-element-found-in__source" data-line="72" data-modal="source-view" data-src="files/src/lib/Smr/Port.php.txt"></a>
+            <a href="classes/Smr-Port.html#source-view.71" class="phpdocumentor-element-found-in__source" data-line="71" data-modal="source-view" data-src="files/src/lib/Smr/Port.php.txt"></a>
     </aside>
 
     
@@ -2435,9 +2479,9 @@ ports to a specific level.</dd>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Port.php"><a href="files/src-lib-smr-port.html"><abbr title="src/lib/Smr/Port.php">Port.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">80</span>
+    <span class="phpdocumentor-element-found-in__line">79</span>
 
-            <a href="classes/Smr-Port.html#source-view.80" class="phpdocumentor-element-found-in__source" data-line="80" data-modal="source-view" data-src="files/src/lib/Smr/Port.php.txt"></a>
+            <a href="classes/Smr-Port.html#source-view.79" class="phpdocumentor-element-found-in__source" data-line="79" data-modal="source-view" data-src="files/src/lib/Smr/Port.php.txt"></a>
     </aside>
 
     
@@ -2469,9 +2513,9 @@ ports to a specific level.</dd>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Port.php"><a href="files/src-lib-smr-port.html"><abbr title="src/lib/Smr/Port.php">Port.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">81</span>
+    <span class="phpdocumentor-element-found-in__line">80</span>
 
-            <a href="classes/Smr-Port.html#source-view.81" class="phpdocumentor-element-found-in__source" data-line="81" data-modal="source-view" data-src="files/src/lib/Smr/Port.php.txt"></a>
+            <a href="classes/Smr-Port.html#source-view.80" class="phpdocumentor-element-found-in__source" data-line="80" data-modal="source-view" data-src="files/src/lib/Smr/Port.php.txt"></a>
     </aside>
 
     
@@ -2503,9 +2547,9 @@ ports to a specific level.</dd>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Port.php"><a href="files/src-lib-smr-port.html"><abbr title="src/lib/Smr/Port.php">Port.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">60</span>
+    <span class="phpdocumentor-element-found-in__line">59</span>
 
-            <a href="classes/Smr-Port.html#source-view.60" class="phpdocumentor-element-found-in__source" data-line="60" data-modal="source-view" data-src="files/src/lib/Smr/Port.php.txt"></a>
+            <a href="classes/Smr-Port.html#source-view.59" class="phpdocumentor-element-found-in__source" data-line="59" data-modal="source-view" data-src="files/src/lib/Smr/Port.php.txt"></a>
     </aside>
 
     
@@ -2571,9 +2615,9 @@ ports to a specific level.</dd>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Port.php"><a href="files/src-lib-smr-port.html"><abbr title="src/lib/Smr/Port.php">Port.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">58</span>
+    <span class="phpdocumentor-element-found-in__line">57</span>
 
-            <a href="classes/Smr-Port.html#source-view.58" class="phpdocumentor-element-found-in__source" data-line="58" data-modal="source-view" data-src="files/src/lib/Smr/Port.php.txt"></a>
+            <a href="classes/Smr-Port.html#source-view.57" class="phpdocumentor-element-found-in__source" data-line="57" data-modal="source-view" data-src="files/src/lib/Smr/Port.php.txt"></a>
     </aside>
 
     
@@ -2605,9 +2649,9 @@ ports to a specific level.</dd>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Port.php"><a href="files/src-lib-smr-port.html"><abbr title="src/lib/Smr/Port.php">Port.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">153</span>
+    <span class="phpdocumentor-element-found-in__line">152</span>
 
-            <a href="classes/Smr-Port.html#source-view.153" class="phpdocumentor-element-found-in__source" data-line="153" data-modal="source-view" data-src="files/src/lib/Smr/Port.php.txt"></a>
+            <a href="classes/Smr-Port.html#source-view.152" class="phpdocumentor-element-found-in__source" data-line="152" data-modal="source-view" data-src="files/src/lib/Smr/Port.php.txt"></a>
     </aside>
 
     
@@ -2639,9 +2683,9 @@ ports to a specific level.</dd>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Port.php"><a href="files/src-lib-smr-port.html"><abbr title="src/lib/Smr/Port.php">Port.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">55</span>
+    <span class="phpdocumentor-element-found-in__line">54</span>
 
-            <a href="classes/Smr-Port.html#source-view.55" class="phpdocumentor-element-found-in__source" data-line="55" data-modal="source-view" data-src="files/src/lib/Smr/Port.php.txt"></a>
+            <a href="classes/Smr-Port.html#source-view.54" class="phpdocumentor-element-found-in__source" data-line="54" data-modal="source-view" data-src="files/src/lib/Smr/Port.php.txt"></a>
     </aside>
 
     
@@ -2673,9 +2717,9 @@ ports to a specific level.</dd>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Port.php"><a href="files/src-lib-smr-port.html"><abbr title="src/lib/Smr/Port.php">Port.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">62</span>
+    <span class="phpdocumentor-element-found-in__line">61</span>
 
-            <a href="classes/Smr-Port.html#source-view.62" class="phpdocumentor-element-found-in__source" data-line="62" data-modal="source-view" data-src="files/src/lib/Smr/Port.php.txt"></a>
+            <a href="classes/Smr-Port.html#source-view.61" class="phpdocumentor-element-found-in__source" data-line="61" data-modal="source-view" data-src="files/src/lib/Smr/Port.php.txt"></a>
     </aside>
 
     
@@ -2712,9 +2756,9 @@ ports to a specific level.</dd>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Port.php"><a href="files/src-lib-smr-port.html"><abbr title="src/lib/Smr/Port.php">Port.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">1253</span>
+    <span class="phpdocumentor-element-found-in__line">1237</span>
 
-            <a href="classes/Smr-Port.html#source-view.1253" class="phpdocumentor-element-found-in__source" data-line="1253" data-modal="source-view" data-src="files/src/lib/Smr/Port.php.txt"></a>
+            <a href="classes/Smr-Port.html#source-view.1237" class="phpdocumentor-element-found-in__source" data-line="1237" data-modal="source-view" data-src="files/src/lib/Smr/Port.php.txt"></a>
     </aside>
 
     
@@ -2744,9 +2788,9 @@ ports to a specific level.</dd>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Port.php"><a href="files/src-lib-smr-port.html"><abbr title="src/lib/Smr/Port.php">Port.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">1260</span>
+    <span class="phpdocumentor-element-found-in__line">1244</span>
 
-            <a href="classes/Smr-Port.html#source-view.1260" class="phpdocumentor-element-found-in__source" data-line="1260" data-modal="source-view" data-src="files/src/lib/Smr/Port.php.txt"></a>
+            <a href="classes/Smr-Port.html#source-view.1244" class="phpdocumentor-element-found-in__source" data-line="1244" data-modal="source-view" data-src="files/src/lib/Smr/Port.php.txt"></a>
     </aside>
 
     
@@ -2776,9 +2820,9 @@ ports to a specific level.</dd>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Port.php"><a href="files/src-lib-smr-port.html"><abbr title="src/lib/Smr/Port.php">Port.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">1164</span>
+    <span class="phpdocumentor-element-found-in__line">1148</span>
 
-            <a href="classes/Smr-Port.html#source-view.1164" class="phpdocumentor-element-found-in__source" data-line="1164" data-modal="source-view" data-src="files/src/lib/Smr/Port.php.txt"></a>
+            <a href="classes/Smr-Port.html#source-view.1148" class="phpdocumentor-element-found-in__source" data-line="1148" data-modal="source-view" data-src="files/src/lib/Smr/Port.php.txt"></a>
     </aside>
 
     
@@ -2818,9 +2862,9 @@ ports to a specific level.</dd>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Port.php"><a href="files/src-lib-smr-port.html"><abbr title="src/lib/Smr/Port.php">Port.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">1171</span>
+    <span class="phpdocumentor-element-found-in__line">1155</span>
 
-            <a href="classes/Smr-Port.html#source-view.1171" class="phpdocumentor-element-found-in__source" data-line="1171" data-modal="source-view" data-src="files/src/lib/Smr/Port.php.txt"></a>
+            <a href="classes/Smr-Port.html#source-view.1155" class="phpdocumentor-element-found-in__source" data-line="1155" data-modal="source-view" data-src="files/src/lib/Smr/Port.php.txt"></a>
     </aside>
 
     
@@ -2864,9 +2908,9 @@ ports to a specific level.</dd>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Port.php"><a href="files/src-lib-smr-port.html"><abbr title="src/lib/Smr/Port.php">Port.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">575</span>
+    <span class="phpdocumentor-element-found-in__line">574</span>
 
-            <a href="classes/Smr-Port.html#source-view.575" class="phpdocumentor-element-found-in__source" data-line="575" data-modal="source-view" data-src="files/src/lib/Smr/Port.php.txt"></a>
+            <a href="classes/Smr-Port.html#source-view.574" class="phpdocumentor-element-found-in__source" data-line="574" data-modal="source-view" data-src="files/src/lib/Smr/Port.php.txt"></a>
     </aside>
 
         <p class="phpdocumentor-summary">Add good with given ID to the port, with transaction $type
@@ -2919,9 +2963,9 @@ calling this function directly.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Port.php"><a href="files/src-lib-smr-port.html"><abbr title="src/lib/Smr/Port.php">Port.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">673</span>
+    <span class="phpdocumentor-element-found-in__line">672</span>
 
-            <a href="classes/Smr-Port.html#source-view.673" class="phpdocumentor-element-found-in__source" data-line="673" data-modal="source-view" data-src="files/src/lib/Smr/Port.php.txt"></a>
+            <a href="classes/Smr-Port.html#source-view.672" class="phpdocumentor-element-found-in__source" data-line="672" data-modal="source-view" data-src="files/src/lib/Smr/Port.php.txt"></a>
     </aside>
 
     
@@ -2968,9 +3012,9 @@ calling this function directly.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Port.php"><a href="files/src-lib-smr-port.html"><abbr title="src/lib/Smr/Port.php">Port.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">435</span>
+    <span class="phpdocumentor-element-found-in__line">434</span>
 
-            <a href="classes/Smr-Port.html#source-view.435" class="phpdocumentor-element-found-in__source" data-line="435" data-modal="source-view" data-src="files/src/lib/Smr/Port.php.txt"></a>
+            <a href="classes/Smr-Port.html#source-view.434" class="phpdocumentor-element-found-in__source" data-line="434" data-modal="source-view" data-src="files/src/lib/Smr/Port.php.txt"></a>
     </aside>
 
     
@@ -3038,9 +3082,9 @@ calling this function directly.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Port.php"><a href="files/src-lib-smr-port.html"><abbr title="src/lib/Smr/Port.php">Port.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">1091</span>
+    <span class="phpdocumentor-element-found-in__line">1090</span>
 
-            <a href="classes/Smr-Port.html#source-view.1091" class="phpdocumentor-element-found-in__source" data-line="1091" data-modal="source-view" data-src="files/src/lib/Smr/Port.php.txt"></a>
+            <a href="classes/Smr-Port.html#source-view.1090" class="phpdocumentor-element-found-in__source" data-line="1090" data-modal="source-view" data-src="files/src/lib/Smr/Port.php.txt"></a>
     </aside>
 
         <p class="phpdocumentor-summary">Return the fraction of max exp earned.</p>
@@ -3091,6 +3135,43 @@ calling this function directly.</p>
             -public
                                                         "
 >
+    <h4 class="phpdocumentor-element__name" id="method_canBeDestroyed">
+        canBeDestroyed()
+        <a href="classes/Smr-Port.html#method_canBeDestroyed" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Port.php"><a href="files/src-lib-smr-port.html"><abbr title="src/lib/Smr/Port.php">Port.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">1547</span>
+
+            <a href="classes/Smr-Port.html#source-view.1547" class="phpdocumentor-element-found-in__source" data-line="1547" data-modal="source-view" data-src="files/src/lib/Smr/Port.php.txt"></a>
+    </aside>
+
+        <p class="phpdocumentor-summary">Can ports be destroyed after a successful port raid?</p>
+
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+                    <span class="phpdocumentor-signature__name">canBeDestroyed</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">bool</span></code>
+
+    <div class="phpdocumentor-label-line">
+        </div>
+    
+    
+    
+
+            <section>
+        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
+        <span class="phpdocumentor-signature__response_type">bool</span>
+            </section>
+
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                                        "
+>
     <h4 class="phpdocumentor-element__name" id="method_checkDefenses">
         checkDefenses()
         <a href="classes/Smr-Port.html#method_checkDefenses" class="headerlink"><i class="fas fa-link"></i></a>
@@ -3099,9 +3180,9 @@ calling this function directly.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Port.php"><a href="files/src-lib-smr-port.html"><abbr title="src/lib/Smr/Port.php">Port.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">203</span>
+    <span class="phpdocumentor-element-found-in__line">202</span>
 
-            <a href="classes/Smr-Port.html#source-view.203" class="phpdocumentor-element-found-in__source" data-line="203" data-modal="source-view" data-src="files/src/lib/Smr/Port.php.txt"></a>
+            <a href="classes/Smr-Port.html#source-view.202" class="phpdocumentor-element-found-in__source" data-line="202" data-modal="source-view" data-src="files/src/lib/Smr/Port.php.txt"></a>
     </aside>
 
     
@@ -3131,9 +3212,9 @@ calling this function directly.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Port.php"><a href="files/src-lib-smr-port.html"><abbr title="src/lib/Smr/Port.php">Port.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">622</span>
+    <span class="phpdocumentor-element-found-in__line">621</span>
 
-            <a href="classes/Smr-Port.html#source-view.622" class="phpdocumentor-element-found-in__source" data-line="622" data-modal="source-view" data-src="files/src/lib/Smr/Port.php.txt"></a>
+            <a href="classes/Smr-Port.html#source-view.621" class="phpdocumentor-element-found-in__source" data-line="621" data-modal="source-view" data-src="files/src/lib/Smr/Port.php.txt"></a>
     </aside>
 
         <p class="phpdocumentor-summary">Returns the number of port level downgrades due to damage taken.</p>
@@ -3178,9 +3259,9 @@ calling this function directly.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Port.php"><a href="files/src-lib-smr-port.html"><abbr title="src/lib/Smr/Port.php">Port.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">451</span>
+    <span class="phpdocumentor-element-found-in__line">450</span>
 
-            <a href="classes/Smr-Port.html#source-view.451" class="phpdocumentor-element-found-in__source" data-line="451" data-modal="source-view" data-src="files/src/lib/Smr/Port.php.txt"></a>
+            <a href="classes/Smr-Port.html#source-view.450" class="phpdocumentor-element-found-in__source" data-line="450" data-modal="source-view" data-src="files/src/lib/Smr/Port.php.txt"></a>
     </aside>
 
     
@@ -3204,6 +3285,53 @@ calling this function directly.</p>
         class="phpdocumentor-element
             -method
             -public
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="method_claimPort">
+        claimPort()
+        <a href="classes/Smr-Port.html#method_claimPort" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Port.php"><a href="files/src-lib-smr-port.html"><abbr title="src/lib/Smr/Port.php">Port.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">1505</span>
+
+            <a href="classes/Smr-Port.html#source-view.1505" class="phpdocumentor-element-found-in__source" data-line="1505" data-modal="source-view" data-src="files/src/lib/Smr/Port.php.txt"></a>
+    </aside>
+
+        <p class="phpdocumentor-summary">Claim port for your race after a successful port raid.</p>
+
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+                    <span class="phpdocumentor-signature__name">claimPort</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type"><a href="classes/Smr-AbstractPlayer.html"><abbr title="\Smr\AbstractPlayer">AbstractPlayer</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$killer</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">int</span></code>
+
+    <div class="phpdocumentor-label-line">
+        </div>
+    
+        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
+    <dl class="phpdocumentor-argument-list">
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$killer</span>
+                : <span class="phpdocumentor-signature__argument__return-type"><a href="classes/Smr-AbstractPlayer.html"><abbr title="\Smr\AbstractPlayer">AbstractPlayer</abbr></a></span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                
+            </dd>
+            </dl>
+
+    
+
+            <section>
+        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
+        <span class="phpdocumentor-signature__response_type">int</span>
+            </section>
+
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
                                     -static                    "
 >
     <h4 class="phpdocumentor-element__name" id="method_clearCache">
@@ -3214,9 +3342,9 @@ calling this function directly.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Port.php"><a href="files/src-lib-smr-port.html"><abbr title="src/lib/Smr/Port.php">Port.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">83</span>
+    <span class="phpdocumentor-element-found-in__line">82</span>
 
-            <a href="classes/Smr-Port.html#source-view.83" class="phpdocumentor-element-found-in__source" data-line="83" data-modal="source-view" data-src="files/src/lib/Smr/Port.php.txt"></a>
+            <a href="classes/Smr-Port.html#source-view.82" class="phpdocumentor-element-found-in__source" data-line="82" data-modal="source-view" data-src="files/src/lib/Smr/Port.php.txt"></a>
     </aside>
 
     
@@ -3246,9 +3374,9 @@ calling this function directly.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Port.php"><a href="files/src-lib-smr-port.html"><abbr title="src/lib/Smr/Port.php">Port.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">131</span>
+    <span class="phpdocumentor-element-found-in__line">130</span>
 
-            <a href="classes/Smr-Port.html#source-view.131" class="phpdocumentor-element-found-in__source" data-line="131" data-modal="source-view" data-src="files/src/lib/Smr/Port.php.txt"></a>
+            <a href="classes/Smr-Port.html#source-view.130" class="phpdocumentor-element-found-in__source" data-line="130" data-modal="source-view" data-src="files/src/lib/Smr/Port.php.txt"></a>
     </aside>
 
     
@@ -3299,9 +3427,9 @@ calling this function directly.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Port.php"><a href="files/src-lib-smr-port.html"><abbr title="src/lib/Smr/Port.php">Port.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">1027</span>
+    <span class="phpdocumentor-element-found-in__line">1026</span>
 
-            <a href="classes/Smr-Port.html#source-view.1027" class="phpdocumentor-element-found-in__source" data-line="1027" data-modal="source-view" data-src="files/src/lib/Smr/Port.php.txt"></a>
+            <a href="classes/Smr-Port.html#source-view.1026" class="phpdocumentor-element-found-in__source" data-line="1026" data-modal="source-view" data-src="files/src/lib/Smr/Port.php.txt"></a>
     </aside>
 
     
@@ -3341,9 +3469,9 @@ calling this function directly.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Port.php"><a href="files/src-lib-smr-port.html"><abbr title="src/lib/Smr/Port.php">Port.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">1023</span>
+    <span class="phpdocumentor-element-found-in__line">1022</span>
 
-            <a href="classes/Smr-Port.html#source-view.1023" class="phpdocumentor-element-found-in__source" data-line="1023" data-modal="source-view" data-src="files/src/lib/Smr/Port.php.txt"></a>
+            <a href="classes/Smr-Port.html#source-view.1022" class="phpdocumentor-element-found-in__source" data-line="1022" data-modal="source-view" data-src="files/src/lib/Smr/Port.php.txt"></a>
     </aside>
 
     
@@ -3383,9 +3511,9 @@ calling this function directly.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Port.php"><a href="files/src-lib-smr-port.html"><abbr title="src/lib/Smr/Port.php">Port.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">787</span>
+    <span class="phpdocumentor-element-found-in__line">786</span>
 
-            <a href="classes/Smr-Port.html#source-view.787" class="phpdocumentor-element-found-in__source" data-line="787" data-modal="source-view" data-src="files/src/lib/Smr/Port.php.txt"></a>
+            <a href="classes/Smr-Port.html#source-view.786" class="phpdocumentor-element-found-in__source" data-line="786" data-modal="source-view" data-src="files/src/lib/Smr/Port.php.txt"></a>
     </aside>
 
     
@@ -3425,9 +3553,9 @@ calling this function directly.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Port.php"><a href="files/src-lib-smr-port.html"><abbr title="src/lib/Smr/Port.php">Port.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">396</span>
+    <span class="phpdocumentor-element-found-in__line">395</span>
 
-            <a href="classes/Smr-Port.html#source-view.396" class="phpdocumentor-element-found-in__source" data-line="396" data-modal="source-view" data-src="files/src/lib/Smr/Port.php.txt"></a>
+            <a href="classes/Smr-Port.html#source-view.395" class="phpdocumentor-element-found-in__source" data-line="395" data-modal="source-view" data-src="files/src/lib/Smr/Port.php.txt"></a>
     </aside>
 
     
@@ -3481,9 +3609,9 @@ calling this function directly.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Port.php"><a href="files/src-lib-smr-port.html"><abbr title="src/lib/Smr/Port.php">Port.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">408</span>
+    <span class="phpdocumentor-element-found-in__line">407</span>
 
-            <a href="classes/Smr-Port.html#source-view.408" class="phpdocumentor-element-found-in__source" data-line="408" data-modal="source-view" data-src="files/src/lib/Smr/Port.php.txt"></a>
+            <a href="classes/Smr-Port.html#source-view.407" class="phpdocumentor-element-found-in__source" data-line="407" data-modal="source-view" data-src="files/src/lib/Smr/Port.php.txt"></a>
     </aside>
 
     
@@ -3530,9 +3658,9 @@ calling this function directly.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Port.php"><a href="files/src-lib-smr-port.html"><abbr title="src/lib/Smr/Port.php">Port.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">848</span>
+    <span class="phpdocumentor-element-found-in__line">847</span>
 
-            <a href="classes/Smr-Port.html#source-view.848" class="phpdocumentor-element-found-in__source" data-line="848" data-modal="source-view" data-src="files/src/lib/Smr/Port.php.txt"></a>
+            <a href="classes/Smr-Port.html#source-view.847" class="phpdocumentor-element-found-in__source" data-line="847" data-modal="source-view" data-src="files/src/lib/Smr/Port.php.txt"></a>
     </aside>
 
     
@@ -3572,9 +3700,9 @@ calling this function directly.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Port.php"><a href="files/src-lib-smr-port.html"><abbr title="src/lib/Smr/Port.php">Port.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">1019</span>
+    <span class="phpdocumentor-element-found-in__line">1018</span>
 
-            <a href="classes/Smr-Port.html#source-view.1019" class="phpdocumentor-element-found-in__source" data-line="1019" data-modal="source-view" data-src="files/src/lib/Smr/Port.php.txt"></a>
+            <a href="classes/Smr-Port.html#source-view.1018" class="phpdocumentor-element-found-in__source" data-line="1018" data-modal="source-view" data-src="files/src/lib/Smr/Port.php.txt"></a>
     </aside>
 
     
@@ -3614,9 +3742,9 @@ calling this function directly.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Port.php"><a href="files/src-lib-smr-port.html"><abbr title="src/lib/Smr/Port.php">Port.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">816</span>
+    <span class="phpdocumentor-element-found-in__line">815</span>
 
-            <a href="classes/Smr-Port.html#source-view.816" class="phpdocumentor-element-found-in__source" data-line="816" data-modal="source-view" data-src="files/src/lib/Smr/Port.php.txt"></a>
+            <a href="classes/Smr-Port.html#source-view.815" class="phpdocumentor-element-found-in__source" data-line="815" data-modal="source-view" data-src="files/src/lib/Smr/Port.php.txt"></a>
     </aside>
 
     
@@ -3648,6 +3776,53 @@ calling this function directly.</p>
             -public
                                                         "
 >
+    <h4 class="phpdocumentor-element__name" id="method_destroyPort">
+        destroyPort()
+        <a href="classes/Smr-Port.html#method_destroyPort" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Port.php"><a href="files/src-lib-smr-port.html"><abbr title="src/lib/Smr/Port.php">Port.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">1516</span>
+
+            <a href="classes/Smr-Port.html#source-view.1516" class="phpdocumentor-element-found-in__source" data-line="1516" data-modal="source-view" data-src="files/src/lib/Smr/Port.php.txt"></a>
+    </aside>
+
+        <p class="phpdocumentor-summary">Permanently destroy the port after a successful port raid.</p>
+
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+                    <span class="phpdocumentor-signature__name">destroyPort</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type"><a href="classes/Smr-AbstractPlayer.html"><abbr title="\Smr\AbstractPlayer">AbstractPlayer</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$killer</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">int</span></code>
+
+    <div class="phpdocumentor-label-line">
+        </div>
+    
+        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
+    <dl class="phpdocumentor-argument-list">
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$killer</span>
+                : <span class="phpdocumentor-signature__argument__return-type"><a href="classes/Smr-AbstractPlayer.html"><abbr title="\Smr\AbstractPlayer">AbstractPlayer</abbr></a></span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                
+            </dd>
+            </dl>
+
+    
+
+            <section>
+        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
+        <span class="phpdocumentor-signature__response_type">int</span>
+            </section>
+
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                                        "
+>
     <h4 class="phpdocumentor-element__name" id="method_exists">
         exists()
         <a href="classes/Smr-Port.html#method_exists" class="headerlink"><i class="fas fa-link"></i></a>
@@ -3656,9 +3831,9 @@ calling this function directly.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Port.php"><a href="files/src-lib-smr-port.html"><abbr title="src/lib/Smr/Port.php">Port.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">1015</span>
+    <span class="phpdocumentor-element-found-in__line">1014</span>
 
-            <a href="classes/Smr-Port.html#source-view.1015" class="phpdocumentor-element-found-in__source" data-line="1015" data-modal="source-view" data-src="files/src/lib/Smr/Port.php.txt"></a>
+            <a href="classes/Smr-Port.html#source-view.1014" class="phpdocumentor-element-found-in__source" data-line="1014" data-modal="source-view" data-src="files/src/lib/Smr/Port.php.txt"></a>
     </aside>
 
     
@@ -3692,9 +3867,9 @@ calling this function directly.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Port.php"><a href="files/src-lib-smr-port.html"><abbr title="src/lib/Smr/Port.php">Port.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">308</span>
+    <span class="phpdocumentor-element-found-in__line">307</span>
 
-            <a href="classes/Smr-Port.html#source-view.308" class="phpdocumentor-element-found-in__source" data-line="308" data-modal="source-view" data-src="files/src/lib/Smr/Port.php.txt"></a>
+            <a href="classes/Smr-Port.html#source-view.307" class="phpdocumentor-element-found-in__source" data-line="307" data-modal="source-view" data-src="files/src/lib/Smr/Port.php.txt"></a>
     </aside>
 
     
@@ -3728,9 +3903,9 @@ calling this function directly.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Port.php"><a href="files/src-lib-smr-port.html"><abbr title="src/lib/Smr/Port.php">Port.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">932</span>
+    <span class="phpdocumentor-element-found-in__line">931</span>
 
-            <a href="classes/Smr-Port.html#source-view.932" class="phpdocumentor-element-found-in__source" data-line="932" data-modal="source-view" data-src="files/src/lib/Smr/Port.php.txt"></a>
+            <a href="classes/Smr-Port.html#source-view.931" class="phpdocumentor-element-found-in__source" data-line="931" data-modal="source-view" data-src="files/src/lib/Smr/Port.php.txt"></a>
     </aside>
 
     
@@ -3764,9 +3939,9 @@ calling this function directly.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Port.php"><a href="files/src-lib-smr-port.html"><abbr title="src/lib/Smr/Port.php">Port.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">1447</span>
+    <span class="phpdocumentor-element-found-in__line">1431</span>
 
-            <a href="classes/Smr-Port.html#source-view.1447" class="phpdocumentor-element-found-in__source" data-line="1447" data-modal="source-view" data-src="files/src/lib/Smr/Port.php.txt"></a>
+            <a href="classes/Smr-Port.html#source-view.1431" class="phpdocumentor-element-found-in__source" data-line="1431" data-modal="source-view" data-src="files/src/lib/Smr/Port.php.txt"></a>
     </aside>
 
     
@@ -3800,9 +3975,9 @@ calling this function directly.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Port.php"><a href="files/src-lib-smr-port.html"><abbr title="src/lib/Smr/Port.php">Port.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">1110</span>
+    <span class="phpdocumentor-element-found-in__line">1109</span>
 
-            <a href="classes/Smr-Port.html#source-view.1110" class="phpdocumentor-element-found-in__source" data-line="1110" data-modal="source-view" data-src="files/src/lib/Smr/Port.php.txt"></a>
+            <a href="classes/Smr-Port.html#source-view.1109" class="phpdocumentor-element-found-in__source" data-line="1109" data-modal="source-view" data-src="files/src/lib/Smr/Port.php.txt"></a>
     </aside>
 
     
@@ -3836,9 +4011,9 @@ calling this function directly.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Port.php"><a href="files/src-lib-smr-port.html"><abbr title="src/lib/Smr/Port.php">Port.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">991</span>
+    <span class="phpdocumentor-element-found-in__line">990</span>
 
-            <a href="classes/Smr-Port.html#source-view.991" class="phpdocumentor-element-found-in__source" data-line="991" data-modal="source-view" data-src="files/src/lib/Smr/Port.php.txt"></a>
+            <a href="classes/Smr-Port.html#source-view.990" class="phpdocumentor-element-found-in__source" data-line="990" data-modal="source-view" data-src="files/src/lib/Smr/Port.php.txt"></a>
     </aside>
 
     
@@ -3872,9 +4047,9 @@ calling this function directly.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Port.php"><a href="files/src-lib-smr-port.html"><abbr title="src/lib/Smr/Port.php">Port.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">147</span>
+    <span class="phpdocumentor-element-found-in__line">146</span>
 
-            <a href="classes/Smr-Port.html#source-view.147" class="phpdocumentor-element-found-in__source" data-line="147" data-modal="source-view" data-src="files/src/lib/Smr/Port.php.txt"></a>
+            <a href="classes/Smr-Port.html#source-view.146" class="phpdocumentor-element-found-in__source" data-line="146" data-modal="source-view" data-src="files/src/lib/Smr/Port.php.txt"></a>
     </aside>
 
     
@@ -3925,9 +4100,9 @@ calling this function directly.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Port.php"><a href="files/src-lib-smr-port.html"><abbr title="src/lib/Smr/Port.php">Port.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">326</span>
+    <span class="phpdocumentor-element-found-in__line">325</span>
 
-            <a href="classes/Smr-Port.html#source-view.326" class="phpdocumentor-element-found-in__source" data-line="326" data-modal="source-view" data-src="files/src/lib/Smr/Port.php.txt"></a>
+            <a href="classes/Smr-Port.html#source-view.325" class="phpdocumentor-element-found-in__source" data-line="325" data-modal="source-view" data-src="files/src/lib/Smr/Port.php.txt"></a>
     </aside>
 
         <p class="phpdocumentor-summary">Get IDs of goods that can be bought from the port by the trader</p>
@@ -3962,9 +4137,9 @@ calling this function directly.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Port.php"><a href="files/src-lib-smr-port.html"><abbr title="src/lib/Smr/Port.php">Port.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">1222</span>
+    <span class="phpdocumentor-element-found-in__line">1206</span>
 
-            <a href="classes/Smr-Port.html#source-view.1222" class="phpdocumentor-element-found-in__source" data-line="1222" data-modal="source-view" data-src="files/src/lib/Smr/Port.php.txt"></a>
+            <a href="classes/Smr-Port.html#source-view.1206" class="phpdocumentor-element-found-in__source" data-line="1206" data-modal="source-view" data-src="files/src/lib/Smr/Port.php.txt"></a>
     </aside>
 
     
@@ -4046,9 +4221,9 @@ calling this function directly.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Port.php"><a href="files/src-lib-smr-port.html"><abbr title="src/lib/Smr/Port.php">Port.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">1147</span>
+    <span class="phpdocumentor-element-found-in__line">1131</span>
 
-            <a href="classes/Smr-Port.html#source-view.1147" class="phpdocumentor-element-found-in__source" data-line="1147" data-modal="source-view" data-src="files/src/lib/Smr/Port.php.txt"></a>
+            <a href="classes/Smr-Port.html#source-view.1131" class="phpdocumentor-element-found-in__source" data-line="1131" data-modal="source-view" data-src="files/src/lib/Smr/Port.php.txt"></a>
     </aside>
 
     
@@ -4082,9 +4257,9 @@ calling this function directly.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Port.php"><a href="files/src-lib-smr-port.html"><abbr title="src/lib/Smr/Port.php">Port.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">924</span>
+    <span class="phpdocumentor-element-found-in__line">923</span>
 
-            <a href="classes/Smr-Port.html#source-view.924" class="phpdocumentor-element-found-in__source" data-line="924" data-modal="source-view" data-src="files/src/lib/Smr/Port.php.txt"></a>
+            <a href="classes/Smr-Port.html#source-view.923" class="phpdocumentor-element-found-in__source" data-line="923" data-modal="source-view" data-src="files/src/lib/Smr/Port.php.txt"></a>
     </aside>
 
     
@@ -4110,42 +4285,6 @@ calling this function directly.</p>
             -public
                                                         "
 >
-    <h4 class="phpdocumentor-element__name" id="method_getClaimHREF">
-        getClaimHREF()
-        <a href="classes/Smr-Port.html#method_getClaimHREF" class="headerlink"><i class="fas fa-link"></i></a>
-
-    </h4>
-    <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Port.php"><a href="files/src-lib-smr-port.html"><abbr title="src/lib/Smr/Port.php">Port.php</abbr></a></abbr>
-    :
-    <span class="phpdocumentor-element-found-in__line">1114</span>
-
-            <a href="classes/Smr-Port.html#source-view.1114" class="phpdocumentor-element-found-in__source" data-line="1114" data-modal="source-view" data-src="files/src/lib/Smr/Port.php.txt"></a>
-    </aside>
-
-    
-    <code class="phpdocumentor-code phpdocumentor-signature ">
-    <span class="phpdocumentor-signature__visibility">public</span>
-                    <span class="phpdocumentor-signature__name">getClaimHREF</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">string</span></code>
-
-    <div class="phpdocumentor-label-line">
-        </div>
-    
-    
-    
-
-            <section>
-        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
-        <span class="phpdocumentor-signature__response_type">string</span>
-            </section>
-
-</article>
-                    <article
-        class="phpdocumentor-element
-            -method
-            -public
-                                                        "
->
     <h4 class="phpdocumentor-element__name" id="method_getCredits">
         getCredits()
         <a href="classes/Smr-Port.html#method_getCredits" class="headerlink"><i class="fas fa-link"></i></a>
@@ -4154,9 +4293,9 @@ calling this function directly.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Port.php"><a href="files/src-lib-smr-port.html"><abbr title="src/lib/Smr/Port.php">Port.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">944</span>
+    <span class="phpdocumentor-element-found-in__line">943</span>
 
-            <a href="classes/Smr-Port.html#source-view.944" class="phpdocumentor-element-found-in__source" data-line="944" data-modal="source-view" data-src="files/src/lib/Smr/Port.php.txt"></a>
+            <a href="classes/Smr-Port.html#source-view.943" class="phpdocumentor-element-found-in__source" data-line="943" data-modal="source-view" data-src="files/src/lib/Smr/Port.php.txt"></a>
     </aside>
 
     
@@ -4190,9 +4329,9 @@ calling this function directly.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Port.php"><a href="files/src-lib-smr-port.html"><abbr title="src/lib/Smr/Port.php">Port.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">968</span>
+    <span class="phpdocumentor-element-found-in__line">967</span>
 
-            <a href="classes/Smr-Port.html#source-view.968" class="phpdocumentor-element-found-in__source" data-line="968" data-modal="source-view" data-src="files/src/lib/Smr/Port.php.txt"></a>
+            <a href="classes/Smr-Port.html#source-view.967" class="phpdocumentor-element-found-in__source" data-line="967" data-modal="source-view" data-src="files/src/lib/Smr/Port.php.txt"></a>
     </aside>
 
     
@@ -4226,9 +4365,9 @@ calling this function directly.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Port.php"><a href="files/src-lib-smr-port.html"><abbr title="src/lib/Smr/Port.php">Port.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">726</span>
+    <span class="phpdocumentor-element-found-in__line">725</span>
 
-            <a href="classes/Smr-Port.html#source-view.726" class="phpdocumentor-element-found-in__source" data-line="726" data-modal="source-view" data-src="files/src/lib/Smr/Port.php.txt"></a>
+            <a href="classes/Smr-Port.html#source-view.725" class="phpdocumentor-element-found-in__source" data-line="725" data-modal="source-view" data-src="files/src/lib/Smr/Port.php.txt"></a>
     </aside>
 
     
@@ -4262,9 +4401,9 @@ calling this function directly.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Port.php"><a href="files/src-lib-smr-port.html"><abbr title="src/lib/Smr/Port.php">Port.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">940</span>
+    <span class="phpdocumentor-element-found-in__line">939</span>
 
-            <a href="classes/Smr-Port.html#source-view.940" class="phpdocumentor-element-found-in__source" data-line="940" data-modal="source-view" data-src="files/src/lib/Smr/Port.php.txt"></a>
+            <a href="classes/Smr-Port.html#source-view.939" class="phpdocumentor-element-found-in__source" data-line="939" data-modal="source-view" data-src="files/src/lib/Smr/Port.php.txt"></a>
     </aside>
 
     
@@ -4298,9 +4437,9 @@ calling this function directly.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Port.php"><a href="files/src-lib-smr-port.html"><abbr title="src/lib/Smr/Port.php">Port.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">91</span>
+    <span class="phpdocumentor-element-found-in__line">90</span>
 
-            <a href="classes/Smr-Port.html#source-view.91" class="phpdocumentor-element-found-in__source" data-line="91" data-modal="source-view" data-src="files/src/lib/Smr/Port.php.txt"></a>
+            <a href="classes/Smr-Port.html#source-view.90" class="phpdocumentor-element-found-in__source" data-line="90" data-modal="source-view" data-src="files/src/lib/Smr/Port.php.txt"></a>
     </aside>
 
     
@@ -4358,9 +4497,9 @@ calling this function directly.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Port.php"><a href="files/src-lib-smr-port.html"><abbr title="src/lib/Smr/Port.php">Port.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">877</span>
+    <span class="phpdocumentor-element-found-in__line">876</span>
 
-            <a href="classes/Smr-Port.html#source-view.877" class="phpdocumentor-element-found-in__source" data-line="877" data-modal="source-view" data-src="files/src/lib/Smr/Port.php.txt"></a>
+            <a href="classes/Smr-Port.html#source-view.876" class="phpdocumentor-element-found-in__source" data-line="876" data-modal="source-view" data-src="files/src/lib/Smr/Port.php.txt"></a>
     </aside>
 
     
@@ -4394,9 +4533,9 @@ calling this function directly.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Port.php"><a href="files/src-lib-smr-port.html"><abbr title="src/lib/Smr/Port.php">Port.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">873</span>
+    <span class="phpdocumentor-element-found-in__line">872</span>
 
-            <a href="classes/Smr-Port.html#source-view.873" class="phpdocumentor-element-found-in__source" data-line="873" data-modal="source-view" data-src="files/src/lib/Smr/Port.php.txt"></a>
+            <a href="classes/Smr-Port.html#source-view.872" class="phpdocumentor-element-found-in__source" data-line="872" data-modal="source-view" data-src="files/src/lib/Smr/Port.php.txt"></a>
     </aside>
 
     
@@ -4430,9 +4569,9 @@ calling this function directly.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Port.php"><a href="files/src-lib-smr-port.html"><abbr title="src/lib/Smr/Port.php">Port.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">392</span>
+    <span class="phpdocumentor-element-found-in__line">391</span>
 
-            <a href="classes/Smr-Port.html#source-view.392" class="phpdocumentor-element-found-in__source" data-line="392" data-modal="source-view" data-src="files/src/lib/Smr/Port.php.txt"></a>
+            <a href="classes/Smr-Port.html#source-view.391" class="phpdocumentor-element-found-in__source" data-line="391" data-modal="source-view" data-src="files/src/lib/Smr/Port.php.txt"></a>
     </aside>
 
     
@@ -4476,9 +4615,9 @@ calling this function directly.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Port.php"><a href="files/src-lib-smr-port.html"><abbr title="src/lib/Smr/Port.php">Port.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">330</span>
+    <span class="phpdocumentor-element-found-in__line">329</span>
 
-            <a href="classes/Smr-Port.html#source-view.330" class="phpdocumentor-element-found-in__source" data-line="330" data-modal="source-view" data-src="files/src/lib/Smr/Port.php.txt"></a>
+            <a href="classes/Smr-Port.html#source-view.329" class="phpdocumentor-element-found-in__source" data-line="329" data-modal="source-view" data-src="files/src/lib/Smr/Port.php.txt"></a>
     </aside>
 
     
@@ -4522,9 +4661,9 @@ calling this function directly.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Port.php"><a href="files/src-lib-smr-port.html"><abbr title="src/lib/Smr/Port.php">Port.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">351</span>
+    <span class="phpdocumentor-element-found-in__line">350</span>
 
-            <a href="classes/Smr-Port.html#source-view.351" class="phpdocumentor-element-found-in__source" data-line="351" data-modal="source-view" data-src="files/src/lib/Smr/Port.php.txt"></a>
+            <a href="classes/Smr-Port.html#source-view.350" class="phpdocumentor-element-found-in__source" data-line="350" data-modal="source-view" data-src="files/src/lib/Smr/Port.php.txt"></a>
     </aside>
 
         <p class="phpdocumentor-summary">Returns the transaction type for this good (Buy or Sell).</p>
@@ -4571,9 +4710,9 @@ calling this function directly.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Port.php"><a href="files/src-lib-smr-port.html"><abbr title="src/lib/Smr/Port.php">Port.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">363</span>
+    <span class="phpdocumentor-element-found-in__line">362</span>
 
-            <a href="classes/Smr-Port.html#source-view.363" class="phpdocumentor-element-found-in__source" data-line="363" data-modal="source-view" data-src="files/src/lib/Smr/Port.php.txt"></a>
+            <a href="classes/Smr-Port.html#source-view.362" class="phpdocumentor-element-found-in__source" data-line="362" data-modal="source-view" data-src="files/src/lib/Smr/Port.php.txt"></a>
     </aside>
 
     
@@ -4607,9 +4746,9 @@ calling this function directly.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Port.php"><a href="files/src-lib-smr-port.html"><abbr title="src/lib/Smr/Port.php">Port.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">1047</span>
+    <span class="phpdocumentor-element-found-in__line">1046</span>
 
-            <a href="classes/Smr-Port.html#source-view.1047" class="phpdocumentor-element-found-in__source" data-line="1047" data-modal="source-view" data-src="files/src/lib/Smr/Port.php.txt"></a>
+            <a href="classes/Smr-Port.html#source-view.1046" class="phpdocumentor-element-found-in__source" data-line="1046" data-modal="source-view" data-src="files/src/lib/Smr/Port.php.txt"></a>
     </aside>
 
     
@@ -4674,9 +4813,9 @@ calling this function directly.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Port.php"><a href="files/src-lib-smr-port.html"><abbr title="src/lib/Smr/Port.php">Port.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">898</span>
+    <span class="phpdocumentor-element-found-in__line">897</span>
 
-            <a href="classes/Smr-Port.html#source-view.898" class="phpdocumentor-element-found-in__source" data-line="898" data-modal="source-view" data-src="files/src/lib/Smr/Port.php.txt"></a>
+            <a href="classes/Smr-Port.html#source-view.897" class="phpdocumentor-element-found-in__source" data-line="897" data-modal="source-view" data-src="files/src/lib/Smr/Port.php.txt"></a>
     </aside>
 
     
@@ -4710,9 +4849,9 @@ calling this function directly.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Port.php"><a href="files/src-lib-smr-port.html"><abbr title="src/lib/Smr/Port.php">Port.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">1138</span>
+    <span class="phpdocumentor-element-found-in__line">1122</span>
 
-            <a href="classes/Smr-Port.html#source-view.1138" class="phpdocumentor-element-found-in__source" data-line="1138" data-modal="source-view" data-src="files/src/lib/Smr/Port.php.txt"></a>
+            <a href="classes/Smr-Port.html#source-view.1122" class="phpdocumentor-element-found-in__source" data-line="1122" data-modal="source-view" data-src="files/src/lib/Smr/Port.php.txt"></a>
     </aside>
 
     
@@ -4748,48 +4887,6 @@ calling this function directly.</p>
             -public
                                                         "
 >
-    <h4 class="phpdocumentor-element__name" id="method_getLootHREF">
-        getLootHREF()
-        <a href="classes/Smr-Port.html#method_getLootHREF" class="headerlink"><i class="fas fa-link"></i></a>
-
-    </h4>
-    <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Port.php"><a href="files/src-lib-smr-port.html"><abbr title="src/lib/Smr/Port.php">Port.php</abbr></a></abbr>
-    :
-    <span class="phpdocumentor-element-found-in__line">1129</span>
-
-            <a href="classes/Smr-Port.html#source-view.1129" class="phpdocumentor-element-found-in__source" data-line="1129" data-modal="source-view" data-src="files/src/lib/Smr/Port.php.txt"></a>
-    </aside>
-
-    
-    <code class="phpdocumentor-code phpdocumentor-signature ">
-    <span class="phpdocumentor-signature__visibility">public</span>
-                    <span class="phpdocumentor-signature__name">getLootHREF</span><span>(</span><span class="phpdocumentor-signature__argument"><span>[</span><span class="phpdocumentor-signature__argument__return-type">bool&nbsp;</span><span class="phpdocumentor-signature__argument__name">$justContainer</span><span> = </span><span class="phpdocumentor-signature__argument__default-value">false</span><span> ]</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">mixed</span></code>
-
-    <div class="phpdocumentor-label-line">
-        </div>
-    
-        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
-    <dl class="phpdocumentor-argument-list">
-                    <dt class="phpdocumentor-argument-list__entry">
-                <span class="phpdocumentor-signature__argument__name">$justContainer</span>
-                : <span class="phpdocumentor-signature__argument__return-type">bool</span>
-                 = <span class="phpdocumentor-signature__argument__default-value">false</span>            </dt>
-            <dd class="phpdocumentor-argument-list__definition">
-                
-            </dd>
-            </dl>
-
-    
-
-    
-</article>
-                    <article
-        class="phpdocumentor-element
-            -method
-            -public
-                                                        "
->
     <h4 class="phpdocumentor-element__name" id="method_getMaxLevel">
         getMaxLevel()
         <a href="classes/Smr-Port.html#method_getMaxLevel" class="headerlink"><i class="fas fa-link"></i></a>
@@ -4798,9 +4895,9 @@ calling this function directly.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Port.php"><a href="files/src-lib-smr-port.html"><abbr title="src/lib/Smr/Port.php">Port.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">912</span>
+    <span class="phpdocumentor-element-found-in__line">911</span>
 
-            <a href="classes/Smr-Port.html#source-view.912" class="phpdocumentor-element-found-in__source" data-line="912" data-modal="source-view" data-src="files/src/lib/Smr/Port.php.txt"></a>
+            <a href="classes/Smr-Port.html#source-view.911" class="phpdocumentor-element-found-in__source" data-line="911" data-modal="source-view" data-src="files/src/lib/Smr/Port.php.txt"></a>
     </aside>
 
     
@@ -4834,9 +4931,9 @@ calling this function directly.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Port.php"><a href="files/src-lib-smr-port.html"><abbr title="src/lib/Smr/Port.php">Port.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">902</span>
+    <span class="phpdocumentor-element-found-in__line">901</span>
 
-            <a href="classes/Smr-Port.html#source-view.902" class="phpdocumentor-element-found-in__source" data-line="902" data-modal="source-view" data-src="files/src/lib/Smr/Port.php.txt"></a>
+            <a href="classes/Smr-Port.html#source-view.901" class="phpdocumentor-element-found-in__source" data-line="901" data-modal="source-view" data-src="files/src/lib/Smr/Port.php.txt"></a>
     </aside>
 
     
@@ -4880,9 +4977,9 @@ calling this function directly.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Port.php"><a href="files/src-lib-smr-port.html"><abbr title="src/lib/Smr/Port.php">Port.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">952</span>
+    <span class="phpdocumentor-element-found-in__line">951</span>
 
-            <a href="classes/Smr-Port.html#source-view.952" class="phpdocumentor-element-found-in__source" data-line="952" data-modal="source-view" data-src="files/src/lib/Smr/Port.php.txt"></a>
+            <a href="classes/Smr-Port.html#source-view.951" class="phpdocumentor-element-found-in__source" data-line="951" data-modal="source-view" data-src="files/src/lib/Smr/Port.php.txt"></a>
     </aside>
 
     
@@ -4916,9 +5013,9 @@ calling this function directly.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Port.php"><a href="files/src-lib-smr-port.html"><abbr title="src/lib/Smr/Port.php">Port.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">1078</span>
+    <span class="phpdocumentor-element-found-in__line">1077</span>
 
-            <a href="classes/Smr-Port.html#source-view.1078" class="phpdocumentor-element-found-in__source" data-line="1078" data-modal="source-view" data-src="files/src/lib/Smr/Port.php.txt"></a>
+            <a href="classes/Smr-Port.html#source-view.1077" class="phpdocumentor-element-found-in__source" data-line="1077" data-modal="source-view" data-src="files/src/lib/Smr/Port.php.txt"></a>
     </aside>
 
     
@@ -4966,6 +5063,52 @@ calling this function directly.</p>
         class="phpdocumentor-element
             -method
             -public
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="method_getPayoutHREF">
+        getPayoutHREF()
+        <a href="classes/Smr-Port.html#method_getPayoutHREF" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Port.php"><a href="files/src-lib-smr-port.html"><abbr title="src/lib/Smr/Port.php">Port.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">1113</span>
+
+            <a href="classes/Smr-Port.html#source-view.1113" class="phpdocumentor-element-found-in__source" data-line="1113" data-modal="source-view" data-src="files/src/lib/Smr/Port.php.txt"></a>
+    </aside>
+
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+                    <span class="phpdocumentor-signature__name">getPayoutHREF</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type"><a href="classes/Smr-PortPayoutType.html"><abbr title="\Smr\PortPayoutType">PortPayoutType</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$payoutType</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">string</span></code>
+
+    <div class="phpdocumentor-label-line">
+        </div>
+    
+        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
+    <dl class="phpdocumentor-argument-list">
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$payoutType</span>
+                : <span class="phpdocumentor-signature__argument__return-type"><a href="classes/Smr-PortPayoutType.html"><abbr title="\Smr\PortPayoutType">PortPayoutType</abbr></a></span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                
+            </dd>
+            </dl>
+
+    
+
+            <section>
+        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
+        <span class="phpdocumentor-signature__response_type">string</span>
+            </section>
+
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
                                     -static                    "
 >
     <h4 class="phpdocumentor-element__name" id="method_getPort">
@@ -4976,9 +5119,9 @@ calling this function directly.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Port.php"><a href="files/src-lib-smr-port.html"><abbr title="src/lib/Smr/Port.php">Port.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">110</span>
+    <span class="phpdocumentor-element-found-in__line">109</span>
 
-            <a href="classes/Smr-Port.html#source-view.110" class="phpdocumentor-element-found-in__source" data-line="110" data-modal="source-view" data-src="files/src/lib/Smr/Port.php.txt"></a>
+            <a href="classes/Smr-Port.html#source-view.109" class="phpdocumentor-element-found-in__source" data-line="109" data-modal="source-view" data-src="files/src/lib/Smr/Port.php.txt"></a>
     </aside>
 
     
@@ -5115,9 +5258,9 @@ calling this function directly.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Port.php"><a href="files/src-lib-smr-port.html"><abbr title="src/lib/Smr/Port.php">Port.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">1106</span>
+    <span class="phpdocumentor-element-found-in__line">1105</span>
 
-            <a href="classes/Smr-Port.html#source-view.1106" class="phpdocumentor-element-found-in__source" data-line="1106" data-modal="source-view" data-src="files/src/lib/Smr/Port.php.txt"></a>
+            <a href="classes/Smr-Port.html#source-view.1105" class="phpdocumentor-element-found-in__source" data-line="1105" data-modal="source-view" data-src="files/src/lib/Smr/Port.php.txt"></a>
     </aside>
 
     
@@ -5143,48 +5286,6 @@ calling this function directly.</p>
             -public
                                                         "
 >
-    <h4 class="phpdocumentor-element__name" id="method_getRazeHREF">
-        getRazeHREF()
-        <a href="classes/Smr-Port.html#method_getRazeHREF" class="headerlink"><i class="fas fa-link"></i></a>
-
-    </h4>
-    <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Port.php"><a href="files/src-lib-smr-port.html"><abbr title="src/lib/Smr/Port.php">Port.php</abbr></a></abbr>
-    :
-    <span class="phpdocumentor-element-found-in__line">1121</span>
-
-            <a href="classes/Smr-Port.html#source-view.1121" class="phpdocumentor-element-found-in__source" data-line="1121" data-modal="source-view" data-src="files/src/lib/Smr/Port.php.txt"></a>
-    </aside>
-
-    
-    <code class="phpdocumentor-code phpdocumentor-signature ">
-    <span class="phpdocumentor-signature__visibility">public</span>
-                    <span class="phpdocumentor-signature__name">getRazeHREF</span><span>(</span><span class="phpdocumentor-signature__argument"><span>[</span><span class="phpdocumentor-signature__argument__return-type">bool&nbsp;</span><span class="phpdocumentor-signature__argument__name">$justContainer</span><span> = </span><span class="phpdocumentor-signature__argument__default-value">false</span><span> ]</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">mixed</span></code>
-
-    <div class="phpdocumentor-label-line">
-        </div>
-    
-        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
-    <dl class="phpdocumentor-argument-list">
-                    <dt class="phpdocumentor-argument-list__entry">
-                <span class="phpdocumentor-signature__argument__name">$justContainer</span>
-                : <span class="phpdocumentor-signature__argument__return-type">bool</span>
-                 = <span class="phpdocumentor-signature__argument__default-value">false</span>            </dt>
-            <dd class="phpdocumentor-argument-list__definition">
-                
-            </dd>
-            </dl>
-
-    
-
-    
-</article>
-                    <article
-        class="phpdocumentor-element
-            -method
-            -public
-                                                        "
->
     <h4 class="phpdocumentor-element__name" id="method_getReinforcePercent">
         getReinforcePercent()
         <a href="classes/Smr-Port.html#method_getReinforcePercent" class="headerlink"><i class="fas fa-link"></i></a>
@@ -5193,9 +5294,9 @@ calling this function directly.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Port.php"><a href="files/src-lib-smr-port.html"><abbr title="src/lib/Smr/Port.php">Port.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">972</span>
+    <span class="phpdocumentor-element-found-in__line">971</span>
 
-            <a href="classes/Smr-Port.html#source-view.972" class="phpdocumentor-element-found-in__source" data-line="972" data-modal="source-view" data-src="files/src/lib/Smr/Port.php.txt"></a>
+            <a href="classes/Smr-Port.html#source-view.971" class="phpdocumentor-element-found-in__source" data-line="971" data-modal="source-view" data-src="files/src/lib/Smr/Port.php.txt"></a>
     </aside>
 
     
@@ -5229,9 +5330,9 @@ calling this function directly.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Port.php"><a href="files/src-lib-smr-port.html"><abbr title="src/lib/Smr/Port.php">Port.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">979</span>
+    <span class="phpdocumentor-element-found-in__line">978</span>
 
-            <a href="classes/Smr-Port.html#source-view.979" class="phpdocumentor-element-found-in__source" data-line="979" data-modal="source-view" data-src="files/src/lib/Smr/Port.php.txt"></a>
+            <a href="classes/Smr-Port.html#source-view.978" class="phpdocumentor-element-found-in__source" data-line="978" data-modal="source-view" data-src="files/src/lib/Smr/Port.php.txt"></a>
     </aside>
 
     
@@ -5265,9 +5366,9 @@ calling this function directly.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Port.php"><a href="files/src-lib-smr-port.html"><abbr title="src/lib/Smr/Port.php">Port.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">885</span>
+    <span class="phpdocumentor-element-found-in__line">884</span>
 
-            <a href="classes/Smr-Port.html#source-view.885" class="phpdocumentor-element-found-in__source" data-line="885" data-modal="source-view" data-src="files/src/lib/Smr/Port.php.txt"></a>
+            <a href="classes/Smr-Port.html#source-view.884" class="phpdocumentor-element-found-in__source" data-line="884" data-modal="source-view" data-src="files/src/lib/Smr/Port.php.txt"></a>
     </aside>
 
     
@@ -5301,9 +5402,9 @@ calling this function directly.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Port.php"><a href="files/src-lib-smr-port.html"><abbr title="src/lib/Smr/Port.php">Port.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">881</span>
+    <span class="phpdocumentor-element-found-in__line">880</span>
 
-            <a href="classes/Smr-Port.html#source-view.881" class="phpdocumentor-element-found-in__source" data-line="881" data-modal="source-view" data-src="files/src/lib/Smr/Port.php.txt"></a>
+            <a href="classes/Smr-Port.html#source-view.880" class="phpdocumentor-element-found-in__source" data-line="880" data-modal="source-view" data-src="files/src/lib/Smr/Port.php.txt"></a>
     </aside>
 
     
@@ -5337,9 +5438,9 @@ calling this function directly.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Port.php"><a href="files/src-lib-smr-port.html"><abbr title="src/lib/Smr/Port.php">Port.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">317</span>
+    <span class="phpdocumentor-element-found-in__line">316</span>
 
-            <a href="classes/Smr-Port.html#source-view.317" class="phpdocumentor-element-found-in__source" data-line="317" data-modal="source-view" data-src="files/src/lib/Smr/Port.php.txt"></a>
+            <a href="classes/Smr-Port.html#source-view.316" class="phpdocumentor-element-found-in__source" data-line="316" data-modal="source-view" data-src="files/src/lib/Smr/Port.php.txt"></a>
     </aside>
 
         <p class="phpdocumentor-summary">Get IDs of goods that can be sold to the port by the trader</p>
@@ -5374,9 +5475,9 @@ calling this function directly.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Port.php"><a href="files/src-lib-smr-port.html"><abbr title="src/lib/Smr/Port.php">Port.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">916</span>
+    <span class="phpdocumentor-element-found-in__line">915</span>
 
-            <a href="classes/Smr-Port.html#source-view.916" class="phpdocumentor-element-found-in__source" data-line="916" data-modal="source-view" data-src="files/src/lib/Smr/Port.php.txt"></a>
+            <a href="classes/Smr-Port.html#source-view.915" class="phpdocumentor-element-found-in__source" data-line="915" data-modal="source-view" data-src="files/src/lib/Smr/Port.php.txt"></a>
     </aside>
 
     
@@ -5410,9 +5511,9 @@ calling this function directly.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Port.php"><a href="files/src-lib-smr-port.html"><abbr title="src/lib/Smr/Port.php">Port.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">1031</span>
+    <span class="phpdocumentor-element-found-in__line">1030</span>
 
-            <a href="classes/Smr-Port.html#source-view.1031" class="phpdocumentor-element-found-in__source" data-line="1031" data-modal="source-view" data-src="files/src/lib/Smr/Port.php.txt"></a>
+            <a href="classes/Smr-Port.html#source-view.1030" class="phpdocumentor-element-found-in__source" data-line="1030" data-modal="source-view" data-src="files/src/lib/Smr/Port.php.txt"></a>
     </aside>
 
     
@@ -5456,9 +5557,9 @@ calling this function directly.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Port.php"><a href="files/src-lib-smr-port.html"><abbr title="src/lib/Smr/Port.php">Port.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">948</span>
+    <span class="phpdocumentor-element-found-in__line">947</span>
 
-            <a href="classes/Smr-Port.html#source-view.948" class="phpdocumentor-element-found-in__source" data-line="948" data-modal="source-view" data-src="files/src/lib/Smr/Port.php.txt"></a>
+            <a href="classes/Smr-Port.html#source-view.947" class="phpdocumentor-element-found-in__source" data-line="947" data-modal="source-view" data-src="files/src/lib/Smr/Port.php.txt"></a>
     </aside>
 
     
@@ -5492,9 +5593,9 @@ calling this function directly.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Port.php"><a href="files/src-lib-smr-port.html"><abbr title="src/lib/Smr/Port.php">Port.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">964</span>
+    <span class="phpdocumentor-element-found-in__line">963</span>
 
-            <a href="classes/Smr-Port.html#source-view.964" class="phpdocumentor-element-found-in__source" data-line="964" data-modal="source-view" data-src="files/src/lib/Smr/Port.php.txt"></a>
+            <a href="classes/Smr-Port.html#source-view.963" class="phpdocumentor-element-found-in__source" data-line="963" data-modal="source-view" data-src="files/src/lib/Smr/Port.php.txt"></a>
     </aside>
 
     
@@ -5528,9 +5629,9 @@ calling this function directly.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Port.php"><a href="files/src-lib-smr-port.html"><abbr title="src/lib/Smr/Port.php">Port.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">527</span>
+    <span class="phpdocumentor-element-found-in__line">526</span>
 
-            <a href="classes/Smr-Port.html#source-view.527" class="phpdocumentor-element-found-in__source" data-line="527" data-modal="source-view" data-src="files/src/lib/Smr/Port.php.txt"></a>
+            <a href="classes/Smr-Port.html#source-view.526" class="phpdocumentor-element-found-in__source" data-line="526" data-modal="source-view" data-src="files/src/lib/Smr/Port.php.txt"></a>
     </aside>
 
     
@@ -5564,9 +5665,9 @@ calling this function directly.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Port.php"><a href="files/src-lib-smr-port.html"><abbr title="src/lib/Smr/Port.php">Port.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">301</span>
+    <span class="phpdocumentor-element-found-in__line">300</span>
 
-            <a href="classes/Smr-Port.html#source-view.301" class="phpdocumentor-element-found-in__source" data-line="301" data-modal="source-view" data-src="files/src/lib/Smr/Port.php.txt"></a>
+            <a href="classes/Smr-Port.html#source-view.300" class="phpdocumentor-element-found-in__source" data-line="300" data-modal="source-view" data-src="files/src/lib/Smr/Port.php.txt"></a>
     </aside>
 
         <p class="phpdocumentor-summary">Get goods that can be bought by $player from the port</p>
@@ -5611,9 +5712,9 @@ calling this function directly.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Port.php"><a href="files/src-lib-smr-port.html"><abbr title="src/lib/Smr/Port.php">Port.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">292</span>
+    <span class="phpdocumentor-element-found-in__line">291</span>
 
-            <a href="classes/Smr-Port.html#source-view.292" class="phpdocumentor-element-found-in__source" data-line="292" data-modal="source-view" data-src="files/src/lib/Smr/Port.php.txt"></a>
+            <a href="classes/Smr-Port.html#source-view.291" class="phpdocumentor-element-found-in__source" data-line="291" data-modal="source-view" data-src="files/src/lib/Smr/Port.php.txt"></a>
     </aside>
 
         <p class="phpdocumentor-summary">Get goods that can be sold by $player to the port</p>
@@ -5658,9 +5759,9 @@ calling this function directly.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Port.php"><a href="files/src-lib-smr-port.html"><abbr title="src/lib/Smr/Port.php">Port.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">959</span>
+    <span class="phpdocumentor-element-found-in__line">958</span>
 
-            <a href="classes/Smr-Port.html#source-view.959" class="phpdocumentor-element-found-in__source" data-line="959" data-modal="source-view" data-src="files/src/lib/Smr/Port.php.txt"></a>
+            <a href="classes/Smr-Port.html#source-view.958" class="phpdocumentor-element-found-in__source" data-line="958" data-modal="source-view" data-src="files/src/lib/Smr/Port.php.txt"></a>
     </aside>
 
     
@@ -5694,9 +5795,9 @@ calling this function directly.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Port.php"><a href="files/src-lib-smr-port.html"><abbr title="src/lib/Smr/Port.php">Port.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">936</span>
+    <span class="phpdocumentor-element-found-in__line">935</span>
 
-            <a href="classes/Smr-Port.html#source-view.936" class="phpdocumentor-element-found-in__source" data-line="936" data-modal="source-view" data-src="files/src/lib/Smr/Port.php.txt"></a>
+            <a href="classes/Smr-Port.html#source-view.935" class="phpdocumentor-element-found-in__source" data-line="935" data-modal="source-view" data-src="files/src/lib/Smr/Port.php.txt"></a>
     </aside>
 
     
@@ -5730,9 +5831,9 @@ calling this function directly.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Port.php"><a href="files/src-lib-smr-port.html"><abbr title="src/lib/Smr/Port.php">Port.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">928</span>
+    <span class="phpdocumentor-element-found-in__line">927</span>
 
-            <a href="classes/Smr-Port.html#source-view.928" class="phpdocumentor-element-found-in__source" data-line="928" data-modal="source-view" data-src="files/src/lib/Smr/Port.php.txt"></a>
+            <a href="classes/Smr-Port.html#source-view.927" class="phpdocumentor-element-found-in__source" data-line="927" data-modal="source-view" data-src="files/src/lib/Smr/Port.php.txt"></a>
     </aside>
 
     
@@ -5766,9 +5867,9 @@ calling this function directly.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Port.php"><a href="files/src-lib-smr-port.html"><abbr title="src/lib/Smr/Port.php">Port.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">367</span>
+    <span class="phpdocumentor-element-found-in__line">366</span>
 
-            <a href="classes/Smr-Port.html#source-view.367" class="phpdocumentor-element-found-in__source" data-line="367" data-modal="source-view" data-src="files/src/lib/Smr/Port.php.txt"></a>
+            <a href="classes/Smr-Port.html#source-view.366" class="phpdocumentor-element-found-in__source" data-line="366" data-modal="source-view" data-src="files/src/lib/Smr/Port.php.txt"></a>
     </aside>
 
     
@@ -5819,9 +5920,9 @@ calling this function directly.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Port.php"><a href="files/src-lib-smr-port.html"><abbr title="src/lib/Smr/Port.php">Port.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">920</span>
+    <span class="phpdocumentor-element-found-in__line">919</span>
 
-            <a href="classes/Smr-Port.html#source-view.920" class="phpdocumentor-element-found-in__source" data-line="920" data-modal="source-view" data-src="files/src/lib/Smr/Port.php.txt"></a>
+            <a href="classes/Smr-Port.html#source-view.919" class="phpdocumentor-element-found-in__source" data-line="919" data-modal="source-view" data-src="files/src/lib/Smr/Port.php.txt"></a>
     </aside>
 
     
@@ -5855,9 +5956,9 @@ calling this function directly.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Port.php"><a href="files/src-lib-smr-port.html"><abbr title="src/lib/Smr/Port.php">Port.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">1056</span>
+    <span class="phpdocumentor-element-found-in__line">1055</span>
 
-            <a href="classes/Smr-Port.html#source-view.1056" class="phpdocumentor-element-found-in__source" data-line="1056" data-modal="source-view" data-src="files/src/lib/Smr/Port.php.txt"></a>
+            <a href="classes/Smr-Port.html#source-view.1055" class="phpdocumentor-element-found-in__source" data-line="1055" data-modal="source-view" data-src="files/src/lib/Smr/Port.php.txt"></a>
     </aside>
 
         <p class="phpdocumentor-summary">Generic ideal price calculation, given all parameters as input.</p>
@@ -5937,9 +6038,9 @@ calling this function directly.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Port.php"><a href="files/src-lib-smr-port.html"><abbr title="src/lib/Smr/Port.php">Port.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">794</span>
+    <span class="phpdocumentor-element-found-in__line">793</span>
 
-            <a href="classes/Smr-Port.html#source-view.794" class="phpdocumentor-element-found-in__source" data-line="794" data-modal="source-view" data-src="files/src/lib/Smr/Port.php.txt"></a>
+            <a href="classes/Smr-Port.html#source-view.793" class="phpdocumentor-element-found-in__source" data-line="793" data-modal="source-view" data-src="files/src/lib/Smr/Port.php.txt"></a>
     </aside>
 
     
@@ -5979,9 +6080,9 @@ calling this function directly.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Port.php"><a href="files/src-lib-smr-port.html"><abbr title="src/lib/Smr/Port.php">Port.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">866</span>
+    <span class="phpdocumentor-element-found-in__line">865</span>
 
-            <a href="classes/Smr-Port.html#source-view.866" class="phpdocumentor-element-found-in__source" data-line="866" data-modal="source-view" data-src="files/src/lib/Smr/Port.php.txt"></a>
+            <a href="classes/Smr-Port.html#source-view.865" class="phpdocumentor-element-found-in__source" data-line="865" data-modal="source-view" data-src="files/src/lib/Smr/Port.php.txt"></a>
     </aside>
 
     
@@ -6021,9 +6122,9 @@ calling this function directly.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Port.php"><a href="files/src-lib-smr-port.html"><abbr title="src/lib/Smr/Port.php">Port.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">404</span>
+    <span class="phpdocumentor-element-found-in__line">403</span>
 
-            <a href="classes/Smr-Port.html#source-view.404" class="phpdocumentor-element-found-in__source" data-line="404" data-modal="source-view" data-src="files/src/lib/Smr/Port.php.txt"></a>
+            <a href="classes/Smr-Port.html#source-view.403" class="phpdocumentor-element-found-in__source" data-line="403" data-modal="source-view" data-src="files/src/lib/Smr/Port.php.txt"></a>
     </aside>
 
     
@@ -6070,9 +6171,9 @@ calling this function directly.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Port.php"><a href="files/src-lib-smr-port.html"><abbr title="src/lib/Smr/Port.php">Port.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">841</span>
+    <span class="phpdocumentor-element-found-in__line">840</span>
 
-            <a href="classes/Smr-Port.html#source-view.841" class="phpdocumentor-element-found-in__source" data-line="841" data-modal="source-view" data-src="files/src/lib/Smr/Port.php.txt"></a>
+            <a href="classes/Smr-Port.html#source-view.840" class="phpdocumentor-element-found-in__source" data-line="840" data-modal="source-view" data-src="files/src/lib/Smr/Port.php.txt"></a>
     </aside>
 
     
@@ -6112,9 +6213,9 @@ calling this function directly.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Port.php"><a href="files/src-lib-smr-port.html"><abbr title="src/lib/Smr/Port.php">Port.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">823</span>
+    <span class="phpdocumentor-element-found-in__line">822</span>
 
-            <a href="classes/Smr-Port.html#source-view.823" class="phpdocumentor-element-found-in__source" data-line="823" data-modal="source-view" data-src="files/src/lib/Smr/Port.php.txt"></a>
+            <a href="classes/Smr-Port.html#source-view.822" class="phpdocumentor-element-found-in__source" data-line="822" data-modal="source-view" data-src="files/src/lib/Smr/Port.php.txt"></a>
     </aside>
 
     
@@ -6146,6 +6247,42 @@ calling this function directly.</p>
             -public
                                                         "
 >
+    <h4 class="phpdocumentor-element__name" id="method_isBusted">
+        isBusted()
+        <a href="classes/Smr-Port.html#method_isBusted" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Port.php"><a href="files/src-lib-smr-port.html"><abbr title="src/lib/Smr/Port.php">Port.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">1010</span>
+
+            <a href="classes/Smr-Port.html#source-view.1010" class="phpdocumentor-element-found-in__source" data-line="1010" data-modal="source-view" data-src="files/src/lib/Smr/Port.php.txt"></a>
+    </aside>
+
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+                    <span class="phpdocumentor-signature__name">isBusted</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">bool</span></code>
+
+    <div class="phpdocumentor-label-line">
+        </div>
+    
+    
+    
+
+            <section>
+        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
+        <span class="phpdocumentor-signature__response_type">bool</span>
+            </section>
+
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                                        "
+>
     <h4 class="phpdocumentor-element__name" id="method_isCachedVersion">
         isCachedVersion()
         <a href="classes/Smr-Port.html#method_isCachedVersion" class="headerlink"><i class="fas fa-link"></i></a>
@@ -6154,9 +6291,9 @@ calling this function directly.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Port.php"><a href="files/src-lib-smr-port.html"><abbr title="src/lib/Smr/Port.php">Port.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">1143</span>
+    <span class="phpdocumentor-element-found-in__line">1127</span>
 
-            <a href="classes/Smr-Port.html#source-view.1143" class="phpdocumentor-element-found-in__source" data-line="1143" data-modal="source-view" data-src="files/src/lib/Smr/Port.php.txt"></a>
+            <a href="classes/Smr-Port.html#source-view.1127" class="phpdocumentor-element-found-in__source" data-line="1127" data-modal="source-view" data-src="files/src/lib/Smr/Port.php.txt"></a>
     </aside>
 
     
@@ -6190,9 +6327,9 @@ calling this function directly.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Port.php"><a href="files/src-lib-smr-port.html"><abbr title="src/lib/Smr/Port.php">Port.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">1464</span>
+    <span class="phpdocumentor-element-found-in__line">1448</span>
 
-            <a href="classes/Smr-Port.html#source-view.1464" class="phpdocumentor-element-found-in__source" data-line="1464" data-modal="source-view" data-src="files/src/lib/Smr/Port.php.txt"></a>
+            <a href="classes/Smr-Port.html#source-view.1448" class="phpdocumentor-element-found-in__source" data-line="1448" data-modal="source-view" data-src="files/src/lib/Smr/Port.php.txt"></a>
     </aside>
 
         <p class="phpdocumentor-summary">Identifies if the given $player is a credited attacker of this port.</p>
@@ -6229,42 +6366,6 @@ calling this function directly.</p>
             -public
                                                         "
 >
-    <h4 class="phpdocumentor-element__name" id="method_isDestroyed">
-        isDestroyed()
-        <a href="classes/Smr-Port.html#method_isDestroyed" class="headerlink"><i class="fas fa-link"></i></a>
-
-    </h4>
-    <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Port.php"><a href="files/src-lib-smr-port.html"><abbr title="src/lib/Smr/Port.php">Port.php</abbr></a></abbr>
-    :
-    <span class="phpdocumentor-element-found-in__line">1011</span>
-
-            <a href="classes/Smr-Port.html#source-view.1011" class="phpdocumentor-element-found-in__source" data-line="1011" data-modal="source-view" data-src="files/src/lib/Smr/Port.php.txt"></a>
-    </aside>
-
-    
-    <code class="phpdocumentor-code phpdocumentor-signature ">
-    <span class="phpdocumentor-signature__visibility">public</span>
-                    <span class="phpdocumentor-signature__name">isDestroyed</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">bool</span></code>
-
-    <div class="phpdocumentor-label-line">
-        </div>
-    
-    
-    
-
-            <section>
-        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
-        <span class="phpdocumentor-signature__response_type">bool</span>
-            </section>
-
-</article>
-                    <article
-        class="phpdocumentor-element
-            -method
-            -public
-                                                        "
->
     <h4 class="phpdocumentor-element__name" id="method_isUnderAttack">
         isUnderAttack()
         <a href="classes/Smr-Port.html#method_isUnderAttack" class="headerlink"><i class="fas fa-link"></i></a>
@@ -6273,9 +6374,9 @@ calling this function directly.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Port.php"><a href="files/src-lib-smr-port.html"><abbr title="src/lib/Smr/Port.php">Port.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">1007</span>
+    <span class="phpdocumentor-element-found-in__line">1006</span>
 
-            <a href="classes/Smr-Port.html#source-view.1007" class="phpdocumentor-element-found-in__source" data-line="1007" data-modal="source-view" data-src="files/src/lib/Smr/Port.php.txt"></a>
+            <a href="classes/Smr-Port.html#source-view.1006" class="phpdocumentor-element-found-in__source" data-line="1006" data-modal="source-view" data-src="files/src/lib/Smr/Port.php.txt"></a>
     </aside>
 
     
@@ -6309,9 +6410,9 @@ calling this function directly.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Port.php"><a href="files/src-lib-smr-port.html"><abbr title="src/lib/Smr/Port.php">Port.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">1521</span>
+    <span class="phpdocumentor-element-found-in__line">1554</span>
 
-            <a href="classes/Smr-Port.html#source-view.1521" class="phpdocumentor-element-found-in__source" data-line="1521" data-modal="source-view" data-src="files/src/lib/Smr/Port.php.txt"></a>
+            <a href="classes/Smr-Port.html#source-view.1554" class="phpdocumentor-element-found-in__source" data-line="1554" data-modal="source-view" data-src="files/src/lib/Smr/Port.php.txt"></a>
     </aside>
 
     
@@ -6355,9 +6456,9 @@ calling this function directly.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Port.php"><a href="files/src-lib-smr-port.html"><abbr title="src/lib/Smr/Port.php">Port.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">1512</span>
+    <span class="phpdocumentor-element-found-in__line">1496</span>
 
-            <a href="classes/Smr-Port.html#source-view.1512" class="phpdocumentor-element-found-in__source" data-line="1512" data-modal="source-view" data-src="files/src/lib/Smr/Port.php.txt"></a>
+            <a href="classes/Smr-Port.html#source-view.1496" class="phpdocumentor-element-found-in__source" data-line="1496" data-modal="source-view" data-src="files/src/lib/Smr/Port.php.txt"></a>
     </aside>
 
         <p class="phpdocumentor-summary">Get a fraction of the credits stored in the port for looting after a
@@ -6403,9 +6504,9 @@ successful port raid.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Port.php"><a href="files/src-lib-smr-port.html"><abbr title="src/lib/Smr/Port.php">Port.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">1500</span>
+    <span class="phpdocumentor-element-found-in__line">1484</span>
 
-            <a href="classes/Smr-Port.html#source-view.1500" class="phpdocumentor-element-found-in__source" data-line="1500" data-modal="source-view" data-src="files/src/lib/Smr/Port.php.txt"></a>
+            <a href="classes/Smr-Port.html#source-view.1484" class="phpdocumentor-element-found-in__source" data-line="1484" data-modal="source-view" data-src="files/src/lib/Smr/Port.php.txt"></a>
     </aside>
 
         <p class="phpdocumentor-summary">Get a reduced fraction of the credits stored in the port for razing
@@ -6451,9 +6552,9 @@ after a successful port raid.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Port.php"><a href="files/src-lib-smr-port.html"><abbr title="src/lib/Smr/Port.php">Port.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">117</span>
+    <span class="phpdocumentor-element-found-in__line">116</span>
 
-            <a href="classes/Smr-Port.html#source-view.117" class="phpdocumentor-element-found-in__source" data-line="117" data-modal="source-view" data-src="files/src/lib/Smr/Port.php.txt"></a>
+            <a href="classes/Smr-Port.html#source-view.116" class="phpdocumentor-element-found-in__source" data-line="116" data-modal="source-view" data-src="files/src/lib/Smr/Port.php.txt"></a>
     </aside>
 
     
@@ -6500,9 +6601,9 @@ after a successful port raid.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Port.php"><a href="files/src-lib-smr-port.html"><abbr title="src/lib/Smr/Port.php">Port.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">601</span>
+    <span class="phpdocumentor-element-found-in__line">600</span>
 
-            <a href="classes/Smr-Port.html#source-view.601" class="phpdocumentor-element-found-in__source" data-line="601" data-modal="source-view" data-src="files/src/lib/Smr/Port.php.txt"></a>
+            <a href="classes/Smr-Port.html#source-view.600" class="phpdocumentor-element-found-in__source" data-line="600" data-modal="source-view" data-src="files/src/lib/Smr/Port.php.txt"></a>
     </aside>
 
         <p class="phpdocumentor-summary">Remove good with given ID from the port.</p>
@@ -6547,9 +6648,9 @@ calling this function directly.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Port.php"><a href="files/src-lib-smr-port.html"><abbr title="src/lib/Smr/Port.php">Port.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">139</span>
+    <span class="phpdocumentor-element-found-in__line">138</span>
 
-            <a href="classes/Smr-Port.html#source-view.139" class="phpdocumentor-element-found-in__source" data-line="139" data-modal="source-view" data-src="files/src/lib/Smr/Port.php.txt"></a>
+            <a href="classes/Smr-Port.html#source-view.138" class="phpdocumentor-element-found-in__source" data-line="138" data-modal="source-view" data-src="files/src/lib/Smr/Port.php.txt"></a>
     </aside>
 
     
@@ -6579,9 +6680,9 @@ calling this function directly.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Port.php"><a href="files/src-lib-smr-port.html"><abbr title="src/lib/Smr/Port.php">Port.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">443</span>
+    <span class="phpdocumentor-element-found-in__line">442</span>
 
-            <a href="classes/Smr-Port.html#source-view.443" class="phpdocumentor-element-found-in__source" data-line="443" data-modal="source-view" data-src="files/src/lib/Smr/Port.php.txt"></a>
+            <a href="classes/Smr-Port.html#source-view.442" class="phpdocumentor-element-found-in__source" data-line="442" data-modal="source-view" data-src="files/src/lib/Smr/Port.php.txt"></a>
     </aside>
 
     
@@ -6635,9 +6736,9 @@ calling this function directly.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Port.php"><a href="files/src-lib-smr-port.html"><abbr title="src/lib/Smr/Port.php">Port.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">744</span>
+    <span class="phpdocumentor-element-found-in__line">743</span>
 
-            <a href="classes/Smr-Port.html#source-view.744" class="phpdocumentor-element-found-in__source" data-line="744" data-modal="source-view" data-src="files/src/lib/Smr/Port.php.txt"></a>
+            <a href="classes/Smr-Port.html#source-view.743" class="phpdocumentor-element-found-in__source" data-line="743" data-modal="source-view" data-src="files/src/lib/Smr/Port.php.txt"></a>
     </aside>
 
     
@@ -6677,9 +6778,9 @@ calling this function directly.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Port.php"><a href="files/src-lib-smr-port.html"><abbr title="src/lib/Smr/Port.php">Port.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">758</span>
+    <span class="phpdocumentor-element-found-in__line">757</span>
 
-            <a href="classes/Smr-Port.html#source-view.758" class="phpdocumentor-element-found-in__source" data-line="758" data-modal="source-view" data-src="files/src/lib/Smr/Port.php.txt"></a>
+            <a href="classes/Smr-Port.html#source-view.757" class="phpdocumentor-element-found-in__source" data-line="757" data-modal="source-view" data-src="files/src/lib/Smr/Port.php.txt"></a>
     </aside>
 
     
@@ -6719,9 +6820,9 @@ calling this function directly.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Port.php"><a href="files/src-lib-smr-port.html"><abbr title="src/lib/Smr/Port.php">Port.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">776</span>
+    <span class="phpdocumentor-element-found-in__line">775</span>
 
-            <a href="classes/Smr-Port.html#source-view.776" class="phpdocumentor-element-found-in__source" data-line="776" data-modal="source-view" data-src="files/src/lib/Smr/Port.php.txt"></a>
+            <a href="classes/Smr-Port.html#source-view.775" class="phpdocumentor-element-found-in__source" data-line="775" data-modal="source-view" data-src="files/src/lib/Smr/Port.php.txt"></a>
     </aside>
 
     
@@ -6761,9 +6862,9 @@ calling this function directly.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Port.php"><a href="files/src-lib-smr-port.html"><abbr title="src/lib/Smr/Port.php">Port.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">772</span>
+    <span class="phpdocumentor-element-found-in__line">771</span>
 
-            <a href="classes/Smr-Port.html#source-view.772" class="phpdocumentor-element-found-in__source" data-line="772" data-modal="source-view" data-src="files/src/lib/Smr/Port.php.txt"></a>
+            <a href="classes/Smr-Port.html#source-view.771" class="phpdocumentor-element-found-in__source" data-line="771" data-modal="source-view" data-src="files/src/lib/Smr/Port.php.txt"></a>
     </aside>
 
     
@@ -6793,9 +6894,9 @@ calling this function directly.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Port.php"><a href="files/src-lib-smr-port.html"><abbr title="src/lib/Smr/Port.php">Port.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">855</span>
+    <span class="phpdocumentor-element-found-in__line">854</span>
 
-            <a href="classes/Smr-Port.html#source-view.855" class="phpdocumentor-element-found-in__source" data-line="855" data-modal="source-view" data-src="files/src/lib/Smr/Port.php.txt"></a>
+            <a href="classes/Smr-Port.html#source-view.854" class="phpdocumentor-element-found-in__source" data-line="854" data-modal="source-view" data-src="files/src/lib/Smr/Port.php.txt"></a>
     </aside>
 
     
@@ -6835,9 +6936,9 @@ calling this function directly.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Port.php"><a href="files/src-lib-smr-port.html"><abbr title="src/lib/Smr/Port.php">Port.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">830</span>
+    <span class="phpdocumentor-element-found-in__line">829</span>
 
-            <a href="classes/Smr-Port.html#source-view.830" class="phpdocumentor-element-found-in__source" data-line="830" data-modal="source-view" data-src="files/src/lib/Smr/Port.php.txt"></a>
+            <a href="classes/Smr-Port.html#source-view.829" class="phpdocumentor-element-found-in__source" data-line="829" data-modal="source-view" data-src="files/src/lib/Smr/Port.php.txt"></a>
     </aside>
 
     
@@ -6877,9 +6978,9 @@ calling this function directly.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Port.php"><a href="files/src-lib-smr-port.html"><abbr title="src/lib/Smr/Port.php">Port.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">539</span>
+    <span class="phpdocumentor-element-found-in__line">538</span>
 
-            <a href="classes/Smr-Port.html#source-view.539" class="phpdocumentor-element-found-in__source" data-line="539" data-modal="source-view" data-src="files/src/lib/Smr/Port.php.txt"></a>
+            <a href="classes/Smr-Port.html#source-view.538" class="phpdocumentor-element-found-in__source" data-line="538" data-modal="source-view" data-src="files/src/lib/Smr/Port.php.txt"></a>
     </aside>
 
         <p class="phpdocumentor-summary">Manually set port goods.</p>
@@ -6927,9 +7028,9 @@ Returns false on invalid input.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Port.php"><a href="files/src-lib-smr-port.html"><abbr title="src/lib/Smr/Port.php">Port.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">889</span>
+    <span class="phpdocumentor-element-found-in__line">888</span>
 
-            <a href="classes/Smr-Port.html#source-view.889" class="phpdocumentor-element-found-in__source" data-line="889" data-modal="source-view" data-src="files/src/lib/Smr/Port.php.txt"></a>
+            <a href="classes/Smr-Port.html#source-view.888" class="phpdocumentor-element-found-in__source" data-line="888" data-modal="source-view" data-src="files/src/lib/Smr/Port.php.txt"></a>
     </aside>
 
     
@@ -6969,9 +7070,9 @@ Returns false on invalid input.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Port.php"><a href="files/src-lib-smr-port.html"><abbr title="src/lib/Smr/Port.php">Port.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">983</span>
+    <span class="phpdocumentor-element-found-in__line">982</span>
 
-            <a href="classes/Smr-Port.html#source-view.983" class="phpdocumentor-element-found-in__source" data-line="983" data-modal="source-view" data-src="files/src/lib/Smr/Port.php.txt"></a>
+            <a href="classes/Smr-Port.html#source-view.982" class="phpdocumentor-element-found-in__source" data-line="982" data-modal="source-view" data-src="files/src/lib/Smr/Port.php.txt"></a>
     </aside>
 
     
@@ -7011,9 +7112,9 @@ Returns false on invalid input.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Port.php"><a href="files/src-lib-smr-port.html"><abbr title="src/lib/Smr/Port.php">Port.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">730</span>
+    <span class="phpdocumentor-element-found-in__line">729</span>
 
-            <a href="classes/Smr-Port.html#source-view.730" class="phpdocumentor-element-found-in__source" data-line="730" data-modal="source-view" data-src="files/src/lib/Smr/Port.php.txt"></a>
+            <a href="classes/Smr-Port.html#source-view.729" class="phpdocumentor-element-found-in__source" data-line="729" data-modal="source-view" data-src="files/src/lib/Smr/Port.php.txt"></a>
     </aside>
 
     
@@ -7053,9 +7154,9 @@ Returns false on invalid input.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Port.php"><a href="files/src-lib-smr-port.html"><abbr title="src/lib/Smr/Port.php">Port.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">801</span>
+    <span class="phpdocumentor-element-found-in__line">800</span>
 
-            <a href="classes/Smr-Port.html#source-view.801" class="phpdocumentor-element-found-in__source" data-line="801" data-modal="source-view" data-src="files/src/lib/Smr/Port.php.txt"></a>
+            <a href="classes/Smr-Port.html#source-view.800" class="phpdocumentor-element-found-in__source" data-line="800" data-modal="source-view" data-src="files/src/lib/Smr/Port.php.txt"></a>
     </aside>
 
     
@@ -7095,9 +7196,9 @@ Returns false on invalid input.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Port.php"><a href="files/src-lib-smr-port.html"><abbr title="src/lib/Smr/Port.php">Port.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">1353</span>
+    <span class="phpdocumentor-element-found-in__line">1337</span>
 
-            <a href="classes/Smr-Port.html#source-view.1353" class="phpdocumentor-element-found-in__source" data-line="1353" data-modal="source-view" data-src="files/src/lib/Smr/Port.php.txt"></a>
+            <a href="classes/Smr-Port.html#source-view.1337" class="phpdocumentor-element-found-in__source" data-line="1337" data-modal="source-view" data-src="files/src/lib/Smr/Port.php.txt"></a>
     </aside>
 
     
@@ -7141,9 +7242,9 @@ Returns false on invalid input.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Port.php"><a href="files/src-lib-smr-port.html"><abbr title="src/lib/Smr/Port.php">Port.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">447</span>
+    <span class="phpdocumentor-element-found-in__line">446</span>
 
-            <a href="classes/Smr-Port.html#source-view.447" class="phpdocumentor-element-found-in__source" data-line="447" data-modal="source-view" data-src="files/src/lib/Smr/Port.php.txt"></a>
+            <a href="classes/Smr-Port.html#source-view.446" class="phpdocumentor-element-found-in__source" data-line="446" data-modal="source-view" data-src="files/src/lib/Smr/Port.php.txt"></a>
     </aside>
 
     
@@ -7190,9 +7291,9 @@ Returns false on invalid input.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Port.php"><a href="files/src-lib-smr-port.html"><abbr title="src/lib/Smr/Port.php">Port.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">1394</span>
+    <span class="phpdocumentor-element-found-in__line">1378</span>
 
-            <a href="classes/Smr-Port.html#source-view.1394" class="phpdocumentor-element-found-in__source" data-line="1394" data-modal="source-view" data-src="files/src/lib/Smr/Port.php.txt"></a>
+            <a href="classes/Smr-Port.html#source-view.1378" class="phpdocumentor-element-found-in__source" data-line="1378" data-modal="source-view" data-src="files/src/lib/Smr/Port.php.txt"></a>
     </aside>
 
     
@@ -7236,9 +7337,9 @@ Returns false on invalid input.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Port.php"><a href="files/src-lib-smr-port.html"><abbr title="src/lib/Smr/Port.php">Port.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">1264</span>
+    <span class="phpdocumentor-element-found-in__line">1248</span>
 
-            <a href="classes/Smr-Port.html#source-view.1264" class="phpdocumentor-element-found-in__source" data-line="1264" data-modal="source-view" data-src="files/src/lib/Smr/Port.php.txt"></a>
+            <a href="classes/Smr-Port.html#source-view.1248" class="phpdocumentor-element-found-in__source" data-line="1248" data-modal="source-view" data-src="files/src/lib/Smr/Port.php.txt"></a>
     </aside>
 
     
@@ -7268,9 +7369,9 @@ Returns false on invalid input.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Port.php"><a href="files/src-lib-smr-port.html"><abbr title="src/lib/Smr/Port.php">Port.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">1155</span>
+    <span class="phpdocumentor-element-found-in__line">1139</span>
 
-            <a href="classes/Smr-Port.html#source-view.1155" class="phpdocumentor-element-found-in__source" data-line="1155" data-modal="source-view" data-src="files/src/lib/Smr/Port.php.txt"></a>
+            <a href="classes/Smr-Port.html#source-view.1139" class="phpdocumentor-element-found-in__source" data-line="1139" data-modal="source-view" data-src="files/src/lib/Smr/Port.php.txt"></a>
     </aside>
 
     
@@ -7300,9 +7401,9 @@ Returns false on invalid input.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Port.php"><a href="files/src-lib-smr-port.html"><abbr title="src/lib/Smr/Port.php">Port.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">469</span>
+    <span class="phpdocumentor-element-found-in__line">468</span>
 
-            <a href="classes/Smr-Port.html#source-view.469" class="phpdocumentor-element-found-in__source" data-line="469" data-modal="source-view" data-src="files/src/lib/Smr/Port.php.txt"></a>
+            <a href="classes/Smr-Port.html#source-view.468" class="phpdocumentor-element-found-in__source" data-line="468" data-modal="source-view" data-src="files/src/lib/Smr/Port.php.txt"></a>
     </aside>
 
         <p class="phpdocumentor-summary">This function should only be used in universe creation to set
@@ -7344,9 +7445,9 @@ ports to a specific level.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Port.php"><a href="files/src-lib-smr-port.html"><abbr title="src/lib/Smr/Port.php">Port.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">151</span>
+    <span class="phpdocumentor-element-found-in__line">150</span>
 
-            <a href="classes/Smr-Port.html#source-view.151" class="phpdocumentor-element-found-in__source" data-line="151" data-modal="source-view" data-src="files/src/lib/Smr/Port.php.txt"></a>
+            <a href="classes/Smr-Port.html#source-view.150" class="phpdocumentor-element-found-in__source" data-line="150" data-modal="source-view" data-src="files/src/lib/Smr/Port.php.txt"></a>
     </aside>
 
     
@@ -7400,9 +7501,9 @@ ports to a specific level.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Port.php"><a href="files/src-lib-smr-port.html"><abbr title="src/lib/Smr/Port.php">Port.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">1473</span>
+    <span class="phpdocumentor-element-found-in__line">1457</span>
 
-            <a href="classes/Smr-Port.html#source-view.1473" class="phpdocumentor-element-found-in__source" data-line="1473" data-modal="source-view" data-src="files/src/lib/Smr/Port.php.txt"></a>
+            <a href="classes/Smr-Port.html#source-view.1457" class="phpdocumentor-element-found-in__source" data-line="1457" data-modal="source-view" data-src="files/src/lib/Smr/Port.php.txt"></a>
     </aside>
 
     
@@ -7432,9 +7533,9 @@ ports to a specific level.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Port.php"><a href="files/src-lib-smr-port.html"><abbr title="src/lib/Smr/Port.php">Port.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">649</span>
+    <span class="phpdocumentor-element-found-in__line">648</span>
 
-            <a href="classes/Smr-Port.html#source-view.649" class="phpdocumentor-element-found-in__source" data-line="649" data-modal="source-view" data-src="files/src/lib/Smr/Port.php.txt"></a>
+            <a href="classes/Smr-Port.html#source-view.648" class="phpdocumentor-element-found-in__source" data-line="648" data-modal="source-view" data-src="files/src/lib/Smr/Port.php.txt"></a>
     </aside>
 
     
@@ -7464,9 +7565,9 @@ ports to a specific level.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Port.php"><a href="files/src-lib-smr-port.html"><abbr title="src/lib/Smr/Port.php">Port.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">511</span>
+    <span class="phpdocumentor-element-found-in__line">510</span>
 
-            <a href="classes/Smr-Port.html#source-view.511" class="phpdocumentor-element-found-in__source" data-line="511" data-modal="source-view" data-src="files/src/lib/Smr/Port.php.txt"></a>
+            <a href="classes/Smr-Port.html#source-view.510" class="phpdocumentor-element-found-in__source" data-line="510" data-modal="source-view" data-src="files/src/lib/Smr/Port.php.txt"></a>
     </aside>
 
     
@@ -7496,9 +7597,9 @@ ports to a specific level.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Port.php"><a href="files/src-lib-smr-port.html"><abbr title="src/lib/Smr/Port.php">Port.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">486</span>
+    <span class="phpdocumentor-element-found-in__line">485</span>
 
-            <a href="classes/Smr-Port.html#source-view.486" class="phpdocumentor-element-found-in__source" data-line="486" data-modal="source-view" data-src="files/src/lib/Smr/Port.php.txt"></a>
+            <a href="classes/Smr-Port.html#source-view.485" class="phpdocumentor-element-found-in__source" data-line="485" data-modal="source-view" data-src="files/src/lib/Smr/Port.php.txt"></a>
     </aside>
 
         <p class="phpdocumentor-summary">Returns the good class associated with the given level.</p>
@@ -7546,9 +7647,9 @@ This is useful for determining what trade goods to add/remove.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Port.php"><a href="files/src-lib-smr-port.html"><abbr title="src/lib/Smr/Port.php">Port.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">1482</span>
+    <span class="phpdocumentor-element-found-in__line">1466</span>
 
-            <a href="classes/Smr-Port.html#source-view.1482" class="phpdocumentor-element-found-in__source" data-line="1482" data-modal="source-view" data-src="files/src/lib/Smr/Port.php.txt"></a>
+            <a href="classes/Smr-Port.html#source-view.1466" class="phpdocumentor-element-found-in__source" data-line="1466" data-modal="source-view" data-src="files/src/lib/Smr/Port.php.txt"></a>
     </aside>
 
     
@@ -7606,9 +7707,9 @@ This is useful for determining what trade goods to add/remove.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Port.php"><a href="files/src-lib-smr-port.html"><abbr title="src/lib/Smr/Port.php">Port.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">415</span>
+    <span class="phpdocumentor-element-found-in__line">414</span>
 
-            <a href="classes/Smr-Port.html#source-view.415" class="phpdocumentor-element-found-in__source" data-line="415" data-modal="source-view" data-src="files/src/lib/Smr/Port.php.txt"></a>
+            <a href="classes/Smr-Port.html#source-view.414" class="phpdocumentor-element-found-in__source" data-line="414" data-modal="source-view" data-src="files/src/lib/Smr/Port.php.txt"></a>
     </aside>
 
         <p class="phpdocumentor-summary">Adds extra stock to goods in the tier above a good that was traded</p>
@@ -7656,9 +7757,9 @@ This is useful for determining what trade goods to add/remove.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Port.php"><a href="files/src-lib-smr-port.html"><abbr title="src/lib/Smr/Port.php">Port.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">498</span>
+    <span class="phpdocumentor-element-found-in__line">497</span>
 
-            <a href="classes/Smr-Port.html#source-view.498" class="phpdocumentor-element-found-in__source" data-line="498" data-modal="source-view" data-src="files/src/lib/Smr/Port.php.txt"></a>
+            <a href="classes/Smr-Port.html#source-view.497" class="phpdocumentor-element-found-in__source" data-line="497" data-modal="source-view" data-src="files/src/lib/Smr/Port.php.txt"></a>
     </aside>
 
     
@@ -7702,9 +7803,9 @@ This is useful for determining what trade goods to add/remove.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Port.php"><a href="files/src-lib-smr-port.html"><abbr title="src/lib/Smr/Port.php">Port.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">634</span>
+    <span class="phpdocumentor-element-found-in__line">633</span>
 
-            <a href="classes/Smr-Port.html#source-view.634" class="phpdocumentor-element-found-in__source" data-line="634" data-modal="source-view" data-src="files/src/lib/Smr/Port.php.txt"></a>
+            <a href="classes/Smr-Port.html#source-view.633" class="phpdocumentor-element-found-in__source" data-line="633" data-modal="source-view" data-src="files/src/lib/Smr/Port.php.txt"></a>
     </aside>
 
     
@@ -7744,9 +7845,9 @@ This is useful for determining what trade goods to add/remove.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Port.php"><a href="files/src-lib-smr-port.html"><abbr title="src/lib/Smr/Port.php">Port.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">1151</span>
+    <span class="phpdocumentor-element-found-in__line">1135</span>
 
-            <a href="classes/Smr-Port.html#source-view.1151" class="phpdocumentor-element-found-in__source" data-line="1151" data-modal="source-view" data-src="files/src/lib/Smr/Port.php.txt"></a>
+            <a href="classes/Smr-Port.html#source-view.1135" class="phpdocumentor-element-found-in__source" data-line="1135" data-modal="source-view" data-src="files/src/lib/Smr/Port.php.txt"></a>
     </aside>
 
     
@@ -7786,9 +7887,9 @@ This is useful for determining what trade goods to add/remove.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Port.php"><a href="files/src-lib-smr-port.html"><abbr title="src/lib/Smr/Port.php">Port.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">1438</span>
+    <span class="phpdocumentor-element-found-in__line">1422</span>
 
-            <a href="classes/Smr-Port.html#source-view.1438" class="phpdocumentor-element-found-in__source" data-line="1438" data-modal="source-view" data-src="files/src/lib/Smr/Port.php.txt"></a>
+            <a href="classes/Smr-Port.html#source-view.1422" class="phpdocumentor-element-found-in__source" data-line="1422" data-modal="source-view" data-src="files/src/lib/Smr/Port.php.txt"></a>
     </aside>
 
     
@@ -7832,9 +7933,9 @@ This is useful for determining what trade goods to add/remove.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Port.php"><a href="files/src-lib-smr-port.html"><abbr title="src/lib/Smr/Port.php">Port.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">1432</span>
+    <span class="phpdocumentor-element-found-in__line">1416</span>
 
-            <a href="classes/Smr-Port.html#source-view.1432" class="phpdocumentor-element-found-in__source" data-line="1432" data-modal="source-view" data-src="files/src/lib/Smr/Port.php.txt"></a>
+            <a href="classes/Smr-Port.html#source-view.1416" class="phpdocumentor-element-found-in__source" data-line="1416" data-modal="source-view" data-src="files/src/lib/Smr/Port.php.txt"></a>
     </aside>
 
     
@@ -7878,9 +7979,9 @@ This is useful for determining what trade goods to add/remove.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Port.php"><a href="files/src-lib-smr-port.html"><abbr title="src/lib/Smr/Port.php">Port.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">1426</span>
+    <span class="phpdocumentor-element-found-in__line">1410</span>
 
-            <a href="classes/Smr-Port.html#source-view.1426" class="phpdocumentor-element-found-in__source" data-line="1426" data-modal="source-view" data-src="files/src/lib/Smr/Port.php.txt"></a>
+            <a href="classes/Smr-Port.html#source-view.1410" class="phpdocumentor-element-found-in__source" data-line="1410" data-modal="source-view" data-src="files/src/lib/Smr/Port.php.txt"></a>
     </aside>
 
     
@@ -7924,9 +8025,9 @@ This is useful for determining what trade goods to add/remove.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Port.php"><a href="files/src-lib-smr-port.html"><abbr title="src/lib/Smr/Port.php">Port.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">427</span>
+    <span class="phpdocumentor-element-found-in__line">426</span>
 
-            <a href="classes/Smr-Port.html#source-view.427" class="phpdocumentor-element-found-in__source" data-line="427" data-modal="source-view" data-src="files/src/lib/Smr/Port.php.txt"></a>
+            <a href="classes/Smr-Port.html#source-view.426" class="phpdocumentor-element-found-in__source" data-line="426" data-modal="source-view" data-src="files/src/lib/Smr/Port.php.txt"></a>
     </aside>
 
     
@@ -7980,9 +8081,9 @@ This is useful for determining what trade goods to add/remove.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Port.php"><a href="files/src-lib-smr-port.html"><abbr title="src/lib/Smr/Port.php">Port.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">254</span>
+    <span class="phpdocumentor-element-found-in__line">253</span>
 
-            <a href="classes/Smr-Port.html#source-view.254" class="phpdocumentor-element-found-in__source" data-line="254" data-modal="source-view" data-src="files/src/lib/Smr/Port.php.txt"></a>
+            <a href="classes/Smr-Port.html#source-view.253" class="phpdocumentor-element-found-in__source" data-line="253" data-modal="source-view" data-src="files/src/lib/Smr/Port.php.txt"></a>
     </aside>
 
     
@@ -8012,9 +8113,9 @@ This is useful for determining what trade goods to add/remove.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Port.php"><a href="files/src-lib-smr-port.html"><abbr title="src/lib/Smr/Port.php">Port.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">276</span>
+    <span class="phpdocumentor-element-found-in__line">275</span>
 
-            <a href="classes/Smr-Port.html#source-view.276" class="phpdocumentor-element-found-in__source" data-line="276" data-modal="source-view" data-src="files/src/lib/Smr/Port.php.txt"></a>
+            <a href="classes/Smr-Port.html#source-view.275" class="phpdocumentor-element-found-in__source" data-line="275" data-modal="source-view" data-src="files/src/lib/Smr/Port.php.txt"></a>
     </aside>
 
     
@@ -8065,9 +8166,9 @@ This is useful for determining what trade goods to add/remove.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Port.php"><a href="files/src-lib-smr-port.html"><abbr title="src/lib/Smr/Port.php">Port.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">234</span>
+    <span class="phpdocumentor-element-found-in__line">233</span>
 
-            <a href="classes/Smr-Port.html#source-view.234" class="phpdocumentor-element-found-in__source" data-line="234" data-modal="source-view" data-src="files/src/lib/Smr/Port.php.txt"></a>
+            <a href="classes/Smr-Port.html#source-view.233" class="phpdocumentor-element-found-in__source" data-line="233" data-modal="source-view" data-src="files/src/lib/Smr/Port.php.txt"></a>
     </aside>
 
         <p class="phpdocumentor-summary">Used for the automatic resupplying of all goods over time</p>
@@ -8115,9 +8216,9 @@ This is useful for determining what trade goods to add/remove.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Port.php"><a href="files/src-lib-smr-port.html"><abbr title="src/lib/Smr/Port.php">Port.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">999</span>
+    <span class="phpdocumentor-element-found-in__line">998</span>
 
-            <a href="classes/Smr-Port.html#source-view.999" class="phpdocumentor-element-found-in__source" data-line="999" data-modal="source-view" data-src="files/src/lib/Smr/Port.php.txt"></a>
+            <a href="classes/Smr-Port.html#source-view.998" class="phpdocumentor-element-found-in__source" data-line="998" data-modal="source-view" data-src="files/src/lib/Smr/Port.php.txt"></a>
     </aside>
 
     
@@ -8157,9 +8258,9 @@ This is useful for determining what trade goods to add/remove.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Port.php"><a href="files/src-lib-smr-port.html"><abbr title="src/lib/Smr/Port.php">Port.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">375</span>
+    <span class="phpdocumentor-element-found-in__line">374</span>
 
-            <a href="classes/Smr-Port.html#source-view.375" class="phpdocumentor-element-found-in__source" data-line="375" data-modal="source-view" data-src="files/src/lib/Smr/Port.php.txt"></a>
+            <a href="classes/Smr-Port.html#source-view.374" class="phpdocumentor-element-found-in__source" data-line="374" data-modal="source-view" data-src="files/src/lib/Smr/Port.php.txt"></a>
     </aside>
 
     
@@ -8213,9 +8314,9 @@ This is useful for determining what trade goods to add/remove.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Port.php"><a href="files/src-lib-smr-port.html"><abbr title="src/lib/Smr/Port.php">Port.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">995</span>
+    <span class="phpdocumentor-element-found-in__line">994</span>
 
-            <a href="classes/Smr-Port.html#source-view.995" class="phpdocumentor-element-found-in__source" data-line="995" data-modal="source-view" data-src="files/src/lib/Smr/Port.php.txt"></a>
+            <a href="classes/Smr-Port.html#source-view.994" class="phpdocumentor-element-found-in__source" data-line="994" data-modal="source-view" data-src="files/src/lib/Smr/Port.php.txt"></a>
     </aside>
 
     
@@ -8344,6 +8445,7 @@ This is useful for determining what trade goods to add/remove.</p>
                             <li class="phpdocumentor-on-this-page-section__title">Constants</li>
                 <li>
                     <ul class="phpdocumentor-list -clean">
+                                                    <li><a href="classes/Smr-Port.html#constant_CLAIM_PAYOUT">CLAIM_PAYOUT</a></li>
                                                     <li><a href="classes/Smr-Port.html#constant_DAMAGE_NEEDED_FOR_ALIGNMENT_CHANGE">DAMAGE_NEEDED_FOR_ALIGNMENT_CHANGE</a></li>
                                                     <li><a href="classes/Smr-Port.html#constant_KILLER_RELATIONS_LOSS">KILLER_RELATIONS_LOSS</a></li>
                                                     <li><a href="classes/Smr-Port.html#constant_RAZE_PAYOUT">RAZE_PAYOUT</a></li>
@@ -8408,9 +8510,11 @@ This is useful for determining what trade goods to add/remove.</p>
                                             <li><a href="classes/Smr-Port.html#method_attackedBy">attackedBy()</a></li>
                                             <li><a href="classes/Smr-Port.html#method_buyGoods">buyGoods()</a></li>
                                             <li><a href="classes/Smr-Port.html#method_calculateExperiencePercent">calculateExperiencePercent()</a></li>
+                                            <li><a href="classes/Smr-Port.html#method_canBeDestroyed">canBeDestroyed()</a></li>
                                             <li><a href="classes/Smr-Port.html#method_checkDefenses">checkDefenses()</a></li>
                                             <li><a href="classes/Smr-Port.html#method_checkForDowngrade">checkForDowngrade()</a></li>
                                             <li><a href="classes/Smr-Port.html#method_checkForUpgrade">checkForUpgrade()</a></li>
+                                            <li><a href="classes/Smr-Port.html#method_claimPort">claimPort()</a></li>
                                             <li><a href="classes/Smr-Port.html#method_clearCache">clearCache()</a></li>
                                             <li><a href="classes/Smr-Port.html#method_createPort">createPort()</a></li>
                                             <li><a href="classes/Smr-Port.html#method_decreaseArmour">decreaseArmour()</a></li>
@@ -8421,6 +8525,7 @@ This is useful for determining what trade goods to add/remove.</p>
                                             <li><a href="classes/Smr-Port.html#method_decreaseLevel">decreaseLevel()</a></li>
                                             <li><a href="classes/Smr-Port.html#method_decreaseShields">decreaseShields()</a></li>
                                             <li><a href="classes/Smr-Port.html#method_decreaseUpgrade">decreaseUpgrade()</a></li>
+                                            <li><a href="classes/Smr-Port.html#method_destroyPort">destroyPort()</a></li>
                                             <li><a href="classes/Smr-Port.html#method_exists">exists()</a></li>
                                             <li><a href="classes/Smr-Port.html#method_getAllGoodIDs">getAllGoodIDs()</a></li>
                                             <li><a href="classes/Smr-Port.html#method_getArmour">getArmour()</a></li>
@@ -8432,7 +8537,6 @@ This is useful for determining what trade goods to add/remove.</p>
                                             <li><a href="classes/Smr-Port.html#method_getCachedPort">getCachedPort()</a></li>
                                             <li><a href="classes/Smr-Port.html#method_getCachedTime">getCachedTime()</a></li>
                                             <li><a href="classes/Smr-Port.html#method_getCDs">getCDs()</a></li>
-                                            <li><a href="classes/Smr-Port.html#method_getClaimHREF">getClaimHREF()</a></li>
                                             <li><a href="classes/Smr-Port.html#method_getCredits">getCredits()</a></li>
                                             <li><a href="classes/Smr-Port.html#method_getCreditsPercent">getCreditsPercent()</a></li>
                                             <li><a href="classes/Smr-Port.html#method_getDisplayName">getDisplayName()</a></li>
@@ -8447,16 +8551,15 @@ This is useful for determining what trade goods to add/remove.</p>
                                             <li><a href="classes/Smr-Port.html#method_getIdealPrice">getIdealPrice()</a></li>
                                             <li><a href="classes/Smr-Port.html#method_getLevel">getLevel()</a></li>
                                             <li><a href="classes/Smr-Port.html#method_getLootGoodHREF">getLootGoodHREF()</a></li>
-                                            <li><a href="classes/Smr-Port.html#method_getLootHREF">getLootHREF()</a></li>
                                             <li><a href="classes/Smr-Port.html#method_getMaxLevel">getMaxLevel()</a></li>
                                             <li><a href="classes/Smr-Port.html#method_getMaxLevelByGame">getMaxLevelByGame()</a></li>
                                             <li><a href="classes/Smr-Port.html#method_getNumWeapons">getNumWeapons()</a></li>
                                             <li><a href="classes/Smr-Port.html#method_getOfferPrice">getOfferPrice()</a></li>
+                                            <li><a href="classes/Smr-Port.html#method_getPayoutHREF">getPayoutHREF()</a></li>
                                             <li><a href="classes/Smr-Port.html#method_getPort">getPort()</a></li>
                                             <li><a href="classes/Smr-Traits-RaceID.html#method_getRaceID">getRaceID()</a></li>
                                             <li><a href="classes/Smr-Traits-RaceID.html#method_getRaceName">getRaceName()</a></li>
                                             <li><a href="classes/Smr-Port.html#method_getRaidWarningHREF">getRaidWarningHREF()</a></li>
-                                            <li><a href="classes/Smr-Port.html#method_getRazeHREF">getRazeHREF()</a></li>
                                             <li><a href="classes/Smr-Port.html#method_getReinforcePercent">getReinforcePercent()</a></li>
                                             <li><a href="classes/Smr-Port.html#method_getReinforceTime">getReinforceTime()</a></li>
                                             <li><a href="classes/Smr-Port.html#method_getSector">getSector()</a></li>
@@ -8480,9 +8583,9 @@ This is useful for determining what trade goods to add/remove.</p>
                                             <li><a href="classes/Smr-Port.html#method_increaseGoodAmount">increaseGoodAmount()</a></li>
                                             <li><a href="classes/Smr-Port.html#method_increaseLevel">increaseLevel()</a></li>
                                             <li><a href="classes/Smr-Port.html#method_increaseUpgrade">increaseUpgrade()</a></li>
+                                            <li><a href="classes/Smr-Port.html#method_isBusted">isBusted()</a></li>
                                             <li><a href="classes/Smr-Port.html#method_isCachedVersion">isCachedVersion()</a></li>
                                             <li><a href="classes/Smr-Port.html#method_isCreditedAttacker">isCreditedAttacker()</a></li>
-                                            <li><a href="classes/Smr-Port.html#method_isDestroyed">isDestroyed()</a></li>
                                             <li><a href="classes/Smr-Port.html#method_isUnderAttack">isUnderAttack()</a></li>
                                             <li><a href="classes/Smr-Port.html#method_killPortByPlayer">killPortByPlayer()</a></li>
                                             <li><a href="classes/Smr-Port.html#method_lootPort">lootPort()</a></li>

@@ -7896,6 +7896,16 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/Smr-Game.html#method_setStartingCredits"
         },                {
+            "fqsen": "\\Smr\\Game\u003A\u003AcanDestroyPorts\u0028\u0029",
+            "name": "canDestroyPorts",
+            "summary": "",
+            "url": "classes/Smr-Game.html#method_canDestroyPorts"
+        },                {
+            "fqsen": "\\Smr\\Game\u003A\u003AsetDestroyPorts\u0028\u0029",
+            "name": "setDestroyPorts",
+            "summary": "",
+            "url": "classes/Smr-Game.html#method_setDestroyPorts"
+        },                {
             "fqsen": "\\Smr\\Game\u003A\u003AgetTotalPlayers\u0028\u0029",
             "name": "getTotalPlayers",
             "summary": "",
@@ -8060,6 +8070,11 @@ Search.appendIndex(
             "name": "startingCredits",
             "summary": "",
             "url": "classes/Smr-Game.html#property_startingCredits"
+        },                {
+            "fqsen": "\\Smr\\Game\u003A\u003A\u0024destroyPorts",
+            "name": "destroyPorts",
+            "summary": "",
+            "url": "classes/Smr-Game.html#property_destroyPorts"
         },                {
             "fqsen": "\\Smr\\Game\u003A\u003A\u0024totalPlayers",
             "name": "totalPlayers",
@@ -9451,10 +9466,10 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/Smr-Planet.html#method_moveMountedWeaponDown"
         },                {
-            "fqsen": "\\Smr\\Planet\u003A\u003AisDestroyed\u0028\u0029",
-            "name": "isDestroyed",
+            "fqsen": "\\Smr\\Planet\u003A\u003AisBusted\u0028\u0029",
+            "name": "isBusted",
             "summary": "",
-            "url": "classes/Smr-Planet.html#method_isDestroyed"
+            "url": "classes/Smr-Planet.html#method_isBusted"
         },                {
             "fqsen": "\\Smr\\Planet\u003A\u003A\u0024exists",
             "name": "exists",
@@ -10941,10 +10956,10 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/Smr-Port.html#method_isUnderAttack"
         },                {
-            "fqsen": "\\Smr\\Port\u003A\u003AisDestroyed\u0028\u0029",
-            "name": "isDestroyed",
+            "fqsen": "\\Smr\\Port\u003A\u003AisBusted\u0028\u0029",
+            "name": "isBusted",
             "summary": "",
-            "url": "classes/Smr-Port.html#method_isDestroyed"
+            "url": "classes/Smr-Port.html#method_isBusted"
         },                {
             "fqsen": "\\Smr\\Port\u003A\u003Aexists\u0028\u0029",
             "name": "exists",
@@ -11001,20 +11016,10 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/Smr-Port.html#method_getAttackHREF"
         },                {
-            "fqsen": "\\Smr\\Port\u003A\u003AgetClaimHREF\u0028\u0029",
-            "name": "getClaimHREF",
+            "fqsen": "\\Smr\\Port\u003A\u003AgetPayoutHREF\u0028\u0029",
+            "name": "getPayoutHREF",
             "summary": "",
-            "url": "classes/Smr-Port.html#method_getClaimHREF"
-        },                {
-            "fqsen": "\\Smr\\Port\u003A\u003AgetRazeHREF\u0028\u0029",
-            "name": "getRazeHREF",
-            "summary": "",
-            "url": "classes/Smr-Port.html#method_getRazeHREF"
-        },                {
-            "fqsen": "\\Smr\\Port\u003A\u003AgetLootHREF\u0028\u0029",
-            "name": "getLootHREF",
-            "summary": "",
-            "url": "classes/Smr-Port.html#method_getLootHREF"
+            "url": "classes/Smr-Port.html#method_getPayoutHREF"
         },                {
             "fqsen": "\\Smr\\Port\u003A\u003AgetLootGoodHREF\u0028\u0029",
             "name": "getLootGoodHREF",
@@ -11126,6 +11131,21 @@ Search.appendIndex(
             "summary": "Get\u0020a\u0020fraction\u0020of\u0020the\u0020credits\u0020stored\u0020in\u0020the\u0020port\u0020for\u0020looting\u0020after\u0020a\nsuccessful\u0020port\u0020raid.",
             "url": "classes/Smr-Port.html#method_lootPort"
         },                {
+            "fqsen": "\\Smr\\Port\u003A\u003AclaimPort\u0028\u0029",
+            "name": "claimPort",
+            "summary": "Claim\u0020port\u0020for\u0020your\u0020race\u0020after\u0020a\u0020successful\u0020port\u0020raid.",
+            "url": "classes/Smr-Port.html#method_claimPort"
+        },                {
+            "fqsen": "\\Smr\\Port\u003A\u003AdestroyPort\u0028\u0029",
+            "name": "destroyPort",
+            "summary": "Permanently\u0020destroy\u0020the\u0020port\u0020after\u0020a\u0020successful\u0020port\u0020raid.",
+            "url": "classes/Smr-Port.html#method_destroyPort"
+        },                {
+            "fqsen": "\\Smr\\Port\u003A\u003AcanBeDestroyed\u0028\u0029",
+            "name": "canBeDestroyed",
+            "summary": "Can\u0020ports\u0020be\u0020destroyed\u0020after\u0020a\u0020successful\u0020port\u0020raid\u003F",
+            "url": "classes/Smr-Port.html#method_canBeDestroyed"
+        },                {
             "fqsen": "\\Smr\\Port\u003A\u003AkillPortByPlayer\u0028\u0029",
             "name": "killPortByPlayer",
             "summary": "",
@@ -11215,6 +11235,11 @@ Search.appendIndex(
             "name": "RAZE_PAYOUT",
             "summary": "",
             "url": "classes/Smr-Port.html#constant_RAZE_PAYOUT"
+        },                {
+            "fqsen": "\\Smr\\Port\u003A\u003ACLAIM_PAYOUT",
+            "name": "CLAIM_PAYOUT",
+            "summary": "",
+            "url": "classes/Smr-Port.html#constant_CLAIM_PAYOUT"
         },                {
             "fqsen": "\\Smr\\Port\u003A\u003AKILLER_RELATIONS_LOSS",
             "name": "KILLER_RELATIONS_LOSS",
@@ -11360,6 +11385,16 @@ Search.appendIndex(
             "name": "Raze",
             "summary": "",
             "url": "classes/Smr-PortPayoutType.html#enumcase_Raze"
+        },                {
+            "fqsen": "\\Smr\\PortPayoutType\u003A\u003AClaim",
+            "name": "Claim",
+            "summary": "",
+            "url": "classes/Smr-PortPayoutType.html#enumcase_Claim"
+        },                {
+            "fqsen": "\\Smr\\PortPayoutType\u003A\u003ADestroy",
+            "name": "Destroy",
+            "summary": "",
+            "url": "classes/Smr-PortPayoutType.html#enumcase_Destroy"
         },                {
             "fqsen": "\\Smr\\Race",
             "name": "Race",
