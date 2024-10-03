@@ -3891,6 +3891,16 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/Smr-Alliance.html#constant_RECRUIT_PASSWORD"
         },                {
+            "fqsen": "\\Smr\\Alliance\u003A\u003AMAXLENGTH_NAME",
+            "name": "MAXLENGTH_NAME",
+            "summary": "",
+            "url": "classes/Smr-Alliance.html#constant_MAXLENGTH_NAME"
+        },                {
+            "fqsen": "\\Smr\\Alliance\u003A\u003AMAXLENGTH_DESCRIPTION",
+            "name": "MAXLENGTH_DESCRIPTION",
+            "summary": "",
+            "url": "classes/Smr-Alliance.html#constant_MAXLENGTH_DESCRIPTION"
+        },                {
             "fqsen": "\\Smr\\Alliance\u003A\u003A\u0024CACHE_ALLIANCES",
             "name": "CACHE_ALLIANCES",
             "summary": "",
@@ -4420,6 +4430,11 @@ Search.appendIndex(
             "name": "update",
             "summary": "",
             "url": "classes/Smr-Bounty.html#method_update"
+        },                {
+            "fqsen": "\\Smr\\Bounty\u003A\u003AMAX_CREDITS",
+            "name": "MAX_CREDITS",
+            "summary": "Maximum\u0020amount\u0020of\u0020bounty.credits\u0020in\u0020the\u0020database",
+            "url": "classes/Smr-Bounty.html#constant_MAX_CREDITS"
         },                {
             "fqsen": "\\Smr\\Bounty\u003A\u003A\u0024targetID",
             "name": "targetID",
