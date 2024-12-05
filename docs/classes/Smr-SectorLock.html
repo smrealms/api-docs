@@ -54,7 +54,7 @@
     Menu
 </label>
 <aside class="phpdocumentor-column -three phpdocumentor-sidebar">
-                    <section class="phpdocumentor-sidebar__category">
+                    <section class="phpdocumentor-sidebar__category -namespaces">
             <h2 class="phpdocumentor-sidebar__category-header">Namespaces</h2>
                                     <h4 class="phpdocumentor-sidebar__root-namespace">
     <a href="namespaces/smr.html" class="">Smr</a>
@@ -115,7 +115,7 @@
             </ul>
 
                         </section>
-                <section class="phpdocumentor-sidebar__category">
+                <section class="phpdocumentor-sidebar__category -packages">
             <h2 class="phpdocumentor-sidebar__category-header">Packages</h2>
                                     <h4 class="phpdocumentor-sidebar__root-namespace">
     <a href="packages/Application.html" class="">Application</a>
@@ -123,14 +123,14 @@
 
                         </section>
             
-    <section class="phpdocumentor-sidebar__category">
+    <section class="phpdocumentor-sidebar__category -reports">
         <h2 class="phpdocumentor-sidebar__category-header">Reports</h2>
                 <h3 class="phpdocumentor-sidebar__root-package"><a href="reports/deprecated.html">Deprecated</a></h3>
         <h3 class="phpdocumentor-sidebar__root-package"><a href="reports/errors.html">Errors</a></h3>
         <h3 class="phpdocumentor-sidebar__root-package"><a href="reports/markers.html">Markers</a></h3>
     </section>
 
-    <section class="phpdocumentor-sidebar__category">
+    <section class="phpdocumentor-sidebar__category -indices">
         <h2 class="phpdocumentor-sidebar__category-header">Indices</h2>
         <h3 class="phpdocumentor-sidebar__root-package"><a href="indices/files.html">Files</a></h3>
     </section>
@@ -174,6 +174,7 @@
 sequentially as requests come in, avoiding race conditions by using a
 blocking queue.</p>
 
+
     <section class="phpdocumentor-description"><p>The lock creates exclusive access to a specified sector, since that is
 the primary way (caveat: but not the <em>only</em> way) in which simultaneous
 processing would create inconsistencies.</p>
@@ -182,6 +183,8 @@ locking within the database). There are also some deficiencies in this
 implementation, in particular the inability for a single player to lock
 two sectors at once (to avoid, e.g., race conditions with movement).</p>
 </section>
+
+
 
 
 
@@ -206,7 +209,7 @@ two sectors at once (to avoid, e.g., race conditions with movement).</p>
 </h4>
 <dl class="phpdocumentor-table-of-contents">
             <dt class="phpdocumentor-table-of-contents__entry -constant -private">
-    <a href="classes/Smr-SectorLock.html#constant_LOCK_DURATION">LOCK_DURATION</a>
+    <a class="" href="classes/Smr-SectorLock.html#constant_LOCK_DURATION">LOCK_DURATION</a>
     <span>
         &nbsp;= 10                            </span>
 </dt>
@@ -214,7 +217,7 @@ two sectors at once (to avoid, e.g., race conditions with movement).</p>
 considered stale.</dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -constant -private">
-    <a href="classes/Smr-SectorLock.html#constant_RETRY_DURATION">RETRY_DURATION</a>
+    <a class="" href="classes/Smr-SectorLock.html#constant_RETRY_DURATION">RETRY_DURATION</a>
     <span>
         &nbsp;= 5                            </span>
 </dt>
@@ -230,31 +233,31 @@ considered stale.</dd>
 </h4>
 <dl class="phpdocumentor-table-of-contents">
             <dt class="phpdocumentor-table-of-contents__entry -property -private">
-    <a href="classes/Smr-SectorLock.html#property_accountID">$accountID</a>
+    <a class="" href="classes/Smr-SectorLock.html#property_accountID">$accountID</a>
     <span>
                         &nbsp;: int|null            </span>
 </dt>
 
             <dt class="phpdocumentor-table-of-contents__entry -property -private">
-    <a href="classes/Smr-SectorLock.html#property_failed">$failed</a>
+    <a class="" href="classes/Smr-SectorLock.html#property_failed">$failed</a>
     <span>
                         &nbsp;: bool            </span>
 </dt>
 
             <dt class="phpdocumentor-table-of-contents__entry -property -private">
-    <a href="classes/Smr-SectorLock.html#property_gameID">$gameID</a>
+    <a class="" href="classes/Smr-SectorLock.html#property_gameID">$gameID</a>
     <span>
                         &nbsp;: int|null            </span>
 </dt>
 
             <dt class="phpdocumentor-table-of-contents__entry -property -private">
-    <a href="classes/Smr-SectorLock.html#property_lockID">$lockID</a>
+    <a class="" href="classes/Smr-SectorLock.html#property_lockID">$lockID</a>
     <span>
                         &nbsp;: int|null            </span>
 </dt>
 
             <dt class="phpdocumentor-table-of-contents__entry -property -private">
-    <a href="classes/Smr-SectorLock.html#property_sectorID">$sectorID</a>
+    <a class="" href="classes/Smr-SectorLock.html#property_sectorID">$sectorID</a>
     <span>
                         &nbsp;: int|null            </span>
 </dt>
@@ -268,52 +271,52 @@ considered stale.</dd>
 </h4>
 <dl class="phpdocumentor-table-of-contents">
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
-    <a href="classes/Smr-SectorLock.html#method_acquire">acquire()</a>
+    <a class="" href="classes/Smr-SectorLock.html#method_acquire">acquire()</a>
     <span>
                                 &nbsp;: bool    </span>
 </dt>
 <dd>Acquire an exclusive lock on a sector.</dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
-    <a href="classes/Smr-SectorLock.html#method_acquireForPlayer">acquireForPlayer()</a>
+    <a class="" href="classes/Smr-SectorLock.html#method_acquireForPlayer">acquireForPlayer()</a>
     <span>
                                 &nbsp;: bool    </span>
 </dt>
 <dd>Convenience wrapper to acquire a lock for the player in their current sector.</dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
-    <a href="classes/Smr-SectorLock.html#method_getInstance">getInstance()</a>
+    <a class="" href="classes/Smr-SectorLock.html#method_getInstance">getInstance()</a>
     <span>
                                 &nbsp;: self    </span>
 </dt>
 <dd>Returns the instance of this class from the DI container.</dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
-    <a href="classes/Smr-SectorLock.html#method_getSectorID">getSectorID()</a>
+    <a class="" href="classes/Smr-SectorLock.html#method_getSectorID">getSectorID()</a>
     <span>
                                 &nbsp;: int    </span>
 </dt>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
-    <a href="classes/Smr-SectorLock.html#method_hasFailed">hasFailed()</a>
+    <a class="" href="classes/Smr-SectorLock.html#method_hasFailed">hasFailed()</a>
     <span>
                                 &nbsp;: bool    </span>
 </dt>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
-    <a href="classes/Smr-SectorLock.html#method_isActive">isActive()</a>
+    <a class="" href="classes/Smr-SectorLock.html#method_isActive">isActive()</a>
     <span>
                                 &nbsp;: bool    </span>
 </dt>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
-    <a href="classes/Smr-SectorLock.html#method_release">release()</a>
+    <a class="" href="classes/Smr-SectorLock.html#method_release">release()</a>
     <span>
                                 &nbsp;: bool    </span>
 </dt>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
-    <a href="classes/Smr-SectorLock.html#method_resetInstance">resetInstance()</a>
+    <a class="" href="classes/Smr-SectorLock.html#method_resetInstance">resetInstance()</a>
     <span>
                                 &nbsp;: void    </span>
 </dt>
@@ -321,13 +324,12 @@ considered stale.</dd>
 (i.e. stored in the DI container).</dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -private">
-    <a href="classes/Smr-SectorLock.html#method_setFailed">setFailed()</a>
+    <a class="" href="classes/Smr-SectorLock.html#method_setFailed">setFailed()</a>
     <span>
                                 &nbsp;: void    </span>
 </dt>
 
     </dl>
-
 
 
 
@@ -356,6 +358,7 @@ considered stale.</dd>
         <p class="phpdocumentor-summary">The max time (in seconds) for a lock to be active before being
 considered stale.</p>
 
+    
     <code class="phpdocumentor-signature phpdocumentor-code ">
     <span class="phpdocumentor-signature__visibility">private</span>
         <span class="phpdocumentor-signature__type">mixed</span>
@@ -366,6 +369,8 @@ considered stale.</p>
 
     
     
+    
+
     
 
 </article>
@@ -386,6 +391,7 @@ considered stale.</p>
 
         <p class="phpdocumentor-summary">The max time (in seconds) to retry acquiring locks before giving up.</p>
 
+    
     <code class="phpdocumentor-signature phpdocumentor-code ">
     <span class="phpdocumentor-signature__visibility">private</span>
         <span class="phpdocumentor-signature__type">mixed</span>
@@ -398,6 +404,8 @@ considered stale.</p>
 </section>
 
     
+    
+
     
 
 </article>
@@ -433,6 +441,7 @@ considered stale.</p>
     </aside>
 
     
+    
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">private</span>
         <span class="phpdocumentor-signature__type">int|null</span>
@@ -441,6 +450,8 @@ considered stale.</p>
 
     
     
+    
+
     
 
 </article>
@@ -467,6 +478,7 @@ considered stale.</p>
     </aside>
 
     
+    
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">private</span>
         <span class="phpdocumentor-signature__type">bool</span>
@@ -475,6 +487,8 @@ considered stale.</p>
 
     
     
+    
+
     
 
 </article>
@@ -501,6 +515,7 @@ considered stale.</p>
     </aside>
 
     
+    
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">private</span>
         <span class="phpdocumentor-signature__type">int|null</span>
@@ -509,6 +524,8 @@ considered stale.</p>
 
     
     
+    
+
     
 
 </article>
@@ -535,6 +552,7 @@ considered stale.</p>
     </aside>
 
     
+    
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">private</span>
         <span class="phpdocumentor-signature__type">int|null</span>
@@ -543,6 +561,8 @@ considered stale.</p>
 
     
     
+    
+
     
 
 </article>
@@ -569,6 +589,7 @@ considered stale.</p>
     </aside>
 
     
+    
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">private</span>
         <span class="phpdocumentor-signature__type">int|null</span>
@@ -577,6 +598,8 @@ considered stale.</p>
 
     
     
+    
+
     
 
 </article>
@@ -616,6 +639,7 @@ considered stale.</p>
     <div class="phpdocumentor-label-line">
         </div>
     
+    
         <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
     <dl class="phpdocumentor-argument-list">
                     <dt class="phpdocumentor-argument-list__entry">
@@ -640,6 +664,8 @@ considered stale.</p>
                 
             </dd>
             </dl>
+
+    
 
     
 
@@ -681,6 +707,7 @@ considered stale.</p>
     <div class="phpdocumentor-label-line">
         </div>
     
+    
         <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
     <dl class="phpdocumentor-argument-list">
                     <dt class="phpdocumentor-argument-list__entry">
@@ -691,6 +718,8 @@ considered stale.</p>
                 
             </dd>
             </dl>
+
+    
 
     
 
@@ -727,10 +756,13 @@ considered stale.</p>
 
     <div class="phpdocumentor-label-line">
         </div>
+    
         <section class="phpdocumentor-description"><p>The first time this is called, it will populate the DI container.</p>
 </section>
 
     
+    
+
     
 
             <section>
@@ -768,6 +800,9 @@ considered stale.</p>
     
     
     
+    
+
+    
 
             <section>
         <h5 class="phpdocumentor-return-value__heading">Return values</h5>
@@ -803,6 +838,9 @@ considered stale.</p>
         </div>
     
     
+    
+    
+
     
 
             <section>
@@ -840,6 +878,7 @@ considered stale.</p>
     
     
     
+    
     <h5 class="phpdocumentor-tag-list__heading" id="tags">
         Tags
         <a href="classes/Smr-SectorLock.html#method_isActive#tags" class="headerlink"><i class="fas fa-link"></i></a>
@@ -856,6 +895,8 @@ considered stale.</p>
 
                                     </dd>
                                             </dl>
+
+    
 
             <section>
         <h5 class="phpdocumentor-return-value__heading">Return values</h5>
@@ -891,6 +932,9 @@ considered stale.</p>
         </div>
     
     
+    
+    
+
     
 
             <section>
@@ -931,11 +975,14 @@ considered stale.</p>
 
     <div class="phpdocumentor-label-line">
         </div>
+    
         <section class="phpdocumentor-description"><p>NOTE: This should never be called by normal page requests, and should
 only be used by the CLI programs that run continuously.</p>
 </section>
 
     
+    
+
     
 
     
@@ -968,6 +1015,9 @@ only be used by the CLI programs that run continuously.</p>
         </div>
     
     
+    
+    
+
     
 
     
@@ -1085,34 +1135,34 @@ only be used by the CLI programs that run continuously.</p>
                             <li class="phpdocumentor-on-this-page-section__title">Constants</li>
                 <li>
                     <ul class="phpdocumentor-list -clean">
-                                                    <li><a href="classes/Smr-SectorLock.html#constant_LOCK_DURATION">LOCK_DURATION</a></li>
-                                                    <li><a href="classes/Smr-SectorLock.html#constant_RETRY_DURATION">RETRY_DURATION</a></li>
+                                                    <li class=""><a href="classes/Smr-SectorLock.html#constant_LOCK_DURATION">LOCK_DURATION</a></li>
+                                                    <li class=""><a href="classes/Smr-SectorLock.html#constant_RETRY_DURATION">RETRY_DURATION</a></li>
                                             </ul>
                 </li>
             
                             <li class="phpdocumentor-on-this-page-section__title">Properties</li>
                 <li>
                     <ul class="phpdocumentor-list -clean">
-                                                    <li><a href="classes/Smr-SectorLock.html#property_accountID">$accountID<a href="classes/Smr-SectorLock.html"></li>
-                                                    <li><a href="classes/Smr-SectorLock.html#property_failed">$failed<a href="classes/Smr-SectorLock.html"></li>
-                                                    <li><a href="classes/Smr-SectorLock.html#property_gameID">$gameID<a href="classes/Smr-SectorLock.html"></li>
-                                                    <li><a href="classes/Smr-SectorLock.html#property_lockID">$lockID<a href="classes/Smr-SectorLock.html"></li>
-                                                    <li><a href="classes/Smr-SectorLock.html#property_sectorID">$sectorID<a href="classes/Smr-SectorLock.html"></li>
+                                                    <li class=""><a href="classes/Smr-SectorLock.html#property_accountID">$accountID</a></li>
+                                                    <li class=""><a href="classes/Smr-SectorLock.html#property_failed">$failed</a></li>
+                                                    <li class=""><a href="classes/Smr-SectorLock.html#property_gameID">$gameID</a></li>
+                                                    <li class=""><a href="classes/Smr-SectorLock.html#property_lockID">$lockID</a></li>
+                                                    <li class=""><a href="classes/Smr-SectorLock.html#property_sectorID">$sectorID</a></li>
                                             </ul>
                 </li>
             
                         <li class="phpdocumentor-on-this-page-section__title">Methods</li>
             <li>
                 <ul class="phpdocumentor-list -clean">
-                                            <li><a href="classes/Smr-SectorLock.html#method_acquire">acquire()</a></li>
-                                            <li><a href="classes/Smr-SectorLock.html#method_acquireForPlayer">acquireForPlayer()</a></li>
-                                            <li><a href="classes/Smr-SectorLock.html#method_getInstance">getInstance()</a></li>
-                                            <li><a href="classes/Smr-SectorLock.html#method_getSectorID">getSectorID()</a></li>
-                                            <li><a href="classes/Smr-SectorLock.html#method_hasFailed">hasFailed()</a></li>
-                                            <li><a href="classes/Smr-SectorLock.html#method_isActive">isActive()</a></li>
-                                            <li><a href="classes/Smr-SectorLock.html#method_release">release()</a></li>
-                                            <li><a href="classes/Smr-SectorLock.html#method_resetInstance">resetInstance()</a></li>
-                                            <li><a href="classes/Smr-SectorLock.html#method_setFailed">setFailed()</a></li>
+                                            <li class=""><a href="classes/Smr-SectorLock.html#method_acquire">acquire()</a></li>
+                                            <li class=""><a href="classes/Smr-SectorLock.html#method_acquireForPlayer">acquireForPlayer()</a></li>
+                                            <li class=""><a href="classes/Smr-SectorLock.html#method_getInstance">getInstance()</a></li>
+                                            <li class=""><a href="classes/Smr-SectorLock.html#method_getSectorID">getSectorID()</a></li>
+                                            <li class=""><a href="classes/Smr-SectorLock.html#method_hasFailed">hasFailed()</a></li>
+                                            <li class=""><a href="classes/Smr-SectorLock.html#method_isActive">isActive()</a></li>
+                                            <li class=""><a href="classes/Smr-SectorLock.html#method_release">release()</a></li>
+                                            <li class=""><a href="classes/Smr-SectorLock.html#method_resetInstance">resetInstance()</a></li>
+                                            <li class=""><a href="classes/Smr-SectorLock.html#method_setFailed">setFailed()</a></li>
                                     </ul>
             </li>
                     </ul>

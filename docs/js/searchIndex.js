@@ -66,6 +66,116 @@ Search.appendIndex(
             "summary": "",
             "url": "namespaces/default.html#function_hit_sector_mines"
         },                {
+            "fqsen": "\\parseBoolean\u0028\u0029",
+            "name": "parseBoolean",
+            "summary": "",
+            "url": "namespaces/default.html#function_parseBoolean"
+        },                {
+            "fqsen": "\\linkCombatLog\u0028\u0029",
+            "name": "linkCombatLog",
+            "summary": "",
+            "url": "namespaces/default.html#function_linkCombatLog"
+        },                {
+            "fqsen": "\\smrBBCode\u0028\u0029",
+            "name": "smrBBCode",
+            "summary": "Converts\u0020a\u0020BBCode\u0020tag\u0020into\u0020some\u0020other\u0020text\u0020depending\u0020on\u0020the\u0020tag\u0020and\u0020value.",
+            "url": "namespaces/default.html#function_smrBBCode"
+        },                {
+            "fqsen": "\\inify\u0028\u0029",
+            "name": "inify",
+            "summary": "",
+            "url": "namespaces/default.html#function_inify"
+        },                {
+            "fqsen": "\\bbify\u0028\u0029",
+            "name": "bbify",
+            "summary": "",
+            "url": "namespaces/default.html#function_bbify"
+        },                {
+            "fqsen": "\\create_error\u0028\u0029",
+            "name": "create_error",
+            "summary": "",
+            "url": "namespaces/default.html#function_create_error"
+        },                {
+            "fqsen": "\\handleUserError\u0028\u0029",
+            "name": "handleUserError",
+            "summary": "",
+            "url": "namespaces/default.html#function_handleUserError"
+        },                {
+            "fqsen": "\\create_link\u0028\u0029",
+            "name": "create_link",
+            "summary": "",
+            "url": "namespaces/default.html#function_create_link"
+        },                {
+            "fqsen": "\\create_submit_link\u0028\u0029",
+            "name": "create_submit_link",
+            "summary": "",
+            "url": "namespaces/default.html#function_create_submit_link"
+        },                {
+            "fqsen": "\\get_colored_text_range\u0028\u0029",
+            "name": "get_colored_text_range",
+            "summary": "",
+            "url": "namespaces/default.html#function_get_colored_text_range"
+        },                {
+            "fqsen": "\\get_colored_text\u0028\u0029",
+            "name": "get_colored_text",
+            "summary": "",
+            "url": "namespaces/default.html#function_get_colored_text"
+        },                {
+            "fqsen": "\\word_filter\u0028\u0029",
+            "name": "word_filter",
+            "summary": "",
+            "url": "namespaces/default.html#function_word_filter"
+        },                {
+            "fqsen": "\\pluralise\u0028\u0029",
+            "name": "pluralise",
+            "summary": "",
+            "url": "namespaces/default.html#function_pluralise"
+        },                {
+            "fqsen": "\\do_voodoo\u0028\u0029",
+            "name": "do_voodoo",
+            "summary": "This\u0020function\u0020is\u0020a\u0020hack\u0020around\u0020the\u0020old\u0020style\u0020http\u0020forward\u0020mechanism.",
+            "url": "namespaces/default.html#function_do_voodoo"
+        },                {
+            "fqsen": "\\saveAllAndReleaseLock\u0028\u0029",
+            "name": "saveAllAndReleaseLock",
+            "summary": "",
+            "url": "namespaces/default.html#function_saveAllAndReleaseLock"
+        },                {
+            "fqsen": "\\doTickerAssigns\u0028\u0029",
+            "name": "doTickerAssigns",
+            "summary": "",
+            "url": "namespaces/default.html#function_doTickerAssigns"
+        },                {
+            "fqsen": "\\doSkeletonAssigns\u0028\u0029",
+            "name": "doSkeletonAssigns",
+            "summary": "",
+            "url": "namespaces/default.html#function_doSkeletonAssigns"
+        },                {
+            "fqsen": "\\format_list\u0028\u0029",
+            "name": "format_list",
+            "summary": "Join\u0020a\u0020list\u0020of\u0020items\u0020into\u0020a\u0020grammatically\u002Dcorrect\u0020sentence\u0020fragment.",
+            "url": "namespaces/default.html#function_format_list"
+        },                {
+            "fqsen": "\\in_time_or_now\u0028\u0029",
+            "name": "in_time_or_now",
+            "summary": "Convert\u0020an\u0020integer\u0020number\u0020of\u0020seconds\u0020into\u0020a\u0020human\u002Dreadable\u0020time\u0020for\ngrammatically\u002Dcorrect\u0020use\u0020in\u0020a\u0020sentence,\u0020i.e.\u0020prefixed\u0020with\u0020\u0022in\u0022\u0020when\nthe\u0020amount\u0020is\u0020positive.",
+            "url": "namespaces/default.html#function_in_time_or_now"
+        },                {
+            "fqsen": "\\format_time\u0028\u0029",
+            "name": "format_time",
+            "summary": "Convert\u0020an\u0020integer\u0020number\u0020of\u0020seconds\u0020into\u0020a\u0020human\u002Dreadable\u0020time.",
+            "url": "namespaces/default.html#function_format_time"
+        },                {
+            "fqsen": "\\number_colour_format\u0028\u0029",
+            "name": "number_colour_format",
+            "summary": "",
+            "url": "namespaces/default.html#function_number_colour_format"
+        },                {
+            "fqsen": "\\getWeightedRandom\u0028\u0029",
+            "name": "getWeightedRandom",
+            "summary": "Randomly\u0020choose\u0020an\u0020array\u0020key\u0020weighted\u0020by\u0020the\u0020array\u0020values.",
+            "url": "namespaces/default.html#function_getWeightedRandom"
+        },                {
             "fqsen": "\\Smr\\AbstractPlayer",
             "name": "AbstractPlayer",
             "summary": "",
@@ -6378,17 +6488,17 @@ Search.appendIndex(
         },                {
             "fqsen": "\\Smr\\Discord\\Commands\\Forces\u003A\u003Aname\u0028\u0029",
             "name": "name",
-            "summary": "",
+            "summary": "Name\u0020to\u0020invoke\u0020this\u0020command\u0020on\u0020Discord.",
             "url": "classes/Smr-Discord-Commands-Forces.html#method_name"
         },                {
             "fqsen": "\\Smr\\Discord\\Commands\\Forces\u003A\u003Adescription\u0028\u0029",
             "name": "description",
-            "summary": "",
+            "summary": "Help\u002Dtext\u0020description\u0020of\u0020what\u0020the\u0020command\u0020does.",
             "url": "classes/Smr-Discord-Commands-Forces.html#method_description"
         },                {
             "fqsen": "\\Smr\\Discord\\Commands\\Forces\u003A\u003Ausage\u0028\u0029",
             "name": "usage",
-            "summary": "",
+            "summary": "Help\u002Dtext\u0020options\u0020that\u0020can\u0020be\u0020passed\u0020to\u0020this\u0020command,\u0020if\u0020any.",
             "url": "classes/Smr-Discord-Commands-Forces.html#method_usage"
         },                {
             "fqsen": "\\Smr\\Discord\\Commands\\Forces\u003A\u003AdatabaseResponse\u0028\u0029",
@@ -6403,12 +6513,12 @@ Search.appendIndex(
         },                {
             "fqsen": "\\Smr\\Discord\\Commands\\Game\u003A\u003Aname\u0028\u0029",
             "name": "name",
-            "summary": "",
+            "summary": "Name\u0020to\u0020invoke\u0020this\u0020command\u0020on\u0020Discord.",
             "url": "classes/Smr-Discord-Commands-Game.html#method_name"
         },                {
             "fqsen": "\\Smr\\Discord\\Commands\\Game\u003A\u003Adescription\u0028\u0029",
             "name": "description",
-            "summary": "",
+            "summary": "Help\u002Dtext\u0020description\u0020of\u0020what\u0020the\u0020command\u0020does.",
             "url": "classes/Smr-Discord-Commands-Game.html#method_description"
         },                {
             "fqsen": "\\Smr\\Discord\\Commands\\Game\u003A\u003AdatabaseResponse\u0028\u0029",
@@ -6478,12 +6588,12 @@ Search.appendIndex(
         },                {
             "fqsen": "\\Smr\\Discord\\Commands\\Money\u003A\u003Aname\u0028\u0029",
             "name": "name",
-            "summary": "",
+            "summary": "Name\u0020to\u0020invoke\u0020this\u0020command\u0020on\u0020Discord.",
             "url": "classes/Smr-Discord-Commands-Money.html#method_name"
         },                {
             "fqsen": "\\Smr\\Discord\\Commands\\Money\u003A\u003Adescription\u0028\u0029",
             "name": "description",
-            "summary": "",
+            "summary": "Help\u002Dtext\u0020description\u0020of\u0020what\u0020the\u0020command\u0020does.",
             "url": "classes/Smr-Discord-Commands-Money.html#method_description"
         },                {
             "fqsen": "\\Smr\\Discord\\Commands\\Money\u003A\u003AdatabaseResponse\u0028\u0029",
@@ -6498,12 +6608,12 @@ Search.appendIndex(
         },                {
             "fqsen": "\\Smr\\Discord\\Commands\\Op\u003A\u003Aname\u0028\u0029",
             "name": "name",
-            "summary": "",
+            "summary": "Name\u0020to\u0020invoke\u0020this\u0020command\u0020on\u0020Discord.",
             "url": "classes/Smr-Discord-Commands-Op.html#method_name"
         },                {
             "fqsen": "\\Smr\\Discord\\Commands\\Op\u003A\u003Adescription\u0028\u0029",
             "name": "description",
-            "summary": "",
+            "summary": "Help\u002Dtext\u0020description\u0020of\u0020what\u0020the\u0020command\u0020does.",
             "url": "classes/Smr-Discord-Commands-Op.html#method_description"
         },                {
             "fqsen": "\\Smr\\Discord\\Commands\\Op\u003A\u003AdatabaseResponse\u0028\u0029",
@@ -6518,12 +6628,12 @@ Search.appendIndex(
         },                {
             "fqsen": "\\Smr\\Discord\\Commands\\OpList\u003A\u003Aname\u0028\u0029",
             "name": "name",
-            "summary": "",
+            "summary": "Name\u0020to\u0020invoke\u0020this\u0020command\u0020on\u0020Discord.",
             "url": "classes/Smr-Discord-Commands-OpList.html#method_name"
         },                {
             "fqsen": "\\Smr\\Discord\\Commands\\OpList\u003A\u003Adescription\u0028\u0029",
             "name": "description",
-            "summary": "",
+            "summary": "Help\u002Dtext\u0020description\u0020of\u0020what\u0020the\u0020command\u0020does.",
             "url": "classes/Smr-Discord-Commands-OpList.html#method_description"
         },                {
             "fqsen": "\\Smr\\Discord\\Commands\\OpList\u003A\u003AdatabaseResponse\u0028\u0029",
@@ -6538,12 +6648,12 @@ Search.appendIndex(
         },                {
             "fqsen": "\\Smr\\Discord\\Commands\\OpTurns\u003A\u003Aname\u0028\u0029",
             "name": "name",
-            "summary": "",
+            "summary": "Name\u0020to\u0020invoke\u0020this\u0020command\u0020on\u0020Discord.",
             "url": "classes/Smr-Discord-Commands-OpTurns.html#method_name"
         },                {
             "fqsen": "\\Smr\\Discord\\Commands\\OpTurns\u003A\u003Adescription\u0028\u0029",
             "name": "description",
-            "summary": "",
+            "summary": "Help\u002Dtext\u0020description\u0020of\u0020what\u0020the\u0020command\u0020does.",
             "url": "classes/Smr-Discord-Commands-OpTurns.html#method_description"
         },                {
             "fqsen": "\\Smr\\Discord\\Commands\\OpTurns\u003A\u003AdatabaseResponse\u0028\u0029",
@@ -6558,12 +6668,12 @@ Search.appendIndex(
         },                {
             "fqsen": "\\Smr\\Discord\\Commands\\Seed\u003A\u003Aname\u0028\u0029",
             "name": "name",
-            "summary": "",
+            "summary": "Name\u0020to\u0020invoke\u0020this\u0020command\u0020on\u0020Discord.",
             "url": "classes/Smr-Discord-Commands-Seed.html#method_name"
         },                {
             "fqsen": "\\Smr\\Discord\\Commands\\Seed\u003A\u003Adescription\u0028\u0029",
             "name": "description",
-            "summary": "",
+            "summary": "Help\u002Dtext\u0020description\u0020of\u0020what\u0020the\u0020command\u0020does.",
             "url": "classes/Smr-Discord-Commands-Seed.html#method_description"
         },                {
             "fqsen": "\\Smr\\Discord\\Commands\\Seed\u003A\u003AdatabaseResponse\u0028\u0029",
@@ -6578,12 +6688,12 @@ Search.appendIndex(
         },                {
             "fqsen": "\\Smr\\Discord\\Commands\\Seedlist\u003A\u003Aname\u0028\u0029",
             "name": "name",
-            "summary": "",
+            "summary": "Name\u0020to\u0020invoke\u0020this\u0020command\u0020on\u0020Discord.",
             "url": "classes/Smr-Discord-Commands-Seedlist.html#method_name"
         },                {
             "fqsen": "\\Smr\\Discord\\Commands\\Seedlist\u003A\u003Adescription\u0028\u0029",
             "name": "description",
-            "summary": "",
+            "summary": "Help\u002Dtext\u0020description\u0020of\u0020what\u0020the\u0020command\u0020does.",
             "url": "classes/Smr-Discord-Commands-Seedlist.html#method_description"
         },                {
             "fqsen": "\\Smr\\Discord\\Commands\\Seedlist\u003A\u003AdatabaseResponse\u0028\u0029",
@@ -6598,17 +6708,17 @@ Search.appendIndex(
         },                {
             "fqsen": "\\Smr\\Discord\\Commands\\SeedlistAdd\u003A\u003Aname\u0028\u0029",
             "name": "name",
-            "summary": "",
+            "summary": "Name\u0020to\u0020invoke\u0020this\u0020command\u0020on\u0020Discord.",
             "url": "classes/Smr-Discord-Commands-SeedlistAdd.html#method_name"
         },                {
             "fqsen": "\\Smr\\Discord\\Commands\\SeedlistAdd\u003A\u003Adescription\u0028\u0029",
             "name": "description",
-            "summary": "",
+            "summary": "Help\u002Dtext\u0020description\u0020of\u0020what\u0020the\u0020command\u0020does.",
             "url": "classes/Smr-Discord-Commands-SeedlistAdd.html#method_description"
         },                {
             "fqsen": "\\Smr\\Discord\\Commands\\SeedlistAdd\u003A\u003Ausage\u0028\u0029",
             "name": "usage",
-            "summary": "",
+            "summary": "Help\u002Dtext\u0020options\u0020that\u0020can\u0020be\u0020passed\u0020to\u0020this\u0020command,\u0020if\u0020any.",
             "url": "classes/Smr-Discord-Commands-SeedlistAdd.html#method_usage"
         },                {
             "fqsen": "\\Smr\\Discord\\Commands\\SeedlistAdd\u003A\u003AdatabaseResponse\u0028\u0029",
@@ -6623,17 +6733,17 @@ Search.appendIndex(
         },                {
             "fqsen": "\\Smr\\Discord\\Commands\\SeedlistDel\u003A\u003Aname\u0028\u0029",
             "name": "name",
-            "summary": "",
+            "summary": "Name\u0020to\u0020invoke\u0020this\u0020command\u0020on\u0020Discord.",
             "url": "classes/Smr-Discord-Commands-SeedlistDel.html#method_name"
         },                {
             "fqsen": "\\Smr\\Discord\\Commands\\SeedlistDel\u003A\u003Adescription\u0028\u0029",
             "name": "description",
-            "summary": "",
+            "summary": "Help\u002Dtext\u0020description\u0020of\u0020what\u0020the\u0020command\u0020does.",
             "url": "classes/Smr-Discord-Commands-SeedlistDel.html#method_description"
         },                {
             "fqsen": "\\Smr\\Discord\\Commands\\SeedlistDel\u003A\u003Ausage\u0028\u0029",
             "name": "usage",
-            "summary": "",
+            "summary": "Help\u002Dtext\u0020options\u0020that\u0020can\u0020be\u0020passed\u0020to\u0020this\u0020command,\u0020if\u0020any.",
             "url": "classes/Smr-Discord-Commands-SeedlistDel.html#method_usage"
         },                {
             "fqsen": "\\Smr\\Discord\\Commands\\SeedlistDel\u003A\u003AdatabaseResponse\u0028\u0029",
@@ -6648,12 +6758,12 @@ Search.appendIndex(
         },                {
             "fqsen": "\\Smr\\Discord\\Commands\\Turns\u003A\u003Aname\u0028\u0029",
             "name": "name",
-            "summary": "",
+            "summary": "Name\u0020to\u0020invoke\u0020this\u0020command\u0020on\u0020Discord.",
             "url": "classes/Smr-Discord-Commands-Turns.html#method_name"
         },                {
             "fqsen": "\\Smr\\Discord\\Commands\\Turns\u003A\u003Adescription\u0028\u0029",
             "name": "description",
-            "summary": "",
+            "summary": "Help\u002Dtext\u0020description\u0020of\u0020what\u0020the\u0020command\u0020does.",
             "url": "classes/Smr-Discord-Commands-Turns.html#method_description"
         },                {
             "fqsen": "\\Smr\\Discord\\Commands\\Turns\u003A\u003AdatabaseResponse\u0028\u0029",

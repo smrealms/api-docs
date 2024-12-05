@@ -54,7 +54,7 @@
     Menu
 </label>
 <aside class="phpdocumentor-column -three phpdocumentor-sidebar">
-                    <section class="phpdocumentor-sidebar__category">
+                    <section class="phpdocumentor-sidebar__category -namespaces">
             <h2 class="phpdocumentor-sidebar__category-header">Namespaces</h2>
                                     <h4 class="phpdocumentor-sidebar__root-namespace">
     <a href="namespaces/smr.html" class="">Smr</a>
@@ -115,7 +115,7 @@
             </ul>
 
                         </section>
-                <section class="phpdocumentor-sidebar__category">
+                <section class="phpdocumentor-sidebar__category -packages">
             <h2 class="phpdocumentor-sidebar__category-header">Packages</h2>
                                     <h4 class="phpdocumentor-sidebar__root-namespace">
     <a href="packages/Application.html" class="">Application</a>
@@ -123,14 +123,14 @@
 
                         </section>
             
-    <section class="phpdocumentor-sidebar__category">
+    <section class="phpdocumentor-sidebar__category -reports">
         <h2 class="phpdocumentor-sidebar__category-header">Reports</h2>
                 <h3 class="phpdocumentor-sidebar__root-package"><a href="reports/deprecated.html">Deprecated</a></h3>
         <h3 class="phpdocumentor-sidebar__root-package"><a href="reports/errors.html">Errors</a></h3>
         <h3 class="phpdocumentor-sidebar__root-package"><a href="reports/markers.html">Markers</a></h3>
     </section>
 
-    <section class="phpdocumentor-sidebar__category">
+    <section class="phpdocumentor-sidebar__category -indices">
         <h2 class="phpdocumentor-sidebar__category-header">Indices</h2>
         <h3 class="phpdocumentor-sidebar__root-package"><a href="indices/files.html">Files</a></h3>
     </section>
@@ -176,6 +176,9 @@
 
 
 
+
+
+
 <h3 id="toc">
     Table of Contents
     <a href="classes/Smr-AdminPermissions.html#toc" class="headerlink"><i class="fas fa-link"></i></a>
@@ -195,13 +198,13 @@
 </h4>
 <dl class="phpdocumentor-table-of-contents">
             <dt class="phpdocumentor-table-of-contents__entry -constant -private">
-    <a href="classes/Smr-AdminPermissions.html#constant_PERMISSION_CATEGORIES">PERMISSION_CATEGORIES</a>
+    <a class="" href="classes/Smr-AdminPermissions.html#constant_PERMISSION_CATEGORIES">PERMISSION_CATEGORIES</a>
     <span>
         &nbsp;= [1 =&gt; &#039;Monitor Players&#039;, 2 =&gt; &#039;Community Services&#039;, 3 =&gt; &#039;Administrative&#039;, 4 =&gt; &#039;Miscellaneous&#039;, 5 =&gt; &#039;Manage Games&#039;]                            </span>
 </dt>
 
             <dt class="phpdocumentor-table-of-contents__entry -constant -private">
-    <a href="classes/Smr-AdminPermissions.html#constant_PERMISSION_TABLE">PERMISSION_TABLE</a>
+    <a class="" href="classes/Smr-AdminPermissions.html#constant_PERMISSION_TABLE">PERMISSION_TABLE</a>
     <span>
         &nbsp;= [1 =&gt; [&#039;Manage Admin Permissions&#039;, \Smr\Pages\Admin\AdminPermissionManage::class, 3], 2 =&gt; [&#039;Database Cleanup&#039;, \Smr\Pages\Admin\DatabaseCleanup::class, 3], 3 =&gt; [&#039;Server Open/Close&#039;, \Smr\Pages\Admin\ServerStatus::class, 3], 4 =&gt; [&#039;Delete Game&#039;, \Smr\Pages\Admin\GameDelete::class, 5], 5 =&gt; [&#039;Create Announcement&#039;, \Smr\Pages\Admin\AnnouncementCreate::class, 3], 6 =&gt; [&#039;Send Message&#039;, \Smr\Pages\Admin\AdminMessageSendSelect::class, 3], 7 =&gt; [&#039;View Reported Messages&#039;, \Smr\Pages\Admin\ReportedMessageView::class, 1], 8 =&gt; [&#039;Edit Account&#039;, \Smr\Pages\Admin\AccountEditSearch::class, 1], 9 =&gt; [&#039;Multi Tools&#039;, \Smr\Pages\Admin\IpView::class, 1], 12 =&gt; [&#039;Cheating Ship Check&#039;, \Smr\Pages\Admin\CheatingShipCheck::class, 1], 16 =&gt; [&#039;Log Console&#039;, \Smr\Pages\Admin\LogConsole::class, 1], 17 =&gt; [&#039;Send Newsletter&#039;, \Smr\Pages\Admin\NewsletterSend::class, 3], 18 =&gt; [&#039;Form Access&#039;, \Smr\Pages\Admin\FormOpen::class, 3], 19 =&gt; [&#039;Approve Photo Album&#039;, \Smr\Pages\Admin\AlbumApprove::class, 2], 20 =&gt; [&#039;Moderate Photo Album&#039;, \Smr\Pages\Admin\AlbumModerateSelect::class, 2], 21 =&gt; [&#039;Manage ChangeLog&#039;, \Smr\Pages\Admin\ChangelogAdd::class, 3], 22 =&gt; [&#039;Anon Account View&#039;, \Smr\Pages\Admin\AnonBankViewSelect::class, 1], 23 =&gt; [&#039;Word Filter&#039;, \Smr\Pages\Admin\WordFilter::class, 1], 24 =&gt; [&#039;Combat Simulator&#039;, \Smr\Pages\Admin\CombatSimulator::class, 4], 25 =&gt; [&#039;Edit Locations&#039;, \Smr\Pages\Admin\EditLocations::class, 4], 26 =&gt; [&#039;View Message Boxes&#039;, \Smr\Pages\Admin\MessageBoxView::class, 1], 27 =&gt; [&#039;Can Moderate Feature Requests&#039;, null, 2], 28 =&gt; [&#039;Can Edit Alliance Descriptions&#039;, null, 1], 30 =&gt; [&#039;Universe Generator&#039;, \Smr\Pages\Admin\UniGen\CreateGame::class, 5], 31 =&gt; [&#039;Create Vote&#039;, \Smr\Pages\Admin\VoteCreate::class, 3], 32 =&gt; [&#039;Can Edit Enabled Games&#039;, null, 5], 33 =&gt; [&#039;Enable Games&#039;, \Smr\Pages\Admin\EnableGame::class, 5], 34 =&gt; [&#039;Manage Galactic Post Editors&#039;, \Smr\Pages\Admin\ManagePostEditors::class, 5], 35 =&gt; [&#039;Manage Draft Leaders&#039;, \Smr\Pages\Admin\ManageDraftLeaders::class, 5], 36 =&gt; [&#039;Display Admin Tag&#039;, null, 2], 37 =&gt; [&#039;Manage NPCs&#039;, \Smr\Pages\Admin\NpcManage::class, 5]]                            </span>
 </dt>
@@ -217,20 +220,20 @@
 </h4>
 <dl class="phpdocumentor-table-of-contents">
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
-    <a href="classes/Smr-AdminPermissions.html#method_getCategoryName">getCategoryName()</a>
+    <a class="" href="classes/Smr-AdminPermissions.html#method_getCategoryName">getCategoryName()</a>
     <span>
                                 &nbsp;: string    </span>
 </dt>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
-    <a href="classes/Smr-AdminPermissions.html#method_getPermissionInfo">getPermissionInfo()</a>
+    <a class="" href="classes/Smr-AdminPermissions.html#method_getPermissionInfo">getPermissionInfo()</a>
     <span>
                                 &nbsp;: <abbr title="array{: string, : ?class-string<\Smr\Page\Page>, : int}">Page>, : int}</abbr>    </span>
 </dt>
 <dd>Returns the info for the admin permission with the given ID.</dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
-    <a href="classes/Smr-AdminPermissions.html#method_getPermissionsByCategory">getPermissionsByCategory()</a>
+    <a class="" href="classes/Smr-AdminPermissions.html#method_getPermissionsByCategory">getPermissionsByCategory()</a>
     <span>
                                 &nbsp;: array&lt;int, array&lt;int, string&gt;&gt;    </span>
 </dt>
@@ -238,7 +241,6 @@
 grouped by the category ID of the permission.</dd>
 
     </dl>
-
 
 
 
@@ -265,6 +267,7 @@ grouped by the category ID of the permission.</dd>
     </aside>
 
     
+    
     <code class="phpdocumentor-signature phpdocumentor-code ">
     <span class="phpdocumentor-signature__visibility">private</span>
         <span class="phpdocumentor-signature__type">mixed</span>
@@ -275,6 +278,8 @@ grouped by the category ID of the permission.</dd>
 
     
     
+    
+
     
 
 </article>
@@ -294,6 +299,7 @@ grouped by the category ID of the permission.</dd>
     </aside>
 
     
+    
     <code class="phpdocumentor-signature phpdocumentor-code ">
     <span class="phpdocumentor-signature__visibility">private</span>
         <span class="phpdocumentor-signature__type">mixed</span>
@@ -304,6 +310,8 @@ grouped by the category ID of the permission.</dd>
 
     
     
+    
+
     
 
 </article>
@@ -344,6 +352,7 @@ grouped by the category ID of the permission.</dd>
     <div class="phpdocumentor-label-line">
         </div>
     
+    
         <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
     <dl class="phpdocumentor-argument-list">
                     <dt class="phpdocumentor-argument-list__entry">
@@ -354,6 +363,8 @@ grouped by the category ID of the permission.</dd>
                 
             </dd>
             </dl>
+
+    
 
     
 
@@ -391,6 +402,7 @@ grouped by the category ID of the permission.</dd>
     <div class="phpdocumentor-label-line">
         </div>
     
+    
         <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
     <dl class="phpdocumentor-argument-list">
                     <dt class="phpdocumentor-argument-list__entry">
@@ -401,6 +413,8 @@ grouped by the category ID of the permission.</dd>
                 
             </dd>
             </dl>
+
+    
 
     
 
@@ -440,6 +454,9 @@ grouped by the category ID of the permission.</p>
         </div>
     
     
+    
+    
+
     
 
             <section>
@@ -560,8 +577,8 @@ grouped by the category ID of the permission.</p>
                             <li class="phpdocumentor-on-this-page-section__title">Constants</li>
                 <li>
                     <ul class="phpdocumentor-list -clean">
-                                                    <li><a href="classes/Smr-AdminPermissions.html#constant_PERMISSION_CATEGORIES">PERMISSION_CATEGORIES</a></li>
-                                                    <li><a href="classes/Smr-AdminPermissions.html#constant_PERMISSION_TABLE">PERMISSION_TABLE</a></li>
+                                                    <li class=""><a href="classes/Smr-AdminPermissions.html#constant_PERMISSION_CATEGORIES">PERMISSION_CATEGORIES</a></li>
+                                                    <li class=""><a href="classes/Smr-AdminPermissions.html#constant_PERMISSION_TABLE">PERMISSION_TABLE</a></li>
                                             </ul>
                 </li>
             
@@ -569,9 +586,9 @@ grouped by the category ID of the permission.</p>
                         <li class="phpdocumentor-on-this-page-section__title">Methods</li>
             <li>
                 <ul class="phpdocumentor-list -clean">
-                                            <li><a href="classes/Smr-AdminPermissions.html#method_getCategoryName">getCategoryName()</a></li>
-                                            <li><a href="classes/Smr-AdminPermissions.html#method_getPermissionInfo">getPermissionInfo()</a></li>
-                                            <li><a href="classes/Smr-AdminPermissions.html#method_getPermissionsByCategory">getPermissionsByCategory()</a></li>
+                                            <li class=""><a href="classes/Smr-AdminPermissions.html#method_getCategoryName">getCategoryName()</a></li>
+                                            <li class=""><a href="classes/Smr-AdminPermissions.html#method_getPermissionInfo">getPermissionInfo()</a></li>
+                                            <li class=""><a href="classes/Smr-AdminPermissions.html#method_getPermissionsByCategory">getPermissionsByCategory()</a></li>
                                     </ul>
             </li>
                     </ul>

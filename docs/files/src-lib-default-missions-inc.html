@@ -54,7 +54,7 @@
     Menu
 </label>
 <aside class="phpdocumentor-column -three phpdocumentor-sidebar">
-                    <section class="phpdocumentor-sidebar__category">
+                    <section class="phpdocumentor-sidebar__category -namespaces">
             <h2 class="phpdocumentor-sidebar__category-header">Namespaces</h2>
                                     <h4 class="phpdocumentor-sidebar__root-namespace">
     <a href="namespaces/smr.html" class="">Smr</a>
@@ -115,7 +115,7 @@
             </ul>
 
                         </section>
-                <section class="phpdocumentor-sidebar__category">
+                <section class="phpdocumentor-sidebar__category -packages">
             <h2 class="phpdocumentor-sidebar__category-header">Packages</h2>
                                     <h4 class="phpdocumentor-sidebar__root-namespace">
     <a href="packages/Application.html" class="">Application</a>
@@ -123,14 +123,14 @@
 
                         </section>
             
-    <section class="phpdocumentor-sidebar__category">
+    <section class="phpdocumentor-sidebar__category -reports">
         <h2 class="phpdocumentor-sidebar__category-header">Reports</h2>
                 <h3 class="phpdocumentor-sidebar__root-package"><a href="reports/deprecated.html">Deprecated</a></h3>
         <h3 class="phpdocumentor-sidebar__root-package"><a href="reports/errors.html">Errors</a></h3>
         <h3 class="phpdocumentor-sidebar__root-package"><a href="reports/markers.html">Markers</a></h3>
     </section>
 
-    <section class="phpdocumentor-sidebar__category">
+    <section class="phpdocumentor-sidebar__category -indices">
         <h2 class="phpdocumentor-sidebar__category-header">Indices</h2>
         <h3 class="phpdocumentor-sidebar__root-package"><a href="indices/files.html">Files</a></h3>
     </section>
@@ -145,6 +145,9 @@
         <h2 class="phpdocumentor-content__title">missions.inc.php</h2>
 
         
+
+
+
 
 
 
@@ -169,13 +172,13 @@
 </h4>
 <dl class="phpdocumentor-table-of-contents">
             <dt class="phpdocumentor-table-of-contents__entry -constant -public">
-    <a href="namespaces/default.html#constant_MISSION_ACTIONS">MISSION_ACTIONS</a>
+    <a class="" href="namespaces/default.html#constant_MISSION_ACTIONS">MISSION_ACTIONS</a>
     <span>
         &nbsp;= [&#039;LeaveSector&#039;, &#039;EnterSector&#039;, &#039;WalkSector&#039;, &#039;JoinAlliance&#039;, &#039;LeaveAlliance&#039;, &#039;DisbandAlliance&#039;, &#039;KickPlayer&#039;, &#039;PlayerKicked&#039;, &#039;BuyDrink&#039;]                            </span>
 </dt>
 
             <dt class="phpdocumentor-table-of-contents__entry -constant -public">
-    <a href="namespaces/default.html#constant_MISSIONS">MISSIONS</a>
+    <a class="" href="namespaces/default.html#constant_MISSIONS">MISSIONS</a>
     <span>
         &nbsp;= [0 =&gt; [&#039;Name&#039; =&gt; &#039;Drunk Guy&#039;, &#039;Offerer&#039; =&gt; &#039;Drunk&#039;, &#039;Time Limit&#039; =&gt; 0, &#039;HasX&#039; =&gt; [&#039;Type&#039; =&gt; \Smr\PlotGroup::Locations, &#039;X&#039; =&gt; &#039;Bar&#039;], &#039;Steps&#039; =&gt; [[&#039;Step&#039; =&gt; &#039;EnterSector&#039;, &#039;PickSector&#039; =&gt; [&#039;Type&#039; =&gt; \Smr\PlotGroup::Locations, &#039;X&#039; =&gt; \RACE_SALVENE + \LOCATION_GROUP_RACIAL_HQS], &#039;Detail&#039; =&gt; [&#039;SectorID&#039; =&gt; &#039;&lt;Sector&gt;&#039;], &#039;Text&#039; =&gt; &#039;*Hiccup* Hey! I need you to...*Hiccup* do me a favor. All the &#039; . \Smr\BarDrink::SALVENE_SWAMP_SODA . &#039; in this bar is awful! Go to the Sal...*Hiccup*...the Salvene HQ, they\&#039;ll know a good bar.&#039;, &#039;Task&#039; =&gt; &#039;Go to the Salvene HQ at [sector=&lt;Sector&gt;]&#039;], [&#039;Step&#039; =&gt; &#039;EnterSector&#039;, &#039;PickSector&#039; =&gt; [&#039;Type&#039; =&gt; \Smr\PlotGroup::Locations, &#039;X&#039; =&gt; &#039;Bar&#039;], &#039;Detail&#039; =&gt; [&#039;SectorID&#039; =&gt; &#039;&lt;Sector&gt;&#039;], &#039;Text&#039; =&gt; &#039;Here we are! The Salvene HQ! You ask around a bit and find that the bar in [sector=&lt;Sector&gt;] does the best &#039; . \Smr\BarDrink::SALVENE_SWAMP_SODA . &#039; around!&#039;, &#039;Task&#039; =&gt; &#039;Go to the bar at [sector=&lt;Sector&gt;] and buy a &#039; . \Smr\BarDrink::SALVENE_SWAMP_SODA . &#039; from the bartender. This may take many tries.&#039;], [&#039;Step&#039; =&gt; &#039;BuyDrink&#039;, &#039;Detail&#039; =&gt; [&#039;SectorID&#039; =&gt; &#039;&lt;Sector&gt;&#039;, &#039;Drink&#039; =&gt; \Smr\BarDrink::SALVENE_SWAMP_SODA], &#039;Text&#039; =&gt; &#039;Here we are! Now let\&#039;s get this &#039; . \Smr\BarDrink::SALVENE_SWAMP_SODA . &#039;.&#039;, &#039;Task&#039; =&gt; &#039;Go to the bar at [sector=&lt;Sector&gt;] and buy a &#039; . \Smr\BarDrink::SALVENE_SWAMP_SODA . &#039; from the bartender. This may take many tries.&#039;], [&#039;Step&#039; =&gt; &#039;EnterSector&#039;, &#039;Detail&#039; =&gt; [&#039;SectorID&#039; =&gt; &#039;&lt;Starting Sector&gt;&#039;], &#039;Text&#039; =&gt; &#039;Finally! A true &#039; . \Smr\BarDrink::SALVENE_SWAMP_SODA . &#039;, let\&#039;s return to that drunk!&#039;, &#039;Task&#039; =&gt; &#039;Return to [sector=&lt;Starting Sector&gt;] to claim your reward.&#039;], [&#039;Step&#039; =&gt; &#039;Claim&#039;, &#039;Rewards&#039; =&gt; [&#039;Credits&#039; =&gt; 500000, &#039;Experience&#039; =&gt; 1000, &#039;Text&#039; =&gt; &#039;*Hiccup* For your...service *Hiccup* to me, take these *Hiccup* 500,000 credits and 1,000 experience *Hiccup*!&#039;], &#039;Detail&#039; =&gt; [&#039;SectorID&#039; =&gt; &#039;&lt;Starting Sector&gt;&#039;], &#039;Text&#039; =&gt; &#039;You hand the &#039; . \Smr\BarDrink::SALVENE_SWAMP_SODA . &#039; to the drunk!&#039;]]]]                            </span>
 </dt>
@@ -192,14 +195,14 @@
 </h4>
 <dl class="phpdocumentor-table-of-contents">
             <dt class="phpdocumentor-table-of-contents__entry -function -">
-    <a href="namespaces/default.html#function_replaceMissionTemplate">replaceMissionTemplate()</a>
+    <a class="" href="namespaces/default.html#function_replaceMissionTemplate">replaceMissionTemplate()</a>
     <span>
                                 &nbsp;: void    </span>
 </dt>
 <dd>Callback for array_walk_recursive in Player::rebuildMission.</dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -function -">
-    <a href="namespaces/default.html#function_checkMissionRequirements">checkMissionRequirements()</a>
+    <a class="" href="namespaces/default.html#function_checkMissionRequirements">checkMissionRequirements()</a>
     <span>
                                 &nbsp;: bool    </span>
 </dt>
@@ -231,6 +234,7 @@
     </aside>
 
     
+    
     <code class="phpdocumentor-signature phpdocumentor-code ">
     <span class="phpdocumentor-signature__visibility">public</span>
         <span class="phpdocumentor-signature__type">mixed</span>
@@ -241,6 +245,8 @@
 
     
     
+    
+
     
 
 </article>
@@ -260,6 +266,7 @@
     </aside>
 
     
+    
     <code class="phpdocumentor-signature phpdocumentor-code ">
     <span class="phpdocumentor-signature__visibility">public</span>
         <span class="phpdocumentor-signature__type">mixed</span>
@@ -270,6 +277,8 @@
 
     
     
+    
+
     
 
 </article>
@@ -297,6 +306,7 @@
 
         <p class="phpdocumentor-summary">Callback for array_walk_recursive in Player::rebuildMission.</p>
 
+    
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility"></span>
                     <span class="phpdocumentor-signature__name">replaceMissionTemplate</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type">string|int|<a href="classes/Smr-PlotGroup.html"><abbr title="\Smr\PlotGroup">PlotGroup</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__reference-operator">&amp;</span><span class="phpdocumentor-signature__argument__name">$template</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__return-type">string&nbsp;</span><span class="phpdocumentor-signature__argument__name">$key</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__return-type">array&lt;string, int&gt;&nbsp;</span><span class="phpdocumentor-signature__argument__name">$replacements</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">void</span></code>
@@ -348,6 +358,7 @@ derived from the supplied data.</p>
             <a href="files/src-lib-default-missions-inc.html#source-view.145" class="phpdocumentor-element-found-in__source" data-line="145" data-modal="source-view" data-src="files/src/lib/Default/missions.inc.php.txt"></a>
     </aside>
 
+    
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility"></span>
@@ -493,16 +504,16 @@ derived from the supplied data.</p>
                             <li class="phpdocumentor-on-this-page-section__title">Constants</li>
                 <li>
                     <ul class="phpdocumentor-list -clean">
-                                                    <li><a href="namespaces/default.html#constant_MISSION_ACTIONS">MISSION_ACTIONS</a></li>
-                                                    <li><a href="namespaces/default.html#constant_MISSIONS">MISSIONS</a></li>
+                                                    <li class=""><a href="namespaces/default.html#constant_MISSION_ACTIONS">MISSION_ACTIONS</a></li>
+                                                    <li class=""><a href="namespaces/default.html#constant_MISSIONS">MISSIONS</a></li>
                                             </ul>
                 </li>
             
                             <li class="phpdocumentor-on-this-page-section__title">Functions</li>
                 <li>
                     <ul class="phpdocumentor-list -clean">
-                                                    <li><a href="namespaces/default.html#function_checkMissionRequirements">checkMissionRequirements()</a></li>
-                                                    <li><a href="namespaces/default.html#function_replaceMissionTemplate">replaceMissionTemplate()</a></li>
+                                                    <li class=""><a href="namespaces/default.html#function_checkMissionRequirements">checkMissionRequirements()</a></li>
+                                                    <li class=""><a href="namespaces/default.html#function_replaceMissionTemplate">replaceMissionTemplate()</a></li>
                                             </ul>
                 </li>
                     </ul>

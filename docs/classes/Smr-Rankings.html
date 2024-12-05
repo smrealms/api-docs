@@ -54,7 +54,7 @@
     Menu
 </label>
 <aside class="phpdocumentor-column -three phpdocumentor-sidebar">
-                    <section class="phpdocumentor-sidebar__category">
+                    <section class="phpdocumentor-sidebar__category -namespaces">
             <h2 class="phpdocumentor-sidebar__category-header">Namespaces</h2>
                                     <h4 class="phpdocumentor-sidebar__root-namespace">
     <a href="namespaces/smr.html" class="">Smr</a>
@@ -115,7 +115,7 @@
             </ul>
 
                         </section>
-                <section class="phpdocumentor-sidebar__category">
+                <section class="phpdocumentor-sidebar__category -packages">
             <h2 class="phpdocumentor-sidebar__category-header">Packages</h2>
                                     <h4 class="phpdocumentor-sidebar__root-namespace">
     <a href="packages/Application.html" class="">Application</a>
@@ -123,14 +123,14 @@
 
                         </section>
             
-    <section class="phpdocumentor-sidebar__category">
+    <section class="phpdocumentor-sidebar__category -reports">
         <h2 class="phpdocumentor-sidebar__category-header">Reports</h2>
                 <h3 class="phpdocumentor-sidebar__root-package"><a href="reports/deprecated.html">Deprecated</a></h3>
         <h3 class="phpdocumentor-sidebar__root-package"><a href="reports/errors.html">Errors</a></h3>
         <h3 class="phpdocumentor-sidebar__root-package"><a href="reports/markers.html">Markers</a></h3>
     </section>
 
-    <section class="phpdocumentor-sidebar__category">
+    <section class="phpdocumentor-sidebar__category -indices">
         <h2 class="phpdocumentor-sidebar__category-header">Indices</h2>
         <h3 class="phpdocumentor-sidebar__root-package"><a href="indices/files.html">Files</a></h3>
     </section>
@@ -176,6 +176,9 @@
 
 
 
+
+
+
 <h3 id="toc">
     Table of Contents
     <a href="classes/Smr-Rankings.html#toc" class="headerlink"><i class="fas fa-link"></i></a>
@@ -198,51 +201,51 @@
 </h4>
 <dl class="phpdocumentor-table-of-contents">
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
-    <a href="classes/Smr-Rankings.html#method_allianceStats">allianceStats()</a>
+    <a class="" href="classes/Smr-Rankings.html#method_allianceStats">allianceStats()</a>
     <span>
                                 &nbsp;: array&lt;int, <a href="classes/Smr-DatabaseRecord.html"><abbr title="\Smr\DatabaseRecord">DatabaseRecord</abbr></a>&gt;    </span>
 </dt>
 <dd>Get stats from the alliance table sorted by $stat (high to low).</dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
-    <a href="classes/Smr-Rankings.html#method_allianceStatsFromHOF">allianceStatsFromHOF()</a>
+    <a class="" href="classes/Smr-Rankings.html#method_allianceStatsFromHOF">allianceStatsFromHOF()</a>
     <span>
                                 &nbsp;: array&lt;int, <a href="classes/Smr-DatabaseRecord.html"><abbr title="\Smr\DatabaseRecord">DatabaseRecord</abbr></a>&gt;    </span>
 </dt>
 <dd>Gets alliance stats from the hof table sorted by $category (high to low).</dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
-    <a href="classes/Smr-Rankings.html#method_calculateMinMaxRanks">calculateMinMaxRanks()</a>
+    <a class="" href="classes/Smr-Rankings.html#method_calculateMinMaxRanks">calculateMinMaxRanks()</a>
     <span>
                                 &nbsp;: array{: int, : int}    </span>
 </dt>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
-    <a href="classes/Smr-Rankings.html#method_collectAllianceRankings">collectAllianceRankings()</a>
+    <a class="" href="classes/Smr-Rankings.html#method_collectAllianceRankings">collectAllianceRankings()</a>
     <span>
                                 &nbsp;: array&lt;int, <abbr title="array{Alliance: \Smr\Alliance, Class: string, Value: int}">Alliance, Class: string, Value: int}</abbr>&gt;    </span>
 </dt>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
-    <a href="classes/Smr-Rankings.html#method_collectRaceRankings">collectRaceRankings()</a>
+    <a class="" href="classes/Smr-Rankings.html#method_collectRaceRankings">collectRaceRankings()</a>
     <span>
                                 &nbsp;: array&lt;int, array{style: string, race_id: int, amount: int, amount_avg: int, num_players: int}&gt;    </span>
 </dt>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
-    <a href="classes/Smr-Rankings.html#method_collectRankings">collectRankings()</a>
+    <a class="" href="classes/Smr-Rankings.html#method_collectRankings">collectRankings()</a>
     <span>
                                 &nbsp;: array&lt;int, <abbr title="array{Player: \Smr\AbstractPlayer, Class: string, Value: int}">AbstractPlayer, Class: string, Value: int}</abbr>&gt;    </span>
 </dt>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
-    <a href="classes/Smr-Rankings.html#method_collectSectorRankings">collectSectorRankings()</a>
+    <a class="" href="classes/Smr-Rankings.html#method_collectSectorRankings">collectSectorRankings()</a>
     <span>
                                 &nbsp;: array&lt;int, array{Class: string, SectorID: int, Value: int}&gt;    </span>
 </dt>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
-    <a href="classes/Smr-Rankings.html#method_ourRank">ourRank()</a>
+    <a class="" href="classes/Smr-Rankings.html#method_ourRank">ourRank()</a>
     <span>
                                 &nbsp;: int    </span>
 </dt>
@@ -250,34 +253,33 @@
 find the rank associated with a specific ID.</dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
-    <a href="classes/Smr-Rankings.html#method_playerStats">playerStats()</a>
+    <a class="" href="classes/Smr-Rankings.html#method_playerStats">playerStats()</a>
     <span>
                                 &nbsp;: array&lt;int, <a href="classes/Smr-DatabaseRecord.html"><abbr title="\Smr\DatabaseRecord">DatabaseRecord</abbr></a>&gt;    </span>
 </dt>
 <dd>Get stats from the player table sorted by $stat (high to low).</dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
-    <a href="classes/Smr-Rankings.html#method_playerStatsFromHOF">playerStatsFromHOF()</a>
+    <a class="" href="classes/Smr-Rankings.html#method_playerStatsFromHOF">playerStatsFromHOF()</a>
     <span>
                                 &nbsp;: array&lt;int, <a href="classes/Smr-DatabaseRecord.html"><abbr title="\Smr\DatabaseRecord">DatabaseRecord</abbr></a>&gt;    </span>
 </dt>
 <dd>Gets player stats from the hof table sorted by $category (high to low).</dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
-    <a href="classes/Smr-Rankings.html#method_raceStats">raceStats()</a>
+    <a class="" href="classes/Smr-Rankings.html#method_raceStats">raceStats()</a>
     <span>
                                 &nbsp;: array&lt;int, <a href="classes/Smr-DatabaseRecord.html"><abbr title="\Smr\DatabaseRecord">DatabaseRecord</abbr></a>&gt;    </span>
 </dt>
 <dd>Get stats from the player table grouped by race and sorted by $stat (high to low).</dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -private">
-    <a href="classes/Smr-Rankings.html#method_filterRanks">filterRanks()</a>
+    <a class="" href="classes/Smr-Rankings.html#method_filterRanks">filterRanks()</a>
     <span>
                                 &nbsp;: array&lt;int, <a href="classes/Smr-DatabaseRecord.html"><abbr title="\Smr\DatabaseRecord">DatabaseRecord</abbr></a>&gt;    </span>
 </dt>
 
     </dl>
-
 
 
 
@@ -319,6 +321,7 @@ find the rank associated with a specific ID.</dd>
     <div class="phpdocumentor-label-line">
         </div>
     
+    
         <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
     <dl class="phpdocumentor-argument-list">
                     <dt class="phpdocumentor-argument-list__entry">
@@ -343,6 +346,8 @@ find the rank associated with a specific ID.</dd>
                 
             </dd>
             </dl>
+
+    
 
     
 
@@ -380,6 +385,7 @@ find the rank associated with a specific ID.</dd>
     <div class="phpdocumentor-label-line">
         </div>
     
+    
         <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
     <dl class="phpdocumentor-argument-list">
                     <dt class="phpdocumentor-argument-list__entry">
@@ -397,6 +403,8 @@ find the rank associated with a specific ID.</dd>
                 
             </dd>
             </dl>
+
+    
 
     
 
@@ -433,6 +441,7 @@ find the rank associated with a specific ID.</dd>
     <div class="phpdocumentor-label-line">
         </div>
     
+    
         <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
     <dl class="phpdocumentor-argument-list">
                     <dt class="phpdocumentor-argument-list__entry">
@@ -450,6 +459,8 @@ find the rank associated with a specific ID.</dd>
                 
             </dd>
             </dl>
+
+    
 
     
 
@@ -486,6 +497,7 @@ find the rank associated with a specific ID.</dd>
     <div class="phpdocumentor-label-line">
         </div>
     
+    
         <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
     <dl class="phpdocumentor-argument-list">
                     <dt class="phpdocumentor-argument-list__entry">
@@ -517,6 +529,8 @@ find the rank associated with a specific ID.</dd>
                 
             </dd>
             </dl>
+
+    
 
     
 
@@ -553,6 +567,7 @@ find the rank associated with a specific ID.</dd>
     <div class="phpdocumentor-label-line">
         </div>
     
+    
         <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
     <dl class="phpdocumentor-argument-list">
                     <dt class="phpdocumentor-argument-list__entry">
@@ -570,6 +585,8 @@ find the rank associated with a specific ID.</dd>
                 
             </dd>
             </dl>
+
+    
 
     
 
@@ -606,6 +623,7 @@ find the rank associated with a specific ID.</dd>
     <div class="phpdocumentor-label-line">
         </div>
     
+    
         <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
     <dl class="phpdocumentor-argument-list">
                     <dt class="phpdocumentor-argument-list__entry">
@@ -637,6 +655,8 @@ find the rank associated with a specific ID.</dd>
                 
             </dd>
             </dl>
+
+    
 
     
 
@@ -673,6 +693,7 @@ find the rank associated with a specific ID.</dd>
     <div class="phpdocumentor-label-line">
         </div>
     
+    
         <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
     <dl class="phpdocumentor-argument-list">
                     <dt class="phpdocumentor-argument-list__entry">
@@ -704,6 +725,8 @@ find the rank associated with a specific ID.</dd>
                 
             </dd>
             </dl>
+
+    
 
     
 
@@ -742,6 +765,7 @@ find the rank associated with a specific ID.</p>
     <div class="phpdocumentor-label-line">
         </div>
     
+    
         <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
     <dl class="phpdocumentor-argument-list">
                     <dt class="phpdocumentor-argument-list__entry">
@@ -759,6 +783,8 @@ find the rank associated with a specific ID.</p>
                 
             </dd>
             </dl>
+
+    
 
     
 
@@ -796,6 +822,7 @@ find the rank associated with a specific ID.</p>
     <div class="phpdocumentor-label-line">
         </div>
     
+    
         <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
     <dl class="phpdocumentor-argument-list">
                     <dt class="phpdocumentor-argument-list__entry">
@@ -820,6 +847,8 @@ find the rank associated with a specific ID.</p>
                 
             </dd>
             </dl>
+
+    
 
     
 
@@ -857,6 +886,7 @@ find the rank associated with a specific ID.</p>
     <div class="phpdocumentor-label-line">
         </div>
     
+    
         <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
     <dl class="phpdocumentor-argument-list">
                     <dt class="phpdocumentor-argument-list__entry">
@@ -874,6 +904,8 @@ find the rank associated with a specific ID.</p>
                 
             </dd>
             </dl>
+
+    
 
     
 
@@ -911,6 +943,7 @@ find the rank associated with a specific ID.</p>
     <div class="phpdocumentor-label-line">
         </div>
     
+    
         <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
     <dl class="phpdocumentor-argument-list">
                     <dt class="phpdocumentor-argument-list__entry">
@@ -928,6 +961,8 @@ find the rank associated with a specific ID.</p>
                 
             </dd>
             </dl>
+
+    
 
     
 
@@ -964,6 +999,7 @@ find the rank associated with a specific ID.</p>
     <div class="phpdocumentor-label-line">
         </div>
     
+    
         <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
     <dl class="phpdocumentor-argument-list">
                     <dt class="phpdocumentor-argument-list__entry">
@@ -988,6 +1024,8 @@ find the rank associated with a specific ID.</p>
                 
             </dd>
             </dl>
+
+    
 
     
 
@@ -1110,18 +1148,18 @@ find the rank associated with a specific ID.</p>
                         <li class="phpdocumentor-on-this-page-section__title">Methods</li>
             <li>
                 <ul class="phpdocumentor-list -clean">
-                                            <li><a href="classes/Smr-Rankings.html#method_allianceStats">allianceStats()</a></li>
-                                            <li><a href="classes/Smr-Rankings.html#method_allianceStatsFromHOF">allianceStatsFromHOF()</a></li>
-                                            <li><a href="classes/Smr-Rankings.html#method_calculateMinMaxRanks">calculateMinMaxRanks()</a></li>
-                                            <li><a href="classes/Smr-Rankings.html#method_collectAllianceRankings">collectAllianceRankings()</a></li>
-                                            <li><a href="classes/Smr-Rankings.html#method_collectRaceRankings">collectRaceRankings()</a></li>
-                                            <li><a href="classes/Smr-Rankings.html#method_collectRankings">collectRankings()</a></li>
-                                            <li><a href="classes/Smr-Rankings.html#method_collectSectorRankings">collectSectorRankings()</a></li>
-                                            <li><a href="classes/Smr-Rankings.html#method_ourRank">ourRank()</a></li>
-                                            <li><a href="classes/Smr-Rankings.html#method_playerStats">playerStats()</a></li>
-                                            <li><a href="classes/Smr-Rankings.html#method_playerStatsFromHOF">playerStatsFromHOF()</a></li>
-                                            <li><a href="classes/Smr-Rankings.html#method_raceStats">raceStats()</a></li>
-                                            <li><a href="classes/Smr-Rankings.html#method_filterRanks">filterRanks()</a></li>
+                                            <li class=""><a href="classes/Smr-Rankings.html#method_allianceStats">allianceStats()</a></li>
+                                            <li class=""><a href="classes/Smr-Rankings.html#method_allianceStatsFromHOF">allianceStatsFromHOF()</a></li>
+                                            <li class=""><a href="classes/Smr-Rankings.html#method_calculateMinMaxRanks">calculateMinMaxRanks()</a></li>
+                                            <li class=""><a href="classes/Smr-Rankings.html#method_collectAllianceRankings">collectAllianceRankings()</a></li>
+                                            <li class=""><a href="classes/Smr-Rankings.html#method_collectRaceRankings">collectRaceRankings()</a></li>
+                                            <li class=""><a href="classes/Smr-Rankings.html#method_collectRankings">collectRankings()</a></li>
+                                            <li class=""><a href="classes/Smr-Rankings.html#method_collectSectorRankings">collectSectorRankings()</a></li>
+                                            <li class=""><a href="classes/Smr-Rankings.html#method_ourRank">ourRank()</a></li>
+                                            <li class=""><a href="classes/Smr-Rankings.html#method_playerStats">playerStats()</a></li>
+                                            <li class=""><a href="classes/Smr-Rankings.html#method_playerStatsFromHOF">playerStatsFromHOF()</a></li>
+                                            <li class=""><a href="classes/Smr-Rankings.html#method_raceStats">raceStats()</a></li>
+                                            <li class=""><a href="classes/Smr-Rankings.html#method_filterRanks">filterRanks()</a></li>
                                     </ul>
             </li>
                     </ul>

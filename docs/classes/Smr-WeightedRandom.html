@@ -54,7 +54,7 @@
     Menu
 </label>
 <aside class="phpdocumentor-column -three phpdocumentor-sidebar">
-                    <section class="phpdocumentor-sidebar__category">
+                    <section class="phpdocumentor-sidebar__category -namespaces">
             <h2 class="phpdocumentor-sidebar__category-header">Namespaces</h2>
                                     <h4 class="phpdocumentor-sidebar__root-namespace">
     <a href="namespaces/smr.html" class="">Smr</a>
@@ -115,7 +115,7 @@
             </ul>
 
                         </section>
-                <section class="phpdocumentor-sidebar__category">
+                <section class="phpdocumentor-sidebar__category -packages">
             <h2 class="phpdocumentor-sidebar__category-header">Packages</h2>
                                     <h4 class="phpdocumentor-sidebar__root-namespace">
     <a href="packages/Application.html" class="">Application</a>
@@ -123,14 +123,14 @@
 
                         </section>
             
-    <section class="phpdocumentor-sidebar__category">
+    <section class="phpdocumentor-sidebar__category -reports">
         <h2 class="phpdocumentor-sidebar__category-header">Reports</h2>
                 <h3 class="phpdocumentor-sidebar__root-package"><a href="reports/deprecated.html">Deprecated</a></h3>
         <h3 class="phpdocumentor-sidebar__root-package"><a href="reports/errors.html">Errors</a></h3>
         <h3 class="phpdocumentor-sidebar__root-package"><a href="reports/markers.html">Markers</a></h3>
     </section>
 
-    <section class="phpdocumentor-sidebar__category">
+    <section class="phpdocumentor-sidebar__category -indices">
         <h2 class="phpdocumentor-sidebar__category-header">Indices</h2>
         <h3 class="phpdocumentor-sidebar__root-package"><a href="indices/files.html">Files</a></h3>
     </section>
@@ -173,12 +173,15 @@
             <p class="phpdocumentor-summary">Weighted random number generator used to make events achieve their expected
 rate of success faster than a pure random number generator.</p>
 
+
     <section class="phpdocumentor-description"><p>The weighting is added to a random number (higher weight means that success
 is less likely). Therefore, when the weighted coin flip is successful, the
 weight is increased so that future events are less likely; similarly, when
 the weighted coin flip is unsuccessful, the weight is decreased so that
 future events are more likely.</p>
 </section>
+
+
 
 
 
@@ -203,7 +206,7 @@ future events are more likely.</p>
 </h4>
 <dl class="phpdocumentor-table-of-contents">
             <dt class="phpdocumentor-table-of-contents__entry -constant -protected">
-    <a href="classes/Smr-WeightedRandom.html#constant_WEIGHTING_CHANGE">WEIGHTING_CHANGE</a>
+    <a class="" href="classes/Smr-WeightedRandom.html#constant_WEIGHTING_CHANGE">WEIGHTING_CHANGE</a>
     <span>
         &nbsp;= 50                            </span>
 </dt>
@@ -218,43 +221,43 @@ future events are more likely.</p>
 </h4>
 <dl class="phpdocumentor-table-of-contents">
             <dt class="phpdocumentor-table-of-contents__entry -property -protected">
-    <a href="classes/Smr-WeightedRandom.html#property_accountID">$accountID</a>
+    <a class="" href="classes/Smr-WeightedRandom.html#property_accountID">$accountID</a>
     <span>
                         &nbsp;: int            </span>
 </dt>
 
             <dt class="phpdocumentor-table-of-contents__entry -property -protected">
-    <a href="classes/Smr-WeightedRandom.html#property_CACHE_RANDOMS">$CACHE_RANDOMS</a>
+    <a class="" href="classes/Smr-WeightedRandom.html#property_CACHE_RANDOMS">$CACHE_RANDOMS</a>
     <span>
                         &nbsp;: array&lt;int, array&lt;int, array&lt;string, array&lt;int, self&gt;&gt;&gt;&gt;            </span>
 </dt>
 
             <dt class="phpdocumentor-table-of-contents__entry -property -protected">
-    <a href="classes/Smr-WeightedRandom.html#property_gameID">$gameID</a>
+    <a class="" href="classes/Smr-WeightedRandom.html#property_gameID">$gameID</a>
     <span>
                         &nbsp;: int            </span>
 </dt>
 
             <dt class="phpdocumentor-table-of-contents__entry -property -protected">
-    <a href="classes/Smr-WeightedRandom.html#property_hasChanged">$hasChanged</a>
+    <a class="" href="classes/Smr-WeightedRandom.html#property_hasChanged">$hasChanged</a>
     <span>
                         &nbsp;: bool            </span>
 </dt>
 
             <dt class="phpdocumentor-table-of-contents__entry -property -protected">
-    <a href="classes/Smr-WeightedRandom.html#property_type">$type</a>
+    <a class="" href="classes/Smr-WeightedRandom.html#property_type">$type</a>
     <span>
                         &nbsp;: string            </span>
 </dt>
 
             <dt class="phpdocumentor-table-of-contents__entry -property -protected">
-    <a href="classes/Smr-WeightedRandom.html#property_typeID">$typeID</a>
+    <a class="" href="classes/Smr-WeightedRandom.html#property_typeID">$typeID</a>
     <span>
                         &nbsp;: int            </span>
 </dt>
 
             <dt class="phpdocumentor-table-of-contents__entry -property -protected">
-    <a href="classes/Smr-WeightedRandom.html#property_weighting">$weighting</a>
+    <a class="" href="classes/Smr-WeightedRandom.html#property_weighting">$weighting</a>
     <span>
                         &nbsp;: float            </span>
 </dt>
@@ -268,7 +271,7 @@ future events are more likely.</p>
 </h4>
 <dl class="phpdocumentor-table-of-contents">
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
-    <a href="classes/Smr-WeightedRandom.html#method_flipWeightedCoin">flipWeightedCoin()</a>
+    <a class="" href="classes/Smr-WeightedRandom.html#method_flipWeightedCoin">flipWeightedCoin()</a>
     <span>
                                 &nbsp;: bool    </span>
 </dt>
@@ -276,67 +279,66 @@ future events are more likely.</p>
 reduce that chance by the current weighting, and then check the result.</dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
-    <a href="classes/Smr-WeightedRandom.html#method_getAccountID">getAccountID()</a>
+    <a class="" href="classes/Smr-WeightedRandom.html#method_getAccountID">getAccountID()</a>
     <span>
                                 &nbsp;: int    </span>
 </dt>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
-    <a href="classes/Smr-WeightedRandom.html#method_getGameID">getGameID()</a>
+    <a class="" href="classes/Smr-WeightedRandom.html#method_getGameID">getGameID()</a>
     <span>
                                 &nbsp;: int    </span>
 </dt>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
-    <a href="classes/Smr-WeightedRandom.html#method_getType">getType()</a>
+    <a class="" href="classes/Smr-WeightedRandom.html#method_getType">getType()</a>
     <span>
                                 &nbsp;: string    </span>
 </dt>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
-    <a href="classes/Smr-WeightedRandom.html#method_getTypeID">getTypeID()</a>
+    <a class="" href="classes/Smr-WeightedRandom.html#method_getTypeID">getTypeID()</a>
     <span>
                                 &nbsp;: int    </span>
 </dt>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
-    <a href="classes/Smr-WeightedRandom.html#method_getWeightedRandom">getWeightedRandom()</a>
+    <a class="" href="classes/Smr-WeightedRandom.html#method_getWeightedRandom">getWeightedRandom()</a>
     <span>
                                 &nbsp;: self    </span>
 </dt>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
-    <a href="classes/Smr-WeightedRandom.html#method_getWeightedRandomForPlayer">getWeightedRandomForPlayer()</a>
+    <a class="" href="classes/Smr-WeightedRandom.html#method_getWeightedRandomForPlayer">getWeightedRandomForPlayer()</a>
     <span>
                                 &nbsp;: self    </span>
 </dt>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
-    <a href="classes/Smr-WeightedRandom.html#method_getWeighting">getWeighting()</a>
+    <a class="" href="classes/Smr-WeightedRandom.html#method_getWeighting">getWeighting()</a>
     <span>
                                 &nbsp;: float    </span>
 </dt>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
-    <a href="classes/Smr-WeightedRandom.html#method_saveWeightedRandoms">saveWeightedRandoms()</a>
+    <a class="" href="classes/Smr-WeightedRandom.html#method_saveWeightedRandoms">saveWeightedRandoms()</a>
     <span>
                                 &nbsp;: void    </span>
 </dt>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
-    <a href="classes/Smr-WeightedRandom.html#method_update">update()</a>
+    <a class="" href="classes/Smr-WeightedRandom.html#method_update">update()</a>
     <span>
                                 &nbsp;: void    </span>
 </dt>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -protected">
-    <a href="classes/Smr-WeightedRandom.html#method___construct">__construct()</a>
+    <a class="" href="classes/Smr-WeightedRandom.html#method___construct">__construct()</a>
     <span>
                                 &nbsp;: mixed    </span>
 </dt>
 
     </dl>
-
 
 
 
@@ -363,6 +365,7 @@ reduce that chance by the current weighting, and then check the result.</dd>
     </aside>
 
     
+    
     <code class="phpdocumentor-signature phpdocumentor-code ">
     <span class="phpdocumentor-signature__visibility">protected</span>
         <span class="phpdocumentor-signature__type">mixed</span>
@@ -373,6 +376,8 @@ reduce that chance by the current weighting, and then check the result.</dd>
 
     
     
+    
+
     
 
 </article>
@@ -408,6 +413,7 @@ reduce that chance by the current weighting, and then check the result.</dd>
     </aside>
 
     
+    
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">protected</span>
         <span class="phpdocumentor-signature__type">int</span>
@@ -416,6 +422,8 @@ reduce that chance by the current weighting, and then check the result.</dd>
 
     
     
+    
+
     
 
 </article>
@@ -442,6 +450,7 @@ reduce that chance by the current weighting, and then check the result.</dd>
     </aside>
 
     
+    
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">protected</span>
     <span class="phpdocumentor-signature__static">static</span>    <span class="phpdocumentor-signature__type">array&lt;int, array&lt;int, array&lt;string, array&lt;int, self&gt;&gt;&gt;&gt;</span>
@@ -450,6 +459,8 @@ reduce that chance by the current weighting, and then check the result.</dd>
 
     
     
+    
+
     
 
 </article>
@@ -476,6 +487,7 @@ reduce that chance by the current weighting, and then check the result.</dd>
     </aside>
 
     
+    
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">protected</span>
         <span class="phpdocumentor-signature__type">int</span>
@@ -484,6 +496,8 @@ reduce that chance by the current weighting, and then check the result.</dd>
 
     
     
+    
+
     
 
 </article>
@@ -510,6 +524,7 @@ reduce that chance by the current weighting, and then check the result.</dd>
     </aside>
 
     
+    
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">protected</span>
         <span class="phpdocumentor-signature__type">bool</span>
@@ -518,6 +533,8 @@ reduce that chance by the current weighting, and then check the result.</dd>
 
     
     
+    
+
     
 
 </article>
@@ -544,6 +561,7 @@ reduce that chance by the current weighting, and then check the result.</dd>
     </aside>
 
     
+    
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">protected</span>
         <span class="phpdocumentor-signature__type">string</span>
@@ -552,6 +570,8 @@ reduce that chance by the current weighting, and then check the result.</dd>
 
     
     
+    
+
     
 
 </article>
@@ -578,6 +598,7 @@ reduce that chance by the current weighting, and then check the result.</dd>
     </aside>
 
     
+    
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">protected</span>
         <span class="phpdocumentor-signature__type">int</span>
@@ -586,6 +607,8 @@ reduce that chance by the current weighting, and then check the result.</dd>
 
     
     
+    
+
     
 
 </article>
@@ -612,6 +635,7 @@ reduce that chance by the current weighting, and then check the result.</dd>
     </aside>
 
     
+    
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">protected</span>
         <span class="phpdocumentor-signature__type">float</span>
@@ -620,6 +644,8 @@ reduce that chance by the current weighting, and then check the result.</dd>
 
     
     
+    
+
     
 
 </article>
@@ -660,6 +686,7 @@ reduce that chance by the current weighting, and then check the result.</p>
     <div class="phpdocumentor-label-line">
         </div>
     
+    
         <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
     <dl class="phpdocumentor-argument-list">
                     <dt class="phpdocumentor-argument-list__entry">
@@ -670,6 +697,8 @@ reduce that chance by the current weighting, and then check the result.</p>
                 
             </dd>
             </dl>
+
+    
 
     
 
@@ -708,6 +737,9 @@ reduce that chance by the current weighting, and then check the result.</p>
     
     
     
+    
+
+    
 
             <section>
         <h5 class="phpdocumentor-return-value__heading">Return values</h5>
@@ -743,6 +775,9 @@ reduce that chance by the current weighting, and then check the result.</p>
         </div>
     
     
+    
+    
+
     
 
             <section>
@@ -780,6 +815,9 @@ reduce that chance by the current weighting, and then check the result.</p>
     
     
     
+    
+
+    
 
             <section>
         <h5 class="phpdocumentor-return-value__heading">Return values</h5>
@@ -816,6 +854,9 @@ reduce that chance by the current weighting, and then check the result.</p>
     
     
     
+    
+
+    
 
             <section>
         <h5 class="phpdocumentor-return-value__heading">Return values</h5>
@@ -849,6 +890,7 @@ reduce that chance by the current weighting, and then check the result.</p>
 
     <div class="phpdocumentor-label-line">
         </div>
+    
     
         <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
     <dl class="phpdocumentor-argument-list">
@@ -891,6 +933,8 @@ reduce that chance by the current weighting, and then check the result.</p>
 
     
 
+    
+
             <section>
         <h5 class="phpdocumentor-return-value__heading">Return values</h5>
         <span class="phpdocumentor-signature__response_type">self</span>
@@ -924,6 +968,7 @@ reduce that chance by the current weighting, and then check the result.</p>
     <div class="phpdocumentor-label-line">
         </div>
     
+    
         <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
     <dl class="phpdocumentor-argument-list">
                     <dt class="phpdocumentor-argument-list__entry">
@@ -955,6 +1000,8 @@ reduce that chance by the current weighting, and then check the result.</p>
                 
             </dd>
             </dl>
+
+    
 
     
 
@@ -993,6 +1040,9 @@ reduce that chance by the current weighting, and then check the result.</p>
     
     
     
+    
+
+    
 
             <section>
         <h5 class="phpdocumentor-return-value__heading">Return values</h5>
@@ -1029,6 +1079,9 @@ reduce that chance by the current weighting, and then check the result.</p>
     
     
     
+    
+
+    
 
     
 </article>
@@ -1061,6 +1114,9 @@ reduce that chance by the current weighting, and then check the result.</p>
     
     
     
+    
+
+    
 
     
 </article>
@@ -1090,6 +1146,7 @@ reduce that chance by the current weighting, and then check the result.</p>
 
     <div class="phpdocumentor-label-line">
         </div>
+    
     
         <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
     <dl class="phpdocumentor-argument-list">
@@ -1122,6 +1179,8 @@ reduce that chance by the current weighting, and then check the result.</p>
                 
             </dd>
             </dl>
+
+    
 
     
 
@@ -1240,37 +1299,37 @@ reduce that chance by the current weighting, and then check the result.</p>
                             <li class="phpdocumentor-on-this-page-section__title">Constants</li>
                 <li>
                     <ul class="phpdocumentor-list -clean">
-                                                    <li><a href="classes/Smr-WeightedRandom.html#constant_WEIGHTING_CHANGE">WEIGHTING_CHANGE</a></li>
+                                                    <li class=""><a href="classes/Smr-WeightedRandom.html#constant_WEIGHTING_CHANGE">WEIGHTING_CHANGE</a></li>
                                             </ul>
                 </li>
             
                             <li class="phpdocumentor-on-this-page-section__title">Properties</li>
                 <li>
                     <ul class="phpdocumentor-list -clean">
-                                                    <li><a href="classes/Smr-WeightedRandom.html#property_accountID">$accountID<a href="classes/Smr-WeightedRandom.html"></li>
-                                                    <li><a href="classes/Smr-WeightedRandom.html#property_CACHE_RANDOMS">$CACHE_RANDOMS<a href="classes/Smr-WeightedRandom.html"></li>
-                                                    <li><a href="classes/Smr-WeightedRandom.html#property_gameID">$gameID<a href="classes/Smr-WeightedRandom.html"></li>
-                                                    <li><a href="classes/Smr-WeightedRandom.html#property_hasChanged">$hasChanged<a href="classes/Smr-WeightedRandom.html"></li>
-                                                    <li><a href="classes/Smr-WeightedRandom.html#property_type">$type<a href="classes/Smr-WeightedRandom.html"></li>
-                                                    <li><a href="classes/Smr-WeightedRandom.html#property_typeID">$typeID<a href="classes/Smr-WeightedRandom.html"></li>
-                                                    <li><a href="classes/Smr-WeightedRandom.html#property_weighting">$weighting<a href="classes/Smr-WeightedRandom.html"></li>
+                                                    <li class=""><a href="classes/Smr-WeightedRandom.html#property_accountID">$accountID</a></li>
+                                                    <li class=""><a href="classes/Smr-WeightedRandom.html#property_CACHE_RANDOMS">$CACHE_RANDOMS</a></li>
+                                                    <li class=""><a href="classes/Smr-WeightedRandom.html#property_gameID">$gameID</a></li>
+                                                    <li class=""><a href="classes/Smr-WeightedRandom.html#property_hasChanged">$hasChanged</a></li>
+                                                    <li class=""><a href="classes/Smr-WeightedRandom.html#property_type">$type</a></li>
+                                                    <li class=""><a href="classes/Smr-WeightedRandom.html#property_typeID">$typeID</a></li>
+                                                    <li class=""><a href="classes/Smr-WeightedRandom.html#property_weighting">$weighting</a></li>
                                             </ul>
                 </li>
             
                         <li class="phpdocumentor-on-this-page-section__title">Methods</li>
             <li>
                 <ul class="phpdocumentor-list -clean">
-                                            <li><a href="classes/Smr-WeightedRandom.html#method_flipWeightedCoin">flipWeightedCoin()</a></li>
-                                            <li><a href="classes/Smr-WeightedRandom.html#method_getAccountID">getAccountID()</a></li>
-                                            <li><a href="classes/Smr-WeightedRandom.html#method_getGameID">getGameID()</a></li>
-                                            <li><a href="classes/Smr-WeightedRandom.html#method_getType">getType()</a></li>
-                                            <li><a href="classes/Smr-WeightedRandom.html#method_getTypeID">getTypeID()</a></li>
-                                            <li><a href="classes/Smr-WeightedRandom.html#method_getWeightedRandom">getWeightedRandom()</a></li>
-                                            <li><a href="classes/Smr-WeightedRandom.html#method_getWeightedRandomForPlayer">getWeightedRandomForPlayer()</a></li>
-                                            <li><a href="classes/Smr-WeightedRandom.html#method_getWeighting">getWeighting()</a></li>
-                                            <li><a href="classes/Smr-WeightedRandom.html#method_saveWeightedRandoms">saveWeightedRandoms()</a></li>
-                                            <li><a href="classes/Smr-WeightedRandom.html#method_update">update()</a></li>
-                                            <li><a href="classes/Smr-WeightedRandom.html#method___construct">__construct()</a></li>
+                                            <li class=""><a href="classes/Smr-WeightedRandom.html#method_flipWeightedCoin">flipWeightedCoin()</a></li>
+                                            <li class=""><a href="classes/Smr-WeightedRandom.html#method_getAccountID">getAccountID()</a></li>
+                                            <li class=""><a href="classes/Smr-WeightedRandom.html#method_getGameID">getGameID()</a></li>
+                                            <li class=""><a href="classes/Smr-WeightedRandom.html#method_getType">getType()</a></li>
+                                            <li class=""><a href="classes/Smr-WeightedRandom.html#method_getTypeID">getTypeID()</a></li>
+                                            <li class=""><a href="classes/Smr-WeightedRandom.html#method_getWeightedRandom">getWeightedRandom()</a></li>
+                                            <li class=""><a href="classes/Smr-WeightedRandom.html#method_getWeightedRandomForPlayer">getWeightedRandomForPlayer()</a></li>
+                                            <li class=""><a href="classes/Smr-WeightedRandom.html#method_getWeighting">getWeighting()</a></li>
+                                            <li class=""><a href="classes/Smr-WeightedRandom.html#method_saveWeightedRandoms">saveWeightedRandoms()</a></li>
+                                            <li class=""><a href="classes/Smr-WeightedRandom.html#method_update">update()</a></li>
+                                            <li class=""><a href="classes/Smr-WeightedRandom.html#method___construct">__construct()</a></li>
                                     </ul>
             </li>
                     </ul>
