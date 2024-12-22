@@ -6046,15 +6046,15 @@ Search.appendIndex(
             "summary": "Create\u0020a\u0020new\u0020DI\\Container\u0020instance.",
             "url": "classes/Smr-Container-DiContainer.html#method_initialize"
         },                {
-            "fqsen": "\\Smr\\Container\\DiContainer\u003A\u003Aget\u0028\u0029",
-            "name": "get",
+            "fqsen": "\\Smr\\Container\\DiContainer\u003A\u003AgetClass\u0028\u0029",
+            "name": "getClass",
             "summary": "Retrieve\u0020the\u0020managed\u0020instance\u0020of\u0020\u0024className,\u0020or\u0020construct\u0020a\u0020new\u0020instance\u0020with\u0020all\u0020dependencies.",
-            "url": "classes/Smr-Container-DiContainer.html#method_get"
+            "url": "classes/Smr-Container-DiContainer.html#method_getClass"
         },                {
-            "fqsen": "\\Smr\\Container\\DiContainer\u003A\u003Amake\u0028\u0029",
-            "name": "make",
+            "fqsen": "\\Smr\\Container\\DiContainer\u003A\u003AmakeClass\u0028\u0029",
+            "name": "makeClass",
             "summary": "Construct\u0020a\u0020fresh\u0020instance\u0020of\u0020\u0024className.\u0020Dependencies\u0020will\u0020be\u0020retrieved\u0020from\u0020the\u0020container\u0020if\u0020they\nare\u0020already\u0020managed,\u0020and\u0020created\u0020themselves\u0020if\u0020they\u0020are\u0020not.",
-            "url": "classes/Smr-Container-DiContainer.html#method_make"
+            "url": "classes/Smr-Container-DiContainer.html#method_makeClass"
         },                {
             "fqsen": "\\Smr\\Container\\DiContainer\u003A\u003Ainitialized\u0028\u0029",
             "name": "initialized",
@@ -6380,6 +6380,11 @@ Search.appendIndex(
             "name": "getObject",
             "summary": "",
             "url": "classes/Smr-DatabaseRecord.html#method_getObject"
+        },                {
+            "fqsen": "\\Smr\\DatabaseRecord\u003A\u003AgetClass\u0028\u0029",
+            "name": "getClass",
+            "summary": "",
+            "url": "classes/Smr-DatabaseRecord.html#method_getClass"
         },                {
             "fqsen": "\\Smr\\DatabaseRecord\u003A\u003AgetIntEnum\u0028\u0029",
             "name": "getIntEnum",
