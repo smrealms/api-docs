@@ -2586,11 +2586,6 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/Smr-AbstractShip.html#constant_STARTER_SHIPS"
         },                {
-            "fqsen": "\\Smr\\AbstractShip\u003A\u003A\u0024player",
-            "name": "player",
-            "summary": "",
-            "url": "classes/Smr-AbstractShip.html#property_player"
-        },                {
             "fqsen": "\\Smr\\AbstractShip\u003A\u003A\u0024gameID",
             "name": "gameID",
             "summary": "",
@@ -2645,6 +2640,11 @@ Search.appendIndex(
             "name": "hasChangedIllusion",
             "summary": "",
             "url": "classes/Smr-AbstractShip.html#property_hasChangedIllusion"
+        },                {
+            "fqsen": "\\Smr\\AbstractShip\u003A\u003A\u0024player",
+            "name": "player",
+            "summary": "",
+            "url": "classes/Smr-AbstractShip.html#property_player"
         },                {
             "fqsen": "\\Smr\\Account",
             "name": "Account",
