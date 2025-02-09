@@ -4676,6 +4676,16 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/Smr-Chess-Board.html#method_initialize"
         },                {
+            "fqsen": "\\Smr\\Chess\\Board\u003A\u003AsetCastling\u0028\u0029",
+            "name": "setCastling",
+            "summary": "",
+            "url": "classes/Smr-Chess-Board.html#method_setCastling"
+        },                {
+            "fqsen": "\\Smr\\Chess\\Board\u003A\u003AsetEnPassantPawn\u0028\u0029",
+            "name": "setEnPassantPawn",
+            "summary": "",
+            "url": "classes/Smr-Chess-Board.html#method_setEnPassantPawn"
+        },                {
             "fqsen": "\\Smr\\Chess\\Board\u003A\u003AdeepCopy\u0028\u0029",
             "name": "deepCopy",
             "summary": "",
@@ -4736,6 +4746,21 @@ Search.appendIndex(
             "summary": "Is\u0020the\u0020\u0024colour\u0020King\u0020being\u0020attacked\u0020by\u0020any\u0020enemy\u0020pieces\u003F",
             "url": "classes/Smr-Chess-Board.html#method_isChecked"
         },                {
+            "fqsen": "\\Smr\\Chess\\Board\u003A\u003AisCheckmated\u0028\u0029",
+            "name": "isCheckmated",
+            "summary": "",
+            "url": "classes/Smr-Chess-Board.html#method_isCheckmated"
+        },                {
+            "fqsen": "\\Smr\\Chess\\Board\u003A\u003AisDraw\u0028\u0029",
+            "name": "isDraw",
+            "summary": "",
+            "url": "classes/Smr-Chess-Board.html#method_isDraw"
+        },                {
+            "fqsen": "\\Smr\\Chess\\Board\u003A\u003AhasLegalMoves\u0028\u0029",
+            "name": "hasLegalMoves",
+            "summary": "Can\u0020\u0024colour\u0020make\u0020any\u0020legal\u0020moves\u0020in\u0020the\u0020current\u0020position\u003F",
+            "url": "classes/Smr-Chess-Board.html#method_hasLegalMoves"
+        },                {
             "fqsen": "\\Smr\\Chess\\Board\u003A\u003AsetSquare\u0028\u0029",
             "name": "setSquare",
             "summary": "Change\u0020the\u0020position\u0020of\u0020a\u0020piece\u0020on\u0020the\u0020board",
@@ -4743,8 +4768,13 @@ Search.appendIndex(
         },                {
             "fqsen": "\\Smr\\Chess\\Board\u003A\u003AclearSquare\u0028\u0029",
             "name": "clearSquare",
-            "summary": "",
+            "summary": "Remove\u0020the\u0020piece,\u0020if\u0020any,\u0020from\u0020this\u0020square",
             "url": "classes/Smr-Chess-Board.html#method_clearSquare"
+        },                {
+            "fqsen": "\\Smr\\Chess\\Board\u003A\u003Aclear\u0028\u0029",
+            "name": "clear",
+            "summary": "Remove\u0020all\u0020pieces\u0020from\u0020the\u0020board",
+            "url": "classes/Smr-Chess-Board.html#method_clear"
         },                {
             "fqsen": "\\Smr\\Chess\\Board\u003A\u003AmovePiece\u0028\u0029",
             "name": "movePiece",
@@ -4851,11 +4881,6 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/Smr-Chess-ChessGame.html#method_createMove"
         },                {
-            "fqsen": "\\Smr\\Chess\\ChessGame\u003A\u003AisCheckmated\u0028\u0029",
-            "name": "isCheckmated",
-            "summary": "",
-            "url": "classes/Smr-Chess-ChessGame.html#method_isCheckmated"
-        },                {
             "fqsen": "\\Smr\\Chess\\ChessGame\u003A\u003AisCastling\u0028\u0029",
             "name": "isCastling",
             "summary": "",
@@ -4945,6 +4970,16 @@ Search.appendIndex(
             "name": "setWinner",
             "summary": "",
             "url": "classes/Smr-Chess-ChessGame.html#method_setWinner"
+        },                {
+            "fqsen": "\\Smr\\Chess\\ChessGame\u003A\u003AsetDraw\u0028\u0029",
+            "name": "setDraw",
+            "summary": "",
+            "url": "classes/Smr-Chess-ChessGame.html#method_setDraw"
+        },                {
+            "fqsen": "\\Smr\\Chess\\ChessGame\u003A\u003AupdateEndedGame\u0028\u0029",
+            "name": "updateEndedGame",
+            "summary": "",
+            "url": "classes/Smr-Chess-ChessGame.html#method_updateEndedGame"
         },                {
             "fqsen": "\\Smr\\Chess\\ChessGame\u003A\u003AgetCurrentTurnColour\u0028\u0029",
             "name": "getCurrentTurnColour",

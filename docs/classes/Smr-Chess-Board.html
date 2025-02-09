@@ -264,10 +264,18 @@
 </dt>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a class="" href="classes/Smr-Chess-Board.html#method_clear">clear()</a>
+    <span>
+                                &nbsp;: void    </span>
+</dt>
+<dd>Remove all pieces from the board</dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
     <a class="" href="classes/Smr-Chess-Board.html#method_clearSquare">clearSquare()</a>
     <span>
                                 &nbsp;: void    </span>
 </dt>
+<dd>Remove the piece, if any, from this square</dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
     <a class="" href="classes/Smr-Chess-Board.html#method_deepCopy">deepCopy()</a>
@@ -332,6 +340,18 @@
 <dd>Is the $colour King being attacked by any enemy pieces?</dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a class="" href="classes/Smr-Chess-Board.html#method_isCheckmated">isCheckmated()</a>
+    <span>
+                                &nbsp;: bool    </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a class="" href="classes/Smr-Chess-Board.html#method_isDraw">isDraw()</a>
+    <span>
+                                &nbsp;: bool    </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
     <a class="" href="classes/Smr-Chess-Board.html#method_isValidCoord">isValidCoord()</a>
     <span>
                                 &nbsp;: bool    </span>
@@ -345,11 +365,30 @@
 <dd>Move a piece. Note that legality of the move is not checked here.</dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a class="" href="classes/Smr-Chess-Board.html#method_setCastling">setCastling()</a>
+    <span>
+                                &nbsp;: void    </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a class="" href="classes/Smr-Chess-Board.html#method_setEnPassantPawn">setEnPassantPawn()</a>
+    <span>
+                                &nbsp;: void    </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
     <a class="" href="classes/Smr-Chess-Board.html#method_setSquare">setSquare()</a>
     <span>
                                 &nbsp;: void    </span>
 </dt>
 <dd>Change the position of a piece on the board</dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -private">
+    <a class="" href="classes/Smr-Chess-Board.html#method_hasLegalMoves">hasLegalMoves()</a>
+    <span>
+                                &nbsp;: bool    </span>
+</dt>
+<dd>Can $colour make any legal moves in the current position?</dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -private">
     <a class="" href="classes/Smr-Chess-Board.html#method_initialize">initialize()</a>
@@ -658,9 +697,9 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Chess/Board.php"><a href="files/src-lib-smr-chess-board.html"><abbr title="src/lib/Smr/Chess/Board.php">Board.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">188</span>
+    <span class="phpdocumentor-element-found-in__line">205</span>
 
-            <a href="classes/Smr-Chess-Board.html#source-view.188" class="phpdocumentor-element-found-in__source" data-line="188" data-modal="source-view" data-src="files/src/lib/Smr/Chess/Board.php.txt"></a>
+            <a href="classes/Smr-Chess-Board.html#source-view.205" class="phpdocumentor-element-found-in__source" data-line="205" data-modal="source-view" data-src="files/src/lib/Smr/Chess/Board.php.txt"></a>
     </aside>
 
     
@@ -706,6 +745,42 @@
             -public
                                                         "
 >
+    <h4 class="phpdocumentor-element__name" id="method_clear">
+        clear()
+        <a href="classes/Smr-Chess-Board.html#method_clear" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Chess/Board.php"><a href="files/src-lib-smr-chess-board.html"><abbr title="src/lib/Smr/Chess/Board.php">Board.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">280</span>
+
+            <a href="classes/Smr-Chess-Board.html#source-view.280" class="phpdocumentor-element-found-in__source" data-line="280" data-modal="source-view" data-src="files/src/lib/Smr/Chess/Board.php.txt"></a>
+    </aside>
+
+        <p class="phpdocumentor-summary">Remove all pieces from the board</p>
+
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+                    <span class="phpdocumentor-signature__name">clear</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">void</span></code>
+
+    <div class="phpdocumentor-label-line">
+        </div>
+    
+    
+    
+    
+
+    
+
+    
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                                        "
+>
     <h4 class="phpdocumentor-element__name" id="method_clearSquare">
         clearSquare()
         <a href="classes/Smr-Chess-Board.html#method_clearSquare" class="headerlink"><i class="fas fa-link"></i></a>
@@ -714,12 +789,13 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Chess/Board.php"><a href="files/src-lib-smr-chess-board.html"><abbr title="src/lib/Smr/Chess/Board.php">Board.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">221</span>
+    <span class="phpdocumentor-element-found-in__line">273</span>
 
-            <a href="classes/Smr-Chess-Board.html#source-view.221" class="phpdocumentor-element-found-in__source" data-line="221" data-modal="source-view" data-src="files/src/lib/Smr/Chess/Board.php.txt"></a>
+            <a href="classes/Smr-Chess-Board.html#source-view.273" class="phpdocumentor-element-found-in__source" data-line="273" data-modal="source-view" data-src="files/src/lib/Smr/Chess/Board.php.txt"></a>
     </aside>
 
-    
+        <p class="phpdocumentor-summary">Remove the piece, if any, from this square</p>
+
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">public</span>
                     <span class="phpdocumentor-signature__name">clearSquare</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type">int&nbsp;</span><span class="phpdocumentor-signature__argument__name">$x</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__return-type">int&nbsp;</span><span class="phpdocumentor-signature__argument__name">$y</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">void</span></code>
@@ -766,9 +842,9 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Chess/Board.php"><a href="files/src-lib-smr-chess-board.html"><abbr title="src/lib/Smr/Chess/Board.php">Board.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">47</span>
+    <span class="phpdocumentor-element-found-in__line">64</span>
 
-            <a href="classes/Smr-Chess-Board.html#source-view.47" class="phpdocumentor-element-found-in__source" data-line="47" data-modal="source-view" data-src="files/src/lib/Smr/Chess/Board.php.txt"></a>
+            <a href="classes/Smr-Chess-Board.html#source-view.64" class="phpdocumentor-element-found-in__source" data-line="64" data-modal="source-view" data-src="files/src/lib/Smr/Chess/Board.php.txt"></a>
     </aside>
 
     
@@ -805,9 +881,9 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Chess/Board.php"><a href="files/src-lib-smr-chess-board.html"><abbr title="src/lib/Smr/Chess/Board.php">Board.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">135</span>
+    <span class="phpdocumentor-element-found-in__line">152</span>
 
-            <a href="classes/Smr-Chess-Board.html#source-view.135" class="phpdocumentor-element-found-in__source" data-line="135" data-modal="source-view" data-src="files/src/lib/Smr/Chess/Board.php.txt"></a>
+            <a href="classes/Smr-Chess-Board.html#source-view.152" class="phpdocumentor-element-found-in__source" data-line="152" data-modal="source-view" data-src="files/src/lib/Smr/Chess/Board.php.txt"></a>
     </aside>
 
         <p class="phpdocumentor-summary">Get the board from the colour&#039;s perspective as an array.</p>
@@ -857,9 +933,9 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Chess/Board.php"><a href="files/src-lib-smr-chess-board.html"><abbr title="src/lib/Smr/Chess/Board.php">Board.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">125</span>
+    <span class="phpdocumentor-element-found-in__line">142</span>
 
-            <a href="classes/Smr-Chess-Board.html#source-view.125" class="phpdocumentor-element-found-in__source" data-line="125" data-modal="source-view" data-src="files/src/lib/Smr/Chess/Board.php.txt"></a>
+            <a href="classes/Smr-Chess-Board.html#source-view.142" class="phpdocumentor-element-found-in__source" data-line="142" data-modal="source-view" data-src="files/src/lib/Smr/Chess/Board.php.txt"></a>
     </aside>
 
     
@@ -896,9 +972,9 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Chess/Board.php"><a href="files/src-lib-smr-chess-board.html"><abbr title="src/lib/Smr/Chess/Board.php">Board.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">195</span>
+    <span class="phpdocumentor-element-found-in__line">212</span>
 
-            <a href="classes/Smr-Chess-Board.html#source-view.195" class="phpdocumentor-element-found-in__source" data-line="195" data-modal="source-view" data-src="files/src/lib/Smr/Chess/Board.php.txt"></a>
+            <a href="classes/Smr-Chess-Board.html#source-view.212" class="phpdocumentor-element-found-in__source" data-line="212" data-modal="source-view" data-src="files/src/lib/Smr/Chess/Board.php.txt"></a>
     </aside>
 
     
@@ -935,9 +1011,9 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Chess/Board.php"><a href="files/src-lib-smr-chess-board.html"><abbr title="src/lib/Smr/Chess/Board.php">Board.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">65</span>
+    <span class="phpdocumentor-element-found-in__line">82</span>
 
-            <a href="classes/Smr-Chess-Board.html#source-view.65" class="phpdocumentor-element-found-in__source" data-line="65" data-modal="source-view" data-src="files/src/lib/Smr/Chess/Board.php.txt"></a>
+            <a href="classes/Smr-Chess-Board.html#source-view.82" class="phpdocumentor-element-found-in__source" data-line="82" data-modal="source-view" data-src="files/src/lib/Smr/Chess/Board.php.txt"></a>
     </aside>
 
     
@@ -974,9 +1050,9 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Chess/Board.php"><a href="files/src-lib-smr-chess-board.html"><abbr title="src/lib/Smr/Chess/Board.php">Board.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">179</span>
+    <span class="phpdocumentor-element-found-in__line">196</span>
 
-            <a href="classes/Smr-Chess-Board.html#source-view.179" class="phpdocumentor-element-found-in__source" data-line="179" data-modal="source-view" data-src="files/src/lib/Smr/Chess/Board.php.txt"></a>
+            <a href="classes/Smr-Chess-Board.html#source-view.196" class="phpdocumentor-element-found-in__source" data-line="196" data-modal="source-view" data-src="files/src/lib/Smr/Chess/Board.php.txt"></a>
     </aside>
 
     
@@ -1023,9 +1099,9 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Chess/Board.php"><a href="files/src-lib-smr-chess-board.html"><abbr title="src/lib/Smr/Chess/Board.php">Board.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">172</span>
+    <span class="phpdocumentor-element-found-in__line">189</span>
 
-            <a href="classes/Smr-Chess-Board.html#source-view.172" class="phpdocumentor-element-found-in__source" data-line="172" data-modal="source-view" data-src="files/src/lib/Smr/Chess/Board.php.txt"></a>
+            <a href="classes/Smr-Chess-Board.html#source-view.189" class="phpdocumentor-element-found-in__source" data-line="189" data-modal="source-view" data-src="files/src/lib/Smr/Chess/Board.php.txt"></a>
     </aside>
 
     
@@ -1079,9 +1155,9 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Chess/Board.php"><a href="files/src-lib-smr-chess-board.html"><abbr title="src/lib/Smr/Chess/Board.php">Board.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">156</span>
+    <span class="phpdocumentor-element-found-in__line">173</span>
 
-            <a href="classes/Smr-Chess-Board.html#source-view.156" class="phpdocumentor-element-found-in__source" data-line="156" data-modal="source-view" data-src="files/src/lib/Smr/Chess/Board.php.txt"></a>
+            <a href="classes/Smr-Chess-Board.html#source-view.173" class="phpdocumentor-element-found-in__source" data-line="173" data-modal="source-view" data-src="files/src/lib/Smr/Chess/Board.php.txt"></a>
     </aside>
 
     
@@ -1128,9 +1204,9 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Chess/Board.php"><a href="files/src-lib-smr-chess-board.html"><abbr title="src/lib/Smr/Chess/Board.php">Board.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">168</span>
+    <span class="phpdocumentor-element-found-in__line">185</span>
 
-            <a href="classes/Smr-Chess-Board.html#source-view.168" class="phpdocumentor-element-found-in__source" data-line="168" data-modal="source-view" data-src="files/src/lib/Smr/Chess/Board.php.txt"></a>
+            <a href="classes/Smr-Chess-Board.html#source-view.185" class="phpdocumentor-element-found-in__source" data-line="185" data-modal="source-view" data-src="files/src/lib/Smr/Chess/Board.php.txt"></a>
     </aside>
 
     
@@ -1184,9 +1260,9 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Chess/Board.php"><a href="files/src-lib-smr-chess-board.html"><abbr title="src/lib/Smr/Chess/Board.php">Board.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">202</span>
+    <span class="phpdocumentor-element-found-in__line">219</span>
 
-            <a href="classes/Smr-Chess-Board.html#source-view.202" class="phpdocumentor-element-found-in__source" data-line="202" data-modal="source-view" data-src="files/src/lib/Smr/Chess/Board.php.txt"></a>
+            <a href="classes/Smr-Chess-Board.html#source-view.219" class="phpdocumentor-element-found-in__source" data-line="219" data-modal="source-view" data-src="files/src/lib/Smr/Chess/Board.php.txt"></a>
     </aside>
 
         <p class="phpdocumentor-summary">Is the $colour King being attacked by any enemy pieces?</p>
@@ -1194,6 +1270,104 @@
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">public</span>
                     <span class="phpdocumentor-signature__name">isChecked</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type"><a href="classes/Smr-Chess-Colour.html"><abbr title="\Smr\Chess\Colour">Colour</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$colour</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">bool</span></code>
+
+    <div class="phpdocumentor-label-line">
+        </div>
+    
+    
+        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
+    <dl class="phpdocumentor-argument-list">
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$colour</span>
+                : <span class="phpdocumentor-signature__argument__return-type"><a href="classes/Smr-Chess-Colour.html"><abbr title="\Smr\Chess\Colour">Colour</abbr></a></span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                
+            </dd>
+            </dl>
+
+    
+
+    
+
+            <section>
+        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
+        <span class="phpdocumentor-signature__response_type">bool</span>
+            </section>
+
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="method_isCheckmated">
+        isCheckmated()
+        <a href="classes/Smr-Chess-Board.html#method_isCheckmated" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Chess/Board.php"><a href="files/src-lib-smr-chess-board.html"><abbr title="src/lib/Smr/Chess/Board.php">Board.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">229</span>
+
+            <a href="classes/Smr-Chess-Board.html#source-view.229" class="phpdocumentor-element-found-in__source" data-line="229" data-modal="source-view" data-src="files/src/lib/Smr/Chess/Board.php.txt"></a>
+    </aside>
+
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+                    <span class="phpdocumentor-signature__name">isCheckmated</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type"><a href="classes/Smr-Chess-Colour.html"><abbr title="\Smr\Chess\Colour">Colour</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$colour</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">bool</span></code>
+
+    <div class="phpdocumentor-label-line">
+        </div>
+    
+    
+        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
+    <dl class="phpdocumentor-argument-list">
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$colour</span>
+                : <span class="phpdocumentor-signature__argument__return-type"><a href="classes/Smr-Chess-Colour.html"><abbr title="\Smr\Chess\Colour">Colour</abbr></a></span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                
+            </dd>
+            </dl>
+
+    
+
+    
+
+            <section>
+        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
+        <span class="phpdocumentor-signature__response_type">bool</span>
+            </section>
+
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="method_isDraw">
+        isDraw()
+        <a href="classes/Smr-Chess-Board.html#method_isDraw" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Chess/Board.php"><a href="files/src-lib-smr-chess-board.html"><abbr title="src/lib/Smr/Chess/Board.php">Board.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">234</span>
+
+            <a href="classes/Smr-Chess-Board.html#source-view.234" class="phpdocumentor-element-found-in__source" data-line="234" data-modal="source-view" data-src="files/src/lib/Smr/Chess/Board.php.txt"></a>
+    </aside>
+
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+                    <span class="phpdocumentor-signature__name">isDraw</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type"><a href="classes/Smr-Chess-Colour.html"><abbr title="\Smr\Chess\Colour">Colour</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$colour</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">bool</span></code>
 
     <div class="phpdocumentor-label-line">
         </div>
@@ -1234,9 +1408,9 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Chess/Board.php"><a href="files/src-lib-smr-chess-board.html"><abbr title="src/lib/Smr/Chess/Board.php">Board.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">149</span>
+    <span class="phpdocumentor-element-found-in__line">166</span>
 
-            <a href="classes/Smr-Chess-Board.html#source-view.149" class="phpdocumentor-element-found-in__source" data-line="149" data-modal="source-view" data-src="files/src/lib/Smr/Chess/Board.php.txt"></a>
+            <a href="classes/Smr-Chess-Board.html#source-view.166" class="phpdocumentor-element-found-in__source" data-line="166" data-modal="source-view" data-src="files/src/lib/Smr/Chess/Board.php.txt"></a>
     </aside>
 
     
@@ -1290,9 +1464,9 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Chess/Board.php"><a href="files/src-lib-smr-chess-board.html"><abbr title="src/lib/Smr/Chess/Board.php">Board.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">230</span>
+    <span class="phpdocumentor-element-found-in__line">296</span>
 
-            <a href="classes/Smr-Chess-Board.html#source-view.230" class="phpdocumentor-element-found-in__source" data-line="230" data-modal="source-view" data-src="files/src/lib/Smr/Chess/Board.php.txt"></a>
+            <a href="classes/Smr-Chess-Board.html#source-view.296" class="phpdocumentor-element-found-in__source" data-line="296" data-modal="source-view" data-src="files/src/lib/Smr/Chess/Board.php.txt"></a>
     </aside>
 
         <p class="phpdocumentor-summary">Move a piece. Note that legality of the move is not checked here.</p>
@@ -1360,6 +1534,107 @@
             -public
                                                         "
 >
+    <h4 class="phpdocumentor-element__name" id="method_setCastling">
+        setCastling()
+        <a href="classes/Smr-Chess-Board.html#method_setCastling" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Chess/Board.php"><a href="files/src-lib-smr-chess-board.html"><abbr title="src/lib/Smr/Chess/Board.php">Board.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">49</span>
+
+            <a href="classes/Smr-Chess-Board.html#source-view.49" class="phpdocumentor-element-found-in__source" data-line="49" data-modal="source-view" data-src="files/src/lib/Smr/Chess/Board.php.txt"></a>
+    </aside>
+
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+                    <span class="phpdocumentor-signature__name">setCastling</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type"><a href="classes/Smr-Chess-Colour.html"><abbr title="\Smr\Chess\Colour">Colour</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$colour</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__return-type">array&lt;string|int, <a href="classes/Smr-Chess-Castling.html"><abbr title="\Smr\Chess\Castling">Castling</abbr></a>&gt;&nbsp;</span><span class="phpdocumentor-signature__argument__name">$castling</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">void</span></code>
+
+    <div class="phpdocumentor-label-line">
+        </div>
+    
+    
+        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
+    <dl class="phpdocumentor-argument-list">
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$colour</span>
+                : <span class="phpdocumentor-signature__argument__return-type"><a href="classes/Smr-Chess-Colour.html"><abbr title="\Smr\Chess\Colour">Colour</abbr></a></span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                
+            </dd>
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$castling</span>
+                : <span class="phpdocumentor-signature__argument__return-type">array&lt;string|int, <a href="classes/Smr-Chess-Castling.html"><abbr title="\Smr\Chess\Castling">Castling</abbr></a>&gt;</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                    <section class="phpdocumentor-description"><p>Set allowed castling operations</p>
+</section>
+
+            </dd>
+            </dl>
+
+    
+
+    
+
+    
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="method_setEnPassantPawn">
+        setEnPassantPawn()
+        <a href="classes/Smr-Chess-Board.html#method_setEnPassantPawn" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Chess/Board.php"><a href="files/src-lib-smr-chess-board.html"><abbr title="src/lib/Smr/Chess/Board.php">Board.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">56</span>
+
+            <a href="classes/Smr-Chess-Board.html#source-view.56" class="phpdocumentor-element-found-in__source" data-line="56" data-modal="source-view" data-src="files/src/lib/Smr/Chess/Board.php.txt"></a>
+    </aside>
+
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+                    <span class="phpdocumentor-signature__name">setEnPassantPawn</span><span>(</span><span class="phpdocumentor-signature__argument"><span>[</span><span class="phpdocumentor-signature__argument__return-type">array{X: int, Y: int}|null&nbsp;</span><span class="phpdocumentor-signature__argument__name">$enPassantPawn</span><span> = </span><span class="phpdocumentor-signature__argument__default-value">null</span><span> ]</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">void</span></code>
+
+    <div class="phpdocumentor-label-line">
+        </div>
+    
+    
+        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
+    <dl class="phpdocumentor-argument-list">
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$enPassantPawn</span>
+                : <span class="phpdocumentor-signature__argument__return-type">array{X: int, Y: int}|null</span>
+                 = <span class="phpdocumentor-signature__argument__default-value">null</span>            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                    <section class="phpdocumentor-description"><p>Set (or reset) en passant pawn</p>
+</section>
+
+            </dd>
+            </dl>
+
+    
+
+    
+
+    
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                                        "
+>
     <h4 class="phpdocumentor-element__name" id="method_setSquare">
         setSquare()
         <a href="classes/Smr-Chess-Board.html#method_setSquare" class="headerlink"><i class="fas fa-link"></i></a>
@@ -1368,9 +1643,9 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Chess/Board.php"><a href="files/src-lib-smr-chess-board.html"><abbr title="src/lib/Smr/Chess/Board.php">Board.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">215</span>
+    <span class="phpdocumentor-element-found-in__line">264</span>
 
-            <a href="classes/Smr-Chess-Board.html#source-view.215" class="phpdocumentor-element-found-in__source" data-line="215" data-modal="source-view" data-src="files/src/lib/Smr/Chess/Board.php.txt"></a>
+            <a href="classes/Smr-Chess-Board.html#source-view.264" class="phpdocumentor-element-found-in__source" data-line="264" data-modal="source-view" data-src="files/src/lib/Smr/Chess/Board.php.txt"></a>
     </aside>
 
         <p class="phpdocumentor-summary">Change the position of a piece on the board</p>
@@ -1413,6 +1688,56 @@
     
 
     
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -private
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="method_hasLegalMoves">
+        hasLegalMoves()
+        <a href="classes/Smr-Chess-Board.html#method_hasLegalMoves" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Chess/Board.php"><a href="files/src-lib-smr-chess-board.html"><abbr title="src/lib/Smr/Chess/Board.php">Board.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">252</span>
+
+            <a href="classes/Smr-Chess-Board.html#source-view.252" class="phpdocumentor-element-found-in__source" data-line="252" data-modal="source-view" data-src="files/src/lib/Smr/Chess/Board.php.txt"></a>
+    </aside>
+
+        <p class="phpdocumentor-summary">Can $colour make any legal moves in the current position?</p>
+
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">private</span>
+                    <span class="phpdocumentor-signature__name">hasLegalMoves</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type"><a href="classes/Smr-Chess-Colour.html"><abbr title="\Smr\Chess\Colour">Colour</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$colour</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">bool</span></code>
+
+    <div class="phpdocumentor-label-line">
+        </div>
+    
+    
+        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
+    <dl class="phpdocumentor-argument-list">
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$colour</span>
+                : <span class="phpdocumentor-signature__argument__return-type"><a href="classes/Smr-Chess-Colour.html"><abbr title="\Smr\Chess\Colour">Colour</abbr></a></span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                
+            </dd>
+            </dl>
+
+    
+
+    
+
+            <section>
+        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
+        <span class="phpdocumentor-signature__response_type">bool</span>
+            </section>
+
 </article>
                     <article
         class="phpdocumentor-element
@@ -1582,6 +1907,7 @@
                 <ul class="phpdocumentor-list -clean">
                                             <li class=""><a href="classes/Smr-Chess-Board.html#method___construct">__construct()</a></li>
                                             <li class=""><a href="classes/Smr-Chess-Board.html#method_canCastle">canCastle()</a></li>
+                                            <li class=""><a href="classes/Smr-Chess-Board.html#method_clear">clear()</a></li>
                                             <li class=""><a href="classes/Smr-Chess-Board.html#method_clearSquare">clearSquare()</a></li>
                                             <li class=""><a href="classes/Smr-Chess-Board.html#method_deepCopy">deepCopy()</a></li>
                                             <li class=""><a href="classes/Smr-Chess-Board.html#method_getBoardDisplay">getBoardDisplay()</a></li>
@@ -1593,9 +1919,14 @@
                                             <li class=""><a href="classes/Smr-Chess-Board.html#method_getPieces">getPieces()</a></li>
                                             <li class=""><a href="classes/Smr-Chess-Board.html#method_hasPiece">hasPiece()</a></li>
                                             <li class=""><a href="classes/Smr-Chess-Board.html#method_isChecked">isChecked()</a></li>
+                                            <li class=""><a href="classes/Smr-Chess-Board.html#method_isCheckmated">isCheckmated()</a></li>
+                                            <li class=""><a href="classes/Smr-Chess-Board.html#method_isDraw">isDraw()</a></li>
                                             <li class=""><a href="classes/Smr-Chess-Board.html#method_isValidCoord">isValidCoord()</a></li>
                                             <li class=""><a href="classes/Smr-Chess-Board.html#method_movePiece">movePiece()</a></li>
+                                            <li class=""><a href="classes/Smr-Chess-Board.html#method_setCastling">setCastling()</a></li>
+                                            <li class=""><a href="classes/Smr-Chess-Board.html#method_setEnPassantPawn">setEnPassantPawn()</a></li>
                                             <li class=""><a href="classes/Smr-Chess-Board.html#method_setSquare">setSquare()</a></li>
+                                            <li class=""><a href="classes/Smr-Chess-Board.html#method_hasLegalMoves">hasLegalMoves()</a></li>
                                             <li class=""><a href="classes/Smr-Chess-Board.html#method_initialize">initialize()</a></li>
                                     </ul>
             </li>
