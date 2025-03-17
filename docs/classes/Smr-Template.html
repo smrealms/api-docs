@@ -265,6 +265,18 @@
 comparison, and outputs modified elements in XML for ajax if requested.</dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a class="" href="classes/Smr-Template.html#method_displayForceTakenDamage">displayForceTakenDamage()</a>
+    <span>
+                                &nbsp;: string    </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a class="" href="classes/Smr-Template.html#method_displayTakenDamage">displayTakenDamage()</a>
+    <span>
+                                &nbsp;: string    </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
     <a class="" href="classes/Smr-Template.html#method_getInstance">getInstance()</a>
     <span>
                                 &nbsp;: self    </span>
@@ -318,12 +330,6 @@ have already started filling out).</dd>
 </dt>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -protected">
-    <a class="" href="classes/Smr-Template.html#method_doDamageTypeReductionDisplay">doDamageTypeReductionDisplay()</a>
-    <span>
-                                &nbsp;: void    </span>
-</dt>
-
-            <dt class="phpdocumentor-table-of-contents__entry -method -protected">
     <a class="" href="classes/Smr-Template.html#method_getTemplateLocation">getTemplateLocation()</a>
     <span>
                                 &nbsp;: string    </span>
@@ -333,6 +339,12 @@ have already started filling out).</dd>
     <a class="" href="classes/Smr-Template.html#method_includeTemplate">includeTemplate()</a>
     <span>
                                 &nbsp;: void    </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -private">
+    <a class="" href="classes/Smr-Template.html#method_displayDamage">displayDamage()</a>
+    <span>
+                                &nbsp;: string    </span>
 </dt>
 
     </dl>
@@ -593,9 +605,9 @@ have already started filling out).</dd>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Template.php"><a href="files/src-lib-smr-template.html"><abbr title="src/lib/Smr/Template.php">Template.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">160</span>
+    <span class="phpdocumentor-element-found-in__line">188</span>
 
-            <a href="classes/Smr-Template.html#source-view.160" class="phpdocumentor-element-found-in__source" data-line="160" data-modal="source-view" data-src="files/src/lib/Smr/Template.php.txt"></a>
+            <a href="classes/Smr-Template.html#source-view.188" class="phpdocumentor-element-found-in__source" data-line="188" data-modal="source-view" data-src="files/src/lib/Smr/Template.php.txt"></a>
     </aside>
 
     
@@ -740,6 +752,111 @@ comparison, and outputs modified elements in XML for ajax if requested.</p>
     
 
     
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="method_displayForceTakenDamage">
+        displayForceTakenDamage()
+        <a href="classes/Smr-Template.html#method_displayForceTakenDamage" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Template.php"><a href="files/src-lib-smr-template.html"><abbr title="src/lib/Smr/Template.php">Template.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">146</span>
+
+            <a href="classes/Smr-Template.html#source-view.146" class="phpdocumentor-element-found-in__source" data-line="146" data-modal="source-view" data-src="files/src/lib/Smr/Template.php.txt"></a>
+    </aside>
+
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+                    <span class="phpdocumentor-signature__name">displayForceTakenDamage</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type"><abbr title="\Smr\ForceTakenDamageData">ForceTakenDamageData</abbr>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$damageTaken</span></span><span class="phpdocumentor-signature__argument"><span>[</span><span>, </span><span class="phpdocumentor-signature__argument__return-type">int&nbsp;</span><span class="phpdocumentor-signature__argument__name">$kamikaze</span><span> = </span><span class="phpdocumentor-signature__argument__default-value">0</span><span> ]</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">string</span></code>
+
+    <div class="phpdocumentor-label-line">
+        </div>
+    
+    
+        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
+    <dl class="phpdocumentor-argument-list">
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$damageTaken</span>
+                : <span class="phpdocumentor-signature__argument__return-type"><abbr title="\Smr\ForceTakenDamageData">ForceTakenDamageData</abbr></span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                
+            </dd>
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$kamikaze</span>
+                : <span class="phpdocumentor-signature__argument__return-type">int</span>
+                 = <span class="phpdocumentor-signature__argument__default-value">0</span>            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                
+            </dd>
+            </dl>
+
+    
+
+    
+
+            <section>
+        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
+        <span class="phpdocumentor-signature__response_type">string</span>
+            </section>
+
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="method_displayTakenDamage">
+        displayTakenDamage()
+        <a href="classes/Smr-Template.html#method_displayTakenDamage" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Template.php"><a href="files/src-lib-smr-template.html"><abbr title="src/lib/Smr/Template.php">Template.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">158</span>
+
+            <a href="classes/Smr-Template.html#source-view.158" class="phpdocumentor-element-found-in__source" data-line="158" data-modal="source-view" data-src="files/src/lib/Smr/Template.php.txt"></a>
+    </aside>
+
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+                    <span class="phpdocumentor-signature__name">displayTakenDamage</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type"><abbr title="\Smr\TakenDamageData">TakenDamageData</abbr>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$damageTaken</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">string</span></code>
+
+    <div class="phpdocumentor-label-line">
+        </div>
+    
+    
+        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
+    <dl class="phpdocumentor-argument-list">
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$damageTaken</span>
+                : <span class="phpdocumentor-signature__argument__return-type"><abbr title="\Smr\TakenDamageData">TakenDamageData</abbr></span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                
+            </dd>
+            </dl>
+
+    
+
+    
+
+            <section>
+        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
+        <span class="phpdocumentor-signature__response_type">string</span>
+            </section>
+
 </article>
                     <article
         class="phpdocumentor-element
@@ -892,9 +1009,9 @@ This is the intended way to construct this class.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Template.php"><a href="files/src-lib-smr-template.html"><abbr title="src/lib/Smr/Template.php">Template.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">175</span>
+    <span class="phpdocumentor-element-found-in__line">203</span>
 
-            <a href="classes/Smr-Template.html#source-view.175" class="phpdocumentor-element-found-in__source" data-line="175" data-modal="source-view" data-src="files/src/lib/Smr/Template.php.txt"></a>
+            <a href="classes/Smr-Template.html#source-view.203" class="phpdocumentor-element-found-in__source" data-line="203" data-modal="source-view" data-src="files/src/lib/Smr/Template.php.txt"></a>
     </aside>
 
     
@@ -937,9 +1054,9 @@ This is the intended way to construct this class.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Template.php"><a href="files/src-lib-smr-template.html"><abbr title="src/lib/Smr/Template.php">Template.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">185</span>
+    <span class="phpdocumentor-element-found-in__line">213</span>
 
-            <a href="classes/Smr-Template.html#source-view.185" class="phpdocumentor-element-found-in__source" data-line="185" data-modal="source-view" data-src="files/src/lib/Smr/Template.php.txt"></a>
+            <a href="classes/Smr-Template.html#source-view.213" class="phpdocumentor-element-found-in__source" data-line="213" data-modal="source-view" data-src="files/src/lib/Smr/Template.php.txt"></a>
     </aside>
 
         <p class="phpdocumentor-summary">Registers a JS target for inclusion at the end of the HTML body.</p>
@@ -1035,9 +1152,9 @@ have already started filling out).</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Template.php"><a href="files/src-lib-smr-template.html"><abbr title="src/lib/Smr/Template.php">Template.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">189</span>
+    <span class="phpdocumentor-element-found-in__line">217</span>
 
-            <a href="classes/Smr-Template.html#source-view.189" class="phpdocumentor-element-found-in__source" data-line="189" data-modal="source-view" data-src="files/src/lib/Smr/Template.php.txt"></a>
+            <a href="classes/Smr-Template.html#source-view.217" class="phpdocumentor-element-found-in__source" data-line="217" data-modal="source-view" data-src="files/src/lib/Smr/Template.php.txt"></a>
     </aside>
 
     
@@ -1091,9 +1208,9 @@ have already started filling out).</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Template.php"><a href="files/src-lib-smr-template.html"><abbr title="src/lib/Smr/Template.php">Template.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">152</span>
+    <span class="phpdocumentor-element-found-in__line">180</span>
 
-            <a href="classes/Smr-Template.html#source-view.152" class="phpdocumentor-element-found-in__source" data-line="152" data-modal="source-view" data-src="files/src/lib/Smr/Template.php.txt"></a>
+            <a href="classes/Smr-Template.html#source-view.180" class="phpdocumentor-element-found-in__source" data-line="180" data-modal="source-view" data-src="files/src/lib/Smr/Template.php.txt"></a>
     </aside>
 
     
@@ -1125,51 +1242,6 @@ have already started filling out).</p>
         <span class="phpdocumentor-signature__response_type">string</span>
             </section>
 
-</article>
-                    <article
-        class="phpdocumentor-element
-            -method
-            -protected
-                                                        "
->
-    <h4 class="phpdocumentor-element__name" id="method_doDamageTypeReductionDisplay">
-        doDamageTypeReductionDisplay()
-        <a href="classes/Smr-Template.html#method_doDamageTypeReductionDisplay" class="headerlink"><i class="fas fa-link"></i></a>
-
-    </h4>
-    <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Template.php"><a href="files/src-lib-smr-template.html"><abbr title="src/lib/Smr/Template.php">Template.php</abbr></a></abbr>
-    :
-    <span class="phpdocumentor-element-found-in__line">143</span>
-
-            <a href="classes/Smr-Template.html#source-view.143" class="phpdocumentor-element-found-in__source" data-line="143" data-modal="source-view" data-src="files/src/lib/Smr/Template.php.txt"></a>
-    </aside>
-
-    
-    <code class="phpdocumentor-code phpdocumentor-signature ">
-    <span class="phpdocumentor-signature__visibility">protected</span>
-                    <span class="phpdocumentor-signature__name">doDamageTypeReductionDisplay</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type">int&nbsp;</span><span class="phpdocumentor-signature__argument__reference-operator">&amp;</span><span class="phpdocumentor-signature__argument__name">$damageTypes</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">void</span></code>
-
-    <div class="phpdocumentor-label-line">
-        </div>
-    
-    
-        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
-    <dl class="phpdocumentor-argument-list">
-                    <dt class="phpdocumentor-argument-list__entry">
-                <span class="phpdocumentor-signature__argument__name">$damageTypes</span>
-                : <span class="phpdocumentor-signature__argument__return-type">int</span>
-                            </dt>
-            <dd class="phpdocumentor-argument-list__definition">
-                
-            </dd>
-            </dl>
-
-    
-
-    
-
-    
 </article>
                     <article
         class="phpdocumentor-element
@@ -1271,6 +1343,55 @@ have already started filling out).</p>
     
 
     
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -private
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="method_displayDamage">
+        displayDamage()
+        <a href="classes/Smr-Template.html#method_displayDamage" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Template.php"><a href="files/src-lib-smr-template.html"><abbr title="src/lib/Smr/Template.php">Template.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">170</span>
+
+            <a href="classes/Smr-Template.html#source-view.170" class="phpdocumentor-element-found-in__source" data-line="170" data-modal="source-view" data-src="files/src/lib/Smr/Template.php.txt"></a>
+    </aside>
+
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">private</span>
+                    <span class="phpdocumentor-signature__name">displayDamage</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type">array&lt;string|int, array{: int, : string, : string, : string}&gt;&nbsp;</span><span class="phpdocumentor-signature__argument__name">$damageTypes</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">string</span></code>
+
+    <div class="phpdocumentor-label-line">
+        </div>
+    
+    
+        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
+    <dl class="phpdocumentor-argument-list">
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$damageTypes</span>
+                : <span class="phpdocumentor-signature__argument__return-type">array&lt;string|int, array{: int, : string, : string, : string}&gt;</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                
+            </dd>
+            </dl>
+
+    
+
+    
+
+            <section>
+        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
+        <span class="phpdocumentor-signature__response_type">string</span>
+            </section>
+
 </article>
             </section>
 
@@ -1400,6 +1521,8 @@ have already started filling out).</p>
                                             <li class=""><a href="classes/Smr-Template.html#method_addJavascriptForAjax">addJavascriptForAjax()</a></li>
                                             <li class=""><a href="classes/Smr-Template.html#method_assign">assign()</a></li>
                                             <li class=""><a href="classes/Smr-Template.html#method_display">display()</a></li>
+                                            <li class=""><a href="classes/Smr-Template.html#method_displayForceTakenDamage">displayForceTakenDamage()</a></li>
+                                            <li class=""><a href="classes/Smr-Template.html#method_displayTakenDamage">displayTakenDamage()</a></li>
                                             <li class=""><a href="classes/Smr-Template.html#method_getInstance">getInstance()</a></li>
                                             <li class=""><a href="classes/Smr-Template.html#method_hasTemplateVar">hasTemplateVar()</a></li>
                                             <li class=""><a href="classes/Smr-Template.html#method_unassign">unassign()</a></li>
@@ -1408,9 +1531,9 @@ have already started filling out).</p>
                                             <li class=""><a href="classes/Smr-Template.html#method_checkDisableAJAX">checkDisableAJAX()</a></li>
                                             <li class=""><a href="classes/Smr-Template.html#method_convertHtmlToAjaxXml">convertHtmlToAjaxXml()</a></li>
                                             <li class=""><a href="classes/Smr-Template.html#method_doAn">doAn()</a></li>
-                                            <li class=""><a href="classes/Smr-Template.html#method_doDamageTypeReductionDisplay">doDamageTypeReductionDisplay()</a></li>
                                             <li class=""><a href="classes/Smr-Template.html#method_getTemplateLocation">getTemplateLocation()</a></li>
                                             <li class=""><a href="classes/Smr-Template.html#method_includeTemplate">includeTemplate()</a></li>
+                                            <li class=""><a href="classes/Smr-Template.html#method_displayDamage">displayDamage()</a></li>
                                     </ul>
             </li>
                     </ul>
