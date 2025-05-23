@@ -6386,6 +6386,11 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/Smr-DatabaseRecord.html#method_getString"
         },                {
+            "fqsen": "\\Smr\\DatabaseRecord\u003A\u003AgetNullableBoolean\u0028\u0029",
+            "name": "getNullableBoolean",
+            "summary": "",
+            "url": "classes/Smr-DatabaseRecord.html#method_getNullableBoolean"
+        },                {
             "fqsen": "\\Smr\\DatabaseRecord\u003A\u003AgetBoolean\u0028\u0029",
             "name": "getBoolean",
             "summary": "",
@@ -7698,7 +7703,7 @@ Search.appendIndex(
         },                {
             "fqsen": "\\Smr\\Galaxy\u003A\u003AgetMapSectors\u0028\u0029",
             "name": "getMapSectors",
-            "summary": "Returns\u0020a\u00202D\u0020array\u0020of\u0020sectors\u0020in\u0020the\u0020galaxy.",
+            "summary": "Returns\u0020a\u00202D\u0020array\u0020of\u0020sectors\u0020in\u0020the\u0020galaxy\u0020\u005Brow\u005D\u005Bcol\u005D.",
             "url": "classes/Smr-Galaxy.html#method_getMapSectors"
         },                {
             "fqsen": "\\Smr\\Galaxy\u003A\u003AgetGalaxyType\u0028\u0029",
@@ -7850,6 +7855,16 @@ Search.appendIndex(
             "name": "gameExists",
             "summary": "Attempts\u0020to\u0020construct\u0020the\u0020game\u0020to\u0020determine\u0020if\u0020it\u0020exists.",
             "url": "classes/Smr-Game.html#method_gameExists"
+        },                {
+            "fqsen": "\\Smr\\Game\u003A\u003AgetPastGames\u0028\u0029",
+            "name": "getPastGames",
+            "summary": "Get\u0020past\u0020games\u0020\u0028enabled\u0020and\u0020have\u0020ended\u0029.",
+            "url": "classes/Smr-Game.html#method_getPastGames"
+        },                {
+            "fqsen": "\\Smr\\Game\u003A\u003AgetActiveGames\u0028\u0029",
+            "name": "getActiveGames",
+            "summary": "Get\u0020active\u0020games\u0020\u0028enabled\u0020but\u0020not\u0020ended\u0029.",
+            "url": "classes/Smr-Game.html#method_getActiveGames"
         },                {
             "fqsen": "\\Smr\\Game\u003A\u003AgetGame\u0028\u0029",
             "name": "getGame",
@@ -8116,6 +8131,11 @@ Search.appendIndex(
             "summary": "Returns\u0020the\u0020time\u0020\u0028in\u0020seconds\u0029\u0020until\u0020restricted\u0020ships\u0020are\u0020unlocked.",
             "url": "classes/Smr-Game.html#method_timeUntilShipUnlock"
         },                {
+            "fqsen": "\\Smr\\Game\u003A\u003ASQL",
+            "name": "SQL",
+            "summary": "",
+            "url": "classes/Smr-Game.html#constant_SQL"
+        },                {
             "fqsen": "\\Smr\\Game\u003A\u003AGAME_TYPE_DEFAULT",
             "name": "GAME_TYPE_DEFAULT",
             "summary": "",
@@ -8260,6 +8280,11 @@ Search.appendIndex(
             "name": "isNew",
             "summary": "",
             "url": "classes/Smr-Game.html#property_isNew"
+        },                {
+            "fqsen": "\\Smr\\Game\u003A\u003A\u0024SQLID",
+            "name": "SQLID",
+            "summary": "",
+            "url": "classes/Smr-Game.html#property_SQLID"
         },                {
             "fqsen": "\\Smr\\Game\u003A\u003A\u0024gameID",
             "name": "gameID",
@@ -8640,6 +8665,26 @@ Search.appendIndex(
             "name": "getAllLocations",
             "summary": "",
             "url": "classes/Smr-Location.html#method_getAllLocations"
+        },                {
+            "fqsen": "\\Smr\\Location\u003A\u003AgetAllBars\u0028\u0029",
+            "name": "getAllBars",
+            "summary": "",
+            "url": "classes/Smr-Location.html#method_getAllBars"
+        },                {
+            "fqsen": "\\Smr\\Location\u003A\u003AgetAllBanks\u0028\u0029",
+            "name": "getAllBanks",
+            "summary": "",
+            "url": "classes/Smr-Location.html#method_getAllBanks"
+        },                {
+            "fqsen": "\\Smr\\Location\u003A\u003AgetAllWeaponShops\u0028\u0029",
+            "name": "getAllWeaponShops",
+            "summary": "",
+            "url": "classes/Smr-Location.html#method_getAllWeaponShops"
+        },                {
+            "fqsen": "\\Smr\\Location\u003A\u003AgetAllShipShops\u0028\u0029",
+            "name": "getAllShipShops",
+            "summary": "",
+            "url": "classes/Smr-Location.html#method_getAllShipShops"
         },                {
             "fqsen": "\\Smr\\Location\u003A\u003AgetGalaxyLocations\u0028\u0029",
             "name": "getGalaxyLocations",
@@ -10446,6 +10491,31 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/Smr-PlanetTypes-PlanetType.html#constant_MAX_LANDED_UNLIMITED"
         },                {
+            "fqsen": "\\Smr\\PlanetTypes\\PlanetType\u003A\u003ATYPE_TERRAN",
+            "name": "TYPE_TERRAN",
+            "summary": "",
+            "url": "classes/Smr-PlanetTypes-PlanetType.html#constant_TYPE_TERRAN"
+        },                {
+            "fqsen": "\\Smr\\PlanetTypes\\PlanetType\u003A\u003ATYPE_ARID",
+            "name": "TYPE_ARID",
+            "summary": "",
+            "url": "classes/Smr-PlanetTypes-PlanetType.html#constant_TYPE_ARID"
+        },                {
+            "fqsen": "\\Smr\\PlanetTypes\\PlanetType\u003A\u003ATYPE_DWARF",
+            "name": "TYPE_DWARF",
+            "summary": "",
+            "url": "classes/Smr-PlanetTypes-PlanetType.html#constant_TYPE_DWARF"
+        },                {
+            "fqsen": "\\Smr\\PlanetTypes\\PlanetType\u003A\u003ATYPE_DEFENSE",
+            "name": "TYPE_DEFENSE",
+            "summary": "",
+            "url": "classes/Smr-PlanetTypes-PlanetType.html#constant_TYPE_DEFENSE"
+        },                {
+            "fqsen": "\\Smr\\PlanetTypes\\PlanetType\u003A\u003ATYPE_PROTO",
+            "name": "TYPE_PROTO",
+            "summary": "",
+            "url": "classes/Smr-PlanetTypes-PlanetType.html#constant_TYPE_PROTO"
+        },                {
             "fqsen": "\\Smr\\PlanetTypes\\PlanetType\u003A\u003APLANET_TYPES",
             "name": "PLANET_TYPES",
             "summary": "Associates\u0020the\u0020planet_type_id\u0020with\u0020the\u0020planet\u0020class.",
@@ -12181,6 +12251,11 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/Smr-Sector.html#method_createSector"
         },                {
+            "fqsen": "\\Smr\\Sector\u003A\u003AcreateGalaxySectors\u0028\u0029",
+            "name": "createGalaxySectors",
+            "summary": "",
+            "url": "classes/Smr-Sector.html#method_createGalaxySectors"
+        },                {
             "fqsen": "\\Smr\\Sector\u003A\u003A__construct\u0028\u0029",
             "name": "__construct",
             "summary": "",
@@ -12325,6 +12400,11 @@ Search.appendIndex(
             "name": "oppositeDir",
             "summary": "",
             "url": "classes/Smr-Sector.html#method_oppositeDir"
+        },                {
+            "fqsen": "\\Smr\\Sector\u003A\u003AgetLinkDirs\u0028\u0029",
+            "name": "getLinkDirs",
+            "summary": "",
+            "url": "classes/Smr-Sector.html#method_getLinkDirs"
         },                {
             "fqsen": "\\Smr\\Sector\u003A\u003AgetLinkUp\u0028\u0029",
             "name": "getLinkUp",
@@ -13501,6 +13581,36 @@ Search.appendIndex(
             "summary": "Authenticates\u0020with\u0020the\u0020social\u0020platform.",
             "url": "classes/Smr-SocialLogin-Twitter.html#method_login"
         },                {
+            "fqsen": "\\Smr\\StdlibExtensions\\InfiniteArrayIterator",
+            "name": "InfiniteArrayIterator",
+            "summary": "Convenience\u0020wrapper\u0020for\u0020cyclically\u0020iterating\u0020over\u0020an\u0020array.",
+            "url": "classes/Smr-StdlibExtensions-InfiniteArrayIterator.html"
+        },                {
+            "fqsen": "\\Smr\\StdlibExtensions\\InfiniteArrayIterator\u003A\u003A__construct\u0028\u0029",
+            "name": "__construct",
+            "summary": "",
+            "url": "classes/Smr-StdlibExtensions-InfiniteArrayIterator.html#method___construct"
+        },                {
+            "fqsen": "\\Smr\\StdlibExtensions\\InfiniteArrayIterator\u003A\u003AgetAndAdvance\u0028\u0029",
+            "name": "getAndAdvance",
+            "summary": "Get\u0020the\u0020current\u0020element\u0020and\u0020then\u0020advance\u0020the\u0020iterator",
+            "url": "classes/Smr-StdlibExtensions-InfiniteArrayIterator.html#method_getAndAdvance"
+        },                {
+            "fqsen": "\\Smr\\StdlibExtensions\\InfiniteArrayIterator\u003A\u003Acurrent\u0028\u0029",
+            "name": "current",
+            "summary": "",
+            "url": "classes/Smr-StdlibExtensions-InfiniteArrayIterator.html#method_current"
+        },                {
+            "fqsen": "\\Smr\\StdlibExtensions\\InfiniteArrayIterator\u003A\u003Anext\u0028\u0029",
+            "name": "next",
+            "summary": "",
+            "url": "classes/Smr-StdlibExtensions-InfiniteArrayIterator.html#method_next"
+        },                {
+            "fqsen": "\\Smr\\StdlibExtensions\\InfiniteArrayIterator\u003A\u003A\u0024iter",
+            "name": "iter",
+            "summary": "",
+            "url": "classes/Smr-StdlibExtensions-InfiniteArrayIterator.html#property_iter"
+        },                {
             "fqsen": "\\Smr\\StoredDestination",
             "name": "StoredDestination",
             "summary": "Data\u0020class\u0020for\u0020course\u0020plotting\u0020destinations\u0020stored\u0020by\u0020the\u0020player.",
@@ -14290,6 +14400,11 @@ Search.appendIndex(
             "name": "SocialLogin",
             "summary": "",
             "url": "namespaces/smr-sociallogin.html"
+        },                {
+            "fqsen": "\\Smr\\StdlibExtensions",
+            "name": "StdlibExtensions",
+            "summary": "",
+            "url": "namespaces/smr-stdlibextensions.html"
         },                {
             "fqsen": "\\Smr\\Traits",
             "name": "Traits",

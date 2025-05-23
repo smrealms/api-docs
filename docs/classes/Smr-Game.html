@@ -109,6 +109,10 @@
                 
             </li>
                     <li>
+                <a href="namespaces/smr-stdlibextensions.html" class="">StdlibExtensions</a>
+                
+            </li>
+                    <li>
                 <a href="namespaces/smr-traits.html" class="">Traits</a>
                 
             </li>
@@ -239,6 +243,12 @@
         &nbsp;= [self::GAME_TYPE_DEFAULT =&gt; &#039;Default&#039;, self::GAME_TYPE_HUNTER_WARS =&gt; &#039;Hunter Wars&#039;, self::GAME_TYPE_SEMI_WARS =&gt; &#039;Semi Wars&#039;, self::GAME_TYPE_DRAFT =&gt; &#039;Draft&#039;, self::GAME_TYPE_FFA =&gt; &#039;FFA&#039;, self::GAME_TYPE_NEWBIE =&gt; &#039;Newbie&#039;]                            </span>
 </dt>
 
+            <dt class="phpdocumentor-table-of-contents__entry -constant -public">
+    <a class="" href="classes/Smr-Game.html#constant_SQL">SQL</a>
+    <span>
+        &nbsp;= &#039;game_id = :game_id&#039;                            </span>
+</dt>
+
     </dl>
 
 
@@ -248,6 +258,12 @@
 
 </h4>
 <dl class="phpdocumentor-table-of-contents">
+            <dt class="phpdocumentor-table-of-contents__entry -property -public">
+    <a class="" href="classes/Smr-Game.html#property_SQLID">$SQLID</a>
+    <span>
+                        &nbsp;: array{game_id: int}            </span>
+</dt>
+
             <dt class="phpdocumentor-table-of-contents__entry -property -protected">
     <a class="" href="classes/Smr-Game.html#property_allianceMaxPlayers">$allianceMaxPlayers</a>
     <span>
@@ -426,6 +442,13 @@
 <dd>Attempts to construct the game to determine if it exists.</dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a class="" href="classes/Smr-Game.html#method_getActiveGames">getActiveGames()</a>
+    <span>
+                                &nbsp;: array&lt;int, self&gt;    </span>
+</dt>
+<dd>Get active games (enabled but not ended).</dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
     <a class="" href="classes/Smr-Game.html#method_getAllianceMaxPlayers">getAllianceMaxPlayers()</a>
     <span>
                                 &nbsp;: int    </span>
@@ -528,6 +551,13 @@
     <span>
                                 &nbsp;: int    </span>
 </dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a class="" href="classes/Smr-Game.html#method_getPastGames">getPastGames()</a>
+    <span>
+                                &nbsp;: array&lt;int, self&gt;    </span>
+</dt>
+<dd>Get past games (enabled and have ended).</dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
     <a class="" href="classes/Smr-Game.html#method_getPlayableRaceIDs">getPlayableRaceIDs()</a>
@@ -748,9 +778,9 @@ i.e. when players can move, turns are gained, etc.</dd>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Game.php"><a href="files/src-lib-smr-game.html"><abbr title="src/lib/Smr/Game.php">Game.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">38</span>
+    <span class="phpdocumentor-element-found-in__line">42</span>
 
-            <a href="classes/Smr-Game.html#source-view.38" class="phpdocumentor-element-found-in__source" data-line="38" data-modal="source-view" data-src="files/src/lib/Smr/Game.php.txt"></a>
+            <a href="classes/Smr-Game.html#source-view.42" class="phpdocumentor-element-found-in__source" data-line="42" data-modal="source-view" data-src="files/src/lib/Smr/Game.php.txt"></a>
     </aside>
 
     
@@ -780,9 +810,9 @@ i.e. when players can move, turns are gained, etc.</dd>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Game.php"><a href="files/src-lib-smr-game.html"><abbr title="src/lib/Smr/Game.php">Game.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">41</span>
+    <span class="phpdocumentor-element-found-in__line">45</span>
 
-            <a href="classes/Smr-Game.html#source-view.41" class="phpdocumentor-element-found-in__source" data-line="41" data-modal="source-view" data-src="files/src/lib/Smr/Game.php.txt"></a>
+            <a href="classes/Smr-Game.html#source-view.45" class="phpdocumentor-element-found-in__source" data-line="45" data-modal="source-view" data-src="files/src/lib/Smr/Game.php.txt"></a>
     </aside>
 
     
@@ -812,9 +842,9 @@ i.e. when players can move, turns are gained, etc.</dd>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Game.php"><a href="files/src-lib-smr-game.html"><abbr title="src/lib/Smr/Game.php">Game.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">42</span>
+    <span class="phpdocumentor-element-found-in__line">46</span>
 
-            <a href="classes/Smr-Game.html#source-view.42" class="phpdocumentor-element-found-in__source" data-line="42" data-modal="source-view" data-src="files/src/lib/Smr/Game.php.txt"></a>
+            <a href="classes/Smr-Game.html#source-view.46" class="phpdocumentor-element-found-in__source" data-line="46" data-modal="source-view" data-src="files/src/lib/Smr/Game.php.txt"></a>
     </aside>
 
     
@@ -844,9 +874,9 @@ i.e. when players can move, turns are gained, etc.</dd>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Game.php"><a href="files/src-lib-smr-game.html"><abbr title="src/lib/Smr/Game.php">Game.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">39</span>
+    <span class="phpdocumentor-element-found-in__line">43</span>
 
-            <a href="classes/Smr-Game.html#source-view.39" class="phpdocumentor-element-found-in__source" data-line="39" data-modal="source-view" data-src="files/src/lib/Smr/Game.php.txt"></a>
+            <a href="classes/Smr-Game.html#source-view.43" class="phpdocumentor-element-found-in__source" data-line="43" data-modal="source-view" data-src="files/src/lib/Smr/Game.php.txt"></a>
     </aside>
 
     
@@ -876,9 +906,9 @@ i.e. when players can move, turns are gained, etc.</dd>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Game.php"><a href="files/src-lib-smr-game.html"><abbr title="src/lib/Smr/Game.php">Game.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">43</span>
+    <span class="phpdocumentor-element-found-in__line">47</span>
 
-            <a href="classes/Smr-Game.html#source-view.43" class="phpdocumentor-element-found-in__source" data-line="43" data-modal="source-view" data-src="files/src/lib/Smr/Game.php.txt"></a>
+            <a href="classes/Smr-Game.html#source-view.47" class="phpdocumentor-element-found-in__source" data-line="47" data-modal="source-view" data-src="files/src/lib/Smr/Game.php.txt"></a>
     </aside>
 
     
@@ -908,9 +938,9 @@ i.e. when players can move, turns are gained, etc.</dd>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Game.php"><a href="files/src-lib-smr-game.html"><abbr title="src/lib/Smr/Game.php">Game.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">40</span>
+    <span class="phpdocumentor-element-found-in__line">44</span>
 
-            <a href="classes/Smr-Game.html#source-view.40" class="phpdocumentor-element-found-in__source" data-line="40" data-modal="source-view" data-src="files/src/lib/Smr/Game.php.txt"></a>
+            <a href="classes/Smr-Game.html#source-view.44" class="phpdocumentor-element-found-in__source" data-line="44" data-modal="source-view" data-src="files/src/lib/Smr/Game.php.txt"></a>
     </aside>
 
     
@@ -940,9 +970,9 @@ i.e. when players can move, turns are gained, etc.</dd>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Game.php"><a href="files/src-lib-smr-game.html"><abbr title="src/lib/Smr/Game.php">Game.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">44</span>
+    <span class="phpdocumentor-element-found-in__line">48</span>
 
-            <a href="classes/Smr-Game.html#source-view.44" class="phpdocumentor-element-found-in__source" data-line="44" data-modal="source-view" data-src="files/src/lib/Smr/Game.php.txt"></a>
+            <a href="classes/Smr-Game.html#source-view.48" class="phpdocumentor-element-found-in__source" data-line="48" data-modal="source-view" data-src="files/src/lib/Smr/Game.php.txt"></a>
     </aside>
 
     
@@ -962,6 +992,38 @@ i.e. when players can move, turns are gained, etc.</dd>
     
 
 </article>
+                    <article class="phpdocumentor-element -constant -public ">
+    <h4 class="phpdocumentor-element__name" id="constant_SQL">
+        SQL
+        <a href="classes/Smr-Game.html#constant_SQL" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Game.php"><a href="files/src-lib-smr-game.html"><abbr title="src/lib/Smr/Game.php">Game.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">38</span>
+
+            <a href="classes/Smr-Game.html#source-view.38" class="phpdocumentor-element-found-in__source" data-line="38" data-modal="source-view" data-src="files/src/lib/Smr/Game.php.txt"></a>
+    </aside>
+
+    
+    
+    <code class="phpdocumentor-signature phpdocumentor-code ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+        <span class="phpdocumentor-signature__type">mixed</span>
+    <span class="phpdocumentor-signature__name">SQL</span>
+    = <span class="phpdocumentor-signature__default-value">&#039;game_id = :game_id&#039;</span>
+</code>
+
+
+    
+    
+    
+
+    
+
+</article>
             </section>
 
         
@@ -971,6 +1033,43 @@ i.e. when players can move, turns are gained, etc.</dd>
             <a href="classes/Smr-Game.html#properties" class="headerlink"><i class="fas fa-link"></i></a>
 
         </h3>
+                    <article
+        class="
+            phpdocumentor-element
+            -property
+            -public
+                                                -read-only        "
+>
+    <h4 class="phpdocumentor-element__name" id="property_SQLID">
+        $SQLID
+        <a href="classes/Smr-Game.html#property_SQLID" class="headerlink"><i class="fas fa-link"></i></a>
+
+        <span class="phpdocumentor-element__modifiers">
+                        <small class="phpdocumentor-element__modifier">read-only</small>        </span>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Game.php"><a href="files/src-lib-smr-game.html"><abbr title="src/lib/Smr/Game.php">Game.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">40</span>
+
+            <a href="classes/Smr-Game.html#source-view.40" class="phpdocumentor-element-found-in__source" data-line="40" data-modal="source-view" data-src="files/src/lib/Smr/Game.php.txt"></a>
+    </aside>
+
+    
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+        <span class="phpdocumentor-signature__type">array{game_id: int}</span>
+    <span class="phpdocumentor-signature__name">$SQLID</span>
+    </code>
+
+    
+    
+    
+
+    
+
+</article>
                     <article
         class="
             phpdocumentor-element
@@ -1284,9 +1383,9 @@ i.e. when players can move, turns are gained, etc.</dd>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Game.php"><a href="files/src-lib-smr-game.html"><abbr title="src/lib/Smr/Game.php">Game.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">90</span>
+    <span class="phpdocumentor-element-found-in__line">132</span>
 
-            <a href="classes/Smr-Game.html#source-view.90" class="phpdocumentor-element-found-in__source" data-line="90" data-modal="source-view" data-src="files/src/lib/Smr/Game.php.txt"></a>
+            <a href="classes/Smr-Game.html#source-view.132" class="phpdocumentor-element-found-in__source" data-line="132" data-modal="source-view" data-src="files/src/lib/Smr/Game.php.txt"></a>
     </aside>
 
     
@@ -1844,9 +1943,9 @@ i.e. when players can move, turns are gained, etc.</dd>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Game.php"><a href="files/src-lib-smr-game.html"><abbr title="src/lib/Smr/Game.php">Game.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">394</span>
+    <span class="phpdocumentor-element-found-in__line">443</span>
 
-            <a href="classes/Smr-Game.html#source-view.394" class="phpdocumentor-element-found-in__source" data-line="394" data-modal="source-view" data-src="files/src/lib/Smr/Game.php.txt"></a>
+            <a href="classes/Smr-Game.html#source-view.443" class="phpdocumentor-element-found-in__source" data-line="443" data-modal="source-view" data-src="files/src/lib/Smr/Game.php.txt"></a>
     </aside>
 
     
@@ -1883,9 +1982,9 @@ i.e. when players can move, turns are gained, etc.</dd>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Game.php"><a href="files/src-lib-smr-game.html"><abbr title="src/lib/Smr/Game.php">Game.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">72</span>
+    <span class="phpdocumentor-element-found-in__line">114</span>
 
-            <a href="classes/Smr-Game.html#source-view.72" class="phpdocumentor-element-found-in__source" data-line="72" data-modal="source-view" data-src="files/src/lib/Smr/Game.php.txt"></a>
+            <a href="classes/Smr-Game.html#source-view.114" class="phpdocumentor-element-found-in__source" data-line="114" data-modal="source-view" data-src="files/src/lib/Smr/Game.php.txt"></a>
     </aside>
 
     
@@ -1918,9 +2017,9 @@ i.e. when players can move, turns are gained, etc.</dd>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Game.php"><a href="files/src-lib-smr-game.html"><abbr title="src/lib/Smr/Game.php">Game.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">82</span>
+    <span class="phpdocumentor-element-found-in__line">124</span>
 
-            <a href="classes/Smr-Game.html#source-view.82" class="phpdocumentor-element-found-in__source" data-line="82" data-modal="source-view" data-src="files/src/lib/Smr/Game.php.txt"></a>
+            <a href="classes/Smr-Game.html#source-view.124" class="phpdocumentor-element-found-in__source" data-line="124" data-modal="source-view" data-src="files/src/lib/Smr/Game.php.txt"></a>
     </aside>
 
     
@@ -1967,9 +2066,9 @@ i.e. when players can move, turns are gained, etc.</dd>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Game.php"><a href="files/src-lib-smr-game.html"><abbr title="src/lib/Smr/Game.php">Game.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">436</span>
+    <span class="phpdocumentor-element-found-in__line">483</span>
 
-            <a href="classes/Smr-Game.html#source-view.436" class="phpdocumentor-element-found-in__source" data-line="436" data-modal="source-view" data-src="files/src/lib/Smr/Game.php.txt"></a>
+            <a href="classes/Smr-Game.html#source-view.483" class="phpdocumentor-element-found-in__source" data-line="483" data-modal="source-view" data-src="files/src/lib/Smr/Game.php.txt"></a>
     </aside>
 
     
@@ -2016,9 +2115,9 @@ i.e. when players can move, turns are gained, etc.</dd>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Game.php"><a href="files/src-lib-smr-game.html"><abbr title="src/lib/Smr/Game.php">Game.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">56</span>
+    <span class="phpdocumentor-element-found-in__line">60</span>
 
-            <a href="classes/Smr-Game.html#source-view.56" class="phpdocumentor-element-found-in__source" data-line="56" data-modal="source-view" data-src="files/src/lib/Smr/Game.php.txt"></a>
+            <a href="classes/Smr-Game.html#source-view.60" class="phpdocumentor-element-found-in__source" data-line="60" data-modal="source-view" data-src="files/src/lib/Smr/Game.php.txt"></a>
     </aside>
 
         <p class="phpdocumentor-summary">Attempts to construct the game to determine if it exists.</p>
@@ -2056,6 +2155,56 @@ i.e. when players can move, turns are gained, etc.</dd>
         class="phpdocumentor-element
             -method
             -public
+                                    -static                    "
+>
+    <h4 class="phpdocumentor-element__name" id="method_getActiveGames">
+        getActiveGames()
+        <a href="classes/Smr-Game.html#method_getActiveGames" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Game.php"><a href="files/src-lib-smr-game.html"><abbr title="src/lib/Smr/Game.php">Game.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">93</span>
+
+            <a href="classes/Smr-Game.html#source-view.93" class="phpdocumentor-element-found-in__source" data-line="93" data-modal="source-view" data-src="files/src/lib/Smr/Game.php.txt"></a>
+    </aside>
+
+        <p class="phpdocumentor-summary">Get active games (enabled but not ended).</p>
+
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+            <span class="phpdocumentor-signature__static">static</span>        <span class="phpdocumentor-signature__name">getActiveGames</span><span>(</span><span class="phpdocumentor-signature__argument"><span>[</span><span class="phpdocumentor-signature__argument__return-type">bool&nbsp;</span><span class="phpdocumentor-signature__argument__name">$forceUpdate</span><span> = </span><span class="phpdocumentor-signature__argument__default-value">false</span><span> ]</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">array&lt;int, self&gt;</span></code>
+
+    <div class="phpdocumentor-label-line">
+        </div>
+    
+    
+        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
+    <dl class="phpdocumentor-argument-list">
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$forceUpdate</span>
+                : <span class="phpdocumentor-signature__argument__return-type">bool</span>
+                 = <span class="phpdocumentor-signature__argument__default-value">false</span>            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                
+            </dd>
+            </dl>
+
+    
+
+    
+
+            <section>
+        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
+        <span class="phpdocumentor-signature__response_type">array&lt;int, self&gt;</span>
+            </section>
+
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
                                                         "
 >
     <h4 class="phpdocumentor-element__name" id="method_getAllianceMaxPlayers">
@@ -2066,9 +2215,9 @@ i.e. when players can move, turns are gained, etc.</dd>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Game.php"><a href="files/src-lib-smr-game.html"><abbr title="src/lib/Smr/Game.php">Game.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">358</span>
+    <span class="phpdocumentor-element-found-in__line">407</span>
 
-            <a href="classes/Smr-Game.html#source-view.358" class="phpdocumentor-element-found-in__source" data-line="358" data-modal="source-view" data-src="files/src/lib/Smr/Game.php.txt"></a>
+            <a href="classes/Smr-Game.html#source-view.407" class="phpdocumentor-element-found-in__source" data-line="407" data-modal="source-view" data-src="files/src/lib/Smr/Game.php.txt"></a>
     </aside>
 
     
@@ -2105,9 +2254,9 @@ i.e. when players can move, turns are gained, etc.</dd>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Game.php"><a href="files/src-lib-smr-game.html"><abbr title="src/lib/Smr/Game.php">Game.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">370</span>
+    <span class="phpdocumentor-element-found-in__line">419</span>
 
-            <a href="classes/Smr-Game.html#source-view.370" class="phpdocumentor-element-found-in__source" data-line="370" data-modal="source-view" data-src="files/src/lib/Smr/Game.php.txt"></a>
+            <a href="classes/Smr-Game.html#source-view.419" class="phpdocumentor-element-found-in__source" data-line="419" data-modal="source-view" data-src="files/src/lib/Smr/Game.php.txt"></a>
     </aside>
 
     
@@ -2144,9 +2293,9 @@ i.e. when players can move, turns are gained, etc.</dd>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Game.php"><a href="files/src-lib-smr-game.html"><abbr title="src/lib/Smr/Game.php">Game.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">310</span>
+    <span class="phpdocumentor-element-found-in__line">359</span>
 
-            <a href="classes/Smr-Game.html#source-view.310" class="phpdocumentor-element-found-in__source" data-line="310" data-modal="source-view" data-src="files/src/lib/Smr/Game.php.txt"></a>
+            <a href="classes/Smr-Game.html#source-view.359" class="phpdocumentor-element-found-in__source" data-line="359" data-modal="source-view" data-src="files/src/lib/Smr/Game.php.txt"></a>
     </aside>
 
     
@@ -2183,9 +2332,9 @@ i.e. when players can move, turns are gained, etc.</dd>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Game.php"><a href="files/src-lib-smr-game.html"><abbr title="src/lib/Smr/Game.php">Game.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">192</span>
+    <span class="phpdocumentor-element-found-in__line">241</span>
 
-            <a href="classes/Smr-Game.html#source-view.192" class="phpdocumentor-element-found-in__source" data-line="192" data-modal="source-view" data-src="files/src/lib/Smr/Game.php.txt"></a>
+            <a href="classes/Smr-Game.html#source-view.241" class="phpdocumentor-element-found-in__source" data-line="241" data-modal="source-view" data-src="files/src/lib/Smr/Game.php.txt"></a>
     </aside>
 
     
@@ -2222,9 +2371,9 @@ i.e. when players can move, turns are gained, etc.</dd>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Game.php"><a href="files/src-lib-smr-game.html"><abbr title="src/lib/Smr/Game.php">Game.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">441</span>
+    <span class="phpdocumentor-element-found-in__line">488</span>
 
-            <a href="classes/Smr-Game.html#source-view.441" class="phpdocumentor-element-found-in__source" data-line="441" data-modal="source-view" data-src="files/src/lib/Smr/Game.php.txt"></a>
+            <a href="classes/Smr-Game.html#source-view.488" class="phpdocumentor-element-found-in__source" data-line="488" data-modal="source-view" data-src="files/src/lib/Smr/Game.php.txt"></a>
     </aside>
 
     
@@ -2261,9 +2410,9 @@ i.e. when players can move, turns are gained, etc.</dd>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Game.php"><a href="files/src-lib-smr-game.html"><abbr title="src/lib/Smr/Game.php">Game.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">246</span>
+    <span class="phpdocumentor-element-found-in__line">295</span>
 
-            <a href="classes/Smr-Game.html#source-view.246" class="phpdocumentor-element-found-in__source" data-line="246" data-modal="source-view" data-src="files/src/lib/Smr/Game.php.txt"></a>
+            <a href="classes/Smr-Game.html#source-view.295" class="phpdocumentor-element-found-in__source" data-line="295" data-modal="source-view" data-src="files/src/lib/Smr/Game.php.txt"></a>
     </aside>
 
         <p class="phpdocumentor-summary">Returns the epoch time when the game ends.</p>
@@ -2301,9 +2450,9 @@ i.e. when players can move, turns are gained, etc.</dd>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Game.php"><a href="files/src-lib-smr-game.html"><abbr title="src/lib/Smr/Game.php">Game.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">420</span>
+    <span class="phpdocumentor-element-found-in__line">467</span>
 
-            <a href="classes/Smr-Game.html#source-view.420" class="phpdocumentor-element-found-in__source" data-line="420" data-modal="source-view" data-src="files/src/lib/Smr/Game.php.txt"></a>
+            <a href="classes/Smr-Game.html#source-view.467" class="phpdocumentor-element-found-in__source" data-line="467" data-modal="source-view" data-src="files/src/lib/Smr/Game.php.txt"></a>
     </aside>
 
     
@@ -2340,15 +2489,15 @@ i.e. when players can move, turns are gained, etc.</dd>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Game.php"><a href="files/src-lib-smr-game.html"><abbr title="src/lib/Smr/Game.php">Game.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">65</span>
+    <span class="phpdocumentor-element-found-in__line">107</span>
 
-            <a href="classes/Smr-Game.html#source-view.65" class="phpdocumentor-element-found-in__source" data-line="65" data-modal="source-view" data-src="files/src/lib/Smr/Game.php.txt"></a>
+            <a href="classes/Smr-Game.html#source-view.107" class="phpdocumentor-element-found-in__source" data-line="107" data-modal="source-view" data-src="files/src/lib/Smr/Game.php.txt"></a>
     </aside>
 
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">public</span>
-            <span class="phpdocumentor-signature__static">static</span>        <span class="phpdocumentor-signature__name">getGame</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type">int&nbsp;</span><span class="phpdocumentor-signature__argument__name">$gameID</span></span><span class="phpdocumentor-signature__argument"><span>[</span><span>, </span><span class="phpdocumentor-signature__argument__return-type">bool&nbsp;</span><span class="phpdocumentor-signature__argument__name">$forceUpdate</span><span> = </span><span class="phpdocumentor-signature__argument__default-value">false</span><span> ]</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">self</span></code>
+            <span class="phpdocumentor-signature__static">static</span>        <span class="phpdocumentor-signature__name">getGame</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type">int&nbsp;</span><span class="phpdocumentor-signature__argument__name">$gameID</span></span><span class="phpdocumentor-signature__argument"><span>[</span><span>, </span><span class="phpdocumentor-signature__argument__return-type">bool&nbsp;</span><span class="phpdocumentor-signature__argument__name">$forceUpdate</span><span> = </span><span class="phpdocumentor-signature__argument__default-value">false</span><span> ]</span></span><span class="phpdocumentor-signature__argument"><span>[</span><span>, </span><span class="phpdocumentor-signature__argument__return-type"><a href="classes/Smr-DatabaseRecord.html"><abbr title="\Smr\DatabaseRecord">DatabaseRecord</abbr></a>|null&nbsp;</span><span class="phpdocumentor-signature__argument__name">$dbRecord</span><span> = </span><span class="phpdocumentor-signature__argument__default-value">null</span><span> ]</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">self</span></code>
 
     <div class="phpdocumentor-label-line">
         </div>
@@ -2367,6 +2516,13 @@ i.e. when players can move, turns are gained, etc.</dd>
                 <span class="phpdocumentor-signature__argument__name">$forceUpdate</span>
                 : <span class="phpdocumentor-signature__argument__return-type">bool</span>
                  = <span class="phpdocumentor-signature__argument__default-value">false</span>            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                
+            </dd>
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$dbRecord</span>
+                : <span class="phpdocumentor-signature__argument__return-type"><a href="classes/Smr-DatabaseRecord.html"><abbr title="\Smr\DatabaseRecord">DatabaseRecord</abbr></a>|null</span>
+                 = <span class="phpdocumentor-signature__argument__default-value">null</span>            </dt>
             <dd class="phpdocumentor-argument-list__definition">
                 
             </dd>
@@ -2396,9 +2552,9 @@ i.e. when players can move, turns are gained, etc.</dd>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Game.php"><a href="files/src-lib-smr-game.html"><abbr title="src/lib/Smr/Game.php">Game.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">176</span>
+    <span class="phpdocumentor-element-found-in__line">225</span>
 
-            <a href="classes/Smr-Game.html#source-view.176" class="phpdocumentor-element-found-in__source" data-line="176" data-modal="source-view" data-src="files/src/lib/Smr/Game.php.txt"></a>
+            <a href="classes/Smr-Game.html#source-view.225" class="phpdocumentor-element-found-in__source" data-line="225" data-modal="source-view" data-src="files/src/lib/Smr/Game.php.txt"></a>
     </aside>
 
     
@@ -2435,9 +2591,9 @@ i.e. when players can move, turns are gained, etc.</dd>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Game.php"><a href="files/src-lib-smr-game.html"><abbr title="src/lib/Smr/Game.php">Game.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">322</span>
+    <span class="phpdocumentor-element-found-in__line">371</span>
 
-            <a href="classes/Smr-Game.html#source-view.322" class="phpdocumentor-element-found-in__source" data-line="322" data-modal="source-view" data-src="files/src/lib/Smr/Game.php.txt"></a>
+            <a href="classes/Smr-Game.html#source-view.371" class="phpdocumentor-element-found-in__source" data-line="371" data-modal="source-view" data-src="files/src/lib/Smr/Game.php.txt"></a>
     </aside>
 
     
@@ -2474,9 +2630,9 @@ i.e. when players can move, turns are gained, etc.</dd>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Game.php"><a href="files/src-lib-smr-game.html"><abbr title="src/lib/Smr/Game.php">Game.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">298</span>
+    <span class="phpdocumentor-element-found-in__line">347</span>
 
-            <a href="classes/Smr-Game.html#source-view.298" class="phpdocumentor-element-found-in__source" data-line="298" data-modal="source-view" data-src="files/src/lib/Smr/Game.php.txt"></a>
+            <a href="classes/Smr-Game.html#source-view.347" class="phpdocumentor-element-found-in__source" data-line="347" data-modal="source-view" data-src="files/src/lib/Smr/Game.php.txt"></a>
     </aside>
 
     
@@ -2513,9 +2669,9 @@ i.e. when players can move, turns are gained, etc.</dd>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Game.php"><a href="files/src-lib-smr-game.html"><abbr title="src/lib/Smr/Game.php">Game.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">227</span>
+    <span class="phpdocumentor-element-found-in__line">276</span>
 
-            <a href="classes/Smr-Game.html#source-view.227" class="phpdocumentor-element-found-in__source" data-line="227" data-modal="source-view" data-src="files/src/lib/Smr/Game.php.txt"></a>
+            <a href="classes/Smr-Game.html#source-view.276" class="phpdocumentor-element-found-in__source" data-line="276" data-modal="source-view" data-src="files/src/lib/Smr/Game.php.txt"></a>
     </aside>
 
         <p class="phpdocumentor-summary">Returns the epoch time when players can begin to join the game.</p>
@@ -2553,9 +2709,9 @@ i.e. when players can move, turns are gained, etc.</dd>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Game.php"><a href="files/src-lib-smr-game.html"><abbr title="src/lib/Smr/Game.php">Game.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">428</span>
+    <span class="phpdocumentor-element-found-in__line">475</span>
 
-            <a href="classes/Smr-Game.html#source-view.428" class="phpdocumentor-element-found-in__source" data-line="428" data-modal="source-view" data-src="files/src/lib/Smr/Game.php.txt"></a>
+            <a href="classes/Smr-Game.html#source-view.475" class="phpdocumentor-element-found-in__source" data-line="475" data-modal="source-view" data-src="files/src/lib/Smr/Game.php.txt"></a>
     </aside>
 
     
@@ -2592,9 +2748,9 @@ i.e. when players can move, turns are gained, etc.</dd>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Game.php"><a href="files/src-lib-smr-game.html"><abbr title="src/lib/Smr/Game.php">Game.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">258</span>
+    <span class="phpdocumentor-element-found-in__line">307</span>
 
-            <a href="classes/Smr-Game.html#source-view.258" class="phpdocumentor-element-found-in__source" data-line="258" data-modal="source-view" data-src="files/src/lib/Smr/Game.php.txt"></a>
+            <a href="classes/Smr-Game.html#source-view.307" class="phpdocumentor-element-found-in__source" data-line="307" data-modal="source-view" data-src="files/src/lib/Smr/Game.php.txt"></a>
     </aside>
 
     
@@ -2631,9 +2787,9 @@ i.e. when players can move, turns are gained, etc.</dd>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Game.php"><a href="files/src-lib-smr-game.html"><abbr title="src/lib/Smr/Game.php">Game.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">270</span>
+    <span class="phpdocumentor-element-found-in__line">319</span>
 
-            <a href="classes/Smr-Game.html#source-view.270" class="phpdocumentor-element-found-in__source" data-line="270" data-modal="source-view" data-src="files/src/lib/Smr/Game.php.txt"></a>
+            <a href="classes/Smr-Game.html#source-view.319" class="phpdocumentor-element-found-in__source" data-line="319" data-modal="source-view" data-src="files/src/lib/Smr/Game.php.txt"></a>
     </aside>
 
     
@@ -2670,9 +2826,9 @@ i.e. when players can move, turns are gained, etc.</dd>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Game.php"><a href="files/src-lib-smr-game.html"><abbr title="src/lib/Smr/Game.php">Game.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">180</span>
+    <span class="phpdocumentor-element-found-in__line">229</span>
 
-            <a href="classes/Smr-Game.html#source-view.180" class="phpdocumentor-element-found-in__source" data-line="180" data-modal="source-view" data-src="files/src/lib/Smr/Game.php.txt"></a>
+            <a href="classes/Smr-Game.html#source-view.229" class="phpdocumentor-element-found-in__source" data-line="229" data-modal="source-view" data-src="files/src/lib/Smr/Game.php.txt"></a>
     </aside>
 
     
@@ -2709,9 +2865,9 @@ i.e. when players can move, turns are gained, etc.</dd>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Game.php"><a href="files/src-lib-smr-game.html"><abbr title="src/lib/Smr/Game.php">Game.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">424</span>
+    <span class="phpdocumentor-element-found-in__line">471</span>
 
-            <a href="classes/Smr-Game.html#source-view.424" class="phpdocumentor-element-found-in__source" data-line="424" data-modal="source-view" data-src="files/src/lib/Smr/Game.php.txt"></a>
+            <a href="classes/Smr-Game.html#source-view.471" class="phpdocumentor-element-found-in__source" data-line="471" data-modal="source-view" data-src="files/src/lib/Smr/Game.php.txt"></a>
     </aside>
 
     
@@ -2738,6 +2894,56 @@ i.e. when players can move, turns are gained, etc.</dd>
         class="phpdocumentor-element
             -method
             -public
+                                    -static                    "
+>
+    <h4 class="phpdocumentor-element__name" id="method_getPastGames">
+        getPastGames()
+        <a href="classes/Smr-Game.html#method_getPastGames" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Game.php"><a href="files/src-lib-smr-game.html"><abbr title="src/lib/Smr/Game.php">Game.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">74</span>
+
+            <a href="classes/Smr-Game.html#source-view.74" class="phpdocumentor-element-found-in__source" data-line="74" data-modal="source-view" data-src="files/src/lib/Smr/Game.php.txt"></a>
+    </aside>
+
+        <p class="phpdocumentor-summary">Get past games (enabled and have ended).</p>
+
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+            <span class="phpdocumentor-signature__static">static</span>        <span class="phpdocumentor-signature__name">getPastGames</span><span>(</span><span class="phpdocumentor-signature__argument"><span>[</span><span class="phpdocumentor-signature__argument__return-type">bool&nbsp;</span><span class="phpdocumentor-signature__argument__name">$forceUpdate</span><span> = </span><span class="phpdocumentor-signature__argument__default-value">false</span><span> ]</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">array&lt;int, self&gt;</span></code>
+
+    <div class="phpdocumentor-label-line">
+        </div>
+    
+    
+        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
+    <dl class="phpdocumentor-argument-list">
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$forceUpdate</span>
+                : <span class="phpdocumentor-signature__argument__return-type">bool</span>
+                 = <span class="phpdocumentor-signature__argument__default-value">false</span>            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                
+            </dd>
+            </dl>
+
+    
+
+    
+
+            <section>
+        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
+        <span class="phpdocumentor-signature__response_type">array&lt;int, self&gt;</span>
+            </section>
+
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
                                                         "
 >
     <h4 class="phpdocumentor-element__name" id="method_getPlayableRaceIDs">
@@ -2748,9 +2954,9 @@ i.e. when players can move, turns are gained, etc.</dd>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Game.php"><a href="files/src-lib-smr-game.html"><abbr title="src/lib/Smr/Game.php">Game.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">479</span>
+    <span class="phpdocumentor-element-found-in__line">526</span>
 
-            <a href="classes/Smr-Game.html#source-view.479" class="phpdocumentor-element-found-in__source" data-line="479" data-modal="source-view" data-src="files/src/lib/Smr/Game.php.txt"></a>
+            <a href="classes/Smr-Game.html#source-view.526" class="phpdocumentor-element-found-in__source" data-line="526" data-modal="source-view" data-src="files/src/lib/Smr/Game.php.txt"></a>
     </aside>
 
         <p class="phpdocumentor-summary">Get the list of playable Race IDs based on which Racial HQ&#039;s
@@ -2789,9 +2995,9 @@ are locations in this game.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Game.php"><a href="files/src-lib-smr-game.html"><abbr title="src/lib/Smr/Game.php">Game.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">382</span>
+    <span class="phpdocumentor-element-found-in__line">431</span>
 
-            <a href="classes/Smr-Game.html#source-view.382" class="phpdocumentor-element-found-in__source" data-line="382" data-modal="source-view" data-src="files/src/lib/Smr/Game.php.txt"></a>
+            <a href="classes/Smr-Game.html#source-view.431" class="phpdocumentor-element-found-in__source" data-line="431" data-modal="source-view" data-src="files/src/lib/Smr/Game.php.txt"></a>
     </aside>
 
     
@@ -2828,9 +3034,9 @@ are locations in this game.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Game.php"><a href="files/src-lib-smr-game.html"><abbr title="src/lib/Smr/Game.php">Game.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">212</span>
+    <span class="phpdocumentor-element-found-in__line">261</span>
 
-            <a href="classes/Smr-Game.html#source-view.212" class="phpdocumentor-element-found-in__source" data-line="212" data-modal="source-view" data-src="files/src/lib/Smr/Game.php.txt"></a>
+            <a href="classes/Smr-Game.html#source-view.261" class="phpdocumentor-element-found-in__source" data-line="261" data-modal="source-view" data-src="files/src/lib/Smr/Game.php.txt"></a>
     </aside>
 
         <p class="phpdocumentor-summary">Returns the epoch time when the game starts,
@@ -2869,9 +3075,9 @@ i.e. when players can move, turns are gained, etc.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Game.php"><a href="files/src-lib-smr-game.html"><abbr title="src/lib/Smr/Game.php">Game.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">282</span>
+    <span class="phpdocumentor-element-found-in__line">331</span>
 
-            <a href="classes/Smr-Game.html#source-view.282" class="phpdocumentor-element-found-in__source" data-line="282" data-modal="source-view" data-src="files/src/lib/Smr/Game.php.txt"></a>
+            <a href="classes/Smr-Game.html#source-view.331" class="phpdocumentor-element-found-in__source" data-line="331" data-modal="source-view" data-src="files/src/lib/Smr/Game.php.txt"></a>
     </aside>
 
     
@@ -2908,9 +3114,9 @@ i.e. when players can move, turns are gained, etc.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Game.php"><a href="files/src-lib-smr-game.html"><abbr title="src/lib/Smr/Game.php">Game.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">406</span>
+    <span class="phpdocumentor-element-found-in__line">455</span>
 
-            <a href="classes/Smr-Game.html#source-view.406" class="phpdocumentor-element-found-in__source" data-line="406" data-modal="source-view" data-src="files/src/lib/Smr/Game.php.txt"></a>
+            <a href="classes/Smr-Game.html#source-view.455" class="phpdocumentor-element-found-in__source" data-line="455" data-modal="source-view" data-src="files/src/lib/Smr/Game.php.txt"></a>
     </aside>
 
     
@@ -2947,9 +3153,9 @@ i.e. when players can move, turns are gained, etc.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Game.php"><a href="files/src-lib-smr-game.html"><abbr title="src/lib/Smr/Game.php">Game.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">239</span>
+    <span class="phpdocumentor-element-found-in__line">288</span>
 
-            <a href="classes/Smr-Game.html#source-view.239" class="phpdocumentor-element-found-in__source" data-line="239" data-modal="source-view" data-src="files/src/lib/Smr/Game.php.txt"></a>
+            <a href="classes/Smr-Game.html#source-view.288" class="phpdocumentor-element-found-in__source" data-line="288" data-modal="source-view" data-src="files/src/lib/Smr/Game.php.txt"></a>
     </aside>
 
     
@@ -2986,9 +3192,9 @@ i.e. when players can move, turns are gained, etc.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Game.php"><a href="files/src-lib-smr-game.html"><abbr title="src/lib/Smr/Game.php">Game.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">204</span>
+    <span class="phpdocumentor-element-found-in__line">253</span>
 
-            <a href="classes/Smr-Game.html#source-view.204" class="phpdocumentor-element-found-in__source" data-line="204" data-modal="source-view" data-src="files/src/lib/Smr/Game.php.txt"></a>
+            <a href="classes/Smr-Game.html#source-view.253" class="phpdocumentor-element-found-in__source" data-line="253" data-modal="source-view" data-src="files/src/lib/Smr/Game.php.txt"></a>
     </aside>
 
     
@@ -3025,9 +3231,9 @@ i.e. when players can move, turns are gained, etc.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Game.php"><a href="files/src-lib-smr-game.html"><abbr title="src/lib/Smr/Game.php">Game.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">334</span>
+    <span class="phpdocumentor-element-found-in__line">383</span>
 
-            <a href="classes/Smr-Game.html#source-view.334" class="phpdocumentor-element-found-in__source" data-line="334" data-modal="source-view" data-src="files/src/lib/Smr/Game.php.txt"></a>
+            <a href="classes/Smr-Game.html#source-view.383" class="phpdocumentor-element-found-in__source" data-line="383" data-modal="source-view" data-src="files/src/lib/Smr/Game.php.txt"></a>
     </aside>
 
     
@@ -3064,9 +3270,9 @@ i.e. when players can move, turns are gained, etc.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Game.php"><a href="files/src-lib-smr-game.html"><abbr title="src/lib/Smr/Game.php">Game.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">294</span>
+    <span class="phpdocumentor-element-found-in__line">343</span>
 
-            <a href="classes/Smr-Game.html#source-view.294" class="phpdocumentor-element-found-in__source" data-line="294" data-modal="source-view" data-src="files/src/lib/Smr/Game.php.txt"></a>
+            <a href="classes/Smr-Game.html#source-view.343" class="phpdocumentor-element-found-in__source" data-line="343" data-modal="source-view" data-src="files/src/lib/Smr/Game.php.txt"></a>
     </aside>
 
     
@@ -3113,9 +3319,9 @@ i.e. when players can move, turns are gained, etc.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Game.php"><a href="files/src-lib-smr-game.html"><abbr title="src/lib/Smr/Game.php">Game.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">346</span>
+    <span class="phpdocumentor-element-found-in__line">395</span>
 
-            <a href="classes/Smr-Game.html#source-view.346" class="phpdocumentor-element-found-in__source" data-line="346" data-modal="source-view" data-src="files/src/lib/Smr/Game.php.txt"></a>
+            <a href="classes/Smr-Game.html#source-view.395" class="phpdocumentor-element-found-in__source" data-line="395" data-modal="source-view" data-src="files/src/lib/Smr/Game.php.txt"></a>
     </aside>
 
     
@@ -3152,9 +3358,9 @@ i.e. when players can move, turns are gained, etc.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Game.php"><a href="files/src-lib-smr-game.html"><abbr title="src/lib/Smr/Game.php">Game.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">124</span>
+    <span class="phpdocumentor-element-found-in__line">173</span>
 
-            <a href="classes/Smr-Game.html#source-view.124" class="phpdocumentor-element-found-in__source" data-line="124" data-modal="source-view" data-src="files/src/lib/Smr/Game.php.txt"></a>
+            <a href="classes/Smr-Game.html#source-view.173" class="phpdocumentor-element-found-in__source" data-line="173" data-modal="source-view" data-src="files/src/lib/Smr/Game.php.txt"></a>
     </aside>
 
     
@@ -3187,9 +3393,9 @@ i.e. when players can move, turns are gained, etc.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Game.php"><a href="files/src-lib-smr-game.html"><abbr title="src/lib/Smr/Game.php">Game.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">76</span>
+    <span class="phpdocumentor-element-found-in__line">118</span>
 
-            <a href="classes/Smr-Game.html#source-view.76" class="phpdocumentor-element-found-in__source" data-line="76" data-modal="source-view" data-src="files/src/lib/Smr/Game.php.txt"></a>
+            <a href="classes/Smr-Game.html#source-view.118" class="phpdocumentor-element-found-in__source" data-line="118" data-modal="source-view" data-src="files/src/lib/Smr/Game.php.txt"></a>
     </aside>
 
     
@@ -3222,9 +3428,9 @@ i.e. when players can move, turns are gained, etc.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Game.php"><a href="files/src-lib-smr-game.html"><abbr title="src/lib/Smr/Game.php">Game.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">362</span>
+    <span class="phpdocumentor-element-found-in__line">411</span>
 
-            <a href="classes/Smr-Game.html#source-view.362" class="phpdocumentor-element-found-in__source" data-line="362" data-modal="source-view" data-src="files/src/lib/Smr/Game.php.txt"></a>
+            <a href="classes/Smr-Game.html#source-view.411" class="phpdocumentor-element-found-in__source" data-line="411" data-modal="source-view" data-src="files/src/lib/Smr/Game.php.txt"></a>
     </aside>
 
     
@@ -3267,9 +3473,9 @@ i.e. when players can move, turns are gained, etc.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Game.php"><a href="files/src-lib-smr-game.html"><abbr title="src/lib/Smr/Game.php">Game.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">374</span>
+    <span class="phpdocumentor-element-found-in__line">423</span>
 
-            <a href="classes/Smr-Game.html#source-view.374" class="phpdocumentor-element-found-in__source" data-line="374" data-modal="source-view" data-src="files/src/lib/Smr/Game.php.txt"></a>
+            <a href="classes/Smr-Game.html#source-view.423" class="phpdocumentor-element-found-in__source" data-line="423" data-modal="source-view" data-src="files/src/lib/Smr/Game.php.txt"></a>
     </aside>
 
     
@@ -3312,9 +3518,9 @@ i.e. when players can move, turns are gained, etc.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Game.php"><a href="files/src-lib-smr-game.html"><abbr title="src/lib/Smr/Game.php">Game.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">314</span>
+    <span class="phpdocumentor-element-found-in__line">363</span>
 
-            <a href="classes/Smr-Game.html#source-view.314" class="phpdocumentor-element-found-in__source" data-line="314" data-modal="source-view" data-src="files/src/lib/Smr/Game.php.txt"></a>
+            <a href="classes/Smr-Game.html#source-view.363" class="phpdocumentor-element-found-in__source" data-line="363" data-modal="source-view" data-src="files/src/lib/Smr/Game.php.txt"></a>
     </aside>
 
     
@@ -3357,9 +3563,9 @@ i.e. when players can move, turns are gained, etc.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Game.php"><a href="files/src-lib-smr-game.html"><abbr title="src/lib/Smr/Game.php">Game.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">196</span>
+    <span class="phpdocumentor-element-found-in__line">245</span>
 
-            <a href="classes/Smr-Game.html#source-view.196" class="phpdocumentor-element-found-in__source" data-line="196" data-modal="source-view" data-src="files/src/lib/Smr/Game.php.txt"></a>
+            <a href="classes/Smr-Game.html#source-view.245" class="phpdocumentor-element-found-in__source" data-line="245" data-modal="source-view" data-src="files/src/lib/Smr/Game.php.txt"></a>
     </aside>
 
     
@@ -3402,9 +3608,9 @@ i.e. when players can move, turns are gained, etc.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Game.php"><a href="files/src-lib-smr-game.html"><abbr title="src/lib/Smr/Game.php">Game.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">398</span>
+    <span class="phpdocumentor-element-found-in__line">447</span>
 
-            <a href="classes/Smr-Game.html#source-view.398" class="phpdocumentor-element-found-in__source" data-line="398" data-modal="source-view" data-src="files/src/lib/Smr/Game.php.txt"></a>
+            <a href="classes/Smr-Game.html#source-view.447" class="phpdocumentor-element-found-in__source" data-line="447" data-modal="source-view" data-src="files/src/lib/Smr/Game.php.txt"></a>
     </aside>
 
     
@@ -3447,9 +3653,9 @@ i.e. when players can move, turns are gained, etc.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Game.php"><a href="files/src-lib-smr-game.html"><abbr title="src/lib/Smr/Game.php">Game.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">338</span>
+    <span class="phpdocumentor-element-found-in__line">387</span>
 
-            <a href="classes/Smr-Game.html#source-view.338" class="phpdocumentor-element-found-in__source" data-line="338" data-modal="source-view" data-src="files/src/lib/Smr/Game.php.txt"></a>
+            <a href="classes/Smr-Game.html#source-view.387" class="phpdocumentor-element-found-in__source" data-line="387" data-modal="source-view" data-src="files/src/lib/Smr/Game.php.txt"></a>
     </aside>
 
     
@@ -3492,9 +3698,9 @@ i.e. when players can move, turns are gained, etc.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Game.php"><a href="files/src-lib-smr-game.html"><abbr title="src/lib/Smr/Game.php">Game.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">250</span>
+    <span class="phpdocumentor-element-found-in__line">299</span>
 
-            <a href="classes/Smr-Game.html#source-view.250" class="phpdocumentor-element-found-in__source" data-line="250" data-modal="source-view" data-src="files/src/lib/Smr/Game.php.txt"></a>
+            <a href="classes/Smr-Game.html#source-view.299" class="phpdocumentor-element-found-in__source" data-line="299" data-modal="source-view" data-src="files/src/lib/Smr/Game.php.txt"></a>
     </aside>
 
     
@@ -3537,9 +3743,9 @@ i.e. when players can move, turns are gained, etc.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Game.php"><a href="files/src-lib-smr-game.html"><abbr title="src/lib/Smr/Game.php">Game.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">326</span>
+    <span class="phpdocumentor-element-found-in__line">375</span>
 
-            <a href="classes/Smr-Game.html#source-view.326" class="phpdocumentor-element-found-in__source" data-line="326" data-modal="source-view" data-src="files/src/lib/Smr/Game.php.txt"></a>
+            <a href="classes/Smr-Game.html#source-view.375" class="phpdocumentor-element-found-in__source" data-line="375" data-modal="source-view" data-src="files/src/lib/Smr/Game.php.txt"></a>
     </aside>
 
     
@@ -3582,9 +3788,9 @@ i.e. when players can move, turns are gained, etc.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Game.php"><a href="files/src-lib-smr-game.html"><abbr title="src/lib/Smr/Game.php">Game.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">302</span>
+    <span class="phpdocumentor-element-found-in__line">351</span>
 
-            <a href="classes/Smr-Game.html#source-view.302" class="phpdocumentor-element-found-in__source" data-line="302" data-modal="source-view" data-src="files/src/lib/Smr/Game.php.txt"></a>
+            <a href="classes/Smr-Game.html#source-view.351" class="phpdocumentor-element-found-in__source" data-line="351" data-modal="source-view" data-src="files/src/lib/Smr/Game.php.txt"></a>
     </aside>
 
     
@@ -3627,9 +3833,9 @@ i.e. when players can move, turns are gained, etc.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Game.php"><a href="files/src-lib-smr-game.html"><abbr title="src/lib/Smr/Game.php">Game.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">350</span>
+    <span class="phpdocumentor-element-found-in__line">399</span>
 
-            <a href="classes/Smr-Game.html#source-view.350" class="phpdocumentor-element-found-in__source" data-line="350" data-modal="source-view" data-src="files/src/lib/Smr/Game.php.txt"></a>
+            <a href="classes/Smr-Game.html#source-view.399" class="phpdocumentor-element-found-in__source" data-line="399" data-modal="source-view" data-src="files/src/lib/Smr/Game.php.txt"></a>
     </aside>
 
     
@@ -3672,9 +3878,9 @@ i.e. when players can move, turns are gained, etc.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Game.php"><a href="files/src-lib-smr-game.html"><abbr title="src/lib/Smr/Game.php">Game.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">231</span>
+    <span class="phpdocumentor-element-found-in__line">280</span>
 
-            <a href="classes/Smr-Game.html#source-view.231" class="phpdocumentor-element-found-in__source" data-line="231" data-modal="source-view" data-src="files/src/lib/Smr/Game.php.txt"></a>
+            <a href="classes/Smr-Game.html#source-view.280" class="phpdocumentor-element-found-in__source" data-line="280" data-modal="source-view" data-src="files/src/lib/Smr/Game.php.txt"></a>
     </aside>
 
     
@@ -3717,9 +3923,9 @@ i.e. when players can move, turns are gained, etc.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Game.php"><a href="files/src-lib-smr-game.html"><abbr title="src/lib/Smr/Game.php">Game.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">262</span>
+    <span class="phpdocumentor-element-found-in__line">311</span>
 
-            <a href="classes/Smr-Game.html#source-view.262" class="phpdocumentor-element-found-in__source" data-line="262" data-modal="source-view" data-src="files/src/lib/Smr/Game.php.txt"></a>
+            <a href="classes/Smr-Game.html#source-view.311" class="phpdocumentor-element-found-in__source" data-line="311" data-modal="source-view" data-src="files/src/lib/Smr/Game.php.txt"></a>
     </aside>
 
     
@@ -3762,9 +3968,9 @@ i.e. when players can move, turns are gained, etc.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Game.php"><a href="files/src-lib-smr-game.html"><abbr title="src/lib/Smr/Game.php">Game.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">274</span>
+    <span class="phpdocumentor-element-found-in__line">323</span>
 
-            <a href="classes/Smr-Game.html#source-view.274" class="phpdocumentor-element-found-in__source" data-line="274" data-modal="source-view" data-src="files/src/lib/Smr/Game.php.txt"></a>
+            <a href="classes/Smr-Game.html#source-view.323" class="phpdocumentor-element-found-in__source" data-line="323" data-modal="source-view" data-src="files/src/lib/Smr/Game.php.txt"></a>
     </aside>
 
     
@@ -3807,9 +4013,9 @@ i.e. when players can move, turns are gained, etc.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Game.php"><a href="files/src-lib-smr-game.html"><abbr title="src/lib/Smr/Game.php">Game.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">184</span>
+    <span class="phpdocumentor-element-found-in__line">233</span>
 
-            <a href="classes/Smr-Game.html#source-view.184" class="phpdocumentor-element-found-in__source" data-line="184" data-modal="source-view" data-src="files/src/lib/Smr/Game.php.txt"></a>
+            <a href="classes/Smr-Game.html#source-view.233" class="phpdocumentor-element-found-in__source" data-line="233" data-modal="source-view" data-src="files/src/lib/Smr/Game.php.txt"></a>
     </aside>
 
     
@@ -3852,9 +4058,9 @@ i.e. when players can move, turns are gained, etc.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Game.php"><a href="files/src-lib-smr-game.html"><abbr title="src/lib/Smr/Game.php">Game.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">386</span>
+    <span class="phpdocumentor-element-found-in__line">435</span>
 
-            <a href="classes/Smr-Game.html#source-view.386" class="phpdocumentor-element-found-in__source" data-line="386" data-modal="source-view" data-src="files/src/lib/Smr/Game.php.txt"></a>
+            <a href="classes/Smr-Game.html#source-view.435" class="phpdocumentor-element-found-in__source" data-line="435" data-modal="source-view" data-src="files/src/lib/Smr/Game.php.txt"></a>
     </aside>
 
     
@@ -3897,9 +4103,9 @@ i.e. when players can move, turns are gained, etc.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Game.php"><a href="files/src-lib-smr-game.html"><abbr title="src/lib/Smr/Game.php">Game.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">448</span>
+    <span class="phpdocumentor-element-found-in__line">495</span>
 
-            <a href="classes/Smr-Game.html#source-view.448" class="phpdocumentor-element-found-in__source" data-line="448" data-modal="source-view" data-src="files/src/lib/Smr/Game.php.txt"></a>
+            <a href="classes/Smr-Game.html#source-view.495" class="phpdocumentor-element-found-in__source" data-line="495" data-modal="source-view" data-src="files/src/lib/Smr/Game.php.txt"></a>
     </aside>
 
         <p class="phpdocumentor-summary">Set the starting political relations between races.</p>
@@ -3943,9 +4149,9 @@ i.e. when players can move, turns are gained, etc.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Game.php"><a href="files/src-lib-smr-game.html"><abbr title="src/lib/Smr/Game.php">Game.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">216</span>
+    <span class="phpdocumentor-element-found-in__line">265</span>
 
-            <a href="classes/Smr-Game.html#source-view.216" class="phpdocumentor-element-found-in__source" data-line="216" data-modal="source-view" data-src="files/src/lib/Smr/Game.php.txt"></a>
+            <a href="classes/Smr-Game.html#source-view.265" class="phpdocumentor-element-found-in__source" data-line="265" data-modal="source-view" data-src="files/src/lib/Smr/Game.php.txt"></a>
     </aside>
 
     
@@ -3988,9 +4194,9 @@ i.e. when players can move, turns are gained, etc.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Game.php"><a href="files/src-lib-smr-game.html"><abbr title="src/lib/Smr/Game.php">Game.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">286</span>
+    <span class="phpdocumentor-element-found-in__line">335</span>
 
-            <a href="classes/Smr-Game.html#source-view.286" class="phpdocumentor-element-found-in__source" data-line="286" data-modal="source-view" data-src="files/src/lib/Smr/Game.php.txt"></a>
+            <a href="classes/Smr-Game.html#source-view.335" class="phpdocumentor-element-found-in__source" data-line="335" data-modal="source-view" data-src="files/src/lib/Smr/Game.php.txt"></a>
     </aside>
 
     
@@ -4033,9 +4239,9 @@ i.e. when players can move, turns are gained, etc.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Game.php"><a href="files/src-lib-smr-game.html"><abbr title="src/lib/Smr/Game.php">Game.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">504</span>
+    <span class="phpdocumentor-element-found-in__line">551</span>
 
-            <a href="classes/Smr-Game.html#source-view.504" class="phpdocumentor-element-found-in__source" data-line="504" data-modal="source-view" data-src="files/src/lib/Smr/Game.php.txt"></a>
+            <a href="classes/Smr-Game.html#source-view.551" class="phpdocumentor-element-found-in__source" data-line="551" data-modal="source-view" data-src="files/src/lib/Smr/Game.php.txt"></a>
     </aside>
 
         <p class="phpdocumentor-summary">Returns the time (in seconds) until restricted ships are unlocked.</p>
@@ -4073,15 +4279,15 @@ i.e. when players can move, turns are gained, etc.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Game.php"><a href="files/src-lib-smr-game.html"><abbr title="src/lib/Smr/Game.php">Game.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">89</span>
+    <span class="phpdocumentor-element-found-in__line">131</span>
 
-            <a href="classes/Smr-Game.html#source-view.89" class="phpdocumentor-element-found-in__source" data-line="89" data-modal="source-view" data-src="files/src/lib/Smr/Game.php.txt"></a>
+            <a href="classes/Smr-Game.html#source-view.131" class="phpdocumentor-element-found-in__source" data-line="131" data-modal="source-view" data-src="files/src/lib/Smr/Game.php.txt"></a>
     </aside>
 
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">protected</span>
-                    <span class="phpdocumentor-signature__name">__construct</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type">int&nbsp;</span><span class="phpdocumentor-signature__argument__name">$gameID</span></span><span class="phpdocumentor-signature__argument"><span>[</span><span>, </span><span class="phpdocumentor-signature__argument__return-type">bool&nbsp;</span><span class="phpdocumentor-signature__argument__name">$create</span><span> = </span><span class="phpdocumentor-signature__argument__default-value">false</span><span> ]</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">mixed</span></code>
+                    <span class="phpdocumentor-signature__name">__construct</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type">int&nbsp;</span><span class="phpdocumentor-signature__argument__name">$gameID</span></span><span class="phpdocumentor-signature__argument"><span>[</span><span>, </span><span class="phpdocumentor-signature__argument__return-type">bool&nbsp;</span><span class="phpdocumentor-signature__argument__name">$create</span><span> = </span><span class="phpdocumentor-signature__argument__default-value">false</span><span> ]</span></span><span class="phpdocumentor-signature__argument"><span>[</span><span>, </span><span class="phpdocumentor-signature__argument__return-type"><a href="classes/Smr-DatabaseRecord.html"><abbr title="\Smr\DatabaseRecord">DatabaseRecord</abbr></a>|null&nbsp;</span><span class="phpdocumentor-signature__argument__name">$dbRecord</span><span> = </span><span class="phpdocumentor-signature__argument__default-value">null</span><span> ]</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">mixed</span></code>
 
     <div class="phpdocumentor-label-line">
         </div>
@@ -4100,6 +4306,13 @@ i.e. when players can move, turns are gained, etc.</p>
                 <span class="phpdocumentor-signature__argument__name">$create</span>
                 : <span class="phpdocumentor-signature__argument__return-type">bool</span>
                  = <span class="phpdocumentor-signature__argument__default-value">false</span>            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                
+            </dd>
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$dbRecord</span>
+                : <span class="phpdocumentor-signature__argument__return-type"><a href="classes/Smr-DatabaseRecord.html"><abbr title="\Smr\DatabaseRecord">DatabaseRecord</abbr></a>|null</span>
+                 = <span class="phpdocumentor-signature__argument__default-value">null</span>            </dt>
             <dd class="phpdocumentor-argument-list__definition">
                 
             </dd>
@@ -4231,12 +4444,14 @@ i.e. when players can move, turns are gained, etc.</p>
                                                     <li class=""><a href="classes/Smr-Game.html#constant_GAME_TYPE_NEWBIE">GAME_TYPE_NEWBIE</a></li>
                                                     <li class=""><a href="classes/Smr-Game.html#constant_GAME_TYPE_SEMI_WARS">GAME_TYPE_SEMI_WARS</a></li>
                                                     <li class=""><a href="classes/Smr-Game.html#constant_GAME_TYPES">GAME_TYPES</a></li>
+                                                    <li class=""><a href="classes/Smr-Game.html#constant_SQL">SQL</a></li>
                                             </ul>
                 </li>
             
                             <li class="phpdocumentor-on-this-page-section__title">Properties</li>
                 <li>
                     <ul class="phpdocumentor-list -clean">
+                                                    <li class=""><a href="classes/Smr-Game.html#property_SQLID">$SQLID</a></li>
                                                     <li class=""><a href="classes/Smr-Game.html#property_allianceMaxPlayers">$allianceMaxPlayers</a></li>
                                                     <li class=""><a href="classes/Smr-Game.html#property_allianceMaxVets">$allianceMaxVets</a></li>
                                                     <li class=""><a href="classes/Smr-Game.html#property_CACHE_GAMES">$CACHE_GAMES</a></li>
@@ -4271,6 +4486,7 @@ i.e. when players can move, turns are gained, etc.</p>
                                             <li class=""><a href="classes/Smr-Game.html#method_createGame">createGame()</a></li>
                                             <li class=""><a href="classes/Smr-Game.html#method_equals">equals()</a></li>
                                             <li class=""><a href="classes/Smr-Game.html#method_gameExists">gameExists()</a></li>
+                                            <li class=""><a href="classes/Smr-Game.html#method_getActiveGames">getActiveGames()</a></li>
                                             <li class=""><a href="classes/Smr-Game.html#method_getAllianceMaxPlayers">getAllianceMaxPlayers()</a></li>
                                             <li class=""><a href="classes/Smr-Game.html#method_getAllianceMaxVets">getAllianceMaxVets()</a></li>
                                             <li class=""><a href="classes/Smr-Game.html#method_getCreditsNeeded">getCreditsNeeded()</a></li>
@@ -4288,6 +4504,7 @@ i.e. when players can move, turns are gained, etc.</p>
                                             <li class=""><a href="classes/Smr-Game.html#method_getMaxTurns">getMaxTurns()</a></li>
                                             <li class=""><a href="classes/Smr-Game.html#method_getName">getName()</a></li>
                                             <li class=""><a href="classes/Smr-Game.html#method_getNumberOfGalaxies">getNumberOfGalaxies()</a></li>
+                                            <li class=""><a href="classes/Smr-Game.html#method_getPastGames">getPastGames()</a></li>
                                             <li class=""><a href="classes/Smr-Game.html#method_getPlayableRaceIDs">getPlayableRaceIDs()</a></li>
                                             <li class=""><a href="classes/Smr-Game.html#method_getStartingCredits">getStartingCredits()</a></li>
                                             <li class=""><a href="classes/Smr-Game.html#method_getStartTime">getStartTime()</a></li>
