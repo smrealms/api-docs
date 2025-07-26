@@ -149,14 +149,12 @@
         <h2 class="phpdocumentor-content__title">Castling.php</h2>
 
         
+        
+        
+        
 
 
-
-
-
-
-
-
+        
 <h3 id="toc">
     Table of Contents
     <a href="files/src-lib-smr-chess-castling.html#toc" class="headerlink"><i class="fas fa-link"></i></a>
@@ -175,7 +173,6 @@
     </h4>
     <dl class="phpdocumentor-table-of-contents">
             <dt class="phpdocumentor-table-of-contents__entry -enum"><a href="classes/Smr-Chess-Castling.html"><abbr title="\Smr\Chess\Castling">Castling</abbr></a></dt><dd>Enum values are database types and must not be changed.</dd></dl>
-
 
 
 
@@ -222,6 +219,8 @@
                         if (xhr.status < 400 && xhr.responseText) {
                             code.textContent = xhr.responseText;
                             Prism.highlightElement(code);
+                            d=document.getElementsByClassName("line-numbers");
+                            d[0].scrollTop = d[0].children[1].offsetTop;
                             return;
                         }
 

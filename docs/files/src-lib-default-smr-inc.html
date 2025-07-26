@@ -149,14 +149,12 @@
         <h2 class="phpdocumentor-content__title">smr.inc.php</h2>
 
         
+        
+        
+        
 
 
-
-
-
-
-
-
+        
 <h3 id="toc">
     Table of Contents
     <a href="files/src-lib-default-smr-inc.html#toc" class="headerlink"><i class="fas fa-link"></i></a>
@@ -320,7 +318,6 @@ the amount is positive.</dd>
 <dd>Randomly choose an array key weighted by the array values.</dd>
 
     </dl>
-
 
 
         
@@ -1416,6 +1413,8 @@ If seconds is &lt;60, will prefix &quot;less than&quot; or &quot;&lt;&quot; (HTM
                         if (xhr.status < 400 && xhr.responseText) {
                             code.textContent = xhr.responseText;
                             Prism.highlightElement(code);
+                            d=document.getElementsByClassName("line-numbers");
+                            d[0].scrollTop = d[0].children[1].offsetTop;
                             return;
                         }
 

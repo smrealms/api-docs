@@ -261,14 +261,14 @@ If multi-category locations becomes common, this code should be modified.</p>
             phpdocumentor-element
             -property
             -public
-                                                        "
+                                                                    "
 >
     <h4 class="phpdocumentor-element__name" id="property_locTypes">
         $locTypes
         <a href="classes/Smr-Admin-UniGenLocationCategories.html#property_locTypes" class="headerlink"><i class="fas fa-link"></i></a>
 
         <span class="phpdocumentor-element__modifiers">
-                                </span>
+                                            </span>
     </h4>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Admin/UniGenLocationCategories.php"><a href="files/src-lib-smr-admin-unigenlocationcategories.html"><abbr title="src/lib/Smr/Admin/UniGenLocationCategories.php">UniGenLocationCategories.php</abbr></a></abbr>
@@ -281,13 +281,15 @@ If multi-category locations becomes common, this code should be modified.</p>
     
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
-    <span class="phpdocumentor-signature__visibility">public</span>
-        <span class="phpdocumentor-signature__type">array&lt;string, array&lt;string|int, int&gt;&gt;</span>
+        <span class="phpdocumentor-signature__visibility">public</span>
+            <span class="phpdocumentor-signature__type">array&lt;string, array&lt;string|int, int&gt;&gt;</span>
     <span class="phpdocumentor-signature__name">$locTypes</span>
      = <span class="phpdocumentor-signature__default-value">[]</span></code>
 
     
     
+    
+
     
 
     
@@ -298,14 +300,14 @@ If multi-category locations becomes common, this code should be modified.</p>
             phpdocumentor-element
             -property
             -private
-                                                        "
+                                                                    "
 >
     <h4 class="phpdocumentor-element__name" id="property_locAdded">
         $locAdded
         <a href="classes/Smr-Admin-UniGenLocationCategories.html#property_locAdded" class="headerlink"><i class="fas fa-link"></i></a>
 
         <span class="phpdocumentor-element__modifiers">
-                                </span>
+                                            </span>
     </h4>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Admin/UniGenLocationCategories.php"><a href="files/src-lib-smr-admin-unigenlocationcategories.html"><abbr title="src/lib/Smr/Admin/UniGenLocationCategories.php">UniGenLocationCategories.php</abbr></a></abbr>
@@ -318,13 +320,15 @@ If multi-category locations becomes common, this code should be modified.</p>
     
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
-    <span class="phpdocumentor-signature__visibility">private</span>
-        <span class="phpdocumentor-signature__type">array&lt;string|int, int&gt;</span>
+        <span class="phpdocumentor-signature__visibility">private</span>
+            <span class="phpdocumentor-signature__type">array&lt;string|int, int&gt;</span>
     <span class="phpdocumentor-signature__name">$locAdded</span>
      = <span class="phpdocumentor-signature__default-value">[]</span></code>
 
     
     
+    
+
     
 
     
@@ -481,6 +485,8 @@ If multi-category locations becomes common, this code should be modified.</p>
                         if (xhr.status < 400 && xhr.responseText) {
                             code.textContent = xhr.responseText;
                             Prism.highlightElement(code);
+                            d=document.getElementsByClassName("line-numbers");
+                            d[0].scrollTop = d[0].children[1].offsetTop;
                             return;
                         }
 

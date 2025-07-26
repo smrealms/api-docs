@@ -174,14 +174,12 @@
 
             <p class="phpdocumentor-summary">Enumerates menu options on planets. Backing value is the link display name.</p>
 
+        
+        
+        
 
 
-
-
-
-
-
-
+        
 <h3 id="toc">
     Table of Contents
     <a href="classes/Smr-PlanetMenuOption.html#toc" class="headerlink"><i class="fas fa-link"></i></a>
@@ -238,7 +236,6 @@
 </dt>
 
     </dl>
-
 
 
 
@@ -457,6 +454,8 @@
                         if (xhr.status < 400 && xhr.responseText) {
                             code.textContent = xhr.responseText;
                             Prism.highlightElement(code);
+                            d=document.getElementsByClassName("line-numbers");
+                            d[0].scrollTop = d[0].children[1].offsetTop;
                             return;
                         }
 

@@ -299,14 +299,14 @@ are already managed, and created themselves if they are not.</dd>
             phpdocumentor-element
             -property
             -private
-                                                -read-only        "
+                                                -read-only                    "
 >
     <h4 class="phpdocumentor-element__name" id="property_container">
         $container
         <a href="classes/Smr-Container-DiContainer.html#property_container" class="headerlink"><i class="fas fa-link"></i></a>
 
         <span class="phpdocumentor-element__modifiers">
-                        <small class="phpdocumentor-element__modifier">read-only</small>        </span>
+                        <small class="phpdocumentor-element__modifier">read-only</small>                    </span>
     </h4>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Container/DiContainer.php"><a href="files/src-lib-smr-container-dicontainer.html"><abbr title="src/lib/Smr/Container/DiContainer.php">DiContainer.php</abbr></a></abbr>
@@ -319,13 +319,15 @@ are already managed, and created themselves if they are not.</dd>
     
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
-    <span class="phpdocumentor-signature__visibility">private</span>
-        <span class="phpdocumentor-signature__type"><a href="classes/Smr-Container-ResettableContainer.html"><abbr title="\Smr\Container\ResettableContainer">ResettableContainer</abbr></a>|<a href="classes/Smr-Container-ResettableCompiledContainer.html"><abbr title="\Smr\Container\ResettableCompiledContainer">ResettableCompiledContainer</abbr></a></span>
+        <span class="phpdocumentor-signature__visibility">private</span>
+            <span class="phpdocumentor-signature__type"><a href="classes/Smr-Container-ResettableContainer.html"><abbr title="\Smr\Container\ResettableContainer">ResettableContainer</abbr></a>|<a href="classes/Smr-Container-ResettableCompiledContainer.html"><abbr title="\Smr\Container\ResettableCompiledContainer">ResettableCompiledContainer</abbr></a></span>
     <span class="phpdocumentor-signature__name">$container</span>
     </code>
 
     
     
+    
+
     
 
     
@@ -336,14 +338,14 @@ are already managed, and created themselves if they are not.</dd>
             phpdocumentor-element
             -property
             -private
-            -static                                            "
+            -static                                                        "
 >
     <h4 class="phpdocumentor-element__name" id="property_instance">
         $instance
         <a href="classes/Smr-Container-DiContainer.html#property_instance" class="headerlink"><i class="fas fa-link"></i></a>
 
         <span class="phpdocumentor-element__modifiers">
-                                </span>
+                                            </span>
     </h4>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Container/DiContainer.php"><a href="files/src-lib-smr-container-dicontainer.html"><abbr title="src/lib/Smr/Container/DiContainer.php">DiContainer.php</abbr></a></abbr>
@@ -356,13 +358,15 @@ are already managed, and created themselves if they are not.</dd>
     
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
-    <span class="phpdocumentor-signature__visibility">private</span>
-    <span class="phpdocumentor-signature__static">static</span>    <span class="phpdocumentor-signature__type"><a href="classes/Smr-Container-DiContainer.html"><abbr title="\Smr\Container\DiContainer">DiContainer</abbr></a></span>
+        <span class="phpdocumentor-signature__visibility">private</span>
+        <span class="phpdocumentor-signature__static">static</span>    <span class="phpdocumentor-signature__type"><a href="classes/Smr-Container-DiContainer.html"><abbr title="\Smr\Container\DiContainer">DiContainer</abbr></a></span>
     <span class="phpdocumentor-signature__name">$instance</span>
     </code>
 
     
     
+    
+
     
 
     
@@ -853,6 +857,8 @@ are already managed, and created themselves if they are not.</p>
                         if (xhr.status < 400 && xhr.responseText) {
                             code.textContent = xhr.responseText;
                             Prism.highlightElement(code);
+                            d=document.getElementsByClassName("line-numbers");
+                            d[0].scrollTop = d[0].children[1].offsetTop;
                             return;
                         }
 

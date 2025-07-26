@@ -171,14 +171,12 @@
 
             <p class="phpdocumentor-summary">Enumerates the warning levels that correspond to player turn thresholds</p>
 
+        
+        
+        
 
 
-
-
-
-
-
-
+        
 <h3 id="toc">
     Table of Contents
     <a href="classes/Smr-TurnsLevel.html#toc" class="headerlink"><i class="fas fa-link"></i></a>
@@ -246,7 +244,6 @@
 <dd>Returns the warning to display when player&#039;s turns get low.</dd>
 
     </dl>
-
 
 
 
@@ -494,6 +491,8 @@
                         if (xhr.status < 400 && xhr.responseText) {
                             code.textContent = xhr.responseText;
                             Prism.highlightElement(code);
+                            d=document.getElementsByClassName("line-numbers");
+                            d[0].scrollTop = d[0].children[1].offsetTop;
                             return;
                         }
 

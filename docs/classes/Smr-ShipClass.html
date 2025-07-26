@@ -174,14 +174,12 @@
 
             <p class="phpdocumentor-summary">Categorization of ship types.</p>
 
+        
+        
+        
 
 
-
-
-
-
-
-
+        
 <h3 id="toc">
     Table of Contents
     <a href="classes/Smr-ShipClass.html#toc" class="headerlink"><i class="fas fa-link"></i></a>
@@ -232,7 +230,6 @@
 </dt>
 
     </dl>
-
 
 
 
@@ -423,6 +420,8 @@
                         if (xhr.status < 400 && xhr.responseText) {
                             code.textContent = xhr.responseText;
                             Prism.highlightElement(code);
+                            d=document.getElementsByClassName("line-numbers");
+                            d[0].scrollTop = d[0].children[1].offsetTop;
                             return;
                         }
 

@@ -455,14 +455,14 @@
             phpdocumentor-element
             -property
             -protected
-                                                        "
+                                                                    "
 >
     <h4 class="phpdocumentor-element__name" id="property_damageRollover">
         $damageRollover
         <a href="classes/Smr-Combat-Weapon-AbstractWeapon.html#property_damageRollover" class="headerlink"><i class="fas fa-link"></i></a>
 
         <span class="phpdocumentor-element__modifiers">
-                                </span>
+                                            </span>
     </h4>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Combat/Weapon/AbstractWeapon.php"><a href="files/src-lib-smr-combat-weapon-abstractweapon.html"><abbr title="src/lib/Smr/Combat/Weapon/AbstractWeapon.php">AbstractWeapon.php</abbr></a></abbr>
@@ -475,13 +475,15 @@
     
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
-    <span class="phpdocumentor-signature__visibility">protected</span>
-        <span class="phpdocumentor-signature__type">bool</span>
+        <span class="phpdocumentor-signature__visibility">protected</span>
+            <span class="phpdocumentor-signature__type">bool</span>
     <span class="phpdocumentor-signature__name">$damageRollover</span>
     </code>
 
     
     
+    
+
     
 
     
@@ -1924,6 +1926,8 @@
                         if (xhr.status < 400 && xhr.responseText) {
                             code.textContent = xhr.responseText;
                             Prism.highlightElement(code);
+                            d=document.getElementsByClassName("line-numbers");
+                            d[0].scrollTop = d[0].children[1].offsetTop;
                             return;
                         }
 

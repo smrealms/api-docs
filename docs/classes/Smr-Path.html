@@ -346,14 +346,14 @@ of the path that comes after the given sector.</dd>
             phpdocumentor-element
             -property
             -private
-                                                        "
+                                                                    "
 >
     <h4 class="phpdocumentor-element__name" id="property_numWarps">
         $numWarps
         <a href="classes/Smr-Path.html#property_numWarps" class="headerlink"><i class="fas fa-link"></i></a>
 
         <span class="phpdocumentor-element__modifiers">
-                                </span>
+                                            </span>
     </h4>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Path.php"><a href="files/src-lib-smr-path.html"><abbr title="src/lib/Smr/Path.php">Path.php</abbr></a></abbr>
@@ -366,13 +366,15 @@ of the path that comes after the given sector.</dd>
     
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
-    <span class="phpdocumentor-signature__visibility">private</span>
-        <span class="phpdocumentor-signature__type">int</span>
+        <span class="phpdocumentor-signature__visibility">private</span>
+            <span class="phpdocumentor-signature__type">int</span>
     <span class="phpdocumentor-signature__name">$numWarps</span>
      = <span class="phpdocumentor-signature__default-value">0</span></code>
 
     
     
+    
+
     
 
     
@@ -383,14 +385,14 @@ of the path that comes after the given sector.</dd>
             phpdocumentor-element
             -property
             -private
-                                                        "
+                                                                    "
 >
     <h4 class="phpdocumentor-element__name" id="property_path">
         $path
         <a href="classes/Smr-Path.html#property_path" class="headerlink"><i class="fas fa-link"></i></a>
 
         <span class="phpdocumentor-element__modifiers">
-                                </span>
+                                            </span>
     </h4>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Path.php"><a href="files/src-lib-smr-path.html"><abbr title="src/lib/Smr/Path.php">Path.php</abbr></a></abbr>
@@ -403,13 +405,15 @@ of the path that comes after the given sector.</dd>
     
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
-    <span class="phpdocumentor-signature__visibility">private</span>
-        <span class="phpdocumentor-signature__type">array&lt;int, int&gt;</span>
+        <span class="phpdocumentor-signature__visibility">private</span>
+            <span class="phpdocumentor-signature__type">array&lt;int, int&gt;</span>
     <span class="phpdocumentor-signature__name">$path</span>
     </code>
 
     
     
+    
+
     
 
     
@@ -420,14 +424,14 @@ of the path that comes after the given sector.</dd>
             phpdocumentor-element
             -property
             -private
-                                                        "
+                                                                    "
 >
     <h4 class="phpdocumentor-element__name" id="property_warpMap">
         $warpMap
         <a href="classes/Smr-Path.html#property_warpMap" class="headerlink"><i class="fas fa-link"></i></a>
 
         <span class="phpdocumentor-element__modifiers">
-                                </span>
+                                            </span>
     </h4>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Path.php"><a href="files/src-lib-smr-path.html"><abbr title="src/lib/Smr/Path.php">Path.php</abbr></a></abbr>
@@ -440,13 +444,15 @@ of the path that comes after the given sector.</dd>
     
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
-    <span class="phpdocumentor-signature__visibility">private</span>
-        <span class="phpdocumentor-signature__type">array&lt;int, int&gt;</span>
+        <span class="phpdocumentor-signature__visibility">private</span>
+            <span class="phpdocumentor-signature__type">array&lt;int, int&gt;</span>
     <span class="phpdocumentor-signature__name">$warpMap</span>
      = <span class="phpdocumentor-signature__default-value">[]</span></code>
 
     
     
+    
+
     
 
     
@@ -1119,6 +1125,8 @@ of the path that comes after the given sector.</p>
                         if (xhr.status < 400 && xhr.responseText) {
                             code.textContent = xhr.responseText;
                             Prism.highlightElement(code);
+                            d=document.getElementsByClassName("line-numbers");
+                            d[0].scrollTop = d[0].children[1].offsetTop;
                             return;
                         }
 

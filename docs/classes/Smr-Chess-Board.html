@@ -489,14 +489,14 @@
             phpdocumentor-element
             -property
             -private
-                                                        "
+                                                                    "
 >
     <h4 class="phpdocumentor-element__name" id="property_board">
         $board
         <a href="classes/Smr-Chess-Board.html#property_board" class="headerlink"><i class="fas fa-link"></i></a>
 
         <span class="phpdocumentor-element__modifiers">
-                                </span>
+                                            </span>
     </h4>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Chess/Board.php"><a href="files/src-lib-smr-chess-board.html"><abbr title="src/lib/Smr/Chess/Board.php">Board.php</abbr></a></abbr>
@@ -509,13 +509,15 @@
     
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
-    <span class="phpdocumentor-signature__visibility">private</span>
-        <span class="phpdocumentor-signature__type">array&lt;int, array&lt;int, <a href="classes/Smr-Chess-ChessPiece.html"><abbr title="\Smr\Chess\ChessPiece">ChessPiece</abbr></a>|null&gt;&gt;</span>
+        <span class="phpdocumentor-signature__visibility">private</span>
+            <span class="phpdocumentor-signature__type">array&lt;int, array&lt;int, <a href="classes/Smr-Chess-ChessPiece.html"><abbr title="\Smr\Chess\ChessPiece">ChessPiece</abbr></a>|null&gt;&gt;</span>
     <span class="phpdocumentor-signature__name">$board</span>
     </code>
 
     
     
+    
+
     
 
     
@@ -526,14 +528,14 @@
             phpdocumentor-element
             -property
             -private
-                                                        "
+                                                                    "
 >
     <h4 class="phpdocumentor-element__name" id="property_canCastle">
         $canCastle
         <a href="classes/Smr-Chess-Board.html#property_canCastle" class="headerlink"><i class="fas fa-link"></i></a>
 
         <span class="phpdocumentor-element__modifiers">
-                                </span>
+                                            </span>
     </h4>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Chess/Board.php"><a href="files/src-lib-smr-chess-board.html"><abbr title="src/lib/Smr/Chess/Board.php">Board.php</abbr></a></abbr>
@@ -546,8 +548,8 @@
     
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
-    <span class="phpdocumentor-signature__visibility">private</span>
-        <span class="phpdocumentor-signature__type">array&lt;string|int, mixed&gt;</span>
+        <span class="phpdocumentor-signature__visibility">private</span>
+            <span class="phpdocumentor-signature__type">array&lt;string|int, mixed&gt;</span>
     <span class="phpdocumentor-signature__name">$canCastle</span>
     </code>
 
@@ -559,20 +561,22 @@
 
     
 
+    
+
 </article>
                     <article
         class="
             phpdocumentor-element
             -property
             -private
-                                                        "
+                                                                    "
 >
     <h4 class="phpdocumentor-element__name" id="property_enPassantPawn">
         $enPassantPawn
         <a href="classes/Smr-Chess-Board.html#property_enPassantPawn" class="headerlink"><i class="fas fa-link"></i></a>
 
         <span class="phpdocumentor-element__modifiers">
-                                </span>
+                                            </span>
     </h4>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Chess/Board.php"><a href="files/src-lib-smr-chess-board.html"><abbr title="src/lib/Smr/Chess/Board.php">Board.php</abbr></a></abbr>
@@ -585,13 +589,15 @@
     
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
-    <span class="phpdocumentor-signature__visibility">private</span>
-        <span class="phpdocumentor-signature__type">array{X: int, Y: int}</span>
+        <span class="phpdocumentor-signature__visibility">private</span>
+            <span class="phpdocumentor-signature__type">array{X: int, Y: int}</span>
     <span class="phpdocumentor-signature__name">$enPassantPawn</span>
     </code>
 
     
     
+    
+
     
 
     
@@ -602,14 +608,14 @@
             phpdocumentor-element
             -property
             -private
-                                                        "
+                                                                    "
 >
     <h4 class="phpdocumentor-element__name" id="property_numMoves">
         $numMoves
         <a href="classes/Smr-Chess-Board.html#property_numMoves" class="headerlink"><i class="fas fa-link"></i></a>
 
         <span class="phpdocumentor-element__modifiers">
-                                </span>
+                                            </span>
     </h4>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Chess/Board.php"><a href="files/src-lib-smr-chess-board.html"><abbr title="src/lib/Smr/Chess/Board.php">Board.php</abbr></a></abbr>
@@ -622,13 +628,15 @@
     
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
-    <span class="phpdocumentor-signature__visibility">private</span>
-        <span class="phpdocumentor-signature__type">int</span>
+        <span class="phpdocumentor-signature__visibility">private</span>
+            <span class="phpdocumentor-signature__type">int</span>
     <span class="phpdocumentor-signature__name">$numMoves</span>
      = <span class="phpdocumentor-signature__default-value">0</span></code>
 
     
     
+    
+
     
 
     
@@ -1816,6 +1824,8 @@
                         if (xhr.status < 400 && xhr.responseText) {
                             code.textContent = xhr.responseText;
                             Prism.highlightElement(code);
+                            d=document.getElementsByClassName("line-numbers");
+                            d[0].scrollTop = d[0].children[1].offsetTop;
                             return;
                         }
 

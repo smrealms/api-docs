@@ -305,14 +305,14 @@ its parent command).</dd>
             phpdocumentor-element
             -property
             -protected
-                                                        "
+                                                                    "
 >
     <h4 class="phpdocumentor-element__name" id="property_message">
         $message
         <a href="classes/Smr-Discord-Command.html#property_message" class="headerlink"><i class="fas fa-link"></i></a>
 
         <span class="phpdocumentor-element__modifiers">
-                                </span>
+                                            </span>
     </h4>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Discord/Command.php"><a href="files/src-lib-smr-discord-command.html"><abbr title="src/lib/Smr/Discord/Command.php">Command.php</abbr></a></abbr>
@@ -325,13 +325,15 @@ its parent command).</dd>
     
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
-    <span class="phpdocumentor-signature__visibility">protected</span>
-        <span class="phpdocumentor-signature__type"><abbr title="\Discord\Parts\Channel\Message">Message</abbr></span>
+        <span class="phpdocumentor-signature__visibility">protected</span>
+            <span class="phpdocumentor-signature__type"><abbr title="\Discord\Parts\Channel\Message">Message</abbr></span>
     <span class="phpdocumentor-signature__name">$message</span>
     </code>
 
     
     
+    
+
     
 
     
@@ -342,14 +344,14 @@ its parent command).</dd>
             phpdocumentor-element
             -property
             -protected
-                                                        "
+                                                                    "
 >
     <h4 class="phpdocumentor-element__name" id="property_player">
         $player
         <a href="classes/Smr-Discord-DatabaseCommand.html#property_player" class="headerlink"><i class="fas fa-link"></i></a>
 
         <span class="phpdocumentor-element__modifiers">
-                                </span>
+                                            </span>
     </h4>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Discord/DatabaseCommand.php"><a href="files/src-lib-smr-discord-databasecommand.html"><abbr title="src/lib/Smr/Discord/DatabaseCommand.php">DatabaseCommand.php</abbr></a></abbr>
@@ -363,13 +365,15 @@ its parent command).</dd>
 
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
-    <span class="phpdocumentor-signature__visibility">protected</span>
-        <span class="phpdocumentor-signature__type"><a href="classes/Smr-AbstractPlayer.html"><abbr title="\Smr\AbstractPlayer">AbstractPlayer</abbr></a></span>
+        <span class="phpdocumentor-signature__visibility">protected</span>
+            <span class="phpdocumentor-signature__type"><a href="classes/Smr-AbstractPlayer.html"><abbr title="\Smr\AbstractPlayer">AbstractPlayer</abbr></a></span>
     <span class="phpdocumentor-signature__name">$player</span>
     </code>
 
     
     
+    
+
     
 
     
@@ -793,6 +797,8 @@ its parent command).</p>
                         if (xhr.status < 400 && xhr.responseText) {
                             code.textContent = xhr.responseText;
                             Prism.highlightElement(code);
+                            d=document.getElementsByClassName("line-numbers");
+                            d[0].scrollTop = d[0].children[1].offsetTop;
                             return;
                         }
 

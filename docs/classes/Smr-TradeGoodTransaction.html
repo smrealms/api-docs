@@ -249,14 +249,14 @@ transaction.</p>
             phpdocumentor-element
             -property
             -public
-                                                -read-only        "
+                                                -read-only                    "
 >
     <h4 class="phpdocumentor-element__name" id="property_goodID">
         $goodID
         <a href="classes/Smr-TradeGoodTransaction.html#property_goodID" class="headerlink"><i class="fas fa-link"></i></a>
 
         <span class="phpdocumentor-element__modifiers">
-                        <small class="phpdocumentor-element__modifier">read-only</small>        </span>
+                        <small class="phpdocumentor-element__modifier">read-only</small>                    </span>
     </h4>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/TradeGoodTransaction.php"><a href="files/src-lib-smr-tradegoodtransaction.html"><abbr title="src/lib/Smr/TradeGoodTransaction.php">TradeGoodTransaction.php</abbr></a></abbr>
@@ -269,13 +269,15 @@ transaction.</p>
     
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
-    <span class="phpdocumentor-signature__visibility">public</span>
-        <span class="phpdocumentor-signature__type">int</span>
+        <span class="phpdocumentor-signature__visibility">public</span>
+            <span class="phpdocumentor-signature__type">int</span>
     <span class="phpdocumentor-signature__name">$goodID</span>
     </code>
 
     
     
+    
+
     
 
     
@@ -286,14 +288,14 @@ transaction.</p>
             phpdocumentor-element
             -property
             -public
-                                                -read-only        "
+                                                -read-only                    "
 >
     <h4 class="phpdocumentor-element__name" id="property_transactionType">
         $transactionType
         <a href="classes/Smr-TradeGoodTransaction.html#property_transactionType" class="headerlink"><i class="fas fa-link"></i></a>
 
         <span class="phpdocumentor-element__modifiers">
-                        <small class="phpdocumentor-element__modifier">read-only</small>        </span>
+                        <small class="phpdocumentor-element__modifier">read-only</small>                    </span>
     </h4>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/TradeGoodTransaction.php"><a href="files/src-lib-smr-tradegoodtransaction.html"><abbr title="src/lib/Smr/TradeGoodTransaction.php">TradeGoodTransaction.php</abbr></a></abbr>
@@ -306,13 +308,15 @@ transaction.</p>
     
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
-    <span class="phpdocumentor-signature__visibility">public</span>
-        <span class="phpdocumentor-signature__type"><a href="classes/Smr-TransactionType.html"><abbr title="\Smr\TransactionType">TransactionType</abbr></a></span>
+        <span class="phpdocumentor-signature__visibility">public</span>
+            <span class="phpdocumentor-signature__type"><a href="classes/Smr-TransactionType.html"><abbr title="\Smr\TransactionType">TransactionType</abbr></a></span>
     <span class="phpdocumentor-signature__name">$transactionType</span>
     </code>
 
     
     
+    
+
     
 
     
@@ -416,6 +420,8 @@ transaction.</p>
                         if (xhr.status < 400 && xhr.responseText) {
                             code.textContent = xhr.responseText;
                             Prism.highlightElement(code);
+                            d=document.getElementsByClassName("line-numbers");
+                            d[0].scrollTop = d[0].children[1].offsetTop;
                             return;
                         }
 

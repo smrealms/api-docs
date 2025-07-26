@@ -149,14 +149,12 @@
         <h2 class="phpdocumentor-content__title">SectorLock.php</h2>
 
         
+        
+        
+        
 
 
-
-
-
-
-
-
+        
 <h3 id="toc">
     Table of Contents
     <a href="files/src-lib-smr-sectorlock.html#toc" class="headerlink"><i class="fas fa-link"></i></a>
@@ -175,7 +173,6 @@
                     <dt class="phpdocumentor-table-of-contents__entry -class"><a href="classes/Smr-SectorLock.html"><abbr title="\Smr\SectorLock">SectorLock</abbr></a></dt><dd>This class is responsible for ensuring that page processing occurs
 sequentially as requests come in, avoiding race conditions by using a
 blocking queue.</dd>    </dl>
-
 
 
 
@@ -224,6 +221,8 @@ blocking queue.</dd>    </dl>
                         if (xhr.status < 400 && xhr.responseText) {
                             code.textContent = xhr.responseText;
                             Prism.highlightElement(code);
+                            d=document.getElementsByClassName("line-numbers");
+                            d[0].scrollTop = d[0].children[1].offsetTop;
                             return;
                         }
 

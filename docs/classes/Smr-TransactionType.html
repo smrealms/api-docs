@@ -174,16 +174,14 @@
 
             <p class="phpdocumentor-summary">Enumerates the types of trade transactions that players may have with ports.</p>
 
-
-    <section class="phpdocumentor-description"><p>Note that all transactions are from the perspective of the player!</p>
+        
+            <section class="phpdocumentor-description"><p>Note that all transactions are from the perspective of the player!</p>
 </section>
 
+        
 
 
-
-
-
-
+        
 <h3 id="toc">
     Table of Contents
     <a href="classes/Smr-TransactionType.html#toc" class="headerlink"><i class="fas fa-link"></i></a>
@@ -231,7 +229,6 @@
 </dt>
 
     </dl>
-
 
 
 
@@ -382,6 +379,8 @@
                         if (xhr.status < 400 && xhr.responseText) {
                             code.textContent = xhr.responseText;
                             Prism.highlightElement(code);
+                            d=document.getElementsByClassName("line-numbers");
+                            d[0].scrollTop = d[0].children[1].offsetTop;
                             return;
                         }
 

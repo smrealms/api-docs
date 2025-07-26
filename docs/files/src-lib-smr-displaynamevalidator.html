@@ -149,14 +149,12 @@
         <h2 class="phpdocumentor-content__title">DisplayNameValidator.php</h2>
 
         
+        
+        
+        
 
 
-
-
-
-
-
-
+        
 <h3 id="toc">
     Table of Contents
     <a href="files/src-lib-smr-displaynamevalidator.html#toc" class="headerlink"><i class="fas fa-link"></i></a>
@@ -174,7 +172,6 @@
     <dl class="phpdocumentor-table-of-contents">
                     <dt class="phpdocumentor-table-of-contents__entry -class"><a href="classes/Smr-DisplayNameValidator.html"><abbr title="\Smr\DisplayNameValidator">DisplayNameValidator</abbr></a></dt><dd>Displayed names (player names, Hall of Fame names, etc.) must all follow a
 basic set of rules, which are defined here.</dd>    </dl>
-
 
 
 
@@ -223,6 +220,8 @@ basic set of rules, which are defined here.</dd>    </dl>
                         if (xhr.status < 400 && xhr.responseText) {
                             code.textContent = xhr.responseText;
                             Prism.highlightElement(code);
+                            d=document.getElementsByClassName("line-numbers");
+                            d[0].scrollTop = d[0].children[1].offsetTop;
                             return;
                         }
 
