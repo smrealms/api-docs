@@ -111,6 +111,16 @@ Search.appendIndex(
             "summary": "",
             "url": "namespaces/default.html#function_create_submit_link"
         },                {
+            "fqsen": "\\create_submit_display\u0028\u0029",
+            "name": "create_submit_display",
+            "summary": "Create\u0020a\u0020submit\u0020element\u0020that\u0020will\u0020not\u0020add\u0020any\u0020data\u0020to\u0020the\u0020submitted\u0020form.",
+            "url": "namespaces/default.html#function_create_submit_display"
+        },                {
+            "fqsen": "\\create_submit\u0028\u0029",
+            "name": "create_submit",
+            "summary": "Create\u0020a\u0020submit\u0020element\u0020that\u0020will\u0020add\u0020a\u0020name\u002Dvalue\u0020field\u0020to\u0020the\u0020submitted\u0020form\u0020data.",
+            "url": "namespaces/default.html#function_create_submit"
+        },                {
             "fqsen": "\\get_colored_text_range\u0028\u0029",
             "name": "get_colored_text_range",
             "summary": "",
