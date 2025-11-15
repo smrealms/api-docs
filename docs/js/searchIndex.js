@@ -6186,6 +6186,16 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/Smr-CouncilVoting.html#method_modifyRelations"
         },                {
+            "fqsen": "\\Smr\\CouncilVoting\u003A\u003AcountVotes\u0028\u0029",
+            "name": "countVotes",
+            "summary": "",
+            "url": "classes/Smr-CouncilVoting.html#method_countVotes"
+        },                {
+            "fqsen": "\\Smr\\CouncilVoting\u003A\u003AdeleteVote\u0028\u0029",
+            "name": "deleteVote",
+            "summary": "",
+            "url": "classes/Smr-CouncilVoting.html#method_deleteVote"
+        },                {
             "fqsen": "\\Smr\\CouncilVoting\u003A\u003AcheckPacts\u0028\u0029",
             "name": "checkPacts",
             "summary": "",
