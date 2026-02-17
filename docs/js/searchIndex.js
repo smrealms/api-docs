@@ -4716,15 +4716,15 @@ Search.appendIndex(
             "summary": "Get\u0020the\u0020board\u0020from\u0020the\u0020colour\u0027s\u0020perspective\u0020as\u0020an\u0020array.",
             "url": "classes/Smr-Chess-Board.html#method_getBoardDisplay"
         },                {
-            "fqsen": "\\Smr\\Chess\\Board\u003A\u003AisValidCoord\u0028\u0029",
-            "name": "isValidCoord",
-            "summary": "",
-            "url": "classes/Smr-Chess-Board.html#method_isValidCoord"
-        },                {
             "fqsen": "\\Smr\\Chess\\Board\u003A\u003AgetPieces\u0028\u0029",
             "name": "getPieces",
             "summary": "",
             "url": "classes/Smr-Chess-Board.html#method_getPieces"
+        },                {
+            "fqsen": "\\Smr\\Chess\\Board\u003A\u003AgetPieceOrNull\u0028\u0029",
+            "name": "getPieceOrNull",
+            "summary": "",
+            "url": "classes/Smr-Chess-Board.html#method_getPieceOrNull"
         },                {
             "fqsen": "\\Smr\\Chess\\Board\u003A\u003AhasPiece\u0028\u0029",
             "name": "hasPiece",
@@ -5206,15 +5206,10 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/Smr-Chess-ChessPiece.html#property_pieceID"
         },                {
-            "fqsen": "\\Smr\\Chess\\ChessPiece\u003A\u003A\u0024x",
-            "name": "x",
+            "fqsen": "\\Smr\\Chess\\ChessPiece\u003A\u003A\u0024loc",
+            "name": "loc",
             "summary": "",
-            "url": "classes/Smr-Chess-ChessPiece.html#property_x"
-        },                {
-            "fqsen": "\\Smr\\Chess\\ChessPiece\u003A\u003A\u0024y",
-            "name": "y",
-            "summary": "",
-            "url": "classes/Smr-Chess-ChessPiece.html#property_y"
+            "url": "classes/Smr-Chess-ChessPiece.html#property_loc"
         },                {
             "fqsen": "\\Smr\\Chess\\Colour",
             "name": "Colour",
@@ -5235,6 +5230,86 @@ Search.appendIndex(
             "name": "Black",
             "summary": "",
             "url": "classes/Smr-Chess-Colour.html#enumcase_Black"
+        },                {
+            "fqsen": "\\Smr\\Chess\\Loc",
+            "name": "Loc",
+            "summary": "Represents\u0020positions\u0020on\u0020a\u0020chess\u0020board.",
+            "url": "classes/Smr-Chess-Loc.html"
+        },                {
+            "fqsen": "\\Smr\\Chess\\Loc\u003A\u003A__construct\u0028\u0029",
+            "name": "__construct",
+            "summary": "",
+            "url": "classes/Smr-Chess-Loc.html#method___construct"
+        },                {
+            "fqsen": "\\Smr\\Chess\\Loc\u003A\u003Asame\u0028\u0029",
+            "name": "same",
+            "summary": "",
+            "url": "classes/Smr-Chess-Loc.html#method_same"
+        },                {
+            "fqsen": "\\Smr\\Chess\\Loc\u003A\u003Arelative\u0028\u0029",
+            "name": "relative",
+            "summary": "",
+            "url": "classes/Smr-Chess-Loc.html#method_relative"
+        },                {
+            "fqsen": "\\Smr\\Chess\\Loc\u003A\u003ArelativeOrNull\u0028\u0029",
+            "name": "relativeOrNull",
+            "summary": "",
+            "url": "classes/Smr-Chess-Loc.html#method_relativeOrNull"
+        },                {
+            "fqsen": "\\Smr\\Chess\\Loc\u003A\u003Aalgebraic\u0028\u0029",
+            "name": "algebraic",
+            "summary": "Convert\u0020the\u0020x,y\u0020position\u0020to\u0020algebraic\u0020notation.",
+            "url": "classes/Smr-Chess-Loc.html#method_algebraic"
+        },                {
+            "fqsen": "\\Smr\\Chess\\Loc\u003A\u003Afile\u0028\u0029",
+            "name": "file",
+            "summary": "",
+            "url": "classes/Smr-Chess-Loc.html#method_file"
+        },                {
+            "fqsen": "\\Smr\\Chess\\Loc\u003A\u003Arank\u0028\u0029",
+            "name": "rank",
+            "summary": "",
+            "url": "classes/Smr-Chess-Loc.html#method_rank"
+        },                {
+            "fqsen": "\\Smr\\Chess\\Loc\u003A\u003AisValid\u0028\u0029",
+            "name": "isValid",
+            "summary": "",
+            "url": "classes/Smr-Chess-Loc.html#method_isValid"
+        },                {
+            "fqsen": "\\Smr\\Chess\\Loc\u003A\u003Avalidate\u0028\u0029",
+            "name": "validate",
+            "summary": "",
+            "url": "classes/Smr-Chess-Loc.html#method_validate"
+        },                {
+            "fqsen": "\\Smr\\Chess\\Loc\u003A\u003AvalidateOrNull\u0028\u0029",
+            "name": "validateOrNull",
+            "summary": "",
+            "url": "classes/Smr-Chess-Loc.html#method_validateOrNull"
+        },                {
+            "fqsen": "\\Smr\\Chess\\Loc\u003A\u003Aat\u0028\u0029",
+            "name": "at",
+            "summary": "",
+            "url": "classes/Smr-Chess-Loc.html#method_at"
+        },                {
+            "fqsen": "\\Smr\\Chess\\Loc\u003A\u003AMAX_X",
+            "name": "MAX_X",
+            "summary": "",
+            "url": "classes/Smr-Chess-Loc.html#constant_MAX_X"
+        },                {
+            "fqsen": "\\Smr\\Chess\\Loc\u003A\u003AMAX_Y",
+            "name": "MAX_Y",
+            "summary": "",
+            "url": "classes/Smr-Chess-Loc.html#constant_MAX_Y"
+        },                {
+            "fqsen": "\\Smr\\Chess\\Loc\u003A\u003A\u0024x",
+            "name": "x",
+            "summary": "",
+            "url": "classes/Smr-Chess-Loc.html#property_x"
+        },                {
+            "fqsen": "\\Smr\\Chess\\Loc\u003A\u003A\u0024y",
+            "name": "y",
+            "summary": "",
+            "url": "classes/Smr-Chess-Loc.html#property_y"
         },                {
             "fqsen": "\\Smr\\Combat\\Weapon\\AbstractWeapon",
             "name": "AbstractWeapon",
@@ -13150,6 +13225,31 @@ Search.appendIndex(
             "name": "ajaxReturns",
             "summary": "",
             "url": "classes/Smr-Session.html#property_ajaxReturns"
+        },                {
+            "fqsen": "\\Smr\\SessionVar",
+            "name": "SessionVar",
+            "summary": "Helper\u0020class\u0020for\u0020Smr\\Session\u0020that\u0020holds\u0020the\u0020session_var\u0020database\u0020content.",
+            "url": "classes/Smr-SessionVar.html"
+        },                {
+            "fqsen": "\\Smr\\SessionVar\u003A\u003A__construct\u0028\u0029",
+            "name": "__construct",
+            "summary": "",
+            "url": "classes/Smr-SessionVar.html#method___construct"
+        },                {
+            "fqsen": "\\Smr\\SessionVar\u003A\u003A\u0024links",
+            "name": "links",
+            "summary": "",
+            "url": "classes/Smr-SessionVar.html#property_links"
+        },                {
+            "fqsen": "\\Smr\\SessionVar\u003A\u003A\u0024lastPage",
+            "name": "lastPage",
+            "summary": "",
+            "url": "classes/Smr-SessionVar.html#property_lastPage"
+        },                {
+            "fqsen": "\\Smr\\SessionVar\u003A\u003A\u0024lastRequestData",
+            "name": "lastRequestData",
+            "summary": "",
+            "url": "classes/Smr-SessionVar.html#property_lastRequestData"
         },                {
             "fqsen": "\\Smr\\Ship",
             "name": "Ship",
