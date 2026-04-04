@@ -6331,6 +6331,11 @@ Search.appendIndex(
             "summary": "Determine\u0020Doctrine\\DBAL\u0020types\u0020automatically\u0020based\u0020on\u0020the\u0020passed\u0020in\u0020type.",
             "url": "classes/Smr-Database.html#method_getParamTypes"
         },                {
+            "fqsen": "\\Smr\\Database\u003A\u003Aselect\u0028\u0029",
+            "name": "select",
+            "summary": "Simple\u0020SELECT\u0020query\u0020matching\u0020criteria\u0020and\u0020returning\u0020columns.",
+            "url": "classes/Smr-Database.html#method_select"
+        },                {
             "fqsen": "\\Smr\\Database\u003A\u003Aupdate\u0028\u0029",
             "name": "update",
             "summary": "UPDATE\u0020\u0024fields\u0020in\u0020\u0024table\u0020for\u0020rows\u0020that\u0020meet\u0020\u0024criteria.",
