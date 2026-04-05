@@ -36,26 +36,6 @@ Search.appendIndex(
             "summary": "",
             "url": "namespaces/default.html#function_get_numbering"
         },                {
-            "fqsen": "\\MISSION_ACTIONS",
-            "name": "MISSION_ACTIONS",
-            "summary": "",
-            "url": "namespaces/default.html#constant_MISSION_ACTIONS"
-        },                {
-            "fqsen": "\\MISSIONS",
-            "name": "MISSIONS",
-            "summary": "",
-            "url": "namespaces/default.html#constant_MISSIONS"
-        },                {
-            "fqsen": "\\replaceMissionTemplate\u0028\u0029",
-            "name": "replaceMissionTemplate",
-            "summary": "Callback\u0020for\u0020array_walk_recursive\u0020in\u0020Player\u003A\u003ArebuildMission.",
-            "url": "namespaces/default.html#function_replaceMissionTemplate"
-        },                {
-            "fqsen": "\\checkMissionRequirements\u0028\u0029",
-            "name": "checkMissionRequirements",
-            "summary": "",
-            "url": "namespaces/default.html#function_checkMissionRequirements"
-        },                {
             "fqsen": "\\createNHA\u0028\u0029",
             "name": "createNHA",
             "summary": "Create\u0020the\u0020Newbie\u0020Help\u0020Alliance\u0020and\u0020populate\u0020its\u0020Message\u0020Board",
@@ -1316,65 +1296,30 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/Smr-AbstractPlayer.html#method_setDisplayMissions"
         },                {
-            "fqsen": "\\Smr\\AbstractPlayer\u003A\u003AgetMissions\u0028\u0029",
-            "name": "getMissions",
+            "fqsen": "\\Smr\\AbstractPlayer\u003A\u003AgetActiveMissionStates\u0028\u0029",
+            "name": "getActiveMissionStates",
             "summary": "",
-            "url": "classes/Smr-AbstractPlayer.html#method_getMissions"
+            "url": "classes/Smr-AbstractPlayer.html#method_getActiveMissionStates"
         },                {
-            "fqsen": "\\Smr\\AbstractPlayer\u003A\u003AgetActiveMissions\u0028\u0029",
-            "name": "getActiveMissions",
+            "fqsen": "\\Smr\\AbstractPlayer\u003A\u003AgetMissionState\u0028\u0029",
+            "name": "getMissionState",
             "summary": "",
-            "url": "classes/Smr-AbstractPlayer.html#method_getActiveMissions"
-        },                {
-            "fqsen": "\\Smr\\AbstractPlayer\u003A\u003AgetMission\u0028\u0029",
-            "name": "getMission",
-            "summary": "",
-            "url": "classes/Smr-AbstractPlayer.html#method_getMission"
+            "url": "classes/Smr-AbstractPlayer.html#method_getMissionState"
         },                {
             "fqsen": "\\Smr\\AbstractPlayer\u003A\u003AhasMission\u0028\u0029",
             "name": "hasMission",
             "summary": "",
             "url": "classes/Smr-AbstractPlayer.html#method_hasMission"
         },                {
-            "fqsen": "\\Smr\\AbstractPlayer\u003A\u003AupdateMission\u0028\u0029",
-            "name": "updateMission",
-            "summary": "",
-            "url": "classes/Smr-AbstractPlayer.html#method_updateMission"
-        },                {
-            "fqsen": "\\Smr\\AbstractPlayer\u003A\u003AsetupMissionStep\u0028\u0029",
-            "name": "setupMissionStep",
-            "summary": "",
-            "url": "classes/Smr-AbstractPlayer.html#method_setupMissionStep"
-        },                {
-            "fqsen": "\\Smr\\AbstractPlayer\u003A\u003AdeclineMission\u0028\u0029",
-            "name": "declineMission",
-            "summary": "Declining\u0020a\u0020mission\u0020will\u0020permanently\u0020hide\u0020it\u0020from\u0020the\u0020player\nby\u0020adding\u0020it\u0020in\u0020its\u0020completed\u0020state.",
-            "url": "classes/Smr-AbstractPlayer.html#method_declineMission"
-        },                {
             "fqsen": "\\Smr\\AbstractPlayer\u003A\u003AaddMission\u0028\u0029",
             "name": "addMission",
             "summary": "",
             "url": "classes/Smr-AbstractPlayer.html#method_addMission"
         },                {
-            "fqsen": "\\Smr\\AbstractPlayer\u003A\u003ArebuildMission\u0028\u0029",
-            "name": "rebuildMission",
-            "summary": "",
-            "url": "classes/Smr-AbstractPlayer.html#method_rebuildMission"
-        },                {
-            "fqsen": "\\Smr\\AbstractPlayer\u003A\u003AdeleteMission\u0028\u0029",
-            "name": "deleteMission",
-            "summary": "",
-            "url": "classes/Smr-AbstractPlayer.html#method_deleteMission"
-        },                {
-            "fqsen": "\\Smr\\AbstractPlayer\u003A\u003AmarkMissionsRead\u0028\u0029",
-            "name": "markMissionsRead",
-            "summary": "",
-            "url": "classes/Smr-AbstractPlayer.html#method_markMissionsRead"
-        },                {
-            "fqsen": "\\Smr\\AbstractPlayer\u003A\u003AclaimMissionReward\u0028\u0029",
-            "name": "claimMissionReward",
-            "summary": "",
-            "url": "classes/Smr-AbstractPlayer.html#method_claimMissionReward"
+            "fqsen": "\\Smr\\AbstractPlayer\u003A\u003AdeclineMission\u0028\u0029",
+            "name": "declineMission",
+            "summary": "Declining\u0020a\u0020mission\u0020will\u0020permanently\u0020hide\u0020it\u0020from\u0020the\u0020player\nby\u0020adding\u0020it\u0020in\u0020its\u0020completed\u0020state.",
+            "url": "classes/Smr-AbstractPlayer.html#method_declineMission"
         },                {
             "fqsen": "\\Smr\\AbstractPlayer\u003A\u003AgetAvailableMissions\u0028\u0029",
             "name": "getAvailableMissions",
@@ -1388,7 +1333,7 @@ Search.appendIndex(
         },                {
             "fqsen": "\\Smr\\AbstractPlayer\u003A\u003AactionTaken\u0028\u0029",
             "name": "actionTaken",
-            "summary": "",
+            "summary": "Check\u0020if\u0020a\u0020taken\u0020action\u0020satisfies\u0020any\u0020active\u0020mission\u0020requirements.",
             "url": "classes/Smr-AbstractPlayer.html#method_actionTaken"
         },                {
             "fqsen": "\\Smr\\AbstractPlayer\u003A\u003AcanSeeAny\u0028\u0029",
@@ -1725,11 +1670,6 @@ Search.appendIndex(
             "name": "lastCPLAction",
             "summary": "",
             "url": "classes/Smr-AbstractPlayer.html#property_lastCPLAction"
-        },                {
-            "fqsen": "\\Smr\\AbstractPlayer\u003A\u003A\u0024missions",
-            "name": "missions",
-            "summary": "",
-            "url": "classes/Smr-AbstractPlayer.html#property_missions"
         },                {
             "fqsen": "\\Smr\\AbstractPlayer\u003A\u003A\u0024tickers",
             "name": "tickers",
@@ -4211,6 +4151,11 @@ Search.appendIndex(
             "summary": "Returns\u0020the\u0020message\u0020displayed\u0020to\u0020the\u0020player\u0020when\u0020they\u0020buy\u0020a\u0020special\nbar\u0020drink\u0020with\u0020the\u0020given\u0020name.",
             "url": "classes/Smr-BarDrink.html#method_getSpecialMessage"
         },                {
+            "fqsen": "\\Smr\\BarDrink\u003A\u003AgetRacialDrink\u0028\u0029",
+            "name": "getRacialDrink",
+            "summary": "Returns\u0020the\u0020name\u0020of\u0020the\u0020drink\u0020associated\u0020with\u0020the\u0020given\u0020race.",
+            "url": "classes/Smr-BarDrink.html#method_getRacialDrink"
+        },                {
             "fqsen": "\\Smr\\BarDrink\u003A\u003AgetAll\u0028\u0029",
             "name": "getAll",
             "summary": "Returns\u0020the\u0020entire\u0020list\u0020of\u0020bar\u0020drinks.",
@@ -4221,25 +4166,30 @@ Search.appendIndex(
             "summary": "Returns\u0020the\u0020list\u0020of\u0020special\u0020bar\u0020drinks.",
             "url": "classes/Smr-BarDrink.html#method_getSpecial"
         },                {
+            "fqsen": "\\Smr\\BarDrink\u003A\u003AgetRacial\u0028\u0029",
+            "name": "getRacial",
+            "summary": "Returns\u0020the\u0020list\u0020of\u0020racial\u0020bar\u0020drinks.",
+            "url": "classes/Smr-BarDrink.html#method_getRacial"
+        },                {
             "fqsen": "\\Smr\\BarDrink\u003A\u003AgetCommon\u0028\u0029",
             "name": "getCommon",
             "summary": "Returns\u0020the\u0020bar\u0020drink\u0020list\u0020with\u0020special\u0020drinks\u0020removed.",
             "url": "classes/Smr-BarDrink.html#method_getCommon"
         },                {
-            "fqsen": "\\Smr\\BarDrink\u003A\u003ASALVENE_SWAMP_SODA",
-            "name": "SALVENE_SWAMP_SODA",
+            "fqsen": "\\Smr\\BarDrink\u003A\u003ABASIC_DRINKS",
+            "name": "BASIC_DRINKS",
             "summary": "",
-            "url": "classes/Smr-BarDrink.html#constant_SALVENE_SWAMP_SODA"
+            "url": "classes/Smr-BarDrink.html#constant_BASIC_DRINKS"
         },                {
-            "fqsen": "\\Smr\\BarDrink\u003A\u003ADRINK_NAMES",
-            "name": "DRINK_NAMES",
+            "fqsen": "\\Smr\\BarDrink\u003A\u003ARACIAL_DRINKS",
+            "name": "RACIAL_DRINKS",
             "summary": "",
-            "url": "classes/Smr-BarDrink.html#constant_DRINK_NAMES"
+            "url": "classes/Smr-BarDrink.html#constant_RACIAL_DRINKS"
         },                {
-            "fqsen": "\\Smr\\BarDrink\u003A\u003ASPECIAL_DRINK_MESSAGES",
-            "name": "SPECIAL_DRINK_MESSAGES",
+            "fqsen": "\\Smr\\BarDrink\u003A\u003ASPECIAL_DRINKS",
+            "name": "SPECIAL_DRINKS",
             "summary": "",
-            "url": "classes/Smr-BarDrink.html#constant_SPECIAL_DRINK_MESSAGES"
+            "url": "classes/Smr-BarDrink.html#constant_SPECIAL_DRINKS"
         },                {
             "fqsen": "\\Smr\\Blackjack\\Card",
             "name": "Card",
@@ -7226,6 +7176,16 @@ Search.appendIndex(
             "summary": "Exception\u0020thrown\u0020when\u0020a\u0020game\u0020cannot\u0020be\u0020found\u0020in\u0020the\u0020database",
             "url": "classes/Smr-Exceptions-GameNotFound.html"
         },                {
+            "fqsen": "\\Smr\\Exceptions\\MissionNotPossible",
+            "name": "MissionNotPossible",
+            "summary": "Exception\u0020thrown\u0020when\u0020a\u0020Mission\u0020is\u0020not\u0020able\u0020to\u0020be\u0020completed\n\u0028e.g.\u0020if\u0020a\u0020required\u0020location\u0020does\u0020not\u0020exist\u0020in\u0020the\u0020game\u0029.",
+            "url": "classes/Smr-Exceptions-MissionNotPossible.html"
+        },                {
+            "fqsen": "\\Smr\\Exceptions\\MissionStepNotFound",
+            "name": "MissionStepNotFound",
+            "summary": "Exception\u0020thrown\u0020when\u0020we\u0020query\u0020the\u0020step\u0020of\u0020a\u0020Mission\u0020that\u0020does\nnot\u0020exist\u0020\u0028e.g.\u0020checking\u0020to\u0020see\u0020if\u0020the\u0020Mission\u0020is\u0020complete\u0029.",
+            "url": "classes/Smr-Exceptions-MissionStepNotFound.html"
+        },                {
             "fqsen": "\\Smr\\Exceptions\\PathNotFound",
             "name": "PathNotFound",
             "summary": "Exception\u0020thrown\u0020when\u0020Plotter\u0020cannot\u0020find\u0020a\u0020Path",
@@ -9230,6 +9190,346 @@ Search.appendIndex(
             "name": "getMessagePlayer",
             "summary": "",
             "url": "classes/Smr-Messages.html#method_getMessagePlayer"
+        },                {
+            "fqsen": "\\Smr\\Mission",
+            "name": "Mission",
+            "summary": "",
+            "url": "classes/Smr-Mission.html"
+        },                {
+            "fqsen": "\\Smr\\Mission\u003A\u003AgetMissionID\u0028\u0029",
+            "name": "getMissionID",
+            "summary": "Look\u0020up\u0020the\u0020mission\u0020ID\u0020for\u0020this\u0020Mission\u0020instance\u0020based\u0020on\u0020the\u0020class.",
+            "url": "classes/Smr-Mission.html#method_getMissionID"
+        },                {
+            "fqsen": "\\Smr\\Mission\u003A\u003A__construct\u0028\u0029",
+            "name": "__construct",
+            "summary": "",
+            "url": "classes/Smr-Mission.html#method___construct"
+        },                {
+            "fqsen": "\\Smr\\Mission\u003A\u003AclaimReward\u0028\u0029",
+            "name": "claimReward",
+            "summary": "Bestows\u0020the\u0020reward\u0020to\u0020the\u0020player\u0020upon\u0020completion.",
+            "url": "classes/Smr-Mission.html#method_claimReward"
+        },                {
+            "fqsen": "\\Smr\\Mission\u003A\u003AgetFirstMessage\u0028\u0029",
+            "name": "getFirstMessage",
+            "summary": "Get\u0020the\u0020prompt\u0020to\u0020display\u0020if\u0020the\u0020Mission\u0020is\u0020available\u0020to\u0020the\u0020player.",
+            "url": "classes/Smr-Mission.html#method_getFirstMessage"
+        },                {
+            "fqsen": "\\Smr\\Mission\u003A\u003Areward\u0028\u0029",
+            "name": "reward",
+            "summary": "",
+            "url": "classes/Smr-Mission.html#method_reward"
+        },                {
+            "fqsen": "\\Smr\\Mission\u003A\u003AisAvailableToPlayer\u0028\u0029",
+            "name": "isAvailableToPlayer",
+            "summary": "Is\u0020the\u0020player\u0020eligible\u0020to\u0020accept\u0020the\u0020mission\u0020in\u0020their\u0020current\u0020state\u003F",
+            "url": "classes/Smr-Mission.html#method_isAvailableToPlayer"
+        },                {
+            "fqsen": "\\Smr\\Mission\u003A\u003AgetStep\u0028\u0029",
+            "name": "getStep",
+            "summary": "Get\u0020the\u0020details\u0020of\u0020the\u0020current\u0020Mission\u0020step.",
+            "url": "classes/Smr-Mission.html#method_getStep"
+        },                {
+            "fqsen": "\\Smr\\Mission\u003A\u003AMISSIONS",
+            "name": "MISSIONS",
+            "summary": "",
+            "url": "classes/Smr-Mission.html#constant_MISSIONS"
+        },                {
+            "fqsen": "\\Smr\\MissionAction",
+            "name": "MissionAction",
+            "summary": "Data\u0020class\u0020defining\u0020actions\u0020that\u0020can\u0020be\u0020used\u0020to\u0020see\u0020if\u0020a\u0020MissionStep\nrequirement\u0020is\u0020met.",
+            "url": "classes/Smr-MissionAction.html"
+        },                {
+            "fqsen": "\\Smr\\MissionActions\\BuyDrink",
+            "name": "BuyDrink",
+            "summary": "Data\u0020class\u0020defining\u0020actions\u0020that\u0020can\u0020be\u0020used\u0020to\u0020see\u0020if\u0020a\u0020MissionStep\nrequirement\u0020is\u0020met.",
+            "url": "classes/Smr-MissionActions-BuyDrink.html"
+        },                {
+            "fqsen": "\\Smr\\MissionActions\\BuyDrink\u003A\u003A__construct\u0028\u0029",
+            "name": "__construct",
+            "summary": "",
+            "url": "classes/Smr-MissionActions-BuyDrink.html#method___construct"
+        },                {
+            "fqsen": "\\Smr\\MissionActions\\BuyDrink\u003A\u003A\u0024sectorID",
+            "name": "sectorID",
+            "summary": "",
+            "url": "classes/Smr-MissionActions-BuyDrink.html#property_sectorID"
+        },                {
+            "fqsen": "\\Smr\\MissionActions\\BuyDrink\u003A\u003A\u0024drink",
+            "name": "drink",
+            "summary": "",
+            "url": "classes/Smr-MissionActions-BuyDrink.html#property_drink"
+        },                {
+            "fqsen": "\\Smr\\MissionActions\\ClaimReward",
+            "name": "ClaimReward",
+            "summary": "Data\u0020class\u0020defining\u0020actions\u0020that\u0020can\u0020be\u0020used\u0020to\u0020see\u0020if\u0020a\u0020MissionStep\nrequirement\u0020is\u0020met.",
+            "url": "classes/Smr-MissionActions-ClaimReward.html"
+        },                {
+            "fqsen": "\\Smr\\MissionActions\\ClaimReward\u003A\u003A__construct\u0028\u0029",
+            "name": "__construct",
+            "summary": "",
+            "url": "classes/Smr-MissionActions-ClaimReward.html#method___construct"
+        },                {
+            "fqsen": "\\Smr\\MissionActions\\ClaimReward\u003A\u003A\u0024sectorID",
+            "name": "sectorID",
+            "summary": "",
+            "url": "classes/Smr-MissionActions-ClaimReward.html#property_sectorID"
+        },                {
+            "fqsen": "\\Smr\\MissionActions\\EnterSector",
+            "name": "EnterSector",
+            "summary": "Data\u0020class\u0020defining\u0020actions\u0020that\u0020can\u0020be\u0020used\u0020to\u0020see\u0020if\u0020a\u0020MissionStep\nrequirement\u0020is\u0020met.",
+            "url": "classes/Smr-MissionActions-EnterSector.html"
+        },                {
+            "fqsen": "\\Smr\\MissionActions\\EnterSector\u003A\u003A__construct\u0028\u0029",
+            "name": "__construct",
+            "summary": "",
+            "url": "classes/Smr-MissionActions-EnterSector.html#method___construct"
+        },                {
+            "fqsen": "\\Smr\\MissionActions\\EnterSector\u003A\u003A\u0024sectorID",
+            "name": "sectorID",
+            "summary": "",
+            "url": "classes/Smr-MissionActions-EnterSector.html#property_sectorID"
+        },                {
+            "fqsen": "\\Smr\\Missions\\DrunkGuy",
+            "name": "DrunkGuy",
+            "summary": "",
+            "url": "classes/Smr-Missions-DrunkGuy.html"
+        },                {
+            "fqsen": "\\Smr\\Missions\\DrunkGuy\u003A\u003AisAvailableToPlayer\u0028\u0029",
+            "name": "isAvailableToPlayer",
+            "summary": "Is\u0020the\u0020player\u0020eligible\u0020to\u0020accept\u0020the\u0020mission\u0020in\u0020their\u0020current\u0020state\u003F",
+            "url": "classes/Smr-Missions-DrunkGuy.html#method_isAvailableToPlayer"
+        },                {
+            "fqsen": "\\Smr\\Missions\\DrunkGuy\u003A\u003A__construct\u0028\u0029",
+            "name": "__construct",
+            "summary": "",
+            "url": "classes/Smr-Missions-DrunkGuy.html#method___construct"
+        },                {
+            "fqsen": "\\Smr\\Missions\\DrunkGuy\u003A\u003ApickSector\u0028\u0029",
+            "name": "pickSector",
+            "summary": "",
+            "url": "classes/Smr-Missions-DrunkGuy.html#method_pickSector"
+        },                {
+            "fqsen": "\\Smr\\Missions\\DrunkGuy\u003A\u003AgetStep\u0028\u0029",
+            "name": "getStep",
+            "summary": "Get\u0020the\u0020details\u0020of\u0020the\u0020current\u0020Mission\u0020step.",
+            "url": "classes/Smr-Missions-DrunkGuy.html#method_getStep"
+        },                {
+            "fqsen": "\\Smr\\Missions\\DrunkGuy\u003A\u003Areward\u0028\u0029",
+            "name": "reward",
+            "summary": "",
+            "url": "classes/Smr-Missions-DrunkGuy.html#method_reward"
+        },                {
+            "fqsen": "\\Smr\\Missions\\DrunkGuy\u003A\u003AREWARD_CREDITS",
+            "name": "REWARD_CREDITS",
+            "summary": "",
+            "url": "classes/Smr-Missions-DrunkGuy.html#constant_REWARD_CREDITS"
+        },                {
+            "fqsen": "\\Smr\\Missions\\DrunkGuy\u003A\u003AREWARD_EXP",
+            "name": "REWARD_EXP",
+            "summary": "",
+            "url": "classes/Smr-Missions-DrunkGuy.html#constant_REWARD_EXP"
+        },                {
+            "fqsen": "\\Smr\\Missions\\DrunkGuy\u003A\u003A\u0024gameID",
+            "name": "gameID",
+            "summary": "",
+            "url": "classes/Smr-Missions-DrunkGuy.html#property_gameID"
+        },                {
+            "fqsen": "\\Smr\\Missions\\DrunkGuy\u003A\u003A\u0024startSectorID",
+            "name": "startSectorID",
+            "summary": "",
+            "url": "classes/Smr-Missions-DrunkGuy.html#property_startSectorID"
+        },                {
+            "fqsen": "\\Smr\\Missions\\DrunkGuy\u003A\u003A\u0024raceName",
+            "name": "raceName",
+            "summary": "",
+            "url": "classes/Smr-Missions-DrunkGuy.html#property_raceName"
+        },                {
+            "fqsen": "\\Smr\\Missions\\DrunkGuy\u003A\u003A\u0024drinkName",
+            "name": "drinkName",
+            "summary": "",
+            "url": "classes/Smr-Missions-DrunkGuy.html#property_drinkName"
+        },                {
+            "fqsen": "\\Smr\\Missions\\DrunkGuy\u003A\u003A\u0024hqSectorID",
+            "name": "hqSectorID",
+            "summary": "",
+            "url": "classes/Smr-Missions-DrunkGuy.html#property_hqSectorID"
+        },                {
+            "fqsen": "\\Smr\\Missions\\DrunkGuy\u003A\u003A\u0024barSectorID",
+            "name": "barSectorID",
+            "summary": "",
+            "url": "classes/Smr-Missions-DrunkGuy.html#property_barSectorID"
+        },                {
+            "fqsen": "\\Smr\\MissionState",
+            "name": "MissionState",
+            "summary": "",
+            "url": "classes/Smr-MissionState.html"
+        },                {
+            "fqsen": "\\Smr\\MissionState\u003A\u003AsaveMissionStates\u0028\u0029",
+            "name": "saveMissionStates",
+            "summary": "",
+            "url": "classes/Smr-MissionState.html#method_saveMissionStates"
+        },                {
+            "fqsen": "\\Smr\\MissionState\u003A\u003AclearCache\u0028\u0029",
+            "name": "clearCache",
+            "summary": "",
+            "url": "classes/Smr-MissionState.html#method_clearCache"
+        },                {
+            "fqsen": "\\Smr\\MissionState\u003A\u003AgetPlayerMissionStates\u0028\u0029",
+            "name": "getPlayerMissionStates",
+            "summary": "Get\u0020existing\u0020missions\u0020for\u0020the\u0020given\u0020player.",
+            "url": "classes/Smr-MissionState.html#method_getPlayerMissionStates"
+        },                {
+            "fqsen": "\\Smr\\MissionState\u003A\u003AaddPlayerMission\u0028\u0029",
+            "name": "addPlayerMission",
+            "summary": "Add\u0020a\u0020new\u0020mission\u0020for\u0020the\u0020given\u0020player.",
+            "url": "classes/Smr-MissionState.html#method_addPlayerMission"
+        },                {
+            "fqsen": "\\Smr\\MissionState\u003A\u003AgetFromRecord\u0028\u0029",
+            "name": "getFromRecord",
+            "summary": "",
+            "url": "classes/Smr-MissionState.html#method_getFromRecord"
+        },                {
+            "fqsen": "\\Smr\\MissionState\u003A\u003A__construct\u0028\u0029",
+            "name": "__construct",
+            "summary": "",
+            "url": "classes/Smr-MissionState.html#method___construct"
+        },                {
+            "fqsen": "\\Smr\\MissionState\u003A\u003Aupdate\u0028\u0029",
+            "name": "update",
+            "summary": "",
+            "url": "classes/Smr-MissionState.html#method_update"
+        },                {
+            "fqsen": "\\Smr\\MissionState\u003A\u003Adelete\u0028\u0029",
+            "name": "delete",
+            "summary": "",
+            "url": "classes/Smr-MissionState.html#method_delete"
+        },                {
+            "fqsen": "\\Smr\\MissionState\u003A\u003AmarkComplete\u0028\u0029",
+            "name": "markComplete",
+            "summary": "",
+            "url": "classes/Smr-MissionState.html#method_markComplete"
+        },                {
+            "fqsen": "\\Smr\\MissionState\u003A\u003AmarkRead\u0028\u0029",
+            "name": "markRead",
+            "summary": "",
+            "url": "classes/Smr-MissionState.html#method_markRead"
+        },                {
+            "fqsen": "\\Smr\\MissionState\u003A\u003AadvanceToNextStep\u0028\u0029",
+            "name": "advanceToNextStep",
+            "summary": "",
+            "url": "classes/Smr-MissionState.html#method_advanceToNextStep"
+        },                {
+            "fqsen": "\\Smr\\MissionState\u003A\u003AhasClaimableReward\u0028\u0029",
+            "name": "hasClaimableReward",
+            "summary": "",
+            "url": "classes/Smr-MissionState.html#method_hasClaimableReward"
+        },                {
+            "fqsen": "\\Smr\\MissionState\u003A\u003AisComplete\u0028\u0029",
+            "name": "isComplete",
+            "summary": "",
+            "url": "classes/Smr-MissionState.html#method_isComplete"
+        },                {
+            "fqsen": "\\Smr\\MissionState\u003A\u003AgetUnreadMessage\u0028\u0029",
+            "name": "getUnreadMessage",
+            "summary": "",
+            "url": "classes/Smr-MissionState.html#method_getUnreadMessage"
+        },                {
+            "fqsen": "\\Smr\\MissionState\u003A\u003AgetTask\u0028\u0029",
+            "name": "getTask",
+            "summary": "",
+            "url": "classes/Smr-MissionState.html#method_getTask"
+        },                {
+            "fqsen": "\\Smr\\MissionState\u003A\u003AgetStep\u0028\u0029",
+            "name": "getStep",
+            "summary": "",
+            "url": "classes/Smr-MissionState.html#method_getStep"
+        },                {
+            "fqsen": "\\Smr\\MissionState\u003A\u003AisRequirementMet\u0028\u0029",
+            "name": "isRequirementMet",
+            "summary": "",
+            "url": "classes/Smr-MissionState.html#method_isRequirementMet"
+        },                {
+            "fqsen": "\\Smr\\MissionState\u003A\u003AcheckAction\u0028\u0029",
+            "name": "checkAction",
+            "summary": "Check\u0020if\u0020an\u0020action\u0020satisfies\u0020the\u0020requirement\u0020for\u0020the\u0020current\u0020step,\nand\u0020if\u0020it\u0020does,\u0020advance\u0020to\u0020the\u0020next\u0020step.",
+            "url": "classes/Smr-MissionState.html#method_checkAction"
+        },                {
+            "fqsen": "\\Smr\\MissionState\u003A\u003A\u0024CACHE",
+            "name": "CACHE",
+            "summary": "",
+            "url": "classes/Smr-MissionState.html#property_CACHE"
+        },                {
+            "fqsen": "\\Smr\\MissionState\u003A\u003A\u0024accountID",
+            "name": "accountID",
+            "summary": "",
+            "url": "classes/Smr-MissionState.html#property_accountID"
+        },                {
+            "fqsen": "\\Smr\\MissionState\u003A\u003A\u0024gameID",
+            "name": "gameID",
+            "summary": "",
+            "url": "classes/Smr-MissionState.html#property_gameID"
+        },                {
+            "fqsen": "\\Smr\\MissionState\u003A\u003A\u0024missionID",
+            "name": "missionID",
+            "summary": "",
+            "url": "classes/Smr-MissionState.html#property_missionID"
+        },                {
+            "fqsen": "\\Smr\\MissionState\u003A\u003A\u0024mission",
+            "name": "mission",
+            "summary": "",
+            "url": "classes/Smr-MissionState.html#property_mission"
+        },                {
+            "fqsen": "\\Smr\\MissionState\u003A\u003A\u0024onStep",
+            "name": "onStep",
+            "summary": "",
+            "url": "classes/Smr-MissionState.html#property_onStep"
+        },                {
+            "fqsen": "\\Smr\\MissionState\u003A\u003A\u0024unread",
+            "name": "unread",
+            "summary": "",
+            "url": "classes/Smr-MissionState.html#property_unread"
+        },                {
+            "fqsen": "\\Smr\\MissionState\u003A\u003A\u0024expires",
+            "name": "expires",
+            "summary": "",
+            "url": "classes/Smr-MissionState.html#property_expires"
+        },                {
+            "fqsen": "\\Smr\\MissionState\u003A\u003A\u0024complete",
+            "name": "complete",
+            "summary": "",
+            "url": "classes/Smr-MissionState.html#property_complete"
+        },                {
+            "fqsen": "\\Smr\\MissionState\u003A\u003A\u0024hasChanged",
+            "name": "hasChanged",
+            "summary": "",
+            "url": "classes/Smr-MissionState.html#property_hasChanged"
+        },                {
+            "fqsen": "\\Smr\\MissionStep",
+            "name": "MissionStep",
+            "summary": "",
+            "url": "classes/Smr-MissionStep.html"
+        },                {
+            "fqsen": "\\Smr\\MissionStep\u003A\u003A__construct\u0028\u0029",
+            "name": "__construct",
+            "summary": "",
+            "url": "classes/Smr-MissionStep.html#method___construct"
+        },                {
+            "fqsen": "\\Smr\\MissionStep\u003A\u003A\u0024requirement",
+            "name": "requirement",
+            "summary": "",
+            "url": "classes/Smr-MissionStep.html#property_requirement"
+        },                {
+            "fqsen": "\\Smr\\MissionStep\u003A\u003A\u0024message",
+            "name": "message",
+            "summary": "",
+            "url": "classes/Smr-MissionStep.html#property_message"
+        },                {
+            "fqsen": "\\Smr\\MissionStep\u003A\u003A\u0024task",
+            "name": "task",
+            "summary": "",
+            "url": "classes/Smr-MissionStep.html#property_task"
         },                {
             "fqsen": "\\Smr\\MovementType",
             "name": "MovementType",
@@ -14510,6 +14810,16 @@ Search.appendIndex(
             "name": "Login",
             "summary": "",
             "url": "namespaces/smr-login.html"
+        },                {
+            "fqsen": "\\Smr\\MissionActions",
+            "name": "MissionActions",
+            "summary": "",
+            "url": "namespaces/smr-missionactions.html"
+        },                {
+            "fqsen": "\\Smr\\Missions",
+            "name": "Missions",
+            "summary": "",
+            "url": "namespaces/smr-missions.html"
         },                {
             "fqsen": "\\Smr\\Page",
             "name": "Page",

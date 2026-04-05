@@ -93,6 +93,14 @@
                 
             </li>
                     <li>
+                <a href="namespaces/smr-missionactions.html" class="">MissionActions</a>
+                
+            </li>
+                    <li>
+                <a href="namespaces/smr-missions.html" class="">Missions</a>
+                
+            </li>
+                    <li>
                 <a href="namespaces/smr-page.html" class="">Page</a>
                 
             </li>
@@ -200,20 +208,20 @@
 
 </h4>
 <dl class="phpdocumentor-table-of-contents">
-            <dt class="phpdocumentor-table-of-contents__entry -constant -public">
-    <a class="" href="classes/Smr-BarDrink.html#constant_SALVENE_SWAMP_SODA">SALVENE_SWAMP_SODA</a>
+            <dt class="phpdocumentor-table-of-contents__entry -constant -private">
+    <a class="" href="classes/Smr-BarDrink.html#constant_BASIC_DRINKS">BASIC_DRINKS</a>
     <span>
-        &nbsp;= &#039;Salvene Swamp Soda&#039;                            </span>
+        &nbsp;= [&#039;Big Momma Mojito&#039;, &#039;Cosmic Crush&#039;, &#039;Federal Berry Fizz&#039;, &#039;Flux Punch&#039;, &#039;Holy Hand Squeezed Gimlet&#039;, &#039;Little Julep Torpedo&#039;, &#039;Medium Cargo Cherry Chiller&#039;, &#039;Pod Giver&#039;, &#039;Stellar Side Car&#039;, &#039;Smuggler\&#039;s Salty Swizzler&#039;]                            </span>
 </dt>
 
             <dt class="phpdocumentor-table-of-contents__entry -constant -private">
-    <a class="" href="classes/Smr-BarDrink.html#constant_DRINK_NAMES">DRINK_NAMES</a>
+    <a class="" href="classes/Smr-BarDrink.html#constant_RACIAL_DRINKS">RACIAL_DRINKS</a>
     <span>
-        &nbsp;= [&#039;Spooky Midnight Special&#039;, &#039;Azoolian Sunrise Special&#039;, &#039;Big Momma Mojito&#039;, &#039;Cosmic Crush&#039;, &#039;Federal Berry Fizz&#039;, &#039;Flux Punch&#039;, &#039;Holy Hand Squeezed Gimlet&#039;, &#039;Little Julep Torpedo&#039;, &#039;Medium Cargo Cherry Chiller&#039;, &#039;Pod Giver&#039;, &#039;Stellar Side Car&#039;, &#039;Smuggler\&#039;s Salty Swizzler&#039;, &#039;Alskant Space Shandy&#039;, &#039;Creonti &quot;Big Daiquiri&quot;&#039;, &#039;Human Bourbon Bruiser&#039;, &#039;Ik\&#039;Thorne Buttery Burst&#039;, self::SALVENE_SWAMP_SODA, &#039;Thevian Vodka Vortex&#039;, &#039;West Quadrant Colada&#039;, &#039;Nijarin Ion Martini&#039;]                            </span>
+        &nbsp;= [RACE_ALSKANT =&gt; &#039;Alskant Space Shandy&#039;, RACE_CREONTI =&gt; &#039;Creonti &quot;Big Daiquiri&quot;&#039;, RACE_HUMAN =&gt; &#039;Human Bourbon Bruiser&#039;, RACE_IKTHORNE =&gt; &#039;Ik\&#039;Thorne Buttery Burst&#039;, RACE_SALVENE =&gt; &#039;Salvene Swamp Soda&#039;, RACE_THEVIAN =&gt; &#039;Thevian Vodka Vortex&#039;, RACE_WQHUMAN =&gt; &#039;West Quadrant Colada&#039;, RACE_NIJARIN =&gt; &#039;Nijarin Ion Martini&#039;]                            </span>
 </dt>
 
             <dt class="phpdocumentor-table-of-contents__entry -constant -private">
-    <a class="" href="classes/Smr-BarDrink.html#constant_SPECIAL_DRINK_MESSAGES">SPECIAL_DRINK_MESSAGES</a>
+    <a class="" href="classes/Smr-BarDrink.html#constant_SPECIAL_DRINKS">SPECIAL_DRINKS</a>
     <span>
         &nbsp;= [&#039;Spooky Midnight Special&#039; =&gt; &#039;Suddenly the secrets of the universe become manifestly clear and you are at peace.&#039;, &#039;Azoolian Sunrise Special&#039; =&gt; &#039;At the bottom of the glass, you see a reflection of the best trader in the universe, and it is you.&#039;]                            </span>
 </dt>
@@ -241,6 +249,20 @@
                                 &nbsp;: array&lt;string|int, string&gt;    </span>
 </dt>
 <dd>Returns the bar drink list with special drinks removed.</dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a class="" href="classes/Smr-BarDrink.html#method_getRacial">getRacial()</a>
+    <span>
+                                &nbsp;: array&lt;string|int, string&gt;    </span>
+</dt>
+<dd>Returns the list of racial bar drinks.</dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a class="" href="classes/Smr-BarDrink.html#method_getRacialDrink">getRacialDrink()</a>
+    <span>
+                                &nbsp;: string    </span>
+</dt>
+<dd>Returns the name of the drink associated with the given race.</dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
     <a class="" href="classes/Smr-BarDrink.html#method_getSpecial">getSpecial()</a>
@@ -274,28 +296,28 @@ bar drink with the given name.</dd>
             <a href="classes/Smr-BarDrink.html#constants" class="headerlink"><i class="fas fa-link"></i></a>
 
         </h3>
-                    <article class="phpdocumentor-element -constant -public ">
-    <h4 class="phpdocumentor-element__name" id="constant_SALVENE_SWAMP_SODA">
-        SALVENE_SWAMP_SODA
-        <a href="classes/Smr-BarDrink.html#constant_SALVENE_SWAMP_SODA" class="headerlink"><i class="fas fa-link"></i></a>
+                    <article class="phpdocumentor-element -constant -private ">
+    <h4 class="phpdocumentor-element__name" id="constant_BASIC_DRINKS">
+        BASIC_DRINKS
+        <a href="classes/Smr-BarDrink.html#constant_BASIC_DRINKS" class="headerlink"><i class="fas fa-link"></i></a>
 
     </h4>
 
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/BarDrink.php"><a href="files/src-lib-smr-bardrink.html"><abbr title="src/lib/Smr/BarDrink.php">BarDrink.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">11</span>
+    <span class="phpdocumentor-element-found-in__line">10</span>
 
-            <a href="classes/Smr-BarDrink.html#source-view.11" class="phpdocumentor-element-found-in__source" data-line="11" data-modal="source-view" data-src="files/src/lib/Smr/BarDrink.php.txt"></a>
+            <a href="classes/Smr-BarDrink.html#source-view.10" class="phpdocumentor-element-found-in__source" data-line="10" data-modal="source-view" data-src="files/src/lib/Smr/BarDrink.php.txt"></a>
     </aside>
 
     
     
     <code class="phpdocumentor-signature phpdocumentor-code ">
-    <span class="phpdocumentor-signature__visibility">public</span>
+    <span class="phpdocumentor-signature__visibility">private</span>
         <span class="phpdocumentor-signature__type">mixed</span>
-    <span class="phpdocumentor-signature__name">SALVENE_SWAMP_SODA</span>
-    = <span class="phpdocumentor-signature__default-value">&#039;Salvene Swamp Soda&#039;</span>
+    <span class="phpdocumentor-signature__name">BASIC_DRINKS</span>
+    = <span class="phpdocumentor-signature__default-value">[&#039;Big Momma Mojito&#039;, &#039;Cosmic Crush&#039;, &#039;Federal Berry Fizz&#039;, &#039;Flux Punch&#039;, &#039;Holy Hand Squeezed Gimlet&#039;, &#039;Little Julep Torpedo&#039;, &#039;Medium Cargo Cherry Chiller&#039;, &#039;Pod Giver&#039;, &#039;Stellar Side Car&#039;, &#039;Smuggler\&#039;s Salty Swizzler&#039;]</span>
 </code>
 
 
@@ -306,18 +328,18 @@ bar drink with the given name.</dd>
         
     </article>
                     <article class="phpdocumentor-element -constant -private ">
-    <h4 class="phpdocumentor-element__name" id="constant_DRINK_NAMES">
-        DRINK_NAMES
-        <a href="classes/Smr-BarDrink.html#constant_DRINK_NAMES" class="headerlink"><i class="fas fa-link"></i></a>
+    <h4 class="phpdocumentor-element__name" id="constant_RACIAL_DRINKS">
+        RACIAL_DRINKS
+        <a href="classes/Smr-BarDrink.html#constant_RACIAL_DRINKS" class="headerlink"><i class="fas fa-link"></i></a>
 
     </h4>
 
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/BarDrink.php"><a href="files/src-lib-smr-bardrink.html"><abbr title="src/lib/Smr/BarDrink.php">BarDrink.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">13</span>
+    <span class="phpdocumentor-element-found-in__line">23</span>
 
-            <a href="classes/Smr-BarDrink.html#source-view.13" class="phpdocumentor-element-found-in__source" data-line="13" data-modal="source-view" data-src="files/src/lib/Smr/BarDrink.php.txt"></a>
+            <a href="classes/Smr-BarDrink.html#source-view.23" class="phpdocumentor-element-found-in__source" data-line="23" data-modal="source-view" data-src="files/src/lib/Smr/BarDrink.php.txt"></a>
     </aside>
 
     
@@ -325,8 +347,8 @@ bar drink with the given name.</dd>
     <code class="phpdocumentor-signature phpdocumentor-code ">
     <span class="phpdocumentor-signature__visibility">private</span>
         <span class="phpdocumentor-signature__type">mixed</span>
-    <span class="phpdocumentor-signature__name">DRINK_NAMES</span>
-    = <span class="phpdocumentor-signature__default-value">[&#039;Spooky Midnight Special&#039;, &#039;Azoolian Sunrise Special&#039;, &#039;Big Momma Mojito&#039;, &#039;Cosmic Crush&#039;, &#039;Federal Berry Fizz&#039;, &#039;Flux Punch&#039;, &#039;Holy Hand Squeezed Gimlet&#039;, &#039;Little Julep Torpedo&#039;, &#039;Medium Cargo Cherry Chiller&#039;, &#039;Pod Giver&#039;, &#039;Stellar Side Car&#039;, &#039;Smuggler\&#039;s Salty Swizzler&#039;, &#039;Alskant Space Shandy&#039;, &#039;Creonti &quot;Big Daiquiri&quot;&#039;, &#039;Human Bourbon Bruiser&#039;, &#039;Ik\&#039;Thorne Buttery Burst&#039;, self::SALVENE_SWAMP_SODA, &#039;Thevian Vodka Vortex&#039;, &#039;West Quadrant Colada&#039;, &#039;Nijarin Ion Martini&#039;]</span>
+    <span class="phpdocumentor-signature__name">RACIAL_DRINKS</span>
+    = <span class="phpdocumentor-signature__default-value">[RACE_ALSKANT =&gt; &#039;Alskant Space Shandy&#039;, RACE_CREONTI =&gt; &#039;Creonti &quot;Big Daiquiri&quot;&#039;, RACE_HUMAN =&gt; &#039;Human Bourbon Bruiser&#039;, RACE_IKTHORNE =&gt; &#039;Ik\&#039;Thorne Buttery Burst&#039;, RACE_SALVENE =&gt; &#039;Salvene Swamp Soda&#039;, RACE_THEVIAN =&gt; &#039;Thevian Vodka Vortex&#039;, RACE_WQHUMAN =&gt; &#039;West Quadrant Colada&#039;, RACE_NIJARIN =&gt; &#039;Nijarin Ion Martini&#039;]</span>
 </code>
 
 
@@ -337,18 +359,18 @@ bar drink with the given name.</dd>
         
     </article>
                     <article class="phpdocumentor-element -constant -private ">
-    <h4 class="phpdocumentor-element__name" id="constant_SPECIAL_DRINK_MESSAGES">
-        SPECIAL_DRINK_MESSAGES
-        <a href="classes/Smr-BarDrink.html#constant_SPECIAL_DRINK_MESSAGES" class="headerlink"><i class="fas fa-link"></i></a>
+    <h4 class="phpdocumentor-element__name" id="constant_SPECIAL_DRINKS">
+        SPECIAL_DRINKS
+        <a href="classes/Smr-BarDrink.html#constant_SPECIAL_DRINKS" class="headerlink"><i class="fas fa-link"></i></a>
 
     </h4>
 
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/BarDrink.php"><a href="files/src-lib-smr-bardrink.html"><abbr title="src/lib/Smr/BarDrink.php">BarDrink.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">36</span>
+    <span class="phpdocumentor-element-found-in__line">34</span>
 
-            <a href="classes/Smr-BarDrink.html#source-view.36" class="phpdocumentor-element-found-in__source" data-line="36" data-modal="source-view" data-src="files/src/lib/Smr/BarDrink.php.txt"></a>
+            <a href="classes/Smr-BarDrink.html#source-view.34" class="phpdocumentor-element-found-in__source" data-line="34" data-modal="source-view" data-src="files/src/lib/Smr/BarDrink.php.txt"></a>
     </aside>
 
     
@@ -356,7 +378,7 @@ bar drink with the given name.</dd>
     <code class="phpdocumentor-signature phpdocumentor-code ">
     <span class="phpdocumentor-signature__visibility">private</span>
         <span class="phpdocumentor-signature__type">mixed</span>
-    <span class="phpdocumentor-signature__name">SPECIAL_DRINK_MESSAGES</span>
+    <span class="phpdocumentor-signature__name">SPECIAL_DRINKS</span>
     = <span class="phpdocumentor-signature__default-value">[&#039;Spooky Midnight Special&#039; =&gt; &#039;Suddenly the secrets of the universe become manifestly clear and you are at peace.&#039;, &#039;Azoolian Sunrise Special&#039; =&gt; &#039;At the bottom of the glass, you see a reflection of the best trader in the universe, and it is you.&#039;]</span>
 </code>
 
@@ -391,9 +413,9 @@ bar drink with the given name.</dd>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/BarDrink.php"><a href="files/src-lib-smr-bardrink.html"><abbr title="src/lib/Smr/BarDrink.php">BarDrink.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">58</span>
+    <span class="phpdocumentor-element-found-in__line">63</span>
 
-            <a href="classes/Smr-BarDrink.html#source-view.58" class="phpdocumentor-element-found-in__source" data-line="58" data-modal="source-view" data-src="files/src/lib/Smr/BarDrink.php.txt"></a>
+            <a href="classes/Smr-BarDrink.html#source-view.63" class="phpdocumentor-element-found-in__source" data-line="63" data-modal="source-view" data-src="files/src/lib/Smr/BarDrink.php.txt"></a>
     </aside>
 
         <p class="phpdocumentor-summary">Returns the entire list of bar drinks.</p>
@@ -431,9 +453,9 @@ bar drink with the given name.</dd>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/BarDrink.php"><a href="files/src-lib-smr-bardrink.html"><abbr title="src/lib/Smr/BarDrink.php">BarDrink.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">76</span>
+    <span class="phpdocumentor-element-found-in__line">94</span>
 
-            <a href="classes/Smr-BarDrink.html#source-view.76" class="phpdocumentor-element-found-in__source" data-line="76" data-modal="source-view" data-src="files/src/lib/Smr/BarDrink.php.txt"></a>
+            <a href="classes/Smr-BarDrink.html#source-view.94" class="phpdocumentor-element-found-in__source" data-line="94" data-modal="source-view" data-src="files/src/lib/Smr/BarDrink.php.txt"></a>
     </aside>
 
         <p class="phpdocumentor-summary">Returns the bar drink list with special drinks removed.</p>
@@ -463,6 +485,96 @@ bar drink with the given name.</dd>
             -public
                                     -static                    "
 >
+    <h4 class="phpdocumentor-element__name" id="method_getRacial">
+        getRacial()
+        <a href="classes/Smr-BarDrink.html#method_getRacial" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/BarDrink.php"><a href="files/src-lib-smr-bardrink.html"><abbr title="src/lib/Smr/BarDrink.php">BarDrink.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">85</span>
+
+            <a href="classes/Smr-BarDrink.html#source-view.85" class="phpdocumentor-element-found-in__source" data-line="85" data-modal="source-view" data-src="files/src/lib/Smr/BarDrink.php.txt"></a>
+    </aside>
+
+        <p class="phpdocumentor-summary">Returns the list of racial bar drinks.</p>
+
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+            <span class="phpdocumentor-signature__static">static</span>        <span class="phpdocumentor-signature__name">getRacial</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">array&lt;string|int, string&gt;</span></code>
+
+    <div class="phpdocumentor-label-line">
+        </div>
+    
+    
+    
+    
+
+        
+    
+            <section>
+        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
+        <span class="phpdocumentor-signature__response_type">array&lt;string|int, string&gt;</span>
+            </section>
+
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                    -static                    "
+>
+    <h4 class="phpdocumentor-element__name" id="method_getRacialDrink">
+        getRacialDrink()
+        <a href="classes/Smr-BarDrink.html#method_getRacialDrink" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/BarDrink.php"><a href="files/src-lib-smr-bardrink.html"><abbr title="src/lib/Smr/BarDrink.php">BarDrink.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">54</span>
+
+            <a href="classes/Smr-BarDrink.html#source-view.54" class="phpdocumentor-element-found-in__source" data-line="54" data-modal="source-view" data-src="files/src/lib/Smr/BarDrink.php.txt"></a>
+    </aside>
+
+        <p class="phpdocumentor-summary">Returns the name of the drink associated with the given race.</p>
+
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+            <span class="phpdocumentor-signature__static">static</span>        <span class="phpdocumentor-signature__name">getRacialDrink</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__type">int&nbsp;</span><span class="phpdocumentor-signature__argument__name">$raceID</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">string</span></code>
+
+    <div class="phpdocumentor-label-line">
+        </div>
+    
+    
+        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
+    <dl class="phpdocumentor-argument-list">
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-argument-list__argument__name">$raceID</span>
+                : <span class="phpdocumentor-argument-list__argument__type">int</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                
+            </dd>
+            </dl>
+
+    
+
+        
+    
+            <section>
+        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
+        <span class="phpdocumentor-signature__response_type">string</span>
+            </section>
+
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                    -static                    "
+>
     <h4 class="phpdocumentor-element__name" id="method_getSpecial">
         getSpecial()
         <a href="classes/Smr-BarDrink.html#method_getSpecial" class="headerlink"><i class="fas fa-link"></i></a>
@@ -471,9 +583,9 @@ bar drink with the given name.</dd>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/BarDrink.php"><a href="files/src-lib-smr-bardrink.html"><abbr title="src/lib/Smr/BarDrink.php">BarDrink.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">67</span>
+    <span class="phpdocumentor-element-found-in__line">76</span>
 
-            <a href="classes/Smr-BarDrink.html#source-view.67" class="phpdocumentor-element-found-in__source" data-line="67" data-modal="source-view" data-src="files/src/lib/Smr/BarDrink.php.txt"></a>
+            <a href="classes/Smr-BarDrink.html#source-view.76" class="phpdocumentor-element-found-in__source" data-line="76" data-modal="source-view" data-src="files/src/lib/Smr/BarDrink.php.txt"></a>
     </aside>
 
         <p class="phpdocumentor-summary">Returns the list of special bar drinks.</p>
@@ -511,9 +623,9 @@ bar drink with the given name.</dd>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/BarDrink.php"><a href="files/src-lib-smr-bardrink.html"><abbr title="src/lib/Smr/BarDrink.php">BarDrink.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">49</span>
+    <span class="phpdocumentor-element-found-in__line">47</span>
 
-            <a href="classes/Smr-BarDrink.html#source-view.49" class="phpdocumentor-element-found-in__source" data-line="49" data-modal="source-view" data-src="files/src/lib/Smr/BarDrink.php.txt"></a>
+            <a href="classes/Smr-BarDrink.html#source-view.47" class="phpdocumentor-element-found-in__source" data-line="47" data-modal="source-view" data-src="files/src/lib/Smr/BarDrink.php.txt"></a>
     </aside>
 
         <p class="phpdocumentor-summary">Returns the message displayed to the player when they buy a special
@@ -562,9 +674,9 @@ bar drink with the given name.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/BarDrink.php"><a href="files/src-lib-smr-bardrink.html"><abbr title="src/lib/Smr/BarDrink.php">BarDrink.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">41</span>
+    <span class="phpdocumentor-element-found-in__line">39</span>
 
-            <a href="classes/Smr-BarDrink.html#source-view.41" class="phpdocumentor-element-found-in__source" data-line="41" data-modal="source-view" data-src="files/src/lib/Smr/BarDrink.php.txt"></a>
+            <a href="classes/Smr-BarDrink.html#source-view.39" class="phpdocumentor-element-found-in__source" data-line="39" data-modal="source-view" data-src="files/src/lib/Smr/BarDrink.php.txt"></a>
     </aside>
 
     
@@ -711,9 +823,9 @@ bar drink with the given name.</p>
                             <li class="phpdocumentor-on-this-page-section__title">Constants</li>
                 <li>
                     <ul class="phpdocumentor-list -clean">
-                                                    <li class=""><a href="classes/Smr-BarDrink.html#constant_SALVENE_SWAMP_SODA">SALVENE_SWAMP_SODA</a></li>
-                                                    <li class=""><a href="classes/Smr-BarDrink.html#constant_DRINK_NAMES">DRINK_NAMES</a></li>
-                                                    <li class=""><a href="classes/Smr-BarDrink.html#constant_SPECIAL_DRINK_MESSAGES">SPECIAL_DRINK_MESSAGES</a></li>
+                                                    <li class=""><a href="classes/Smr-BarDrink.html#constant_BASIC_DRINKS">BASIC_DRINKS</a></li>
+                                                    <li class=""><a href="classes/Smr-BarDrink.html#constant_RACIAL_DRINKS">RACIAL_DRINKS</a></li>
+                                                    <li class=""><a href="classes/Smr-BarDrink.html#constant_SPECIAL_DRINKS">SPECIAL_DRINKS</a></li>
                                             </ul>
                 </li>
             
@@ -723,6 +835,8 @@ bar drink with the given name.</p>
                 <ul class="phpdocumentor-list -clean">
                                             <li class=""><a href="classes/Smr-BarDrink.html#method_getAll">getAll()</a></li>
                                             <li class=""><a href="classes/Smr-BarDrink.html#method_getCommon">getCommon()</a></li>
+                                            <li class=""><a href="classes/Smr-BarDrink.html#method_getRacial">getRacial()</a></li>
+                                            <li class=""><a href="classes/Smr-BarDrink.html#method_getRacialDrink">getRacialDrink()</a></li>
                                             <li class=""><a href="classes/Smr-BarDrink.html#method_getSpecial">getSpecial()</a></li>
                                             <li class=""><a href="classes/Smr-BarDrink.html#method_getSpecialMessage">getSpecialMessage()</a></li>
                                             <li class=""><a href="classes/Smr-BarDrink.html#method_isSpecial">isSpecial()</a></li>

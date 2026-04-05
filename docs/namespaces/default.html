@@ -93,6 +93,14 @@
                 
             </li>
                     <li>
+                <a href="namespaces/smr-missionactions.html" class="">MissionActions</a>
+                
+            </li>
+                    <li>
+                <a href="namespaces/smr-missions.html" class="">Missions</a>
+                
+            </li>
+                    <li>
                 <a href="namespaces/smr-page.html" class="">Page</a>
                 
             </li>
@@ -169,25 +177,6 @@
 
 
 
-<h4 id="toc-constants">
-    Constants
-    <a href="namespaces/default.html#toc-constants" class="headerlink"><i class="fas fa-link"></i></a>
-
-</h4>
-<dl class="phpdocumentor-table-of-contents">
-            <dt class="phpdocumentor-table-of-contents__entry -constant -public">
-    <a class="" href="namespaces/default.html#constant_MISSION_ACTIONS">MISSION_ACTIONS</a>
-    <span>
-        &nbsp;= [&#039;LeaveSector&#039;, &#039;EnterSector&#039;, &#039;WalkSector&#039;, &#039;JoinAlliance&#039;, &#039;LeaveAlliance&#039;, &#039;DisbandAlliance&#039;, &#039;KickPlayer&#039;, &#039;PlayerKicked&#039;, &#039;BuyDrink&#039;]                            </span>
-</dt>
-
-            <dt class="phpdocumentor-table-of-contents__entry -constant -public">
-    <a class="" href="namespaces/default.html#constant_MISSIONS">MISSIONS</a>
-    <span>
-        &nbsp;= [0 =&gt; [&#039;Name&#039; =&gt; &#039;Drunk Guy&#039;, &#039;Offerer&#039; =&gt; &#039;Drunk&#039;, &#039;Time Limit&#039; =&gt; 0, &#039;HasX&#039; =&gt; [&#039;Type&#039; =&gt; \Smr\PlotGroup::Locations, &#039;X&#039; =&gt; &#039;Bar&#039;], &#039;Steps&#039; =&gt; [[&#039;Step&#039; =&gt; &#039;EnterSector&#039;, &#039;PickSector&#039; =&gt; [&#039;Type&#039; =&gt; \Smr\PlotGroup::Locations, &#039;X&#039; =&gt; \RACE_SALVENE + \LOCATION_GROUP_RACIAL_HQS], &#039;Detail&#039; =&gt; [&#039;SectorID&#039; =&gt; &#039;&lt;Sector&gt;&#039;], &#039;Text&#039; =&gt; &#039;*Hiccup* Hey! I need you to...*Hiccup* do me a favor. All the &#039; . \Smr\BarDrink::SALVENE_SWAMP_SODA . &#039; in this bar is awful! Go to the Sal...*Hiccup*...the Salvene HQ, they\&#039;ll know a good bar.&#039;, &#039;Task&#039; =&gt; &#039;Go to the Salvene HQ at [sector=&lt;Sector&gt;]&#039;], [&#039;Step&#039; =&gt; &#039;EnterSector&#039;, &#039;PickSector&#039; =&gt; [&#039;Type&#039; =&gt; \Smr\PlotGroup::Locations, &#039;X&#039; =&gt; &#039;Bar&#039;], &#039;Detail&#039; =&gt; [&#039;SectorID&#039; =&gt; &#039;&lt;Sector&gt;&#039;], &#039;Text&#039; =&gt; &#039;Here we are! The Salvene HQ! You ask around a bit and find that the bar in [sector=&lt;Sector&gt;] does the best &#039; . \Smr\BarDrink::SALVENE_SWAMP_SODA . &#039; around!&#039;, &#039;Task&#039; =&gt; &#039;Go to the bar at [sector=&lt;Sector&gt;] and buy a &#039; . \Smr\BarDrink::SALVENE_SWAMP_SODA . &#039; from the bartender. This may take many tries.&#039;], [&#039;Step&#039; =&gt; &#039;BuyDrink&#039;, &#039;Detail&#039; =&gt; [&#039;SectorID&#039; =&gt; &#039;&lt;Sector&gt;&#039;, &#039;Drink&#039; =&gt; \Smr\BarDrink::SALVENE_SWAMP_SODA], &#039;Text&#039; =&gt; &#039;Here we are! Now let\&#039;s get this &#039; . \Smr\BarDrink::SALVENE_SWAMP_SODA . &#039;.&#039;, &#039;Task&#039; =&gt; &#039;Go to the bar at [sector=&lt;Sector&gt;] and buy a &#039; . \Smr\BarDrink::SALVENE_SWAMP_SODA . &#039; from the bartender. This may take many tries.&#039;], [&#039;Step&#039; =&gt; &#039;EnterSector&#039;, &#039;Detail&#039; =&gt; [&#039;SectorID&#039; =&gt; &#039;&lt;Starting Sector&gt;&#039;], &#039;Text&#039; =&gt; &#039;Finally! A true &#039; . \Smr\BarDrink::SALVENE_SWAMP_SODA . &#039;, let\&#039;s return to that drunk!&#039;, &#039;Task&#039; =&gt; &#039;Return to [sector=&lt;Starting Sector&gt;] to claim your reward.&#039;], [&#039;Step&#039; =&gt; &#039;Claim&#039;, &#039;Rewards&#039; =&gt; [&#039;Credits&#039; =&gt; 500000, &#039;Experience&#039; =&gt; 1000, &#039;Text&#039; =&gt; &#039;*Hiccup* For your...service *Hiccup* to me, take these *Hiccup* 500,000 credits and 1,000 experience *Hiccup*!&#039;], &#039;Detail&#039; =&gt; [&#039;SectorID&#039; =&gt; &#039;&lt;Starting Sector&gt;&#039;], &#039;Text&#039; =&gt; &#039;You hand the &#039; . \Smr\BarDrink::SALVENE_SWAMP_SODA . &#039; to the drunk!&#039;]]]]                            </span>
-</dt>
-
-    </dl>
 
 
 
@@ -241,19 +230,6 @@ including their current size and if the leader can pick teammates.</dd>
     <a class="" href="namespaces/default.html#function_get_numbering">get_numbering()</a>
     <span>
                                 &nbsp;: string    </span>
-</dt>
-
-            <dt class="phpdocumentor-table-of-contents__entry -function -">
-    <a class="" href="namespaces/default.html#function_replaceMissionTemplate">replaceMissionTemplate()</a>
-    <span>
-                                &nbsp;: void    </span>
-</dt>
-<dd>Callback for array_walk_recursive in Player::rebuildMission.</dd>
-
-            <dt class="phpdocumentor-table-of-contents__entry -function -">
-    <a class="" href="namespaces/default.html#function_checkMissionRequirements">checkMissionRequirements()</a>
-    <span>
-                                &nbsp;: bool    </span>
 </dt>
 
             <dt class="phpdocumentor-table-of-contents__entry -function -">
@@ -426,75 +402,6 @@ the amount is positive.</dd>
     </dl>
 
         
-    <section class="phpdocumentor-constants">
-        <h3 class="phpdocumentor-elements__header" id="constants">
-            Constants
-            <a href="namespaces/default.html#constants" class="headerlink"><i class="fas fa-link"></i></a>
-
-        </h3>
-                    <article class="phpdocumentor-element -constant -public ">
-    <h4 class="phpdocumentor-element__name" id="constant_MISSION_ACTIONS">
-        MISSION_ACTIONS
-        <a href="namespaces/default.html#constant_MISSION_ACTIONS" class="headerlink"><i class="fas fa-link"></i></a>
-
-    </h4>
-
-    <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/missions.inc.php"><a href="files/src-lib-default-missions-inc.html"><abbr title="src/lib/Default/missions.inc.php">missions.inc.php</abbr></a></abbr>
-    :
-    <span class="phpdocumentor-element-found-in__line">6</span>
-
-            <a href="namespaces/default.html#source-view.6" class="phpdocumentor-element-found-in__source" data-line="6" data-modal="source-view" data-src="files/src/lib/Default/missions.inc.php.txt"></a>
-    </aside>
-
-    
-    
-    <code class="phpdocumentor-signature phpdocumentor-code ">
-    <span class="phpdocumentor-signature__visibility">public</span>
-        <span class="phpdocumentor-signature__type">mixed</span>
-    <span class="phpdocumentor-signature__name">MISSION_ACTIONS</span>
-    = <span class="phpdocumentor-signature__default-value">[&#039;LeaveSector&#039;, &#039;EnterSector&#039;, &#039;WalkSector&#039;, &#039;JoinAlliance&#039;, &#039;LeaveAlliance&#039;, &#039;DisbandAlliance&#039;, &#039;KickPlayer&#039;, &#039;PlayerKicked&#039;, &#039;BuyDrink&#039;]</span>
-</code>
-
-
-    
-    
-    
-
-        
-    </article>
-                    <article class="phpdocumentor-element -constant -public ">
-    <h4 class="phpdocumentor-element__name" id="constant_MISSIONS">
-        MISSIONS
-        <a href="namespaces/default.html#constant_MISSIONS" class="headerlink"><i class="fas fa-link"></i></a>
-
-    </h4>
-
-    <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/missions.inc.php"><a href="files/src-lib-default-missions-inc.html"><abbr title="src/lib/Default/missions.inc.php">missions.inc.php</abbr></a></abbr>
-    :
-    <span class="phpdocumentor-element-found-in__line">53</span>
-
-            <a href="namespaces/default.html#source-view.53" class="phpdocumentor-element-found-in__source" data-line="53" data-modal="source-view" data-src="files/src/lib/Default/missions.inc.php.txt"></a>
-    </aside>
-
-    
-    
-    <code class="phpdocumentor-signature phpdocumentor-code ">
-    <span class="phpdocumentor-signature__visibility">public</span>
-        <span class="phpdocumentor-signature__type">mixed</span>
-    <span class="phpdocumentor-signature__name">MISSIONS</span>
-    = <span class="phpdocumentor-signature__default-value">[0 =&gt; [&#039;Name&#039; =&gt; &#039;Drunk Guy&#039;, &#039;Offerer&#039; =&gt; &#039;Drunk&#039;, &#039;Time Limit&#039; =&gt; 0, &#039;HasX&#039; =&gt; [&#039;Type&#039; =&gt; \Smr\PlotGroup::Locations, &#039;X&#039; =&gt; &#039;Bar&#039;], &#039;Steps&#039; =&gt; [[&#039;Step&#039; =&gt; &#039;EnterSector&#039;, &#039;PickSector&#039; =&gt; [&#039;Type&#039; =&gt; \Smr\PlotGroup::Locations, &#039;X&#039; =&gt; \RACE_SALVENE + \LOCATION_GROUP_RACIAL_HQS], &#039;Detail&#039; =&gt; [&#039;SectorID&#039; =&gt; &#039;&lt;Sector&gt;&#039;], &#039;Text&#039; =&gt; &#039;*Hiccup* Hey! I need you to...*Hiccup* do me a favor. All the &#039; . \Smr\BarDrink::SALVENE_SWAMP_SODA . &#039; in this bar is awful! Go to the Sal...*Hiccup*...the Salvene HQ, they\&#039;ll know a good bar.&#039;, &#039;Task&#039; =&gt; &#039;Go to the Salvene HQ at [sector=&lt;Sector&gt;]&#039;], [&#039;Step&#039; =&gt; &#039;EnterSector&#039;, &#039;PickSector&#039; =&gt; [&#039;Type&#039; =&gt; \Smr\PlotGroup::Locations, &#039;X&#039; =&gt; &#039;Bar&#039;], &#039;Detail&#039; =&gt; [&#039;SectorID&#039; =&gt; &#039;&lt;Sector&gt;&#039;], &#039;Text&#039; =&gt; &#039;Here we are! The Salvene HQ! You ask around a bit and find that the bar in [sector=&lt;Sector&gt;] does the best &#039; . \Smr\BarDrink::SALVENE_SWAMP_SODA . &#039; around!&#039;, &#039;Task&#039; =&gt; &#039;Go to the bar at [sector=&lt;Sector&gt;] and buy a &#039; . \Smr\BarDrink::SALVENE_SWAMP_SODA . &#039; from the bartender. This may take many tries.&#039;], [&#039;Step&#039; =&gt; &#039;BuyDrink&#039;, &#039;Detail&#039; =&gt; [&#039;SectorID&#039; =&gt; &#039;&lt;Sector&gt;&#039;, &#039;Drink&#039; =&gt; \Smr\BarDrink::SALVENE_SWAMP_SODA], &#039;Text&#039; =&gt; &#039;Here we are! Now let\&#039;s get this &#039; . \Smr\BarDrink::SALVENE_SWAMP_SODA . &#039;.&#039;, &#039;Task&#039; =&gt; &#039;Go to the bar at [sector=&lt;Sector&gt;] and buy a &#039; . \Smr\BarDrink::SALVENE_SWAMP_SODA . &#039; from the bartender. This may take many tries.&#039;], [&#039;Step&#039; =&gt; &#039;EnterSector&#039;, &#039;Detail&#039; =&gt; [&#039;SectorID&#039; =&gt; &#039;&lt;Starting Sector&gt;&#039;], &#039;Text&#039; =&gt; &#039;Finally! A true &#039; . \Smr\BarDrink::SALVENE_SWAMP_SODA . &#039;, let\&#039;s return to that drunk!&#039;, &#039;Task&#039; =&gt; &#039;Return to [sector=&lt;Starting Sector&gt;] to claim your reward.&#039;], [&#039;Step&#039; =&gt; &#039;Claim&#039;, &#039;Rewards&#039; =&gt; [&#039;Credits&#039; =&gt; 500000, &#039;Experience&#039; =&gt; 1000, &#039;Text&#039; =&gt; &#039;*Hiccup* For your...service *Hiccup* to me, take these *Hiccup* 500,000 credits and 1,000 experience *Hiccup*!&#039;], &#039;Detail&#039; =&gt; [&#039;SectorID&#039; =&gt; &#039;&lt;Starting Sector&gt;&#039;], &#039;Text&#039; =&gt; &#039;You hand the &#039; . \Smr\BarDrink::SALVENE_SWAMP_SODA . &#039; to the drunk!&#039;]]]]</span>
-</code>
-
-
-    
-    
-    
-
-        
-    </article>
-            </section>
 
             <section class="phpdocumentor-functions">
         <h3 class="phpdocumentor-elements__header" id="functions">
@@ -777,107 +684,6 @@ including their current size and if the leader can pick teammates.</p>
 
 </article>
                     <article class="phpdocumentor-element -function - ">
-    <h4 class="phpdocumentor-element__name" id="function_replaceMissionTemplate">
-        replaceMissionTemplate()
-        <a href="namespaces/default.html#function_replaceMissionTemplate" class="headerlink"><i class="fas fa-link"></i></a>
-
-    </h4>
-    <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/missions.inc.php"><a href="files/src-lib-default-missions-inc.html"><abbr title="src/lib/Default/missions.inc.php">missions.inc.php</abbr></a></abbr>
-    :
-    <span class="phpdocumentor-element-found-in__line">127</span>
-
-            <a href="namespaces/default.html#source-view.127" class="phpdocumentor-element-found-in__source" data-line="127" data-modal="source-view" data-src="files/src/lib/Default/missions.inc.php.txt"></a>
-    </aside>
-
-        <p class="phpdocumentor-summary">Callback for array_walk_recursive in Player::rebuildMission.</p>
-
-    
-    <code class="phpdocumentor-code phpdocumentor-signature ">
-    <span class="phpdocumentor-signature__visibility"></span>
-                    <span class="phpdocumentor-signature__name">replaceMissionTemplate</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__type">string|int|<a href="classes/Smr-PlotGroup.html"><abbr title="\Smr\PlotGroup">PlotGroup</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__reference-operator">&amp;</span><span class="phpdocumentor-signature__argument__name">$template</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__type">string&nbsp;</span><span class="phpdocumentor-signature__argument__name">$key</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__type">array&lt;string, int&gt;&nbsp;</span><span class="phpdocumentor-signature__argument__name">$replacements</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">void</span></code>
-
-        <section class="phpdocumentor-description"><p>Searches for placeholders in template and replaces them with values
-derived from the supplied data.</p>
-</section>
-
-        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
-    <dl class="phpdocumentor-argument-list">
-                    <dt class="phpdocumentor-argument-list__entry">
-                <span class="phpdocumentor-argument-list__argument__name">$template</span>
-                : <span class="phpdocumentor-argument-list__argument__type">string|int|<a href="classes/Smr-PlotGroup.html"><abbr title="\Smr\PlotGroup">PlotGroup</abbr></a></span>
-                            </dt>
-            <dd class="phpdocumentor-argument-list__definition">
-                
-            </dd>
-                    <dt class="phpdocumentor-argument-list__entry">
-                <span class="phpdocumentor-argument-list__argument__name">$key</span>
-                : <span class="phpdocumentor-argument-list__argument__type">string</span>
-                            </dt>
-            <dd class="phpdocumentor-argument-list__definition">
-                
-            </dd>
-                    <dt class="phpdocumentor-argument-list__entry">
-                <span class="phpdocumentor-argument-list__argument__name">$replacements</span>
-                : <span class="phpdocumentor-argument-list__argument__type">array&lt;string, int&gt;</span>
-                            </dt>
-            <dd class="phpdocumentor-argument-list__definition">
-                
-            </dd>
-            </dl>
-
-    
-
-    
-</article>
-                    <article class="phpdocumentor-element -function - ">
-    <h4 class="phpdocumentor-element__name" id="function_checkMissionRequirements">
-        checkMissionRequirements()
-        <a href="namespaces/default.html#function_checkMissionRequirements" class="headerlink"><i class="fas fa-link"></i></a>
-
-    </h4>
-    <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/missions.inc.php"><a href="files/src-lib-default-missions-inc.html"><abbr title="src/lib/Default/missions.inc.php">missions.inc.php</abbr></a></abbr>
-    :
-    <span class="phpdocumentor-element-found-in__line">145</span>
-
-            <a href="namespaces/default.html#source-view.145" class="phpdocumentor-element-found-in__source" data-line="145" data-modal="source-view" data-src="files/src/lib/Default/missions.inc.php.txt"></a>
-    </aside>
-
-    
-    
-    <code class="phpdocumentor-code phpdocumentor-signature ">
-    <span class="phpdocumentor-signature__visibility"></span>
-                    <span class="phpdocumentor-signature__name">checkMissionRequirements</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__type">array&lt;string, mixed&gt;&nbsp;</span><span class="phpdocumentor-signature__argument__name">$values</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__type">array&lt;string, mixed&gt;&nbsp;</span><span class="phpdocumentor-signature__argument__name">$requirements</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">bool</span></code>
-
-    
-        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
-    <dl class="phpdocumentor-argument-list">
-                    <dt class="phpdocumentor-argument-list__entry">
-                <span class="phpdocumentor-argument-list__argument__name">$values</span>
-                : <span class="phpdocumentor-argument-list__argument__type">array&lt;string, mixed&gt;</span>
-                            </dt>
-            <dd class="phpdocumentor-argument-list__definition">
-                
-            </dd>
-                    <dt class="phpdocumentor-argument-list__entry">
-                <span class="phpdocumentor-argument-list__argument__name">$requirements</span>
-                : <span class="phpdocumentor-argument-list__argument__type">array&lt;string, mixed&gt;</span>
-                            </dt>
-            <dd class="phpdocumentor-argument-list__definition">
-                
-            </dd>
-            </dl>
-
-    
-
-            <section>
-        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
-        <span class="phpdocumentor-signature__response_type">bool</span>
-            </section>
-
-</article>
-                    <article class="phpdocumentor-element -function - ">
     <h4 class="phpdocumentor-element__name" id="function_createNHA">
         createNHA()
         <a href="namespaces/default.html#function_createNHA" class="headerlink"><i class="fas fa-link"></i></a>
@@ -959,9 +765,9 @@ derived from the supplied data.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/smr.inc.php"><a href="files/src-lib-default-smr-inc.html"><abbr title="src/lib/Default/smr.inc.php">smr.inc.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">62</span>
+    <span class="phpdocumentor-element-found-in__line">63</span>
 
-            <a href="namespaces/default.html#source-view.62" class="phpdocumentor-element-found-in__source" data-line="62" data-modal="source-view" data-src="files/src/lib/Default/smr.inc.php.txt"></a>
+            <a href="namespaces/default.html#source-view.63" class="phpdocumentor-element-found-in__source" data-line="63" data-modal="source-view" data-src="files/src/lib/Default/smr.inc.php.txt"></a>
     </aside>
 
     
@@ -999,9 +805,9 @@ derived from the supplied data.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/smr.inc.php"><a href="files/src-lib-default-smr-inc.html"><abbr title="src/lib/Default/smr.inc.php">smr.inc.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">70</span>
+    <span class="phpdocumentor-element-found-in__line">71</span>
 
-            <a href="namespaces/default.html#source-view.70" class="phpdocumentor-element-found-in__source" data-line="70" data-modal="source-view" data-src="files/src/lib/Default/smr.inc.php.txt"></a>
+            <a href="namespaces/default.html#source-view.71" class="phpdocumentor-element-found-in__source" data-line="71" data-modal="source-view" data-src="files/src/lib/Default/smr.inc.php.txt"></a>
     </aside>
 
     
@@ -1039,9 +845,9 @@ derived from the supplied data.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/smr.inc.php"><a href="files/src-lib-default-smr-inc.html"><abbr title="src/lib/Default/smr.inc.php">smr.inc.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">83</span>
+    <span class="phpdocumentor-element-found-in__line">84</span>
 
-            <a href="namespaces/default.html#source-view.83" class="phpdocumentor-element-found-in__source" data-line="83" data-modal="source-view" data-src="files/src/lib/Default/smr.inc.php.txt"></a>
+            <a href="namespaces/default.html#source-view.84" class="phpdocumentor-element-found-in__source" data-line="84" data-modal="source-view" data-src="files/src/lib/Default/smr.inc.php.txt"></a>
     </aside>
 
         <p class="phpdocumentor-summary">Converts a BBCode tag into some other text depending on the tag and value.</p>
@@ -1119,9 +925,9 @@ with action BBCODE_OUTPUT.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/smr.inc.php"><a href="files/src-lib-default-smr-inc.html"><abbr title="src/lib/Default/smr.inc.php">smr.inc.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">191</span>
+    <span class="phpdocumentor-element-found-in__line">192</span>
 
-            <a href="namespaces/default.html#source-view.191" class="phpdocumentor-element-found-in__source" data-line="191" data-modal="source-view" data-src="files/src/lib/Default/smr.inc.php.txt"></a>
+            <a href="namespaces/default.html#source-view.192" class="phpdocumentor-element-found-in__source" data-line="192" data-modal="source-view" data-src="files/src/lib/Default/smr.inc.php.txt"></a>
     </aside>
 
     
@@ -1159,9 +965,9 @@ with action BBCODE_OUTPUT.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/smr.inc.php"><a href="files/src-lib-default-smr-inc.html"><abbr title="src/lib/Default/smr.inc.php">smr.inc.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">195</span>
+    <span class="phpdocumentor-element-found-in__line">196</span>
 
-            <a href="namespaces/default.html#source-view.195" class="phpdocumentor-element-found-in__source" data-line="195" data-modal="source-view" data-src="files/src/lib/Default/smr.inc.php.txt"></a>
+            <a href="namespaces/default.html#source-view.196" class="phpdocumentor-element-found-in__source" data-line="196" data-modal="source-view" data-src="files/src/lib/Default/smr.inc.php.txt"></a>
     </aside>
 
     
@@ -1213,9 +1019,9 @@ with action BBCODE_OUTPUT.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/smr.inc.php"><a href="files/src-lib-default-smr-inc.html"><abbr title="src/lib/Default/smr.inc.php">smr.inc.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">250</span>
+    <span class="phpdocumentor-element-found-in__line">251</span>
 
-            <a href="namespaces/default.html#source-view.250" class="phpdocumentor-element-found-in__source" data-line="250" data-modal="source-view" data-src="files/src/lib/Default/smr.inc.php.txt"></a>
+            <a href="namespaces/default.html#source-view.251" class="phpdocumentor-element-found-in__source" data-line="251" data-modal="source-view" data-src="files/src/lib/Default/smr.inc.php.txt"></a>
     </aside>
 
     
@@ -1253,9 +1059,9 @@ with action BBCODE_OUTPUT.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/smr.inc.php"><a href="files/src-lib-default-smr-inc.html"><abbr title="src/lib/Default/smr.inc.php">smr.inc.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">254</span>
+    <span class="phpdocumentor-element-found-in__line">255</span>
 
-            <a href="namespaces/default.html#source-view.254" class="phpdocumentor-element-found-in__source" data-line="254" data-modal="source-view" data-src="files/src/lib/Default/smr.inc.php.txt"></a>
+            <a href="namespaces/default.html#source-view.255" class="phpdocumentor-element-found-in__source" data-line="255" data-modal="source-view" data-src="files/src/lib/Default/smr.inc.php.txt"></a>
     </aside>
 
     
@@ -1293,9 +1099,9 @@ with action BBCODE_OUTPUT.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/smr.inc.php"><a href="files/src-lib-default-smr-inc.html"><abbr title="src/lib/Default/smr.inc.php">smr.inc.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">284</span>
+    <span class="phpdocumentor-element-found-in__line">285</span>
 
-            <a href="namespaces/default.html#source-view.284" class="phpdocumentor-element-found-in__source" data-line="284" data-modal="source-view" data-src="files/src/lib/Default/smr.inc.php.txt"></a>
+            <a href="namespaces/default.html#source-view.285" class="phpdocumentor-element-found-in__source" data-line="285" data-modal="source-view" data-src="files/src/lib/Default/smr.inc.php.txt"></a>
     </aside>
 
     
@@ -1347,9 +1153,9 @@ with action BBCODE_OUTPUT.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/smr.inc.php"><a href="files/src-lib-default-smr-inc.html"><abbr title="src/lib/Default/smr.inc.php">smr.inc.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">288</span>
+    <span class="phpdocumentor-element-found-in__line">289</span>
 
-            <a href="namespaces/default.html#source-view.288" class="phpdocumentor-element-found-in__source" data-line="288" data-modal="source-view" data-src="files/src/lib/Default/smr.inc.php.txt"></a>
+            <a href="namespaces/default.html#source-view.289" class="phpdocumentor-element-found-in__source" data-line="289" data-modal="source-view" data-src="files/src/lib/Default/smr.inc.php.txt"></a>
     </aside>
 
     
@@ -1394,9 +1200,9 @@ with action BBCODE_OUTPUT.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/smr.inc.php"><a href="files/src-lib-default-smr-inc.html"><abbr title="src/lib/Default/smr.inc.php">smr.inc.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">297</span>
+    <span class="phpdocumentor-element-found-in__line">298</span>
 
-            <a href="namespaces/default.html#source-view.297" class="phpdocumentor-element-found-in__source" data-line="297" data-modal="source-view" data-src="files/src/lib/Default/smr.inc.php.txt"></a>
+            <a href="namespaces/default.html#source-view.298" class="phpdocumentor-element-found-in__source" data-line="298" data-modal="source-view" data-src="files/src/lib/Default/smr.inc.php.txt"></a>
     </aside>
 
         <p class="phpdocumentor-summary">Create a submit element that will not add any data to the submitted form.</p>
@@ -1442,9 +1248,9 @@ with action BBCODE_OUTPUT.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/smr.inc.php"><a href="files/src-lib-default-smr-inc.html"><abbr title="src/lib/Default/smr.inc.php">smr.inc.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">318</span>
+    <span class="phpdocumentor-element-found-in__line">319</span>
 
-            <a href="namespaces/default.html#source-view.318" class="phpdocumentor-element-found-in__source" data-line="318" data-modal="source-view" data-src="files/src/lib/Default/smr.inc.php.txt"></a>
+            <a href="namespaces/default.html#source-view.319" class="phpdocumentor-element-found-in__source" data-line="319" data-modal="source-view" data-src="files/src/lib/Default/smr.inc.php.txt"></a>
     </aside>
 
         <p class="phpdocumentor-summary">Create a submit element that will add a name-value field to the submitted form data.</p>
@@ -1504,9 +1310,9 @@ with action BBCODE_OUTPUT.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/smr.inc.php"><a href="files/src-lib-default-smr-inc.html"><abbr title="src/lib/Default/smr.inc.php">smr.inc.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">338</span>
+    <span class="phpdocumentor-element-found-in__line">339</span>
 
-            <a href="namespaces/default.html#source-view.338" class="phpdocumentor-element-found-in__source" data-line="338" data-modal="source-view" data-src="files/src/lib/Default/smr.inc.php.txt"></a>
+            <a href="namespaces/default.html#source-view.339" class="phpdocumentor-element-found-in__source" data-line="339" data-modal="source-view" data-src="files/src/lib/Default/smr.inc.php.txt"></a>
     </aside>
 
     
@@ -1565,9 +1371,9 @@ with action BBCODE_OUTPUT.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/smr.inc.php"><a href="files/src-lib-default-smr-inc.html"><abbr title="src/lib/Default/smr.inc.php">smr.inc.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">366</span>
+    <span class="phpdocumentor-element-found-in__line">367</span>
 
-            <a href="namespaces/default.html#source-view.366" class="phpdocumentor-element-found-in__source" data-line="366" data-modal="source-view" data-src="files/src/lib/Default/smr.inc.php.txt"></a>
+            <a href="namespaces/default.html#source-view.367" class="phpdocumentor-element-found-in__source" data-line="367" data-modal="source-view" data-src="files/src/lib/Default/smr.inc.php.txt"></a>
     </aside>
 
     
@@ -1612,9 +1418,9 @@ with action BBCODE_OUTPUT.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/smr.inc.php"><a href="files/src-lib-default-smr-inc.html"><abbr title="src/lib/Default/smr.inc.php">smr.inc.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">370</span>
+    <span class="phpdocumentor-element-found-in__line">371</span>
 
-            <a href="namespaces/default.html#source-view.370" class="phpdocumentor-element-found-in__source" data-line="370" data-modal="source-view" data-src="files/src/lib/Default/smr.inc.php.txt"></a>
+            <a href="namespaces/default.html#source-view.371" class="phpdocumentor-element-found-in__source" data-line="371" data-modal="source-view" data-src="files/src/lib/Default/smr.inc.php.txt"></a>
     </aside>
 
     
@@ -1652,9 +1458,9 @@ with action BBCODE_OUTPUT.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/smr.inc.php"><a href="files/src-lib-default-smr-inc.html"><abbr title="src/lib/Default/smr.inc.php">smr.inc.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">388</span>
+    <span class="phpdocumentor-element-found-in__line">389</span>
 
-            <a href="namespaces/default.html#source-view.388" class="phpdocumentor-element-found-in__source" data-line="388" data-modal="source-view" data-src="files/src/lib/Default/smr.inc.php.txt"></a>
+            <a href="namespaces/default.html#source-view.389" class="phpdocumentor-element-found-in__source" data-line="389" data-modal="source-view" data-src="files/src/lib/Default/smr.inc.php.txt"></a>
     </aside>
 
     
@@ -1706,9 +1512,9 @@ with action BBCODE_OUTPUT.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/smr.inc.php"><a href="files/src-lib-default-smr-inc.html"><abbr title="src/lib/Default/smr.inc.php">smr.inc.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">404</span>
+    <span class="phpdocumentor-element-found-in__line">405</span>
 
-            <a href="namespaces/default.html#source-view.404" class="phpdocumentor-element-found-in__source" data-line="404" data-modal="source-view" data-src="files/src/lib/Default/smr.inc.php.txt"></a>
+            <a href="namespaces/default.html#source-view.405" class="phpdocumentor-element-found-in__source" data-line="405" data-modal="source-view" data-src="files/src/lib/Default/smr.inc.php.txt"></a>
     </aside>
 
         <p class="phpdocumentor-summary">This function is a hack around the old style http forward mechanism.</p>
@@ -1740,9 +1546,9 @@ with action BBCODE_OUTPUT.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/smr.inc.php"><a href="files/src-lib-default-smr-inc.html"><abbr title="src/lib/Default/smr.inc.php">smr.inc.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">508</span>
+    <span class="phpdocumentor-element-found-in__line">509</span>
 
-            <a href="namespaces/default.html#source-view.508" class="phpdocumentor-element-found-in__source" data-line="508" data-modal="source-view" data-src="files/src/lib/Default/smr.inc.php.txt"></a>
+            <a href="namespaces/default.html#source-view.509" class="phpdocumentor-element-found-in__source" data-line="509" data-modal="source-view" data-src="files/src/lib/Default/smr.inc.php.txt"></a>
     </aside>
 
     
@@ -1776,9 +1582,9 @@ with action BBCODE_OUTPUT.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/smr.inc.php"><a href="files/src-lib-default-smr-inc.html"><abbr title="src/lib/Default/smr.inc.php">smr.inc.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">527</span>
+    <span class="phpdocumentor-element-found-in__line">529</span>
 
-            <a href="namespaces/default.html#source-view.527" class="phpdocumentor-element-found-in__source" data-line="527" data-modal="source-view" data-src="files/src/lib/Default/smr.inc.php.txt"></a>
+            <a href="namespaces/default.html#source-view.529" class="phpdocumentor-element-found-in__source" data-line="529" data-modal="source-view" data-src="files/src/lib/Default/smr.inc.php.txt"></a>
     </aside>
 
     
@@ -1826,9 +1632,9 @@ with action BBCODE_OUTPUT.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/smr.inc.php"><a href="files/src-lib-default-smr-inc.html"><abbr title="src/lib/Default/smr.inc.php">smr.inc.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">571</span>
+    <span class="phpdocumentor-element-found-in__line">573</span>
 
-            <a href="namespaces/default.html#source-view.571" class="phpdocumentor-element-found-in__source" data-line="571" data-modal="source-view" data-src="files/src/lib/Default/smr.inc.php.txt"></a>
+            <a href="namespaces/default.html#source-view.573" class="phpdocumentor-element-found-in__source" data-line="573" data-modal="source-view" data-src="files/src/lib/Default/smr.inc.php.txt"></a>
     </aside>
 
     
@@ -1862,9 +1668,9 @@ with action BBCODE_OUTPUT.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/smr.inc.php"><a href="files/src-lib-default-smr-inc.html"><abbr title="src/lib/Default/smr.inc.php">smr.inc.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">728</span>
+    <span class="phpdocumentor-element-found-in__line">730</span>
 
-            <a href="namespaces/default.html#source-view.728" class="phpdocumentor-element-found-in__source" data-line="728" data-modal="source-view" data-src="files/src/lib/Default/smr.inc.php.txt"></a>
+            <a href="namespaces/default.html#source-view.730" class="phpdocumentor-element-found-in__source" data-line="730" data-modal="source-view" data-src="files/src/lib/Default/smr.inc.php.txt"></a>
     </aside>
 
         <p class="phpdocumentor-summary">Join a list of items into a grammatically-correct sentence fragment.</p>
@@ -1903,9 +1709,9 @@ with action BBCODE_OUTPUT.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/smr.inc.php"><a href="files/src-lib-default-smr-inc.html"><abbr title="src/lib/Default/smr.inc.php">smr.inc.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">744</span>
+    <span class="phpdocumentor-element-found-in__line">746</span>
 
-            <a href="namespaces/default.html#source-view.744" class="phpdocumentor-element-found-in__source" data-line="744" data-modal="source-view" data-src="files/src/lib/Default/smr.inc.php.txt"></a>
+            <a href="namespaces/default.html#source-view.746" class="phpdocumentor-element-found-in__source" data-line="746" data-modal="source-view" data-src="files/src/lib/Default/smr.inc.php.txt"></a>
     </aside>
 
         <p class="phpdocumentor-summary">Convert an integer number of seconds into a human-readable time for
@@ -1953,9 +1759,9 @@ the amount is positive.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/smr.inc.php"><a href="files/src-lib-default-smr-inc.html"><abbr title="src/lib/Default/smr.inc.php">smr.inc.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">760</span>
+    <span class="phpdocumentor-element-found-in__line">762</span>
 
-            <a href="namespaces/default.html#source-view.760" class="phpdocumentor-element-found-in__source" data-line="760" data-modal="source-view" data-src="files/src/lib/Default/smr.inc.php.txt"></a>
+            <a href="namespaces/default.html#source-view.762" class="phpdocumentor-element-found-in__source" data-line="762" data-modal="source-view" data-src="files/src/lib/Default/smr.inc.php.txt"></a>
     </aside>
 
         <p class="phpdocumentor-summary">Convert an integer number of seconds into a human-readable time.</p>
@@ -2007,9 +1813,9 @@ If seconds is &lt;60, will prefix &quot;less than&quot; or &quot;&lt;&quot; (HTM
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/smr.inc.php"><a href="files/src-lib-default-smr-inc.html"><abbr title="src/lib/Default/smr.inc.php">smr.inc.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">818</span>
+    <span class="phpdocumentor-element-found-in__line">820</span>
 
-            <a href="namespaces/default.html#source-view.818" class="phpdocumentor-element-found-in__source" data-line="818" data-modal="source-view" data-src="files/src/lib/Default/smr.inc.php.txt"></a>
+            <a href="namespaces/default.html#source-view.820" class="phpdocumentor-element-found-in__source" data-line="820" data-modal="source-view" data-src="files/src/lib/Default/smr.inc.php.txt"></a>
     </aside>
 
     
@@ -2054,9 +1860,9 @@ If seconds is &lt;60, will prefix &quot;less than&quot; or &quot;&lt;&quot; (HTM
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/smr.inc.php"><a href="files/src-lib-default-smr-inc.html"><abbr title="src/lib/Default/smr.inc.php">smr.inc.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">853</span>
+    <span class="phpdocumentor-element-found-in__line">855</span>
 
-            <a href="namespaces/default.html#source-view.853" class="phpdocumentor-element-found-in__source" data-line="853" data-modal="source-view" data-src="files/src/lib/Default/smr.inc.php.txt"></a>
+            <a href="namespaces/default.html#source-view.855" class="phpdocumentor-element-found-in__source" data-line="855" data-modal="source-view" data-src="files/src/lib/Default/smr.inc.php.txt"></a>
     </aside>
 
         <p class="phpdocumentor-summary">Randomly choose an array key weighted by the array values.</p>
@@ -2214,24 +2020,15 @@ If seconds is &lt;60, will prefix &quot;less than&quot; or &quot;&lt;&quot; (HTM
             <li class="phpdocumentor-on-this-page-section__title">Table Of Contents</li>
             <li>
                 <ul class="phpdocumentor-list -clean">
-                                                                                                                                                                <li><a href="namespaces/default.html#toc-constants">Constants</a></li>
-                                                            <li><a href="namespaces/default.html#toc-functions">Functions</a></li>
+                                                                                                                                                                                    <li><a href="namespaces/default.html#toc-functions">Functions</a></li>
                                     </ul>
             </li>
 
-                            <li class="phpdocumentor-on-this-page-section__title">Constants</li>
-                <li>
-                    <ul class="phpdocumentor-list -clean">
-                                                    <li class=""><a href="namespaces/default.html#constant_MISSION_ACTIONS">MISSION_ACTIONS</a></li>
-                                                    <li class=""><a href="namespaces/default.html#constant_MISSIONS">MISSIONS</a></li>
-                                            </ul>
-                </li>
             
                             <li class="phpdocumentor-on-this-page-section__title">Functions</li>
                 <li>
                     <ul class="phpdocumentor-list -clean">
                                                     <li class=""><a href="namespaces/default.html#function_bbify">bbify()</a></li>
-                                                    <li class=""><a href="namespaces/default.html#function_checkMissionRequirements">checkMissionRequirements()</a></li>
                                                     <li class=""><a href="namespaces/default.html#function_course_plot_forward">course_plot_forward()</a></li>
                                                     <li class=""><a href="namespaces/default.html#function_create_error">create_error()</a></li>
                                                     <li class=""><a href="namespaces/default.html#function_create_link">create_link()</a></li>
@@ -2261,7 +2058,6 @@ If seconds is &lt;60, will prefix &quot;less than&quot; or &quot;&lt;&quot; (HTM
                                                     <li class=""><a href="namespaces/default.html#function_number_colour_format">number_colour_format()</a></li>
                                                     <li class=""><a href="namespaces/default.html#function_parseBoolean">parseBoolean()</a></li>
                                                     <li class=""><a href="namespaces/default.html#function_pluralise">pluralise()</a></li>
-                                                    <li class=""><a href="namespaces/default.html#function_replaceMissionTemplate">replaceMissionTemplate()</a></li>
                                                     <li class=""><a href="namespaces/default.html#function_saveAllAndReleaseLock">saveAllAndReleaseLock()</a></li>
                                                     <li class=""><a href="namespaces/default.html#function_smrBBCode">smrBBCode()</a></li>
                                                     <li class=""><a href="namespaces/default.html#function_word_filter">word_filter()</a></li>
