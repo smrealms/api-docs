@@ -6336,6 +6336,11 @@ Search.appendIndex(
             "summary": "Simple\u0020SELECT\u0020query\u0020matching\u0020criteria\u0020and\u0020returning\u0020columns.",
             "url": "classes/Smr-Database.html#method_select"
         },                {
+            "fqsen": "\\Smr\\Database\u003A\u003Acount\u0028\u0029",
+            "name": "count",
+            "summary": "Count\u0020rows\u0020in\u0020a\u0020table\u0020matching\u0020criteria.",
+            "url": "classes/Smr-Database.html#method_count"
+        },                {
             "fqsen": "\\Smr\\Database\u003A\u003Aupdate\u0028\u0029",
             "name": "update",
             "summary": "UPDATE\u0020\u0024fields\u0020in\u0020\u0024table\u0020for\u0020rows\u0020that\u0020meet\u0020\u0024criteria.",

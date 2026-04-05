@@ -240,6 +240,13 @@ use Database::getInstance();</dd>
 <dd>Used by the DI container to construct the underlying connection object.</dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a class="" href="classes/Smr-Database.html#method_count">count()</a>
+    <span>
+                                &nbsp;: int    </span>
+</dt>
+<dd>Count rows in a table matching criteria.</dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
     <a class="" href="classes/Smr-Database.html#method_delete">delete()</a>
     <span>
                                 &nbsp;: int    </span>
@@ -616,6 +623,63 @@ use Database::getInstance();</p>
             -public
                                                         "
 >
+    <h4 class="phpdocumentor-element__name" id="method_count">
+        count()
+        <a href="classes/Smr-Database.html#method_count" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Database.php"><a href="files/src-lib-smr-database.html"><abbr title="src/lib/Smr/Database.php">Database.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">176</span>
+
+            <a href="classes/Smr-Database.html#source-view.176" class="phpdocumentor-element-found-in__source" data-line="176" data-modal="source-view" data-src="files/src/lib/Smr/Database.php.txt"></a>
+    </aside>
+
+        <p class="phpdocumentor-summary">Count rows in a table matching criteria.</p>
+
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+                    <span class="phpdocumentor-signature__name">count</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__type">string&nbsp;</span><span class="phpdocumentor-signature__argument__name">$table</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__type">array&lt;string, mixed&gt;&nbsp;</span><span class="phpdocumentor-signature__argument__name">$criteria</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">int</span></code>
+
+    <div class="phpdocumentor-label-line">
+        </div>
+    
+    
+        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
+    <dl class="phpdocumentor-argument-list">
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-argument-list__argument__name">$table</span>
+                : <span class="phpdocumentor-argument-list__argument__type">string</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                
+            </dd>
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-argument-list__argument__name">$criteria</span>
+                : <span class="phpdocumentor-argument-list__argument__type">array&lt;string, mixed&gt;</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                
+            </dd>
+            </dl>
+
+    
+
+        
+    
+            <section>
+        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
+        <span class="phpdocumentor-signature__response_type">int</span>
+            </section>
+
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                                        "
+>
     <h4 class="phpdocumentor-element__name" id="method_delete">
         delete()
         <a href="classes/Smr-Database.html#method_delete" class="headerlink"><i class="fas fa-link"></i></a>
@@ -624,9 +688,9 @@ use Database::getInstance();</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Database.php"><a href="files/src-lib-smr-database.html"><abbr title="src/lib/Smr/Database.php">Database.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">188</span>
+    <span class="phpdocumentor-element-found-in__line">199</span>
 
-            <a href="classes/Smr-Database.html#source-view.188" class="phpdocumentor-element-found-in__source" data-line="188" data-modal="source-view" data-src="files/src/lib/Smr/Database.php.txt"></a>
+            <a href="classes/Smr-Database.html#source-view.199" class="phpdocumentor-element-found-in__source" data-line="199" data-modal="source-view" data-src="files/src/lib/Smr/Database.php.txt"></a>
     </aside>
 
         <p class="phpdocumentor-summary">DELETE row(s) from $table that meet $criteria.</p>
@@ -685,9 +749,9 @@ use Database::getInstance();</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Database.php"><a href="files/src-lib-smr-database.html"><abbr title="src/lib/Smr/Database.php">Database.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">275</span>
+    <span class="phpdocumentor-element-found-in__line">286</span>
 
-            <a href="classes/Smr-Database.html#source-view.275" class="phpdocumentor-element-found-in__source" data-line="275" data-modal="source-view" data-src="files/src/lib/Smr/Database.php.txt"></a>
+            <a href="classes/Smr-Database.html#source-view.286" class="phpdocumentor-element-found-in__source" data-line="286" data-modal="source-view" data-src="files/src/lib/Smr/Database.php.txt"></a>
     </aside>
 
     
@@ -750,9 +814,9 @@ use Database::getInstance();</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Database.php"><a href="files/src-lib-smr-database.html"><abbr title="src/lib/Smr/Database.php">Database.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">288</span>
+    <span class="phpdocumentor-element-found-in__line">299</span>
 
-            <a href="classes/Smr-Database.html#source-view.288" class="phpdocumentor-element-found-in__source" data-line="288" data-modal="source-view" data-src="files/src/lib/Smr/Database.php.txt"></a>
+            <a href="classes/Smr-Database.html#source-view.299" class="phpdocumentor-element-found-in__source" data-line="299" data-modal="source-view" data-src="files/src/lib/Smr/Database.php.txt"></a>
     </aside>
 
     
@@ -799,9 +863,9 @@ use Database::getInstance();</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Database.php"><a href="files/src-lib-smr-database.html"><abbr title="src/lib/Smr/Database.php">Database.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">296</span>
+    <span class="phpdocumentor-element-found-in__line">307</span>
 
-            <a href="classes/Smr-Database.html#source-view.296" class="phpdocumentor-element-found-in__source" data-line="296" data-modal="source-view" data-src="files/src/lib/Smr/Database.php.txt"></a>
+            <a href="classes/Smr-Database.html#source-view.307" class="phpdocumentor-element-found-in__source" data-line="307" data-modal="source-view" data-src="files/src/lib/Smr/Database.php.txt"></a>
     </aside>
 
     
@@ -855,9 +919,9 @@ use Database::getInstance();</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Database.php"><a href="files/src-lib-smr-database.html"><abbr title="src/lib/Smr/Database.php">Database.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">259</span>
+    <span class="phpdocumentor-element-found-in__line">270</span>
 
-            <a href="classes/Smr-Database.html#source-view.259" class="phpdocumentor-element-found-in__source" data-line="259" data-modal="source-view" data-src="files/src/lib/Smr/Database.php.txt"></a>
+            <a href="classes/Smr-Database.html#source-view.270" class="phpdocumentor-element-found-in__source" data-line="270" data-modal="source-view" data-src="files/src/lib/Smr/Database.php.txt"></a>
     </aside>
 
     
@@ -904,9 +968,9 @@ use Database::getInstance();</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Database.php"><a href="files/src-lib-smr-database.html"><abbr title="src/lib/Smr/Database.php">Database.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">284</span>
+    <span class="phpdocumentor-element-found-in__line">295</span>
 
-            <a href="classes/Smr-Database.html#source-view.284" class="phpdocumentor-element-found-in__source" data-line="284" data-modal="source-view" data-src="files/src/lib/Smr/Database.php.txt"></a>
+            <a href="classes/Smr-Database.html#source-view.295" class="phpdocumentor-element-found-in__source" data-line="295" data-modal="source-view" data-src="files/src/lib/Smr/Database.php.txt"></a>
     </aside>
 
     
@@ -967,9 +1031,9 @@ use Database::getInstance();</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Database.php"><a href="files/src-lib-smr-database.html"><abbr title="src/lib/Smr/Database.php">Database.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">306</span>
+    <span class="phpdocumentor-element-found-in__line">317</span>
 
-            <a href="classes/Smr-Database.html#source-view.306" class="phpdocumentor-element-found-in__source" data-line="306" data-modal="source-view" data-src="files/src/lib/Smr/Database.php.txt"></a>
+            <a href="classes/Smr-Database.html#source-view.317" class="phpdocumentor-element-found-in__source" data-line="317" data-modal="source-view" data-src="files/src/lib/Smr/Database.php.txt"></a>
     </aside>
 
     
@@ -1023,9 +1087,9 @@ use Database::getInstance();</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Database.php"><a href="files/src-lib-smr-database.html"><abbr title="src/lib/Smr/Database.php">Database.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">266</span>
+    <span class="phpdocumentor-element-found-in__line">277</span>
 
-            <a href="classes/Smr-Database.html#source-view.266" class="phpdocumentor-element-found-in__source" data-line="266" data-modal="source-view" data-src="files/src/lib/Smr/Database.php.txt"></a>
+            <a href="classes/Smr-Database.html#source-view.277" class="phpdocumentor-element-found-in__source" data-line="277" data-modal="source-view" data-src="files/src/lib/Smr/Database.php.txt"></a>
     </aside>
 
     
@@ -1155,9 +1219,9 @@ This is the intended way to construct this class.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Database.php"><a href="files/src-lib-smr-database.html"><abbr title="src/lib/Smr/Database.php">Database.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">198</span>
+    <span class="phpdocumentor-element-found-in__line">209</span>
 
-            <a href="classes/Smr-Database.html#source-view.198" class="phpdocumentor-element-found-in__source" data-line="198" data-modal="source-view" data-src="files/src/lib/Smr/Database.php.txt"></a>
+            <a href="classes/Smr-Database.html#source-view.209" class="phpdocumentor-element-found-in__source" data-line="209" data-modal="source-view" data-src="files/src/lib/Smr/Database.php.txt"></a>
     </aside>
 
         <p class="phpdocumentor-summary">INSERT a row into $table.</p>
@@ -1208,9 +1272,9 @@ This is the intended way to construct this class.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Database.php"><a href="files/src-lib-smr-database.html"><abbr title="src/lib/Smr/Database.php">Database.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">209</span>
+    <span class="phpdocumentor-element-found-in__line">220</span>
 
-            <a href="classes/Smr-Database.html#source-view.209" class="phpdocumentor-element-found-in__source" data-line="209" data-modal="source-view" data-src="files/src/lib/Smr/Database.php.txt"></a>
+            <a href="classes/Smr-Database.html#source-view.220" class="phpdocumentor-element-found-in__source" data-line="220" data-modal="source-view" data-src="files/src/lib/Smr/Database.php.txt"></a>
     </aside>
 
         <p class="phpdocumentor-summary">INSERT a row into a $table with an auto-increment column.</p>
@@ -1269,9 +1333,9 @@ This is the intended way to construct this class.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Database.php"><a href="files/src-lib-smr-database.html"><abbr title="src/lib/Smr/Database.php">Database.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">243</span>
+    <span class="phpdocumentor-element-found-in__line">254</span>
 
-            <a href="classes/Smr-Database.html#source-view.243" class="phpdocumentor-element-found-in__source" data-line="243" data-modal="source-view" data-src="files/src/lib/Smr/Database.php.txt"></a>
+            <a href="classes/Smr-Database.html#source-view.254" class="phpdocumentor-element-found-in__source" data-line="254" data-modal="source-view" data-src="files/src/lib/Smr/Database.php.txt"></a>
     </aside>
 
         <p class="phpdocumentor-summary">Acquire a write lock for $table.</p>
@@ -1383,9 +1447,9 @@ This is the intended way to construct this class.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Database.php"><a href="files/src-lib-smr-database.html"><abbr title="src/lib/Smr/Database.php">Database.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">220</span>
+    <span class="phpdocumentor-element-found-in__line">231</span>
 
-            <a href="classes/Smr-Database.html#source-view.220" class="phpdocumentor-element-found-in__source" data-line="220" data-modal="source-view" data-src="files/src/lib/Smr/Database.php.txt"></a>
+            <a href="classes/Smr-Database.html#source-view.231" class="phpdocumentor-element-found-in__source" data-line="231" data-modal="source-view" data-src="files/src/lib/Smr/Database.php.txt"></a>
     </aside>
 
         <p class="phpdocumentor-summary">REPLACE a row into $table.</p>
@@ -1436,9 +1500,9 @@ This is the intended way to construct this class.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Database.php"><a href="files/src-lib-smr-database.html"><abbr title="src/lib/Smr/Database.php">Database.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">233</span>
+    <span class="phpdocumentor-element-found-in__line">244</span>
 
-            <a href="classes/Smr-Database.html#source-view.233" class="phpdocumentor-element-found-in__source" data-line="233" data-modal="source-view" data-src="files/src/lib/Smr/Database.php.txt"></a>
+            <a href="classes/Smr-Database.html#source-view.244" class="phpdocumentor-element-found-in__source" data-line="244" data-modal="source-view" data-src="files/src/lib/Smr/Database.php.txt"></a>
     </aside>
 
         <p class="phpdocumentor-summary">REPLACE a row into $table with an auto-increment column.</p>
@@ -1692,9 +1756,9 @@ instances have not been initialized yet.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Database.php"><a href="files/src-lib-smr-database.html"><abbr title="src/lib/Smr/Database.php">Database.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">251</span>
+    <span class="phpdocumentor-element-found-in__line">262</span>
 
-            <a href="classes/Smr-Database.html#source-view.251" class="phpdocumentor-element-found-in__source" data-line="251" data-modal="source-view" data-src="files/src/lib/Smr/Database.php.txt"></a>
+            <a href="classes/Smr-Database.html#source-view.262" class="phpdocumentor-element-found-in__source" data-line="262" data-modal="source-view" data-src="files/src/lib/Smr/Database.php.txt"></a>
     </aside>
 
     
@@ -1727,9 +1791,9 @@ instances have not been initialized yet.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Database.php"><a href="files/src-lib-smr-database.html"><abbr title="src/lib/Smr/Database.php">Database.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">178</span>
+    <span class="phpdocumentor-element-found-in__line">189</span>
 
-            <a href="classes/Smr-Database.html#source-view.178" class="phpdocumentor-element-found-in__source" data-line="178" data-modal="source-view" data-src="files/src/lib/Smr/Database.php.txt"></a>
+            <a href="classes/Smr-Database.html#source-view.189" class="phpdocumentor-element-found-in__source" data-line="189" data-modal="source-view" data-src="files/src/lib/Smr/Database.php.txt"></a>
     </aside>
 
         <p class="phpdocumentor-summary">UPDATE $fields in $table for rows that meet $criteria.</p>
@@ -1858,9 +1922,9 @@ instances have not been initialized yet.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Database.php"><a href="files/src-lib-smr-database.html"><abbr title="src/lib/Smr/Database.php">Database.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">255</span>
+    <span class="phpdocumentor-element-found-in__line">266</span>
 
-            <a href="classes/Smr-Database.html#source-view.255" class="phpdocumentor-element-found-in__source" data-line="255" data-modal="source-view" data-src="files/src/lib/Smr/Database.php.txt"></a>
+            <a href="classes/Smr-Database.html#source-view.266" class="phpdocumentor-element-found-in__source" data-line="266" data-modal="source-view" data-src="files/src/lib/Smr/Database.php.txt"></a>
     </aside>
 
     
@@ -2058,6 +2122,7 @@ instances have not been initialized yet.</p>
                 <ul class="phpdocumentor-list -clean">
                                             <li class=""><a href="classes/Smr-Database.html#method___construct">__construct()</a></li>
                                             <li class=""><a href="classes/Smr-Database.html#method_connectionFactory">connectionFactory()</a></li>
+                                            <li class=""><a href="classes/Smr-Database.html#method_count">count()</a></li>
                                             <li class=""><a href="classes/Smr-Database.html#method_delete">delete()</a></li>
                                             <li class=""><a href="classes/Smr-Database.html#method_escapeArray">escapeArray()</a></li>
                                             <li class=""><a href="classes/Smr-Database.html#method_escapeBoolean">escapeBoolean()</a></li>
