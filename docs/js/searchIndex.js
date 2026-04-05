@@ -166,6 +166,11 @@ Search.appendIndex(
             "summary": "Randomly\u0020choose\u0020an\u0020array\u0020key\u0020weighted\u0020by\u0020the\u0020array\u0020values.",
             "url": "namespaces/default.html#function_getWeightedRandom"
         },                {
+            "fqsen": "\\signed_sqrt\u0028\u0029",
+            "name": "signed_sqrt",
+            "summary": "",
+            "url": "namespaces/default.html#function_signed_sqrt"
+        },                {
             "fqsen": "\\Smr\\AbstractPlayer",
             "name": "AbstractPlayer",
             "summary": "",
