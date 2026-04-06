@@ -11796,10 +11796,20 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/Smr-Port.html#method_killPortByPlayer"
         },                {
-            "fqsen": "\\Smr\\Port\u003A\u003ADAMAGE_NEEDED_FOR_ALIGNMENT_CHANGE",
-            "name": "DAMAGE_NEEDED_FOR_ALIGNMENT_CHANGE",
+            "fqsen": "\\Smr\\Port\u003A\u003AFED_BOUNTY_PER_DAMAGE",
+            "name": "FED_BOUNTY_PER_DAMAGE",
             "summary": "",
-            "url": "classes/Smr-Port.html#constant_DAMAGE_NEEDED_FOR_ALIGNMENT_CHANGE"
+            "url": "classes/Smr-Port.html#constant_FED_BOUNTY_PER_DAMAGE"
+        },                {
+            "fqsen": "\\Smr\\Port\u003A\u003ADAMAGE_PER_ALIGNMENT_CHANGE",
+            "name": "DAMAGE_PER_ALIGNMENT_CHANGE",
+            "summary": "",
+            "url": "classes/Smr-Port.html#constant_DAMAGE_PER_ALIGNMENT_CHANGE"
+        },                {
+            "fqsen": "\\Smr\\Port\u003A\u003ADAMAGE_PER_RELATION_CHANGE",
+            "name": "DAMAGE_PER_RELATION_CHANGE",
+            "summary": "",
+            "url": "classes/Smr-Port.html#constant_DAMAGE_PER_RELATION_CHANGE"
         },                {
             "fqsen": "\\Smr\\Port\u003A\u003ADAMAGE_NEEDED_FOR_DOWNGRADE_CHANCE",
             "name": "DAMAGE_NEEDED_FOR_DOWNGRADE_CHANCE",
@@ -11885,11 +11895,6 @@ Search.appendIndex(
             "name": "CLAIM_PAYOUT",
             "summary": "",
             "url": "classes/Smr-Port.html#constant_CLAIM_PAYOUT"
-        },                {
-            "fqsen": "\\Smr\\Port\u003A\u003AKILLER_RELATIONS_LOSS",
-            "name": "KILLER_RELATIONS_LOSS",
-            "summary": "",
-            "url": "classes/Smr-Port.html#constant_KILLER_RELATIONS_LOSS"
         },                {
             "fqsen": "\\Smr\\Port\u003A\u003ASQL",
             "name": "SQL",
