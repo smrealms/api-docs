@@ -3811,10 +3811,10 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/Smr-Alliance.html#method_decreaseBank"
         },                {
-            "fqsen": "\\Smr\\Alliance\u003A\u003AsetBank\u0028\u0029",
-            "name": "setBank",
+            "fqsen": "\\Smr\\Alliance\u003A\u003AupdateBank\u0028\u0029",
+            "name": "updateBank",
             "summary": "",
-            "url": "classes/Smr-Alliance.html#method_setBank"
+            "url": "classes/Smr-Alliance.html#method_updateBank"
         },                {
             "fqsen": "\\Smr\\Alliance\u003A\u003AgetMotD\u0028\u0029",
             "name": "getMotD",
@@ -3861,10 +3861,20 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/Smr-Alliance.html#method_getKills"
         },                {
+            "fqsen": "\\Smr\\Alliance\u003A\u003AincrementKills\u0028\u0029",
+            "name": "incrementKills",
+            "summary": "",
+            "url": "classes/Smr-Alliance.html#method_incrementKills"
+        },                {
             "fqsen": "\\Smr\\Alliance\u003A\u003AgetDeaths\u0028\u0029",
             "name": "getDeaths",
             "summary": "",
             "url": "classes/Smr-Alliance.html#method_getDeaths"
+        },                {
+            "fqsen": "\\Smr\\Alliance\u003A\u003AincrementDeaths\u0028\u0029",
+            "name": "incrementDeaths",
+            "summary": "",
+            "url": "classes/Smr-Alliance.html#method_incrementDeaths"
         },                {
             "fqsen": "\\Smr\\Alliance\u003A\u003AgetDescription\u0028\u0029",
             "name": "getDescription",
