@@ -396,6 +396,11 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/Smr-AbstractPlayer.html#method_isNPC"
         },                {
+            "fqsen": "\\Smr\\AbstractPlayer\u003A\u003AisHiredNPC\u0028\u0029",
+            "name": "isHiredNPC",
+            "summary": "Is\u0020this\u0020an\u0020NPC\u0020that\u0020has\u0020been\u0020hired\u0020by\u0020a\u0020player\u0020alliance\u003F",
+            "url": "classes/Smr-AbstractPlayer.html#method_isHiredNPC"
+        },                {
             "fqsen": "\\Smr\\AbstractPlayer\u003A\u003AhasNewbieStatus\u0028\u0029",
             "name": "hasNewbieStatus",
             "summary": "Does\u0020the\u0020player\u0020have\u0020Newbie\u0020status\u003F",
@@ -3686,6 +3691,11 @@ Search.appendIndex(
             "summary": "Returns\u0020true\u0020if\u0020the\u0020alliance\u0020is\u0020the\u0020Newbie\u0020Help\u0020Alliance.",
             "url": "classes/Smr-Alliance.html#method_isNHA"
         },                {
+            "fqsen": "\\Smr\\Alliance\u003A\u003AisNpcForHire\u0028\u0029",
+            "name": "isNpcForHire",
+            "summary": "Returns\u0020true\u0020if\u0020the\u0020alliance\u0020is\u0020the\u0020NPC\u002DFor\u002DHire\u0020alliance.",
+            "url": "classes/Smr-Alliance.html#method_isNpcForHire"
+        },                {
             "fqsen": "\\Smr\\Alliance\u003A\u003AgetAllianceID\u0028\u0029",
             "name": "getAllianceID",
             "summary": "",
@@ -3886,9 +3896,14 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/Smr-Alliance.html#method_getJoinRestriction"
         },                {
+            "fqsen": "\\Smr\\Alliance\u003A\u003AhasRoomForPlayer\u0028\u0029",
+            "name": "hasRoomForPlayer",
+            "summary": "",
+            "url": "classes/Smr-Alliance.html#method_hasRoomForPlayer"
+        },                {
             "fqsen": "\\Smr\\Alliance\u003A\u003AgetNumVeterans\u0028\u0029",
             "name": "getNumVeterans",
-            "summary": "",
+            "summary": "Number\u0020of\u0020members\u0020who\u0020are\u0020currently\u0020non\u002DNewbie\u0020status\u0020\u0028excluding\u0020NPCs\u0029",
             "url": "classes/Smr-Alliance.html#method_getNumVeterans"
         },                {
             "fqsen": "\\Smr\\Alliance\u003A\u003AgetNumMembers\u0028\u0029",
@@ -3906,10 +3921,10 @@ Search.appendIndex(
             "summary": "Returns\u0020the\u0020members\u0020of\u0020this\u0020alliance\u0020as\u0020an\u0020array\u0020of\u0020Player\u0020objects.",
             "url": "classes/Smr-Alliance.html#method_getMembers"
         },                {
-            "fqsen": "\\Smr\\Alliance\u003A\u003AgetMemberIDs\u0028\u0029",
-            "name": "getMemberIDs",
+            "fqsen": "\\Smr\\Alliance\u003A\u003AgetNpcs\u0028\u0029",
+            "name": "getNpcs",
             "summary": "",
-            "url": "classes/Smr-Alliance.html#method_getMemberIDs"
+            "url": "classes/Smr-Alliance.html#method_getNpcs"
         },                {
             "fqsen": "\\Smr\\Alliance\u003A\u003AgetActiveIDs\u0028\u0029",
             "name": "getActiveIDs",
@@ -4045,11 +4060,6 @@ Search.appendIndex(
             "name": "flagshipID",
             "summary": "",
             "url": "classes/Smr-Alliance.html#property_flagshipID"
-        },                {
-            "fqsen": "\\Smr\\Alliance\u003A\u003A\u0024memberList",
-            "name": "memberList",
-            "summary": "",
-            "url": "classes/Smr-Alliance.html#property_memberList"
         },                {
             "fqsen": "\\Smr\\Alliance\u003A\u003A\u0024seedlist",
             "name": "seedlist",
