@@ -212,9 +212,15 @@
 </h4>
 <dl class="phpdocumentor-table-of-contents">
             <dt class="phpdocumentor-table-of-contents__entry -constant -public">
+    <a class="" href="classes/Smr-PlanetTypes-PlanetType.html#constant_MAX_LANDED_UNLIMITED">MAX_LANDED_UNLIMITED</a>
+    <span>
+        &nbsp;= -1                            </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -constant -public">
     <a class="" href="classes/Smr-PlanetTypes-PlanetType.html#constant_PLANET_TYPES">PLANET_TYPES</a>
     <span>
-        &nbsp;= [self::TYPE_TERRAN =&gt; \Smr\PlanetTypes\TerranPlanet::class, self::TYPE_ARID =&gt; \Smr\PlanetTypes\AridPlanet::class, self::TYPE_DWARF =&gt; \Smr\PlanetTypes\DwarfPlanet::class, self::TYPE_DEFENSE =&gt; \Smr\PlanetTypes\DefenseWorld::class, self::TYPE_PROTO =&gt; \Smr\PlanetTypes\ProtoPlanet::class]                            </span>
+        &nbsp;= [self::TYPE_TERRAN =&gt; \Smr\PlanetTypes\TerranPlanet::class, self::TYPE_ARID =&gt; \Smr\PlanetTypes\AridPlanet::class, self::TYPE_DWARF =&gt; \Smr\PlanetTypes\DwarfPlanet::class, self::TYPE_DEFENSE =&gt; \Smr\PlanetTypes\DefenseWorld::class, self::TYPE_PROTO =&gt; \Smr\PlanetTypes\ProtoPlanet::class, self::TYPE_OUTPOST =&gt; \Smr\PlanetTypes\SentinelOutpost::class]                            </span>
 </dt>
 <dd>Associates the planet_type_id with the planet class.</dd>
 
@@ -237,6 +243,12 @@
 </dt>
 
             <dt class="phpdocumentor-table-of-contents__entry -constant -public">
+    <a class="" href="classes/Smr-PlanetTypes-PlanetType.html#constant_TYPE_OUTPOST">TYPE_OUTPOST</a>
+    <span>
+        &nbsp;= 6                            </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -constant -public">
     <a class="" href="classes/Smr-PlanetTypes-PlanetType.html#constant_TYPE_PROTO">TYPE_PROTO</a>
     <span>
         &nbsp;= 5                            </span>
@@ -246,12 +258,6 @@
     <a class="" href="classes/Smr-PlanetTypes-PlanetType.html#constant_TYPE_TERRAN">TYPE_TERRAN</a>
     <span>
         &nbsp;= 1                            </span>
-</dt>
-
-            <dt class="phpdocumentor-table-of-contents__entry -constant -protected">
-    <a class="" href="classes/Smr-PlanetTypes-PlanetType.html#constant_MAX_LANDED_UNLIMITED">MAX_LANDED_UNLIMITED</a>
-    <span>
-        &nbsp;= 0                            </span>
 </dt>
 
     </dl>
@@ -289,6 +295,13 @@
                                 &nbsp;: self    </span>
 </dt>
 <dd>Returns an instance of the planet type from the given $typeID.</dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a class="" href="classes/Smr-PlanetTypes-PlanetType.html#method_hasPermanentDestruction">hasPermanentDestruction()</a>
+    <span>
+                                &nbsp;: bool    </span>
+</dt>
+<dd>Is this planet type permanently destroyed when its defenses are breached?</dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
     <a class="" href="classes/Smr-PlanetTypes-PlanetType.html#method_imageLink">imageLink()</a>
@@ -346,6 +359,37 @@
 
         </h3>
                     <article class="phpdocumentor-element -constant -public ">
+    <h4 class="phpdocumentor-element__name" id="constant_MAX_LANDED_UNLIMITED">
+        MAX_LANDED_UNLIMITED
+        <a href="classes/Smr-PlanetTypes-PlanetType.html#constant_MAX_LANDED_UNLIMITED" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/PlanetTypes/PlanetType.php"><a href="files/src-lib-smr-planettypes-planettype.html"><abbr title="src/lib/Smr/PlanetTypes/PlanetType.php">PlanetType.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">13</span>
+
+            <a href="classes/Smr-PlanetTypes-PlanetType.html#source-view.13" class="phpdocumentor-element-found-in__source" data-line="13" data-modal="source-view" data-src="files/src/lib/Smr/PlanetTypes/PlanetType.php.txt"></a>
+    </aside>
+
+    
+    
+    <code class="phpdocumentor-signature phpdocumentor-code ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+        <span class="phpdocumentor-signature__type">mixed</span>
+    <span class="phpdocumentor-signature__name">MAX_LANDED_UNLIMITED</span>
+    = <span class="phpdocumentor-signature__default-value">-1</span>
+</code>
+
+
+    
+    
+    
+
+        
+    </article>
+                    <article class="phpdocumentor-element -constant -public ">
     <h4 class="phpdocumentor-element__name" id="constant_PLANET_TYPES">
         PLANET_TYPES
         <a href="classes/Smr-PlanetTypes-PlanetType.html#constant_PLANET_TYPES" class="headerlink"><i class="fas fa-link"></i></a>
@@ -355,9 +399,9 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/PlanetTypes/PlanetType.php"><a href="files/src-lib-smr-planettypes-planettype.html"><abbr title="src/lib/Smr/PlanetTypes/PlanetType.php">PlanetType.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">51</span>
+    <span class="phpdocumentor-element-found-in__line">52</span>
 
-            <a href="classes/Smr-PlanetTypes-PlanetType.html#source-view.51" class="phpdocumentor-element-found-in__source" data-line="51" data-modal="source-view" data-src="files/src/lib/Smr/PlanetTypes/PlanetType.php.txt"></a>
+            <a href="classes/Smr-PlanetTypes-PlanetType.html#source-view.52" class="phpdocumentor-element-found-in__source" data-line="52" data-modal="source-view" data-src="files/src/lib/Smr/PlanetTypes/PlanetType.php.txt"></a>
     </aside>
 
         <p class="phpdocumentor-summary">Associates the planet_type_id with the planet class.</p>
@@ -367,7 +411,7 @@
     <span class="phpdocumentor-signature__visibility">public</span>
         <span class="phpdocumentor-signature__type">mixed</span>
     <span class="phpdocumentor-signature__name">PLANET_TYPES</span>
-    = <span class="phpdocumentor-signature__default-value">[self::TYPE_TERRAN =&gt; \Smr\PlanetTypes\TerranPlanet::class, self::TYPE_ARID =&gt; \Smr\PlanetTypes\AridPlanet::class, self::TYPE_DWARF =&gt; \Smr\PlanetTypes\DwarfPlanet::class, self::TYPE_DEFENSE =&gt; \Smr\PlanetTypes\DefenseWorld::class, self::TYPE_PROTO =&gt; \Smr\PlanetTypes\ProtoPlanet::class]</span>
+    = <span class="phpdocumentor-signature__default-value">[self::TYPE_TERRAN =&gt; \Smr\PlanetTypes\TerranPlanet::class, self::TYPE_ARID =&gt; \Smr\PlanetTypes\AridPlanet::class, self::TYPE_DWARF =&gt; \Smr\PlanetTypes\DwarfPlanet::class, self::TYPE_DEFENSE =&gt; \Smr\PlanetTypes\DefenseWorld::class, self::TYPE_PROTO =&gt; \Smr\PlanetTypes\ProtoPlanet::class, self::TYPE_OUTPOST =&gt; \Smr\PlanetTypes\SentinelOutpost::class]</span>
 </code>
 
 
@@ -473,6 +517,37 @@
         
     </article>
                     <article class="phpdocumentor-element -constant -public ">
+    <h4 class="phpdocumentor-element__name" id="constant_TYPE_OUTPOST">
+        TYPE_OUTPOST
+        <a href="classes/Smr-PlanetTypes-PlanetType.html#constant_TYPE_OUTPOST" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/PlanetTypes/PlanetType.php"><a href="files/src-lib-smr-planettypes-planettype.html"><abbr title="src/lib/Smr/PlanetTypes/PlanetType.php">PlanetType.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">21</span>
+
+            <a href="classes/Smr-PlanetTypes-PlanetType.html#source-view.21" class="phpdocumentor-element-found-in__source" data-line="21" data-modal="source-view" data-src="files/src/lib/Smr/PlanetTypes/PlanetType.php.txt"></a>
+    </aside>
+
+    
+    
+    <code class="phpdocumentor-signature phpdocumentor-code ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+        <span class="phpdocumentor-signature__type">mixed</span>
+    <span class="phpdocumentor-signature__name">TYPE_OUTPOST</span>
+    = <span class="phpdocumentor-signature__default-value">6</span>
+</code>
+
+
+    
+    
+    
+
+        
+    </article>
+                    <article class="phpdocumentor-element -constant -public ">
     <h4 class="phpdocumentor-element__name" id="constant_TYPE_PROTO">
         TYPE_PROTO
         <a href="classes/Smr-PlanetTypes-PlanetType.html#constant_TYPE_PROTO" class="headerlink"><i class="fas fa-link"></i></a>
@@ -534,37 +609,6 @@
 
         
     </article>
-                    <article class="phpdocumentor-element -constant -protected ">
-    <h4 class="phpdocumentor-element__name" id="constant_MAX_LANDED_UNLIMITED">
-        MAX_LANDED_UNLIMITED
-        <a href="classes/Smr-PlanetTypes-PlanetType.html#constant_MAX_LANDED_UNLIMITED" class="headerlink"><i class="fas fa-link"></i></a>
-
-    </h4>
-
-    <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/PlanetTypes/PlanetType.php"><a href="files/src-lib-smr-planettypes-planettype.html"><abbr title="src/lib/Smr/PlanetTypes/PlanetType.php">PlanetType.php</abbr></a></abbr>
-    :
-    <span class="phpdocumentor-element-found-in__line">13</span>
-
-            <a href="classes/Smr-PlanetTypes-PlanetType.html#source-view.13" class="phpdocumentor-element-found-in__source" data-line="13" data-modal="source-view" data-src="files/src/lib/Smr/PlanetTypes/PlanetType.php.txt"></a>
-    </aside>
-
-    
-    
-    <code class="phpdocumentor-signature phpdocumentor-code ">
-    <span class="phpdocumentor-signature__visibility">protected</span>
-        <span class="phpdocumentor-signature__type">mixed</span>
-    <span class="phpdocumentor-signature__name">MAX_LANDED_UNLIMITED</span>
-    = <span class="phpdocumentor-signature__default-value">0</span>
-</code>
-
-
-    
-    
-    
-
-        
-    </article>
             </section>
 
         
@@ -591,9 +635,9 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/PlanetTypes/PlanetType.php"><a href="files/src-lib-smr-planettypes-planettype.html"><abbr title="src/lib/Smr/PlanetTypes/PlanetType.php">PlanetType.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">45</span>
+    <span class="phpdocumentor-element-found-in__line">46</span>
 
-            <a href="classes/Smr-PlanetTypes-PlanetType.html#source-view.45" class="phpdocumentor-element-found-in__source" data-line="45" data-modal="source-view" data-src="files/src/lib/Smr/PlanetTypes/PlanetType.php.txt"></a>
+            <a href="classes/Smr-PlanetTypes-PlanetType.html#source-view.46" class="phpdocumentor-element-found-in__source" data-line="46" data-modal="source-view" data-src="files/src/lib/Smr/PlanetTypes/PlanetType.php.txt"></a>
     </aside>
 
     
@@ -634,9 +678,9 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/PlanetTypes/PlanetType.php"><a href="files/src-lib-smr-planettypes-planettype.html"><abbr title="src/lib/Smr/PlanetTypes/PlanetType.php">PlanetType.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">35</span>
+    <span class="phpdocumentor-element-found-in__line">36</span>
 
-            <a href="classes/Smr-PlanetTypes-PlanetType.html#source-view.35" class="phpdocumentor-element-found-in__source" data-line="35" data-modal="source-view" data-src="files/src/lib/Smr/PlanetTypes/PlanetType.php.txt"></a>
+            <a href="classes/Smr-PlanetTypes-PlanetType.html#source-view.36" class="phpdocumentor-element-found-in__source" data-line="36" data-modal="source-view" data-src="files/src/lib/Smr/PlanetTypes/PlanetType.php.txt"></a>
     </aside>
 
     
@@ -673,9 +717,9 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/PlanetTypes/PlanetType.php"><a href="files/src-lib-smr-planettypes-planettype.html"><abbr title="src/lib/Smr/PlanetTypes/PlanetType.php">PlanetType.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">63</span>
+    <span class="phpdocumentor-element-found-in__line">65</span>
 
-            <a href="classes/Smr-PlanetTypes-PlanetType.html#source-view.63" class="phpdocumentor-element-found-in__source" data-line="63" data-modal="source-view" data-src="files/src/lib/Smr/PlanetTypes/PlanetType.php.txt"></a>
+            <a href="classes/Smr-PlanetTypes-PlanetType.html#source-view.65" class="phpdocumentor-element-found-in__source" data-line="65" data-modal="source-view" data-src="files/src/lib/Smr/PlanetTypes/PlanetType.php.txt"></a>
     </aside>
 
         <p class="phpdocumentor-summary">Returns an instance of the planet type from the given $typeID.</p>
@@ -715,6 +759,46 @@
         class="phpdocumentor-element
             -method
             -public
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="method_hasPermanentDestruction">
+        hasPermanentDestruction()
+        <a href="classes/Smr-PlanetTypes-PlanetType.html#method_hasPermanentDestruction" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/PlanetTypes/PlanetType.php"><a href="files/src-lib-smr-planettypes-planettype.html"><abbr title="src/lib/Smr/PlanetTypes/PlanetType.php">PlanetType.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">96</span>
+
+            <a href="classes/Smr-PlanetTypes-PlanetType.html#source-view.96" class="phpdocumentor-element-found-in__source" data-line="96" data-modal="source-view" data-src="files/src/lib/Smr/PlanetTypes/PlanetType.php.txt"></a>
+    </aside>
+
+        <p class="phpdocumentor-summary">Is this planet type permanently destroyed when its defenses are breached?</p>
+
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+                    <span class="phpdocumentor-signature__name">hasPermanentDestruction</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">bool</span></code>
+
+    <div class="phpdocumentor-label-line">
+        </div>
+    
+    
+    
+    
+
+        
+    
+            <section>
+        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
+        <span class="phpdocumentor-signature__response_type">bool</span>
+            </section>
+
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
                         -abstract                                "
 >
     <h4 class="phpdocumentor-element__name" id="method_imageLink">
@@ -725,9 +809,9 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/PlanetTypes/PlanetType.php"><a href="files/src-lib-smr-planettypes-planettype.html"><abbr title="src/lib/Smr/PlanetTypes/PlanetType.php">PlanetType.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">34</span>
+    <span class="phpdocumentor-element-found-in__line">35</span>
 
-            <a href="classes/Smr-PlanetTypes-PlanetType.html#source-view.34" class="phpdocumentor-element-found-in__source" data-line="34" data-modal="source-view" data-src="files/src/lib/Smr/PlanetTypes/PlanetType.php.txt"></a>
+            <a href="classes/Smr-PlanetTypes-PlanetType.html#source-view.35" class="phpdocumentor-element-found-in__source" data-line="35" data-modal="source-view" data-src="files/src/lib/Smr/PlanetTypes/PlanetType.php.txt"></a>
     </aside>
 
     
@@ -764,9 +848,9 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/PlanetTypes/PlanetType.php"><a href="files/src-lib-smr-planettypes-planettype.html"><abbr title="src/lib/Smr/PlanetTypes/PlanetType.php">PlanetType.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">36</span>
+    <span class="phpdocumentor-element-found-in__line">37</span>
 
-            <a href="classes/Smr-PlanetTypes-PlanetType.html#source-view.36" class="phpdocumentor-element-found-in__source" data-line="36" data-modal="source-view" data-src="files/src/lib/Smr/PlanetTypes/PlanetType.php.txt"></a>
+            <a href="classes/Smr-PlanetTypes-PlanetType.html#source-view.37" class="phpdocumentor-element-found-in__source" data-line="37" data-modal="source-view" data-src="files/src/lib/Smr/PlanetTypes/PlanetType.php.txt"></a>
     </aside>
 
     
@@ -803,9 +887,9 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/PlanetTypes/PlanetType.php"><a href="files/src-lib-smr-planettypes-planettype.html"><abbr title="src/lib/Smr/PlanetTypes/PlanetType.php">PlanetType.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">37</span>
+    <span class="phpdocumentor-element-found-in__line">38</span>
 
-            <a href="classes/Smr-PlanetTypes-PlanetType.html#source-view.37" class="phpdocumentor-element-found-in__source" data-line="37" data-modal="source-view" data-src="files/src/lib/Smr/PlanetTypes/PlanetType.php.txt"></a>
+            <a href="classes/Smr-PlanetTypes-PlanetType.html#source-view.38" class="phpdocumentor-element-found-in__source" data-line="38" data-modal="source-view" data-src="files/src/lib/Smr/PlanetTypes/PlanetType.php.txt"></a>
     </aside>
 
     
@@ -842,9 +926,9 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/PlanetTypes/PlanetType.php"><a href="files/src-lib-smr-planettypes-planettype.html"><abbr title="src/lib/Smr/PlanetTypes/PlanetType.php">PlanetType.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">42</span>
+    <span class="phpdocumentor-element-found-in__line">43</span>
 
-            <a href="classes/Smr-PlanetTypes-PlanetType.html#source-view.42" class="phpdocumentor-element-found-in__source" data-line="42" data-modal="source-view" data-src="files/src/lib/Smr/PlanetTypes/PlanetType.php.txt"></a>
+            <a href="classes/Smr-PlanetTypes-PlanetType.html#source-view.43" class="phpdocumentor-element-found-in__source" data-line="43" data-modal="source-view" data-src="files/src/lib/Smr/PlanetTypes/PlanetType.php.txt"></a>
     </aside>
 
     
@@ -881,9 +965,9 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/PlanetTypes/PlanetType.php"><a href="files/src-lib-smr-planettypes-planettype.html"><abbr title="src/lib/Smr/PlanetTypes/PlanetType.php">PlanetType.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">33</span>
+    <span class="phpdocumentor-element-found-in__line">34</span>
 
-            <a href="classes/Smr-PlanetTypes-PlanetType.html#source-view.33" class="phpdocumentor-element-found-in__source" data-line="33" data-modal="source-view" data-src="files/src/lib/Smr/PlanetTypes/PlanetType.php.txt"></a>
+            <a href="classes/Smr-PlanetTypes-PlanetType.html#source-view.34" class="phpdocumentor-element-found-in__source" data-line="34" data-modal="source-view" data-src="files/src/lib/Smr/PlanetTypes/PlanetType.php.txt"></a>
     </aside>
 
     
@@ -920,9 +1004,9 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/PlanetTypes/PlanetType.php"><a href="files/src-lib-smr-planettypes-planettype.html"><abbr title="src/lib/Smr/PlanetTypes/PlanetType.php">PlanetType.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">76</span>
+    <span class="phpdocumentor-element-found-in__line">78</span>
 
-            <a href="classes/Smr-PlanetTypes-PlanetType.html#source-view.76" class="phpdocumentor-element-found-in__source" data-line="76" data-modal="source-view" data-src="files/src/lib/Smr/PlanetTypes/PlanetType.php.txt"></a>
+            <a href="classes/Smr-PlanetTypes-PlanetType.html#source-view.78" class="phpdocumentor-element-found-in__source" data-line="78" data-modal="source-view" data-src="files/src/lib/Smr/PlanetTypes/PlanetType.php.txt"></a>
     </aside>
 
         <p class="phpdocumentor-summary">Access properties of structures that this planet type can build.</p>
@@ -970,9 +1054,9 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/PlanetTypes/PlanetType.php"><a href="files/src-lib-smr-planettypes-planettype.html"><abbr title="src/lib/Smr/PlanetTypes/PlanetType.php">PlanetType.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">31</span>
+    <span class="phpdocumentor-element-found-in__line">32</span>
 
-            <a href="classes/Smr-PlanetTypes-PlanetType.html#source-view.31" class="phpdocumentor-element-found-in__source" data-line="31" data-modal="source-view" data-src="files/src/lib/Smr/PlanetTypes/PlanetType.php.txt"></a>
+            <a href="classes/Smr-PlanetTypes-PlanetType.html#source-view.32" class="phpdocumentor-element-found-in__source" data-line="32" data-modal="source-view" data-src="files/src/lib/Smr/PlanetTypes/PlanetType.php.txt"></a>
     </aside>
 
         <p class="phpdocumentor-summary">Returns the properties of all the structures this planet type can build.</p>
@@ -1115,13 +1199,14 @@ the base class (nor should there be).</p>
                             <li class="phpdocumentor-on-this-page-section__title">Constants</li>
                 <li>
                     <ul class="phpdocumentor-list -clean">
+                                                    <li class=""><a href="classes/Smr-PlanetTypes-PlanetType.html#constant_MAX_LANDED_UNLIMITED">MAX_LANDED_UNLIMITED</a></li>
                                                     <li class=""><a href="classes/Smr-PlanetTypes-PlanetType.html#constant_PLANET_TYPES">PLANET_TYPES</a></li>
                                                     <li class=""><a href="classes/Smr-PlanetTypes-PlanetType.html#constant_TYPE_ARID">TYPE_ARID</a></li>
                                                     <li class=""><a href="classes/Smr-PlanetTypes-PlanetType.html#constant_TYPE_DEFENSE">TYPE_DEFENSE</a></li>
                                                     <li class=""><a href="classes/Smr-PlanetTypes-PlanetType.html#constant_TYPE_DWARF">TYPE_DWARF</a></li>
+                                                    <li class=""><a href="classes/Smr-PlanetTypes-PlanetType.html#constant_TYPE_OUTPOST">TYPE_OUTPOST</a></li>
                                                     <li class=""><a href="classes/Smr-PlanetTypes-PlanetType.html#constant_TYPE_PROTO">TYPE_PROTO</a></li>
                                                     <li class=""><a href="classes/Smr-PlanetTypes-PlanetType.html#constant_TYPE_TERRAN">TYPE_TERRAN</a></li>
-                                                    <li class=""><a href="classes/Smr-PlanetTypes-PlanetType.html#constant_MAX_LANDED_UNLIMITED">MAX_LANDED_UNLIMITED</a></li>
                                             </ul>
                 </li>
             
@@ -1137,6 +1222,7 @@ the base class (nor should there be).</p>
                 <ul class="phpdocumentor-list -clean">
                                             <li class=""><a href="classes/Smr-PlanetTypes-PlanetType.html#method_description">description()</a></li>
                                             <li class=""><a href="classes/Smr-PlanetTypes-PlanetType.html#method_getTypeInfo">getTypeInfo()</a></li>
+                                            <li class=""><a href="classes/Smr-PlanetTypes-PlanetType.html#method_hasPermanentDestruction">hasPermanentDestruction()</a></li>
                                             <li class=""><a href="classes/Smr-PlanetTypes-PlanetType.html#method_imageLink">imageLink()</a></li>
                                             <li class=""><a href="classes/Smr-PlanetTypes-PlanetType.html#method_maxAttackers">maxAttackers()</a></li>
                                             <li class=""><a href="classes/Smr-PlanetTypes-PlanetType.html#method_maxLanded">maxLanded()</a></li>

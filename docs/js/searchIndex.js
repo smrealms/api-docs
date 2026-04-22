@@ -5746,6 +5746,11 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/Smr-Force.html#method_getBumpTurnCost"
         },                {
+            "fqsen": "\\Smr\\Force\u003A\u003AsetForcesToMax\u0028\u0029",
+            "name": "setForcesToMax",
+            "summary": "",
+            "url": "classes/Smr-Force.html#method_setForcesToMax"
+        },                {
             "fqsen": "\\Smr\\Force\u003A\u003AgetAttackTurnCost\u0028\u0029",
             "name": "getAttackTurnCost",
             "summary": "",
@@ -8516,6 +8521,16 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/Smr-Planet.html#method_getMaxBuildings"
         },                {
+            "fqsen": "\\Smr\\Planet\u003A\u003AsetBuildingsToMax\u0028\u0029",
+            "name": "setBuildingsToMax",
+            "summary": "",
+            "url": "classes/Smr-Planet.html#method_setBuildingsToMax"
+        },                {
+            "fqsen": "\\Smr\\Planet\u003A\u003AsetDefensesToMax\u0028\u0029",
+            "name": "setDefensesToMax",
+            "summary": "",
+            "url": "classes/Smr-Planet.html#method_setDefensesToMax"
+        },                {
             "fqsen": "\\Smr\\Planet\u003A\u003AgetTypeID\u0028\u0029",
             "name": "getTypeID",
             "summary": "",
@@ -8550,6 +8565,16 @@ Search.appendIndex(
             "name": "getMaxLanded",
             "summary": "",
             "url": "classes/Smr-Planet.html#method_getMaxLanded"
+        },                {
+            "fqsen": "\\Smr\\Planet\u003A\u003AisMaxLandedUnlimited\u0028\u0029",
+            "name": "isMaxLandedUnlimited",
+            "summary": "",
+            "url": "classes/Smr-Planet.html#method_isMaxLandedUnlimited"
+        },                {
+            "fqsen": "\\Smr\\Planet\u003A\u003AhasPermanentDestruction\u0028\u0029",
+            "name": "hasPermanentDestruction",
+            "summary": "",
+            "url": "classes/Smr-Planet.html#method_hasPermanentDestruction"
         },                {
             "fqsen": "\\Smr\\Planet\u003A\u003AgetStructureTypes\u0028\u0029",
             "name": "getStructureTypes",
@@ -8926,6 +8951,11 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/Smr-Planet.html#property_hasStoppedBuilding"
         },                {
+            "fqsen": "\\Smr\\Planet\u003A\u003A\u0024hasBeenAttackedByWeapon",
+            "name": "hasBeenAttackedByWeapon",
+            "summary": "",
+            "url": "classes/Smr-Planet.html#property_hasBeenAttackedByWeapon"
+        },                {
             "fqsen": "\\Smr\\Planet\u003A\u003A\u0024gameID",
             "name": "gameID",
             "summary": "",
@@ -9251,6 +9281,11 @@ Search.appendIndex(
             "summary": "Access\u0020properties\u0020of\u0020structures\u0020that\u0020this\u0020planet\u0020type\u0020can\u0020build.",
             "url": "classes/Smr-PlanetTypes-PlanetType.html#method_structureTypes"
         },                {
+            "fqsen": "\\Smr\\PlanetTypes\\PlanetType\u003A\u003AhasPermanentDestruction\u0028\u0029",
+            "name": "hasPermanentDestruction",
+            "summary": "Is\u0020this\u0020planet\u0020type\u0020permanently\u0020destroyed\u0020when\u0020its\u0020defenses\u0020are\u0020breached\u003F",
+            "url": "classes/Smr-PlanetTypes-PlanetType.html#method_hasPermanentDestruction"
+        },                {
             "fqsen": "\\Smr\\PlanetTypes\\PlanetType\u003A\u003AMAX_LANDED_UNLIMITED",
             "name": "MAX_LANDED_UNLIMITED",
             "summary": "",
@@ -9280,6 +9315,11 @@ Search.appendIndex(
             "name": "TYPE_PROTO",
             "summary": "",
             "url": "classes/Smr-PlanetTypes-PlanetType.html#constant_TYPE_PROTO"
+        },                {
+            "fqsen": "\\Smr\\PlanetTypes\\PlanetType\u003A\u003ATYPE_OUTPOST",
+            "name": "TYPE_OUTPOST",
+            "summary": "",
+            "url": "classes/Smr-PlanetTypes-PlanetType.html#constant_TYPE_OUTPOST"
         },                {
             "fqsen": "\\Smr\\PlanetTypes\\PlanetType\u003A\u003APLANET_TYPES",
             "name": "PLANET_TYPES",
@@ -9335,6 +9375,56 @@ Search.appendIndex(
             "name": "STRUCTURES",
             "summary": "",
             "url": "classes/Smr-PlanetTypes-ProtoPlanet.html#constant_STRUCTURES"
+        },                {
+            "fqsen": "\\Smr\\PlanetTypes\\SentinelOutpost",
+            "name": "SentinelOutpost",
+            "summary": "Highly\u0020defensive,\u0020but\u0020not\u0020overly\u0020dangerous\u0020planet\u0020intended\u0020for\u0020NPCs.",
+            "url": "classes/Smr-PlanetTypes-SentinelOutpost.html"
+        },                {
+            "fqsen": "\\Smr\\PlanetTypes\\SentinelOutpost\u003A\u003AgetStructureData\u0028\u0029",
+            "name": "getStructureData",
+            "summary": "Returns\u0020the\u0020properties\u0020of\u0020all\u0020the\u0020structures\u0020this\u0020planet\u0020type\u0020can\u0020build.",
+            "url": "classes/Smr-PlanetTypes-SentinelOutpost.html#method_getStructureData"
+        },                {
+            "fqsen": "\\Smr\\PlanetTypes\\SentinelOutpost\u003A\u003Aname\u0028\u0029",
+            "name": "name",
+            "summary": "",
+            "url": "classes/Smr-PlanetTypes-SentinelOutpost.html#method_name"
+        },                {
+            "fqsen": "\\Smr\\PlanetTypes\\SentinelOutpost\u003A\u003AimageLink\u0028\u0029",
+            "name": "imageLink",
+            "summary": "",
+            "url": "classes/Smr-PlanetTypes-SentinelOutpost.html#method_imageLink"
+        },                {
+            "fqsen": "\\Smr\\PlanetTypes\\SentinelOutpost\u003A\u003Adescription\u0028\u0029",
+            "name": "description",
+            "summary": "",
+            "url": "classes/Smr-PlanetTypes-SentinelOutpost.html#method_description"
+        },                {
+            "fqsen": "\\Smr\\PlanetTypes\\SentinelOutpost\u003A\u003AmaxAttackers\u0028\u0029",
+            "name": "maxAttackers",
+            "summary": "",
+            "url": "classes/Smr-PlanetTypes-SentinelOutpost.html#method_maxAttackers"
+        },                {
+            "fqsen": "\\Smr\\PlanetTypes\\SentinelOutpost\u003A\u003AmaxLanded\u0028\u0029",
+            "name": "maxLanded",
+            "summary": "",
+            "url": "classes/Smr-PlanetTypes-SentinelOutpost.html#method_maxLanded"
+        },                {
+            "fqsen": "\\Smr\\PlanetTypes\\SentinelOutpost\u003A\u003AmenuOptions\u0028\u0029",
+            "name": "menuOptions",
+            "summary": "",
+            "url": "classes/Smr-PlanetTypes-SentinelOutpost.html#method_menuOptions"
+        },                {
+            "fqsen": "\\Smr\\PlanetTypes\\SentinelOutpost\u003A\u003AhasPermanentDestruction\u0028\u0029",
+            "name": "hasPermanentDestruction",
+            "summary": "Is\u0020this\u0020planet\u0020type\u0020permanently\u0020destroyed\u0020when\u0020its\u0020defenses\u0020are\u0020breached\u003F",
+            "url": "classes/Smr-PlanetTypes-SentinelOutpost.html#method_hasPermanentDestruction"
+        },                {
+            "fqsen": "\\Smr\\PlanetTypes\\SentinelOutpost\u003A\u003ASTRUCTURES",
+            "name": "STRUCTURES",
+            "summary": "",
+            "url": "classes/Smr-PlanetTypes-SentinelOutpost.html#constant_STRUCTURES"
         },                {
             "fqsen": "\\Smr\\PlanetTypes\\TerranPlanet",
             "name": "TerranPlanet",
