@@ -1056,6 +1056,11 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/Smr-Account.html#method_isNPC"
         },                {
+            "fqsen": "\\Smr\\Account\u003A\u003AisNHL\u0028\u0029",
+            "name": "isNHL",
+            "summary": "Is\u0020account\u0020designated\u0020as\u0020the\u0020Newbie\u0020Help\u0020Leader\u003F",
+            "url": "classes/Smr-Account.html#method_isNHL"
+        },                {
             "fqsen": "\\Smr\\Account\u003A\u003AgetHOFData\u0028\u0029",
             "name": "getHOFData",
             "summary": "",
