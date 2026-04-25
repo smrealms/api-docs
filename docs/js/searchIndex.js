@@ -856,6 +856,11 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/Smr-AbstractShip.html#method_update"
         },                {
+            "fqsen": "\\Smr\\AbstractShip\u003A\u003AupdateCargo\u0028\u0029",
+            "name": "updateCargo",
+            "summary": "",
+            "url": "classes/Smr-AbstractShip.html#method_updateCargo"
+        },                {
             "fqsen": "\\Smr\\AbstractShip\u003A\u003AEXP_PER_DAMAGE_PLAYER",
             "name": "EXP_PER_DAMAGE_PLAYER",
             "summary": "",
