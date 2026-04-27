@@ -386,6 +386,11 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/Smr-AbstractShip.html#method_enableCloak"
         },                {
+            "fqsen": "\\Smr\\AbstractShip\u003A\u003AsetCloak\u0028\u0029",
+            "name": "setCloak",
+            "summary": "",
+            "url": "classes/Smr-AbstractShip.html#method_setCloak"
+        },                {
             "fqsen": "\\Smr\\AbstractShip\u003A\u003AhasIllusion\u0028\u0029",
             "name": "hasIllusion",
             "summary": "",
