@@ -6,7 +6,10 @@
     
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <base href="../">
+    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png"/>
+    <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png"/>
     <link rel="icon" href="images/favicon.ico"/>
+    <link rel="apple-touch-icon" href="images/apple-touch-icon.png"/>
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/base.css">
             <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -210,37 +213,37 @@
             <dt class="phpdocumentor-table-of-contents__entry -constant -public">
     <a class="" href="classes/Smr-Planet.html#constant_DAMAGE_NEEDED_FOR_DOWNGRADE_CHANCE">DAMAGE_NEEDED_FOR_DOWNGRADE_CHANCE</a>
     <span>
-        &nbsp;= 100                            </span>
+        &nbsp;: int&nbsp;= 100                            </span>
 </dt>
 
             <dt class="phpdocumentor-table-of-contents__entry -constant -public">
     <a class="" href="classes/Smr-Planet.html#constant_MAX_STOCKPILE">MAX_STOCKPILE</a>
     <span>
-        &nbsp;= 600                            </span>
+        &nbsp;: int&nbsp;= 600                            </span>
 </dt>
 
             <dt class="phpdocumentor-table-of-contents__entry -constant -public">
     <a class="" href="classes/Smr-Planet.html#constant_SQL">SQL</a>
     <span>
-        &nbsp;= &#039;game_id = :game_id AND sector_id = :sector_id&#039;                            </span>
+        &nbsp;: string&nbsp;= &#039;game_id = :game_id AND sector_id = :sector_id&#039;                            </span>
 </dt>
 
             <dt class="phpdocumentor-table-of-contents__entry -constant -protected">
     <a class="" href="classes/Smr-Planet.html#constant_CHANCE_TO_DOWNGRADE">CHANCE_TO_DOWNGRADE</a>
     <span>
-        &nbsp;= 15                            </span>
+        &nbsp;: int&nbsp;= 15                            </span>
 </dt>
 
             <dt class="phpdocumentor-table-of-contents__entry -constant -protected">
     <a class="" href="classes/Smr-Planet.html#constant_TIME_ATTACK_NEWS_COOLDOWN">TIME_ATTACK_NEWS_COOLDOWN</a>
     <span>
-        &nbsp;= 3600                            </span>
+        &nbsp;: int&nbsp;= 3600                            </span>
 </dt>
 
             <dt class="phpdocumentor-table-of-contents__entry -constant -protected">
     <a class="" href="classes/Smr-Planet.html#constant_TIME_TO_CREDIT_BUST">TIME_TO_CREDIT_BUST</a>
     <span>
-        &nbsp;= 10800                            </span>
+        &nbsp;: int&nbsp;= 10800                            </span>
 </dt>
 
     </dl>
@@ -1260,7 +1263,7 @@ no restriction.</dd>
     
     <code class="phpdocumentor-signature phpdocumentor-code ">
     <span class="phpdocumentor-signature__visibility">public</span>
-        <span class="phpdocumentor-signature__type">mixed</span>
+        <span class="phpdocumentor-signature__type">int</span>
     <span class="phpdocumentor-signature__name">DAMAGE_NEEDED_FOR_DOWNGRADE_CHANCE</span>
     = <span class="phpdocumentor-signature__default-value">100</span>
 </code>
@@ -1291,7 +1294,7 @@ no restriction.</dd>
     
     <code class="phpdocumentor-signature phpdocumentor-code ">
     <span class="phpdocumentor-signature__visibility">public</span>
-        <span class="phpdocumentor-signature__type">mixed</span>
+        <span class="phpdocumentor-signature__type">int</span>
     <span class="phpdocumentor-signature__name">MAX_STOCKPILE</span>
     = <span class="phpdocumentor-signature__default-value">600</span>
 </code>
@@ -1322,7 +1325,7 @@ no restriction.</dd>
     
     <code class="phpdocumentor-signature phpdocumentor-code ">
     <span class="phpdocumentor-signature__visibility">public</span>
-        <span class="phpdocumentor-signature__type">mixed</span>
+        <span class="phpdocumentor-signature__type">string</span>
     <span class="phpdocumentor-signature__name">SQL</span>
     = <span class="phpdocumentor-signature__default-value">&#039;game_id = :game_id AND sector_id = :sector_id&#039;</span>
 </code>
@@ -1353,7 +1356,7 @@ no restriction.</dd>
     
     <code class="phpdocumentor-signature phpdocumentor-code ">
     <span class="phpdocumentor-signature__visibility">protected</span>
-        <span class="phpdocumentor-signature__type">mixed</span>
+        <span class="phpdocumentor-signature__type">int</span>
     <span class="phpdocumentor-signature__name">CHANCE_TO_DOWNGRADE</span>
     = <span class="phpdocumentor-signature__default-value">15</span>
 </code>
@@ -1384,7 +1387,7 @@ no restriction.</dd>
     
     <code class="phpdocumentor-signature phpdocumentor-code ">
     <span class="phpdocumentor-signature__visibility">protected</span>
-        <span class="phpdocumentor-signature__type">mixed</span>
+        <span class="phpdocumentor-signature__type">int</span>
     <span class="phpdocumentor-signature__name">TIME_ATTACK_NEWS_COOLDOWN</span>
     = <span class="phpdocumentor-signature__default-value">3600</span>
 </code>
@@ -1415,7 +1418,7 @@ no restriction.</dd>
     
     <code class="phpdocumentor-signature phpdocumentor-code ">
     <span class="phpdocumentor-signature__visibility">protected</span>
-        <span class="phpdocumentor-signature__type">mixed</span>
+        <span class="phpdocumentor-signature__type">int</span>
     <span class="phpdocumentor-signature__name">TIME_TO_CREDIT_BUST</span>
     = <span class="phpdocumentor-signature__default-value">10800</span>
 </code>
@@ -7816,23 +7819,22 @@ no restriction.</p>
             </dl>
 
     
-    <h5 class="phpdocumentor-tag-list__heading" id="tags">
+    <h5 class="phpdocumentor-tag-list__heading" id="method_startBuilding_tags">
         Tags
-        <a href="classes/Smr-Planet.html#method_startBuilding#tags" class="headerlink"><i class="fas fa-link"></i></a>
+        <a href="classes/Smr-Planet.html#method_startBuilding_tags" class="headerlink"><i class="fas fa-link"></i></a>
 
     </h5>
     <dl class="phpdocumentor-tag-list">
-                                    <dt class="phpdocumentor-tag-list__entry">
-                    <span class="phpdocumentor-tag__name">throws</span>
-                </dt>
-                <dd class="phpdocumentor-tag-list__definition">
+                    <dt class="phpdocumentor-tag-list__entry">
+                <span class="phpdocumentor-tag__name">throws</span>
+            </dt>
+                            <dd class="phpdocumentor-tag-list__definition">
                                                                 <span class="phpdocumentor-tag-link"><a href="classes/Smr-Exceptions-UserError.html"><abbr title="\Smr\Exceptions\UserError">UserError</abbr></a></span>
-                                                            
-                                                 <section class="phpdocumentor-description"><p>If the player cannot build the structure.</p>
+                                                                                        <section class="phpdocumentor-description"><p>If the player cannot build the structure.</p>
 </section>
 
                                     </dd>
-                                            </dl>
+                        </dl>
 
         
     

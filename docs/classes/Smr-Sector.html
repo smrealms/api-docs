@@ -6,7 +6,10 @@
     
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <base href="../">
+    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png"/>
+    <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png"/>
     <link rel="icon" href="images/favicon.ico"/>
+    <link rel="apple-touch-icon" href="images/apple-touch-icon.png"/>
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/base.css">
             <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -210,13 +213,13 @@
             <dt class="phpdocumentor-table-of-contents__entry -constant -public">
     <a class="" href="classes/Smr-Sector.html#constant_SQL">SQL</a>
     <span>
-        &nbsp;= &#039;game_id = :game_id AND sector_id = :sector_id&#039;                            </span>
+        &nbsp;: string&nbsp;= &#039;game_id = :game_id AND sector_id = :sector_id&#039;                            </span>
 </dt>
 
             <dt class="phpdocumentor-table-of-contents__entry -constant -protected">
     <a class="" href="classes/Smr-Sector.html#constant_LINK_DIR_MAPPING">LINK_DIR_MAPPING</a>
     <span>
-        &nbsp;= [&#039;Up&#039; =&gt; &#039;link_up&#039;, &#039;Down&#039; =&gt; &#039;link_down&#039;, &#039;Left&#039; =&gt; &#039;link_left&#039;, &#039;Right&#039; =&gt; &#039;link_right&#039;]                            </span>
+        &nbsp;: array&lt;string|int, mixed&gt;&nbsp;= [&#039;Up&#039; =&gt; &#039;link_up&#039;, &#039;Down&#039; =&gt; &#039;link_down&#039;, &#039;Lef...                            </span>
 </dt>
 <dd>Maps the Sector link direction names to database columns.</dd>
 
@@ -990,7 +993,7 @@ a consistent 2-way warp.</dd>
     
     <code class="phpdocumentor-signature phpdocumentor-code ">
     <span class="phpdocumentor-signature__visibility">public</span>
-        <span class="phpdocumentor-signature__type">mixed</span>
+        <span class="phpdocumentor-signature__type">string</span>
     <span class="phpdocumentor-signature__name">SQL</span>
     = <span class="phpdocumentor-signature__default-value">&#039;game_id = :game_id AND sector_id = :sector_id&#039;</span>
 </code>
@@ -1022,7 +1025,7 @@ a consistent 2-way warp.</dd>
     
     <code class="phpdocumentor-signature phpdocumentor-code ">
     <span class="phpdocumentor-signature__visibility">protected</span>
-        <span class="phpdocumentor-signature__type">mixed</span>
+        <span class="phpdocumentor-signature__type">array&lt;string|int, mixed&gt;</span>
     <span class="phpdocumentor-signature__name">LINK_DIR_MAPPING</span>
     = <span class="phpdocumentor-signature__default-value">[&#039;Up&#039; =&gt; &#039;link_up&#039;, &#039;Down&#039; =&gt; &#039;link_down&#039;, &#039;Left&#039; =&gt; &#039;link_left&#039;, &#039;Right&#039; =&gt; &#039;link_right&#039;]</span>
 </code>
@@ -4249,22 +4252,21 @@ a consistent 2-way warp.</dd>
             </dl>
 
     
-    <h5 class="phpdocumentor-tag-list__heading" id="tags">
+    <h5 class="phpdocumentor-tag-list__heading" id="method_hasCachedPort_tags">
         Tags
-        <a href="classes/Smr-Sector.html#method_hasCachedPort#tags" class="headerlink"><i class="fas fa-link"></i></a>
+        <a href="classes/Smr-Sector.html#method_hasCachedPort_tags" class="headerlink"><i class="fas fa-link"></i></a>
 
     </h5>
     <dl class="phpdocumentor-tag-list">
-                                    <dt class="phpdocumentor-tag-list__entry">
-                    <span class="phpdocumentor-tag__name">phpstan-assert-if-true</span>
-                </dt>
-                <dd class="phpdocumentor-tag-list__definition">
-                                                                                
-                                                 <section class="phpdocumentor-description"><p>=Player $player</p>
+                    <dt class="phpdocumentor-tag-list__entry">
+                <span class="phpdocumentor-tag__name">phpstan-assert-if-true</span>
+            </dt>
+                            <dd class="phpdocumentor-tag-list__definition">
+                                                                                                            <section class="phpdocumentor-description"><p>=Player $player</p>
 </section>
 
                                     </dd>
-                                            </dl>
+                        </dl>
 
         
     
@@ -4451,22 +4453,21 @@ a consistent 2-way warp.</dd>
             </dl>
 
     
-    <h5 class="phpdocumentor-tag-list__heading" id="tags">
+    <h5 class="phpdocumentor-tag-list__heading" id="method_hasFriendlyForces_tags">
         Tags
-        <a href="classes/Smr-Sector.html#method_hasFriendlyForces#tags" class="headerlink"><i class="fas fa-link"></i></a>
+        <a href="classes/Smr-Sector.html#method_hasFriendlyForces_tags" class="headerlink"><i class="fas fa-link"></i></a>
 
     </h5>
     <dl class="phpdocumentor-tag-list">
-                                    <dt class="phpdocumentor-tag-list__entry">
-                    <span class="phpdocumentor-tag__name">phpstan-assert-if-true</span>
-                </dt>
-                <dd class="phpdocumentor-tag-list__definition">
-                                                                                
-                                                 <section class="phpdocumentor-description"><p>=Player $player</p>
+                    <dt class="phpdocumentor-tag-list__entry">
+                <span class="phpdocumentor-tag__name">phpstan-assert-if-true</span>
+            </dt>
+                            <dd class="phpdocumentor-tag-list__definition">
+                                                                                                            <section class="phpdocumentor-description"><p>=Player $player</p>
 </section>
 
                                     </dd>
-                                            </dl>
+                        </dl>
 
         
     

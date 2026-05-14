@@ -6,7 +6,10 @@
     
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <base href="../">
+    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png"/>
+    <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png"/>
     <link rel="icon" href="images/favicon.ico"/>
+    <link rel="apple-touch-icon" href="images/apple-touch-icon.png"/>
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/base.css">
             <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -215,56 +218,56 @@
             <dt class="phpdocumentor-table-of-contents__entry -constant -public">
     <a class="" href="classes/Smr-PlanetTypes-PlanetType.html#constant_MAX_LANDED_UNLIMITED">MAX_LANDED_UNLIMITED</a>
     <span>
-        &nbsp;= -1                            </span>
+        &nbsp;: int&nbsp;= -1                            </span>
 </dt>
 
             <dt class="phpdocumentor-table-of-contents__entry -constant -public">
     <a class="" href="classes/Smr-PlanetTypes-PlanetType.html#constant_PLANET_TYPES">PLANET_TYPES</a>
     <span>
-        &nbsp;= [self::TYPE_TERRAN =&gt; \Smr\PlanetTypes\TerranPlanet::class, self::TYPE_ARID =&gt; \Smr\PlanetTypes\AridPlanet::class, self::TYPE_DWARF =&gt; \Smr\PlanetTypes\DwarfPlanet::class, self::TYPE_DEFENSE =&gt; \Smr\PlanetTypes\DefenseWorld::class, self::TYPE_PROTO =&gt; \Smr\PlanetTypes\ProtoPlanet::class, self::TYPE_OUTPOST =&gt; \Smr\PlanetTypes\SentinelOutpost::class]                            </span>
+        &nbsp;: array&lt;string|int, mixed&gt;&nbsp;= [self::TYPE_TERRAN =&gt; \Smr\PlanetTypes\TerranPl...                            </span>
 </dt>
 <dd>Associates the planet_type_id with the planet class.</dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -constant -public">
     <a class="" href="classes/Smr-PlanetTypes-ProtoPlanet.html#constant_STRUCTURES">STRUCTURES</a>
     <span>
-        &nbsp;= [PLANET_GENERATOR =&gt; [&#039;max_amount&#039; =&gt; 5, &#039;base_time&#039; =&gt; 10800, &#039;credit_cost&#039; =&gt; 100000, &#039;exp_gain&#039; =&gt; 90], PLANET_HANGAR =&gt; [&#039;max_amount&#039; =&gt; 50, &#039;base_time&#039; =&gt; 21600, &#039;credit_cost&#039; =&gt; 100000, &#039;exp_gain&#039; =&gt; 180], PLANET_BUNKER =&gt; [&#039;max_amount&#039; =&gt; 15, &#039;base_time&#039; =&gt; 10800, &#039;credit_cost&#039; =&gt; 50000, &#039;exp_gain&#039; =&gt; 90], PLANET_WEAPON_MOUNT =&gt; [&#039;max_amount&#039; =&gt; 20, &#039;base_time&#039; =&gt; 32400, &#039;credit_cost&#039; =&gt; 300000, &#039;exp_gain&#039; =&gt; 270], PLANET_RADAR =&gt; [&#039;max_amount&#039; =&gt; 10, &#039;base_time&#039; =&gt; 64800, &#039;credit_cost&#039; =&gt; 1000000, &#039;exp_gain&#039; =&gt; 540]]                            </span>
+        &nbsp;: array&lt;string|int, mixed&gt;&nbsp;= [PLANET_GENERATOR =&gt; [&#039;max_amount&#039; =&gt; 5, &#039;base_...                            </span>
 </dt>
 
             <dt class="phpdocumentor-table-of-contents__entry -constant -public">
     <a class="" href="classes/Smr-PlanetTypes-PlanetType.html#constant_TYPE_ARID">TYPE_ARID</a>
     <span>
-        &nbsp;= 2                            </span>
+        &nbsp;: int&nbsp;= 2                            </span>
 </dt>
 
             <dt class="phpdocumentor-table-of-contents__entry -constant -public">
     <a class="" href="classes/Smr-PlanetTypes-PlanetType.html#constant_TYPE_DEFENSE">TYPE_DEFENSE</a>
     <span>
-        &nbsp;= 4                            </span>
+        &nbsp;: int&nbsp;= 4                            </span>
 </dt>
 
             <dt class="phpdocumentor-table-of-contents__entry -constant -public">
     <a class="" href="classes/Smr-PlanetTypes-PlanetType.html#constant_TYPE_DWARF">TYPE_DWARF</a>
     <span>
-        &nbsp;= 3                            </span>
+        &nbsp;: int&nbsp;= 3                            </span>
 </dt>
 
             <dt class="phpdocumentor-table-of-contents__entry -constant -public">
     <a class="" href="classes/Smr-PlanetTypes-PlanetType.html#constant_TYPE_OUTPOST">TYPE_OUTPOST</a>
     <span>
-        &nbsp;= 6                            </span>
+        &nbsp;: int&nbsp;= 6                            </span>
 </dt>
 
             <dt class="phpdocumentor-table-of-contents__entry -constant -public">
     <a class="" href="classes/Smr-PlanetTypes-PlanetType.html#constant_TYPE_PROTO">TYPE_PROTO</a>
     <span>
-        &nbsp;= 5                            </span>
+        &nbsp;: int&nbsp;= 5                            </span>
 </dt>
 
             <dt class="phpdocumentor-table-of-contents__entry -constant -public">
     <a class="" href="classes/Smr-PlanetTypes-PlanetType.html#constant_TYPE_TERRAN">TYPE_TERRAN</a>
     <span>
-        &nbsp;= 1                            </span>
+        &nbsp;: int&nbsp;= 1                            </span>
 </dt>
 
     </dl>
@@ -371,7 +374,7 @@
     
     <code class="phpdocumentor-signature phpdocumentor-code ">
     <span class="phpdocumentor-signature__visibility">public</span>
-        <span class="phpdocumentor-signature__type">mixed</span>
+        <span class="phpdocumentor-signature__type">int</span>
     <span class="phpdocumentor-signature__name">MAX_LANDED_UNLIMITED</span>
     = <span class="phpdocumentor-signature__default-value">-1</span>
 </code>
@@ -403,7 +406,7 @@
     
     <code class="phpdocumentor-signature phpdocumentor-code ">
     <span class="phpdocumentor-signature__visibility">public</span>
-        <span class="phpdocumentor-signature__type">mixed</span>
+        <span class="phpdocumentor-signature__type">array&lt;string|int, mixed&gt;</span>
     <span class="phpdocumentor-signature__name">PLANET_TYPES</span>
     = <span class="phpdocumentor-signature__default-value">[self::TYPE_TERRAN =&gt; \Smr\PlanetTypes\TerranPlanet::class, self::TYPE_ARID =&gt; \Smr\PlanetTypes\AridPlanet::class, self::TYPE_DWARF =&gt; \Smr\PlanetTypes\DwarfPlanet::class, self::TYPE_DEFENSE =&gt; \Smr\PlanetTypes\DefenseWorld::class, self::TYPE_PROTO =&gt; \Smr\PlanetTypes\ProtoPlanet::class, self::TYPE_OUTPOST =&gt; \Smr\PlanetTypes\SentinelOutpost::class]</span>
 </code>
@@ -436,7 +439,7 @@
     
     <code class="phpdocumentor-signature phpdocumentor-code ">
     <span class="phpdocumentor-signature__visibility">public</span>
-        <span class="phpdocumentor-signature__type">mixed</span>
+        <span class="phpdocumentor-signature__type">array&lt;string|int, mixed&gt;</span>
     <span class="phpdocumentor-signature__name">STRUCTURES</span>
     = <span class="phpdocumentor-signature__default-value">[PLANET_GENERATOR =&gt; [&#039;max_amount&#039; =&gt; 5, &#039;base_time&#039; =&gt; 10800, &#039;credit_cost&#039; =&gt; 100000, &#039;exp_gain&#039; =&gt; 90], PLANET_HANGAR =&gt; [&#039;max_amount&#039; =&gt; 50, &#039;base_time&#039; =&gt; 21600, &#039;credit_cost&#039; =&gt; 100000, &#039;exp_gain&#039; =&gt; 180], PLANET_BUNKER =&gt; [&#039;max_amount&#039; =&gt; 15, &#039;base_time&#039; =&gt; 10800, &#039;credit_cost&#039; =&gt; 50000, &#039;exp_gain&#039; =&gt; 90], PLANET_WEAPON_MOUNT =&gt; [&#039;max_amount&#039; =&gt; 20, &#039;base_time&#039; =&gt; 32400, &#039;credit_cost&#039; =&gt; 300000, &#039;exp_gain&#039; =&gt; 270], PLANET_RADAR =&gt; [&#039;max_amount&#039; =&gt; 10, &#039;base_time&#039; =&gt; 64800, &#039;credit_cost&#039; =&gt; 1000000, &#039;exp_gain&#039; =&gt; 540]]</span>
 </code>
@@ -467,7 +470,7 @@
     
     <code class="phpdocumentor-signature phpdocumentor-code ">
     <span class="phpdocumentor-signature__visibility">public</span>
-        <span class="phpdocumentor-signature__type">mixed</span>
+        <span class="phpdocumentor-signature__type">int</span>
     <span class="phpdocumentor-signature__name">TYPE_ARID</span>
     = <span class="phpdocumentor-signature__default-value">2</span>
 </code>
@@ -498,7 +501,7 @@
     
     <code class="phpdocumentor-signature phpdocumentor-code ">
     <span class="phpdocumentor-signature__visibility">public</span>
-        <span class="phpdocumentor-signature__type">mixed</span>
+        <span class="phpdocumentor-signature__type">int</span>
     <span class="phpdocumentor-signature__name">TYPE_DEFENSE</span>
     = <span class="phpdocumentor-signature__default-value">4</span>
 </code>
@@ -529,7 +532,7 @@
     
     <code class="phpdocumentor-signature phpdocumentor-code ">
     <span class="phpdocumentor-signature__visibility">public</span>
-        <span class="phpdocumentor-signature__type">mixed</span>
+        <span class="phpdocumentor-signature__type">int</span>
     <span class="phpdocumentor-signature__name">TYPE_DWARF</span>
     = <span class="phpdocumentor-signature__default-value">3</span>
 </code>
@@ -560,7 +563,7 @@
     
     <code class="phpdocumentor-signature phpdocumentor-code ">
     <span class="phpdocumentor-signature__visibility">public</span>
-        <span class="phpdocumentor-signature__type">mixed</span>
+        <span class="phpdocumentor-signature__type">int</span>
     <span class="phpdocumentor-signature__name">TYPE_OUTPOST</span>
     = <span class="phpdocumentor-signature__default-value">6</span>
 </code>
@@ -591,7 +594,7 @@
     
     <code class="phpdocumentor-signature phpdocumentor-code ">
     <span class="phpdocumentor-signature__visibility">public</span>
-        <span class="phpdocumentor-signature__type">mixed</span>
+        <span class="phpdocumentor-signature__type">int</span>
     <span class="phpdocumentor-signature__name">TYPE_PROTO</span>
     = <span class="phpdocumentor-signature__default-value">5</span>
 </code>
@@ -622,7 +625,7 @@
     
     <code class="phpdocumentor-signature phpdocumentor-code ">
     <span class="phpdocumentor-signature__visibility">public</span>
-        <span class="phpdocumentor-signature__type">mixed</span>
+        <span class="phpdocumentor-signature__type">int</span>
     <span class="phpdocumentor-signature__name">TYPE_TERRAN</span>
     = <span class="phpdocumentor-signature__default-value">1</span>
 </code>

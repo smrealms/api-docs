@@ -6,7 +6,10 @@
     
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <base href="../">
+    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png"/>
+    <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png"/>
     <link rel="icon" href="images/favicon.ico"/>
+    <link rel="apple-touch-icon" href="images/apple-touch-icon.png"/>
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/base.css">
             <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -210,31 +213,25 @@
             <dt class="phpdocumentor-table-of-contents__entry -constant -public">
     <a class="" href="classes/Smr-Account.html#constant_SQL">SQL</a>
     <span>
-        &nbsp;= &#039;account_id = :account_id&#039;                            </span>
+        &nbsp;: string&nbsp;= &#039;account_id = :account_id&#039;                            </span>
 </dt>
 
             <dt class="phpdocumentor-table-of-contents__entry -constant -protected">
     <a class="" href="classes/Smr-Account.html#constant_DEFAULT_HOTKEYS">DEFAULT_HOTKEYS</a>
     <span>
-        &nbsp;= [&#039;MoveUp&#039; =&gt; [&#039;w&#039;, &#039;up&#039;], &#039;ScanUp&#039; =&gt; [&#039;shift+w&#039;, &#039;shift+up&#039;], &#039;MoveLeft&#039; =&gt; [&#039;a&#039;, &#039;left&#039;], &#039;ScanLeft&#039; =&gt; [&#039;shift+a&#039;, &#039;shift+left&#039;], &#039;MoveRight&#039; =&gt; [&#039;d&#039;, &#039;right&#039;], &#039;ScanRight&#039; =&gt; [&#039;shift+d&#039;, &#039;shift+right&#039;], &#039;MoveDown&#039; =&gt; [&#039;s&#039;, &#039;down&#039;], &#039;ScanDown&#039; =&gt; [&#039;shift+s&#039;, &#039;shift+down&#039;], &#039;MoveWarp&#039; =&gt; [&#039;e&#039;, &#039;0&#039;], &#039;ScanWarp&#039; =&gt; [&#039;shift+e&#039;, &#039;shift+0&#039;], &#039;ScanCurrent&#039; =&gt; [&#039;shift+1&#039;], &#039;CurrentSector&#039; =&gt; [&#039;1&#039;], &#039;LocalMap&#039; =&gt; [&#039;2&#039;], &#039;PlotCourse&#039; =&gt; [&#039;3&#039;], &#039;CurrentPlayers&#039; =&gt; [&#039;4&#039;], &#039;EnterPort&#039; =&gt; [&#039;q&#039;], &#039;AttackTrader&#039; =&gt; [&#039;f&#039;]]                            </span>
+        &nbsp;: array&lt;string|int, mixed&gt;&nbsp;= [&#039;MoveUp&#039; =&gt; [&#039;w&#039;, &#039;up&#039;], &#039;ScanUp&#039; =&gt; [&#039;shift+w...                            </span>
 </dt>
 
             <dt class="phpdocumentor-table-of-contents__entry -constant -protected">
     <a class="" href="classes/Smr-Account.html#constant_USER_RANKINGS_EACH_STAT_POW">USER_RANKINGS_EACH_STAT_POW</a>
     <span>
-        &nbsp;= 0.9                            </span>
+        &nbsp;: float&nbsp;= 0.9                            </span>
 </dt>
 
             <dt class="phpdocumentor-table-of-contents__entry -constant -protected">
     <a class="" href="classes/Smr-Account.html#constant_USER_RANKINGS_SCORE">USER_RANKINGS_SCORE</a>
     <span>
-        &nbsp;= [
-    // [Stat, a, b]
-    // Used as: pow(Stat * a, USER_RANKINGS_EACH_STAT_POW) * b
-    [[&#039;Trade&#039;, &#039;Experience&#039;, &#039;Total&#039;], 0.1, 0.5],
-    [[&#039;Trade&#039;, &#039;Money&#039;, &#039;Profit&#039;], 5.0E-5, 0.5],
-    [[&#039;Killing&#039;, &#039;Kills&#039;], 1000, 1],
-]                            </span>
+        &nbsp;: array&lt;string|int, mixed&gt;&nbsp;= [ // [Stat, a, b] // Used as: pow(Stat * a, USE...                            </span>
 </dt>
 
     </dl>
@@ -1304,7 +1301,7 @@ it correctly we must escape html entities.</dd>
     
     <code class="phpdocumentor-signature phpdocumentor-code ">
     <span class="phpdocumentor-signature__visibility">public</span>
-        <span class="phpdocumentor-signature__type">mixed</span>
+        <span class="phpdocumentor-signature__type">string</span>
     <span class="phpdocumentor-signature__name">SQL</span>
     = <span class="phpdocumentor-signature__default-value">&#039;account_id = :account_id&#039;</span>
 </code>
@@ -1335,7 +1332,7 @@ it correctly we must escape html entities.</dd>
     
     <code class="phpdocumentor-signature phpdocumentor-code ">
     <span class="phpdocumentor-signature__visibility">protected</span>
-        <span class="phpdocumentor-signature__type">mixed</span>
+        <span class="phpdocumentor-signature__type">array&lt;string|int, mixed&gt;</span>
     <span class="phpdocumentor-signature__name">DEFAULT_HOTKEYS</span>
     = <span class="phpdocumentor-signature__default-value">[&#039;MoveUp&#039; =&gt; [&#039;w&#039;, &#039;up&#039;], &#039;ScanUp&#039; =&gt; [&#039;shift+w&#039;, &#039;shift+up&#039;], &#039;MoveLeft&#039; =&gt; [&#039;a&#039;, &#039;left&#039;], &#039;ScanLeft&#039; =&gt; [&#039;shift+a&#039;, &#039;shift+left&#039;], &#039;MoveRight&#039; =&gt; [&#039;d&#039;, &#039;right&#039;], &#039;ScanRight&#039; =&gt; [&#039;shift+d&#039;, &#039;shift+right&#039;], &#039;MoveDown&#039; =&gt; [&#039;s&#039;, &#039;down&#039;], &#039;ScanDown&#039; =&gt; [&#039;shift+s&#039;, &#039;shift+down&#039;], &#039;MoveWarp&#039; =&gt; [&#039;e&#039;, &#039;0&#039;], &#039;ScanWarp&#039; =&gt; [&#039;shift+e&#039;, &#039;shift+0&#039;], &#039;ScanCurrent&#039; =&gt; [&#039;shift+1&#039;], &#039;CurrentSector&#039; =&gt; [&#039;1&#039;], &#039;LocalMap&#039; =&gt; [&#039;2&#039;], &#039;PlotCourse&#039; =&gt; [&#039;3&#039;], &#039;CurrentPlayers&#039; =&gt; [&#039;4&#039;], &#039;EnterPort&#039; =&gt; [&#039;q&#039;], &#039;AttackTrader&#039; =&gt; [&#039;f&#039;]]</span>
 </code>
@@ -1366,7 +1363,7 @@ it correctly we must escape html entities.</dd>
     
     <code class="phpdocumentor-signature phpdocumentor-code ">
     <span class="phpdocumentor-signature__visibility">protected</span>
-        <span class="phpdocumentor-signature__type">mixed</span>
+        <span class="phpdocumentor-signature__type">float</span>
     <span class="phpdocumentor-signature__name">USER_RANKINGS_EACH_STAT_POW</span>
     = <span class="phpdocumentor-signature__default-value">0.9</span>
 </code>
@@ -1397,7 +1394,7 @@ it correctly we must escape html entities.</dd>
     
     <code class="phpdocumentor-signature phpdocumentor-code ">
     <span class="phpdocumentor-signature__visibility">protected</span>
-        <span class="phpdocumentor-signature__type">mixed</span>
+        <span class="phpdocumentor-signature__type">array&lt;string|int, mixed&gt;</span>
     <span class="phpdocumentor-signature__name">USER_RANKINGS_SCORE</span>
     = <span class="phpdocumentor-signature__default-value">[
     // [Stat, a, b]

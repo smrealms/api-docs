@@ -6,7 +6,10 @@
     
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <base href="../">
+    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png"/>
+    <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png"/>
     <link rel="icon" href="images/favicon.ico"/>
+    <link rel="apple-touch-icon" href="images/apple-touch-icon.png"/>
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/base.css">
             <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -221,7 +224,7 @@ two sectors at once (to avoid, e.g., race conditions with movement).</p>
             <dt class="phpdocumentor-table-of-contents__entry -constant -private">
     <a class="" href="classes/Smr-SectorLock.html#constant_LOCK_DURATION">LOCK_DURATION</a>
     <span>
-        &nbsp;= 10                            </span>
+        &nbsp;: int&nbsp;= 10                            </span>
 </dt>
 <dd>The max time (in seconds) for a lock to be active before being
 considered stale.</dd>
@@ -229,7 +232,7 @@ considered stale.</dd>
             <dt class="phpdocumentor-table-of-contents__entry -constant -private">
     <a class="" href="classes/Smr-SectorLock.html#constant_RETRY_DURATION">RETRY_DURATION</a>
     <span>
-        &nbsp;= 5                            </span>
+        &nbsp;: int&nbsp;= 5                            </span>
 </dt>
 <dd>The max time (in seconds) to retry acquiring locks before giving up.</dd>
 
@@ -371,7 +374,7 @@ considered stale.</p>
     
     <code class="phpdocumentor-signature phpdocumentor-code ">
     <span class="phpdocumentor-signature__visibility">private</span>
-        <span class="phpdocumentor-signature__type">mixed</span>
+        <span class="phpdocumentor-signature__type">int</span>
     <span class="phpdocumentor-signature__name">LOCK_DURATION</span>
     = <span class="phpdocumentor-signature__default-value">10</span>
 </code>
@@ -403,7 +406,7 @@ considered stale.</p>
     
     <code class="phpdocumentor-signature phpdocumentor-code ">
     <span class="phpdocumentor-signature__visibility">private</span>
-        <span class="phpdocumentor-signature__type">mixed</span>
+        <span class="phpdocumentor-signature__type">int</span>
     <span class="phpdocumentor-signature__name">RETRY_DURATION</span>
     = <span class="phpdocumentor-signature__default-value">5</span>
 </code>
@@ -892,22 +895,21 @@ considered stale.</p>
     
     
     
-    <h5 class="phpdocumentor-tag-list__heading" id="tags">
+    <h5 class="phpdocumentor-tag-list__heading" id="method_isActive_tags">
         Tags
-        <a href="classes/Smr-SectorLock.html#method_isActive#tags" class="headerlink"><i class="fas fa-link"></i></a>
+        <a href="classes/Smr-SectorLock.html#method_isActive_tags" class="headerlink"><i class="fas fa-link"></i></a>
 
     </h5>
     <dl class="phpdocumentor-tag-list">
-                                    <dt class="phpdocumentor-tag-list__entry">
-                    <span class="phpdocumentor-tag__name">phpstan-assert-if-true</span>
-                </dt>
-                <dd class="phpdocumentor-tag-list__definition">
-                                                                                
-                                                 <section class="phpdocumentor-description"><p>!null $this-&gt;lockID</p>
+                    <dt class="phpdocumentor-tag-list__entry">
+                <span class="phpdocumentor-tag__name">phpstan-assert-if-true</span>
+            </dt>
+                            <dd class="phpdocumentor-tag-list__definition">
+                                                                                                            <section class="phpdocumentor-description"><p>!null $this-&gt;lockID</p>
 </section>
 
                                     </dd>
-                                            </dl>
+                        </dl>
 
         
     

@@ -6,7 +6,10 @@
     
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <base href="../">
+    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png"/>
+    <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png"/>
     <link rel="icon" href="images/favicon.ico"/>
+    <link rel="apple-touch-icon" href="images/apple-touch-icon.png"/>
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/base.css">
             <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -210,49 +213,49 @@
             <dt class="phpdocumentor-table-of-contents__entry -constant -public">
     <a class="" href="classes/Smr-Game.html#constant_GAME_TYPE_DEFAULT">GAME_TYPE_DEFAULT</a>
     <span>
-        &nbsp;= 0                            </span>
+        &nbsp;: int&nbsp;= 0                            </span>
 </dt>
 
             <dt class="phpdocumentor-table-of-contents__entry -constant -public">
     <a class="" href="classes/Smr-Game.html#constant_GAME_TYPE_DRAFT">GAME_TYPE_DRAFT</a>
     <span>
-        &nbsp;= 5                            </span>
+        &nbsp;: int&nbsp;= 5                            </span>
 </dt>
 
             <dt class="phpdocumentor-table-of-contents__entry -constant -public">
     <a class="" href="classes/Smr-Game.html#constant_GAME_TYPE_FFA">GAME_TYPE_FFA</a>
     <span>
-        &nbsp;= 6                            </span>
+        &nbsp;: int&nbsp;= 6                            </span>
 </dt>
 
             <dt class="phpdocumentor-table-of-contents__entry -constant -public">
     <a class="" href="classes/Smr-Game.html#constant_GAME_TYPE_HUNTER_WARS">GAME_TYPE_HUNTER_WARS</a>
     <span>
-        &nbsp;= 3                            </span>
+        &nbsp;: int&nbsp;= 3                            </span>
 </dt>
 
             <dt class="phpdocumentor-table-of-contents__entry -constant -public">
     <a class="" href="classes/Smr-Game.html#constant_GAME_TYPE_NEWBIE">GAME_TYPE_NEWBIE</a>
     <span>
-        &nbsp;= 7                            </span>
+        &nbsp;: int&nbsp;= 7                            </span>
 </dt>
 
             <dt class="phpdocumentor-table-of-contents__entry -constant -public">
     <a class="" href="classes/Smr-Game.html#constant_GAME_TYPE_SEMI_WARS">GAME_TYPE_SEMI_WARS</a>
     <span>
-        &nbsp;= 4                            </span>
+        &nbsp;: int&nbsp;= 4                            </span>
 </dt>
 
             <dt class="phpdocumentor-table-of-contents__entry -constant -public">
     <a class="" href="classes/Smr-Game.html#constant_GAME_TYPES">GAME_TYPES</a>
     <span>
-        &nbsp;= [self::GAME_TYPE_DEFAULT =&gt; &#039;Default&#039;, self::GAME_TYPE_HUNTER_WARS =&gt; &#039;Hunter Wars&#039;, self::GAME_TYPE_SEMI_WARS =&gt; &#039;Semi Wars&#039;, self::GAME_TYPE_DRAFT =&gt; &#039;Draft&#039;, self::GAME_TYPE_FFA =&gt; &#039;FFA&#039;, self::GAME_TYPE_NEWBIE =&gt; &#039;Newbie&#039;]                            </span>
+        &nbsp;: array&lt;string|int, mixed&gt;&nbsp;= [self::GAME_TYPE_DEFAULT =&gt; &#039;Default&#039;, self::GA...                            </span>
 </dt>
 
             <dt class="phpdocumentor-table-of-contents__entry -constant -public">
     <a class="" href="classes/Smr-Game.html#constant_SQL">SQL</a>
     <span>
-        &nbsp;= &#039;game_id = :game_id&#039;                            </span>
+        &nbsp;: string&nbsp;= &#039;game_id = :game_id&#039;                            </span>
 </dt>
 
     </dl>
@@ -793,7 +796,7 @@ i.e. when players can move, turns are gained, etc.</dd>
     
     <code class="phpdocumentor-signature phpdocumentor-code ">
     <span class="phpdocumentor-signature__visibility">public</span>
-        <span class="phpdocumentor-signature__type">mixed</span>
+        <span class="phpdocumentor-signature__type">int</span>
     <span class="phpdocumentor-signature__name">GAME_TYPE_DEFAULT</span>
     = <span class="phpdocumentor-signature__default-value">0</span>
 </code>
@@ -824,7 +827,7 @@ i.e. when players can move, turns are gained, etc.</dd>
     
     <code class="phpdocumentor-signature phpdocumentor-code ">
     <span class="phpdocumentor-signature__visibility">public</span>
-        <span class="phpdocumentor-signature__type">mixed</span>
+        <span class="phpdocumentor-signature__type">int</span>
     <span class="phpdocumentor-signature__name">GAME_TYPE_DRAFT</span>
     = <span class="phpdocumentor-signature__default-value">5</span>
 </code>
@@ -855,7 +858,7 @@ i.e. when players can move, turns are gained, etc.</dd>
     
     <code class="phpdocumentor-signature phpdocumentor-code ">
     <span class="phpdocumentor-signature__visibility">public</span>
-        <span class="phpdocumentor-signature__type">mixed</span>
+        <span class="phpdocumentor-signature__type">int</span>
     <span class="phpdocumentor-signature__name">GAME_TYPE_FFA</span>
     = <span class="phpdocumentor-signature__default-value">6</span>
 </code>
@@ -886,7 +889,7 @@ i.e. when players can move, turns are gained, etc.</dd>
     
     <code class="phpdocumentor-signature phpdocumentor-code ">
     <span class="phpdocumentor-signature__visibility">public</span>
-        <span class="phpdocumentor-signature__type">mixed</span>
+        <span class="phpdocumentor-signature__type">int</span>
     <span class="phpdocumentor-signature__name">GAME_TYPE_HUNTER_WARS</span>
     = <span class="phpdocumentor-signature__default-value">3</span>
 </code>
@@ -917,7 +920,7 @@ i.e. when players can move, turns are gained, etc.</dd>
     
     <code class="phpdocumentor-signature phpdocumentor-code ">
     <span class="phpdocumentor-signature__visibility">public</span>
-        <span class="phpdocumentor-signature__type">mixed</span>
+        <span class="phpdocumentor-signature__type">int</span>
     <span class="phpdocumentor-signature__name">GAME_TYPE_NEWBIE</span>
     = <span class="phpdocumentor-signature__default-value">7</span>
 </code>
@@ -948,7 +951,7 @@ i.e. when players can move, turns are gained, etc.</dd>
     
     <code class="phpdocumentor-signature phpdocumentor-code ">
     <span class="phpdocumentor-signature__visibility">public</span>
-        <span class="phpdocumentor-signature__type">mixed</span>
+        <span class="phpdocumentor-signature__type">int</span>
     <span class="phpdocumentor-signature__name">GAME_TYPE_SEMI_WARS</span>
     = <span class="phpdocumentor-signature__default-value">4</span>
 </code>
@@ -979,7 +982,7 @@ i.e. when players can move, turns are gained, etc.</dd>
     
     <code class="phpdocumentor-signature phpdocumentor-code ">
     <span class="phpdocumentor-signature__visibility">public</span>
-        <span class="phpdocumentor-signature__type">mixed</span>
+        <span class="phpdocumentor-signature__type">array&lt;string|int, mixed&gt;</span>
     <span class="phpdocumentor-signature__name">GAME_TYPES</span>
     = <span class="phpdocumentor-signature__default-value">[self::GAME_TYPE_DEFAULT =&gt; &#039;Default&#039;, self::GAME_TYPE_HUNTER_WARS =&gt; &#039;Hunter Wars&#039;, self::GAME_TYPE_SEMI_WARS =&gt; &#039;Semi Wars&#039;, self::GAME_TYPE_DRAFT =&gt; &#039;Draft&#039;, self::GAME_TYPE_FFA =&gt; &#039;FFA&#039;, self::GAME_TYPE_NEWBIE =&gt; &#039;Newbie&#039;]</span>
 </code>
@@ -1010,7 +1013,7 @@ i.e. when players can move, turns are gained, etc.</dd>
     
     <code class="phpdocumentor-signature phpdocumentor-code ">
     <span class="phpdocumentor-signature__visibility">public</span>
-        <span class="phpdocumentor-signature__type">mixed</span>
+        <span class="phpdocumentor-signature__type">string</span>
     <span class="phpdocumentor-signature__name">SQL</span>
     = <span class="phpdocumentor-signature__default-value">&#039;game_id = :game_id&#039;</span>
 </code>

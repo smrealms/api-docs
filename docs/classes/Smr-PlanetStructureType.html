@@ -6,7 +6,10 @@
     
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <base href="../">
+    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png"/>
+    <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png"/>
     <link rel="icon" href="images/favicon.ico"/>
+    <link rel="apple-touch-icon" href="images/apple-touch-icon.png"/>
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/base.css">
             <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -211,14 +214,14 @@
             <dt class="phpdocumentor-table-of-contents__entry -constant -protected">
     <a class="" href="classes/Smr-PlanetStructureType.html#constant_GOODS">GOODS</a>
     <span>
-        &nbsp;= [PLANET_GENERATOR =&gt; [GOODS_WOOD =&gt; 20, GOODS_ORE =&gt; 15, GOODS_MACHINERY =&gt; 35, GOODS_COMPUTERS =&gt; 5], PLANET_HANGAR =&gt; [GOODS_WOOD =&gt; 25, GOODS_FOOD =&gt; 10, GOODS_ORE =&gt; 25], PLANET_TURRET =&gt; [GOODS_FOOD =&gt; 25, GOODS_ORE =&gt; 10, GOODS_MACHINERY =&gt; 25, GOODS_COMPUTERS =&gt; 10], PLANET_BUNKER =&gt; [GOODS_WOOD =&gt; 20, GOODS_FOOD =&gt; 35, GOODS_CIRCUITRY =&gt; 15], PLANET_WEAPON_MOUNT =&gt; [GOODS_WOOD =&gt; 20, GOODS_FOOD =&gt; 15, GOODS_MACHINERY =&gt; 10, GOODS_SLAVES =&gt; 5], PLANET_RADAR =&gt; [GOODS_WOOD =&gt; 100, GOODS_MACHINERY =&gt; 75, GOODS_CIRCUITRY =&gt; 150]]                            </span>
+        &nbsp;: array&lt;string|int, mixed&gt;&nbsp;= [PLANET_GENERATOR =&gt; [GOODS_WOOD =&gt; 20, GOODS_O...                            </span>
 </dt>
 <dd>Trade goods required to build each type of structure.</dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -constant -private">
     <a class="" href="classes/Smr-PlanetStructureType.html#constant_INFO">INFO</a>
     <span>
-        &nbsp;= [PLANET_GENERATOR =&gt; [&#039;name&#039; =&gt; &#039;Generator&#039;, &#039;image&#039; =&gt; &#039;generator.png&#039;, &#039;tooltip&#039; =&gt; &#039;Generators protect a planet with shields. Each generator can hold &#039; . PLANET_GENERATOR_SHIELDS . &#039; shields.&#039;, &#039;summary&#039; =&gt; &#039;Increases planet\&#039;s maximum shield capacity by &#039; . PLANET_GENERATOR_SHIELDS . &#039; shields&#039;], PLANET_HANGAR =&gt; [&#039;name&#039; =&gt; &#039;Hangar&#039;, &#039;image&#039; =&gt; &#039;hangar.png&#039;, &#039;tooltip&#039; =&gt; &#039;Hangars house and launch combat drones. Each hangar holds &#039; . PLANET_HANGAR_DRONES . &#039; drones.&#039;, &#039;summary&#039; =&gt; &#039;Increases planet\&#039;s maximum drone capacity by &#039; . PLANET_HANGAR_DRONES . &#039; drones&#039;], PLANET_BUNKER =&gt; [&#039;name&#039; =&gt; &#039;Bunker&#039;, &#039;image&#039; =&gt; &#039;bunker.png&#039;, &#039;tooltip&#039; =&gt; &#039;Bunkers are defensive structures with reinforced armour. Each bunker holds &#039; . PLANET_BUNKER_ARMOUR . &#039; units of armour.&#039;, &#039;summary&#039; =&gt; &#039;Increases planet\&#039;s maximum armour capacity by &#039; . PLANET_BUNKER_ARMOUR . &#039; armour&#039;], PLANET_TURRET =&gt; [&#039;name&#039; =&gt; &#039;Turret&#039;, &#039;image&#039; =&gt; &#039;turret.png&#039;, &#039;tooltip&#039; =&gt; &#039;Turrets fire heavy laser beams. They can destroy either 250 shields or 250 armour.&#039;, &#039;summary&#039; =&gt; &#039;Builds a turret capable of dealing 250 damage to enemy ships when fired on&#039;], PLANET_WEAPON_MOUNT =&gt; [&#039;name&#039; =&gt; &#039;Weapon Mount&#039;, &#039;image&#039; =&gt; &#039;weapon_mount.png&#039;, &#039;tooltip&#039; =&gt; &#039;Weapon mounts can be fitted with ship weapons.&#039;, &#039;summary&#039; =&gt; &#039;Builds a weapon mount capable of being retrofitted with ship weapons&#039;], PLANET_RADAR =&gt; [&#039;name&#039; =&gt; &#039;Radar Station&#039;, &#039;image&#039; =&gt; &#039;radar.png&#039;, &#039;tooltip&#039; =&gt; &#039;Radar stations track hostile ships. Each station makes mounted weapons 5% more accurate.&#039;, &#039;summary&#039; =&gt; &#039;Builds a radar that tracks hostile ships, making weapons 5% more accurate&#039;, &#039;hardware_cost&#039; =&gt; [HARDWARE_SCANNER]]]                            </span>
+        &nbsp;: array&lt;string|int, mixed&gt;&nbsp;= [PLANET_GENERATOR =&gt; [&#039;name&#039; =&gt; &#039;Generator&#039;, &#039;i...                            </span>
 </dt>
 <dd>Information to display about each structure type.</dd>
 
@@ -354,7 +357,7 @@
     
     <code class="phpdocumentor-signature phpdocumentor-code ">
     <span class="phpdocumentor-signature__visibility">protected</span>
-        <span class="phpdocumentor-signature__type">mixed</span>
+        <span class="phpdocumentor-signature__type">array&lt;string|int, mixed&gt;</span>
     <span class="phpdocumentor-signature__name">GOODS</span>
     = <span class="phpdocumentor-signature__default-value">[PLANET_GENERATOR =&gt; [GOODS_WOOD =&gt; 20, GOODS_ORE =&gt; 15, GOODS_MACHINERY =&gt; 35, GOODS_COMPUTERS =&gt; 5], PLANET_HANGAR =&gt; [GOODS_WOOD =&gt; 25, GOODS_FOOD =&gt; 10, GOODS_ORE =&gt; 25], PLANET_TURRET =&gt; [GOODS_FOOD =&gt; 25, GOODS_ORE =&gt; 10, GOODS_MACHINERY =&gt; 25, GOODS_COMPUTERS =&gt; 10], PLANET_BUNKER =&gt; [GOODS_WOOD =&gt; 20, GOODS_FOOD =&gt; 35, GOODS_CIRCUITRY =&gt; 15], PLANET_WEAPON_MOUNT =&gt; [GOODS_WOOD =&gt; 20, GOODS_FOOD =&gt; 15, GOODS_MACHINERY =&gt; 10, GOODS_SLAVES =&gt; 5], PLANET_RADAR =&gt; [GOODS_WOOD =&gt; 100, GOODS_MACHINERY =&gt; 75, GOODS_CIRCUITRY =&gt; 150]]</span>
 </code>
@@ -386,7 +389,7 @@
     
     <code class="phpdocumentor-signature phpdocumentor-code ">
     <span class="phpdocumentor-signature__visibility">private</span>
-        <span class="phpdocumentor-signature__type">mixed</span>
+        <span class="phpdocumentor-signature__type">array&lt;string|int, mixed&gt;</span>
     <span class="phpdocumentor-signature__name">INFO</span>
     = <span class="phpdocumentor-signature__default-value">[PLANET_GENERATOR =&gt; [&#039;name&#039; =&gt; &#039;Generator&#039;, &#039;image&#039; =&gt; &#039;generator.png&#039;, &#039;tooltip&#039; =&gt; &#039;Generators protect a planet with shields. Each generator can hold &#039; . PLANET_GENERATOR_SHIELDS . &#039; shields.&#039;, &#039;summary&#039; =&gt; &#039;Increases planet\&#039;s maximum shield capacity by &#039; . PLANET_GENERATOR_SHIELDS . &#039; shields&#039;], PLANET_HANGAR =&gt; [&#039;name&#039; =&gt; &#039;Hangar&#039;, &#039;image&#039; =&gt; &#039;hangar.png&#039;, &#039;tooltip&#039; =&gt; &#039;Hangars house and launch combat drones. Each hangar holds &#039; . PLANET_HANGAR_DRONES . &#039; drones.&#039;, &#039;summary&#039; =&gt; &#039;Increases planet\&#039;s maximum drone capacity by &#039; . PLANET_HANGAR_DRONES . &#039; drones&#039;], PLANET_BUNKER =&gt; [&#039;name&#039; =&gt; &#039;Bunker&#039;, &#039;image&#039; =&gt; &#039;bunker.png&#039;, &#039;tooltip&#039; =&gt; &#039;Bunkers are defensive structures with reinforced armour. Each bunker holds &#039; . PLANET_BUNKER_ARMOUR . &#039; units of armour.&#039;, &#039;summary&#039; =&gt; &#039;Increases planet\&#039;s maximum armour capacity by &#039; . PLANET_BUNKER_ARMOUR . &#039; armour&#039;], PLANET_TURRET =&gt; [&#039;name&#039; =&gt; &#039;Turret&#039;, &#039;image&#039; =&gt; &#039;turret.png&#039;, &#039;tooltip&#039; =&gt; &#039;Turrets fire heavy laser beams. They can destroy either 250 shields or 250 armour.&#039;, &#039;summary&#039; =&gt; &#039;Builds a turret capable of dealing 250 damage to enemy ships when fired on&#039;], PLANET_WEAPON_MOUNT =&gt; [&#039;name&#039; =&gt; &#039;Weapon Mount&#039;, &#039;image&#039; =&gt; &#039;weapon_mount.png&#039;, &#039;tooltip&#039; =&gt; &#039;Weapon mounts can be fitted with ship weapons.&#039;, &#039;summary&#039; =&gt; &#039;Builds a weapon mount capable of being retrofitted with ship weapons&#039;], PLANET_RADAR =&gt; [&#039;name&#039; =&gt; &#039;Radar Station&#039;, &#039;image&#039; =&gt; &#039;radar.png&#039;, &#039;tooltip&#039; =&gt; &#039;Radar stations track hostile ships. Each station makes mounted weapons 5% more accurate.&#039;, &#039;summary&#039; =&gt; &#039;Builds a radar that tracks hostile ships, making weapons 5% more accurate&#039;, &#039;hardware_cost&#039; =&gt; [HARDWARE_SCANNER]]]</span>
 </code>

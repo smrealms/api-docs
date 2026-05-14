@@ -6,7 +6,10 @@
     
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <base href="../">
+    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png"/>
+    <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png"/>
     <link rel="icon" href="images/favicon.ico"/>
+    <link rel="apple-touch-icon" href="images/apple-touch-icon.png"/>
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/base.css">
             <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -210,7 +213,7 @@
             <dt class="phpdocumentor-table-of-contents__entry -constant -public">
     <a class="" href="classes/Smr-Treaty.html#constant_TYPES">TYPES</a>
     <span>
-        &nbsp;= [&#039;trader_assist&#039; =&gt; [&#039;Assist - Trader Attacks&#039;, &#039;Assist your ally in attacking traders.&#039;], &#039;raid_assist&#039; =&gt; [&#039;Assist - Planet &amp;amp; Port Attacks&#039;, &#039;Assist your ally in attacking planets and ports.&#039;], &#039;trader_defend&#039; =&gt; [&#039;Defend - Trader Attacks&#039;, &#039;Defend your ally when they are attacked.&#039;], &#039;trader_nap&#039; =&gt; [&#039;Non Aggression - Traders&#039;, &#039;Cease Fire against Traders.&#039;], &#039;planet_nap&#039; =&gt; [&#039;Non Aggression - Planets&#039;, &#039;Cease Fire against Planets.&#039;], &#039;forces_nap&#039; =&gt; [&#039;Non Aggression - Forces&#039;, &#039;Cease Fire against Forces. Also allows refreshing of allied forces.&#039;], &#039;aa_access&#039; =&gt; [&#039;Alliance Account Access&#039;, &#039;Restrictions can be set in the roles section.&#039;], &#039;mb_read&#039; =&gt; [&#039;Message Board Read Rights&#039;, &#039;Allow your ally to read your message board.&#039;], &#039;mb_write&#039; =&gt; [&#039;Message Board Write Rights&#039;, &#039;Allow your ally to post on your message board.&#039;], &#039;mod_read&#039; =&gt; [&#039;Message of the Day Read Rights&#039;, &#039;Allow your ally to read your message of the day.&#039;], &#039;planet_land&#039; =&gt; [&#039;Planet Landing Rights&#039;, &#039;Allow your ally to land on your planets.&#039;]]                            </span>
+        &nbsp;: array&lt;string|int, mixed&gt;&nbsp;= [&#039;trader_assist&#039; =&gt; [&#039;Assist - Trader Attacks&#039;,...                            </span>
 </dt>
 <dd>For each treaty type (as given by the columns in the alliance_treaties
 database table), provides an array with a display title and description.</dd>
@@ -250,7 +253,7 @@ database table), provides an array with a display title and description.</p>
     
     <code class="phpdocumentor-signature phpdocumentor-code ">
     <span class="phpdocumentor-signature__visibility">public</span>
-        <span class="phpdocumentor-signature__type">mixed</span>
+        <span class="phpdocumentor-signature__type">array&lt;string|int, mixed&gt;</span>
     <span class="phpdocumentor-signature__name">TYPES</span>
     = <span class="phpdocumentor-signature__default-value">[&#039;trader_assist&#039; =&gt; [&#039;Assist - Trader Attacks&#039;, &#039;Assist your ally in attacking traders.&#039;], &#039;raid_assist&#039; =&gt; [&#039;Assist - Planet &amp;amp; Port Attacks&#039;, &#039;Assist your ally in attacking planets and ports.&#039;], &#039;trader_defend&#039; =&gt; [&#039;Defend - Trader Attacks&#039;, &#039;Defend your ally when they are attacked.&#039;], &#039;trader_nap&#039; =&gt; [&#039;Non Aggression - Traders&#039;, &#039;Cease Fire against Traders.&#039;], &#039;planet_nap&#039; =&gt; [&#039;Non Aggression - Planets&#039;, &#039;Cease Fire against Planets.&#039;], &#039;forces_nap&#039; =&gt; [&#039;Non Aggression - Forces&#039;, &#039;Cease Fire against Forces. Also allows refreshing of allied forces.&#039;], &#039;aa_access&#039; =&gt; [&#039;Alliance Account Access&#039;, &#039;Restrictions can be set in the roles section.&#039;], &#039;mb_read&#039; =&gt; [&#039;Message Board Read Rights&#039;, &#039;Allow your ally to read your message board.&#039;], &#039;mb_write&#039; =&gt; [&#039;Message Board Write Rights&#039;, &#039;Allow your ally to post on your message board.&#039;], &#039;mod_read&#039; =&gt; [&#039;Message of the Day Read Rights&#039;, &#039;Allow your ally to read your message of the day.&#039;], &#039;planet_land&#039; =&gt; [&#039;Planet Landing Rights&#039;, &#039;Allow your ally to land on your planets.&#039;]]</span>
 </code>

@@ -6,7 +6,10 @@
     
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <base href="../">
+    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png"/>
+    <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png"/>
     <link rel="icon" href="images/favicon.ico"/>
+    <link rel="apple-touch-icon" href="images/apple-touch-icon.png"/>
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/base.css">
             <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -213,37 +216,37 @@
             <dt class="phpdocumentor-table-of-contents__entry -constant -public">
     <a class="" href="classes/Smr-Player.html#constant_SQL">SQL</a>
     <span>
-        &nbsp;= &#039;account_id = :account_id AND game_id = :game_id&#039;                            </span>
+        &nbsp;: string&nbsp;= &#039;account_id = :account_id AND game_id = :game_id&#039;                            </span>
 </dt>
 
             <dt class="phpdocumentor-table-of-contents__entry -constant -protected">
     <a class="" href="classes/Smr-Player.html#constant_HOF_CHANGED">HOF_CHANGED</a>
     <span>
-        &nbsp;= 1                            </span>
+        &nbsp;: int&nbsp;= 1                            </span>
 </dt>
 
             <dt class="phpdocumentor-table-of-contents__entry -constant -protected">
     <a class="" href="classes/Smr-Player.html#constant_HOF_NEW">HOF_NEW</a>
     <span>
-        &nbsp;= 2                            </span>
+        &nbsp;: int&nbsp;= 2                            </span>
 </dt>
 
             <dt class="phpdocumentor-table-of-contents__entry -constant -protected">
     <a class="" href="classes/Smr-Player.html#constant_SHIP_INSURANCE_FRACTION">SHIP_INSURANCE_FRACTION</a>
     <span>
-        &nbsp;= 0.25                            </span>
+        &nbsp;: float&nbsp;= 0.25                            </span>
 </dt>
 
             <dt class="phpdocumentor-table-of-contents__entry -constant -protected">
     <a class="" href="classes/Smr-Player.html#constant_TIME_FOR_ALLIANCE_SWITCH">TIME_FOR_ALLIANCE_SWITCH</a>
     <span>
-        &nbsp;= 0                            </span>
+        &nbsp;: int&nbsp;= 0                            </span>
 </dt>
 
             <dt class="phpdocumentor-table-of-contents__entry -constant -protected">
     <a class="" href="classes/Smr-Player.html#constant_TIME_FOR_FEDERAL_BOUNTY_ON_PR">TIME_FOR_FEDERAL_BOUNTY_ON_PR</a>
     <span>
-        &nbsp;= 10800                            </span>
+        &nbsp;: int&nbsp;= 10800                            </span>
 </dt>
 
     </dl>
@@ -2323,7 +2326,7 @@ be stored in the database.</dd>
     
     <code class="phpdocumentor-signature phpdocumentor-code ">
     <span class="phpdocumentor-signature__visibility">public</span>
-        <span class="phpdocumentor-signature__type">mixed</span>
+        <span class="phpdocumentor-signature__type">string</span>
     <span class="phpdocumentor-signature__name">SQL</span>
     = <span class="phpdocumentor-signature__default-value">&#039;account_id = :account_id AND game_id = :game_id&#039;</span>
 </code>
@@ -2354,7 +2357,7 @@ be stored in the database.</dd>
     
     <code class="phpdocumentor-signature phpdocumentor-code ">
     <span class="phpdocumentor-signature__visibility">protected</span>
-        <span class="phpdocumentor-signature__type">mixed</span>
+        <span class="phpdocumentor-signature__type">int</span>
     <span class="phpdocumentor-signature__name">HOF_CHANGED</span>
     = <span class="phpdocumentor-signature__default-value">1</span>
 </code>
@@ -2385,7 +2388,7 @@ be stored in the database.</dd>
     
     <code class="phpdocumentor-signature phpdocumentor-code ">
     <span class="phpdocumentor-signature__visibility">protected</span>
-        <span class="phpdocumentor-signature__type">mixed</span>
+        <span class="phpdocumentor-signature__type">int</span>
     <span class="phpdocumentor-signature__name">HOF_NEW</span>
     = <span class="phpdocumentor-signature__default-value">2</span>
 </code>
@@ -2416,7 +2419,7 @@ be stored in the database.</dd>
     
     <code class="phpdocumentor-signature phpdocumentor-code ">
     <span class="phpdocumentor-signature__visibility">protected</span>
-        <span class="phpdocumentor-signature__type">mixed</span>
+        <span class="phpdocumentor-signature__type">float</span>
     <span class="phpdocumentor-signature__name">SHIP_INSURANCE_FRACTION</span>
     = <span class="phpdocumentor-signature__default-value">0.25</span>
 </code>
@@ -2447,7 +2450,7 @@ be stored in the database.</dd>
     
     <code class="phpdocumentor-signature phpdocumentor-code ">
     <span class="phpdocumentor-signature__visibility">protected</span>
-        <span class="phpdocumentor-signature__type">mixed</span>
+        <span class="phpdocumentor-signature__type">int</span>
     <span class="phpdocumentor-signature__name">TIME_FOR_ALLIANCE_SWITCH</span>
     = <span class="phpdocumentor-signature__default-value">0</span>
 </code>
@@ -2478,7 +2481,7 @@ be stored in the database.</dd>
     
     <code class="phpdocumentor-signature phpdocumentor-code ">
     <span class="phpdocumentor-signature__visibility">protected</span>
-        <span class="phpdocumentor-signature__type">mixed</span>
+        <span class="phpdocumentor-signature__type">int</span>
     <span class="phpdocumentor-signature__name">TIME_FOR_FEDERAL_BOUNTY_ON_PR</span>
     = <span class="phpdocumentor-signature__default-value">10800</span>
 </code>
@@ -4993,8 +4996,8 @@ be stored in the database.</dd>
 
         
             <section class="phpdocumentor-attributes">
-            <h5 class="phpdocumentor-elements__header" id="attributes">
-                Attributes <a href="classes/Smr-DummyPlayer.html#method___sleep#attributes" class="headerlink"><i class="fas fa-link"></i></a>
+            <h5 class="phpdocumentor-elements__header" id="method___sleep_attributes">
+                Attributes <a href="classes/Smr-DummyPlayer.html#method___sleep_attributes" class="headerlink"><i class="fas fa-link"></i></a>
 
             </h5>
                             <dl class="phpdocumentor-argument-list">
@@ -5456,23 +5459,22 @@ participate in battles.</p>
             </dl>
 
     
-    <h5 class="phpdocumentor-tag-list__heading" id="tags">
+    <h5 class="phpdocumentor-tag-list__heading" id="method_changePlayerName_tags">
         Tags
-        <a href="classes/Smr-Player.html#method_changePlayerName#tags" class="headerlink"><i class="fas fa-link"></i></a>
+        <a href="classes/Smr-Player.html#method_changePlayerName_tags" class="headerlink"><i class="fas fa-link"></i></a>
 
     </h5>
     <dl class="phpdocumentor-tag-list">
-                                    <dt class="phpdocumentor-tag-list__entry">
-                    <span class="phpdocumentor-tag__name">throws</span>
-                </dt>
-                <dd class="phpdocumentor-tag-list__definition">
+                    <dt class="phpdocumentor-tag-list__entry">
+                <span class="phpdocumentor-tag__name">throws</span>
+            </dt>
+                            <dd class="phpdocumentor-tag-list__definition">
                                                                 <span class="phpdocumentor-tag-link"><a href="classes/Smr-Exceptions-UserError.html"><abbr title="\Smr\Exceptions\UserError">UserError</abbr></a></span>
-                                                            
-                                                 <section class="phpdocumentor-description"><p>When the new name is not permitted.</p>
+                                                                                        <section class="phpdocumentor-description"><p>When the new name is not permitted.</p>
 </section>
 
                                     </dd>
-                                            </dl>
+                        </dl>
 
         
     
@@ -7901,21 +7903,20 @@ for reducing the number of queries in galaxy-wide processing.</p>
             </dl>
 
     
-    <h5 class="phpdocumentor-tag-list__heading" id="tags">
+    <h5 class="phpdocumentor-tag-list__heading" id="method_getJumpInfo_tags">
         Tags
-        <a href="classes/Smr-Player.html#method_getJumpInfo#tags" class="headerlink"><i class="fas fa-link"></i></a>
+        <a href="classes/Smr-Player.html#method_getJumpInfo_tags" class="headerlink"><i class="fas fa-link"></i></a>
 
     </h5>
     <dl class="phpdocumentor-tag-list">
-                                    <dt class="phpdocumentor-tag-list__entry">
-                    <span class="phpdocumentor-tag__name">throws</span>
-                </dt>
-                <dd class="phpdocumentor-tag-list__definition">
+                    <dt class="phpdocumentor-tag-list__entry">
+                <span class="phpdocumentor-tag__name">throws</span>
+            </dt>
+                            <dd class="phpdocumentor-tag-list__definition">
                                                                 <span class="phpdocumentor-tag-link"><a href="classes/Smr-Exceptions-PathNotFound.html"><abbr title="\Smr\Exceptions\PathNotFound">PathNotFound</abbr></a></span>
-                                                            
-                                             
+                                                                                    
                                     </dd>
-                                            </dl>
+                        </dl>
 
         
     
@@ -9898,8 +9899,8 @@ for reducing the number of queries in galaxy-wide processing.</p>
 
         
             <section class="phpdocumentor-attributes">
-            <h5 class="phpdocumentor-elements__header" id="attributes">
-                Attributes <a href="classes/Smr-DummyPlayer.html#method_getShip#attributes" class="headerlink"><i class="fas fa-link"></i></a>
+            <h5 class="phpdocumentor-elements__header" id="method_getShip_attributes">
+                Attributes <a href="classes/Smr-DummyPlayer.html#method_getShip_attributes" class="headerlink"><i class="fas fa-link"></i></a>
 
             </h5>
                             <dl class="phpdocumentor-argument-list">
@@ -10762,22 +10763,21 @@ player will be at max turns.</p>
     
     
     
-    <h5 class="phpdocumentor-tag-list__heading" id="tags">
+    <h5 class="phpdocumentor-tag-list__heading" id="method_hasBounties_tags">
         Tags
-        <a href="classes/Smr-Player.html#method_hasBounties#tags" class="headerlink"><i class="fas fa-link"></i></a>
+        <a href="classes/Smr-Player.html#method_hasBounties_tags" class="headerlink"><i class="fas fa-link"></i></a>
 
     </h5>
     <dl class="phpdocumentor-tag-list">
-                                    <dt class="phpdocumentor-tag-list__entry">
-                    <span class="phpdocumentor-tag__name">phpstan-assert-if-false</span>
-                </dt>
-                <dd class="phpdocumentor-tag-list__definition">
-                                                                                
-                                                 <section class="phpdocumentor-description"><p>array} $this-&gt;getBounties()</p>
+                    <dt class="phpdocumentor-tag-list__entry">
+                <span class="phpdocumentor-tag__name">phpstan-assert-if-false</span>
+            </dt>
+                            <dd class="phpdocumentor-tag-list__definition">
+                                                                                                            <section class="phpdocumentor-description"><p>array} $this-&gt;getBounties()</p>
 </section>
 
                                     </dd>
-                                            </dl>
+                        </dl>
 
         
     
@@ -10817,22 +10817,21 @@ player will be at max turns.</p>
     
     
     
-    <h5 class="phpdocumentor-tag-list__heading" id="tags">
+    <h5 class="phpdocumentor-tag-list__heading" id="method_hasCustomShipName_tags">
         Tags
-        <a href="classes/Smr-Player.html#method_hasCustomShipName#tags" class="headerlink"><i class="fas fa-link"></i></a>
+        <a href="classes/Smr-Player.html#method_hasCustomShipName_tags" class="headerlink"><i class="fas fa-link"></i></a>
 
     </h5>
     <dl class="phpdocumentor-tag-list">
-                                    <dt class="phpdocumentor-tag-list__entry">
-                    <span class="phpdocumentor-tag__name">phpstan-assert-if-true</span>
-                </dt>
-                <dd class="phpdocumentor-tag-list__definition">
-                                                                                
-                                                 <section class="phpdocumentor-description"><p>!false $this-&gt;getCustomShipName()</p>
+                    <dt class="phpdocumentor-tag-list__entry">
+                <span class="phpdocumentor-tag__name">phpstan-assert-if-true</span>
+            </dt>
+                            <dd class="phpdocumentor-tag-list__definition">
+                                                                                                            <section class="phpdocumentor-description"><p>!false $this-&gt;getCustomShipName()</p>
 </section>
 
                                     </dd>
-                                            </dl>
+                        </dl>
 
         
     
@@ -11146,22 +11145,21 @@ player will be at max turns.</p>
     
     
     
-    <h5 class="phpdocumentor-tag-list__heading" id="tags">
+    <h5 class="phpdocumentor-tag-list__heading" id="method_hasPlottedCourse_tags">
         Tags
-        <a href="classes/Smr-Player.html#method_hasPlottedCourse#tags" class="headerlink"><i class="fas fa-link"></i></a>
+        <a href="classes/Smr-Player.html#method_hasPlottedCourse_tags" class="headerlink"><i class="fas fa-link"></i></a>
 
     </h5>
     <dl class="phpdocumentor-tag-list">
-                                    <dt class="phpdocumentor-tag-list__entry">
-                    <span class="phpdocumentor-tag__name">phpstan-assert-if-true</span>
-                </dt>
-                <dd class="phpdocumentor-tag-list__definition">
-                                                                                
-                                                 <section class="phpdocumentor-description"><p>!false $this-&gt;getPlottedCourse()</p>
+                    <dt class="phpdocumentor-tag-list__entry">
+                <span class="phpdocumentor-tag__name">phpstan-assert-if-true</span>
+            </dt>
+                            <dd class="phpdocumentor-tag-list__definition">
+                                                                                                            <section class="phpdocumentor-description"><p>!false $this-&gt;getPlottedCourse()</p>
 </section>
 
                                     </dd>
-                                            </dl>
+                        </dl>
 
         
     
@@ -11691,8 +11689,8 @@ player will be at max turns.</p>
 
         
             <section class="phpdocumentor-attributes">
-            <h5 class="phpdocumentor-elements__header" id="attributes">
-                Attributes <a href="classes/Smr-DummyPlayer.html#method_increaseHOF#attributes" class="headerlink"><i class="fas fa-link"></i></a>
+            <h5 class="phpdocumentor-elements__header" id="method_increaseHOF_attributes">
+                Attributes <a href="classes/Smr-DummyPlayer.html#method_increaseHOF_attributes" class="headerlink"><i class="fas fa-link"></i></a>
 
             </h5>
                             <dl class="phpdocumentor-argument-list">
@@ -13128,8 +13126,8 @@ of the port given by $raceID.</p>
 
         
             <section class="phpdocumentor-attributes">
-            <h5 class="phpdocumentor-elements__header" id="attributes">
-                Attributes <a href="classes/Smr-DummyPlayer.html#method_killPlayerByPlayer#attributes" class="headerlink"><i class="fas fa-link"></i></a>
+            <h5 class="phpdocumentor-elements__header" id="method_killPlayerByPlayer_attributes">
+                Attributes <a href="classes/Smr-DummyPlayer.html#method_killPlayerByPlayer_attributes" class="headerlink"><i class="fas fa-link"></i></a>
 
             </h5>
                             <dl class="phpdocumentor-argument-list">

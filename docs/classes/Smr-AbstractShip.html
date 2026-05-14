@@ -6,7 +6,10 @@
     
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <base href="../">
+    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png"/>
+    <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png"/>
     <link rel="icon" href="images/favicon.ico"/>
+    <link rel="apple-touch-icon" href="images/apple-touch-icon.png"/>
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/base.css">
             <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -213,31 +216,31 @@
             <dt class="phpdocumentor-table-of-contents__entry -constant -protected">
     <a class="" href="classes/Smr-AbstractShip.html#constant_EXP_PER_DAMAGE_FORCE">EXP_PER_DAMAGE_FORCE</a>
     <span>
-        &nbsp;= 0.075                            </span>
+        &nbsp;: float&nbsp;= 0.075                            </span>
 </dt>
 
             <dt class="phpdocumentor-table-of-contents__entry -constant -protected">
     <a class="" href="classes/Smr-AbstractShip.html#constant_EXP_PER_DAMAGE_PLANET">EXP_PER_DAMAGE_PLANET</a>
     <span>
-        &nbsp;= 1.0                            </span>
+        &nbsp;: float&nbsp;= 1.0                            </span>
 </dt>
 
             <dt class="phpdocumentor-table-of-contents__entry -constant -protected">
     <a class="" href="classes/Smr-AbstractShip.html#constant_EXP_PER_DAMAGE_PLAYER">EXP_PER_DAMAGE_PLAYER</a>
     <span>
-        &nbsp;= 0.375                            </span>
+        &nbsp;: float&nbsp;= 0.375                            </span>
 </dt>
 
             <dt class="phpdocumentor-table-of-contents__entry -constant -protected">
     <a class="" href="classes/Smr-AbstractShip.html#constant_EXP_PER_DAMAGE_PORT">EXP_PER_DAMAGE_PORT</a>
     <span>
-        &nbsp;= 0.15                            </span>
+        &nbsp;: float&nbsp;= 0.15                            </span>
 </dt>
 
             <dt class="phpdocumentor-table-of-contents__entry -constant -protected">
     <a class="" href="classes/Smr-AbstractShip.html#constant_STARTER_SHIPS">STARTER_SHIPS</a>
     <span>
-        &nbsp;= [RACE_NEUTRAL =&gt; SHIP_TYPE_GALACTIC_SEMI, RACE_ALSKANT =&gt; SHIP_TYPE_SMALL_TIMER, RACE_CREONTI =&gt; SHIP_TYPE_MEDIUM_CARGO_HULK, RACE_HUMAN =&gt; SHIP_TYPE_LIGHT_FREIGHTER, RACE_IKTHORNE =&gt; SHIP_TYPE_TINY_DELIGHT, RACE_SALVENE =&gt; SHIP_TYPE_HATCHLINGS_DUE, RACE_THEVIAN =&gt; SHIP_TYPE_SWIFT_VENTURE, RACE_WQHUMAN =&gt; SHIP_TYPE_SLIP_FREIGHTER, RACE_NIJARIN =&gt; SHIP_TYPE_REDEEMER]                            </span>
+        &nbsp;: array&lt;string|int, mixed&gt;&nbsp;= [RACE_NEUTRAL =&gt; SHIP_TYPE_GALACTIC_SEMI, RACE_...                            </span>
 </dt>
 
     </dl>
@@ -1199,7 +1202,7 @@
     
     <code class="phpdocumentor-signature phpdocumentor-code ">
     <span class="phpdocumentor-signature__visibility">protected</span>
-        <span class="phpdocumentor-signature__type">mixed</span>
+        <span class="phpdocumentor-signature__type">float</span>
     <span class="phpdocumentor-signature__name">EXP_PER_DAMAGE_FORCE</span>
     = <span class="phpdocumentor-signature__default-value">0.075</span>
 </code>
@@ -1230,7 +1233,7 @@
     
     <code class="phpdocumentor-signature phpdocumentor-code ">
     <span class="phpdocumentor-signature__visibility">protected</span>
-        <span class="phpdocumentor-signature__type">mixed</span>
+        <span class="phpdocumentor-signature__type">float</span>
     <span class="phpdocumentor-signature__name">EXP_PER_DAMAGE_PLANET</span>
     = <span class="phpdocumentor-signature__default-value">1.0</span>
 </code>
@@ -1261,7 +1264,7 @@
     
     <code class="phpdocumentor-signature phpdocumentor-code ">
     <span class="phpdocumentor-signature__visibility">protected</span>
-        <span class="phpdocumentor-signature__type">mixed</span>
+        <span class="phpdocumentor-signature__type">float</span>
     <span class="phpdocumentor-signature__name">EXP_PER_DAMAGE_PLAYER</span>
     = <span class="phpdocumentor-signature__default-value">0.375</span>
 </code>
@@ -1292,7 +1295,7 @@
     
     <code class="phpdocumentor-signature phpdocumentor-code ">
     <span class="phpdocumentor-signature__visibility">protected</span>
-        <span class="phpdocumentor-signature__type">mixed</span>
+        <span class="phpdocumentor-signature__type">float</span>
     <span class="phpdocumentor-signature__name">EXP_PER_DAMAGE_PORT</span>
     = <span class="phpdocumentor-signature__default-value">0.15</span>
 </code>
@@ -1323,7 +1326,7 @@
     
     <code class="phpdocumentor-signature phpdocumentor-code ">
     <span class="phpdocumentor-signature__visibility">protected</span>
-        <span class="phpdocumentor-signature__type">mixed</span>
+        <span class="phpdocumentor-signature__type">array&lt;string|int, mixed&gt;</span>
     <span class="phpdocumentor-signature__name">STARTER_SHIPS</span>
     = <span class="phpdocumentor-signature__default-value">[RACE_NEUTRAL =&gt; SHIP_TYPE_GALACTIC_SEMI, RACE_ALSKANT =&gt; SHIP_TYPE_SMALL_TIMER, RACE_CREONTI =&gt; SHIP_TYPE_MEDIUM_CARGO_HULK, RACE_HUMAN =&gt; SHIP_TYPE_LIGHT_FREIGHTER, RACE_IKTHORNE =&gt; SHIP_TYPE_TINY_DELIGHT, RACE_SALVENE =&gt; SHIP_TYPE_HATCHLINGS_DUE, RACE_THEVIAN =&gt; SHIP_TYPE_SWIFT_VENTURE, RACE_WQHUMAN =&gt; SHIP_TYPE_SLIP_FREIGHTER, RACE_NIJARIN =&gt; SHIP_TYPE_REDEEMER]</span>
 </code>
@@ -4771,22 +4774,21 @@
     
     
     
-    <h5 class="phpdocumentor-tag-list__heading" id="tags">
+    <h5 class="phpdocumentor-tag-list__heading" id="method_hasActiveIllusion_tags">
         Tags
-        <a href="classes/Smr-AbstractShip.html#method_hasActiveIllusion#tags" class="headerlink"><i class="fas fa-link"></i></a>
+        <a href="classes/Smr-AbstractShip.html#method_hasActiveIllusion_tags" class="headerlink"><i class="fas fa-link"></i></a>
 
     </h5>
     <dl class="phpdocumentor-tag-list">
-                                    <dt class="phpdocumentor-tag-list__entry">
-                    <span class="phpdocumentor-tag__name">phpstan-assert-if-true</span>
-                </dt>
-                <dd class="phpdocumentor-tag-list__definition">
-                                                                                
-                                                 <section class="phpdocumentor-description"><p>!false $this-&gt;getIllusion()</p>
+                    <dt class="phpdocumentor-tag-list__entry">
+                <span class="phpdocumentor-tag__name">phpstan-assert-if-true</span>
+            </dt>
+                            <dd class="phpdocumentor-tag-list__definition">
+                                                                                                            <section class="phpdocumentor-description"><p>!false $this-&gt;getIllusion()</p>
 </section>
 
                                     </dd>
-                                            </dl>
+                        </dl>
 
         
     
