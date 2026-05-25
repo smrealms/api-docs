@@ -156,6 +156,11 @@ Search.appendIndex(
             "summary": "Convert\u0020an\u0020integer\u0020number\u0020of\u0020seconds\u0020into\u0020a\u0020human\u002Dreadable\u0020time.",
             "url": "namespaces/default.html#function_format_time"
         },                {
+            "fqsen": "\\format_time_discord\u0028\u0029",
+            "name": "format_time_discord",
+            "summary": "Convert\u0020a\u0020time\u0020epoch\u0020to\u0020a\u0020special\u0020relative\u0020time\u0020display\u0020on\u0020Discord",
+            "url": "namespaces/default.html#function_format_time_discord"
+        },                {
             "fqsen": "\\number_colour_format\u0028\u0029",
             "name": "number_colour_format",
             "summary": "",
