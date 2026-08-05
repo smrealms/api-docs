@@ -176,6 +176,11 @@ Search.appendIndex(
             "summary": "",
             "url": "namespaces/default.html#function_signed_sqrt"
         },                {
+            "fqsen": "\\findValidSector\u0028\u0029",
+            "name": "findValidSector",
+            "summary": "Randomly\u0020choose\u0020a\u0020sector\u0020that\u0020matches\u0020a\u0020given\u0020condition\u0020from\u0020a\u0020list\u0020of\u0020sectors.",
+            "url": "namespaces/default.html#function_findValidSector"
+        },                {
             "fqsen": "\\Smr\\AbstractShip",
             "name": "AbstractShip",
             "summary": "Properties\u0020and\u0020methods\u0020for\u0020a\u0020ship\u0020instance.",
@@ -7101,6 +7106,31 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/Smr-HardwareType.html#property_cost"
         },                {
+            "fqsen": "\\Smr\\Html\\Submit",
+            "name": "Submit",
+            "summary": "Holds\u0020data\u0020for\u0020submit\u0020element\u0020for\u0020consistency\u0020between\u0020templates\u0020and\u0020processors.",
+            "url": "classes/Smr-Html-Submit.html"
+        },                {
+            "fqsen": "\\Smr\\Html\\Submit\u003A\u003A__construct\u0028\u0029",
+            "name": "__construct",
+            "summary": "",
+            "url": "classes/Smr-Html-Submit.html#method___construct"
+        },                {
+            "fqsen": "\\Smr\\Html\\Submit\u003A\u003Ahtml\u0028\u0029",
+            "name": "html",
+            "summary": "",
+            "url": "classes/Smr-Html-Submit.html#method_html"
+        },                {
+            "fqsen": "\\Smr\\Html\\Submit\u003A\u003A\u0024name",
+            "name": "name",
+            "summary": "",
+            "url": "classes/Smr-Html-Submit.html#property_name"
+        },                {
+            "fqsen": "\\Smr\\Html\\Submit\u003A\u003A\u0024value",
+            "name": "value",
+            "summary": "",
+            "url": "classes/Smr-Html-Submit.html#property_value"
+        },                {
             "fqsen": "\\Smr\\Location",
             "name": "Location",
             "summary": "",
@@ -8725,11 +8755,6 @@ Search.appendIndex(
             "name": "getCancelHREF",
             "summary": "",
             "url": "classes/Smr-Planet.html#method_getCancelHREF"
-        },                {
-            "fqsen": "\\Smr\\Planet\u003A\u003AgetFinancesHREF\u0028\u0029",
-            "name": "getFinancesHREF",
-            "summary": "",
-            "url": "classes/Smr-Planet.html#method_getFinancesHREF"
         },                {
             "fqsen": "\\Smr\\Planet\u003A\u003AgetBondConfirmationHREF\u0028\u0029",
             "name": "getBondConfirmationHREF",
@@ -10790,6 +10815,11 @@ Search.appendIndex(
             "name": "getToggleWeaponHidingHREF",
             "summary": "",
             "url": "classes/Smr-Player.html#method_getToggleWeaponHidingHREF"
+        },                {
+            "fqsen": "\\Smr\\Player\u003A\u003AgetPersonalHofHREF\u0028\u0029",
+            "name": "getPersonalHofHREF",
+            "summary": "",
+            "url": "classes/Smr-Player.html#method_getPersonalHofHREF"
         },                {
             "fqsen": "\\Smr\\Player\u003A\u003AisDisplayWeapons\u0028\u0029",
             "name": "isDisplayWeapons",
@@ -14940,6 +14970,11 @@ Search.appendIndex(
             "name": "Exceptions",
             "summary": "",
             "url": "namespaces/smr-exceptions.html"
+        },                {
+            "fqsen": "\\Smr\\Html",
+            "name": "Html",
+            "summary": "",
+            "url": "namespaces/smr-html.html"
         },                {
             "fqsen": "\\Smr\\Login",
             "name": "Login",
