@@ -14356,6 +14356,11 @@ Search.appendIndex(
             "summary": "Defines\u0020a\u0020listjs_include.js\u0020function\u0020to\u0020call\u0020at\u0020the\u0020end\u0020of\u0020the\u0020HTML\u0020body.",
             "url": "classes/Smr-Template.html#property_listjsInclude"
         },                {
+            "fqsen": "\\Smr\\Template\u003A\u003A\u0024pageTopic",
+            "name": "pageTopic",
+            "summary": "",
+            "url": "classes/Smr-Template.html#property_pageTopic"
+        },                {
             "fqsen": "\\Smr\\TradeGood",
             "name": "TradeGood",
             "summary": "",
