@@ -219,15 +219,15 @@
 </h4>
 <dl class="phpdocumentor-table-of-contents">
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
-    <a class="" href="classes/Smr-News.html#method_doBreakingNewsAssign">doBreakingNewsAssign()</a>
+    <a class="" href="classes/Smr-News.html#method_getBreakingNews">getBreakingNews()</a>
     <span>
-                                &nbsp;: void    </span>
+                                &nbsp;: array{Time: int, Message: string}|null    </span>
 </dt>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
-    <a class="" href="classes/Smr-News.html#method_doLottoNewsAssign">doLottoNewsAssign()</a>
+    <a class="" href="classes/Smr-News.html#method_getLottoNews">getLottoNews()</a>
     <span>
-                                &nbsp;: void    </span>
+                                &nbsp;: array{Time: int, Message: string}|null    </span>
 </dt>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
@@ -257,23 +257,23 @@
             -public
                                     -static                    "
 >
-    <h4 class="phpdocumentor-element__name" id="method_doBreakingNewsAssign">
-        doBreakingNewsAssign()
-        <a href="classes/Smr-News.html#method_doBreakingNewsAssign" class="headerlink"><i class="fas fa-link"></i></a>
+    <h4 class="phpdocumentor-element__name" id="method_getBreakingNews">
+        getBreakingNews()
+        <a href="classes/Smr-News.html#method_getBreakingNews" class="headerlink"><i class="fas fa-link"></i></a>
 
     </h4>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/News.php"><a href="files/src-lib-smr-news.html"><abbr title="src/lib/Smr/News.php">News.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">36</span>
+    <span class="phpdocumentor-element-found-in__line">39</span>
 
-            <a href="classes/Smr-News.html#source-view.36" class="phpdocumentor-element-found-in__source" data-line="36" data-modal="source-view" data-src="files/src/lib/Smr/News.php.txt"></a>
+            <a href="classes/Smr-News.html#source-view.39" class="phpdocumentor-element-found-in__source" data-line="39" data-modal="source-view" data-src="files/src/lib/Smr/News.php.txt"></a>
     </aside>
 
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">public</span>
-            <span class="phpdocumentor-signature__static">static</span>        <span class="phpdocumentor-signature__name">doBreakingNewsAssign</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__type">int&nbsp;</span><span class="phpdocumentor-signature__argument__name">$gameID</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">void</span></code>
+            <span class="phpdocumentor-signature__static">static</span>        <span class="phpdocumentor-signature__name">getBreakingNews</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__type">int&nbsp;</span><span class="phpdocumentor-signature__argument__name">$gameID</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">array{Time: int, Message: string}|null</span></code>
 
     <div class="phpdocumentor-label-line">
         </div>
@@ -294,7 +294,11 @@
 
         
     
-    
+            <section>
+        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
+        <span class="phpdocumentor-signature__response_type">array{Time: int, Message: string}|null</span>
+            </section>
+
 </article>
                     <article
         class="phpdocumentor-element
@@ -302,23 +306,23 @@
             -public
                                     -static                    "
 >
-    <h4 class="phpdocumentor-element__name" id="method_doLottoNewsAssign">
-        doLottoNewsAssign()
-        <a href="classes/Smr-News.html#method_doLottoNewsAssign" class="headerlink"><i class="fas fa-link"></i></a>
+    <h4 class="phpdocumentor-element__name" id="method_getLottoNews">
+        getLottoNews()
+        <a href="classes/Smr-News.html#method_getLottoNews" class="headerlink"><i class="fas fa-link"></i></a>
 
     </h4>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/News.php"><a href="files/src-lib-smr-news.html"><abbr title="src/lib/Smr/News.php">News.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">52</span>
+    <span class="phpdocumentor-element-found-in__line">58</span>
 
-            <a href="classes/Smr-News.html#source-view.52" class="phpdocumentor-element-found-in__source" data-line="52" data-modal="source-view" data-src="files/src/lib/Smr/News.php.txt"></a>
+            <a href="classes/Smr-News.html#source-view.58" class="phpdocumentor-element-found-in__source" data-line="58" data-modal="source-view" data-src="files/src/lib/Smr/News.php.txt"></a>
     </aside>
 
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">public</span>
-            <span class="phpdocumentor-signature__static">static</span>        <span class="phpdocumentor-signature__name">doLottoNewsAssign</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__type">int&nbsp;</span><span class="phpdocumentor-signature__argument__name">$gameID</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">void</span></code>
+            <span class="phpdocumentor-signature__static">static</span>        <span class="phpdocumentor-signature__name">getLottoNews</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__type">int&nbsp;</span><span class="phpdocumentor-signature__argument__name">$gameID</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">array{Time: int, Message: string}|null</span></code>
 
     <div class="phpdocumentor-label-line">
         </div>
@@ -339,7 +343,11 @@
 
         
     
-    
+            <section>
+        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
+        <span class="phpdocumentor-signature__response_type">array{Time: int, Message: string}|null</span>
+            </section>
+
 </article>
                     <article
         class="phpdocumentor-element
@@ -506,8 +514,8 @@
                         <li class="phpdocumentor-on-this-page-section__title">Methods</li>
             <li>
                 <ul class="phpdocumentor-list -clean">
-                                            <li class=""><a href="classes/Smr-News.html#method_doBreakingNewsAssign">doBreakingNewsAssign()</a></li>
-                                            <li class=""><a href="classes/Smr-News.html#method_doLottoNewsAssign">doLottoNewsAssign()</a></li>
+                                            <li class=""><a href="classes/Smr-News.html#method_getBreakingNews">getBreakingNews()</a></li>
+                                            <li class=""><a href="classes/Smr-News.html#method_getLottoNews">getLottoNews()</a></li>
                                             <li class=""><a href="classes/Smr-News.html#method_getNewsItems">getNewsItems()</a></li>
                                     </ul>
             </li>

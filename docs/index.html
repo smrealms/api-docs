@@ -202,7 +202,7 @@
             <dt class="phpdocumentor-table-of-contents__entry -function -">
     <a class="" href="namespaces/default.html#function_get_draft_teams">get_draft_teams()</a>
     <span>
-                                &nbsp;: array&lt;int, array&lt;string, mixed&gt;&gt;    </span>
+                                &nbsp;: array&lt;int, <abbr title="array{Leader: \Smr\Player, Size: int, Alliance?: \Smr\Alliance, CanPick: bool}">Alliance, CanPick: bool}</abbr>&gt;    </span>
 </dt>
 <dd>Returns an array with all relevant information about draft teams,
 including their current size and if the leader can pick teammates.</dd>
@@ -364,15 +364,15 @@ including their current size and if the leader can pick teammates.</dd>
 </dt>
 
             <dt class="phpdocumentor-table-of-contents__entry -function -">
-    <a class="" href="namespaces/default.html#function_doTickerAssigns">doTickerAssigns()</a>
+    <a class="" href="namespaces/default.html#function_getDisplayTickers">getDisplayTickers()</a>
     <span>
-                                &nbsp;: void    </span>
+                                &nbsp;: array&lt;string|int, array{Time: string, Message: string}&gt;|null    </span>
 </dt>
 
             <dt class="phpdocumentor-table-of-contents__entry -function -">
-    <a class="" href="namespaces/default.html#function_doSkeletonAssigns">doSkeletonAssigns()</a>
+    <a class="" href="namespaces/default.html#function_getSkeletonData">getSkeletonData()</a>
     <span>
-                                &nbsp;: void    </span>
+                                &nbsp;: <abbr title="\Smr\Pages\Layout\SkeletonData">SkeletonData</abbr>    </span>
 </dt>
 
             <dt class="phpdocumentor-table-of-contents__entry -function -">
@@ -461,7 +461,7 @@ including their current size and if the leader can pick teammates.</p>
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility"></span>
-                    <span class="phpdocumentor-signature__name">get_draft_teams</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__type">int&nbsp;</span><span class="phpdocumentor-signature__argument__name">$gameId</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">array&lt;int, array&lt;string, mixed&gt;&gt;</span></code>
+                    <span class="phpdocumentor-signature__name">get_draft_teams</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__type">int&nbsp;</span><span class="phpdocumentor-signature__argument__name">$gameId</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">array&lt;int, <abbr title="array{Leader: \Smr\Player, Size: int, Alliance?: \Smr\Alliance, CanPick: bool}">Alliance, CanPick: bool}</abbr>&gt;</span></code>
 
     
         <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
@@ -479,7 +479,7 @@ including their current size and if the leader can pick teammates.</p>
 
             <section>
         <h5 class="phpdocumentor-return-value__heading">Return values</h5>
-        <span class="phpdocumentor-signature__response_type">array&lt;int, array&lt;string, mixed&gt;&gt;</span>
+        <span class="phpdocumentor-signature__response_type">array&lt;int, <abbr title="array{Leader: \Smr\Player, Size: int, Alliance?: \Smr\Alliance, CanPick: bool}">Alliance, CanPick: bool}</abbr>&gt;</span>
             </section>
 
 </article>
@@ -797,9 +797,9 @@ including their current size and if the leader can pick teammates.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/smr.inc.php"><a href="files/src-lib-default-smr-inc.html"><abbr title="src/lib/Default/smr.inc.php">smr.inc.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">61</span>
+    <span class="phpdocumentor-element-found-in__line">50</span>
 
-            <a href="index.html#source-view.61" class="phpdocumentor-element-found-in__source" data-line="61" data-modal="source-view" data-src="files/src/lib/Default/smr.inc.php.txt"></a>
+            <a href="index.html#source-view.50" class="phpdocumentor-element-found-in__source" data-line="50" data-modal="source-view" data-src="files/src/lib/Default/smr.inc.php.txt"></a>
     </aside>
 
     
@@ -837,9 +837,9 @@ including their current size and if the leader can pick teammates.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/smr.inc.php"><a href="files/src-lib-default-smr-inc.html"><abbr title="src/lib/Default/smr.inc.php">smr.inc.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">69</span>
+    <span class="phpdocumentor-element-found-in__line">58</span>
 
-            <a href="index.html#source-view.69" class="phpdocumentor-element-found-in__source" data-line="69" data-modal="source-view" data-src="files/src/lib/Default/smr.inc.php.txt"></a>
+            <a href="index.html#source-view.58" class="phpdocumentor-element-found-in__source" data-line="58" data-modal="source-view" data-src="files/src/lib/Default/smr.inc.php.txt"></a>
     </aside>
 
     
@@ -877,9 +877,9 @@ including their current size and if the leader can pick teammates.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/smr.inc.php"><a href="files/src-lib-default-smr-inc.html"><abbr title="src/lib/Default/smr.inc.php">smr.inc.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">82</span>
+    <span class="phpdocumentor-element-found-in__line">71</span>
 
-            <a href="index.html#source-view.82" class="phpdocumentor-element-found-in__source" data-line="82" data-modal="source-view" data-src="files/src/lib/Default/smr.inc.php.txt"></a>
+            <a href="index.html#source-view.71" class="phpdocumentor-element-found-in__source" data-line="71" data-modal="source-view" data-src="files/src/lib/Default/smr.inc.php.txt"></a>
     </aside>
 
         <p class="phpdocumentor-summary">Converts a BBCode tag into some other text depending on the tag and value.</p>
@@ -957,9 +957,9 @@ with action BBCODE_OUTPUT.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/smr.inc.php"><a href="files/src-lib-default-smr-inc.html"><abbr title="src/lib/Default/smr.inc.php">smr.inc.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">187</span>
+    <span class="phpdocumentor-element-found-in__line">176</span>
 
-            <a href="index.html#source-view.187" class="phpdocumentor-element-found-in__source" data-line="187" data-modal="source-view" data-src="files/src/lib/Default/smr.inc.php.txt"></a>
+            <a href="index.html#source-view.176" class="phpdocumentor-element-found-in__source" data-line="176" data-modal="source-view" data-src="files/src/lib/Default/smr.inc.php.txt"></a>
     </aside>
 
     
@@ -997,9 +997,9 @@ with action BBCODE_OUTPUT.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/smr.inc.php"><a href="files/src-lib-default-smr-inc.html"><abbr title="src/lib/Default/smr.inc.php">smr.inc.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">191</span>
+    <span class="phpdocumentor-element-found-in__line">180</span>
 
-            <a href="index.html#source-view.191" class="phpdocumentor-element-found-in__source" data-line="191" data-modal="source-view" data-src="files/src/lib/Default/smr.inc.php.txt"></a>
+            <a href="index.html#source-view.180" class="phpdocumentor-element-found-in__source" data-line="180" data-modal="source-view" data-src="files/src/lib/Default/smr.inc.php.txt"></a>
     </aside>
 
     
@@ -1051,9 +1051,9 @@ with action BBCODE_OUTPUT.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/smr.inc.php"><a href="files/src-lib-default-smr-inc.html"><abbr title="src/lib/Default/smr.inc.php">smr.inc.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">246</span>
+    <span class="phpdocumentor-element-found-in__line">235</span>
 
-            <a href="index.html#source-view.246" class="phpdocumentor-element-found-in__source" data-line="246" data-modal="source-view" data-src="files/src/lib/Default/smr.inc.php.txt"></a>
+            <a href="index.html#source-view.235" class="phpdocumentor-element-found-in__source" data-line="235" data-modal="source-view" data-src="files/src/lib/Default/smr.inc.php.txt"></a>
     </aside>
 
     
@@ -1091,9 +1091,9 @@ with action BBCODE_OUTPUT.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/smr.inc.php"><a href="files/src-lib-default-smr-inc.html"><abbr title="src/lib/Default/smr.inc.php">smr.inc.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">250</span>
+    <span class="phpdocumentor-element-found-in__line">239</span>
 
-            <a href="index.html#source-view.250" class="phpdocumentor-element-found-in__source" data-line="250" data-modal="source-view" data-src="files/src/lib/Default/smr.inc.php.txt"></a>
+            <a href="index.html#source-view.239" class="phpdocumentor-element-found-in__source" data-line="239" data-modal="source-view" data-src="files/src/lib/Default/smr.inc.php.txt"></a>
     </aside>
 
     
@@ -1131,9 +1131,9 @@ with action BBCODE_OUTPUT.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/smr.inc.php"><a href="files/src-lib-default-smr-inc.html"><abbr title="src/lib/Default/smr.inc.php">smr.inc.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">280</span>
+    <span class="phpdocumentor-element-found-in__line">269</span>
 
-            <a href="index.html#source-view.280" class="phpdocumentor-element-found-in__source" data-line="280" data-modal="source-view" data-src="files/src/lib/Default/smr.inc.php.txt"></a>
+            <a href="index.html#source-view.269" class="phpdocumentor-element-found-in__source" data-line="269" data-modal="source-view" data-src="files/src/lib/Default/smr.inc.php.txt"></a>
     </aside>
 
     
@@ -1185,9 +1185,9 @@ with action BBCODE_OUTPUT.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/smr.inc.php"><a href="files/src-lib-default-smr-inc.html"><abbr title="src/lib/Default/smr.inc.php">smr.inc.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">284</span>
+    <span class="phpdocumentor-element-found-in__line">273</span>
 
-            <a href="index.html#source-view.284" class="phpdocumentor-element-found-in__source" data-line="284" data-modal="source-view" data-src="files/src/lib/Default/smr.inc.php.txt"></a>
+            <a href="index.html#source-view.273" class="phpdocumentor-element-found-in__source" data-line="273" data-modal="source-view" data-src="files/src/lib/Default/smr.inc.php.txt"></a>
     </aside>
 
     
@@ -1232,9 +1232,9 @@ with action BBCODE_OUTPUT.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/smr.inc.php"><a href="files/src-lib-default-smr-inc.html"><abbr title="src/lib/Default/smr.inc.php">smr.inc.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">293</span>
+    <span class="phpdocumentor-element-found-in__line">282</span>
 
-            <a href="index.html#source-view.293" class="phpdocumentor-element-found-in__source" data-line="293" data-modal="source-view" data-src="files/src/lib/Default/smr.inc.php.txt"></a>
+            <a href="index.html#source-view.282" class="phpdocumentor-element-found-in__source" data-line="282" data-modal="source-view" data-src="files/src/lib/Default/smr.inc.php.txt"></a>
     </aside>
 
         <p class="phpdocumentor-summary">Create a submit element that will not add any data to the submitted form.</p>
@@ -1280,9 +1280,9 @@ with action BBCODE_OUTPUT.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/smr.inc.php"><a href="files/src-lib-default-smr-inc.html"><abbr title="src/lib/Default/smr.inc.php">smr.inc.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">316</span>
+    <span class="phpdocumentor-element-found-in__line">305</span>
 
-            <a href="index.html#source-view.316" class="phpdocumentor-element-found-in__source" data-line="316" data-modal="source-view" data-src="files/src/lib/Default/smr.inc.php.txt"></a>
+            <a href="index.html#source-view.305" class="phpdocumentor-element-found-in__source" data-line="305" data-modal="source-view" data-src="files/src/lib/Default/smr.inc.php.txt"></a>
     </aside>
 
         <p class="phpdocumentor-summary">Create a submit element that will add a name-value field to the submitted form data.</p>
@@ -1345,9 +1345,9 @@ values need to be handled by the backend when the submitted form is processed.</
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/smr.inc.php"><a href="files/src-lib-default-smr-inc.html"><abbr title="src/lib/Default/smr.inc.php">smr.inc.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">336</span>
+    <span class="phpdocumentor-element-found-in__line">325</span>
 
-            <a href="index.html#source-view.336" class="phpdocumentor-element-found-in__source" data-line="336" data-modal="source-view" data-src="files/src/lib/Default/smr.inc.php.txt"></a>
+            <a href="index.html#source-view.325" class="phpdocumentor-element-found-in__source" data-line="325" data-modal="source-view" data-src="files/src/lib/Default/smr.inc.php.txt"></a>
     </aside>
 
     
@@ -1406,9 +1406,9 @@ values need to be handled by the backend when the submitted form is processed.</
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/smr.inc.php"><a href="files/src-lib-default-smr-inc.html"><abbr title="src/lib/Default/smr.inc.php">smr.inc.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">364</span>
+    <span class="phpdocumentor-element-found-in__line">353</span>
 
-            <a href="index.html#source-view.364" class="phpdocumentor-element-found-in__source" data-line="364" data-modal="source-view" data-src="files/src/lib/Default/smr.inc.php.txt"></a>
+            <a href="index.html#source-view.353" class="phpdocumentor-element-found-in__source" data-line="353" data-modal="source-view" data-src="files/src/lib/Default/smr.inc.php.txt"></a>
     </aside>
 
     
@@ -1453,9 +1453,9 @@ values need to be handled by the backend when the submitted form is processed.</
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/smr.inc.php"><a href="files/src-lib-default-smr-inc.html"><abbr title="src/lib/Default/smr.inc.php">smr.inc.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">368</span>
+    <span class="phpdocumentor-element-found-in__line">357</span>
 
-            <a href="index.html#source-view.368" class="phpdocumentor-element-found-in__source" data-line="368" data-modal="source-view" data-src="files/src/lib/Default/smr.inc.php.txt"></a>
+            <a href="index.html#source-view.357" class="phpdocumentor-element-found-in__source" data-line="357" data-modal="source-view" data-src="files/src/lib/Default/smr.inc.php.txt"></a>
     </aside>
 
     
@@ -1493,9 +1493,9 @@ values need to be handled by the backend when the submitted form is processed.</
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/smr.inc.php"><a href="files/src-lib-default-smr-inc.html"><abbr title="src/lib/Default/smr.inc.php">smr.inc.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">386</span>
+    <span class="phpdocumentor-element-found-in__line">375</span>
 
-            <a href="index.html#source-view.386" class="phpdocumentor-element-found-in__source" data-line="386" data-modal="source-view" data-src="files/src/lib/Default/smr.inc.php.txt"></a>
+            <a href="index.html#source-view.375" class="phpdocumentor-element-found-in__source" data-line="375" data-modal="source-view" data-src="files/src/lib/Default/smr.inc.php.txt"></a>
     </aside>
 
     
@@ -1547,9 +1547,9 @@ values need to be handled by the backend when the submitted form is processed.</
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/smr.inc.php"><a href="files/src-lib-default-smr-inc.html"><abbr title="src/lib/Default/smr.inc.php">smr.inc.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">402</span>
+    <span class="phpdocumentor-element-found-in__line">391</span>
 
-            <a href="index.html#source-view.402" class="phpdocumentor-element-found-in__source" data-line="402" data-modal="source-view" data-src="files/src/lib/Default/smr.inc.php.txt"></a>
+            <a href="index.html#source-view.391" class="phpdocumentor-element-found-in__source" data-line="391" data-modal="source-view" data-src="files/src/lib/Default/smr.inc.php.txt"></a>
     </aside>
 
         <p class="phpdocumentor-summary">This function is a hack around the old style http forward mechanism.</p>
@@ -1581,9 +1581,9 @@ values need to be handled by the backend when the submitted form is processed.</
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/smr.inc.php"><a href="files/src-lib-default-smr-inc.html"><abbr title="src/lib/Default/smr.inc.php">smr.inc.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">506</span>
+    <span class="phpdocumentor-element-found-in__line">490</span>
 
-            <a href="index.html#source-view.506" class="phpdocumentor-element-found-in__source" data-line="506" data-modal="source-view" data-src="files/src/lib/Default/smr.inc.php.txt"></a>
+            <a href="index.html#source-view.490" class="phpdocumentor-element-found-in__source" data-line="490" data-modal="source-view" data-src="files/src/lib/Default/smr.inc.php.txt"></a>
     </aside>
 
     
@@ -1609,24 +1609,24 @@ values need to be handled by the backend when the submitted form is processed.</
     
 </article>
                     <article class="phpdocumentor-element -function - ">
-    <h4 class="phpdocumentor-element__name" id="function_doTickerAssigns">
-        doTickerAssigns()
-        <a href="namespaces/default.html#function_doTickerAssigns" class="headerlink"><i class="fas fa-link"></i></a>
+    <h4 class="phpdocumentor-element__name" id="function_getDisplayTickers">
+        getDisplayTickers()
+        <a href="namespaces/default.html#function_getDisplayTickers" class="headerlink"><i class="fas fa-link"></i></a>
 
     </h4>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/smr.inc.php"><a href="files/src-lib-default-smr-inc.html"><abbr title="src/lib/Default/smr.inc.php">smr.inc.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">526</span>
+    <span class="phpdocumentor-element-found-in__line">513</span>
 
-            <a href="index.html#source-view.526" class="phpdocumentor-element-found-in__source" data-line="526" data-modal="source-view" data-src="files/src/lib/Default/smr.inc.php.txt"></a>
+            <a href="index.html#source-view.513" class="phpdocumentor-element-found-in__source" data-line="513" data-modal="source-view" data-src="files/src/lib/Default/smr.inc.php.txt"></a>
     </aside>
 
     
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility"></span>
-                    <span class="phpdocumentor-signature__name">doTickerAssigns</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__type"><a href="classes/Smr-Template.html"><abbr title="\Smr\Template">Template</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$template</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__type"><a href="classes/Smr-Player.html"><abbr title="\Smr\Player">Player</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$player</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__type"><a href="classes/Smr-Database.html"><abbr title="\Smr\Database">Database</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$db</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">void</span></code>
+                    <span class="phpdocumentor-signature__name">getDisplayTickers</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__type"><a href="classes/Smr-Template.html"><abbr title="\Smr\Template">Template</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$template</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__type"><a href="classes/Smr-Player.html"><abbr title="\Smr\Player">Player</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$player</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__type"><a href="classes/Smr-Database.html"><abbr title="\Smr\Database">Database</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$db</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">array&lt;string|int, array{Time: string, Message: string}&gt;|null</span></code>
 
     
         <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
@@ -1656,27 +1656,31 @@ values need to be handled by the backend when the submitted form is processed.</
 
     
 
-    
+            <section>
+        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
+        <span class="phpdocumentor-signature__response_type">array&lt;string|int, array{Time: string, Message: string}&gt;|null</span>
+            </section>
+
 </article>
                     <article class="phpdocumentor-element -function - ">
-    <h4 class="phpdocumentor-element__name" id="function_doSkeletonAssigns">
-        doSkeletonAssigns()
-        <a href="namespaces/default.html#function_doSkeletonAssigns" class="headerlink"><i class="fas fa-link"></i></a>
+    <h4 class="phpdocumentor-element__name" id="function_getSkeletonData">
+        getSkeletonData()
+        <a href="namespaces/default.html#function_getSkeletonData" class="headerlink"><i class="fas fa-link"></i></a>
 
     </h4>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/smr.inc.php"><a href="files/src-lib-default-smr-inc.html"><abbr title="src/lib/Default/smr.inc.php">smr.inc.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">570</span>
+    <span class="phpdocumentor-element-found-in__line">558</span>
 
-            <a href="index.html#source-view.570" class="phpdocumentor-element-found-in__source" data-line="570" data-modal="source-view" data-src="files/src/lib/Default/smr.inc.php.txt"></a>
+            <a href="index.html#source-view.558" class="phpdocumentor-element-found-in__source" data-line="558" data-modal="source-view" data-src="files/src/lib/Default/smr.inc.php.txt"></a>
     </aside>
 
     
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility"></span>
-                    <span class="phpdocumentor-signature__name">doSkeletonAssigns</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__type"><a href="classes/Smr-Template.html"><abbr title="\Smr\Template">Template</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$template</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">void</span></code>
+                    <span class="phpdocumentor-signature__name">getSkeletonData</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__type"><a href="classes/Smr-Template.html"><abbr title="\Smr\Template">Template</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$template</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type"><abbr title="\Smr\Pages\Layout\SkeletonData">SkeletonData</abbr></span></code>
 
     
         <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
@@ -1692,7 +1696,11 @@ values need to be handled by the backend when the submitted form is processed.</
 
     
 
-    
+            <section>
+        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
+        <span class="phpdocumentor-signature__response_type"><abbr title="\Smr\Pages\Layout\SkeletonData">SkeletonData</abbr></span>
+            </section>
+
 </article>
                     <article class="phpdocumentor-element -function - ">
     <h4 class="phpdocumentor-element__name" id="function_format_list">
@@ -1703,9 +1711,9 @@ values need to be handled by the backend when the submitted form is processed.</
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/smr.inc.php"><a href="files/src-lib-default-smr-inc.html"><abbr title="src/lib/Default/smr.inc.php">smr.inc.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">727</span>
+    <span class="phpdocumentor-element-found-in__line">651</span>
 
-            <a href="index.html#source-view.727" class="phpdocumentor-element-found-in__source" data-line="727" data-modal="source-view" data-src="files/src/lib/Default/smr.inc.php.txt"></a>
+            <a href="index.html#source-view.651" class="phpdocumentor-element-found-in__source" data-line="651" data-modal="source-view" data-src="files/src/lib/Default/smr.inc.php.txt"></a>
     </aside>
 
         <p class="phpdocumentor-summary">Join a list of items into a grammatically-correct sentence fragment.</p>
@@ -1744,9 +1752,9 @@ values need to be handled by the backend when the submitted form is processed.</
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/smr.inc.php"><a href="files/src-lib-default-smr-inc.html"><abbr title="src/lib/Default/smr.inc.php">smr.inc.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">743</span>
+    <span class="phpdocumentor-element-found-in__line">667</span>
 
-            <a href="index.html#source-view.743" class="phpdocumentor-element-found-in__source" data-line="743" data-modal="source-view" data-src="files/src/lib/Default/smr.inc.php.txt"></a>
+            <a href="index.html#source-view.667" class="phpdocumentor-element-found-in__source" data-line="667" data-modal="source-view" data-src="files/src/lib/Default/smr.inc.php.txt"></a>
     </aside>
 
         <p class="phpdocumentor-summary">Convert an integer number of seconds into a human-readable time for
@@ -1794,9 +1802,9 @@ the amount is positive.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/smr.inc.php"><a href="files/src-lib-default-smr-inc.html"><abbr title="src/lib/Default/smr.inc.php">smr.inc.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">759</span>
+    <span class="phpdocumentor-element-found-in__line">683</span>
 
-            <a href="index.html#source-view.759" class="phpdocumentor-element-found-in__source" data-line="759" data-modal="source-view" data-src="files/src/lib/Default/smr.inc.php.txt"></a>
+            <a href="index.html#source-view.683" class="phpdocumentor-element-found-in__source" data-line="683" data-modal="source-view" data-src="files/src/lib/Default/smr.inc.php.txt"></a>
     </aside>
 
         <p class="phpdocumentor-summary">Convert an integer number of seconds into a human-readable time.</p>
@@ -1848,9 +1856,9 @@ If seconds is &lt;60, will prefix &quot;less than&quot; or &quot;&lt;&quot; (HTM
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/smr.inc.php"><a href="files/src-lib-default-smr-inc.html"><abbr title="src/lib/Default/smr.inc.php">smr.inc.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">820</span>
+    <span class="phpdocumentor-element-found-in__line">744</span>
 
-            <a href="index.html#source-view.820" class="phpdocumentor-element-found-in__source" data-line="820" data-modal="source-view" data-src="files/src/lib/Default/smr.inc.php.txt"></a>
+            <a href="index.html#source-view.744" class="phpdocumentor-element-found-in__source" data-line="744" data-modal="source-view" data-src="files/src/lib/Default/smr.inc.php.txt"></a>
     </aside>
 
         <p class="phpdocumentor-summary">Convert a time epoch to a special relative time display on Discord</p>
@@ -1889,9 +1897,9 @@ If seconds is &lt;60, will prefix &quot;less than&quot; or &quot;&lt;&quot; (HTM
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/smr.inc.php"><a href="files/src-lib-default-smr-inc.html"><abbr title="src/lib/Default/smr.inc.php">smr.inc.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">825</span>
+    <span class="phpdocumentor-element-found-in__line">749</span>
 
-            <a href="index.html#source-view.825" class="phpdocumentor-element-found-in__source" data-line="825" data-modal="source-view" data-src="files/src/lib/Default/smr.inc.php.txt"></a>
+            <a href="index.html#source-view.749" class="phpdocumentor-element-found-in__source" data-line="749" data-modal="source-view" data-src="files/src/lib/Default/smr.inc.php.txt"></a>
     </aside>
 
     
@@ -1936,9 +1944,9 @@ If seconds is &lt;60, will prefix &quot;less than&quot; or &quot;&lt;&quot; (HTM
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/smr.inc.php"><a href="files/src-lib-default-smr-inc.html"><abbr title="src/lib/Default/smr.inc.php">smr.inc.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">860</span>
+    <span class="phpdocumentor-element-found-in__line">784</span>
 
-            <a href="index.html#source-view.860" class="phpdocumentor-element-found-in__source" data-line="860" data-modal="source-view" data-src="files/src/lib/Default/smr.inc.php.txt"></a>
+            <a href="index.html#source-view.784" class="phpdocumentor-element-found-in__source" data-line="784" data-modal="source-view" data-src="files/src/lib/Default/smr.inc.php.txt"></a>
     </aside>
 
         <p class="phpdocumentor-summary">Randomly choose an array key weighted by the array values.</p>
@@ -1997,9 +2005,9 @@ If seconds is &lt;60, will prefix &quot;less than&quot; or &quot;&lt;&quot; (HTM
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/smr.inc.php"><a href="files/src-lib-default-smr-inc.html"><abbr title="src/lib/Default/smr.inc.php">smr.inc.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">881</span>
+    <span class="phpdocumentor-element-found-in__line">805</span>
 
-            <a href="index.html#source-view.881" class="phpdocumentor-element-found-in__source" data-line="881" data-modal="source-view" data-src="files/src/lib/Default/smr.inc.php.txt"></a>
+            <a href="index.html#source-view.805" class="phpdocumentor-element-found-in__source" data-line="805" data-modal="source-view" data-src="files/src/lib/Default/smr.inc.php.txt"></a>
     </aside>
 
     
@@ -2037,9 +2045,9 @@ If seconds is &lt;60, will prefix &quot;less than&quot; or &quot;&lt;&quot; (HTM
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Default/smr.inc.php"><a href="files/src-lib-default-smr-inc.html"><abbr title="src/lib/Default/smr.inc.php">smr.inc.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">891</span>
+    <span class="phpdocumentor-element-found-in__line">815</span>
 
-            <a href="index.html#source-view.891" class="phpdocumentor-element-found-in__source" data-line="891" data-modal="source-view" data-src="files/src/lib/Default/smr.inc.php.txt"></a>
+            <a href="index.html#source-view.815" class="phpdocumentor-element-found-in__source" data-line="815" data-modal="source-view" data-src="files/src/lib/Default/smr.inc.php.txt"></a>
     </aside>
 
         <p class="phpdocumentor-summary">Randomly choose a sector that matches a given condition from a list of sectors.</p>

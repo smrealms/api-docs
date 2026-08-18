@@ -131,15 +131,15 @@ Search.appendIndex(
             "summary": "",
             "url": "namespaces/default.html#function_saveAllAndReleaseLock"
         },                {
-            "fqsen": "\\doTickerAssigns\u0028\u0029",
-            "name": "doTickerAssigns",
+            "fqsen": "\\getDisplayTickers\u0028\u0029",
+            "name": "getDisplayTickers",
             "summary": "",
-            "url": "namespaces/default.html#function_doTickerAssigns"
+            "url": "namespaces/default.html#function_getDisplayTickers"
         },                {
-            "fqsen": "\\doSkeletonAssigns\u0028\u0029",
-            "name": "doSkeletonAssigns",
+            "fqsen": "\\getSkeletonData\u0028\u0029",
+            "name": "getSkeletonData",
             "summary": "",
-            "url": "namespaces/default.html#function_doSkeletonAssigns"
+            "url": "namespaces/default.html#function_getSkeletonData"
         },                {
             "fqsen": "\\format_list\u0028\u0029",
             "name": "format_list",
@@ -3645,6 +3645,96 @@ Search.appendIndex(
             "name": "y",
             "summary": "",
             "url": "classes/Smr-Chess-Loc.html#property_y"
+        },                {
+            "fqsen": "\\Smr\\Combat\\Results\\ForceFullCombatResults",
+            "name": "ForceFullCombatResults",
+            "summary": "",
+            "url": "classes/Smr-Combat-Results-ForceFullCombatResults.html"
+        },                {
+            "fqsen": "\\Smr\\Combat\\Results\\ForceFullCombatResults\u003A\u003A__construct\u0028\u0029",
+            "name": "__construct",
+            "summary": "",
+            "url": "classes/Smr-Combat-Results-ForceFullCombatResults.html#method___construct"
+        },                {
+            "fqsen": "\\Smr\\Combat\\Results\\ForceFullCombatResults\u003A\u003A\u0024attackers",
+            "name": "attackers",
+            "summary": "",
+            "url": "classes/Smr-Combat-Results-ForceFullCombatResults.html#property_attackers"
+        },                {
+            "fqsen": "\\Smr\\Combat\\Results\\ForceFullCombatResults\u003A\u003A\u0024forces",
+            "name": "forces",
+            "summary": "",
+            "url": "classes/Smr-Combat-Results-ForceFullCombatResults.html#property_forces"
+        },                {
+            "fqsen": "\\Smr\\Combat\\Results\\ForceFullCombatResults\u003A\u003A\u0024bump",
+            "name": "bump",
+            "summary": "",
+            "url": "classes/Smr-Combat-Results-ForceFullCombatResults.html#property_bump"
+        },                {
+            "fqsen": "\\Smr\\Combat\\Results\\FullCombatResults",
+            "name": "FullCombatResults",
+            "summary": "",
+            "url": "classes/Smr-Combat-Results-FullCombatResults.html"
+        },                {
+            "fqsen": "\\Smr\\Combat\\Results\\PlanetFullCombatResults",
+            "name": "PlanetFullCombatResults",
+            "summary": "",
+            "url": "classes/Smr-Combat-Results-PlanetFullCombatResults.html"
+        },                {
+            "fqsen": "\\Smr\\Combat\\Results\\PlanetFullCombatResults\u003A\u003A__construct\u0028\u0029",
+            "name": "__construct",
+            "summary": "",
+            "url": "classes/Smr-Combat-Results-PlanetFullCombatResults.html#method___construct"
+        },                {
+            "fqsen": "\\Smr\\Combat\\Results\\PlanetFullCombatResults\u003A\u003A\u0024attackers",
+            "name": "attackers",
+            "summary": "",
+            "url": "classes/Smr-Combat-Results-PlanetFullCombatResults.html#property_attackers"
+        },                {
+            "fqsen": "\\Smr\\Combat\\Results\\PlanetFullCombatResults\u003A\u003A\u0024planet",
+            "name": "planet",
+            "summary": "",
+            "url": "classes/Smr-Combat-Results-PlanetFullCombatResults.html#property_planet"
+        },                {
+            "fqsen": "\\Smr\\Combat\\Results\\PortFullCombatResults",
+            "name": "PortFullCombatResults",
+            "summary": "",
+            "url": "classes/Smr-Combat-Results-PortFullCombatResults.html"
+        },                {
+            "fqsen": "\\Smr\\Combat\\Results\\PortFullCombatResults\u003A\u003A__construct\u0028\u0029",
+            "name": "__construct",
+            "summary": "",
+            "url": "classes/Smr-Combat-Results-PortFullCombatResults.html#method___construct"
+        },                {
+            "fqsen": "\\Smr\\Combat\\Results\\PortFullCombatResults\u003A\u003A\u0024attackers",
+            "name": "attackers",
+            "summary": "",
+            "url": "classes/Smr-Combat-Results-PortFullCombatResults.html#property_attackers"
+        },                {
+            "fqsen": "\\Smr\\Combat\\Results\\PortFullCombatResults\u003A\u003A\u0024port",
+            "name": "port",
+            "summary": "",
+            "url": "classes/Smr-Combat-Results-PortFullCombatResults.html#property_port"
+        },                {
+            "fqsen": "\\Smr\\Combat\\Results\\TraderFullCombatResults",
+            "name": "TraderFullCombatResults",
+            "summary": "",
+            "url": "classes/Smr-Combat-Results-TraderFullCombatResults.html"
+        },                {
+            "fqsen": "\\Smr\\Combat\\Results\\TraderFullCombatResults\u003A\u003A__construct\u0028\u0029",
+            "name": "__construct",
+            "summary": "",
+            "url": "classes/Smr-Combat-Results-TraderFullCombatResults.html#method___construct"
+        },                {
+            "fqsen": "\\Smr\\Combat\\Results\\TraderFullCombatResults\u003A\u003A\u0024attackers",
+            "name": "attackers",
+            "summary": "",
+            "url": "classes/Smr-Combat-Results-TraderFullCombatResults.html#property_attackers"
+        },                {
+            "fqsen": "\\Smr\\Combat\\Results\\TraderFullCombatResults\u003A\u003A\u0024defenders",
+            "name": "defenders",
+            "summary": "",
+            "url": "classes/Smr-Combat-Results-TraderFullCombatResults.html#property_defenders"
         },                {
             "fqsen": "\\Smr\\Combat\\Weapon\\AbstractWeapon",
             "name": "AbstractWeapon",
@@ -7976,15 +8066,15 @@ Search.appendIndex(
             "summary": "Takes\u0020a\u0020populated\u0020query\u0020and\u0020returns\u0020the\u0020news\u0020items.",
             "url": "classes/Smr-News.html#method_getNewsItems"
         },                {
-            "fqsen": "\\Smr\\News\u003A\u003AdoBreakingNewsAssign\u0028\u0029",
-            "name": "doBreakingNewsAssign",
+            "fqsen": "\\Smr\\News\u003A\u003AgetBreakingNews\u0028\u0029",
+            "name": "getBreakingNews",
             "summary": "",
-            "url": "classes/Smr-News.html#method_doBreakingNewsAssign"
+            "url": "classes/Smr-News.html#method_getBreakingNews"
         },                {
-            "fqsen": "\\Smr\\News\u003A\u003AdoLottoNewsAssign\u0028\u0029",
-            "name": "doLottoNewsAssign",
+            "fqsen": "\\Smr\\News\u003A\u003AgetLottoNews\u0028\u0029",
+            "name": "getLottoNews",
             "summary": "",
-            "url": "classes/Smr-News.html#method_doLottoNewsAssign"
+            "url": "classes/Smr-News.html#method_getLottoNews"
         },                {
             "fqsen": "\\Smr\\Page\\AccountPage",
             "name": "AccountPage",
@@ -8055,11 +8145,6 @@ Search.appendIndex(
             "name": "underAttack",
             "summary": "Storage\u0020to\u0020remember\u0020if\u0020we\u0020need\u0020to\u0020display\u0020the\u0020Under\u0020Attack\u0020message.",
             "url": "classes/Smr-Page-Page.html#property_underAttack"
-        },                {
-            "fqsen": "\\Smr\\Page\\Page\u003A\u003A\u0024file",
-            "name": "file",
-            "summary": "Template\u0020file\u0020associated\u0020with\u0020page\u0020\u0028for\u0020display\u0020pages\u0020only\u0029.",
-            "url": "classes/Smr-Page-Page.html#property_file"
         },                {
             "fqsen": "\\Smr\\Page\\PlayerPage",
             "name": "PlayerPage",
@@ -12331,6 +12416,11 @@ Search.appendIndex(
             "summary": "Given\u0020a\u0020\u0024rankedStats\u0020array\u0020returned\u0020by\u0020one\u0020of\u0020the\u0020stats\u0020functions,\nfind\u0020the\u0020rank\u0020associated\u0020with\u0020a\u0020specific\u0020ID.",
             "url": "classes/Smr-Rankings.html#method_ourRank"
         },                {
+            "fqsen": "\\Smr\\Rankings\u003A\u003AourAllianceRank\u0028\u0029",
+            "name": "ourAllianceRank",
+            "summary": "",
+            "url": "classes/Smr-Rankings.html#method_ourAllianceRank"
+        },                {
             "fqsen": "\\Smr\\Rankings\u003A\u003AcalculateMinMaxRanks\u0028\u0029",
             "name": "calculateMinMaxRanks",
             "summary": "",
@@ -14251,35 +14341,10 @@ Search.appendIndex(
             "summary": "Return\u0020the\u0020Smr\\Template\u0020in\u0020the\u0020DI\u0020container.",
             "url": "classes/Smr-Template.html#method_getInstance"
         },                {
-            "fqsen": "\\Smr\\Template\u003A\u003AhasTemplateVar\u0028\u0029",
-            "name": "hasTemplateVar",
-            "summary": "",
-            "url": "classes/Smr-Template.html#method_hasTemplateVar"
-        },                {
-            "fqsen": "\\Smr\\Template\u003A\u003Aassign\u0028\u0029",
-            "name": "assign",
-            "summary": "",
-            "url": "classes/Smr-Template.html#method_assign"
-        },                {
-            "fqsen": "\\Smr\\Template\u003A\u003Aunassign\u0028\u0029",
-            "name": "unassign",
-            "summary": "",
-            "url": "classes/Smr-Template.html#method_unassign"
-        },                {
             "fqsen": "\\Smr\\Template\u003A\u003Adisplay\u0028\u0029",
             "name": "display",
             "summary": "Displays\u0020the\u0020template\u0020HTML.\u0020Stores\u0020any\u0020ajax\u002Denabled\u0020elements\u0020for\u0020future\ncomparison,\u0020and\u0020outputs\u0020modified\u0020elements\u0020in\u0020XML\u0020for\u0020ajax\u0020if\u0020requested.",
             "url": "classes/Smr-Template.html#method_display"
-        },                {
-            "fqsen": "\\Smr\\Template\u003A\u003AgetTemplateLocation\u0028\u0029",
-            "name": "getTemplateLocation",
-            "summary": "",
-            "url": "classes/Smr-Template.html#method_getTemplateLocation"
-        },                {
-            "fqsen": "\\Smr\\Template\u003A\u003AincludeTemplate\u0028\u0029",
-            "name": "includeTemplate",
-            "summary": "",
-            "url": "classes/Smr-Template.html#method_includeTemplate"
         },                {
             "fqsen": "\\Smr\\Template\u003A\u003AcheckDisableAJAX\u0028\u0029",
             "name": "checkDisableAJAX",
@@ -14326,16 +14391,6 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/Smr-Template.html#method_convertHtmlToAjaxXml"
         },                {
-            "fqsen": "\\Smr\\Template\u003A\u003A\u0024data",
-            "name": "data",
-            "summary": "",
-            "url": "classes/Smr-Template.html#property_data"
-        },                {
-            "fqsen": "\\Smr\\Template\u003A\u003A\u0024nestedIncludes",
-            "name": "nestedIncludes",
-            "summary": "",
-            "url": "classes/Smr-Template.html#property_nestedIncludes"
-        },                {
             "fqsen": "\\Smr\\Template\u003A\u003A\u0024ajaxJS",
             "name": "ajaxJS",
             "summary": "",
@@ -14350,6 +14405,36 @@ Search.appendIndex(
             "name": "jsSources",
             "summary": "",
             "url": "classes/Smr-Template.html#property_jsSources"
+        },                {
+            "fqsen": "\\Smr\\Template\u003A\u003A\u0024menuItems",
+            "name": "menuItems",
+            "summary": "",
+            "url": "classes/Smr-Template.html#property_menuItems"
+        },                {
+            "fqsen": "\\Smr\\Template\u003A\u003A\u0024subMenuBar",
+            "name": "subMenuBar",
+            "summary": "",
+            "url": "classes/Smr-Template.html#property_subMenuBar"
+        },                {
+            "fqsen": "\\Smr\\Template\u003A\u003A\u0024addRaceRadarChartJS",
+            "name": "addRaceRadarChartJS",
+            "summary": "",
+            "url": "classes/Smr-Template.html#property_addRaceRadarChartJS"
+        },                {
+            "fqsen": "\\Smr\\Template\u003A\u003A\u0024spaceView",
+            "name": "spaceView",
+            "summary": "",
+            "url": "classes/Smr-Template.html#property_spaceView"
+        },                {
+            "fqsen": "\\Smr\\Template\u003A\u003A\u0024ajaxRefreshInterval",
+            "name": "ajaxRefreshInterval",
+            "summary": "",
+            "url": "classes/Smr-Template.html#property_ajaxRefreshInterval"
+        },                {
+            "fqsen": "\\Smr\\Template\u003A\u003A\u0024pageRenderer",
+            "name": "pageRenderer",
+            "summary": "Holds\u0020the\u0020Renderer\u0020for\u0020the\u0020skeleton\u0020middle\u0020panel.",
+            "url": "classes/Smr-Template.html#property_pageRenderer"
         },                {
             "fqsen": "\\Smr\\Template\u003A\u003A\u0024listjsInclude",
             "name": "listjsInclude",
@@ -14946,15 +15031,20 @@ Search.appendIndex(
             "summary": "",
             "url": "namespaces/smr-chess.html"
         },                {
-            "fqsen": "\\Smr\\Combat\\Weapon",
-            "name": "Weapon",
+            "fqsen": "\\Smr\\Combat\\Results",
+            "name": "Results",
             "summary": "",
-            "url": "namespaces/smr-combat-weapon.html"
+            "url": "namespaces/smr-combat-results.html"
         },                {
             "fqsen": "\\Smr\\Combat",
             "name": "Combat",
             "summary": "",
             "url": "namespaces/smr-combat.html"
+        },                {
+            "fqsen": "\\Smr\\Combat\\Weapon",
+            "name": "Weapon",
+            "summary": "",
+            "url": "namespaces/smr-combat-weapon.html"
         },                {
             "fqsen": "\\Smr\\Container",
             "name": "Container",

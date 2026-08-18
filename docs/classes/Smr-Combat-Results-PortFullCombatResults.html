@@ -159,12 +159,17 @@
                                 <section>
                                         <ul class="phpdocumentor-breadcrumbs">
             <li class="phpdocumentor-breadcrumb"><a href="namespaces/smr.html">Smr</a></li>
+            <li class="phpdocumentor-breadcrumb"><a href="namespaces/smr-combat.html">Combat</a></li>
+            <li class="phpdocumentor-breadcrumb"><a href="namespaces/smr-combat-results.html">Results</a></li>
     </ul>
 
     <article class="phpdocumentor-element -class">
         <h2 class="phpdocumentor-content__title">
-    TurnsLevel
+    PortFullCombatResults
 
+        <span class="phpdocumentor-element__extends">
+        extends <a href="classes/Smr-Combat-Results-FullCombatResults.html"><abbr title="\Smr\Combat\Results\FullCombatResults">FullCombatResults</abbr></a>
+    </span>
     
             <div class="phpdocumentor-element__package">
             in package
@@ -176,25 +181,29 @@
     
     </h2>
 
-        <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/TurnsLevel.php"><a href="files/src-lib-smr-turnslevel.html"><abbr title="src/lib/Smr/TurnsLevel.php">TurnsLevel.php</abbr></a></abbr>
-    :
-    <span class="phpdocumentor-element-found-in__line">8</span>
+<div class="phpdocumentor-label-line">
 
-            <a href="classes/Smr-TurnsLevel.html#source-view.8" class="phpdocumentor-element-found-in__source" data-line="8" data-modal="source-view" data-src="files/src/lib/Smr/TurnsLevel.php.txt"></a>
+
+</div>
+
+        <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Combat/Results/PortFullCombatResults.php"><a href="files/src-lib-smr-combat-results-portfullcombatresults.html"><abbr title="src/lib/Smr/Combat/Results/PortFullCombatResults.php">PortFullCombatResults.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">5</span>
+
+            <a href="classes/Smr-Combat-Results-PortFullCombatResults.html#source-view.5" class="phpdocumentor-element-found-in__source" data-line="5" data-modal="source-view" data-src="files/src/lib/Smr/Combat/Results/PortFullCombatResults.php.txt"></a>
     </aside>
 
-            <p class="phpdocumentor-summary">Enumerates the warning levels that correspond to player turn thresholds</p>
-
-        
-        
         
 
 
-        
+
+
+    
+    
 <h3 id="toc">
     Table of Contents
-    <a href="classes/Smr-TurnsLevel.html#toc" class="headerlink"><i class="fas fa-link"></i></a>
+    <a href="classes/Smr-Combat-Results-PortFullCombatResults.html#toc" class="headerlink"><i class="fas fa-link"></i></a>
 
 </h3>
 
@@ -205,183 +214,134 @@
 
 
 
-<h4 id="toc-cases">
-    Cases
-    <a href="classes/Smr-TurnsLevel.html#toc-cases" class="headerlink"><i class="fas fa-link"></i></a>
+
+<h4 id="toc-properties">
+    Properties
+    <a href="classes/Smr-Combat-Results-PortFullCombatResults.html#toc-properties" class="headerlink"><i class="fas fa-link"></i></a>
 
 </h4>
 <dl class="phpdocumentor-table-of-contents">
-            <dt class="phpdocumentor-table-of-contents__entry -case -">
-    <a class="" href="classes/Smr-TurnsLevel.html#enumcase_High">High</a>
+            <dt class="phpdocumentor-table-of-contents__entry -property -public">
+    <a class="" href="classes/Smr-Combat-Results-PortFullCombatResults.html#property_attackers">$attackers</a>
     <span>
-                                    </span>
+                        &nbsp;: array&lt;string|int, mixed&gt;            </span>
 </dt>
 
-            <dt class="phpdocumentor-table-of-contents__entry -case -">
-    <a class="" href="classes/Smr-TurnsLevel.html#enumcase_Low">Low</a>
+            <dt class="phpdocumentor-table-of-contents__entry -property -public">
+    <a class="" href="classes/Smr-Combat-Results-PortFullCombatResults.html#property_port">$port</a>
     <span>
-                                    </span>
-</dt>
-
-            <dt class="phpdocumentor-table-of-contents__entry -case -">
-    <a class="" href="classes/Smr-TurnsLevel.html#enumcase_Medium">Medium</a>
-    <span>
-                                    </span>
-</dt>
-
-            <dt class="phpdocumentor-table-of-contents__entry -case -">
-    <a class="" href="classes/Smr-TurnsLevel.html#enumcase_None">None</a>
-    <span>
-                                    </span>
+                        &nbsp;: array&lt;string|int, mixed&gt;            </span>
 </dt>
 
     </dl>
-
 
 <h4 id="toc-methods">
     Methods
-    <a href="classes/Smr-TurnsLevel.html#toc-methods" class="headerlink"><i class="fas fa-link"></i></a>
+    <a href="classes/Smr-Combat-Results-PortFullCombatResults.html#toc-methods" class="headerlink"><i class="fas fa-link"></i></a>
 
 </h4>
 <dl class="phpdocumentor-table-of-contents">
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
-    <a class="" href="classes/Smr-TurnsLevel.html#method_color">color()</a>
+    <a class="" href="classes/Smr-Combat-Results-PortFullCombatResults.html#method___construct">__construct()</a>
     <span>
-                                &nbsp;: string    </span>
+                                &nbsp;: mixed    </span>
 </dt>
-<dd>Returns the CSS class color to use when displaying the player&#039;s turns</dd>
-
-            <dt class="phpdocumentor-table-of-contents__entry -method -public">
-    <a class="" href="classes/Smr-TurnsLevel.html#method_message">message()</a>
-    <span>
-                                &nbsp;: string|null    </span>
-</dt>
-<dd>Returns the warning to display when player&#039;s turns get low.</dd>
 
     </dl>
 
 
 
-            <section class="phpdocumentor-cases">
-        <h3 class="phpdocumentor-elements__header" id="cases">
-            Cases
-            <a href="classes/Smr-TurnsLevel.html#cases" class="headerlink"><i class="fas fa-link"></i></a>
+        
+
+        
+    <section class="phpdocumentor-properties">
+        <h3 class="phpdocumentor-elements__header" id="properties">
+            Properties
+            <a href="classes/Smr-Combat-Results-PortFullCombatResults.html#properties" class="headerlink"><i class="fas fa-link"></i></a>
 
         </h3>
                     <article
         class="
             phpdocumentor-element
-            -enum-case
-        "
+            -property
+            -public
+                                                -read-only                    "
 >
-    <h4 class="phpdocumentor-element__name" id="enumcase_None">
-        None
-        <a href="classes/Smr-TurnsLevel.html#enumcase_None" class="headerlink"><i class="fas fa-link"></i></a>
+    <h4 class="phpdocumentor-element__name" id="property_attackers">
+        $attackers
+        <a href="classes/Smr-Combat-Results-PortFullCombatResults.html#property_attackers" class="headerlink"><i class="fas fa-link"></i></a>
 
+        <span class="phpdocumentor-element__modifiers">
+                        <small class="phpdocumentor-element__modifier">read-only</small>                    </span>
     </h4>
     <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/TurnsLevel.php"><a href="files/src-lib-smr-turnslevel.html"><abbr title="src/lib/Smr/TurnsLevel.php">TurnsLevel.php</abbr></a></abbr>
-    :
-    <span class="phpdocumentor-element-found-in__line">10</span>
-
-            <a href="classes/Smr-TurnsLevel.html#source-view.10" class="phpdocumentor-element-found-in__source" data-line="10" data-modal="source-view" data-src="files/src/lib/Smr/TurnsLevel.php.txt"></a>
-    </aside>
-
-    
-    
-    
-    
-    
-
-        
-    </article>
-                    <article
-        class="
-            phpdocumentor-element
-            -enum-case
-        "
->
-    <h4 class="phpdocumentor-element__name" id="enumcase_Low">
-        Low
-        <a href="classes/Smr-TurnsLevel.html#enumcase_Low" class="headerlink"><i class="fas fa-link"></i></a>
-
-    </h4>
-    <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/TurnsLevel.php"><a href="files/src-lib-smr-turnslevel.html"><abbr title="src/lib/Smr/TurnsLevel.php">TurnsLevel.php</abbr></a></abbr>
-    :
-    <span class="phpdocumentor-element-found-in__line">11</span>
-
-            <a href="classes/Smr-TurnsLevel.html#source-view.11" class="phpdocumentor-element-found-in__source" data-line="11" data-modal="source-view" data-src="files/src/lib/Smr/TurnsLevel.php.txt"></a>
-    </aside>
-
-    
-    
-    
-    
-    
-
-        
-    </article>
-                    <article
-        class="
-            phpdocumentor-element
-            -enum-case
-        "
->
-    <h4 class="phpdocumentor-element__name" id="enumcase_Medium">
-        Medium
-        <a href="classes/Smr-TurnsLevel.html#enumcase_Medium" class="headerlink"><i class="fas fa-link"></i></a>
-
-    </h4>
-    <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/TurnsLevel.php"><a href="files/src-lib-smr-turnslevel.html"><abbr title="src/lib/Smr/TurnsLevel.php">TurnsLevel.php</abbr></a></abbr>
+    <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Combat/Results/PortFullCombatResults.php"><a href="files/src-lib-smr-combat-results-portfullcombatresults.html"><abbr title="src/lib/Smr/Combat/Results/PortFullCombatResults.php">PortFullCombatResults.php</abbr></a></abbr>
     :
     <span class="phpdocumentor-element-found-in__line">12</span>
 
-            <a href="classes/Smr-TurnsLevel.html#source-view.12" class="phpdocumentor-element-found-in__source" data-line="12" data-modal="source-view" data-src="files/src/lib/Smr/TurnsLevel.php.txt"></a>
+            <a href="classes/Smr-Combat-Results-PortFullCombatResults.html#source-view.12" class="phpdocumentor-element-found-in__source" data-line="12" data-modal="source-view" data-src="files/src/lib/Smr/Combat/Results/PortFullCombatResults.php.txt"></a>
     </aside>
 
     
     
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+        <span class="phpdocumentor-signature__visibility">public</span>
+            <span class="phpdocumentor-signature__type">array&lt;string|int, mixed&gt;</span>
+    <span class="phpdocumentor-signature__name">$attackers</span>
+    </code>
+
     
     
     
 
         
-    </article>
+        
+
+</article>
                     <article
         class="
             phpdocumentor-element
-            -enum-case
-        "
+            -property
+            -public
+                                                -read-only                    "
 >
-    <h4 class="phpdocumentor-element__name" id="enumcase_High">
-        High
-        <a href="classes/Smr-TurnsLevel.html#enumcase_High" class="headerlink"><i class="fas fa-link"></i></a>
+    <h4 class="phpdocumentor-element__name" id="property_port">
+        $port
+        <a href="classes/Smr-Combat-Results-PortFullCombatResults.html#property_port" class="headerlink"><i class="fas fa-link"></i></a>
 
+        <span class="phpdocumentor-element__modifiers">
+                        <small class="phpdocumentor-element__modifier">read-only</small>                    </span>
     </h4>
     <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/TurnsLevel.php"><a href="files/src-lib-smr-turnslevel.html"><abbr title="src/lib/Smr/TurnsLevel.php">TurnsLevel.php</abbr></a></abbr>
+    <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Combat/Results/PortFullCombatResults.php"><a href="files/src-lib-smr-combat-results-portfullcombatresults.html"><abbr title="src/lib/Smr/Combat/Results/PortFullCombatResults.php">PortFullCombatResults.php</abbr></a></abbr>
     :
     <span class="phpdocumentor-element-found-in__line">13</span>
 
-            <a href="classes/Smr-TurnsLevel.html#source-view.13" class="phpdocumentor-element-found-in__source" data-line="13" data-modal="source-view" data-src="files/src/lib/Smr/TurnsLevel.php.txt"></a>
+            <a href="classes/Smr-Combat-Results-PortFullCombatResults.html#source-view.13" class="phpdocumentor-element-found-in__source" data-line="13" data-modal="source-view" data-src="files/src/lib/Smr/Combat/Results/PortFullCombatResults.php.txt"></a>
     </aside>
 
     
     
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+        <span class="phpdocumentor-signature__visibility">public</span>
+            <span class="phpdocumentor-signature__type">array&lt;string|int, mixed&gt;</span>
+    <span class="phpdocumentor-signature__name">$port</span>
+    </code>
+
     
     
     
 
         
-    </article>
+        
+
+</article>
             </section>
 
             <section class="phpdocumentor-methods">
         <h3 class="phpdocumentor-elements__header" id="methods">
             Methods
-            <a href="classes/Smr-TurnsLevel.html#methods" class="headerlink"><i class="fas fa-link"></i></a>
+            <a href="classes/Smr-Combat-Results-PortFullCombatResults.html#methods" class="headerlink"><i class="fas fa-link"></i></a>
 
         </h3>
                     <article
@@ -390,79 +350,51 @@
             -public
                                                         "
 >
-    <h4 class="phpdocumentor-element__name" id="method_color">
-        color()
-        <a href="classes/Smr-TurnsLevel.html#method_color" class="headerlink"><i class="fas fa-link"></i></a>
+    <h4 class="phpdocumentor-element__name" id="method___construct">
+        __construct()
+        <a href="classes/Smr-Combat-Results-PortFullCombatResults.html#method___construct" class="headerlink"><i class="fas fa-link"></i></a>
 
     </h4>
     <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/TurnsLevel.php"><a href="files/src-lib-smr-turnslevel.html"><abbr title="src/lib/Smr/TurnsLevel.php">TurnsLevel.php</abbr></a></abbr>
+    <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Combat/Results/PortFullCombatResults.php"><a href="files/src-lib-smr-combat-results-portfullcombatresults.html"><abbr title="src/lib/Smr/Combat/Results/PortFullCombatResults.php">PortFullCombatResults.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">18</span>
+    <span class="phpdocumentor-element-found-in__line">11</span>
 
-            <a href="classes/Smr-TurnsLevel.html#source-view.18" class="phpdocumentor-element-found-in__source" data-line="18" data-modal="source-view" data-src="files/src/lib/Smr/TurnsLevel.php.txt"></a>
+            <a href="classes/Smr-Combat-Results-PortFullCombatResults.html#source-view.11" class="phpdocumentor-element-found-in__source" data-line="11" data-modal="source-view" data-src="files/src/lib/Smr/Combat/Results/PortFullCombatResults.php.txt"></a>
     </aside>
 
-        <p class="phpdocumentor-summary">Returns the CSS class color to use when displaying the player&#039;s turns</p>
-
+    
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">public</span>
-                    <span class="phpdocumentor-signature__name">color</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">string</span></code>
+                    <span class="phpdocumentor-signature__name">__construct</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__type"><abbr title="\Smr\Combat\Results\PortAttackerCombatResults">PortAttackerCombatResults</abbr>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$attackers</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__type"><abbr title="\Smr\Combat\Results\PortCombatResults">PortCombatResults</abbr>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$port</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">mixed</span></code>
 
     <div class="phpdocumentor-label-line">
         </div>
     
     
-    
-    
+        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
+    <dl class="phpdocumentor-argument-list">
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-argument-list__argument__name">$attackers</span>
+                : <span class="phpdocumentor-argument-list__argument__type"><abbr title="\Smr\Combat\Results\PortAttackerCombatResults">PortAttackerCombatResults</abbr></span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                
+            </dd>
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-argument-list__argument__name">$port</span>
+                : <span class="phpdocumentor-argument-list__argument__type"><abbr title="\Smr\Combat\Results\PortCombatResults">PortCombatResults</abbr></span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                
+            </dd>
+            </dl>
 
-        
-    
-            <section>
-        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
-        <span class="phpdocumentor-signature__response_type">string</span>
-            </section>
-
-</article>
-                    <article
-        class="phpdocumentor-element
-            -method
-            -public
-                                                        "
->
-    <h4 class="phpdocumentor-element__name" id="method_message">
-        message()
-        <a href="classes/Smr-TurnsLevel.html#method_message" class="headerlink"><i class="fas fa-link"></i></a>
-
-    </h4>
-    <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/TurnsLevel.php"><a href="files/src-lib-smr-turnslevel.html"><abbr title="src/lib/Smr/TurnsLevel.php">TurnsLevel.php</abbr></a></abbr>
-    :
-    <span class="phpdocumentor-element-found-in__line">29</span>
-
-            <a href="classes/Smr-TurnsLevel.html#source-view.29" class="phpdocumentor-element-found-in__source" data-line="29" data-modal="source-view" data-src="files/src/lib/Smr/TurnsLevel.php.txt"></a>
-    </aside>
-
-        <p class="phpdocumentor-summary">Returns the warning to display when player&#039;s turns get low.</p>
-
-    <code class="phpdocumentor-code phpdocumentor-signature ">
-    <span class="phpdocumentor-signature__visibility">public</span>
-                    <span class="phpdocumentor-signature__name">message</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">string|null</span></code>
-
-    <div class="phpdocumentor-label-line">
-        </div>
-    
-    
-    
     
 
         
     
-            <section>
-        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
-        <span class="phpdocumentor-signature__response_type">string|null</span>
-            </section>
-
+    
 </article>
             </section>
 
@@ -470,7 +402,7 @@
     <div class="phpdocumentor-modal-bg" data-exit-button></div>
     <div class="phpdocumentor-modal-container">
         <div class="phpdocumentor-modal-content">
-            <pre style="max-height: 500px; overflow-y: scroll" data-src="files/src/lib/Smr/TurnsLevel.php.txt" class="language-php line-numbers linkable-line-numbers"></pre>
+            <pre style="max-height: 500px; overflow-y: scroll" data-src="files/src/lib/Smr/Combat/Results/PortFullCombatResults.php.txt" class="language-php line-numbers linkable-line-numbers"></pre>
         </div>
         <button data-exit-button class="phpdocumentor-modal__close">&times;</button>
     </div>
@@ -563,7 +495,7 @@
     </article>
                                 </section>
                 <section class="phpdocumentor-on-this-page__sidebar">
-                            
+                                
     <section class="phpdocumentor-on-this-page__content">
         <strong class="phpdocumentor-on-this-page__title">On this page</strong>
 
@@ -571,27 +503,25 @@
             <li class="phpdocumentor-on-this-page-section__title">Table Of Contents</li>
             <li>
                 <ul class="phpdocumentor-list -clean">
-                                            <li><a href="classes/Smr-TurnsLevel.html#toc-cases">Cases</a></li>
-                                                                <li><a href="classes/Smr-TurnsLevel.html#toc-methods">Methods</a></li>
+                                                            <li><a href="classes/Smr-Combat-Results-PortFullCombatResults.html#toc-properties">Properties</a></li>
+                                                            <li><a href="classes/Smr-Combat-Results-PortFullCombatResults.html#toc-methods">Methods</a></li>
                                     </ul>
             </li>
-                            <li class="phpdocumentor-on-this-page-section__title">Cases</li>
+            
+                            <li class="phpdocumentor-on-this-page-section__title">Properties</li>
                 <li>
                     <ul class="phpdocumentor-list -clean">
-                                                    <li class=""><a href="classes/Smr-TurnsLevel.html#enumcase_None">None</a></li>
-                                                    <li class=""><a href="classes/Smr-TurnsLevel.html#enumcase_Low">Low</a></li>
-                                                    <li class=""><a href="classes/Smr-TurnsLevel.html#enumcase_Medium">Medium</a></li>
-                                                    <li class=""><a href="classes/Smr-TurnsLevel.html#enumcase_High">High</a></li>
+                                                    <li class=""><a href="classes/Smr-Combat-Results-PortFullCombatResults.html#property_attackers">$attackers</a></li>
+                                                    <li class=""><a href="classes/Smr-Combat-Results-PortFullCombatResults.html#property_port">$port</a></li>
                                             </ul>
                 </li>
             
-                            <li class="phpdocumentor-on-this-page-section__title">Methods</li>
-                <li>
-                    <ul class="phpdocumentor-list -clean">
-                                                    <li class=""><a href="classes/Smr-TurnsLevel.html#method_color">color()</a></li>
-                                                    <li class=""><a href="classes/Smr-TurnsLevel.html#method_message">message()</a></li>
-                                            </ul>
-                </li>
+                        <li class="phpdocumentor-on-this-page-section__title">Methods</li>
+            <li>
+                <ul class="phpdocumentor-list -clean">
+                                            <li class=""><a href="classes/Smr-Combat-Results-PortFullCombatResults.html#method___construct">__construct()</a></li>
+                                    </ul>
+            </li>
                     </ul>
     </section>
 
@@ -609,7 +539,7 @@
     </section>
 </section>
         </div>
-        <a href="classes/Smr-TurnsLevel.html#top" class="phpdocumentor-back-to-top"><i class="fas fa-chevron-circle-up"></i></a>
+        <a href="classes/Smr-Combat-Results-PortFullCombatResults.html#top" class="phpdocumentor-back-to-top"><i class="fas fa-chevron-circle-up"></i></a>
 
     </main>
 
