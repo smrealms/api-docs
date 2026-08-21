@@ -11466,15 +11466,15 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/Smr-Port.html#method_getVisibleGoods"
         },                {
-            "fqsen": "\\Smr\\Port\u003A\u003AgetVisibleGoodsSold\u0028\u0029",
-            "name": "getVisibleGoodsSold",
+            "fqsen": "\\Smr\\Port\u003A\u003AgetVisibleGoodsPlayerSells\u0028\u0029",
+            "name": "getVisibleGoodsPlayerSells",
             "summary": "Get\u0020goods\u0020that\u0020can\u0020be\u0020sold\u0020by\u0020\u0024player\u0020to\u0020the\u0020port",
-            "url": "classes/Smr-Port.html#method_getVisibleGoodsSold"
+            "url": "classes/Smr-Port.html#method_getVisibleGoodsPlayerSells"
         },                {
-            "fqsen": "\\Smr\\Port\u003A\u003AgetVisibleGoodsBought\u0028\u0029",
-            "name": "getVisibleGoodsBought",
+            "fqsen": "\\Smr\\Port\u003A\u003AgetVisibleGoodsPlayerBuys\u0028\u0029",
+            "name": "getVisibleGoodsPlayerBuys",
             "summary": "Get\u0020goods\u0020that\u0020can\u0020be\u0020bought\u0020by\u0020\u0024player\u0020from\u0020the\u0020port",
-            "url": "classes/Smr-Port.html#method_getVisibleGoodsBought"
+            "url": "classes/Smr-Port.html#method_getVisibleGoodsPlayerBuys"
         },                {
             "fqsen": "\\Smr\\Port\u003A\u003AgetAllGoodIDs\u0028\u0029",
             "name": "getAllGoodIDs",
