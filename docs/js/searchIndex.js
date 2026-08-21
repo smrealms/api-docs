@@ -46,6 +46,11 @@ Search.appendIndex(
             "summary": "",
             "url": "namespaces/default.html#function_hit_sector_mines"
         },                {
+            "fqsen": "\\asset_url\u0028\u0029",
+            "name": "asset_url",
+            "summary": "Given\u0020a\u0020source\u0020URL\u0020of\u0020a\u0020local\u0020static\u0020asset,\u0020return\u0020the\u0020display\u0020URL.",
+            "url": "namespaces/default.html#function_asset_url"
+        },                {
             "fqsen": "\\parseBoolean\u0028\u0029",
             "name": "parseBoolean",
             "summary": "",
