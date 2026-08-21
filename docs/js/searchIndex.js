@@ -14791,11 +14791,6 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/Smr-VoteSite.html#enumcase_TWG"
         },                {
-            "fqsen": "\\Smr\\VoteSite\u003A\u003ADOG",
-            "name": "DOG",
-            "summary": "",
-            "url": "classes/Smr-VoteSite.html#enumcase_DOG"
-        },                {
             "fqsen": "\\Smr\\VoteSite\u003A\u003APBBG",
             "name": "PBBG",
             "summary": "",
