@@ -3771,6 +3771,16 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/Smr-Combat-NormalDamageCombatResolver.html#method_shoot"
         },                {
+            "fqsen": "\\Smr\\Combat\\NormalDamageTeamResultsResolver",
+            "name": "NormalDamageTeamResultsResolver",
+            "summary": "Aggregates\u0020the\u0020normal\u0020damage\u0020dealt\u0020by\u0020a\u0020team\u0020in\u0020one\u0020round\u0020of\u0020combat.",
+            "url": "classes/Smr-Combat-NormalDamageTeamResultsResolver.html"
+        },                {
+            "fqsen": "\\Smr\\Combat\\NormalDamageTeamResultsResolver\u003A\u003Aresolve\u0028\u0029",
+            "name": "resolve",
+            "summary": "",
+            "url": "classes/Smr-Combat-NormalDamageTeamResultsResolver.html#method_resolve"
+        },                {
             "fqsen": "\\Smr\\Combat\\Results\\Combatant\\CombatantResult",
             "name": "CombatantResult",
             "summary": "",
@@ -3795,6 +3805,16 @@ Search.appendIndex(
             "name": "getTotalDamagePerTarget",
             "summary": "",
             "url": "classes/Smr-Combat-Results-Combatant-CombatantResult.html#method_getTotalDamagePerTarget"
+        },                {
+            "fqsen": "\\Smr\\Combat\\Results\\Combatant\\CombatantResult\u003A\u003AgetTotalShieldDamage\u0028\u0029",
+            "name": "getTotalShieldDamage",
+            "summary": "Returns\u0020the\u0020total\u0020actual\u0020damage\u0020to\u0020shields\u0020by\u0020this\u0020combatant\u0020in\u0020this\u0020round\u0020of\u0020combat.",
+            "url": "classes/Smr-Combat-Results-Combatant-CombatantResult.html#method_getTotalShieldDamage"
+        },                {
+            "fqsen": "\\Smr\\Combat\\Results\\Combatant\\CombatantResult\u003A\u003AgetHitWeaponResults\u0028\u0029",
+            "name": "getHitWeaponResults",
+            "summary": "",
+            "url": "classes/Smr-Combat-Results-Combatant-CombatantResult.html#method_getHitWeaponResults"
         },                {
             "fqsen": "\\Smr\\Combat\\Results\\Combatant\\CombatantResult\u003A\u003A\u0024combatant",
             "name": "combatant",
@@ -3935,6 +3955,31 @@ Search.appendIndex(
             "name": "hasScoutDrones",
             "summary": "",
             "url": "classes/Smr-Combat-Results-Damage-ForceTakenDamage.html#property_hasScoutDrones"
+        },                {
+            "fqsen": "\\Smr\\Combat\\Results\\Damage\\NormalDamageTeamTotals",
+            "name": "NormalDamageTeamTotals",
+            "summary": "Stores\u0020normal\u0020damage\u0020dealt\u0020by\u0020one\u0020team\u0020of\u0020combatants.",
+            "url": "classes/Smr-Combat-Results-Damage-NormalDamageTeamTotals.html"
+        },                {
+            "fqsen": "\\Smr\\Combat\\Results\\Damage\\NormalDamageTeamTotals\u003A\u003A__construct\u0028\u0029",
+            "name": "__construct",
+            "summary": "",
+            "url": "classes/Smr-Combat-Results-Damage-NormalDamageTeamTotals.html#method___construct"
+        },                {
+            "fqsen": "\\Smr\\Combat\\Results\\Damage\\NormalDamageTeamTotals\u003A\u003AgetNonShieldDamage\u0028\u0029",
+            "name": "getNonShieldDamage",
+            "summary": "Damage\u0020that\u0020can\u0020contribute\u0020to\u0020port\u0020or\u0020planet\u0020downgrades.",
+            "url": "classes/Smr-Combat-Results-Damage-NormalDamageTeamTotals.html#method_getNonShieldDamage"
+        },                {
+            "fqsen": "\\Smr\\Combat\\Results\\Damage\\NormalDamageTeamTotals\u003A\u003A\u0024totalDamage",
+            "name": "totalDamage",
+            "summary": "",
+            "url": "classes/Smr-Combat-Results-Damage-NormalDamageTeamTotals.html#property_totalDamage"
+        },                {
+            "fqsen": "\\Smr\\Combat\\Results\\Damage\\NormalDamageTeamTotals\u003A\u003A\u0024shieldDamage",
+            "name": "shieldDamage",
+            "summary": "",
+            "url": "classes/Smr-Combat-Results-Damage-NormalDamageTeamTotals.html#property_shieldDamage"
         },                {
             "fqsen": "\\Smr\\Combat\\Results\\Damage\\NormalTakenDamage",
             "name": "NormalTakenDamage",
