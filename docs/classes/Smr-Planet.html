@@ -173,6 +173,9 @@
                             </ul>
         </div>
     
+            <span class="phpdocumentor-element__implements">
+            implements
+                            <a href="classes/Smr-Combat-NormalCombatantInterface.html"><abbr title="\Smr\Combat\NormalCombatantInterface">NormalCombatantInterface</abbr></a>                    </span>
     
     </h2>
 
@@ -184,15 +187,28 @@
         <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Planet.php"><a href="files/src-lib-smr-planet.html"><abbr title="src/lib/Smr/Planet.php">Planet.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">16</span>
+    <span class="phpdocumentor-element-found-in__line">24</span>
 
-            <a href="classes/Smr-Planet.html#source-view.16" class="phpdocumentor-element-found-in__source" data-line="16" data-modal="source-view" data-src="files/src/lib/Smr/Planet.php.txt"></a>
+            <a href="classes/Smr-Planet.html#source-view.24" class="phpdocumentor-element-found-in__source" data-line="24" data-modal="source-view" data-src="files/src/lib/Smr/Planet.php.txt"></a>
     </aside>
 
         
 
 
 
+    <h5 class="phpdocumentor-tag-list__heading" id="tags">
+        Tags
+        <a href="classes/Smr-Planet.html#tags" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h5>
+    <dl class="phpdocumentor-tag-list">
+                    <dt class="phpdocumentor-tag-list__entry">
+                <span class="phpdocumentor-tag__name">implements</span>
+            </dt>
+                            <dd class="phpdocumentor-tag-list__definition">
+                                                                                                        
+                                    </dd>
+                        </dl>
 
     
     
@@ -204,6 +220,13 @@
 
 
 
+    <h4 id="toc-interfaces">
+        Interfaces
+        <a href="classes/Smr-Planet.html#toc-interfaces" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+    <dl class="phpdocumentor-table-of-contents">
+                    <dt class="phpdocumentor-table-of-contents__entry -interface"><a href="classes/Smr-Combat-NormalCombatantInterface.html"><abbr title="\Smr\Combat\NormalCombatantInterface">NormalCombatantInterface</abbr></a></dt><dd>Combatant that exchanges normal shield, drone, and armour weapon damage.</dd>    </dl>
 
 
 
@@ -491,6 +514,12 @@
 </dt>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a class="" href="classes/Smr-Planet.html#method_createCombatDrones">createCombatDrones()</a>
+    <span>
+                                &nbsp;: <a href="classes/Smr-Combat-Weapon-CombatDrones.html"><abbr title="\Smr\Combat\Weapon\CombatDrones">CombatDrones</abbr></a>    </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
     <a class="" href="classes/Smr-Planet.html#method_createPlanet">createPlanet()</a>
     <span>
                                 &nbsp;: self    </span>
@@ -621,6 +650,12 @@ no restriction.</dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
     <a class="" href="classes/Smr-Planet.html#method_getCDs">getCDs()</a>
+    <span>
+                                &nbsp;: int    </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a class="" href="classes/Smr-Planet.html#method_getCombatID">getCombatID()</a>
     <span>
                                 &nbsp;: int    </span>
 </dt>
@@ -871,7 +906,7 @@ no restriction.</dd>
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
     <a class="" href="classes/Smr-Planet.html#method_getWeapons">getWeapons()</a>
     <span>
-                                &nbsp;: array&lt;string|int, <a href="classes/Smr-Combat-Weapon-Weapon.html"><abbr title="\Smr\Combat\Weapon\Weapon">Weapon</abbr></a>&gt;    </span>
+                                &nbsp;: array&lt;int, <a href="classes/Smr-Combat-Weapon-Weapon.html"><abbr title="\Smr\Combat\Weapon\Weapon">Weapon</abbr></a>&gt;    </span>
 </dt>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
@@ -1016,6 +1051,12 @@ no restriction.</dd>
 </dt>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a class="" href="classes/Smr-Planet.html#method_isDestroyed">isDestroyed()</a>
+    <span>
+                                &nbsp;: bool    </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
     <a class="" href="classes/Smr-Planet.html#method_isInhabitable">isInhabitable()</a>
     <span>
                                 &nbsp;: bool    </span>
@@ -1028,9 +1069,9 @@ no restriction.</dd>
 </dt>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
-    <a class="" href="classes/Smr-Planet.html#method_killPlanetByPlayer">killPlanetByPlayer()</a>
+    <a class="" href="classes/Smr-Planet.html#method_killBy">killBy()</a>
     <span>
-                                &nbsp;: array{}    </span>
+                                &nbsp;: <a href="classes/Smr-Combat-Results-Kill-PlanetDestroyedByPlayer.html"><abbr title="\Smr\Combat\Results\Kill\PlanetDestroyedByPlayer">PlanetDestroyedByPlayer</abbr></a>    </span>
 </dt>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
@@ -1044,6 +1085,13 @@ no restriction.</dd>
     <span>
                                 &nbsp;: void    </span>
 </dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a class="" href="classes/Smr-Planet.html#method_reduceDamageDoneDCS">reduceDamageDoneDCS()</a>
+    <span>
+                                &nbsp;: float    </span>
+</dt>
+<dd>Factor to multiply drone damage by if target player has a DCS.</dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
     <a class="" href="classes/Smr-Planet.html#method_removeMountedWeapon">removeMountedWeapon()</a>
@@ -1162,7 +1210,7 @@ no restriction.</dd>
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
     <a class="" href="classes/Smr-Planet.html#method_shootPlayers">shootPlayers()</a>
     <span>
-                                &nbsp;: <abbr title="\Smr\PlanetCombatResults">PlanetCombatResults</abbr>    </span>
+                                &nbsp;: <a href="classes/Smr-Combat-Results-Combatant-CombatantResult.html"><abbr title="\Smr\Combat\Results\Combatant\CombatantResult">CombatantResult</abbr></a>&lt;string|int, <a href="classes/Smr-Combat-NormalCombatantInterface.html"><abbr title="\Smr\Combat\NormalCombatantInterface">NormalCombatantInterface</abbr></a>&gt;    </span>
 </dt>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
@@ -1180,7 +1228,7 @@ no restriction.</dd>
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
     <a class="" href="classes/Smr-Planet.html#method_takeDamage">takeDamage()</a>
     <span>
-                                &nbsp;: <abbr title="\Smr\TakenDamageData">TakenDamageData</abbr>    </span>
+                                &nbsp;: <abbr title="\Smr\Combat\TDamage">TDamage</abbr>    </span>
 </dt>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
@@ -1252,9 +1300,9 @@ no restriction.</dd>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Planet.php"><a href="files/src-lib-smr-planet.html"><abbr title="src/lib/Smr/Planet.php">Planet.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">21</span>
+    <span class="phpdocumentor-element-found-in__line">29</span>
 
-            <a href="classes/Smr-Planet.html#source-view.21" class="phpdocumentor-element-found-in__source" data-line="21" data-modal="source-view" data-src="files/src/lib/Smr/Planet.php.txt"></a>
+            <a href="classes/Smr-Planet.html#source-view.29" class="phpdocumentor-element-found-in__source" data-line="29" data-modal="source-view" data-src="files/src/lib/Smr/Planet.php.txt"></a>
     </aside>
 
     
@@ -1283,9 +1331,9 @@ no restriction.</dd>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Planet.php"><a href="files/src-lib-smr-planet.html"><abbr title="src/lib/Smr/Planet.php">Planet.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">25</span>
+    <span class="phpdocumentor-element-found-in__line">33</span>
 
-            <a href="classes/Smr-Planet.html#source-view.25" class="phpdocumentor-element-found-in__source" data-line="25" data-modal="source-view" data-src="files/src/lib/Smr/Planet.php.txt"></a>
+            <a href="classes/Smr-Planet.html#source-view.33" class="phpdocumentor-element-found-in__source" data-line="33" data-modal="source-view" data-src="files/src/lib/Smr/Planet.php.txt"></a>
     </aside>
 
     
@@ -1314,9 +1362,9 @@ no restriction.</dd>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Planet.php"><a href="files/src-lib-smr-planet.html"><abbr title="src/lib/Smr/Planet.php">Planet.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">27</span>
+    <span class="phpdocumentor-element-found-in__line">35</span>
 
-            <a href="classes/Smr-Planet.html#source-view.27" class="phpdocumentor-element-found-in__source" data-line="27" data-modal="source-view" data-src="files/src/lib/Smr/Planet.php.txt"></a>
+            <a href="classes/Smr-Planet.html#source-view.35" class="phpdocumentor-element-found-in__source" data-line="35" data-modal="source-view" data-src="files/src/lib/Smr/Planet.php.txt"></a>
     </aside>
 
     
@@ -1345,9 +1393,9 @@ no restriction.</dd>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Planet.php"><a href="files/src-lib-smr-planet.html"><abbr title="src/lib/Smr/Planet.php">Planet.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">22</span>
+    <span class="phpdocumentor-element-found-in__line">30</span>
 
-            <a href="classes/Smr-Planet.html#source-view.22" class="phpdocumentor-element-found-in__source" data-line="22" data-modal="source-view" data-src="files/src/lib/Smr/Planet.php.txt"></a>
+            <a href="classes/Smr-Planet.html#source-view.30" class="phpdocumentor-element-found-in__source" data-line="30" data-modal="source-view" data-src="files/src/lib/Smr/Planet.php.txt"></a>
     </aside>
 
     
@@ -1376,9 +1424,9 @@ no restriction.</dd>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Planet.php"><a href="files/src-lib-smr-planet.html"><abbr title="src/lib/Smr/Planet.php">Planet.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">24</span>
+    <span class="phpdocumentor-element-found-in__line">32</span>
 
-            <a href="classes/Smr-Planet.html#source-view.24" class="phpdocumentor-element-found-in__source" data-line="24" data-modal="source-view" data-src="files/src/lib/Smr/Planet.php.txt"></a>
+            <a href="classes/Smr-Planet.html#source-view.32" class="phpdocumentor-element-found-in__source" data-line="32" data-modal="source-view" data-src="files/src/lib/Smr/Planet.php.txt"></a>
     </aside>
 
     
@@ -1407,9 +1455,9 @@ no restriction.</dd>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Planet.php"><a href="files/src-lib-smr-planet.html"><abbr title="src/lib/Smr/Planet.php">Planet.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">23</span>
+    <span class="phpdocumentor-element-found-in__line">31</span>
 
-            <a href="classes/Smr-Planet.html#source-view.23" class="phpdocumentor-element-found-in__source" data-line="23" data-modal="source-view" data-src="files/src/lib/Smr/Planet.php.txt"></a>
+            <a href="classes/Smr-Planet.html#source-view.31" class="phpdocumentor-element-found-in__source" data-line="31" data-modal="source-view" data-src="files/src/lib/Smr/Planet.php.txt"></a>
     </aside>
 
     
@@ -1454,9 +1502,9 @@ no restriction.</dd>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Planet.php"><a href="files/src-lib-smr-planet.html"><abbr title="src/lib/Smr/Planet.php">Planet.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">29</span>
+    <span class="phpdocumentor-element-found-in__line">37</span>
 
-            <a href="classes/Smr-Planet.html#source-view.29" class="phpdocumentor-element-found-in__source" data-line="29" data-modal="source-view" data-src="files/src/lib/Smr/Planet.php.txt"></a>
+            <a href="classes/Smr-Planet.html#source-view.37" class="phpdocumentor-element-found-in__source" data-line="37" data-modal="source-view" data-src="files/src/lib/Smr/Planet.php.txt"></a>
     </aside>
 
     
@@ -1492,9 +1540,9 @@ no restriction.</dd>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Planet.php"><a href="files/src-lib-smr-planet.html"><abbr title="src/lib/Smr/Planet.php">Planet.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">36</span>
+    <span class="phpdocumentor-element-found-in__line">44</span>
 
-            <a href="classes/Smr-Planet.html#source-view.36" class="phpdocumentor-element-found-in__source" data-line="36" data-modal="source-view" data-src="files/src/lib/Smr/Planet.php.txt"></a>
+            <a href="classes/Smr-Planet.html#source-view.44" class="phpdocumentor-element-found-in__source" data-line="44" data-modal="source-view" data-src="files/src/lib/Smr/Planet.php.txt"></a>
     </aside>
 
     
@@ -1530,9 +1578,9 @@ no restriction.</dd>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Planet.php"><a href="files/src-lib-smr-planet.html"><abbr title="src/lib/Smr/Planet.php">Planet.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">39</span>
+    <span class="phpdocumentor-element-found-in__line">47</span>
 
-            <a href="classes/Smr-Planet.html#source-view.39" class="phpdocumentor-element-found-in__source" data-line="39" data-modal="source-view" data-src="files/src/lib/Smr/Planet.php.txt"></a>
+            <a href="classes/Smr-Planet.html#source-view.47" class="phpdocumentor-element-found-in__source" data-line="47" data-modal="source-view" data-src="files/src/lib/Smr/Planet.php.txt"></a>
     </aside>
 
     
@@ -1568,9 +1616,9 @@ no restriction.</dd>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Planet.php"><a href="files/src-lib-smr-planet.html"><abbr title="src/lib/Smr/Planet.php">Planet.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">44</span>
+    <span class="phpdocumentor-element-found-in__line">52</span>
 
-            <a href="classes/Smr-Planet.html#source-view.44" class="phpdocumentor-element-found-in__source" data-line="44" data-modal="source-view" data-src="files/src/lib/Smr/Planet.php.txt"></a>
+            <a href="classes/Smr-Planet.html#source-view.52" class="phpdocumentor-element-found-in__source" data-line="52" data-modal="source-view" data-src="files/src/lib/Smr/Planet.php.txt"></a>
     </aside>
 
     
@@ -1606,9 +1654,9 @@ no restriction.</dd>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Planet.php"><a href="files/src-lib-smr-planet.html"><abbr title="src/lib/Smr/Planet.php">Planet.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">19</span>
+    <span class="phpdocumentor-element-found-in__line">27</span>
 
-            <a href="classes/Smr-Planet.html#source-view.19" class="phpdocumentor-element-found-in__source" data-line="19" data-modal="source-view" data-src="files/src/lib/Smr/Planet.php.txt"></a>
+            <a href="classes/Smr-Planet.html#source-view.27" class="phpdocumentor-element-found-in__source" data-line="27" data-modal="source-view" data-src="files/src/lib/Smr/Planet.php.txt"></a>
     </aside>
 
     
@@ -1644,9 +1692,9 @@ no restriction.</dd>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Planet.php"><a href="files/src-lib-smr-planet.html"><abbr title="src/lib/Smr/Planet.php">Planet.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">38</span>
+    <span class="phpdocumentor-element-found-in__line">46</span>
 
-            <a href="classes/Smr-Planet.html#source-view.38" class="phpdocumentor-element-found-in__source" data-line="38" data-modal="source-view" data-src="files/src/lib/Smr/Planet.php.txt"></a>
+            <a href="classes/Smr-Planet.html#source-view.46" class="phpdocumentor-element-found-in__source" data-line="46" data-modal="source-view" data-src="files/src/lib/Smr/Planet.php.txt"></a>
     </aside>
 
     
@@ -1682,9 +1730,9 @@ no restriction.</dd>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Planet.php"><a href="files/src-lib-smr-planet.html"><abbr title="src/lib/Smr/Planet.php">Planet.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">47</span>
+    <span class="phpdocumentor-element-found-in__line">55</span>
 
-            <a href="classes/Smr-Planet.html#source-view.47" class="phpdocumentor-element-found-in__source" data-line="47" data-modal="source-view" data-src="files/src/lib/Smr/Planet.php.txt"></a>
+            <a href="classes/Smr-Planet.html#source-view.55" class="phpdocumentor-element-found-in__source" data-line="55" data-modal="source-view" data-src="files/src/lib/Smr/Planet.php.txt"></a>
     </aside>
 
     
@@ -1720,9 +1768,9 @@ no restriction.</dd>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Planet.php"><a href="files/src-lib-smr-planet.html"><abbr title="src/lib/Smr/Planet.php">Planet.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">37</span>
+    <span class="phpdocumentor-element-found-in__line">45</span>
 
-            <a href="classes/Smr-Planet.html#source-view.37" class="phpdocumentor-element-found-in__source" data-line="37" data-modal="source-view" data-src="files/src/lib/Smr/Planet.php.txt"></a>
+            <a href="classes/Smr-Planet.html#source-view.45" class="phpdocumentor-element-found-in__source" data-line="45" data-modal="source-view" data-src="files/src/lib/Smr/Planet.php.txt"></a>
     </aside>
 
     
@@ -1758,9 +1806,9 @@ no restriction.</dd>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Planet.php"><a href="files/src-lib-smr-planet.html"><abbr title="src/lib/Smr/Planet.php">Planet.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">31</span>
+    <span class="phpdocumentor-element-found-in__line">39</span>
 
-            <a href="classes/Smr-Planet.html#source-view.31" class="phpdocumentor-element-found-in__source" data-line="31" data-modal="source-view" data-src="files/src/lib/Smr/Planet.php.txt"></a>
+            <a href="classes/Smr-Planet.html#source-view.39" class="phpdocumentor-element-found-in__source" data-line="39" data-modal="source-view" data-src="files/src/lib/Smr/Planet.php.txt"></a>
     </aside>
 
     
@@ -1796,9 +1844,9 @@ no restriction.</dd>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Planet.php"><a href="files/src-lib-smr-planet.html"><abbr title="src/lib/Smr/Planet.php">Planet.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">143</span>
+    <span class="phpdocumentor-element-found-in__line">151</span>
 
-            <a href="classes/Smr-Planet.html#source-view.143" class="phpdocumentor-element-found-in__source" data-line="143" data-modal="source-view" data-src="files/src/lib/Smr/Planet.php.txt"></a>
+            <a href="classes/Smr-Planet.html#source-view.151" class="phpdocumentor-element-found-in__source" data-line="151" data-modal="source-view" data-src="files/src/lib/Smr/Planet.php.txt"></a>
     </aside>
 
     
@@ -1834,9 +1882,9 @@ no restriction.</dd>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Planet.php"><a href="files/src-lib-smr-planet.html"><abbr title="src/lib/Smr/Planet.php">Planet.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">62</span>
+    <span class="phpdocumentor-element-found-in__line">70</span>
 
-            <a href="classes/Smr-Planet.html#source-view.62" class="phpdocumentor-element-found-in__source" data-line="62" data-modal="source-view" data-src="files/src/lib/Smr/Planet.php.txt"></a>
+            <a href="classes/Smr-Planet.html#source-view.70" class="phpdocumentor-element-found-in__source" data-line="70" data-modal="source-view" data-src="files/src/lib/Smr/Planet.php.txt"></a>
     </aside>
 
     
@@ -1872,9 +1920,9 @@ no restriction.</dd>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Planet.php"><a href="files/src-lib-smr-planet.html"><abbr title="src/lib/Smr/Planet.php">Planet.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">53</span>
+    <span class="phpdocumentor-element-found-in__line">61</span>
 
-            <a href="classes/Smr-Planet.html#source-view.53" class="phpdocumentor-element-found-in__source" data-line="53" data-modal="source-view" data-src="files/src/lib/Smr/Planet.php.txt"></a>
+            <a href="classes/Smr-Planet.html#source-view.61" class="phpdocumentor-element-found-in__source" data-line="61" data-modal="source-view" data-src="files/src/lib/Smr/Planet.php.txt"></a>
     </aside>
 
     
@@ -1910,9 +1958,9 @@ no restriction.</dd>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Planet.php"><a href="files/src-lib-smr-planet.html"><abbr title="src/lib/Smr/Planet.php">Planet.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">59</span>
+    <span class="phpdocumentor-element-found-in__line">67</span>
 
-            <a href="classes/Smr-Planet.html#source-view.59" class="phpdocumentor-element-found-in__source" data-line="59" data-modal="source-view" data-src="files/src/lib/Smr/Planet.php.txt"></a>
+            <a href="classes/Smr-Planet.html#source-view.67" class="phpdocumentor-element-found-in__source" data-line="67" data-modal="source-view" data-src="files/src/lib/Smr/Planet.php.txt"></a>
     </aside>
 
     
@@ -1948,9 +1996,9 @@ no restriction.</dd>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Planet.php"><a href="files/src-lib-smr-planet.html"><abbr title="src/lib/Smr/Planet.php">Planet.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">54</span>
+    <span class="phpdocumentor-element-found-in__line">62</span>
 
-            <a href="classes/Smr-Planet.html#source-view.54" class="phpdocumentor-element-found-in__source" data-line="54" data-modal="source-view" data-src="files/src/lib/Smr/Planet.php.txt"></a>
+            <a href="classes/Smr-Planet.html#source-view.62" class="phpdocumentor-element-found-in__source" data-line="62" data-modal="source-view" data-src="files/src/lib/Smr/Planet.php.txt"></a>
     </aside>
 
     
@@ -1986,9 +2034,9 @@ no restriction.</dd>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Planet.php"><a href="files/src-lib-smr-planet.html"><abbr title="src/lib/Smr/Planet.php">Planet.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">55</span>
+    <span class="phpdocumentor-element-found-in__line">63</span>
 
-            <a href="classes/Smr-Planet.html#source-view.55" class="phpdocumentor-element-found-in__source" data-line="55" data-modal="source-view" data-src="files/src/lib/Smr/Planet.php.txt"></a>
+            <a href="classes/Smr-Planet.html#source-view.63" class="phpdocumentor-element-found-in__source" data-line="63" data-modal="source-view" data-src="files/src/lib/Smr/Planet.php.txt"></a>
     </aside>
 
     
@@ -2024,9 +2072,9 @@ no restriction.</dd>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Planet.php"><a href="files/src-lib-smr-planet.html"><abbr title="src/lib/Smr/Planet.php">Planet.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">57</span>
+    <span class="phpdocumentor-element-found-in__line">65</span>
 
-            <a href="classes/Smr-Planet.html#source-view.57" class="phpdocumentor-element-found-in__source" data-line="57" data-modal="source-view" data-src="files/src/lib/Smr/Planet.php.txt"></a>
+            <a href="classes/Smr-Planet.html#source-view.65" class="phpdocumentor-element-found-in__source" data-line="65" data-modal="source-view" data-src="files/src/lib/Smr/Planet.php.txt"></a>
     </aside>
 
     
@@ -2062,9 +2110,9 @@ no restriction.</dd>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Planet.php"><a href="files/src-lib-smr-planet.html"><abbr title="src/lib/Smr/Planet.php">Planet.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">61</span>
+    <span class="phpdocumentor-element-found-in__line">69</span>
 
-            <a href="classes/Smr-Planet.html#source-view.61" class="phpdocumentor-element-found-in__source" data-line="61" data-modal="source-view" data-src="files/src/lib/Smr/Planet.php.txt"></a>
+            <a href="classes/Smr-Planet.html#source-view.69" class="phpdocumentor-element-found-in__source" data-line="69" data-modal="source-view" data-src="files/src/lib/Smr/Planet.php.txt"></a>
     </aside>
 
     
@@ -2100,9 +2148,9 @@ no restriction.</dd>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Planet.php"><a href="files/src-lib-smr-planet.html"><abbr title="src/lib/Smr/Planet.php">Planet.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">45</span>
+    <span class="phpdocumentor-element-found-in__line">53</span>
 
-            <a href="classes/Smr-Planet.html#source-view.45" class="phpdocumentor-element-found-in__source" data-line="45" data-modal="source-view" data-src="files/src/lib/Smr/Planet.php.txt"></a>
+            <a href="classes/Smr-Planet.html#source-view.53" class="phpdocumentor-element-found-in__source" data-line="53" data-modal="source-view" data-src="files/src/lib/Smr/Planet.php.txt"></a>
     </aside>
 
     
@@ -2138,9 +2186,9 @@ no restriction.</dd>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Planet.php"><a href="files/src-lib-smr-planet.html"><abbr title="src/lib/Smr/Planet.php">Planet.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">40</span>
+    <span class="phpdocumentor-element-found-in__line">48</span>
 
-            <a href="classes/Smr-Planet.html#source-view.40" class="phpdocumentor-element-found-in__source" data-line="40" data-modal="source-view" data-src="files/src/lib/Smr/Planet.php.txt"></a>
+            <a href="classes/Smr-Planet.html#source-view.48" class="phpdocumentor-element-found-in__source" data-line="48" data-modal="source-view" data-src="files/src/lib/Smr/Planet.php.txt"></a>
     </aside>
 
     
@@ -2176,9 +2224,9 @@ no restriction.</dd>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Planet.php"><a href="files/src-lib-smr-planet.html"><abbr title="src/lib/Smr/Planet.php">Planet.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">49</span>
+    <span class="phpdocumentor-element-found-in__line">57</span>
 
-            <a href="classes/Smr-Planet.html#source-view.49" class="phpdocumentor-element-found-in__source" data-line="49" data-modal="source-view" data-src="files/src/lib/Smr/Planet.php.txt"></a>
+            <a href="classes/Smr-Planet.html#source-view.57" class="phpdocumentor-element-found-in__source" data-line="57" data-modal="source-view" data-src="files/src/lib/Smr/Planet.php.txt"></a>
     </aside>
 
     
@@ -2214,9 +2262,9 @@ no restriction.</dd>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Planet.php"><a href="files/src-lib-smr-planet.html"><abbr title="src/lib/Smr/Planet.php">Planet.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">33</span>
+    <span class="phpdocumentor-element-found-in__line">41</span>
 
-            <a href="classes/Smr-Planet.html#source-view.33" class="phpdocumentor-element-found-in__source" data-line="33" data-modal="source-view" data-src="files/src/lib/Smr/Planet.php.txt"></a>
+            <a href="classes/Smr-Planet.html#source-view.41" class="phpdocumentor-element-found-in__source" data-line="41" data-modal="source-view" data-src="files/src/lib/Smr/Planet.php.txt"></a>
     </aside>
 
     
@@ -2252,9 +2300,9 @@ no restriction.</dd>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Planet.php"><a href="files/src-lib-smr-planet.html"><abbr title="src/lib/Smr/Planet.php">Planet.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">34</span>
+    <span class="phpdocumentor-element-found-in__line">42</span>
 
-            <a href="classes/Smr-Planet.html#source-view.34" class="phpdocumentor-element-found-in__source" data-line="34" data-modal="source-view" data-src="files/src/lib/Smr/Planet.php.txt"></a>
+            <a href="classes/Smr-Planet.html#source-view.42" class="phpdocumentor-element-found-in__source" data-line="42" data-modal="source-view" data-src="files/src/lib/Smr/Planet.php.txt"></a>
     </aside>
 
     
@@ -2290,9 +2338,9 @@ no restriction.</dd>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Planet.php"><a href="files/src-lib-smr-planet.html"><abbr title="src/lib/Smr/Planet.php">Planet.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">32</span>
+    <span class="phpdocumentor-element-found-in__line">40</span>
 
-            <a href="classes/Smr-Planet.html#source-view.32" class="phpdocumentor-element-found-in__source" data-line="32" data-modal="source-view" data-src="files/src/lib/Smr/Planet.php.txt"></a>
+            <a href="classes/Smr-Planet.html#source-view.40" class="phpdocumentor-element-found-in__source" data-line="40" data-modal="source-view" data-src="files/src/lib/Smr/Planet.php.txt"></a>
     </aside>
 
     
@@ -2328,9 +2376,9 @@ no restriction.</dd>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Planet.php"><a href="files/src-lib-smr-planet.html"><abbr title="src/lib/Smr/Planet.php">Planet.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">144</span>
+    <span class="phpdocumentor-element-found-in__line">152</span>
 
-            <a href="classes/Smr-Planet.html#source-view.144" class="phpdocumentor-element-found-in__source" data-line="144" data-modal="source-view" data-src="files/src/lib/Smr/Planet.php.txt"></a>
+            <a href="classes/Smr-Planet.html#source-view.152" class="phpdocumentor-element-found-in__source" data-line="152" data-modal="source-view" data-src="files/src/lib/Smr/Planet.php.txt"></a>
     </aside>
 
     
@@ -2366,9 +2414,9 @@ no restriction.</dd>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Planet.php"><a href="files/src-lib-smr-planet.html"><abbr title="src/lib/Smr/Planet.php">Planet.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">35</span>
+    <span class="phpdocumentor-element-found-in__line">43</span>
 
-            <a href="classes/Smr-Planet.html#source-view.35" class="phpdocumentor-element-found-in__source" data-line="35" data-modal="source-view" data-src="files/src/lib/Smr/Planet.php.txt"></a>
+            <a href="classes/Smr-Planet.html#source-view.43" class="phpdocumentor-element-found-in__source" data-line="43" data-modal="source-view" data-src="files/src/lib/Smr/Planet.php.txt"></a>
     </aside>
 
     
@@ -2404,9 +2452,9 @@ no restriction.</dd>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Planet.php"><a href="files/src-lib-smr-planet.html"><abbr title="src/lib/Smr/Planet.php">Planet.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">42</span>
+    <span class="phpdocumentor-element-found-in__line">50</span>
 
-            <a href="classes/Smr-Planet.html#source-view.42" class="phpdocumentor-element-found-in__source" data-line="42" data-modal="source-view" data-src="files/src/lib/Smr/Planet.php.txt"></a>
+            <a href="classes/Smr-Planet.html#source-view.50" class="phpdocumentor-element-found-in__source" data-line="50" data-modal="source-view" data-src="files/src/lib/Smr/Planet.php.txt"></a>
     </aside>
 
     
@@ -2442,9 +2490,9 @@ no restriction.</dd>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Planet.php"><a href="files/src-lib-smr-planet.html"><abbr title="src/lib/Smr/Planet.php">Planet.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">50</span>
+    <span class="phpdocumentor-element-found-in__line">58</span>
 
-            <a href="classes/Smr-Planet.html#source-view.50" class="phpdocumentor-element-found-in__source" data-line="50" data-modal="source-view" data-src="files/src/lib/Smr/Planet.php.txt"></a>
+            <a href="classes/Smr-Planet.html#source-view.58" class="phpdocumentor-element-found-in__source" data-line="58" data-modal="source-view" data-src="files/src/lib/Smr/Planet.php.txt"></a>
     </aside>
 
     
@@ -2480,9 +2528,9 @@ no restriction.</dd>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Planet.php"><a href="files/src-lib-smr-planet.html"><abbr title="src/lib/Smr/Planet.php">Planet.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">51</span>
+    <span class="phpdocumentor-element-found-in__line">59</span>
 
-            <a href="classes/Smr-Planet.html#source-view.51" class="phpdocumentor-element-found-in__source" data-line="51" data-modal="source-view" data-src="files/src/lib/Smr/Planet.php.txt"></a>
+            <a href="classes/Smr-Planet.html#source-view.59" class="phpdocumentor-element-found-in__source" data-line="59" data-modal="source-view" data-src="files/src/lib/Smr/Planet.php.txt"></a>
     </aside>
 
     
@@ -2523,9 +2571,9 @@ no restriction.</dd>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Planet.php"><a href="files/src-lib-smr-planet.html"><abbr title="src/lib/Smr/Planet.php">Planet.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">64</span>
+    <span class="phpdocumentor-element-found-in__line">72</span>
 
-            <a href="classes/Smr-Planet.html#source-view.64" class="phpdocumentor-element-found-in__source" data-line="64" data-modal="source-view" data-src="files/src/lib/Smr/Planet.php.txt"></a>
+            <a href="classes/Smr-Planet.html#source-view.72" class="phpdocumentor-element-found-in__source" data-line="72" data-modal="source-view" data-src="files/src/lib/Smr/Planet.php.txt"></a>
     </aside>
 
     
@@ -2558,9 +2606,9 @@ no restriction.</dd>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Planet.php"><a href="files/src-lib-smr-planet.html"><abbr title="src/lib/Smr/Planet.php">Planet.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">529</span>
+    <span class="phpdocumentor-element-found-in__line">537</span>
 
-            <a href="classes/Smr-Planet.html#source-view.529" class="phpdocumentor-element-found-in__source" data-line="529" data-modal="source-view" data-src="files/src/lib/Smr/Planet.php.txt"></a>
+            <a href="classes/Smr-Planet.html#source-view.537" class="phpdocumentor-element-found-in__source" data-line="537" data-modal="source-view" data-src="files/src/lib/Smr/Planet.php.txt"></a>
     </aside>
 
     
@@ -2610,9 +2658,9 @@ no restriction.</dd>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Planet.php"><a href="files/src-lib-smr-planet.html"><abbr title="src/lib/Smr/Planet.php">Planet.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">1136</span>
+    <span class="phpdocumentor-element-found-in__line">1148</span>
 
-            <a href="classes/Smr-Planet.html#source-view.1136" class="phpdocumentor-element-found-in__source" data-line="1136" data-modal="source-view" data-src="files/src/lib/Smr/Planet.php.txt"></a>
+            <a href="classes/Smr-Planet.html#source-view.1148" class="phpdocumentor-element-found-in__source" data-line="1148" data-modal="source-view" data-src="files/src/lib/Smr/Planet.php.txt"></a>
     </aside>
 
     
@@ -2662,9 +2710,9 @@ no restriction.</dd>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Planet.php"><a href="files/src-lib-smr-planet.html"><abbr title="src/lib/Smr/Planet.php">Planet.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">218</span>
+    <span class="phpdocumentor-element-found-in__line">226</span>
 
-            <a href="classes/Smr-Planet.html#source-view.218" class="phpdocumentor-element-found-in__source" data-line="218" data-modal="source-view" data-src="files/src/lib/Smr/Planet.php.txt"></a>
+            <a href="classes/Smr-Planet.html#source-view.226" class="phpdocumentor-element-found-in__source" data-line="226" data-modal="source-view" data-src="files/src/lib/Smr/Planet.php.txt"></a>
     </aside>
 
     
@@ -2697,9 +2745,9 @@ no restriction.</dd>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Planet.php"><a href="files/src-lib-smr-planet.html"><abbr title="src/lib/Smr/Planet.php">Planet.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">193</span>
+    <span class="phpdocumentor-element-found-in__line">201</span>
 
-            <a href="classes/Smr-Planet.html#source-view.193" class="phpdocumentor-element-found-in__source" data-line="193" data-modal="source-view" data-src="files/src/lib/Smr/Planet.php.txt"></a>
+            <a href="classes/Smr-Planet.html#source-view.201" class="phpdocumentor-element-found-in__source" data-line="201" data-modal="source-view" data-src="files/src/lib/Smr/Planet.php.txt"></a>
     </aside>
 
     
@@ -2742,9 +2790,9 @@ no restriction.</dd>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Planet.php"><a href="files/src-lib-smr-planet.html"><abbr title="src/lib/Smr/Planet.php">Planet.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">1273</span>
+    <span class="phpdocumentor-element-found-in__line">1268</span>
 
-            <a href="classes/Smr-Planet.html#source-view.1273" class="phpdocumentor-element-found-in__source" data-line="1273" data-modal="source-view" data-src="files/src/lib/Smr/Planet.php.txt"></a>
+            <a href="classes/Smr-Planet.html#source-view.1268" class="phpdocumentor-element-found-in__source" data-line="1268" data-modal="source-view" data-src="files/src/lib/Smr/Planet.php.txt"></a>
     </aside>
 
         <p class="phpdocumentor-summary">Returns an array of structure losses due to damage taken.</p>
@@ -2792,9 +2840,9 @@ no restriction.</dd>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Planet.php"><a href="files/src-lib-smr-planet.html"><abbr title="src/lib/Smr/Planet.php">Planet.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">371</span>
+    <span class="phpdocumentor-element-found-in__line">379</span>
 
-            <a href="classes/Smr-Planet.html#source-view.371" class="phpdocumentor-element-found-in__source" data-line="371" data-modal="source-view" data-src="files/src/lib/Smr/Planet.php.txt"></a>
+            <a href="classes/Smr-Planet.html#source-view.379" class="phpdocumentor-element-found-in__source" data-line="379" data-modal="source-view" data-src="files/src/lib/Smr/Planet.php.txt"></a>
     </aside>
 
     
@@ -2827,9 +2875,9 @@ no restriction.</dd>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Planet.php"><a href="files/src-lib-smr-planet.html"><abbr title="src/lib/Smr/Planet.php">Planet.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">68</span>
+    <span class="phpdocumentor-element-found-in__line">76</span>
 
-            <a href="classes/Smr-Planet.html#source-view.68" class="phpdocumentor-element-found-in__source" data-line="68" data-modal="source-view" data-src="files/src/lib/Smr/Planet.php.txt"></a>
+            <a href="classes/Smr-Planet.html#source-view.76" class="phpdocumentor-element-found-in__source" data-line="76" data-modal="source-view" data-src="files/src/lib/Smr/Planet.php.txt"></a>
     </aside>
 
     
@@ -2862,9 +2910,9 @@ no restriction.</dd>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Planet.php"><a href="files/src-lib-smr-planet.html"><abbr title="src/lib/Smr/Planet.php">Planet.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">1187</span>
+    <span class="phpdocumentor-element-found-in__line">1199</span>
 
-            <a href="classes/Smr-Planet.html#source-view.1187" class="phpdocumentor-element-found-in__source" data-line="1187" data-modal="source-view" data-src="files/src/lib/Smr/Planet.php.txt"></a>
+            <a href="classes/Smr-Planet.html#source-view.1199" class="phpdocumentor-element-found-in__source" data-line="1199" data-modal="source-view" data-src="files/src/lib/Smr/Planet.php.txt"></a>
     </aside>
 
     
@@ -2891,6 +2939,45 @@ no restriction.</dd>
         class="phpdocumentor-element
             -method
             -public
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="method_createCombatDrones">
+        createCombatDrones()
+        <a href="classes/Smr-Planet.html#method_createCombatDrones" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Planet.php"><a href="files/src-lib-smr-planet.html"><abbr title="src/lib/Smr/Planet.php">Planet.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">1259</span>
+
+            <a href="classes/Smr-Planet.html#source-view.1259" class="phpdocumentor-element-found-in__source" data-line="1259" data-modal="source-view" data-src="files/src/lib/Smr/Planet.php.txt"></a>
+    </aside>
+
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+                    <span class="phpdocumentor-signature__name">createCombatDrones</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type"><a href="classes/Smr-Combat-Weapon-CombatDrones.html"><abbr title="\Smr\Combat\Weapon\CombatDrones">CombatDrones</abbr></a></span></code>
+
+    <div class="phpdocumentor-label-line">
+        </div>
+    
+    
+    
+    
+
+        
+    
+            <section>
+        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
+        <span class="phpdocumentor-signature__response_type"><a href="classes/Smr-Combat-Weapon-CombatDrones.html"><abbr title="\Smr\Combat\Weapon\CombatDrones">CombatDrones</abbr></a></span>
+            </section>
+
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
                                     -static                    "
 >
     <h4 class="phpdocumentor-element__name" id="method_createPlanet">
@@ -2901,9 +2988,9 @@ no restriction.</dd>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Planet.php"><a href="files/src-lib-smr-planet.html"><abbr title="src/lib/Smr/Planet.php">Planet.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">104</span>
+    <span class="phpdocumentor-element-found-in__line">112</span>
 
-            <a href="classes/Smr-Planet.html#source-view.104" class="phpdocumentor-element-found-in__source" data-line="104" data-modal="source-view" data-src="files/src/lib/Smr/Planet.php.txt"></a>
+            <a href="classes/Smr-Planet.html#source-view.112" class="phpdocumentor-element-found-in__source" data-line="112" data-modal="source-view" data-src="files/src/lib/Smr/Planet.php.txt"></a>
     </aside>
 
     
@@ -2971,9 +3058,9 @@ no restriction.</dd>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Planet.php"><a href="files/src-lib-smr-planet.html"><abbr title="src/lib/Smr/Planet.php">Planet.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">1360</span>
+    <span class="phpdocumentor-element-found-in__line">1351</span>
 
-            <a href="classes/Smr-Planet.html#source-view.1360" class="phpdocumentor-element-found-in__source" data-line="1360" data-modal="source-view" data-src="files/src/lib/Smr/Planet.php.txt"></a>
+            <a href="classes/Smr-Planet.html#source-view.1351" class="phpdocumentor-element-found-in__source" data-line="1351" data-modal="source-view" data-src="files/src/lib/Smr/Planet.php.txt"></a>
     </aside>
 
     
@@ -3006,9 +3093,9 @@ no restriction.</dd>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Planet.php"><a href="files/src-lib-smr-planet.html"><abbr title="src/lib/Smr/Planet.php">Planet.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">445</span>
+    <span class="phpdocumentor-element-found-in__line">453</span>
 
-            <a href="classes/Smr-Planet.html#source-view.445" class="phpdocumentor-element-found-in__source" data-line="445" data-modal="source-view" data-src="files/src/lib/Smr/Planet.php.txt"></a>
+            <a href="classes/Smr-Planet.html#source-view.453" class="phpdocumentor-element-found-in__source" data-line="453" data-modal="source-view" data-src="files/src/lib/Smr/Planet.php.txt"></a>
     </aside>
 
     
@@ -3051,9 +3138,9 @@ no restriction.</dd>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Planet.php"><a href="files/src-lib-smr-planet.html"><abbr title="src/lib/Smr/Planet.php">Planet.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">364</span>
+    <span class="phpdocumentor-element-found-in__line">372</span>
 
-            <a href="classes/Smr-Planet.html#source-view.364" class="phpdocumentor-element-found-in__source" data-line="364" data-modal="source-view" data-src="files/src/lib/Smr/Planet.php.txt"></a>
+            <a href="classes/Smr-Planet.html#source-view.372" class="phpdocumentor-element-found-in__source" data-line="372" data-modal="source-view" data-src="files/src/lib/Smr/Planet.php.txt"></a>
     </aside>
 
     
@@ -3096,9 +3183,9 @@ no restriction.</dd>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Planet.php"><a href="files/src-lib-smr-planet.html"><abbr title="src/lib/Smr/Planet.php">Planet.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">480</span>
+    <span class="phpdocumentor-element-found-in__line">488</span>
 
-            <a href="classes/Smr-Planet.html#source-view.480" class="phpdocumentor-element-found-in__source" data-line="480" data-modal="source-view" data-src="files/src/lib/Smr/Planet.php.txt"></a>
+            <a href="classes/Smr-Planet.html#source-view.488" class="phpdocumentor-element-found-in__source" data-line="488" data-modal="source-view" data-src="files/src/lib/Smr/Planet.php.txt"></a>
     </aside>
 
     
@@ -3141,9 +3228,9 @@ no restriction.</dd>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Planet.php"><a href="files/src-lib-smr-planet.html"><abbr title="src/lib/Smr/Planet.php">Planet.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">319</span>
+    <span class="phpdocumentor-element-found-in__line">327</span>
 
-            <a href="classes/Smr-Planet.html#source-view.319" class="phpdocumentor-element-found-in__source" data-line="319" data-modal="source-view" data-src="files/src/lib/Smr/Planet.php.txt"></a>
+            <a href="classes/Smr-Planet.html#source-view.327" class="phpdocumentor-element-found-in__source" data-line="327" data-modal="source-view" data-src="files/src/lib/Smr/Planet.php.txt"></a>
     </aside>
 
     
@@ -3186,9 +3273,9 @@ no restriction.</dd>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Planet.php"><a href="files/src-lib-smr-planet.html"><abbr title="src/lib/Smr/Planet.php">Planet.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">410</span>
+    <span class="phpdocumentor-element-found-in__line">418</span>
 
-            <a href="classes/Smr-Planet.html#source-view.410" class="phpdocumentor-element-found-in__source" data-line="410" data-modal="source-view" data-src="files/src/lib/Smr/Planet.php.txt"></a>
+            <a href="classes/Smr-Planet.html#source-view.418" class="phpdocumentor-element-found-in__source" data-line="418" data-modal="source-view" data-src="files/src/lib/Smr/Planet.php.txt"></a>
     </aside>
 
     
@@ -3231,9 +3318,9 @@ no restriction.</dd>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Planet.php"><a href="files/src-lib-smr-planet.html"><abbr title="src/lib/Smr/Planet.php">Planet.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">620</span>
+    <span class="phpdocumentor-element-found-in__line">628</span>
 
-            <a href="classes/Smr-Planet.html#source-view.620" class="phpdocumentor-element-found-in__source" data-line="620" data-modal="source-view" data-src="files/src/lib/Smr/Planet.php.txt"></a>
+            <a href="classes/Smr-Planet.html#source-view.628" class="phpdocumentor-element-found-in__source" data-line="628" data-modal="source-view" data-src="files/src/lib/Smr/Planet.php.txt"></a>
     </aside>
 
     
@@ -3283,9 +3370,9 @@ no restriction.</dd>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Planet.php"><a href="files/src-lib-smr-planet.html"><abbr title="src/lib/Smr/Planet.php">Planet.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">680</span>
+    <span class="phpdocumentor-element-found-in__line">688</span>
 
-            <a href="classes/Smr-Planet.html#source-view.680" class="phpdocumentor-element-found-in__source" data-line="680" data-modal="source-view" data-src="files/src/lib/Smr/Planet.php.txt"></a>
+            <a href="classes/Smr-Planet.html#source-view.688" class="phpdocumentor-element-found-in__source" data-line="688" data-modal="source-view" data-src="files/src/lib/Smr/Planet.php.txt"></a>
     </aside>
 
     
@@ -3335,9 +3422,9 @@ no restriction.</dd>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Planet.php"><a href="files/src-lib-smr-planet.html"><abbr title="src/lib/Smr/Planet.php">Planet.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">576</span>
+    <span class="phpdocumentor-element-found-in__line">584</span>
 
-            <a href="classes/Smr-Planet.html#source-view.576" class="phpdocumentor-element-found-in__source" data-line="576" data-modal="source-view" data-src="files/src/lib/Smr/Planet.php.txt"></a>
+            <a href="classes/Smr-Planet.html#source-view.584" class="phpdocumentor-element-found-in__source" data-line="584" data-modal="source-view" data-src="files/src/lib/Smr/Planet.php.txt"></a>
     </aside>
 
     
@@ -3374,9 +3461,9 @@ no restriction.</dd>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Planet.php"><a href="files/src-lib-smr-planet.html"><abbr title="src/lib/Smr/Planet.php">Planet.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">955</span>
+    <span class="phpdocumentor-element-found-in__line">963</span>
 
-            <a href="classes/Smr-Planet.html#source-view.955" class="phpdocumentor-element-found-in__source" data-line="955" data-modal="source-view" data-src="files/src/lib/Smr/Planet.php.txt"></a>
+            <a href="classes/Smr-Planet.html#source-view.963" class="phpdocumentor-element-found-in__source" data-line="963" data-modal="source-view" data-src="files/src/lib/Smr/Planet.php.txt"></a>
     </aside>
 
         <p class="phpdocumentor-summary">Returns the accuracy bonus for mounted weaons (as a percent)</p>
@@ -3414,9 +3501,9 @@ no restriction.</dd>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Planet.php"><a href="files/src-lib-smr-planet.html"><abbr title="src/lib/Smr/Planet.php">Planet.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">428</span>
+    <span class="phpdocumentor-element-found-in__line">436</span>
 
-            <a href="classes/Smr-Planet.html#source-view.428" class="phpdocumentor-element-found-in__source" data-line="428" data-modal="source-view" data-src="files/src/lib/Smr/Planet.php.txt"></a>
+            <a href="classes/Smr-Planet.html#source-view.436" class="phpdocumentor-element-found-in__source" data-line="436" data-modal="source-view" data-src="files/src/lib/Smr/Planet.php.txt"></a>
     </aside>
 
     
@@ -3453,9 +3540,9 @@ no restriction.</dd>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Planet.php"><a href="files/src-lib-smr-planet.html"><abbr title="src/lib/Smr/Planet.php">Planet.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">1115</span>
+    <span class="phpdocumentor-element-found-in__line">1127</span>
 
-            <a href="classes/Smr-Planet.html#source-view.1115" class="phpdocumentor-element-found-in__source" data-line="1115" data-modal="source-view" data-src="files/src/lib/Smr/Planet.php.txt"></a>
+            <a href="classes/Smr-Planet.html#source-view.1127" class="phpdocumentor-element-found-in__source" data-line="1127" data-modal="source-view" data-src="files/src/lib/Smr/Planet.php.txt"></a>
     </aside>
 
     
@@ -3492,9 +3579,9 @@ no restriction.</dd>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Planet.php"><a href="files/src-lib-smr-planet.html"><abbr title="src/lib/Smr/Planet.php">Planet.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">1129</span>
+    <span class="phpdocumentor-element-found-in__line">1141</span>
 
-            <a href="classes/Smr-Planet.html#source-view.1129" class="phpdocumentor-element-found-in__source" data-line="1129" data-modal="source-view" data-src="files/src/lib/Smr/Planet.php.txt"></a>
+            <a href="classes/Smr-Planet.html#source-view.1141" class="phpdocumentor-element-found-in__source" data-line="1141" data-modal="source-view" data-src="files/src/lib/Smr/Planet.php.txt"></a>
     </aside>
 
     
@@ -3531,9 +3618,9 @@ no restriction.</dd>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Planet.php"><a href="files/src-lib-smr-planet.html"><abbr title="src/lib/Smr/Planet.php">Planet.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">342</span>
+    <span class="phpdocumentor-element-found-in__line">350</span>
 
-            <a href="classes/Smr-Planet.html#source-view.342" class="phpdocumentor-element-found-in__source" data-line="342" data-modal="source-view" data-src="files/src/lib/Smr/Planet.php.txt"></a>
+            <a href="classes/Smr-Planet.html#source-view.350" class="phpdocumentor-element-found-in__source" data-line="350" data-modal="source-view" data-src="files/src/lib/Smr/Planet.php.txt"></a>
     </aside>
 
     
@@ -3570,9 +3657,9 @@ no restriction.</dd>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Planet.php"><a href="files/src-lib-smr-planet.html"><abbr title="src/lib/Smr/Planet.php">Planet.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">214</span>
+    <span class="phpdocumentor-element-found-in__line">222</span>
 
-            <a href="classes/Smr-Planet.html#source-view.214" class="phpdocumentor-element-found-in__source" data-line="214" data-modal="source-view" data-src="files/src/lib/Smr/Planet.php.txt"></a>
+            <a href="classes/Smr-Planet.html#source-view.222" class="phpdocumentor-element-found-in__source" data-line="222" data-modal="source-view" data-src="files/src/lib/Smr/Planet.php.txt"></a>
     </aside>
 
     
@@ -3609,9 +3696,9 @@ no restriction.</dd>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Planet.php"><a href="files/src-lib-smr-planet.html"><abbr title="src/lib/Smr/Planet.php">Planet.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">1119</span>
+    <span class="phpdocumentor-element-found-in__line">1131</span>
 
-            <a href="classes/Smr-Planet.html#source-view.1119" class="phpdocumentor-element-found-in__source" data-line="1119" data-modal="source-view" data-src="files/src/lib/Smr/Planet.php.txt"></a>
+            <a href="classes/Smr-Planet.html#source-view.1131" class="phpdocumentor-element-found-in__source" data-line="1131" data-modal="source-view" data-src="files/src/lib/Smr/Planet.php.txt"></a>
     </aside>
 
     
@@ -3658,9 +3745,9 @@ no restriction.</dd>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Planet.php"><a href="files/src-lib-smr-planet.html"><abbr title="src/lib/Smr/Planet.php">Planet.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">655</span>
+    <span class="phpdocumentor-element-found-in__line">663</span>
 
-            <a href="classes/Smr-Planet.html#source-view.655" class="phpdocumentor-element-found-in__source" data-line="655" data-modal="source-view" data-src="files/src/lib/Smr/Planet.php.txt"></a>
+            <a href="classes/Smr-Planet.html#source-view.663" class="phpdocumentor-element-found-in__source" data-line="663" data-modal="source-view" data-src="files/src/lib/Smr/Planet.php.txt"></a>
     </aside>
 
     
@@ -3707,9 +3794,9 @@ no restriction.</dd>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Planet.php"><a href="files/src-lib-smr-planet.html"><abbr title="src/lib/Smr/Planet.php">Planet.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">637</span>
+    <span class="phpdocumentor-element-found-in__line">645</span>
 
-            <a href="classes/Smr-Planet.html#source-view.637" class="phpdocumentor-element-found-in__source" data-line="637" data-modal="source-view" data-src="files/src/lib/Smr/Planet.php.txt"></a>
+            <a href="classes/Smr-Planet.html#source-view.645" class="phpdocumentor-element-found-in__source" data-line="645" data-modal="source-view" data-src="files/src/lib/Smr/Planet.php.txt"></a>
     </aside>
 
     
@@ -3746,9 +3833,9 @@ no restriction.</dd>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Planet.php"><a href="files/src-lib-smr-planet.html"><abbr title="src/lib/Smr/Planet.php">Planet.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">974</span>
+    <span class="phpdocumentor-element-found-in__line">982</span>
 
-            <a href="classes/Smr-Planet.html#source-view.974" class="phpdocumentor-element-found-in__source" data-line="974" data-modal="source-view" data-src="files/src/lib/Smr/Planet.php.txt"></a>
+            <a href="classes/Smr-Planet.html#source-view.982" class="phpdocumentor-element-found-in__source" data-line="982" data-modal="source-view" data-src="files/src/lib/Smr/Planet.php.txt"></a>
     </aside>
 
         <p class="phpdocumentor-summary">Returns the reason a build cannot be performed, or false if there is
@@ -3804,9 +3891,9 @@ no restriction.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Planet.php"><a href="files/src-lib-smr-planet.html"><abbr title="src/lib/Smr/Planet.php">Planet.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">1124</span>
+    <span class="phpdocumentor-element-found-in__line">1136</span>
 
-            <a href="classes/Smr-Planet.html#source-view.1124" class="phpdocumentor-element-found-in__source" data-line="1124" data-modal="source-view" data-src="files/src/lib/Smr/Planet.php.txt"></a>
+            <a href="classes/Smr-Planet.html#source-view.1136" class="phpdocumentor-element-found-in__source" data-line="1136" data-modal="source-view" data-src="files/src/lib/Smr/Planet.php.txt"></a>
     </aside>
 
     
@@ -3853,15 +3940,54 @@ no restriction.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Planet.php"><a href="files/src-lib-smr-planet.html"><abbr title="src/lib/Smr/Planet.php">Planet.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">463</span>
+    <span class="phpdocumentor-element-found-in__line">471</span>
 
-            <a href="classes/Smr-Planet.html#source-view.463" class="phpdocumentor-element-found-in__source" data-line="463" data-modal="source-view" data-src="files/src/lib/Smr/Planet.php.txt"></a>
+            <a href="classes/Smr-Planet.html#source-view.471" class="phpdocumentor-element-found-in__source" data-line="471" data-modal="source-view" data-src="files/src/lib/Smr/Planet.php.txt"></a>
     </aside>
 
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">public</span>
                     <span class="phpdocumentor-signature__name">getCDs</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">int</span></code>
+
+    <div class="phpdocumentor-label-line">
+        </div>
+    
+    
+    
+    
+
+        
+    
+            <section>
+        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
+        <span class="phpdocumentor-signature__response_type">int</span>
+            </section>
+
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="method_getCombatID">
+        getCombatID()
+        <a href="classes/Smr-Planet.html#method_getCombatID" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Planet.php"><a href="files/src-lib-smr-planet.html"><abbr title="src/lib/Smr/Planet.php">Planet.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">1107</span>
+
+            <a href="classes/Smr-Planet.html#source-view.1107" class="phpdocumentor-element-found-in__source" data-line="1107" data-modal="source-view" data-src="files/src/lib/Smr/Planet.php.txt"></a>
+    </aside>
+
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+                    <span class="phpdocumentor-signature__name">getCombatID</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">int</span></code>
 
     <div class="phpdocumentor-label-line">
         </div>
@@ -3892,9 +4018,9 @@ no restriction.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Planet.php"><a href="files/src-lib-smr-planet.html"><abbr title="src/lib/Smr/Planet.php">Planet.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">1095</span>
+    <span class="phpdocumentor-element-found-in__line">1103</span>
 
-            <a href="classes/Smr-Planet.html#source-view.1095" class="phpdocumentor-element-found-in__source" data-line="1095" data-modal="source-view" data-src="files/src/lib/Smr/Planet.php.txt"></a>
+            <a href="classes/Smr-Planet.html#source-view.1103" class="phpdocumentor-element-found-in__source" data-line="1103" data-modal="source-view" data-src="files/src/lib/Smr/Planet.php.txt"></a>
     </aside>
 
         <p class="phpdocumentor-summary">Returns the name of the planet, intended for combat messages.</p>
@@ -3932,9 +4058,9 @@ no restriction.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Planet.php"><a href="files/src-lib-smr-planet.html"><abbr title="src/lib/Smr/Planet.php">Planet.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">1016</span>
+    <span class="phpdocumentor-element-found-in__line">1024</span>
 
-            <a href="classes/Smr-Planet.html#source-view.1016" class="phpdocumentor-element-found-in__source" data-line="1016" data-modal="source-view" data-src="files/src/lib/Smr/Planet.php.txt"></a>
+            <a href="classes/Smr-Planet.html#source-view.1024" class="phpdocumentor-element-found-in__source" data-line="1024" data-modal="source-view" data-src="files/src/lib/Smr/Planet.php.txt"></a>
     </aside>
 
     
@@ -3981,9 +4107,9 @@ no restriction.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Planet.php"><a href="files/src-lib-smr-planet.html"><abbr title="src/lib/Smr/Planet.php">Planet.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">287</span>
+    <span class="phpdocumentor-element-found-in__line">295</span>
 
-            <a href="classes/Smr-Planet.html#source-view.287" class="phpdocumentor-element-found-in__source" data-line="287" data-modal="source-view" data-src="files/src/lib/Smr/Planet.php.txt"></a>
+            <a href="classes/Smr-Planet.html#source-view.295" class="phpdocumentor-element-found-in__source" data-line="295" data-modal="source-view" data-src="files/src/lib/Smr/Planet.php.txt"></a>
     </aside>
 
     
@@ -4020,9 +4146,9 @@ no restriction.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Planet.php"><a href="files/src-lib-smr-planet.html"><abbr title="src/lib/Smr/Planet.php">Planet.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">687</span>
+    <span class="phpdocumentor-element-found-in__line">695</span>
 
-            <a href="classes/Smr-Planet.html#source-view.687" class="phpdocumentor-element-found-in__source" data-line="687" data-modal="source-view" data-src="files/src/lib/Smr/Planet.php.txt"></a>
+            <a href="classes/Smr-Planet.html#source-view.695" class="phpdocumentor-element-found-in__source" data-line="695" data-modal="source-view" data-src="files/src/lib/Smr/Planet.php.txt"></a>
     </aside>
 
     
@@ -4059,9 +4185,9 @@ no restriction.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Planet.php"><a href="files/src-lib-smr-planet.html"><abbr title="src/lib/Smr/Planet.php">Planet.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">1088</span>
+    <span class="phpdocumentor-element-found-in__line">1096</span>
 
-            <a href="classes/Smr-Planet.html#source-view.1088" class="phpdocumentor-element-found-in__source" data-line="1088" data-modal="source-view" data-src="files/src/lib/Smr/Planet.php.txt"></a>
+            <a href="classes/Smr-Planet.html#source-view.1096" class="phpdocumentor-element-found-in__source" data-line="1096" data-modal="source-view" data-src="files/src/lib/Smr/Planet.php.txt"></a>
     </aside>
 
         <p class="phpdocumentor-summary">Returns the name of the planet, suitably escaped for HTML display.</p>
@@ -4099,9 +4225,9 @@ no restriction.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Planet.php"><a href="files/src-lib-smr-planet.html"><abbr title="src/lib/Smr/Planet.php">Planet.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">1107</span>
+    <span class="phpdocumentor-element-found-in__line">1119</span>
 
-            <a href="classes/Smr-Planet.html#source-view.1107" class="phpdocumentor-element-found-in__source" data-line="1107" data-modal="source-view" data-src="files/src/lib/Smr/Planet.php.txt"></a>
+            <a href="classes/Smr-Planet.html#source-view.1119" class="phpdocumentor-element-found-in__source" data-line="1119" data-modal="source-view" data-src="files/src/lib/Smr/Planet.php.txt"></a>
     </aside>
 
     
@@ -4138,9 +4264,9 @@ no restriction.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Planet.php"><a href="files/src-lib-smr-planet.html"><abbr title="src/lib/Smr/Planet.php">Planet.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">243</span>
+    <span class="phpdocumentor-element-found-in__line">251</span>
 
-            <a href="classes/Smr-Planet.html#source-view.243" class="phpdocumentor-element-found-in__source" data-line="243" data-modal="source-view" data-src="files/src/lib/Smr/Planet.php.txt"></a>
+            <a href="classes/Smr-Planet.html#source-view.251" class="phpdocumentor-element-found-in__source" data-line="251" data-modal="source-view" data-src="files/src/lib/Smr/Planet.php.txt"></a>
     </aside>
 
     
@@ -4177,9 +4303,9 @@ no restriction.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Planet.php"><a href="files/src-lib-smr-planet.html"><abbr title="src/lib/Smr/Planet.php">Planet.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">83</span>
+    <span class="phpdocumentor-element-found-in__line">91</span>
 
-            <a href="classes/Smr-Planet.html#source-view.83" class="phpdocumentor-element-found-in__source" data-line="83" data-modal="source-view" data-src="files/src/lib/Smr/Planet.php.txt"></a>
+            <a href="classes/Smr-Planet.html#source-view.91" class="phpdocumentor-element-found-in__source" data-line="91" data-modal="source-view" data-src="files/src/lib/Smr/Planet.php.txt"></a>
     </aside>
 
     
@@ -4240,9 +4366,9 @@ no restriction.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Planet.php"><a href="files/src-lib-smr-planet.html"><abbr title="src/lib/Smr/Planet.php">Planet.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">235</span>
+    <span class="phpdocumentor-element-found-in__line">243</span>
 
-            <a href="classes/Smr-Planet.html#source-view.235" class="phpdocumentor-element-found-in__source" data-line="235" data-modal="source-view" data-src="files/src/lib/Smr/Planet.php.txt"></a>
+            <a href="classes/Smr-Planet.html#source-view.243" class="phpdocumentor-element-found-in__source" data-line="243" data-modal="source-view" data-src="files/src/lib/Smr/Planet.php.txt"></a>
     </aside>
 
     
@@ -4279,9 +4405,9 @@ no restriction.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Planet.php"><a href="files/src-lib-smr-planet.html"><abbr title="src/lib/Smr/Planet.php">Planet.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">231</span>
+    <span class="phpdocumentor-element-found-in__line">239</span>
 
-            <a href="classes/Smr-Planet.html#source-view.231" class="phpdocumentor-element-found-in__source" data-line="231" data-modal="source-view" data-src="files/src/lib/Smr/Planet.php.txt"></a>
+            <a href="classes/Smr-Planet.html#source-view.239" class="phpdocumentor-element-found-in__source" data-line="239" data-modal="source-view" data-src="files/src/lib/Smr/Planet.php.txt"></a>
     </aside>
 
     
@@ -4318,9 +4444,9 @@ no restriction.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Planet.php"><a href="files/src-lib-smr-planet.html"><abbr title="src/lib/Smr/Planet.php">Planet.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">1103</span>
+    <span class="phpdocumentor-element-found-in__line">1115</span>
 
-            <a href="classes/Smr-Planet.html#source-view.1103" class="phpdocumentor-element-found-in__source" data-line="1103" data-modal="source-view" data-src="files/src/lib/Smr/Planet.php.txt"></a>
+            <a href="classes/Smr-Planet.html#source-view.1115" class="phpdocumentor-element-found-in__source" data-line="1115" data-modal="source-view" data-src="files/src/lib/Smr/Planet.php.txt"></a>
     </aside>
 
     
@@ -4357,9 +4483,9 @@ no restriction.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Planet.php"><a href="files/src-lib-smr-planet.html"><abbr title="src/lib/Smr/Planet.php">Planet.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">179</span>
+    <span class="phpdocumentor-element-found-in__line">187</span>
 
-            <a href="classes/Smr-Planet.html#source-view.179" class="phpdocumentor-element-found-in__source" data-line="179" data-modal="source-view" data-src="files/src/lib/Smr/Planet.php.txt"></a>
+            <a href="classes/Smr-Planet.html#source-view.187" class="phpdocumentor-element-found-in__source" data-line="187" data-modal="source-view" data-src="files/src/lib/Smr/Planet.php.txt"></a>
     </aside>
 
     
@@ -4396,9 +4522,9 @@ no restriction.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Planet.php"><a href="files/src-lib-smr-planet.html"><abbr title="src/lib/Smr/Planet.php">Planet.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">1111</span>
+    <span class="phpdocumentor-element-found-in__line">1123</span>
 
-            <a href="classes/Smr-Planet.html#source-view.1111" class="phpdocumentor-element-found-in__source" data-line="1111" data-modal="source-view" data-src="files/src/lib/Smr/Planet.php.txt"></a>
+            <a href="classes/Smr-Planet.html#source-view.1123" class="phpdocumentor-element-found-in__source" data-line="1123" data-modal="source-view" data-src="files/src/lib/Smr/Planet.php.txt"></a>
     </aside>
 
     
@@ -4435,9 +4561,9 @@ no restriction.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Planet.php"><a href="files/src-lib-smr-planet.html"><abbr title="src/lib/Smr/Planet.php">Planet.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">936</span>
+    <span class="phpdocumentor-element-found-in__line">944</span>
 
-            <a href="classes/Smr-Planet.html#source-view.936" class="phpdocumentor-element-found-in__source" data-line="936" data-modal="source-view" data-src="files/src/lib/Smr/Planet.php.txt"></a>
+            <a href="classes/Smr-Planet.html#source-view.944" class="phpdocumentor-element-found-in__source" data-line="944" data-modal="source-view" data-src="files/src/lib/Smr/Planet.php.txt"></a>
     </aside>
 
     
@@ -4474,9 +4600,9 @@ no restriction.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Planet.php"><a href="files/src-lib-smr-planet.html"><abbr title="src/lib/Smr/Planet.php">Planet.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">327</span>
+    <span class="phpdocumentor-element-found-in__line">335</span>
 
-            <a href="classes/Smr-Planet.html#source-view.327" class="phpdocumentor-element-found-in__source" data-line="327" data-modal="source-view" data-src="files/src/lib/Smr/Planet.php.txt"></a>
+            <a href="classes/Smr-Planet.html#source-view.335" class="phpdocumentor-element-found-in__source" data-line="335" data-modal="source-view" data-src="files/src/lib/Smr/Planet.php.txt"></a>
     </aside>
 
     
@@ -4513,9 +4639,9 @@ no restriction.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Planet.php"><a href="files/src-lib-smr-planet.html"><abbr title="src/lib/Smr/Planet.php">Planet.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">459</span>
+    <span class="phpdocumentor-element-found-in__line">467</span>
 
-            <a href="classes/Smr-Planet.html#source-view.459" class="phpdocumentor-element-found-in__source" data-line="459" data-modal="source-view" data-src="files/src/lib/Smr/Planet.php.txt"></a>
+            <a href="classes/Smr-Planet.html#source-view.467" class="phpdocumentor-element-found-in__source" data-line="467" data-modal="source-view" data-src="files/src/lib/Smr/Planet.php.txt"></a>
     </aside>
 
     
@@ -4552,9 +4678,9 @@ no restriction.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Planet.php"><a href="files/src-lib-smr-planet.html"><abbr title="src/lib/Smr/Planet.php">Planet.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">797</span>
+    <span class="phpdocumentor-element-found-in__line">805</span>
 
-            <a href="classes/Smr-Planet.html#source-view.797" class="phpdocumentor-element-found-in__source" data-line="797" data-modal="source-view" data-src="files/src/lib/Smr/Planet.php.txt"></a>
+            <a href="classes/Smr-Planet.html#source-view.805" class="phpdocumentor-element-found-in__source" data-line="805" data-modal="source-view" data-src="files/src/lib/Smr/Planet.php.txt"></a>
     </aside>
 
     
@@ -4591,9 +4717,9 @@ no restriction.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Planet.php"><a href="files/src-lib-smr-planet.html"><abbr title="src/lib/Smr/Planet.php">Planet.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">731</span>
+    <span class="phpdocumentor-element-found-in__line">739</span>
 
-            <a href="classes/Smr-Planet.html#source-view.731" class="phpdocumentor-element-found-in__source" data-line="731" data-modal="source-view" data-src="files/src/lib/Smr/Planet.php.txt"></a>
+            <a href="classes/Smr-Planet.html#source-view.739" class="phpdocumentor-element-found-in__source" data-line="739" data-modal="source-view" data-src="files/src/lib/Smr/Planet.php.txt"></a>
     </aside>
 
     
@@ -4640,9 +4766,9 @@ no restriction.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Planet.php"><a href="files/src-lib-smr-planet.html"><abbr title="src/lib/Smr/Planet.php">Planet.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">494</span>
+    <span class="phpdocumentor-element-found-in__line">502</span>
 
-            <a href="classes/Smr-Planet.html#source-view.494" class="phpdocumentor-element-found-in__source" data-line="494" data-modal="source-view" data-src="files/src/lib/Smr/Planet.php.txt"></a>
+            <a href="classes/Smr-Planet.html#source-view.502" class="phpdocumentor-element-found-in__source" data-line="502" data-modal="source-view" data-src="files/src/lib/Smr/Planet.php.txt"></a>
     </aside>
 
     
@@ -4679,9 +4805,9 @@ no restriction.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Planet.php"><a href="files/src-lib-smr-planet.html"><abbr title="src/lib/Smr/Planet.php">Planet.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">801</span>
+    <span class="phpdocumentor-element-found-in__line">809</span>
 
-            <a href="classes/Smr-Planet.html#source-view.801" class="phpdocumentor-element-found-in__source" data-line="801" data-modal="source-view" data-src="files/src/lib/Smr/Planet.php.txt"></a>
+            <a href="classes/Smr-Planet.html#source-view.809" class="phpdocumentor-element-found-in__source" data-line="809" data-modal="source-view" data-src="files/src/lib/Smr/Planet.php.txt"></a>
     </aside>
 
     
@@ -4718,9 +4844,9 @@ no restriction.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Planet.php"><a href="files/src-lib-smr-planet.html"><abbr title="src/lib/Smr/Planet.php">Planet.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">940</span>
+    <span class="phpdocumentor-element-found-in__line">948</span>
 
-            <a href="classes/Smr-Planet.html#source-view.940" class="phpdocumentor-element-found-in__source" data-line="940" data-modal="source-view" data-src="files/src/lib/Smr/Planet.php.txt"></a>
+            <a href="classes/Smr-Planet.html#source-view.948" class="phpdocumentor-element-found-in__source" data-line="948" data-modal="source-view" data-src="files/src/lib/Smr/Planet.php.txt"></a>
     </aside>
 
     
@@ -4757,9 +4883,9 @@ no restriction.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Planet.php"><a href="files/src-lib-smr-planet.html"><abbr title="src/lib/Smr/Planet.php">Planet.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">498</span>
+    <span class="phpdocumentor-element-found-in__line">506</span>
 
-            <a href="classes/Smr-Planet.html#source-view.498" class="phpdocumentor-element-found-in__source" data-line="498" data-modal="source-view" data-src="files/src/lib/Smr/Planet.php.txt"></a>
+            <a href="classes/Smr-Planet.html#source-view.506" class="phpdocumentor-element-found-in__source" data-line="506" data-modal="source-view" data-src="files/src/lib/Smr/Planet.php.txt"></a>
     </aside>
 
     
@@ -4796,9 +4922,9 @@ no restriction.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Planet.php"><a href="files/src-lib-smr-planet.html"><abbr title="src/lib/Smr/Planet.php">Planet.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">424</span>
+    <span class="phpdocumentor-element-found-in__line">432</span>
 
-            <a href="classes/Smr-Planet.html#source-view.424" class="phpdocumentor-element-found-in__source" data-line="424" data-modal="source-view" data-src="files/src/lib/Smr/Planet.php.txt"></a>
+            <a href="classes/Smr-Planet.html#source-view.432" class="phpdocumentor-element-found-in__source" data-line="432" data-modal="source-view" data-src="files/src/lib/Smr/Planet.php.txt"></a>
     </aside>
 
     
@@ -4835,9 +4961,9 @@ no restriction.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Planet.php"><a href="files/src-lib-smr-planet.html"><abbr title="src/lib/Smr/Planet.php">Planet.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">505</span>
+    <span class="phpdocumentor-element-found-in__line">513</span>
 
-            <a href="classes/Smr-Planet.html#source-view.505" class="phpdocumentor-element-found-in__source" data-line="505" data-modal="source-view" data-src="files/src/lib/Smr/Planet.php.txt"></a>
+            <a href="classes/Smr-Planet.html#source-view.513" class="phpdocumentor-element-found-in__source" data-line="513" data-modal="source-view" data-src="files/src/lib/Smr/Planet.php.txt"></a>
     </aside>
 
     
@@ -4874,9 +5000,9 @@ no restriction.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Planet.php"><a href="files/src-lib-smr-planet.html"><abbr title="src/lib/Smr/Planet.php">Planet.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">1198</span>
+    <span class="phpdocumentor-element-found-in__line">1210</span>
 
-            <a href="classes/Smr-Planet.html#source-view.1198" class="phpdocumentor-element-found-in__source" data-line="1198" data-modal="source-view" data-src="files/src/lib/Smr/Planet.php.txt"></a>
+            <a href="classes/Smr-Planet.html#source-view.1210" class="phpdocumentor-element-found-in__source" data-line="1210" data-modal="source-view" data-src="files/src/lib/Smr/Planet.php.txt"></a>
     </aside>
 
     
@@ -4923,9 +5049,9 @@ no restriction.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Planet.php"><a href="files/src-lib-smr-planet.html"><abbr title="src/lib/Smr/Planet.php">Planet.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">267</span>
+    <span class="phpdocumentor-element-found-in__line">275</span>
 
-            <a href="classes/Smr-Planet.html#source-view.267" class="phpdocumentor-element-found-in__source" data-line="267" data-modal="source-view" data-src="files/src/lib/Smr/Planet.php.txt"></a>
+            <a href="classes/Smr-Planet.html#source-view.275" class="phpdocumentor-element-found-in__source" data-line="275" data-modal="source-view" data-src="files/src/lib/Smr/Planet.php.txt"></a>
     </aside>
 
     
@@ -4962,9 +5088,9 @@ no restriction.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Planet.php"><a href="files/src-lib-smr-planet.html"><abbr title="src/lib/Smr/Planet.php">Planet.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">247</span>
+    <span class="phpdocumentor-element-found-in__line">255</span>
 
-            <a href="classes/Smr-Planet.html#source-view.247" class="phpdocumentor-element-found-in__source" data-line="247" data-modal="source-view" data-src="files/src/lib/Smr/Planet.php.txt"></a>
+            <a href="classes/Smr-Planet.html#source-view.255" class="phpdocumentor-element-found-in__source" data-line="255" data-modal="source-view" data-src="files/src/lib/Smr/Planet.php.txt"></a>
     </aside>
 
     
@@ -5001,9 +5127,9 @@ no restriction.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Planet.php"><a href="files/src-lib-smr-planet.html"><abbr title="src/lib/Smr/Planet.php">Planet.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">271</span>
+    <span class="phpdocumentor-element-found-in__line">279</span>
 
-            <a href="classes/Smr-Planet.html#source-view.271" class="phpdocumentor-element-found-in__source" data-line="271" data-modal="source-view" data-src="files/src/lib/Smr/Planet.php.txt"></a>
+            <a href="classes/Smr-Planet.html#source-view.279" class="phpdocumentor-element-found-in__source" data-line="279" data-modal="source-view" data-src="files/src/lib/Smr/Planet.php.txt"></a>
     </aside>
 
     
@@ -5040,9 +5166,9 @@ no restriction.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Planet.php"><a href="files/src-lib-smr-planet.html"><abbr title="src/lib/Smr/Planet.php">Planet.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">97</span>
+    <span class="phpdocumentor-element-found-in__line">105</span>
 
-            <a href="classes/Smr-Planet.html#source-view.97" class="phpdocumentor-element-found-in__source" data-line="97" data-modal="source-view" data-src="files/src/lib/Smr/Planet.php.txt"></a>
+            <a href="classes/Smr-Planet.html#source-view.105" class="phpdocumentor-element-found-in__source" data-line="105" data-modal="source-view" data-src="files/src/lib/Smr/Planet.php.txt"></a>
     </aside>
 
     
@@ -5110,9 +5236,9 @@ no restriction.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Planet.php"><a href="files/src-lib-smr-planet.html"><abbr title="src/lib/Smr/Planet.php">Planet.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">1183</span>
+    <span class="phpdocumentor-element-found-in__line">1195</span>
 
-            <a href="classes/Smr-Planet.html#source-view.1183" class="phpdocumentor-element-found-in__source" data-line="1183" data-modal="source-view" data-src="files/src/lib/Smr/Planet.php.txt"></a>
+            <a href="classes/Smr-Planet.html#source-view.1195" class="phpdocumentor-element-found-in__source" data-line="1195" data-modal="source-view" data-src="files/src/lib/Smr/Planet.php.txt"></a>
     </aside>
 
     
@@ -5149,9 +5275,9 @@ no restriction.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Planet.php"><a href="files/src-lib-smr-planet.html"><abbr title="src/lib/Smr/Planet.php">Planet.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">959</span>
+    <span class="phpdocumentor-element-found-in__line">967</span>
 
-            <a href="classes/Smr-Planet.html#source-view.959" class="phpdocumentor-element-found-in__source" data-line="959" data-modal="source-view" data-src="files/src/lib/Smr/Planet.php.txt"></a>
+            <a href="classes/Smr-Planet.html#source-view.967" class="phpdocumentor-element-found-in__source" data-line="967" data-modal="source-view" data-src="files/src/lib/Smr/Planet.php.txt"></a>
     </aside>
 
     
@@ -5198,9 +5324,9 @@ no restriction.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Planet.php"><a href="files/src-lib-smr-planet.html"><abbr title="src/lib/Smr/Planet.php">Planet.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">239</span>
+    <span class="phpdocumentor-element-found-in__line">247</span>
 
-            <a href="classes/Smr-Planet.html#source-view.239" class="phpdocumentor-element-found-in__source" data-line="239" data-modal="source-view" data-src="files/src/lib/Smr/Planet.php.txt"></a>
+            <a href="classes/Smr-Planet.html#source-view.247" class="phpdocumentor-element-found-in__source" data-line="247" data-modal="source-view" data-src="files/src/lib/Smr/Planet.php.txt"></a>
     </aside>
 
     
@@ -5237,9 +5363,9 @@ no restriction.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Planet.php"><a href="files/src-lib-smr-planet.html"><abbr title="src/lib/Smr/Planet.php">Planet.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">393</span>
+    <span class="phpdocumentor-element-found-in__line">401</span>
 
-            <a href="classes/Smr-Planet.html#source-view.393" class="phpdocumentor-element-found-in__source" data-line="393" data-modal="source-view" data-src="files/src/lib/Smr/Planet.php.txt"></a>
+            <a href="classes/Smr-Planet.html#source-view.401" class="phpdocumentor-element-found-in__source" data-line="401" data-modal="source-view" data-src="files/src/lib/Smr/Planet.php.txt"></a>
     </aside>
 
     
@@ -5276,9 +5402,9 @@ no restriction.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Planet.php"><a href="files/src-lib-smr-planet.html"><abbr title="src/lib/Smr/Planet.php">Planet.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">583</span>
+    <span class="phpdocumentor-element-found-in__line">591</span>
 
-            <a href="classes/Smr-Planet.html#source-view.583" class="phpdocumentor-element-found-in__source" data-line="583" data-modal="source-view" data-src="files/src/lib/Smr/Planet.php.txt"></a>
+            <a href="classes/Smr-Planet.html#source-view.591" class="phpdocumentor-element-found-in__source" data-line="591" data-modal="source-view" data-src="files/src/lib/Smr/Planet.php.txt"></a>
     </aside>
 
     
@@ -5325,9 +5451,9 @@ no restriction.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Planet.php"><a href="files/src-lib-smr-planet.html"><abbr title="src/lib/Smr/Planet.php">Planet.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">816</span>
+    <span class="phpdocumentor-element-found-in__line">824</span>
 
-            <a href="classes/Smr-Planet.html#source-view.816" class="phpdocumentor-element-found-in__source" data-line="816" data-modal="source-view" data-src="files/src/lib/Smr/Planet.php.txt"></a>
+            <a href="classes/Smr-Planet.html#source-view.824" class="phpdocumentor-element-found-in__source" data-line="824" data-modal="source-view" data-src="files/src/lib/Smr/Planet.php.txt"></a>
     </aside>
 
     
@@ -5374,9 +5500,9 @@ no restriction.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Planet.php"><a href="files/src-lib-smr-planet.html"><abbr title="src/lib/Smr/Planet.php">Planet.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">948</span>
+    <span class="phpdocumentor-element-found-in__line">956</span>
 
-            <a href="classes/Smr-Planet.html#source-view.948" class="phpdocumentor-element-found-in__source" data-line="948" data-modal="source-view" data-src="files/src/lib/Smr/Planet.php.txt"></a>
+            <a href="classes/Smr-Planet.html#source-view.956" class="phpdocumentor-element-found-in__source" data-line="956" data-modal="source-view" data-src="files/src/lib/Smr/Planet.php.txt"></a>
     </aside>
 
         <p class="phpdocumentor-summary">Returns the modified accuracy of turrets on this planet.</p>
@@ -5416,9 +5542,9 @@ no restriction.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Planet.php"><a href="files/src-lib-smr-planet.html"><abbr title="src/lib/Smr/Planet.php">Planet.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">793</span>
+    <span class="phpdocumentor-element-found-in__line">801</span>
 
-            <a href="classes/Smr-Planet.html#source-view.793" class="phpdocumentor-element-found-in__source" data-line="793" data-modal="source-view" data-src="files/src/lib/Smr/Planet.php.txt"></a>
+            <a href="classes/Smr-Planet.html#source-view.801" class="phpdocumentor-element-found-in__source" data-line="801" data-modal="source-view" data-src="files/src/lib/Smr/Planet.php.txt"></a>
     </aside>
 
     
@@ -5455,9 +5581,9 @@ no restriction.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Planet.php"><a href="files/src-lib-smr-planet.html"><abbr title="src/lib/Smr/Planet.php">Planet.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">754</span>
+    <span class="phpdocumentor-element-found-in__line">762</span>
 
-            <a href="classes/Smr-Planet.html#source-view.754" class="phpdocumentor-element-found-in__source" data-line="754" data-modal="source-view" data-src="files/src/lib/Smr/Planet.php.txt"></a>
+            <a href="classes/Smr-Planet.html#source-view.762" class="phpdocumentor-element-found-in__source" data-line="762" data-modal="source-view" data-src="files/src/lib/Smr/Planet.php.txt"></a>
     </aside>
 
     
@@ -5494,9 +5620,9 @@ no restriction.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Planet.php"><a href="files/src-lib-smr-planet.html"><abbr title="src/lib/Smr/Planet.php">Planet.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">785</span>
+    <span class="phpdocumentor-element-found-in__line">793</span>
 
-            <a href="classes/Smr-Planet.html#source-view.785" class="phpdocumentor-element-found-in__source" data-line="785" data-modal="source-view" data-src="files/src/lib/Smr/Planet.php.txt"></a>
+            <a href="classes/Smr-Planet.html#source-view.793" class="phpdocumentor-element-found-in__source" data-line="793" data-modal="source-view" data-src="files/src/lib/Smr/Planet.php.txt"></a>
     </aside>
 
     
@@ -5533,9 +5659,9 @@ no restriction.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Planet.php"><a href="files/src-lib-smr-planet.html"><abbr title="src/lib/Smr/Planet.php">Planet.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">789</span>
+    <span class="phpdocumentor-element-found-in__line">797</span>
 
-            <a href="classes/Smr-Planet.html#source-view.789" class="phpdocumentor-element-found-in__source" data-line="789" data-modal="source-view" data-src="files/src/lib/Smr/Planet.php.txt"></a>
+            <a href="classes/Smr-Planet.html#source-view.797" class="phpdocumentor-element-found-in__source" data-line="797" data-modal="source-view" data-src="files/src/lib/Smr/Planet.php.txt"></a>
     </aside>
 
     
@@ -5572,15 +5698,15 @@ no restriction.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Planet.php"><a href="files/src-lib-smr-planet.html"><abbr title="src/lib/Smr/Planet.php">Planet.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">1225</span>
+    <span class="phpdocumentor-element-found-in__line">1237</span>
 
-            <a href="classes/Smr-Planet.html#source-view.1225" class="phpdocumentor-element-found-in__source" data-line="1225" data-modal="source-view" data-src="files/src/lib/Smr/Planet.php.txt"></a>
+            <a href="classes/Smr-Planet.html#source-view.1237" class="phpdocumentor-element-found-in__source" data-line="1237" data-modal="source-view" data-src="files/src/lib/Smr/Planet.php.txt"></a>
     </aside>
 
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">public</span>
-                    <span class="phpdocumentor-signature__name">getWeapons</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">array&lt;string|int, <a href="classes/Smr-Combat-Weapon-Weapon.html"><abbr title="\Smr\Combat\Weapon\Weapon">Weapon</abbr></a>&gt;</span></code>
+                    <span class="phpdocumentor-signature__name">getWeapons</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">array&lt;int, <a href="classes/Smr-Combat-Weapon-Weapon.html"><abbr title="\Smr\Combat\Weapon\Weapon">Weapon</abbr></a>&gt;</span></code>
 
     <div class="phpdocumentor-label-line">
         </div>
@@ -5593,7 +5719,7 @@ no restriction.</p>
     
             <section>
         <h5 class="phpdocumentor-return-value__heading">Return values</h5>
-        <span class="phpdocumentor-signature__response_type">array&lt;string|int, <a href="classes/Smr-Combat-Weapon-Weapon.html"><abbr title="\Smr\Combat\Weapon\Weapon">Weapon</abbr></a>&gt;</span>
+        <span class="phpdocumentor-signature__response_type">array&lt;int, <a href="classes/Smr-Combat-Weapon-Weapon.html"><abbr title="\Smr\Combat\Weapon\Weapon">Weapon</abbr></a>&gt;</span>
             </section>
 
 </article>
@@ -5611,9 +5737,9 @@ no restriction.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Planet.php"><a href="files/src-lib-smr-planet.html"><abbr title="src/lib/Smr/Planet.php">Planet.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">432</span>
+    <span class="phpdocumentor-element-found-in__line">440</span>
 
-            <a href="classes/Smr-Planet.html#source-view.432" class="phpdocumentor-element-found-in__source" data-line="432" data-modal="source-view" data-src="files/src/lib/Smr/Planet.php.txt"></a>
+            <a href="classes/Smr-Planet.html#source-view.440" class="phpdocumentor-element-found-in__source" data-line="440" data-modal="source-view" data-src="files/src/lib/Smr/Planet.php.txt"></a>
     </aside>
 
     
@@ -5650,9 +5776,9 @@ no restriction.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Planet.php"><a href="files/src-lib-smr-planet.html"><abbr title="src/lib/Smr/Planet.php">Planet.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">660</span>
+    <span class="phpdocumentor-element-found-in__line">668</span>
 
-            <a href="classes/Smr-Planet.html#source-view.660" class="phpdocumentor-element-found-in__source" data-line="660" data-modal="source-view" data-src="files/src/lib/Smr/Planet.php.txt"></a>
+            <a href="classes/Smr-Planet.html#source-view.668" class="phpdocumentor-element-found-in__source" data-line="668" data-modal="source-view" data-src="files/src/lib/Smr/Planet.php.txt"></a>
     </aside>
 
     
@@ -5699,9 +5825,9 @@ no restriction.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Planet.php"><a href="files/src-lib-smr-planet.html"><abbr title="src/lib/Smr/Planet.php">Planet.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">467</span>
+    <span class="phpdocumentor-element-found-in__line">475</span>
 
-            <a href="classes/Smr-Planet.html#source-view.467" class="phpdocumentor-element-found-in__source" data-line="467" data-modal="source-view" data-src="files/src/lib/Smr/Planet.php.txt"></a>
+            <a href="classes/Smr-Planet.html#source-view.475" class="phpdocumentor-element-found-in__source" data-line="475" data-modal="source-view" data-src="files/src/lib/Smr/Planet.php.txt"></a>
     </aside>
 
     
@@ -5738,9 +5864,9 @@ no restriction.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Planet.php"><a href="files/src-lib-smr-planet.html"><abbr title="src/lib/Smr/Planet.php">Planet.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">966</span>
+    <span class="phpdocumentor-element-found-in__line">974</span>
 
-            <a href="classes/Smr-Planet.html#source-view.966" class="phpdocumentor-element-found-in__source" data-line="966" data-modal="source-view" data-src="files/src/lib/Smr/Planet.php.txt"></a>
+            <a href="classes/Smr-Planet.html#source-view.974" class="phpdocumentor-element-found-in__source" data-line="974" data-modal="source-view" data-src="files/src/lib/Smr/Planet.php.txt"></a>
     </aside>
 
         <p class="phpdocumentor-summary">Returns true if there is a building in progress</p>
@@ -5778,9 +5904,9 @@ no restriction.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Planet.php"><a href="files/src-lib-smr-planet.html"><abbr title="src/lib/Smr/Planet.php">Planet.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">1208</span>
+    <span class="phpdocumentor-element-found-in__line">1220</span>
 
-            <a href="classes/Smr-Planet.html#source-view.1208" class="phpdocumentor-element-found-in__source" data-line="1208" data-modal="source-view" data-src="files/src/lib/Smr/Planet.php.txt"></a>
+            <a href="classes/Smr-Planet.html#source-view.1220" class="phpdocumentor-element-found-in__source" data-line="1220" data-modal="source-view" data-src="files/src/lib/Smr/Planet.php.txt"></a>
     </aside>
 
     
@@ -5827,9 +5953,9 @@ no restriction.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Planet.php"><a href="files/src-lib-smr-planet.html"><abbr title="src/lib/Smr/Planet.php">Planet.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">1215</span>
+    <span class="phpdocumentor-element-found-in__line">1227</span>
 
-            <a href="classes/Smr-Planet.html#source-view.1215" class="phpdocumentor-element-found-in__source" data-line="1215" data-modal="source-view" data-src="files/src/lib/Smr/Planet.php.txt"></a>
+            <a href="classes/Smr-Planet.html#source-view.1227" class="phpdocumentor-element-found-in__source" data-line="1227" data-modal="source-view" data-src="files/src/lib/Smr/Planet.php.txt"></a>
     </aside>
 
     
@@ -5876,9 +6002,9 @@ no restriction.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Planet.php"><a href="files/src-lib-smr-planet.html"><abbr title="src/lib/Smr/Planet.php">Planet.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">827</span>
+    <span class="phpdocumentor-element-found-in__line">835</span>
 
-            <a href="classes/Smr-Planet.html#source-view.827" class="phpdocumentor-element-found-in__source" data-line="827" data-modal="source-view" data-src="files/src/lib/Smr/Planet.php.txt"></a>
+            <a href="classes/Smr-Planet.html#source-view.835" class="phpdocumentor-element-found-in__source" data-line="835" data-modal="source-view" data-src="files/src/lib/Smr/Planet.php.txt"></a>
     </aside>
 
         <p class="phpdocumentor-summary">Specifies which menu options the planet has.</p>
@@ -5926,9 +6052,9 @@ no restriction.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Planet.php"><a href="files/src-lib-smr-planet.html"><abbr title="src/lib/Smr/Planet.php">Planet.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">524</span>
+    <span class="phpdocumentor-element-found-in__line">532</span>
 
-            <a href="classes/Smr-Planet.html#source-view.524" class="phpdocumentor-element-found-in__source" data-line="524" data-modal="source-view" data-src="files/src/lib/Smr/Planet.php.txt"></a>
+            <a href="classes/Smr-Planet.html#source-view.532" class="phpdocumentor-element-found-in__source" data-line="532" data-modal="source-view" data-src="files/src/lib/Smr/Planet.php.txt"></a>
     </aside>
 
     
@@ -5975,9 +6101,9 @@ no restriction.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Planet.php"><a href="files/src-lib-smr-planet.html"><abbr title="src/lib/Smr/Planet.php">Planet.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">1204</span>
+    <span class="phpdocumentor-element-found-in__line">1216</span>
 
-            <a href="classes/Smr-Planet.html#source-view.1204" class="phpdocumentor-element-found-in__source" data-line="1204" data-modal="source-view" data-src="files/src/lib/Smr/Planet.php.txt"></a>
+            <a href="classes/Smr-Planet.html#source-view.1216" class="phpdocumentor-element-found-in__source" data-line="1216" data-modal="source-view" data-src="files/src/lib/Smr/Planet.php.txt"></a>
     </aside>
 
     
@@ -6024,9 +6150,9 @@ no restriction.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Planet.php"><a href="files/src-lib-smr-planet.html"><abbr title="src/lib/Smr/Planet.php">Planet.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">251</span>
+    <span class="phpdocumentor-element-found-in__line">259</span>
 
-            <a href="classes/Smr-Planet.html#source-view.251" class="phpdocumentor-element-found-in__source" data-line="251" data-modal="source-view" data-src="files/src/lib/Smr/Planet.php.txt"></a>
+            <a href="classes/Smr-Planet.html#source-view.259" class="phpdocumentor-element-found-in__source" data-line="259" data-modal="source-view" data-src="files/src/lib/Smr/Planet.php.txt"></a>
     </aside>
 
     
@@ -6063,9 +6189,9 @@ no restriction.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Planet.php"><a href="files/src-lib-smr-planet.html"><abbr title="src/lib/Smr/Planet.php">Planet.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">809</span>
+    <span class="phpdocumentor-element-found-in__line">817</span>
 
-            <a href="classes/Smr-Planet.html#source-view.809" class="phpdocumentor-element-found-in__source" data-line="809" data-modal="source-view" data-src="files/src/lib/Smr/Planet.php.txt"></a>
+            <a href="classes/Smr-Planet.html#source-view.817" class="phpdocumentor-element-found-in__source" data-line="817" data-modal="source-view" data-src="files/src/lib/Smr/Planet.php.txt"></a>
     </aside>
 
     
@@ -6102,9 +6228,9 @@ no restriction.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Planet.php"><a href="files/src-lib-smr-planet.html"><abbr title="src/lib/Smr/Planet.php">Planet.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">1191</span>
+    <span class="phpdocumentor-element-found-in__line">1203</span>
 
-            <a href="classes/Smr-Planet.html#source-view.1191" class="phpdocumentor-element-found-in__source" data-line="1191" data-modal="source-view" data-src="files/src/lib/Smr/Planet.php.txt"></a>
+            <a href="classes/Smr-Planet.html#source-view.1203" class="phpdocumentor-element-found-in__source" data-line="1203" data-modal="source-view" data-src="files/src/lib/Smr/Planet.php.txt"></a>
     </aside>
 
     
@@ -6141,9 +6267,9 @@ no restriction.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Planet.php"><a href="files/src-lib-smr-planet.html"><abbr title="src/lib/Smr/Planet.php">Planet.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">397</span>
+    <span class="phpdocumentor-element-found-in__line">405</span>
 
-            <a href="classes/Smr-Planet.html#source-view.397" class="phpdocumentor-element-found-in__source" data-line="397" data-modal="source-view" data-src="files/src/lib/Smr/Planet.php.txt"></a>
+            <a href="classes/Smr-Planet.html#source-view.405" class="phpdocumentor-element-found-in__source" data-line="405" data-modal="source-view" data-src="files/src/lib/Smr/Planet.php.txt"></a>
     </aside>
 
     
@@ -6180,9 +6306,9 @@ no restriction.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Planet.php"><a href="files/src-lib-smr-planet.html"><abbr title="src/lib/Smr/Planet.php">Planet.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">601</span>
+    <span class="phpdocumentor-element-found-in__line">609</span>
 
-            <a href="classes/Smr-Planet.html#source-view.601" class="phpdocumentor-element-found-in__source" data-line="601" data-modal="source-view" data-src="files/src/lib/Smr/Planet.php.txt"></a>
+            <a href="classes/Smr-Planet.html#source-view.609" class="phpdocumentor-element-found-in__source" data-line="609" data-modal="source-view" data-src="files/src/lib/Smr/Planet.php.txt"></a>
     </aside>
 
     
@@ -6229,9 +6355,9 @@ no restriction.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Planet.php"><a href="files/src-lib-smr-planet.html"><abbr title="src/lib/Smr/Planet.php">Planet.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">820</span>
+    <span class="phpdocumentor-element-found-in__line">828</span>
 
-            <a href="classes/Smr-Planet.html#source-view.820" class="phpdocumentor-element-found-in__source" data-line="820" data-modal="source-view" data-src="files/src/lib/Smr/Planet.php.txt"></a>
+            <a href="classes/Smr-Planet.html#source-view.828" class="phpdocumentor-element-found-in__source" data-line="828" data-modal="source-view" data-src="files/src/lib/Smr/Planet.php.txt"></a>
     </aside>
 
     
@@ -6278,9 +6404,9 @@ no restriction.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Planet.php"><a href="files/src-lib-smr-planet.html"><abbr title="src/lib/Smr/Planet.php">Planet.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">452</span>
+    <span class="phpdocumentor-element-found-in__line">460</span>
 
-            <a href="classes/Smr-Planet.html#source-view.452" class="phpdocumentor-element-found-in__source" data-line="452" data-modal="source-view" data-src="files/src/lib/Smr/Planet.php.txt"></a>
+            <a href="classes/Smr-Planet.html#source-view.460" class="phpdocumentor-element-found-in__source" data-line="460" data-modal="source-view" data-src="files/src/lib/Smr/Planet.php.txt"></a>
     </aside>
 
     
@@ -6323,9 +6449,9 @@ no restriction.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Planet.php"><a href="files/src-lib-smr-planet.html"><abbr title="src/lib/Smr/Planet.php">Planet.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">357</span>
+    <span class="phpdocumentor-element-found-in__line">365</span>
 
-            <a href="classes/Smr-Planet.html#source-view.357" class="phpdocumentor-element-found-in__source" data-line="357" data-modal="source-view" data-src="files/src/lib/Smr/Planet.php.txt"></a>
+            <a href="classes/Smr-Planet.html#source-view.365" class="phpdocumentor-element-found-in__source" data-line="365" data-modal="source-view" data-src="files/src/lib/Smr/Planet.php.txt"></a>
     </aside>
 
     
@@ -6368,9 +6494,9 @@ no restriction.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Planet.php"><a href="files/src-lib-smr-planet.html"><abbr title="src/lib/Smr/Planet.php">Planet.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">676</span>
+    <span class="phpdocumentor-element-found-in__line">684</span>
 
-            <a href="classes/Smr-Planet.html#source-view.676" class="phpdocumentor-element-found-in__source" data-line="676" data-modal="source-view" data-src="files/src/lib/Smr/Planet.php.txt"></a>
+            <a href="classes/Smr-Planet.html#source-view.684" class="phpdocumentor-element-found-in__source" data-line="684" data-modal="source-view" data-src="files/src/lib/Smr/Planet.php.txt"></a>
     </aside>
 
     
@@ -6420,9 +6546,9 @@ no restriction.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Planet.php"><a href="files/src-lib-smr-planet.html"><abbr title="src/lib/Smr/Planet.php">Planet.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">487</span>
+    <span class="phpdocumentor-element-found-in__line">495</span>
 
-            <a href="classes/Smr-Planet.html#source-view.487" class="phpdocumentor-element-found-in__source" data-line="487" data-modal="source-view" data-src="files/src/lib/Smr/Planet.php.txt"></a>
+            <a href="classes/Smr-Planet.html#source-view.495" class="phpdocumentor-element-found-in__source" data-line="495" data-modal="source-view" data-src="files/src/lib/Smr/Planet.php.txt"></a>
     </aside>
 
     
@@ -6465,9 +6591,9 @@ no restriction.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Planet.php"><a href="files/src-lib-smr-planet.html"><abbr title="src/lib/Smr/Planet.php">Planet.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">309</span>
+    <span class="phpdocumentor-element-found-in__line">317</span>
 
-            <a href="classes/Smr-Planet.html#source-view.309" class="phpdocumentor-element-found-in__source" data-line="309" data-modal="source-view" data-src="files/src/lib/Smr/Planet.php.txt"></a>
+            <a href="classes/Smr-Planet.html#source-view.317" class="phpdocumentor-element-found-in__source" data-line="317" data-modal="source-view" data-src="files/src/lib/Smr/Planet.php.txt"></a>
     </aside>
 
         <p class="phpdocumentor-summary">Increases planet credits up to the maximum allowed credits.</p>
@@ -6517,9 +6643,9 @@ no restriction.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Planet.php"><a href="files/src-lib-smr-planet.html"><abbr title="src/lib/Smr/Planet.php">Planet.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">417</span>
+    <span class="phpdocumentor-element-found-in__line">425</span>
 
-            <a href="classes/Smr-Planet.html#source-view.417" class="phpdocumentor-element-found-in__source" data-line="417" data-modal="source-view" data-src="files/src/lib/Smr/Planet.php.txt"></a>
+            <a href="classes/Smr-Planet.html#source-view.425" class="phpdocumentor-element-found-in__source" data-line="425" data-modal="source-view" data-src="files/src/lib/Smr/Planet.php.txt"></a>
     </aside>
 
     
@@ -6562,9 +6688,9 @@ no restriction.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Planet.php"><a href="files/src-lib-smr-planet.html"><abbr title="src/lib/Smr/Planet.php">Planet.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">627</span>
+    <span class="phpdocumentor-element-found-in__line">635</span>
 
-            <a href="classes/Smr-Planet.html#source-view.627" class="phpdocumentor-element-found-in__source" data-line="627" data-modal="source-view" data-src="files/src/lib/Smr/Planet.php.txt"></a>
+            <a href="classes/Smr-Planet.html#source-view.635" class="phpdocumentor-element-found-in__source" data-line="635" data-modal="source-view" data-src="files/src/lib/Smr/Planet.php.txt"></a>
     </aside>
 
     
@@ -6614,15 +6740,54 @@ no restriction.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Planet.php"><a href="files/src-lib-smr-planet.html"><abbr title="src/lib/Smr/Planet.php">Planet.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">572</span>
+    <span class="phpdocumentor-element-found-in__line">580</span>
 
-            <a href="classes/Smr-Planet.html#source-view.572" class="phpdocumentor-element-found-in__source" data-line="572" data-modal="source-view" data-src="files/src/lib/Smr/Planet.php.txt"></a>
+            <a href="classes/Smr-Planet.html#source-view.580" class="phpdocumentor-element-found-in__source" data-line="580" data-modal="source-view" data-src="files/src/lib/Smr/Planet.php.txt"></a>
     </aside>
 
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">public</span>
                     <span class="phpdocumentor-signature__name">isBusted</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">bool</span></code>
+
+    <div class="phpdocumentor-label-line">
+        </div>
+    
+    
+    
+    
+
+        
+    
+            <section>
+        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
+        <span class="phpdocumentor-signature__response_type">bool</span>
+            </section>
+
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="method_isDestroyed">
+        isDestroyed()
+        <a href="classes/Smr-Planet.html#method_isDestroyed" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Planet.php"><a href="files/src-lib-smr-planet.html"><abbr title="src/lib/Smr/Planet.php">Planet.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">1255</span>
+
+            <a href="classes/Smr-Planet.html#source-view.1255" class="phpdocumentor-element-found-in__source" data-line="1255" data-modal="source-view" data-src="files/src/lib/Smr/Planet.php.txt"></a>
+    </aside>
+
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+                    <span class="phpdocumentor-signature__name">isDestroyed</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">bool</span></code>
 
     <div class="phpdocumentor-label-line">
         </div>
@@ -6653,9 +6818,9 @@ no restriction.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Planet.php"><a href="files/src-lib-smr-planet.html"><abbr title="src/lib/Smr/Planet.php">Planet.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">1099</span>
+    <span class="phpdocumentor-element-found-in__line">1111</span>
 
-            <a href="classes/Smr-Planet.html#source-view.1099" class="phpdocumentor-element-found-in__source" data-line="1099" data-modal="source-view" data-src="files/src/lib/Smr/Planet.php.txt"></a>
+            <a href="classes/Smr-Planet.html#source-view.1111" class="phpdocumentor-element-found-in__source" data-line="1111" data-modal="source-view" data-src="files/src/lib/Smr/Planet.php.txt"></a>
     </aside>
 
     
@@ -6692,9 +6857,9 @@ no restriction.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Planet.php"><a href="files/src-lib-smr-planet.html"><abbr title="src/lib/Smr/Planet.php">Planet.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">805</span>
+    <span class="phpdocumentor-element-found-in__line">813</span>
 
-            <a href="classes/Smr-Planet.html#source-view.805" class="phpdocumentor-element-found-in__source" data-line="805" data-modal="source-view" data-src="files/src/lib/Smr/Planet.php.txt"></a>
+            <a href="classes/Smr-Planet.html#source-view.813" class="phpdocumentor-element-found-in__source" data-line="813" data-modal="source-view" data-src="files/src/lib/Smr/Planet.php.txt"></a>
     </aside>
 
     
@@ -6723,23 +6888,23 @@ no restriction.</p>
             -public
                                                         "
 >
-    <h4 class="phpdocumentor-element__name" id="method_killPlanetByPlayer">
-        killPlanetByPlayer()
-        <a href="classes/Smr-Planet.html#method_killPlanetByPlayer" class="headerlink"><i class="fas fa-link"></i></a>
+    <h4 class="phpdocumentor-element__name" id="method_killBy">
+        killBy()
+        <a href="classes/Smr-Planet.html#method_killBy" class="headerlink"><i class="fas fa-link"></i></a>
 
     </h4>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Planet.php"><a href="files/src-lib-smr-planet.html"><abbr title="src/lib/Smr/Planet.php">Planet.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">1378</span>
+    <span class="phpdocumentor-element-found-in__line">1366</span>
 
-            <a href="classes/Smr-Planet.html#source-view.1378" class="phpdocumentor-element-found-in__source" data-line="1378" data-modal="source-view" data-src="files/src/lib/Smr/Planet.php.txt"></a>
+            <a href="classes/Smr-Planet.html#source-view.1366" class="phpdocumentor-element-found-in__source" data-line="1366" data-modal="source-view" data-src="files/src/lib/Smr/Planet.php.txt"></a>
     </aside>
 
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">public</span>
-                    <span class="phpdocumentor-signature__name">killPlanetByPlayer</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__type"><a href="classes/Smr-Player.html"><abbr title="\Smr\Player">Player</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$killer</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">array{}</span></code>
+                    <span class="phpdocumentor-signature__name">killBy</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__type"><a href="classes/Smr-Combat-CombatantInterface.html"><abbr title="\Smr\Combat\CombatantInterface">CombatantInterface</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$killer</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type"><a href="classes/Smr-Combat-Results-Kill-PlanetDestroyedByPlayer.html"><abbr title="\Smr\Combat\Results\Kill\PlanetDestroyedByPlayer">PlanetDestroyedByPlayer</abbr></a></span></code>
 
     <div class="phpdocumentor-label-line">
         </div>
@@ -6749,7 +6914,7 @@ no restriction.</p>
     <dl class="phpdocumentor-argument-list">
                     <dt class="phpdocumentor-argument-list__entry">
                 <span class="phpdocumentor-argument-list__argument__name">$killer</span>
-                : <span class="phpdocumentor-argument-list__argument__type"><a href="classes/Smr-Player.html"><abbr title="\Smr\Player">Player</abbr></a></span>
+                : <span class="phpdocumentor-argument-list__argument__type"><a href="classes/Smr-Combat-CombatantInterface.html"><abbr title="\Smr\Combat\CombatantInterface">CombatantInterface</abbr></a></span>
                             </dt>
             <dd class="phpdocumentor-argument-list__definition">
                 
@@ -6762,7 +6927,7 @@ no restriction.</p>
     
             <section>
         <h5 class="phpdocumentor-return-value__heading">Return values</h5>
-        <span class="phpdocumentor-signature__response_type">array{}</span>
+        <span class="phpdocumentor-signature__response_type"><a href="classes/Smr-Combat-Results-Kill-PlanetDestroyedByPlayer.html"><abbr title="\Smr\Combat\Results\Kill\PlanetDestroyedByPlayer">PlanetDestroyedByPlayer</abbr></a></span>
             </section>
 
 </article>
@@ -6780,9 +6945,9 @@ no restriction.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Planet.php"><a href="files/src-lib-smr-planet.html"><abbr title="src/lib/Smr/Planet.php">Planet.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">565</span>
+    <span class="phpdocumentor-element-found-in__line">573</span>
 
-            <a href="classes/Smr-Planet.html#source-view.565" class="phpdocumentor-element-found-in__source" data-line="565" data-modal="source-view" data-src="files/src/lib/Smr/Planet.php.txt"></a>
+            <a href="classes/Smr-Planet.html#source-view.573" class="phpdocumentor-element-found-in__source" data-line="573" data-modal="source-view" data-src="files/src/lib/Smr/Planet.php.txt"></a>
     </aside>
 
     
@@ -6825,9 +6990,9 @@ no restriction.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Planet.php"><a href="files/src-lib-smr-planet.html"><abbr title="src/lib/Smr/Planet.php">Planet.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">558</span>
+    <span class="phpdocumentor-element-found-in__line">566</span>
 
-            <a href="classes/Smr-Planet.html#source-view.558" class="phpdocumentor-element-found-in__source" data-line="558" data-modal="source-view" data-src="files/src/lib/Smr/Planet.php.txt"></a>
+            <a href="classes/Smr-Planet.html#source-view.566" class="phpdocumentor-element-found-in__source" data-line="566" data-modal="source-view" data-src="files/src/lib/Smr/Planet.php.txt"></a>
     </aside>
 
     
@@ -6862,6 +7027,46 @@ no restriction.</p>
             -public
                                                         "
 >
+    <h4 class="phpdocumentor-element__name" id="method_reduceDamageDoneDCS">
+        reduceDamageDoneDCS()
+        <a href="classes/Smr-Planet.html#method_reduceDamageDoneDCS" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Planet.php"><a href="files/src-lib-smr-planet.html"><abbr title="src/lib/Smr/Planet.php">Planet.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">1382</span>
+
+            <a href="classes/Smr-Planet.html#source-view.1382" class="phpdocumentor-element-found-in__source" data-line="1382" data-modal="source-view" data-src="files/src/lib/Smr/Planet.php.txt"></a>
+    </aside>
+
+        <p class="phpdocumentor-summary">Factor to multiply drone damage by if target player has a DCS.</p>
+
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+                    <span class="phpdocumentor-signature__name">reduceDamageDoneDCS</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">float</span></code>
+
+    <div class="phpdocumentor-label-line">
+        </div>
+    
+    
+    
+    
+
+        
+    
+            <section>
+        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
+        <span class="phpdocumentor-signature__response_type">float</span>
+            </section>
+
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                                        "
+>
     <h4 class="phpdocumentor-element__name" id="method_removeMountedWeapon">
         removeMountedWeapon()
         <a href="classes/Smr-Planet.html#method_removeMountedWeapon" class="headerlink"><i class="fas fa-link"></i></a>
@@ -6870,9 +7075,9 @@ no restriction.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Planet.php"><a href="files/src-lib-smr-planet.html"><abbr title="src/lib/Smr/Planet.php">Planet.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">535</span>
+    <span class="phpdocumentor-element-found-in__line">543</span>
 
-            <a href="classes/Smr-Planet.html#source-view.535" class="phpdocumentor-element-found-in__source" data-line="535" data-modal="source-view" data-src="files/src/lib/Smr/Planet.php.txt"></a>
+            <a href="classes/Smr-Planet.html#source-view.543" class="phpdocumentor-element-found-in__source" data-line="543" data-modal="source-view" data-src="files/src/lib/Smr/Planet.php.txt"></a>
     </aside>
 
     
@@ -6915,9 +7120,9 @@ no restriction.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Planet.php"><a href="files/src-lib-smr-planet.html"><abbr title="src/lib/Smr/Planet.php">Planet.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">255</span>
+    <span class="phpdocumentor-element-found-in__line">263</span>
 
-            <a href="classes/Smr-Planet.html#source-view.255" class="phpdocumentor-element-found-in__source" data-line="255" data-modal="source-view" data-src="files/src/lib/Smr/Planet.php.txt"></a>
+            <a href="classes/Smr-Planet.html#source-view.263" class="phpdocumentor-element-found-in__source" data-line="263" data-modal="source-view" data-src="files/src/lib/Smr/Planet.php.txt"></a>
     </aside>
 
     
@@ -6950,9 +7155,9 @@ no restriction.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Planet.php"><a href="files/src-lib-smr-planet.html"><abbr title="src/lib/Smr/Planet.php">Planet.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">283</span>
+    <span class="phpdocumentor-element-found-in__line">291</span>
 
-            <a href="classes/Smr-Planet.html#source-view.283" class="phpdocumentor-element-found-in__source" data-line="283" data-modal="source-view" data-src="files/src/lib/Smr/Planet.php.txt"></a>
+            <a href="classes/Smr-Planet.html#source-view.291" class="phpdocumentor-element-found-in__source" data-line="291" data-modal="source-view" data-src="files/src/lib/Smr/Planet.php.txt"></a>
     </aside>
 
     
@@ -6985,9 +7190,9 @@ no restriction.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Planet.php"><a href="files/src-lib-smr-planet.html"><abbr title="src/lib/Smr/Planet.php">Planet.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">125</span>
+    <span class="phpdocumentor-element-found-in__line">133</span>
 
-            <a href="classes/Smr-Planet.html#source-view.125" class="phpdocumentor-element-found-in__source" data-line="125" data-modal="source-view" data-src="files/src/lib/Smr/Planet.php.txt"></a>
+            <a href="classes/Smr-Planet.html#source-view.133" class="phpdocumentor-element-found-in__source" data-line="133" data-modal="source-view" data-src="files/src/lib/Smr/Planet.php.txt"></a>
     </aside>
 
     
@@ -7037,9 +7242,9 @@ no restriction.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Planet.php"><a href="files/src-lib-smr-planet.html"><abbr title="src/lib/Smr/Planet.php">Planet.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">72</span>
+    <span class="phpdocumentor-element-found-in__line">80</span>
 
-            <a href="classes/Smr-Planet.html#source-view.72" class="phpdocumentor-element-found-in__source" data-line="72" data-modal="source-view" data-src="files/src/lib/Smr/Planet.php.txt"></a>
+            <a href="classes/Smr-Planet.html#source-view.80" class="phpdocumentor-element-found-in__source" data-line="80" data-modal="source-view" data-src="files/src/lib/Smr/Planet.php.txt"></a>
     </aside>
 
     
@@ -7072,9 +7277,9 @@ no restriction.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Planet.php"><a href="files/src-lib-smr-planet.html"><abbr title="src/lib/Smr/Planet.php">Planet.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">436</span>
+    <span class="phpdocumentor-element-found-in__line">444</span>
 
-            <a href="classes/Smr-Planet.html#source-view.436" class="phpdocumentor-element-found-in__source" data-line="436" data-modal="source-view" data-src="files/src/lib/Smr/Planet.php.txt"></a>
+            <a href="classes/Smr-Planet.html#source-view.444" class="phpdocumentor-element-found-in__source" data-line="444" data-modal="source-view" data-src="files/src/lib/Smr/Planet.php.txt"></a>
     </aside>
 
     
@@ -7117,9 +7322,9 @@ no restriction.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Planet.php"><a href="files/src-lib-smr-planet.html"><abbr title="src/lib/Smr/Planet.php">Planet.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">346</span>
+    <span class="phpdocumentor-element-found-in__line">354</span>
 
-            <a href="classes/Smr-Planet.html#source-view.346" class="phpdocumentor-element-found-in__source" data-line="346" data-modal="source-view" data-src="files/src/lib/Smr/Planet.php.txt"></a>
+            <a href="classes/Smr-Planet.html#source-view.354" class="phpdocumentor-element-found-in__source" data-line="354" data-modal="source-view" data-src="files/src/lib/Smr/Planet.php.txt"></a>
     </aside>
 
     
@@ -7162,9 +7367,9 @@ no restriction.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Planet.php"><a href="files/src-lib-smr-planet.html"><abbr title="src/lib/Smr/Planet.php">Planet.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">664</span>
+    <span class="phpdocumentor-element-found-in__line">672</span>
 
-            <a href="classes/Smr-Planet.html#source-view.664" class="phpdocumentor-element-found-in__source" data-line="664" data-modal="source-view" data-src="files/src/lib/Smr/Planet.php.txt"></a>
+            <a href="classes/Smr-Planet.html#source-view.672" class="phpdocumentor-element-found-in__source" data-line="672" data-modal="source-view" data-src="files/src/lib/Smr/Planet.php.txt"></a>
     </aside>
 
     
@@ -7214,9 +7419,9 @@ no restriction.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Planet.php"><a href="files/src-lib-smr-planet.html"><abbr title="src/lib/Smr/Planet.php">Planet.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">742</span>
+    <span class="phpdocumentor-element-found-in__line">750</span>
 
-            <a href="classes/Smr-Planet.html#source-view.742" class="phpdocumentor-element-found-in__source" data-line="742" data-modal="source-view" data-src="files/src/lib/Smr/Planet.php.txt"></a>
+            <a href="classes/Smr-Planet.html#source-view.750" class="phpdocumentor-element-found-in__source" data-line="750" data-modal="source-view" data-src="files/src/lib/Smr/Planet.php.txt"></a>
     </aside>
 
     
@@ -7249,9 +7454,9 @@ no restriction.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Planet.php"><a href="files/src-lib-smr-planet.html"><abbr title="src/lib/Smr/Planet.php">Planet.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">471</span>
+    <span class="phpdocumentor-element-found-in__line">479</span>
 
-            <a href="classes/Smr-Planet.html#source-view.471" class="phpdocumentor-element-found-in__source" data-line="471" data-modal="source-view" data-src="files/src/lib/Smr/Planet.php.txt"></a>
+            <a href="classes/Smr-Planet.html#source-view.479" class="phpdocumentor-element-found-in__source" data-line="479" data-modal="source-view" data-src="files/src/lib/Smr/Planet.php.txt"></a>
     </aside>
 
     
@@ -7294,9 +7499,9 @@ no restriction.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Planet.php"><a href="files/src-lib-smr-planet.html"><abbr title="src/lib/Smr/Planet.php">Planet.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">291</span>
+    <span class="phpdocumentor-element-found-in__line">299</span>
 
-            <a href="classes/Smr-Planet.html#source-view.291" class="phpdocumentor-element-found-in__source" data-line="291" data-modal="source-view" data-src="files/src/lib/Smr/Planet.php.txt"></a>
+            <a href="classes/Smr-Planet.html#source-view.299" class="phpdocumentor-element-found-in__source" data-line="299" data-modal="source-view" data-src="files/src/lib/Smr/Planet.php.txt"></a>
     </aside>
 
     
@@ -7339,9 +7544,9 @@ no restriction.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Planet.php"><a href="files/src-lib-smr-planet.html"><abbr title="src/lib/Smr/Planet.php">Planet.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">748</span>
+    <span class="phpdocumentor-element-found-in__line">756</span>
 
-            <a href="classes/Smr-Planet.html#source-view.748" class="phpdocumentor-element-found-in__source" data-line="748" data-modal="source-view" data-src="files/src/lib/Smr/Planet.php.txt"></a>
+            <a href="classes/Smr-Planet.html#source-view.756" class="phpdocumentor-element-found-in__source" data-line="756" data-modal="source-view" data-src="files/src/lib/Smr/Planet.php.txt"></a>
     </aside>
 
     
@@ -7374,9 +7579,9 @@ no restriction.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Planet.php"><a href="files/src-lib-smr-planet.html"><abbr title="src/lib/Smr/Planet.php">Planet.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">331</span>
+    <span class="phpdocumentor-element-found-in__line">339</span>
 
-            <a href="classes/Smr-Planet.html#source-view.331" class="phpdocumentor-element-found-in__source" data-line="331" data-modal="source-view" data-src="files/src/lib/Smr/Planet.php.txt"></a>
+            <a href="classes/Smr-Planet.html#source-view.339" class="phpdocumentor-element-found-in__source" data-line="339" data-modal="source-view" data-src="files/src/lib/Smr/Planet.php.txt"></a>
     </aside>
 
     
@@ -7419,9 +7624,9 @@ no restriction.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Planet.php"><a href="files/src-lib-smr-planet.html"><abbr title="src/lib/Smr/Planet.php">Planet.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">1077</span>
+    <span class="phpdocumentor-element-found-in__line">1085</span>
 
-            <a href="classes/Smr-Planet.html#source-view.1077" class="phpdocumentor-element-found-in__source" data-line="1077" data-modal="source-view" data-src="files/src/lib/Smr/Planet.php.txt"></a>
+            <a href="classes/Smr-Planet.html#source-view.1085" class="phpdocumentor-element-found-in__source" data-line="1085" data-modal="source-view" data-src="files/src/lib/Smr/Planet.php.txt"></a>
     </aside>
 
     
@@ -7464,9 +7669,9 @@ no restriction.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Planet.php"><a href="files/src-lib-smr-planet.html"><abbr title="src/lib/Smr/Planet.php">Planet.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">259</span>
+    <span class="phpdocumentor-element-found-in__line">267</span>
 
-            <a href="classes/Smr-Planet.html#source-view.259" class="phpdocumentor-element-found-in__source" data-line="259" data-modal="source-view" data-src="files/src/lib/Smr/Planet.php.txt"></a>
+            <a href="classes/Smr-Planet.html#source-view.267" class="phpdocumentor-element-found-in__source" data-line="267" data-modal="source-view" data-src="files/src/lib/Smr/Planet.php.txt"></a>
     </aside>
 
     
@@ -7509,9 +7714,9 @@ no restriction.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Planet.php"><a href="files/src-lib-smr-planet.html"><abbr title="src/lib/Smr/Planet.php">Planet.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">275</span>
+    <span class="phpdocumentor-element-found-in__line">283</span>
 
-            <a href="classes/Smr-Planet.html#source-view.275" class="phpdocumentor-element-found-in__source" data-line="275" data-modal="source-view" data-src="files/src/lib/Smr/Planet.php.txt"></a>
+            <a href="classes/Smr-Planet.html#source-view.283" class="phpdocumentor-element-found-in__source" data-line="283" data-modal="source-view" data-src="files/src/lib/Smr/Planet.php.txt"></a>
     </aside>
 
     
@@ -7554,9 +7759,9 @@ no restriction.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Planet.php"><a href="files/src-lib-smr-planet.html"><abbr title="src/lib/Smr/Planet.php">Planet.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">401</span>
+    <span class="phpdocumentor-element-found-in__line">409</span>
 
-            <a href="classes/Smr-Planet.html#source-view.401" class="phpdocumentor-element-found-in__source" data-line="401" data-modal="source-view" data-src="files/src/lib/Smr/Planet.php.txt"></a>
+            <a href="classes/Smr-Planet.html#source-view.409" class="phpdocumentor-element-found-in__source" data-line="409" data-modal="source-view" data-src="files/src/lib/Smr/Planet.php.txt"></a>
     </aside>
 
     
@@ -7599,9 +7804,9 @@ no restriction.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Planet.php"><a href="files/src-lib-smr-planet.html"><abbr title="src/lib/Smr/Planet.php">Planet.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">609</span>
+    <span class="phpdocumentor-element-found-in__line">617</span>
 
-            <a href="classes/Smr-Planet.html#source-view.609" class="phpdocumentor-element-found-in__source" data-line="609" data-modal="source-view" data-src="files/src/lib/Smr/Planet.php.txt"></a>
+            <a href="classes/Smr-Planet.html#source-view.617" class="phpdocumentor-element-found-in__source" data-line="617" data-modal="source-view" data-src="files/src/lib/Smr/Planet.php.txt"></a>
     </aside>
 
     
@@ -7651,9 +7856,9 @@ no restriction.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Planet.php"><a href="files/src-lib-smr-planet.html"><abbr title="src/lib/Smr/Planet.php">Planet.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">758</span>
+    <span class="phpdocumentor-element-found-in__line">766</span>
 
-            <a href="classes/Smr-Planet.html#source-view.758" class="phpdocumentor-element-found-in__source" data-line="758" data-modal="source-view" data-src="files/src/lib/Smr/Planet.php.txt"></a>
+            <a href="classes/Smr-Planet.html#source-view.766" class="phpdocumentor-element-found-in__source" data-line="766" data-modal="source-view" data-src="files/src/lib/Smr/Planet.php.txt"></a>
     </aside>
 
     
@@ -7696,15 +7901,15 @@ no restriction.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Planet.php"><a href="files/src-lib-smr-planet.html"><abbr title="src/lib/Smr/Planet.php">Planet.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">1236</span>
+    <span class="phpdocumentor-element-found-in__line">1248</span>
 
-            <a href="classes/Smr-Planet.html#source-view.1236" class="phpdocumentor-element-found-in__source" data-line="1236" data-modal="source-view" data-src="files/src/lib/Smr/Planet.php.txt"></a>
+            <a href="classes/Smr-Planet.html#source-view.1248" class="phpdocumentor-element-found-in__source" data-line="1248" data-modal="source-view" data-src="files/src/lib/Smr/Planet.php.txt"></a>
     </aside>
 
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">public</span>
-                    <span class="phpdocumentor-signature__name">shootPlayers</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__type">array&lt;string|int, <a href="classes/Smr-Player.html"><abbr title="\Smr\Player">Player</abbr></a>&gt;&nbsp;</span><span class="phpdocumentor-signature__argument__name">$targetPlayers</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type"><abbr title="\Smr\PlanetCombatResults">PlanetCombatResults</abbr></span></code>
+                    <span class="phpdocumentor-signature__name">shootPlayers</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__type">array&lt;string|int, <a href="classes/Smr-Player.html"><abbr title="\Smr\Player">Player</abbr></a>&gt;&nbsp;</span><span class="phpdocumentor-signature__argument__name">$targetPlayers</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type"><a href="classes/Smr-Combat-Results-Combatant-CombatantResult.html"><abbr title="\Smr\Combat\Results\Combatant\CombatantResult">CombatantResult</abbr></a>&lt;string|int, <a href="classes/Smr-Combat-NormalCombatantInterface.html"><abbr title="\Smr\Combat\NormalCombatantInterface">NormalCombatantInterface</abbr></a>&gt;</span></code>
 
     <div class="phpdocumentor-label-line">
         </div>
@@ -7727,7 +7932,7 @@ no restriction.</p>
     
             <section>
         <h5 class="phpdocumentor-return-value__heading">Return values</h5>
-        <span class="phpdocumentor-signature__response_type"><abbr title="\Smr\PlanetCombatResults">PlanetCombatResults</abbr></span>
+        <span class="phpdocumentor-signature__response_type"><a href="classes/Smr-Combat-Results-Combatant-CombatantResult.html"><abbr title="\Smr\Combat\Results\Combatant\CombatantResult">CombatantResult</abbr></a>&lt;string|int, <a href="classes/Smr-Combat-NormalCombatantInterface.html"><abbr title="\Smr\Combat\NormalCombatantInterface">NormalCombatantInterface</abbr></a>&gt;</span>
             </section>
 
 </article>
@@ -7745,9 +7950,9 @@ no restriction.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Planet.php"><a href="files/src-lib-smr-planet.html"><abbr title="src/lib/Smr/Planet.php">Planet.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">1024</span>
+    <span class="phpdocumentor-element-found-in__line">1032</span>
 
-            <a href="classes/Smr-Planet.html#source-view.1024" class="phpdocumentor-element-found-in__source" data-line="1024" data-modal="source-view" data-src="files/src/lib/Smr/Planet.php.txt"></a>
+            <a href="classes/Smr-Planet.html#source-view.1032" class="phpdocumentor-element-found-in__source" data-line="1032" data-modal="source-view" data-src="files/src/lib/Smr/Planet.php.txt"></a>
     </aside>
 
     
@@ -7813,9 +8018,9 @@ no restriction.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Planet.php"><a href="files/src-lib-smr-planet.html"><abbr title="src/lib/Smr/Planet.php">Planet.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">1060</span>
+    <span class="phpdocumentor-element-found-in__line">1068</span>
 
-            <a href="classes/Smr-Planet.html#source-view.1060" class="phpdocumentor-element-found-in__source" data-line="1060" data-modal="source-view" data-src="files/src/lib/Smr/Planet.php.txt"></a>
+            <a href="classes/Smr-Planet.html#source-view.1068" class="phpdocumentor-element-found-in__source" data-line="1068" data-modal="source-view" data-src="files/src/lib/Smr/Planet.php.txt"></a>
     </aside>
 
     
@@ -7862,15 +8067,15 @@ no restriction.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Planet.php"><a href="files/src-lib-smr-planet.html"><abbr title="src/lib/Smr/Planet.php">Planet.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">1307</span>
+    <span class="phpdocumentor-element-found-in__line">1298</span>
 
-            <a href="classes/Smr-Planet.html#source-view.1307" class="phpdocumentor-element-found-in__source" data-line="1307" data-modal="source-view" data-src="files/src/lib/Smr/Planet.php.txt"></a>
+            <a href="classes/Smr-Planet.html#source-view.1298" class="phpdocumentor-element-found-in__source" data-line="1298" data-modal="source-view" data-src="files/src/lib/Smr/Planet.php.txt"></a>
     </aside>
 
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">public</span>
-                    <span class="phpdocumentor-signature__name">takeDamage</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__type"><abbr title="\Smr\WeaponDamageData">WeaponDamageData</abbr>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$damage</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type"><abbr title="\Smr\TakenDamageData">TakenDamageData</abbr></span></code>
+                    <span class="phpdocumentor-signature__name">takeDamage</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__type"><a href="classes/Smr-Combat-Results-Damage-WeaponDamage.html"><abbr title="\Smr\Combat\Results\Damage\WeaponDamage">WeaponDamage</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$damage</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type"><abbr title="\Smr\Combat\TDamage">TDamage</abbr></span></code>
 
     <div class="phpdocumentor-label-line">
         </div>
@@ -7880,7 +8085,7 @@ no restriction.</p>
     <dl class="phpdocumentor-argument-list">
                     <dt class="phpdocumentor-argument-list__entry">
                 <span class="phpdocumentor-argument-list__argument__name">$damage</span>
-                : <span class="phpdocumentor-argument-list__argument__type"><abbr title="\Smr\WeaponDamageData">WeaponDamageData</abbr></span>
+                : <span class="phpdocumentor-argument-list__argument__type"><a href="classes/Smr-Combat-Results-Damage-WeaponDamage.html"><abbr title="\Smr\Combat\Results\Damage\WeaponDamage">WeaponDamage</abbr></a></span>
                             </dt>
             <dd class="phpdocumentor-argument-list__definition">
                 
@@ -7893,7 +8098,7 @@ no restriction.</p>
     
             <section>
         <h5 class="phpdocumentor-return-value__heading">Return values</h5>
-        <span class="phpdocumentor-signature__response_type"><abbr title="\Smr\TakenDamageData">TakenDamageData</abbr></span>
+        <span class="phpdocumentor-signature__response_type"><abbr title="\Smr\Combat\TDamage">TDamage</abbr></span>
             </section>
 
 </article>
@@ -7911,9 +8116,9 @@ no restriction.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Planet.php"><a href="files/src-lib-smr-planet.html"><abbr title="src/lib/Smr/Planet.php">Planet.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">832</span>
+    <span class="phpdocumentor-element-found-in__line">840</span>
 
-            <a href="classes/Smr-Planet.html#source-view.832" class="phpdocumentor-element-found-in__source" data-line="832" data-modal="source-view" data-src="files/src/lib/Smr/Planet.php.txt"></a>
+            <a href="classes/Smr-Planet.html#source-view.840" class="phpdocumentor-element-found-in__source" data-line="840" data-modal="source-view" data-src="files/src/lib/Smr/Planet.php.txt"></a>
     </aside>
 
     
@@ -7946,9 +8151,9 @@ no restriction.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Planet.php"><a href="files/src-lib-smr-planet.html"><abbr title="src/lib/Smr/Planet.php">Planet.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">142</span>
+    <span class="phpdocumentor-element-found-in__line">150</span>
 
-            <a href="classes/Smr-Planet.html#source-view.142" class="phpdocumentor-element-found-in__source" data-line="142" data-modal="source-view" data-src="files/src/lib/Smr/Planet.php.txt"></a>
+            <a href="classes/Smr-Planet.html#source-view.150" class="phpdocumentor-element-found-in__source" data-line="150" data-modal="source-view" data-src="files/src/lib/Smr/Planet.php.txt"></a>
     </aside>
 
     
@@ -8005,9 +8210,9 @@ no restriction.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Planet.php"><a href="files/src-lib-smr-planet.html"><abbr title="src/lib/Smr/Planet.php">Planet.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">1354</span>
+    <span class="phpdocumentor-element-found-in__line">1345</span>
 
-            <a href="classes/Smr-Planet.html#source-view.1354" class="phpdocumentor-element-found-in__source" data-line="1354" data-modal="source-view" data-src="files/src/lib/Smr/Planet.php.txt"></a>
+            <a href="classes/Smr-Planet.html#source-view.1345" class="phpdocumentor-element-found-in__source" data-line="1345" data-modal="source-view" data-src="files/src/lib/Smr/Planet.php.txt"></a>
     </aside>
 
     
@@ -8054,9 +8259,9 @@ no restriction.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Planet.php"><a href="files/src-lib-smr-planet.html"><abbr title="src/lib/Smr/Planet.php">Planet.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">1348</span>
+    <span class="phpdocumentor-element-found-in__line">1339</span>
 
-            <a href="classes/Smr-Planet.html#source-view.1348" class="phpdocumentor-element-found-in__source" data-line="1348" data-modal="source-view" data-src="files/src/lib/Smr/Planet.php.txt"></a>
+            <a href="classes/Smr-Planet.html#source-view.1339" class="phpdocumentor-element-found-in__source" data-line="1339" data-modal="source-view" data-src="files/src/lib/Smr/Planet.php.txt"></a>
     </aside>
 
     
@@ -8103,9 +8308,9 @@ no restriction.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Planet.php"><a href="files/src-lib-smr-planet.html"><abbr title="src/lib/Smr/Planet.php">Planet.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">1342</span>
+    <span class="phpdocumentor-element-found-in__line">1333</span>
 
-            <a href="classes/Smr-Planet.html#source-view.1342" class="phpdocumentor-element-found-in__source" data-line="1342" data-modal="source-view" data-src="files/src/lib/Smr/Planet.php.txt"></a>
+            <a href="classes/Smr-Planet.html#source-view.1333" class="phpdocumentor-element-found-in__source" data-line="1333" data-modal="source-view" data-src="files/src/lib/Smr/Planet.php.txt"></a>
     </aside>
 
     
@@ -8152,9 +8357,9 @@ no restriction.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Planet.php"><a href="files/src-lib-smr-planet.html"><abbr title="src/lib/Smr/Planet.php">Planet.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">1004</span>
+    <span class="phpdocumentor-element-found-in__line">1012</span>
 
-            <a href="classes/Smr-Planet.html#source-view.1004" class="phpdocumentor-element-found-in__source" data-line="1004" data-modal="source-view" data-src="files/src/lib/Smr/Planet.php.txt"></a>
+            <a href="classes/Smr-Planet.html#source-view.1012" class="phpdocumentor-element-found-in__source" data-line="1012" data-modal="source-view" data-src="files/src/lib/Smr/Planet.php.txt"></a>
     </aside>
 
     
@@ -8201,9 +8406,9 @@ no restriction.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Planet.php"><a href="files/src-lib-smr-planet.html"><abbr title="src/lib/Smr/Planet.php">Planet.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">1011</span>
+    <span class="phpdocumentor-element-found-in__line">1019</span>
 
-            <a href="classes/Smr-Planet.html#source-view.1011" class="phpdocumentor-element-found-in__source" data-line="1011" data-modal="source-view" data-src="files/src/lib/Smr/Planet.php.txt"></a>
+            <a href="classes/Smr-Planet.html#source-view.1019" class="phpdocumentor-element-found-in__source" data-line="1019" data-modal="source-view" data-src="files/src/lib/Smr/Planet.php.txt"></a>
     </aside>
 
     
@@ -8250,9 +8455,9 @@ no restriction.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Planet.php"><a href="files/src-lib-smr-planet.html"><abbr title="src/lib/Smr/Planet.php">Planet.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">541</span>
+    <span class="phpdocumentor-element-found-in__line">549</span>
 
-            <a href="classes/Smr-Planet.html#source-view.541" class="phpdocumentor-element-found-in__source" data-line="541" data-modal="source-view" data-src="files/src/lib/Smr/Planet.php.txt"></a>
+            <a href="classes/Smr-Planet.html#source-view.549" class="phpdocumentor-element-found-in__source" data-line="549" data-modal="source-view" data-src="files/src/lib/Smr/Planet.php.txt"></a>
     </aside>
 
     
@@ -8458,6 +8663,7 @@ no restriction.</p>
                                             <li class=""><a href="classes/Smr-Planet.html#method_checkForExcessDefense">checkForExcessDefense()</a></li>
                                             <li class=""><a href="classes/Smr-Planet.html#method_clearCache">clearCache()</a></li>
                                             <li class=""><a href="classes/Smr-Planet.html#method_countPlayers">countPlayers()</a></li>
+                                            <li class=""><a href="classes/Smr-Planet.html#method_createCombatDrones">createCombatDrones()</a></li>
                                             <li class=""><a href="classes/Smr-Planet.html#method_createPlanet">createPlanet()</a></li>
                                             <li class=""><a href="classes/Smr-Planet.html#method_creditCurrentAttackersForKill">creditCurrentAttackersForKill()</a></li>
                                             <li class=""><a href="classes/Smr-Planet.html#method_decreaseArmour">decreaseArmour()</a></li>
@@ -8480,6 +8686,7 @@ no restriction.</p>
                                             <li class=""><a href="classes/Smr-Planet.html#method_getBuildRestriction">getBuildRestriction()</a></li>
                                             <li class=""><a href="classes/Smr-Planet.html#method_getCancelHREF">getCancelHREF()</a></li>
                                             <li class=""><a href="classes/Smr-Planet.html#method_getCDs">getCDs()</a></li>
+                                            <li class=""><a href="classes/Smr-Planet.html#method_getCombatID">getCombatID()</a></li>
                                             <li class=""><a href="classes/Smr-Planet.html#method_getCombatName">getCombatName()</a></li>
                                             <li class=""><a href="classes/Smr-Planet.html#method_getConstructionTime">getConstructionTime()</a></li>
                                             <li class=""><a href="classes/Smr-Planet.html#method_getCredits">getCredits()</a></li>
@@ -8544,11 +8751,13 @@ no restriction.</p>
                                             <li class=""><a href="classes/Smr-Planet.html#method_increaseShields">increaseShields()</a></li>
                                             <li class=""><a href="classes/Smr-Planet.html#method_increaseStockpile">increaseStockpile()</a></li>
                                             <li class=""><a href="classes/Smr-Planet.html#method_isBusted">isBusted()</a></li>
+                                            <li class=""><a href="classes/Smr-Planet.html#method_isDestroyed">isDestroyed()</a></li>
                                             <li class=""><a href="classes/Smr-Planet.html#method_isInhabitable">isInhabitable()</a></li>
                                             <li class=""><a href="classes/Smr-Planet.html#method_isMaxLandedUnlimited">isMaxLandedUnlimited()</a></li>
-                                            <li class=""><a href="classes/Smr-Planet.html#method_killPlanetByPlayer">killPlanetByPlayer()</a></li>
+                                            <li class=""><a href="classes/Smr-Planet.html#method_killBy">killBy()</a></li>
                                             <li class=""><a href="classes/Smr-Planet.html#method_moveMountedWeaponDown">moveMountedWeaponDown()</a></li>
                                             <li class=""><a href="classes/Smr-Planet.html#method_moveMountedWeaponUp">moveMountedWeaponUp()</a></li>
+                                            <li class=""><a href="classes/Smr-Planet.html#method_reduceDamageDoneDCS">reduceDamageDoneDCS()</a></li>
                                             <li class=""><a href="classes/Smr-Planet.html#method_removeMountedWeapon">removeMountedWeapon()</a></li>
                                             <li class=""><a href="classes/Smr-Planet.html#method_removeOwner">removeOwner()</a></li>
                                             <li class=""><a href="classes/Smr-Planet.html#method_removePassword">removePassword()</a></li>

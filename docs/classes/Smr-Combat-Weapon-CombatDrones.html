@@ -192,9 +192,9 @@
         <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Combat/Weapon/CombatDrones.php"><a href="files/src-lib-smr-combat-weapon-combatdrones.html"><abbr title="src/lib/Smr/Combat/Weapon/CombatDrones.php">CombatDrones.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">11</span>
+    <span class="phpdocumentor-element-found-in__line">14</span>
 
-            <a href="classes/Smr-Combat-Weapon-CombatDrones.html#source-view.11" class="phpdocumentor-element-found-in__source" data-line="11" data-modal="source-view" data-src="files/src/lib/Smr/Combat/Weapon/CombatDrones.php.txt"></a>
+            <a href="classes/Smr-Combat-Weapon-CombatDrones.html#source-view.14" class="phpdocumentor-element-found-in__source" data-line="14" data-modal="source-view" data-src="files/src/lib/Smr/Combat/Weapon/CombatDrones.php.txt"></a>
     </aside>
 
         
@@ -226,6 +226,12 @@
     <a class="" href="classes/Smr-Combat-Weapon-CombatDrones.html#constant_MAX_CDS_RAND">MAX_CDS_RAND</a>
     <span>
         &nbsp;: int&nbsp;= 54                            </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -constant -protected">
+    <a class="" href="classes/Smr-Combat-Weapon-CombatDrones.html#constant_MIN_CDS_RAND">MIN_CDS_RAND</a>
+    <span>
+        &nbsp;: int&nbsp;= 3                            </span>
 </dt>
 
             <dt class="phpdocumentor-table-of-contents__entry -constant -protected">
@@ -295,25 +301,7 @@
 </dt>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
-    <a class="" href="classes/Smr-Combat-Weapon-AbstractWeapon.html#method_canShootForces">canShootForces()</a>
-    <span>
-                                &nbsp;: bool    </span>
-</dt>
-
-            <dt class="phpdocumentor-table-of-contents__entry -method -public">
-    <a class="" href="classes/Smr-Combat-Weapon-AbstractWeapon.html#method_canShootPlanets">canShootPlanets()</a>
-    <span>
-                                &nbsp;: bool    </span>
-</dt>
-
-            <dt class="phpdocumentor-table-of-contents__entry -method -public">
-    <a class="" href="classes/Smr-Combat-Weapon-AbstractWeapon.html#method_canShootPorts">canShootPorts()</a>
-    <span>
-                                &nbsp;: bool    </span>
-</dt>
-
-            <dt class="phpdocumentor-table-of-contents__entry -method -public">
-    <a class="" href="classes/Smr-Combat-Weapon-AbstractWeapon.html#method_canShootTraders">canShootTraders()</a>
+    <a class="" href="classes/Smr-Combat-Weapon-AbstractWeapon.html#method_canShootTarget">canShootTarget()</a>
     <span>
                                 &nbsp;: bool    </span>
 </dt>
@@ -340,85 +328,19 @@
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
     <a class="" href="classes/Smr-Combat-Weapon-AbstractWeapon.html#method_getDamage">getDamage()</a>
     <span>
-                                &nbsp;: <abbr title="\Smr\Combat\Weapon\WeaponDamageData">WeaponDamageData</abbr>    </span>
+                                &nbsp;: <a href="classes/Smr-Combat-Results-Damage-WeaponDamage.html"><abbr title="\Smr\Combat\Results\Damage\WeaponDamage">WeaponDamage</abbr></a>    </span>
 </dt>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
-    <a class="" href="classes/Smr-Combat-Weapon-CombatDrones.html#method_getModifiedAccuracy">getModifiedAccuracy()</a>
+    <a class="" href="classes/Smr-Combat-Weapon-CombatDrones.html#method_getModifiedAccuracyAgainstTarget">getModifiedAccuracyAgainstTarget()</a>
     <span>
                                 &nbsp;: float    </span>
 </dt>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
-    <a class="" href="classes/Smr-Combat-Weapon-CombatDrones.html#method_getModifiedAccuracyAgainstForces">getModifiedAccuracyAgainstForces()</a>
+    <a class="" href="classes/Smr-Combat-Weapon-CombatDrones.html#method_getModifiedDamageAgainstTarget">getModifiedDamageAgainstTarget()</a>
     <span>
-                                &nbsp;: float    </span>
-</dt>
-
-            <dt class="phpdocumentor-table-of-contents__entry -method -public">
-    <a class="" href="classes/Smr-Combat-Weapon-CombatDrones.html#method_getModifiedAccuracyAgainstPlanet">getModifiedAccuracyAgainstPlanet()</a>
-    <span>
-                                &nbsp;: float    </span>
-</dt>
-
-            <dt class="phpdocumentor-table-of-contents__entry -method -public">
-    <a class="" href="classes/Smr-Combat-Weapon-CombatDrones.html#method_getModifiedAccuracyAgainstPlayer">getModifiedAccuracyAgainstPlayer()</a>
-    <span>
-                                &nbsp;: float    </span>
-</dt>
-
-            <dt class="phpdocumentor-table-of-contents__entry -method -public">
-    <a class="" href="classes/Smr-Combat-Weapon-CombatDrones.html#method_getModifiedAccuracyAgainstPort">getModifiedAccuracyAgainstPort()</a>
-    <span>
-                                &nbsp;: float    </span>
-</dt>
-
-            <dt class="phpdocumentor-table-of-contents__entry -method -public">
-    <a class="" href="classes/Smr-Combat-Weapon-CombatDrones.html#method_getModifiedDamageAgainstForces">getModifiedDamageAgainstForces()</a>
-    <span>
-                                &nbsp;: <abbr title="\Smr\Combat\Weapon\WeaponDamageData">WeaponDamageData</abbr>    </span>
-</dt>
-
-            <dt class="phpdocumentor-table-of-contents__entry -method -public">
-    <a class="" href="classes/Smr-Combat-Weapon-CombatDrones.html#method_getModifiedDamageAgainstPlanet">getModifiedDamageAgainstPlanet()</a>
-    <span>
-                                &nbsp;: <abbr title="\Smr\Combat\Weapon\WeaponDamageData">WeaponDamageData</abbr>    </span>
-</dt>
-
-            <dt class="phpdocumentor-table-of-contents__entry -method -public">
-    <a class="" href="classes/Smr-Combat-Weapon-CombatDrones.html#method_getModifiedDamageAgainstPlayer">getModifiedDamageAgainstPlayer()</a>
-    <span>
-                                &nbsp;: <abbr title="\Smr\Combat\Weapon\WeaponDamageData">WeaponDamageData</abbr>    </span>
-</dt>
-
-            <dt class="phpdocumentor-table-of-contents__entry -method -public">
-    <a class="" href="classes/Smr-Combat-Weapon-CombatDrones.html#method_getModifiedDamageAgainstPort">getModifiedDamageAgainstPort()</a>
-    <span>
-                                &nbsp;: <abbr title="\Smr\Combat\Weapon\WeaponDamageData">WeaponDamageData</abbr>    </span>
-</dt>
-
-            <dt class="phpdocumentor-table-of-contents__entry -method -public">
-    <a class="" href="classes/Smr-Combat-Weapon-CombatDrones.html#method_getModifiedForceAccuracyAgainstPlayer">getModifiedForceAccuracyAgainstPlayer()</a>
-    <span>
-                                &nbsp;: float    </span>
-</dt>
-
-            <dt class="phpdocumentor-table-of-contents__entry -method -public">
-    <a class="" href="classes/Smr-Combat-Weapon-CombatDrones.html#method_getModifiedForceDamageAgainstPlayer">getModifiedForceDamageAgainstPlayer()</a>
-    <span>
-                                &nbsp;: <abbr title="\Smr\Combat\Weapon\WeaponDamageData">WeaponDamageData</abbr>    </span>
-</dt>
-
-            <dt class="phpdocumentor-table-of-contents__entry -method -public">
-    <a class="" href="classes/Smr-Combat-Weapon-CombatDrones.html#method_getModifiedPlanetDamageAgainstPlayer">getModifiedPlanetDamageAgainstPlayer()</a>
-    <span>
-                                &nbsp;: <abbr title="\Smr\Combat\Weapon\WeaponDamageData">WeaponDamageData</abbr>    </span>
-</dt>
-
-            <dt class="phpdocumentor-table-of-contents__entry -method -public">
-    <a class="" href="classes/Smr-Combat-Weapon-CombatDrones.html#method_getModifiedPortDamageAgainstPlayer">getModifiedPortDamageAgainstPlayer()</a>
-    <span>
-                                &nbsp;: <abbr title="\Smr\Combat\Weapon\WeaponDamageData">WeaponDamageData</abbr>    </span>
+                                &nbsp;: <a href="classes/Smr-Combat-Results-Damage-WeaponDamage.html"><abbr title="\Smr\Combat\Results\Damage\WeaponDamage">WeaponDamage</abbr></a>    </span>
 </dt>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
@@ -440,130 +362,17 @@
 </dt>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
-    <a class="" href="classes/Smr-Combat-Weapon-CombatDrones.html#method_shootForces">shootForces()</a>
+    <a class="" href="classes/Smr-Combat-Weapon-CombatDrones.html#method_shoot">shoot()</a>
     <span>
-                                &nbsp;: <abbr title="array{Weapon: parent, Target: \Smr\Force, Hit: bool, WeaponDamage: \Smr\Combat\Weapon\WeaponDamageData, ActualDamage: \Smr\Combat\Weapon\ForceTakenDamageData, KillResults?: array{}}">ForceTakenDamageData, KillResults?: array{}}</abbr>    </span>
-</dt>
-
-            <dt class="phpdocumentor-table-of-contents__entry -method -public">
-    <a class="" href="classes/Smr-Combat-Weapon-CombatDrones.html#method_shootPlanet">shootPlanet()</a>
-    <span>
-                                &nbsp;: <abbr title="array{Weapon: parent, Target: \Smr\Planet, Hit: bool, WeaponDamage: \Smr\Combat\Weapon\WeaponDamageData, ActualDamage: \Smr\Combat\Weapon\TakenDamageData, KillResults?: array{}}">TakenDamageData, KillResults?: array{}}</abbr>    </span>
-</dt>
-
-            <dt class="phpdocumentor-table-of-contents__entry -method -public">
-    <a class="" href="classes/Smr-Combat-Weapon-CombatDrones.html#method_shootPlayer">shootPlayer()</a>
-    <span>
-                                &nbsp;: <abbr title="array{Weapon: parent, Target: \Smr\Player, Hit: bool, WeaponDamage: \Smr\Combat\Weapon\WeaponDamageData, ActualDamage: \Smr\Combat\Weapon\TakenDamageData, KillResults?: array{DeadExp: int, KillerExp: int, KillerCredits: int}}">TakenDamageData, KillResults?: array{DeadExp: int, KillerExp: int, KillerCredits: int}}</abbr>    </span>
-</dt>
-
-            <dt class="phpdocumentor-table-of-contents__entry -method -public">
-    <a class="" href="classes/Smr-Combat-Weapon-CombatDrones.html#method_shootPlayerAsForce">shootPlayerAsForce()</a>
-    <span>
-                                &nbsp;: <abbr title="array{Weapon: self, Target: \Smr\Player, Hit: bool, WeaponDamage: \Smr\Combat\Weapon\WeaponDamageData, ActualDamage: \Smr\Combat\Weapon\TakenDamageData, KillResults?: array{DeadExp: int, LostCredits: int}}">TakenDamageData, KillResults?: array{DeadExp: int, LostCredits: int}}</abbr>    </span>
-</dt>
-
-            <dt class="phpdocumentor-table-of-contents__entry -method -public">
-    <a class="" href="classes/Smr-Combat-Weapon-CombatDrones.html#method_shootPlayerAsPlanet">shootPlayerAsPlanet()</a>
-    <span>
-                                &nbsp;: <abbr title="array{Weapon: parent, Target: \Smr\Player, Hit: bool, WeaponDamage: \Smr\Combat\Weapon\WeaponDamageData, ActualDamage: \Smr\Combat\Weapon\TakenDamageData, KillResults?: array{DeadExp: int, LostCredits: int}}">TakenDamageData, KillResults?: array{DeadExp: int, LostCredits: int}}</abbr>    </span>
-</dt>
-
-            <dt class="phpdocumentor-table-of-contents__entry -method -public">
-    <a class="" href="classes/Smr-Combat-Weapon-CombatDrones.html#method_shootPlayerAsPort">shootPlayerAsPort()</a>
-    <span>
-                                &nbsp;: <abbr title="array{Weapon: parent, Target: \Smr\Player, Hit: bool, WeaponDamage: \Smr\Combat\Weapon\WeaponDamageData, ActualDamage: \Smr\Combat\Weapon\TakenDamageData, KillResults?: array{DeadExp: int, LostCredits: int}}">TakenDamageData, KillResults?: array{DeadExp: int, LostCredits: int}}</abbr>    </span>
-</dt>
-
-            <dt class="phpdocumentor-table-of-contents__entry -method -public">
-    <a class="" href="classes/Smr-Combat-Weapon-CombatDrones.html#method_shootPort">shootPort()</a>
-    <span>
-                                &nbsp;: <abbr title="array{Weapon: parent, Target: \Smr\Port, Hit: bool, WeaponDamage: \Smr\Combat\Weapon\WeaponDamageData, ActualDamage: \Smr\Combat\Weapon\TakenDamageData, KillResults?: array{}}">TakenDamageData, KillResults?: array{}}</abbr>    </span>
+                                &nbsp;: <a href="classes/Smr-Combat-Results-Weapon-HitWeaponResult.html"><abbr title="\Smr\Combat\Results\Weapon\HitWeaponResult">HitWeaponResult</abbr></a>&lt;string|int, <abbr title="\Smr\Combat\Weapon\TTarget">TTarget</abbr>&gt;    </span>
 </dt>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -protected">
-    <a class="" href="classes/Smr-Combat-Weapon-AbstractWeapon.html#method_doForceDamageToPlayer">doForceDamageToPlayer()</a>
+    <a class="" href="classes/Smr-Combat-Weapon-AbstractWeapon.html#method_hitTarget">hitTarget()</a>
     <span>
-                                &nbsp;: <abbr title="array{Weapon: self, Target: \Smr\Player, Hit: bool, WeaponDamage: \Smr\Combat\Weapon\WeaponDamageData, ActualDamage: \Smr\Combat\Weapon\TakenDamageData, KillResults?: array{DeadExp: int, LostCredits: int}}">TakenDamageData, KillResults?: array{DeadExp: int, LostCredits: int}}</abbr>    </span>
+                                &nbsp;: <a href="classes/Smr-Combat-Results-Weapon-HitWeaponResult.html"><abbr title="\Smr\Combat\Results\Weapon\HitWeaponResult">HitWeaponResult</abbr></a>&lt;string|int, <abbr title="\Smr\Combat\Weapon\TTarget">TTarget</abbr>&gt;    </span>
 </dt>
-
-            <dt class="phpdocumentor-table-of-contents__entry -method -protected">
-    <a class="" href="classes/Smr-Combat-Weapon-AbstractWeapon.html#method_doPlanetDamageToPlayer">doPlanetDamageToPlayer()</a>
-    <span>
-                                &nbsp;: <abbr title="array{Weapon: self, Target: \Smr\Player, Hit: bool, WeaponDamage: \Smr\Combat\Weapon\WeaponDamageData, ActualDamage: \Smr\Combat\Weapon\TakenDamageData, KillResults?: array{DeadExp: int, LostCredits: int}}">TakenDamageData, KillResults?: array{DeadExp: int, LostCredits: int}}</abbr>    </span>
-</dt>
-
-            <dt class="phpdocumentor-table-of-contents__entry -method -protected">
-    <a class="" href="classes/Smr-Combat-Weapon-AbstractWeapon.html#method_doPlayerDamageToForce">doPlayerDamageToForce()</a>
-    <span>
-                                &nbsp;: <abbr title="array{Weapon: self, Target: \Smr\Force, Hit: bool, WeaponDamage: \Smr\Combat\Weapon\WeaponDamageData, ActualDamage: \Smr\Combat\Weapon\ForceTakenDamageData, KillResults?: array{}}">ForceTakenDamageData, KillResults?: array{}}</abbr>    </span>
-</dt>
-
-            <dt class="phpdocumentor-table-of-contents__entry -method -protected">
-    <a class="" href="classes/Smr-Combat-Weapon-AbstractWeapon.html#method_doPlayerDamageToPlanet">doPlayerDamageToPlanet()</a>
-    <span>
-                                &nbsp;: <abbr title="array{Weapon: self, Target: \Smr\Planet, Hit: bool, WeaponDamage: \Smr\Combat\Weapon\WeaponDamageData, ActualDamage: \Smr\Combat\Weapon\TakenDamageData, KillResults?: array{}}">TakenDamageData, KillResults?: array{}}</abbr>    </span>
-</dt>
-
-            <dt class="phpdocumentor-table-of-contents__entry -method -protected">
-    <a class="" href="classes/Smr-Combat-Weapon-AbstractWeapon.html#method_doPlayerDamageToPlayer">doPlayerDamageToPlayer()</a>
-    <span>
-                                &nbsp;: <abbr title="array{Weapon: self, Target: \Smr\Player, Hit: bool, WeaponDamage: \Smr\Combat\Weapon\WeaponDamageData, ActualDamage: \Smr\Combat\Weapon\TakenDamageData, KillResults?: array{DeadExp: int, KillerExp: int, KillerCredits: int}}">TakenDamageData, KillResults?: array{DeadExp: int, KillerExp: int, KillerCredits: int}}</abbr>    </span>
-</dt>
-
-            <dt class="phpdocumentor-table-of-contents__entry -method -protected">
-    <a class="" href="classes/Smr-Combat-Weapon-AbstractWeapon.html#method_doPlayerDamageToPort">doPlayerDamageToPort()</a>
-    <span>
-                                &nbsp;: <abbr title="array{Weapon: self, Target: \Smr\Port, Hit: bool, WeaponDamage: \Smr\Combat\Weapon\WeaponDamageData, ActualDamage: \Smr\Combat\Weapon\TakenDamageData, KillResults?: array{}}">TakenDamageData, KillResults?: array{}}</abbr>    </span>
-</dt>
-
-            <dt class="phpdocumentor-table-of-contents__entry -method -protected">
-    <a class="" href="classes/Smr-Combat-Weapon-AbstractWeapon.html#method_doPortDamageToPlayer">doPortDamageToPlayer()</a>
-    <span>
-                                &nbsp;: <abbr title="array{Weapon: self, Target: \Smr\Player, Hit: bool, WeaponDamage: \Smr\Combat\Weapon\WeaponDamageData, ActualDamage: \Smr\Combat\Weapon\TakenDamageData, KillResults?: array{DeadExp: int, LostCredits: int}}">TakenDamageData, KillResults?: array{DeadExp: int, LostCredits: int}}</abbr>    </span>
-</dt>
-
-            <dt class="phpdocumentor-table-of-contents__entry -method -protected">
-    <a class="" href="classes/Smr-Combat-Weapon-CombatDrones.html#method_getModifiedAccuracyAgainstForcesUsingRandom">getModifiedAccuracyAgainstForcesUsingRandom()</a>
-    <span>
-                                &nbsp;: float    </span>
-</dt>
-
-            <dt class="phpdocumentor-table-of-contents__entry -method -protected">
-    <a class="" href="classes/Smr-Combat-Weapon-CombatDrones.html#method_getModifiedAccuracyAgainstPlanetUsingRandom">getModifiedAccuracyAgainstPlanetUsingRandom()</a>
-    <span>
-                                &nbsp;: float    </span>
-</dt>
-
-            <dt class="phpdocumentor-table-of-contents__entry -method -protected">
-    <a class="" href="classes/Smr-Combat-Weapon-CombatDrones.html#method_getModifiedAccuracyAgainstPlayerUsingRandom">getModifiedAccuracyAgainstPlayerUsingRandom()</a>
-    <span>
-                                &nbsp;: float    </span>
-</dt>
-
-            <dt class="phpdocumentor-table-of-contents__entry -method -protected">
-    <a class="" href="classes/Smr-Combat-Weapon-CombatDrones.html#method_getModifiedAccuracyAgainstPortUsingRandom">getModifiedAccuracyAgainstPortUsingRandom()</a>
-    <span>
-                                &nbsp;: float    </span>
-</dt>
-
-            <dt class="phpdocumentor-table-of-contents__entry -method -protected">
-    <a class="" href="classes/Smr-Combat-Weapon-CombatDrones.html#method_getModifiedForceAccuracyAgainstPlayerUsingRandom">getModifiedForceAccuracyAgainstPlayerUsingRandom()</a>
-    <span>
-                                &nbsp;: float    </span>
-</dt>
-
-            <dt class="phpdocumentor-table-of-contents__entry -method -protected">
-    <a class="" href="classes/Smr-Combat-Weapon-CombatDrones.html#method_getModifiedPlanetAccuracyAgainstPlayer">getModifiedPlanetAccuracyAgainstPlayer()</a>
-    <span>
-                                &nbsp;: float    </span>
-</dt>
-
-            <dt class="phpdocumentor-table-of-contents__entry -method -protected">
-    <a class="" href="classes/Smr-Combat-Weapon-CombatDrones.html#method_getModifiedPortAccuracyAgainstPlayer">getModifiedPortAccuracyAgainstPlayer()</a>
-    <span>
-                                &nbsp;: float    </span>
-</dt>
+<dd>Applies this weapon&#039;s modified damage and resolves a killing shot, if any.</dd>
 
     </dl>
 
@@ -586,9 +395,9 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Combat/Weapon/CombatDrones.php"><a href="files/src-lib-smr-combat-weapon-combatdrones.html"><abbr title="src/lib/Smr/Combat/Weapon/CombatDrones.php">CombatDrones.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">15</span>
+    <span class="phpdocumentor-element-found-in__line">18</span>
 
-            <a href="classes/Smr-Combat-Weapon-CombatDrones.html#source-view.15" class="phpdocumentor-element-found-in__source" data-line="15" data-modal="source-view" data-src="files/src/lib/Smr/Combat/Weapon/CombatDrones.php.txt"></a>
+            <a href="classes/Smr-Combat-Weapon-CombatDrones.html#source-view.18" class="phpdocumentor-element-found-in__source" data-line="18" data-modal="source-view" data-src="files/src/lib/Smr/Combat/Weapon/CombatDrones.php.txt"></a>
     </aside>
 
     
@@ -598,6 +407,37 @@
         <span class="phpdocumentor-signature__type">int</span>
     <span class="phpdocumentor-signature__name">MAX_CDS_RAND</span>
     = <span class="phpdocumentor-signature__default-value">54</span>
+</code>
+
+
+    
+    
+    
+
+        
+    </article>
+                    <article class="phpdocumentor-element -constant -protected ">
+    <h4 class="phpdocumentor-element__name" id="constant_MIN_CDS_RAND">
+        MIN_CDS_RAND
+        <a href="classes/Smr-Combat-Weapon-CombatDrones.html#constant_MIN_CDS_RAND" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Combat/Weapon/CombatDrones.php"><a href="files/src-lib-smr-combat-weapon-combatdrones.html"><abbr title="src/lib/Smr/Combat/Weapon/CombatDrones.php">CombatDrones.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">19</span>
+
+            <a href="classes/Smr-Combat-Weapon-CombatDrones.html#source-view.19" class="phpdocumentor-element-found-in__source" data-line="19" data-modal="source-view" data-src="files/src/lib/Smr/Combat/Weapon/CombatDrones.php.txt"></a>
+    </aside>
+
+    
+    
+    <code class="phpdocumentor-signature phpdocumentor-code ">
+    <span class="phpdocumentor-signature__visibility">protected</span>
+        <span class="phpdocumentor-signature__type">int</span>
+    <span class="phpdocumentor-signature__name">MIN_CDS_RAND</span>
+    = <span class="phpdocumentor-signature__default-value">3</span>
 </code>
 
 
@@ -898,9 +738,9 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Combat/Weapon/CombatDrones.php"><a href="files/src-lib-smr-combat-weapon-combatdrones.html"><abbr title="src/lib/Smr/Combat/Weapon/CombatDrones.php">CombatDrones.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">17</span>
+    <span class="phpdocumentor-element-found-in__line">21</span>
 
-            <a href="classes/Smr-Combat-Weapon-CombatDrones.html#source-view.17" class="phpdocumentor-element-found-in__source" data-line="17" data-modal="source-view" data-src="files/src/lib/Smr/Combat/Weapon/CombatDrones.php.txt"></a>
+            <a href="classes/Smr-Combat-Weapon-CombatDrones.html#source-view.21" class="phpdocumentor-element-found-in__source" data-line="21" data-modal="source-view" data-src="files/src/lib/Smr/Combat/Weapon/CombatDrones.php.txt"></a>
     </aside>
 
     
@@ -942,9 +782,9 @@
             -public
                                                         "
 >
-    <h4 class="phpdocumentor-element__name" id="method_canShootForces">
-        canShootForces()
-        <a href="classes/Smr-Combat-Weapon-AbstractWeapon.html#method_canShootForces" class="headerlink"><i class="fas fa-link"></i></a>
+    <h4 class="phpdocumentor-element__name" id="method_canShootTarget">
+        canShootTarget()
+        <a href="classes/Smr-Combat-Weapon-AbstractWeapon.html#method_canShootTarget" class="headerlink"><i class="fas fa-link"></i></a>
 
     </h4>
     <aside class="phpdocumentor-element-found-in">
@@ -958,130 +798,23 @@
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">public</span>
-                    <span class="phpdocumentor-signature__name">canShootForces</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">bool</span></code>
+                    <span class="phpdocumentor-signature__name">canShootTarget</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__type"><a href="classes/Smr-Combat-CombatantInterface.html"><abbr title="\Smr\Combat\CombatantInterface">CombatantInterface</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$target</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">bool</span></code>
 
     <div class="phpdocumentor-label-line">
         </div>
     
     
-    
-    
+        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
+    <dl class="phpdocumentor-argument-list">
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-argument-list__argument__name">$target</span>
+                : <span class="phpdocumentor-argument-list__argument__type"><a href="classes/Smr-Combat-CombatantInterface.html"><abbr title="\Smr\Combat\CombatantInterface">CombatantInterface</abbr></a></span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                
+            </dd>
+            </dl>
 
-        
-    
-            <section>
-        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
-        <span class="phpdocumentor-signature__response_type">bool</span>
-            </section>
-
-</article>
-                    <article
-        class="phpdocumentor-element
-            -method
-            -public
-                                                        "
->
-    <h4 class="phpdocumentor-element__name" id="method_canShootPlanets">
-        canShootPlanets()
-        <a href="classes/Smr-Combat-Weapon-AbstractWeapon.html#method_canShootPlanets" class="headerlink"><i class="fas fa-link"></i></a>
-
-    </h4>
-    <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Combat/Weapon/AbstractWeapon.php"><a href="files/src-lib-smr-combat-weapon-abstractweapon.html"><abbr title="src/lib/Smr/Combat/Weapon/AbstractWeapon.php">AbstractWeapon.php</abbr></a></abbr>
-    :
-    <span class="phpdocumentor-element-found-in__line">36</span>
-
-            <a href="classes/Smr-Combat-Weapon-CombatDrones.html#source-view.36" class="phpdocumentor-element-found-in__source" data-line="36" data-modal="source-view" data-src="files/src/lib/Smr/Combat/Weapon/AbstractWeapon.php.txt"></a>
-    </aside>
-
-    
-    <code class="phpdocumentor-code phpdocumentor-signature ">
-    <span class="phpdocumentor-signature__visibility">public</span>
-                    <span class="phpdocumentor-signature__name">canShootPlanets</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">bool</span></code>
-
-    <div class="phpdocumentor-label-line">
-        </div>
-    
-    
-    
-    
-
-        
-    
-            <section>
-        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
-        <span class="phpdocumentor-signature__response_type">bool</span>
-            </section>
-
-</article>
-                    <article
-        class="phpdocumentor-element
-            -method
-            -public
-                                                        "
->
-    <h4 class="phpdocumentor-element__name" id="method_canShootPorts">
-        canShootPorts()
-        <a href="classes/Smr-Combat-Weapon-AbstractWeapon.html#method_canShootPorts" class="headerlink"><i class="fas fa-link"></i></a>
-
-    </h4>
-    <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Combat/Weapon/AbstractWeapon.php"><a href="files/src-lib-smr-combat-weapon-abstractweapon.html"><abbr title="src/lib/Smr/Combat/Weapon/AbstractWeapon.php">AbstractWeapon.php</abbr></a></abbr>
-    :
-    <span class="phpdocumentor-element-found-in__line">32</span>
-
-            <a href="classes/Smr-Combat-Weapon-CombatDrones.html#source-view.32" class="phpdocumentor-element-found-in__source" data-line="32" data-modal="source-view" data-src="files/src/lib/Smr/Combat/Weapon/AbstractWeapon.php.txt"></a>
-    </aside>
-
-    
-    <code class="phpdocumentor-code phpdocumentor-signature ">
-    <span class="phpdocumentor-signature__visibility">public</span>
-                    <span class="phpdocumentor-signature__name">canShootPorts</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">bool</span></code>
-
-    <div class="phpdocumentor-label-line">
-        </div>
-    
-    
-    
-    
-
-        
-    
-            <section>
-        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
-        <span class="phpdocumentor-signature__response_type">bool</span>
-            </section>
-
-</article>
-                    <article
-        class="phpdocumentor-element
-            -method
-            -public
-                                                        "
->
-    <h4 class="phpdocumentor-element__name" id="method_canShootTraders">
-        canShootTraders()
-        <a href="classes/Smr-Combat-Weapon-AbstractWeapon.html#method_canShootTraders" class="headerlink"><i class="fas fa-link"></i></a>
-
-    </h4>
-    <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Combat/Weapon/AbstractWeapon.php"><a href="files/src-lib-smr-combat-weapon-abstractweapon.html"><abbr title="src/lib/Smr/Combat/Weapon/AbstractWeapon.php">AbstractWeapon.php</abbr></a></abbr>
-    :
-    <span class="phpdocumentor-element-found-in__line">40</span>
-
-            <a href="classes/Smr-Combat-Weapon-CombatDrones.html#source-view.40" class="phpdocumentor-element-found-in__source" data-line="40" data-modal="source-view" data-src="files/src/lib/Smr/Combat/Weapon/AbstractWeapon.php.txt"></a>
-    </aside>
-
-    
-    <code class="phpdocumentor-code phpdocumentor-signature ">
-    <span class="phpdocumentor-signature__visibility">public</span>
-                    <span class="phpdocumentor-signature__name">canShootTraders</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">bool</span></code>
-
-    <div class="phpdocumentor-label-line">
-        </div>
-    
-    
-    
     
 
         
@@ -1224,15 +957,15 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Combat/Weapon/AbstractWeapon.php"><a href="files/src-lib-smr-combat-weapon-abstractweapon.html"><abbr title="src/lib/Smr/Combat/Weapon/AbstractWeapon.php">AbstractWeapon.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">47</span>
+    <span class="phpdocumentor-element-found-in__line">32</span>
 
-            <a href="classes/Smr-Combat-Weapon-CombatDrones.html#source-view.47" class="phpdocumentor-element-found-in__source" data-line="47" data-modal="source-view" data-src="files/src/lib/Smr/Combat/Weapon/AbstractWeapon.php.txt"></a>
+            <a href="classes/Smr-Combat-Weapon-CombatDrones.html#source-view.32" class="phpdocumentor-element-found-in__source" data-line="32" data-modal="source-view" data-src="files/src/lib/Smr/Combat/Weapon/AbstractWeapon.php.txt"></a>
     </aside>
 
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">public</span>
-                    <span class="phpdocumentor-signature__name">getDamage</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type"><abbr title="\Smr\Combat\Weapon\WeaponDamageData">WeaponDamageData</abbr></span></code>
+                    <span class="phpdocumentor-signature__name">getDamage</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type"><a href="classes/Smr-Combat-Results-Damage-WeaponDamage.html"><abbr title="\Smr\Combat\Results\Damage\WeaponDamage">WeaponDamage</abbr></a></span></code>
 
     <div class="phpdocumentor-label-line">
         </div>
@@ -1245,7 +978,7 @@
     
             <section>
         <h5 class="phpdocumentor-return-value__heading">Return values</h5>
-        <span class="phpdocumentor-signature__response_type"><abbr title="\Smr\Combat\Weapon\WeaponDamageData">WeaponDamageData</abbr></span>
+        <span class="phpdocumentor-signature__response_type"><a href="classes/Smr-Combat-Results-Damage-WeaponDamage.html"><abbr title="\Smr\Combat\Results\Damage\WeaponDamage">WeaponDamage</abbr></a></span>
             </section>
 
 </article>
@@ -1255,62 +988,23 @@
             -public
                                                         "
 >
-    <h4 class="phpdocumentor-element__name" id="method_getModifiedAccuracy">
-        getModifiedAccuracy()
-        <a href="classes/Smr-Combat-Weapon-CombatDrones.html#method_getModifiedAccuracy" class="headerlink"><i class="fas fa-link"></i></a>
+    <h4 class="phpdocumentor-element__name" id="method_getModifiedAccuracyAgainstTarget">
+        getModifiedAccuracyAgainstTarget()
+        <a href="classes/Smr-Combat-Weapon-CombatDrones.html#method_getModifiedAccuracyAgainstTarget" class="headerlink"><i class="fas fa-link"></i></a>
 
     </h4>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Combat/Weapon/CombatDrones.php"><a href="files/src-lib-smr-combat-weapon-combatdrones.html"><abbr title="src/lib/Smr/Combat/Weapon/CombatDrones.php">CombatDrones.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">31</span>
+    <span class="phpdocumentor-element-found-in__line">35</span>
 
-            <a href="classes/Smr-Combat-Weapon-CombatDrones.html#source-view.31" class="phpdocumentor-element-found-in__source" data-line="31" data-modal="source-view" data-src="files/src/lib/Smr/Combat/Weapon/CombatDrones.php.txt"></a>
+            <a href="classes/Smr-Combat-Weapon-CombatDrones.html#source-view.35" class="phpdocumentor-element-found-in__source" data-line="35" data-modal="source-view" data-src="files/src/lib/Smr/Combat/Weapon/CombatDrones.php.txt"></a>
     </aside>
 
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">public</span>
-                    <span class="phpdocumentor-signature__name">getModifiedAccuracy</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">float</span></code>
-
-    <div class="phpdocumentor-label-line">
-        </div>
-    
-    
-    
-    
-
-        
-    
-            <section>
-        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
-        <span class="phpdocumentor-signature__response_type">float</span>
-            </section>
-
-</article>
-                    <article
-        class="phpdocumentor-element
-            -method
-            -public
-                                                        "
->
-    <h4 class="phpdocumentor-element__name" id="method_getModifiedAccuracyAgainstForces">
-        getModifiedAccuracyAgainstForces()
-        <a href="classes/Smr-Combat-Weapon-CombatDrones.html#method_getModifiedAccuracyAgainstForces" class="headerlink"><i class="fas fa-link"></i></a>
-
-    </h4>
-    <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Combat/Weapon/CombatDrones.php"><a href="files/src-lib-smr-combat-weapon-combatdrones.html"><abbr title="src/lib/Smr/Combat/Weapon/CombatDrones.php">CombatDrones.php</abbr></a></abbr>
-    :
-    <span class="phpdocumentor-element-found-in__line">42</span>
-
-            <a href="classes/Smr-Combat-Weapon-CombatDrones.html#source-view.42" class="phpdocumentor-element-found-in__source" data-line="42" data-modal="source-view" data-src="files/src/lib/Smr/Combat/Weapon/CombatDrones.php.txt"></a>
-    </aside>
-
-    
-    <code class="phpdocumentor-code phpdocumentor-signature ">
-    <span class="phpdocumentor-signature__visibility">public</span>
-                    <span class="phpdocumentor-signature__name">getModifiedAccuracyAgainstForces</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__type"><a href="classes/Smr-Player.html"><abbr title="\Smr\Player">Player</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$weaponPlayer</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__type"><a href="classes/Smr-Force.html"><abbr title="\Smr\Force">Force</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$forces</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">float</span></code>
+                    <span class="phpdocumentor-signature__name">getModifiedAccuracyAgainstTarget</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__type"><a href="classes/Smr-Combat-CombatantInterface.html"><abbr title="\Smr\Combat\CombatantInterface">CombatantInterface</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$shooter</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__type"><a href="classes/Smr-Combat-CombatantInterface.html"><abbr title="\Smr\Combat\CombatantInterface">CombatantInterface</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$target</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">float</span></code>
 
     <div class="phpdocumentor-label-line">
         </div>
@@ -1319,15 +1013,15 @@
         <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
     <dl class="phpdocumentor-argument-list">
                     <dt class="phpdocumentor-argument-list__entry">
-                <span class="phpdocumentor-argument-list__argument__name">$weaponPlayer</span>
-                : <span class="phpdocumentor-argument-list__argument__type"><a href="classes/Smr-Player.html"><abbr title="\Smr\Player">Player</abbr></a></span>
+                <span class="phpdocumentor-argument-list__argument__name">$shooter</span>
+                : <span class="phpdocumentor-argument-list__argument__type"><a href="classes/Smr-Combat-CombatantInterface.html"><abbr title="\Smr\Combat\CombatantInterface">CombatantInterface</abbr></a></span>
                             </dt>
             <dd class="phpdocumentor-argument-list__definition">
                 
             </dd>
                     <dt class="phpdocumentor-argument-list__entry">
-                <span class="phpdocumentor-argument-list__argument__name">$forces</span>
-                : <span class="phpdocumentor-argument-list__argument__type"><a href="classes/Smr-Force.html"><abbr title="\Smr\Force">Force</abbr></a></span>
+                <span class="phpdocumentor-argument-list__argument__name">$target</span>
+                : <span class="phpdocumentor-argument-list__argument__type"><a href="classes/Smr-Combat-CombatantInterface.html"><abbr title="\Smr\Combat\CombatantInterface">CombatantInterface</abbr></a></span>
                             </dt>
             <dd class="phpdocumentor-argument-list__definition">
                 
@@ -1350,23 +1044,23 @@
             -public
                                                         "
 >
-    <h4 class="phpdocumentor-element__name" id="method_getModifiedAccuracyAgainstPlanet">
-        getModifiedAccuracyAgainstPlanet()
-        <a href="classes/Smr-Combat-Weapon-CombatDrones.html#method_getModifiedAccuracyAgainstPlanet" class="headerlink"><i class="fas fa-link"></i></a>
+    <h4 class="phpdocumentor-element__name" id="method_getModifiedDamageAgainstTarget">
+        getModifiedDamageAgainstTarget()
+        <a href="classes/Smr-Combat-Weapon-CombatDrones.html#method_getModifiedDamageAgainstTarget" class="headerlink"><i class="fas fa-link"></i></a>
 
     </h4>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Combat/Weapon/CombatDrones.php"><a href="files/src-lib-smr-combat-weapon-combatdrones.html"><abbr title="src/lib/Smr/Combat/Weapon/CombatDrones.php">CombatDrones.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">64</span>
+    <span class="phpdocumentor-element-found-in__line">61</span>
 
-            <a href="classes/Smr-Combat-Weapon-CombatDrones.html#source-view.64" class="phpdocumentor-element-found-in__source" data-line="64" data-modal="source-view" data-src="files/src/lib/Smr/Combat/Weapon/CombatDrones.php.txt"></a>
+            <a href="classes/Smr-Combat-Weapon-CombatDrones.html#source-view.61" class="phpdocumentor-element-found-in__source" data-line="61" data-modal="source-view" data-src="files/src/lib/Smr/Combat/Weapon/CombatDrones.php.txt"></a>
     </aside>
 
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">public</span>
-                    <span class="phpdocumentor-signature__name">getModifiedAccuracyAgainstPlanet</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__type"><a href="classes/Smr-Player.html"><abbr title="\Smr\Player">Player</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$weaponPlayer</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__type"><a href="classes/Smr-Planet.html"><abbr title="\Smr\Planet">Planet</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$planet</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">float</span></code>
+                    <span class="phpdocumentor-signature__name">getModifiedDamageAgainstTarget</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__type"><a href="classes/Smr-Combat-CombatantInterface.html"><abbr title="\Smr\Combat\CombatantInterface">CombatantInterface</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$shooter</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__type"><a href="classes/Smr-Combat-CombatantInterface.html"><abbr title="\Smr\Combat\CombatantInterface">CombatantInterface</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$target</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type"><a href="classes/Smr-Combat-Results-Damage-WeaponDamage.html"><abbr title="\Smr\Combat\Results\Damage\WeaponDamage">WeaponDamage</abbr></a></span></code>
 
     <div class="phpdocumentor-label-line">
         </div>
@@ -1375,15 +1069,15 @@
         <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
     <dl class="phpdocumentor-argument-list">
                     <dt class="phpdocumentor-argument-list__entry">
-                <span class="phpdocumentor-argument-list__argument__name">$weaponPlayer</span>
-                : <span class="phpdocumentor-argument-list__argument__type"><a href="classes/Smr-Player.html"><abbr title="\Smr\Player">Player</abbr></a></span>
+                <span class="phpdocumentor-argument-list__argument__name">$shooter</span>
+                : <span class="phpdocumentor-argument-list__argument__type"><a href="classes/Smr-Combat-CombatantInterface.html"><abbr title="\Smr\Combat\CombatantInterface">CombatantInterface</abbr></a></span>
                             </dt>
             <dd class="phpdocumentor-argument-list__definition">
                 
             </dd>
                     <dt class="phpdocumentor-argument-list__entry">
-                <span class="phpdocumentor-argument-list__argument__name">$planet</span>
-                : <span class="phpdocumentor-argument-list__argument__type"><a href="classes/Smr-Planet.html"><abbr title="\Smr\Planet">Planet</abbr></a></span>
+                <span class="phpdocumentor-argument-list__argument__name">$target</span>
+                : <span class="phpdocumentor-argument-list__argument__type"><a href="classes/Smr-Combat-CombatantInterface.html"><abbr title="\Smr\Combat\CombatantInterface">CombatantInterface</abbr></a></span>
                             </dt>
             <dd class="phpdocumentor-argument-list__definition">
                 
@@ -1396,567 +1090,7 @@
     
             <section>
         <h5 class="phpdocumentor-return-value__heading">Return values</h5>
-        <span class="phpdocumentor-signature__response_type">float</span>
-            </section>
-
-</article>
-                    <article
-        class="phpdocumentor-element
-            -method
-            -public
-                                                        "
->
-    <h4 class="phpdocumentor-element__name" id="method_getModifiedAccuracyAgainstPlayer">
-        getModifiedAccuracyAgainstPlayer()
-        <a href="classes/Smr-Combat-Weapon-CombatDrones.html#method_getModifiedAccuracyAgainstPlayer" class="headerlink"><i class="fas fa-link"></i></a>
-
-    </h4>
-    <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Combat/Weapon/CombatDrones.php"><a href="files/src-lib-smr-combat-weapon-combatdrones.html"><abbr title="src/lib/Smr/Combat/Weapon/CombatDrones.php">CombatDrones.php</abbr></a></abbr>
-    :
-    <span class="phpdocumentor-element-found-in__line">68</span>
-
-            <a href="classes/Smr-Combat-Weapon-CombatDrones.html#source-view.68" class="phpdocumentor-element-found-in__source" data-line="68" data-modal="source-view" data-src="files/src/lib/Smr/Combat/Weapon/CombatDrones.php.txt"></a>
-    </aside>
-
-    
-    <code class="phpdocumentor-code phpdocumentor-signature ">
-    <span class="phpdocumentor-signature__visibility">public</span>
-                    <span class="phpdocumentor-signature__name">getModifiedAccuracyAgainstPlayer</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__type"><a href="classes/Smr-Player.html"><abbr title="\Smr\Player">Player</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$weaponPlayer</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__type"><a href="classes/Smr-Player.html"><abbr title="\Smr\Player">Player</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$targetPlayer</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">float</span></code>
-
-    <div class="phpdocumentor-label-line">
-        </div>
-    
-    
-        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
-    <dl class="phpdocumentor-argument-list">
-                    <dt class="phpdocumentor-argument-list__entry">
-                <span class="phpdocumentor-argument-list__argument__name">$weaponPlayer</span>
-                : <span class="phpdocumentor-argument-list__argument__type"><a href="classes/Smr-Player.html"><abbr title="\Smr\Player">Player</abbr></a></span>
-                            </dt>
-            <dd class="phpdocumentor-argument-list__definition">
-                
-            </dd>
-                    <dt class="phpdocumentor-argument-list__entry">
-                <span class="phpdocumentor-argument-list__argument__name">$targetPlayer</span>
-                : <span class="phpdocumentor-argument-list__argument__type"><a href="classes/Smr-Player.html"><abbr title="\Smr\Player">Player</abbr></a></span>
-                            </dt>
-            <dd class="phpdocumentor-argument-list__definition">
-                
-            </dd>
-            </dl>
-
-    
-
-        
-    
-            <section>
-        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
-        <span class="phpdocumentor-signature__response_type">float</span>
-            </section>
-
-</article>
-                    <article
-        class="phpdocumentor-element
-            -method
-            -public
-                                                        "
->
-    <h4 class="phpdocumentor-element__name" id="method_getModifiedAccuracyAgainstPort">
-        getModifiedAccuracyAgainstPort()
-        <a href="classes/Smr-Combat-Weapon-CombatDrones.html#method_getModifiedAccuracyAgainstPort" class="headerlink"><i class="fas fa-link"></i></a>
-
-    </h4>
-    <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Combat/Weapon/CombatDrones.php"><a href="files/src-lib-smr-combat-weapon-combatdrones.html"><abbr title="src/lib/Smr/Combat/Weapon/CombatDrones.php">CombatDrones.php</abbr></a></abbr>
-    :
-    <span class="phpdocumentor-element-found-in__line">53</span>
-
-            <a href="classes/Smr-Combat-Weapon-CombatDrones.html#source-view.53" class="phpdocumentor-element-found-in__source" data-line="53" data-modal="source-view" data-src="files/src/lib/Smr/Combat/Weapon/CombatDrones.php.txt"></a>
-    </aside>
-
-    
-    <code class="phpdocumentor-code phpdocumentor-signature ">
-    <span class="phpdocumentor-signature__visibility">public</span>
-                    <span class="phpdocumentor-signature__name">getModifiedAccuracyAgainstPort</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__type"><a href="classes/Smr-Player.html"><abbr title="\Smr\Player">Player</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$weaponPlayer</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__type"><a href="classes/Smr-Port.html"><abbr title="\Smr\Port">Port</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$port</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">float</span></code>
-
-    <div class="phpdocumentor-label-line">
-        </div>
-    
-    
-        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
-    <dl class="phpdocumentor-argument-list">
-                    <dt class="phpdocumentor-argument-list__entry">
-                <span class="phpdocumentor-argument-list__argument__name">$weaponPlayer</span>
-                : <span class="phpdocumentor-argument-list__argument__type"><a href="classes/Smr-Player.html"><abbr title="\Smr\Player">Player</abbr></a></span>
-                            </dt>
-            <dd class="phpdocumentor-argument-list__definition">
-                
-            </dd>
-                    <dt class="phpdocumentor-argument-list__entry">
-                <span class="phpdocumentor-argument-list__argument__name">$port</span>
-                : <span class="phpdocumentor-argument-list__argument__type"><a href="classes/Smr-Port.html"><abbr title="\Smr\Port">Port</abbr></a></span>
-                            </dt>
-            <dd class="phpdocumentor-argument-list__definition">
-                
-            </dd>
-            </dl>
-
-    
-
-        
-    
-            <section>
-        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
-        <span class="phpdocumentor-signature__response_type">float</span>
-            </section>
-
-</article>
-                    <article
-        class="phpdocumentor-element
-            -method
-            -public
-                                                        "
->
-    <h4 class="phpdocumentor-element__name" id="method_getModifiedDamageAgainstForces">
-        getModifiedDamageAgainstForces()
-        <a href="classes/Smr-Combat-Weapon-CombatDrones.html#method_getModifiedDamageAgainstForces" class="headerlink"><i class="fas fa-link"></i></a>
-
-    </h4>
-    <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Combat/Weapon/CombatDrones.php"><a href="files/src-lib-smr-combat-weapon-combatdrones.html"><abbr title="src/lib/Smr/Combat/Weapon/CombatDrones.php">CombatDrones.php</abbr></a></abbr>
-    :
-    <span class="phpdocumentor-element-found-in__line">106</span>
-
-            <a href="classes/Smr-Combat-Weapon-CombatDrones.html#source-view.106" class="phpdocumentor-element-found-in__source" data-line="106" data-modal="source-view" data-src="files/src/lib/Smr/Combat/Weapon/CombatDrones.php.txt"></a>
-    </aside>
-
-    
-    <code class="phpdocumentor-code phpdocumentor-signature ">
-    <span class="phpdocumentor-signature__visibility">public</span>
-                    <span class="phpdocumentor-signature__name">getModifiedDamageAgainstForces</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__type"><a href="classes/Smr-Player.html"><abbr title="\Smr\Player">Player</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$weaponPlayer</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__type"><a href="classes/Smr-Force.html"><abbr title="\Smr\Force">Force</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$forces</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type"><abbr title="\Smr\Combat\Weapon\WeaponDamageData">WeaponDamageData</abbr></span></code>
-
-    <div class="phpdocumentor-label-line">
-        </div>
-    
-    
-        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
-    <dl class="phpdocumentor-argument-list">
-                    <dt class="phpdocumentor-argument-list__entry">
-                <span class="phpdocumentor-argument-list__argument__name">$weaponPlayer</span>
-                : <span class="phpdocumentor-argument-list__argument__type"><a href="classes/Smr-Player.html"><abbr title="\Smr\Player">Player</abbr></a></span>
-                            </dt>
-            <dd class="phpdocumentor-argument-list__definition">
-                
-            </dd>
-                    <dt class="phpdocumentor-argument-list__entry">
-                <span class="phpdocumentor-argument-list__argument__name">$forces</span>
-                : <span class="phpdocumentor-argument-list__argument__type"><a href="classes/Smr-Force.html"><abbr title="\Smr\Force">Force</abbr></a></span>
-                            </dt>
-            <dd class="phpdocumentor-argument-list__definition">
-                
-            </dd>
-            </dl>
-
-    
-
-        
-    
-            <section>
-        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
-        <span class="phpdocumentor-signature__response_type"><abbr title="\Smr\Combat\Weapon\WeaponDamageData">WeaponDamageData</abbr></span>
-            </section>
-
-</article>
-                    <article
-        class="phpdocumentor-element
-            -method
-            -public
-                                                        "
->
-    <h4 class="phpdocumentor-element__name" id="method_getModifiedDamageAgainstPlanet">
-        getModifiedDamageAgainstPlanet()
-        <a href="classes/Smr-Combat-Weapon-CombatDrones.html#method_getModifiedDamageAgainstPlanet" class="headerlink"><i class="fas fa-link"></i></a>
-
-    </h4>
-    <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Combat/Weapon/CombatDrones.php"><a href="files/src-lib-smr-combat-weapon-combatdrones.html"><abbr title="src/lib/Smr/Combat/Weapon/CombatDrones.php">CombatDrones.php</abbr></a></abbr>
-    :
-    <span class="phpdocumentor-element-found-in__line">141</span>
-
-            <a href="classes/Smr-Combat-Weapon-CombatDrones.html#source-view.141" class="phpdocumentor-element-found-in__source" data-line="141" data-modal="source-view" data-src="files/src/lib/Smr/Combat/Weapon/CombatDrones.php.txt"></a>
-    </aside>
-
-    
-    <code class="phpdocumentor-code phpdocumentor-signature ">
-    <span class="phpdocumentor-signature__visibility">public</span>
-                    <span class="phpdocumentor-signature__name">getModifiedDamageAgainstPlanet</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__type"><a href="classes/Smr-Player.html"><abbr title="\Smr\Player">Player</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$weaponPlayer</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__type"><a href="classes/Smr-Planet.html"><abbr title="\Smr\Planet">Planet</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$planet</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type"><abbr title="\Smr\Combat\Weapon\WeaponDamageData">WeaponDamageData</abbr></span></code>
-
-    <div class="phpdocumentor-label-line">
-        </div>
-    
-    
-        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
-    <dl class="phpdocumentor-argument-list">
-                    <dt class="phpdocumentor-argument-list__entry">
-                <span class="phpdocumentor-argument-list__argument__name">$weaponPlayer</span>
-                : <span class="phpdocumentor-argument-list__argument__type"><a href="classes/Smr-Player.html"><abbr title="\Smr\Player">Player</abbr></a></span>
-                            </dt>
-            <dd class="phpdocumentor-argument-list__definition">
-                
-            </dd>
-                    <dt class="phpdocumentor-argument-list__entry">
-                <span class="phpdocumentor-argument-list__argument__name">$planet</span>
-                : <span class="phpdocumentor-argument-list__argument__type"><a href="classes/Smr-Planet.html"><abbr title="\Smr\Planet">Planet</abbr></a></span>
-                            </dt>
-            <dd class="phpdocumentor-argument-list__definition">
-                
-            </dd>
-            </dl>
-
-    
-
-        
-    
-            <section>
-        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
-        <span class="phpdocumentor-signature__response_type"><abbr title="\Smr\Combat\Weapon\WeaponDamageData">WeaponDamageData</abbr></span>
-            </section>
-
-</article>
-                    <article
-        class="phpdocumentor-element
-            -method
-            -public
-                                                        "
->
-    <h4 class="phpdocumentor-element__name" id="method_getModifiedDamageAgainstPlayer">
-        getModifiedDamageAgainstPlayer()
-        <a href="classes/Smr-Combat-Weapon-CombatDrones.html#method_getModifiedDamageAgainstPlayer" class="headerlink"><i class="fas fa-link"></i></a>
-
-    </h4>
-    <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Combat/Weapon/CombatDrones.php"><a href="files/src-lib-smr-combat-weapon-combatdrones.html"><abbr title="src/lib/Smr/Combat/Weapon/CombatDrones.php">CombatDrones.php</abbr></a></abbr>
-    :
-    <span class="phpdocumentor-element-found-in__line">155</span>
-
-            <a href="classes/Smr-Combat-Weapon-CombatDrones.html#source-view.155" class="phpdocumentor-element-found-in__source" data-line="155" data-modal="source-view" data-src="files/src/lib/Smr/Combat/Weapon/CombatDrones.php.txt"></a>
-    </aside>
-
-    
-    <code class="phpdocumentor-code phpdocumentor-signature ">
-    <span class="phpdocumentor-signature__visibility">public</span>
-                    <span class="phpdocumentor-signature__name">getModifiedDamageAgainstPlayer</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__type"><a href="classes/Smr-Player.html"><abbr title="\Smr\Player">Player</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$weaponPlayer</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__type"><a href="classes/Smr-Player.html"><abbr title="\Smr\Player">Player</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$targetPlayer</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type"><abbr title="\Smr\Combat\Weapon\WeaponDamageData">WeaponDamageData</abbr></span></code>
-
-    <div class="phpdocumentor-label-line">
-        </div>
-    
-    
-        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
-    <dl class="phpdocumentor-argument-list">
-                    <dt class="phpdocumentor-argument-list__entry">
-                <span class="phpdocumentor-argument-list__argument__name">$weaponPlayer</span>
-                : <span class="phpdocumentor-argument-list__argument__type"><a href="classes/Smr-Player.html"><abbr title="\Smr\Player">Player</abbr></a></span>
-                            </dt>
-            <dd class="phpdocumentor-argument-list__definition">
-                
-            </dd>
-                    <dt class="phpdocumentor-argument-list__entry">
-                <span class="phpdocumentor-argument-list__argument__name">$targetPlayer</span>
-                : <span class="phpdocumentor-argument-list__argument__type"><a href="classes/Smr-Player.html"><abbr title="\Smr\Player">Player</abbr></a></span>
-                            </dt>
-            <dd class="phpdocumentor-argument-list__definition">
-                
-            </dd>
-            </dl>
-
-    
-
-        
-    
-            <section>
-        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
-        <span class="phpdocumentor-signature__response_type"><abbr title="\Smr\Combat\Weapon\WeaponDamageData">WeaponDamageData</abbr></span>
-            </section>
-
-</article>
-                    <article
-        class="phpdocumentor-element
-            -method
-            -public
-                                                        "
->
-    <h4 class="phpdocumentor-element__name" id="method_getModifiedDamageAgainstPort">
-        getModifiedDamageAgainstPort()
-        <a href="classes/Smr-Combat-Weapon-CombatDrones.html#method_getModifiedDamageAgainstPort" class="headerlink"><i class="fas fa-link"></i></a>
-
-    </h4>
-    <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Combat/Weapon/CombatDrones.php"><a href="files/src-lib-smr-combat-weapon-combatdrones.html"><abbr title="src/lib/Smr/Combat/Weapon/CombatDrones.php">CombatDrones.php</abbr></a></abbr>
-    :
-    <span class="phpdocumentor-element-found-in__line">128</span>
-
-            <a href="classes/Smr-Combat-Weapon-CombatDrones.html#source-view.128" class="phpdocumentor-element-found-in__source" data-line="128" data-modal="source-view" data-src="files/src/lib/Smr/Combat/Weapon/CombatDrones.php.txt"></a>
-    </aside>
-
-    
-    <code class="phpdocumentor-code phpdocumentor-signature ">
-    <span class="phpdocumentor-signature__visibility">public</span>
-                    <span class="phpdocumentor-signature__name">getModifiedDamageAgainstPort</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__type"><a href="classes/Smr-Player.html"><abbr title="\Smr\Player">Player</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$weaponPlayer</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__type"><a href="classes/Smr-Port.html"><abbr title="\Smr\Port">Port</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$port</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type"><abbr title="\Smr\Combat\Weapon\WeaponDamageData">WeaponDamageData</abbr></span></code>
-
-    <div class="phpdocumentor-label-line">
-        </div>
-    
-    
-        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
-    <dl class="phpdocumentor-argument-list">
-                    <dt class="phpdocumentor-argument-list__entry">
-                <span class="phpdocumentor-argument-list__argument__name">$weaponPlayer</span>
-                : <span class="phpdocumentor-argument-list__argument__type"><a href="classes/Smr-Player.html"><abbr title="\Smr\Player">Player</abbr></a></span>
-                            </dt>
-            <dd class="phpdocumentor-argument-list__definition">
-                
-            </dd>
-                    <dt class="phpdocumentor-argument-list__entry">
-                <span class="phpdocumentor-argument-list__argument__name">$port</span>
-                : <span class="phpdocumentor-argument-list__argument__type"><a href="classes/Smr-Port.html"><abbr title="\Smr\Port">Port</abbr></a></span>
-                            </dt>
-            <dd class="phpdocumentor-argument-list__definition">
-                
-            </dd>
-            </dl>
-
-    
-
-        
-    
-            <section>
-        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
-        <span class="phpdocumentor-signature__response_type"><abbr title="\Smr\Combat\Weapon\WeaponDamageData">WeaponDamageData</abbr></span>
-            </section>
-
-</article>
-                    <article
-        class="phpdocumentor-element
-            -method
-            -public
-                                                        "
->
-    <h4 class="phpdocumentor-element__name" id="method_getModifiedForceAccuracyAgainstPlayer">
-        getModifiedForceAccuracyAgainstPlayer()
-        <a href="classes/Smr-Combat-Weapon-CombatDrones.html#method_getModifiedForceAccuracyAgainstPlayer" class="headerlink"><i class="fas fa-link"></i></a>
-
-    </h4>
-    <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Combat/Weapon/CombatDrones.php"><a href="files/src-lib-smr-combat-weapon-combatdrones.html"><abbr title="src/lib/Smr/Combat/Weapon/CombatDrones.php">CombatDrones.php</abbr></a></abbr>
-    :
-    <span class="phpdocumentor-element-found-in__line">87</span>
-
-            <a href="classes/Smr-Combat-Weapon-CombatDrones.html#source-view.87" class="phpdocumentor-element-found-in__source" data-line="87" data-modal="source-view" data-src="files/src/lib/Smr/Combat/Weapon/CombatDrones.php.txt"></a>
-    </aside>
-
-    
-    <code class="phpdocumentor-code phpdocumentor-signature ">
-    <span class="phpdocumentor-signature__visibility">public</span>
-                    <span class="phpdocumentor-signature__name">getModifiedForceAccuracyAgainstPlayer</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__type"><a href="classes/Smr-Force.html"><abbr title="\Smr\Force">Force</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$forces</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__type"><a href="classes/Smr-Player.html"><abbr title="\Smr\Player">Player</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$targetPlayer</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">float</span></code>
-
-    <div class="phpdocumentor-label-line">
-        </div>
-    
-    
-        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
-    <dl class="phpdocumentor-argument-list">
-                    <dt class="phpdocumentor-argument-list__entry">
-                <span class="phpdocumentor-argument-list__argument__name">$forces</span>
-                : <span class="phpdocumentor-argument-list__argument__type"><a href="classes/Smr-Force.html"><abbr title="\Smr\Force">Force</abbr></a></span>
-                            </dt>
-            <dd class="phpdocumentor-argument-list__definition">
-                
-            </dd>
-                    <dt class="phpdocumentor-argument-list__entry">
-                <span class="phpdocumentor-argument-list__argument__name">$targetPlayer</span>
-                : <span class="phpdocumentor-argument-list__argument__type"><a href="classes/Smr-Player.html"><abbr title="\Smr\Player">Player</abbr></a></span>
-                            </dt>
-            <dd class="phpdocumentor-argument-list__definition">
-                
-            </dd>
-            </dl>
-
-    
-
-        
-    
-            <section>
-        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
-        <span class="phpdocumentor-signature__response_type">float</span>
-            </section>
-
-</article>
-                    <article
-        class="phpdocumentor-element
-            -method
-            -public
-                                                        "
->
-    <h4 class="phpdocumentor-element__name" id="method_getModifiedForceDamageAgainstPlayer">
-        getModifiedForceDamageAgainstPlayer()
-        <a href="classes/Smr-Combat-Weapon-CombatDrones.html#method_getModifiedForceDamageAgainstPlayer" class="headerlink"><i class="fas fa-link"></i></a>
-
-    </h4>
-    <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Combat/Weapon/CombatDrones.php"><a href="files/src-lib-smr-combat-weapon-combatdrones.html"><abbr title="src/lib/Smr/Combat/Weapon/CombatDrones.php">CombatDrones.php</abbr></a></abbr>
-    :
-    <span class="phpdocumentor-element-found-in__line">167</span>
-
-            <a href="classes/Smr-Combat-Weapon-CombatDrones.html#source-view.167" class="phpdocumentor-element-found-in__source" data-line="167" data-modal="source-view" data-src="files/src/lib/Smr/Combat/Weapon/CombatDrones.php.txt"></a>
-    </aside>
-
-    
-    <code class="phpdocumentor-code phpdocumentor-signature ">
-    <span class="phpdocumentor-signature__visibility">public</span>
-                    <span class="phpdocumentor-signature__name">getModifiedForceDamageAgainstPlayer</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__type"><a href="classes/Smr-Force.html"><abbr title="\Smr\Force">Force</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$forces</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__type"><a href="classes/Smr-Player.html"><abbr title="\Smr\Player">Player</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$targetPlayer</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type"><abbr title="\Smr\Combat\Weapon\WeaponDamageData">WeaponDamageData</abbr></span></code>
-
-    <div class="phpdocumentor-label-line">
-        </div>
-    
-    
-        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
-    <dl class="phpdocumentor-argument-list">
-                    <dt class="phpdocumentor-argument-list__entry">
-                <span class="phpdocumentor-argument-list__argument__name">$forces</span>
-                : <span class="phpdocumentor-argument-list__argument__type"><a href="classes/Smr-Force.html"><abbr title="\Smr\Force">Force</abbr></a></span>
-                            </dt>
-            <dd class="phpdocumentor-argument-list__definition">
-                
-            </dd>
-                    <dt class="phpdocumentor-argument-list__entry">
-                <span class="phpdocumentor-argument-list__argument__name">$targetPlayer</span>
-                : <span class="phpdocumentor-argument-list__argument__type"><a href="classes/Smr-Player.html"><abbr title="\Smr\Player">Player</abbr></a></span>
-                            </dt>
-            <dd class="phpdocumentor-argument-list__definition">
-                
-            </dd>
-            </dl>
-
-    
-
-        
-    
-            <section>
-        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
-        <span class="phpdocumentor-signature__response_type"><abbr title="\Smr\Combat\Weapon\WeaponDamageData">WeaponDamageData</abbr></span>
-            </section>
-
-</article>
-                    <article
-        class="phpdocumentor-element
-            -method
-            -public
-                                                        "
->
-    <h4 class="phpdocumentor-element__name" id="method_getModifiedPlanetDamageAgainstPlayer">
-        getModifiedPlanetDamageAgainstPlayer()
-        <a href="classes/Smr-Combat-Weapon-CombatDrones.html#method_getModifiedPlanetDamageAgainstPlayer" class="headerlink"><i class="fas fa-link"></i></a>
-
-    </h4>
-    <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Combat/Weapon/CombatDrones.php"><a href="files/src-lib-smr-combat-weapon-combatdrones.html"><abbr title="src/lib/Smr/Combat/Weapon/CombatDrones.php">CombatDrones.php</abbr></a></abbr>
-    :
-    <span class="phpdocumentor-element-found-in__line">191</span>
-
-            <a href="classes/Smr-Combat-Weapon-CombatDrones.html#source-view.191" class="phpdocumentor-element-found-in__source" data-line="191" data-modal="source-view" data-src="files/src/lib/Smr/Combat/Weapon/CombatDrones.php.txt"></a>
-    </aside>
-
-    
-    <code class="phpdocumentor-code phpdocumentor-signature ">
-    <span class="phpdocumentor-signature__visibility">public</span>
-                    <span class="phpdocumentor-signature__name">getModifiedPlanetDamageAgainstPlayer</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__type"><a href="classes/Smr-Planet.html"><abbr title="\Smr\Planet">Planet</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$planet</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__type"><a href="classes/Smr-Player.html"><abbr title="\Smr\Player">Player</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$targetPlayer</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type"><abbr title="\Smr\Combat\Weapon\WeaponDamageData">WeaponDamageData</abbr></span></code>
-
-    <div class="phpdocumentor-label-line">
-        </div>
-    
-    
-        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
-    <dl class="phpdocumentor-argument-list">
-                    <dt class="phpdocumentor-argument-list__entry">
-                <span class="phpdocumentor-argument-list__argument__name">$planet</span>
-                : <span class="phpdocumentor-argument-list__argument__type"><a href="classes/Smr-Planet.html"><abbr title="\Smr\Planet">Planet</abbr></a></span>
-                            </dt>
-            <dd class="phpdocumentor-argument-list__definition">
-                
-            </dd>
-                    <dt class="phpdocumentor-argument-list__entry">
-                <span class="phpdocumentor-argument-list__argument__name">$targetPlayer</span>
-                : <span class="phpdocumentor-argument-list__argument__type"><a href="classes/Smr-Player.html"><abbr title="\Smr\Player">Player</abbr></a></span>
-                            </dt>
-            <dd class="phpdocumentor-argument-list__definition">
-                
-            </dd>
-            </dl>
-
-    
-
-        
-    
-            <section>
-        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
-        <span class="phpdocumentor-signature__response_type"><abbr title="\Smr\Combat\Weapon\WeaponDamageData">WeaponDamageData</abbr></span>
-            </section>
-
-</article>
-                    <article
-        class="phpdocumentor-element
-            -method
-            -public
-                                                        "
->
-    <h4 class="phpdocumentor-element__name" id="method_getModifiedPortDamageAgainstPlayer">
-        getModifiedPortDamageAgainstPlayer()
-        <a href="classes/Smr-Combat-Weapon-CombatDrones.html#method_getModifiedPortDamageAgainstPlayer" class="headerlink"><i class="fas fa-link"></i></a>
-
-    </h4>
-    <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Combat/Weapon/CombatDrones.php"><a href="files/src-lib-smr-combat-weapon-combatdrones.html"><abbr title="src/lib/Smr/Combat/Weapon/CombatDrones.php">CombatDrones.php</abbr></a></abbr>
-    :
-    <span class="phpdocumentor-element-found-in__line">179</span>
-
-            <a href="classes/Smr-Combat-Weapon-CombatDrones.html#source-view.179" class="phpdocumentor-element-found-in__source" data-line="179" data-modal="source-view" data-src="files/src/lib/Smr/Combat/Weapon/CombatDrones.php.txt"></a>
-    </aside>
-
-    
-    <code class="phpdocumentor-code phpdocumentor-signature ">
-    <span class="phpdocumentor-signature__visibility">public</span>
-                    <span class="phpdocumentor-signature__name">getModifiedPortDamageAgainstPlayer</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__type"><a href="classes/Smr-Port.html"><abbr title="\Smr\Port">Port</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$port</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__type"><a href="classes/Smr-Player.html"><abbr title="\Smr\Player">Player</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$targetPlayer</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type"><abbr title="\Smr\Combat\Weapon\WeaponDamageData">WeaponDamageData</abbr></span></code>
-
-    <div class="phpdocumentor-label-line">
-        </div>
-    
-    
-        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
-    <dl class="phpdocumentor-argument-list">
-                    <dt class="phpdocumentor-argument-list__entry">
-                <span class="phpdocumentor-argument-list__argument__name">$port</span>
-                : <span class="phpdocumentor-argument-list__argument__type"><a href="classes/Smr-Port.html"><abbr title="\Smr\Port">Port</abbr></a></span>
-                            </dt>
-            <dd class="phpdocumentor-argument-list__definition">
-                
-            </dd>
-                    <dt class="phpdocumentor-argument-list__entry">
-                <span class="phpdocumentor-argument-list__argument__name">$targetPlayer</span>
-                : <span class="phpdocumentor-argument-list__argument__type"><a href="classes/Smr-Player.html"><abbr title="\Smr\Player">Player</abbr></a></span>
-                            </dt>
-            <dd class="phpdocumentor-argument-list__definition">
-                
-            </dd>
-            </dl>
-
-    
-
-        
-    
-            <section>
-        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
-        <span class="phpdocumentor-signature__response_type"><abbr title="\Smr\Combat\Weapon\WeaponDamageData">WeaponDamageData</abbr></span>
+        <span class="phpdocumentor-signature__response_type"><a href="classes/Smr-Combat-Results-Damage-WeaponDamage.html"><abbr title="\Smr\Combat\Results\Damage\WeaponDamage">WeaponDamage</abbr></a></span>
             </section>
 
 </article>
@@ -2083,23 +1217,23 @@
             -public
                                                         "
 >
-    <h4 class="phpdocumentor-element__name" id="method_shootForces">
-        shootForces()
-        <a href="classes/Smr-Combat-Weapon-CombatDrones.html#method_shootForces" class="headerlink"><i class="fas fa-link"></i></a>
+    <h4 class="phpdocumentor-element__name" id="method_shoot">
+        shoot()
+        <a href="classes/Smr-Combat-Weapon-CombatDrones.html#method_shoot" class="headerlink"><i class="fas fa-link"></i></a>
 
     </h4>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Combat/Weapon/CombatDrones.php"><a href="files/src-lib-smr-combat-weapon-combatdrones.html"><abbr title="src/lib/Smr/Combat/Weapon/CombatDrones.php">CombatDrones.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">206</span>
+    <span class="phpdocumentor-element-found-in__line">100</span>
 
-            <a href="classes/Smr-Combat-Weapon-CombatDrones.html#source-view.206" class="phpdocumentor-element-found-in__source" data-line="206" data-modal="source-view" data-src="files/src/lib/Smr/Combat/Weapon/CombatDrones.php.txt"></a>
+            <a href="classes/Smr-Combat-Weapon-CombatDrones.html#source-view.100" class="phpdocumentor-element-found-in__source" data-line="100" data-modal="source-view" data-src="files/src/lib/Smr/Combat/Weapon/CombatDrones.php.txt"></a>
     </aside>
 
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">public</span>
-                    <span class="phpdocumentor-signature__name">shootForces</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__type"><a href="classes/Smr-Player.html"><abbr title="\Smr\Player">Player</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$weaponPlayer</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__type"><a href="classes/Smr-Force.html"><abbr title="\Smr\Force">Force</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$forces</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type"><abbr title="array{Weapon: parent, Target: \Smr\Force, Hit: bool, WeaponDamage: \Smr\Combat\Weapon\WeaponDamageData, ActualDamage: \Smr\Combat\Weapon\ForceTakenDamageData, KillResults?: array{}}">ForceTakenDamageData, KillResults?: array{}}</abbr></span></code>
+                    <span class="phpdocumentor-signature__name">shoot</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__type"><a href="classes/Smr-Combat-WeaponShotAtCombatant.html"><abbr title="\Smr\Combat\WeaponShotAtCombatant">WeaponShotAtCombatant</abbr></a>&lt;string|int, <abbr title="\Smr\Combat\Weapon\TTarget">TTarget</abbr>&gt;&nbsp;</span><span class="phpdocumentor-signature__argument__name">$shot</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type"><a href="classes/Smr-Combat-Results-Weapon-HitWeaponResult.html"><abbr title="\Smr\Combat\Results\Weapon\HitWeaponResult">HitWeaponResult</abbr></a>&lt;string|int, <abbr title="\Smr\Combat\Weapon\TTarget">TTarget</abbr>&gt;</span></code>
 
     <div class="phpdocumentor-label-line">
         </div>
@@ -2108,15 +1242,8 @@
         <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
     <dl class="phpdocumentor-argument-list">
                     <dt class="phpdocumentor-argument-list__entry">
-                <span class="phpdocumentor-argument-list__argument__name">$weaponPlayer</span>
-                : <span class="phpdocumentor-argument-list__argument__type"><a href="classes/Smr-Player.html"><abbr title="\Smr\Player">Player</abbr></a></span>
-                            </dt>
-            <dd class="phpdocumentor-argument-list__definition">
-                
-            </dd>
-                    <dt class="phpdocumentor-argument-list__entry">
-                <span class="phpdocumentor-argument-list__argument__name">$forces</span>
-                : <span class="phpdocumentor-argument-list__argument__type"><a href="classes/Smr-Force.html"><abbr title="\Smr\Force">Force</abbr></a></span>
+                <span class="phpdocumentor-argument-list__argument__name">$shot</span>
+                : <span class="phpdocumentor-argument-list__argument__type"><a href="classes/Smr-Combat-WeaponShotAtCombatant.html"><abbr title="\Smr\Combat\WeaponShotAtCombatant">WeaponShotAtCombatant</abbr></a>&lt;string|int, <abbr title="\Smr\Combat\Weapon\TTarget">TTarget</abbr>&gt;</span>
                             </dt>
             <dd class="phpdocumentor-argument-list__definition">
                 
@@ -2124,348 +1251,25 @@
             </dl>
 
     
+    <h5 class="phpdocumentor-tag-list__heading" id="method_shoot_tags">
+        Tags
+        <a href="classes/Smr-Combat-Weapon-CombatDrones.html#method_shoot_tags" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h5>
+    <dl class="phpdocumentor-tag-list">
+                    <dt class="phpdocumentor-tag-list__entry">
+                <span class="phpdocumentor-tag__name">template</span>
+            </dt>
+                            <dd class="phpdocumentor-tag-list__definition">
+                                                                                                        
+                                    </dd>
+                        </dl>
 
         
     
             <section>
         <h5 class="phpdocumentor-return-value__heading">Return values</h5>
-        <span class="phpdocumentor-signature__response_type"><abbr title="array{Weapon: parent, Target: \Smr\Force, Hit: bool, WeaponDamage: \Smr\Combat\Weapon\WeaponDamageData, ActualDamage: \Smr\Combat\Weapon\ForceTakenDamageData, KillResults?: array{}}">ForceTakenDamageData, KillResults?: array{}}</abbr></span>
-            </section>
-
-</article>
-                    <article
-        class="phpdocumentor-element
-            -method
-            -public
-                                                        "
->
-    <h4 class="phpdocumentor-element__name" id="method_shootPlanet">
-        shootPlanet()
-        <a href="classes/Smr-Combat-Weapon-CombatDrones.html#method_shootPlanet" class="headerlink"><i class="fas fa-link"></i></a>
-
-    </h4>
-    <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Combat/Weapon/CombatDrones.php"><a href="files/src-lib-smr-combat-weapon-combatdrones.html"><abbr title="src/lib/Smr/Combat/Weapon/CombatDrones.php">CombatDrones.php</abbr></a></abbr>
-    :
-    <span class="phpdocumentor-element-found-in__line">229</span>
-
-            <a href="classes/Smr-Combat-Weapon-CombatDrones.html#source-view.229" class="phpdocumentor-element-found-in__source" data-line="229" data-modal="source-view" data-src="files/src/lib/Smr/Combat/Weapon/CombatDrones.php.txt"></a>
-    </aside>
-
-    
-    <code class="phpdocumentor-code phpdocumentor-signature ">
-    <span class="phpdocumentor-signature__visibility">public</span>
-                    <span class="phpdocumentor-signature__name">shootPlanet</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__type"><a href="classes/Smr-Player.html"><abbr title="\Smr\Player">Player</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$weaponPlayer</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__type"><a href="classes/Smr-Planet.html"><abbr title="\Smr\Planet">Planet</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$planet</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type"><abbr title="array{Weapon: parent, Target: \Smr\Planet, Hit: bool, WeaponDamage: \Smr\Combat\Weapon\WeaponDamageData, ActualDamage: \Smr\Combat\Weapon\TakenDamageData, KillResults?: array{}}">TakenDamageData, KillResults?: array{}}</abbr></span></code>
-
-    <div class="phpdocumentor-label-line">
-        </div>
-    
-    
-        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
-    <dl class="phpdocumentor-argument-list">
-                    <dt class="phpdocumentor-argument-list__entry">
-                <span class="phpdocumentor-argument-list__argument__name">$weaponPlayer</span>
-                : <span class="phpdocumentor-argument-list__argument__type"><a href="classes/Smr-Player.html"><abbr title="\Smr\Player">Player</abbr></a></span>
-                            </dt>
-            <dd class="phpdocumentor-argument-list__definition">
-                
-            </dd>
-                    <dt class="phpdocumentor-argument-list__entry">
-                <span class="phpdocumentor-argument-list__argument__name">$planet</span>
-                : <span class="phpdocumentor-argument-list__argument__type"><a href="classes/Smr-Planet.html"><abbr title="\Smr\Planet">Planet</abbr></a></span>
-                            </dt>
-            <dd class="phpdocumentor-argument-list__definition">
-                
-            </dd>
-            </dl>
-
-    
-
-        
-    
-            <section>
-        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
-        <span class="phpdocumentor-signature__response_type"><abbr title="array{Weapon: parent, Target: \Smr\Planet, Hit: bool, WeaponDamage: \Smr\Combat\Weapon\WeaponDamageData, ActualDamage: \Smr\Combat\Weapon\TakenDamageData, KillResults?: array{}}">TakenDamageData, KillResults?: array{}}</abbr></span>
-            </section>
-
-</article>
-                    <article
-        class="phpdocumentor-element
-            -method
-            -public
-                                                        "
->
-    <h4 class="phpdocumentor-element__name" id="method_shootPlayer">
-        shootPlayer()
-        <a href="classes/Smr-Combat-Weapon-CombatDrones.html#method_shootPlayer" class="headerlink"><i class="fas fa-link"></i></a>
-
-    </h4>
-    <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Combat/Weapon/CombatDrones.php"><a href="files/src-lib-smr-combat-weapon-combatdrones.html"><abbr title="src/lib/Smr/Combat/Weapon/CombatDrones.php">CombatDrones.php</abbr></a></abbr>
-    :
-    <span class="phpdocumentor-element-found-in__line">237</span>
-
-            <a href="classes/Smr-Combat-Weapon-CombatDrones.html#source-view.237" class="phpdocumentor-element-found-in__source" data-line="237" data-modal="source-view" data-src="files/src/lib/Smr/Combat/Weapon/CombatDrones.php.txt"></a>
-    </aside>
-
-    
-    <code class="phpdocumentor-code phpdocumentor-signature ">
-    <span class="phpdocumentor-signature__visibility">public</span>
-                    <span class="phpdocumentor-signature__name">shootPlayer</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__type"><a href="classes/Smr-Player.html"><abbr title="\Smr\Player">Player</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$weaponPlayer</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__type"><a href="classes/Smr-Player.html"><abbr title="\Smr\Player">Player</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$targetPlayer</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type"><abbr title="array{Weapon: parent, Target: \Smr\Player, Hit: bool, WeaponDamage: \Smr\Combat\Weapon\WeaponDamageData, ActualDamage: \Smr\Combat\Weapon\TakenDamageData, KillResults?: array{DeadExp: int, KillerExp: int, KillerCredits: int}}">TakenDamageData, KillResults?: array{DeadExp: int, KillerExp: int, KillerCredits: int}}</abbr></span></code>
-
-    <div class="phpdocumentor-label-line">
-        </div>
-    
-    
-        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
-    <dl class="phpdocumentor-argument-list">
-                    <dt class="phpdocumentor-argument-list__entry">
-                <span class="phpdocumentor-argument-list__argument__name">$weaponPlayer</span>
-                : <span class="phpdocumentor-argument-list__argument__type"><a href="classes/Smr-Player.html"><abbr title="\Smr\Player">Player</abbr></a></span>
-                            </dt>
-            <dd class="phpdocumentor-argument-list__definition">
-                
-            </dd>
-                    <dt class="phpdocumentor-argument-list__entry">
-                <span class="phpdocumentor-argument-list__argument__name">$targetPlayer</span>
-                : <span class="phpdocumentor-argument-list__argument__type"><a href="classes/Smr-Player.html"><abbr title="\Smr\Player">Player</abbr></a></span>
-                            </dt>
-            <dd class="phpdocumentor-argument-list__definition">
-                
-            </dd>
-            </dl>
-
-    
-
-        
-    
-            <section>
-        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
-        <span class="phpdocumentor-signature__response_type"><abbr title="array{Weapon: parent, Target: \Smr\Player, Hit: bool, WeaponDamage: \Smr\Combat\Weapon\WeaponDamageData, ActualDamage: \Smr\Combat\Weapon\TakenDamageData, KillResults?: array{DeadExp: int, KillerExp: int, KillerCredits: int}}">TakenDamageData, KillResults?: array{DeadExp: int, KillerExp: int, KillerCredits: int}}</abbr></span>
-            </section>
-
-</article>
-                    <article
-        class="phpdocumentor-element
-            -method
-            -public
-                                                        "
->
-    <h4 class="phpdocumentor-element__name" id="method_shootPlayerAsForce">
-        shootPlayerAsForce()
-        <a href="classes/Smr-Combat-Weapon-CombatDrones.html#method_shootPlayerAsForce" class="headerlink"><i class="fas fa-link"></i></a>
-
-    </h4>
-    <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Combat/Weapon/CombatDrones.php"><a href="files/src-lib-smr-combat-weapon-combatdrones.html"><abbr title="src/lib/Smr/Combat/Weapon/CombatDrones.php">CombatDrones.php</abbr></a></abbr>
-    :
-    <span class="phpdocumentor-element-found-in__line">242</span>
-
-            <a href="classes/Smr-Combat-Weapon-CombatDrones.html#source-view.242" class="phpdocumentor-element-found-in__source" data-line="242" data-modal="source-view" data-src="files/src/lib/Smr/Combat/Weapon/CombatDrones.php.txt"></a>
-    </aside>
-
-    
-    <code class="phpdocumentor-code phpdocumentor-signature ">
-    <span class="phpdocumentor-signature__visibility">public</span>
-                    <span class="phpdocumentor-signature__name">shootPlayerAsForce</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__type"><a href="classes/Smr-Force.html"><abbr title="\Smr\Force">Force</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$forces</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__type"><a href="classes/Smr-Player.html"><abbr title="\Smr\Player">Player</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$targetPlayer</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type"><abbr title="array{Weapon: self, Target: \Smr\Player, Hit: bool, WeaponDamage: \Smr\Combat\Weapon\WeaponDamageData, ActualDamage: \Smr\Combat\Weapon\TakenDamageData, KillResults?: array{DeadExp: int, LostCredits: int}}">TakenDamageData, KillResults?: array{DeadExp: int, LostCredits: int}}</abbr></span></code>
-
-    <div class="phpdocumentor-label-line">
-        </div>
-    
-    
-        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
-    <dl class="phpdocumentor-argument-list">
-                    <dt class="phpdocumentor-argument-list__entry">
-                <span class="phpdocumentor-argument-list__argument__name">$forces</span>
-                : <span class="phpdocumentor-argument-list__argument__type"><a href="classes/Smr-Force.html"><abbr title="\Smr\Force">Force</abbr></a></span>
-                            </dt>
-            <dd class="phpdocumentor-argument-list__definition">
-                
-            </dd>
-                    <dt class="phpdocumentor-argument-list__entry">
-                <span class="phpdocumentor-argument-list__argument__name">$targetPlayer</span>
-                : <span class="phpdocumentor-argument-list__argument__type"><a href="classes/Smr-Player.html"><abbr title="\Smr\Player">Player</abbr></a></span>
-                            </dt>
-            <dd class="phpdocumentor-argument-list__definition">
-                
-            </dd>
-            </dl>
-
-    
-
-        
-    
-            <section>
-        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
-        <span class="phpdocumentor-signature__response_type"><abbr title="array{Weapon: self, Target: \Smr\Player, Hit: bool, WeaponDamage: \Smr\Combat\Weapon\WeaponDamageData, ActualDamage: \Smr\Combat\Weapon\TakenDamageData, KillResults?: array{DeadExp: int, LostCredits: int}}">TakenDamageData, KillResults?: array{DeadExp: int, LostCredits: int}}</abbr></span>
-            </section>
-
-</article>
-                    <article
-        class="phpdocumentor-element
-            -method
-            -public
-                                                        "
->
-    <h4 class="phpdocumentor-element__name" id="method_shootPlayerAsPlanet">
-        shootPlayerAsPlanet()
-        <a href="classes/Smr-Combat-Weapon-CombatDrones.html#method_shootPlayerAsPlanet" class="headerlink"><i class="fas fa-link"></i></a>
-
-    </h4>
-    <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Combat/Weapon/CombatDrones.php"><a href="files/src-lib-smr-combat-weapon-combatdrones.html"><abbr title="src/lib/Smr/Combat/Weapon/CombatDrones.php">CombatDrones.php</abbr></a></abbr>
-    :
-    <span class="phpdocumentor-element-found-in__line">258</span>
-
-            <a href="classes/Smr-Combat-Weapon-CombatDrones.html#source-view.258" class="phpdocumentor-element-found-in__source" data-line="258" data-modal="source-view" data-src="files/src/lib/Smr/Combat/Weapon/CombatDrones.php.txt"></a>
-    </aside>
-
-    
-    <code class="phpdocumentor-code phpdocumentor-signature ">
-    <span class="phpdocumentor-signature__visibility">public</span>
-                    <span class="phpdocumentor-signature__name">shootPlayerAsPlanet</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__type"><a href="classes/Smr-Planet.html"><abbr title="\Smr\Planet">Planet</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$forces</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__type"><a href="classes/Smr-Player.html"><abbr title="\Smr\Player">Player</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$targetPlayer</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type"><abbr title="array{Weapon: parent, Target: \Smr\Player, Hit: bool, WeaponDamage: \Smr\Combat\Weapon\WeaponDamageData, ActualDamage: \Smr\Combat\Weapon\TakenDamageData, KillResults?: array{DeadExp: int, LostCredits: int}}">TakenDamageData, KillResults?: array{DeadExp: int, LostCredits: int}}</abbr></span></code>
-
-    <div class="phpdocumentor-label-line">
-        </div>
-    
-    
-        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
-    <dl class="phpdocumentor-argument-list">
-                    <dt class="phpdocumentor-argument-list__entry">
-                <span class="phpdocumentor-argument-list__argument__name">$forces</span>
-                : <span class="phpdocumentor-argument-list__argument__type"><a href="classes/Smr-Planet.html"><abbr title="\Smr\Planet">Planet</abbr></a></span>
-                            </dt>
-            <dd class="phpdocumentor-argument-list__definition">
-                
-            </dd>
-                    <dt class="phpdocumentor-argument-list__entry">
-                <span class="phpdocumentor-argument-list__argument__name">$targetPlayer</span>
-                : <span class="phpdocumentor-argument-list__argument__type"><a href="classes/Smr-Player.html"><abbr title="\Smr\Player">Player</abbr></a></span>
-                            </dt>
-            <dd class="phpdocumentor-argument-list__definition">
-                
-            </dd>
-            </dl>
-
-    
-
-        
-    
-            <section>
-        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
-        <span class="phpdocumentor-signature__response_type"><abbr title="array{Weapon: parent, Target: \Smr\Player, Hit: bool, WeaponDamage: \Smr\Combat\Weapon\WeaponDamageData, ActualDamage: \Smr\Combat\Weapon\TakenDamageData, KillResults?: array{DeadExp: int, LostCredits: int}}">TakenDamageData, KillResults?: array{DeadExp: int, LostCredits: int}}</abbr></span>
-            </section>
-
-</article>
-                    <article
-        class="phpdocumentor-element
-            -method
-            -public
-                                                        "
->
-    <h4 class="phpdocumentor-element__name" id="method_shootPlayerAsPort">
-        shootPlayerAsPort()
-        <a href="classes/Smr-Combat-Weapon-CombatDrones.html#method_shootPlayerAsPort" class="headerlink"><i class="fas fa-link"></i></a>
-
-    </h4>
-    <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Combat/Weapon/CombatDrones.php"><a href="files/src-lib-smr-combat-weapon-combatdrones.html"><abbr title="src/lib/Smr/Combat/Weapon/CombatDrones.php">CombatDrones.php</abbr></a></abbr>
-    :
-    <span class="phpdocumentor-element-found-in__line">250</span>
-
-            <a href="classes/Smr-Combat-Weapon-CombatDrones.html#source-view.250" class="phpdocumentor-element-found-in__source" data-line="250" data-modal="source-view" data-src="files/src/lib/Smr/Combat/Weapon/CombatDrones.php.txt"></a>
-    </aside>
-
-    
-    <code class="phpdocumentor-code phpdocumentor-signature ">
-    <span class="phpdocumentor-signature__visibility">public</span>
-                    <span class="phpdocumentor-signature__name">shootPlayerAsPort</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__type"><a href="classes/Smr-Port.html"><abbr title="\Smr\Port">Port</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$forces</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__type"><a href="classes/Smr-Player.html"><abbr title="\Smr\Player">Player</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$targetPlayer</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type"><abbr title="array{Weapon: parent, Target: \Smr\Player, Hit: bool, WeaponDamage: \Smr\Combat\Weapon\WeaponDamageData, ActualDamage: \Smr\Combat\Weapon\TakenDamageData, KillResults?: array{DeadExp: int, LostCredits: int}}">TakenDamageData, KillResults?: array{DeadExp: int, LostCredits: int}}</abbr></span></code>
-
-    <div class="phpdocumentor-label-line">
-        </div>
-    
-    
-        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
-    <dl class="phpdocumentor-argument-list">
-                    <dt class="phpdocumentor-argument-list__entry">
-                <span class="phpdocumentor-argument-list__argument__name">$forces</span>
-                : <span class="phpdocumentor-argument-list__argument__type"><a href="classes/Smr-Port.html"><abbr title="\Smr\Port">Port</abbr></a></span>
-                            </dt>
-            <dd class="phpdocumentor-argument-list__definition">
-                
-            </dd>
-                    <dt class="phpdocumentor-argument-list__entry">
-                <span class="phpdocumentor-argument-list__argument__name">$targetPlayer</span>
-                : <span class="phpdocumentor-argument-list__argument__type"><a href="classes/Smr-Player.html"><abbr title="\Smr\Player">Player</abbr></a></span>
-                            </dt>
-            <dd class="phpdocumentor-argument-list__definition">
-                
-            </dd>
-            </dl>
-
-    
-
-        
-    
-            <section>
-        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
-        <span class="phpdocumentor-signature__response_type"><abbr title="array{Weapon: parent, Target: \Smr\Player, Hit: bool, WeaponDamage: \Smr\Combat\Weapon\WeaponDamageData, ActualDamage: \Smr\Combat\Weapon\TakenDamageData, KillResults?: array{DeadExp: int, LostCredits: int}}">TakenDamageData, KillResults?: array{DeadExp: int, LostCredits: int}}</abbr></span>
-            </section>
-
-</article>
-                    <article
-        class="phpdocumentor-element
-            -method
-            -public
-                                                        "
->
-    <h4 class="phpdocumentor-element__name" id="method_shootPort">
-        shootPort()
-        <a href="classes/Smr-Combat-Weapon-CombatDrones.html#method_shootPort" class="headerlink"><i class="fas fa-link"></i></a>
-
-    </h4>
-    <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Combat/Weapon/CombatDrones.php"><a href="files/src-lib-smr-combat-weapon-combatdrones.html"><abbr title="src/lib/Smr/Combat/Weapon/CombatDrones.php">CombatDrones.php</abbr></a></abbr>
-    :
-    <span class="phpdocumentor-element-found-in__line">221</span>
-
-            <a href="classes/Smr-Combat-Weapon-CombatDrones.html#source-view.221" class="phpdocumentor-element-found-in__source" data-line="221" data-modal="source-view" data-src="files/src/lib/Smr/Combat/Weapon/CombatDrones.php.txt"></a>
-    </aside>
-
-    
-    <code class="phpdocumentor-code phpdocumentor-signature ">
-    <span class="phpdocumentor-signature__visibility">public</span>
-                    <span class="phpdocumentor-signature__name">shootPort</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__type"><a href="classes/Smr-Player.html"><abbr title="\Smr\Player">Player</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$weaponPlayer</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__type"><a href="classes/Smr-Port.html"><abbr title="\Smr\Port">Port</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$port</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type"><abbr title="array{Weapon: parent, Target: \Smr\Port, Hit: bool, WeaponDamage: \Smr\Combat\Weapon\WeaponDamageData, ActualDamage: \Smr\Combat\Weapon\TakenDamageData, KillResults?: array{}}">TakenDamageData, KillResults?: array{}}</abbr></span></code>
-
-    <div class="phpdocumentor-label-line">
-        </div>
-    
-    
-        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
-    <dl class="phpdocumentor-argument-list">
-                    <dt class="phpdocumentor-argument-list__entry">
-                <span class="phpdocumentor-argument-list__argument__name">$weaponPlayer</span>
-                : <span class="phpdocumentor-argument-list__argument__type"><a href="classes/Smr-Player.html"><abbr title="\Smr\Player">Player</abbr></a></span>
-                            </dt>
-            <dd class="phpdocumentor-argument-list__definition">
-                
-            </dd>
-                    <dt class="phpdocumentor-argument-list__entry">
-                <span class="phpdocumentor-argument-list__argument__name">$port</span>
-                : <span class="phpdocumentor-argument-list__argument__type"><a href="classes/Smr-Port.html"><abbr title="\Smr\Port">Port</abbr></a></span>
-                            </dt>
-            <dd class="phpdocumentor-argument-list__definition">
-                
-            </dd>
-            </dl>
-
-    
-
-        
-    
-            <section>
-        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
-        <span class="phpdocumentor-signature__response_type"><abbr title="array{Weapon: parent, Target: \Smr\Port, Hit: bool, WeaponDamage: \Smr\Combat\Weapon\WeaponDamageData, ActualDamage: \Smr\Combat\Weapon\TakenDamageData, KillResults?: array{}}">TakenDamageData, KillResults?: array{}}</abbr></span>
+        <span class="phpdocumentor-signature__response_type"><a href="classes/Smr-Combat-Results-Weapon-HitWeaponResult.html"><abbr title="\Smr\Combat\Results\Weapon\HitWeaponResult">HitWeaponResult</abbr></a>&lt;string|int, <abbr title="\Smr\Combat\Weapon\TTarget">TTarget</abbr>&gt;</span>
             </section>
 
 </article>
@@ -2475,23 +1279,24 @@
             -protected
                                                         "
 >
-    <h4 class="phpdocumentor-element__name" id="method_doForceDamageToPlayer">
-        doForceDamageToPlayer()
-        <a href="classes/Smr-Combat-Weapon-AbstractWeapon.html#method_doForceDamageToPlayer" class="headerlink"><i class="fas fa-link"></i></a>
+    <h4 class="phpdocumentor-element__name" id="method_hitTarget">
+        hitTarget()
+        <a href="classes/Smr-Combat-Weapon-AbstractWeapon.html#method_hitTarget" class="headerlink"><i class="fas fa-link"></i></a>
 
     </h4>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Combat/Weapon/AbstractWeapon.php"><a href="files/src-lib-smr-combat-weapon-abstractweapon.html"><abbr title="src/lib/Smr/Combat/Weapon/AbstractWeapon.php">AbstractWeapon.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">171</span>
+    <span class="phpdocumentor-element-found-in__line">49</span>
 
-            <a href="classes/Smr-Combat-Weapon-CombatDrones.html#source-view.171" class="phpdocumentor-element-found-in__source" data-line="171" data-modal="source-view" data-src="files/src/lib/Smr/Combat/Weapon/AbstractWeapon.php.txt"></a>
+            <a href="classes/Smr-Combat-Weapon-CombatDrones.html#source-view.49" class="phpdocumentor-element-found-in__source" data-line="49" data-modal="source-view" data-src="files/src/lib/Smr/Combat/Weapon/AbstractWeapon.php.txt"></a>
     </aside>
 
-    
+        <p class="phpdocumentor-summary">Applies this weapon&#039;s modified damage and resolves a killing shot, if any.</p>
+
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">protected</span>
-                    <span class="phpdocumentor-signature__name">doForceDamageToPlayer</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__type"><abbr title="array{Weapon: self, Target: \Smr\Player, Hit: bool}">Player, Hit: bool}</abbr>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$return</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__type"><a href="classes/Smr-Force.html"><abbr title="\Smr\Force">Force</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$forces</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__type"><a href="classes/Smr-Player.html"><abbr title="\Smr\Player">Player</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$targetPlayer</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type"><abbr title="array{Weapon: self, Target: \Smr\Player, Hit: bool, WeaponDamage: \Smr\Combat\Weapon\WeaponDamageData, ActualDamage: \Smr\Combat\Weapon\TakenDamageData, KillResults?: array{DeadExp: int, LostCredits: int}}">TakenDamageData, KillResults?: array{DeadExp: int, LostCredits: int}}</abbr></span></code>
+                    <span class="phpdocumentor-signature__name">hitTarget</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__type"><a href="classes/Smr-Combat-WeaponShotAtCombatant.html"><abbr title="\Smr\Combat\WeaponShotAtCombatant">WeaponShotAtCombatant</abbr></a>&lt;string|int, <abbr title="\Smr\Combat\Weapon\TTarget">TTarget</abbr>&gt;&nbsp;</span><span class="phpdocumentor-signature__argument__name">$shot</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type"><a href="classes/Smr-Combat-Results-Weapon-HitWeaponResult.html"><abbr title="\Smr\Combat\Results\Weapon\HitWeaponResult">HitWeaponResult</abbr></a>&lt;string|int, <abbr title="\Smr\Combat\Weapon\TTarget">TTarget</abbr>&gt;</span></code>
 
     <div class="phpdocumentor-label-line">
         </div>
@@ -2500,22 +1305,8 @@
         <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
     <dl class="phpdocumentor-argument-list">
                     <dt class="phpdocumentor-argument-list__entry">
-                <span class="phpdocumentor-argument-list__argument__name">$return</span>
-                : <span class="phpdocumentor-argument-list__argument__type"><abbr title="array{Weapon: self, Target: \Smr\Player, Hit: bool}">Player, Hit: bool}</abbr></span>
-                            </dt>
-            <dd class="phpdocumentor-argument-list__definition">
-                
-            </dd>
-                    <dt class="phpdocumentor-argument-list__entry">
-                <span class="phpdocumentor-argument-list__argument__name">$forces</span>
-                : <span class="phpdocumentor-argument-list__argument__type"><a href="classes/Smr-Force.html"><abbr title="\Smr\Force">Force</abbr></a></span>
-                            </dt>
-            <dd class="phpdocumentor-argument-list__definition">
-                
-            </dd>
-                    <dt class="phpdocumentor-argument-list__entry">
-                <span class="phpdocumentor-argument-list__argument__name">$targetPlayer</span>
-                : <span class="phpdocumentor-argument-list__argument__type"><a href="classes/Smr-Player.html"><abbr title="\Smr\Player">Player</abbr></a></span>
+                <span class="phpdocumentor-argument-list__argument__name">$shot</span>
+                : <span class="phpdocumentor-argument-list__argument__type"><a href="classes/Smr-Combat-WeaponShotAtCombatant.html"><abbr title="\Smr\Combat\WeaponShotAtCombatant">WeaponShotAtCombatant</abbr></a>&lt;string|int, <abbr title="\Smr\Combat\Weapon\TTarget">TTarget</abbr>&gt;</span>
                             </dt>
             <dd class="phpdocumentor-argument-list__definition">
                 
@@ -2523,817 +1314,25 @@
             </dl>
 
     
+    <h5 class="phpdocumentor-tag-list__heading" id="method_hitTarget_tags">
+        Tags
+        <a href="classes/Smr-Combat-Weapon-AbstractWeapon.html#method_hitTarget_tags" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h5>
+    <dl class="phpdocumentor-tag-list">
+                    <dt class="phpdocumentor-tag-list__entry">
+                <span class="phpdocumentor-tag__name">template</span>
+            </dt>
+                            <dd class="phpdocumentor-tag-list__definition">
+                                                                                                        
+                                    </dd>
+                        </dl>
 
         
     
             <section>
         <h5 class="phpdocumentor-return-value__heading">Return values</h5>
-        <span class="phpdocumentor-signature__response_type"><abbr title="array{Weapon: self, Target: \Smr\Player, Hit: bool, WeaponDamage: \Smr\Combat\Weapon\WeaponDamageData, ActualDamage: \Smr\Combat\Weapon\TakenDamageData, KillResults?: array{DeadExp: int, LostCredits: int}}">TakenDamageData, KillResults?: array{DeadExp: int, LostCredits: int}}</abbr></span>
-            </section>
-
-</article>
-                    <article
-        class="phpdocumentor-element
-            -method
-            -protected
-                                                        "
->
-    <h4 class="phpdocumentor-element__name" id="method_doPlanetDamageToPlayer">
-        doPlanetDamageToPlayer()
-        <a href="classes/Smr-Combat-Weapon-AbstractWeapon.html#method_doPlanetDamageToPlayer" class="headerlink"><i class="fas fa-link"></i></a>
-
-    </h4>
-    <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Combat/Weapon/AbstractWeapon.php"><a href="files/src-lib-smr-combat-weapon-abstractweapon.html"><abbr title="src/lib/Smr/Combat/Weapon/AbstractWeapon.php">AbstractWeapon.php</abbr></a></abbr>
-    :
-    <span class="phpdocumentor-element-found-in__line">157</span>
-
-            <a href="classes/Smr-Combat-Weapon-CombatDrones.html#source-view.157" class="phpdocumentor-element-found-in__source" data-line="157" data-modal="source-view" data-src="files/src/lib/Smr/Combat/Weapon/AbstractWeapon.php.txt"></a>
-    </aside>
-
-    
-    <code class="phpdocumentor-code phpdocumentor-signature ">
-    <span class="phpdocumentor-signature__visibility">protected</span>
-                    <span class="phpdocumentor-signature__name">doPlanetDamageToPlayer</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__type"><abbr title="array{Weapon: self, Target: \Smr\Player, Hit: bool}">Player, Hit: bool}</abbr>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$return</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__type"><a href="classes/Smr-Planet.html"><abbr title="\Smr\Planet">Planet</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$planet</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__type"><a href="classes/Smr-Player.html"><abbr title="\Smr\Player">Player</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$targetPlayer</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type"><abbr title="array{Weapon: self, Target: \Smr\Player, Hit: bool, WeaponDamage: \Smr\Combat\Weapon\WeaponDamageData, ActualDamage: \Smr\Combat\Weapon\TakenDamageData, KillResults?: array{DeadExp: int, LostCredits: int}}">TakenDamageData, KillResults?: array{DeadExp: int, LostCredits: int}}</abbr></span></code>
-
-    <div class="phpdocumentor-label-line">
-        </div>
-    
-    
-        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
-    <dl class="phpdocumentor-argument-list">
-                    <dt class="phpdocumentor-argument-list__entry">
-                <span class="phpdocumentor-argument-list__argument__name">$return</span>
-                : <span class="phpdocumentor-argument-list__argument__type"><abbr title="array{Weapon: self, Target: \Smr\Player, Hit: bool}">Player, Hit: bool}</abbr></span>
-                            </dt>
-            <dd class="phpdocumentor-argument-list__definition">
-                
-            </dd>
-                    <dt class="phpdocumentor-argument-list__entry">
-                <span class="phpdocumentor-argument-list__argument__name">$planet</span>
-                : <span class="phpdocumentor-argument-list__argument__type"><a href="classes/Smr-Planet.html"><abbr title="\Smr\Planet">Planet</abbr></a></span>
-                            </dt>
-            <dd class="phpdocumentor-argument-list__definition">
-                
-            </dd>
-                    <dt class="phpdocumentor-argument-list__entry">
-                <span class="phpdocumentor-argument-list__argument__name">$targetPlayer</span>
-                : <span class="phpdocumentor-argument-list__argument__type"><a href="classes/Smr-Player.html"><abbr title="\Smr\Player">Player</abbr></a></span>
-                            </dt>
-            <dd class="phpdocumentor-argument-list__definition">
-                
-            </dd>
-            </dl>
-
-    
-
-        
-    
-            <section>
-        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
-        <span class="phpdocumentor-signature__response_type"><abbr title="array{Weapon: self, Target: \Smr\Player, Hit: bool, WeaponDamage: \Smr\Combat\Weapon\WeaponDamageData, ActualDamage: \Smr\Combat\Weapon\TakenDamageData, KillResults?: array{DeadExp: int, LostCredits: int}}">TakenDamageData, KillResults?: array{DeadExp: int, LostCredits: int}}</abbr></span>
-            </section>
-
-</article>
-                    <article
-        class="phpdocumentor-element
-            -method
-            -protected
-                                                        "
->
-    <h4 class="phpdocumentor-element__name" id="method_doPlayerDamageToForce">
-        doPlayerDamageToForce()
-        <a href="classes/Smr-Combat-Weapon-AbstractWeapon.html#method_doPlayerDamageToForce" class="headerlink"><i class="fas fa-link"></i></a>
-
-    </h4>
-    <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Combat/Weapon/AbstractWeapon.php"><a href="files/src-lib-smr-combat-weapon-abstractweapon.html"><abbr title="src/lib/Smr/Combat/Weapon/AbstractWeapon.php">AbstractWeapon.php</abbr></a></abbr>
-    :
-    <span class="phpdocumentor-element-found-in__line">90</span>
-
-            <a href="classes/Smr-Combat-Weapon-CombatDrones.html#source-view.90" class="phpdocumentor-element-found-in__source" data-line="90" data-modal="source-view" data-src="files/src/lib/Smr/Combat/Weapon/AbstractWeapon.php.txt"></a>
-    </aside>
-
-    
-    <code class="phpdocumentor-code phpdocumentor-signature ">
-    <span class="phpdocumentor-signature__visibility">protected</span>
-                    <span class="phpdocumentor-signature__name">doPlayerDamageToForce</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__type"><abbr title="array{Weapon: self, Target: \Smr\Force, Hit: bool}">Force, Hit: bool}</abbr>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$return</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__type"><a href="classes/Smr-Player.html"><abbr title="\Smr\Player">Player</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$weaponPlayer</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__type"><a href="classes/Smr-Force.html"><abbr title="\Smr\Force">Force</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$forces</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type"><abbr title="array{Weapon: self, Target: \Smr\Force, Hit: bool, WeaponDamage: \Smr\Combat\Weapon\WeaponDamageData, ActualDamage: \Smr\Combat\Weapon\ForceTakenDamageData, KillResults?: array{}}">ForceTakenDamageData, KillResults?: array{}}</abbr></span></code>
-
-    <div class="phpdocumentor-label-line">
-        </div>
-    
-    
-        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
-    <dl class="phpdocumentor-argument-list">
-                    <dt class="phpdocumentor-argument-list__entry">
-                <span class="phpdocumentor-argument-list__argument__name">$return</span>
-                : <span class="phpdocumentor-argument-list__argument__type"><abbr title="array{Weapon: self, Target: \Smr\Force, Hit: bool}">Force, Hit: bool}</abbr></span>
-                            </dt>
-            <dd class="phpdocumentor-argument-list__definition">
-                
-            </dd>
-                    <dt class="phpdocumentor-argument-list__entry">
-                <span class="phpdocumentor-argument-list__argument__name">$weaponPlayer</span>
-                : <span class="phpdocumentor-argument-list__argument__type"><a href="classes/Smr-Player.html"><abbr title="\Smr\Player">Player</abbr></a></span>
-                            </dt>
-            <dd class="phpdocumentor-argument-list__definition">
-                
-            </dd>
-                    <dt class="phpdocumentor-argument-list__entry">
-                <span class="phpdocumentor-argument-list__argument__name">$forces</span>
-                : <span class="phpdocumentor-argument-list__argument__type"><a href="classes/Smr-Force.html"><abbr title="\Smr\Force">Force</abbr></a></span>
-                            </dt>
-            <dd class="phpdocumentor-argument-list__definition">
-                
-            </dd>
-            </dl>
-
-    
-
-        
-    
-            <section>
-        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
-        <span class="phpdocumentor-signature__response_type"><abbr title="array{Weapon: self, Target: \Smr\Force, Hit: bool, WeaponDamage: \Smr\Combat\Weapon\WeaponDamageData, ActualDamage: \Smr\Combat\Weapon\ForceTakenDamageData, KillResults?: array{}}">ForceTakenDamageData, KillResults?: array{}}</abbr></span>
-            </section>
-
-</article>
-                    <article
-        class="phpdocumentor-element
-            -method
-            -protected
-                                                        "
->
-    <h4 class="phpdocumentor-element__name" id="method_doPlayerDamageToPlanet">
-        doPlayerDamageToPlanet()
-        <a href="classes/Smr-Combat-Weapon-AbstractWeapon.html#method_doPlayerDamageToPlanet" class="headerlink"><i class="fas fa-link"></i></a>
-
-    </h4>
-    <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Combat/Weapon/AbstractWeapon.php"><a href="files/src-lib-smr-combat-weapon-abstractweapon.html"><abbr title="src/lib/Smr/Combat/Weapon/AbstractWeapon.php">AbstractWeapon.php</abbr></a></abbr>
-    :
-    <span class="phpdocumentor-element-found-in__line">130</span>
-
-            <a href="classes/Smr-Combat-Weapon-CombatDrones.html#source-view.130" class="phpdocumentor-element-found-in__source" data-line="130" data-modal="source-view" data-src="files/src/lib/Smr/Combat/Weapon/AbstractWeapon.php.txt"></a>
-    </aside>
-
-    
-    <code class="phpdocumentor-code phpdocumentor-signature ">
-    <span class="phpdocumentor-signature__visibility">protected</span>
-                    <span class="phpdocumentor-signature__name">doPlayerDamageToPlanet</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__type"><abbr title="array{Weapon: self, Target: \Smr\Planet, Hit: bool}">Planet, Hit: bool}</abbr>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$return</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__type"><a href="classes/Smr-Player.html"><abbr title="\Smr\Player">Player</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$weaponPlayer</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__type"><a href="classes/Smr-Planet.html"><abbr title="\Smr\Planet">Planet</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$planet</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type"><abbr title="array{Weapon: self, Target: \Smr\Planet, Hit: bool, WeaponDamage: \Smr\Combat\Weapon\WeaponDamageData, ActualDamage: \Smr\Combat\Weapon\TakenDamageData, KillResults?: array{}}">TakenDamageData, KillResults?: array{}}</abbr></span></code>
-
-    <div class="phpdocumentor-label-line">
-        </div>
-    
-    
-        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
-    <dl class="phpdocumentor-argument-list">
-                    <dt class="phpdocumentor-argument-list__entry">
-                <span class="phpdocumentor-argument-list__argument__name">$return</span>
-                : <span class="phpdocumentor-argument-list__argument__type"><abbr title="array{Weapon: self, Target: \Smr\Planet, Hit: bool}">Planet, Hit: bool}</abbr></span>
-                            </dt>
-            <dd class="phpdocumentor-argument-list__definition">
-                
-            </dd>
-                    <dt class="phpdocumentor-argument-list__entry">
-                <span class="phpdocumentor-argument-list__argument__name">$weaponPlayer</span>
-                : <span class="phpdocumentor-argument-list__argument__type"><a href="classes/Smr-Player.html"><abbr title="\Smr\Player">Player</abbr></a></span>
-                            </dt>
-            <dd class="phpdocumentor-argument-list__definition">
-                
-            </dd>
-                    <dt class="phpdocumentor-argument-list__entry">
-                <span class="phpdocumentor-argument-list__argument__name">$planet</span>
-                : <span class="phpdocumentor-argument-list__argument__type"><a href="classes/Smr-Planet.html"><abbr title="\Smr\Planet">Planet</abbr></a></span>
-                            </dt>
-            <dd class="phpdocumentor-argument-list__definition">
-                
-            </dd>
-            </dl>
-
-    
-
-        
-    
-            <section>
-        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
-        <span class="phpdocumentor-signature__response_type"><abbr title="array{Weapon: self, Target: \Smr\Planet, Hit: bool, WeaponDamage: \Smr\Combat\Weapon\WeaponDamageData, ActualDamage: \Smr\Combat\Weapon\TakenDamageData, KillResults?: array{}}">TakenDamageData, KillResults?: array{}}</abbr></span>
-            </section>
-
-</article>
-                    <article
-        class="phpdocumentor-element
-            -method
-            -protected
-                                                        "
->
-    <h4 class="phpdocumentor-element__name" id="method_doPlayerDamageToPlayer">
-        doPlayerDamageToPlayer()
-        <a href="classes/Smr-Combat-Weapon-AbstractWeapon.html#method_doPlayerDamageToPlayer" class="headerlink"><i class="fas fa-link"></i></a>
-
-    </h4>
-    <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Combat/Weapon/AbstractWeapon.php"><a href="files/src-lib-smr-combat-weapon-abstractweapon.html"><abbr title="src/lib/Smr/Combat/Weapon/AbstractWeapon.php">AbstractWeapon.php</abbr></a></abbr>
-    :
-    <span class="phpdocumentor-element-found-in__line">103</span>
-
-            <a href="classes/Smr-Combat-Weapon-CombatDrones.html#source-view.103" class="phpdocumentor-element-found-in__source" data-line="103" data-modal="source-view" data-src="files/src/lib/Smr/Combat/Weapon/AbstractWeapon.php.txt"></a>
-    </aside>
-
-    
-    <code class="phpdocumentor-code phpdocumentor-signature ">
-    <span class="phpdocumentor-signature__visibility">protected</span>
-                    <span class="phpdocumentor-signature__name">doPlayerDamageToPlayer</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__type"><abbr title="array{Weapon: self, Target: \Smr\Player, Hit: bool}">Player, Hit: bool}</abbr>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$return</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__type"><a href="classes/Smr-Player.html"><abbr title="\Smr\Player">Player</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$weaponPlayer</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__type"><a href="classes/Smr-Player.html"><abbr title="\Smr\Player">Player</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$targetPlayer</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type"><abbr title="array{Weapon: self, Target: \Smr\Player, Hit: bool, WeaponDamage: \Smr\Combat\Weapon\WeaponDamageData, ActualDamage: \Smr\Combat\Weapon\TakenDamageData, KillResults?: array{DeadExp: int, KillerExp: int, KillerCredits: int}}">TakenDamageData, KillResults?: array{DeadExp: int, KillerExp: int, KillerCredits: int}}</abbr></span></code>
-
-    <div class="phpdocumentor-label-line">
-        </div>
-    
-    
-        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
-    <dl class="phpdocumentor-argument-list">
-                    <dt class="phpdocumentor-argument-list__entry">
-                <span class="phpdocumentor-argument-list__argument__name">$return</span>
-                : <span class="phpdocumentor-argument-list__argument__type"><abbr title="array{Weapon: self, Target: \Smr\Player, Hit: bool}">Player, Hit: bool}</abbr></span>
-                            </dt>
-            <dd class="phpdocumentor-argument-list__definition">
-                
-            </dd>
-                    <dt class="phpdocumentor-argument-list__entry">
-                <span class="phpdocumentor-argument-list__argument__name">$weaponPlayer</span>
-                : <span class="phpdocumentor-argument-list__argument__type"><a href="classes/Smr-Player.html"><abbr title="\Smr\Player">Player</abbr></a></span>
-                            </dt>
-            <dd class="phpdocumentor-argument-list__definition">
-                
-            </dd>
-                    <dt class="phpdocumentor-argument-list__entry">
-                <span class="phpdocumentor-argument-list__argument__name">$targetPlayer</span>
-                : <span class="phpdocumentor-argument-list__argument__type"><a href="classes/Smr-Player.html"><abbr title="\Smr\Player">Player</abbr></a></span>
-                            </dt>
-            <dd class="phpdocumentor-argument-list__definition">
-                
-            </dd>
-            </dl>
-
-    
-
-        
-    
-            <section>
-        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
-        <span class="phpdocumentor-signature__response_type"><abbr title="array{Weapon: self, Target: \Smr\Player, Hit: bool, WeaponDamage: \Smr\Combat\Weapon\WeaponDamageData, ActualDamage: \Smr\Combat\Weapon\TakenDamageData, KillResults?: array{DeadExp: int, KillerExp: int, KillerCredits: int}}">TakenDamageData, KillResults?: array{DeadExp: int, KillerExp: int, KillerCredits: int}}</abbr></span>
-            </section>
-
-</article>
-                    <article
-        class="phpdocumentor-element
-            -method
-            -protected
-                                                        "
->
-    <h4 class="phpdocumentor-element__name" id="method_doPlayerDamageToPort">
-        doPlayerDamageToPort()
-        <a href="classes/Smr-Combat-Weapon-AbstractWeapon.html#method_doPlayerDamageToPort" class="headerlink"><i class="fas fa-link"></i></a>
-
-    </h4>
-    <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Combat/Weapon/AbstractWeapon.php"><a href="files/src-lib-smr-combat-weapon-abstractweapon.html"><abbr title="src/lib/Smr/Combat/Weapon/AbstractWeapon.php">AbstractWeapon.php</abbr></a></abbr>
-    :
-    <span class="phpdocumentor-element-found-in__line">117</span>
-
-            <a href="classes/Smr-Combat-Weapon-CombatDrones.html#source-view.117" class="phpdocumentor-element-found-in__source" data-line="117" data-modal="source-view" data-src="files/src/lib/Smr/Combat/Weapon/AbstractWeapon.php.txt"></a>
-    </aside>
-
-    
-    <code class="phpdocumentor-code phpdocumentor-signature ">
-    <span class="phpdocumentor-signature__visibility">protected</span>
-                    <span class="phpdocumentor-signature__name">doPlayerDamageToPort</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__type"><abbr title="array{Weapon: self, Target: \Smr\Port, Hit: bool}">Port, Hit: bool}</abbr>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$return</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__type"><a href="classes/Smr-Player.html"><abbr title="\Smr\Player">Player</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$weaponPlayer</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__type"><a href="classes/Smr-Port.html"><abbr title="\Smr\Port">Port</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$port</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type"><abbr title="array{Weapon: self, Target: \Smr\Port, Hit: bool, WeaponDamage: \Smr\Combat\Weapon\WeaponDamageData, ActualDamage: \Smr\Combat\Weapon\TakenDamageData, KillResults?: array{}}">TakenDamageData, KillResults?: array{}}</abbr></span></code>
-
-    <div class="phpdocumentor-label-line">
-        </div>
-    
-    
-        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
-    <dl class="phpdocumentor-argument-list">
-                    <dt class="phpdocumentor-argument-list__entry">
-                <span class="phpdocumentor-argument-list__argument__name">$return</span>
-                : <span class="phpdocumentor-argument-list__argument__type"><abbr title="array{Weapon: self, Target: \Smr\Port, Hit: bool}">Port, Hit: bool}</abbr></span>
-                            </dt>
-            <dd class="phpdocumentor-argument-list__definition">
-                
-            </dd>
-                    <dt class="phpdocumentor-argument-list__entry">
-                <span class="phpdocumentor-argument-list__argument__name">$weaponPlayer</span>
-                : <span class="phpdocumentor-argument-list__argument__type"><a href="classes/Smr-Player.html"><abbr title="\Smr\Player">Player</abbr></a></span>
-                            </dt>
-            <dd class="phpdocumentor-argument-list__definition">
-                
-            </dd>
-                    <dt class="phpdocumentor-argument-list__entry">
-                <span class="phpdocumentor-argument-list__argument__name">$port</span>
-                : <span class="phpdocumentor-argument-list__argument__type"><a href="classes/Smr-Port.html"><abbr title="\Smr\Port">Port</abbr></a></span>
-                            </dt>
-            <dd class="phpdocumentor-argument-list__definition">
-                
-            </dd>
-            </dl>
-
-    
-
-        
-    
-            <section>
-        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
-        <span class="phpdocumentor-signature__response_type"><abbr title="array{Weapon: self, Target: \Smr\Port, Hit: bool, WeaponDamage: \Smr\Combat\Weapon\WeaponDamageData, ActualDamage: \Smr\Combat\Weapon\TakenDamageData, KillResults?: array{}}">TakenDamageData, KillResults?: array{}}</abbr></span>
-            </section>
-
-</article>
-                    <article
-        class="phpdocumentor-element
-            -method
-            -protected
-                                                        "
->
-    <h4 class="phpdocumentor-element__name" id="method_doPortDamageToPlayer">
-        doPortDamageToPlayer()
-        <a href="classes/Smr-Combat-Weapon-AbstractWeapon.html#method_doPortDamageToPlayer" class="headerlink"><i class="fas fa-link"></i></a>
-
-    </h4>
-    <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Combat/Weapon/AbstractWeapon.php"><a href="files/src-lib-smr-combat-weapon-abstractweapon.html"><abbr title="src/lib/Smr/Combat/Weapon/AbstractWeapon.php">AbstractWeapon.php</abbr></a></abbr>
-    :
-    <span class="phpdocumentor-element-found-in__line">143</span>
-
-            <a href="classes/Smr-Combat-Weapon-CombatDrones.html#source-view.143" class="phpdocumentor-element-found-in__source" data-line="143" data-modal="source-view" data-src="files/src/lib/Smr/Combat/Weapon/AbstractWeapon.php.txt"></a>
-    </aside>
-
-    
-    <code class="phpdocumentor-code phpdocumentor-signature ">
-    <span class="phpdocumentor-signature__visibility">protected</span>
-                    <span class="phpdocumentor-signature__name">doPortDamageToPlayer</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__type"><abbr title="array{Weapon: self, Target: \Smr\Player, Hit: bool}">Player, Hit: bool}</abbr>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$return</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__type"><a href="classes/Smr-Port.html"><abbr title="\Smr\Port">Port</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$port</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__type"><a href="classes/Smr-Player.html"><abbr title="\Smr\Player">Player</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$targetPlayer</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type"><abbr title="array{Weapon: self, Target: \Smr\Player, Hit: bool, WeaponDamage: \Smr\Combat\Weapon\WeaponDamageData, ActualDamage: \Smr\Combat\Weapon\TakenDamageData, KillResults?: array{DeadExp: int, LostCredits: int}}">TakenDamageData, KillResults?: array{DeadExp: int, LostCredits: int}}</abbr></span></code>
-
-    <div class="phpdocumentor-label-line">
-        </div>
-    
-    
-        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
-    <dl class="phpdocumentor-argument-list">
-                    <dt class="phpdocumentor-argument-list__entry">
-                <span class="phpdocumentor-argument-list__argument__name">$return</span>
-                : <span class="phpdocumentor-argument-list__argument__type"><abbr title="array{Weapon: self, Target: \Smr\Player, Hit: bool}">Player, Hit: bool}</abbr></span>
-                            </dt>
-            <dd class="phpdocumentor-argument-list__definition">
-                
-            </dd>
-                    <dt class="phpdocumentor-argument-list__entry">
-                <span class="phpdocumentor-argument-list__argument__name">$port</span>
-                : <span class="phpdocumentor-argument-list__argument__type"><a href="classes/Smr-Port.html"><abbr title="\Smr\Port">Port</abbr></a></span>
-                            </dt>
-            <dd class="phpdocumentor-argument-list__definition">
-                
-            </dd>
-                    <dt class="phpdocumentor-argument-list__entry">
-                <span class="phpdocumentor-argument-list__argument__name">$targetPlayer</span>
-                : <span class="phpdocumentor-argument-list__argument__type"><a href="classes/Smr-Player.html"><abbr title="\Smr\Player">Player</abbr></a></span>
-                            </dt>
-            <dd class="phpdocumentor-argument-list__definition">
-                
-            </dd>
-            </dl>
-
-    
-
-        
-    
-            <section>
-        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
-        <span class="phpdocumentor-signature__response_type"><abbr title="array{Weapon: self, Target: \Smr\Player, Hit: bool, WeaponDamage: \Smr\Combat\Weapon\WeaponDamageData, ActualDamage: \Smr\Combat\Weapon\TakenDamageData, KillResults?: array{DeadExp: int, LostCredits: int}}">TakenDamageData, KillResults?: array{DeadExp: int, LostCredits: int}}</abbr></span>
-            </section>
-
-</article>
-                    <article
-        class="phpdocumentor-element
-            -method
-            -protected
-                                                        "
->
-    <h4 class="phpdocumentor-element__name" id="method_getModifiedAccuracyAgainstForcesUsingRandom">
-        getModifiedAccuracyAgainstForcesUsingRandom()
-        <a href="classes/Smr-Combat-Weapon-CombatDrones.html#method_getModifiedAccuracyAgainstForcesUsingRandom" class="headerlink"><i class="fas fa-link"></i></a>
-
-    </h4>
-    <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Combat/Weapon/CombatDrones.php"><a href="files/src-lib-smr-combat-weapon-combatdrones.html"><abbr title="src/lib/Smr/Combat/Weapon/CombatDrones.php">CombatDrones.php</abbr></a></abbr>
-    :
-    <span class="phpdocumentor-element-found-in__line">35</span>
-
-            <a href="classes/Smr-Combat-Weapon-CombatDrones.html#source-view.35" class="phpdocumentor-element-found-in__source" data-line="35" data-modal="source-view" data-src="files/src/lib/Smr/Combat/Weapon/CombatDrones.php.txt"></a>
-    </aside>
-
-    
-    <code class="phpdocumentor-code phpdocumentor-signature ">
-    <span class="phpdocumentor-signature__visibility">protected</span>
-                    <span class="phpdocumentor-signature__name">getModifiedAccuracyAgainstForcesUsingRandom</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__type"><a href="classes/Smr-Player.html"><abbr title="\Smr\Player">Player</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$weaponPlayer</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__type"><a href="classes/Smr-Force.html"><abbr title="\Smr\Force">Force</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$forces</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__type">int&nbsp;</span><span class="phpdocumentor-signature__argument__name">$random</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">float</span></code>
-
-    <div class="phpdocumentor-label-line">
-        </div>
-    
-    
-        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
-    <dl class="phpdocumentor-argument-list">
-                    <dt class="phpdocumentor-argument-list__entry">
-                <span class="phpdocumentor-argument-list__argument__name">$weaponPlayer</span>
-                : <span class="phpdocumentor-argument-list__argument__type"><a href="classes/Smr-Player.html"><abbr title="\Smr\Player">Player</abbr></a></span>
-                            </dt>
-            <dd class="phpdocumentor-argument-list__definition">
-                
-            </dd>
-                    <dt class="phpdocumentor-argument-list__entry">
-                <span class="phpdocumentor-argument-list__argument__name">$forces</span>
-                : <span class="phpdocumentor-argument-list__argument__type"><a href="classes/Smr-Force.html"><abbr title="\Smr\Force">Force</abbr></a></span>
-                            </dt>
-            <dd class="phpdocumentor-argument-list__definition">
-                
-            </dd>
-                    <dt class="phpdocumentor-argument-list__entry">
-                <span class="phpdocumentor-argument-list__argument__name">$random</span>
-                : <span class="phpdocumentor-argument-list__argument__type">int</span>
-                            </dt>
-            <dd class="phpdocumentor-argument-list__definition">
-                
-            </dd>
-            </dl>
-
-    
-
-        
-    
-            <section>
-        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
-        <span class="phpdocumentor-signature__response_type">float</span>
-            </section>
-
-</article>
-                    <article
-        class="phpdocumentor-element
-            -method
-            -protected
-                                                        "
->
-    <h4 class="phpdocumentor-element__name" id="method_getModifiedAccuracyAgainstPlanetUsingRandom">
-        getModifiedAccuracyAgainstPlanetUsingRandom()
-        <a href="classes/Smr-Combat-Weapon-CombatDrones.html#method_getModifiedAccuracyAgainstPlanetUsingRandom" class="headerlink"><i class="fas fa-link"></i></a>
-
-    </h4>
-    <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Combat/Weapon/CombatDrones.php"><a href="files/src-lib-smr-combat-weapon-combatdrones.html"><abbr title="src/lib/Smr/Combat/Weapon/CombatDrones.php">CombatDrones.php</abbr></a></abbr>
-    :
-    <span class="phpdocumentor-element-found-in__line">57</span>
-
-            <a href="classes/Smr-Combat-Weapon-CombatDrones.html#source-view.57" class="phpdocumentor-element-found-in__source" data-line="57" data-modal="source-view" data-src="files/src/lib/Smr/Combat/Weapon/CombatDrones.php.txt"></a>
-    </aside>
-
-    
-    <code class="phpdocumentor-code phpdocumentor-signature ">
-    <span class="phpdocumentor-signature__visibility">protected</span>
-                    <span class="phpdocumentor-signature__name">getModifiedAccuracyAgainstPlanetUsingRandom</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__type"><a href="classes/Smr-Player.html"><abbr title="\Smr\Player">Player</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$weaponPlayer</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__type"><a href="classes/Smr-Planet.html"><abbr title="\Smr\Planet">Planet</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$planet</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__type">int&nbsp;</span><span class="phpdocumentor-signature__argument__name">$random</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">float</span></code>
-
-    <div class="phpdocumentor-label-line">
-        </div>
-    
-    
-        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
-    <dl class="phpdocumentor-argument-list">
-                    <dt class="phpdocumentor-argument-list__entry">
-                <span class="phpdocumentor-argument-list__argument__name">$weaponPlayer</span>
-                : <span class="phpdocumentor-argument-list__argument__type"><a href="classes/Smr-Player.html"><abbr title="\Smr\Player">Player</abbr></a></span>
-                            </dt>
-            <dd class="phpdocumentor-argument-list__definition">
-                
-            </dd>
-                    <dt class="phpdocumentor-argument-list__entry">
-                <span class="phpdocumentor-argument-list__argument__name">$planet</span>
-                : <span class="phpdocumentor-argument-list__argument__type"><a href="classes/Smr-Planet.html"><abbr title="\Smr\Planet">Planet</abbr></a></span>
-                            </dt>
-            <dd class="phpdocumentor-argument-list__definition">
-                
-            </dd>
-                    <dt class="phpdocumentor-argument-list__entry">
-                <span class="phpdocumentor-argument-list__argument__name">$random</span>
-                : <span class="phpdocumentor-argument-list__argument__type">int</span>
-                            </dt>
-            <dd class="phpdocumentor-argument-list__definition">
-                
-            </dd>
-            </dl>
-
-    
-
-        
-    
-            <section>
-        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
-        <span class="phpdocumentor-signature__response_type">float</span>
-            </section>
-
-</article>
-                    <article
-        class="phpdocumentor-element
-            -method
-            -protected
-                                                        "
->
-    <h4 class="phpdocumentor-element__name" id="method_getModifiedAccuracyAgainstPlayerUsingRandom">
-        getModifiedAccuracyAgainstPlayerUsingRandom()
-        <a href="classes/Smr-Combat-Weapon-CombatDrones.html#method_getModifiedAccuracyAgainstPlayerUsingRandom" class="headerlink"><i class="fas fa-link"></i></a>
-
-    </h4>
-    <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Combat/Weapon/CombatDrones.php"><a href="files/src-lib-smr-combat-weapon-combatdrones.html"><abbr title="src/lib/Smr/Combat/Weapon/CombatDrones.php">CombatDrones.php</abbr></a></abbr>
-    :
-    <span class="phpdocumentor-element-found-in__line">72</span>
-
-            <a href="classes/Smr-Combat-Weapon-CombatDrones.html#source-view.72" class="phpdocumentor-element-found-in__source" data-line="72" data-modal="source-view" data-src="files/src/lib/Smr/Combat/Weapon/CombatDrones.php.txt"></a>
-    </aside>
-
-    
-    <code class="phpdocumentor-code phpdocumentor-signature ">
-    <span class="phpdocumentor-signature__visibility">protected</span>
-                    <span class="phpdocumentor-signature__name">getModifiedAccuracyAgainstPlayerUsingRandom</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__type"><a href="classes/Smr-Player.html"><abbr title="\Smr\Player">Player</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$weaponPlayer</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__type"><a href="classes/Smr-Player.html"><abbr title="\Smr\Player">Player</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$targetPlayer</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__type">int&nbsp;</span><span class="phpdocumentor-signature__argument__name">$random</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">float</span></code>
-
-    <div class="phpdocumentor-label-line">
-        </div>
-    
-    
-        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
-    <dl class="phpdocumentor-argument-list">
-                    <dt class="phpdocumentor-argument-list__entry">
-                <span class="phpdocumentor-argument-list__argument__name">$weaponPlayer</span>
-                : <span class="phpdocumentor-argument-list__argument__type"><a href="classes/Smr-Player.html"><abbr title="\Smr\Player">Player</abbr></a></span>
-                            </dt>
-            <dd class="phpdocumentor-argument-list__definition">
-                
-            </dd>
-                    <dt class="phpdocumentor-argument-list__entry">
-                <span class="phpdocumentor-argument-list__argument__name">$targetPlayer</span>
-                : <span class="phpdocumentor-argument-list__argument__type"><a href="classes/Smr-Player.html"><abbr title="\Smr\Player">Player</abbr></a></span>
-                            </dt>
-            <dd class="phpdocumentor-argument-list__definition">
-                
-            </dd>
-                    <dt class="phpdocumentor-argument-list__entry">
-                <span class="phpdocumentor-argument-list__argument__name">$random</span>
-                : <span class="phpdocumentor-argument-list__argument__type">int</span>
-                            </dt>
-            <dd class="phpdocumentor-argument-list__definition">
-                
-            </dd>
-            </dl>
-
-    
-
-        
-    
-            <section>
-        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
-        <span class="phpdocumentor-signature__response_type">float</span>
-            </section>
-
-</article>
-                    <article
-        class="phpdocumentor-element
-            -method
-            -protected
-                                                        "
->
-    <h4 class="phpdocumentor-element__name" id="method_getModifiedAccuracyAgainstPortUsingRandom">
-        getModifiedAccuracyAgainstPortUsingRandom()
-        <a href="classes/Smr-Combat-Weapon-CombatDrones.html#method_getModifiedAccuracyAgainstPortUsingRandom" class="headerlink"><i class="fas fa-link"></i></a>
-
-    </h4>
-    <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Combat/Weapon/CombatDrones.php"><a href="files/src-lib-smr-combat-weapon-combatdrones.html"><abbr title="src/lib/Smr/Combat/Weapon/CombatDrones.php">CombatDrones.php</abbr></a></abbr>
-    :
-    <span class="phpdocumentor-element-found-in__line">46</span>
-
-            <a href="classes/Smr-Combat-Weapon-CombatDrones.html#source-view.46" class="phpdocumentor-element-found-in__source" data-line="46" data-modal="source-view" data-src="files/src/lib/Smr/Combat/Weapon/CombatDrones.php.txt"></a>
-    </aside>
-
-    
-    <code class="phpdocumentor-code phpdocumentor-signature ">
-    <span class="phpdocumentor-signature__visibility">protected</span>
-                    <span class="phpdocumentor-signature__name">getModifiedAccuracyAgainstPortUsingRandom</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__type"><a href="classes/Smr-Player.html"><abbr title="\Smr\Player">Player</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$weaponPlayer</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__type"><a href="classes/Smr-Port.html"><abbr title="\Smr\Port">Port</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$port</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__type">int&nbsp;</span><span class="phpdocumentor-signature__argument__name">$random</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">float</span></code>
-
-    <div class="phpdocumentor-label-line">
-        </div>
-    
-    
-        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
-    <dl class="phpdocumentor-argument-list">
-                    <dt class="phpdocumentor-argument-list__entry">
-                <span class="phpdocumentor-argument-list__argument__name">$weaponPlayer</span>
-                : <span class="phpdocumentor-argument-list__argument__type"><a href="classes/Smr-Player.html"><abbr title="\Smr\Player">Player</abbr></a></span>
-                            </dt>
-            <dd class="phpdocumentor-argument-list__definition">
-                
-            </dd>
-                    <dt class="phpdocumentor-argument-list__entry">
-                <span class="phpdocumentor-argument-list__argument__name">$port</span>
-                : <span class="phpdocumentor-argument-list__argument__type"><a href="classes/Smr-Port.html"><abbr title="\Smr\Port">Port</abbr></a></span>
-                            </dt>
-            <dd class="phpdocumentor-argument-list__definition">
-                
-            </dd>
-                    <dt class="phpdocumentor-argument-list__entry">
-                <span class="phpdocumentor-argument-list__argument__name">$random</span>
-                : <span class="phpdocumentor-argument-list__argument__type">int</span>
-                            </dt>
-            <dd class="phpdocumentor-argument-list__definition">
-                
-            </dd>
-            </dl>
-
-    
-
-        
-    
-            <section>
-        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
-        <span class="phpdocumentor-signature__response_type">float</span>
-            </section>
-
-</article>
-                    <article
-        class="phpdocumentor-element
-            -method
-            -protected
-                                                        "
->
-    <h4 class="phpdocumentor-element__name" id="method_getModifiedForceAccuracyAgainstPlayerUsingRandom">
-        getModifiedForceAccuracyAgainstPlayerUsingRandom()
-        <a href="classes/Smr-Combat-Weapon-CombatDrones.html#method_getModifiedForceAccuracyAgainstPlayerUsingRandom" class="headerlink"><i class="fas fa-link"></i></a>
-
-    </h4>
-    <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Combat/Weapon/CombatDrones.php"><a href="files/src-lib-smr-combat-weapon-combatdrones.html"><abbr title="src/lib/Smr/Combat/Weapon/CombatDrones.php">CombatDrones.php</abbr></a></abbr>
-    :
-    <span class="phpdocumentor-element-found-in__line">91</span>
-
-            <a href="classes/Smr-Combat-Weapon-CombatDrones.html#source-view.91" class="phpdocumentor-element-found-in__source" data-line="91" data-modal="source-view" data-src="files/src/lib/Smr/Combat/Weapon/CombatDrones.php.txt"></a>
-    </aside>
-
-    
-    <code class="phpdocumentor-code phpdocumentor-signature ">
-    <span class="phpdocumentor-signature__visibility">protected</span>
-                    <span class="phpdocumentor-signature__name">getModifiedForceAccuracyAgainstPlayerUsingRandom</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__type"><a href="classes/Smr-Force.html"><abbr title="\Smr\Force">Force</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$forces</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__type"><a href="classes/Smr-Player.html"><abbr title="\Smr\Player">Player</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$targetPlayer</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__type">int&nbsp;</span><span class="phpdocumentor-signature__argument__name">$random</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">float</span></code>
-
-    <div class="phpdocumentor-label-line">
-        </div>
-    
-    
-        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
-    <dl class="phpdocumentor-argument-list">
-                    <dt class="phpdocumentor-argument-list__entry">
-                <span class="phpdocumentor-argument-list__argument__name">$forces</span>
-                : <span class="phpdocumentor-argument-list__argument__type"><a href="classes/Smr-Force.html"><abbr title="\Smr\Force">Force</abbr></a></span>
-                            </dt>
-            <dd class="phpdocumentor-argument-list__definition">
-                
-            </dd>
-                    <dt class="phpdocumentor-argument-list__entry">
-                <span class="phpdocumentor-argument-list__argument__name">$targetPlayer</span>
-                : <span class="phpdocumentor-argument-list__argument__type"><a href="classes/Smr-Player.html"><abbr title="\Smr\Player">Player</abbr></a></span>
-                            </dt>
-            <dd class="phpdocumentor-argument-list__definition">
-                
-            </dd>
-                    <dt class="phpdocumentor-argument-list__entry">
-                <span class="phpdocumentor-argument-list__argument__name">$random</span>
-                : <span class="phpdocumentor-argument-list__argument__type">int</span>
-                            </dt>
-            <dd class="phpdocumentor-argument-list__definition">
-                
-            </dd>
-            </dl>
-
-    
-
-        
-    
-            <section>
-        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
-        <span class="phpdocumentor-signature__response_type">float</span>
-            </section>
-
-</article>
-                    <article
-        class="phpdocumentor-element
-            -method
-            -protected
-                                                        "
->
-    <h4 class="phpdocumentor-element__name" id="method_getModifiedPlanetAccuracyAgainstPlayer">
-        getModifiedPlanetAccuracyAgainstPlayer()
-        <a href="classes/Smr-Combat-Weapon-CombatDrones.html#method_getModifiedPlanetAccuracyAgainstPlayer" class="headerlink"><i class="fas fa-link"></i></a>
-
-    </h4>
-    <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Combat/Weapon/CombatDrones.php"><a href="files/src-lib-smr-combat-weapon-combatdrones.html"><abbr title="src/lib/Smr/Combat/Weapon/CombatDrones.php">CombatDrones.php</abbr></a></abbr>
-    :
-    <span class="phpdocumentor-element-found-in__line">102</span>
-
-            <a href="classes/Smr-Combat-Weapon-CombatDrones.html#source-view.102" class="phpdocumentor-element-found-in__source" data-line="102" data-modal="source-view" data-src="files/src/lib/Smr/Combat/Weapon/CombatDrones.php.txt"></a>
-    </aside>
-
-    
-    <code class="phpdocumentor-code phpdocumentor-signature ">
-    <span class="phpdocumentor-signature__visibility">protected</span>
-                    <span class="phpdocumentor-signature__name">getModifiedPlanetAccuracyAgainstPlayer</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__type"><a href="classes/Smr-Planet.html"><abbr title="\Smr\Planet">Planet</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$planet</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__type"><a href="classes/Smr-Player.html"><abbr title="\Smr\Player">Player</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$targetPlayer</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">float</span></code>
-
-    <div class="phpdocumentor-label-line">
-        </div>
-    
-    
-        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
-    <dl class="phpdocumentor-argument-list">
-                    <dt class="phpdocumentor-argument-list__entry">
-                <span class="phpdocumentor-argument-list__argument__name">$planet</span>
-                : <span class="phpdocumentor-argument-list__argument__type"><a href="classes/Smr-Planet.html"><abbr title="\Smr\Planet">Planet</abbr></a></span>
-                            </dt>
-            <dd class="phpdocumentor-argument-list__definition">
-                
-            </dd>
-                    <dt class="phpdocumentor-argument-list__entry">
-                <span class="phpdocumentor-argument-list__argument__name">$targetPlayer</span>
-                : <span class="phpdocumentor-argument-list__argument__type"><a href="classes/Smr-Player.html"><abbr title="\Smr\Player">Player</abbr></a></span>
-                            </dt>
-            <dd class="phpdocumentor-argument-list__definition">
-                
-            </dd>
-            </dl>
-
-    
-
-        
-    
-            <section>
-        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
-        <span class="phpdocumentor-signature__response_type">float</span>
-            </section>
-
-</article>
-                    <article
-        class="phpdocumentor-element
-            -method
-            -protected
-                                                        "
->
-    <h4 class="phpdocumentor-element__name" id="method_getModifiedPortAccuracyAgainstPlayer">
-        getModifiedPortAccuracyAgainstPlayer()
-        <a href="classes/Smr-Combat-Weapon-CombatDrones.html#method_getModifiedPortAccuracyAgainstPlayer" class="headerlink"><i class="fas fa-link"></i></a>
-
-    </h4>
-    <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Combat/Weapon/CombatDrones.php"><a href="files/src-lib-smr-combat-weapon-combatdrones.html"><abbr title="src/lib/Smr/Combat/Weapon/CombatDrones.php">CombatDrones.php</abbr></a></abbr>
-    :
-    <span class="phpdocumentor-element-found-in__line">98</span>
-
-            <a href="classes/Smr-Combat-Weapon-CombatDrones.html#source-view.98" class="phpdocumentor-element-found-in__source" data-line="98" data-modal="source-view" data-src="files/src/lib/Smr/Combat/Weapon/CombatDrones.php.txt"></a>
-    </aside>
-
-    
-    <code class="phpdocumentor-code phpdocumentor-signature ">
-    <span class="phpdocumentor-signature__visibility">protected</span>
-                    <span class="phpdocumentor-signature__name">getModifiedPortAccuracyAgainstPlayer</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__type"><a href="classes/Smr-Port.html"><abbr title="\Smr\Port">Port</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$port</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__type"><a href="classes/Smr-Player.html"><abbr title="\Smr\Player">Player</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$targetPlayer</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">float</span></code>
-
-    <div class="phpdocumentor-label-line">
-        </div>
-    
-    
-        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
-    <dl class="phpdocumentor-argument-list">
-                    <dt class="phpdocumentor-argument-list__entry">
-                <span class="phpdocumentor-argument-list__argument__name">$port</span>
-                : <span class="phpdocumentor-argument-list__argument__type"><a href="classes/Smr-Port.html"><abbr title="\Smr\Port">Port</abbr></a></span>
-                            </dt>
-            <dd class="phpdocumentor-argument-list__definition">
-                
-            </dd>
-                    <dt class="phpdocumentor-argument-list__entry">
-                <span class="phpdocumentor-argument-list__argument__name">$targetPlayer</span>
-                : <span class="phpdocumentor-argument-list__argument__type"><a href="classes/Smr-Player.html"><abbr title="\Smr\Player">Player</abbr></a></span>
-                            </dt>
-            <dd class="phpdocumentor-argument-list__definition">
-                
-            </dd>
-            </dl>
-
-    
-
-        
-    
-            <section>
-        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
-        <span class="phpdocumentor-signature__response_type">float</span>
+        <span class="phpdocumentor-signature__response_type"><a href="classes/Smr-Combat-Results-Weapon-HitWeaponResult.html"><abbr title="\Smr\Combat\Results\Weapon\HitWeaponResult">HitWeaponResult</abbr></a>&lt;string|int, <abbr title="\Smr\Combat\Weapon\TTarget">TTarget</abbr>&gt;</span>
             </section>
 
 </article>
@@ -3453,6 +1452,7 @@
                 <li>
                     <ul class="phpdocumentor-list -clean">
                                                     <li class=""><a href="classes/Smr-Combat-Weapon-CombatDrones.html#constant_MAX_CDS_RAND">MAX_CDS_RAND</a></li>
+                                                    <li class=""><a href="classes/Smr-Combat-Weapon-CombatDrones.html#constant_MIN_CDS_RAND">MIN_CDS_RAND</a></li>
                                                     <li class=""><a href="classes/Smr-Combat-Weapon-AbstractWeapon.html#constant_PLANET_DAMAGE_MOD">PLANET_DAMAGE_MOD</a></li>
                                             </ul>
                 </li>
@@ -3473,51 +1473,18 @@
             <li>
                 <ul class="phpdocumentor-list -clean">
                                             <li class=""><a href="classes/Smr-Combat-Weapon-CombatDrones.html#method___construct">__construct()</a></li>
-                                            <li class=""><a href="classes/Smr-Combat-Weapon-AbstractWeapon.html#method_canShootForces">canShootForces()</a></li>
-                                            <li class=""><a href="classes/Smr-Combat-Weapon-AbstractWeapon.html#method_canShootPlanets">canShootPlanets()</a></li>
-                                            <li class=""><a href="classes/Smr-Combat-Weapon-AbstractWeapon.html#method_canShootPorts">canShootPorts()</a></li>
-                                            <li class=""><a href="classes/Smr-Combat-Weapon-AbstractWeapon.html#method_canShootTraders">canShootTraders()</a></li>
+                                            <li class=""><a href="classes/Smr-Combat-Weapon-AbstractWeapon.html#method_canShootTarget">canShootTarget()</a></li>
                                             <li class=""><a href="classes/Smr-Combat-Weapon-ForcesTrait.html#method_getAmount">getAmount()</a></li>
                                             <li class=""><a href="classes/Smr-Combat-Weapon-ForcesTrait.html#method_getArmourDamage">getArmourDamage()</a></li>
                                             <li class=""><a href="classes/Smr-Combat-Weapon-ForcesTrait.html#method_getBaseAccuracy">getBaseAccuracy()</a></li>
                                             <li class=""><a href="classes/Smr-Combat-Weapon-AbstractWeapon.html#method_getDamage">getDamage()</a></li>
-                                            <li class=""><a href="classes/Smr-Combat-Weapon-CombatDrones.html#method_getModifiedAccuracy">getModifiedAccuracy()</a></li>
-                                            <li class=""><a href="classes/Smr-Combat-Weapon-CombatDrones.html#method_getModifiedAccuracyAgainstForces">getModifiedAccuracyAgainstForces()</a></li>
-                                            <li class=""><a href="classes/Smr-Combat-Weapon-CombatDrones.html#method_getModifiedAccuracyAgainstPlanet">getModifiedAccuracyAgainstPlanet()</a></li>
-                                            <li class=""><a href="classes/Smr-Combat-Weapon-CombatDrones.html#method_getModifiedAccuracyAgainstPlayer">getModifiedAccuracyAgainstPlayer()</a></li>
-                                            <li class=""><a href="classes/Smr-Combat-Weapon-CombatDrones.html#method_getModifiedAccuracyAgainstPort">getModifiedAccuracyAgainstPort()</a></li>
-                                            <li class=""><a href="classes/Smr-Combat-Weapon-CombatDrones.html#method_getModifiedDamageAgainstForces">getModifiedDamageAgainstForces()</a></li>
-                                            <li class=""><a href="classes/Smr-Combat-Weapon-CombatDrones.html#method_getModifiedDamageAgainstPlanet">getModifiedDamageAgainstPlanet()</a></li>
-                                            <li class=""><a href="classes/Smr-Combat-Weapon-CombatDrones.html#method_getModifiedDamageAgainstPlayer">getModifiedDamageAgainstPlayer()</a></li>
-                                            <li class=""><a href="classes/Smr-Combat-Weapon-CombatDrones.html#method_getModifiedDamageAgainstPort">getModifiedDamageAgainstPort()</a></li>
-                                            <li class=""><a href="classes/Smr-Combat-Weapon-CombatDrones.html#method_getModifiedForceAccuracyAgainstPlayer">getModifiedForceAccuracyAgainstPlayer()</a></li>
-                                            <li class=""><a href="classes/Smr-Combat-Weapon-CombatDrones.html#method_getModifiedForceDamageAgainstPlayer">getModifiedForceDamageAgainstPlayer()</a></li>
-                                            <li class=""><a href="classes/Smr-Combat-Weapon-CombatDrones.html#method_getModifiedPlanetDamageAgainstPlayer">getModifiedPlanetDamageAgainstPlayer()</a></li>
-                                            <li class=""><a href="classes/Smr-Combat-Weapon-CombatDrones.html#method_getModifiedPortDamageAgainstPlayer">getModifiedPortDamageAgainstPlayer()</a></li>
+                                            <li class=""><a href="classes/Smr-Combat-Weapon-CombatDrones.html#method_getModifiedAccuracyAgainstTarget">getModifiedAccuracyAgainstTarget()</a></li>
+                                            <li class=""><a href="classes/Smr-Combat-Weapon-CombatDrones.html#method_getModifiedDamageAgainstTarget">getModifiedDamageAgainstTarget()</a></li>
                                             <li class=""><a href="classes/Smr-Combat-Weapon-ForcesTrait.html#method_getName">getName()</a></li>
                                             <li class=""><a href="classes/Smr-Combat-Weapon-ForcesTrait.html#method_getShieldDamage">getShieldDamage()</a></li>
                                             <li class=""><a href="classes/Smr-Combat-Weapon-AbstractWeapon.html#method_isDamageRollover">isDamageRollover()</a></li>
-                                            <li class=""><a href="classes/Smr-Combat-Weapon-CombatDrones.html#method_shootForces">shootForces()</a></li>
-                                            <li class=""><a href="classes/Smr-Combat-Weapon-CombatDrones.html#method_shootPlanet">shootPlanet()</a></li>
-                                            <li class=""><a href="classes/Smr-Combat-Weapon-CombatDrones.html#method_shootPlayer">shootPlayer()</a></li>
-                                            <li class=""><a href="classes/Smr-Combat-Weapon-CombatDrones.html#method_shootPlayerAsForce">shootPlayerAsForce()</a></li>
-                                            <li class=""><a href="classes/Smr-Combat-Weapon-CombatDrones.html#method_shootPlayerAsPlanet">shootPlayerAsPlanet()</a></li>
-                                            <li class=""><a href="classes/Smr-Combat-Weapon-CombatDrones.html#method_shootPlayerAsPort">shootPlayerAsPort()</a></li>
-                                            <li class=""><a href="classes/Smr-Combat-Weapon-CombatDrones.html#method_shootPort">shootPort()</a></li>
-                                            <li class=""><a href="classes/Smr-Combat-Weapon-AbstractWeapon.html#method_doForceDamageToPlayer">doForceDamageToPlayer()</a></li>
-                                            <li class=""><a href="classes/Smr-Combat-Weapon-AbstractWeapon.html#method_doPlanetDamageToPlayer">doPlanetDamageToPlayer()</a></li>
-                                            <li class=""><a href="classes/Smr-Combat-Weapon-AbstractWeapon.html#method_doPlayerDamageToForce">doPlayerDamageToForce()</a></li>
-                                            <li class=""><a href="classes/Smr-Combat-Weapon-AbstractWeapon.html#method_doPlayerDamageToPlanet">doPlayerDamageToPlanet()</a></li>
-                                            <li class=""><a href="classes/Smr-Combat-Weapon-AbstractWeapon.html#method_doPlayerDamageToPlayer">doPlayerDamageToPlayer()</a></li>
-                                            <li class=""><a href="classes/Smr-Combat-Weapon-AbstractWeapon.html#method_doPlayerDamageToPort">doPlayerDamageToPort()</a></li>
-                                            <li class=""><a href="classes/Smr-Combat-Weapon-AbstractWeapon.html#method_doPortDamageToPlayer">doPortDamageToPlayer()</a></li>
-                                            <li class=""><a href="classes/Smr-Combat-Weapon-CombatDrones.html#method_getModifiedAccuracyAgainstForcesUsingRandom">getModifiedAccuracyAgainstForcesUsingRandom()</a></li>
-                                            <li class=""><a href="classes/Smr-Combat-Weapon-CombatDrones.html#method_getModifiedAccuracyAgainstPlanetUsingRandom">getModifiedAccuracyAgainstPlanetUsingRandom()</a></li>
-                                            <li class=""><a href="classes/Smr-Combat-Weapon-CombatDrones.html#method_getModifiedAccuracyAgainstPlayerUsingRandom">getModifiedAccuracyAgainstPlayerUsingRandom()</a></li>
-                                            <li class=""><a href="classes/Smr-Combat-Weapon-CombatDrones.html#method_getModifiedAccuracyAgainstPortUsingRandom">getModifiedAccuracyAgainstPortUsingRandom()</a></li>
-                                            <li class=""><a href="classes/Smr-Combat-Weapon-CombatDrones.html#method_getModifiedForceAccuracyAgainstPlayerUsingRandom">getModifiedForceAccuracyAgainstPlayerUsingRandom()</a></li>
-                                            <li class=""><a href="classes/Smr-Combat-Weapon-CombatDrones.html#method_getModifiedPlanetAccuracyAgainstPlayer">getModifiedPlanetAccuracyAgainstPlayer()</a></li>
-                                            <li class=""><a href="classes/Smr-Combat-Weapon-CombatDrones.html#method_getModifiedPortAccuracyAgainstPlayer">getModifiedPortAccuracyAgainstPlayer()</a></li>
+                                            <li class=""><a href="classes/Smr-Combat-Weapon-CombatDrones.html#method_shoot">shoot()</a></li>
+                                            <li class=""><a href="classes/Smr-Combat-Weapon-AbstractWeapon.html#method_hitTarget">hitTarget()</a></li>
                                     </ul>
             </li>
                     </ul>

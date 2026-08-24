@@ -413,6 +413,12 @@
 <dd>given power level of new weapon, return whether there is enough power available to install it on this ship</dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a class="" href="classes/Smr-AbstractShip.html#method_createCombatDrones">createCombatDrones()</a>
+    <span>
+                                &nbsp;: <a href="classes/Smr-Combat-Weapon-CombatDrones.html"><abbr title="\Smr\Combat\Weapon\CombatDrones">CombatDrones</abbr></a>    </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
     <a class="" href="classes/Smr-AbstractShip.html#method_decloak">decloak()</a>
     <span>
                                 &nbsp;: void    </span>
@@ -545,6 +551,18 @@
 </dt>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a class="" href="classes/Smr-AbstractShip.html#method_getCombatID">getCombatID()</a>
+    <span>
+                                &nbsp;: int    </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a class="" href="classes/Smr-AbstractShip.html#method_getCombatName">getCombatName()</a>
+    <span>
+                                &nbsp;: string    </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
     <a class="" href="classes/Smr-AbstractShip.html#method_getCost">getCost()</a>
     <span>
                                 &nbsp;: int    </span>
@@ -632,6 +650,12 @@
     <a class="" href="classes/Smr-AbstractShip.html#method_getIllusion">getIllusion()</a>
     <span>
                                 &nbsp;: <a href="classes/Smr-ShipIllusion.html"><abbr title="\Smr\ShipIllusion">ShipIllusion</abbr></a>|false    </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a class="" href="classes/Smr-AbstractShip.html#method_getLevel">getLevel()</a>
+    <span>
+                                &nbsp;: int    </span>
 </dt>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
@@ -998,6 +1022,12 @@
 </dt>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a class="" href="classes/Smr-AbstractShip.html#method_isDestroyed">isDestroyed()</a>
+    <span>
+                                &nbsp;: bool    </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
     <a class="" href="classes/Smr-AbstractShip.html#method_isFederal">isFederal()</a>
     <span>
                                 &nbsp;: bool    </span>
@@ -1007,6 +1037,12 @@
     <a class="" href="classes/Smr-AbstractShip.html#method_isUnderground">isUnderground()</a>
     <span>
                                 &nbsp;: bool    </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a class="" href="classes/Smr-AbstractShip.html#method_killBy">killBy()</a>
+    <span>
+                                &nbsp;: <a href="classes/Smr-Combat-Results-Kill-KillResultInterface.html"><abbr title="\Smr\Combat\Results\Kill\KillResultInterface">KillResultInterface</abbr></a>    </span>
 </dt>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
@@ -1020,6 +1056,13 @@
     <span>
                                 &nbsp;: void    </span>
 </dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a class="" href="classes/Smr-AbstractShip.html#method_reduceDamageDoneDCS">reduceDamageDoneDCS()</a>
+    <span>
+                                &nbsp;: float    </span>
+</dt>
+<dd>Factor to multiply drone damage by if target player has a DCS.</dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
     <a class="" href="classes/Smr-AbstractShip.html#method_removeAllCargo">removeAllCargo()</a>
@@ -1134,37 +1177,37 @@
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
     <a class="" href="classes/Smr-AbstractShip.html#method_shootForces">shootForces()</a>
     <span>
-                                &nbsp;: <abbr title="\Smr\ForceAttackerCombatResult">ForceAttackerCombatResult</abbr>    </span>
+                                &nbsp;: <a href="classes/Smr-Combat-Results-Combatant-CombatantResult.html"><abbr title="\Smr\Combat\Results\Combatant\CombatantResult">CombatantResult</abbr></a>&lt;string|int, <a href="classes/Smr-Force.html"><abbr title="\Smr\Force">Force</abbr></a>&gt;    </span>
 </dt>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
     <a class="" href="classes/Smr-AbstractShip.html#method_shootPlanet">shootPlanet()</a>
     <span>
-                                &nbsp;: <abbr title="\Smr\PlanetAttackerCombatResult">PlanetAttackerCombatResult</abbr>    </span>
+                                &nbsp;: <a href="classes/Smr-Combat-Results-Combatant-CombatantResult.html"><abbr title="\Smr\Combat\Results\Combatant\CombatantResult">CombatantResult</abbr></a>&lt;string|int, <a href="classes/Smr-Combat-NormalCombatantInterface.html"><abbr title="\Smr\Combat\NormalCombatantInterface">NormalCombatantInterface</abbr></a>&gt;    </span>
 </dt>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
     <a class="" href="classes/Smr-AbstractShip.html#method_shootPlayers">shootPlayers()</a>
     <span>
-                                &nbsp;: <abbr title="\Smr\TraderCombatResult">TraderCombatResult</abbr>    </span>
+                                &nbsp;: <a href="classes/Smr-Combat-Results-Combatant-CombatantResult.html"><abbr title="\Smr\Combat\Results\Combatant\CombatantResult">CombatantResult</abbr></a>&lt;string|int, <a href="classes/Smr-Combat-NormalCombatantInterface.html"><abbr title="\Smr\Combat\NormalCombatantInterface">NormalCombatantInterface</abbr></a>&gt;    </span>
 </dt>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
     <a class="" href="classes/Smr-AbstractShip.html#method_shootPort">shootPort()</a>
     <span>
-                                &nbsp;: <abbr title="\Smr\PortAttackerCombatResult">PortAttackerCombatResult</abbr>    </span>
+                                &nbsp;: <a href="classes/Smr-Combat-Results-Combatant-CombatantResult.html"><abbr title="\Smr\Combat\Results\Combatant\CombatantResult">CombatantResult</abbr></a>&lt;string|int, <a href="classes/Smr-Combat-NormalCombatantInterface.html"><abbr title="\Smr\Combat\NormalCombatantInterface">NormalCombatantInterface</abbr></a>&gt;    </span>
 </dt>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
     <a class="" href="classes/Smr-AbstractShip.html#method_takeDamage">takeDamage()</a>
     <span>
-                                &nbsp;: <abbr title="\Smr\TakenDamageData">TakenDamageData</abbr>    </span>
+                                &nbsp;: <abbr title="\Smr\Combat\TDamage">TDamage</abbr>    </span>
 </dt>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
     <a class="" href="classes/Smr-AbstractShip.html#method_takeDamageFromMines">takeDamageFromMines()</a>
     <span>
-                                &nbsp;: <abbr title="\Smr\TakenDamageData">TakenDamageData</abbr>    </span>
+                                &nbsp;: <a href="classes/Smr-Combat-Results-Damage-NormalTakenDamage.html"><abbr title="\Smr\Combat\Results\Damage\NormalTakenDamage">NormalTakenDamage</abbr></a>    </span>
 </dt>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
@@ -1236,9 +1279,9 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/AbstractShip.php"><a href="files/src-lib-smr-abstractship.html"><abbr title="src/lib/Smr/AbstractShip.php">AbstractShip.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">19</span>
+    <span class="phpdocumentor-element-found-in__line">32</span>
 
-            <a href="classes/Smr-DummyShip.html#source-view.19" class="phpdocumentor-element-found-in__source" data-line="19" data-modal="source-view" data-src="files/src/lib/Smr/AbstractShip.php.txt"></a>
+            <a href="classes/Smr-DummyShip.html#source-view.32" class="phpdocumentor-element-found-in__source" data-line="32" data-modal="source-view" data-src="files/src/lib/Smr/AbstractShip.php.txt"></a>
     </aside>
 
     
@@ -1267,9 +1310,9 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/AbstractShip.php"><a href="files/src-lib-smr-abstractship.html"><abbr title="src/lib/Smr/AbstractShip.php">AbstractShip.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">17</span>
+    <span class="phpdocumentor-element-found-in__line">30</span>
 
-            <a href="classes/Smr-DummyShip.html#source-view.17" class="phpdocumentor-element-found-in__source" data-line="17" data-modal="source-view" data-src="files/src/lib/Smr/AbstractShip.php.txt"></a>
+            <a href="classes/Smr-DummyShip.html#source-view.30" class="phpdocumentor-element-found-in__source" data-line="30" data-modal="source-view" data-src="files/src/lib/Smr/AbstractShip.php.txt"></a>
     </aside>
 
     
@@ -1298,9 +1341,9 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/AbstractShip.php"><a href="files/src-lib-smr-abstractship.html"><abbr title="src/lib/Smr/AbstractShip.php">AbstractShip.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">16</span>
+    <span class="phpdocumentor-element-found-in__line">29</span>
 
-            <a href="classes/Smr-DummyShip.html#source-view.16" class="phpdocumentor-element-found-in__source" data-line="16" data-modal="source-view" data-src="files/src/lib/Smr/AbstractShip.php.txt"></a>
+            <a href="classes/Smr-DummyShip.html#source-view.29" class="phpdocumentor-element-found-in__source" data-line="29" data-modal="source-view" data-src="files/src/lib/Smr/AbstractShip.php.txt"></a>
     </aside>
 
     
@@ -1329,9 +1372,9 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/AbstractShip.php"><a href="files/src-lib-smr-abstractship.html"><abbr title="src/lib/Smr/AbstractShip.php">AbstractShip.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">18</span>
+    <span class="phpdocumentor-element-found-in__line">31</span>
 
-            <a href="classes/Smr-DummyShip.html#source-view.18" class="phpdocumentor-element-found-in__source" data-line="18" data-modal="source-view" data-src="files/src/lib/Smr/AbstractShip.php.txt"></a>
+            <a href="classes/Smr-DummyShip.html#source-view.31" class="phpdocumentor-element-found-in__source" data-line="31" data-modal="source-view" data-src="files/src/lib/Smr/AbstractShip.php.txt"></a>
     </aside>
 
     
@@ -1360,9 +1403,9 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/AbstractShip.php"><a href="files/src-lib-smr-abstractship.html"><abbr title="src/lib/Smr/AbstractShip.php">AbstractShip.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">21</span>
+    <span class="phpdocumentor-element-found-in__line">34</span>
 
-            <a href="classes/Smr-DummyShip.html#source-view.21" class="phpdocumentor-element-found-in__source" data-line="21" data-modal="source-view" data-src="files/src/lib/Smr/AbstractShip.php.txt"></a>
+            <a href="classes/Smr-DummyShip.html#source-view.34" class="phpdocumentor-element-found-in__source" data-line="34" data-modal="source-view" data-src="files/src/lib/Smr/AbstractShip.php.txt"></a>
     </aside>
 
     
@@ -1445,9 +1488,9 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/AbstractShip.php"><a href="files/src-lib-smr-abstractship.html"><abbr title="src/lib/Smr/AbstractShip.php">AbstractShip.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">39</span>
+    <span class="phpdocumentor-element-found-in__line">52</span>
 
-            <a href="classes/Smr-DummyShip.html#source-view.39" class="phpdocumentor-element-found-in__source" data-line="39" data-modal="source-view" data-src="files/src/lib/Smr/AbstractShip.php.txt"></a>
+            <a href="classes/Smr-DummyShip.html#source-view.52" class="phpdocumentor-element-found-in__source" data-line="52" data-modal="source-view" data-src="files/src/lib/Smr/AbstractShip.php.txt"></a>
     </aside>
 
     
@@ -1483,9 +1526,9 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/AbstractShip.php"><a href="files/src-lib-smr-abstractship.html"><abbr title="src/lib/Smr/AbstractShip.php">AbstractShip.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">33</span>
+    <span class="phpdocumentor-element-found-in__line">46</span>
 
-            <a href="classes/Smr-DummyShip.html#source-view.33" class="phpdocumentor-element-found-in__source" data-line="33" data-modal="source-view" data-src="files/src/lib/Smr/AbstractShip.php.txt"></a>
+            <a href="classes/Smr-DummyShip.html#source-view.46" class="phpdocumentor-element-found-in__source" data-line="46" data-modal="source-view" data-src="files/src/lib/Smr/AbstractShip.php.txt"></a>
     </aside>
 
     
@@ -1521,9 +1564,9 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/AbstractShip.php"><a href="files/src-lib-smr-abstractship.html"><abbr title="src/lib/Smr/AbstractShip.php">AbstractShip.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">41</span>
+    <span class="phpdocumentor-element-found-in__line">54</span>
 
-            <a href="classes/Smr-DummyShip.html#source-view.41" class="phpdocumentor-element-found-in__source" data-line="41" data-modal="source-view" data-src="files/src/lib/Smr/AbstractShip.php.txt"></a>
+            <a href="classes/Smr-DummyShip.html#source-view.54" class="phpdocumentor-element-found-in__source" data-line="54" data-modal="source-view" data-src="files/src/lib/Smr/AbstractShip.php.txt"></a>
     </aside>
 
     
@@ -1559,9 +1602,9 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/AbstractShip.php"><a href="files/src-lib-smr-abstractship.html"><abbr title="src/lib/Smr/AbstractShip.php">AbstractShip.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">46</span>
+    <span class="phpdocumentor-element-found-in__line">59</span>
 
-            <a href="classes/Smr-DummyShip.html#source-view.46" class="phpdocumentor-element-found-in__source" data-line="46" data-modal="source-view" data-src="files/src/lib/Smr/AbstractShip.php.txt"></a>
+            <a href="classes/Smr-DummyShip.html#source-view.59" class="phpdocumentor-element-found-in__source" data-line="59" data-modal="source-view" data-src="files/src/lib/Smr/AbstractShip.php.txt"></a>
     </aside>
 
     
@@ -1597,9 +1640,9 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/AbstractShip.php"><a href="files/src-lib-smr-abstractship.html"><abbr title="src/lib/Smr/AbstractShip.php">AbstractShip.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">49</span>
+    <span class="phpdocumentor-element-found-in__line">62</span>
 
-            <a href="classes/Smr-DummyShip.html#source-view.49" class="phpdocumentor-element-found-in__source" data-line="49" data-modal="source-view" data-src="files/src/lib/Smr/AbstractShip.php.txt"></a>
+            <a href="classes/Smr-DummyShip.html#source-view.62" class="phpdocumentor-element-found-in__source" data-line="62" data-modal="source-view" data-src="files/src/lib/Smr/AbstractShip.php.txt"></a>
     </aside>
 
     
@@ -1635,9 +1678,9 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/AbstractShip.php"><a href="files/src-lib-smr-abstractship.html"><abbr title="src/lib/Smr/AbstractShip.php">AbstractShip.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">48</span>
+    <span class="phpdocumentor-element-found-in__line">61</span>
 
-            <a href="classes/Smr-DummyShip.html#source-view.48" class="phpdocumentor-element-found-in__source" data-line="48" data-modal="source-view" data-src="files/src/lib/Smr/AbstractShip.php.txt"></a>
+            <a href="classes/Smr-DummyShip.html#source-view.61" class="phpdocumentor-element-found-in__source" data-line="61" data-modal="source-view" data-src="files/src/lib/Smr/AbstractShip.php.txt"></a>
     </aside>
 
     
@@ -1673,9 +1716,9 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/AbstractShip.php"><a href="files/src-lib-smr-abstractship.html"><abbr title="src/lib/Smr/AbstractShip.php">AbstractShip.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">50</span>
+    <span class="phpdocumentor-element-found-in__line">63</span>
 
-            <a href="classes/Smr-DummyShip.html#source-view.50" class="phpdocumentor-element-found-in__source" data-line="50" data-modal="source-view" data-src="files/src/lib/Smr/AbstractShip.php.txt"></a>
+            <a href="classes/Smr-DummyShip.html#source-view.63" class="phpdocumentor-element-found-in__source" data-line="63" data-modal="source-view" data-src="files/src/lib/Smr/AbstractShip.php.txt"></a>
     </aside>
 
     
@@ -1711,9 +1754,9 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/AbstractShip.php"><a href="files/src-lib-smr-abstractship.html"><abbr title="src/lib/Smr/AbstractShip.php">AbstractShip.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">45</span>
+    <span class="phpdocumentor-element-found-in__line">58</span>
 
-            <a href="classes/Smr-DummyShip.html#source-view.45" class="phpdocumentor-element-found-in__source" data-line="45" data-modal="source-view" data-src="files/src/lib/Smr/AbstractShip.php.txt"></a>
+            <a href="classes/Smr-DummyShip.html#source-view.58" class="phpdocumentor-element-found-in__source" data-line="58" data-modal="source-view" data-src="files/src/lib/Smr/AbstractShip.php.txt"></a>
     </aside>
 
     
@@ -1749,9 +1792,9 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/AbstractShip.php"><a href="files/src-lib-smr-abstractship.html"><abbr title="src/lib/Smr/AbstractShip.php">AbstractShip.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">43</span>
+    <span class="phpdocumentor-element-found-in__line">56</span>
 
-            <a href="classes/Smr-DummyShip.html#source-view.43" class="phpdocumentor-element-found-in__source" data-line="43" data-modal="source-view" data-src="files/src/lib/Smr/AbstractShip.php.txt"></a>
+            <a href="classes/Smr-DummyShip.html#source-view.56" class="phpdocumentor-element-found-in__source" data-line="56" data-modal="source-view" data-src="files/src/lib/Smr/AbstractShip.php.txt"></a>
     </aside>
 
     
@@ -1787,9 +1830,9 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/AbstractShip.php"><a href="files/src-lib-smr-abstractship.html"><abbr title="src/lib/Smr/AbstractShip.php">AbstractShip.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">42</span>
+    <span class="phpdocumentor-element-found-in__line">55</span>
 
-            <a href="classes/Smr-DummyShip.html#source-view.42" class="phpdocumentor-element-found-in__source" data-line="42" data-modal="source-view" data-src="files/src/lib/Smr/AbstractShip.php.txt"></a>
+            <a href="classes/Smr-DummyShip.html#source-view.55" class="phpdocumentor-element-found-in__source" data-line="55" data-modal="source-view" data-src="files/src/lib/Smr/AbstractShip.php.txt"></a>
     </aside>
 
     
@@ -1825,9 +1868,9 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/AbstractShip.php"><a href="files/src-lib-smr-abstractship.html"><abbr title="src/lib/Smr/AbstractShip.php">AbstractShip.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">52</span>
+    <span class="phpdocumentor-element-found-in__line">65</span>
 
-            <a href="classes/Smr-DummyShip.html#source-view.52" class="phpdocumentor-element-found-in__source" data-line="52" data-modal="source-view" data-src="files/src/lib/Smr/AbstractShip.php.txt"></a>
+            <a href="classes/Smr-DummyShip.html#source-view.65" class="phpdocumentor-element-found-in__source" data-line="65" data-modal="source-view" data-src="files/src/lib/Smr/AbstractShip.php.txt"></a>
     </aside>
 
     
@@ -1863,9 +1906,9 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/AbstractShip.php"><a href="files/src-lib-smr-abstractship.html"><abbr title="src/lib/Smr/AbstractShip.php">AbstractShip.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">34</span>
+    <span class="phpdocumentor-element-found-in__line">47</span>
 
-            <a href="classes/Smr-DummyShip.html#source-view.34" class="phpdocumentor-element-found-in__source" data-line="34" data-modal="source-view" data-src="files/src/lib/Smr/AbstractShip.php.txt"></a>
+            <a href="classes/Smr-DummyShip.html#source-view.47" class="phpdocumentor-element-found-in__source" data-line="47" data-modal="source-view" data-src="files/src/lib/Smr/AbstractShip.php.txt"></a>
     </aside>
 
     
@@ -1901,9 +1944,9 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/AbstractShip.php"><a href="files/src-lib-smr-abstractship.html"><abbr title="src/lib/Smr/AbstractShip.php">AbstractShip.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">37</span>
+    <span class="phpdocumentor-element-found-in__line">50</span>
 
-            <a href="classes/Smr-DummyShip.html#source-view.37" class="phpdocumentor-element-found-in__source" data-line="37" data-modal="source-view" data-src="files/src/lib/Smr/AbstractShip.php.txt"></a>
+            <a href="classes/Smr-DummyShip.html#source-view.50" class="phpdocumentor-element-found-in__source" data-line="50" data-modal="source-view" data-src="files/src/lib/Smr/AbstractShip.php.txt"></a>
     </aside>
 
     
@@ -2024,9 +2067,9 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/AbstractShip.php"><a href="files/src-lib-smr-abstractship.html"><abbr title="src/lib/Smr/AbstractShip.php">AbstractShip.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">174</span>
+    <span class="phpdocumentor-element-found-in__line">195</span>
 
-            <a href="classes/Smr-DummyShip.html#source-view.174" class="phpdocumentor-element-found-in__source" data-line="174" data-modal="source-view" data-src="files/src/lib/Smr/AbstractShip.php.txt"></a>
+            <a href="classes/Smr-DummyShip.html#source-view.195" class="phpdocumentor-element-found-in__source" data-line="195" data-modal="source-view" data-src="files/src/lib/Smr/AbstractShip.php.txt"></a>
     </aside>
 
     
@@ -2108,9 +2151,9 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/AbstractShip.php"><a href="files/src-lib-smr-abstractship.html"><abbr title="src/lib/Smr/AbstractShip.php">AbstractShip.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">721</span>
+    <span class="phpdocumentor-element-found-in__line">742</span>
 
-            <a href="classes/Smr-DummyShip.html#source-view.721" class="phpdocumentor-element-found-in__source" data-line="721" data-modal="source-view" data-src="files/src/lib/Smr/AbstractShip.php.txt"></a>
+            <a href="classes/Smr-DummyShip.html#source-view.742" class="phpdocumentor-element-found-in__source" data-line="742" data-modal="source-view" data-src="files/src/lib/Smr/AbstractShip.php.txt"></a>
     </aside>
 
     
@@ -2147,9 +2190,9 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/AbstractShip.php"><a href="files/src-lib-smr-abstractship.html"><abbr title="src/lib/Smr/AbstractShip.php">AbstractShip.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">61</span>
+    <span class="phpdocumentor-element-found-in__line">74</span>
 
-            <a href="classes/Smr-DummyShip.html#source-view.61" class="phpdocumentor-element-found-in__source" data-line="61" data-modal="source-view" data-src="files/src/lib/Smr/AbstractShip.php.txt"></a>
+            <a href="classes/Smr-DummyShip.html#source-view.74" class="phpdocumentor-element-found-in__source" data-line="74" data-modal="source-view" data-src="files/src/lib/Smr/AbstractShip.php.txt"></a>
     </aside>
 
     
@@ -2182,9 +2225,9 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/AbstractShip.php"><a href="files/src-lib-smr-abstractship.html"><abbr title="src/lib/Smr/AbstractShip.php">AbstractShip.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">74</span>
+    <span class="phpdocumentor-element-found-in__line">87</span>
 
-            <a href="classes/Smr-DummyShip.html#source-view.74" class="phpdocumentor-element-found-in__source" data-line="74" data-modal="source-view" data-src="files/src/lib/Smr/AbstractShip.php.txt"></a>
+            <a href="classes/Smr-DummyShip.html#source-view.87" class="phpdocumentor-element-found-in__source" data-line="87" data-modal="source-view" data-src="files/src/lib/Smr/AbstractShip.php.txt"></a>
     </aside>
 
     
@@ -2217,9 +2260,9 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/AbstractShip.php"><a href="files/src-lib-smr-abstractship.html"><abbr title="src/lib/Smr/AbstractShip.php">AbstractShip.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">90</span>
+    <span class="phpdocumentor-element-found-in__line">103</span>
 
-            <a href="classes/Smr-DummyShip.html#source-view.90" class="phpdocumentor-element-found-in__source" data-line="90" data-modal="source-view" data-src="files/src/lib/Smr/AbstractShip.php.txt"></a>
+            <a href="classes/Smr-DummyShip.html#source-view.103" class="phpdocumentor-element-found-in__source" data-line="103" data-modal="source-view" data-src="files/src/lib/Smr/AbstractShip.php.txt"></a>
     </aside>
 
     
@@ -2252,9 +2295,9 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/AbstractShip.php"><a href="files/src-lib-smr-abstractship.html"><abbr title="src/lib/Smr/AbstractShip.php">AbstractShip.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">67</span>
+    <span class="phpdocumentor-element-found-in__line">80</span>
 
-            <a href="classes/Smr-DummyShip.html#source-view.67" class="phpdocumentor-element-found-in__source" data-line="67" data-modal="source-view" data-src="files/src/lib/Smr/AbstractShip.php.txt"></a>
+            <a href="classes/Smr-DummyShip.html#source-view.80" class="phpdocumentor-element-found-in__source" data-line="80" data-modal="source-view" data-src="files/src/lib/Smr/AbstractShip.php.txt"></a>
     </aside>
 
     
@@ -2287,9 +2330,9 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/AbstractShip.php"><a href="files/src-lib-smr-abstractship.html"><abbr title="src/lib/Smr/AbstractShip.php">AbstractShip.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">122</span>
+    <span class="phpdocumentor-element-found-in__line">135</span>
 
-            <a href="classes/Smr-DummyShip.html#source-view.122" class="phpdocumentor-element-found-in__source" data-line="122" data-modal="source-view" data-src="files/src/lib/Smr/AbstractShip.php.txt"></a>
+            <a href="classes/Smr-DummyShip.html#source-view.135" class="phpdocumentor-element-found-in__source" data-line="135" data-modal="source-view" data-src="files/src/lib/Smr/AbstractShip.php.txt"></a>
     </aside>
 
         <p class="phpdocumentor-summary">given power level of new weapon, return whether there is enough power available to install it on this ship</p>
@@ -2329,6 +2372,45 @@
             -public
                                                         "
 >
+    <h4 class="phpdocumentor-element__name" id="method_createCombatDrones">
+        createCombatDrones()
+        <a href="classes/Smr-AbstractShip.html#method_createCombatDrones" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/AbstractShip.php"><a href="files/src-lib-smr-abstractship.html"><abbr title="src/lib/Smr/AbstractShip.php">AbstractShip.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">963</span>
+
+            <a href="classes/Smr-DummyShip.html#source-view.963" class="phpdocumentor-element-found-in__source" data-line="963" data-modal="source-view" data-src="files/src/lib/Smr/AbstractShip.php.txt"></a>
+    </aside>
+
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+                    <span class="phpdocumentor-signature__name">createCombatDrones</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type"><a href="classes/Smr-Combat-Weapon-CombatDrones.html"><abbr title="\Smr\Combat\Weapon\CombatDrones">CombatDrones</abbr></a></span></code>
+
+    <div class="phpdocumentor-label-line">
+        </div>
+    
+    
+    
+    
+
+        
+    
+            <section>
+        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
+        <span class="phpdocumentor-signature__response_type"><a href="classes/Smr-Combat-Weapon-CombatDrones.html"><abbr title="\Smr\Combat\Weapon\CombatDrones">CombatDrones</abbr></a></span>
+            </section>
+
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                                        "
+>
     <h4 class="phpdocumentor-element__name" id="method_decloak">
         decloak()
         <a href="classes/Smr-AbstractShip.html#method_decloak" class="headerlink"><i class="fas fa-link"></i></a>
@@ -2337,9 +2419,9 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/AbstractShip.php"><a href="files/src-lib-smr-abstractship.html"><abbr title="src/lib/Smr/AbstractShip.php">AbstractShip.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">316</span>
+    <span class="phpdocumentor-element-found-in__line">337</span>
 
-            <a href="classes/Smr-DummyShip.html#source-view.316" class="phpdocumentor-element-found-in__source" data-line="316" data-modal="source-view" data-src="files/src/lib/Smr/AbstractShip.php.txt"></a>
+            <a href="classes/Smr-DummyShip.html#source-view.337" class="phpdocumentor-element-found-in__source" data-line="337" data-modal="source-view" data-src="files/src/lib/Smr/AbstractShip.php.txt"></a>
     </aside>
 
     
@@ -2372,9 +2454,9 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/AbstractShip.php"><a href="files/src-lib-smr-abstractship.html"><abbr title="src/lib/Smr/AbstractShip.php">AbstractShip.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">536</span>
+    <span class="phpdocumentor-element-found-in__line">557</span>
 
-            <a href="classes/Smr-DummyShip.html#source-view.536" class="phpdocumentor-element-found-in__source" data-line="536" data-modal="source-view" data-src="files/src/lib/Smr/AbstractShip.php.txt"></a>
+            <a href="classes/Smr-DummyShip.html#source-view.557" class="phpdocumentor-element-found-in__source" data-line="557" data-modal="source-view" data-src="files/src/lib/Smr/AbstractShip.php.txt"></a>
     </aside>
 
     
@@ -2417,9 +2499,9 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/AbstractShip.php"><a href="files/src-lib-smr-abstractship.html"><abbr title="src/lib/Smr/AbstractShip.php">AbstractShip.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">680</span>
+    <span class="phpdocumentor-element-found-in__line">701</span>
 
-            <a href="classes/Smr-DummyShip.html#source-view.680" class="phpdocumentor-element-found-in__source" data-line="680" data-modal="source-view" data-src="files/src/lib/Smr/AbstractShip.php.txt"></a>
+            <a href="classes/Smr-DummyShip.html#source-view.701" class="phpdocumentor-element-found-in__source" data-line="701" data-modal="source-view" data-src="files/src/lib/Smr/AbstractShip.php.txt"></a>
     </aside>
 
     
@@ -2469,9 +2551,9 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/AbstractShip.php"><a href="files/src-lib-smr-abstractship.html"><abbr title="src/lib/Smr/AbstractShip.php">AbstractShip.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">592</span>
+    <span class="phpdocumentor-element-found-in__line">613</span>
 
-            <a href="classes/Smr-DummyShip.html#source-view.592" class="phpdocumentor-element-found-in__source" data-line="592" data-modal="source-view" data-src="files/src/lib/Smr/AbstractShip.php.txt"></a>
+            <a href="classes/Smr-DummyShip.html#source-view.613" class="phpdocumentor-element-found-in__source" data-line="613" data-modal="source-view" data-src="files/src/lib/Smr/AbstractShip.php.txt"></a>
     </aside>
 
     
@@ -2514,9 +2596,9 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/AbstractShip.php"><a href="files/src-lib-smr-abstractship.html"><abbr title="src/lib/Smr/AbstractShip.php">AbstractShip.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">632</span>
+    <span class="phpdocumentor-element-found-in__line">653</span>
 
-            <a href="classes/Smr-DummyShip.html#source-view.632" class="phpdocumentor-element-found-in__source" data-line="632" data-modal="source-view" data-src="files/src/lib/Smr/AbstractShip.php.txt"></a>
+            <a href="classes/Smr-DummyShip.html#source-view.653" class="phpdocumentor-element-found-in__source" data-line="653" data-modal="source-view" data-src="files/src/lib/Smr/AbstractShip.php.txt"></a>
     </aside>
 
     
@@ -2559,9 +2641,9 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/AbstractShip.php"><a href="files/src-lib-smr-abstractship.html"><abbr title="src/lib/Smr/AbstractShip.php">AbstractShip.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">612</span>
+    <span class="phpdocumentor-element-found-in__line">633</span>
 
-            <a href="classes/Smr-DummyShip.html#source-view.612" class="phpdocumentor-element-found-in__source" data-line="612" data-modal="source-view" data-src="files/src/lib/Smr/AbstractShip.php.txt"></a>
+            <a href="classes/Smr-DummyShip.html#source-view.633" class="phpdocumentor-element-found-in__source" data-line="633" data-modal="source-view" data-src="files/src/lib/Smr/AbstractShip.php.txt"></a>
     </aside>
 
     
@@ -2604,9 +2686,9 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/AbstractShip.php"><a href="files/src-lib-smr-abstractship.html"><abbr title="src/lib/Smr/AbstractShip.php">AbstractShip.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">508</span>
+    <span class="phpdocumentor-element-found-in__line">529</span>
 
-            <a href="classes/Smr-DummyShip.html#source-view.508" class="phpdocumentor-element-found-in__source" data-line="508" data-modal="source-view" data-src="files/src/lib/Smr/AbstractShip.php.txt"></a>
+            <a href="classes/Smr-DummyShip.html#source-view.529" class="phpdocumentor-element-found-in__source" data-line="529" data-modal="source-view" data-src="files/src/lib/Smr/AbstractShip.php.txt"></a>
     </aside>
 
     
@@ -2649,9 +2731,9 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/AbstractShip.php"><a href="files/src-lib-smr-abstractship.html"><abbr title="src/lib/Smr/AbstractShip.php">AbstractShip.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">370</span>
+    <span class="phpdocumentor-element-found-in__line">391</span>
 
-            <a href="classes/Smr-DummyShip.html#source-view.370" class="phpdocumentor-element-found-in__source" data-line="370" data-modal="source-view" data-src="files/src/lib/Smr/AbstractShip.php.txt"></a>
+            <a href="classes/Smr-DummyShip.html#source-view.391" class="phpdocumentor-element-found-in__source" data-line="391" data-modal="source-view" data-src="files/src/lib/Smr/AbstractShip.php.txt"></a>
     </aside>
 
     
@@ -2684,9 +2766,9 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/AbstractShip.php"><a href="files/src-lib-smr-abstractship.html"><abbr title="src/lib/Smr/AbstractShip.php">AbstractShip.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">320</span>
+    <span class="phpdocumentor-element-found-in__line">341</span>
 
-            <a href="classes/Smr-DummyShip.html#source-view.320" class="phpdocumentor-element-found-in__source" data-line="320" data-modal="source-view" data-src="files/src/lib/Smr/AbstractShip.php.txt"></a>
+            <a href="classes/Smr-DummyShip.html#source-view.341" class="phpdocumentor-element-found-in__source" data-line="341" data-modal="source-view" data-src="files/src/lib/Smr/AbstractShip.php.txt"></a>
     </aside>
 
     
@@ -2719,9 +2801,9 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/AbstractShip.php"><a href="files/src-lib-smr-abstractship.html"><abbr title="src/lib/Smr/AbstractShip.php">AbstractShip.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">382</span>
+    <span class="phpdocumentor-element-found-in__line">403</span>
 
-            <a href="classes/Smr-DummyShip.html#source-view.382" class="phpdocumentor-element-found-in__source" data-line="382" data-modal="source-view" data-src="files/src/lib/Smr/AbstractShip.php.txt"></a>
+            <a href="classes/Smr-DummyShip.html#source-view.403" class="phpdocumentor-element-found-in__source" data-line="403" data-modal="source-view" data-src="files/src/lib/Smr/AbstractShip.php.txt"></a>
     </aside>
 
     
@@ -2758,9 +2840,9 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/AbstractShip.php"><a href="files/src-lib-smr-abstractship.html"><abbr title="src/lib/Smr/AbstractShip.php">AbstractShip.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">528</span>
+    <span class="phpdocumentor-element-found-in__line">549</span>
 
-            <a href="classes/Smr-DummyShip.html#source-view.528" class="phpdocumentor-element-found-in__source" data-line="528" data-modal="source-view" data-src="files/src/lib/Smr/AbstractShip.php.txt"></a>
+            <a href="classes/Smr-DummyShip.html#source-view.549" class="phpdocumentor-element-found-in__source" data-line="549" data-modal="source-view" data-src="files/src/lib/Smr/AbstractShip.php.txt"></a>
     </aside>
 
     
@@ -2797,9 +2879,9 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/AbstractShip.php"><a href="files/src-lib-smr-abstractship.html"><abbr title="src/lib/Smr/AbstractShip.php">AbstractShip.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">170</span>
+    <span class="phpdocumentor-element-found-in__line">191</span>
 
-            <a href="classes/Smr-DummyShip.html#source-view.170" class="phpdocumentor-element-found-in__source" data-line="170" data-modal="source-view" data-src="files/src/lib/Smr/AbstractShip.php.txt"></a>
+            <a href="classes/Smr-DummyShip.html#source-view.191" class="phpdocumentor-element-found-in__source" data-line="191" data-modal="source-view" data-src="files/src/lib/Smr/AbstractShip.php.txt"></a>
     </aside>
 
     
@@ -2836,9 +2918,9 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/AbstractShip.php"><a href="files/src-lib-smr-abstractship.html"><abbr title="src/lib/Smr/AbstractShip.php">AbstractShip.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">169</span>
+    <span class="phpdocumentor-element-found-in__line">190</span>
 
-            <a href="classes/Smr-DummyShip.html#source-view.169" class="phpdocumentor-element-found-in__source" data-line="169" data-modal="source-view" data-src="files/src/lib/Smr/AbstractShip.php.txt"></a>
+            <a href="classes/Smr-DummyShip.html#source-view.190" class="phpdocumentor-element-found-in__source" data-line="190" data-modal="source-view" data-src="files/src/lib/Smr/AbstractShip.php.txt"></a>
     </aside>
 
     
@@ -2875,9 +2957,9 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/AbstractShip.php"><a href="files/src-lib-smr-abstractship.html"><abbr title="src/lib/Smr/AbstractShip.php">AbstractShip.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">151</span>
+    <span class="phpdocumentor-element-found-in__line">172</span>
 
-            <a href="classes/Smr-DummyShip.html#source-view.151" class="phpdocumentor-element-found-in__source" data-line="151" data-modal="source-view" data-src="files/src/lib/Smr/AbstractShip.php.txt"></a>
+            <a href="classes/Smr-DummyShip.html#source-view.172" class="phpdocumentor-element-found-in__source" data-line="172" data-modal="source-view" data-src="files/src/lib/Smr/AbstractShip.php.txt"></a>
     </aside>
 
     
@@ -2914,9 +2996,9 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/AbstractShip.php"><a href="files/src-lib-smr-abstractship.html"><abbr title="src/lib/Smr/AbstractShip.php">AbstractShip.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">155</span>
+    <span class="phpdocumentor-element-found-in__line">176</span>
 
-            <a href="classes/Smr-DummyShip.html#source-view.155" class="phpdocumentor-element-found-in__source" data-line="155" data-modal="source-view" data-src="files/src/lib/Smr/AbstractShip.php.txt"></a>
+            <a href="classes/Smr-DummyShip.html#source-view.176" class="phpdocumentor-element-found-in__source" data-line="176" data-modal="source-view" data-src="files/src/lib/Smr/AbstractShip.php.txt"></a>
     </aside>
 
     
@@ -3002,9 +3084,9 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/AbstractShip.php"><a href="files/src-lib-smr-abstractship.html"><abbr title="src/lib/Smr/AbstractShip.php">AbstractShip.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">655</span>
+    <span class="phpdocumentor-element-found-in__line">676</span>
 
-            <a href="classes/Smr-DummyShip.html#source-view.655" class="phpdocumentor-element-found-in__source" data-line="655" data-modal="source-view" data-src="files/src/lib/Smr/AbstractShip.php.txt"></a>
+            <a href="classes/Smr-DummyShip.html#source-view.676" class="phpdocumentor-element-found-in__source" data-line="676" data-modal="source-view" data-src="files/src/lib/Smr/AbstractShip.php.txt"></a>
     </aside>
 
     
@@ -3051,9 +3133,9 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/AbstractShip.php"><a href="files/src-lib-smr-abstractship.html"><abbr title="src/lib/Smr/AbstractShip.php">AbstractShip.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">644</span>
+    <span class="phpdocumentor-element-found-in__line">665</span>
 
-            <a href="classes/Smr-DummyShip.html#source-view.644" class="phpdocumentor-element-found-in__source" data-line="644" data-modal="source-view" data-src="files/src/lib/Smr/AbstractShip.php.txt"></a>
+            <a href="classes/Smr-DummyShip.html#source-view.665" class="phpdocumentor-element-found-in__source" data-line="665" data-modal="source-view" data-src="files/src/lib/Smr/AbstractShip.php.txt"></a>
     </aside>
 
     
@@ -3090,9 +3172,9 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/AbstractShip.php"><a href="files/src-lib-smr-abstractship.html"><abbr title="src/lib/Smr/AbstractShip.php">AbstractShip.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">584</span>
+    <span class="phpdocumentor-element-found-in__line">605</span>
 
-            <a href="classes/Smr-DummyShip.html#source-view.584" class="phpdocumentor-element-found-in__source" data-line="584" data-modal="source-view" data-src="files/src/lib/Smr/AbstractShip.php.txt"></a>
+            <a href="classes/Smr-DummyShip.html#source-view.605" class="phpdocumentor-element-found-in__source" data-line="605" data-modal="source-view" data-src="files/src/lib/Smr/AbstractShip.php.txt"></a>
     </aside>
 
     
@@ -3129,9 +3211,9 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/AbstractShip.php"><a href="files/src-lib-smr-abstractship.html"><abbr title="src/lib/Smr/AbstractShip.php">AbstractShip.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">172</span>
+    <span class="phpdocumentor-element-found-in__line">193</span>
 
-            <a href="classes/Smr-DummyShip.html#source-view.172" class="phpdocumentor-element-found-in__source" data-line="172" data-modal="source-view" data-src="files/src/lib/Smr/AbstractShip.php.txt"></a>
+            <a href="classes/Smr-DummyShip.html#source-view.193" class="phpdocumentor-element-found-in__source" data-line="193" data-modal="source-view" data-src="files/src/lib/Smr/AbstractShip.php.txt"></a>
     </aside>
 
     
@@ -3168,9 +3250,9 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/AbstractShip.php"><a href="files/src-lib-smr-abstractship.html"><abbr title="src/lib/Smr/AbstractShip.php">AbstractShip.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">171</span>
+    <span class="phpdocumentor-element-found-in__line">192</span>
 
-            <a href="classes/Smr-DummyShip.html#source-view.171" class="phpdocumentor-element-found-in__source" data-line="171" data-modal="source-view" data-src="files/src/lib/Smr/AbstractShip.php.txt"></a>
+            <a href="classes/Smr-DummyShip.html#source-view.192" class="phpdocumentor-element-found-in__source" data-line="192" data-modal="source-view" data-src="files/src/lib/Smr/AbstractShip.php.txt"></a>
     </aside>
 
     
@@ -3207,9 +3289,9 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/AbstractShip.php"><a href="files/src-lib-smr-abstractship.html"><abbr title="src/lib/Smr/AbstractShip.php">AbstractShip.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">421</span>
+    <span class="phpdocumentor-element-found-in__line">442</span>
 
-            <a href="classes/Smr-DummyShip.html#source-view.421" class="phpdocumentor-element-found-in__source" data-line="421" data-modal="source-view" data-src="files/src/lib/Smr/AbstractShip.php.txt"></a>
+            <a href="classes/Smr-DummyShip.html#source-view.442" class="phpdocumentor-element-found-in__source" data-line="442" data-modal="source-view" data-src="files/src/lib/Smr/AbstractShip.php.txt"></a>
     </aside>
 
     
@@ -3238,6 +3320,84 @@
             -public
                                                         "
 >
+    <h4 class="phpdocumentor-element__name" id="method_getCombatID">
+        getCombatID()
+        <a href="classes/Smr-AbstractShip.html#method_getCombatID" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/AbstractShip.php"><a href="files/src-lib-smr-abstractship.html"><abbr title="src/lib/Smr/AbstractShip.php">AbstractShip.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">168</span>
+
+            <a href="classes/Smr-DummyShip.html#source-view.168" class="phpdocumentor-element-found-in__source" data-line="168" data-modal="source-view" data-src="files/src/lib/Smr/AbstractShip.php.txt"></a>
+    </aside>
+
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+                    <span class="phpdocumentor-signature__name">getCombatID</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">int</span></code>
+
+    <div class="phpdocumentor-label-line">
+        </div>
+    
+    
+    
+    
+
+        
+    
+            <section>
+        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
+        <span class="phpdocumentor-signature__response_type">int</span>
+            </section>
+
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="method_getCombatName">
+        getCombatName()
+        <a href="classes/Smr-AbstractShip.html#method_getCombatName" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/AbstractShip.php"><a href="files/src-lib-smr-abstractship.html"><abbr title="src/lib/Smr/AbstractShip.php">AbstractShip.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">164</span>
+
+            <a href="classes/Smr-DummyShip.html#source-view.164" class="phpdocumentor-element-found-in__source" data-line="164" data-modal="source-view" data-src="files/src/lib/Smr/AbstractShip.php.txt"></a>
+    </aside>
+
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+                    <span class="phpdocumentor-signature__name">getCombatName</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">string</span></code>
+
+    <div class="phpdocumentor-label-line">
+        </div>
+    
+    
+    
+    
+
+        
+    
+            <section>
+        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
+        <span class="phpdocumentor-signature__response_type">string</span>
+            </section>
+
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                                        "
+>
     <h4 class="phpdocumentor-element__name" id="method_getCost">
         getCost()
         <a href="classes/Smr-AbstractShip.html#method_getCost" class="headerlink"><i class="fas fa-link"></i></a>
@@ -3246,9 +3406,9 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/AbstractShip.php"><a href="files/src-lib-smr-abstractship.html"><abbr title="src/lib/Smr/AbstractShip.php">AbstractShip.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">429</span>
+    <span class="phpdocumentor-element-found-in__line">450</span>
 
-            <a href="classes/Smr-DummyShip.html#source-view.429" class="phpdocumentor-element-found-in__source" data-line="429" data-modal="source-view" data-src="files/src/lib/Smr/AbstractShip.php.txt"></a>
+            <a href="classes/Smr-DummyShip.html#source-view.450" class="phpdocumentor-element-found-in__source" data-line="450" data-modal="source-view" data-src="files/src/lib/Smr/AbstractShip.php.txt"></a>
     </aside>
 
     
@@ -3285,9 +3445,9 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/AbstractShip.php"><a href="files/src-lib-smr-abstractship.html"><abbr title="src/lib/Smr/AbstractShip.php">AbstractShip.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">463</span>
+    <span class="phpdocumentor-element-found-in__line">484</span>
 
-            <a href="classes/Smr-DummyShip.html#source-view.463" class="phpdocumentor-element-found-in__source" data-line="463" data-modal="source-view" data-src="files/src/lib/Smr/AbstractShip.php.txt"></a>
+            <a href="classes/Smr-DummyShip.html#source-view.484" class="phpdocumentor-element-found-in__source" data-line="484" data-modal="source-view" data-src="files/src/lib/Smr/AbstractShip.php.txt"></a>
     </aside>
 
     
@@ -3324,9 +3484,9 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/AbstractShip.php"><a href="files/src-lib-smr-abstractship.html"><abbr title="src/lib/Smr/AbstractShip.php">AbstractShip.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">444</span>
+    <span class="phpdocumentor-element-found-in__line">465</span>
 
-            <a href="classes/Smr-DummyShip.html#source-view.444" class="phpdocumentor-element-found-in__source" data-line="444" data-modal="source-view" data-src="files/src/lib/Smr/AbstractShip.php.txt"></a>
+            <a href="classes/Smr-DummyShip.html#source-view.465" class="phpdocumentor-element-found-in__source" data-line="465" data-modal="source-view" data-src="files/src/lib/Smr/AbstractShip.php.txt"></a>
     </aside>
 
     
@@ -3373,9 +3533,9 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/AbstractShip.php"><a href="files/src-lib-smr-abstractship.html"><abbr title="src/lib/Smr/AbstractShip.php">AbstractShip.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">449</span>
+    <span class="phpdocumentor-element-found-in__line">470</span>
 
-            <a href="classes/Smr-DummyShip.html#source-view.449" class="phpdocumentor-element-found-in__source" data-line="449" data-modal="source-view" data-src="files/src/lib/Smr/AbstractShip.php.txt"></a>
+            <a href="classes/Smr-DummyShip.html#source-view.470" class="phpdocumentor-element-found-in__source" data-line="470" data-modal="source-view" data-src="files/src/lib/Smr/AbstractShip.php.txt"></a>
     </aside>
 
     
@@ -3422,9 +3582,9 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/AbstractShip.php"><a href="files/src-lib-smr-abstractship.html"><abbr title="src/lib/Smr/AbstractShip.php">AbstractShip.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">159</span>
+    <span class="phpdocumentor-element-found-in__line">180</span>
 
-            <a href="classes/Smr-DummyShip.html#source-view.159" class="phpdocumentor-element-found-in__source" data-line="159" data-modal="source-view" data-src="files/src/lib/Smr/AbstractShip.php.txt"></a>
+            <a href="classes/Smr-DummyShip.html#source-view.180" class="phpdocumentor-element-found-in__source" data-line="180" data-modal="source-view" data-src="files/src/lib/Smr/AbstractShip.php.txt"></a>
     </aside>
 
     
@@ -3461,9 +3621,9 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/AbstractShip.php"><a href="files/src-lib-smr-abstractship.html"><abbr title="src/lib/Smr/AbstractShip.php">AbstractShip.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">130</span>
+    <span class="phpdocumentor-element-found-in__line">143</span>
 
-            <a href="classes/Smr-DummyShip.html#source-view.130" class="phpdocumentor-element-found-in__source" data-line="130" data-modal="source-view" data-src="files/src/lib/Smr/AbstractShip.php.txt"></a>
+            <a href="classes/Smr-DummyShip.html#source-view.143" class="phpdocumentor-element-found-in__source" data-line="143" data-modal="source-view" data-src="files/src/lib/Smr/AbstractShip.php.txt"></a>
     </aside>
 
     
@@ -3500,9 +3660,9 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/AbstractShip.php"><a href="files/src-lib-smr-abstractship.html"><abbr title="src/lib/Smr/AbstractShip.php">AbstractShip.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">137</span>
+    <span class="phpdocumentor-element-found-in__line">150</span>
 
-            <a href="classes/Smr-DummyShip.html#source-view.137" class="phpdocumentor-element-found-in__source" data-line="137" data-modal="source-view" data-src="files/src/lib/Smr/AbstractShip.php.txt"></a>
+            <a href="classes/Smr-DummyShip.html#source-view.150" class="phpdocumentor-element-found-in__source" data-line="150" data-modal="source-view" data-src="files/src/lib/Smr/AbstractShip.php.txt"></a>
     </aside>
 
     
@@ -3539,9 +3699,9 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/AbstractShip.php"><a href="files/src-lib-smr-abstractship.html"><abbr title="src/lib/Smr/AbstractShip.php">AbstractShip.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">144</span>
+    <span class="phpdocumentor-element-found-in__line">157</span>
 
-            <a href="classes/Smr-DummyShip.html#source-view.144" class="phpdocumentor-element-found-in__source" data-line="144" data-modal="source-view" data-src="files/src/lib/Smr/AbstractShip.php.txt"></a>
+            <a href="classes/Smr-DummyShip.html#source-view.157" class="phpdocumentor-element-found-in__source" data-line="157" data-modal="source-view" data-src="files/src/lib/Smr/AbstractShip.php.txt"></a>
     </aside>
 
     
@@ -3617,9 +3777,9 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/AbstractShip.php"><a href="files/src-lib-smr-abstractship.html"><abbr title="src/lib/Smr/AbstractShip.php">AbstractShip.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">694</span>
+    <span class="phpdocumentor-element-found-in__line">715</span>
 
-            <a href="classes/Smr-DummyShip.html#source-view.694" class="phpdocumentor-element-found-in__source" data-line="694" data-modal="source-view" data-src="files/src/lib/Smr/AbstractShip.php.txt"></a>
+            <a href="classes/Smr-DummyShip.html#source-view.715" class="phpdocumentor-element-found-in__source" data-line="715" data-modal="source-view" data-src="files/src/lib/Smr/AbstractShip.php.txt"></a>
     </aside>
 
     
@@ -3656,9 +3816,9 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/AbstractShip.php"><a href="files/src-lib-smr-abstractship.html"><abbr title="src/lib/Smr/AbstractShip.php">AbstractShip.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">390</span>
+    <span class="phpdocumentor-element-found-in__line">411</span>
 
-            <a href="classes/Smr-DummyShip.html#source-view.390" class="phpdocumentor-element-found-in__source" data-line="390" data-modal="source-view" data-src="files/src/lib/Smr/AbstractShip.php.txt"></a>
+            <a href="classes/Smr-DummyShip.html#source-view.411" class="phpdocumentor-element-found-in__source" data-line="411" data-modal="source-view" data-src="files/src/lib/Smr/AbstractShip.php.txt"></a>
     </aside>
 
     
@@ -3695,9 +3855,9 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/AbstractShip.php"><a href="files/src-lib-smr-abstractship.html"><abbr title="src/lib/Smr/AbstractShip.php">AbstractShip.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">386</span>
+    <span class="phpdocumentor-element-found-in__line">407</span>
 
-            <a href="classes/Smr-DummyShip.html#source-view.386" class="phpdocumentor-element-found-in__source" data-line="386" data-modal="source-view" data-src="files/src/lib/Smr/AbstractShip.php.txt"></a>
+            <a href="classes/Smr-DummyShip.html#source-view.407" class="phpdocumentor-element-found-in__source" data-line="407" data-modal="source-view" data-src="files/src/lib/Smr/AbstractShip.php.txt"></a>
     </aside>
 
     
@@ -3734,9 +3894,9 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/AbstractShip.php"><a href="files/src-lib-smr-abstractship.html"><abbr title="src/lib/Smr/AbstractShip.php">AbstractShip.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">433</span>
+    <span class="phpdocumentor-element-found-in__line">454</span>
 
-            <a href="classes/Smr-DummyShip.html#source-view.433" class="phpdocumentor-element-found-in__source" data-line="433" data-modal="source-view" data-src="files/src/lib/Smr/AbstractShip.php.txt"></a>
+            <a href="classes/Smr-DummyShip.html#source-view.454" class="phpdocumentor-element-found-in__source" data-line="454" data-modal="source-view" data-src="files/src/lib/Smr/AbstractShip.php.txt"></a>
     </aside>
 
     
@@ -3773,9 +3933,9 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/AbstractShip.php"><a href="files/src-lib-smr-abstractship.html"><abbr title="src/lib/Smr/AbstractShip.php">AbstractShip.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">477</span>
+    <span class="phpdocumentor-element-found-in__line">498</span>
 
-            <a href="classes/Smr-DummyShip.html#source-view.477" class="phpdocumentor-element-found-in__source" data-line="477" data-modal="source-view" data-src="files/src/lib/Smr/AbstractShip.php.txt"></a>
+            <a href="classes/Smr-DummyShip.html#source-view.498" class="phpdocumentor-element-found-in__source" data-line="498" data-modal="source-view" data-src="files/src/lib/Smr/AbstractShip.php.txt"></a>
     </aside>
 
     
@@ -3822,9 +3982,9 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/AbstractShip.php"><a href="files/src-lib-smr-abstractship.html"><abbr title="src/lib/Smr/AbstractShip.php">AbstractShip.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">350</span>
+    <span class="phpdocumentor-element-found-in__line">371</span>
 
-            <a href="classes/Smr-DummyShip.html#source-view.350" class="phpdocumentor-element-found-in__source" data-line="350" data-modal="source-view" data-src="files/src/lib/Smr/AbstractShip.php.txt"></a>
+            <a href="classes/Smr-DummyShip.html#source-view.371" class="phpdocumentor-element-found-in__source" data-line="371" data-modal="source-view" data-src="files/src/lib/Smr/AbstractShip.php.txt"></a>
     </aside>
 
     
@@ -3853,6 +4013,45 @@
             -public
                                                         "
 >
+    <h4 class="phpdocumentor-element__name" id="method_getLevel">
+        getLevel()
+        <a href="classes/Smr-AbstractShip.html#method_getLevel" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/AbstractShip.php"><a href="files/src-lib-smr-abstractship.html"><abbr title="src/lib/Smr/AbstractShip.php">AbstractShip.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">1038</span>
+
+            <a href="classes/Smr-DummyShip.html#source-view.1038" class="phpdocumentor-element-found-in__source" data-line="1038" data-modal="source-view" data-src="files/src/lib/Smr/AbstractShip.php.txt"></a>
+    </aside>
+
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+                    <span class="phpdocumentor-signature__name">getLevel</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">int</span></code>
+
+    <div class="phpdocumentor-label-line">
+        </div>
+    
+    
+    
+    
+
+        
+    
+            <section>
+        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
+        <span class="phpdocumentor-signature__response_type">int</span>
+            </section>
+
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                                        "
+>
     <h4 class="phpdocumentor-element__name" id="method_getMaxArmour">
         getMaxArmour()
         <a href="classes/Smr-AbstractShip.html#method_getMaxArmour" class="headerlink"><i class="fas fa-link"></i></a>
@@ -3861,9 +4060,9 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/AbstractShip.php"><a href="files/src-lib-smr-abstractship.html"><abbr title="src/lib/Smr/AbstractShip.php">AbstractShip.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">552</span>
+    <span class="phpdocumentor-element-found-in__line">573</span>
 
-            <a href="classes/Smr-DummyShip.html#source-view.552" class="phpdocumentor-element-found-in__source" data-line="552" data-modal="source-view" data-src="files/src/lib/Smr/AbstractShip.php.txt"></a>
+            <a href="classes/Smr-DummyShip.html#source-view.573" class="phpdocumentor-element-found-in__source" data-line="573" data-modal="source-view" data-src="files/src/lib/Smr/AbstractShip.php.txt"></a>
     </aside>
 
     
@@ -3900,9 +4099,9 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/AbstractShip.php"><a href="files/src-lib-smr-abstractship.html"><abbr title="src/lib/Smr/AbstractShip.php">AbstractShip.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">706</span>
+    <span class="phpdocumentor-element-found-in__line">727</span>
 
-            <a href="classes/Smr-DummyShip.html#source-view.706" class="phpdocumentor-element-found-in__source" data-line="706" data-modal="source-view" data-src="files/src/lib/Smr/AbstractShip.php.txt"></a>
+            <a href="classes/Smr-DummyShip.html#source-view.727" class="phpdocumentor-element-found-in__source" data-line="727" data-modal="source-view" data-src="files/src/lib/Smr/AbstractShip.php.txt"></a>
     </aside>
 
     
@@ -3939,9 +4138,9 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/AbstractShip.php"><a href="files/src-lib-smr-abstractship.html"><abbr title="src/lib/Smr/AbstractShip.php">AbstractShip.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">600</span>
+    <span class="phpdocumentor-element-found-in__line">621</span>
 
-            <a href="classes/Smr-DummyShip.html#source-view.600" class="phpdocumentor-element-found-in__source" data-line="600" data-modal="source-view" data-src="files/src/lib/Smr/AbstractShip.php.txt"></a>
+            <a href="classes/Smr-DummyShip.html#source-view.621" class="phpdocumentor-element-found-in__source" data-line="621" data-modal="source-view" data-src="files/src/lib/Smr/AbstractShip.php.txt"></a>
     </aside>
 
     
@@ -3978,9 +4177,9 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/AbstractShip.php"><a href="files/src-lib-smr-abstractship.html"><abbr title="src/lib/Smr/AbstractShip.php">AbstractShip.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">163</span>
+    <span class="phpdocumentor-element-found-in__line">184</span>
 
-            <a href="classes/Smr-DummyShip.html#source-view.163" class="phpdocumentor-element-found-in__source" data-line="163" data-modal="source-view" data-src="files/src/lib/Smr/AbstractShip.php.txt"></a>
+            <a href="classes/Smr-DummyShip.html#source-view.184" class="phpdocumentor-element-found-in__source" data-line="184" data-modal="source-view" data-src="files/src/lib/Smr/AbstractShip.php.txt"></a>
     </aside>
 
     
@@ -4017,9 +4216,9 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/AbstractShip.php"><a href="files/src-lib-smr-abstractship.html"><abbr title="src/lib/Smr/AbstractShip.php">AbstractShip.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">640</span>
+    <span class="phpdocumentor-element-found-in__line">661</span>
 
-            <a href="classes/Smr-DummyShip.html#source-view.640" class="phpdocumentor-element-found-in__source" data-line="640" data-modal="source-view" data-src="files/src/lib/Smr/AbstractShip.php.txt"></a>
+            <a href="classes/Smr-DummyShip.html#source-view.661" class="phpdocumentor-element-found-in__source" data-line="661" data-modal="source-view" data-src="files/src/lib/Smr/AbstractShip.php.txt"></a>
     </aside>
 
     
@@ -4056,9 +4255,9 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/AbstractShip.php"><a href="files/src-lib-smr-abstractship.html"><abbr title="src/lib/Smr/AbstractShip.php">AbstractShip.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">620</span>
+    <span class="phpdocumentor-element-found-in__line">641</span>
 
-            <a href="classes/Smr-DummyShip.html#source-view.620" class="phpdocumentor-element-found-in__source" data-line="620" data-modal="source-view" data-src="files/src/lib/Smr/AbstractShip.php.txt"></a>
+            <a href="classes/Smr-DummyShip.html#source-view.641" class="phpdocumentor-element-found-in__source" data-line="641" data-modal="source-view" data-src="files/src/lib/Smr/AbstractShip.php.txt"></a>
     </aside>
 
     
@@ -4095,9 +4294,9 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/AbstractShip.php"><a href="files/src-lib-smr-abstractship.html"><abbr title="src/lib/Smr/AbstractShip.php">AbstractShip.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">524</span>
+    <span class="phpdocumentor-element-found-in__line">545</span>
 
-            <a href="classes/Smr-DummyShip.html#source-view.524" class="phpdocumentor-element-found-in__source" data-line="524" data-modal="source-view" data-src="files/src/lib/Smr/AbstractShip.php.txt"></a>
+            <a href="classes/Smr-DummyShip.html#source-view.545" class="phpdocumentor-element-found-in__source" data-line="545" data-modal="source-view" data-src="files/src/lib/Smr/AbstractShip.php.txt"></a>
     </aside>
 
     
@@ -4134,9 +4333,9 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/AbstractShip.php"><a href="files/src-lib-smr-abstractship.html"><abbr title="src/lib/Smr/AbstractShip.php">AbstractShip.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">624</span>
+    <span class="phpdocumentor-element-found-in__line">645</span>
 
-            <a href="classes/Smr-DummyShip.html#source-view.624" class="phpdocumentor-element-found-in__source" data-line="624" data-modal="source-view" data-src="files/src/lib/Smr/AbstractShip.php.txt"></a>
+            <a href="classes/Smr-DummyShip.html#source-view.645" class="phpdocumentor-element-found-in__source" data-line="645" data-modal="source-view" data-src="files/src/lib/Smr/AbstractShip.php.txt"></a>
     </aside>
 
     
@@ -4173,9 +4372,9 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/AbstractShip.php"><a href="files/src-lib-smr-abstractship.html"><abbr title="src/lib/Smr/AbstractShip.php">AbstractShip.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">1041</span>
+    <span class="phpdocumentor-element-found-in__line">1045</span>
 
-            <a href="classes/Smr-DummyShip.html#source-view.1041" class="phpdocumentor-element-found-in__source" data-line="1041" data-modal="source-view" data-src="files/src/lib/Smr/AbstractShip.php.txt"></a>
+            <a href="classes/Smr-DummyShip.html#source-view.1045" class="phpdocumentor-element-found-in__source" data-line="1045" data-modal="source-view" data-src="files/src/lib/Smr/AbstractShip.php.txt"></a>
     </aside>
 
         <p class="phpdocumentor-summary">Returns the maneuverability rating for this ship.</p>
@@ -4213,9 +4412,9 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/AbstractShip.php"><a href="files/src-lib-smr-abstractship.html"><abbr title="src/lib/Smr/AbstractShip.php">AbstractShip.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">425</span>
+    <span class="phpdocumentor-element-found-in__line">446</span>
 
-            <a href="classes/Smr-DummyShip.html#source-view.425" class="phpdocumentor-element-found-in__source" data-line="425" data-modal="source-view" data-src="files/src/lib/Smr/AbstractShip.php.txt"></a>
+            <a href="classes/Smr-DummyShip.html#source-view.446" class="phpdocumentor-element-found-in__source" data-line="446" data-modal="source-view" data-src="files/src/lib/Smr/AbstractShip.php.txt"></a>
     </aside>
 
     
@@ -4252,9 +4451,9 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/AbstractShip.php"><a href="files/src-lib-smr-abstractship.html"><abbr title="src/lib/Smr/AbstractShip.php">AbstractShip.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">725</span>
+    <span class="phpdocumentor-element-found-in__line">746</span>
 
-            <a href="classes/Smr-DummyShip.html#source-view.725" class="phpdocumentor-element-found-in__source" data-line="725" data-modal="source-view" data-src="files/src/lib/Smr/AbstractShip.php.txt"></a>
+            <a href="classes/Smr-DummyShip.html#source-view.746" class="phpdocumentor-element-found-in__source" data-line="746" data-modal="source-view" data-src="files/src/lib/Smr/AbstractShip.php.txt"></a>
     </aside>
 
     
@@ -4291,9 +4490,9 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/AbstractShip.php"><a href="files/src-lib-smr-abstractship.html"><abbr title="src/lib/Smr/AbstractShip.php">AbstractShip.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">729</span>
+    <span class="phpdocumentor-element-found-in__line">750</span>
 
-            <a href="classes/Smr-DummyShip.html#source-view.729" class="phpdocumentor-element-found-in__source" data-line="729" data-modal="source-view" data-src="files/src/lib/Smr/AbstractShip.php.txt"></a>
+            <a href="classes/Smr-DummyShip.html#source-view.750" class="phpdocumentor-element-found-in__source" data-line="750" data-modal="source-view" data-src="files/src/lib/Smr/AbstractShip.php.txt"></a>
     </aside>
 
     
@@ -4330,9 +4529,9 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/AbstractShip.php"><a href="files/src-lib-smr-abstractship.html"><abbr title="src/lib/Smr/AbstractShip.php">AbstractShip.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">378</span>
+    <span class="phpdocumentor-element-found-in__line">399</span>
 
-            <a href="classes/Smr-DummyShip.html#source-view.378" class="phpdocumentor-element-found-in__source" data-line="378" data-modal="source-view" data-src="files/src/lib/Smr/AbstractShip.php.txt"></a>
+            <a href="classes/Smr-DummyShip.html#source-view.399" class="phpdocumentor-element-found-in__source" data-line="399" data-modal="source-view" data-src="files/src/lib/Smr/AbstractShip.php.txt"></a>
     </aside>
 
     
@@ -4369,9 +4568,9 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/AbstractShip.php"><a href="files/src-lib-smr-abstractship.html"><abbr title="src/lib/Smr/AbstractShip.php">AbstractShip.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">261</span>
+    <span class="phpdocumentor-element-found-in__line">282</span>
 
-            <a href="classes/Smr-DummyShip.html#source-view.261" class="phpdocumentor-element-found-in__source" data-line="261" data-modal="source-view" data-src="files/src/lib/Smr/AbstractShip.php.txt"></a>
+            <a href="classes/Smr-DummyShip.html#source-view.282" class="phpdocumentor-element-found-in__source" data-line="282" data-modal="source-view" data-src="files/src/lib/Smr/AbstractShip.php.txt"></a>
     </aside>
 
     
@@ -4414,9 +4613,9 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/AbstractShip.php"><a href="files/src-lib-smr-abstractship.html"><abbr title="src/lib/Smr/AbstractShip.php">AbstractShip.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">107</span>
+    <span class="phpdocumentor-element-found-in__line">120</span>
 
-            <a href="classes/Smr-DummyShip.html#source-view.107" class="phpdocumentor-element-found-in__source" data-line="107" data-modal="source-view" data-src="files/src/lib/Smr/AbstractShip.php.txt"></a>
+            <a href="classes/Smr-DummyShip.html#source-view.120" class="phpdocumentor-element-found-in__source" data-line="120" data-modal="source-view" data-src="files/src/lib/Smr/AbstractShip.php.txt"></a>
     </aside>
 
     
@@ -4453,9 +4652,9 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/AbstractShip.php"><a href="files/src-lib-smr-abstractship.html"><abbr title="src/lib/Smr/AbstractShip.php">AbstractShip.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">470</span>
+    <span class="phpdocumentor-element-found-in__line">491</span>
 
-            <a href="classes/Smr-DummyShip.html#source-view.470" class="phpdocumentor-element-found-in__source" data-line="470" data-modal="source-view" data-src="files/src/lib/Smr/AbstractShip.php.txt"></a>
+            <a href="classes/Smr-DummyShip.html#source-view.491" class="phpdocumentor-element-found-in__source" data-line="491" data-modal="source-view" data-src="files/src/lib/Smr/AbstractShip.php.txt"></a>
     </aside>
 
         <p class="phpdocumentor-summary">Returns the ship speed modified by the game speed.</p>
@@ -4493,9 +4692,9 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/AbstractShip.php"><a href="files/src-lib-smr-abstractship.html"><abbr title="src/lib/Smr/AbstractShip.php">AbstractShip.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">440</span>
+    <span class="phpdocumentor-element-found-in__line">461</span>
 
-            <a href="classes/Smr-DummyShip.html#source-view.440" class="phpdocumentor-element-found-in__source" data-line="440" data-modal="source-view" data-src="files/src/lib/Smr/AbstractShip.php.txt"></a>
+            <a href="classes/Smr-DummyShip.html#source-view.461" class="phpdocumentor-element-found-in__source" data-line="461" data-modal="source-view" data-src="files/src/lib/Smr/AbstractShip.php.txt"></a>
     </aside>
 
         <p class="phpdocumentor-summary">Trade-in value of the ship</p>
@@ -4533,9 +4732,9 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/AbstractShip.php"><a href="files/src-lib-smr-abstractship.html"><abbr title="src/lib/Smr/AbstractShip.php">AbstractShip.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">115</span>
+    <span class="phpdocumentor-element-found-in__line">128</span>
 
-            <a href="classes/Smr-DummyShip.html#source-view.115" class="phpdocumentor-element-found-in__source" data-line="115" data-modal="source-view" data-src="files/src/lib/Smr/AbstractShip.php.txt"></a>
+            <a href="classes/Smr-DummyShip.html#source-view.128" class="phpdocumentor-element-found-in__source" data-line="128" data-modal="source-view" data-src="files/src/lib/Smr/AbstractShip.php.txt"></a>
     </aside>
 
     
@@ -4572,9 +4771,9 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/AbstractShip.php"><a href="files/src-lib-smr-abstractship.html"><abbr title="src/lib/Smr/AbstractShip.php">AbstractShip.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">604</span>
+    <span class="phpdocumentor-element-found-in__line">625</span>
 
-            <a href="classes/Smr-DummyShip.html#source-view.604" class="phpdocumentor-element-found-in__source" data-line="604" data-modal="source-view" data-src="files/src/lib/Smr/AbstractShip.php.txt"></a>
+            <a href="classes/Smr-DummyShip.html#source-view.625" class="phpdocumentor-element-found-in__source" data-line="625" data-modal="source-view" data-src="files/src/lib/Smr/AbstractShip.php.txt"></a>
     </aside>
 
     
@@ -4611,9 +4810,9 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/AbstractShip.php"><a href="files/src-lib-smr-abstractship.html"><abbr title="src/lib/Smr/AbstractShip.php">AbstractShip.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">168</span>
+    <span class="phpdocumentor-element-found-in__line">189</span>
 
-            <a href="classes/Smr-DummyShip.html#source-view.168" class="phpdocumentor-element-found-in__source" data-line="168" data-modal="source-view" data-src="files/src/lib/Smr/AbstractShip.php.txt"></a>
+            <a href="classes/Smr-DummyShip.html#source-view.189" class="phpdocumentor-element-found-in__source" data-line="189" data-modal="source-view" data-src="files/src/lib/Smr/AbstractShip.php.txt"></a>
     </aside>
 
     
@@ -4650,9 +4849,9 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/AbstractShip.php"><a href="files/src-lib-smr-abstractship.html"><abbr title="src/lib/Smr/AbstractShip.php">AbstractShip.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">167</span>
+    <span class="phpdocumentor-element-found-in__line">188</span>
 
-            <a href="classes/Smr-DummyShip.html#source-view.167" class="phpdocumentor-element-found-in__source" data-line="167" data-modal="source-view" data-src="files/src/lib/Smr/AbstractShip.php.txt"></a>
+            <a href="classes/Smr-DummyShip.html#source-view.188" class="phpdocumentor-element-found-in__source" data-line="188" data-modal="source-view" data-src="files/src/lib/Smr/AbstractShip.php.txt"></a>
     </aside>
 
     
@@ -4689,9 +4888,9 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/AbstractShip.php"><a href="files/src-lib-smr-abstractship.html"><abbr title="src/lib/Smr/AbstractShip.php">AbstractShip.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">500</span>
+    <span class="phpdocumentor-element-found-in__line">521</span>
 
-            <a href="classes/Smr-DummyShip.html#source-view.500" class="phpdocumentor-element-found-in__source" data-line="500" data-modal="source-view" data-src="files/src/lib/Smr/AbstractShip.php.txt"></a>
+            <a href="classes/Smr-DummyShip.html#source-view.521" class="phpdocumentor-element-found-in__source" data-line="521" data-modal="source-view" data-src="files/src/lib/Smr/AbstractShip.php.txt"></a>
     </aside>
 
     
@@ -4728,9 +4927,9 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/AbstractShip.php"><a href="files/src-lib-smr-abstractship.html"><abbr title="src/lib/Smr/AbstractShip.php">AbstractShip.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">745</span>
+    <span class="phpdocumentor-element-found-in__line">766</span>
 
-            <a href="classes/Smr-DummyShip.html#source-view.745" class="phpdocumentor-element-found-in__source" data-line="745" data-modal="source-view" data-src="files/src/lib/Smr/AbstractShip.php.txt"></a>
+            <a href="classes/Smr-DummyShip.html#source-view.766" class="phpdocumentor-element-found-in__source" data-line="766" data-modal="source-view" data-src="files/src/lib/Smr/AbstractShip.php.txt"></a>
     </aside>
 
     
@@ -4767,9 +4966,9 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/AbstractShip.php"><a href="files/src-lib-smr-abstractship.html"><abbr title="src/lib/Smr/AbstractShip.php">AbstractShip.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">737</span>
+    <span class="phpdocumentor-element-found-in__line">758</span>
 
-            <a href="classes/Smr-DummyShip.html#source-view.737" class="phpdocumentor-element-found-in__source" data-line="737" data-modal="source-view" data-src="files/src/lib/Smr/AbstractShip.php.txt"></a>
+            <a href="classes/Smr-DummyShip.html#source-view.758" class="phpdocumentor-element-found-in__source" data-line="758" data-modal="source-view" data-src="files/src/lib/Smr/AbstractShip.php.txt"></a>
     </aside>
 
     
@@ -4806,9 +5005,9 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/AbstractShip.php"><a href="files/src-lib-smr-abstractship.html"><abbr title="src/lib/Smr/AbstractShip.php">AbstractShip.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">413</span>
+    <span class="phpdocumentor-element-found-in__line">434</span>
 
-            <a href="classes/Smr-DummyShip.html#source-view.413" class="phpdocumentor-element-found-in__source" data-line="413" data-modal="source-view" data-src="files/src/lib/Smr/AbstractShip.php.txt"></a>
+            <a href="classes/Smr-DummyShip.html#source-view.434" class="phpdocumentor-element-found-in__source" data-line="434" data-modal="source-view" data-src="files/src/lib/Smr/AbstractShip.php.txt"></a>
     </aside>
 
     
@@ -4845,9 +5044,9 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/AbstractShip.php"><a href="files/src-lib-smr-abstractship.html"><abbr title="src/lib/Smr/AbstractShip.php">AbstractShip.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">417</span>
+    <span class="phpdocumentor-element-found-in__line">438</span>
 
-            <a href="classes/Smr-DummyShip.html#source-view.417" class="phpdocumentor-element-found-in__source" data-line="417" data-modal="source-view" data-src="files/src/lib/Smr/AbstractShip.php.txt"></a>
+            <a href="classes/Smr-DummyShip.html#source-view.438" class="phpdocumentor-element-found-in__source" data-line="438" data-modal="source-view" data-src="files/src/lib/Smr/AbstractShip.php.txt"></a>
     </aside>
 
     
@@ -4884,9 +5083,9 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/AbstractShip.php"><a href="files/src-lib-smr-abstractship.html"><abbr title="src/lib/Smr/AbstractShip.php">AbstractShip.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">698</span>
+    <span class="phpdocumentor-element-found-in__line">719</span>
 
-            <a href="classes/Smr-DummyShip.html#source-view.698" class="phpdocumentor-element-found-in__source" data-line="698" data-modal="source-view" data-src="files/src/lib/Smr/AbstractShip.php.txt"></a>
+            <a href="classes/Smr-DummyShip.html#source-view.719" class="phpdocumentor-element-found-in__source" data-line="719" data-modal="source-view" data-src="files/src/lib/Smr/AbstractShip.php.txt"></a>
     </aside>
 
     
@@ -4923,9 +5122,9 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/AbstractShip.php"><a href="files/src-lib-smr-abstractship.html"><abbr title="src/lib/Smr/AbstractShip.php">AbstractShip.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">717</span>
+    <span class="phpdocumentor-element-found-in__line">738</span>
 
-            <a href="classes/Smr-DummyShip.html#source-view.717" class="phpdocumentor-element-found-in__source" data-line="717" data-modal="source-view" data-src="files/src/lib/Smr/AbstractShip.php.txt"></a>
+            <a href="classes/Smr-DummyShip.html#source-view.738" class="phpdocumentor-element-found-in__source" data-line="738" data-modal="source-view" data-src="files/src/lib/Smr/AbstractShip.php.txt"></a>
     </aside>
 
     
@@ -4962,9 +5161,9 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/AbstractShip.php"><a href="files/src-lib-smr-abstractship.html"><abbr title="src/lib/Smr/AbstractShip.php">AbstractShip.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">279</span>
+    <span class="phpdocumentor-element-found-in__line">300</span>
 
-            <a href="classes/Smr-DummyShip.html#source-view.279" class="phpdocumentor-element-found-in__source" data-line="279" data-modal="source-view" data-src="files/src/lib/Smr/AbstractShip.php.txt"></a>
+            <a href="classes/Smr-DummyShip.html#source-view.300" class="phpdocumentor-element-found-in__source" data-line="300" data-modal="source-view" data-src="files/src/lib/Smr/AbstractShip.php.txt"></a>
     </aside>
 
     
@@ -4997,9 +5196,9 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/AbstractShip.php"><a href="files/src-lib-smr-abstractship.html"><abbr title="src/lib/Smr/AbstractShip.php">AbstractShip.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">343</span>
+    <span class="phpdocumentor-element-found-in__line">364</span>
 
-            <a href="classes/Smr-DummyShip.html#source-view.343" class="phpdocumentor-element-found-in__source" data-line="343" data-modal="source-view" data-src="files/src/lib/Smr/AbstractShip.php.txt"></a>
+            <a href="classes/Smr-DummyShip.html#source-view.364" class="phpdocumentor-element-found-in__source" data-line="364" data-modal="source-view" data-src="files/src/lib/Smr/AbstractShip.php.txt"></a>
     </aside>
 
     
@@ -5051,9 +5250,9 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/AbstractShip.php"><a href="files/src-lib-smr-abstractship.html"><abbr title="src/lib/Smr/AbstractShip.php">AbstractShip.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">544</span>
+    <span class="phpdocumentor-element-found-in__line">565</span>
 
-            <a href="classes/Smr-DummyShip.html#source-view.544" class="phpdocumentor-element-found-in__source" data-line="544" data-modal="source-view" data-src="files/src/lib/Smr/AbstractShip.php.txt"></a>
+            <a href="classes/Smr-DummyShip.html#source-view.565" class="phpdocumentor-element-found-in__source" data-line="565" data-modal="source-view" data-src="files/src/lib/Smr/AbstractShip.php.txt"></a>
     </aside>
 
     
@@ -5090,9 +5289,9 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/AbstractShip.php"><a href="files/src-lib-smr-abstractship.html"><abbr title="src/lib/Smr/AbstractShip.php">AbstractShip.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">662</span>
+    <span class="phpdocumentor-element-found-in__line">683</span>
 
-            <a href="classes/Smr-DummyShip.html#source-view.662" class="phpdocumentor-element-found-in__source" data-line="662" data-modal="source-view" data-src="files/src/lib/Smr/AbstractShip.php.txt"></a>
+            <a href="classes/Smr-DummyShip.html#source-view.683" class="phpdocumentor-element-found-in__source" data-line="683" data-modal="source-view" data-src="files/src/lib/Smr/AbstractShip.php.txt"></a>
     </aside>
 
     
@@ -5139,9 +5338,9 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/AbstractShip.php"><a href="files/src-lib-smr-abstractship.html"><abbr title="src/lib/Smr/AbstractShip.php">AbstractShip.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">572</span>
+    <span class="phpdocumentor-element-found-in__line">593</span>
 
-            <a href="classes/Smr-DummyShip.html#source-view.572" class="phpdocumentor-element-found-in__source" data-line="572" data-modal="source-view" data-src="files/src/lib/Smr/AbstractShip.php.txt"></a>
+            <a href="classes/Smr-DummyShip.html#source-view.593" class="phpdocumentor-element-found-in__source" data-line="593" data-modal="source-view" data-src="files/src/lib/Smr/AbstractShip.php.txt"></a>
     </aside>
 
     
@@ -5178,9 +5377,9 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/AbstractShip.php"><a href="files/src-lib-smr-abstractship.html"><abbr title="src/lib/Smr/AbstractShip.php">AbstractShip.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">308</span>
+    <span class="phpdocumentor-element-found-in__line">329</span>
 
-            <a href="classes/Smr-DummyShip.html#source-view.308" class="phpdocumentor-element-found-in__source" data-line="308" data-modal="source-view" data-src="files/src/lib/Smr/AbstractShip.php.txt"></a>
+            <a href="classes/Smr-DummyShip.html#source-view.329" class="phpdocumentor-element-found-in__source" data-line="329" data-modal="source-view" data-src="files/src/lib/Smr/AbstractShip.php.txt"></a>
     </aside>
 
     
@@ -5217,9 +5416,9 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/AbstractShip.php"><a href="files/src-lib-smr-abstractship.html"><abbr title="src/lib/Smr/AbstractShip.php">AbstractShip.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">300</span>
+    <span class="phpdocumentor-element-found-in__line">321</span>
 
-            <a href="classes/Smr-DummyShip.html#source-view.300" class="phpdocumentor-element-found-in__source" data-line="300" data-modal="source-view" data-src="files/src/lib/Smr/AbstractShip.php.txt"></a>
+            <a href="classes/Smr-DummyShip.html#source-view.321" class="phpdocumentor-element-found-in__source" data-line="321" data-modal="source-view" data-src="files/src/lib/Smr/AbstractShip.php.txt"></a>
     </aside>
 
     
@@ -5256,9 +5455,9 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/AbstractShip.php"><a href="files/src-lib-smr-abstractship.html"><abbr title="src/lib/Smr/AbstractShip.php">AbstractShip.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">126</span>
+    <span class="phpdocumentor-element-found-in__line">139</span>
 
-            <a href="classes/Smr-DummyShip.html#source-view.126" class="phpdocumentor-element-found-in__source" data-line="126" data-modal="source-view" data-src="files/src/lib/Smr/AbstractShip.php.txt"></a>
+            <a href="classes/Smr-DummyShip.html#source-view.139" class="phpdocumentor-element-found-in__source" data-line="139" data-modal="source-view" data-src="files/src/lib/Smr/AbstractShip.php.txt"></a>
     </aside>
 
     
@@ -5295,9 +5494,9 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/AbstractShip.php"><a href="files/src-lib-smr-abstractship.html"><abbr title="src/lib/Smr/AbstractShip.php">AbstractShip.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">336</span>
+    <span class="phpdocumentor-element-found-in__line">357</span>
 
-            <a href="classes/Smr-DummyShip.html#source-view.336" class="phpdocumentor-element-found-in__source" data-line="336" data-modal="source-view" data-src="files/src/lib/Smr/AbstractShip.php.txt"></a>
+            <a href="classes/Smr-DummyShip.html#source-view.357" class="phpdocumentor-element-found-in__source" data-line="357" data-modal="source-view" data-src="files/src/lib/Smr/AbstractShip.php.txt"></a>
     </aside>
 
     
@@ -5334,9 +5533,9 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/AbstractShip.php"><a href="files/src-lib-smr-abstractship.html"><abbr title="src/lib/Smr/AbstractShip.php">AbstractShip.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">296</span>
+    <span class="phpdocumentor-element-found-in__line">317</span>
 
-            <a href="classes/Smr-DummyShip.html#source-view.296" class="phpdocumentor-element-found-in__source" data-line="296" data-modal="source-view" data-src="files/src/lib/Smr/AbstractShip.php.txt"></a>
+            <a href="classes/Smr-DummyShip.html#source-view.317" class="phpdocumentor-element-found-in__source" data-line="317" data-modal="source-view" data-src="files/src/lib/Smr/AbstractShip.php.txt"></a>
     </aside>
 
     
@@ -5373,9 +5572,9 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/AbstractShip.php"><a href="files/src-lib-smr-abstractship.html"><abbr title="src/lib/Smr/AbstractShip.php">AbstractShip.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">548</span>
+    <span class="phpdocumentor-element-found-in__line">569</span>
 
-            <a href="classes/Smr-DummyShip.html#source-view.548" class="phpdocumentor-element-found-in__source" data-line="548" data-modal="source-view" data-src="files/src/lib/Smr/AbstractShip.php.txt"></a>
+            <a href="classes/Smr-DummyShip.html#source-view.569" class="phpdocumentor-element-found-in__source" data-line="569" data-modal="source-view" data-src="files/src/lib/Smr/AbstractShip.php.txt"></a>
     </aside>
 
     
@@ -5412,9 +5611,9 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/AbstractShip.php"><a href="files/src-lib-smr-abstractship.html"><abbr title="src/lib/Smr/AbstractShip.php">AbstractShip.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">702</span>
+    <span class="phpdocumentor-element-found-in__line">723</span>
 
-            <a href="classes/Smr-DummyShip.html#source-view.702" class="phpdocumentor-element-found-in__source" data-line="702" data-modal="source-view" data-src="files/src/lib/Smr/AbstractShip.php.txt"></a>
+            <a href="classes/Smr-DummyShip.html#source-view.723" class="phpdocumentor-element-found-in__source" data-line="723" data-modal="source-view" data-src="files/src/lib/Smr/AbstractShip.php.txt"></a>
     </aside>
 
     
@@ -5451,9 +5650,9 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/AbstractShip.php"><a href="files/src-lib-smr-abstractship.html"><abbr title="src/lib/Smr/AbstractShip.php">AbstractShip.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">560</span>
+    <span class="phpdocumentor-element-found-in__line">581</span>
 
-            <a href="classes/Smr-DummyShip.html#source-view.560" class="phpdocumentor-element-found-in__source" data-line="560" data-modal="source-view" data-src="files/src/lib/Smr/AbstractShip.php.txt"></a>
+            <a href="classes/Smr-DummyShip.html#source-view.581" class="phpdocumentor-element-found-in__source" data-line="581" data-modal="source-view" data-src="files/src/lib/Smr/AbstractShip.php.txt"></a>
     </aside>
 
     
@@ -5490,9 +5689,9 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/AbstractShip.php"><a href="files/src-lib-smr-abstractship.html"><abbr title="src/lib/Smr/AbstractShip.php">AbstractShip.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">496</span>
+    <span class="phpdocumentor-element-found-in__line">517</span>
 
-            <a href="classes/Smr-DummyShip.html#source-view.496" class="phpdocumentor-element-found-in__source" data-line="496" data-modal="source-view" data-src="files/src/lib/Smr/AbstractShip.php.txt"></a>
+            <a href="classes/Smr-DummyShip.html#source-view.517" class="phpdocumentor-element-found-in__source" data-line="517" data-modal="source-view" data-src="files/src/lib/Smr/AbstractShip.php.txt"></a>
     </aside>
 
     
@@ -5539,9 +5738,9 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/AbstractShip.php"><a href="files/src-lib-smr-abstractship.html"><abbr title="src/lib/Smr/AbstractShip.php">AbstractShip.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">568</span>
+    <span class="phpdocumentor-element-found-in__line">589</span>
 
-            <a href="classes/Smr-DummyShip.html#source-view.568" class="phpdocumentor-element-found-in__source" data-line="568" data-modal="source-view" data-src="files/src/lib/Smr/AbstractShip.php.txt"></a>
+            <a href="classes/Smr-DummyShip.html#source-view.589" class="phpdocumentor-element-found-in__source" data-line="589" data-modal="source-view" data-src="files/src/lib/Smr/AbstractShip.php.txt"></a>
     </aside>
 
     
@@ -5578,9 +5777,9 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/AbstractShip.php"><a href="files/src-lib-smr-abstractship.html"><abbr title="src/lib/Smr/AbstractShip.php">AbstractShip.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">564</span>
+    <span class="phpdocumentor-element-found-in__line">585</span>
 
-            <a href="classes/Smr-DummyShip.html#source-view.564" class="phpdocumentor-element-found-in__source" data-line="564" data-modal="source-view" data-src="files/src/lib/Smr/AbstractShip.php.txt"></a>
+            <a href="classes/Smr-DummyShip.html#source-view.585" class="phpdocumentor-element-found-in__source" data-line="585" data-modal="source-view" data-src="files/src/lib/Smr/AbstractShip.php.txt"></a>
     </aside>
 
     
@@ -5617,9 +5816,9 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/AbstractShip.php"><a href="files/src-lib-smr-abstractship.html"><abbr title="src/lib/Smr/AbstractShip.php">AbstractShip.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">520</span>
+    <span class="phpdocumentor-element-found-in__line">541</span>
 
-            <a href="classes/Smr-DummyShip.html#source-view.520" class="phpdocumentor-element-found-in__source" data-line="520" data-modal="source-view" data-src="files/src/lib/Smr/AbstractShip.php.txt"></a>
+            <a href="classes/Smr-DummyShip.html#source-view.541" class="phpdocumentor-element-found-in__source" data-line="541" data-modal="source-view" data-src="files/src/lib/Smr/AbstractShip.php.txt"></a>
     </aside>
 
     
@@ -5656,9 +5855,9 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/AbstractShip.php"><a href="files/src-lib-smr-abstractship.html"><abbr title="src/lib/Smr/AbstractShip.php">AbstractShip.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">580</span>
+    <span class="phpdocumentor-element-found-in__line">601</span>
 
-            <a href="classes/Smr-DummyShip.html#source-view.580" class="phpdocumentor-element-found-in__source" data-line="580" data-modal="source-view" data-src="files/src/lib/Smr/AbstractShip.php.txt"></a>
+            <a href="classes/Smr-DummyShip.html#source-view.601" class="phpdocumentor-element-found-in__source" data-line="601" data-modal="source-view" data-src="files/src/lib/Smr/AbstractShip.php.txt"></a>
     </aside>
 
     
@@ -5695,9 +5894,9 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/AbstractShip.php"><a href="files/src-lib-smr-abstractship.html"><abbr title="src/lib/Smr/AbstractShip.php">AbstractShip.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">733</span>
+    <span class="phpdocumentor-element-found-in__line">754</span>
 
-            <a href="classes/Smr-DummyShip.html#source-view.733" class="phpdocumentor-element-found-in__source" data-line="733" data-modal="source-view" data-src="files/src/lib/Smr/AbstractShip.php.txt"></a>
+            <a href="classes/Smr-DummyShip.html#source-view.754" class="phpdocumentor-element-found-in__source" data-line="754" data-modal="source-view" data-src="files/src/lib/Smr/AbstractShip.php.txt"></a>
     </aside>
 
     
@@ -5734,9 +5933,9 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/AbstractShip.php"><a href="files/src-lib-smr-abstractship.html"><abbr title="src/lib/Smr/AbstractShip.php">AbstractShip.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">304</span>
+    <span class="phpdocumentor-element-found-in__line">325</span>
 
-            <a href="classes/Smr-DummyShip.html#source-view.304" class="phpdocumentor-element-found-in__source" data-line="304" data-modal="source-view" data-src="files/src/lib/Smr/AbstractShip.php.txt"></a>
+            <a href="classes/Smr-DummyShip.html#source-view.325" class="phpdocumentor-element-found-in__source" data-line="325" data-modal="source-view" data-src="files/src/lib/Smr/AbstractShip.php.txt"></a>
     </aside>
 
     
@@ -5773,9 +5972,9 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/AbstractShip.php"><a href="files/src-lib-smr-abstractship.html"><abbr title="src/lib/Smr/AbstractShip.php">AbstractShip.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">576</span>
+    <span class="phpdocumentor-element-found-in__line">597</span>
 
-            <a href="classes/Smr-DummyShip.html#source-view.576" class="phpdocumentor-element-found-in__source" data-line="576" data-modal="source-view" data-src="files/src/lib/Smr/AbstractShip.php.txt"></a>
+            <a href="classes/Smr-DummyShip.html#source-view.597" class="phpdocumentor-element-found-in__source" data-line="597" data-modal="source-view" data-src="files/src/lib/Smr/AbstractShip.php.txt"></a>
     </aside>
 
     
@@ -5812,9 +6011,9 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/AbstractShip.php"><a href="files/src-lib-smr-abstractship.html"><abbr title="src/lib/Smr/AbstractShip.php">AbstractShip.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">516</span>
+    <span class="phpdocumentor-element-found-in__line">537</span>
 
-            <a href="classes/Smr-DummyShip.html#source-view.516" class="phpdocumentor-element-found-in__source" data-line="516" data-modal="source-view" data-src="files/src/lib/Smr/AbstractShip.php.txt"></a>
+            <a href="classes/Smr-DummyShip.html#source-view.537" class="phpdocumentor-element-found-in__source" data-line="537" data-modal="source-view" data-src="files/src/lib/Smr/AbstractShip.php.txt"></a>
     </aside>
 
     
@@ -5851,9 +6050,9 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/AbstractShip.php"><a href="files/src-lib-smr-abstractship.html"><abbr title="src/lib/Smr/AbstractShip.php">AbstractShip.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">710</span>
+    <span class="phpdocumentor-element-found-in__line">731</span>
 
-            <a href="classes/Smr-DummyShip.html#source-view.710" class="phpdocumentor-element-found-in__source" data-line="710" data-modal="source-view" data-src="files/src/lib/Smr/AbstractShip.php.txt"></a>
+            <a href="classes/Smr-DummyShip.html#source-view.731" class="phpdocumentor-element-found-in__source" data-line="731" data-modal="source-view" data-src="files/src/lib/Smr/AbstractShip.php.txt"></a>
     </aside>
 
     
@@ -5890,9 +6089,9 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/AbstractShip.php"><a href="files/src-lib-smr-abstractship.html"><abbr title="src/lib/Smr/AbstractShip.php">AbstractShip.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">540</span>
+    <span class="phpdocumentor-element-found-in__line">561</span>
 
-            <a href="classes/Smr-DummyShip.html#source-view.540" class="phpdocumentor-element-found-in__source" data-line="540" data-modal="source-view" data-src="files/src/lib/Smr/AbstractShip.php.txt"></a>
+            <a href="classes/Smr-DummyShip.html#source-view.561" class="phpdocumentor-element-found-in__source" data-line="561" data-modal="source-view" data-src="files/src/lib/Smr/AbstractShip.php.txt"></a>
     </aside>
 
     
@@ -5935,9 +6134,9 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/AbstractShip.php"><a href="files/src-lib-smr-abstractship.html"><abbr title="src/lib/Smr/AbstractShip.php">AbstractShip.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">687</span>
+    <span class="phpdocumentor-element-found-in__line">708</span>
 
-            <a href="classes/Smr-DummyShip.html#source-view.687" class="phpdocumentor-element-found-in__source" data-line="687" data-modal="source-view" data-src="files/src/lib/Smr/AbstractShip.php.txt"></a>
+            <a href="classes/Smr-DummyShip.html#source-view.708" class="phpdocumentor-element-found-in__source" data-line="708" data-modal="source-view" data-src="files/src/lib/Smr/AbstractShip.php.txt"></a>
     </aside>
 
     
@@ -5987,9 +6186,9 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/AbstractShip.php"><a href="files/src-lib-smr-abstractship.html"><abbr title="src/lib/Smr/AbstractShip.php">AbstractShip.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">596</span>
+    <span class="phpdocumentor-element-found-in__line">617</span>
 
-            <a href="classes/Smr-DummyShip.html#source-view.596" class="phpdocumentor-element-found-in__source" data-line="596" data-modal="source-view" data-src="files/src/lib/Smr/AbstractShip.php.txt"></a>
+            <a href="classes/Smr-DummyShip.html#source-view.617" class="phpdocumentor-element-found-in__source" data-line="617" data-modal="source-view" data-src="files/src/lib/Smr/AbstractShip.php.txt"></a>
     </aside>
 
     
@@ -6032,9 +6231,9 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/AbstractShip.php"><a href="files/src-lib-smr-abstractship.html"><abbr title="src/lib/Smr/AbstractShip.php">AbstractShip.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">492</span>
+    <span class="phpdocumentor-element-found-in__line">513</span>
 
-            <a href="classes/Smr-DummyShip.html#source-view.492" class="phpdocumentor-element-found-in__source" data-line="492" data-modal="source-view" data-src="files/src/lib/Smr/AbstractShip.php.txt"></a>
+            <a href="classes/Smr-DummyShip.html#source-view.513" class="phpdocumentor-element-found-in__source" data-line="513" data-modal="source-view" data-src="files/src/lib/Smr/AbstractShip.php.txt"></a>
     </aside>
 
     
@@ -6084,9 +6283,9 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/AbstractShip.php"><a href="files/src-lib-smr-abstractship.html"><abbr title="src/lib/Smr/AbstractShip.php">AbstractShip.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">636</span>
+    <span class="phpdocumentor-element-found-in__line">657</span>
 
-            <a href="classes/Smr-DummyShip.html#source-view.636" class="phpdocumentor-element-found-in__source" data-line="636" data-modal="source-view" data-src="files/src/lib/Smr/AbstractShip.php.txt"></a>
+            <a href="classes/Smr-DummyShip.html#source-view.657" class="phpdocumentor-element-found-in__source" data-line="657" data-modal="source-view" data-src="files/src/lib/Smr/AbstractShip.php.txt"></a>
     </aside>
 
     
@@ -6129,9 +6328,9 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/AbstractShip.php"><a href="files/src-lib-smr-abstractship.html"><abbr title="src/lib/Smr/AbstractShip.php">AbstractShip.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">616</span>
+    <span class="phpdocumentor-element-found-in__line">637</span>
 
-            <a href="classes/Smr-DummyShip.html#source-view.616" class="phpdocumentor-element-found-in__source" data-line="616" data-modal="source-view" data-src="files/src/lib/Smr/AbstractShip.php.txt"></a>
+            <a href="classes/Smr-DummyShip.html#source-view.637" class="phpdocumentor-element-found-in__source" data-line="637" data-modal="source-view" data-src="files/src/lib/Smr/AbstractShip.php.txt"></a>
     </aside>
 
     
@@ -6174,9 +6373,9 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/AbstractShip.php"><a href="files/src-lib-smr-abstractship.html"><abbr title="src/lib/Smr/AbstractShip.php">AbstractShip.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">512</span>
+    <span class="phpdocumentor-element-found-in__line">533</span>
 
-            <a href="classes/Smr-DummyShip.html#source-view.512" class="phpdocumentor-element-found-in__source" data-line="512" data-modal="source-view" data-src="files/src/lib/Smr/AbstractShip.php.txt"></a>
+            <a href="classes/Smr-DummyShip.html#source-view.533" class="phpdocumentor-element-found-in__source" data-line="533" data-modal="source-view" data-src="files/src/lib/Smr/AbstractShip.php.txt"></a>
     </aside>
 
     
@@ -6219,9 +6418,9 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/AbstractShip.php"><a href="files/src-lib-smr-abstractship.html"><abbr title="src/lib/Smr/AbstractShip.php">AbstractShip.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">312</span>
+    <span class="phpdocumentor-element-found-in__line">333</span>
 
-            <a href="classes/Smr-DummyShip.html#source-view.312" class="phpdocumentor-element-found-in__source" data-line="312" data-modal="source-view" data-src="files/src/lib/Smr/AbstractShip.php.txt"></a>
+            <a href="classes/Smr-DummyShip.html#source-view.333" class="phpdocumentor-element-found-in__source" data-line="333" data-modal="source-view" data-src="files/src/lib/Smr/AbstractShip.php.txt"></a>
     </aside>
 
     
@@ -6258,15 +6457,54 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/AbstractShip.php"><a href="files/src-lib-smr-abstractship.html"><abbr title="src/lib/Smr/AbstractShip.php">AbstractShip.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">556</span>
+    <span class="phpdocumentor-element-found-in__line">577</span>
 
-            <a href="classes/Smr-DummyShip.html#source-view.556" class="phpdocumentor-element-found-in__source" data-line="556" data-modal="source-view" data-src="files/src/lib/Smr/AbstractShip.php.txt"></a>
+            <a href="classes/Smr-DummyShip.html#source-view.577" class="phpdocumentor-element-found-in__source" data-line="577" data-modal="source-view" data-src="files/src/lib/Smr/AbstractShip.php.txt"></a>
     </aside>
 
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">public</span>
                     <span class="phpdocumentor-signature__name">isDead</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">bool</span></code>
+
+    <div class="phpdocumentor-label-line">
+        </div>
+    
+    
+    
+    
+
+        
+    
+            <section>
+        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
+        <span class="phpdocumentor-signature__response_type">bool</span>
+            </section>
+
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="method_isDestroyed">
+        isDestroyed()
+        <a href="classes/Smr-AbstractShip.html#method_isDestroyed" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/AbstractShip.php"><a href="files/src-lib-smr-abstractship.html"><abbr title="src/lib/Smr/AbstractShip.php">AbstractShip.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">959</span>
+
+            <a href="classes/Smr-DummyShip.html#source-view.959" class="phpdocumentor-element-found-in__source" data-line="959" data-modal="source-view" data-src="files/src/lib/Smr/AbstractShip.php.txt"></a>
+    </aside>
+
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+                    <span class="phpdocumentor-signature__name">isDestroyed</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">bool</span></code>
 
     <div class="phpdocumentor-label-line">
         </div>
@@ -6297,9 +6535,9 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/AbstractShip.php"><a href="files/src-lib-smr-abstractship.html"><abbr title="src/lib/Smr/AbstractShip.php">AbstractShip.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">753</span>
+    <span class="phpdocumentor-element-found-in__line">774</span>
 
-            <a href="classes/Smr-DummyShip.html#source-view.753" class="phpdocumentor-element-found-in__source" data-line="753" data-modal="source-view" data-src="files/src/lib/Smr/AbstractShip.php.txt"></a>
+            <a href="classes/Smr-DummyShip.html#source-view.774" class="phpdocumentor-element-found-in__source" data-line="774" data-modal="source-view" data-src="files/src/lib/Smr/AbstractShip.php.txt"></a>
     </aside>
 
     
@@ -6336,9 +6574,9 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/AbstractShip.php"><a href="files/src-lib-smr-abstractship.html"><abbr title="src/lib/Smr/AbstractShip.php">AbstractShip.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">761</span>
+    <span class="phpdocumentor-element-found-in__line">782</span>
 
-            <a href="classes/Smr-DummyShip.html#source-view.761" class="phpdocumentor-element-found-in__source" data-line="761" data-modal="source-view" data-src="files/src/lib/Smr/AbstractShip.php.txt"></a>
+            <a href="classes/Smr-DummyShip.html#source-view.782" class="phpdocumentor-element-found-in__source" data-line="782" data-modal="source-view" data-src="files/src/lib/Smr/AbstractShip.php.txt"></a>
     </aside>
 
     
@@ -6367,6 +6605,55 @@
             -public
                                                         "
 >
+    <h4 class="phpdocumentor-element__name" id="method_killBy">
+        killBy()
+        <a href="classes/Smr-AbstractShip.html#method_killBy" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/AbstractShip.php"><a href="files/src-lib-smr-abstractship.html"><abbr title="src/lib/Smr/AbstractShip.php">AbstractShip.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">1009</span>
+
+            <a href="classes/Smr-DummyShip.html#source-view.1009" class="phpdocumentor-element-found-in__source" data-line="1009" data-modal="source-view" data-src="files/src/lib/Smr/AbstractShip.php.txt"></a>
+    </aside>
+
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+                    <span class="phpdocumentor-signature__name">killBy</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__type"><a href="classes/Smr-Combat-CombatantInterface.html"><abbr title="\Smr\Combat\CombatantInterface">CombatantInterface</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$killer</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type"><a href="classes/Smr-Combat-Results-Kill-KillResultInterface.html"><abbr title="\Smr\Combat\Results\Kill\KillResultInterface">KillResultInterface</abbr></a></span></code>
+
+    <div class="phpdocumentor-label-line">
+        </div>
+    
+    
+        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
+    <dl class="phpdocumentor-argument-list">
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-argument-list__argument__name">$killer</span>
+                : <span class="phpdocumentor-argument-list__argument__type"><a href="classes/Smr-Combat-CombatantInterface.html"><abbr title="\Smr\Combat\CombatantInterface">CombatantInterface</abbr></a></span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                
+            </dd>
+            </dl>
+
+    
+
+        
+    
+            <section>
+        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
+        <span class="phpdocumentor-signature__response_type"><a href="classes/Smr-Combat-Results-Kill-KillResultInterface.html"><abbr title="\Smr\Combat\Results\Kill\KillResultInterface">KillResultInterface</abbr></a></span>
+            </section>
+
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                                        "
+>
     <h4 class="phpdocumentor-element__name" id="method_moveWeaponDown">
         moveWeaponDown()
         <a href="classes/Smr-AbstractShip.html#method_moveWeaponDown" class="headerlink"><i class="fas fa-link"></i></a>
@@ -6375,9 +6662,9 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/AbstractShip.php"><a href="files/src-lib-smr-abstractship.html"><abbr title="src/lib/Smr/AbstractShip.php">AbstractShip.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">201</span>
+    <span class="phpdocumentor-element-found-in__line">222</span>
 
-            <a href="classes/Smr-DummyShip.html#source-view.201" class="phpdocumentor-element-found-in__source" data-line="201" data-modal="source-view" data-src="files/src/lib/Smr/AbstractShip.php.txt"></a>
+            <a href="classes/Smr-DummyShip.html#source-view.222" class="phpdocumentor-element-found-in__source" data-line="222" data-modal="source-view" data-src="files/src/lib/Smr/AbstractShip.php.txt"></a>
     </aside>
 
     
@@ -6420,9 +6707,9 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/AbstractShip.php"><a href="files/src-lib-smr-abstractship.html"><abbr title="src/lib/Smr/AbstractShip.php">AbstractShip.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">183</span>
+    <span class="phpdocumentor-element-found-in__line">204</span>
 
-            <a href="classes/Smr-DummyShip.html#source-view.183" class="phpdocumentor-element-found-in__source" data-line="183" data-modal="source-view" data-src="files/src/lib/Smr/AbstractShip.php.txt"></a>
+            <a href="classes/Smr-DummyShip.html#source-view.204" class="phpdocumentor-element-found-in__source" data-line="204" data-modal="source-view" data-src="files/src/lib/Smr/AbstractShip.php.txt"></a>
     </aside>
 
     
@@ -6457,6 +6744,46 @@
             -public
                                                         "
 >
+    <h4 class="phpdocumentor-element__name" id="method_reduceDamageDoneDCS">
+        reduceDamageDoneDCS()
+        <a href="classes/Smr-AbstractShip.html#method_reduceDamageDoneDCS" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/AbstractShip.php"><a href="files/src-lib-smr-abstractship.html"><abbr title="src/lib/Smr/AbstractShip.php">AbstractShip.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">1034</span>
+
+            <a href="classes/Smr-DummyShip.html#source-view.1034" class="phpdocumentor-element-found-in__source" data-line="1034" data-modal="source-view" data-src="files/src/lib/Smr/AbstractShip.php.txt"></a>
+    </aside>
+
+        <p class="phpdocumentor-summary">Factor to multiply drone damage by if target player has a DCS.</p>
+
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+                    <span class="phpdocumentor-signature__name">reduceDamageDoneDCS</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">float</span></code>
+
+    <div class="phpdocumentor-label-line">
+        </div>
+    
+    
+    
+    
+
+        
+    
+            <section>
+        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
+        <span class="phpdocumentor-signature__response_type">float</span>
+            </section>
+
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                                        "
+>
     <h4 class="phpdocumentor-element__name" id="method_removeAllCargo">
         removeAllCargo()
         <a href="classes/Smr-AbstractShip.html#method_removeAllCargo" class="headerlink"><i class="fas fa-link"></i></a>
@@ -6465,9 +6792,9 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/AbstractShip.php"><a href="files/src-lib-smr-abstractship.html"><abbr title="src/lib/Smr/AbstractShip.php">AbstractShip.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">246</span>
+    <span class="phpdocumentor-element-found-in__line">267</span>
 
-            <a href="classes/Smr-DummyShip.html#source-view.246" class="phpdocumentor-element-found-in__source" data-line="246" data-modal="source-view" data-src="files/src/lib/Smr/AbstractShip.php.txt"></a>
+            <a href="classes/Smr-DummyShip.html#source-view.267" class="phpdocumentor-element-found-in__source" data-line="267" data-modal="source-view" data-src="files/src/lib/Smr/AbstractShip.php.txt"></a>
     </aside>
 
     
@@ -6500,9 +6827,9 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/AbstractShip.php"><a href="files/src-lib-smr-abstractship.html"><abbr title="src/lib/Smr/AbstractShip.php">AbstractShip.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">252</span>
+    <span class="phpdocumentor-element-found-in__line">273</span>
 
-            <a href="classes/Smr-DummyShip.html#source-view.252" class="phpdocumentor-element-found-in__source" data-line="252" data-modal="source-view" data-src="files/src/lib/Smr/AbstractShip.php.txt"></a>
+            <a href="classes/Smr-DummyShip.html#source-view.273" class="phpdocumentor-element-found-in__source" data-line="273" data-modal="source-view" data-src="files/src/lib/Smr/AbstractShip.php.txt"></a>
     </aside>
 
     
@@ -6535,9 +6862,9 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/AbstractShip.php"><a href="files/src-lib-smr-abstractship.html"><abbr title="src/lib/Smr/AbstractShip.php">AbstractShip.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">241</span>
+    <span class="phpdocumentor-element-found-in__line">262</span>
 
-            <a href="classes/Smr-DummyShip.html#source-view.241" class="phpdocumentor-element-found-in__source" data-line="241" data-modal="source-view" data-src="files/src/lib/Smr/AbstractShip.php.txt"></a>
+            <a href="classes/Smr-DummyShip.html#source-view.262" class="phpdocumentor-element-found-in__source" data-line="262" data-modal="source-view" data-src="files/src/lib/Smr/AbstractShip.php.txt"></a>
     </aside>
 
     
@@ -6570,9 +6897,9 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/AbstractShip.php"><a href="files/src-lib-smr-abstractship.html"><abbr title="src/lib/Smr/AbstractShip.php">AbstractShip.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">230</span>
+    <span class="phpdocumentor-element-found-in__line">251</span>
 
-            <a href="classes/Smr-DummyShip.html#source-view.230" class="phpdocumentor-element-found-in__source" data-line="230" data-modal="source-view" data-src="files/src/lib/Smr/AbstractShip.php.txt"></a>
+            <a href="classes/Smr-DummyShip.html#source-view.251" class="phpdocumentor-element-found-in__source" data-line="251" data-modal="source-view" data-src="files/src/lib/Smr/AbstractShip.php.txt"></a>
     </aside>
 
     
@@ -6605,9 +6932,9 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/AbstractShip.php"><a href="files/src-lib-smr-abstractship.html"><abbr title="src/lib/Smr/AbstractShip.php">AbstractShip.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">234</span>
+    <span class="phpdocumentor-element-found-in__line">255</span>
 
-            <a href="classes/Smr-DummyShip.html#source-view.234" class="phpdocumentor-element-found-in__source" data-line="234" data-modal="source-view" data-src="files/src/lib/Smr/AbstractShip.php.txt"></a>
+            <a href="classes/Smr-DummyShip.html#source-view.255" class="phpdocumentor-element-found-in__source" data-line="255" data-modal="source-view" data-src="files/src/lib/Smr/AbstractShip.php.txt"></a>
     </aside>
 
     
@@ -6685,9 +7012,9 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/AbstractShip.php"><a href="files/src-lib-smr-abstractship.html"><abbr title="src/lib/Smr/AbstractShip.php">AbstractShip.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">532</span>
+    <span class="phpdocumentor-element-found-in__line">553</span>
 
-            <a href="classes/Smr-DummyShip.html#source-view.532" class="phpdocumentor-element-found-in__source" data-line="532" data-modal="source-view" data-src="files/src/lib/Smr/AbstractShip.php.txt"></a>
+            <a href="classes/Smr-DummyShip.html#source-view.553" class="phpdocumentor-element-found-in__source" data-line="553" data-modal="source-view" data-src="files/src/lib/Smr/AbstractShip.php.txt"></a>
     </aside>
 
     
@@ -6730,9 +7057,9 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/AbstractShip.php"><a href="files/src-lib-smr-abstractship.html"><abbr title="src/lib/Smr/AbstractShip.php">AbstractShip.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">669</span>
+    <span class="phpdocumentor-element-found-in__line">690</span>
 
-            <a href="classes/Smr-DummyShip.html#source-view.669" class="phpdocumentor-element-found-in__source" data-line="669" data-modal="source-view" data-src="files/src/lib/Smr/AbstractShip.php.txt"></a>
+            <a href="classes/Smr-DummyShip.html#source-view.690" class="phpdocumentor-element-found-in__source" data-line="690" data-modal="source-view" data-src="files/src/lib/Smr/AbstractShip.php.txt"></a>
     </aside>
 
     
@@ -6782,9 +7109,9 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/AbstractShip.php"><a href="files/src-lib-smr-abstractship.html"><abbr title="src/lib/Smr/AbstractShip.php">AbstractShip.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">648</span>
+    <span class="phpdocumentor-element-found-in__line">669</span>
 
-            <a href="classes/Smr-DummyShip.html#source-view.648" class="phpdocumentor-element-found-in__source" data-line="648" data-modal="source-view" data-src="files/src/lib/Smr/AbstractShip.php.txt"></a>
+            <a href="classes/Smr-DummyShip.html#source-view.669" class="phpdocumentor-element-found-in__source" data-line="669" data-modal="source-view" data-src="files/src/lib/Smr/AbstractShip.php.txt"></a>
     </aside>
 
     
@@ -6827,9 +7154,9 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/AbstractShip.php"><a href="files/src-lib-smr-abstractship.html"><abbr title="src/lib/Smr/AbstractShip.php">AbstractShip.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">588</span>
+    <span class="phpdocumentor-element-found-in__line">609</span>
 
-            <a href="classes/Smr-DummyShip.html#source-view.588" class="phpdocumentor-element-found-in__source" data-line="588" data-modal="source-view" data-src="files/src/lib/Smr/AbstractShip.php.txt"></a>
+            <a href="classes/Smr-DummyShip.html#source-view.609" class="phpdocumentor-element-found-in__source" data-line="609" data-modal="source-view" data-src="files/src/lib/Smr/AbstractShip.php.txt"></a>
     </aside>
 
     
@@ -6872,9 +7199,9 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/AbstractShip.php"><a href="files/src-lib-smr-abstractship.html"><abbr title="src/lib/Smr/AbstractShip.php">AbstractShip.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">484</span>
+    <span class="phpdocumentor-element-found-in__line">505</span>
 
-            <a href="classes/Smr-DummyShip.html#source-view.484" class="phpdocumentor-element-found-in__source" data-line="484" data-modal="source-view" data-src="files/src/lib/Smr/AbstractShip.php.txt"></a>
+            <a href="classes/Smr-DummyShip.html#source-view.505" class="phpdocumentor-element-found-in__source" data-line="505" data-modal="source-view" data-src="files/src/lib/Smr/AbstractShip.php.txt"></a>
     </aside>
 
     
@@ -6924,9 +7251,9 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/AbstractShip.php"><a href="files/src-lib-smr-abstractship.html"><abbr title="src/lib/Smr/AbstractShip.php">AbstractShip.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">101</span>
+    <span class="phpdocumentor-element-found-in__line">114</span>
 
-            <a href="classes/Smr-DummyShip.html#source-view.101" class="phpdocumentor-element-found-in__source" data-line="101" data-modal="source-view" data-src="files/src/lib/Smr/AbstractShip.php.txt"></a>
+            <a href="classes/Smr-DummyShip.html#source-view.114" class="phpdocumentor-element-found-in__source" data-line="114" data-modal="source-view" data-src="files/src/lib/Smr/AbstractShip.php.txt"></a>
     </aside>
 
         <p class="phpdocumentor-summary">Set all hardware to its maximum value for this ship.</p>
@@ -6960,9 +7287,9 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/AbstractShip.php"><a href="files/src-lib-smr-abstractship.html"><abbr title="src/lib/Smr/AbstractShip.php">AbstractShip.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">354</span>
+    <span class="phpdocumentor-element-found-in__line">375</span>
 
-            <a href="classes/Smr-DummyShip.html#source-view.354" class="phpdocumentor-element-found-in__source" data-line="354" data-modal="source-view" data-src="files/src/lib/Smr/AbstractShip.php.txt"></a>
+            <a href="classes/Smr-DummyShip.html#source-view.375" class="phpdocumentor-element-found-in__source" data-line="375" data-modal="source-view" data-src="files/src/lib/Smr/AbstractShip.php.txt"></a>
     </aside>
 
     
@@ -7019,9 +7346,9 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/AbstractShip.php"><a href="files/src-lib-smr-abstractship.html"><abbr title="src/lib/Smr/AbstractShip.php">AbstractShip.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">628</span>
+    <span class="phpdocumentor-element-found-in__line">649</span>
 
-            <a href="classes/Smr-DummyShip.html#source-view.628" class="phpdocumentor-element-found-in__source" data-line="628" data-modal="source-view" data-src="files/src/lib/Smr/AbstractShip.php.txt"></a>
+            <a href="classes/Smr-DummyShip.html#source-view.649" class="phpdocumentor-element-found-in__source" data-line="649" data-modal="source-view" data-src="files/src/lib/Smr/AbstractShip.php.txt"></a>
     </aside>
 
     
@@ -7064,9 +7391,9 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/AbstractShip.php"><a href="files/src-lib-smr-abstractship.html"><abbr title="src/lib/Smr/AbstractShip.php">AbstractShip.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">608</span>
+    <span class="phpdocumentor-element-found-in__line">629</span>
 
-            <a href="classes/Smr-DummyShip.html#source-view.608" class="phpdocumentor-element-found-in__source" data-line="608" data-modal="source-view" data-src="files/src/lib/Smr/AbstractShip.php.txt"></a>
+            <a href="classes/Smr-DummyShip.html#source-view.629" class="phpdocumentor-element-found-in__source" data-line="629" data-modal="source-view" data-src="files/src/lib/Smr/AbstractShip.php.txt"></a>
     </aside>
 
     
@@ -7109,9 +7436,9 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/AbstractShip.php"><a href="files/src-lib-smr-abstractship.html"><abbr title="src/lib/Smr/AbstractShip.php">AbstractShip.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">504</span>
+    <span class="phpdocumentor-element-found-in__line">525</span>
 
-            <a href="classes/Smr-DummyShip.html#source-view.504" class="phpdocumentor-element-found-in__source" data-line="504" data-modal="source-view" data-src="files/src/lib/Smr/AbstractShip.php.txt"></a>
+            <a href="classes/Smr-DummyShip.html#source-view.525" class="phpdocumentor-element-found-in__source" data-line="525" data-modal="source-view" data-src="files/src/lib/Smr/AbstractShip.php.txt"></a>
     </aside>
 
     
@@ -7154,9 +7481,9 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/AbstractShip.php"><a href="files/src-lib-smr-abstractship.html"><abbr title="src/lib/Smr/AbstractShip.php">AbstractShip.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">397</span>
+    <span class="phpdocumentor-element-found-in__line">418</span>
 
-            <a href="classes/Smr-DummyShip.html#source-view.397" class="phpdocumentor-element-found-in__source" data-line="397" data-modal="source-view" data-src="files/src/lib/Smr/AbstractShip.php.txt"></a>
+            <a href="classes/Smr-DummyShip.html#source-view.418" class="phpdocumentor-element-found-in__source" data-line="418" data-modal="source-view" data-src="files/src/lib/Smr/AbstractShip.php.txt"></a>
     </aside>
 
         <p class="phpdocumentor-summary">Switch to a new ship, updating player turns accordingly.</p>
@@ -7200,9 +7527,9 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/AbstractShip.php"><a href="files/src-lib-smr-abstractship.html"><abbr title="src/lib/Smr/AbstractShip.php">AbstractShip.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">222</span>
+    <span class="phpdocumentor-element-found-in__line">243</span>
 
-            <a href="classes/Smr-DummyShip.html#source-view.222" class="phpdocumentor-element-found-in__source" data-line="222" data-modal="source-view" data-src="files/src/lib/Smr/AbstractShip.php.txt"></a>
+            <a href="classes/Smr-DummyShip.html#source-view.243" class="phpdocumentor-element-found-in__source" data-line="243" data-modal="source-view" data-src="files/src/lib/Smr/AbstractShip.php.txt"></a>
     </aside>
 
     
@@ -7245,15 +7572,15 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/AbstractShip.php"><a href="files/src-lib-smr-abstractship.html"><abbr title="src/lib/Smr/AbstractShip.php">AbstractShip.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">816</span>
+    <span class="phpdocumentor-element-found-in__line">810</span>
 
-            <a href="classes/Smr-DummyShip.html#source-view.816" class="phpdocumentor-element-found-in__source" data-line="816" data-modal="source-view" data-src="files/src/lib/Smr/AbstractShip.php.txt"></a>
+            <a href="classes/Smr-DummyShip.html#source-view.810" class="phpdocumentor-element-found-in__source" data-line="810" data-modal="source-view" data-src="files/src/lib/Smr/AbstractShip.php.txt"></a>
     </aside>
 
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">public</span>
-                    <span class="phpdocumentor-signature__name">shootForces</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__type"><a href="classes/Smr-Force.html"><abbr title="\Smr\Force">Force</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$forces</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type"><abbr title="\Smr\ForceAttackerCombatResult">ForceAttackerCombatResult</abbr></span></code>
+                    <span class="phpdocumentor-signature__name">shootForces</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__type"><a href="classes/Smr-Force.html"><abbr title="\Smr\Force">Force</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$forces</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type"><a href="classes/Smr-Combat-Results-Combatant-CombatantResult.html"><abbr title="\Smr\Combat\Results\Combatant\CombatantResult">CombatantResult</abbr></a>&lt;string|int, <a href="classes/Smr-Force.html"><abbr title="\Smr\Force">Force</abbr></a>&gt;</span></code>
 
     <div class="phpdocumentor-label-line">
         </div>
@@ -7276,7 +7603,7 @@
     
             <section>
         <h5 class="phpdocumentor-return-value__heading">Return values</h5>
-        <span class="phpdocumentor-signature__response_type"><abbr title="\Smr\ForceAttackerCombatResult">ForceAttackerCombatResult</abbr></span>
+        <span class="phpdocumentor-signature__response_type"><a href="classes/Smr-Combat-Results-Combatant-CombatantResult.html"><abbr title="\Smr\Combat\Results\Combatant\CombatantResult">CombatantResult</abbr></a>&lt;string|int, <a href="classes/Smr-Force.html"><abbr title="\Smr\Force">Force</abbr></a>&gt;</span>
             </section>
 
 </article>
@@ -7294,15 +7621,15 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/AbstractShip.php"><a href="files/src-lib-smr-abstractship.html"><abbr title="src/lib/Smr/AbstractShip.php">AbstractShip.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">928</span>
+    <span class="phpdocumentor-element-found-in__line">917</span>
 
-            <a href="classes/Smr-DummyShip.html#source-view.928" class="phpdocumentor-element-found-in__source" data-line="928" data-modal="source-view" data-src="files/src/lib/Smr/AbstractShip.php.txt"></a>
+            <a href="classes/Smr-DummyShip.html#source-view.917" class="phpdocumentor-element-found-in__source" data-line="917" data-modal="source-view" data-src="files/src/lib/Smr/AbstractShip.php.txt"></a>
     </aside>
 
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">public</span>
-                    <span class="phpdocumentor-signature__name">shootPlanet</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__type"><a href="classes/Smr-Planet.html"><abbr title="\Smr\Planet">Planet</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$planet</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type"><abbr title="\Smr\PlanetAttackerCombatResult">PlanetAttackerCombatResult</abbr></span></code>
+                    <span class="phpdocumentor-signature__name">shootPlanet</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__type"><a href="classes/Smr-Planet.html"><abbr title="\Smr\Planet">Planet</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$planet</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type"><a href="classes/Smr-Combat-Results-Combatant-CombatantResult.html"><abbr title="\Smr\Combat\Results\Combatant\CombatantResult">CombatantResult</abbr></a>&lt;string|int, <a href="classes/Smr-Combat-NormalCombatantInterface.html"><abbr title="\Smr\Combat\NormalCombatantInterface">NormalCombatantInterface</abbr></a>&gt;</span></code>
 
     <div class="phpdocumentor-label-line">
         </div>
@@ -7325,7 +7652,7 @@
     
             <section>
         <h5 class="phpdocumentor-return-value__heading">Return values</h5>
-        <span class="phpdocumentor-signature__response_type"><abbr title="\Smr\PlanetAttackerCombatResult">PlanetAttackerCombatResult</abbr></span>
+        <span class="phpdocumentor-signature__response_type"><a href="classes/Smr-Combat-Results-Combatant-CombatantResult.html"><abbr title="\Smr\Combat\Results\Combatant\CombatantResult">CombatantResult</abbr></a>&lt;string|int, <a href="classes/Smr-Combat-NormalCombatantInterface.html"><abbr title="\Smr\Combat\NormalCombatantInterface">NormalCombatantInterface</abbr></a>&gt;</span>
             </section>
 
 </article>
@@ -7343,15 +7670,15 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/AbstractShip.php"><a href="files/src-lib-smr-abstractship.html"><abbr title="src/lib/Smr/AbstractShip.php">AbstractShip.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">773</span>
+    <span class="phpdocumentor-element-found-in__line">794</span>
 
-            <a href="classes/Smr-DummyShip.html#source-view.773" class="phpdocumentor-element-found-in__source" data-line="773" data-modal="source-view" data-src="files/src/lib/Smr/AbstractShip.php.txt"></a>
+            <a href="classes/Smr-DummyShip.html#source-view.794" class="phpdocumentor-element-found-in__source" data-line="794" data-modal="source-view" data-src="files/src/lib/Smr/AbstractShip.php.txt"></a>
     </aside>
 
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">public</span>
-                    <span class="phpdocumentor-signature__name">shootPlayers</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__type">array&lt;string|int, <a href="classes/Smr-Player.html"><abbr title="\Smr\Player">Player</abbr></a>&gt;&nbsp;</span><span class="phpdocumentor-signature__argument__name">$targetPlayers</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type"><abbr title="\Smr\TraderCombatResult">TraderCombatResult</abbr></span></code>
+                    <span class="phpdocumentor-signature__name">shootPlayers</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__type">array&lt;string|int, <a href="classes/Smr-Player.html"><abbr title="\Smr\Player">Player</abbr></a>&gt;&nbsp;</span><span class="phpdocumentor-signature__argument__name">$targetPlayers</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type"><a href="classes/Smr-Combat-Results-Combatant-CombatantResult.html"><abbr title="\Smr\Combat\Results\Combatant\CombatantResult">CombatantResult</abbr></a>&lt;string|int, <a href="classes/Smr-Combat-NormalCombatantInterface.html"><abbr title="\Smr\Combat\NormalCombatantInterface">NormalCombatantInterface</abbr></a>&gt;</span></code>
 
     <div class="phpdocumentor-label-line">
         </div>
@@ -7374,7 +7701,7 @@
     
             <section>
         <h5 class="phpdocumentor-return-value__heading">Return values</h5>
-        <span class="phpdocumentor-signature__response_type"><abbr title="\Smr\TraderCombatResult">TraderCombatResult</abbr></span>
+        <span class="phpdocumentor-signature__response_type"><a href="classes/Smr-Combat-Results-Combatant-CombatantResult.html"><abbr title="\Smr\Combat\Results\Combatant\CombatantResult">CombatantResult</abbr></a>&lt;string|int, <a href="classes/Smr-Combat-NormalCombatantInterface.html"><abbr title="\Smr\Combat\NormalCombatantInterface">NormalCombatantInterface</abbr></a>&gt;</span>
             </section>
 
 </article>
@@ -7392,15 +7719,15 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/AbstractShip.php"><a href="files/src-lib-smr-abstractship.html"><abbr title="src/lib/Smr/AbstractShip.php">AbstractShip.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">861</span>
+    <span class="phpdocumentor-element-found-in__line">868</span>
 
-            <a href="classes/Smr-DummyShip.html#source-view.861" class="phpdocumentor-element-found-in__source" data-line="861" data-modal="source-view" data-src="files/src/lib/Smr/AbstractShip.php.txt"></a>
+            <a href="classes/Smr-DummyShip.html#source-view.868" class="phpdocumentor-element-found-in__source" data-line="868" data-modal="source-view" data-src="files/src/lib/Smr/AbstractShip.php.txt"></a>
     </aside>
 
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">public</span>
-                    <span class="phpdocumentor-signature__name">shootPort</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__type"><a href="classes/Smr-Port.html"><abbr title="\Smr\Port">Port</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$port</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type"><abbr title="\Smr\PortAttackerCombatResult">PortAttackerCombatResult</abbr></span></code>
+                    <span class="phpdocumentor-signature__name">shootPort</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__type"><a href="classes/Smr-Port.html"><abbr title="\Smr\Port">Port</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$port</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type"><a href="classes/Smr-Combat-Results-Combatant-CombatantResult.html"><abbr title="\Smr\Combat\Results\Combatant\CombatantResult">CombatantResult</abbr></a>&lt;string|int, <a href="classes/Smr-Combat-NormalCombatantInterface.html"><abbr title="\Smr\Combat\NormalCombatantInterface">NormalCombatantInterface</abbr></a>&gt;</span></code>
 
     <div class="phpdocumentor-label-line">
         </div>
@@ -7423,7 +7750,7 @@
     
             <section>
         <h5 class="phpdocumentor-return-value__heading">Return values</h5>
-        <span class="phpdocumentor-signature__response_type"><abbr title="\Smr\PortAttackerCombatResult">PortAttackerCombatResult</abbr></span>
+        <span class="phpdocumentor-signature__response_type"><a href="classes/Smr-Combat-Results-Combatant-CombatantResult.html"><abbr title="\Smr\Combat\Results\Combatant\CombatantResult">CombatantResult</abbr></a>&lt;string|int, <a href="classes/Smr-Combat-NormalCombatantInterface.html"><abbr title="\Smr\Combat\NormalCombatantInterface">NormalCombatantInterface</abbr></a>&gt;</span>
             </section>
 
 </article>
@@ -7441,15 +7768,15 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/AbstractShip.php"><a href="files/src-lib-smr-abstractship.html"><abbr title="src/lib/Smr/AbstractShip.php">AbstractShip.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">960</span>
+    <span class="phpdocumentor-element-found-in__line">927</span>
 
-            <a href="classes/Smr-DummyShip.html#source-view.960" class="phpdocumentor-element-found-in__source" data-line="960" data-modal="source-view" data-src="files/src/lib/Smr/AbstractShip.php.txt"></a>
+            <a href="classes/Smr-DummyShip.html#source-view.927" class="phpdocumentor-element-found-in__source" data-line="927" data-modal="source-view" data-src="files/src/lib/Smr/AbstractShip.php.txt"></a>
     </aside>
 
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">public</span>
-                    <span class="phpdocumentor-signature__name">takeDamage</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__type"><abbr title="\Smr\WeaponDamageData">WeaponDamageData</abbr>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$damage</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type"><abbr title="\Smr\TakenDamageData">TakenDamageData</abbr></span></code>
+                    <span class="phpdocumentor-signature__name">takeDamage</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__type"><a href="classes/Smr-Combat-Results-Damage-WeaponDamage.html"><abbr title="\Smr\Combat\Results\Damage\WeaponDamage">WeaponDamage</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$damage</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type"><abbr title="\Smr\Combat\TDamage">TDamage</abbr></span></code>
 
     <div class="phpdocumentor-label-line">
         </div>
@@ -7459,7 +7786,7 @@
     <dl class="phpdocumentor-argument-list">
                     <dt class="phpdocumentor-argument-list__entry">
                 <span class="phpdocumentor-argument-list__argument__name">$damage</span>
-                : <span class="phpdocumentor-argument-list__argument__type"><abbr title="\Smr\WeaponDamageData">WeaponDamageData</abbr></span>
+                : <span class="phpdocumentor-argument-list__argument__type"><a href="classes/Smr-Combat-Results-Damage-WeaponDamage.html"><abbr title="\Smr\Combat\Results\Damage\WeaponDamage">WeaponDamage</abbr></a></span>
                             </dt>
             <dd class="phpdocumentor-argument-list__definition">
                 
@@ -7472,7 +7799,7 @@
     
             <section>
         <h5 class="phpdocumentor-return-value__heading">Return values</h5>
-        <span class="phpdocumentor-signature__response_type"><abbr title="\Smr\TakenDamageData">TakenDamageData</abbr></span>
+        <span class="phpdocumentor-signature__response_type"><abbr title="\Smr\Combat\TDamage">TDamage</abbr></span>
             </section>
 
 </article>
@@ -7490,15 +7817,15 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/AbstractShip.php"><a href="files/src-lib-smr-abstractship.html"><abbr title="src/lib/Smr/AbstractShip.php">AbstractShip.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">996</span>
+    <span class="phpdocumentor-element-found-in__line">967</span>
 
-            <a href="classes/Smr-DummyShip.html#source-view.996" class="phpdocumentor-element-found-in__source" data-line="996" data-modal="source-view" data-src="files/src/lib/Smr/AbstractShip.php.txt"></a>
+            <a href="classes/Smr-DummyShip.html#source-view.967" class="phpdocumentor-element-found-in__source" data-line="967" data-modal="source-view" data-src="files/src/lib/Smr/AbstractShip.php.txt"></a>
     </aside>
 
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">public</span>
-                    <span class="phpdocumentor-signature__name">takeDamageFromMines</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__type"><abbr title="\Smr\WeaponDamageData">WeaponDamageData</abbr>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$damage</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type"><abbr title="\Smr\TakenDamageData">TakenDamageData</abbr></span></code>
+                    <span class="phpdocumentor-signature__name">takeDamageFromMines</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__type"><a href="classes/Smr-Combat-Results-Damage-WeaponDamage.html"><abbr title="\Smr\Combat\Results\Damage\WeaponDamage">WeaponDamage</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$damage</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type"><a href="classes/Smr-Combat-Results-Damage-NormalTakenDamage.html"><abbr title="\Smr\Combat\Results\Damage\NormalTakenDamage">NormalTakenDamage</abbr></a></span></code>
 
     <div class="phpdocumentor-label-line">
         </div>
@@ -7508,7 +7835,7 @@
     <dl class="phpdocumentor-argument-list">
                     <dt class="phpdocumentor-argument-list__entry">
                 <span class="phpdocumentor-argument-list__argument__name">$damage</span>
-                : <span class="phpdocumentor-argument-list__argument__type"><abbr title="\Smr\WeaponDamageData">WeaponDamageData</abbr></span>
+                : <span class="phpdocumentor-argument-list__argument__type"><a href="classes/Smr-Combat-Results-Damage-WeaponDamage.html"><abbr title="\Smr\Combat\Results\Damage\WeaponDamage">WeaponDamage</abbr></a></span>
                             </dt>
             <dd class="phpdocumentor-argument-list__definition">
                 
@@ -7521,7 +7848,7 @@
     
             <section>
         <h5 class="phpdocumentor-return-value__heading">Return values</h5>
-        <span class="phpdocumentor-signature__response_type"><abbr title="\Smr\TakenDamageData">TakenDamageData</abbr></span>
+        <span class="phpdocumentor-signature__response_type"><a href="classes/Smr-Combat-Results-Damage-NormalTakenDamage.html"><abbr title="\Smr\Combat\Results\Damage\NormalTakenDamage">NormalTakenDamage</abbr></a></span>
             </section>
 
 </article>
@@ -7539,9 +7866,9 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/AbstractShip.php"><a href="files/src-lib-smr-abstractship.html"><abbr title="src/lib/Smr/AbstractShip.php">AbstractShip.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">1045</span>
+    <span class="phpdocumentor-element-found-in__line">1049</span>
 
-            <a href="classes/Smr-DummyShip.html#source-view.1045" class="phpdocumentor-element-found-in__source" data-line="1045" data-modal="source-view" data-src="files/src/lib/Smr/AbstractShip.php.txt"></a>
+            <a href="classes/Smr-DummyShip.html#source-view.1049" class="phpdocumentor-element-found-in__source" data-line="1049" data-modal="source-view" data-src="files/src/lib/Smr/AbstractShip.php.txt"></a>
     </aside>
 
     
@@ -7574,9 +7901,9 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/AbstractShip.php"><a href="files/src-lib-smr-abstractship.html"><abbr title="src/lib/Smr/AbstractShip.php">AbstractShip.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">1049</span>
+    <span class="phpdocumentor-element-found-in__line">1053</span>
 
-            <a href="classes/Smr-DummyShip.html#source-view.1049" class="phpdocumentor-element-found-in__source" data-line="1049" data-modal="source-view" data-src="files/src/lib/Smr/AbstractShip.php.txt"></a>
+            <a href="classes/Smr-DummyShip.html#source-view.1053" class="phpdocumentor-element-found-in__source" data-line="1053" data-modal="source-view" data-src="files/src/lib/Smr/AbstractShip.php.txt"></a>
     </aside>
 
     
@@ -7609,9 +7936,9 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/AbstractShip.php"><a href="files/src-lib-smr-abstractship.html"><abbr title="src/lib/Smr/AbstractShip.php">AbstractShip.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">453</span>
+    <span class="phpdocumentor-element-found-in__line">474</span>
 
-            <a href="classes/Smr-DummyShip.html#source-view.453" class="phpdocumentor-element-found-in__source" data-line="453" data-modal="source-view" data-src="files/src/lib/Smr/AbstractShip.php.txt"></a>
+            <a href="classes/Smr-DummyShip.html#source-view.474" class="phpdocumentor-element-found-in__source" data-line="474" data-modal="source-view" data-src="files/src/lib/Smr/AbstractShip.php.txt"></a>
     </aside>
 
     
@@ -7658,9 +7985,9 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/AbstractShip.php"><a href="files/src-lib-smr-abstractship.html"><abbr title="src/lib/Smr/AbstractShip.php">AbstractShip.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">57</span>
+    <span class="phpdocumentor-element-found-in__line">70</span>
 
-            <a href="classes/Smr-DummyShip.html#source-view.57" class="phpdocumentor-element-found-in__source" data-line="57" data-modal="source-view" data-src="files/src/lib/Smr/AbstractShip.php.txt"></a>
+            <a href="classes/Smr-DummyShip.html#source-view.70" class="phpdocumentor-element-found-in__source" data-line="70" data-modal="source-view" data-src="files/src/lib/Smr/AbstractShip.php.txt"></a>
     </aside>
 
     
@@ -7693,9 +8020,9 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/AbstractShip.php"><a href="files/src-lib-smr-abstractship.html"><abbr title="src/lib/Smr/AbstractShip.php">AbstractShip.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">327</span>
+    <span class="phpdocumentor-element-found-in__line">348</span>
 
-            <a href="classes/Smr-DummyShip.html#source-view.327" class="phpdocumentor-element-found-in__source" data-line="327" data-modal="source-view" data-src="files/src/lib/Smr/AbstractShip.php.txt"></a>
+            <a href="classes/Smr-DummyShip.html#source-view.348" class="phpdocumentor-element-found-in__source" data-line="348" data-modal="source-view" data-src="files/src/lib/Smr/AbstractShip.php.txt"></a>
     </aside>
 
     
@@ -7738,9 +8065,9 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/AbstractShip.php"><a href="files/src-lib-smr-abstractship.html"><abbr title="src/lib/Smr/AbstractShip.php">AbstractShip.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">1032</span>
+    <span class="phpdocumentor-element-found-in__line">1003</span>
 
-            <a href="classes/Smr-DummyShip.html#source-view.1032" class="phpdocumentor-element-found-in__source" data-line="1032" data-modal="source-view" data-src="files/src/lib/Smr/AbstractShip.php.txt"></a>
+            <a href="classes/Smr-DummyShip.html#source-view.1003" class="phpdocumentor-element-found-in__source" data-line="1003" data-modal="source-view" data-src="files/src/lib/Smr/AbstractShip.php.txt"></a>
     </aside>
 
     
@@ -7787,9 +8114,9 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/AbstractShip.php"><a href="files/src-lib-smr-abstractship.html"><abbr title="src/lib/Smr/AbstractShip.php">AbstractShip.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">1026</span>
+    <span class="phpdocumentor-element-found-in__line">997</span>
 
-            <a href="classes/Smr-DummyShip.html#source-view.1026" class="phpdocumentor-element-found-in__source" data-line="1026" data-modal="source-view" data-src="files/src/lib/Smr/AbstractShip.php.txt"></a>
+            <a href="classes/Smr-DummyShip.html#source-view.997" class="phpdocumentor-element-found-in__source" data-line="997" data-modal="source-view" data-src="files/src/lib/Smr/AbstractShip.php.txt"></a>
     </aside>
 
     
@@ -7836,9 +8163,9 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/AbstractShip.php"><a href="files/src-lib-smr-abstractship.html"><abbr title="src/lib/Smr/AbstractShip.php">AbstractShip.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">1020</span>
+    <span class="phpdocumentor-element-found-in__line">991</span>
 
-            <a href="classes/Smr-DummyShip.html#source-view.1020" class="phpdocumentor-element-found-in__source" data-line="1020" data-modal="source-view" data-src="files/src/lib/Smr/AbstractShip.php.txt"></a>
+            <a href="classes/Smr-DummyShip.html#source-view.991" class="phpdocumentor-element-found-in__source" data-line="991" data-modal="source-view" data-src="files/src/lib/Smr/AbstractShip.php.txt"></a>
     </aside>
 
     
@@ -8027,6 +8354,7 @@
                                             <li class=""><a href="classes/Smr-AbstractShip.html#method_checkForExcessHardware">checkForExcessHardware()</a></li>
                                             <li class=""><a href="classes/Smr-AbstractShip.html#method_checkForExcessWeapons">checkForExcessWeapons()</a></li>
                                             <li class=""><a href="classes/Smr-AbstractShip.html#method_checkPowerAvailable">checkPowerAvailable()</a></li>
+                                            <li class=""><a href="classes/Smr-AbstractShip.html#method_createCombatDrones">createCombatDrones()</a></li>
                                             <li class=""><a href="classes/Smr-AbstractShip.html#method_decloak">decloak()</a></li>
                                             <li class=""><a href="classes/Smr-AbstractShip.html#method_decreaseArmour">decreaseArmour()</a></li>
                                             <li class=""><a href="classes/Smr-AbstractShip.html#method_decreaseCargo">decreaseCargo()</a></li>
@@ -8049,6 +8377,8 @@
                                             <li class=""><a href="classes/Smr-AbstractShip.html#method_getCDsHigh">getCDsHigh()</a></li>
                                             <li class=""><a href="classes/Smr-AbstractShip.html#method_getCDsLow">getCDsLow()</a></li>
                                             <li class=""><a href="classes/Smr-AbstractShip.html#method_getClass">getClass()</a></li>
+                                            <li class=""><a href="classes/Smr-AbstractShip.html#method_getCombatID">getCombatID()</a></li>
+                                            <li class=""><a href="classes/Smr-AbstractShip.html#method_getCombatName">getCombatName()</a></li>
                                             <li class=""><a href="classes/Smr-AbstractShip.html#method_getCost">getCost()</a></li>
                                             <li class=""><a href="classes/Smr-AbstractShip.html#method_getCostToUNO">getCostToUNO()</a></li>
                                             <li class=""><a href="classes/Smr-AbstractShip.html#method_getCostToUpgrade">getCostToUpgrade()</a></li>
@@ -8064,6 +8394,7 @@
                                             <li class=""><a href="classes/Smr-AbstractShip.html#method_getHardpoints">getHardpoints()</a></li>
                                             <li class=""><a href="classes/Smr-AbstractShip.html#method_getHardware">getHardware()</a></li>
                                             <li class=""><a href="classes/Smr-AbstractShip.html#method_getIllusion">getIllusion()</a></li>
+                                            <li class=""><a href="classes/Smr-AbstractShip.html#method_getLevel">getLevel()</a></li>
                                             <li class=""><a href="classes/Smr-AbstractShip.html#method_getMaxArmour">getMaxArmour()</a></li>
                                             <li class=""><a href="classes/Smr-AbstractShip.html#method_getMaxCargoHolds">getMaxCargoHolds()</a></li>
                                             <li class=""><a href="classes/Smr-AbstractShip.html#method_getMaxCDs">getMaxCDs()</a></li>
@@ -8124,10 +8455,13 @@
                                             <li class=""><a href="classes/Smr-AbstractShip.html#method_increaseShields">increaseShields()</a></li>
                                             <li class=""><a href="classes/Smr-AbstractShip.html#method_isCloaked">isCloaked()</a></li>
                                             <li class=""><a href="classes/Smr-AbstractShip.html#method_isDead">isDead()</a></li>
+                                            <li class=""><a href="classes/Smr-AbstractShip.html#method_isDestroyed">isDestroyed()</a></li>
                                             <li class=""><a href="classes/Smr-AbstractShip.html#method_isFederal">isFederal()</a></li>
                                             <li class=""><a href="classes/Smr-AbstractShip.html#method_isUnderground">isUnderground()</a></li>
+                                            <li class=""><a href="classes/Smr-AbstractShip.html#method_killBy">killBy()</a></li>
                                             <li class=""><a href="classes/Smr-AbstractShip.html#method_moveWeaponDown">moveWeaponDown()</a></li>
                                             <li class=""><a href="classes/Smr-AbstractShip.html#method_moveWeaponUp">moveWeaponUp()</a></li>
+                                            <li class=""><a href="classes/Smr-AbstractShip.html#method_reduceDamageDoneDCS">reduceDamageDoneDCS()</a></li>
                                             <li class=""><a href="classes/Smr-AbstractShip.html#method_removeAllCargo">removeAllCargo()</a></li>
                                             <li class=""><a href="classes/Smr-AbstractShip.html#method_removeAllHardware">removeAllHardware()</a></li>
                                             <li class=""><a href="classes/Smr-AbstractShip.html#method_removeAllWeapons">removeAllWeapons()</a></li>

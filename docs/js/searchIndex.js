@@ -261,6 +261,16 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/Smr-AbstractShip.html#method_getDisplayName"
         },                {
+            "fqsen": "\\Smr\\AbstractShip\u003A\u003AgetCombatName\u0028\u0029",
+            "name": "getCombatName",
+            "summary": "",
+            "url": "classes/Smr-AbstractShip.html#method_getCombatName"
+        },                {
+            "fqsen": "\\Smr\\AbstractShip\u003A\u003AgetCombatID\u0028\u0029",
+            "name": "getCombatID",
+            "summary": "",
+            "url": "classes/Smr-AbstractShip.html#method_getCombatID"
+        },                {
             "fqsen": "\\Smr\\AbstractShip\u003A\u003AgetAttackRating\u0028\u0029",
             "name": "getAttackRating",
             "summary": "",
@@ -846,6 +856,16 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/Smr-AbstractShip.html#method_takeDamage"
         },                {
+            "fqsen": "\\Smr\\AbstractShip\u003A\u003AisDestroyed\u0028\u0029",
+            "name": "isDestroyed",
+            "summary": "",
+            "url": "classes/Smr-AbstractShip.html#method_isDestroyed"
+        },                {
+            "fqsen": "\\Smr\\AbstractShip\u003A\u003AcreateCombatDrones\u0028\u0029",
+            "name": "createCombatDrones",
+            "summary": "",
+            "url": "classes/Smr-AbstractShip.html#method_createCombatDrones"
+        },                {
             "fqsen": "\\Smr\\AbstractShip\u003A\u003AtakeDamageFromMines\u0028\u0029",
             "name": "takeDamageFromMines",
             "summary": "",
@@ -865,6 +885,21 @@ Search.appendIndex(
             "name": "takeDamageToArmour",
             "summary": "",
             "url": "classes/Smr-AbstractShip.html#method_takeDamageToArmour"
+        },                {
+            "fqsen": "\\Smr\\AbstractShip\u003A\u003AkillBy\u0028\u0029",
+            "name": "killBy",
+            "summary": "",
+            "url": "classes/Smr-AbstractShip.html#method_killBy"
+        },                {
+            "fqsen": "\\Smr\\AbstractShip\u003A\u003AreduceDamageDoneDCS\u0028\u0029",
+            "name": "reduceDamageDoneDCS",
+            "summary": "Factor\u0020to\u0020multiply\u0020drone\u0020damage\u0020by\u0020if\u0020target\u0020player\u0020has\u0020a\u0020DCS.",
+            "url": "classes/Smr-AbstractShip.html#method_reduceDamageDoneDCS"
+        },                {
+            "fqsen": "\\Smr\\AbstractShip\u003A\u003AgetLevel\u0028\u0029",
+            "name": "getLevel",
+            "summary": "",
+            "url": "classes/Smr-AbstractShip.html#method_getLevel"
         },                {
             "fqsen": "\\Smr\\AbstractShip\u003A\u003AgetMR\u0028\u0029",
             "name": "getMR",
@@ -3651,95 +3686,665 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/Smr-Chess-Loc.html#property_y"
         },                {
-            "fqsen": "\\Smr\\Combat\\Results\\ForceFullCombatResults",
+            "fqsen": "\\Smr\\Combat\\CombatantInterface",
+            "name": "CombatantInterface",
+            "summary": "Common\u0020combat\u0020capabilities\u0020shared\u0020by\u0020ships,\u0020ports,\u0020planets,\u0020and\u0020forces.",
+            "url": "classes/Smr-Combat-CombatantInterface.html"
+        },                {
+            "fqsen": "\\Smr\\Combat\\CombatantInterface\u003A\u003AtakeDamage\u0028\u0029",
+            "name": "takeDamage",
+            "summary": "",
+            "url": "classes/Smr-Combat-CombatantInterface.html#method_takeDamage"
+        },                {
+            "fqsen": "\\Smr\\Combat\\CombatantInterface\u003A\u003AgetCombatName\u0028\u0029",
+            "name": "getCombatName",
+            "summary": "",
+            "url": "classes/Smr-Combat-CombatantInterface.html#method_getCombatName"
+        },                {
+            "fqsen": "\\Smr\\Combat\\CombatantInterface\u003A\u003AgetCombatID\u0028\u0029",
+            "name": "getCombatID",
+            "summary": "",
+            "url": "classes/Smr-Combat-CombatantInterface.html#method_getCombatID"
+        },                {
+            "fqsen": "\\Smr\\Combat\\CombatantInterface\u003A\u003AkillBy\u0028\u0029",
+            "name": "killBy",
+            "summary": "",
+            "url": "classes/Smr-Combat-CombatantInterface.html#method_killBy"
+        },                {
+            "fqsen": "\\Smr\\Combat\\CombatantInterface\u003A\u003AreduceDamageDoneDCS\u0028\u0029",
+            "name": "reduceDamageDoneDCS",
+            "summary": "Factor\u0020to\u0020multiply\u0020drone\u0020damage\u0020by\u0020if\u0020target\u0020player\u0020has\u0020a\u0020DCS.",
+            "url": "classes/Smr-Combat-CombatantInterface.html#method_reduceDamageDoneDCS"
+        },                {
+            "fqsen": "\\Smr\\Combat\\CombatantInterface\u003A\u003AdecreaseCDs\u0028\u0029",
+            "name": "decreaseCDs",
+            "summary": "",
+            "url": "classes/Smr-Combat-CombatantInterface.html#method_decreaseCDs"
+        },                {
+            "fqsen": "\\Smr\\Combat\\CombatantInterface\u003A\u003AhasCDs\u0028\u0029",
+            "name": "hasCDs",
+            "summary": "",
+            "url": "classes/Smr-Combat-CombatantInterface.html#method_hasCDs"
+        },                {
+            "fqsen": "\\Smr\\Combat\\CombatantInterface\u003A\u003AgetCDs\u0028\u0029",
+            "name": "getCDs",
+            "summary": "",
+            "url": "classes/Smr-Combat-CombatantInterface.html#method_getCDs"
+        },                {
+            "fqsen": "\\Smr\\Combat\\CombatantInterface\u003A\u003AgetLevel\u0028\u0029",
+            "name": "getLevel",
+            "summary": "",
+            "url": "classes/Smr-Combat-CombatantInterface.html#method_getLevel"
+        },                {
+            "fqsen": "\\Smr\\Combat\\ForceCombatantInterface",
+            "name": "ForceCombatantInterface",
+            "summary": "Combatant\u0020that\u0020receives\u0020Force\u002Dspecific\u0020mine,\u0020combat\u0020drone,\u0020and\u0020scout\u0020drone\u0020damage.",
+            "url": "classes/Smr-Combat-ForceCombatantInterface.html"
+        },                {
+            "fqsen": "\\Smr\\Combat\\NormalCombatantInterface",
+            "name": "NormalCombatantInterface",
+            "summary": "Combatant\u0020that\u0020exchanges\u0020normal\u0020shield,\u0020drone,\u0020and\u0020armour\u0020weapon\u0020damage.",
+            "url": "classes/Smr-Combat-NormalCombatantInterface.html"
+        },                {
+            "fqsen": "\\Smr\\Combat\\NormalCombatantInterface\u003A\u003AgetWeapons\u0028\u0029",
+            "name": "getWeapons",
+            "summary": "",
+            "url": "classes/Smr-Combat-NormalCombatantInterface.html#method_getWeapons"
+        },                {
+            "fqsen": "\\Smr\\Combat\\NormalCombatantInterface\u003A\u003AcreateCombatDrones\u0028\u0029",
+            "name": "createCombatDrones",
+            "summary": "",
+            "url": "classes/Smr-Combat-NormalCombatantInterface.html#method_createCombatDrones"
+        },                {
+            "fqsen": "\\Smr\\Combat\\NormalCombatantInterface\u003A\u003AisDestroyed\u0028\u0029",
+            "name": "isDestroyed",
+            "summary": "",
+            "url": "classes/Smr-Combat-NormalCombatantInterface.html#method_isDestroyed"
+        },                {
+            "fqsen": "\\Smr\\Combat\\NormalDamageCombatResolver",
+            "name": "NormalDamageCombatResolver",
+            "summary": "Resolves\u0020a\u0020normal\u002Ddamage\u0020combat\u0020round\u0020for\u0020ships,\u0020ports,\u0020and\u0020planets.",
+            "url": "classes/Smr-Combat-NormalDamageCombatResolver.html"
+        },                {
+            "fqsen": "\\Smr\\Combat\\NormalDamageCombatResolver\u003A\u003Ashoot\u0028\u0029",
+            "name": "shoot",
+            "summary": "",
+            "url": "classes/Smr-Combat-NormalDamageCombatResolver.html#method_shoot"
+        },                {
+            "fqsen": "\\Smr\\Combat\\Results\\Combatant\\CombatantResult",
+            "name": "CombatantResult",
+            "summary": "",
+            "url": "classes/Smr-Combat-Results-Combatant-CombatantResult.html"
+        },                {
+            "fqsen": "\\Smr\\Combat\\Results\\Combatant\\CombatantResult\u003A\u003A__construct\u0028\u0029",
+            "name": "__construct",
+            "summary": "",
+            "url": "classes/Smr-Combat-Results-Combatant-CombatantResult.html#method___construct"
+        },                {
+            "fqsen": "\\Smr\\Combat\\Results\\Combatant\\CombatantResult\u003A\u003Acreate\u0028\u0029",
+            "name": "create",
+            "summary": "",
+            "url": "classes/Smr-Combat-Results-Combatant-CombatantResult.html#method_create"
+        },                {
+            "fqsen": "\\Smr\\Combat\\Results\\Combatant\\CombatantResult\u003A\u003AgetTotalDamage\u0028\u0029",
+            "name": "getTotalDamage",
+            "summary": "Returns\u0020the\u0020total\u0020actual\u0020damage\u0020done\u0020by\u0020this\u0020combatant\u0020in\u0020this\u0020round\u0020of\u0020combat.",
+            "url": "classes/Smr-Combat-Results-Combatant-CombatantResult.html#method_getTotalDamage"
+        },                {
+            "fqsen": "\\Smr\\Combat\\Results\\Combatant\\CombatantResult\u003A\u003AgetTotalDamagePerTarget\u0028\u0029",
+            "name": "getTotalDamagePerTarget",
+            "summary": "",
+            "url": "classes/Smr-Combat-Results-Combatant-CombatantResult.html#method_getTotalDamagePerTarget"
+        },                {
+            "fqsen": "\\Smr\\Combat\\Results\\Combatant\\CombatantResult\u003A\u003A\u0024combatant",
+            "name": "combatant",
+            "summary": "",
+            "url": "classes/Smr-Combat-Results-Combatant-CombatantResult.html#property_combatant"
+        },                {
+            "fqsen": "\\Smr\\Combat\\Results\\Combatant\\CombatantResult\u003A\u003A\u0024deadBeforeShot",
+            "name": "deadBeforeShot",
+            "summary": "",
+            "url": "classes/Smr-Combat-Results-Combatant-CombatantResult.html#property_deadBeforeShot"
+        },                {
+            "fqsen": "\\Smr\\Combat\\Results\\Combatant\\CombatantResult\u003A\u003A\u0024weaponResults",
+            "name": "weaponResults",
+            "summary": "",
+            "url": "classes/Smr-Combat-Results-Combatant-CombatantResult.html#property_weaponResults"
+        },                {
+            "fqsen": "\\Smr\\Combat\\Results\\Combatant\\CombatantResult\u003A\u003A\u0024dronesResult",
+            "name": "dronesResult",
+            "summary": "",
+            "url": "classes/Smr-Combat-Results-Combatant-CombatantResult.html#property_dronesResult"
+        },                {
+            "fqsen": "\\Smr\\Combat\\Results\\Combatant\\ForceCombatResults",
+            "name": "ForceCombatResults",
+            "summary": "",
+            "url": "classes/Smr-Combat-Results-Combatant-ForceCombatResults.html"
+        },                {
+            "fqsen": "\\Smr\\Combat\\Results\\Combatant\\ForceCombatResults\u003A\u003A__construct\u0028\u0029",
+            "name": "__construct",
+            "summary": "",
+            "url": "classes/Smr-Combat-Results-Combatant-ForceCombatResults.html#method___construct"
+        },                {
+            "fqsen": "\\Smr\\Combat\\Results\\Combatant\\ForceCombatResults\u003A\u003A\u0024totalDamage",
+            "name": "totalDamage",
+            "summary": "",
+            "url": "classes/Smr-Combat-Results-Combatant-ForceCombatResults.html#property_totalDamage"
+        },                {
+            "fqsen": "\\Smr\\Combat\\Results\\Combatant\\ForceCombatResults\u003A\u003A\u0024results",
+            "name": "results",
+            "summary": "",
+            "url": "classes/Smr-Combat-Results-Combatant-ForceCombatResults.html#property_results"
+        },                {
+            "fqsen": "\\Smr\\Combat\\Results\\Combatant\\ForceCombatResults\u003A\u003A\u0024deadBeforeShot",
+            "name": "deadBeforeShot",
+            "summary": "",
+            "url": "classes/Smr-Combat-Results-Combatant-ForceCombatResults.html#property_deadBeforeShot"
+        },                {
+            "fqsen": "\\Smr\\Combat\\Results\\Combatant\\ForceCombatResults\u003A\u003A\u0024forceDestroyed",
+            "name": "forceDestroyed",
+            "summary": "",
+            "url": "classes/Smr-Combat-Results-Combatant-ForceCombatResults.html#property_forceDestroyed"
+        },                {
+            "fqsen": "\\Smr\\Combat\\Results\\Combatant\\PlanetAttackerCombatResults",
+            "name": "PlanetAttackerCombatResults",
+            "summary": "",
+            "url": "classes/Smr-Combat-Results-Combatant-PlanetAttackerCombatResults.html"
+        },                {
+            "fqsen": "\\Smr\\Combat\\Results\\Combatant\\PlanetAttackerCombatResults\u003A\u003A__construct\u0028\u0029",
+            "name": "__construct",
+            "summary": "",
+            "url": "classes/Smr-Combat-Results-Combatant-PlanetAttackerCombatResults.html#method___construct"
+        },                {
+            "fqsen": "\\Smr\\Combat\\Results\\Combatant\\PlanetAttackerCombatResults\u003A\u003A\u0024downgrades",
+            "name": "downgrades",
+            "summary": "",
+            "url": "classes/Smr-Combat-Results-Combatant-PlanetAttackerCombatResults.html#property_downgrades"
+        },                {
+            "fqsen": "\\Smr\\Combat\\Results\\Combatant\\PortAttackerCombatResults",
+            "name": "PortAttackerCombatResults",
+            "summary": "",
+            "url": "classes/Smr-Combat-Results-Combatant-PortAttackerCombatResults.html"
+        },                {
+            "fqsen": "\\Smr\\Combat\\Results\\Combatant\\PortAttackerCombatResults\u003A\u003A__construct\u0028\u0029",
+            "name": "__construct",
+            "summary": "",
+            "url": "classes/Smr-Combat-Results-Combatant-PortAttackerCombatResults.html#method___construct"
+        },                {
+            "fqsen": "\\Smr\\Combat\\Results\\Combatant\\PortAttackerCombatResults\u003A\u003A\u0024downgrades",
+            "name": "downgrades",
+            "summary": "",
+            "url": "classes/Smr-Combat-Results-Combatant-PortAttackerCombatResults.html#property_downgrades"
+        },                {
+            "fqsen": "\\Smr\\Combat\\Results\\Combatant\\TeamCombatResults",
+            "name": "TeamCombatResults",
+            "summary": "",
+            "url": "classes/Smr-Combat-Results-Combatant-TeamCombatResults.html"
+        },                {
+            "fqsen": "\\Smr\\Combat\\Results\\Combatant\\TeamCombatResults\u003A\u003A__construct\u0028\u0029",
+            "name": "__construct",
+            "summary": "",
+            "url": "classes/Smr-Combat-Results-Combatant-TeamCombatResults.html#method___construct"
+        },                {
+            "fqsen": "\\Smr\\Combat\\Results\\Combatant\\TeamCombatResults\u003A\u003A\u0024totalDamage",
+            "name": "totalDamage",
+            "summary": "",
+            "url": "classes/Smr-Combat-Results-Combatant-TeamCombatResults.html#property_totalDamage"
+        },                {
+            "fqsen": "\\Smr\\Combat\\Results\\Combatant\\TeamCombatResults\u003A\u003A\u0024traders",
+            "name": "traders",
+            "summary": "",
+            "url": "classes/Smr-Combat-Results-Combatant-TeamCombatResults.html#property_traders"
+        },                {
+            "fqsen": "\\Smr\\Combat\\Results\\Damage\\ForceTakenDamage",
+            "name": "ForceTakenDamage",
+            "summary": "Outcome\u0020of\u0020weapon\u0020damage\u0020applied\u0020to\u0020Forces\u0020\u0028i.e.\u0020mine\/CD\/SD\u0020stacks\u0029.",
+            "url": "classes/Smr-Combat-Results-Damage-ForceTakenDamage.html"
+        },                {
+            "fqsen": "\\Smr\\Combat\\Results\\Damage\\ForceTakenDamage\u003A\u003A__construct\u0028\u0029",
+            "name": "__construct",
+            "summary": "",
+            "url": "classes/Smr-Combat-Results-Damage-ForceTakenDamage.html#method___construct"
+        },                {
+            "fqsen": "\\Smr\\Combat\\Results\\Damage\\ForceTakenDamage\u003A\u003A\u0024minesDamage",
+            "name": "minesDamage",
+            "summary": "",
+            "url": "classes/Smr-Combat-Results-Damage-ForceTakenDamage.html#property_minesDamage"
+        },                {
+            "fqsen": "\\Smr\\Combat\\Results\\Damage\\ForceTakenDamage\u003A\u003A\u0024numMines",
+            "name": "numMines",
+            "summary": "",
+            "url": "classes/Smr-Combat-Results-Damage-ForceTakenDamage.html#property_numMines"
+        },                {
+            "fqsen": "\\Smr\\Combat\\Results\\Damage\\ForceTakenDamage\u003A\u003A\u0024hasMines",
+            "name": "hasMines",
+            "summary": "",
+            "url": "classes/Smr-Combat-Results-Damage-ForceTakenDamage.html#property_hasMines"
+        },                {
+            "fqsen": "\\Smr\\Combat\\Results\\Damage\\ForceTakenDamage\u003A\u003A\u0024scoutDroneDamage",
+            "name": "scoutDroneDamage",
+            "summary": "",
+            "url": "classes/Smr-Combat-Results-Damage-ForceTakenDamage.html#property_scoutDroneDamage"
+        },                {
+            "fqsen": "\\Smr\\Combat\\Results\\Damage\\ForceTakenDamage\u003A\u003A\u0024numScoutDrones",
+            "name": "numScoutDrones",
+            "summary": "",
+            "url": "classes/Smr-Combat-Results-Damage-ForceTakenDamage.html#property_numScoutDrones"
+        },                {
+            "fqsen": "\\Smr\\Combat\\Results\\Damage\\ForceTakenDamage\u003A\u003A\u0024hasScoutDrones",
+            "name": "hasScoutDrones",
+            "summary": "",
+            "url": "classes/Smr-Combat-Results-Damage-ForceTakenDamage.html#property_hasScoutDrones"
+        },                {
+            "fqsen": "\\Smr\\Combat\\Results\\Damage\\NormalTakenDamage",
+            "name": "NormalTakenDamage",
+            "summary": "Outcome\u0020of\u0020weapon\u0020damage\u0020applied\u0020to\u0020a\u0020combatant\u0020that\u0020takes\u0020normal\nshield,\u0020CD,\u0020and\u0020armour\u0020damage\u0020\u0028Ship\/Planet\/Port\u0029.",
+            "url": "classes/Smr-Combat-Results-Damage-NormalTakenDamage.html"
+        },                {
+            "fqsen": "\\Smr\\Combat\\Results\\Damage\\NormalTakenDamage\u003A\u003A__construct\u0028\u0029",
+            "name": "__construct",
+            "summary": "",
+            "url": "classes/Smr-Combat-Results-Damage-NormalTakenDamage.html#method___construct"
+        },                {
+            "fqsen": "\\Smr\\Combat\\Results\\Damage\\NormalTakenDamage\u003A\u003A\u0024killingShot",
+            "name": "killingShot",
+            "summary": "",
+            "url": "classes/Smr-Combat-Results-Damage-NormalTakenDamage.html#property_killingShot"
+        },                {
+            "fqsen": "\\Smr\\Combat\\Results\\Damage\\NormalTakenDamage\u003A\u003A\u0024targetAlreadyDead",
+            "name": "targetAlreadyDead",
+            "summary": "",
+            "url": "classes/Smr-Combat-Results-Damage-NormalTakenDamage.html#property_targetAlreadyDead"
+        },                {
+            "fqsen": "\\Smr\\Combat\\Results\\Damage\\NormalTakenDamage\u003A\u003A\u0024shieldDamage",
+            "name": "shieldDamage",
+            "summary": "",
+            "url": "classes/Smr-Combat-Results-Damage-NormalTakenDamage.html#property_shieldDamage"
+        },                {
+            "fqsen": "\\Smr\\Combat\\Results\\Damage\\NormalTakenDamage\u003A\u003A\u0024armourDamage",
+            "name": "armourDamage",
+            "summary": "",
+            "url": "classes/Smr-Combat-Results-Damage-NormalTakenDamage.html#property_armourDamage"
+        },                {
+            "fqsen": "\\Smr\\Combat\\Results\\Damage\\TakenDamage",
+            "name": "TakenDamage",
+            "summary": "Common\u0020outcome\u0020of\u0020weapon\u0020damage\u0020applied\u0020to\u0020any\u0020combatant.",
+            "url": "classes/Smr-Combat-Results-Damage-TakenDamage.html"
+        },                {
+            "fqsen": "\\Smr\\Combat\\Results\\Damage\\TakenDamage\u003A\u003A__construct\u0028\u0029",
+            "name": "__construct",
+            "summary": "",
+            "url": "classes/Smr-Combat-Results-Damage-TakenDamage.html#method___construct"
+        },                {
+            "fqsen": "\\Smr\\Combat\\Results\\Damage\\TakenDamage\u003A\u003A\u0024killingShot",
+            "name": "killingShot",
+            "summary": "",
+            "url": "classes/Smr-Combat-Results-Damage-TakenDamage.html#property_killingShot"
+        },                {
+            "fqsen": "\\Smr\\Combat\\Results\\Damage\\TakenDamage\u003A\u003A\u0024targetAlreadyDead",
+            "name": "targetAlreadyDead",
+            "summary": "",
+            "url": "classes/Smr-Combat-Results-Damage-TakenDamage.html#property_targetAlreadyDead"
+        },                {
+            "fqsen": "\\Smr\\Combat\\Results\\Damage\\TakenDamage\u003A\u003A\u0024combatDroneDamage",
+            "name": "combatDroneDamage",
+            "summary": "",
+            "url": "classes/Smr-Combat-Results-Damage-TakenDamage.html#property_combatDroneDamage"
+        },                {
+            "fqsen": "\\Smr\\Combat\\Results\\Damage\\TakenDamage\u003A\u003A\u0024numCombatDrones",
+            "name": "numCombatDrones",
+            "summary": "",
+            "url": "classes/Smr-Combat-Results-Damage-TakenDamage.html#property_numCombatDrones"
+        },                {
+            "fqsen": "\\Smr\\Combat\\Results\\Damage\\TakenDamage\u003A\u003A\u0024hasCombatDrones",
+            "name": "hasCombatDrones",
+            "summary": "",
+            "url": "classes/Smr-Combat-Results-Damage-TakenDamage.html#property_hasCombatDrones"
+        },                {
+            "fqsen": "\\Smr\\Combat\\Results\\Damage\\TakenDamage\u003A\u003A\u0024totalDamage",
+            "name": "totalDamage",
+            "summary": "",
+            "url": "classes/Smr-Combat-Results-Damage-TakenDamage.html#property_totalDamage"
+        },                {
+            "fqsen": "\\Smr\\Combat\\Results\\Damage\\WeaponDamage",
+            "name": "WeaponDamage",
+            "summary": "Raw\u0020damage\u0020produced\u0020by\u0020a\u0020weapon\u0020before\u0020calculating\u0020actual\u0020damage\u0020done\u0020to\u0020a\u0020target.",
+            "url": "classes/Smr-Combat-Results-Damage-WeaponDamage.html"
+        },                {
+            "fqsen": "\\Smr\\Combat\\Results\\Damage\\WeaponDamage\u003A\u003A__construct\u0028\u0029",
+            "name": "__construct",
+            "summary": "",
+            "url": "classes/Smr-Combat-Results-Damage-WeaponDamage.html#method___construct"
+        },                {
+            "fqsen": "\\Smr\\Combat\\Results\\Damage\\WeaponDamage\u003A\u003A\u0024shieldDamage",
+            "name": "shieldDamage",
+            "summary": "",
+            "url": "classes/Smr-Combat-Results-Damage-WeaponDamage.html#property_shieldDamage"
+        },                {
+            "fqsen": "\\Smr\\Combat\\Results\\Damage\\WeaponDamage\u003A\u003A\u0024armourDamage",
+            "name": "armourDamage",
+            "summary": "",
+            "url": "classes/Smr-Combat-Results-Damage-WeaponDamage.html#property_armourDamage"
+        },                {
+            "fqsen": "\\Smr\\Combat\\Results\\Damage\\WeaponDamage\u003A\u003A\u0024damageRollover",
+            "name": "damageRollover",
+            "summary": "",
+            "url": "classes/Smr-Combat-Results-Damage-WeaponDamage.html#property_damageRollover"
+        },                {
+            "fqsen": "\\Smr\\Combat\\Results\\Damage\\WeaponDamage\u003A\u003A\u0024launched",
+            "name": "launched",
+            "summary": "",
+            "url": "classes/Smr-Combat-Results-Damage-WeaponDamage.html#property_launched"
+        },                {
+            "fqsen": "\\Smr\\Combat\\Results\\Damage\\WeaponDamage\u003A\u003A\u0024kamikaze",
+            "name": "kamikaze",
+            "summary": "",
+            "url": "classes/Smr-Combat-Results-Damage-WeaponDamage.html#property_kamikaze"
+        },                {
+            "fqsen": "\\Smr\\Combat\\Results\\Full\\ForceFullCombatResults",
             "name": "ForceFullCombatResults",
             "summary": "",
-            "url": "classes/Smr-Combat-Results-ForceFullCombatResults.html"
+            "url": "classes/Smr-Combat-Results-Full-ForceFullCombatResults.html"
         },                {
-            "fqsen": "\\Smr\\Combat\\Results\\ForceFullCombatResults\u003A\u003A__construct\u0028\u0029",
+            "fqsen": "\\Smr\\Combat\\Results\\Full\\ForceFullCombatResults\u003A\u003A__construct\u0028\u0029",
             "name": "__construct",
             "summary": "",
-            "url": "classes/Smr-Combat-Results-ForceFullCombatResults.html#method___construct"
+            "url": "classes/Smr-Combat-Results-Full-ForceFullCombatResults.html#method___construct"
         },                {
-            "fqsen": "\\Smr\\Combat\\Results\\ForceFullCombatResults\u003A\u003A\u0024attackers",
+            "fqsen": "\\Smr\\Combat\\Results\\Full\\ForceFullCombatResults\u003A\u003A\u0024attackers",
             "name": "attackers",
             "summary": "",
-            "url": "classes/Smr-Combat-Results-ForceFullCombatResults.html#property_attackers"
+            "url": "classes/Smr-Combat-Results-Full-ForceFullCombatResults.html#property_attackers"
         },                {
-            "fqsen": "\\Smr\\Combat\\Results\\ForceFullCombatResults\u003A\u003A\u0024forces",
+            "fqsen": "\\Smr\\Combat\\Results\\Full\\ForceFullCombatResults\u003A\u003A\u0024forces",
             "name": "forces",
             "summary": "",
-            "url": "classes/Smr-Combat-Results-ForceFullCombatResults.html#property_forces"
+            "url": "classes/Smr-Combat-Results-Full-ForceFullCombatResults.html#property_forces"
         },                {
-            "fqsen": "\\Smr\\Combat\\Results\\ForceFullCombatResults\u003A\u003A\u0024bump",
+            "fqsen": "\\Smr\\Combat\\Results\\Full\\ForceFullCombatResults\u003A\u003A\u0024bump",
             "name": "bump",
             "summary": "",
-            "url": "classes/Smr-Combat-Results-ForceFullCombatResults.html#property_bump"
+            "url": "classes/Smr-Combat-Results-Full-ForceFullCombatResults.html#property_bump"
         },                {
-            "fqsen": "\\Smr\\Combat\\Results\\FullCombatResults",
+            "fqsen": "\\Smr\\Combat\\Results\\Full\\FullCombatResults",
             "name": "FullCombatResults",
             "summary": "",
-            "url": "classes/Smr-Combat-Results-FullCombatResults.html"
+            "url": "classes/Smr-Combat-Results-Full-FullCombatResults.html"
         },                {
-            "fqsen": "\\Smr\\Combat\\Results\\PlanetFullCombatResults",
+            "fqsen": "\\Smr\\Combat\\Results\\Full\\PlanetFullCombatResults",
             "name": "PlanetFullCombatResults",
             "summary": "",
-            "url": "classes/Smr-Combat-Results-PlanetFullCombatResults.html"
+            "url": "classes/Smr-Combat-Results-Full-PlanetFullCombatResults.html"
         },                {
-            "fqsen": "\\Smr\\Combat\\Results\\PlanetFullCombatResults\u003A\u003A__construct\u0028\u0029",
+            "fqsen": "\\Smr\\Combat\\Results\\Full\\PlanetFullCombatResults\u003A\u003A__construct\u0028\u0029",
             "name": "__construct",
             "summary": "",
-            "url": "classes/Smr-Combat-Results-PlanetFullCombatResults.html#method___construct"
+            "url": "classes/Smr-Combat-Results-Full-PlanetFullCombatResults.html#method___construct"
         },                {
-            "fqsen": "\\Smr\\Combat\\Results\\PlanetFullCombatResults\u003A\u003A\u0024attackers",
+            "fqsen": "\\Smr\\Combat\\Results\\Full\\PlanetFullCombatResults\u003A\u003A\u0024attackers",
             "name": "attackers",
             "summary": "",
-            "url": "classes/Smr-Combat-Results-PlanetFullCombatResults.html#property_attackers"
+            "url": "classes/Smr-Combat-Results-Full-PlanetFullCombatResults.html#property_attackers"
         },                {
-            "fqsen": "\\Smr\\Combat\\Results\\PlanetFullCombatResults\u003A\u003A\u0024planet",
+            "fqsen": "\\Smr\\Combat\\Results\\Full\\PlanetFullCombatResults\u003A\u003A\u0024planet",
             "name": "planet",
             "summary": "",
-            "url": "classes/Smr-Combat-Results-PlanetFullCombatResults.html#property_planet"
+            "url": "classes/Smr-Combat-Results-Full-PlanetFullCombatResults.html#property_planet"
         },                {
-            "fqsen": "\\Smr\\Combat\\Results\\PortFullCombatResults",
+            "fqsen": "\\Smr\\Combat\\Results\\Full\\PortFullCombatResults",
             "name": "PortFullCombatResults",
             "summary": "",
-            "url": "classes/Smr-Combat-Results-PortFullCombatResults.html"
+            "url": "classes/Smr-Combat-Results-Full-PortFullCombatResults.html"
         },                {
-            "fqsen": "\\Smr\\Combat\\Results\\PortFullCombatResults\u003A\u003A__construct\u0028\u0029",
+            "fqsen": "\\Smr\\Combat\\Results\\Full\\PortFullCombatResults\u003A\u003A__construct\u0028\u0029",
             "name": "__construct",
             "summary": "",
-            "url": "classes/Smr-Combat-Results-PortFullCombatResults.html#method___construct"
+            "url": "classes/Smr-Combat-Results-Full-PortFullCombatResults.html#method___construct"
         },                {
-            "fqsen": "\\Smr\\Combat\\Results\\PortFullCombatResults\u003A\u003A\u0024attackers",
+            "fqsen": "\\Smr\\Combat\\Results\\Full\\PortFullCombatResults\u003A\u003A\u0024attackers",
             "name": "attackers",
             "summary": "",
-            "url": "classes/Smr-Combat-Results-PortFullCombatResults.html#property_attackers"
+            "url": "classes/Smr-Combat-Results-Full-PortFullCombatResults.html#property_attackers"
         },                {
-            "fqsen": "\\Smr\\Combat\\Results\\PortFullCombatResults\u003A\u003A\u0024port",
+            "fqsen": "\\Smr\\Combat\\Results\\Full\\PortFullCombatResults\u003A\u003A\u0024port",
             "name": "port",
             "summary": "",
-            "url": "classes/Smr-Combat-Results-PortFullCombatResults.html#property_port"
+            "url": "classes/Smr-Combat-Results-Full-PortFullCombatResults.html#property_port"
         },                {
-            "fqsen": "\\Smr\\Combat\\Results\\TraderFullCombatResults",
+            "fqsen": "\\Smr\\Combat\\Results\\Full\\TraderFullCombatResults",
             "name": "TraderFullCombatResults",
             "summary": "",
-            "url": "classes/Smr-Combat-Results-TraderFullCombatResults.html"
+            "url": "classes/Smr-Combat-Results-Full-TraderFullCombatResults.html"
         },                {
-            "fqsen": "\\Smr\\Combat\\Results\\TraderFullCombatResults\u003A\u003A__construct\u0028\u0029",
+            "fqsen": "\\Smr\\Combat\\Results\\Full\\TraderFullCombatResults\u003A\u003A__construct\u0028\u0029",
             "name": "__construct",
             "summary": "",
-            "url": "classes/Smr-Combat-Results-TraderFullCombatResults.html#method___construct"
+            "url": "classes/Smr-Combat-Results-Full-TraderFullCombatResults.html#method___construct"
         },                {
-            "fqsen": "\\Smr\\Combat\\Results\\TraderFullCombatResults\u003A\u003A\u0024attackers",
+            "fqsen": "\\Smr\\Combat\\Results\\Full\\TraderFullCombatResults\u003A\u003A\u0024attackers",
             "name": "attackers",
             "summary": "",
-            "url": "classes/Smr-Combat-Results-TraderFullCombatResults.html#property_attackers"
+            "url": "classes/Smr-Combat-Results-Full-TraderFullCombatResults.html#property_attackers"
         },                {
-            "fqsen": "\\Smr\\Combat\\Results\\TraderFullCombatResults\u003A\u003A\u0024defenders",
+            "fqsen": "\\Smr\\Combat\\Results\\Full\\TraderFullCombatResults\u003A\u003A\u0024defenders",
             "name": "defenders",
             "summary": "",
-            "url": "classes/Smr-Combat-Results-TraderFullCombatResults.html#property_defenders"
+            "url": "classes/Smr-Combat-Results-Full-TraderFullCombatResults.html#property_defenders"
+        },                {
+            "fqsen": "\\Smr\\Combat\\Results\\Kill\\ForcesDestroyedByPlayer",
+            "name": "ForcesDestroyedByPlayer",
+            "summary": "",
+            "url": "classes/Smr-Combat-Results-Kill-ForcesDestroyedByPlayer.html"
+        },                {
+            "fqsen": "\\Smr\\Combat\\Results\\Kill\\ForcesDestroyedByPlayer\u003A\u003A__construct\u0028\u0029",
+            "name": "__construct",
+            "summary": "",
+            "url": "classes/Smr-Combat-Results-Kill-ForcesDestroyedByPlayer.html#method___construct"
+        },                {
+            "fqsen": "\\Smr\\Combat\\Results\\Kill\\ForcesDestroyedByPlayer\u003A\u003Arender\u0028\u0029",
+            "name": "render",
+            "summary": "",
+            "url": "classes/Smr-Combat-Results-Kill-ForcesDestroyedByPlayer.html#method_render"
+        },                {
+            "fqsen": "\\Smr\\Combat\\Results\\Kill\\ForcesDestroyedByPlayer\u003A\u003A\u0024target",
+            "name": "target",
+            "summary": "",
+            "url": "classes/Smr-Combat-Results-Kill-ForcesDestroyedByPlayer.html#property_target"
+        },                {
+            "fqsen": "\\Smr\\Combat\\Results\\Kill\\ForcesDestroyedByPlayer\u003A\u003A\u0024killer",
+            "name": "killer",
+            "summary": "",
+            "url": "classes/Smr-Combat-Results-Kill-ForcesDestroyedByPlayer.html#property_killer"
+        },                {
+            "fqsen": "\\Smr\\Combat\\Results\\Kill\\KillResultInterface",
+            "name": "KillResultInterface",
+            "summary": "",
+            "url": "classes/Smr-Combat-Results-Kill-KillResultInterface.html"
+        },                {
+            "fqsen": "\\Smr\\Combat\\Results\\Kill\\KillResultInterface\u003A\u003Arender\u0028\u0029",
+            "name": "render",
+            "summary": "",
+            "url": "classes/Smr-Combat-Results-Kill-KillResultInterface.html#method_render"
+        },                {
+            "fqsen": "\\Smr\\Combat\\Results\\Kill\\PlanetDestroyedByPlayer",
+            "name": "PlanetDestroyedByPlayer",
+            "summary": "",
+            "url": "classes/Smr-Combat-Results-Kill-PlanetDestroyedByPlayer.html"
+        },                {
+            "fqsen": "\\Smr\\Combat\\Results\\Kill\\PlanetDestroyedByPlayer\u003A\u003A__construct\u0028\u0029",
+            "name": "__construct",
+            "summary": "",
+            "url": "classes/Smr-Combat-Results-Kill-PlanetDestroyedByPlayer.html#method___construct"
+        },                {
+            "fqsen": "\\Smr\\Combat\\Results\\Kill\\PlanetDestroyedByPlayer\u003A\u003Arender\u0028\u0029",
+            "name": "render",
+            "summary": "",
+            "url": "classes/Smr-Combat-Results-Kill-PlanetDestroyedByPlayer.html#method_render"
+        },                {
+            "fqsen": "\\Smr\\Combat\\Results\\Kill\\PlanetDestroyedByPlayer\u003A\u003A\u0024target",
+            "name": "target",
+            "summary": "",
+            "url": "classes/Smr-Combat-Results-Kill-PlanetDestroyedByPlayer.html#property_target"
+        },                {
+            "fqsen": "\\Smr\\Combat\\Results\\Kill\\PlanetDestroyedByPlayer\u003A\u003A\u0024killer",
+            "name": "killer",
+            "summary": "",
+            "url": "classes/Smr-Combat-Results-Kill-PlanetDestroyedByPlayer.html#property_killer"
+        },                {
+            "fqsen": "\\Smr\\Combat\\Results\\Kill\\PlayerKilledByEnvironment",
+            "name": "PlayerKilledByEnvironment",
+            "summary": "",
+            "url": "classes/Smr-Combat-Results-Kill-PlayerKilledByEnvironment.html"
+        },                {
+            "fqsen": "\\Smr\\Combat\\Results\\Kill\\PlayerKilledByEnvironment\u003A\u003A__construct\u0028\u0029",
+            "name": "__construct",
+            "summary": "",
+            "url": "classes/Smr-Combat-Results-Kill-PlayerKilledByEnvironment.html#method___construct"
+        },                {
+            "fqsen": "\\Smr\\Combat\\Results\\Kill\\PlayerKilledByEnvironment\u003A\u003Arender\u0028\u0029",
+            "name": "render",
+            "summary": "",
+            "url": "classes/Smr-Combat-Results-Kill-PlayerKilledByEnvironment.html#method_render"
+        },                {
+            "fqsen": "\\Smr\\Combat\\Results\\Kill\\PlayerKilledByEnvironment\u003A\u003A\u0024target",
+            "name": "target",
+            "summary": "",
+            "url": "classes/Smr-Combat-Results-Kill-PlayerKilledByEnvironment.html#property_target"
+        },                {
+            "fqsen": "\\Smr\\Combat\\Results\\Kill\\PlayerKilledByEnvironment\u003A\u003A\u0024killer",
+            "name": "killer",
+            "summary": "",
+            "url": "classes/Smr-Combat-Results-Kill-PlayerKilledByEnvironment.html#property_killer"
+        },                {
+            "fqsen": "\\Smr\\Combat\\Results\\Kill\\PlayerKilledByEnvironment\u003A\u003A\u0024deadExp",
+            "name": "deadExp",
+            "summary": "",
+            "url": "classes/Smr-Combat-Results-Kill-PlayerKilledByEnvironment.html#property_deadExp"
+        },                {
+            "fqsen": "\\Smr\\Combat\\Results\\Kill\\PlayerKilledByEnvironment\u003A\u003A\u0024lostCredits",
+            "name": "lostCredits",
+            "summary": "",
+            "url": "classes/Smr-Combat-Results-Kill-PlayerKilledByEnvironment.html#property_lostCredits"
+        },                {
+            "fqsen": "\\Smr\\Combat\\Results\\Kill\\PlayerKilledByPlayer",
+            "name": "PlayerKilledByPlayer",
+            "summary": "",
+            "url": "classes/Smr-Combat-Results-Kill-PlayerKilledByPlayer.html"
+        },                {
+            "fqsen": "\\Smr\\Combat\\Results\\Kill\\PlayerKilledByPlayer\u003A\u003A__construct\u0028\u0029",
+            "name": "__construct",
+            "summary": "",
+            "url": "classes/Smr-Combat-Results-Kill-PlayerKilledByPlayer.html#method___construct"
+        },                {
+            "fqsen": "\\Smr\\Combat\\Results\\Kill\\PlayerKilledByPlayer\u003A\u003Arender\u0028\u0029",
+            "name": "render",
+            "summary": "",
+            "url": "classes/Smr-Combat-Results-Kill-PlayerKilledByPlayer.html#method_render"
+        },                {
+            "fqsen": "\\Smr\\Combat\\Results\\Kill\\PlayerKilledByPlayer\u003A\u003A\u0024target",
+            "name": "target",
+            "summary": "",
+            "url": "classes/Smr-Combat-Results-Kill-PlayerKilledByPlayer.html#property_target"
+        },                {
+            "fqsen": "\\Smr\\Combat\\Results\\Kill\\PlayerKilledByPlayer\u003A\u003A\u0024killer",
+            "name": "killer",
+            "summary": "",
+            "url": "classes/Smr-Combat-Results-Kill-PlayerKilledByPlayer.html#property_killer"
+        },                {
+            "fqsen": "\\Smr\\Combat\\Results\\Kill\\PlayerKilledByPlayer\u003A\u003A\u0024deadExp",
+            "name": "deadExp",
+            "summary": "",
+            "url": "classes/Smr-Combat-Results-Kill-PlayerKilledByPlayer.html#property_deadExp"
+        },                {
+            "fqsen": "\\Smr\\Combat\\Results\\Kill\\PlayerKilledByPlayer\u003A\u003A\u0024killerExp",
+            "name": "killerExp",
+            "summary": "",
+            "url": "classes/Smr-Combat-Results-Kill-PlayerKilledByPlayer.html#property_killerExp"
+        },                {
+            "fqsen": "\\Smr\\Combat\\Results\\Kill\\PlayerKilledByPlayer\u003A\u003A\u0024killerCredits",
+            "name": "killerCredits",
+            "summary": "",
+            "url": "classes/Smr-Combat-Results-Kill-PlayerKilledByPlayer.html#property_killerCredits"
+        },                {
+            "fqsen": "\\Smr\\Combat\\Results\\Kill\\PortDestroyedByPlayer",
+            "name": "PortDestroyedByPlayer",
+            "summary": "",
+            "url": "classes/Smr-Combat-Results-Kill-PortDestroyedByPlayer.html"
+        },                {
+            "fqsen": "\\Smr\\Combat\\Results\\Kill\\PortDestroyedByPlayer\u003A\u003A__construct\u0028\u0029",
+            "name": "__construct",
+            "summary": "",
+            "url": "classes/Smr-Combat-Results-Kill-PortDestroyedByPlayer.html#method___construct"
+        },                {
+            "fqsen": "\\Smr\\Combat\\Results\\Kill\\PortDestroyedByPlayer\u003A\u003Arender\u0028\u0029",
+            "name": "render",
+            "summary": "",
+            "url": "classes/Smr-Combat-Results-Kill-PortDestroyedByPlayer.html#method_render"
+        },                {
+            "fqsen": "\\Smr\\Combat\\Results\\Kill\\PortDestroyedByPlayer\u003A\u003A\u0024target",
+            "name": "target",
+            "summary": "",
+            "url": "classes/Smr-Combat-Results-Kill-PortDestroyedByPlayer.html#property_target"
+        },                {
+            "fqsen": "\\Smr\\Combat\\Results\\Kill\\PortDestroyedByPlayer\u003A\u003A\u0024killer",
+            "name": "killer",
+            "summary": "",
+            "url": "classes/Smr-Combat-Results-Kill-PortDestroyedByPlayer.html#property_killer"
+        },                {
+            "fqsen": "\\Smr\\Combat\\Results\\Weapon\\HitWeaponResult",
+            "name": "HitWeaponResult",
+            "summary": "Represents\u0020a\u0020weapon\u0020hit\u0020a\u0020target,\u0020including\u0020the\u0020damage\u0020applied,\u0020taken,\u0020and\u0020an\u0020on\u002Dkill\u0020callback.",
+            "url": "classes/Smr-Combat-Results-Weapon-HitWeaponResult.html"
+        },                {
+            "fqsen": "\\Smr\\Combat\\Results\\Weapon\\HitWeaponResult\u003A\u003A__construct\u0028\u0029",
+            "name": "__construct",
+            "summary": "The\u0020target\u0027s\u0020CombatantInterface\u0020specialization\u0020determines\u0020actual\u0020damage\u0020type.",
+            "url": "classes/Smr-Combat-Results-Weapon-HitWeaponResult.html#method___construct"
+        },                {
+            "fqsen": "\\Smr\\Combat\\Results\\Weapon\\HitWeaponResult\u003A\u003A\u0024weaponDamage",
+            "name": "weaponDamage",
+            "summary": "",
+            "url": "classes/Smr-Combat-Results-Weapon-HitWeaponResult.html#property_weaponDamage"
+        },                {
+            "fqsen": "\\Smr\\Combat\\Results\\Weapon\\HitWeaponResult\u003A\u003A\u0024actualDamage",
+            "name": "actualDamage",
+            "summary": "",
+            "url": "classes/Smr-Combat-Results-Weapon-HitWeaponResult.html#property_actualDamage"
+        },                {
+            "fqsen": "\\Smr\\Combat\\Results\\Weapon\\HitWeaponResult\u003A\u003A\u0024killResult",
+            "name": "killResult",
+            "summary": "",
+            "url": "classes/Smr-Combat-Results-Weapon-HitWeaponResult.html#property_killResult"
+        },                {
+            "fqsen": "\\Smr\\Combat\\Results\\Weapon\\MissedWeaponResult",
+            "name": "MissedWeaponResult",
+            "summary": "Represents\u0020a\u0020weapon\u0020that\u0020missed\u0020a\u0020target.",
+            "url": "classes/Smr-Combat-Results-Weapon-MissedWeaponResult.html"
+        },                {
+            "fqsen": "\\Smr\\Combat\\Results\\Weapon\\MissedWeaponResult\u003A\u003A__construct\u0028\u0029",
+            "name": "__construct",
+            "summary": "",
+            "url": "classes/Smr-Combat-Results-Weapon-MissedWeaponResult.html#method___construct"
+        },                {
+            "fqsen": "\\Smr\\Combat\\Results\\Weapon\\WeaponResult",
+            "name": "WeaponResult",
+            "summary": "",
+            "url": "classes/Smr-Combat-Results-Weapon-WeaponResult.html"
+        },                {
+            "fqsen": "\\Smr\\Combat\\Results\\Weapon\\WeaponResult\u003A\u003A__construct\u0028\u0029",
+            "name": "__construct",
+            "summary": "",
+            "url": "classes/Smr-Combat-Results-Weapon-WeaponResult.html#method___construct"
+        },                {
+            "fqsen": "\\Smr\\Combat\\Results\\Weapon\\WeaponResult\u003A\u003A\u0024weapon",
+            "name": "weapon",
+            "summary": "",
+            "url": "classes/Smr-Combat-Results-Weapon-WeaponResult.html#property_weapon"
+        },                {
+            "fqsen": "\\Smr\\Combat\\Results\\Weapon\\WeaponResult\u003A\u003A\u0024target",
+            "name": "target",
+            "summary": "",
+            "url": "classes/Smr-Combat-Results-Weapon-WeaponResult.html#property_target"
         },                {
             "fqsen": "\\Smr\\Combat\\Weapon\\AbstractWeapon",
             "name": "AbstractWeapon",
@@ -3771,115 +4376,25 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/Smr-Combat-Weapon-AbstractWeapon.html#method_isDamageRollover"
         },                {
-            "fqsen": "\\Smr\\Combat\\Weapon\\AbstractWeapon\u003A\u003AcanShootForces\u0028\u0029",
-            "name": "canShootForces",
+            "fqsen": "\\Smr\\Combat\\Weapon\\AbstractWeapon\u003A\u003AcanShootTarget\u0028\u0029",
+            "name": "canShootTarget",
             "summary": "",
-            "url": "classes/Smr-Combat-Weapon-AbstractWeapon.html#method_canShootForces"
-        },                {
-            "fqsen": "\\Smr\\Combat\\Weapon\\AbstractWeapon\u003A\u003AcanShootPorts\u0028\u0029",
-            "name": "canShootPorts",
-            "summary": "",
-            "url": "classes/Smr-Combat-Weapon-AbstractWeapon.html#method_canShootPorts"
-        },                {
-            "fqsen": "\\Smr\\Combat\\Weapon\\AbstractWeapon\u003A\u003AcanShootPlanets\u0028\u0029",
-            "name": "canShootPlanets",
-            "summary": "",
-            "url": "classes/Smr-Combat-Weapon-AbstractWeapon.html#method_canShootPlanets"
-        },                {
-            "fqsen": "\\Smr\\Combat\\Weapon\\AbstractWeapon\u003A\u003AcanShootTraders\u0028\u0029",
-            "name": "canShootTraders",
-            "summary": "",
-            "url": "classes/Smr-Combat-Weapon-AbstractWeapon.html#method_canShootTraders"
+            "url": "classes/Smr-Combat-Weapon-AbstractWeapon.html#method_canShootTarget"
         },                {
             "fqsen": "\\Smr\\Combat\\Weapon\\AbstractWeapon\u003A\u003AgetDamage\u0028\u0029",
             "name": "getDamage",
             "summary": "",
             "url": "classes/Smr-Combat-Weapon-AbstractWeapon.html#method_getDamage"
         },                {
-            "fqsen": "\\Smr\\Combat\\Weapon\\AbstractWeapon\u003A\u003AgetModifiedDamageAgainstForces\u0028\u0029",
-            "name": "getModifiedDamageAgainstForces",
+            "fqsen": "\\Smr\\Combat\\Weapon\\AbstractWeapon\u003A\u003AgetModifiedDamageAgainstTarget\u0028\u0029",
+            "name": "getModifiedDamageAgainstTarget",
             "summary": "",
-            "url": "classes/Smr-Combat-Weapon-AbstractWeapon.html#method_getModifiedDamageAgainstForces"
+            "url": "classes/Smr-Combat-Weapon-AbstractWeapon.html#method_getModifiedDamageAgainstTarget"
         },                {
-            "fqsen": "\\Smr\\Combat\\Weapon\\AbstractWeapon\u003A\u003AgetModifiedDamageAgainstPort\u0028\u0029",
-            "name": "getModifiedDamageAgainstPort",
-            "summary": "",
-            "url": "classes/Smr-Combat-Weapon-AbstractWeapon.html#method_getModifiedDamageAgainstPort"
-        },                {
-            "fqsen": "\\Smr\\Combat\\Weapon\\AbstractWeapon\u003A\u003AgetModifiedDamageAgainstPlanet\u0028\u0029",
-            "name": "getModifiedDamageAgainstPlanet",
-            "summary": "",
-            "url": "classes/Smr-Combat-Weapon-AbstractWeapon.html#method_getModifiedDamageAgainstPlanet"
-        },                {
-            "fqsen": "\\Smr\\Combat\\Weapon\\AbstractWeapon\u003A\u003AgetModifiedPortDamageAgainstPlayer\u0028\u0029",
-            "name": "getModifiedPortDamageAgainstPlayer",
-            "summary": "",
-            "url": "classes/Smr-Combat-Weapon-AbstractWeapon.html#method_getModifiedPortDamageAgainstPlayer"
-        },                {
-            "fqsen": "\\Smr\\Combat\\Weapon\\AbstractWeapon\u003A\u003AgetModifiedDamageAgainstPlayer\u0028\u0029",
-            "name": "getModifiedDamageAgainstPlayer",
-            "summary": "",
-            "url": "classes/Smr-Combat-Weapon-AbstractWeapon.html#method_getModifiedDamageAgainstPlayer"
-        },                {
-            "fqsen": "\\Smr\\Combat\\Weapon\\AbstractWeapon\u003A\u003AgetModifiedForceDamageAgainstPlayer\u0028\u0029",
-            "name": "getModifiedForceDamageAgainstPlayer",
-            "summary": "",
-            "url": "classes/Smr-Combat-Weapon-AbstractWeapon.html#method_getModifiedForceDamageAgainstPlayer"
-        },                {
-            "fqsen": "\\Smr\\Combat\\Weapon\\AbstractWeapon\u003A\u003AgetModifiedPlanetDamageAgainstPlayer\u0028\u0029",
-            "name": "getModifiedPlanetDamageAgainstPlayer",
-            "summary": "",
-            "url": "classes/Smr-Combat-Weapon-AbstractWeapon.html#method_getModifiedPlanetDamageAgainstPlayer"
-        },                {
-            "fqsen": "\\Smr\\Combat\\Weapon\\AbstractWeapon\u003A\u003AdoPlayerDamageToForce\u0028\u0029",
-            "name": "doPlayerDamageToForce",
-            "summary": "",
-            "url": "classes/Smr-Combat-Weapon-AbstractWeapon.html#method_doPlayerDamageToForce"
-        },                {
-            "fqsen": "\\Smr\\Combat\\Weapon\\AbstractWeapon\u003A\u003AdoPlayerDamageToPlayer\u0028\u0029",
-            "name": "doPlayerDamageToPlayer",
-            "summary": "",
-            "url": "classes/Smr-Combat-Weapon-AbstractWeapon.html#method_doPlayerDamageToPlayer"
-        },                {
-            "fqsen": "\\Smr\\Combat\\Weapon\\AbstractWeapon\u003A\u003AdoPlayerDamageToPort\u0028\u0029",
-            "name": "doPlayerDamageToPort",
-            "summary": "",
-            "url": "classes/Smr-Combat-Weapon-AbstractWeapon.html#method_doPlayerDamageToPort"
-        },                {
-            "fqsen": "\\Smr\\Combat\\Weapon\\AbstractWeapon\u003A\u003AdoPlayerDamageToPlanet\u0028\u0029",
-            "name": "doPlayerDamageToPlanet",
-            "summary": "",
-            "url": "classes/Smr-Combat-Weapon-AbstractWeapon.html#method_doPlayerDamageToPlanet"
-        },                {
-            "fqsen": "\\Smr\\Combat\\Weapon\\AbstractWeapon\u003A\u003AdoPortDamageToPlayer\u0028\u0029",
-            "name": "doPortDamageToPlayer",
-            "summary": "",
-            "url": "classes/Smr-Combat-Weapon-AbstractWeapon.html#method_doPortDamageToPlayer"
-        },                {
-            "fqsen": "\\Smr\\Combat\\Weapon\\AbstractWeapon\u003A\u003AdoPlanetDamageToPlayer\u0028\u0029",
-            "name": "doPlanetDamageToPlayer",
-            "summary": "",
-            "url": "classes/Smr-Combat-Weapon-AbstractWeapon.html#method_doPlanetDamageToPlayer"
-        },                {
-            "fqsen": "\\Smr\\Combat\\Weapon\\AbstractWeapon\u003A\u003AdoForceDamageToPlayer\u0028\u0029",
-            "name": "doForceDamageToPlayer",
-            "summary": "",
-            "url": "classes/Smr-Combat-Weapon-AbstractWeapon.html#method_doForceDamageToPlayer"
-        },                {
-            "fqsen": "\\Smr\\Combat\\Weapon\\AbstractWeapon\u003A\u003AshootForces\u0028\u0029",
-            "name": "shootForces",
-            "summary": "",
-            "url": "classes/Smr-Combat-Weapon-AbstractWeapon.html#method_shootForces"
-        },                {
-            "fqsen": "\\Smr\\Combat\\Weapon\\AbstractWeapon\u003A\u003AshootPlayer\u0028\u0029",
-            "name": "shootPlayer",
-            "summary": "",
-            "url": "classes/Smr-Combat-Weapon-AbstractWeapon.html#method_shootPlayer"
-        },                {
-            "fqsen": "\\Smr\\Combat\\Weapon\\AbstractWeapon\u003A\u003AshootPlayerAsForce\u0028\u0029",
-            "name": "shootPlayerAsForce",
-            "summary": "",
-            "url": "classes/Smr-Combat-Weapon-AbstractWeapon.html#method_shootPlayerAsForce"
+            "fqsen": "\\Smr\\Combat\\Weapon\\AbstractWeapon\u003A\u003AhitTarget\u0028\u0029",
+            "name": "hitTarget",
+            "summary": "Applies\u0020this\u0020weapon\u0027s\u0020modified\u0020damage\u0020and\u0020resolves\u0020a\u0020killing\u0020shot,\u0020if\u0020any.",
+            "url": "classes/Smr-Combat-Weapon-AbstractWeapon.html#method_hitTarget"
         },                {
             "fqsen": "\\Smr\\Combat\\Weapon\\AbstractWeapon\u003A\u003APLANET_DAMAGE_MOD",
             "name": "PLANET_DAMAGE_MOD",
@@ -3901,145 +4416,30 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/Smr-Combat-Weapon-CombatDrones.html#method___construct"
         },                {
-            "fqsen": "\\Smr\\Combat\\Weapon\\CombatDrones\u003A\u003AgetModifiedAccuracy\u0028\u0029",
-            "name": "getModifiedAccuracy",
+            "fqsen": "\\Smr\\Combat\\Weapon\\CombatDrones\u003A\u003AgetModifiedAccuracyAgainstTarget\u0028\u0029",
+            "name": "getModifiedAccuracyAgainstTarget",
             "summary": "",
-            "url": "classes/Smr-Combat-Weapon-CombatDrones.html#method_getModifiedAccuracy"
+            "url": "classes/Smr-Combat-Weapon-CombatDrones.html#method_getModifiedAccuracyAgainstTarget"
         },                {
-            "fqsen": "\\Smr\\Combat\\Weapon\\CombatDrones\u003A\u003AgetModifiedAccuracyAgainstForcesUsingRandom\u0028\u0029",
-            "name": "getModifiedAccuracyAgainstForcesUsingRandom",
+            "fqsen": "\\Smr\\Combat\\Weapon\\CombatDrones\u003A\u003AgetModifiedDamageAgainstTarget\u0028\u0029",
+            "name": "getModifiedDamageAgainstTarget",
             "summary": "",
-            "url": "classes/Smr-Combat-Weapon-CombatDrones.html#method_getModifiedAccuracyAgainstForcesUsingRandom"
+            "url": "classes/Smr-Combat-Weapon-CombatDrones.html#method_getModifiedDamageAgainstTarget"
         },                {
-            "fqsen": "\\Smr\\Combat\\Weapon\\CombatDrones\u003A\u003AgetModifiedAccuracyAgainstForces\u0028\u0029",
-            "name": "getModifiedAccuracyAgainstForces",
+            "fqsen": "\\Smr\\Combat\\Weapon\\CombatDrones\u003A\u003Ashoot\u0028\u0029",
+            "name": "shoot",
             "summary": "",
-            "url": "classes/Smr-Combat-Weapon-CombatDrones.html#method_getModifiedAccuracyAgainstForces"
-        },                {
-            "fqsen": "\\Smr\\Combat\\Weapon\\CombatDrones\u003A\u003AgetModifiedAccuracyAgainstPortUsingRandom\u0028\u0029",
-            "name": "getModifiedAccuracyAgainstPortUsingRandom",
-            "summary": "",
-            "url": "classes/Smr-Combat-Weapon-CombatDrones.html#method_getModifiedAccuracyAgainstPortUsingRandom"
-        },                {
-            "fqsen": "\\Smr\\Combat\\Weapon\\CombatDrones\u003A\u003AgetModifiedAccuracyAgainstPort\u0028\u0029",
-            "name": "getModifiedAccuracyAgainstPort",
-            "summary": "",
-            "url": "classes/Smr-Combat-Weapon-CombatDrones.html#method_getModifiedAccuracyAgainstPort"
-        },                {
-            "fqsen": "\\Smr\\Combat\\Weapon\\CombatDrones\u003A\u003AgetModifiedAccuracyAgainstPlanetUsingRandom\u0028\u0029",
-            "name": "getModifiedAccuracyAgainstPlanetUsingRandom",
-            "summary": "",
-            "url": "classes/Smr-Combat-Weapon-CombatDrones.html#method_getModifiedAccuracyAgainstPlanetUsingRandom"
-        },                {
-            "fqsen": "\\Smr\\Combat\\Weapon\\CombatDrones\u003A\u003AgetModifiedAccuracyAgainstPlanet\u0028\u0029",
-            "name": "getModifiedAccuracyAgainstPlanet",
-            "summary": "",
-            "url": "classes/Smr-Combat-Weapon-CombatDrones.html#method_getModifiedAccuracyAgainstPlanet"
-        },                {
-            "fqsen": "\\Smr\\Combat\\Weapon\\CombatDrones\u003A\u003AgetModifiedAccuracyAgainstPlayer\u0028\u0029",
-            "name": "getModifiedAccuracyAgainstPlayer",
-            "summary": "",
-            "url": "classes/Smr-Combat-Weapon-CombatDrones.html#method_getModifiedAccuracyAgainstPlayer"
-        },                {
-            "fqsen": "\\Smr\\Combat\\Weapon\\CombatDrones\u003A\u003AgetModifiedAccuracyAgainstPlayerUsingRandom\u0028\u0029",
-            "name": "getModifiedAccuracyAgainstPlayerUsingRandom",
-            "summary": "",
-            "url": "classes/Smr-Combat-Weapon-CombatDrones.html#method_getModifiedAccuracyAgainstPlayerUsingRandom"
-        },                {
-            "fqsen": "\\Smr\\Combat\\Weapon\\CombatDrones\u003A\u003AgetModifiedForceAccuracyAgainstPlayer\u0028\u0029",
-            "name": "getModifiedForceAccuracyAgainstPlayer",
-            "summary": "",
-            "url": "classes/Smr-Combat-Weapon-CombatDrones.html#method_getModifiedForceAccuracyAgainstPlayer"
-        },                {
-            "fqsen": "\\Smr\\Combat\\Weapon\\CombatDrones\u003A\u003AgetModifiedForceAccuracyAgainstPlayerUsingRandom\u0028\u0029",
-            "name": "getModifiedForceAccuracyAgainstPlayerUsingRandom",
-            "summary": "",
-            "url": "classes/Smr-Combat-Weapon-CombatDrones.html#method_getModifiedForceAccuracyAgainstPlayerUsingRandom"
-        },                {
-            "fqsen": "\\Smr\\Combat\\Weapon\\CombatDrones\u003A\u003AgetModifiedPortAccuracyAgainstPlayer\u0028\u0029",
-            "name": "getModifiedPortAccuracyAgainstPlayer",
-            "summary": "",
-            "url": "classes/Smr-Combat-Weapon-CombatDrones.html#method_getModifiedPortAccuracyAgainstPlayer"
-        },                {
-            "fqsen": "\\Smr\\Combat\\Weapon\\CombatDrones\u003A\u003AgetModifiedPlanetAccuracyAgainstPlayer\u0028\u0029",
-            "name": "getModifiedPlanetAccuracyAgainstPlayer",
-            "summary": "",
-            "url": "classes/Smr-Combat-Weapon-CombatDrones.html#method_getModifiedPlanetAccuracyAgainstPlayer"
-        },                {
-            "fqsen": "\\Smr\\Combat\\Weapon\\CombatDrones\u003A\u003AgetModifiedDamageAgainstForces\u0028\u0029",
-            "name": "getModifiedDamageAgainstForces",
-            "summary": "",
-            "url": "classes/Smr-Combat-Weapon-CombatDrones.html#method_getModifiedDamageAgainstForces"
-        },                {
-            "fqsen": "\\Smr\\Combat\\Weapon\\CombatDrones\u003A\u003AgetModifiedDamageAgainstPort\u0028\u0029",
-            "name": "getModifiedDamageAgainstPort",
-            "summary": "",
-            "url": "classes/Smr-Combat-Weapon-CombatDrones.html#method_getModifiedDamageAgainstPort"
-        },                {
-            "fqsen": "\\Smr\\Combat\\Weapon\\CombatDrones\u003A\u003AgetModifiedDamageAgainstPlanet\u0028\u0029",
-            "name": "getModifiedDamageAgainstPlanet",
-            "summary": "",
-            "url": "classes/Smr-Combat-Weapon-CombatDrones.html#method_getModifiedDamageAgainstPlanet"
-        },                {
-            "fqsen": "\\Smr\\Combat\\Weapon\\CombatDrones\u003A\u003AgetModifiedDamageAgainstPlayer\u0028\u0029",
-            "name": "getModifiedDamageAgainstPlayer",
-            "summary": "",
-            "url": "classes/Smr-Combat-Weapon-CombatDrones.html#method_getModifiedDamageAgainstPlayer"
-        },                {
-            "fqsen": "\\Smr\\Combat\\Weapon\\CombatDrones\u003A\u003AgetModifiedForceDamageAgainstPlayer\u0028\u0029",
-            "name": "getModifiedForceDamageAgainstPlayer",
-            "summary": "",
-            "url": "classes/Smr-Combat-Weapon-CombatDrones.html#method_getModifiedForceDamageAgainstPlayer"
-        },                {
-            "fqsen": "\\Smr\\Combat\\Weapon\\CombatDrones\u003A\u003AgetModifiedPortDamageAgainstPlayer\u0028\u0029",
-            "name": "getModifiedPortDamageAgainstPlayer",
-            "summary": "",
-            "url": "classes/Smr-Combat-Weapon-CombatDrones.html#method_getModifiedPortDamageAgainstPlayer"
-        },                {
-            "fqsen": "\\Smr\\Combat\\Weapon\\CombatDrones\u003A\u003AgetModifiedPlanetDamageAgainstPlayer\u0028\u0029",
-            "name": "getModifiedPlanetDamageAgainstPlayer",
-            "summary": "",
-            "url": "classes/Smr-Combat-Weapon-CombatDrones.html#method_getModifiedPlanetDamageAgainstPlayer"
-        },                {
-            "fqsen": "\\Smr\\Combat\\Weapon\\CombatDrones\u003A\u003AshootForces\u0028\u0029",
-            "name": "shootForces",
-            "summary": "",
-            "url": "classes/Smr-Combat-Weapon-CombatDrones.html#method_shootForces"
-        },                {
-            "fqsen": "\\Smr\\Combat\\Weapon\\CombatDrones\u003A\u003AshootPort\u0028\u0029",
-            "name": "shootPort",
-            "summary": "",
-            "url": "classes/Smr-Combat-Weapon-CombatDrones.html#method_shootPort"
-        },                {
-            "fqsen": "\\Smr\\Combat\\Weapon\\CombatDrones\u003A\u003AshootPlanet\u0028\u0029",
-            "name": "shootPlanet",
-            "summary": "",
-            "url": "classes/Smr-Combat-Weapon-CombatDrones.html#method_shootPlanet"
-        },                {
-            "fqsen": "\\Smr\\Combat\\Weapon\\CombatDrones\u003A\u003AshootPlayer\u0028\u0029",
-            "name": "shootPlayer",
-            "summary": "",
-            "url": "classes/Smr-Combat-Weapon-CombatDrones.html#method_shootPlayer"
-        },                {
-            "fqsen": "\\Smr\\Combat\\Weapon\\CombatDrones\u003A\u003AshootPlayerAsForce\u0028\u0029",
-            "name": "shootPlayerAsForce",
-            "summary": "",
-            "url": "classes/Smr-Combat-Weapon-CombatDrones.html#method_shootPlayerAsForce"
-        },                {
-            "fqsen": "\\Smr\\Combat\\Weapon\\CombatDrones\u003A\u003AshootPlayerAsPort\u0028\u0029",
-            "name": "shootPlayerAsPort",
-            "summary": "",
-            "url": "classes/Smr-Combat-Weapon-CombatDrones.html#method_shootPlayerAsPort"
-        },                {
-            "fqsen": "\\Smr\\Combat\\Weapon\\CombatDrones\u003A\u003AshootPlayerAsPlanet\u0028\u0029",
-            "name": "shootPlayerAsPlanet",
-            "summary": "",
-            "url": "classes/Smr-Combat-Weapon-CombatDrones.html#method_shootPlayerAsPlanet"
+            "url": "classes/Smr-Combat-Weapon-CombatDrones.html#method_shoot"
         },                {
             "fqsen": "\\Smr\\Combat\\Weapon\\CombatDrones\u003A\u003AMAX_CDS_RAND",
             "name": "MAX_CDS_RAND",
             "summary": "",
             "url": "classes/Smr-Combat-Weapon-CombatDrones.html#constant_MAX_CDS_RAND"
+        },                {
+            "fqsen": "\\Smr\\Combat\\Weapon\\CombatDrones\u003A\u003AMIN_CDS_RAND",
+            "name": "MIN_CDS_RAND",
+            "summary": "",
+            "url": "classes/Smr-Combat-Weapon-CombatDrones.html#constant_MIN_CDS_RAND"
         },                {
             "fqsen": "\\Smr\\Combat\\Weapon\\ForcesTrait",
             "name": "ForcesTrait",
@@ -4106,75 +4506,25 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/Smr-Combat-Weapon-Mines.html#method___construct"
         },                {
-            "fqsen": "\\Smr\\Combat\\Weapon\\Mines\u003A\u003AgetModifiedAccuracy\u0028\u0029",
-            "name": "getModifiedAccuracy",
-            "summary": "",
-            "url": "classes/Smr-Combat-Weapon-Mines.html#method_getModifiedAccuracy"
-        },                {
             "fqsen": "\\Smr\\Combat\\Weapon\\Mines\u003A\u003AgetModifiedForceAccuracyAgainstPlayer\u0028\u0029",
             "name": "getModifiedForceAccuracyAgainstPlayer",
             "summary": "",
             "url": "classes/Smr-Combat-Weapon-Mines.html#method_getModifiedForceAccuracyAgainstPlayer"
         },                {
-            "fqsen": "\\Smr\\Combat\\Weapon\\Mines\u003A\u003AgetModifiedForceAccuracyAgainstPlayerUsingRandom\u0028\u0029",
-            "name": "getModifiedForceAccuracyAgainstPlayerUsingRandom",
+            "fqsen": "\\Smr\\Combat\\Weapon\\Mines\u003A\u003AgetModifiedDamageAgainstTarget\u0028\u0029",
+            "name": "getModifiedDamageAgainstTarget",
             "summary": "",
-            "url": "classes/Smr-Combat-Weapon-Mines.html#method_getModifiedForceAccuracyAgainstPlayerUsingRandom"
+            "url": "classes/Smr-Combat-Weapon-Mines.html#method_getModifiedDamageAgainstTarget"
         },                {
-            "fqsen": "\\Smr\\Combat\\Weapon\\Mines\u003A\u003AgetModifiedDamageAgainstForces\u0028\u0029",
-            "name": "getModifiedDamageAgainstForces",
+            "fqsen": "\\Smr\\Combat\\Weapon\\Mines\u003A\u003Ashoot\u0028\u0029",
+            "name": "shoot",
             "summary": "",
-            "url": "classes/Smr-Combat-Weapon-Mines.html#method_getModifiedDamageAgainstForces"
+            "url": "classes/Smr-Combat-Weapon-Mines.html#method_shoot"
         },                {
-            "fqsen": "\\Smr\\Combat\\Weapon\\Mines\u003A\u003AgetModifiedDamageAgainstPort\u0028\u0029",
-            "name": "getModifiedDamageAgainstPort",
+            "fqsen": "\\Smr\\Combat\\Weapon\\Mines\u003A\u003AhitShipTarget\u0028\u0029",
+            "name": "hitShipTarget",
             "summary": "",
-            "url": "classes/Smr-Combat-Weapon-Mines.html#method_getModifiedDamageAgainstPort"
-        },                {
-            "fqsen": "\\Smr\\Combat\\Weapon\\Mines\u003A\u003AgetModifiedDamageAgainstPlanet\u0028\u0029",
-            "name": "getModifiedDamageAgainstPlanet",
-            "summary": "",
-            "url": "classes/Smr-Combat-Weapon-Mines.html#method_getModifiedDamageAgainstPlanet"
-        },                {
-            "fqsen": "\\Smr\\Combat\\Weapon\\Mines\u003A\u003AgetModifiedDamageAgainstPlayer\u0028\u0029",
-            "name": "getModifiedDamageAgainstPlayer",
-            "summary": "",
-            "url": "classes/Smr-Combat-Weapon-Mines.html#method_getModifiedDamageAgainstPlayer"
-        },                {
-            "fqsen": "\\Smr\\Combat\\Weapon\\Mines\u003A\u003AgetModifiedPortDamageAgainstPlayer\u0028\u0029",
-            "name": "getModifiedPortDamageAgainstPlayer",
-            "summary": "",
-            "url": "classes/Smr-Combat-Weapon-Mines.html#method_getModifiedPortDamageAgainstPlayer"
-        },                {
-            "fqsen": "\\Smr\\Combat\\Weapon\\Mines\u003A\u003AgetModifiedPlanetDamageAgainstPlayer\u0028\u0029",
-            "name": "getModifiedPlanetDamageAgainstPlayer",
-            "summary": "",
-            "url": "classes/Smr-Combat-Weapon-Mines.html#method_getModifiedPlanetDamageAgainstPlayer"
-        },                {
-            "fqsen": "\\Smr\\Combat\\Weapon\\Mines\u003A\u003AgetModifiedForceDamageAgainstPlayer\u0028\u0029",
-            "name": "getModifiedForceDamageAgainstPlayer",
-            "summary": "",
-            "url": "classes/Smr-Combat-Weapon-Mines.html#method_getModifiedForceDamageAgainstPlayer"
-        },                {
-            "fqsen": "\\Smr\\Combat\\Weapon\\Mines\u003A\u003AshootForces\u0028\u0029",
-            "name": "shootForces",
-            "summary": "",
-            "url": "classes/Smr-Combat-Weapon-Mines.html#method_shootForces"
-        },                {
-            "fqsen": "\\Smr\\Combat\\Weapon\\Mines\u003A\u003AshootPlayer\u0028\u0029",
-            "name": "shootPlayer",
-            "summary": "",
-            "url": "classes/Smr-Combat-Weapon-Mines.html#method_shootPlayer"
-        },                {
-            "fqsen": "\\Smr\\Combat\\Weapon\\Mines\u003A\u003AshootPlayerAsForce\u0028\u0029",
-            "name": "shootPlayerAsForce",
-            "summary": "",
-            "url": "classes/Smr-Combat-Weapon-Mines.html#method_shootPlayerAsForce"
-        },                {
-            "fqsen": "\\Smr\\Combat\\Weapon\\Mines\u003A\u003AdoForceDamageToPlayer\u0028\u0029",
-            "name": "doForceDamageToPlayer",
-            "summary": "",
-            "url": "classes/Smr-Combat-Weapon-Mines.html#method_doForceDamageToPlayer"
+            "url": "classes/Smr-Combat-Weapon-Mines.html#method_hitShipTarget"
         },                {
             "fqsen": "\\Smr\\Combat\\Weapon\\Mines\u003A\u003ATOTAL_ENEMY_MINES_MODIFIER",
             "name": "TOTAL_ENEMY_MINES_MODIFIER",
@@ -4201,70 +4551,20 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/Smr-Combat-Weapon-ScoutDrones.html#method___construct"
         },                {
-            "fqsen": "\\Smr\\Combat\\Weapon\\ScoutDrones\u003A\u003AgetModifiedAccuracy\u0028\u0029",
-            "name": "getModifiedAccuracy",
+            "fqsen": "\\Smr\\Combat\\Weapon\\ScoutDrones\u003A\u003AgetModifiedAccuracyAgainstTarget\u0028\u0029",
+            "name": "getModifiedAccuracyAgainstTarget",
             "summary": "",
-            "url": "classes/Smr-Combat-Weapon-ScoutDrones.html#method_getModifiedAccuracy"
+            "url": "classes/Smr-Combat-Weapon-ScoutDrones.html#method_getModifiedAccuracyAgainstTarget"
         },                {
-            "fqsen": "\\Smr\\Combat\\Weapon\\ScoutDrones\u003A\u003AgetModifiedForceAccuracyAgainstPlayer\u0028\u0029",
-            "name": "getModifiedForceAccuracyAgainstPlayer",
+            "fqsen": "\\Smr\\Combat\\Weapon\\ScoutDrones\u003A\u003AgetModifiedDamageAgainstTarget\u0028\u0029",
+            "name": "getModifiedDamageAgainstTarget",
             "summary": "",
-            "url": "classes/Smr-Combat-Weapon-ScoutDrones.html#method_getModifiedForceAccuracyAgainstPlayer"
+            "url": "classes/Smr-Combat-Weapon-ScoutDrones.html#method_getModifiedDamageAgainstTarget"
         },                {
-            "fqsen": "\\Smr\\Combat\\Weapon\\ScoutDrones\u003A\u003AgetModifiedForceAccuracyAgainstPlayerUsingRandom\u0028\u0029",
-            "name": "getModifiedForceAccuracyAgainstPlayerUsingRandom",
+            "fqsen": "\\Smr\\Combat\\Weapon\\ScoutDrones\u003A\u003Ashoot\u0028\u0029",
+            "name": "shoot",
             "summary": "",
-            "url": "classes/Smr-Combat-Weapon-ScoutDrones.html#method_getModifiedForceAccuracyAgainstPlayerUsingRandom"
-        },                {
-            "fqsen": "\\Smr\\Combat\\Weapon\\ScoutDrones\u003A\u003AgetModifiedDamageAgainstForces\u0028\u0029",
-            "name": "getModifiedDamageAgainstForces",
-            "summary": "",
-            "url": "classes/Smr-Combat-Weapon-ScoutDrones.html#method_getModifiedDamageAgainstForces"
-        },                {
-            "fqsen": "\\Smr\\Combat\\Weapon\\ScoutDrones\u003A\u003AgetModifiedDamageAgainstPort\u0028\u0029",
-            "name": "getModifiedDamageAgainstPort",
-            "summary": "",
-            "url": "classes/Smr-Combat-Weapon-ScoutDrones.html#method_getModifiedDamageAgainstPort"
-        },                {
-            "fqsen": "\\Smr\\Combat\\Weapon\\ScoutDrones\u003A\u003AgetModifiedDamageAgainstPlanet\u0028\u0029",
-            "name": "getModifiedDamageAgainstPlanet",
-            "summary": "",
-            "url": "classes/Smr-Combat-Weapon-ScoutDrones.html#method_getModifiedDamageAgainstPlanet"
-        },                {
-            "fqsen": "\\Smr\\Combat\\Weapon\\ScoutDrones\u003A\u003AgetModifiedDamageAgainstPlayer\u0028\u0029",
-            "name": "getModifiedDamageAgainstPlayer",
-            "summary": "",
-            "url": "classes/Smr-Combat-Weapon-ScoutDrones.html#method_getModifiedDamageAgainstPlayer"
-        },                {
-            "fqsen": "\\Smr\\Combat\\Weapon\\ScoutDrones\u003A\u003AgetModifiedPortDamageAgainstPlayer\u0028\u0029",
-            "name": "getModifiedPortDamageAgainstPlayer",
-            "summary": "",
-            "url": "classes/Smr-Combat-Weapon-ScoutDrones.html#method_getModifiedPortDamageAgainstPlayer"
-        },                {
-            "fqsen": "\\Smr\\Combat\\Weapon\\ScoutDrones\u003A\u003AgetModifiedPlanetDamageAgainstPlayer\u0028\u0029",
-            "name": "getModifiedPlanetDamageAgainstPlayer",
-            "summary": "",
-            "url": "classes/Smr-Combat-Weapon-ScoutDrones.html#method_getModifiedPlanetDamageAgainstPlayer"
-        },                {
-            "fqsen": "\\Smr\\Combat\\Weapon\\ScoutDrones\u003A\u003AgetModifiedForceDamageAgainstPlayer\u0028\u0029",
-            "name": "getModifiedForceDamageAgainstPlayer",
-            "summary": "",
-            "url": "classes/Smr-Combat-Weapon-ScoutDrones.html#method_getModifiedForceDamageAgainstPlayer"
-        },                {
-            "fqsen": "\\Smr\\Combat\\Weapon\\ScoutDrones\u003A\u003AshootForces\u0028\u0029",
-            "name": "shootForces",
-            "summary": "",
-            "url": "classes/Smr-Combat-Weapon-ScoutDrones.html#method_shootForces"
-        },                {
-            "fqsen": "\\Smr\\Combat\\Weapon\\ScoutDrones\u003A\u003AshootPlayer\u0028\u0029",
-            "name": "shootPlayer",
-            "summary": "",
-            "url": "classes/Smr-Combat-Weapon-ScoutDrones.html#method_shootPlayer"
-        },                {
-            "fqsen": "\\Smr\\Combat\\Weapon\\ScoutDrones\u003A\u003AshootPlayerAsForce\u0028\u0029",
-            "name": "shootPlayerAsForce",
-            "summary": "",
-            "url": "classes/Smr-Combat-Weapon-ScoutDrones.html#method_shootPlayerAsForce"
+            "url": "classes/Smr-Combat-Weapon-ScoutDrones.html#method_shoot"
         },                {
             "fqsen": "\\Smr\\Combat\\Weapon\\Weapon",
             "name": "Weapon",
@@ -4366,10 +4666,10 @@ Search.appendIndex(
             "summary": "Ships\u0020are\u0020only\u0020allowed\u0020to\u0020equip\u0020one\u0020of\u0020each\u0020type\u0020of\u0020Unique\u0020weapon",
             "url": "classes/Smr-Combat-Weapon-Weapon.html#method_isUniqueType"
         },                {
-            "fqsen": "\\Smr\\Combat\\Weapon\\Weapon\u003A\u003AgetWeightedRandomForPlayer\u0028\u0029",
-            "name": "getWeightedRandomForPlayer",
+            "fqsen": "\\Smr\\Combat\\Weapon\\Weapon\u003A\u003AgetWeightedRandom\u0028\u0029",
+            "name": "getWeightedRandom",
             "summary": "",
-            "url": "classes/Smr-Combat-Weapon-Weapon.html#method_getWeightedRandomForPlayer"
+            "url": "classes/Smr-Combat-Weapon-Weapon.html#method_getWeightedRandom"
         },                {
             "fqsen": "\\Smr\\Combat\\Weapon\\Weapon\u003A\u003AcheckHit\u0028\u0029",
             "name": "checkHit",
@@ -4381,120 +4681,40 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/Smr-Combat-Weapon-Weapon.html#method_getPlayerLevelAccuracyMod"
         },                {
-            "fqsen": "\\Smr\\Combat\\Weapon\\Weapon\u003A\u003AgetModifiedAccuracy\u0028\u0029",
-            "name": "getModifiedAccuracy",
+            "fqsen": "\\Smr\\Combat\\Weapon\\Weapon\u003A\u003AgetModifiedPlayerAccuracy\u0028\u0029",
+            "name": "getModifiedPlayerAccuracy",
             "summary": "",
-            "url": "classes/Smr-Combat-Weapon-Weapon.html#method_getModifiedAccuracy"
-        },                {
-            "fqsen": "\\Smr\\Combat\\Weapon\\Weapon\u003A\u003AgetModifiedAccuracyAgainstForces\u0028\u0029",
-            "name": "getModifiedAccuracyAgainstForces",
-            "summary": "",
-            "url": "classes/Smr-Combat-Weapon-Weapon.html#method_getModifiedAccuracyAgainstForces"
-        },                {
-            "fqsen": "\\Smr\\Combat\\Weapon\\Weapon\u003A\u003AgetModifiedAccuracyAgainstPort\u0028\u0029",
-            "name": "getModifiedAccuracyAgainstPort",
-            "summary": "",
-            "url": "classes/Smr-Combat-Weapon-Weapon.html#method_getModifiedAccuracyAgainstPort"
-        },                {
-            "fqsen": "\\Smr\\Combat\\Weapon\\Weapon\u003A\u003AgetModifiedAccuracyAgainstPlanet\u0028\u0029",
-            "name": "getModifiedAccuracyAgainstPlanet",
-            "summary": "",
-            "url": "classes/Smr-Combat-Weapon-Weapon.html#method_getModifiedAccuracyAgainstPlanet"
-        },                {
-            "fqsen": "\\Smr\\Combat\\Weapon\\Weapon\u003A\u003AgetModifiedAccuracyAgainstPlayer\u0028\u0029",
-            "name": "getModifiedAccuracyAgainstPlayer",
-            "summary": "",
-            "url": "classes/Smr-Combat-Weapon-Weapon.html#method_getModifiedAccuracyAgainstPlayer"
+            "url": "classes/Smr-Combat-Weapon-Weapon.html#method_getModifiedPlayerAccuracy"
         },                {
             "fqsen": "\\Smr\\Combat\\Weapon\\Weapon\u003A\u003AgetModifiedPortAccuracy\u0028\u0029",
             "name": "getModifiedPortAccuracy",
             "summary": "",
             "url": "classes/Smr-Combat-Weapon-Weapon.html#method_getModifiedPortAccuracy"
         },                {
-            "fqsen": "\\Smr\\Combat\\Weapon\\Weapon\u003A\u003AgetModifiedPortAccuracyAgainstPlayer\u0028\u0029",
-            "name": "getModifiedPortAccuracyAgainstPlayer",
+            "fqsen": "\\Smr\\Combat\\Weapon\\Weapon\u003A\u003AgetPlanetAccuracy\u0028\u0029",
+            "name": "getPlanetAccuracy",
             "summary": "",
-            "url": "classes/Smr-Combat-Weapon-Weapon.html#method_getModifiedPortAccuracyAgainstPlayer"
+            "url": "classes/Smr-Combat-Weapon-Weapon.html#method_getPlanetAccuracy"
         },                {
             "fqsen": "\\Smr\\Combat\\Weapon\\Weapon\u003A\u003AgetModifiedPlanetAccuracy\u0028\u0029",
             "name": "getModifiedPlanetAccuracy",
             "summary": "",
             "url": "classes/Smr-Combat-Weapon-Weapon.html#method_getModifiedPlanetAccuracy"
         },                {
-            "fqsen": "\\Smr\\Combat\\Weapon\\Weapon\u003A\u003AgetModifiedPlanetAccuracyAgainstPlayer\u0028\u0029",
-            "name": "getModifiedPlanetAccuracyAgainstPlayer",
+            "fqsen": "\\Smr\\Combat\\Weapon\\Weapon\u003A\u003AgetModifiedAccuracyAgainstTarget\u0028\u0029",
+            "name": "getModifiedAccuracyAgainstTarget",
             "summary": "",
-            "url": "classes/Smr-Combat-Weapon-Weapon.html#method_getModifiedPlanetAccuracyAgainstPlayer"
+            "url": "classes/Smr-Combat-Weapon-Weapon.html#method_getModifiedAccuracyAgainstTarget"
         },                {
-            "fqsen": "\\Smr\\Combat\\Weapon\\Weapon\u003A\u003AgetModifiedDamageAgainstForces\u0028\u0029",
-            "name": "getModifiedDamageAgainstForces",
+            "fqsen": "\\Smr\\Combat\\Weapon\\Weapon\u003A\u003AgetModifiedDamageAgainstTarget\u0028\u0029",
+            "name": "getModifiedDamageAgainstTarget",
             "summary": "",
-            "url": "classes/Smr-Combat-Weapon-Weapon.html#method_getModifiedDamageAgainstForces"
+            "url": "classes/Smr-Combat-Weapon-Weapon.html#method_getModifiedDamageAgainstTarget"
         },                {
-            "fqsen": "\\Smr\\Combat\\Weapon\\Weapon\u003A\u003AgetModifiedDamageAgainstPort\u0028\u0029",
-            "name": "getModifiedDamageAgainstPort",
+            "fqsen": "\\Smr\\Combat\\Weapon\\Weapon\u003A\u003Ashoot\u0028\u0029",
+            "name": "shoot",
             "summary": "",
-            "url": "classes/Smr-Combat-Weapon-Weapon.html#method_getModifiedDamageAgainstPort"
-        },                {
-            "fqsen": "\\Smr\\Combat\\Weapon\\Weapon\u003A\u003AgetModifiedDamageAgainstPlanet\u0028\u0029",
-            "name": "getModifiedDamageAgainstPlanet",
-            "summary": "",
-            "url": "classes/Smr-Combat-Weapon-Weapon.html#method_getModifiedDamageAgainstPlanet"
-        },                {
-            "fqsen": "\\Smr\\Combat\\Weapon\\Weapon\u003A\u003AgetModifiedForceDamageAgainstPlayer\u0028\u0029",
-            "name": "getModifiedForceDamageAgainstPlayer",
-            "summary": "",
-            "url": "classes/Smr-Combat-Weapon-Weapon.html#method_getModifiedForceDamageAgainstPlayer"
-        },                {
-            "fqsen": "\\Smr\\Combat\\Weapon\\Weapon\u003A\u003AgetModifiedDamageAgainstPlayer\u0028\u0029",
-            "name": "getModifiedDamageAgainstPlayer",
-            "summary": "",
-            "url": "classes/Smr-Combat-Weapon-Weapon.html#method_getModifiedDamageAgainstPlayer"
-        },                {
-            "fqsen": "\\Smr\\Combat\\Weapon\\Weapon\u003A\u003AgetModifiedPortDamageAgainstPlayer\u0028\u0029",
-            "name": "getModifiedPortDamageAgainstPlayer",
-            "summary": "",
-            "url": "classes/Smr-Combat-Weapon-Weapon.html#method_getModifiedPortDamageAgainstPlayer"
-        },                {
-            "fqsen": "\\Smr\\Combat\\Weapon\\Weapon\u003A\u003AgetModifiedPlanetDamageAgainstPlayer\u0028\u0029",
-            "name": "getModifiedPlanetDamageAgainstPlayer",
-            "summary": "",
-            "url": "classes/Smr-Combat-Weapon-Weapon.html#method_getModifiedPlanetDamageAgainstPlayer"
-        },                {
-            "fqsen": "\\Smr\\Combat\\Weapon\\Weapon\u003A\u003AshootForces\u0028\u0029",
-            "name": "shootForces",
-            "summary": "",
-            "url": "classes/Smr-Combat-Weapon-Weapon.html#method_shootForces"
-        },                {
-            "fqsen": "\\Smr\\Combat\\Weapon\\Weapon\u003A\u003AshootPort\u0028\u0029",
-            "name": "shootPort",
-            "summary": "",
-            "url": "classes/Smr-Combat-Weapon-Weapon.html#method_shootPort"
-        },                {
-            "fqsen": "\\Smr\\Combat\\Weapon\\Weapon\u003A\u003AshootPlanet\u0028\u0029",
-            "name": "shootPlanet",
-            "summary": "",
-            "url": "classes/Smr-Combat-Weapon-Weapon.html#method_shootPlanet"
-        },                {
-            "fqsen": "\\Smr\\Combat\\Weapon\\Weapon\u003A\u003AshootPlayer\u0028\u0029",
-            "name": "shootPlayer",
-            "summary": "",
-            "url": "classes/Smr-Combat-Weapon-Weapon.html#method_shootPlayer"
-        },                {
-            "fqsen": "\\Smr\\Combat\\Weapon\\Weapon\u003A\u003AshootPlayerAsForce\u0028\u0029",
-            "name": "shootPlayerAsForce",
-            "summary": "",
-            "url": "classes/Smr-Combat-Weapon-Weapon.html#method_shootPlayerAsForce"
-        },                {
-            "fqsen": "\\Smr\\Combat\\Weapon\\Weapon\u003A\u003AshootPlayerAsPort\u0028\u0029",
-            "name": "shootPlayerAsPort",
-            "summary": "",
-            "url": "classes/Smr-Combat-Weapon-Weapon.html#method_shootPlayerAsPort"
-        },                {
-            "fqsen": "\\Smr\\Combat\\Weapon\\Weapon\u003A\u003AshootPlayerAsPlanet\u0028\u0029",
-            "name": "shootPlayerAsPlanet",
-            "summary": "",
-            "url": "classes/Smr-Combat-Weapon-Weapon.html#method_shootPlayerAsPlanet"
+            "url": "classes/Smr-Combat-Weapon-Weapon.html#method_shoot"
         },                {
             "fqsen": "\\Smr\\Combat\\Weapon\\Weapon\u003A\u003ABONUS_DAMAGE",
             "name": "BONUS_DAMAGE",
@@ -4535,6 +4755,31 @@ Search.appendIndex(
             "name": "weaponTypeID",
             "summary": "",
             "url": "classes/Smr-Combat-Weapon-Weapon.html#property_weaponTypeID"
+        },                {
+            "fqsen": "\\Smr\\Combat\\WeaponShotAtCombatant",
+            "name": "WeaponShotAtCombatant",
+            "summary": "",
+            "url": "classes/Smr-Combat-WeaponShotAtCombatant.html"
+        },                {
+            "fqsen": "\\Smr\\Combat\\WeaponShotAtCombatant\u003A\u003A__construct\u0028\u0029",
+            "name": "__construct",
+            "summary": "Stores\u0020the\u0020weapon\u0020shot\u0020context\u0020until\u0020the\u0020weapon\u0020evaluates\u0020killing\u0020shot\u0020status.",
+            "url": "classes/Smr-Combat-WeaponShotAtCombatant.html#method___construct"
+        },                {
+            "fqsen": "\\Smr\\Combat\\WeaponShotAtCombatant\u003A\u003A\u0024resolveKill",
+            "name": "resolveKill",
+            "summary": "",
+            "url": "classes/Smr-Combat-WeaponShotAtCombatant.html#property_resolveKill"
+        },                {
+            "fqsen": "\\Smr\\Combat\\WeaponShotAtCombatant\u003A\u003A\u0024shooter",
+            "name": "shooter",
+            "summary": "",
+            "url": "classes/Smr-Combat-WeaponShotAtCombatant.html#property_shooter"
+        },                {
+            "fqsen": "\\Smr\\Combat\\WeaponShotAtCombatant\u003A\u003A\u0024target",
+            "name": "target",
+            "summary": "",
+            "url": "classes/Smr-Combat-WeaponShotAtCombatant.html#property_target"
         },                {
             "fqsen": "\\Smr\\CombatLogType",
             "name": "CombatLogType",
@@ -5801,20 +6046,20 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/Smr-Force.html#method_addSDs"
         },                {
-            "fqsen": "\\Smr\\Force\u003A\u003AtakeMines\u0028\u0029",
-            "name": "takeMines",
+            "fqsen": "\\Smr\\Force\u003A\u003AdecreaseMines\u0028\u0029",
+            "name": "decreaseMines",
             "summary": "",
-            "url": "classes/Smr-Force.html#method_takeMines"
+            "url": "classes/Smr-Force.html#method_decreaseMines"
         },                {
-            "fqsen": "\\Smr\\Force\u003A\u003AtakeCDs\u0028\u0029",
-            "name": "takeCDs",
+            "fqsen": "\\Smr\\Force\u003A\u003AdecreaseCDs\u0028\u0029",
+            "name": "decreaseCDs",
             "summary": "",
-            "url": "classes/Smr-Force.html#method_takeCDs"
+            "url": "classes/Smr-Force.html#method_decreaseCDs"
         },                {
-            "fqsen": "\\Smr\\Force\u003A\u003AtakeSDs\u0028\u0029",
-            "name": "takeSDs",
+            "fqsen": "\\Smr\\Force\u003A\u003AdecreaseSDs\u0028\u0029",
+            "name": "decreaseSDs",
             "summary": "",
-            "url": "classes/Smr-Force.html#method_takeSDs"
+            "url": "classes/Smr-Force.html#method_decreaseSDs"
         },                {
             "fqsen": "\\Smr\\Force\u003A\u003AsetMines\u0028\u0029",
             "name": "setMines",
@@ -5996,10 +6241,30 @@ Search.appendIndex(
             "summary": "Returns\u0020the\u0020number\u0020of\u0020SDs\u0020destroyed",
             "url": "classes/Smr-Force.html#method_takeDamageToSDs"
         },                {
-            "fqsen": "\\Smr\\Force\u003A\u003AkillForcesByPlayer\u0028\u0029",
-            "name": "killForcesByPlayer",
+            "fqsen": "\\Smr\\Force\u003A\u003AkillBy\u0028\u0029",
+            "name": "killBy",
             "summary": "",
-            "url": "classes/Smr-Force.html#method_killForcesByPlayer"
+            "url": "classes/Smr-Force.html#method_killBy"
+        },                {
+            "fqsen": "\\Smr\\Force\u003A\u003AreduceDamageDoneDCS\u0028\u0029",
+            "name": "reduceDamageDoneDCS",
+            "summary": "Factor\u0020to\u0020multiply\u0020drone\u0020damage\u0020by\u0020if\u0020target\u0020player\u0020has\u0020a\u0020DCS.",
+            "url": "classes/Smr-Force.html#method_reduceDamageDoneDCS"
+        },                {
+            "fqsen": "\\Smr\\Force\u003A\u003AgetCombatID\u0028\u0029",
+            "name": "getCombatID",
+            "summary": "",
+            "url": "classes/Smr-Force.html#method_getCombatID"
+        },                {
+            "fqsen": "\\Smr\\Force\u003A\u003AgetCombatName\u0028\u0029",
+            "name": "getCombatName",
+            "summary": "",
+            "url": "classes/Smr-Force.html#method_getCombatName"
+        },                {
+            "fqsen": "\\Smr\\Force\u003A\u003AgetLevel\u0028\u0029",
+            "name": "getLevel",
+            "summary": "",
+            "url": "classes/Smr-Force.html#method_getLevel"
         },                {
             "fqsen": "\\Smr\\Force\u003A\u003ALOWEST_MAX_EXPIRE_SCOUTS_ONLY",
             "name": "LOWEST_MAX_EXPIRE_SCOUTS_ONLY",
@@ -8811,6 +9076,11 @@ Search.appendIndex(
             "summary": "Returns\u0020the\u0020name\u0020of\u0020the\u0020planet,\u0020intended\u0020for\u0020combat\u0020messages.",
             "url": "classes/Smr-Planet.html#method_getCombatName"
         },                {
+            "fqsen": "\\Smr\\Planet\u003A\u003AgetCombatID\u0028\u0029",
+            "name": "getCombatID",
+            "summary": "",
+            "url": "classes/Smr-Planet.html#method_getCombatID"
+        },                {
             "fqsen": "\\Smr\\Planet\u003A\u003AisInhabitable\u0028\u0029",
             "name": "isInhabitable",
             "summary": "",
@@ -8901,6 +9171,16 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/Smr-Planet.html#method_shootPlayers"
         },                {
+            "fqsen": "\\Smr\\Planet\u003A\u003AisDestroyed\u0028\u0029",
+            "name": "isDestroyed",
+            "summary": "",
+            "url": "classes/Smr-Planet.html#method_isDestroyed"
+        },                {
+            "fqsen": "\\Smr\\Planet\u003A\u003AcreateCombatDrones\u0028\u0029",
+            "name": "createCombatDrones",
+            "summary": "",
+            "url": "classes/Smr-Planet.html#method_createCombatDrones"
+        },                {
             "fqsen": "\\Smr\\Planet\u003A\u003AcheckForDowngrade\u0028\u0029",
             "name": "checkForDowngrade",
             "summary": "Returns\u0020an\u0020array\u0020of\u0020structure\u0020losses\u0020due\u0020to\u0020damage\u0020taken.",
@@ -8931,10 +9211,15 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/Smr-Planet.html#method_creditCurrentAttackersForKill"
         },                {
-            "fqsen": "\\Smr\\Planet\u003A\u003AkillPlanetByPlayer\u0028\u0029",
-            "name": "killPlanetByPlayer",
+            "fqsen": "\\Smr\\Planet\u003A\u003AkillBy\u0028\u0029",
+            "name": "killBy",
             "summary": "",
-            "url": "classes/Smr-Planet.html#method_killPlanetByPlayer"
+            "url": "classes/Smr-Planet.html#method_killBy"
+        },                {
+            "fqsen": "\\Smr\\Planet\u003A\u003AreduceDamageDoneDCS\u0028\u0029",
+            "name": "reduceDamageDoneDCS",
+            "summary": "Factor\u0020to\u0020multiply\u0020drone\u0020damage\u0020by\u0020if\u0020target\u0020player\u0020has\u0020a\u0020DCS.",
+            "url": "classes/Smr-Planet.html#method_reduceDamageDoneDCS"
         },                {
             "fqsen": "\\Smr\\Planet\u003A\u003ADAMAGE_NEEDED_FOR_DOWNGRADE_CHANCE",
             "name": "DAMAGE_NEEDED_FOR_DOWNGRADE_CHANCE",
@@ -11631,6 +11916,16 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/Smr-Port.html#method_getDisplayName"
         },                {
+            "fqsen": "\\Smr\\Port\u003A\u003AgetCombatName\u0028\u0029",
+            "name": "getCombatName",
+            "summary": "",
+            "url": "classes/Smr-Port.html#method_getCombatName"
+        },                {
+            "fqsen": "\\Smr\\Port\u003A\u003AgetCombatID\u0028\u0029",
+            "name": "getCombatID",
+            "summary": "",
+            "url": "classes/Smr-Port.html#method_getCombatID"
+        },                {
             "fqsen": "\\Smr\\Port\u003A\u003AsetShields\u0028\u0029",
             "name": "setShields",
             "summary": "",
@@ -11971,6 +12266,16 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/Smr-Port.html#method_shootPlayers"
         },                {
+            "fqsen": "\\Smr\\Port\u003A\u003AisDestroyed\u0028\u0029",
+            "name": "isDestroyed",
+            "summary": "",
+            "url": "classes/Smr-Port.html#method_isDestroyed"
+        },                {
+            "fqsen": "\\Smr\\Port\u003A\u003AcreateCombatDrones\u0028\u0029",
+            "name": "createCombatDrones",
+            "summary": "",
+            "url": "classes/Smr-Port.html#method_createCombatDrones"
+        },                {
             "fqsen": "\\Smr\\Port\u003A\u003AtakeDamage\u0028\u0029",
             "name": "takeDamage",
             "summary": "",
@@ -12036,10 +12341,15 @@ Search.appendIndex(
             "summary": "Can\u0020ports\u0020be\u0020destroyed\u0020after\u0020a\u0020successful\u0020port\u0020raid\u003F",
             "url": "classes/Smr-Port.html#method_canBeDestroyed"
         },                {
-            "fqsen": "\\Smr\\Port\u003A\u003AkillPortByPlayer\u0028\u0029",
-            "name": "killPortByPlayer",
+            "fqsen": "\\Smr\\Port\u003A\u003AkillBy\u0028\u0029",
+            "name": "killBy",
             "summary": "",
-            "url": "classes/Smr-Port.html#method_killPortByPlayer"
+            "url": "classes/Smr-Port.html#method_killBy"
+        },                {
+            "fqsen": "\\Smr\\Port\u003A\u003AreduceDamageDoneDCS\u0028\u0029",
+            "name": "reduceDamageDoneDCS",
+            "summary": "Factor\u0020to\u0020multiply\u0020drone\u0020damage\u0020by\u0020if\u0020target\u0020player\u0020has\u0020a\u0020DCS.",
+            "url": "classes/Smr-Port.html#method_reduceDamageDoneDCS"
         },                {
             "fqsen": "\\Smr\\Port\u003A\u003AFED_BOUNTY_PER_DAMAGE",
             "name": "FED_BOUNTY_PER_DAMAGE",
@@ -15031,15 +15341,40 @@ Search.appendIndex(
             "summary": "",
             "url": "namespaces/smr-chess.html"
         },                {
+            "fqsen": "\\Smr\\Combat",
+            "name": "Combat",
+            "summary": "",
+            "url": "namespaces/smr-combat.html"
+        },                {
+            "fqsen": "\\Smr\\Combat\\Results\\Combatant",
+            "name": "Combatant",
+            "summary": "",
+            "url": "namespaces/smr-combat-results-combatant.html"
+        },                {
             "fqsen": "\\Smr\\Combat\\Results",
             "name": "Results",
             "summary": "",
             "url": "namespaces/smr-combat-results.html"
         },                {
-            "fqsen": "\\Smr\\Combat",
-            "name": "Combat",
+            "fqsen": "\\Smr\\Combat\\Results\\Damage",
+            "name": "Damage",
             "summary": "",
-            "url": "namespaces/smr-combat.html"
+            "url": "namespaces/smr-combat-results-damage.html"
+        },                {
+            "fqsen": "\\Smr\\Combat\\Results\\Full",
+            "name": "Full",
+            "summary": "",
+            "url": "namespaces/smr-combat-results-full.html"
+        },                {
+            "fqsen": "\\Smr\\Combat\\Results\\Kill",
+            "name": "Kill",
+            "summary": "",
+            "url": "namespaces/smr-combat-results-kill.html"
+        },                {
+            "fqsen": "\\Smr\\Combat\\Results\\Weapon",
+            "name": "Weapon",
+            "summary": "",
+            "url": "namespaces/smr-combat-results-weapon.html"
         },                {
             "fqsen": "\\Smr\\Combat\\Weapon",
             "name": "Weapon",
