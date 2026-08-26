@@ -10296,6 +10296,11 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/Smr-Player.html#method_updateTurns"
         },                {
+            "fqsen": "\\Smr\\Player\u003A\u003AsetLastTurnUpdateFromTurnsChange\u0028\u0029",
+            "name": "setLastTurnUpdateFromTurnsChange",
+            "summary": "Set\u0020the\u0020new\u0020lastTurnUpdate\u0020time\u0020corresponding\u0020to\u0020a\u0020given\u0020change\u0020in\u0020turns.",
+            "url": "classes/Smr-Player.html#method_setLastTurnUpdateFromTurnsChange"
+        },                {
             "fqsen": "\\Smr\\Player\u003A\u003AgetLastTurnUpdate\u0028\u0029",
             "name": "getLastTurnUpdate",
             "summary": "",
