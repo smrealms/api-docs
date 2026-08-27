@@ -7901,6 +7901,11 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/Smr-Planet.html#method_createPlanet"
         },                {
+            "fqsen": "\\Smr\\Planet\u003A\u003AmovePlanet\u0028\u0029",
+            "name": "movePlanet",
+            "summary": "Move\u0020a\u0020planet,\u0020its\u0020completed\u0020buildings,\u0020mounted\u0020weapons,\u0020and\u0020landed\u0020players\nto\u0020another\u0020sector.",
+            "url": "classes/Smr-Planet.html#method_movePlanet"
+        },                {
             "fqsen": "\\Smr\\Planet\u003A\u003AremovePlanet\u0028\u0029",
             "name": "removePlanet",
             "summary": "",
