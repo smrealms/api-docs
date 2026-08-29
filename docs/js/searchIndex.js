@@ -12811,6 +12811,11 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/Smr-Sector.html#method_getPort"
         },                {
+            "fqsen": "\\Smr\\Sector\u003A\u003AgetPortOrNull\u0028\u0029",
+            "name": "getPortOrNull",
+            "summary": "",
+            "url": "classes/Smr-Sector.html#method_getPortOrNull"
+        },                {
             "fqsen": "\\Smr\\Sector\u003A\u003AcreatePort\u0028\u0029",
             "name": "createPort",
             "summary": "",
@@ -12830,6 +12835,11 @@ Search.appendIndex(
             "name": "getCachedPort",
             "summary": "",
             "url": "classes/Smr-Sector.html#method_getCachedPort"
+        },                {
+            "fqsen": "\\Smr\\Sector\u003A\u003AgetCachedPortOrNull\u0028\u0029",
+            "name": "getCachedPortOrNull",
+            "summary": "",
+            "url": "classes/Smr-Sector.html#method_getCachedPortOrNull"
         },                {
             "fqsen": "\\Smr\\Sector\u003A\u003AhasAnyLocationsWithAction\u0028\u0029",
             "name": "hasAnyLocationsWithAction",
@@ -13218,7 +13228,7 @@ Search.appendIndex(
         },                {
             "fqsen": "\\Smr\\SectorsFile\u003A\u003Acreate\u0028\u0029",
             "name": "create",
-            "summary": "",
+            "summary": "Create\u0020a\u0020\u0022.smr\u0022\u0020sectors\u0020file.\u0020If\u0020player\u0020is\u0020null,\u0020create\u0020with\u0020admin\u0020vision.",
             "url": "classes/Smr-SectorsFile.html#method_create"
         },                {
             "fqsen": "\\Smr\\Session",
