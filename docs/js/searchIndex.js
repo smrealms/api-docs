@@ -12881,6 +12881,11 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/Smr-Sector.html#method_getPlanet"
         },                {
+            "fqsen": "\\Smr\\Sector\u003A\u003AgetPlanetOrNull\u0028\u0029",
+            "name": "getPlanetOrNull",
+            "summary": "",
+            "url": "classes/Smr-Sector.html#method_getPlanetOrNull"
+        },                {
             "fqsen": "\\Smr\\Sector\u003A\u003AcreatePlanet\u0028\u0029",
             "name": "createPlanet",
             "summary": "",
