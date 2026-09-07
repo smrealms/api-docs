@@ -4221,6 +4221,26 @@ Search.appendIndex(
             "summary": "Returns\u0020the\u0020size\u0020of\u0020the\u0020current\u0020database\u0020in\u0020bytes.",
             "url": "classes/Smr-Database.html#method_getDbBytes"
         },                {
+            "fqsen": "\\Smr\\Database\u003A\u003AbeginTransaction\u0028\u0029",
+            "name": "beginTransaction",
+            "summary": "Start\u0020a\u0020transaction\u0020for\u0020InnoDB\u0020operations.",
+            "url": "classes/Smr-Database.html#method_beginTransaction"
+        },                {
+            "fqsen": "\\Smr\\Database\u003A\u003Acommit\u0028\u0029",
+            "name": "commit",
+            "summary": "Commit\u0020the\u0020active\u0020InnoDB\u0020transaction.",
+            "url": "classes/Smr-Database.html#method_commit"
+        },                {
+            "fqsen": "\\Smr\\Database\u003A\u003ArollBack\u0028\u0029",
+            "name": "rollBack",
+            "summary": "Roll\u0020back\u0020the\u0020active\u0020InnoDB\u0020transaction.",
+            "url": "classes/Smr-Database.html#method_rollBack"
+        },                {
+            "fqsen": "\\Smr\\Database\u003A\u003AisTransactionActive\u0028\u0029",
+            "name": "isTransactionActive",
+            "summary": "Return\u0020whether\u0020this\u0020connection\u0020has\u0020an\u0020active\u0020InnoDB\u0020transaction.",
+            "url": "classes/Smr-Database.html#method_isTransactionActive"
+        },                {
             "fqsen": "\\Smr\\Database\u003A\u003Awrite\u0028\u0029",
             "name": "write",
             "summary": "Perform\u0020a\u0020write\u002Donly\u0020query\u0020on\u0020the\u0020database.",
@@ -12500,6 +12520,21 @@ Search.appendIndex(
             "name": "route",
             "summary": "",
             "url": "classes/Smr-Routes-RouteIterator.html#property_route"
+        },                {
+            "fqsen": "\\Smr\\RowLockMode",
+            "name": "RowLockMode",
+            "summary": "InnoDB\u0020row\u002Dlocking\u0020modes\u0020for\u0020SELECT\u0020statements\u0020in\u0020an\u0020active\u0020transaction.",
+            "url": "classes/Smr-RowLockMode.html"
+        },                {
+            "fqsen": "\\Smr\\RowLockMode\u003A\u003AShare",
+            "name": "Share",
+            "summary": "",
+            "url": "classes/Smr-RowLockMode.html#enumcase_Share"
+        },                {
+            "fqsen": "\\Smr\\RowLockMode\u003A\u003AUpdate",
+            "name": "Update",
+            "summary": "",
+            "url": "classes/Smr-RowLockMode.html#enumcase_Update"
         },                {
             "fqsen": "\\Smr\\ScoutMessageGroupType",
             "name": "ScoutMessageGroupType",
