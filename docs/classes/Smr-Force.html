@@ -270,7 +270,7 @@
             <dt class="phpdocumentor-table-of-contents__entry -constant -public">
     <a class="" href="classes/Smr-Force.html#constant_SQL">SQL</a>
     <span>
-        &nbsp;: string&nbsp;= &#039;game_id = :game_id AND sector_id = :sector_id...                            </span>
+        &nbsp;: string&nbsp;= &#039;sector_id = :sector_id AND owner_player_id = :...                            </span>
 </dt>
 
             <dt class="phpdocumentor-table-of-contents__entry -constant -protected">
@@ -355,7 +355,7 @@
 </dt>
 
             <dt class="phpdocumentor-table-of-contents__entry -property -protected">
-    <a class="" href="classes/Smr-Force.html#property_ownerID">$ownerID</a>
+    <a class="" href="classes/Smr-Force.html#property_ownerPlayerID">$ownerPlayerID</a>
     <span>
                         &nbsp;: int            </span>
 </dt>
@@ -375,7 +375,7 @@
             <dt class="phpdocumentor-table-of-contents__entry -property -protected">
     <a class="" href="classes/Smr-Force.html#property_SQLID">$SQLID</a>
     <span>
-                        &nbsp;: array{game_id: int, sector_id: int, owner_id: int}            </span>
+                        &nbsp;: array{sector_id: int, owner_player_id: int}            </span>
 </dt>
 
             <dt class="phpdocumentor-table-of-contents__entry -property -protected">
@@ -567,7 +567,7 @@
 </dt>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
-    <a class="" href="classes/Smr-Force.html#method_getOwnerID">getOwnerID()</a>
+    <a class="" href="classes/Smr-Force.html#method_getOwnerPlayerID">getOwnerPlayerID()</a>
     <span>
                                 &nbsp;: int    </span>
 </dt>
@@ -974,7 +974,7 @@
     <span class="phpdocumentor-signature__visibility">public</span>
         <span class="phpdocumentor-signature__type">string</span>
     <span class="phpdocumentor-signature__name">SQL</span>
-    = <span class="phpdocumentor-signature__default-value">&#039;game_id = :game_id AND sector_id = :sector_id AND owner_id = :owner_id&#039;</span>
+    = <span class="phpdocumentor-signature__default-value">&#039;sector_id = :sector_id AND owner_player_id = :owner_player_id&#039;</span>
 </code>
 
 
@@ -1428,9 +1428,9 @@
             -protected
                                                 -read-only                    "
 >
-    <h4 class="phpdocumentor-element__name" id="property_ownerID">
-        $ownerID
-        <a href="classes/Smr-Force.html#property_ownerID" class="headerlink"><i class="fas fa-link"></i></a>
+    <h4 class="phpdocumentor-element__name" id="property_ownerPlayerID">
+        $ownerPlayerID
+        <a href="classes/Smr-Force.html#property_ownerPlayerID" class="headerlink"><i class="fas fa-link"></i></a>
 
         <span class="phpdocumentor-element__modifiers">
                         <small class="phpdocumentor-element__modifier">read-only</small>                    </span>
@@ -1448,7 +1448,7 @@
     <code class="phpdocumentor-code phpdocumentor-signature ">
         <span class="phpdocumentor-signature__visibility">protected</span>
             <span class="phpdocumentor-signature__type">int</span>
-    <span class="phpdocumentor-signature__name">$ownerID</span>
+    <span class="phpdocumentor-signature__name">$ownerPlayerID</span>
     </code>
 
     
@@ -1561,7 +1561,7 @@
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
         <span class="phpdocumentor-signature__visibility">protected</span>
-            <span class="phpdocumentor-signature__type">array{game_id: int, sector_id: int, owner_id: int}</span>
+            <span class="phpdocumentor-signature__type">array{sector_id: int, owner_player_id: int}</span>
     <span class="phpdocumentor-signature__name">$SQLID</span>
     </code>
 
@@ -1668,9 +1668,9 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Force.php"><a href="files/src-lib-smr-force.html"><abbr title="src/lib/Smr/Force.php">Force.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">234</span>
+    <span class="phpdocumentor-element-found-in__line">233</span>
 
-            <a href="classes/Smr-Force.html#source-view.234" class="phpdocumentor-element-found-in__source" data-line="234" data-modal="source-view" data-src="files/src/lib/Smr/Force.php.txt"></a>
+            <a href="classes/Smr-Force.html#source-view.233" class="phpdocumentor-element-found-in__source" data-line="233" data-modal="source-view" data-src="files/src/lib/Smr/Force.php.txt"></a>
     </aside>
 
     
@@ -1713,9 +1713,9 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Force.php"><a href="files/src-lib-smr-force.html"><abbr title="src/lib/Smr/Force.php">Force.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">227</span>
+    <span class="phpdocumentor-element-found-in__line">226</span>
 
-            <a href="classes/Smr-Force.html#source-view.227" class="phpdocumentor-element-found-in__source" data-line="227" data-modal="source-view" data-src="files/src/lib/Smr/Force.php.txt"></a>
+            <a href="classes/Smr-Force.html#source-view.226" class="phpdocumentor-element-found-in__source" data-line="226" data-modal="source-view" data-src="files/src/lib/Smr/Force.php.txt"></a>
     </aside>
 
     
@@ -1758,9 +1758,9 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Force.php"><a href="files/src-lib-smr-force.html"><abbr title="src/lib/Smr/Force.php">Force.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">241</span>
+    <span class="phpdocumentor-element-found-in__line">240</span>
 
-            <a href="classes/Smr-Force.html#source-view.241" class="phpdocumentor-element-found-in__source" data-line="241" data-modal="source-view" data-src="files/src/lib/Smr/Force.php.txt"></a>
+            <a href="classes/Smr-Force.html#source-view.240" class="phpdocumentor-element-found-in__source" data-line="240" data-modal="source-view" data-src="files/src/lib/Smr/Force.php.txt"></a>
     </aside>
 
     
@@ -1838,9 +1838,9 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Force.php"><a href="files/src-lib-smr-force.html"><abbr title="src/lib/Smr/Force.php">Force.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">255</span>
+    <span class="phpdocumentor-element-found-in__line">254</span>
 
-            <a href="classes/Smr-Force.html#source-view.255" class="phpdocumentor-element-found-in__source" data-line="255" data-modal="source-view" data-src="files/src/lib/Smr/Force.php.txt"></a>
+            <a href="classes/Smr-Force.html#source-view.254" class="phpdocumentor-element-found-in__source" data-line="254" data-modal="source-view" data-src="files/src/lib/Smr/Force.php.txt"></a>
     </aside>
 
     
@@ -1883,9 +1883,9 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Force.php"><a href="files/src-lib-smr-force.html"><abbr title="src/lib/Smr/Force.php">Force.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">248</span>
+    <span class="phpdocumentor-element-found-in__line">247</span>
 
-            <a href="classes/Smr-Force.html#source-view.248" class="phpdocumentor-element-found-in__source" data-line="248" data-modal="source-view" data-src="files/src/lib/Smr/Force.php.txt"></a>
+            <a href="classes/Smr-Force.html#source-view.247" class="phpdocumentor-element-found-in__source" data-line="247" data-modal="source-view" data-src="files/src/lib/Smr/Force.php.txt"></a>
     </aside>
 
     
@@ -1928,9 +1928,9 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Force.php"><a href="files/src-lib-smr-force.html"><abbr title="src/lib/Smr/Force.php">Force.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">262</span>
+    <span class="phpdocumentor-element-found-in__line">261</span>
 
-            <a href="classes/Smr-Force.html#source-view.262" class="phpdocumentor-element-found-in__source" data-line="262" data-modal="source-view" data-src="files/src/lib/Smr/Force.php.txt"></a>
+            <a href="classes/Smr-Force.html#source-view.261" class="phpdocumentor-element-found-in__source" data-line="261" data-modal="source-view" data-src="files/src/lib/Smr/Force.php.txt"></a>
     </aside>
 
     
@@ -1973,9 +1973,9 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Force.php"><a href="files/src-lib-smr-force.html"><abbr title="src/lib/Smr/Force.php">Force.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">187</span>
+    <span class="phpdocumentor-element-found-in__line">186</span>
 
-            <a href="classes/Smr-Force.html#source-view.187" class="phpdocumentor-element-found-in__source" data-line="187" data-modal="source-view" data-src="files/src/lib/Smr/Force.php.txt"></a>
+            <a href="classes/Smr-Force.html#source-view.186" class="phpdocumentor-element-found-in__source" data-line="186" data-modal="source-view" data-src="files/src/lib/Smr/Force.php.txt"></a>
     </aside>
 
     
@@ -2012,9 +2012,9 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Force.php"><a href="files/src-lib-smr-force.html"><abbr title="src/lib/Smr/Force.php">Force.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">467</span>
+    <span class="phpdocumentor-element-found-in__line">472</span>
 
-            <a href="classes/Smr-Force.html#source-view.467" class="phpdocumentor-element-found-in__source" data-line="467" data-modal="source-view" data-src="files/src/lib/Smr/Force.php.txt"></a>
+            <a href="classes/Smr-Force.html#source-view.472" class="phpdocumentor-element-found-in__source" data-line="472" data-modal="source-view" data-src="files/src/lib/Smr/Force.php.txt"></a>
     </aside>
 
     
@@ -2051,9 +2051,9 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Force.php"><a href="files/src-lib-smr-force.html"><abbr title="src/lib/Smr/Force.php">Force.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">374</span>
+    <span class="phpdocumentor-element-found-in__line">373</span>
 
-            <a href="classes/Smr-Force.html#source-view.374" class="phpdocumentor-element-found-in__source" data-line="374" data-modal="source-view" data-src="files/src/lib/Smr/Force.php.txt"></a>
+            <a href="classes/Smr-Force.html#source-view.373" class="phpdocumentor-element-found-in__source" data-line="373" data-modal="source-view" data-src="files/src/lib/Smr/Force.php.txt"></a>
     </aside>
 
     
@@ -2100,9 +2100,9 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Force.php"><a href="files/src-lib-smr-force.html"><abbr title="src/lib/Smr/Force.php">Force.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">350</span>
+    <span class="phpdocumentor-element-found-in__line">349</span>
 
-            <a href="classes/Smr-Force.html#source-view.350" class="phpdocumentor-element-found-in__source" data-line="350" data-modal="source-view" data-src="files/src/lib/Smr/Force.php.txt"></a>
+            <a href="classes/Smr-Force.html#source-view.349" class="phpdocumentor-element-found-in__source" data-line="349" data-modal="source-view" data-src="files/src/lib/Smr/Force.php.txt"></a>
     </aside>
 
     
@@ -2149,9 +2149,9 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Force.php"><a href="files/src-lib-smr-force.html"><abbr title="src/lib/Smr/Force.php">Force.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">215</span>
+    <span class="phpdocumentor-element-found-in__line">214</span>
 
-            <a href="classes/Smr-Force.html#source-view.215" class="phpdocumentor-element-found-in__source" data-line="215" data-modal="source-view" data-src="files/src/lib/Smr/Force.php.txt"></a>
+            <a href="classes/Smr-Force.html#source-view.214" class="phpdocumentor-element-found-in__source" data-line="214" data-modal="source-view" data-src="files/src/lib/Smr/Force.php.txt"></a>
     </aside>
 
     
@@ -2188,9 +2188,9 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Force.php"><a href="files/src-lib-smr-force.html"><abbr title="src/lib/Smr/Force.php">Force.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">632</span>
+    <span class="phpdocumentor-element-found-in__line">637</span>
 
-            <a href="classes/Smr-Force.html#source-view.632" class="phpdocumentor-element-found-in__source" data-line="632" data-modal="source-view" data-src="files/src/lib/Smr/Force.php.txt"></a>
+            <a href="classes/Smr-Force.html#source-view.637" class="phpdocumentor-element-found-in__source" data-line="637" data-modal="source-view" data-src="files/src/lib/Smr/Force.php.txt"></a>
     </aside>
 
     
@@ -2227,9 +2227,9 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Force.php"><a href="files/src-lib-smr-force.html"><abbr title="src/lib/Smr/Force.php">Force.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">636</span>
+    <span class="phpdocumentor-element-found-in__line">641</span>
 
-            <a href="classes/Smr-Force.html#source-view.636" class="phpdocumentor-element-found-in__source" data-line="636" data-modal="source-view" data-src="files/src/lib/Smr/Force.php.txt"></a>
+            <a href="classes/Smr-Force.html#source-view.641" class="phpdocumentor-element-found-in__source" data-line="641" data-modal="source-view" data-src="files/src/lib/Smr/Force.php.txt"></a>
     </aside>
 
     
@@ -2266,9 +2266,9 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Force.php"><a href="files/src-lib-smr-force.html"><abbr title="src/lib/Smr/Force.php">Force.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">487</span>
+    <span class="phpdocumentor-element-found-in__line">492</span>
 
-            <a href="classes/Smr-Force.html#source-view.487" class="phpdocumentor-element-found-in__source" data-line="487" data-modal="source-view" data-src="files/src/lib/Smr/Force.php.txt"></a>
+            <a href="classes/Smr-Force.html#source-view.492" class="phpdocumentor-element-found-in__source" data-line="492" data-modal="source-view" data-src="files/src/lib/Smr/Force.php.txt"></a>
     </aside>
 
     
@@ -2305,9 +2305,9 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Force.php"><a href="files/src-lib-smr-force.html"><abbr title="src/lib/Smr/Force.php">Force.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">497</span>
+    <span class="phpdocumentor-element-found-in__line">502</span>
 
-            <a href="classes/Smr-Force.html#source-view.497" class="phpdocumentor-element-found-in__source" data-line="497" data-modal="source-view" data-src="files/src/lib/Smr/Force.php.txt"></a>
+            <a href="classes/Smr-Force.html#source-view.502" class="phpdocumentor-element-found-in__source" data-line="502" data-modal="source-view" data-src="files/src/lib/Smr/Force.php.txt"></a>
     </aside>
 
     
@@ -2344,9 +2344,9 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Force.php"><a href="files/src-lib-smr-force.html"><abbr title="src/lib/Smr/Force.php">Force.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">477</span>
+    <span class="phpdocumentor-element-found-in__line">482</span>
 
-            <a href="classes/Smr-Force.html#source-view.477" class="phpdocumentor-element-found-in__source" data-line="477" data-modal="source-view" data-src="files/src/lib/Smr/Force.php.txt"></a>
+            <a href="classes/Smr-Force.html#source-view.482" class="phpdocumentor-element-found-in__source" data-line="482" data-modal="source-view" data-src="files/src/lib/Smr/Force.php.txt"></a>
     </aside>
 
     
@@ -2383,9 +2383,9 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Force.php"><a href="files/src-lib-smr-force.html"><abbr title="src/lib/Smr/Force.php">Force.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">462</span>
+    <span class="phpdocumentor-element-found-in__line">467</span>
 
-            <a href="classes/Smr-Force.html#source-view.462" class="phpdocumentor-element-found-in__source" data-line="462" data-modal="source-view" data-src="files/src/lib/Smr/Force.php.txt"></a>
+            <a href="classes/Smr-Force.html#source-view.467" class="phpdocumentor-element-found-in__source" data-line="467" data-modal="source-view" data-src="files/src/lib/Smr/Force.php.txt"></a>
     </aside>
 
     
@@ -2422,9 +2422,9 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Force.php"><a href="files/src-lib-smr-force.html"><abbr title="src/lib/Smr/Force.php">Force.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">306</span>
+    <span class="phpdocumentor-element-found-in__line">305</span>
 
-            <a href="classes/Smr-Force.html#source-view.306" class="phpdocumentor-element-found-in__source" data-line="306" data-modal="source-view" data-src="files/src/lib/Smr/Force.php.txt"></a>
+            <a href="classes/Smr-Force.html#source-view.305" class="phpdocumentor-element-found-in__source" data-line="305" data-modal="source-view" data-src="files/src/lib/Smr/Force.php.txt"></a>
     </aside>
 
     
@@ -2469,7 +2469,7 @@
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">public</span>
-            <span class="phpdocumentor-signature__static">static</span>        <span class="phpdocumentor-signature__name">getForce</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__type">int&nbsp;</span><span class="phpdocumentor-signature__argument__name">$gameID</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__type">int&nbsp;</span><span class="phpdocumentor-signature__argument__name">$sectorID</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__type">int&nbsp;</span><span class="phpdocumentor-signature__argument__name">$ownerID</span></span><span class="phpdocumentor-signature__argument"><span>[</span><span>, </span><span class="phpdocumentor-signature__argument__type">bool&nbsp;</span><span class="phpdocumentor-signature__argument__name">$forceUpdate</span><span> = </span><span class="phpdocumentor-signature__argument__default-value">false</span><span> ]</span></span><span class="phpdocumentor-signature__argument"><span>[</span><span>, </span><span class="phpdocumentor-signature__argument__type"><a href="classes/Smr-DatabaseRecord.html"><abbr title="\Smr\DatabaseRecord">DatabaseRecord</abbr></a>|null&nbsp;</span><span class="phpdocumentor-signature__argument__name">$dbRecord</span><span> = </span><span class="phpdocumentor-signature__argument__default-value">null</span><span> ]</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">self</span></code>
+            <span class="phpdocumentor-signature__static">static</span>        <span class="phpdocumentor-signature__name">getForce</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__type">int&nbsp;</span><span class="phpdocumentor-signature__argument__name">$gameID</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__type">int&nbsp;</span><span class="phpdocumentor-signature__argument__name">$sectorID</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__type">int&nbsp;</span><span class="phpdocumentor-signature__argument__name">$ownerPlayerID</span></span><span class="phpdocumentor-signature__argument"><span>[</span><span>, </span><span class="phpdocumentor-signature__argument__type">bool&nbsp;</span><span class="phpdocumentor-signature__argument__name">$forceUpdate</span><span> = </span><span class="phpdocumentor-signature__argument__default-value">false</span><span> ]</span></span><span class="phpdocumentor-signature__argument"><span>[</span><span>, </span><span class="phpdocumentor-signature__argument__type"><a href="classes/Smr-DatabaseRecord.html"><abbr title="\Smr\DatabaseRecord">DatabaseRecord</abbr></a>|null&nbsp;</span><span class="phpdocumentor-signature__argument__name">$dbRecord</span><span> = </span><span class="phpdocumentor-signature__argument__default-value">null</span><span> ]</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">self</span></code>
 
     <div class="phpdocumentor-label-line">
         </div>
@@ -2492,7 +2492,7 @@
                 
             </dd>
                     <dt class="phpdocumentor-argument-list__entry">
-                <span class="phpdocumentor-argument-list__argument__name">$ownerID</span>
+                <span class="phpdocumentor-argument-list__argument__name">$ownerPlayerID</span>
                 : <span class="phpdocumentor-argument-list__argument__type">int</span>
                             </dt>
             <dd class="phpdocumentor-argument-list__definition">
@@ -2538,9 +2538,9 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Force.php"><a href="files/src-lib-smr-force.html"><abbr title="src/lib/Smr/Force.php">Force.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">407</span>
+    <span class="phpdocumentor-element-found-in__line">411</span>
 
-            <a href="classes/Smr-Force.html#source-view.407" class="phpdocumentor-element-found-in__source" data-line="407" data-modal="source-view" data-src="files/src/lib/Smr/Force.php.txt"></a>
+            <a href="classes/Smr-Force.html#source-view.411" class="phpdocumentor-element-found-in__source" data-line="411" data-modal="source-view" data-src="files/src/lib/Smr/Force.php.txt"></a>
     </aside>
 
     
@@ -2640,9 +2640,9 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Force.php"><a href="files/src-lib-smr-force.html"><abbr title="src/lib/Smr/Force.php">Force.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">385</span>
+    <span class="phpdocumentor-element-found-in__line">384</span>
 
-            <a href="classes/Smr-Force.html#source-view.385" class="phpdocumentor-element-found-in__source" data-line="385" data-modal="source-view" data-src="files/src/lib/Smr/Force.php.txt"></a>
+            <a href="classes/Smr-Force.html#source-view.384" class="phpdocumentor-element-found-in__source" data-line="384" data-modal="source-view" data-src="files/src/lib/Smr/Force.php.txt"></a>
     </aside>
 
     
@@ -2679,9 +2679,9 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Force.php"><a href="files/src-lib-smr-force.html"><abbr title="src/lib/Smr/Force.php">Force.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">640</span>
+    <span class="phpdocumentor-element-found-in__line">645</span>
 
-            <a href="classes/Smr-Force.html#source-view.640" class="phpdocumentor-element-found-in__source" data-line="640" data-modal="source-view" data-src="files/src/lib/Smr/Force.php.txt"></a>
+            <a href="classes/Smr-Force.html#source-view.645" class="phpdocumentor-element-found-in__source" data-line="645" data-modal="source-view" data-src="files/src/lib/Smr/Force.php.txt"></a>
     </aside>
 
     
@@ -2718,9 +2718,9 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Force.php"><a href="files/src-lib-smr-force.html"><abbr title="src/lib/Smr/Force.php">Force.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">336</span>
+    <span class="phpdocumentor-element-found-in__line">335</span>
 
-            <a href="classes/Smr-Force.html#source-view.336" class="phpdocumentor-element-found-in__source" data-line="336" data-modal="source-view" data-src="files/src/lib/Smr/Force.php.txt"></a>
+            <a href="classes/Smr-Force.html#source-view.335" class="phpdocumentor-element-found-in__source" data-line="335" data-modal="source-view" data-src="files/src/lib/Smr/Force.php.txt"></a>
     </aside>
 
     
@@ -2757,9 +2757,9 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Force.php"><a href="files/src-lib-smr-force.html"><abbr title="src/lib/Smr/Force.php">Force.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">346</span>
+    <span class="phpdocumentor-element-found-in__line">345</span>
 
-            <a href="classes/Smr-Force.html#source-view.346" class="phpdocumentor-element-found-in__source" data-line="346" data-modal="source-view" data-src="files/src/lib/Smr/Force.php.txt"></a>
+            <a href="classes/Smr-Force.html#source-view.345" class="phpdocumentor-element-found-in__source" data-line="345" data-modal="source-view" data-src="files/src/lib/Smr/Force.php.txt"></a>
     </aside>
 
     
@@ -2796,9 +2796,9 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Force.php"><a href="files/src-lib-smr-force.html"><abbr title="src/lib/Smr/Force.php">Force.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">223</span>
+    <span class="phpdocumentor-element-found-in__line">222</span>
 
-            <a href="classes/Smr-Force.html#source-view.223" class="phpdocumentor-element-found-in__source" data-line="223" data-modal="source-view" data-src="files/src/lib/Smr/Force.php.txt"></a>
+            <a href="classes/Smr-Force.html#source-view.222" class="phpdocumentor-element-found-in__source" data-line="222" data-modal="source-view" data-src="files/src/lib/Smr/Force.php.txt"></a>
     </aside>
 
     
@@ -2835,9 +2835,9 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Force.php"><a href="files/src-lib-smr-force.html"><abbr title="src/lib/Smr/Force.php">Force.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">411</span>
+    <span class="phpdocumentor-element-found-in__line">415</span>
 
-            <a href="classes/Smr-Force.html#source-view.411" class="phpdocumentor-element-found-in__source" data-line="411" data-modal="source-view" data-src="files/src/lib/Smr/Force.php.txt"></a>
+            <a href="classes/Smr-Force.html#source-view.415" class="phpdocumentor-element-found-in__source" data-line="415" data-modal="source-view" data-src="files/src/lib/Smr/Force.php.txt"></a>
     </aside>
 
     
@@ -2866,23 +2866,23 @@
             -public
                                                         "
 >
-    <h4 class="phpdocumentor-element__name" id="method_getOwnerID">
-        getOwnerID()
-        <a href="classes/Smr-Force.html#method_getOwnerID" class="headerlink"><i class="fas fa-link"></i></a>
+    <h4 class="phpdocumentor-element__name" id="method_getOwnerPlayerID">
+        getOwnerPlayerID()
+        <a href="classes/Smr-Force.html#method_getOwnerPlayerID" class="headerlink"><i class="fas fa-link"></i></a>
 
     </h4>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Force.php"><a href="files/src-lib-smr-force.html"><abbr title="src/lib/Smr/Force.php">Force.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">381</span>
+    <span class="phpdocumentor-element-found-in__line">380</span>
 
-            <a href="classes/Smr-Force.html#source-view.381" class="phpdocumentor-element-found-in__source" data-line="381" data-modal="source-view" data-src="files/src/lib/Smr/Force.php.txt"></a>
+            <a href="classes/Smr-Force.html#source-view.380" class="phpdocumentor-element-found-in__source" data-line="380" data-modal="source-view" data-src="files/src/lib/Smr/Force.php.txt"></a>
     </aside>
 
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">public</span>
-                    <span class="phpdocumentor-signature__name">getOwnerID</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">int</span></code>
+                    <span class="phpdocumentor-signature__name">getOwnerPlayerID</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">int</span></code>
 
     <div class="phpdocumentor-label-line">
         </div>
@@ -2913,9 +2913,9 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Force.php"><a href="files/src-lib-smr-force.html"><abbr title="src/lib/Smr/Force.php">Force.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">507</span>
+    <span class="phpdocumentor-element-found-in__line">512</span>
 
-            <a href="classes/Smr-Force.html#source-view.507" class="phpdocumentor-element-found-in__source" data-line="507" data-modal="source-view" data-src="files/src/lib/Smr/Force.php.txt"></a>
+            <a href="classes/Smr-Force.html#source-view.512" class="phpdocumentor-element-found-in__source" data-line="512" data-modal="source-view" data-src="files/src/lib/Smr/Force.php.txt"></a>
     </aside>
 
     
@@ -2952,9 +2952,9 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Force.php"><a href="files/src-lib-smr-force.html"><abbr title="src/lib/Smr/Force.php">Force.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">472</span>
+    <span class="phpdocumentor-element-found-in__line">477</span>
 
-            <a href="classes/Smr-Force.html#source-view.472" class="phpdocumentor-element-found-in__source" data-line="472" data-modal="source-view" data-src="files/src/lib/Smr/Force.php.txt"></a>
+            <a href="classes/Smr-Force.html#source-view.477" class="phpdocumentor-element-found-in__source" data-line="477" data-modal="source-view" data-src="files/src/lib/Smr/Force.php.txt"></a>
     </aside>
 
     
@@ -2991,9 +2991,9 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Force.php"><a href="files/src-lib-smr-force.html"><abbr title="src/lib/Smr/Force.php">Force.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">219</span>
+    <span class="phpdocumentor-element-found-in__line">218</span>
 
-            <a href="classes/Smr-Force.html#source-view.219" class="phpdocumentor-element-found-in__source" data-line="219" data-modal="source-view" data-src="files/src/lib/Smr/Force.php.txt"></a>
+            <a href="classes/Smr-Force.html#source-view.218" class="phpdocumentor-element-found-in__source" data-line="218" data-modal="source-view" data-src="files/src/lib/Smr/Force.php.txt"></a>
     </aside>
 
     
@@ -3030,9 +3030,9 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Force.php"><a href="files/src-lib-smr-force.html"><abbr title="src/lib/Smr/Force.php">Force.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">389</span>
+    <span class="phpdocumentor-element-found-in__line">388</span>
 
-            <a href="classes/Smr-Force.html#source-view.389" class="phpdocumentor-element-found-in__source" data-line="389" data-modal="source-view" data-src="files/src/lib/Smr/Force.php.txt"></a>
+            <a href="classes/Smr-Force.html#source-view.388" class="phpdocumentor-element-found-in__source" data-line="388" data-modal="source-view" data-src="files/src/lib/Smr/Force.php.txt"></a>
     </aside>
 
     
@@ -3132,9 +3132,9 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Force.php"><a href="files/src-lib-smr-force.html"><abbr title="src/lib/Smr/Force.php">Force.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">393</span>
+    <span class="phpdocumentor-element-found-in__line">392</span>
 
-            <a href="classes/Smr-Force.html#source-view.393" class="phpdocumentor-element-found-in__source" data-line="393" data-modal="source-view" data-src="files/src/lib/Smr/Force.php.txt"></a>
+            <a href="classes/Smr-Force.html#source-view.392" class="phpdocumentor-element-found-in__source" data-line="392" data-modal="source-view" data-src="files/src/lib/Smr/Force.php.txt"></a>
     </aside>
 
     
@@ -3171,9 +3171,9 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Force.php"><a href="files/src-lib-smr-force.html"><abbr title="src/lib/Smr/Force.php">Force.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">492</span>
+    <span class="phpdocumentor-element-found-in__line">497</span>
 
-            <a href="classes/Smr-Force.html#source-view.492" class="phpdocumentor-element-found-in__source" data-line="492" data-modal="source-view" data-src="files/src/lib/Smr/Force.php.txt"></a>
+            <a href="classes/Smr-Force.html#source-view.497" class="phpdocumentor-element-found-in__source" data-line="497" data-modal="source-view" data-src="files/src/lib/Smr/Force.php.txt"></a>
     </aside>
 
     
@@ -3210,9 +3210,9 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Force.php"><a href="files/src-lib-smr-force.html"><abbr title="src/lib/Smr/Force.php">Force.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">502</span>
+    <span class="phpdocumentor-element-found-in__line">507</span>
 
-            <a href="classes/Smr-Force.html#source-view.502" class="phpdocumentor-element-found-in__source" data-line="502" data-modal="source-view" data-src="files/src/lib/Smr/Force.php.txt"></a>
+            <a href="classes/Smr-Force.html#source-view.507" class="phpdocumentor-element-found-in__source" data-line="507" data-modal="source-view" data-src="files/src/lib/Smr/Force.php.txt"></a>
     </aside>
 
     
@@ -3249,9 +3249,9 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Force.php"><a href="files/src-lib-smr-force.html"><abbr title="src/lib/Smr/Force.php">Force.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">482</span>
+    <span class="phpdocumentor-element-found-in__line">487</span>
 
-            <a href="classes/Smr-Force.html#source-view.482" class="phpdocumentor-element-found-in__source" data-line="482" data-modal="source-view" data-src="files/src/lib/Smr/Force.php.txt"></a>
+            <a href="classes/Smr-Force.html#source-view.487" class="phpdocumentor-element-found-in__source" data-line="487" data-modal="source-view" data-src="files/src/lib/Smr/Force.php.txt"></a>
     </aside>
 
     
@@ -3288,9 +3288,9 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Force.php"><a href="files/src-lib-smr-force.html"><abbr title="src/lib/Smr/Force.php">Force.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">203</span>
+    <span class="phpdocumentor-element-found-in__line">202</span>
 
-            <a href="classes/Smr-Force.html#source-view.203" class="phpdocumentor-element-found-in__source" data-line="203" data-modal="source-view" data-src="files/src/lib/Smr/Force.php.txt"></a>
+            <a href="classes/Smr-Force.html#source-view.202" class="phpdocumentor-element-found-in__source" data-line="202" data-modal="source-view" data-src="files/src/lib/Smr/Force.php.txt"></a>
     </aside>
 
     
@@ -3327,9 +3327,9 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Force.php"><a href="files/src-lib-smr-force.html"><abbr title="src/lib/Smr/Force.php">Force.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">302</span>
+    <span class="phpdocumentor-element-found-in__line">301</span>
 
-            <a href="classes/Smr-Force.html#source-view.302" class="phpdocumentor-element-found-in__source" data-line="302" data-modal="source-view" data-src="files/src/lib/Smr/Force.php.txt"></a>
+            <a href="classes/Smr-Force.html#source-view.301" class="phpdocumentor-element-found-in__source" data-line="301" data-modal="source-view" data-src="files/src/lib/Smr/Force.php.txt"></a>
     </aside>
 
     
@@ -3366,9 +3366,9 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Force.php"><a href="files/src-lib-smr-force.html"><abbr title="src/lib/Smr/Force.php">Force.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">191</span>
+    <span class="phpdocumentor-element-found-in__line">190</span>
 
-            <a href="classes/Smr-Force.html#source-view.191" class="phpdocumentor-element-found-in__source" data-line="191" data-modal="source-view" data-src="files/src/lib/Smr/Force.php.txt"></a>
+            <a href="classes/Smr-Force.html#source-view.190" class="phpdocumentor-element-found-in__source" data-line="190" data-modal="source-view" data-src="files/src/lib/Smr/Force.php.txt"></a>
     </aside>
 
     
@@ -3405,9 +3405,9 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Force.php"><a href="files/src-lib-smr-force.html"><abbr title="src/lib/Smr/Force.php">Force.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">199</span>
+    <span class="phpdocumentor-element-found-in__line">198</span>
 
-            <a href="classes/Smr-Force.html#source-view.199" class="phpdocumentor-element-found-in__source" data-line="199" data-modal="source-view" data-src="files/src/lib/Smr/Force.php.txt"></a>
+            <a href="classes/Smr-Force.html#source-view.198" class="phpdocumentor-element-found-in__source" data-line="198" data-modal="source-view" data-src="files/src/lib/Smr/Force.php.txt"></a>
     </aside>
 
     
@@ -3444,9 +3444,9 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Force.php"><a href="files/src-lib-smr-force.html"><abbr title="src/lib/Smr/Force.php">Force.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">195</span>
+    <span class="phpdocumentor-element-found-in__line">194</span>
 
-            <a href="classes/Smr-Force.html#source-view.195" class="phpdocumentor-element-found-in__source" data-line="195" data-modal="source-view" data-src="files/src/lib/Smr/Force.php.txt"></a>
+            <a href="classes/Smr-Force.html#source-view.194" class="phpdocumentor-element-found-in__source" data-line="194" data-modal="source-view" data-src="files/src/lib/Smr/Force.php.txt"></a>
     </aside>
 
     
@@ -3483,9 +3483,9 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Force.php"><a href="files/src-lib-smr-force.html"><abbr title="src/lib/Smr/Force.php">Force.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">211</span>
+    <span class="phpdocumentor-element-found-in__line">210</span>
 
-            <a href="classes/Smr-Force.html#source-view.211" class="phpdocumentor-element-found-in__source" data-line="211" data-modal="source-view" data-src="files/src/lib/Smr/Force.php.txt"></a>
+            <a href="classes/Smr-Force.html#source-view.210" class="phpdocumentor-element-found-in__source" data-line="210" data-modal="source-view" data-src="files/src/lib/Smr/Force.php.txt"></a>
     </aside>
 
     
@@ -3522,9 +3522,9 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Force.php"><a href="files/src-lib-smr-force.html"><abbr title="src/lib/Smr/Force.php">Force.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">207</span>
+    <span class="phpdocumentor-element-found-in__line">206</span>
 
-            <a href="classes/Smr-Force.html#source-view.207" class="phpdocumentor-element-found-in__source" data-line="207" data-modal="source-view" data-src="files/src/lib/Smr/Force.php.txt"></a>
+            <a href="classes/Smr-Force.html#source-view.206" class="phpdocumentor-element-found-in__source" data-line="206" data-modal="source-view" data-src="files/src/lib/Smr/Force.php.txt"></a>
     </aside>
 
     
@@ -3561,9 +3561,9 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Force.php"><a href="files/src-lib-smr-force.html"><abbr title="src/lib/Smr/Force.php">Force.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">624</span>
+    <span class="phpdocumentor-element-found-in__line">629</span>
 
-            <a href="classes/Smr-Force.html#source-view.624" class="phpdocumentor-element-found-in__source" data-line="624" data-modal="source-view" data-src="files/src/lib/Smr/Force.php.txt"></a>
+            <a href="classes/Smr-Force.html#source-view.629" class="phpdocumentor-element-found-in__source" data-line="629" data-modal="source-view" data-src="files/src/lib/Smr/Force.php.txt"></a>
     </aside>
 
     
@@ -3610,9 +3610,9 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Force.php"><a href="files/src-lib-smr-force.html"><abbr title="src/lib/Smr/Force.php">Force.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">397</span>
+    <span class="phpdocumentor-element-found-in__line">396</span>
 
-            <a href="classes/Smr-Force.html#source-view.397" class="phpdocumentor-element-found-in__source" data-line="397" data-modal="source-view" data-src="files/src/lib/Smr/Force.php.txt"></a>
+            <a href="classes/Smr-Force.html#source-view.396" class="phpdocumentor-element-found-in__source" data-line="396" data-modal="source-view" data-src="files/src/lib/Smr/Force.php.txt"></a>
     </aside>
 
     
@@ -3669,9 +3669,9 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Force.php"><a href="files/src-lib-smr-force.html"><abbr title="src/lib/Smr/Force.php">Force.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">628</span>
+    <span class="phpdocumentor-element-found-in__line">633</span>
 
-            <a href="classes/Smr-Force.html#source-view.628" class="phpdocumentor-element-found-in__source" data-line="628" data-modal="source-view" data-src="files/src/lib/Smr/Force.php.txt"></a>
+            <a href="classes/Smr-Force.html#source-view.633" class="phpdocumentor-element-found-in__source" data-line="633" data-modal="source-view" data-src="files/src/lib/Smr/Force.php.txt"></a>
     </aside>
 
         <p class="phpdocumentor-summary">Factor to multiply drone damage by if target player has a DCS.</p>
@@ -3744,9 +3744,9 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Force.php"><a href="files/src-lib-smr-force.html"><abbr title="src/lib/Smr/Force.php">Force.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">280</span>
+    <span class="phpdocumentor-element-found-in__line">279</span>
 
-            <a href="classes/Smr-Force.html#source-view.280" class="phpdocumentor-element-found-in__source" data-line="280" data-modal="source-view" data-src="files/src/lib/Smr/Force.php.txt"></a>
+            <a href="classes/Smr-Force.html#source-view.279" class="phpdocumentor-element-found-in__source" data-line="279" data-modal="source-view" data-src="files/src/lib/Smr/Force.php.txt"></a>
     </aside>
 
     
@@ -3789,9 +3789,9 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Force.php"><a href="files/src-lib-smr-force.html"><abbr title="src/lib/Smr/Force.php">Force.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">310</span>
+    <span class="phpdocumentor-element-found-in__line">309</span>
 
-            <a href="classes/Smr-Force.html#source-view.310" class="phpdocumentor-element-found-in__source" data-line="310" data-modal="source-view" data-src="files/src/lib/Smr/Force.php.txt"></a>
+            <a href="classes/Smr-Force.html#source-view.309" class="phpdocumentor-element-found-in__source" data-line="309" data-modal="source-view" data-src="files/src/lib/Smr/Force.php.txt"></a>
     </aside>
 
     
@@ -3834,9 +3834,9 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Force.php"><a href="files/src-lib-smr-force.html"><abbr title="src/lib/Smr/Force.php">Force.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">368</span>
+    <span class="phpdocumentor-element-found-in__line">367</span>
 
-            <a href="classes/Smr-Force.html#source-view.368" class="phpdocumentor-element-found-in__source" data-line="368" data-modal="source-view" data-src="files/src/lib/Smr/Force.php.txt"></a>
+            <a href="classes/Smr-Force.html#source-view.367" class="phpdocumentor-element-found-in__source" data-line="367" data-modal="source-view" data-src="files/src/lib/Smr/Force.php.txt"></a>
     </aside>
 
     
@@ -3869,9 +3869,9 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Force.php"><a href="files/src-lib-smr-force.html"><abbr title="src/lib/Smr/Force.php">Force.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">269</span>
+    <span class="phpdocumentor-element-found-in__line">268</span>
 
-            <a href="classes/Smr-Force.html#source-view.269" class="phpdocumentor-element-found-in__source" data-line="269" data-modal="source-view" data-src="files/src/lib/Smr/Force.php.txt"></a>
+            <a href="classes/Smr-Force.html#source-view.268" class="phpdocumentor-element-found-in__source" data-line="268" data-modal="source-view" data-src="files/src/lib/Smr/Force.php.txt"></a>
     </aside>
 
     
@@ -3914,9 +3914,9 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Force.php"><a href="files/src-lib-smr-force.html"><abbr title="src/lib/Smr/Force.php">Force.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">291</span>
+    <span class="phpdocumentor-element-found-in__line">290</span>
 
-            <a href="classes/Smr-Force.html#source-view.291" class="phpdocumentor-element-found-in__source" data-line="291" data-modal="source-view" data-src="files/src/lib/Smr/Force.php.txt"></a>
+            <a href="classes/Smr-Force.html#source-view.290" class="phpdocumentor-element-found-in__source" data-line="290" data-modal="source-view" data-src="files/src/lib/Smr/Force.php.txt"></a>
     </aside>
 
     
@@ -3959,9 +3959,9 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Force.php"><a href="files/src-lib-smr-force.html"><abbr title="src/lib/Smr/Force.php">Force.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">515</span>
+    <span class="phpdocumentor-element-found-in__line">520</span>
 
-            <a href="classes/Smr-Force.html#source-view.515" class="phpdocumentor-element-found-in__source" data-line="515" data-modal="source-view" data-src="files/src/lib/Smr/Force.php.txt"></a>
+            <a href="classes/Smr-Force.html#source-view.520" class="phpdocumentor-element-found-in__source" data-line="520" data-modal="source-view" data-src="files/src/lib/Smr/Force.php.txt"></a>
     </aside>
 
     
@@ -4015,9 +4015,9 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Force.php"><a href="files/src-lib-smr-force.html"><abbr title="src/lib/Smr/Force.php">Force.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">553</span>
+    <span class="phpdocumentor-element-found-in__line">558</span>
 
-            <a href="classes/Smr-Force.html#source-view.553" class="phpdocumentor-element-found-in__source" data-line="553" data-modal="source-view" data-src="files/src/lib/Smr/Force.php.txt"></a>
+            <a href="classes/Smr-Force.html#source-view.558" class="phpdocumentor-element-found-in__source" data-line="558" data-modal="source-view" data-src="files/src/lib/Smr/Force.php.txt"></a>
     </aside>
 
     
@@ -4109,9 +4109,9 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Force.php"><a href="files/src-lib-smr-force.html"><abbr title="src/lib/Smr/Force.php">Force.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">415</span>
+    <span class="phpdocumentor-element-found-in__line">419</span>
 
-            <a href="classes/Smr-Force.html#source-view.415" class="phpdocumentor-element-found-in__source" data-line="415" data-modal="source-view" data-src="files/src/lib/Smr/Force.php.txt"></a>
+            <a href="classes/Smr-Force.html#source-view.419" class="phpdocumentor-element-found-in__source" data-line="419" data-modal="source-view" data-src="files/src/lib/Smr/Force.php.txt"></a>
     </aside>
 
     
@@ -4144,9 +4144,9 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Force.php"><a href="files/src-lib-smr-force.html"><abbr title="src/lib/Smr/Force.php">Force.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">324</span>
+    <span class="phpdocumentor-element-found-in__line">323</span>
 
-            <a href="classes/Smr-Force.html#source-view.324" class="phpdocumentor-element-found-in__source" data-line="324" data-modal="source-view" data-src="files/src/lib/Smr/Force.php.txt"></a>
+            <a href="classes/Smr-Force.html#source-view.323" class="phpdocumentor-element-found-in__source" data-line="323" data-modal="source-view" data-src="files/src/lib/Smr/Force.php.txt"></a>
     </aside>
 
     
@@ -4179,9 +4179,9 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Force.php"><a href="files/src-lib-smr-force.html"><abbr title="src/lib/Smr/Force.php">Force.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">450</span>
+    <span class="phpdocumentor-element-found-in__line">455</span>
 
-            <a href="classes/Smr-Force.html#source-view.450" class="phpdocumentor-element-found-in__source" data-line="450" data-modal="source-view" data-src="files/src/lib/Smr/Force.php.txt"></a>
+            <a href="classes/Smr-Force.html#source-view.455" class="phpdocumentor-element-found-in__source" data-line="455" data-modal="source-view" data-src="files/src/lib/Smr/Force.php.txt"></a>
     </aside>
 
         <p class="phpdocumentor-summary">Update the table fields associated with using Refresh All</p>
@@ -4240,7 +4240,7 @@
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">protected</span>
-                    <span class="phpdocumentor-signature__name">__construct</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__type">int&nbsp;</span><span class="phpdocumentor-signature__argument__name">$gameID</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__type">int&nbsp;</span><span class="phpdocumentor-signature__argument__name">$sectorID</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__type">int&nbsp;</span><span class="phpdocumentor-signature__argument__name">$ownerID</span></span><span class="phpdocumentor-signature__argument"><span>[</span><span>, </span><span class="phpdocumentor-signature__argument__type"><a href="classes/Smr-DatabaseRecord.html"><abbr title="\Smr\DatabaseRecord">DatabaseRecord</abbr></a>|null&nbsp;</span><span class="phpdocumentor-signature__argument__name">$dbRecord</span><span> = </span><span class="phpdocumentor-signature__argument__default-value">null</span><span> ]</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">mixed</span></code>
+                    <span class="phpdocumentor-signature__name">__construct</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__type">int&nbsp;</span><span class="phpdocumentor-signature__argument__name">$gameID</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__type">int&nbsp;</span><span class="phpdocumentor-signature__argument__name">$sectorID</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__type">int&nbsp;</span><span class="phpdocumentor-signature__argument__name">$ownerPlayerID</span></span><span class="phpdocumentor-signature__argument"><span>[</span><span>, </span><span class="phpdocumentor-signature__argument__type"><a href="classes/Smr-DatabaseRecord.html"><abbr title="\Smr\DatabaseRecord">DatabaseRecord</abbr></a>|null&nbsp;</span><span class="phpdocumentor-signature__argument__name">$dbRecord</span><span> = </span><span class="phpdocumentor-signature__argument__default-value">null</span><span> ]</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">mixed</span></code>
 
     <div class="phpdocumentor-label-line">
         </div>
@@ -4263,7 +4263,7 @@
                 
             </dd>
                     <dt class="phpdocumentor-argument-list__entry">
-                <span class="phpdocumentor-argument-list__argument__name">$ownerID</span>
+                <span class="phpdocumentor-argument-list__argument__name">$ownerPlayerID</span>
                 : <span class="phpdocumentor-argument-list__argument__type">int</span>
                             </dt>
             <dd class="phpdocumentor-argument-list__definition">
@@ -4298,9 +4298,9 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Force.php"><a href="files/src-lib-smr-force.html"><abbr title="src/lib/Smr/Force.php">Force.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">607</span>
+    <span class="phpdocumentor-element-found-in__line">612</span>
 
-            <a href="classes/Smr-Force.html#source-view.607" class="phpdocumentor-element-found-in__source" data-line="607" data-modal="source-view" data-src="files/src/lib/Smr/Force.php.txt"></a>
+            <a href="classes/Smr-Force.html#source-view.612" class="phpdocumentor-element-found-in__source" data-line="612" data-modal="source-view" data-src="files/src/lib/Smr/Force.php.txt"></a>
     </aside>
 
         <p class="phpdocumentor-summary">Returns the number of CDs destroyed</p>
@@ -4361,9 +4361,9 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Force.php"><a href="files/src-lib-smr-force.html"><abbr title="src/lib/Smr/Force.php">Force.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">596</span>
+    <span class="phpdocumentor-element-found-in__line">601</span>
 
-            <a href="classes/Smr-Force.html#source-view.596" class="phpdocumentor-element-found-in__source" data-line="596" data-modal="source-view" data-src="files/src/lib/Smr/Force.php.txt"></a>
+            <a href="classes/Smr-Force.html#source-view.601" class="phpdocumentor-element-found-in__source" data-line="601" data-modal="source-view" data-src="files/src/lib/Smr/Force.php.txt"></a>
     </aside>
 
         <p class="phpdocumentor-summary">Returns the number of mines destroyed</p>
@@ -4424,9 +4424,9 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Force.php"><a href="files/src-lib-smr-force.html"><abbr title="src/lib/Smr/Force.php">Force.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">618</span>
+    <span class="phpdocumentor-element-found-in__line">623</span>
 
-            <a href="classes/Smr-Force.html#source-view.618" class="phpdocumentor-element-found-in__source" data-line="618" data-modal="source-view" data-src="files/src/lib/Smr/Force.php.txt"></a>
+            <a href="classes/Smr-Force.html#source-view.623" class="phpdocumentor-element-found-in__source" data-line="623" data-modal="source-view" data-src="files/src/lib/Smr/Force.php.txt"></a>
     </aside>
 
         <p class="phpdocumentor-summary">Returns the number of SDs destroyed</p>
@@ -4612,7 +4612,7 @@
                                                     <li class=""><a href="classes/Smr-Force.html#property_hasChanged">$hasChanged</a></li>
                                                     <li class=""><a href="classes/Smr-Force.html#property_isNew">$isNew</a></li>
                                                     <li class=""><a href="classes/Smr-Force.html#property_mines">$mines</a></li>
-                                                    <li class=""><a href="classes/Smr-Force.html#property_ownerID">$ownerID</a></li>
+                                                    <li class=""><a href="classes/Smr-Force.html#property_ownerPlayerID">$ownerPlayerID</a></li>
                                                     <li class=""><a href="classes/Smr-Force.html#property_scoutDrones">$scoutDrones</a></li>
                                                     <li class=""><a href="classes/Smr-Force.html#property_sectorID">$sectorID</a></li>
                                                     <li class=""><a href="classes/Smr-Force.html#property_SQLID">$SQLID</a></li>
@@ -4652,7 +4652,7 @@
                                             <li class=""><a href="classes/Smr-Force.html#method_getMaxGalaxyExpireTime">getMaxGalaxyExpireTime()</a></li>
                                             <li class=""><a href="classes/Smr-Force.html#method_getMines">getMines()</a></li>
                                             <li class=""><a href="classes/Smr-Force.html#method_getOwner">getOwner()</a></li>
-                                            <li class=""><a href="classes/Smr-Force.html#method_getOwnerID">getOwnerID()</a></li>
+                                            <li class=""><a href="classes/Smr-Force.html#method_getOwnerPlayerID">getOwnerPlayerID()</a></li>
                                             <li class=""><a href="classes/Smr-Force.html#method_getRefreshAllHREF">getRefreshAllHREF()</a></li>
                                             <li class=""><a href="classes/Smr-Force.html#method_getRefreshHREF">getRefreshHREF()</a></li>
                                             <li class=""><a href="classes/Smr-Force.html#method_getSDs">getSDs()</a></li>

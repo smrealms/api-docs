@@ -1321,20 +1321,20 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/Smr-Alliance.html#method_hasLeader"
         },                {
-            "fqsen": "\\Smr\\Alliance\u003A\u003AgetLeaderID\u0028\u0029",
-            "name": "getLeaderID",
+            "fqsen": "\\Smr\\Alliance\u003A\u003AgetLeaderPlayerID\u0028\u0029",
+            "name": "getLeaderPlayerID",
             "summary": "",
-            "url": "classes/Smr-Alliance.html#method_getLeaderID"
+            "url": "classes/Smr-Alliance.html#method_getLeaderPlayerID"
         },                {
             "fqsen": "\\Smr\\Alliance\u003A\u003AgetLeader\u0028\u0029",
             "name": "getLeader",
             "summary": "",
             "url": "classes/Smr-Alliance.html#method_getLeader"
         },                {
-            "fqsen": "\\Smr\\Alliance\u003A\u003AsetLeaderID\u0028\u0029",
-            "name": "setLeaderID",
+            "fqsen": "\\Smr\\Alliance\u003A\u003AsetLeaderPlayerID\u0028\u0029",
+            "name": "setLeaderPlayerID",
             "summary": "",
-            "url": "classes/Smr-Alliance.html#method_setLeaderID"
+            "url": "classes/Smr-Alliance.html#method_setLeaderPlayerID"
         },                {
             "fqsen": "\\Smr\\Alliance\u003A\u003AgetDiscordServer\u0028\u0029",
             "name": "getDiscordServer",
@@ -1476,15 +1476,15 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/Smr-Alliance.html#method_hasFlagship"
         },                {
-            "fqsen": "\\Smr\\Alliance\u003A\u003AgetFlagshipID\u0028\u0029",
-            "name": "getFlagshipID",
-            "summary": "Get\u0020account\u0020ID\u0020of\u0020the\u0020player\u0020designated\u0020as\u0020the\u0020alliance\u0020flagship.",
-            "url": "classes/Smr-Alliance.html#method_getFlagshipID"
+            "fqsen": "\\Smr\\Alliance\u003A\u003AgetFlagshipPlayerID\u0028\u0029",
+            "name": "getFlagshipPlayerID",
+            "summary": "Get\u0020the\u0020player\u0020ID\u0020of\u0020the\u0020player\u0020designated\u0020as\u0020the\u0020alliance\u0020flagship.",
+            "url": "classes/Smr-Alliance.html#method_getFlagshipPlayerID"
         },                {
-            "fqsen": "\\Smr\\Alliance\u003A\u003AsetFlagshipID\u0028\u0029",
-            "name": "setFlagshipID",
-            "summary": "Designate\u0020a\u0020player\u0020as\u0020the\u0020alliance\u0020flagship\u0020by\u0020their\u0020account\u0020ID.",
-            "url": "classes/Smr-Alliance.html#method_setFlagshipID"
+            "fqsen": "\\Smr\\Alliance\u003A\u003AsetFlagshipPlayerID\u0028\u0029",
+            "name": "setFlagshipPlayerID",
+            "summary": "Designate\u0020a\u0020player\u0020as\u0020the\u0020alliance\u0020flagship\u0020by\u0020their\u0020player\u0020ID.",
+            "url": "classes/Smr-Alliance.html#method_setFlagshipPlayerID"
         },                {
             "fqsen": "\\Smr\\Alliance\u003A\u003AgetJoinRestriction\u0028\u0029",
             "name": "getJoinRestriction",
@@ -1606,10 +1606,10 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/Smr-Alliance.html#property_recruiting"
         },                {
-            "fqsen": "\\Smr\\Alliance\u003A\u003A\u0024leaderID",
-            "name": "leaderID",
+            "fqsen": "\\Smr\\Alliance\u003A\u003A\u0024leaderPlayerID",
+            "name": "leaderPlayerID",
             "summary": "",
-            "url": "classes/Smr-Alliance.html#property_leaderID"
+            "url": "classes/Smr-Alliance.html#property_leaderPlayerID"
         },                {
             "fqsen": "\\Smr\\Alliance\u003A\u003A\u0024bank",
             "name": "bank",
@@ -1651,10 +1651,10 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/Smr-Alliance.html#property_ircChannel"
         },                {
-            "fqsen": "\\Smr\\Alliance\u003A\u003A\u0024flagshipID",
-            "name": "flagshipID",
+            "fqsen": "\\Smr\\Alliance\u003A\u003A\u0024flagshipPlayerID",
+            "name": "flagshipPlayerID",
             "summary": "",
-            "url": "classes/Smr-Alliance.html#property_flagshipID"
+            "url": "classes/Smr-Alliance.html#property_flagshipPlayerID"
         },                {
             "fqsen": "\\Smr\\Alliance\u003A\u003A\u0024seedlist",
             "name": "seedlist",
@@ -1726,15 +1726,15 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/Smr-AllianceInvite.html#property_gameID"
         },                {
-            "fqsen": "\\Smr\\AllianceInvite\u003A\u003A\u0024receiverAccountID",
-            "name": "receiverAccountID",
+            "fqsen": "\\Smr\\AllianceInvite\u003A\u003A\u0024receiverPlayerID",
+            "name": "receiverPlayerID",
             "summary": "",
-            "url": "classes/Smr-AllianceInvite.html#property_receiverAccountID"
+            "url": "classes/Smr-AllianceInvite.html#property_receiverPlayerID"
         },                {
-            "fqsen": "\\Smr\\AllianceInvite\u003A\u003A\u0024senderAccountID",
-            "name": "senderAccountID",
+            "fqsen": "\\Smr\\AllianceInvite\u003A\u003A\u0024senderPlayerID",
+            "name": "senderPlayerID",
             "summary": "",
-            "url": "classes/Smr-AllianceInvite.html#property_senderAccountID"
+            "url": "classes/Smr-AllianceInvite.html#property_senderPlayerID"
         },                {
             "fqsen": "\\Smr\\AllianceInvite\u003A\u003A\u0024messageID",
             "name": "messageID",
@@ -2116,10 +2116,10 @@ Search.appendIndex(
             "summary": "Maximum\u0020amount\u0020of\u0020bounty.credits\u0020in\u0020the\u0020database",
             "url": "classes/Smr-Bounty.html#constant_MAX_CREDITS"
         },                {
-            "fqsen": "\\Smr\\Bounty\u003A\u003A\u0024targetID",
-            "name": "targetID",
+            "fqsen": "\\Smr\\Bounty\u003A\u003A\u0024targetPlayerID",
+            "name": "targetPlayerID",
             "summary": "",
-            "url": "classes/Smr-Bounty.html#property_targetID"
+            "url": "classes/Smr-Bounty.html#property_targetPlayerID"
         },                {
             "fqsen": "\\Smr\\Bounty\u003A\u003A\u0024bountyID",
             "name": "bountyID",
@@ -2141,10 +2141,10 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/Smr-Bounty.html#property_time"
         },                {
-            "fqsen": "\\Smr\\Bounty\u003A\u003A\u0024claimerID",
-            "name": "claimerID",
+            "fqsen": "\\Smr\\Bounty\u003A\u003A\u0024claimerPlayerID",
+            "name": "claimerPlayerID",
             "summary": "",
-            "url": "classes/Smr-Bounty.html#property_claimerID"
+            "url": "classes/Smr-Bounty.html#property_claimerPlayerID"
         },                {
             "fqsen": "\\Smr\\Bounty\u003A\u003A\u0024credits",
             "name": "credits",
@@ -2486,39 +2486,39 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/Smr-Chess-ChessGame.html#method_getWhitePlayer"
         },                {
-            "fqsen": "\\Smr\\Chess\\ChessGame\u003A\u003AgetWhiteID\u0028\u0029",
-            "name": "getWhiteID",
+            "fqsen": "\\Smr\\Chess\\ChessGame\u003A\u003AgetWhitePlayerID\u0028\u0029",
+            "name": "getWhitePlayerID",
             "summary": "",
-            "url": "classes/Smr-Chess-ChessGame.html#method_getWhiteID"
+            "url": "classes/Smr-Chess-ChessGame.html#method_getWhitePlayerID"
         },                {
             "fqsen": "\\Smr\\Chess\\ChessGame\u003A\u003AgetBlackPlayer\u0028\u0029",
             "name": "getBlackPlayer",
             "summary": "",
             "url": "classes/Smr-Chess-ChessGame.html#method_getBlackPlayer"
         },                {
-            "fqsen": "\\Smr\\Chess\\ChessGame\u003A\u003AgetBlackID\u0028\u0029",
-            "name": "getBlackID",
+            "fqsen": "\\Smr\\Chess\\ChessGame\u003A\u003AgetBlackPlayerID\u0028\u0029",
+            "name": "getBlackPlayerID",
             "summary": "",
-            "url": "classes/Smr-Chess-ChessGame.html#method_getBlackID"
+            "url": "classes/Smr-Chess-ChessGame.html#method_getBlackPlayerID"
         },                {
-            "fqsen": "\\Smr\\Chess\\ChessGame\u003A\u003AgetColourID\u0028\u0029",
-            "name": "getColourID",
+            "fqsen": "\\Smr\\Chess\\ChessGame\u003A\u003AgetColourPlayerID\u0028\u0029",
+            "name": "getColourPlayerID",
             "summary": "",
-            "url": "classes/Smr-Chess-ChessGame.html#method_getColourID"
+            "url": "classes/Smr-Chess-ChessGame.html#method_getColourPlayerID"
         },                {
             "fqsen": "\\Smr\\Chess\\ChessGame\u003A\u003AgetColourPlayer\u0028\u0029",
             "name": "getColourPlayer",
             "summary": "",
             "url": "classes/Smr-Chess-ChessGame.html#method_getColourPlayer"
         },                {
-            "fqsen": "\\Smr\\Chess\\ChessGame\u003A\u003AgetColourForAccountID\u0028\u0029",
-            "name": "getColourForAccountID",
+            "fqsen": "\\Smr\\Chess\\ChessGame\u003A\u003AgetColourForPlayerID\u0028\u0029",
+            "name": "getColourForPlayerID",
             "summary": "",
-            "url": "classes/Smr-Chess-ChessGame.html#method_getColourForAccountID"
+            "url": "classes/Smr-Chess-ChessGame.html#method_getColourForPlayerID"
         },                {
             "fqsen": "\\Smr\\Chess\\ChessGame\u003A\u003AisPlayer\u0028\u0029",
             "name": "isPlayer",
-            "summary": "Is\u0020the\u0020given\u0020account\u0020ID\u0020one\u0020of\u0020the\u0020two\u0020players\u0020of\u0020this\u0020game\u003F",
+            "summary": "Is\u0020the\u0020given\u0020player\u0020ID\u0020one\u0020of\u0020the\u0020two\u0020players\u0020of\u0020this\u0020game\u003F",
             "url": "classes/Smr-Chess-ChessGame.html#method_isPlayer"
         },                {
             "fqsen": "\\Smr\\Chess\\ChessGame\u003A\u003AhasEnded\u0028\u0029",
@@ -2531,10 +2531,10 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/Smr-Chess-ChessGame.html#method_hasWinner"
         },                {
-            "fqsen": "\\Smr\\Chess\\ChessGame\u003A\u003AgetWinner\u0028\u0029",
-            "name": "getWinner",
+            "fqsen": "\\Smr\\Chess\\ChessGame\u003A\u003AgetWinnerPlayerID\u0028\u0029",
+            "name": "getWinnerPlayerID",
             "summary": "",
-            "url": "classes/Smr-Chess-ChessGame.html#method_getWinner"
+            "url": "classes/Smr-Chess-ChessGame.html#method_getWinnerPlayerID"
         },                {
             "fqsen": "\\Smr\\Chess\\ChessGame\u003A\u003AsetWinner\u0028\u0029",
             "name": "setWinner",
@@ -2556,30 +2556,15 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/Smr-Chess-ChessGame.html#method_getCurrentTurnColour"
         },                {
-            "fqsen": "\\Smr\\Chess\\ChessGame\u003A\u003AgetCurrentTurnAccountID\u0028\u0029",
-            "name": "getCurrentTurnAccountID",
+            "fqsen": "\\Smr\\Chess\\ChessGame\u003A\u003AgetCurrentTurnPlayerID\u0028\u0029",
+            "name": "getCurrentTurnPlayerID",
             "summary": "",
-            "url": "classes/Smr-Chess-ChessGame.html#method_getCurrentTurnAccountID"
+            "url": "classes/Smr-Chess-ChessGame.html#method_getCurrentTurnPlayerID"
         },                {
             "fqsen": "\\Smr\\Chess\\ChessGame\u003A\u003AgetCurrentTurnPlayer\u0028\u0029",
             "name": "getCurrentTurnPlayer",
             "summary": "",
             "url": "classes/Smr-Chess-ChessGame.html#method_getCurrentTurnPlayer"
-        },                {
-            "fqsen": "\\Smr\\Chess\\ChessGame\u003A\u003AgetCurrentTurnAccount\u0028\u0029",
-            "name": "getCurrentTurnAccount",
-            "summary": "",
-            "url": "classes/Smr-Chess-ChessGame.html#method_getCurrentTurnAccount"
-        },                {
-            "fqsen": "\\Smr\\Chess\\ChessGame\u003A\u003AgetWhiteAccount\u0028\u0029",
-            "name": "getWhiteAccount",
-            "summary": "",
-            "url": "classes/Smr-Chess-ChessGame.html#method_getWhiteAccount"
-        },                {
-            "fqsen": "\\Smr\\Chess\\ChessGame\u003A\u003AgetBlackAccount\u0028\u0029",
-            "name": "getBlackAccount",
-            "summary": "",
-            "url": "classes/Smr-Chess-ChessGame.html#method_getBlackAccount"
         },                {
             "fqsen": "\\Smr\\Chess\\ChessGame\u003A\u003AisCurrentTurn\u0028\u0029",
             "name": "isCurrentTurn",
@@ -2621,15 +2606,15 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/Smr-Chess-ChessGame.html#property_CACHE_CHESS_GAMES"
         },                {
-            "fqsen": "\\Smr\\Chess\\ChessGame\u003A\u003A\u0024whiteID",
-            "name": "whiteID",
+            "fqsen": "\\Smr\\Chess\\ChessGame\u003A\u003A\u0024whitePlayerID",
+            "name": "whitePlayerID",
             "summary": "",
-            "url": "classes/Smr-Chess-ChessGame.html#property_whiteID"
+            "url": "classes/Smr-Chess-ChessGame.html#property_whitePlayerID"
         },                {
-            "fqsen": "\\Smr\\Chess\\ChessGame\u003A\u003A\u0024blackID",
-            "name": "blackID",
+            "fqsen": "\\Smr\\Chess\\ChessGame\u003A\u003A\u0024blackPlayerID",
+            "name": "blackPlayerID",
             "summary": "",
-            "url": "classes/Smr-Chess-ChessGame.html#property_blackID"
+            "url": "classes/Smr-Chess-ChessGame.html#property_blackPlayerID"
         },                {
             "fqsen": "\\Smr\\Chess\\ChessGame\u003A\u003A\u0024gameID",
             "name": "gameID",
@@ -2646,10 +2631,10 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/Smr-Chess-ChessGame.html#property_endDate"
         },                {
-            "fqsen": "\\Smr\\Chess\\ChessGame\u003A\u003A\u0024winner",
-            "name": "winner",
+            "fqsen": "\\Smr\\Chess\\ChessGame\u003A\u003A\u0024winnerPlayerID",
+            "name": "winnerPlayerID",
             "summary": "",
-            "url": "classes/Smr-Chess-ChessGame.html#property_winner"
+            "url": "classes/Smr-Chess-ChessGame.html#property_winnerPlayerID"
         },                {
             "fqsen": "\\Smr\\Chess\\ChessGame\u003A\u003A\u0024board",
             "name": "board",
@@ -4133,13 +4118,13 @@ Search.appendIndex(
         },                {
             "fqsen": "\\Smr\\Council\u003A\u003AgetRaceCouncil\u0028\u0029",
             "name": "getRaceCouncil",
-            "summary": "Returns\u0020an\u0020array\u0020of\u0020Account\u0020ID\u0027s\u0020of\u0020the\u0020Council\u0020for\u0020this\u0020race.",
+            "summary": "Returns\u0020an\u0020array\u0020of\u0020player\u0020IDs\u0020of\u0020the\u0020Council\u0020for\u0020this\u0020race.",
             "url": "classes/Smr-Council.html#method_getRaceCouncil"
         },                {
-            "fqsen": "\\Smr\\Council\u003A\u003AgetPresidentID\u0028\u0029",
-            "name": "getPresidentID",
-            "summary": "Returns\u0020the\u0020Account\u0020ID\u0020of\u0020the\u0020President\u0020for\u0020this\u0020race\u0020\u0028or\u0020false\u0020if\u0020no\u0020President\u0029.",
-            "url": "classes/Smr-Council.html#method_getPresidentID"
+            "fqsen": "\\Smr\\Council\u003A\u003AgetPresidentPlayerID\u0028\u0029",
+            "name": "getPresidentPlayerID",
+            "summary": "Returns\u0020the\u0020player\u0020ID\u0020of\u0020the\u0020President\u0020for\u0020this\u0020race\u0020\u0028or\u0020false\u0020if\u0020no\u0020President\u0029.",
+            "url": "classes/Smr-Council.html#method_getPresidentPlayerID"
         },                {
             "fqsen": "\\Smr\\Council\u003A\u003AisOnCouncil\u0028\u0029",
             "name": "isOnCouncil",
@@ -5466,10 +5451,10 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/Smr-Force.html#method_getAttackTurnCost"
         },                {
-            "fqsen": "\\Smr\\Force\u003A\u003AgetOwnerID\u0028\u0029",
-            "name": "getOwnerID",
+            "fqsen": "\\Smr\\Force\u003A\u003AgetOwnerPlayerID\u0028\u0029",
+            "name": "getOwnerPlayerID",
             "summary": "",
-            "url": "classes/Smr-Force.html#method_getOwnerID"
+            "url": "classes/Smr-Force.html#method_getOwnerPlayerID"
         },                {
             "fqsen": "\\Smr\\Force\u003A\u003AgetGameID\u0028\u0029",
             "name": "getGameID",
@@ -5721,10 +5706,10 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/Smr-Force.html#property_sectorID"
         },                {
-            "fqsen": "\\Smr\\Force\u003A\u003A\u0024ownerID",
-            "name": "ownerID",
+            "fqsen": "\\Smr\\Force\u003A\u003A\u0024ownerPlayerID",
+            "name": "ownerPlayerID",
             "summary": "",
-            "url": "classes/Smr-Force.html#property_ownerID"
+            "url": "classes/Smr-Force.html#property_ownerPlayerID"
         },                {
             "fqsen": "\\Smr\\Galaxy",
             "name": "Galaxy",
@@ -6471,10 +6456,10 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/Smr-Globals.html#method_getHiddenPlayers"
         },                {
-            "fqsen": "\\Smr\\Globals\u003A\u003AgetGalacticPostEditorIDs\u0028\u0029",
-            "name": "getGalacticPostEditorIDs",
+            "fqsen": "\\Smr\\Globals\u003A\u003AgetGalacticPostEditorPlayerIDs\u0028\u0029",
+            "name": "getGalacticPostEditorPlayerIDs",
             "summary": "",
-            "url": "classes/Smr-Globals.html#method_getGalacticPostEditorIDs"
+            "url": "classes/Smr-Globals.html#method_getGalacticPostEditorPlayerIDs"
         },                {
             "fqsen": "\\Smr\\Globals\u003A\u003AgetColouredRaceNameForRace\u0028\u0029",
             "name": "getColouredRaceNameForRace",
@@ -7581,10 +7566,10 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/Smr-MissionState.html#property_CACHE"
         },                {
-            "fqsen": "\\Smr\\MissionState\u003A\u003A\u0024accountID",
-            "name": "accountID",
+            "fqsen": "\\Smr\\MissionState\u003A\u003A\u0024playerID",
+            "name": "playerID",
             "summary": "",
-            "url": "classes/Smr-MissionState.html#property_accountID"
+            "url": "classes/Smr-MissionState.html#property_playerID"
         },                {
             "fqsen": "\\Smr\\MissionState\u003A\u003A\u0024gameID",
             "name": "gameID",
@@ -7976,10 +7961,10 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/Smr-Planet.html#method_getGalaxy"
         },                {
-            "fqsen": "\\Smr\\Planet\u003A\u003AgetOwnerID\u0028\u0029",
-            "name": "getOwnerID",
+            "fqsen": "\\Smr\\Planet\u003A\u003AgetOwnerPlayerID\u0028\u0029",
+            "name": "getOwnerPlayerID",
             "summary": "",
-            "url": "classes/Smr-Planet.html#method_getOwnerID"
+            "url": "classes/Smr-Planet.html#method_getOwnerPlayerID"
         },                {
             "fqsen": "\\Smr\\Planet\u003A\u003AhasOwner\u0028\u0029",
             "name": "hasOwner",
@@ -7991,10 +7976,10 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/Smr-Planet.html#method_removeOwner"
         },                {
-            "fqsen": "\\Smr\\Planet\u003A\u003AsetOwnerID\u0028\u0029",
-            "name": "setOwnerID",
+            "fqsen": "\\Smr\\Planet\u003A\u003AsetOwnerPlayerID\u0028\u0029",
+            "name": "setOwnerPlayerID",
             "summary": "",
-            "url": "classes/Smr-Planet.html#method_setOwnerID"
+            "url": "classes/Smr-Planet.html#method_setOwnerPlayerID"
         },                {
             "fqsen": "\\Smr\\Planet\u003A\u003AgetOwner\u0028\u0029",
             "name": "getOwner",
@@ -8616,10 +8601,10 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/Smr-Planet.html#property_planetName"
         },                {
-            "fqsen": "\\Smr\\Planet\u003A\u003A\u0024ownerID",
-            "name": "ownerID",
+            "fqsen": "\\Smr\\Planet\u003A\u003A\u0024ownerPlayerID",
+            "name": "ownerPlayerID",
             "summary": "",
-            "url": "classes/Smr-Planet.html#property_ownerID"
+            "url": "classes/Smr-Planet.html#property_ownerPlayerID"
         },                {
             "fqsen": "\\Smr\\Planet\u003A\u003A\u0024password",
             "name": "password",
@@ -9281,20 +9266,30 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/Smr-Player.html#method_getAlliancePlayers"
         },                {
-            "fqsen": "\\Smr\\Player\u003A\u003AgetPlayer\u0028\u0029",
-            "name": "getPlayer",
+            "fqsen": "\\Smr\\Player\u003A\u003AgetPlayerByAccountAndGame\u0028\u0029",
+            "name": "getPlayerByAccountAndGame",
             "summary": "",
-            "url": "classes/Smr-Player.html#method_getPlayer"
+            "url": "classes/Smr-Player.html#method_getPlayerByAccountAndGame"
         },                {
-            "fqsen": "\\Smr\\Player\u003A\u003AgetPlayerByPlayerID\u0028\u0029",
-            "name": "getPlayerByPlayerID",
+            "fqsen": "\\Smr\\Player\u003A\u003AgetPlayerByPlayerNumber\u0028\u0029",
+            "name": "getPlayerByPlayerNumber",
             "summary": "",
-            "url": "classes/Smr-Player.html#method_getPlayerByPlayerID"
+            "url": "classes/Smr-Player.html#method_getPlayerByPlayerNumber"
         },                {
             "fqsen": "\\Smr\\Player\u003A\u003AgetPlayerByPlayerName\u0028\u0029",
             "name": "getPlayerByPlayerName",
             "summary": "",
             "url": "classes/Smr-Player.html#method_getPlayerByPlayerName"
+        },                {
+            "fqsen": "\\Smr\\Player\u003A\u003AgetPlayerFromRecord\u0028\u0029",
+            "name": "getPlayerFromRecord",
+            "summary": "",
+            "url": "classes/Smr-Player.html#method_getPlayerFromRecord"
+        },                {
+            "fqsen": "\\Smr\\Player\u003A\u003AgetPlayer\u0028\u0029",
+            "name": "getPlayer",
+            "summary": "",
+            "url": "classes/Smr-Player.html#method_getPlayer"
         },                {
             "fqsen": "\\Smr\\Player\u003A\u003A__construct\u0028\u0029",
             "name": "__construct",
@@ -9816,6 +9811,11 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/Smr-Player.html#method_getPlayerID"
         },                {
+            "fqsen": "\\Smr\\Player\u003A\u003AgetPlayerNumber\u0028\u0029",
+            "name": "getPlayerNumber",
+            "summary": "Display\u0020ID\u0020associated\u0020with\u0020player,\u0020based\u0020on\u0020game\u0020join\u0020order.",
+            "url": "classes/Smr-Player.html#method_getPlayerNumber"
+        },                {
             "fqsen": "\\Smr\\Player\u003A\u003AgetPlayerName\u0028\u0029",
             "name": "getPlayerName",
             "summary": "Returns\u0020the\u0020player\u0020name.",
@@ -9953,7 +9953,7 @@ Search.appendIndex(
         },                {
             "fqsen": "\\Smr\\Player\u003A\u003AsendAllianceInvitation\u0028\u0029",
             "name": "sendAllianceInvitation",
-            "summary": "Invites\u0020player\u0020with\u0020\u0024accountID\u0020to\u0020this\u0020player\u0027s\u0020alliance.",
+            "summary": "Invites\u0020a\u0020player\u0020to\u0020this\u0020player\u0027s\u0020alliance.",
             "url": "classes/Smr-Player.html#method_sendAllianceInvitation"
         },                {
             "fqsen": "\\Smr\\Player\u003A\u003AisCombatDronesKamikazeOnMines\u0028\u0029",
@@ -10586,6 +10586,11 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/Smr-Player.html#constant_TIME_FOR_ALLIANCE_SWITCH"
         },                {
+            "fqsen": "\\Smr\\Player\u003A\u003AFIRST_RESERVED_PLAYER_ID",
+            "name": "FIRST_RESERVED_PLAYER_ID",
+            "summary": "",
+            "url": "classes/Smr-Player.html#constant_FIRST_RESERVED_PLAYER_ID"
+        },                {
             "fqsen": "\\Smr\\Player\u003A\u003ASHIP_INSURANCE_FRACTION",
             "name": "SHIP_INSURANCE_FRACTION",
             "summary": "",
@@ -10636,10 +10641,20 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/Smr-Player.html#property_playerName"
         },                {
-            "fqsen": "\\Smr\\Player\u003A\u003A\u0024playerID",
-            "name": "playerID",
+            "fqsen": "\\Smr\\Player\u003A\u003A\u0024accountID",
+            "name": "accountID",
             "summary": "",
-            "url": "classes/Smr-Player.html#property_playerID"
+            "url": "classes/Smr-Player.html#property_accountID"
+        },                {
+            "fqsen": "\\Smr\\Player\u003A\u003A\u0024playerNumber",
+            "name": "playerNumber",
+            "summary": "",
+            "url": "classes/Smr-Player.html#property_playerNumber"
+        },                {
+            "fqsen": "\\Smr\\Player\u003A\u003A\u0024gameID",
+            "name": "gameID",
+            "summary": "",
+            "url": "classes/Smr-Player.html#property_gameID"
         },                {
             "fqsen": "\\Smr\\Player\u003A\u003A\u0024sectorID",
             "name": "sectorID",
@@ -10906,15 +10921,10 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/Smr-Player.html#property_hasHOFVisChanged"
         },                {
-            "fqsen": "\\Smr\\Player\u003A\u003A\u0024gameID",
-            "name": "gameID",
+            "fqsen": "\\Smr\\Player\u003A\u003A\u0024playerID",
+            "name": "playerID",
             "summary": "",
-            "url": "classes/Smr-Player.html#property_gameID"
-        },                {
-            "fqsen": "\\Smr\\Player\u003A\u003A\u0024accountID",
-            "name": "accountID",
-            "summary": "",
-            "url": "classes/Smr-Player.html#property_accountID"
+            "url": "classes/Smr-Player.html#property_playerID"
         },                {
             "fqsen": "\\Smr\\PlayerLevel",
             "name": "PlayerLevel",
@@ -13251,10 +13261,10 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/Smr-SectorLock.html#property_gameID"
         },                {
-            "fqsen": "\\Smr\\SectorLock\u003A\u003A\u0024accountID",
-            "name": "accountID",
+            "fqsen": "\\Smr\\SectorLock\u003A\u003A\u0024playerID",
+            "name": "playerID",
             "summary": "",
-            "url": "classes/Smr-SectorLock.html#property_accountID"
+            "url": "classes/Smr-SectorLock.html#property_playerID"
         },                {
             "fqsen": "\\Smr\\SectorLock\u003A\u003A\u0024sectorID",
             "name": "sectorID",
@@ -15346,15 +15356,10 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/Smr-WeightedRandom.html#method___construct"
         },                {
-            "fqsen": "\\Smr\\WeightedRandom\u003A\u003AgetGameID\u0028\u0029",
-            "name": "getGameID",
+            "fqsen": "\\Smr\\WeightedRandom\u003A\u003AgetPlayerID\u0028\u0029",
+            "name": "getPlayerID",
             "summary": "",
-            "url": "classes/Smr-WeightedRandom.html#method_getGameID"
-        },                {
-            "fqsen": "\\Smr\\WeightedRandom\u003A\u003AgetAccountID\u0028\u0029",
-            "name": "getAccountID",
-            "summary": "",
-            "url": "classes/Smr-WeightedRandom.html#method_getAccountID"
+            "url": "classes/Smr-WeightedRandom.html#method_getPlayerID"
         },                {
             "fqsen": "\\Smr\\WeightedRandom\u003A\u003AgetType\u0028\u0029",
             "name": "getType",
@@ -15401,15 +15406,10 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/Smr-WeightedRandom.html#property_hasChanged"
         },                {
-            "fqsen": "\\Smr\\WeightedRandom\u003A\u003A\u0024gameID",
-            "name": "gameID",
+            "fqsen": "\\Smr\\WeightedRandom\u003A\u003A\u0024playerID",
+            "name": "playerID",
             "summary": "",
-            "url": "classes/Smr-WeightedRandom.html#property_gameID"
-        },                {
-            "fqsen": "\\Smr\\WeightedRandom\u003A\u003A\u0024accountID",
-            "name": "accountID",
-            "summary": "",
-            "url": "classes/Smr-WeightedRandom.html#property_accountID"
+            "url": "classes/Smr-WeightedRandom.html#property_playerID"
         },                {
             "fqsen": "\\Smr\\WeightedRandom\u003A\u003A\u0024type",
             "name": "type",
