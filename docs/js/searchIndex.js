@@ -4203,7 +4203,7 @@ Search.appendIndex(
         },                {
             "fqsen": "\\Smr\\Database\u003A\u003AgetDbBytes\u0028\u0029",
             "name": "getDbBytes",
-            "summary": "Returns\u0020the\u0020size\u0020of\u0020the\u0020current\u0020database\u0020in\u0020bytes.",
+            "summary": "Returns\u0020the\u0020size\u0020of\u0020the\u0020current\u0020database\u0027s\u0020game\u0020tables\u0020in\u0020bytes.",
             "url": "classes/Smr-Database.html#method_getDbBytes"
         },                {
             "fqsen": "\\Smr\\Database\u003A\u003AbeginTransaction\u0028\u0029",
