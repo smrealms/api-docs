@@ -8346,6 +8346,11 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/Smr-Planet.html#method_getMaxLevel"
         },                {
+            "fqsen": "\\Smr\\Planet\u003A\u003AatMaxLevel\u0028\u0029",
+            "name": "atMaxLevel",
+            "summary": "",
+            "url": "classes/Smr-Planet.html#method_atMaxLevel"
+        },                {
             "fqsen": "\\Smr\\Planet\u003A\u003AgetTurretAccuracy\u0028\u0029",
             "name": "getTurretAccuracy",
             "summary": "Returns\u0020the\u0020modified\u0020accuracy\u0020of\u0020turrets\u0020on\u0020this\u0020planet.",
