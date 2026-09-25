@@ -2136,11 +2136,6 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/Smr-Bounty.html#property_type"
         },                {
-            "fqsen": "\\Smr\\Bounty\u003A\u003A\u0024time",
-            "name": "time",
-            "summary": "",
-            "url": "classes/Smr-Bounty.html#property_time"
-        },                {
             "fqsen": "\\Smr\\Bounty\u003A\u003A\u0024claimerPlayerID",
             "name": "claimerPlayerID",
             "summary": "",
@@ -10170,11 +10165,6 @@ Search.appendIndex(
             "name": "createBounty",
             "summary": "",
             "url": "classes/Smr-Player.html#method_createBounty"
-        },                {
-            "fqsen": "\\Smr\\Player\u003A\u003AgetNextBountyID\u0028\u0029",
-            "name": "getNextBountyID",
-            "summary": "",
-            "url": "classes/Smr-Player.html#method_getNextBountyID"
         },                {
             "fqsen": "\\Smr\\Player\u003A\u003AgetActiveBounty\u0028\u0029",
             "name": "getActiveBounty",
