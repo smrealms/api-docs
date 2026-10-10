@@ -4201,20 +4201,10 @@ Search.appendIndex(
             "summary": "Returns\u0020the\u0020size\u0020of\u0020the\u0020current\u0020database\u0027s\u0020game\u0020tables\u0020in\u0020bytes.",
             "url": "classes/Smr-Database.html#method_getDbBytes"
         },                {
-            "fqsen": "\\Smr\\Database\u003A\u003AbeginTransaction\u0028\u0029",
-            "name": "beginTransaction",
-            "summary": "Start\u0020a\u0020transaction\u0020for\u0020InnoDB\u0020operations.",
-            "url": "classes/Smr-Database.html#method_beginTransaction"
-        },                {
-            "fqsen": "\\Smr\\Database\u003A\u003Acommit\u0028\u0029",
-            "name": "commit",
-            "summary": "Commit\u0020the\u0020active\u0020InnoDB\u0020transaction.",
-            "url": "classes/Smr-Database.html#method_commit"
-        },                {
-            "fqsen": "\\Smr\\Database\u003A\u003ArollBack\u0028\u0029",
-            "name": "rollBack",
-            "summary": "Roll\u0020back\u0020the\u0020active\u0020InnoDB\u0020transaction.",
-            "url": "classes/Smr-Database.html#method_rollBack"
+            "fqsen": "\\Smr\\Database\u003A\u003Atransaction\u0028\u0029",
+            "name": "transaction",
+            "summary": "Run\u0020an\u0020operation\u0020atomically,\u0020using\u0020a\u0020savepoint\u0020when\u0020called\u0020from\u0020an\nexisting\u0020transaction.",
+            "url": "classes/Smr-Database.html#method_transaction"
         },                {
             "fqsen": "\\Smr\\Database\u003A\u003AisTransactionActive\u0028\u0029",
             "name": "isTransactionActive",
