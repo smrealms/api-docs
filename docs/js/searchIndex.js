@@ -1166,6 +1166,11 @@ Search.appendIndex(
             "summary": "Returns\u0020all\u0020comments\u0020on\u0020this\u0020album\u0020entry\u0020in\u0020HTML\u002Dsafe\u0020format.",
             "url": "classes/Smr-Album.html#method_getComments"
         },                {
+            "fqsen": "\\Smr\\Album\u003A\u003AaddComment\u0028\u0029",
+            "name": "addComment",
+            "summary": "",
+            "url": "classes/Smr-Album.html#method_addComment"
+        },                {
             "fqsen": "\\Smr\\Album\u003A\u003A\u0024location",
             "name": "location",
             "summary": "",
