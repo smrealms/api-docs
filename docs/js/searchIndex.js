@@ -4271,16 +4271,6 @@ Search.appendIndex(
             "summary": "REPLACE\u0020a\u0020row\u0020into\u0020\u0024table\u0020with\u0020an\u0020auto\u002Dincrement\u0020column.",
             "url": "classes/Smr-Database.html#method_replaceAutoIncrement"
         },                {
-            "fqsen": "\\Smr\\Database\u003A\u003AlockTable\u0028\u0029",
-            "name": "lockTable",
-            "summary": "Acquire\u0020a\u0020write\u0020lock\u0020for\u0020\u0024table.",
-            "url": "classes/Smr-Database.html#method_lockTable"
-        },                {
-            "fqsen": "\\Smr\\Database\u003A\u003Aunlock\u0028\u0029",
-            "name": "unlock",
-            "summary": "",
-            "url": "classes/Smr-Database.html#method_unlock"
-        },                {
             "fqsen": "\\Smr\\Database\u003A\u003AgetInsertID\u0028\u0029",
             "name": "getInsertID",
             "summary": "",
