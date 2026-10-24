@@ -5231,6 +5231,11 @@ Search.appendIndex(
             "summary": "Exception\u0020thrown\u0020when\u0020a\u0020player\u0020cannot\u0020be\u0020found\u0020in\u0020the\u0020database",
             "url": "classes/Smr-Exceptions-PlayerNotFound.html"
         },                {
+            "fqsen": "\\Smr\\Exceptions\\SectorLockTimeout",
+            "name": "SectorLockTimeout",
+            "summary": "Exception\u0020thrown\u0020when\u0020SectorLock\u0020lock\u0020acquisition\u0020times\u0020out.",
+            "url": "classes/Smr-Exceptions-SectorLockTimeout.html"
+        },                {
             "fqsen": "\\Smr\\Exceptions\\SectorNotFound",
             "name": "SectorNotFound",
             "summary": "Exception\u0020thrown\u0020when\u0020a\u0020sector\u0020cannot\u0020be\u0020found\u0020in\u0020the\u0020database",
