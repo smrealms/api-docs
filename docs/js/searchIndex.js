@@ -12186,11 +12186,6 @@ Search.appendIndex(
             "summary": "Helper\u0020function\u0020to\u0020avoid\u0020code\u0020duplication\u0020in\u0020getVar\u002A\u0020functions.",
             "url": "classes/Smr-Request.html#method_getVarX"
         },                {
-            "fqsen": "\\Smr\\Request\u003A\u003AgetStringArrayValue\u0028\u0029",
-            "name": "getStringArrayValue",
-            "summary": "",
-            "url": "classes/Smr-Request.html#method_getStringArrayValue"
-        },                {
             "fqsen": "\\Smr\\Request\u003A\u003AgetUploadError\u0028\u0029",
             "name": "getUploadError",
             "summary": "",
