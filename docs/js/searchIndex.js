@@ -251,6 +251,16 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/Smr-Account.html#method___construct"
         },                {
+            "fqsen": "\\Smr\\Account\u003A\u003AvalidateStoredMessageNotifications\u0028\u0029",
+            "name": "validateStoredMessageNotifications",
+            "summary": "",
+            "url": "classes/Smr-Account.html#method_validateStoredMessageNotifications"
+        },                {
+            "fqsen": "\\Smr\\Account\u003A\u003AvalidateStoredHotkeys\u0028\u0029",
+            "name": "validateStoredHotkeys",
+            "summary": "",
+            "url": "classes/Smr-Account.html#method_validateStoredHotkeys"
+        },                {
             "fqsen": "\\Smr\\Account\u003A\u003AisDisabled\u0028\u0029",
             "name": "isDisabled",
             "summary": "Check\u0020if\u0020the\u0020account\u0020is\u0020disabled.",
@@ -1750,6 +1760,26 @@ Search.appendIndex(
             "name": "expires",
             "summary": "",
             "url": "classes/Smr-AllianceInvite.html#property_expires"
+        },                {
+            "fqsen": "\\Smr\\ArrayValue",
+            "name": "ArrayValue",
+            "summary": "Get\u0020a\u0020value\u0020from\u0020an\u0020array\u0020given\u0020a\u0020key.\u0020If\u0020the\u0020array\u0020key\u0020exists,\u0020throws\u0020if\u0020it\nis\u0020not\u0020the\u0020expected\u0020type.\u0020Can\u0020throw,\u0020return\u0020null,\u0020or\u0020return\u0020a\u0020default\u0020if\u0020the\narray\u0020key\u0020does\u0020not\u0020exist.",
+            "url": "classes/Smr-ArrayValue.html"
+        },                {
+            "fqsen": "\\Smr\\ArrayValue\u003A\u003AgetOptional\u0028\u0029",
+            "name": "getOptional",
+            "summary": "",
+            "url": "classes/Smr-ArrayValue.html#method_getOptional"
+        },                {
+            "fqsen": "\\Smr\\ArrayValue\u003A\u003AgetOrDefault\u0028\u0029",
+            "name": "getOrDefault",
+            "summary": "",
+            "url": "classes/Smr-ArrayValue.html#method_getOrDefault"
+        },                {
+            "fqsen": "\\Smr\\ArrayValue\u003A\u003Aget\u0028\u0029",
+            "name": "get",
+            "summary": "",
+            "url": "classes/Smr-ArrayValue.html#method_get"
         },                {
             "fqsen": "\\Smr\\BarDrink",
             "name": "BarDrink",
@@ -12101,6 +12131,11 @@ Search.appendIndex(
             "summary": "Returns\u0020true\u0020if\u0020index\u0020is\u0020set.",
             "url": "classes/Smr-Request.html#method_has"
         },                {
+            "fqsen": "\\Smr\\Request\u003A\u003AgetX\u0028\u0029",
+            "name": "getX",
+            "summary": "",
+            "url": "classes/Smr-Request.html#method_getX"
+        },                {
             "fqsen": "\\Smr\\Request\u003A\u003AgetBool\u0028\u0029",
             "name": "getBool",
             "summary": "Returns\u0020index\u0020value\u0020as\u0020a\u0020boolean\u0020for\u0020boolean\u002Dlike\u0020inputs.",
@@ -12150,6 +12185,26 @@ Search.appendIndex(
             "name": "getVarX",
             "summary": "Helper\u0020function\u0020to\u0020avoid\u0020code\u0020duplication\u0020in\u0020getVar\u002A\u0020functions.",
             "url": "classes/Smr-Request.html#method_getVarX"
+        },                {
+            "fqsen": "\\Smr\\Request\u003A\u003AgetStringArrayValue\u0028\u0029",
+            "name": "getStringArrayValue",
+            "summary": "",
+            "url": "classes/Smr-Request.html#method_getStringArrayValue"
+        },                {
+            "fqsen": "\\Smr\\Request\u003A\u003AgetUploadError\u0028\u0029",
+            "name": "getUploadError",
+            "summary": "",
+            "url": "classes/Smr-Request.html#method_getUploadError"
+        },                {
+            "fqsen": "\\Smr\\Request\u003A\u003AgetUploadedTmpName\u0028\u0029",
+            "name": "getUploadedTmpName",
+            "summary": "",
+            "url": "classes/Smr-Request.html#method_getUploadedTmpName"
+        },                {
+            "fqsen": "\\Smr\\Request\u003A\u003AgetUploadedFile\u0028\u0029",
+            "name": "getUploadedFile",
+            "summary": "",
+            "url": "classes/Smr-Request.html#method_getUploadedFile"
         },                {
             "fqsen": "\\Smr\\Routes\\MultiplePortRoute",
             "name": "MultiplePortRoute",
@@ -13285,6 +13340,11 @@ Search.appendIndex(
             "name": "fetchVarInfo",
             "summary": "",
             "url": "classes/Smr-Session.html#method_fetchVarInfo"
+        },                {
+            "fqsen": "\\Smr\\Session\u003A\u003AgetAjaxReturns\u0028\u0029",
+            "name": "getAjaxReturns",
+            "summary": "",
+            "url": "classes/Smr-Session.html#method_getAjaxReturns"
         },                {
             "fqsen": "\\Smr\\Session\u003A\u003Aupdate\u0028\u0029",
             "name": "update",
@@ -14681,6 +14741,11 @@ Search.appendIndex(
             "summary": "Authenticates\u0020with\u0020the\u0020social\u0020platform.",
             "url": "classes/Smr-SocialLogin-Twitter.html#method_login"
         },                {
+            "fqsen": "\\Smr\\SocialLogin\\Twitter\u003A\u003AgetSessionToken\u0028\u0029",
+            "name": "getSessionToken",
+            "summary": "",
+            "url": "classes/Smr-SocialLogin-Twitter.html#method_getSessionToken"
+        },                {
             "fqsen": "\\Smr\\StdlibExtensions\\InfiniteArrayIterator",
             "name": "InfiniteArrayIterator",
             "summary": "Convenience\u0020wrapper\u0020for\u0020cyclically\u0020iterating\u0020over\u0020an\u0020array.",
@@ -14790,6 +14855,11 @@ Search.appendIndex(
             "name": "addJavascriptForAjax",
             "summary": "",
             "url": "classes/Smr-Template.html#method_addJavascriptForAjax"
+        },                {
+            "fqsen": "\\Smr\\Template\u003A\u003AaddJavascriptEvalForAjax\u0028\u0029",
+            "name": "addJavascriptEvalForAjax",
+            "summary": "",
+            "url": "classes/Smr-Template.html#method_addJavascriptEvalForAjax"
         },                {
             "fqsen": "\\Smr\\Template\u003A\u003AaddJavascriptAlert\u0028\u0029",
             "name": "addJavascriptAlert",
@@ -15036,6 +15106,166 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/Smr-TurnsLevel.html#enumcase_High"
         },                {
+            "fqsen": "\\Smr\\TypeHelpers\\ArrayType",
+            "name": "ArrayType",
+            "summary": "A\u0020runtime\u0020type\u0020check\u0020for\u0020values\u0020of\u0020type\u0020T.",
+            "url": "classes/Smr-TypeHelpers-ArrayType.html"
+        },                {
+            "fqsen": "\\Smr\\TypeHelpers\\ArrayType\u003A\u003A__construct\u0028\u0029",
+            "name": "__construct",
+            "summary": "",
+            "url": "classes/Smr-TypeHelpers-ArrayType.html#method___construct"
+        },                {
+            "fqsen": "\\Smr\\TypeHelpers\\ArrayType\u003A\u003Aaccepts\u0028\u0029",
+            "name": "accepts",
+            "summary": "",
+            "url": "classes/Smr-TypeHelpers-ArrayType.html#method_accepts"
+        },                {
+            "fqsen": "\\Smr\\TypeHelpers\\ArrayType\u003A\u003Aname\u0028\u0029",
+            "name": "name",
+            "summary": "",
+            "url": "classes/Smr-TypeHelpers-ArrayType.html#method_name"
+        },                {
+            "fqsen": "\\Smr\\TypeHelpers\\ArrayType\u003A\u003A\u0024valueType",
+            "name": "valueType",
+            "summary": "",
+            "url": "classes/Smr-TypeHelpers-ArrayType.html#property_valueType"
+        },                {
+            "fqsen": "\\Smr\\TypeHelpers\\ArrayType\u003A\u003A\u0024keyType",
+            "name": "keyType",
+            "summary": "",
+            "url": "classes/Smr-TypeHelpers-ArrayType.html#property_keyType"
+        },                {
+            "fqsen": "\\Smr\\TypeHelpers\\BoolType",
+            "name": "BoolType",
+            "summary": "A\u0020runtime\u0020type\u0020check\u0020for\u0020values\u0020of\u0020type\u0020T.",
+            "url": "classes/Smr-TypeHelpers-BoolType.html"
+        },                {
+            "fqsen": "\\Smr\\TypeHelpers\\BoolType\u003A\u003Aaccepts\u0028\u0029",
+            "name": "accepts",
+            "summary": "",
+            "url": "classes/Smr-TypeHelpers-BoolType.html#method_accepts"
+        },                {
+            "fqsen": "\\Smr\\TypeHelpers\\BoolType\u003A\u003Aname\u0028\u0029",
+            "name": "name",
+            "summary": "",
+            "url": "classes/Smr-TypeHelpers-BoolType.html#method_name"
+        },                {
+            "fqsen": "\\Smr\\TypeHelpers\\FloatType",
+            "name": "FloatType",
+            "summary": "A\u0020runtime\u0020type\u0020check\u0020for\u0020values\u0020of\u0020type\u0020T.",
+            "url": "classes/Smr-TypeHelpers-FloatType.html"
+        },                {
+            "fqsen": "\\Smr\\TypeHelpers\\FloatType\u003A\u003Aaccepts\u0028\u0029",
+            "name": "accepts",
+            "summary": "",
+            "url": "classes/Smr-TypeHelpers-FloatType.html#method_accepts"
+        },                {
+            "fqsen": "\\Smr\\TypeHelpers\\FloatType\u003A\u003Aname\u0028\u0029",
+            "name": "name",
+            "summary": "",
+            "url": "classes/Smr-TypeHelpers-FloatType.html#method_name"
+        },                {
+            "fqsen": "\\Smr\\TypeHelpers\\IntType",
+            "name": "IntType",
+            "summary": "A\u0020runtime\u0020type\u0020check\u0020for\u0020values\u0020of\u0020type\u0020T.",
+            "url": "classes/Smr-TypeHelpers-IntType.html"
+        },                {
+            "fqsen": "\\Smr\\TypeHelpers\\IntType\u003A\u003Aaccepts\u0028\u0029",
+            "name": "accepts",
+            "summary": "",
+            "url": "classes/Smr-TypeHelpers-IntType.html#method_accepts"
+        },                {
+            "fqsen": "\\Smr\\TypeHelpers\\IntType\u003A\u003Aname\u0028\u0029",
+            "name": "name",
+            "summary": "",
+            "url": "classes/Smr-TypeHelpers-IntType.html#method_name"
+        },                {
+            "fqsen": "\\Smr\\TypeHelpers\\ObjectType",
+            "name": "ObjectType",
+            "summary": "A\u0020runtime\u0020type\u0020check\u0020for\u0020values\u0020of\u0020type\u0020T.",
+            "url": "classes/Smr-TypeHelpers-ObjectType.html"
+        },                {
+            "fqsen": "\\Smr\\TypeHelpers\\ObjectType\u003A\u003A__construct\u0028\u0029",
+            "name": "__construct",
+            "summary": "",
+            "url": "classes/Smr-TypeHelpers-ObjectType.html#method___construct"
+        },                {
+            "fqsen": "\\Smr\\TypeHelpers\\ObjectType\u003A\u003Aaccepts\u0028\u0029",
+            "name": "accepts",
+            "summary": "",
+            "url": "classes/Smr-TypeHelpers-ObjectType.html#method_accepts"
+        },                {
+            "fqsen": "\\Smr\\TypeHelpers\\ObjectType\u003A\u003Aname\u0028\u0029",
+            "name": "name",
+            "summary": "",
+            "url": "classes/Smr-TypeHelpers-ObjectType.html#method_name"
+        },                {
+            "fqsen": "\\Smr\\TypeHelpers\\ObjectType\u003A\u003A\u0024class",
+            "name": "class",
+            "summary": "",
+            "url": "classes/Smr-TypeHelpers-ObjectType.html#property_class"
+        },                {
+            "fqsen": "\\Smr\\TypeHelpers\\StringType",
+            "name": "StringType",
+            "summary": "A\u0020runtime\u0020type\u0020check\u0020for\u0020values\u0020of\u0020type\u0020T.",
+            "url": "classes/Smr-TypeHelpers-StringType.html"
+        },                {
+            "fqsen": "\\Smr\\TypeHelpers\\StringType\u003A\u003Aaccepts\u0028\u0029",
+            "name": "accepts",
+            "summary": "",
+            "url": "classes/Smr-TypeHelpers-StringType.html#method_accepts"
+        },                {
+            "fqsen": "\\Smr\\TypeHelpers\\StringType\u003A\u003Aname\u0028\u0029",
+            "name": "name",
+            "summary": "",
+            "url": "classes/Smr-TypeHelpers-StringType.html#method_name"
+        },                {
+            "fqsen": "\\Smr\\TypeHelpers\\Type",
+            "name": "Type",
+            "summary": "A\u0020runtime\u0020type\u0020check\u0020for\u0020values\u0020of\u0020type\u0020T.",
+            "url": "classes/Smr-TypeHelpers-Type.html"
+        },                {
+            "fqsen": "\\Smr\\TypeHelpers\\Type\u003A\u003Aarray\u0028\u0029",
+            "name": "array",
+            "summary": "",
+            "url": "classes/Smr-TypeHelpers-Type.html#method_array"
+        },                {
+            "fqsen": "\\Smr\\TypeHelpers\\Type\u003A\u003Astring\u0028\u0029",
+            "name": "string",
+            "summary": "",
+            "url": "classes/Smr-TypeHelpers-Type.html#method_string"
+        },                {
+            "fqsen": "\\Smr\\TypeHelpers\\Type\u003A\u003Aint\u0028\u0029",
+            "name": "int",
+            "summary": "",
+            "url": "classes/Smr-TypeHelpers-Type.html#method_int"
+        },                {
+            "fqsen": "\\Smr\\TypeHelpers\\Type\u003A\u003Afloat\u0028\u0029",
+            "name": "float",
+            "summary": "",
+            "url": "classes/Smr-TypeHelpers-Type.html#method_float"
+        },                {
+            "fqsen": "\\Smr\\TypeHelpers\\Type\u003A\u003Abool\u0028\u0029",
+            "name": "bool",
+            "summary": "",
+            "url": "classes/Smr-TypeHelpers-Type.html#method_bool"
+        },                {
+            "fqsen": "\\Smr\\TypeHelpers\\Type\u003A\u003Aobject\u0028\u0029",
+            "name": "object",
+            "summary": "",
+            "url": "classes/Smr-TypeHelpers-Type.html#method_object"
+        },                {
+            "fqsen": "\\Smr\\TypeHelpers\\Type\u003A\u003Aaccepts\u0028\u0029",
+            "name": "accepts",
+            "summary": "",
+            "url": "classes/Smr-TypeHelpers-Type.html#method_accepts"
+        },                {
+            "fqsen": "\\Smr\\TypeHelpers\\Type\u003A\u003Aname\u0028\u0029",
+            "name": "name",
+            "summary": "",
+            "url": "classes/Smr-TypeHelpers-Type.html#method_name"
+        },                {
             "fqsen": "\\Smr\\UserRanking",
             "name": "UserRanking",
             "summary": "User\u0020ranking\u0020titles",
@@ -15116,11 +15346,6 @@ Search.appendIndex(
             "summary": "Returns\u0020the\u0020earliest\u0020time\u0020\u0028in\u0020seconds\u0029\u0020until\u0020free\u0020turns\nare\u0020available\u0020across\u0020all\u0020voting\u0020sites.",
             "url": "classes/Smr-VoteLink.html#method_getMinTimeUntilFreeTurns"
         },                {
-            "fqsen": "\\Smr\\VoteLink\u003A\u003AgivesFreeTurns\u0028\u0029",
-            "name": "givesFreeTurns",
-            "summary": "Does\u0020this\u0020VoteSite\u0020have\u0020a\u0020voting\u0020callback\u0020that\u0020can\u0020be\u0020used\nto\u0020award\u0020free\u0020turns\u003F",
-            "url": "classes/Smr-VoteLink.html#method_givesFreeTurns"
-        },                {
             "fqsen": "\\Smr\\VoteLink\u003A\u003AgetTimeUntilFreeTurns\u0028\u0029",
             "name": "getTimeUntilFreeTurns",
             "summary": "Time\u0020until\u0020the\u0020account\u0020can\u0020get\u0020free\u0020turns\u0020from\u0020voting\u0020at\u0020this\u0020site.",
@@ -15166,11 +15391,6 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/Smr-VoteLink.html#property_CACHE_TIMEOUTS"
         },                {
-            "fqsen": "\\Smr\\VoteLink\u003A\u003A\u0024data",
-            "name": "data",
-            "summary": "",
-            "url": "classes/Smr-VoteLink.html#property_data"
-        },                {
             "fqsen": "\\Smr\\VoteLink\u003A\u003A\u0024site",
             "name": "site",
             "summary": "",
@@ -15191,10 +15411,20 @@ Search.appendIndex(
             "summary": "Enumerates\u0020external\u0020game\u0020voting\u0020sites\u0020and\u0020their\u0020properties.",
             "url": "classes/Smr-VoteSite.html"
         },                {
-            "fqsen": "\\Smr\\VoteSite\u003A\u003AgetData\u0028\u0029",
-            "name": "getData",
-            "summary": "",
-            "url": "classes/Smr-VoteSite.html#method_getData"
+            "fqsen": "\\Smr\\VoteSite\u003A\u003AgivesFreeTurns\u0028\u0029",
+            "name": "givesFreeTurns",
+            "summary": "Does\u0020this\u0020voting\u0020site\u0020have\u0020the\u0020configuration\u0020required\u0020to\u0020award\u0020free\u0020turns\u003F",
+            "url": "classes/Smr-VoteSite.html#method_givesFreeTurns"
+        },                {
+            "fqsen": "\\Smr\\VoteSite\u003A\u003AgetImg\u0028\u0029",
+            "name": "getImg",
+            "summary": "Returns\u0020the\u0020image\u0020to\u0020display\u0020for\u0020this\u0020voting\u0020site.",
+            "url": "classes/Smr-VoteSite.html#method_getImg"
+        },                {
+            "fqsen": "\\Smr\\VoteSite\u003A\u003AgetUrl\u0028\u0029",
+            "name": "getUrl",
+            "summary": "Returns\u0020the\u0020URL\u0020that\u0020should\u0020be\u0020used\u0020for\u0020this\u0020voting\u0020site.",
+            "url": "classes/Smr-VoteSite.html#method_getUrl"
         },                {
             "fqsen": "\\Smr\\VoteSite\u003A\u003ATWG",
             "name": "TWG",
@@ -15540,5 +15770,10 @@ Search.appendIndex(
             "name": "Traits",
             "summary": "",
             "url": "namespaces/smr-traits.html"
+        },                {
+            "fqsen": "\\Smr\\TypeHelpers",
+            "name": "TypeHelpers",
+            "summary": "",
+            "url": "namespaces/smr-typehelpers.html"
         }            ]
 );

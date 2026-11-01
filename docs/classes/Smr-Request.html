@@ -131,6 +131,10 @@
                 <a href="namespaces/smr-traits.html" class="">Traits</a>
                 
             </li>
+                    <li>
+                <a href="namespaces/smr-typehelpers.html" class="">TypeHelpers</a>
+                
+            </li>
             </ul>
 
                         </section>
@@ -184,9 +188,9 @@
         <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Request.php"><a href="files/src-lib-smr-request.html"><abbr title="src/lib/Smr/Request.php">Request.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">11</span>
+    <span class="phpdocumentor-element-found-in__line">12</span>
 
-            <a href="classes/Smr-Request.html#source-view.11" class="phpdocumentor-element-found-in__source" data-line="11" data-modal="source-view" data-src="files/src/lib/Smr/Request.php.txt"></a>
+            <a href="classes/Smr-Request.html#source-view.12" class="phpdocumentor-element-found-in__source" data-line="12" data-modal="source-view" data-src="files/src/lib/Smr/Request.php.txt"></a>
     </aside>
 
             <p class="phpdocumentor-summary">Should be used for getting request data for processing pages.</p>
@@ -263,6 +267,18 @@
 <dd>Returns index value as an array of integers with integer keys.</dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a class="" href="classes/Smr-Request.html#method_getUploadedTmpName">getUploadedTmpName()</a>
+    <span>
+                                &nbsp;: string    </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a class="" href="classes/Smr-Request.html#method_getUploadError">getUploadError()</a>
+    <span>
+                                &nbsp;: int    </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
     <a class="" href="classes/Smr-Request.html#method_getVar">getVar()</a>
     <span>
                                 &nbsp;: string    </span>
@@ -291,11 +307,29 @@
 <dd>Returns true if index is set.</dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -private">
+    <a class="" href="classes/Smr-Request.html#method_getStringArrayValue">getStringArrayValue()</a>
+    <span>
+                                &nbsp;: array&lt;int, string&gt;    </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -private">
+    <a class="" href="classes/Smr-Request.html#method_getUploadedFile">getUploadedFile()</a>
+    <span>
+                                &nbsp;: array&lt;string|int, mixed&gt;    </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -private">
     <a class="" href="classes/Smr-Request.html#method_getVarX">getVarX()</a>
     <span>
                                 &nbsp;: mixed    </span>
 </dt>
 <dd>Helper function to avoid code duplication in getVar* functions.</dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -private">
+    <a class="" href="classes/Smr-Request.html#method_getX">getX()</a>
+    <span>
+                                &nbsp;: <abbr title="\Smr\T">T</abbr>    </span>
+</dt>
 
     </dl>
 
@@ -325,9 +359,9 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Request.php"><a href="files/src-lib-smr-request.html"><abbr title="src/lib/Smr/Request.php">Request.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">115</span>
+    <span class="phpdocumentor-element-found-in__line">112</span>
 
-            <a href="classes/Smr-Request.html#source-view.115" class="phpdocumentor-element-found-in__source" data-line="115" data-modal="source-view" data-src="files/src/lib/Smr/Request.php.txt"></a>
+            <a href="classes/Smr-Request.html#source-view.112" class="phpdocumentor-element-found-in__source" data-line="112" data-modal="source-view" data-src="files/src/lib/Smr/Request.php.txt"></a>
     </aside>
 
         <p class="phpdocumentor-summary">Returns index value as a (trimmed) string.</p>
@@ -382,9 +416,9 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Request.php"><a href="files/src-lib-smr-request.html"><abbr title="src/lib/Smr/Request.php">Request.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">71</span>
+    <span class="phpdocumentor-element-found-in__line">79</span>
 
-            <a href="classes/Smr-Request.html#source-view.71" class="phpdocumentor-element-found-in__source" data-line="71" data-modal="source-view" data-src="files/src/lib/Smr/Request.php.txt"></a>
+            <a href="classes/Smr-Request.html#source-view.79" class="phpdocumentor-element-found-in__source" data-line="79" data-modal="source-view" data-src="files/src/lib/Smr/Request.php.txt"></a>
     </aside>
 
         <p class="phpdocumentor-summary">Returns index value as an array of strings with integer keys.</p>
@@ -439,9 +473,9 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Request.php"><a href="files/src-lib-smr-request.html"><abbr title="src/lib/Smr/Request.php">Request.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">25</span>
+    <span class="phpdocumentor-element-found-in__line">55</span>
 
-            <a href="classes/Smr-Request.html#source-view.25" class="phpdocumentor-element-found-in__source" data-line="25" data-modal="source-view" data-src="files/src/lib/Smr/Request.php.txt"></a>
+            <a href="classes/Smr-Request.html#source-view.55" class="phpdocumentor-element-found-in__source" data-line="55" data-modal="source-view" data-src="files/src/lib/Smr/Request.php.txt"></a>
     </aside>
 
         <p class="phpdocumentor-summary">Returns index value as a boolean for boolean-like inputs.</p>
@@ -496,9 +530,9 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Request.php"><a href="files/src-lib-smr-request.html"><abbr title="src/lib/Smr/Request.php">Request.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">55</span>
+    <span class="phpdocumentor-element-found-in__line">69</span>
 
-            <a href="classes/Smr-Request.html#source-view.55" class="phpdocumentor-element-found-in__source" data-line="55" data-modal="source-view" data-src="files/src/lib/Smr/Request.php.txt"></a>
+            <a href="classes/Smr-Request.html#source-view.69" class="phpdocumentor-element-found-in__source" data-line="69" data-modal="source-view" data-src="files/src/lib/Smr/Request.php.txt"></a>
     </aside>
 
         <p class="phpdocumentor-summary">Returns index value as a float.</p>
@@ -553,9 +587,9 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Request.php"><a href="files/src-lib-smr-request.html"><abbr title="src/lib/Smr/Request.php">Request.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">42</span>
+    <span class="phpdocumentor-element-found-in__line">62</span>
 
-            <a href="classes/Smr-Request.html#source-view.42" class="phpdocumentor-element-found-in__source" data-line="42" data-modal="source-view" data-src="files/src/lib/Smr/Request.php.txt"></a>
+            <a href="classes/Smr-Request.html#source-view.62" class="phpdocumentor-element-found-in__source" data-line="62" data-modal="source-view" data-src="files/src/lib/Smr/Request.php.txt"></a>
     </aside>
 
         <p class="phpdocumentor-summary">Returns index value as an integer.</p>
@@ -610,9 +644,9 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Request.php"><a href="files/src-lib-smr-request.html"><abbr title="src/lib/Smr/Request.php">Request.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">94</span>
+    <span class="phpdocumentor-element-found-in__line">95</span>
 
-            <a href="classes/Smr-Request.html#source-view.94" class="phpdocumentor-element-found-in__source" data-line="94" data-modal="source-view" data-src="files/src/lib/Smr/Request.php.txt"></a>
+            <a href="classes/Smr-Request.html#source-view.95" class="phpdocumentor-element-found-in__source" data-line="95" data-modal="source-view" data-src="files/src/lib/Smr/Request.php.txt"></a>
     </aside>
 
         <p class="phpdocumentor-summary">Returns index value as an array of integers with integer keys.</p>
@@ -659,6 +693,104 @@
             -public
                                     -static                    "
 >
+    <h4 class="phpdocumentor-element__name" id="method_getUploadedTmpName">
+        getUploadedTmpName()
+        <a href="classes/Smr-Request.html#method_getUploadedTmpName" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Request.php"><a href="files/src-lib-smr-request.html"><abbr title="src/lib/Smr/Request.php">Request.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">202</span>
+
+            <a href="classes/Smr-Request.html#source-view.202" class="phpdocumentor-element-found-in__source" data-line="202" data-modal="source-view" data-src="files/src/lib/Smr/Request.php.txt"></a>
+    </aside>
+
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+            <span class="phpdocumentor-signature__static">static</span>        <span class="phpdocumentor-signature__name">getUploadedTmpName</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__type">string&nbsp;</span><span class="phpdocumentor-signature__argument__name">$index</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">string</span></code>
+
+    <div class="phpdocumentor-label-line">
+        </div>
+    
+    
+        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
+    <dl class="phpdocumentor-argument-list">
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-argument-list__argument__name">$index</span>
+                : <span class="phpdocumentor-argument-list__argument__type">string</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                
+            </dd>
+            </dl>
+
+    
+
+        
+    
+            <section>
+        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
+        <span class="phpdocumentor-signature__response_type">string</span>
+            </section>
+
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                    -static                    "
+>
+    <h4 class="phpdocumentor-element__name" id="method_getUploadError">
+        getUploadError()
+        <a href="classes/Smr-Request.html#method_getUploadError" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Request.php"><a href="files/src-lib-smr-request.html"><abbr title="src/lib/Smr/Request.php">Request.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">198</span>
+
+            <a href="classes/Smr-Request.html#source-view.198" class="phpdocumentor-element-found-in__source" data-line="198" data-modal="source-view" data-src="files/src/lib/Smr/Request.php.txt"></a>
+    </aside>
+
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+            <span class="phpdocumentor-signature__static">static</span>        <span class="phpdocumentor-signature__name">getUploadError</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__type">string&nbsp;</span><span class="phpdocumentor-signature__argument__name">$index</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">int</span></code>
+
+    <div class="phpdocumentor-label-line">
+        </div>
+    
+    
+        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
+    <dl class="phpdocumentor-argument-list">
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-argument-list__argument__name">$index</span>
+                : <span class="phpdocumentor-argument-list__argument__type">string</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                
+            </dd>
+            </dl>
+
+    
+
+        
+    
+            <section>
+        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
+        <span class="phpdocumentor-signature__response_type">int</span>
+            </section>
+
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                    -static                    "
+>
     <h4 class="phpdocumentor-element__name" id="method_getVar">
         getVar()
         <a href="classes/Smr-Request.html#method_getVar" class="headerlink"><i class="fas fa-link"></i></a>
@@ -667,9 +799,9 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Request.php"><a href="files/src-lib-smr-request.html"><abbr title="src/lib/Smr/Request.php">Request.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">132</span>
+    <span class="phpdocumentor-element-found-in__line">133</span>
 
-            <a href="classes/Smr-Request.html#source-view.132" class="phpdocumentor-element-found-in__source" data-line="132" data-modal="source-view" data-src="files/src/lib/Smr/Request.php.txt"></a>
+            <a href="classes/Smr-Request.html#source-view.133" class="phpdocumentor-element-found-in__source" data-line="133" data-modal="source-view" data-src="files/src/lib/Smr/Request.php.txt"></a>
     </aside>
 
         <p class="phpdocumentor-summary">Returns index value as a string from either $_REQUEST or $var.</p>
@@ -728,9 +860,9 @@ posted form inputs and from container variables.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Request.php"><a href="files/src-lib-smr-request.html"><abbr title="src/lib/Smr/Request.php">Request.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">139</span>
+    <span class="phpdocumentor-element-found-in__line">144</span>
 
-            <a href="classes/Smr-Request.html#source-view.139" class="phpdocumentor-element-found-in__source" data-line="139" data-modal="source-view" data-src="files/src/lib/Smr/Request.php.txt"></a>
+            <a href="classes/Smr-Request.html#source-view.144" class="phpdocumentor-element-found-in__source" data-line="144" data-modal="source-view" data-src="files/src/lib/Smr/Request.php.txt"></a>
     </aside>
 
         <p class="phpdocumentor-summary">Like getVar, but returns an int instead of a string.</p>
@@ -785,9 +917,9 @@ posted form inputs and from container variables.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Request.php"><a href="files/src-lib-smr-request.html"><abbr title="src/lib/Smr/Request.php">Request.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">149</span>
+    <span class="phpdocumentor-element-found-in__line">158</span>
 
-            <a href="classes/Smr-Request.html#source-view.149" class="phpdocumentor-element-found-in__source" data-line="149" data-modal="source-view" data-src="files/src/lib/Smr/Request.php.txt"></a>
+            <a href="classes/Smr-Request.html#source-view.158" class="phpdocumentor-element-found-in__source" data-line="158" data-modal="source-view" data-src="files/src/lib/Smr/Request.php.txt"></a>
     </aside>
 
         <p class="phpdocumentor-summary">Like getVar, but returns an array of ints instead of a string.</p>
@@ -842,9 +974,9 @@ posted form inputs and from container variables.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Request.php"><a href="files/src-lib-smr-request.html"><abbr title="src/lib/Smr/Request.php">Request.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">18</span>
+    <span class="phpdocumentor-element-found-in__line">19</span>
 
-            <a href="classes/Smr-Request.html#source-view.18" class="phpdocumentor-element-found-in__source" data-line="18" data-modal="source-view" data-src="files/src/lib/Smr/Request.php.txt"></a>
+            <a href="classes/Smr-Request.html#source-view.19" class="phpdocumentor-element-found-in__source" data-line="19" data-modal="source-view" data-src="files/src/lib/Smr/Request.php.txt"></a>
     </aside>
 
         <p class="phpdocumentor-summary">Returns true if index is set.</p>
@@ -887,6 +1019,104 @@ posted if a box is unchecked.</p>
             -private
                                     -static                    "
 >
+    <h4 class="phpdocumentor-element__name" id="method_getStringArrayValue">
+        getStringArrayValue()
+        <a href="classes/Smr-Request.html#method_getStringArrayValue" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Request.php"><a href="files/src-lib-smr-request.html"><abbr title="src/lib/Smr/Request.php">Request.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">193</span>
+
+            <a href="classes/Smr-Request.html#source-view.193" class="phpdocumentor-element-found-in__source" data-line="193" data-modal="source-view" data-src="files/src/lib/Smr/Request.php.txt"></a>
+    </aside>
+
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">private</span>
+            <span class="phpdocumentor-signature__static">static</span>        <span class="phpdocumentor-signature__name">getStringArrayValue</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__type">string&nbsp;</span><span class="phpdocumentor-signature__argument__name">$index</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">array&lt;int, string&gt;</span></code>
+
+    <div class="phpdocumentor-label-line">
+        </div>
+    
+    
+        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
+    <dl class="phpdocumentor-argument-list">
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-argument-list__argument__name">$index</span>
+                : <span class="phpdocumentor-argument-list__argument__type">string</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                
+            </dd>
+            </dl>
+
+    
+
+        
+    
+            <section>
+        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
+        <span class="phpdocumentor-signature__response_type">array&lt;int, string&gt;</span>
+            </section>
+
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -private
+                                    -static                    "
+>
+    <h4 class="phpdocumentor-element__name" id="method_getUploadedFile">
+        getUploadedFile()
+        <a href="classes/Smr-Request.html#method_getUploadedFile" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Request.php"><a href="files/src-lib-smr-request.html"><abbr title="src/lib/Smr/Request.php">Request.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">209</span>
+
+            <a href="classes/Smr-Request.html#source-view.209" class="phpdocumentor-element-found-in__source" data-line="209" data-modal="source-view" data-src="files/src/lib/Smr/Request.php.txt"></a>
+    </aside>
+
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">private</span>
+            <span class="phpdocumentor-signature__static">static</span>        <span class="phpdocumentor-signature__name">getUploadedFile</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__type">string&nbsp;</span><span class="phpdocumentor-signature__argument__name">$index</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">array&lt;string|int, mixed&gt;</span></code>
+
+    <div class="phpdocumentor-label-line">
+        </div>
+    
+    
+        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
+    <dl class="phpdocumentor-argument-list">
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-argument-list__argument__name">$index</span>
+                : <span class="phpdocumentor-argument-list__argument__type">string</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                
+            </dd>
+            </dl>
+
+    
+
+        
+    
+            <section>
+        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
+        <span class="phpdocumentor-signature__response_type">array&lt;string|int, mixed&gt;</span>
+            </section>
+
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -private
+                                    -static                    "
+>
     <h4 class="phpdocumentor-element__name" id="method_getVarX">
         getVarX()
         <a href="classes/Smr-Request.html#method_getVarX" class="headerlink"><i class="fas fa-link"></i></a>
@@ -895,9 +1125,9 @@ posted if a box is unchecked.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Request.php"><a href="files/src-lib-smr-request.html"><abbr title="src/lib/Smr/Request.php">Request.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">156</span>
+    <span class="phpdocumentor-element-found-in__line">176</span>
 
-            <a href="classes/Smr-Request.html#source-view.156" class="phpdocumentor-element-found-in__source" data-line="156" data-modal="source-view" data-src="files/src/lib/Smr/Request.php.txt"></a>
+            <a href="classes/Smr-Request.html#source-view.176" class="phpdocumentor-element-found-in__source" data-line="176" data-modal="source-view" data-src="files/src/lib/Smr/Request.php.txt"></a>
     </aside>
 
         <p class="phpdocumentor-summary">Helper function to avoid code duplication in getVar* functions.</p>
@@ -940,6 +1170,82 @@ posted if a box is unchecked.</p>
         
     
     
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -private
+                                    -static                    "
+>
+    <h4 class="phpdocumentor-element__name" id="method_getX">
+        getX()
+        <a href="classes/Smr-Request.html#method_getX" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/lib/Smr/Request.php"><a href="files/src-lib-smr-request.html"><abbr title="src/lib/Smr/Request.php">Request.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">29</span>
+
+            <a href="classes/Smr-Request.html#source-view.29" class="phpdocumentor-element-found-in__source" data-line="29" data-modal="source-view" data-src="files/src/lib/Smr/Request.php.txt"></a>
+    </aside>
+
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">private</span>
+            <span class="phpdocumentor-signature__static">static</span>        <span class="phpdocumentor-signature__name">getX</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__type">string&nbsp;</span><span class="phpdocumentor-signature__argument__name">$index</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__type"><abbr title="\Smr\T">T</abbr>|null&nbsp;</span><span class="phpdocumentor-signature__argument__name">$default</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__type"><abbr title="(\Smr\T is bool ? \Smr\FILTER_VALIDATE_BOOL : (\Smr\T is int ? \Smr\FILTER_VALIDATE_INT : \Smr\FILTER_VALIDATE_FLOAT))">FILTER_VALIDATE_FLOAT))</abbr>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$filter</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type"><abbr title="\Smr\T">T</abbr></span></code>
+
+    <div class="phpdocumentor-label-line">
+        </div>
+    
+    
+        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
+    <dl class="phpdocumentor-argument-list">
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-argument-list__argument__name">$index</span>
+                : <span class="phpdocumentor-argument-list__argument__type">string</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                
+            </dd>
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-argument-list__argument__name">$default</span>
+                : <span class="phpdocumentor-argument-list__argument__type"><abbr title="\Smr\T">T</abbr>|null</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                
+            </dd>
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-argument-list__argument__name">$filter</span>
+                : <span class="phpdocumentor-argument-list__argument__type"><abbr title="(\Smr\T is bool ? \Smr\FILTER_VALIDATE_BOOL : (\Smr\T is int ? \Smr\FILTER_VALIDATE_INT : \Smr\FILTER_VALIDATE_FLOAT))">FILTER_VALIDATE_FLOAT))</abbr></span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                
+            </dd>
+            </dl>
+
+    
+    <h5 class="phpdocumentor-tag-list__heading" id="method_getX_tags">
+        Tags
+        <a href="classes/Smr-Request.html#method_getX_tags" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h5>
+    <dl class="phpdocumentor-tag-list">
+                    <dt class="phpdocumentor-tag-list__entry">
+                <span class="phpdocumentor-tag__name">template</span>
+            </dt>
+                            <dd class="phpdocumentor-tag-list__definition">
+                                                                                                        
+                                    </dd>
+                        </dl>
+
+        
+    
+            <section>
+        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
+        <span class="phpdocumentor-signature__response_type"><abbr title="\Smr\T">T</abbr></span>
+            </section>
+
 </article>
             </section>
 
@@ -1062,11 +1368,16 @@ posted if a box is unchecked.</p>
                                             <li class=""><a href="classes/Smr-Request.html#method_getFloat">getFloat()</a></li>
                                             <li class=""><a href="classes/Smr-Request.html#method_getInt">getInt()</a></li>
                                             <li class=""><a href="classes/Smr-Request.html#method_getIntArray">getIntArray()</a></li>
+                                            <li class=""><a href="classes/Smr-Request.html#method_getUploadedTmpName">getUploadedTmpName()</a></li>
+                                            <li class=""><a href="classes/Smr-Request.html#method_getUploadError">getUploadError()</a></li>
                                             <li class=""><a href="classes/Smr-Request.html#method_getVar">getVar()</a></li>
                                             <li class=""><a href="classes/Smr-Request.html#method_getVarInt">getVarInt()</a></li>
                                             <li class=""><a href="classes/Smr-Request.html#method_getVarIntArray">getVarIntArray()</a></li>
                                             <li class=""><a href="classes/Smr-Request.html#method_has">has()</a></li>
+                                            <li class=""><a href="classes/Smr-Request.html#method_getStringArrayValue">getStringArrayValue()</a></li>
+                                            <li class=""><a href="classes/Smr-Request.html#method_getUploadedFile">getUploadedFile()</a></li>
                                             <li class=""><a href="classes/Smr-Request.html#method_getVarX">getVarX()</a></li>
+                                            <li class=""><a href="classes/Smr-Request.html#method_getX">getX()</a></li>
                                     </ul>
             </li>
                     </ul>
