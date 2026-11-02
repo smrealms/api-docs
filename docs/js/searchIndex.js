@@ -3111,6 +3111,16 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/Smr-Combat-Results-Combatant-TeamCombatResults.html#method___construct"
         },                {
+            "fqsen": "\\Smr\\Combat\\Results\\Combatant\\TeamCombatResults\u003A\u003AhasCombatant\u0028\u0029",
+            "name": "hasCombatant",
+            "summary": "Is\u0020combatant\u0020a\u0020member\u0020of\u0020this\u0020team\u003F",
+            "url": "classes/Smr-Combat-Results-Combatant-TeamCombatResults.html#method_hasCombatant"
+        },                {
+            "fqsen": "\\Smr\\Combat\\Results\\Combatant\\TeamCombatResults\u003A\u003AgetTotalDamageDealtTo\u0028\u0029",
+            "name": "getTotalDamageDealtTo",
+            "summary": "Get\u0020total\u0020damage\u0020done\u0020to\u0020an\u0020enemy\u0020combatant\u0020by\u0020this\u0020team.",
+            "url": "classes/Smr-Combat-Results-Combatant-TeamCombatResults.html#method_getTotalDamageDealtTo"
+        },                {
             "fqsen": "\\Smr\\Combat\\Results\\Combatant\\TeamCombatResults\u003A\u003A\u0024totalDamage",
             "name": "totalDamage",
             "summary": "",
