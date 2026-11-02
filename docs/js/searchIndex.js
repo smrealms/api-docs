@@ -1561,6 +1561,11 @@ Search.appendIndex(
             "summary": "Create\u0020the\u0020default\u0020roles\u0020for\u0020this\u0020alliance.",
             "url": "classes/Smr-Alliance.html#method_createDefaultRoles"
         },                {
+            "fqsen": "\\Smr\\Alliance\u003A\u003AcreateDefaultRole\u0028\u0029",
+            "name": "createDefaultRole",
+            "summary": "",
+            "url": "classes/Smr-Alliance.html#method_createDefaultRole"
+        },                {
             "fqsen": "\\Smr\\Alliance\u003A\u003ASQL",
             "name": "SQL",
             "summary": "",
