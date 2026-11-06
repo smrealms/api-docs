@@ -61,11 +61,6 @@ Search.appendIndex(
             "summary": "",
             "url": "namespaces/default.html#function_linkCombatLog"
         },                {
-            "fqsen": "\\smrBBCode\u0028\u0029",
-            "name": "smrBBCode",
-            "summary": "Converts\u0020a\u0020BBCode\u0020tag\u0020into\u0020some\u0020other\u0020text\u0020depending\u0020on\u0020the\u0020tag\u0020and\u0020value.",
-            "url": "namespaces/default.html#function_smrBBCode"
-        },                {
             "fqsen": "\\inify\u0028\u0029",
             "name": "inify",
             "summary": "",
@@ -1840,6 +1835,51 @@ Search.appendIndex(
             "name": "SPECIAL_DRINKS",
             "summary": "",
             "url": "classes/Smr-BarDrink.html#constant_SPECIAL_DRINKS"
+        },                {
+            "fqsen": "\\Smr\\BBCodeFormatter",
+            "name": "BBCodeFormatter",
+            "summary": "",
+            "url": "classes/Smr-BBCodeFormatter.html"
+        },                {
+            "fqsen": "\\Smr\\BBCodeFormatter\u003A\u003A__construct\u0028\u0029",
+            "name": "__construct",
+            "summary": "",
+            "url": "classes/Smr-BBCodeFormatter.html#method___construct"
+        },                {
+            "fqsen": "\\Smr\\BBCodeFormatter\u003A\u003AgetInstance\u0028\u0029",
+            "name": "getInstance",
+            "summary": "",
+            "url": "classes/Smr-BBCodeFormatter.html#method_getInstance"
+        },                {
+            "fqsen": "\\Smr\\BBCodeFormatter\u003A\u003Aformat\u0028\u0029",
+            "name": "format",
+            "summary": "",
+            "url": "classes/Smr-BBCodeFormatter.html#method_format"
+        },                {
+            "fqsen": "\\Smr\\BBCodeFormatter\u003A\u003ArenderTag\u0028\u0029",
+            "name": "renderTag",
+            "summary": "Converts\u0020a\u0020BBCode\u0020tag\u0020into\u0020some\u0020other\u0020text\u0020depending\u0020on\u0020the\u0020tag\u0020and\u0020value.",
+            "url": "classes/Smr-BBCodeFormatter.html#method_renderTag"
+        },                {
+            "fqsen": "\\Smr\\BBCodeFormatter\u003A\u003A\u0024instance",
+            "name": "instance",
+            "summary": "",
+            "url": "classes/Smr-BBCodeFormatter.html#property_instance"
+        },                {
+            "fqsen": "\\Smr\\BBCodeFormatter\u003A\u003A\u0024parser",
+            "name": "parser",
+            "summary": "",
+            "url": "classes/Smr-BBCodeFormatter.html#property_parser"
+        },                {
+            "fqsen": "\\Smr\\BBCodeFormatter\u003A\u003A\u0024gameID",
+            "name": "gameID",
+            "summary": "",
+            "url": "classes/Smr-BBCodeFormatter.html#property_gameID"
+        },                {
+            "fqsen": "\\Smr\\BBCodeFormatter\u003A\u003A\u0024noLinks",
+            "name": "noLinks",
+            "summary": "",
+            "url": "classes/Smr-BBCodeFormatter.html#property_noLinks"
         },                {
             "fqsen": "\\Smr\\Blackjack\\Card",
             "name": "Card",
