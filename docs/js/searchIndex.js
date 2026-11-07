@@ -1781,6 +1781,31 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/Smr-ArrayValue.html#method_get"
         },                {
+            "fqsen": "\\Smr\\AssetUrlCache",
+            "name": "AssetUrlCache",
+            "summary": "",
+            "url": "classes/Smr-AssetUrlCache.html"
+        },                {
+            "fqsen": "\\Smr\\AssetUrlCache\u003A\u003A__construct\u0028\u0029",
+            "name": "__construct",
+            "summary": "",
+            "url": "classes/Smr-AssetUrlCache.html#method___construct"
+        },                {
+            "fqsen": "\\Smr\\AssetUrlCache\u003A\u003AgetInstance\u0028\u0029",
+            "name": "getInstance",
+            "summary": "",
+            "url": "classes/Smr-AssetUrlCache.html#method_getInstance"
+        },                {
+            "fqsen": "\\Smr\\AssetUrlCache\u003A\u003Aresolve\u0028\u0029",
+            "name": "resolve",
+            "summary": "",
+            "url": "classes/Smr-AssetUrlCache.html#method_resolve"
+        },                {
+            "fqsen": "\\Smr\\AssetUrlCache\u003A\u003A\u0024manifest",
+            "name": "manifest",
+            "summary": "",
+            "url": "classes/Smr-AssetUrlCache.html#property_manifest"
+        },                {
             "fqsen": "\\Smr\\BarDrink",
             "name": "BarDrink",
             "summary": "Provides\u0020details\u0020about\u0020bar\u0020drinks",
@@ -1860,11 +1885,6 @@ Search.appendIndex(
             "name": "renderTag",
             "summary": "Converts\u0020a\u0020BBCode\u0020tag\u0020into\u0020some\u0020other\u0020text\u0020depending\u0020on\u0020the\u0020tag\u0020and\u0020value.",
             "url": "classes/Smr-BBCodeFormatter.html#method_renderTag"
-        },                {
-            "fqsen": "\\Smr\\BBCodeFormatter\u003A\u003A\u0024instance",
-            "name": "instance",
-            "summary": "",
-            "url": "classes/Smr-BBCodeFormatter.html#property_instance"
         },                {
             "fqsen": "\\Smr\\BBCodeFormatter\u003A\u003A\u0024parser",
             "name": "parser",
@@ -15685,6 +15705,36 @@ Search.appendIndex(
             "name": "typeID",
             "summary": "",
             "url": "classes/Smr-WeightedRandom.html#property_typeID"
+        },                {
+            "fqsen": "\\Smr\\WordFilterCache",
+            "name": "WordFilterCache",
+            "summary": "",
+            "url": "classes/Smr-WordFilterCache.html"
+        },                {
+            "fqsen": "\\Smr\\WordFilterCache\u003A\u003A__construct\u0028\u0029",
+            "name": "__construct",
+            "summary": "",
+            "url": "classes/Smr-WordFilterCache.html#method___construct"
+        },                {
+            "fqsen": "\\Smr\\WordFilterCache\u003A\u003AgetInstance\u0028\u0029",
+            "name": "getInstance",
+            "summary": "",
+            "url": "classes/Smr-WordFilterCache.html#method_getInstance"
+        },                {
+            "fqsen": "\\Smr\\WordFilterCache\u003A\u003Afilter\u0028\u0029",
+            "name": "filter",
+            "summary": "",
+            "url": "classes/Smr-WordFilterCache.html#method_filter"
+        },                {
+            "fqsen": "\\Smr\\WordFilterCache\u003A\u003A\u0024search",
+            "name": "search",
+            "summary": "",
+            "url": "classes/Smr-WordFilterCache.html#property_search"
+        },                {
+            "fqsen": "\\Smr\\WordFilterCache\u003A\u003A\u0024replace",
+            "name": "replace",
+            "summary": "",
+            "url": "classes/Smr-WordFilterCache.html#property_replace"
         },                {
             "fqsen": "\\",
             "name": "\\",
