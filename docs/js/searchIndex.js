@@ -14816,6 +14816,11 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/Smr-SocialLogin-Twitter.html#method_getSessionToken"
         },                {
+            "fqsen": "\\Smr\\SocialLogin\\Twitter\u003A\u003AvalidateToken\u0028\u0029",
+            "name": "validateToken",
+            "summary": "",
+            "url": "classes/Smr-SocialLogin-Twitter.html#method_validateToken"
+        },                {
             "fqsen": "\\Smr\\StdlibExtensions\\InfiniteArrayIterator",
             "name": "InfiniteArrayIterator",
             "summary": "Convenience\u0020wrapper\u0020for\u0020cyclically\u0020iterating\u0020over\u0020an\u0020array.",
