@@ -7768,7 +7768,7 @@ Search.appendIndex(
         },                {
             "fqsen": "\\Smr\\Page\\AccountPage",
             "name": "AccountPage",
-            "summary": "A\u0020container\u0020that\u0020holds\u0020data\u0020needed\u0020to\u0020create\u0020a\u0020new\u0020page.",
+            "summary": "Holds\u0020the\u0020data\u0020needed\u0020to\u0020create\u0020a\u0020new\u0020page.",
             "url": "classes/Smr-Page-AccountPage.html"
         },                {
             "fqsen": "\\Smr\\Page\\AccountPage\u003A\u003Abuild\u0028\u0029",
@@ -7778,7 +7778,7 @@ Search.appendIndex(
         },                {
             "fqsen": "\\Smr\\Page\\AccountPageProcessor",
             "name": "AccountPageProcessor",
-            "summary": "A\u0020container\u0020that\u0020holds\u0020data\u0020needed\u0020to\u0020create\u0020a\u0020new\u0020page.",
+            "summary": "Holds\u0020the\u0020data\u0020needed\u0020to\u0020create\u0020a\u0020new\u0020page.",
             "url": "classes/Smr-Page-AccountPageProcessor.html"
         },                {
             "fqsen": "\\Smr\\Page\\AccountPageProcessor\u003A\u003Abuild\u0028\u0029",
@@ -7788,7 +7788,7 @@ Search.appendIndex(
         },                {
             "fqsen": "\\Smr\\Page\\Page",
             "name": "Page",
-            "summary": "A\u0020container\u0020that\u0020holds\u0020data\u0020needed\u0020to\u0020create\u0020a\u0020new\u0020page.",
+            "summary": "Holds\u0020the\u0020data\u0020needed\u0020to\u0020create\u0020a\u0020new\u0020page.",
             "url": "classes/Smr-Page-Page.html"
         },                {
             "fqsen": "\\Smr\\Page\\Page\u003A\u003AisLinkReusable\u0028\u0029",
@@ -7803,7 +7803,7 @@ Search.appendIndex(
         },                {
             "fqsen": "\\Smr\\Page\\Page\u003A\u003Ago\u0028\u0029",
             "name": "go",
-            "summary": "Forward\u0020to\u0020the\u0020page\u0020identified\u0020by\u0020this\u0020container.",
+            "summary": "Forward\u0020to\u0020this\u0020page.",
             "url": "classes/Smr-Page-Page.html#method_go"
         },                {
             "fqsen": "\\Smr\\Page\\Page\u003A\u003AgetLandingPage\u0028\u0029",
@@ -7838,7 +7838,7 @@ Search.appendIndex(
         },                {
             "fqsen": "\\Smr\\Page\\PlayerPage",
             "name": "PlayerPage",
-            "summary": "A\u0020container\u0020that\u0020holds\u0020data\u0020needed\u0020to\u0020create\u0020a\u0020new\u0020page.",
+            "summary": "Holds\u0020the\u0020data\u0020needed\u0020to\u0020create\u0020a\u0020new\u0020page.",
             "url": "classes/Smr-Page-PlayerPage.html"
         },                {
             "fqsen": "\\Smr\\Page\\PlayerPage\u003A\u003Abuild\u0028\u0029",
@@ -7848,7 +7848,7 @@ Search.appendIndex(
         },                {
             "fqsen": "\\Smr\\Page\\PlayerPageProcessor",
             "name": "PlayerPageProcessor",
-            "summary": "A\u0020container\u0020that\u0020holds\u0020data\u0020needed\u0020to\u0020create\u0020a\u0020new\u0020page.",
+            "summary": "Holds\u0020the\u0020data\u0020needed\u0020to\u0020create\u0020a\u0020new\u0020page.",
             "url": "classes/Smr-Page-PlayerPageProcessor.html"
         },                {
             "fqsen": "\\Smr\\Page\\PlayerPageProcessor\u003A\u003Abuild\u0028\u0029",
@@ -12243,7 +12243,7 @@ Search.appendIndex(
         },                {
             "fqsen": "\\Smr\\Request\u003A\u003AgetVar\u0028\u0029",
             "name": "getVar",
-            "summary": "Returns\u0020index\u0020value\u0020as\u0020a\u0020string\u0020from\u0020either\u0020\u0024_REQUEST\u0020or\u0020\u0024var.",
+            "summary": "Returns\u0020index\u0020value\u0020as\u0020a\u0020string\u0020from\u0020either\u0020\u0024_REQUEST\u0020or\u0020Session.",
             "url": "classes/Smr-Request.html#method_getVar"
         },                {
             "fqsen": "\\Smr\\Request\u003A\u003AgetVarInt\u0028\u0029",
@@ -13486,15 +13486,15 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/Smr-Session.html#method_getLastAccessed"
         },                {
-            "fqsen": "\\Smr\\Session\u003A\u003AhasCurrentVar\u0028\u0029",
-            "name": "hasCurrentVar",
-            "summary": "Check\u0020if\u0020the\u0020session\u0020has\u0020a\u0020var\u0020associated\u0020with\u0020the\u0020current\u0020SN.",
-            "url": "classes/Smr-Session.html#method_hasCurrentVar"
+            "fqsen": "\\Smr\\Session\u003A\u003AhasCurrentPage\u0028\u0029",
+            "name": "hasCurrentPage",
+            "summary": "Check\u0020if\u0020the\u0020session\u0020has\u0020a\u0020Page\u0020associated\u0020with\u0020the\u0020current\u0020SN.",
+            "url": "classes/Smr-Session.html#method_hasCurrentPage"
         },                {
-            "fqsen": "\\Smr\\Session\u003A\u003AgetCurrentVar\u0028\u0029",
-            "name": "getCurrentVar",
-            "summary": "Returns\u0020the\u0020session\u0020var\u0020associated\u0020with\u0020the\u0020current\u0020SN.",
-            "url": "classes/Smr-Session.html#method_getCurrentVar"
+            "fqsen": "\\Smr\\Session\u003A\u003AgetCurrentPage\u0028\u0029",
+            "name": "getCurrentPage",
+            "summary": "Returns\u0020the\u0020session\u0020Page\u0020associated\u0020with\u0020the\u0020current\u0020SN.",
+            "url": "classes/Smr-Session.html#method_getCurrentPage"
         },                {
             "fqsen": "\\Smr\\Session\u003A\u003AgetRequestData\u0028\u0029",
             "name": "getRequestData",
@@ -13516,10 +13516,10 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/Smr-Session.html#method_getRequestVarIntArray"
         },                {
-            "fqsen": "\\Smr\\Session\u003A\u003AsetCurrentVar\u0028\u0029",
-            "name": "setCurrentVar",
-            "summary": "Replace\u0020the\u0020global\u0020\u0024var\u0020with\u0020the\u0020given\u0020\u0024container.",
-            "url": "classes/Smr-Session.html#method_setCurrentVar"
+            "fqsen": "\\Smr\\Session\u003A\u003AsetCurrentPage\u0028\u0029",
+            "name": "setCurrentPage",
+            "summary": "Change\u0020the\u0020current\u0020page\u0020associated\u0020with\u0020this\u0020session.",
+            "url": "classes/Smr-Session.html#method_setCurrentPage"
         },                {
             "fqsen": "\\Smr\\Session\u003A\u003AclearLinks\u0028\u0029",
             "name": "clearLinks",

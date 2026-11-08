@@ -283,7 +283,7 @@
     <span>
                                 &nbsp;: string    </span>
 </dt>
-<dd>Returns index value as a string from either $_REQUEST or $var.</dd>
+<dd>Returns index value as a string from either $_REQUEST or Session.</dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
     <a class="" href="classes/Smr-Request.html#method_getVarInt">getVarInt()</a>
@@ -807,7 +807,7 @@ exception as an absent value, unlike has().</p>
             <a href="classes/Smr-Request.html#source-view.158" class="phpdocumentor-element-found-in__source" data-line="158" data-modal="source-view" data-src="files/src/lib/Smr/Request.php.txt"></a>
     </aside>
 
-        <p class="phpdocumentor-summary">Returns index value as a string from either $_REQUEST or $var.</p>
+        <p class="phpdocumentor-summary">Returns index value as a string from either $_REQUEST or Session.</p>
 
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">public</span>
@@ -817,8 +817,8 @@ exception as an absent value, unlike has().</p>
         </div>
     
         <section class="phpdocumentor-description"><p>This is useful for processing pages that need to handle data both from
-posted form inputs and from container variables.</p>
-<p>Note that this does not save the result in $var (see Smr\Session).</p>
+posted form inputs and from saved Session variables.</p>
+<p>Note that this does not save the result in Session data.</p>
 </section>
 
         <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
