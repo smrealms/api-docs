@@ -15436,6 +15436,11 @@ Search.appendIndex(
             "summary": "Register\u0020that\u0020the\u0020player\u0020has\u0020been\u0020awarded\u0020their\u0020free\u0020turns.",
             "url": "classes/Smr-VoteLink.html#method_setFreeTurnsAwarded"
         },                {
+            "fqsen": "\\Smr\\VoteLink\u003A\u003AawardFreeTurns\u0028\u0029",
+            "name": "awardFreeTurns",
+            "summary": "Award\u0020turns\u0020to\u0020this\u0020account\u0027s\u0020players\u0020in\u0020active\u0020games\u0020for\u0020voting.",
+            "url": "classes/Smr-VoteLink.html#method_awardFreeTurns"
+        },                {
             "fqsen": "\\Smr\\VoteLink\u003A\u003AfreeTurnsReady\u0028\u0029",
             "name": "freeTurnsReady",
             "summary": "Returns\u0020true\u0020if\u0020account\u0020can\u0020currently\u0020receive\u0020free\u0020turns\u0020at\u0020this\u0020site.",
@@ -15475,11 +15480,6 @@ Search.appendIndex(
             "name": "accountID",
             "summary": "",
             "url": "classes/Smr-VoteLink.html#property_accountID"
-        },                {
-            "fqsen": "\\Smr\\VoteLink\u003A\u003A\u0024gameID",
-            "name": "gameID",
-            "summary": "",
-            "url": "classes/Smr-VoteLink.html#property_gameID"
         },                {
             "fqsen": "\\Smr\\VoteSite",
             "name": "VoteSite",
